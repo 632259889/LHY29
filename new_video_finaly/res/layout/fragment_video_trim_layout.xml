@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/function_area" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/rl_trim_area">
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.base.common.UI.MarqueeTextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:ellipsize="marquee" android:gravity="center" android:id="@id/video_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="video title" android:singleLine="true" android:layout_centerHorizontal="true" android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            <FrameLayout android:id="@id/trim_time_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="10.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_summary_text_color" android:layout_gravity="start" android:id="@id/trim_start_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_marginStart="20.0dip" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_accent_color" android:layout_gravity="center_horizontal" android:id="@id/trim_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_summary_text_color" android:layout_gravity="end" android:id="@id/trim_end_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_marginEnd="20.0dip" />
+            </FrameLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/trim_time_layout">
+                <com.video.editor.view.VideoTrimRangeBar android:id="@id/trim_rangebar" android:visibility="visible" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="55.0dip" android:overScrollMode="never" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+    <RelativeLayout android:id="@id/rl_trim_area" android:background="@color/bottom_area" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/iv_trim_cancel" android:visibility="gone" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="7.0dip" android:src="@drawable/cancel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/tv_operate_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Trim" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_trim_confirm" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/confirm" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

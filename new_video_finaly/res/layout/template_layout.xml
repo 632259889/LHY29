@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/template_layout_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center" android:id="@id/template_filter_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="center|left|top" android:id="@id/template_left_top_1" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="fitStart" />
+        <ImageView android:layout_gravity="center|top" android:id="@id/template_top_1" android:layout_width="120.0dip" android:layout_height="60.0dip" />
+        <ImageView android:layout_gravity="center|right|top" android:id="@id/template_right_top_1" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="fitEnd" />
+        <ImageView android:layout_gravity="bottom|center|left" android:id="@id/template_left_bottom_1" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="fitStart" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/template_bottom_1" android:layout_width="120.0dip" android:layout_height="60.0dip" />
+        <ImageView android:layout_gravity="bottom|center|right" android:id="@id/template_right_bottom_1" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="fitEnd" />
+        <ImageView android:layout_gravity="center" android:id="@id/template_middle_1" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="center" />
+    </FrameLayout>
+    <ImageView android:id="@id/template_square_view_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+</FrameLayout>

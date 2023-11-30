@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:layout_gravity="center" android:id="@id/iv_effect_bg" android:background="@drawable/effect_item_bg" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/iv_effect" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+        <View android:layout_gravity="center" android:id="@id/iv_effect_select" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/effect_adjust" android:background="#80000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_effect_adjust" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/white_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="adjust" />
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textSize="10.0dip" android:textColor="@color/theme_default_summary_text_color" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/iv_effect_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

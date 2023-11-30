@@ -1,0 +1,14 @@
+.class synthetic Lcom/video/editor/view/PickColorView$1;
+.super Ljava/lang/Object;
+.source "PickColorView.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/video/editor/view/PickColorView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1008
+    name = null
+.end annotation

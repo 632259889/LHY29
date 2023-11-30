@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hw.photomovie.sample.widget.MovieBottomView android:background="@color/movie_bottom_bg" android:layout_width="fill_parent" android:layout_height="@dimen/demo_bottom_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rl_photo" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/movie_photo" android:layout_width="30.0dip" android:layout_height="30.0dip" app:srcCompat="@drawable/ic_photo_sequence" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/movie_photo_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Photos" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rl_filter" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/movie_filter" android:layout_width="30.0dip" android:layout_height="30.0dip" app:srcCompat="@drawable/ic_filter" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/movie_filter_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Filter" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rl_transfer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/movie_transfer" android:layout_width="30.0dip" android:layout_height="30.0dip" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_style" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/movie_transfer_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Transfer" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rl_duration" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/movie_duration" android:layout_width="30.0dip" android:layout_height="30.0dip" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_slide_duration" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/movie_duration_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Duration" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rl_music" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/movie_music" android:layout_width="30.0dip" android:layout_height="30.0dip" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_music" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/movie_music_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Music" />
+        </LinearLayout>
+    </LinearLayout>
+</com.hw.photomovie.sample.widget.MovieBottomView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_view" android:background="@color/theme_default_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/top_layout" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:layout_gravity="start|center" android:id="@id/btn_cancel" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/camera_btn_return_normal" android:layout_marginStart="10.0dip" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/btn_info" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/camera_btn_info" android:layout_marginEnd="15.0dip" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:gravity="center" android:layout_gravity="end|center" android:id="@id/btn_export" android:background="@drawable/shape_btn_bg" android:paddingTop="7.0dip" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Export" android:paddingStart="23.0dip" android:paddingEnd="23.0dip" android:layout_marginEnd="15.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/video_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_above="@id/bottom_layout" android:layout_below="@id/top_layout" android:layout_centerInParent="true">
+        <SurfaceView android:layout_gravity="center" android:id="@id/surface_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center" android:id="@id/play_error_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.video.editor.videotrimandcrop.WaterMarkImageView1 android:layout_gravity="center" android:id="@id/crop_panel_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.video.editor.videotrimandcrop.WaterMarkImageView2 android:layout_gravity="center" android:id="@id/crop_panel_2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.video.editor.videotrimandcrop.WaterMarkImageView3 android:layout_gravity="center" android:id="@id/crop_panel_3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.video.editor.videotrimandcrop.WaterMarkImageView4 android:layout_gravity="center" android:id="@id/crop_panel_4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/play_error_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_below="@id/top_layout" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Video may not play properly" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="You can try to compress it" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_layout" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="360.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="top" android:id="@id/sb_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/btn_play" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/play" android:layout_marginStart="13.0dip" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/video_position_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_marginStart="8.0dip" />
+            <SeekBar android:id="@id/video_sb" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="1.0dip" android:progressDrawable="@drawable/layerlist_drawable_seekbar_progress" android:minHeight="1.0dip" android:thumb="@drawable/selector_seekbar_drawable_thumb" android:layout_weight="1.0" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/video_duration_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_marginEnd="19.0dip" />
+        </LinearLayout>
+        <com.base.common.loading.RotateLoading android:layout_gravity="center" android:id="@id/progress" android:padding="2.0dip" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:layout_marginStart="15.0dip" app:loading_color="@color/theme_default_accent_color" app:loading_speed="12" app:loading_width="2.0dip" />
+        <FrameLayout android:id="@id/video_thumb_layout" android:layout_width="fill_parent" android:layout_height="225.0dip">
+            <com.video.editor.videotrimandcrop.RemoveWaterMarkProgressRecyclerView android:id="@id/rv_video_thumb" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+            <View android:layout_gravity="center" android:background="@color/theme_default_text_color" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/btn_add" android:background="@drawable/dialog_bg_dark" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+                <TextView android:textSize="22.0dip" android:textColor="@color/theme_default_text_color" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add watermark area" android:layout_marginStart="5.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

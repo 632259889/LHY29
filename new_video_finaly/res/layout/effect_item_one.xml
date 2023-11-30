@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/effect_airplane" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_airplane" />
+            <com.base.common.UI.MarqueeTextView android:textSize="14.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Airplane" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/effect_animal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_animals" />
+            <com.base.common.UI.MarqueeTextView android:textSize="14.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Animal" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/effect_applause" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_applause" />
+            <com.base.common.UI.MarqueeTextView android:textSize="14.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Applause" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/effect_bell" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_bells" />
+            <com.base.common.UI.MarqueeTextView android:textSize="14.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Bell" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/effect_children" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_children" />
+            <com.base.common.UI.MarqueeTextView android:textSize="14.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Children" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/effect_drink" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_drink" />
+            <com.base.common.UI.MarqueeTextView android:textSize="14.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Drink" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/effect_footstep" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_footsteps" />
+            <com.base.common.UI.MarqueeTextView android:textSize="14.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Footstep" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/effect_game" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_game" />
+            <com.base.common.UI.MarqueeTextView android:textSize="14.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Game" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/effect_heartbeat" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_heartbeat" />
+            <com.base.common.UI.MarqueeTextView android:textSize="14.0dip" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Heartbeat" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

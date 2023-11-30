@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hw.photomovie.render.GLTextureView android:id="@id/gl_texture" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/rt_top_bar" android:background="@color/movie_bottom_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:id="@id/back" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/camera_btn_return_normal" android:layout_centerVertical="true" android:layout_marginStart="3.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:gravity="center" android:id="@id/movie_next" android:background="@drawable/movie_save_shape" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save" android:layout_centerVertical="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <include android:layout_gravity="bottom" android:id="@id/movie_bottom_layout" android:layout_width="fill_parent" android:layout_height="@dimen/demo_bottom_height" layout="@layout/demo_bottom_layout" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/movie_menu_photo_stub" android:layout="@layout/demo_photo_layout" android:inflatedId="@id/movie_menu_photo" android:layout_width="fill_parent" android:layout_height="@dimen/demo_menu_height" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/movie_menu_filter_stub" android:layout="@layout/demo_filter_layout" android:inflatedId="@id/movie_menu_filter" android:layout_width="fill_parent" android:layout_height="@dimen/demo_menu_height" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/movie_menu_transfer_stub" android:layout="@layout/demo_transfer_layout" android:inflatedId="@id/movie_menu_transfer" android:layout_width="fill_parent" android:layout_height="@dimen/demo_menu_height" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/movie_menu_duration_stub" android:layout="@layout/demo_duration_layout" android:inflatedId="@id/movie_menu_duration" android:layout_width="fill_parent" android:layout_height="@dimen/demo_menu_height" />
+</FrameLayout>

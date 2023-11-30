@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/theme_default_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <LinearLayout android:id="@id/back_up" android:layout_width="wrap_content" android:layout_height="50.0dip">
+                <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/camera_btn_return_normal" android:layout_marginStart="3.0dip" />
+            </LinearLayout>
+            <TextView android:textSize="16.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Powered By GIPHY" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="start|center" android:background="@drawable/bg_gif_search" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginStart="13.0dip" android:layout_marginEnd="13.0dip">
+            <ImageView android:layout_gravity="start|center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_gif_search" android:layout_marginStart="4.0dip" />
+            <EditText android:theme="@style/WebEditTextUnderLine" android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:textColorHint="@color/theme_default_summary_text_color" android:layout_gravity="center_vertical" android:id="@id/btn_search_edittext" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Search by English" android:maxLines="1" android:singleLine="true" android:inputType="text" android:imeOptions="actionSearch" android:paddingStart="32.0dip" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/btn_search_edittext_clear" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/btn_exit" android:layout_marginEnd="10.0dip" />
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/gif_recyclerView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:overScrollMode="never" android:layout_marginStart="13.0dip" android:layout_marginEnd="13.0dip" />
+    </LinearLayout>
+    <com.base.common.loading.RotateLoading android:layout_gravity="center" android:id="@id/loading_view" android:padding="2.0dip" android:layout_width="60.0dip" android:layout_height="60.0dip" app:loading_color="@color/theme_default_accent_color" app:loading_speed="12" app:loading_width="2.0dip" />
+</FrameLayout>

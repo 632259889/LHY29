@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/function_area" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_layout" android:layout_alignParentTop="true">
+        <com.video.editor.view.VideoManagerProgressView android:id="@id/rv_audio_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        <View android:layout_gravity="center" android:background="@color/theme_default_text_color" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/video_volume_layout" android:background="@color/function_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_layout" android:layout_alignParentTop="true">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Video volume: " android:layout_marginStart="25.0dip" />
+            <SeekBar android:layout_gravity="center_vertical" android:id="@id/video_volume_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxHeight="1.0dip" android:max="100" android:progressDrawable="@drawable/layerlist_drawable_seekbar_progress" android:minHeight="1.0dip" android:thumb="@drawable/selector_seekbar_drawable_thumb" android:layout_marginStart="2.0dip" android:layout_marginEnd="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/overlay_volume_layout" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="40.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Overlay volume: " android:layout_marginStart="25.0dip" />
+            <SeekBar android:layout_gravity="center_vertical" android:id="@id/overlay_volume_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxHeight="1.0dip" android:max="100" android:progressDrawable="@drawable/layerlist_drawable_seekbar_progress" android:minHeight="1.0dip" android:thumb="@drawable/selector_seekbar_drawable_thumb" android:layout_marginEnd="10.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/overlay_opacity_layout" android:background="@color/function_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_layout" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Overlay opacity: " android:layout_marginStart="25.0dip" />
+            <SeekBar android:layout_gravity="center_vertical" android:id="@id/overlay_opacity_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxHeight="1.0dip" android:max="255" android:progressDrawable="@drawable/layerlist_drawable_seekbar_progress" android:minHeight="1.0dip" android:thumb="@drawable/selector_seekbar_drawable_thumb" android:layout_marginEnd="10.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/overlay_sticker_layout" android:background="@color/function_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_layout" android:layout_alignParentTop="true">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/sticker_list" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/overlay_mask_layout" android:background="@color/function_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_layout" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/item_mask_none" android:background="@drawable/shape_text_bold_unselected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip">
+                <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_overlay_mask_none" />
+                <View android:id="@id/item_mask_none_select" android:background="@drawable/bg_item_text_style_select" android:layout_width="65.0dip" android:layout_height="65.0dip" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/item_mask_horizontal" android:background="@drawable/shape_text_bold_unselected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip">
+                <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_mask_horizontal" />
+                <View android:id="@id/item_mask_horizontal_select" android:layout_width="65.0dip" android:layout_height="65.0dip" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/item_mask_vertical" android:background="@drawable/shape_text_bold_unselected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip">
+                <ImageView android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_mask_vertical" />
+                <View android:id="@id/item_mask_vertical_select" android:layout_width="65.0dip" android:layout_height="65.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/bottom_layout" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <HorizontalScrollView android:background="@color/bottom_area" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/btn_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/iv_video_exit" android:background="@drawable/shape_second_back_bg" android:layout_width="30.0dip" android:layout_height="50.0dip" android:layout_marginLeft="3.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                    <ImageView android:layout_gravity="center" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/camera_btn_return_normal" />
+                </FrameLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/video_control_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip">
+                    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/video_add_btn" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                            <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_overlay_add" />
+                            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Add overlay" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/video_edit_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip">
+                            <ImageView android:id="@id/video_edit_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_overlay_trim_off" android:scaleType="fitXY" />
+                            <TextView android:textSize="12.0dip" android:textColor="#ff666666" android:id="@id/video_edit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Trim" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/video_volume_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip">
+                            <ImageView android:id="@id/video_volume_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_volume_icon" />
+                            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/video_volume_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Volume" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/video_opacity_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip">
+                            <ImageView android:id="@id/video_opacity_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_overlay_opacity" />
+                            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/video_opacity_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Opacity" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/video_sticker_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip">
+                            <ImageView android:id="@id/video_sticker_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_overlay_sticker" />
+                            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/video_sticker_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Frames" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/video_mask_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip">
+                            <ImageView android:id="@id/video_mask_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_overlay_mask" />
+                            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/video_mask_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Mask" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/video_delete_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip">
+                            <ImageView android:id="@id/video_delete_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_overlay_delete_off" />
+                            <TextView android:textSize="12.0dip" android:textColor="#ff666666" android:id="@id/video_delete_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Delete" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <FrameLayout android:id="@id/iv_confirm_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="center|left" android:id="@id/video_mask_invert" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:text="InVert" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="center" android:id="@id/iv_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <ImageView android:layout_gravity="center|right" android:id="@id/iv_confirm" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/confirm" />
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>

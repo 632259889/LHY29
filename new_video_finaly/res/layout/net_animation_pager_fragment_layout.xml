@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/function_area" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_net_animation" android:paddingBottom="5.0dip" android:visibility="gone" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <RelativeLayout android:id="@id/rl_download" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_anima_preview" android:scaleType="center" />
+        <View android:background="#50101010" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/rl_download_button" android:background="@drawable/shape_btn_bg" android:paddingTop="7.0dip" android:paddingBottom="7.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:paddingStart="23.0dip" android:paddingEnd="23.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/tv_download" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Download" android:layout_centerInParent="true" android:textAlignment="center" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

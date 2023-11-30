@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/function_area" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_layout" android:layout_alignParentTop="true">
+        <com.video.editor.view.AudioManagerProgressView android:id="@id/rv_audio_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        <View android:layout_gravity="center" android:background="@color/theme_default_text_color" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/volume_layout" android:background="@color/function_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_layout" android:layout_alignParentTop="true">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Video volume: " android:layout_marginStart="25.0dip" />
+            <SeekBar android:layout_gravity="center_vertical" android:id="@id/video_volume_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxHeight="1.0dip" android:max="100" android:progressDrawable="@drawable/layerlist_drawable_seekbar_progress" android:minHeight="1.0dip" android:thumb="@drawable/selector_seekbar_drawable_thumb" android:layout_marginStart="2.0dip" android:layout_marginEnd="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/music_volume_layout" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="40.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Music volume: " android:layout_marginStart="25.0dip" />
+            <SeekBar android:layout_gravity="center_vertical" android:id="@id/music_volume_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxHeight="1.0dip" android:max="100" android:progressDrawable="@drawable/layerlist_drawable_seekbar_progress" android:minHeight="1.0dip" android:thumb="@drawable/selector_seekbar_drawable_thumb" android:layout_marginEnd="10.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/speed_layout" android:background="@color/function_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_layout" android:layout_alignParentTop="true">
+        <com.base.common.UI.MarqueeTextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:ellipsize="marquee" android:gravity="center" android:id="@id/music_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="music title" android:singleLine="true" android:layout_centerHorizontal="true" android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_accent_color" android:layout_gravity="center_horizontal" android:id="@id/speed_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="1.0x" />
+        <com.base.common.UI.SpeedView android:layout_gravity="center_horizontal" android:id="@id/speedview" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" app:font_top="false" app:high_scale_color="@color/theme_default_text_color" app:low_scale_color="@color/theme_default_text_color" app:max_index="60" app:middle_scale_color="@color/theme_default_text_color" app:min_index="0" app:now_index="5" app:num_color="@color/theme_default_text_color" app:pointer_color="@color/theme_default_accent_color" app:pointer_margin_top="0" app:pointer_top="false" app:scale_position="center" app:show_baseLine="false" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/bottom_layout" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <HorizontalScrollView android:background="@color/bottom_area" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/btn_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/iv_music_exit" android:background="@drawable/shape_second_back_bg" android:layout_width="30.0dip" android:layout_height="50.0dip" android:layout_marginLeft="3.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                    <ImageView android:layout_gravity="center" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/camera_btn_return_normal" />
+                </FrameLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/audio_control_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip">
+                    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/music_add_layout1" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                            <ImageView android:id="@id/music_add_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_music_add" />
+                            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Music" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/music_effect_add_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip">
+                            <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_music_effect_add" />
+                            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Effect" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/music_extract" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip">
+                            <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_music_extract" />
+                            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Extract" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/music_record_layout1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip">
+                            <ImageView android:id="@id/music_record_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_music_record" />
+                            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Record" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/volume_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip">
+                            <ImageView android:id="@id/music_volume_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_volume_icon" />
+                            <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/music_volume_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Volume" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/music_speed_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip">
+                            <ImageView android:id="@id/music_speed_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_music_speed_off" />
+                            <TextView android:textSize="12.0dip" android:textColor="#ff666666" android:id="@id/music_speed_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Speed" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/music_split_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip">
+                            <ImageView android:id="@id/music_split_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_music_split_off" />
+                            <TextView android:textSize="12.0dip" android:textColor="#ff666666" android:id="@id/music_split_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Split" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/music_edit_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip">
+                            <ImageView android:id="@id/music_edit_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_music_edit_off" />
+                            <TextView android:textSize="12.0dip" android:textColor="#ff666666" android:id="@id/music_edit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Trim" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/music_delete_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip">
+                            <ImageView android:id="@id/music_delete_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_music_delete_off" />
+                            <TextView android:textSize="12.0dip" android:textColor="#ff666666" android:id="@id/music_delete_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Delete" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <FrameLayout android:id="@id/iv_confirm_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="center" android:id="@id/iv_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <ImageView android:layout_gravity="center|right" android:id="@id/iv_confirm" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/confirm" />
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>

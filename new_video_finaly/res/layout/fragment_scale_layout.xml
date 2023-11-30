@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/function_area" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/rl_fx_area">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                    <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Scale:  " android:layout_marginStart="13.0dip" />
+                    <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_scale_1x" android:layout_marginStart="12.0dip" />
+                    <com.base.common.seekbar.IndicatorSeekBar android:id="@id/scale_sb" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_weight="1.0" app:isb_indicator_color="@color/theme_default_accent_color" app:isb_indicator_text_color="@color/theme_default_text_color" app:isb_max="2.0" app:isb_min="1.0" app:isb_progress="1.0" app:isb_progress_value_float="true" app:isb_show_indicator="circular_bubble" app:isb_show_thumb_text="true" app:isb_thumb_color="@color/theme_default_accent_color" app:isb_thumb_size="14.0dip" app:isb_thumb_text_color="@color/theme_default_text_color" app:isb_track_background_color="@color/theme_default_summary_text_color" app:isb_track_background_size="1.0dip" app:isb_track_progress_color="@color/theme_default_accent_color" app:isb_track_progress_size="1.0dip" />
+                    <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_scale_2x" android:layout_marginEnd="10.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="10.0dip">
+                    <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MoveX:" android:layout_marginStart="13.0dip" />
+                    <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_scale_left" android:layout_marginStart="10.0dip" />
+                    <com.base.common.seekbar.IndicatorSeekBar android:id="@id/trans_x_sb" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_weight="1.0" app:isb_indicator_color="@color/theme_default_accent_color" app:isb_indicator_text_color="@color/theme_default_text_color" app:isb_max="540.0" app:isb_min="-540.0" app:isb_progress="0.0" app:isb_show_indicator="circular_bubble" app:isb_show_thumb_text="true" app:isb_thumb_color="@color/theme_default_accent_color" app:isb_thumb_size="14.0dip" app:isb_thumb_text_color="@color/theme_default_text_color" app:isb_track_background_color="@color/theme_default_summary_text_color" app:isb_track_background_size="1.0dip" app:isb_track_progress_color="@color/theme_default_accent_color" app:isb_track_progress_size="1.0dip" />
+                    <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_scale_right" android:layout_marginEnd="10.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="10.0dip">
+                    <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MoveY:" android:layout_marginStart="13.0dip" />
+                    <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_scale_top" android:layout_marginStart="10.0dip" />
+                    <com.base.common.seekbar.IndicatorSeekBar android:id="@id/trans_y_sb" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_weight="1.0" app:isb_indicator_color="@color/theme_default_accent_color" app:isb_indicator_text_color="@color/theme_default_text_color" app:isb_max="960.0" app:isb_min="-960.0" app:isb_progress="0.0" app:isb_show_indicator="circular_bubble" app:isb_show_thumb_text="true" app:isb_thumb_color="@color/theme_default_accent_color" app:isb_thumb_size="14.0dip" app:isb_thumb_text_color="@color/theme_default_text_color" app:isb_track_background_color="@color/theme_default_summary_text_color" app:isb_track_background_size="1.0dip" app:isb_track_progress_color="@color/theme_default_accent_color" app:isb_track_progress_size="1.0dip" />
+                    <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_scale_bottom" android:layout_marginEnd="10.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="7.0dip">
+                <View android:background="@color/theme_default_summary_text_color" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                <LinearLayout android:orientation="vertical" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/reset_value" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/ic_adjust_reset" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:text="Reset" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginEnd="7.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/rotate_video" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/ic_scale_rotate" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rotate" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <RelativeLayout android:id="@id/rl_fx_area" android:background="@color/bottom_area" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/scale_cancel" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="7.0dip" android:src="@drawable/cancel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/tv_operate_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Scale" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/scale_confirm" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/confirm" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

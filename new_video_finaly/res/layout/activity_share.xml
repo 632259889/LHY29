@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/theme_default_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height">
+        <ImageView android:id="@id/back_up" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/camera_btn_return_normal" android:layout_centerVertical="true" android:rotationY="@integer/rotation" android:layout_marginStart="3.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/theme_default_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save &amp; Share" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/back_to_home" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerVertical="true" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <ImageView android:id="@id/profile_image" android:layout_width="280.0dip" android:layout_height="350.0dip" />
+                <ImageView android:layout_gravity="center" android:id="@id/play_video_btn" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/video_pause" />
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/image_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_folder_select" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="Saved to Gallery" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <FrameLayout android:id="@id/rl_reedit" android:background="@drawable/shape_btn_line_bg" android:layout_width="120.0dip" android:layout_height="45.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_accent_color" android:layout_gravity="center" android:id="@id/rl_reedit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Re-edit" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/rl_template" android:background="@drawable/shape_btn_line_bg" android:layout_width="150.0dip" android:layout_height="45.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_accent_color" android:layout_gravity="center" android:id="@id/rl_template_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save as template" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/rl_done" android:background="@drawable/shape_btn_bg" android:layout_width="120.0dip" android:layout_height="45.0dip" android:layout_marginStart="30.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Done" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dip">
+                <View android:layout_gravity="center" android:background="@color/theme_default_summary_text_color" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_weight="1.0" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:text="Share this on" />
+                <View android:layout_gravity="center" android:background="@color/theme_default_summary_text_color" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/facebook" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/share_facebook_icon" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Facebook" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/whatsapp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/share_whatsapp_icon" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Whatsapp" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/instagram" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/share_instagram_icon" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Instagram" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/twitter" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/share_twitter_icon" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Twitter" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/more_share" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/share_more_icon" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="More" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/line" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/share_line_icon" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Line" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/snapchat" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/share_snapchat_icon" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Snapchat" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/tiktok" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/share_tiktok_icon" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Tiktok" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/tumblr" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/share_tumblr_icon" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Tumblr" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/youtube" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/share_youtube_icon" />
+                        <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Youtube" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

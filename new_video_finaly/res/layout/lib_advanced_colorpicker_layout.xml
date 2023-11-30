@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.video.editor.colorpicker.ColorPickerLayout android:orientation="vertical" android:paddingLeft="@dimen/dp_24" android:paddingTop="@dimen/dp_24" android:paddingRight="@dimen/dp_24" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.video.editor.colorpicker.ColorPickerView android:id="@id/color_picker_view" android:tag="portrait" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layerType="software" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/row1" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <Button android:textSize="12.0dip" android:id="@id/old_color" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_weight="1.0">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <EditText android:textSize="@dimen/sp_17" android:typeface="monospace" android:id="@id/hex" android:layout_width="110.0dip" android:layout_height="wrap_content" android:singleLine="true" android:digits="0123456789ABCDEFabcdef" android:inputType="textFilter" android:imeOptions="actionGo" />
+        </LinearLayout>
+    </LinearLayout>
+</com.video.editor.colorpicker.ColorPickerLayout>

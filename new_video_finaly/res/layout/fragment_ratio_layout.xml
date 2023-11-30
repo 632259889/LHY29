@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/function_area" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/rl_ratio_area">
+        <FrameLayout android:id="@id/ll_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+                <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_orifinal" android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginRight="10.0dip">
+                    <ImageView android:id="@id/img_original" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ratio_original_selected" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="Original" android:includeFontPadding="false" />
+                </FrameLayout>
+                <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_1_1" android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginRight="10.0dip">
+                    <ImageView android:id="@id/img_1_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ratio_1_1_noselected" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="1:1" android:includeFontPadding="false" />
+                </FrameLayout>
+                <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_4_5" android:layout_width="49.0dip" android:layout_height="71.0dip" android:layout_marginRight="10.0dip">
+                    <ImageView android:id="@id/img_4_5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ratio_4_5_noselected" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="4:5" android:includeFontPadding="false" />
+                </FrameLayout>
+                <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_16_9" android:layout_width="74.0dip" android:layout_height="46.0dip" android:layout_marginRight="10.0dip">
+                    <ImageView android:id="@id/img_16_9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ratio_16_9_noselected" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="16:9" android:includeFontPadding="false" />
+                </FrameLayout>
+                <FrameLayout android:layout_gravity="bottom" android:id="@id/fl_9_16" android:layout_width="49.0dip" android:layout_height="89.0dip">
+                    <ImageView android:id="@id/img_9_16" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ratio_9_16_noselected" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="9:16" android:includeFontPadding="false" />
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+            <ImageView android:id="@id/ratio_have_item" android:layout_width="39.0dip" android:layout_height="39.0dip" android:src="@drawable/ratio_no_item_select" android:scaleType="centerCrop" />
+            <ImageView android:id="@id/ratio_no_item" android:layout_width="39.0dip" android:layout_height="39.0dip" android:layout_marginLeft="40.0dip" android:src="@drawable/ratio_have_item_noselect" android:scaleType="centerCrop" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_ratio_area" android:background="@color/bottom_area" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/tv_ratio_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ratio" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_ratio_confirm" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/confirm" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_ajust_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/constrast_on" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:gravity="center" android:id="@id/tv_adjust_name" android:layout_width="75.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Contrast" android:includeFontPadding="false" android:layout_below="@id/iv_ajust_icon" />
+</RelativeLayout>

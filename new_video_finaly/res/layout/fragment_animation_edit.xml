@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/function_area" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/rl_animation_edit_area">
+        <ScrollView android:layout_gravity="center_vertical" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dip">
+                    <FrameLayout android:background="@drawable/sticker_normal_bg" android:layout_width="50.0dip" android:layout_height="50.0dip">
+                        <ImageView android:layout_gravity="center" android:id="@id/iv_restore" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_anim_restore" />
+                        <View android:id="@id/iv_restore_circle" android:background="@drawable/sticker_select_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    </FrameLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@color/white_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Restore" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dip">
+                    <FrameLayout android:background="@drawable/sticker_normal_bg" android:layout_width="50.0dip" android:layout_height="50.0dip">
+                        <ImageView android:layout_gravity="center" android:id="@id/iv_full" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_anim_tile" />
+                        <View android:id="@id/iv_full_circle" android:background="@drawable/sticker_select_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    </FrameLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@color/white_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Full" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dip">
+                    <FrameLayout android:background="@drawable/sticker_normal_bg" android:layout_width="50.0dip" android:layout_height="50.0dip">
+                        <ImageView android:layout_gravity="center" android:id="@id/iv_center" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_anim_fit" />
+                        <View android:id="@id/iv_center_circle" android:background="@drawable/sticker_select_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    </FrameLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@color/white_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fit" />
+                </LinearLayout>
+                <View android:background="@color/theme_default_summary_text_color" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginStart="10.0dip" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dip">
+                    <FrameLayout android:background="@drawable/sticker_normal_bg" android:layout_width="50.0dip" android:layout_height="50.0dip">
+                        <ImageView android:layout_gravity="center" android:id="@id/iv_play_once" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_anim_once" />
+                        <View android:id="@id/iv_play_once_circle" android:background="@drawable/sticker_select_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    </FrameLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@color/white_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Once" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                    <FrameLayout android:background="@drawable/sticker_normal_bg" android:layout_width="50.0dip" android:layout_height="50.0dip">
+                        <ImageView android:layout_gravity="center" android:id="@id/iv_play_loop" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_anim_loop" />
+                        <View android:id="@id/iv_play_loop_circle" android:background="@drawable/sticker_select_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    </FrameLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@color/white_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Loop" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+    <RelativeLayout android:id="@id/rl_animation_edit_area" android:background="@color/bottom_area" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/tv_operate_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Animate" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_animation_edit_confirm" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/confirm" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>
