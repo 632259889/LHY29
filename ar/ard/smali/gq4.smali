@@ -1,0 +1,32 @@
+.class public final synthetic Lgq4;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Lyq4;
+
+
+# static fields
+.field public static final synthetic a:Lgq4;
+
+
+# direct methods
+.method public static synthetic constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lgq4;
+
+    invoke-direct {v0}, Lgq4;-><init>()V
+
+    sput-object v0, Lgq4;->a:Lgq4;
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

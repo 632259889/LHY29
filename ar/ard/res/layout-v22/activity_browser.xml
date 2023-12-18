@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/llads">
+        <RelativeLayout style="@style/toolbar">
+            <ImageView android:id="@id/img_back" style="@style/ImageBackToolbar" />
+            <ImageView android:id="@id/img_refresh" android:src="@drawable/ic_reset" android:layout_alignParentEnd="true" style="@style/ImageBackToolbar" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <WebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+            <TextView android:textSize="18.0sp" android:textColor="@color/black" android:id="@id/txt_data_no_found" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_data_found" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/llads" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.myads.googlead.GoogleNativeAdView android:id="@id/adView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linTutorial" android:background="#cc000000" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/step_1" android:fontFamily="sans-serif-light" />
+                                <ImageView android:layout_gravity="center" android:background="@color/white" android:layout_width="@dimen/DP_180dp" android:layout_height="@dimen/DP_180dp" android:layout_marginTop="10.0dip" android:src="@drawable/image_click" />
+                                <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/clike_perform" />
+                            </LinearLayout>
+                            <View android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/step_2" android:fontFamily="sans-serif-light" />
+                                <ImageView android:layout_gravity="center" android:layout_width="@dimen/DP_180dp" android:layout_height="@dimen/DP_180dp" android:layout_marginTop="10.0dip" android:src="@drawable/browser" />
+                                <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/action_perform" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <RelativeLayout android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/cbShowagain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:button="@null" android:text="@string/don_t_show_again" android:drawableLeft="?android:listChoiceIndicatorMultiple" android:layout_centerVertical="true" android:layout_toStartOf="@id/imgclose" android:drawableTint="@color/white" />
+            <TextView android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/imgclose" android:background="@drawable/button_bg" android:paddingLeft="25.0dip" android:paddingTop="7.0dip" android:paddingRight="25.0dip" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/dialog_ok" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
