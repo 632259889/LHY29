@@ -11,20 +11,20 @@
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/google/android/gms/internal/ads/pi;Lkz2;)V
-    .locals 0
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    new-instance p2, Ljava/lang/ref/WeakReference;
-
-    invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
-
-    iput-object p2, p0, Llz2;->a:Ljava/lang/ref/WeakReference;
-
-    return-void
-.end method
+# .method public synthetic constructor <init>(Lcom/google/android/gms/internal/ads/pi;Lkz2;)V
+#     .locals 0
+#
+#     .line 1
+#     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+#
+#     new-instance p2, Ljava/lang/ref/WeakReference;
+#
+#     invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+#
+#     iput-object p2, p0, Llz2;->a:Ljava/lang/ref/WeakReference;
+#
+#     return-void
+# .end method
 
 
 # virtual methods
@@ -50,7 +50,7 @@
     move-result-object v0
 
     .line 2
-    invoke-virtual {v0}, Lio2;->onAdClicked()V
+    # invoke-virtual {v0}, Lio2;->onAdClicked()V
 
     .line 3
     sget-object v0, Lxm1;->D8:Lqm1;

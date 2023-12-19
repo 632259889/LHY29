@@ -68,7 +68,7 @@
     move-result-object v0
 
     .line 4
-    invoke-virtual {v0}, Lio2;->onAdClicked()V
+    # invoke-virtual {v0}, Lio2;->onAdClicked()V
 
     .line 5
     sget-object v0, Lxm1;->D8:Lqm1;

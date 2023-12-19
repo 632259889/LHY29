@@ -33,12 +33,12 @@
 
 
 # virtual methods
-.method public final zza(Ljava/lang/Object;)V
-    .locals 0
-
-    check-cast p1, Lzp3;
-
-    invoke-virtual {p1}, Lzp3;->onAdClicked()V
-
-    return-void
-.end method
+# .method public final zza(Ljava/lang/Object;)V
+#     .locals 0
+#
+#     check-cast p1, Lzp3;
+#
+#     invoke-virtual {p1}, Lzp3;->onAdClicked()V
+#
+#     return-void
+# .end method

@@ -3,7 +3,7 @@
 .source ""
 
 # interfaces
-.implements Lcom/google/android/gms/ads/mediation/NativeMediationAdRequest;
+# .implements Lcom/google/android/gms/ads/mediation/NativeMediationAdRequest;
 
 
 # instance fields
@@ -29,145 +29,145 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/util/Date;ILjava/util/Set;Landroid/location/Location;ZILfp1;Ljava/util/List;ZILjava/lang/String;)V
-    .locals 0
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Law1;->a:Ljava/util/Date;
-
-    iput p2, p0, Law1;->b:I
-
-    iput-object p3, p0, Law1;->c:Ljava/util/Set;
-
-    iput-object p4, p0, Law1;->e:Landroid/location/Location;
-
-    iput-boolean p5, p0, Law1;->d:Z
-
-    iput p6, p0, Law1;->f:I
-
-    iput-object p7, p0, Law1;->g:Lfp1;
-
-    iput-boolean p9, p0, Law1;->i:Z
-
-    new-instance p1, Ljava/util/ArrayList;
-
-    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
-
-    iput-object p1, p0, Law1;->h:Ljava/util/List;
-
-    new-instance p1, Ljava/util/HashMap;
-
-    .line 2
-    invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
-
-    iput-object p1, p0, Law1;->j:Ljava/util/Map;
-
-    if-eqz p8, :cond_3
-
-    .line 3
-    invoke-interface {p8}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    move-result-object p1
-
-    :cond_0
-    :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result p2
-
-    if-eqz p2, :cond_3
-
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object p2
-
-    check-cast p2, Ljava/lang/String;
-
-    const-string p3, "custom:"
-
-    .line 4
-    invoke-virtual {p2, p3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
-
-    move-result p3
-
-    if-eqz p3, :cond_2
-
-    const-string p3, ":"
-
-    const/4 p4, 0x3
-
-    .line 5
-    invoke-virtual {p2, p3, p4}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
-
-    move-result-object p2
-
-    .line 6
-    array-length p3, p2
-
-    if-ne p3, p4, :cond_0
-
-    const/4 p3, 0x2
-
-    .line 7
-    aget-object p4, p2, p3
-
-    const-string p5, "true"
-
-    invoke-virtual {p5, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p4
-
-    const/4 p5, 0x1
-
-    if-eqz p4, :cond_1
-
-    iget-object p3, p0, Law1;->j:Ljava/util/Map;
-
-    .line 8
-    aget-object p2, p2, p5
-
-    sget-object p4, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
-
-    invoke-interface {p3, p2, p4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    goto :goto_0
-
-    .line 9
-    :cond_1
-    aget-object p3, p2, p3
-
-    const-string p4, "false"
-
-    invoke-virtual {p4, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p3
-
-    if-eqz p3, :cond_0
-
-    iget-object p3, p0, Law1;->j:Ljava/util/Map;
-
-    .line 10
-    aget-object p2, p2, p5
-
-    sget-object p4, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
-
-    invoke-interface {p3, p2, p4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    goto :goto_0
-
-    :cond_2
-    iget-object p3, p0, Law1;->h:Ljava/util/List;
-
-    .line 11
-    invoke-interface {p3, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    goto :goto_0
-
-    :cond_3
-    return-void
-.end method
+# .method public constructor <init>(Ljava/util/Date;ILjava/util/Set;Landroid/location/Location;ZILfp1;Ljava/util/List;ZILjava/lang/String;)V
+#     .locals 0
+#
+#     .line 1
+#     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+#
+#     iput-object p1, p0, Law1;->a:Ljava/util/Date;
+#
+#     iput p2, p0, Law1;->b:I
+#
+#     iput-object p3, p0, Law1;->c:Ljava/util/Set;
+#
+#     iput-object p4, p0, Law1;->e:Landroid/location/Location;
+#
+#     iput-boolean p5, p0, Law1;->d:Z
+#
+#     iput p6, p0, Law1;->f:I
+#
+#     iput-object p7, p0, Law1;->g:Lfp1;
+#
+#     iput-boolean p9, p0, Law1;->i:Z
+#
+#     new-instance p1, Ljava/util/ArrayList;
+#
+#     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
+#
+#     iput-object p1, p0, Law1;->h:Ljava/util/List;
+#
+#     new-instance p1, Ljava/util/HashMap;
+#
+#     .line 2
+#     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
+#
+#     iput-object p1, p0, Law1;->j:Ljava/util/Map;
+#
+#     if-eqz p8, :cond_3
+#
+#     .line 3
+#     invoke-interface {p8}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+#
+#     move-result-object p1
+#
+#     :cond_0
+#     :goto_0
+#     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+#
+#     move-result p2
+#
+#     if-eqz p2, :cond_3
+#
+#     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+#
+#     move-result-object p2
+#
+#     check-cast p2, Ljava/lang/String;
+#
+#     const-string p3, "custom:"
+#
+#     .line 4
+#     invoke-virtual {p2, p3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+#
+#     move-result p3
+#
+#     if-eqz p3, :cond_2
+#
+#     const-string p3, ":"
+#
+#     const/4 p4, 0x3
+#
+#     .line 5
+#     invoke-virtual {p2, p3, p4}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
+#
+#     move-result-object p2
+#
+#     .line 6
+#     array-length p3, p2
+#
+#     if-ne p3, p4, :cond_0
+#
+#     const/4 p3, 0x2
+#
+#     .line 7
+#     aget-object p4, p2, p3
+#
+#     const-string p5, "true"
+#
+#     invoke-virtual {p5, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result p4
+#
+#     const/4 p5, 0x1
+#
+#     if-eqz p4, :cond_1
+#
+#     iget-object p3, p0, Law1;->j:Ljava/util/Map;
+#
+#     .line 8
+#     aget-object p2, p2, p5
+#
+#     sget-object p4, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+#
+#     invoke-interface {p3, p2, p4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     goto :goto_0
+#
+#     .line 9
+#     :cond_1
+#     aget-object p3, p2, p3
+#
+#     const-string p4, "false"
+#
+#     invoke-virtual {p4, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result p3
+#
+#     if-eqz p3, :cond_0
+#
+#     iget-object p3, p0, Law1;->j:Ljava/util/Map;
+#
+#     .line 10
+#     aget-object p2, p2, p5
+#
+#     sget-object p4, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+#
+#     invoke-interface {p3, p2, p4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     goto :goto_0
+#
+#     :cond_2
+#     iget-object p3, p0, Law1;->h:Ljava/util/List;
+#
+#     .line 11
+#     invoke-interface {p3, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+#
+#     goto :goto_0
+#
+#     :cond_3
+#     return-void
+# .end method
 
 
 # virtual methods
@@ -238,7 +238,7 @@
 
     new-instance v1, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;
 
-    invoke-direct {v1}, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;-><init>()V
+    # invoke-direct {v1}, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;-><init>()V
 
     if-nez v0, :cond_0
 

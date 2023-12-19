@@ -38,7 +38,7 @@
 
     check-cast p1, Lf44;
 
-    invoke-virtual {p1}, Lf44;->onAdMetadataChanged()V
+    # invoke-virtual {p1}, Lf44;->onAdMetadataChanged()V
 
     return-void
 .end method

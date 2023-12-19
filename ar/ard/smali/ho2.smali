@@ -33,13 +33,13 @@
 
 
 # virtual methods
-.method public final zza(Ljava/lang/Object;)V
-    .locals 0
-
-    check-cast p1, Lcom/google/android/gms/ads/internal/client/zza;
-
-    .line 1
-    invoke-interface {p1}, Lcom/google/android/gms/ads/internal/client/zza;->onAdClicked()V
-
-    return-void
-.end method
+# .method public final zza(Ljava/lang/Object;)V
+#     .locals 0
+#
+#     check-cast p1, Lcom/google/android/gms/ads/internal/client/zza;
+#
+#     .line 1
+#     invoke-interface {p1}, Lcom/google/android/gms/ads/internal/client/zza;->onAdClicked()V
+#
+#     return-void
+# .end method
