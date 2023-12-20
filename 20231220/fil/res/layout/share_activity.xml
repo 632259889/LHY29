@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black_60" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/viewCancle" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <RelativeLayout android:background="@drawable/bg_share_activity" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/llExprotSelect" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_20" android:layout_marginRight="@dimen/dp_20">
+            <RelativeLayout android:gravity="center" android:id="@id/rlExprotVideo" android:background="@drawable/bg_share_export_video" android:layout_width="0.0dip" android:layout_height="@dimen/dp_67" android:foreground="@drawable/ripple_bright_rectangle" android:layout_weight="1.0">
+                <ImageView android:id="@id/ivExportVideoIcon" android:layout_width="@dimen/dp_21" android:layout_height="@dimen/dp_21" android:src="@drawable/ic_export_video_s" android:layout_centerInParent="true" />
+                <TextView android:textSize="@dimen/sp_9" android:textColor="@color/white" android:gravity="center" android:id="@id/tvExportVideoDes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_7" android:text="@string/string_exporting_video" android:layout_below="@id/ivExportVideoIcon" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rlExprotGif" android:background="@drawable/bg_share_export_gif" android:layout_width="0.0dip" android:layout_height="@dimen/dp_67" android:layout_marginLeft="@dimen/dp_20" android:foreground="@drawable/ripple_bright_rectangle" android:layout_weight="1.0" android:layout_marginStart="@dimen/dp_20">
+                <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/ivExportGifIcon" android:layout_width="@dimen/dp_21" android:layout_height="@dimen/dp_21" android:src="@drawable/ic_export_gif_n" android:layout_centerInParent="true" />
+                    <TextView android:textSize="@dimen/sp_9" android:textColor="@color/color_export_text_n" android:gravity="center" android:id="@id/tvExportGifDes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_7" android:text="@string/string_exporting_gif" android:layout_below="@id/ivExportGifIcon" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <ImageView android:id="@id/ivGifVipIcon" android:layout_width="@dimen/dp_21" android:layout_height="@dimen/dp_14" android:src="@drawable/ic_export_gif_vip_n" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/rlRemoveWater" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_24" android:layout_marginRight="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_21" android:layout_below="@id/llExprotSelect">
+            <TextView android:textSize="@dimen/sp_14" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/tvRemoveWater" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remov_watermark" android:layout_centerVertical="true" />
+            <ImageView android:layout_width="@dimen/dp_21" android:layout_height="@dimen/dp_11" android:layout_marginLeft="@dimen/dp_8" android:src="@drawable/ic_remove_watermark_vip" android:layout_toRightOf="@id/tvRemoveWater" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_8" android:layout_toEndOf="@id/tvRemoveWater" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/scRemoveWater" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/llExportVideoSet" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_33" android:layout_marginRight="@dimen/dp_20" android:layout_below="@id/rlRemoveWater">
+            <TextView android:textSize="@dimen/sp_14" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tvExportRes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_resolution" />
+            <LinearLayout android:orientation="vertical" android:id="@id/llSupport4k" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <com.xvideostudio.videoeditor.tool.MySeekBar android:id="@id/skExportVideoResolution" android:layout_width="fill_parent" android:layout_height="@dimen/dp_20" android:layout_marginTop="@dimen/dp_20" android:max="3" android:progress="1" android:thumb="@drawable/seekbar_thumb_volume_normal" android:thumbOffset="0.0dip" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_9">
+                    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="@dimen/sp_10" android:textColor="@color/color_export_resolution_text" android:id="@id/tvExport480" android:layout_width="wrap_content" android:layout_height="@dimen/dp_12" android:layout_marginTop="@dimen/dp_4" android:text="480P" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+                        <TextView android:textSize="@dimen/sp_10" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tvExport720" android:layout_width="wrap_content" android:layout_height="@dimen/dp_12" android:text="720P" android:layout_below="@id/ivExport720" android:layout_centerInParent="true" />
+                        <ImageView android:id="@id/ivExport720" android:layout_width="@dimen/dp_10" android:layout_height="@dimen/dp_4" android:src="@drawable/ic_export_vip" android:layout_toRightOf="@id/tvExport720" android:layout_toEndOf="@id/tvExport720" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+                        <TextView android:textSize="@dimen/sp_10" android:textColor="@color/color_export_resolution_text" android:id="@id/tvExport1080" android:layout_width="wrap_content" android:layout_height="@dimen/dp_12" android:text="1080P" android:layout_below="@id/ivExport1080" android:layout_centerInParent="true" />
+                        <ImageView android:id="@id/ivExport1080" android:layout_width="@dimen/dp_10" android:layout_height="@dimen/dp_4" android:src="@drawable/ic_export_vip" android:layout_toRightOf="@id/tvExport1080" android:layout_toEndOf="@id/tvExport1080" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+                            <TextView android:textSize="@dimen/sp_10" android:textColor="@color/color_export_resolution_text" android:id="@id/tvExport4k" android:layout_width="wrap_content" android:layout_height="@dimen/dp_12" android:text="4K" android:layout_below="@id/ivExport4k" />
+                            <ImageView android:id="@id/ivExport4k" android:layout_width="@dimen/dp_10" android:layout_height="@dimen/dp_4" android:src="@drawable/ic_export_vip" android:layout_toRightOf="@id/tvExport4k" android:layout_toEndOf="@id/tvExport4k" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/llSupportNo4k" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <com.xvideostudio.videoeditor.tool.MySeekBar android:id="@id/skExportVideoResolution1" android:layout_width="fill_parent" android:layout_height="@dimen/dp_20" android:layout_marginTop="@dimen/dp_20" android:max="2" android:progress="1" android:thumb="@drawable/seekbar_thumb_volume_normal" android:thumbOffset="0.0dip" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_9">
+                    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="@dimen/sp_10" android:textColor="@color/color_export_resolution_text" android:id="@id/tvExport480n" android:layout_width="wrap_content" android:layout_height="@dimen/dp_12" android:layout_marginTop="@dimen/dp_4" android:text="480P" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+                        <TextView android:textSize="@dimen/sp_10" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tvExport720n" android:layout_width="wrap_content" android:layout_height="@dimen/dp_12" android:text="720P" android:layout_below="@id/ivExport720n" android:layout_centerInParent="true" />
+                        <ImageView android:id="@id/ivExport720n" android:layout_width="@dimen/dp_10" android:layout_height="@dimen/dp_4" android:src="@drawable/ic_export_vip" android:layout_toRightOf="@id/tvExport720n" android:layout_toEndOf="@id/tvExport720n" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="@dimen/sp_10" android:textColor="@color/color_export_resolution_text" android:id="@id/tvExport1080n" android:layout_width="wrap_content" android:layout_height="@dimen/dp_12" android:text="1080P" android:layout_below="@id/ivExport1080n" android:layout_centerInParent="true" />
+                        <ImageView android:id="@id/ivExport1080n" android:layout_width="@dimen/dp_10" android:layout_height="@dimen/dp_4" android:src="@drawable/ic_export_vip" android:layout_toRightOf="@id/tvExport1080n" android:layout_toEndOf="@id/tvExport1080n" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/sp_14" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tvExportFra" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_34" android:text="@string/string_exporting_frame" />
+            <com.xvideostudio.videoeditor.tool.MySeekBar android:id="@id/skExportVideoFrame" android:layout_width="fill_parent" android:layout_height="@dimen/dp_20" android:layout_marginTop="@dimen/dp_20" android:max="4" android:progress="2" android:thumb="@drawable/seekbar_thumb_volume_normal" android:thumbOffset="0.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_9" android:layoutDirection="ltr">
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/sp_10" android:textColor="@color/color_export_resolution_text" android:id="@id/tvExport24" android:layout_width="wrap_content" android:layout_height="@dimen/dp_12" android:layout_marginTop="@dimen/dp_4" android:text="24 FPS" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+                    <TextView android:textSize="@dimen/sp_10" android:textStyle="bold" android:textColor="@color/color_export_resolution_text" android:id="@id/tvExport25" android:layout_width="wrap_content" android:layout_height="@dimen/dp_12" android:layout_marginTop="@dimen/dp_4" android:text="25 FPS" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+                    <TextView android:textSize="@dimen/sp_10" android:textColor="@color/white" android:id="@id/tvExport30" android:layout_width="wrap_content" android:layout_height="@dimen/dp_12" android:layout_marginTop="@dimen/dp_4" android:text="30 FPS" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+                    <TextView android:textSize="@dimen/sp_10" android:textColor="@color/color_export_resolution_text" android:id="@id/tvExport50" android:layout_width="wrap_content" android:layout_height="@dimen/dp_12" android:text="@string/string_50_fps_export" android:layout_below="@id/ivExport50" android:layout_centerInParent="true" />
+                    <ImageView android:id="@id/ivExport50" android:layout_width="@dimen/dp_10" android:layout_height="@dimen/dp_4" android:src="@drawable/ic_export_vip" android:layout_toRightOf="@id/tvExport50" android:layout_toEndOf="@id/tvExport50" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+                        <TextView android:textSize="@dimen/sp_10" android:textColor="@color/color_export_resolution_text" android:id="@id/tvExport60" android:layout_width="wrap_content" android:layout_height="@dimen/dp_12" android:text="@string/string_60_fps_export" android:layout_below="@id/ivExport60" />
+                        <ImageView android:id="@id/ivExport60" android:layout_width="@dimen/dp_10" android:layout_height="@dimen/dp_4" android:src="@drawable/ic_export_vip" android:layout_toRightOf="@id/tvExport60" android:layout_toEndOf="@id/tvExport60" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/rlExprot" android:background="@drawable/bg_share_activity_export" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp_49" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_40" android:layout_marginRight="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_20" android:layout_below="@id/llExportVideoSet">
+            <TextView android:textSize="@dimen/sp_16" android:textColor="@color/white" android:id="@id/tvExport" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/export_mode" android:layout_centerInParent="true" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tvExport" android:layout_centerInParent="true">
+                <TextView android:textSize="@dimen/sp_11" android:textColor="@color/color_export_size_text" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_exporting_size" />
+                <TextView android:textSize="@dimen/sp_11" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tvExportVideoSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_3" android:text="0MB" android:layout_marginStart="@dimen/dp_3" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlExprotB" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_40" android:layout_below="@id/llExportVideoSet">
+            <TextView android:textSize="@dimen/sp_16" android:textColor="@color/white" android:gravity="center" android:id="@id/tvExportB" android:background="@drawable/bg_share_activity_export" android:layout_width="@dimen/dp_167" android:layout_height="@dimen/dp_47" android:foreground="@drawable/ripple_bright_rectangle" android:text="@string/export_mode" android:layout_centerHorizontal="true" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/llExportSizeB" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_11" android:layout_marginBottom="@dimen/dp_19" android:layout_below="@id/tvExportB">
+                <TextView android:textSize="@dimen/sp_11" android:textColor="@color/color_white_70" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_exporting_size" />
+                <TextView android:textSize="@dimen/sp_11" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tvExportVideoSizeB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_3" android:text="0MB" android:layout_marginStart="@dimen/dp_3" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/rlRemoveWaterC" android:background="@drawable/bg_share_export_video_remove_water_c" android:layout_width="fill_parent" android:layout_height="@dimen/dp_55" android:layout_marginLeft="@dimen/dp_20" android:layout_marginRight="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_16" android:layout_below="@id/llExportSizeB">
+                <ImageView android:id="@id/ivRemoveWaterIcon" android:layout_width="@dimen/dp_33" android:layout_height="@dimen/dp_33" android:layout_marginLeft="@dimen/dp_13" android:src="@drawable/ic_vip_watermark_plan_c" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_13" />
+                <TextView android:textSize="@dimen/sp_12" android:textColor="@color/color_export_video_remove_water_text" android:layout_width="@dimen/dp_104" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:text="@string/vip_remove_mark_free_tip" android:layout_toRightOf="@id/ivRemoveWaterIcon" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_10" android:layout_toEndOf="@id/ivRemoveWaterIcon" />
+                <RelativeLayout android:id="@id/rlExportRemoveWater" android:background="@drawable/bg_share_export_video_remove_water_go_c" android:layout_width="@dimen/dp_47" android:layout_height="@dimen/dp_25" android:layout_marginRight="@dimen/dp_13" android:foreground="@drawable/ripple_bright_rectangle" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_13" android:layout_alignParentEnd="true">
+                    <TextView android:textSize="@dimen/sp_12" android:textColor="@color/white" android:id="@id/tvRemoveGo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_exporting_remove_water_go" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:peng="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" peng:contentInsetEnd="0.0dip" peng:contentInsetStart="0.0dip" peng:popupTheme="@style/ThemeOverlay.AppCompat.Light" peng:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <RelativeLayout android:background="@color/config_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/rl_editor_content" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/video_edit_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottomContainer">
+                <RelativeLayout android:gravity="center" android:id="@id/conf_preview_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <hl.productor.aveditor.AmLiveWindow android:id="@id/conf_rl_fx_openglview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/clip_float_container" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <Button android:id="@id/btn_video_play" android:background="@drawable/btn_play_a_one" android:layout_width="53.0dip" android:layout_height="53.0dip" android:foreground="@drawable/ripple_bright_oval" android:layout_centerInParent="true" />
+                    <Button android:id="@id/bt_duration_set" android:background="@drawable/ic_duration_set" android:visibility="visible" android:layout_width="@dimen/fastsetting_icon_width" android:layout_height="@dimen/fastsetting_icon_width" android:layout_marginRight="@dimen/fastsetting_icon_margin_right" android:layout_marginBottom="@dimen/btn_setting_duration_margin" android:foreground="@drawable/ripple_bright_oval" android:layout_above="@id/rlSpeedSeekbar" android:layout_alignParentRight="true" />
+                    <Button android:id="@id/bt_video_sound_mute" android:background="@drawable/bt_mute_selector" android:visibility="invisible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip" android:layout_alignParentRight="true" android:textAllCaps="false" />
+                    <RelativeLayout android:id="@id/rlSpeedSeekbar" android:background="@drawable/ic_timeline_mask" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/dp_47" android:layout_alignParentBottom="true">
+                        <RelativeLayout android:id="@id/rlStartTime" android:layout_width="@dimen/dp_55" android:layout_height="fill_parent">
+                            <TextView android:textSize="@dimen/sp_10" android:textColor="@color/white" android:gravity="center" android:id="@id/tvStartTime" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="00:00:0" android:layout_centerInParent="true" />
+                        </RelativeLayout>
+                        <com.xvideostudio.videoeditor.tool.SpeedMSeekbarNew android:id="@id/editorClipSeekbar" android:layout_width="fill_parent" android:layout_height="@dimen/dp_8" android:layout_toLeftOf="@id/rlEndTime" android:layout_toRightOf="@id/rlStartTime" android:layout_centerVertical="true" android:layout_toStartOf="@id/rlEndTime" android:layout_toEndOf="@id/rlStartTime" />
+                        <RelativeLayout android:id="@id/rlEndTime" android:layout_width="@dimen/dp_55" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+                            <TextView android:textSize="@dimen/sp_10" android:textColor="@color/white" android:gravity="center" android:id="@id/tvEndTime" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="00:00:0" android:layout_centerInParent="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bottomContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/llSpeedTabContainer" android:layout_width="fill_parent" android:layout_height="@dimen/dp_31">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_110" android:layout_marginEnd="@dimen/dp_110">
+                        <FrameLayout android:id="@id/rlNormalSpeed" android:layout_width="wrap_content" android:layout_height="fill_parent" android:foreground="@drawable/ripple_bright_oval_no_mask">
+                            <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="@dimen/sp_13" android:textColor="@color/base_color" android:layout_gravity="center" android:id="@id/standardTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Standard" />
+                            <View android:layout_gravity="bottom|center" android:id="@id/viewTapOneTips" android:background="@drawable/bg_tap_tips" android:layout_width="@dimen/dp_9" android:layout_height="@dimen/dp_2" />
+                        </FrameLayout>
+                        <FrameLayout android:id="@id/rlCurveSpeed" android:layout_width="wrap_content" android:layout_height="fill_parent" android:foreground="@drawable/ripple_bright_oval_no_mask" android:layout_alignParentEnd="true">
+                            <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="@dimen/sp_13" android:textColor="@color/color_text_bg_normal" android:layout_gravity="center" android:id="@id/curveTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Curve" />
+                            <View android:layout_gravity="bottom|center" android:id="@id/viewTapTwoTips" android:background="@drawable/bg_tap_tips" android:visibility="visible" android:layout_width="@dimen/dp_9" android:layout_height="@dimen/dp_2" />
+                        </FrameLayout>
+                    </RelativeLayout>
+                    <ImageView android:id="@id/ivNewSpeedTab" android:background="@drawable/ic_newtips" android:visibility="gone" android:layout_width="@dimen/dp_16" android:layout_height="@dimen/dp_10" android:layout_marginTop="@dimen/dp_4" android:layout_marginStart="@dimen/dp_2" android:layout_marginEnd="@dimen/dp_92" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <View android:background="@color/C3C3B3F" android:layout_width="fill_parent" android:layout_height="@dimen/dp_0_5" />
+                <include android:id="@id/speedContainer" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/clip_edit_mid_height_a_one" layout="@layout/edit_clip_setting_speed" />
+                <com.xvideostudio.videoeditor.view.StoryBoardViewOne android:id="@id/choose_storyboard_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="115.0dip" peng:board_background="@color/storyBoardBgConfig" />
+            </LinearLayout>
+            <com.xvideostudio.videoeditor.view.SeekVolume android:id="@id/volumeSeekBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

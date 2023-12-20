@@ -1,0 +1,96 @@
+.class public final Lcom/google/ads/mediation/facebook/R$drawable;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/ads/mediation/facebook/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "drawable"
+.end annotation
+
+
+# static fields
+.field public static final admob_close_button_black_circle_white_cross:I = 0x7f080062
+
+.field public static final admob_close_button_white_circle_black_cross:I = 0x7f080063
+
+.field public static final common_full_open_on_phone:I = 0x7f0802eb
+
+.field public static final common_google_signin_btn_icon_dark:I = 0x7f0802ec
+
+.field public static final common_google_signin_btn_icon_dark_focused:I = 0x7f0802ed
+
+.field public static final common_google_signin_btn_icon_dark_normal:I = 0x7f0802ee
+
+.field public static final common_google_signin_btn_icon_dark_normal_background:I = 0x7f0802ef
+
+.field public static final common_google_signin_btn_icon_disabled:I = 0x7f0802f0
+
+.field public static final common_google_signin_btn_icon_light:I = 0x7f0802f1
+
+.field public static final common_google_signin_btn_icon_light_focused:I = 0x7f0802f2
+
+.field public static final common_google_signin_btn_icon_light_normal:I = 0x7f0802f3
+
+.field public static final common_google_signin_btn_icon_light_normal_background:I = 0x7f0802f4
+
+.field public static final common_google_signin_btn_text_dark:I = 0x7f0802f5
+
+.field public static final common_google_signin_btn_text_dark_focused:I = 0x7f0802f6
+
+.field public static final common_google_signin_btn_text_dark_normal:I = 0x7f0802f7
+
+.field public static final common_google_signin_btn_text_dark_normal_background:I = 0x7f0802f8
+
+.field public static final common_google_signin_btn_text_disabled:I = 0x7f0802f9
+
+.field public static final common_google_signin_btn_text_light:I = 0x7f0802fa
+
+.field public static final common_google_signin_btn_text_light_focused:I = 0x7f0802fb
+
+.field public static final common_google_signin_btn_text_light_normal:I = 0x7f0802fc
+
+.field public static final common_google_signin_btn_text_light_normal_background:I = 0x7f0802fd
+
+.field public static final googleg_disabled_color_18:I = 0x7f0803de
+
+.field public static final googleg_standard_color_18:I = 0x7f0803df
+
+.field public static final notification_action_background:I = 0x7f080734
+
+.field public static final notification_bg:I = 0x7f080735
+
+.field public static final notification_bg_low:I = 0x7f080736
+
+.field public static final notification_bg_low_normal:I = 0x7f080737
+
+.field public static final notification_bg_low_pressed:I = 0x7f080738
+
+.field public static final notification_bg_normal:I = 0x7f080739
+
+.field public static final notification_bg_normal_pressed:I = 0x7f08073a
+
+.field public static final notification_icon_background:I = 0x7f08073b
+
+.field public static final notification_template_icon_bg:I = 0x7f08073c
+
+.field public static final notification_template_icon_low_bg:I = 0x7f08073d
+
+.field public static final notification_tile_bg:I = 0x7f08073e
+
+.field public static final notify_panel_notification_icon_bg:I = 0x7f08073f
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

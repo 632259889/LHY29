@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_dialog_message">
+        <item>Vorschau</item>
+        <item>Teilen</item>
+        <item>Löschen</item>
+        <item>Umbenennen</item>
+        <item>Details</item>
+    </string-array>
+    <string-array name="draftbox_dialog_message">
+        <item>Bearbeiten</item>
+        <item>Löschen</item>
+    </string-array>
+    <string-array name="gif_quality">
+        <item>Niedrige Qualität</item>
+        <item>Mittlere Qualität</item>
+        <item>Hohe Qualität</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>Startseite</item>
+        <item>Inspiration</item>
+        <item>Vorschlag</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>Anzeigen</item>
+        <item>Teilen</item>
+        <item>Löschen</item>
+        <item>Umbenennen</item>
+        <item>Details</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>Speichern in Telefonspeicher</item>
+        <item>Speichern im externen Speicher</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>MEINE DRAFTS</item>
+        <item>MEINE ARBEITEN</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>Warten Sie bitte hier einen Moment,um das Ausgearbeitete Video zu sehen.Sonst gelingt es wahrscheinlich nicht,Video zu exportieren.</item>
+        <item>Durch die Werbeanzeigen bleibt Filmigo weiterhin kostenlos. Danke für Ihr Verständnis.Sie können aber die Werbungen durch Aktualisierung entfernen.</item>
+        <item>Die niedrige Konfiguration,zu große Videoquelle und zu viele Materien sind all mögliche Gründe fur den erfolglosen Export.</item>
+        <item>Es ist nützlich für große Videos, aus einem Video mit Multi-Cutviele Clips zu schneiden und sie schnell zu speichern.</item>
+        <item>Tipps:Video wird durch schnellen Modus schnelller aber mit schlechterer Bildauflösung gezeigt, während es durch HD-Modus langsamer jedoch mit besserer Bildauflösung gezeigt wird.</item>
+        <item>"Sie können das Video in Zeitraffer oder -lupe zeigen durch das Klicken auf Speed unter \"Clip Edit\". "</item>
+        <item>Nachdem das Video erfolgreich exportiert wurde, können Sie es in My Studio umbenennen oder mit Ihren Freunden teilen.</item>
+        <item>Um ein Video mit unterschiedlicher Musik zu unterlegen, klicken Sie auf \"Multi Music\" unter \"Pro Edit\".</item>
+        <item>Das Exportieren dauert zu lange? Nach einem Kaffee können Sie ein cooles Video anschauen.</item>
+        <item>In Multi Musik-Modus können Sie verschiedene Lautstärken für verschiedene Musikarten einstellen.</item>
+        <item>Vollständige Nutzung der\"Sticker-Integrierte Stickers, eigene Bilder, Gifs und mehrschichtige Stickers stehen Ihnen all zur Verfügung!</item>
+        <item>Exklusiv: Aufnahme von Musikvideos Videoaufzeichnung bei der Wiedergabe von Musik. Sehr praktisch für die Aufnahme Der Tanz-Videos!</item>
+        <item>"Sie können die Hintergrundfarbe dadurch einstellen, dass Sie auf die Schaltfläche Projekteinstellungen am rechten oberen Rand der Hauptschnittstelle der Viedeobearbeitung klicken. "</item>
+        <item>Holen Sie das Video und Bild näher heran, um die gewünschte Position im Video besser betrachten zu können. Klicken Sie auf \"Pro Edit\" > \"Clip Edit\" > \"Zoom\".</item>
+        <item>Wenn Sie die Videogröße durch Videokompress reduzieren, können Sie das Video bei geringen Netzwerkbandbreiten schneller teilen.Klicken Sie auf \"Compress Video\" auf der Webseite.</item>
+        <item>Möchten SIe mehrere Funktionen? Dann sagen Sie uns Bescheid per E-Mail an support@enjoy-global.com.</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>Schneiden</item>
+        <item>Ausgewählten Teil löschen</item>
+    </string-array>
+    <string-array name="video_dialog_message">
+        <item>Vorschau</item>
+        <item>Video bearbeiten</item>
+        <item>Teilen</item>
+        <item>Löschen</item>
+        <item>Umbenennen</item>
+        <item>Details</item>
+    </string-array>
+</resources>

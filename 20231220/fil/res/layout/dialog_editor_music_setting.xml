@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="bottom" android:background="@color/config_dialog_bg" android:layout_width="fill_parent" android:layout_height="180.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bt_dialog_ok">
+            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="16.0sp" android:textColor="@color/dialog_text_gray_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="5.0dip" android:text="@string/music_fadein_fadeout" android:layout_toLeftOf="@id/sb_setting_music_fade" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="5.0dip" android:layout_toStartOf="@id/sb_setting_music_fade" />
+            <androidx.appcompat.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/sb_setting_music_fade" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:checked="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <com.xvideostudio.videoeditor.view.RobotoBoldButton android:textSize="@dimen/bottom_pop_button_text_size" android:textColor="@color/colorWhite" android:id="@id/bt_dialog_ok" android:background="@drawable/filmigo_round_btn" android:layout_width="166.0dip" android:layout_height="45.0dip" android:layout_marginBottom="26.0dip" android:text="@string/ok" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

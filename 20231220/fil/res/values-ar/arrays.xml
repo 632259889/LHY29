@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_dialog_message">
+        <item>معاينة</item>
+        <item>شارك</item>
+        <item>حذف</item>
+        <item>إعادة تسمية</item>
+        <item>تفاصيل</item>
+    </string-array>
+    <string-array name="draftbox_dialog_message">
+        <item>تحرير</item>
+        <item>حذف</item>
+    </string-array>
+    <string-array name="gif_quality">
+        <item>جودة منخفضة</item>
+        <item>جودة متوسطة</item>
+        <item>جودة عالية</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>الرئيسية</item>
+        <item>إلهام</item>
+        <item>اقتراح</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>عرض</item>
+        <item>شارك</item>
+        <item>حذف</item>
+        <item>إعادة تسمية</item>
+        <item>تفاصيل</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>حفظ في ذاكرة الهاتف</item>
+        <item>حفظ إلى الذاكرة الخارجية</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>مسودتي</item>
+        <item>أعمالي</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>الرجاء الإنتظار هنا بصبر لمشاهدة الفيديو التفصيلي الذي أنتجته بنجاح. وإلا سيفشل توريده إن كنت خارج الصفحة الحالية</item>
+        <item>تساعد الإعلانات في الحفاظ على مجانية تطبيق فيديو شو. شكرا لتفهمكم. يمكنكم الترقية إلى إصدار برو لإزالة الإعلان</item>
+        <item>إن كان هاتفك رديئ المواصفات، فإن ضخامة حجم الفيديو المصدري أو كثرة المواد المرئية المستخدمة يمكن أن يؤديا كلاهما إلى عدم نجاح عملية توريد الفيديو. لذا، الرجاء المحاولة مجدداً بعد القيام بحذف بعض المواد المستخدمة</item>
+        <item>قوموا باستخدام \"Ultra Cut\" من أجل حذف عدة أجزاء من فيديو واحد، والحفظ بسرعة. هذه ميزة مفيدة جدا للتخفيض حجم الفيديوهات الكبيرة.</item>
+        <item>تذكير مفيد: وضع السرعة ينطوي على عملية توريد سريعة وجودة عرض منخفضة. بينما وضع النقاء العالي ينطوي على عملية توريد أبطأ وجودة عرض أعلى.</item>
+        <item>إبطاء أو تسريع الفيديو عن طريق النقر على \"Speed\" في \"Clip Edit.</item>
+        <item>انقروا على \"Multi Music\" في \"Pro Edit\" لإضافة العديد من الموسيقى في فيديو واحد.</item>
+        <item>عملية التوريد تستغرق وقتاً كبيراً جداً؟ سيُعرَض عليك فيديو رائع إن اخترت تناول كوب من القهوة</item>
+        <item>يمكنكم، في وضع الموسيقى المتعددة، تعيين أصوات مختلفة لمختلف القطع الموسيقية.</item>
+        <item>الاستفادة الكاملة من \"Sticker\". هذه الميزة تدعم الملصقات، صوركم الخاصة، الصور المتحركة. وعلاوة على ذلك، فإنها تدعم أيضا طبقات متعددة!</item>
+        <item>حصريا: تصوير فيديو موسيقي. تسجيل الفيديو عند تشغيل الموسيقى. هذه الميزة مفيدة جدا لتصوير فيديوهات الرقص المزامنة.</item>
+        <item>حصريا: تصوير فيديو موسيقي. تسجيل الفيديو عند تشغيل الموسيقى. هذه الميزة مفيدة جدا لتصوير فيديوهات الرقص المزامنة.</item>
+        <item>يمكنكم تغيير لون الخلفية عن طريق النقر على أيقونة الإعداد الموجودة في الجهة العلوية اليمنى من تحرير ستوديو</item>
+        <item>قوموا بتكبير الفيديو والصورة، واجعلوا الفيديو تركز على الوضع الذي تريدونه. انقروا على \"Pro Edit\" > \"Clip Edit\" > \"Zoom\".</item>
+        <item>إستعملوا \"Compress video\" لتقليص حجم الفيديو ومشاركته بشكل أسرع بفضل شبكة ذات نطاق ترددي منخفض. انقروا على \"Compress Video\" في الصفحة الرئيسية.</item>
+        <item>هل تريدون المزيد من الميزات؟ لا تترددوا في إخبارنا بذلك وإرسال بريد إلكتروني إلى support@enjoy-global.com</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>اقتطاع</item>
+        <item>حذف الجزء المحدد</item>
+    </string-array>
+    <string-array name="video_dialog_message">
+        <item>استعراض</item>
+        <item>تحرير الفيديو</item>
+        <item>شارك</item>
+        <item>حذف</item>
+        <item>إعادة تسمية</item>
+        <item>تفاصيل</item>
+    </string-array>
+</resources>

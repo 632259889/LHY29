@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_material_theme_fx_sticker_item" android:background="@color/material_store_grid_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ppv="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/fl_material_material_item" style="@style/material_store_card">
+        <RelativeLayout android:id="@id/rl_material_material_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/fl_preview_material_item" android:background="@color/material_store_image_background_color" android:layout_width="fill_parent" android:layout_height="157.0dip">
+                <ImageView android:id="@id/iv_cover_material_item" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+                <Button android:layout_gravity="center" android:id="@id/btn_preview_material_item" android:background="@drawable/ic_store_preview" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+                <ImageView android:id="@id/iv_new_material_item" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/bg_store_newtip" />
+            </FrameLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fl_preview_material_item">
+                <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="13.0sp" android:textColor="@color/black_26" android:gravity="center_vertical" android:id="@id/tv_name_material_item" android:layout_width="fill_parent" android:layout_height="@dimen/material_store_download_layout_height" android:text="素材名称" android:singleLine="true" android:layout_toLeftOf="@id/fl_progressbtn_material_item" />
+                <FrameLayout android:id="@id/fl_progressbtn_material_item" android:layout_width="@dimen/material_store_download_layout_width" android:layout_height="@dimen/material_store_download_layout_height" android:layout_alignParentRight="true">
+                    <ImageView android:layout_gravity="center|left" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="23.0dip" android:src="@drawable/app_ad_icon_tips" />
+                    <com.xvideostudio.videoeditor.view.ProgressPieView android:layout_gravity="center" android:id="@id/progressPieView_material_item" android:layout_width="25.299988dip" android:layout_height="25.299988dip" ppv:ppvBackgroundColor="@color/transparent" ppv:ppvProgress="0" ppv:ppvProgressColor="@color/theme_color" ppv:ppvShowText="false" ppv:ppvStrokeColor="@color/theme_color" ppv:ppvStrokeWidth="1.0dip" />
+                    <ImageView android:layout_gravity="center" android:id="@id/iv_download_state_material_item" android:visibility="gone" android:layout_width="@dimen/material_download_button_width" android:layout_height="@dimen/material_download_button_height" android:src="@drawable/ic_store_download" />
+                    <Button android:layout_gravity="center" android:id="@id/btn_download_material_item" android:background="@color/transparent" android:layout_width="@dimen/material_download_button_width" android:layout_height="@dimen/material_download_button_height" />
+                </FrameLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/ad_cd_material_item" ppv:contentPadding="0.0dip" style="@style/material_store_card">
+        <RelativeLayout android:id="@id/rl_ad_container" android:padding="@dimen/dp_5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

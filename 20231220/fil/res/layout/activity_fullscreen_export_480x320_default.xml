@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ff1d1d1d" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/tip_rl" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:textSize="14.0sp" android:textColor="#ffddc710" android:gravity="center" android:id="@id/bt_export_backstage" android:background="@color/transparent" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="6.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:text="@string/fullscreen_export_backstage" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:translationY="-100.0dip" android:textAllCaps="false" />
+        <ImageView android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="82.0dip" android:layout_marginRight="30.0dip" android:src="@drawable/ic_export_description" />
+        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="14.0sp" android:textColor="@color/view_line" android:id="@id/tv_full_context" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="54.0dip" android:layout_marginTop="77.0dip" android:layout_marginRight="30.0dip" android:lineSpacingExtra="8.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

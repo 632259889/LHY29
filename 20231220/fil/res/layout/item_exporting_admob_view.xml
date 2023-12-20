@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.nativead.NativeAdView android:layout_gravity="bottom" android:id="@id/admob_rl_ad_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_ad_admob_share_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rl_ad_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.google.android.gms.ads.nativead.MediaView android:id="@id/adMv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            <ImageView android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:src="@drawable/advertising_corner_mark" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_app_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_13" android:layout_marginTop="@dimen/dp_14" android:layout_marginRight="@dimen/dp_13" android:layout_marginBottom="@dimen/dp_14">
+            <com.xvideostudio.videoeditor.view.RobotoMediumButton android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/adDown" android:background="@drawable/bg_install_ad_action_button" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/dp_30" android:layout_marginLeft="@dimen/dp_10" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="true" android:layout_marginStart="@dimen/dp_10" android:layout_alignParentEnd="true" />
+            <RelativeLayout android:id="@id/rl_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/adDown" android:layout_alignParentLeft="true" android:layout_toStartOf="@id/adDown" android:layout_alignParentStart="true">
+                <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="@dimen/sp_11" android:textStyle="bold" android:textColor="@color/white" android:id="@id/adTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/sp_9" android:textColor="#ffcfced2" android:ellipsize="end" android:id="@id/adDes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_3" android:layout_marginBottom="@dimen/dp_3" android:maxLines="2" android:layout_below="@id/adTitle" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</com.google.android.gms.ads.nativead.NativeAdView>

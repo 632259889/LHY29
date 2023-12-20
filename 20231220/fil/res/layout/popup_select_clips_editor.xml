@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/pop_select_clip" android:visibility="visible" android:layout_width="@dimen/select_clips_popup_width" android:layout_height="@dimen/select_clips_popup_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_select_clips_editor" android:background="@drawable/bg_rl_top_bg_select_selector" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <ImageView android:background="@drawable/bg_addclip_editor" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/editor_select_clips" android:singleLine="true" />
+    </RelativeLayout>
+    <View android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+    <RelativeLayout android:id="@id/rl_paint_clips_editor" android:background="@drawable/bg_rl_bottom_bg_select_selector" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <ImageView android:background="@drawable/bg_draw_paintpad" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/editor_paint_new_clip" android:singleLine="true" />
+    </RelativeLayout>
+</LinearLayout>

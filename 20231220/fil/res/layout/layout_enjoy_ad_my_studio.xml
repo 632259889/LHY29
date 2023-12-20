@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/adContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/color_628CFF" app:cardCornerRadius="5.0dip" app:cardElevation="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12" android:layout_marginBottom="@dimen/dp_12">
+        <RelativeLayout android:id="@id/rlIcon" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" android:layout_marginLeft="@dimen/dp_8" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_8">
+            <ImageView android:id="@id/ivIcon" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:layout_width="@dimen/dp_8" android:layout_height="@dimen/dp_6" android:src="@drawable/ic_enjoyads_ad_corner" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:textSize="@dimen/dp_10" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tvDes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_8" android:layout_marginRight="@dimen/dp_12" android:maxLines="2" android:layout_toLeftOf="@id/rlInstall" android:layout_toRightOf="@id/rlIcon" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_8" android:layout_marginEnd="@dimen/dp_12" android:layout_toStartOf="@id/rlInstall" android:layout_toEndOf="@id/rlIcon" />
+        <RelativeLayout android:id="@id/rlInstall" android:background="@drawable/shape_enjoy_ad_my_studio_install_bg" android:layout_width="@dimen/dp_72" android:layout_height="@dimen/dp_30" android:layout_marginRight="@dimen/dp_10" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_10" android:layout_alignParentEnd="true">
+            <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="@dimen/dp_12" android:textColor="@color/color_5182FF" android:gravity="center" android:id="@id/tvInstall" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/string_clean" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/fl_emoji_item" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/layout_emoji_item" android:background="@color/config_item_bg" android:layout_width="72.0dip" android:layout_height="72.0dip" android:foreground="@drawable/ripple_bright_rectangle">
+        <com.xvideostudio.videoeditor.view.ApngImageView android:id="@id/iv_emoji_item" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_load_bg" android:scaleType="fitXY" android:adjustViewBounds="false" android:layout_centerInParent="true" android:contentDescription="@string/emoji_no_recent" />
+        <ImageView android:id="@id/iv_emoji_del" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_clip_delete" android:layout_alignParentRight="true" />
+        <View android:id="@id/rect" android:background="@drawable/effect_bg_fx_selector2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <ImageView android:id="@id/iv_new_emoji_item" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/bg_store_newtip" />
+    <ImageView android:layout_gravity="center|left|top" android:id="@id/iv_ad_emoji_item" android:visibility="visible" android:layout_width="15.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/material_ad_icon" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/tv_ad_name_emoji_item" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+</FrameLayout>

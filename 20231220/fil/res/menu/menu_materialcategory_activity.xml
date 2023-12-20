@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_material_gift" android:id="@id/action_ad" android:visible="false" android:title="AD" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_material_localgif" android:id="@id/action_search" android:title="@string/local_gif" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_material_history" android:id="@id/action_settings" android:title="@string/manage" app:showAsAction="always" />
+</menu>

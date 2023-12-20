@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_listview_normal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ll_my_studo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/selectBackView" android:background="@color/gray_layoyt_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="110.0dip" android:layout_alignParentTop="true" />
+        <RelativeLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="92.0dip">
+            <RelativeLayout android:id="@id/rela_thumb" android:layout_width="76.0dip" android:layout_height="76.0dip" android:layout_centerVertical="true">
+                <ImageView android:id="@id/iv_thumb" android:background="@drawable/bg_music_mp3" android:layout_width="76.0dip" android:layout_height="76.0dip" android:scaleType="centerCrop" />
+                <ImageView android:id="@id/iv_state_icon" android:background="@drawable/bg_music_play_red" android:visibility="invisible" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip" android:layout_toLeftOf="@id/ll_share_delete" android:layout_toRightOf="@id/rela_thumb" android:layout_centerVertical="true">
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="14.5sp" android:textColor="@color/vsc_input_text_color" android:ellipsize="end" android:id="@id/tv_title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Video Title" android:maxLines="1" />
+                <View android:id="@id/view_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_below="@id/tv_title" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:enabled="true" android:textSize="13.0sp" android:textColor="@color/mystudio_item_text_with_title" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="05/19/2014" android:maxLines="1" android:layout_below="@id/view_empty" />
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/tv_time">
+                    <ImageView android:id="@id/tv_duration_icon" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/my_studio_time_icon" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+                    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:enabled="true" android:textSize="12.0sp" android:textColor="@color/mystudio_item_text_with_title" android:gravity="center_vertical" android:id="@id/tv_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="00:33" android:layout_toRightOf="@id/tv_duration_icon" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/ll_share_delete" android:paddingRight="8.0dip" android:layout_width="35.0dip" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <RelativeLayout android:id="@id/rl_more_menu" android:background="@drawable/dialog_button_selector" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <ImageView android:background="@drawable/ic_studio_more" android:layout_width="@dimen/my_studio_delete_icon_width" android:layout_height="@dimen/my_studio_delete_icon_width" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <View android:layout_gravity="bottom" android:background="@color/material_listview_divider_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+    </RelativeLayout>
+</LinearLayout>

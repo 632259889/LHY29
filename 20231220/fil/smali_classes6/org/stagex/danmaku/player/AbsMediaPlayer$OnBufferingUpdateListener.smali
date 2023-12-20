@@ -1,0 +1,19 @@
+.class public interface abstract Lorg/stagex/danmaku/player/AbsMediaPlayer$OnBufferingUpdateListener;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/stagex/danmaku/player/AbsMediaPlayer;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "OnBufferingUpdateListener"
+.end annotation
+
+
+# virtual methods
+.method public abstract onBufferingUpdate(Lorg/stagex/danmaku/player/AbsMediaPlayer;I)V
+.end method

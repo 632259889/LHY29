@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/rl_font_item" android:background="@drawable/bg_item_font_selector" android:layout_width="76.0dip" android:layout_height="76.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:foreground="@drawable/ripple_bright_oval_no_mask">
+        <ImageView android:id="@id/iv_font_icon" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/ic_font_default" android:layout_centerInParent="true" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/iv_font_name" android:background="#ff222126" android:layout_width="72.0dip" android:layout_height="72.0dip" />
+        <View android:id="@id/view_down_cover" android:background="@color/color_cover" android:visibility="gone" android:layout_width="76.0dip" android:layout_height="76.0dip" />
+        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_process" android:visibility="gone" android:layout_width="76.0dip" android:layout_height="76.0dip" android:text="0%" />
+        <ImageView android:id="@id/iv_down" android:visibility="gone" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" android:src="@drawable/ic_subtitle_download" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_tag_icon" android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_alltags_genre" android:scaleType="fitXY" />
+        <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="16.0sp" android:textColor="@color/black_26" android:id="@id/tv_tag_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.5dip" android:text="@string/tag_library" />
+    </LinearLayout>
+    <com.xvideostudio.videoeditor.view.TagCloudView android:id="@id/tag_cloud_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="@dimen/music_all_tag_item_margin_bottom" app:tcvBackground="@drawable/tag_background" app:tcvBorder="8.0dip" app:tcvCanTagClick="true" app:tcvItemBorderHorizontal="4.0dip" app:tcvItemBorderVertical="17.0dip" app:tcvItemHeight="@dimen/music_all_tag_item_height" app:tcvSingleLine="false" app:tcvTextColor="@color/white" />
+</LinearLayout>

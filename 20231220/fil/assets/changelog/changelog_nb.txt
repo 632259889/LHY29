@@ -1,0 +1,6 @@
+﻿V7.6.4
+Cloud messaging plattform VideoShow samarbeider med vises en feil.
+Det har forårsaket at appen mottar gjentatte varsler.
+Nå har denne oppdaterte versjonen løst problemet.
+Vennligst oppdater til 7.6.4-versjonen.
+Så unnskyld for ulempen.

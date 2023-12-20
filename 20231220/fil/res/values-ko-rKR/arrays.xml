@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_dialog_message">
+        <item>미리보기</item>
+        <item>공유</item>
+        <item>삭제</item>
+        <item>이름 바꾸기</item>
+        <item>세부 정보</item>
+    </string-array>
+    <string-array name="draftbox_dialog_message">
+        <item>편집</item>
+        <item>삭제</item>
+    </string-array>
+    <string-array name="gif_quality">
+        <item>저품질</item>
+        <item>중간 품질</item>
+        <item>고품질</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>홈</item>
+        <item>영감</item>
+        <item>제안</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>표시</item>
+        <item>공유</item>
+        <item>삭제</item>
+        <item>이름 바꾸기</item>
+        <item>세부 정보</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>휴대전화 메모리에 저장</item>
+        <item>외부 메모리에 저장</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>내 임시 보관함</item>
+        <item>내 작품</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>편집한 비디오를 문제없이 감상하시려면 화면을 떠나지 말아주세요. 백그라운드로 떠나는 경우 비디오 내보내기에 실패할 수 있습니다.</item>
+        <item>광고 시청은 Filmigo를 무료 앱으로 유지하도록 돕습니다. 이해해주셔서 감사합니다. 광고를 제거하고 싶으시면 프로 버전으로 업그레이드 해보세요.</item>
+        <item>낮은 성능의 핸드폰이 너무 큰 비디오 소스나 너무 많은 재료를 사용하는 경우, 동영상 내보내기가 실패할수 있습니다. 일부 재료를 삭제한 이후 다시 시도하십시오.</item>
+        <item>\"울트라 커팅\"을 사용하여 하나의 비디오에서 여러 부분을 잘라 사용하고 빨리 저장할 수 있게 해줍니다. 이는 큰 비디오를 크기를 줄일 수 있는 매우 유용한 기능입니다.</item>
+        <item>친근한 미리 알림: 빠른 모드 버젼은 빠르게 동영상을 내보내지만 낮은 비디오 해상도를 갖게 합니다. HD 모드는 더 높은 품질로 내보내기 위해 많은 시간이 필요합니다.</item>
+        <item>\"클립 편집\"에서 \"속도\"를 클릭하여 비디오를 속도를 높히거나 낮출 수 있습니다.</item>
+        <item>비디오를 성공적으로 내보낸 이후, 내 스튜디로에서 이를 다시 명명하거나 친구들과 공유할 수 있습니다.</item>
+        <item>하나의 비디오에서 여러 음악을 추가하도록 \"프로 편집\"의 \"여러 음악\"을 클릭하십시오.</item>
+        <item>비디오 내보내기에 너무 많은 시간이 걸리나요? 커피 한 잔 마시고 오시면 멋진 비디오가 준비 돼 있을거예요.</item>
+        <item>여러 음악 모드에서 각 음악에 대한 다른 볼륨을 설정할 수 있습니다.</item>
+        <item>\"스티커\"를 최대한 활용해보세요. 이는 내장된 스티커, 자체 게임, 기프트를 지원합니다. 뿐만 아니라 여러 레이어도 지원합니다!</item>
+        <item>독점: 비디오 촬영 중에 재생할 음악을 선택할 수 있으며, dance-sync 비디오를 촬영하는 데 매우 유용합니다.</item>
+        <item>편집 스튜디오의 오른쪽 상단의 설정 아이콘을 클릭하여 배경 색상을 변경할 수 있습니다.</item>
+        <item>비디오와 사진을 확대/축소하고 원하는 포지션에서 비디오를 포커스할 수 있도록 합니다. \"프로 편집\" > \"클립 편집\" > \"확대/축소\"를 클릭하십시오.</item>
+        <item>비디오의 크기를 줄이고 낮은 대역폭 네트워크로 더 빠르게 공유하도록 \"비디오 압축\"을 사용하십시오. 홈페이지에서 \"비디오 압축\"을 클릭하십시오.</item>
+        <item>더 많은 기능을 원하십니까? support@enjoy-global.com으로 이메일을 자유롭게 전송하여 저희에게 알려 주십시오.</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>트림</item>
+        <item>선택된 부품 삭제</item>
+    </string-array>
+    <string-array name="video_dialog_message">
+        <item>미리보기</item>
+        <item>미리보기</item>
+        <item>비디오 편집</item>
+        <item>공유</item>
+        <item>삭제</item>
+        <item>이름 바꾸기</item>
+        <item>세부 정보</item>
+    </string-array>
+</resources>

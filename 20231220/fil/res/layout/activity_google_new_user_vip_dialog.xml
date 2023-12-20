@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/transparent" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="20.0dip" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_vip_dialog_for_one" android:background="@drawable/bg_color_circle_4_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <ImageView android:id="@id/iv_google_vip" android:background="@drawable/ic_google_vip_buy" android:layout_width="fill_parent" android:layout_height="143.0dip" android:scaleType="centerCrop" />
+        <RelativeLayout android:id="@id/rl_back" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+            <ImageView android:visibility="visible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/vip_ic_close" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ScrollView android:id="@id/sl_vip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/rl_vip_buy_btn" android:layout_below="@id/iv_google_vip" android:fadeScrollbars="false">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginStart="18.0dip">
+                        <ImageView android:id="@id/iv_no_water" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_removewatermark" android:layout_centerVertical="true" />
+                        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:text="@string/remov_watermark" android:layout_toRightOf="@id/iv_no_water" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_toEndOf="@id/iv_no_water" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="18.0dip">
+                        <ImageView android:id="@id/iv_no_ads" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_advertisements" android:layout_centerVertical="true" />
+                        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:text="@string/no_ads" android:layout_toRightOf="@id/iv_no_ads" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_toEndOf="@id/iv_no_ads" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="18.0dip">
+                        <ImageView android:id="@id/iv_1080_exprot" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_1080" android:layout_centerVertical="true" />
+                        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:text="@string/a1080p_hd_export" android:layout_toRightOf="@id/iv_1080_exprot" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_toEndOf="@id/iv_1080_exprot" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="18.0dip">
+                        <ImageView android:id="@id/iv_1000_material" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_material" android:layout_centerVertical="true" />
+                        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:text="@string/a1000_vip_effects_and_materials" android:layout_toRightOf="@id/iv_1000_material" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_toEndOf="@id/iv_1000_material" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="18.0dip">
+                        <ImageView android:id="@id/iv_add_mosaic" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_mosaic" android:layout_centerVertical="true" />
+                        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:text="@string/add_mosaic" android:layout_toRightOf="@id/iv_add_mosaic" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_toEndOf="@id/iv_add_mosaic" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="18.0dip">
+                        <ImageView android:id="@id/iv_gif_export" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_gif" android:layout_centerVertical="true" />
+                        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:text="@string/vip_export_gif" android:layout_toRightOf="@id/iv_gif_export" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_toEndOf="@id/iv_gif_export" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="30.0dip" android:layout_marginStart="18.0dip">
+                        <ImageView android:id="@id/iv_more" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_more" android:layout_centerVertical="true" />
+                        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:text="@string/more_functions_are_being_updated" android:layout_toRightOf="@id/iv_more" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_toEndOf="@id/iv_more" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <ImageView android:id="@id/iv_google_vip_guide" android:background="@drawable/bg_vip_shadow_one" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/rl_vip_buy_btn" />
+        <RelativeLayout android:orientation="vertical" android:id="@id/rl_vip_buy_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="23.0dip" android:layout_marginRight="23.0dip" android:layout_marginBottom="14.0dip" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_vip_buy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <RelativeLayout android:gravity="center" android:id="@id/rl_purchase_year" android:background="@drawable/shape_vip_buy_pay_one_black_bg" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" android:layout_above="@id/rl_google_vip_yaer">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="16.0sp" android:textColor="#ff666666" android:id="@id/tv_year_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="------" android:layout_centerHorizontal="true" />
+                        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="#ffa7a7a7" android:id="@id/tv_vip_time_half_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12 Months" android:layout_below="@id/tv_year_price" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center" android:id="@id/rl_purchase_forever" android:background="@drawable/shape_vip_buy_pay_one_black_bg" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="16.0sp" android:textColor="#ff666666" android:id="@id/tv_forever_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="------" android:layout_centerHorizontal="true" />
+                        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="#ffa7a7a7" android:id="@id/tv_vip_time_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/foever" android:layout_below="@id/tv_forever_price" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_purchase_month" android:background="@drawable/shape_vip_buy_free_one_bg" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_weight="1.0" android:layout_alignParentBottom="true">
+                    <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_google_free_trial" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trial" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="16.0sp" android:textColor="#fffe5686" android:id="@id/tv_vip_buy_success" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="20.0dip" android:text="@string/string_vip_for_three_success" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/rl_success_800" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/iv_google_vip">
+            <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tv_success" android:fadeScrollbars="false">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginStart="18.0dip">
+                            <ImageView android:id="@id/iv_no_water1" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_removewatermark" android:layout_centerVertical="true" />
+                            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:text="@string/remov_watermark" android:layout_toRightOf="@id/iv_no_water1" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_toEndOf="@id/iv_no_water1" />
+                        </RelativeLayout>
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="18.0dip">
+                            <ImageView android:id="@id/iv_no_ads1" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_advertisements" android:layout_centerVertical="true" />
+                            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:text="@string/no_ads" android:layout_toRightOf="@id/iv_no_ads1" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_toEndOf="@id/iv_no_ads1" />
+                        </RelativeLayout>
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="18.0dip">
+                            <ImageView android:id="@id/iv_1080_exprot1" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_1080" android:layout_centerVertical="true" />
+                            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:text="@string/a1080p_hd_export" android:layout_toRightOf="@id/iv_1080_exprot1" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_toEndOf="@id/iv_1080_exprot1" />
+                        </RelativeLayout>
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="18.0dip">
+                            <ImageView android:id="@id/iv_1000_material1" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_material" android:layout_centerVertical="true" />
+                            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:text="@string/a1000_vip_effects_and_materials" android:layout_toRightOf="@id/iv_1000_material1" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_toEndOf="@id/iv_1000_material1" />
+                        </RelativeLayout>
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="18.0dip">
+                            <ImageView android:id="@id/iv_add_mosaic1" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_mosaic" android:layout_centerVertical="true" />
+                            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:text="@string/add_mosaic" android:layout_toRightOf="@id/iv_add_mosaic1" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_toEndOf="@id/iv_add_mosaic1" />
+                        </RelativeLayout>
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="18.0dip">
+                            <ImageView android:id="@id/iv_gif_export1" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_gif" android:layout_centerVertical="true" />
+                            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:text="@string/vip_export_gif" android:layout_toRightOf="@id/iv_gif_export1" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_toEndOf="@id/iv_gif_export1" />
+                        </RelativeLayout>
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="30.0dip" android:layout_marginStart="18.0dip">
+                            <ImageView android:id="@id/iv_more1" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_more" android:layout_centerVertical="true" />
+                            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:text="@string/more_functions_are_being_updated" android:layout_toRightOf="@id/iv_more1" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_toEndOf="@id/iv_more1" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+            <ImageView android:background="@drawable/bg_vip_shadow_one" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/tv_success" />
+            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="16.0sp" android:textColor="#fffe5686" android:id="@id/tv_success" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="20.0dip" android:text="@string/string_vip_for_three_success" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

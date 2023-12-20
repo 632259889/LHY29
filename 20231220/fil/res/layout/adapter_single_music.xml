@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="@dimen/music_local_layout_height">
+        <Button android:layout_gravity="center|left" android:id="@id/bt_music_item_play_marker" android:background="@drawable/music_play_selector2" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/preload_lay" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:layout_width="@dimen/music_icon_width_1" android:layout_height="@dimen/music_icon_width_1" android:layout_marginLeft="@dimen/music_icon_width_1" android:src="@drawable/bg_store_music" />
+                    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/music_text_size_1" android:textColor="@color/white" android:id="@id/tx_music_item_preload_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="23.0dip" android:maxWidth="@dimen/music_item_preload_name_max_width" android:text="San Smith" android:singleLine="true" />
+                    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/music_text_size_2" android:textColor="@color/gray_light_4" android:id="@id/tx_music_item_preload_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:text="3:40" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/local_lay" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                        <TextView android:enabled="true" android:textSize="@dimen/music_item_title_size" android:textColor="@color/black" android:gravity="bottom" android:layout_gravity="center|left" android:id="@id/tx_music_item_local_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="San Smith" android:singleLine="true" android:layout_weight="1.0" />
+                        <TextView android:enabled="true" android:textSize="@dimen/music_item_title_size" android:textColor="@color/black" android:gravity="bottom|center|right" android:layout_gravity="center|right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="express" android:singleLine="true" android:layout_weight="1.0" />
+                    </LinearLayout>
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                        <TextView android:enabled="true" android:textSize="@dimen/music_item_subtitle_size" android:textColor="@color/light_grey" android:layout_gravity="center|left|top" android:id="@id/tx_music_item_local_artist_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="San Smith  03:31" android:singleLine="true" />
+                    </FrameLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <View style="@style/line" />
+</LinearLayout>

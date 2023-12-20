@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_trans_storyboard_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="13.0sp" android:textColor="#ffa7a7a7" android:id="@id/tv_drag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_15" android:layout_marginTop="@dimen/dp_15" android:text="@string/long_touch_to_move_position" android:singleLine="true" android:layout_marginStart="@dimen/dp_15" />
+    <RelativeLayout android:id="@id/view_content" android:background="@color/transparent" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/dp_75" android:layout_marginTop="@dimen/dp_14" android:layout_below="@id/tv_drag">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rlv_clip" android:paddingLeft="@dimen/dp_10" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/dp_75" android:paddingStart="@dimen/dp_10" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/txt_no_clip_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/clip_null_tips" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <Button android:textSize="@dimen/text_size_no_3" android:textColor="@color/white" android:id="@id/btn_next_editor_choose" android:background="@drawable/bg_choose_next_selector" android:layout_width="@dimen/dp_220" android:layout_height="@dimen/dp_44" android:layout_marginBottom="@dimen/dp_24" android:text="@string/next_make_video_editorchoose" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

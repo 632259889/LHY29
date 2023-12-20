@@ -1,0 +1,6 @@
+﻿V7.6.4
+Cloud messaging plattform VideoShow samarbetar med visas en bugg.
+Det har orsakat att appen kan få upprepade meddelanden.
+Nu har den här uppdaterade versionen löst problemet.
+Vänligen uppdatera till 7.6.4-versionen.
+Så ledsen för inconvience.

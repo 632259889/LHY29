@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="timaline_effect_add_limit">Suportahan ang hanggang sa %s (na) effect sa parehong pagkakataon</string>
+    <string name="timeline_music">Maglagay ng musika</string>
+    <string name="timeline_record">Maglagay ng Voiceover</string>
+    <string name="timeline_sort_tip">Pindutin at i-drag para ayusin ulit o i-delete</string>
+    <string name="timeline_sound">Maglagay ng ilang sound effect</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="16.0sp" android:textColor="@color/gray_light_4" android:gravity="center" android:layout_gravity="center" android:id="@id/no_recent_emoji" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/emoji_no_recent" android:drawableTop="@drawable/ic_no_emoji_history_light" android:drawablePadding="12.0dip" />
+</FrameLayout>

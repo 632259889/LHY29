@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_screen" android:background="@color/black_26" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:zhy="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar" />
+    <RelativeLayout android:paddingLeft="@dimen/syn_music_rl_margin_left" android:paddingTop="@dimen/syn_music_margin_top" android:paddingRight="@dimen/syn_music_rl_margin_left" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/rl_quick_trim" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/rl_mode_easy_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_editor_mode_easy_icon" android:background="@drawable/trim_ic_quick" android:layout_width="22.299988dip" android:layout_height="22.299988dip" android:layout_marginLeft="7.0dip" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+                <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/quick_trim_title" android:layout_toRightOf="@id/iv_editor_mode_easy_icon" android:lineSpacingExtra="6.0dip" />
+            </RelativeLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/syn_music_title_margin_top" android:layout_below="@id/rl_mode_easy_title">
+                <com.xvideostudio.videoeditor.view.RoundImageViewCc android:id="@id/imageView1" android:background="@drawable/home_adapter_trim_green" android:layout_width="fill_parent" android:layout_height="200.0dip" android:src="@drawable/trim_img_quick" android:scaleType="centerInside" zhy:borderRadius="8.0dip" zhy:type="round" />
+                <RelativeLayout android:layout_gravity="bottom|center|left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginRight="11.0dip" android:layout_marginBottom="8.0dip">
+                    <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="14.399994sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_trim_desc_title" android:lineSpacingExtra="2.0dip" />
+                </RelativeLayout>
+            </FrameLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_ultra_cut" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/syn_music_margin_top" android:layout_below="@id/rl_quick_trim">
+            <RelativeLayout android:id="@id/rl_mode_pro_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_editor_mode_pro_icon" android:background="@drawable/trim_ic_ultra" android:layout_width="22.299988dip" android:layout_height="22.299988dip" android:layout_marginLeft="7.0dip" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+                <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/ultra_cut_title" android:layout_toRightOf="@id/iv_editor_mode_pro_icon" android:lineSpacingExtra="6.0dip" />
+            </RelativeLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/syn_music_title_margin_top" android:layout_below="@id/rl_mode_pro_title">
+                <com.xvideostudio.videoeditor.view.RoundImageViewCc android:id="@id/imageView2" android:background="@drawable/home_adapter_trim_blue" android:layout_width="fill_parent" android:layout_height="200.0dip" android:src="@drawable/trim_img_ultra" android:scaleType="centerInside" zhy:borderRadius="8.0dip" zhy:type="round" />
+                <RelativeLayout android:layout_gravity="bottom|center|left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginRight="11.0dip" android:layout_marginBottom="8.0dip">
+                    <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="14.399994sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ultra_cut_desc_title" android:lineSpacingExtra="2.0dip" />
+                </RelativeLayout>
+            </FrameLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

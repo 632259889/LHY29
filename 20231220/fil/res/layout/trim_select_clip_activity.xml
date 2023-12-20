@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:story="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar_color_menu_text" />
+    <RelativeLayout android:background="@color/theme_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/lb_clip_tools" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/conf_rl_trans_openglview" android:layout_width="360.0dip" android:layout_height="360.0dip">
+                    <include layout="@layout/player_video" />
+                </RelativeLayout>
+                <Button android:layout_gravity="bottom|center|left" android:id="@id/img_video" android:background="@drawable/ic_proeditor_play" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="@dimen/fastsetting_icon_margin_right" android:layout_marginBottom="@dimen/btn_setting_duration_margin" />
+                <Button android:layout_gravity="bottom|center|right" android:id="@id/bt_duration_selection" android:background="@drawable/ic_proeditor_fastsetting" android:visibility="visible" android:layout_width="59.0dip" android:layout_height="59.0dip" android:layout_marginRight="@dimen/fastsetting_icon_margin_right" android:layout_marginBottom="1.0dip" />
+            </FrameLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="30.0dip">
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tx_trim_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="00:00.0" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/theme_color" android:id="@id/tv_touch_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00.0" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tx_trim_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="00:00" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <com.xvideostudio.videoeditor.view.TrimToolSeekBar android:id="@id/tool_video_seekbar" android:layout_width="fill_parent" android:layout_height="@dimen/seek_layout_height" app:left_drawable="@drawable/ic_btn_timeline_left" app:left_drawable_pressed="@drawable/ic_btn_timeline_leftpress" app:right_drawable="@drawable/ic_btn_timeline_right" app:right_drawable_pressed="@drawable/ic_btn_timeline_rightpress" xmlns:app="http://schemas.android.com/apk/res-auto" />
+            </RelativeLayout>
+        </LinearLayout>
+        <com.xvideostudio.videoeditor.view.StoryBoardViewTrim android:id="@id/choose_storyboard_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" story:height_rate="4.0" />
+    </RelativeLayout>
+</LinearLayout>

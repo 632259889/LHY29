@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bottom_pop_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_emojis_tab" android:layout_width="fill_parent" android:layout_height="@dimen/emoji_tab_height" android:layout_alignParentBottom="true" android:layoutDirection="ltr">
+        <RelativeLayout android:layout_gravity="left" android:background="@color/colorPrimary" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/emoji_tab_height">
+            <View android:background="#ffebebed" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/iv_add_emoji_by_network" android:visibility="visible" android:layout_width="@dimen/bottom_pop_sticker_tab_line_size" android:layout_height="fill_parent" android:src="@drawable/ic_sticker_download" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/iv_new_emoji_emoji_layout" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/bg_store_newtip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <ImageView android:layout_width="15.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_clipedit_clip_shadow" android:scaleType="fitXY" android:layout_toRightOf="@id/iv_add_emoji_by_network" android:layout_toEndOf="@id/iv_add_emoji_by_network" />
+            <HorizontalScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/iv_add_emoji_by_network" android:layout_toEndOf="@id/iv_add_emoji_by_network">
+                <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_add_emoji_by_phone" android:layout_width="@dimen/bottom_pop_sticker_tab_line_size" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                        <ImageView android:id="@id/iv_add_emoji_by_phone" android:padding="5.0dip" android:visibility="visible" android:layout_width="@dimen/bottom_pop_sticker_tab_button_size" android:layout_height="@dimen/bottom_pop_sticker_tab_button_size" android:layout_margin="5.0dip" android:src="@drawable/emoji_add_sticker_navigation" android:scaleType="centerInside" android:layout_centerInParent="true" />
+                        <ImageView android:id="@id/indicator_by_phone" android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="@dimen/slider_height" android:layout_alignParentBottom="true" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_add_emoji_by_recent" android:layout_width="@dimen/bottom_pop_sticker_tab_line_size" android:layout_height="wrap_content" android:layout_toRightOf="@id/ll_add_emoji_by_phone" android:layoutDirection="ltr">
+                        <ImageView android:id="@id/iv_add_emoji_by_recent" android:padding="5.0dip" android:visibility="visible" android:layout_width="@dimen/bottom_pop_sticker_tab_button_size" android:layout_height="@dimen/bottom_pop_sticker_tab_button_size" android:layout_margin="5.0dip" android:src="@drawable/emoji_recent_navigation" android:layout_centerInParent="true" />
+                        <ImageView android:id="@id/indicator_by_recent" android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="@dimen/slider_height" android:layout_alignParentBottom="true" />
+                    </LinearLayout>
+                    <com.xvideostudio.videoeditor.emoji.StickerPagerSlidingTabStrip android:id="@id/emojis_tab" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="@dimen/emoji_tab_height" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/ll_add_emoji_by_recent" app:pstsDividerColor="#ffebebed" app:pstsDividerPadding="0.0dip" app:pstsIndicatorColor="@color/theme_color" app:pstsIndicatorHeight="@dimen/slider_height" app:pstsShouldExpand="false" app:pstsTabBackground="@drawable/bg_emoji_navigation" app:pstsTabPaddingLeftRight="0.0dip" app:pstsUnderlineColor="@color/sticker_navigationline_color" app:pstsUnderlineHeight="0.0dip" />
+                </RelativeLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+        <View android:layout_gravity="bottom" android:background="@color/black_light_2" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:layout_gravity="right" android:id="@id/rl_setting_emoji" android:background="@color/bottom_pop_bg" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/emoji_add_tab_width1" android:layout_height="@dimen/emoji_tab_height">
+            <ImageView android:layout_width="@dimen/bottom_pop_sticker_tab_button_size" android:layout_height="@dimen/bottom_pop_sticker_tab_button_size" android:src="@drawable/emoji_setting_navigation" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <View android:layout_gravity="bottom" android:background="@color/black_light_2" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/fl_emojis_tab">
+        <androidx.viewpager.widget.ViewPager android:layout_gravity="center_vertical" android:id="@id/emojis_pager" android:layout_width="fill_parent" android:layout_height="72.0dip" />
+    </FrameLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/fl_emojis_tab">
+        <com.xvideostudio.videoeditor.view.HorizontalListView android:layout_gravity="center_vertical" android:id="@id/byRecentListView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="72.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/no_recent_emoji" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/fl_emojis_tab">
+        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="16.0sp" android:textColor="#ffa9a7ae" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/emoji_no_recent" android:drawablePadding="12.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/fl_emojis_tab">
+        <com.xvideostudio.videoeditor.view.HorizontalListView android:layout_gravity="center_vertical" android:id="@id/byPhoneListView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="72.0dip" />
+    </LinearLayout>
+</RelativeLayout>

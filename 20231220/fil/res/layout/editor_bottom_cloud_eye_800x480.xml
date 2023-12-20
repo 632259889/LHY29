@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/editor_toolbox_container_cloud_eye" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <RadioGroup android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/toolbox_group_cloud_eye" android:background="@color/theme_bg_color" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <com.xvideostudio.videoeditor.view.RobotoMediumRadioButton android:id="@id/toolbox_theme_cloud_eye" android:checked="true" android:text="@string/toolbox_theme" style="@style/toolbox_tab" />
+            <com.xvideostudio.videoeditor.view.RobotoMediumRadioButton android:id="@id/toolbox_preset_music_cloud_eye" android:text="@string/toolbox_music" style="@style/toolbox_tab" />
+            <com.xvideostudio.videoeditor.view.RobotoMediumRadioButton android:id="@id/toolbox_edit_cloud_eye" android:text="@string/home_edit_menu" style="@style/toolbox_tab_edit" />
+            <com.xvideostudio.videoeditor.view.RobotoMediumRadioButton android:id="@id/toolbox_setting_cloud_eye" android:text="@string/video_setting" style="@style/toolbox_tab" />
+            <com.xvideostudio.videoeditor.view.RobotoMediumRadioButton android:enabled="false" android:visibility="gone" android:text="" style="@style/toolbox_tab" />
+        </RadioGroup>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <RelativeLayout android:id="@id/rl_marker_editor_cloud_eye" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:background="@drawable/ic_home_point" android:padding="@dimen/effect_select_stroke_size" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:scaleType="fitCenter" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </FrameLayout>
+    <ImageView android:id="@id/editor_nav_indicator_cloud_eye" android:background="@color/theme_color" android:layout_width="60.0dip" android:layout_height="@dimen/slider_height" />
+    <View android:background="@color/dialog_view_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <FrameLayout android:id="@id/editor_dynamic_toolbox_cloud_eye" android:background="@color/theme_bg_color" android:layout_width="fill_parent" android:layout_height="90.0dip">
+        <com.xvideostudio.videoeditor.view.HorizontalListView android:layout_gravity="center_vertical" android:id="@id/ln_editor_advance_cloud_eye" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" />
+        <com.xvideostudio.videoeditor.view.HorizontalListView android:layout_gravity="center_vertical" android:id="@id/ln_editor_music_cloud_eye" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" />
+        <com.xvideostudio.videoeditor.view.HorizontalListView android:layout_gravity="center_vertical" android:id="@id/ln_editor_fx_cloud_eye" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" />
+        <com.xvideostudio.videoeditor.view.HorizontalListView android:layout_gravity="center_vertical" android:id="@id/ln_editor_theme_cloud_eye" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ln_editor_settings_cloud_eye" android:background="@drawable/bg_radio_button_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="4.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_settings_duration_cloud_eye" android:background="@drawable/bg_radio_button_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="@dimen/edit_settings_buttom_icon_width" android:layout_height="@dimen/edit_settings_buttom_icon_height" android:src="@drawable/ic_proeditor_duration" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/edit_bottom_item_text_size" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_settings_buttom_margin_top" android:text="@string/duration_batch_video_char" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_settings_resolution_cloud_eye" android:background="@drawable/bg_radio_button_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="@dimen/edit_settings_buttom_icon_width" android:layout_height="@dimen/edit_settings_buttom_icon_height" android:src="@drawable/ic_settings_resolution" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/edit_bottom_item_text_size" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_settings_buttom_margin_top" android:text="@string/video_setting_ratio" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_settings_background_cloud_eye" android:background="@drawable/bg_radio_button_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="@dimen/edit_settings_buttom_icon_width" android:layout_height="@dimen/edit_settings_buttom_icon_height" android:src="@drawable/ic_settings_bg" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/edit_bottom_item_text_size" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_settings_buttom_margin_top" android:text="@string/video_setting_background" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_settings_music_cloud_eye" android:background="@drawable/bg_radio_button_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="@dimen/edit_settings_buttom_icon_width" android:layout_height="@dimen/edit_settings_buttom_icon_height" android:src="@drawable/ic_settings_fade" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/edit_bottom_item_text_size" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_settings_buttom_margin_top" android:text="@string/video_setting_music" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/ln_editor_music_new_cloud_eye" android:background="@drawable/bg_radio_button_selector" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:id="@id/ln_click_add_music_cloud_eye" android:background="@drawable/bg_radio_button_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <ImageView android:layout_width="28.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_singlemusic_music" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="15.0dip" android:textColor="@color/view_line" android:gravity="center_vertical" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="46.0dip" android:layout_marginLeft="18.0dip" android:maxWidth="260.0dip" android:minWidth="180.0dip" android:text="@string/editor_add_music" android:singleLine="true" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/rl_delete_music_cloud_eye" android:background="@drawable/bg_top_selector" android:layout_width="@dimen/bottom_rl_delete_width" android:layout_height="@dimen/bottom_rl_delete_width" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                <ImageView android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_music_del" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center_vertical" android:id="@id/ln_click_replace_music_cloud_eye" android:background="@drawable/bg_radio_button_selector" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/rl_delete_music_cloud_eye" android:layout_centerVertical="true" android:layout_toStartOf="@id/rl_delete_music_cloud_eye">
+                <ImageView android:layout_width="28.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_singlemusic_music" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="15.0dip" android:textColor="@color/view_line" android:gravity="center_vertical" android:id="@id/tv_music_name_cloud_eye" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="46.0dip" android:layout_marginLeft="18.0dip" android:maxWidth="@dimen/bottom_music_name_max_width" android:text="@string/editor_add_music" android:singleLine="true" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0dip" android:textColor="@color/view_line" android:id="@id/tv_music_duration_cloud_eye" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="01:08:08" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentRight="true">
+                    <ImageView android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="17.0dip" android:src="@drawable/ic_music_list" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/appbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetEnd="0.0dip" app:contentInsetStart="0.0dip" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/Toolbar_White_Theme_Color_Menu_Text" app:titleTextColor="@color/white" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_my_studio_tab" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+        <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/studio_nav_bar" android:layout_width="fill_parent" android:layout_height="@dimen/mystudio_tab_height">
+            <com.xvideostudio.videoeditor.view.RobotoMediumRadioButton android:textColor="@color/tab_mystudio_selector" android:id="@id/studio_nav_myvideo" android:checked="true" android:text="我的视频" style="@style/nav_bar_style_white" />
+            <com.xvideostudio.videoeditor.view.RobotoMediumRadioButton android:textColor="@color/tab_mystudio_selector" android:id="@id/studio_nav_draft" android:text="草稿箱" style="@style/nav_bar_style_white" />
+        </RadioGroup>
+        <ImageView android:id="@id/studio_nav_indicator" android:background="@color/light_pink" android:layout_width="100.0dip" android:layout_height="@dimen/slider_height" />
+    </LinearLayout>
+</com.google.android.material.appbar.AppBarLayout>

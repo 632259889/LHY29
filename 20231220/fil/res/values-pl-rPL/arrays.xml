@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gif_quality">
+        <item>Niska jakość</item>
+        <item>Średnia jakość</item>
+        <item>Wysoka jakość</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>Główna</item>
+        <item>Zawody</item>
+        <item>Inspiracja</item>
+        <item>Sugestia</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>Zapisz w pamięci telefonu</item>
+        <item>Zapisz w pamięci zewnętrznej</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>MOJE WERSJE ROBOCZE</item>
+        <item>MOJE PRACE</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>Czekaj cierpliwie. Nie opuszczaj bieżącej strony, w przeciwnym razie proces eksportowania zostanie zakończony.</item>
+        <item>Dzięki reklamom Filmigo jest bezpłatną aplikacją. Dziękujemy za zrozumienie. Możesz również pobrać wersję Pro, aby usunąć reklamy.</item>
+        <item>Jeśli wydajność telefonu jest niska, użycie dużych źródeł wideo lub dodanie zbyt wielu materiałów może doprowadzić do zakończenia eksportowania z niepowodzeniem. Spróbuj ponownie po usunięciu niektórych materiałów lub efektów.</item>
+        <item>Użyj cięcia ultra, aby pociąć jeden film na wiele części, a następnie szybko zapisać wszystkie klipy. Ta opcja jest bardzo użyteczna w celu odchudzenia filmów.</item>
+        <item>Przyjazne przypomnienie: TRYB SZYBKI zapewnia szybszą prędkość eksportowania wideo, ale eksportowany obraz będzie miał niższą rozdzielczość. TRYB potrzebuje więcej czasu na eksport, ale zapewnia też wyższą jakość.</item>
+        <item>Zwolnij lub przyspiesz wideo, klikając opcję „Prędkość” w obszarze „Edycja klipu”.</item>
+        <item>Po pomyślnym wyeksportowaniu wideo możesz zmienić jego nazwę w My Studio i udostępnić znajomym.</item>
+        <item>Kliknij „Wiele ścieżek muzycznych” w „Edycja Pro”, aby dodać wiele ścieżek muzycznych do jednego filmu.</item>
+        <item>Czekasz zbyt długo? Wypij filiżankę kawy i wróć! Twoje niesamowite wideo zostanie wyeksportowane!</item>
+        <item>W wielu trybach muzycznych można ustawić różne głośności dla różnych rodzajów muzyki.</item>
+        <item>W pełni wykorzystaj opcję „Naklejka”. Obsługuje wbudowane naklejki, własne obrazy i pliki GIF! Funkcja obsługuje również wiele warstw!</item>
+        <item>>Funkcja ekskluzywna: możesz dodawać muzykę podczas nagrywania! W ten sposób łatwo jest zrobić film z synchronizacją tańca.</item>
+        <item>Możesz zmienić kolory tła, klikając ikonę ustawień w prawym górnym rogu strony Studio edycji.</item>
+        <item>Powiększ wideo lub obraz. Dzięki temu możesz ustawić ostrość obrazu na wybraną pozycję. Kliknij „Edycja Pro” > „Edycja klipu” > „Powiększenie”.</item>
+        <item>Użyj opcji „Kompresuj wideo”, aby odchudzić swoje filmy i pomóc w szybszym udostępnianiu wideo, nawet jeśli przepustowość sieci jest niska. Kliknij „Kompresuj wideo” na stronie głównej.</item>
+        <item>Chcesz więcej funkcji? Wyślij e-mail na adres support@enjoy-global.com i powiedz nam o tym.</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>Przytnij</item>
+        <item>Usuń zaznaczoną część</item>
+    </string-array>
+</resources>

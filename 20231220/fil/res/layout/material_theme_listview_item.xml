@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_material_theme_fx_sticker_item" android:background="@color/color_share_facebook_ad_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/fl_material_material_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rl_material_material_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/fl_preview_material_item" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/iv_cover_material_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/ripple_bright_rectangle" android:src="@drawable/bg_store_image_normal" android:scaleType="fitXY" />
+                <com.xvideostudio.videoeditor.view.ApngImageView android:id="@id/iv_cover_apng_material_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/ripple_bright_rectangle" android:src="@drawable/bg_store_image_normal" android:scaleType="fitXY" />
+                <ImageView android:layout_gravity="bottom" android:id="@id/item_bg_gif" android:background="@drawable/bg_transition_shadow" android:layout_width="fill_parent" android:layout_height="54.0dip" />
+                <ImageView android:layout_gravity="end|center|top" android:id="@id/iv_new_material_item" android:layout_width="@dimen/store_tip_width" android:layout_height="@dimen/store_tip_height" android:layout_marginTop="@dimen/store_tip_margin_top" android:layout_marginRight="@dimen/store_tip_margin_right" android:src="@drawable/ic_material_viptip_square" android:layout_marginEnd="@dimen/store_tip_margin_right" />
+                <Button android:layout_gravity="start|bottom|center" android:id="@id/btn_preview_material_item" android:background="@drawable/btn_play_a_one" android:layout_width="@dimen/store_play_btn_size" android:layout_height="@dimen/store_play_btn_size" android:layout_marginLeft="@dimen/store_play_btn_margin_left" android:layout_marginBottom="@dimen/store_play_btn_margin_bottom" android:foreground="@drawable/ripple_bright_oval" android:layout_marginStart="@dimen/store_play_btn_margin_left" />
+                <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="17.5sp" android:textColor="@color/white" android:layout_gravity="start|bottom|center" android:id="@id/tv_material_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="17.0dip" />
+                <RelativeLayout android:layout_gravity="end|bottom|center" android:id="@id/btn_download_material_item" android:background="@drawable/bg_store_download_a_one" android:layout_width="@dimen/store_download_btn_width" android:layout_height="@dimen/store_download_btn_height" android:layout_marginRight="@dimen/store_download_btn_margin_right" android:layout_marginBottom="@dimen/store_download_btn_margin_bottom" android:foreground="@drawable/ripple_bright_rectangle" android:layout_marginEnd="@dimen/store_download_btn_margin_right">
+                    <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="@dimen/sp_12" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/tv_download_material_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/material_downlaod_state" android:singleLine="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </FrameLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_ad_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_dialog_message">
+        <item>Önizleme Yap</item>
+        <item>Paylaş</item>
+        <item>Sil</item>
+        <item>Yeniden Adlandır</item>
+        <item>Ayrıntılar</item>
+    </string-array>
+    <string-array name="draftbox_dialog_message">
+        <item>Düzenle</item>
+        <item>Sil</item>
+    </string-array>
+    <string-array name="gif_quality">
+        <item>Düşük Kalite</item>
+        <item>Orta Kalite</item>
+        <item>Yüksek Kalite</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>Ana Sayfa</item>
+        <item>İlham</item>
+        <item>Öneri</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>Göster</item>
+        <item>Paylaş</item>
+        <item>Sil</item>
+        <item>Yeniden Adlandır</item>
+        <item>Ayrıntılar</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>Telefon belleğine kaydedin</item>
+        <item>Harici belleğe kaydedin</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>BENIM DAVULLAR</item>
+        <item>ÇALIŞMALARIM</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>Lütfen başarılı bir şekilde hazırladığın ayrıntılı videoyu izlemek için sabırla burada bekle. Yoksa, bu sayfanın dışına çıktığında dışa aktarım başarısız olabilir.</item>
+        <item>Reklamlar Filmigo’un ücretsiz bir uygulama olarak kalmasına yardımcı olur. Anlayışınız için teşekkür ederiz. Reklamları kaldırmak için Pro sürüme yükseltebilirsiniz.</item>
+        <item>Telefonunuzda düşük yapılandırma, çok büyük video kaynağı veya çok fazla materyal kullanımı dışa aktarımın başarısız olmasına neden olabilir. O yüzden, lütfen bazı materyalleri sildikten sonra tekrar deneyin.</item>
+        <item>Bir videodan birden fazla bölümü kırpmak için \"Ultra Kesme\"yi kullanın ve hızlıca kaydedin. Büyük bir videoyu küçültmek için bu oldukça kullanışlı bir özelliktir.</item>
+        <item>Dostça Bir Hatırlatma: HIZLI MOD hızla dışa aktarımdır ancak video çözünürlüğü düşüktür. HD MODUNDA ise daha yüksek kaliteyle dışa aktarım daha fazla zaman almaktadır.</item>
+        <item>\"Klip Düzenle\"de bulunan \"Hız\"a tıklayarak videoyu hızlandırabilir veya yavaşlatabilirsiniz.</item>
+        <item>Video başarılı bir şekilde dışa aktarıldıktan sonra Stüdyom alanında yeniden adlandırabilir veya arkadaşlarınızla paylaşabilirsiniz.</item>
+        <item>Bir videoya birden fazla müzik eklemek için \"Pro Düzenle\" içerisindeki \"Çoklu Müzik\"i kullanabilirsiniz.</item>
+        <item>Dışa aktarım çok zaman mı alıyor? Bir fincan kahve içmeyi tercih ederseniz size muhteşem bir video gösterilecek.</item>
+        <item>Çoklu müzik modunda, farklı müzik için farklı ses şiddetleri ayarlayabilirsiniz.</item>
+        <item>\"Etiket\" özelliğini tamamıyla kullanın. Dahili etiketleri, kendinize ait resimleri, Gif’leri destekler. Ayrıca, çoklu katmanları da destekler!</item>
+        <item>Özel: Müsik video çekimi. Müzik çalarken video kaydetme. dancep-sync video çekimi oldukça faydalıdır.</item>
+        <item>Düzenleme Stüdyosunda sağ üst köşedeki ayar simgesine tıklayarak arka plan rengini değiştirebilirsiniz.</item>
+        <item>Videoyu ve resmi yakınlaştırın, istediğiniz pozisyonda video yakınlaştırmanızı yapın. Click \"Pro Düzenle\" > \"Klip Düzenle\" > \"Yakınlaştır\"a tıklayın.</item>
+        <item>Videoyu küçültmek ve daha düşük ağ bant genişliği ile paylaşmak için \"Video sıkıştır\"ı kullanın. Ana sayfada \"Video Sıkıştır\"ı kullanın.</item>
+        <item>Daha fazla özellik mi istiyorsunuz? support@enjoy-global.com adresine e-posta yazmaktan ve bize anlatmaktan çekinmeyin.</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>Kes</item>
+        <item>Seçilen Kısmı Sil</item>
+    </string-array>
+    <string-array name="video_dialog_message">
+        <item>Önizleme Yap</item>
+        <item>Videoyu Düzenle</item>
+        <item>Paylaş</item>
+        <item>Sil</item>
+        <item>Yeniden Adlandır</item>
+        <item>Ayrıntılar</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/transparent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_ad_banner_view" android:background="@drawable/materials_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <ImageView android:id="@id/iv_left" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/materials_ic_banner_gift" />
+        <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/material_unlock" android:layout_toLeftOf="@id/iv_right" android:layout_toRightOf="@id/iv_left" />
+        <ImageView android:id="@id/iv_right" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/materials_ic_banner_close" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

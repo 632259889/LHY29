@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivClose" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" android:src="@drawable/ic_incentive_insert_close" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout android:id="@id/rlRemoveAdsP" android:background="@drawable/bg_dialog_remove_ads" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_60" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/ivClose">
+        <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:textSize="@dimen/dp_16" android:textColor="@color/color_333333" android:gravity="center" android:id="@id/tvVipRemoveAds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_62" android:text="@string/string_remove_ads" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/rlRemoveAds" android:background="@drawable/btn_incetive_interstitial_ok_selector" android:layout_width="fill_parent" android:layout_height="@dimen/dp_70" android:layout_marginLeft="@dimen/dp_16" android:layout_marginTop="@dimen/dp_20" android:layout_marginRight="@dimen/dp_16" android:layout_below="@id/tvVipRemoveAds">
+            <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="@dimen/dp_16" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/dp_210" android:minHeight="@dimen/dp_47" android:text="@string/string_remove_ads_bt" android:lines="1" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/dp_84" app:layout_constraintTop_toBottomOf="@id/rlRemoveAdsP" />
+    <ImageView android:id="@id/ivNoAds" android:layout_width="@dimen/dp_120" android:layout_height="@dimen/dp_120" android:src="@drawable/ic_incentive_noads" android:scaleType="fitXY" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/ivClose" />
+</androidx.constraintlayout.widget.ConstraintLayout>

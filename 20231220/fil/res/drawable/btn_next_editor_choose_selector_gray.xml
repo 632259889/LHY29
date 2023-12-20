@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="13.0dip" />
+            <solid android:color="@color/editor_label_time_color" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="13.0dip" />
+            <solid android:color="@color/colorUncheck" />
+        </shape>
+    </item>
+</selector>

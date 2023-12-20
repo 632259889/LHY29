@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/fl_add_sticer_by_taking_picture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <ImageButton android:background="@drawable/bg_add_sticker_take_picture_selector" android:layout_width="@dimen/emoji_item_height" android:layout_height="@dimen/emoji_item_height" />
+            <ImageView android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/bg_store_newtip" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_add_sticer_by_select_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_toRightOf="@id/fl_add_sticer_by_taking_picture">
+            <ImageButton android:background="@drawable/bg_add_sticker_select_photo_selector" android:layout_width="@dimen/emoji_item_height" android:layout_height="@dimen/emoji_item_height" />
+            <ImageView android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/bg_store_newtip" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_add_sticer_by_select_gif" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_toRightOf="@id/fl_add_sticer_by_select_photo">
+            <ImageButton android:background="@drawable/bg_add_sticker_select_photo_selector" android:layout_width="@dimen/emoji_item_height" android:layout_height="@dimen/emoji_item_height" />
+            <ImageView android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/bg_store_newtip" />
+        </FrameLayout>
+        <FrameLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_toRightOf="@id/fl_add_sticer_by_select_gif">
+            <ImageButton android:background="@drawable/bg_add_sticker_draw_picture_selector" android:layout_width="@dimen/emoji_item_height" android:layout_height="@dimen/emoji_item_height" />
+            <ImageView android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/bg_store_newtip" />
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

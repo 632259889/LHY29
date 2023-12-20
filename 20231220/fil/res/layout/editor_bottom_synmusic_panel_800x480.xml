@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/editor_toolbox_container_synmusic" android:background="@color/colorPrimary" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/toolbox_group_synmusic" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <com.xvideostudio.videoeditor.view.RobotoMediumRadioButton android:id="@id/toolbox_theme_synmusic" android:checked="true" android:text="@string/toolbox_theme" style="@style/toolbox_tab" />
+        <com.xvideostudio.videoeditor.view.RobotoMediumRadioButton android:id="@id/toolbox_preset_music_synmusic" android:text="@string/toolbox_music" style="@style/toolbox_tab" />
+        <com.xvideostudio.videoeditor.view.RobotoMediumRadioButton android:id="@id/toolbox_preset_time_synmusic" android:text="@string/editor_mode_easy_speed" style="@style/toolbox_tab" />
+    </RadioGroup>
+    <ImageView android:id="@id/editor_nav_indicator_synmusic" android:background="@color/theme_color" android:layout_width="60.0dip" android:layout_height="@dimen/slider_height" />
+    <View android:background="@color/dialog_view_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="90.0dip">
+        <com.xvideostudio.videoeditor.view.HorizontalListView android:layout_gravity="center_vertical" android:id="@id/ln_editor_theme_synmusic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" />
+        <RelativeLayout android:id="@id/ln_editor_duration_synmusic" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_centerInParent="true">
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="11.0sp" android:textColor="@color/view_line" android:id="@id/seek_text_1_synmusic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/editor_mode_easy_speed_min" android:layout_centerVertical="true" />
+                <SeekBar android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:progress="50" android:layout_toLeftOf="@id/seek_text_2_synmusic" android:layout_toRightOf="@id/seek_text_1_synmusic" android:layout_centerVertical="true" style="@style/seekbar_style_tapsyn_speed" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="11.0sp" android:textColor="@color/view_line" android:id="@id/seek_text_2_synmusic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/editor_mode_easy_speed_max" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <ImageView android:background="@drawable/editor_mode_easy_seekbar_anchor_selector" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/ln_editor_music_new_synmusic" android:background="@drawable/bg_radio_button_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:id="@id/ln_click_add_music_synmusic" android:background="@drawable/bg_radio_button_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <ImageView android:layout_width="28.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_singlemusic_music" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="15.0dip" android:textColor="@color/view_line" android:gravity="center_vertical" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="46.0dip" android:layout_marginLeft="18.0dip" android:maxWidth="260.0dip" android:minWidth="180.0dip" android:text="@string/editor_add_music" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:id="@id/ln_click_replace_music_synmusic" android:background="@drawable/bg_radio_button_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/rl_delete_music_synmusic" android:layout_centerVertical="true">
+                <ImageView android:layout_width="28.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_singlemusic_music" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="15.0dip" android:textColor="@color/view_line" android:gravity="center_vertical" android:id="@id/tv_music_name_synmusic" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="46.0dip" android:layout_marginLeft="18.0dip" android:maxWidth="@dimen/bottom_music_name_max_width" android:text="@string/editor_add_music" android:singleLine="true" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0dip" android:textColor="@color/view_line" android:id="@id/tv_music_duration_synmusic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="01:08:08" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <ImageView android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="17.0dip" android:src="@drawable/ic_music_list" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout android:id="@id/rl_delete_music_synmusic" android:background="@drawable/bg_top_selector" android:layout_width="@dimen/bottom_rl_delete_width" android:layout_height="@dimen/bottom_rl_delete_width" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <ImageView android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_music_del" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

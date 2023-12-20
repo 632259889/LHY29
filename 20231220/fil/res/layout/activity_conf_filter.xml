@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar" />
+    <RelativeLayout android:background="@color/theme_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/bottom" android:layout_width="fill_parent" android:layout_height="@dimen/common_bottom" android:layout_alignParentBottom="true">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/hlv_fx" android:background="@color/storyBoardAboveViewColor" android:layout_width="fill_parent" android:layout_height="92.0dip" android:listSelector="@color/transparent" />
+            <com.xvideostudio.videoeditor.view.StoryBoardViewOne android:id="@id/choose_storyboard_view_fx" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" app:board_background="@color/storyBoardBgConfig" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/lb_clip_tools" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom" android:layout_alignParentTop="true">
+            <FrameLayout android:id="@id/conf_preview_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <hl.productor.aveditor.AmLiveWindow android:gravity="center" android:id="@id/conf_rl_fx_openglview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <RelativeLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <RelativeLayout android:background="@drawable/ic_timeline_mask" android:layout_width="fill_parent" android:layout_height="@dimen/fastsetting_icon_width" android:layout_alignParentBottom="true" />
+                    <Button android:id="@id/conf_btn_preview" android:background="@drawable/ic_proeditor_play" android:layout_width="@dimen/fastsetting_icon_width" android:layout_height="@dimen/fastsetting_icon_width" android:layout_marginLeft="16.0dip" android:foreground="@drawable/ripple_bright_oval" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" />
+                    <Button android:id="@id/bt_autofx_editor_activity" android:background="@drawable/ic_filter_set" android:layout_width="@dimen/fastsetting_icon_width" android:layout_height="@dimen/fastsetting_icon_width" android:layout_marginRight="16.0dip" android:foreground="@drawable/ripple_bright_oval" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+                    <com.xvideostudio.videoeditor.view.ValueMoveSeekBar android:id="@id/filterPowerSeekBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.669983dip" android:layout_marginRight="18.669983dip" android:layout_marginBottom="6.5dip" android:layout_toLeftOf="@id/bt_autofx_editor_activity" android:layout_toRightOf="@id/conf_btn_preview" android:layout_alignParentBottom="true" android:layout_marginStart="18.669983dip" android:layout_marginEnd="18.669983dip" android:layout_toStartOf="@id/bt_autofx_editor_activity" android:layout_toEndOf="@id/conf_btn_preview" />
+                    <RelativeLayout android:id="@id/rlSpeedSeekbar" android:layout_width="fill_parent" android:layout_height="@dimen/dp_47" android:layout_toLeftOf="@id/bt_autofx_editor_activity" android:layout_toRightOf="@id/conf_btn_preview" android:layout_alignParentBottom="true" android:layout_toStartOf="@id/bt_autofx_editor_activity" android:layout_toEndOf="@id/conf_btn_preview">
+                        <RelativeLayout android:id="@id/rlStartTime" android:layout_width="@dimen/dp_55" android:layout_height="fill_parent">
+                            <TextView android:textSize="@dimen/sp_11" android:textColor="@color/white" android:gravity="center" android:id="@id/tvStartTime" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="00:00:0" android:layout_centerInParent="true" />
+                        </RelativeLayout>
+                        <com.xvideostudio.videoeditor.tool.SpeedMSeekbarNew android:id="@id/editorClipSeekbar" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_toLeftOf="@id/rlEndTime" android:layout_toRightOf="@id/rlStartTime" android:layout_centerVertical="true" android:layout_toStartOf="@id/rlEndTime" android:layout_toEndOf="@id/rlStartTime" />
+                        <RelativeLayout android:id="@id/rlEndTime" android:layout_width="@dimen/dp_55" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+                            <TextView android:textSize="@dimen/sp_11" android:textColor="@color/white" android:gravity="center" android:id="@id/tvEndTime" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="00:00:0" android:layout_centerInParent="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+                <ImageView android:layout_gravity="end|bottom|center" android:id="@id/filter_contrast" android:layout_width="@dimen/fastsetting_icon_width" android:layout_height="@dimen/fastsetting_icon_width" android:layout_marginRight="16.0dip" android:layout_marginBottom="71.32999dip" android:src="@drawable/ic_filter_contrast" android:layout_marginEnd="16.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+        <com.xvideostudio.videoeditor.view.SeekVolume android:id="@id/volumeSeekBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</LinearLayout>

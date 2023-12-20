@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/main_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/rl_theme_title" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_pop_theme_title_line_height">
+                <TextView android:textSize="@dimen/bottom_pop_button_text_size" android:textColor="@color/bottom_pop_text_color" android:ellipsize="none" android:gravity="center_vertical" android:id="@id/start_label" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bottom_pop_theme_title_text_marginleft" android:text="@string/theme_clip_start_choose" android:lines="2" android:layout_centerVertical="true" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_duration_label_margin_left" android:layout_toRightOf="@id/start_label" android:layout_centerVertical="true">
+                    <EditText android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/et_theme_title_input" android:background="@drawable/bg_underline3" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_pop_theme_title_text_height" android:layout_marginLeft="@dimen/bottom_pop_theme_title_text_marginleft2" android:hint="" android:singleLine="true" android:maxLength="100" android:inputType="text" android:textCursorDrawable="@drawable/edit_cursor" />
+                </LinearLayout>
+            </RelativeLayout>
+            <ImageView android:id="@id/iv_underline_theme_title" android:background="@color/colorAccent" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:layout_marginLeft="@dimen/bottom_pop_theme_title_text_marginleft" />
+            <RelativeLayout android:id="@id/rl_theme_tail" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_pop_theme_title_line_height">
+                <TextView android:textSize="@dimen/bottom_pop_button_text_size" android:textColor="@color/bottom_pop_text_color" android:ellipsize="none" android:gravity="center_vertical" android:id="@id/end_label" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bottom_pop_theme_title_text_marginleft" android:text="@string/theme_clip_end_choose" android:lines="2" android:layout_centerVertical="true" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_duration_label_margin_left" android:layout_toRightOf="@id/end_label" android:layout_centerVertical="true">
+                    <EditText android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/et_theme_tail_input" android:background="@drawable/bg_underline3" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_pop_theme_title_text_height" android:layout_marginLeft="@dimen/bottom_pop_theme_title_text_marginleft2" android:hint="" android:singleLine="true" android:maxLength="100" android:inputType="text" android:textCursorDrawable="@drawable/edit_cursor" />
+                </LinearLayout>
+            </RelativeLayout>
+            <ImageView android:id="@id/iv_underline_theme_tail" android:background="@color/colorUncheck" android:layout_width="fill_parent" android:layout_height="0.70000005dip" android:layout_marginLeft="@dimen/bottom_pop_theme_title_text_marginleft" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_pop_theme_title_check_height">
+                <CheckBox android:textSize="14.0sp" android:textColor="#ffd9d9d9" android:id="@id/cb_theme_clip_start_choose" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:text="@string/theme_clip_start_choose_a" android:drawablePadding="@dimen/dialog_radio_button_drawable_padding" style="@style/CustomCheckboxTheme" />
+                <CheckBox android:textSize="14.0sp" android:textColor="#ffd9d9d9" android:id="@id/cb_theme_clip_end_choose" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bottom_pop_theme_title_check_marginleft" android:checked="true" android:button="@null" android:text="@string/theme_clip_end_choose_b" android:drawablePadding="@dimen/dialog_radio_button_drawable_padding" style="@style/CustomCheckboxTheme" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/bottom_pop_button_height">
+            <com.xvideostudio.videoeditor.view.RobotoBoldButton android:textSize="@dimen/bottom_pop_button_text_size" android:textColor="@color/colorAccent" android:id="@id/bt_dialog_ok" android:background="@drawable/bottom_pop_button_selector" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_pop_button_height" android:text="@string/ok" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

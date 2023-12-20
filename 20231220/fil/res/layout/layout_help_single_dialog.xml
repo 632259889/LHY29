@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:wheel="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" wheel:cardBackgroundColor="@color/color_23232C" wheel:cardCornerRadius="@dimen/dp_14">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_18" android:layout_marginRight="@dimen/dp_18">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_24">
+                <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="@dimen/dp_18" android:textColor="@color/white" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dp_240" android:text="@string/string_help_center" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/ivClose" android:layout_width="@dimen/dp_27" android:layout_height="@dimen/dp_27" android:foreground="@drawable/ripple_bright_oval" android:src="@drawable/btn_guide_close" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="@dimen/dp_205" android:layout_marginTop="@dimen/dp_18" android:layout_marginBottom="@dimen/dp_14" wheel:cardBackgroundColor="@color/color_0A0B0C" wheel:cardCornerRadius="@dimen/dp_10">
+                <RelativeLayout android:id="@id/rlPlay" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.xvideostudio.videoeditor.view.TextureVideoViewAdaptive android:id="@id/videoView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+                    <ImageView android:id="@id/ivPlay" android:layout_width="@dimen/dp_60" android:layout_height="@dimen/dp_60" android:foreground="@drawable/ripple_bright_oval" android:src="@drawable/btn_play_a_one" android:layout_centerInParent="true" />
+                    <com.xvideostudio.videoeditor.tool.ProgressWheel android:id="@id/progressWheel" android:visibility="gone" android:layout_width="@dimen/dp_60" android:layout_height="@dimen/dp_60" android:layout_centerInParent="true" wheel:matProg_barColor="@color/wheel_custom_color" wheel:matProg_progressIndeterminate="true" />
+                    <RelativeLayout android:background="@drawable/shape_guide_play_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp_30" android:layout_alignParentBottom="true">
+                        <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:textSize="@dimen/dp_10" android:textColor="@color/white" android:id="@id/tvStartTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_6" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_6" />
+                        <SeekBar android:id="@id/seekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_6" android:layout_marginRight="@dimen/dp_6" android:maxHeight="@dimen/dp_3" android:progressDrawable="@drawable/bg_seekbar_progress_drawable" android:thumb="@drawable/seekbar_thumb_volume_normal" android:layout_toLeftOf="@id/tvEndTime" android:layout_toRightOf="@id/tvStartTime" android:layout_centerVertical="true" android:layout_toStartOf="@id/tvEndTime" android:layout_toEndOf="@id/tvStartTime" />
+                        <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:textSize="@dimen/dp_10" android:textColor="@color/white" android:id="@id/tvEndTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_6" android:layout_toLeftOf="@id/ivScreen" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_6" android:layout_toStartOf="@id/ivScreen" />
+                        <ImageView android:id="@id/ivScreen" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" android:layout_marginRight="@dimen/dp_4" android:foreground="@drawable/ripple_bright_oval" android:src="@drawable/btn_helpcenter_fullscreen" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_4" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/dp_12" android:textColor="@color/color_white_50" android:id="@id/tvQuestionDes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4" android:layout_marginBottom="@dimen/dp_28" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

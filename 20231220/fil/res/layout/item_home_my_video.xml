@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/ll_my_studo" android:paddingTop="@dimen/dp_9" android:paddingBottom="@dimen/dp_9" android:layout_width="fill_parent" android:layout_height="@dimen/dp_98">
+        <androidx.cardview.widget.CardView android:id="@id/iv_seven_card_video" android:layout_width="@dimen/dp_153" android:layout_height="@dimen/dp_80" app:cardCornerRadius="@dimen/dp_8" app:cardElevation="1.0dip">
+            <ImageView android:id="@id/iv_thumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:enabled="true" android:textSize="8.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_duration" android:background="@drawable/bg_myvideo_seven_during_text" android:padding="@dimen/dp_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_6" android:layout_marginTop="@dimen/dp_8" android:text="00:33" android:textDirection="locale" android:layout_marginStart="@dimen/dp_6" />
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_14" android:layout_marginRight="@dimen/dp_11" android:layout_toLeftOf="@id/rl_more_menu" android:layout_toRightOf="@id/iv_seven_card_video" android:layout_centerVertical="true" android:layout_toStartOf="@id/rl_more_menu" android:layout_toEndOf="@id/iv_seven_card_video">
+            <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:textSize="@dimen/music_text_size_2" android:textColor="@color/color_99A6A0C5" android:ellipsize="end" android:id="@id/tv_title" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_6" android:text="Video Title" android:maxLines="2" android:layout_alignParentTop="true" android:textDirection="locale" />
+            <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:enabled="true" android:textSize="10.0sp" android:textColor="@color/color_99A6A0C5" android:gravity="left" android:id="@id/tv_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_6" android:text="05/19/2014" android:maxLines="1" android:layout_alignParentBottom="true" android:textDirection="locale" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_more_menu" android:background="@drawable/ripple_bright_rectangle" android:layout_width="@dimen/dp_14" android:layout_height="@dimen/dp_28" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/dp_14" android:layout_alignParentEnd="true">
+            <ImageView android:layout_width="@dimen/dp_14" android:layout_height="@dimen/dp_28" android:src="@drawable/btn_home_stuido_more" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

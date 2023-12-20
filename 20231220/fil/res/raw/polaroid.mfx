@@ -1,0 +1,34 @@
+HLX Version 100
+PixelShader<<<
+#ifdef GL_ES
+precision mediump float;
+precision mediump int;
+#endif
+
+uniform float time;
+uniform float duration;
+uniform sampler2D hl_images[4];
+uniform int object_id;
+uniform vec2 hl_target_size;
+varying vec2 hlf_texcoord;
+void main(){
+	vec2 uv = hlf_texcoord;
+	vec4 color = vec4(1, 1, 1, 1);
+	if (object_id == 0)
+	{
+		color = texture2D(hl_images[1], uv);
+		
+	}
+	if (object_id >0)
+	{
+		color = texture2D(hl_images[0], uv);
+	}
+	
+const mat4 mat = mat4(1.438, -0.062, -0.062, 0.0,
+	                      -0.122, 1.378, -0.122, 0.0,
+	                      -0.016, -0.016, 1.483, 0.0,
+	                      -0.03, 0.05, -0.02, 0.0);
+	gl_FragColor = mat*color;
+}
+
+>>>PixelShader

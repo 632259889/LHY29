@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="50.0dip">
+        <TextView android:textSize="10.669983sp" android:textColor="#ffa9a7ae" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        <ImageView android:id="@id/mark" android:background="@drawable/ic_vip_gradient_mark" android:visibility="gone" android:layout_width="24.299988dip" android:layout_height="13.699982dip" android:layout_marginLeft="5.0dip" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.669983dip">
+        <RelativeLayout android:id="@id/selectedImgLay" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="13.0dip" android:layout_marginStart="13.0dip">
+            <ImageView android:id="@id/selectedImg" android:layout_width="22.0dip" android:layout_height="22.0dip" android:foreground="@drawable/ripple_bright_oval" android:src="@drawable/background_color_selector" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/colorRecyclerView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_toRightOf="@id/selectedImgLay" android:layout_alignTop="@id/selectedImgLay" android:layout_alignBottom="@id/selectedImgLay" android:layout_alignParentRight="true" android:layout_marginStart="13.0dip" android:layout_toEndOf="@id/selectedImgLay" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

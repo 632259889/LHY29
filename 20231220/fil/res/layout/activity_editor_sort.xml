@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/theme_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_toolbar" />
+    <RelativeLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/mRecyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll_item" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/ll_item" android:background="#ff242328" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="14.0dip" android:textColor="#ffcfced2" android:gravity="center" android:id="@id/sort_tag" android:layout_width="wrap_content" android:layout_height="@dimen/material_download_button_height" android:layout_marginRight="30.0dip" android:foreground="@drawable/ripple_bright_rectangle" android:text="@string/sort_activity_tag_normal" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="30.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+V7.6.4
+La plataforma de mensajería en la nube VideoShow coopera con aparece un error.
+Ha causado que la aplicación reciba notificaciones reiteradas.
+Ahora esta versión actualizada ha resuelto el problema.
+Por favor, actualice a la versión 7.6.4.
+Lo siento por la inconveniencia.

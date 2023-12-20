@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_dialog_message">
+        <item>Voorbeeld</item>
+        <item>Delen</item>
+        <item>Verwijderen</item>
+        <item>Naam wijzigen</item>
+        <item>Details</item>
+    </string-array>
+    <string-array name="draftbox_dialog_message">
+        <item>Bewerken</item>
+        <item>Verwijderen</item>
+    </string-array>
+    <string-array name="gif_quality">
+        <item>Lage kwaliteit</item>
+        <item>Medium kwaliteit</item>
+        <item>Hoge kwaliteit</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>Start</item>
+        <item>Inspiratie</item>
+        <item>Suggestie</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>Toon</item>
+        <item>Delen</item>
+        <item>Verwijderen</item>
+        <item>Naam wijzigen</item>
+        <item>Details</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>Opslaan in het telefoongeheugen</item>
+        <item>Opslaan in het externe geheugen</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>MIJN DRAFTS</item>
+        <item>MIJN WERK</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>Wacht geduldig totdat je de volledige door jou gemaakte video kunt bekijken. Als je het scherm verlaat mislukt het exporteren.</item>
+        <item>Advertenties zorgen dat Filmigo een gratis app kan blijven. Bedankt voor je begrip. Je kunt upgraden naar de Pro-versie om advertenties te verwijderen.</item>
+        <item>Als je mobiel niet zo krachtig is, de videobron te groot is of er te veel materialen gebruikt worden, kan het exporteren mislukken. Probeer het opnieuw na het verwijderen van wat beeldmateriaal.</item>
+        <item>Gebruik \"Ultracut\" om meerdere delen uit een video te snijden en snel op te slaan. Het is een erg handige functie waarmee je een grote video kan verkleinen.</item>
+        <item>Herinnering: SNELLE MODUS heeft een hoge exporteersnelheid maar een lage kwaliteit. HD-MODUS neemt langer de tijd maar exporteert met hogere kwaliteit.</item>
+        <item>Vertraag of versnel de video door op \"Snelheid\" te klikken in \"Clip bewerken\".</item>
+        <item>Nadat het exporteren van de video is geslaagd, kun je hem in Mijn Studio hernoemen of delen met je vrienden.</item>
+        <item>Klik op \"Multi-muziek\" in \"Pro bewerken\" om verschillende muziek aan een video toe te voegen.</item>
+        <item>Duurt het exporteren te lang? We laten je graag een leuke video zien terwijl je geniet van een kop koffie.</item>
+        <item>In de modus met verschillende muziek kun je het volume voor elke muziek anders instellen.</item>
+        <item>"Maak optimaal gebruik van \"Sticker\". De functie ondersteunt ingebouwde stickers, je eigen afbeeldingen en GIF's. Bovendien worden meerdere lagen ondersteund!"</item>
+        <item>Exclusief: muziekvideo-opname. Neem video op terwijl je muziek afspeelt. Dit kan erg handig zijn om een dansvideo op te nemen die synchroon met de muziek loopt.</item>
+        <item>Je kunt de achtergrondkleur wijzigen door rechtsboven in de Bewerkingsstudio op het instellingenicoontje te klikken.</item>
+        <item>Zoom in op de video en afbeelding, breng in je video in beeld wat jij wilt laten zien. Klik op \"Pro bewerken\" > \"Clip bewerken\" > \"Zoomen\".</item>
+        <item>Gebruik \"Video comprimeren\" om de video te verkleinen, zodat je deze sneller kunt delen via netwerken met weinig bandbreedte. Klik op de startpagina op \"Video comprimeren\".</item>
+        <item>Wil je meer functies? Stuur gerust een e-mailtje naar support@enjoy-global.com en laat het ons weten.</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>Bijsnijden</item>
+        <item>Verwijder geselecteerde deel</item>
+    </string-array>
+    <string-array name="video_dialog_message">
+        <item>Voorbeeld</item>
+        <item>Video bewerken</item>
+        <item>Delen</item>
+        <item>Verwijderen</item>
+        <item>Naam wijzigen</item>
+        <item>Details</item>
+    </string-array>
+</resources>

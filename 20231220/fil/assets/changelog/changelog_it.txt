@@ -1,0 +1,6 @@
+V7.6.4
+Piattaforma di messaggistica Cloud VideoShow collabora con un bug.
+Ha causato che l'applicazione può ricevere notifiche ripetute.
+Ora questa versione aggiornata ha risolto il problema.
+Aggiorna la versione 7.6.4.
+Quindi dispiaciuto per l'inconveniente.

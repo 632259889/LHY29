@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_exit_ad_view" android:background="@color/main_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_top_icon" android:background="@drawable/bg_ad_gift" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="12.0dip" android:scaleType="centerCrop" />
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="18.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_ad_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exit_ad_title_name" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_ad" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/rl_ad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip">
+                <ImageView android:id="@id/iv_icon_ad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+                <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:textSize="12.0sp" android:textColor="@color/white" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="3.0dip" android:text="@string/facebook_ad_sponsored_tip" android:maxLines="1" android:shadowColor="@color/black" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            </RelativeLayout>
+            <RelativeLayout android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="16.0dip">
+                <RelativeLayout android:id="@id/rl_ad_icon" android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_marginRight="8.0dip">
+                    <ImageView android:id="@id/iv_app_icon" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="centerCrop" />
+                    <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/material_ad_icon" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_app_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/rl_ad_icon" android:layout_alignTop="@id/rl_ad_icon">
+                    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="16.0sp" android:textColor="@color/white" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/tv_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" />
+                </RelativeLayout>
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tv_app_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="content about appssssssssssss content about appssssssssssss conte\ncontent about appssssssssssss content about appssssssssssss conte" android:lines="2" android:layout_toRightOf="@id/rl_ad_icon" android:layout_below="@id/rl_app_name" android:layout_alignBottom="@id/rl_ad_icon" />
+            </RelativeLayout>
+            <com.xvideostudio.videoeditor.view.RobotoMediumButton android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/btn_install" android:background="#ff3197ff" android:clickable="false" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="install" android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.xvideostudio.videoeditor.view.RobotoMediumButton android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/exit_confirmation" android:background="@color/main_title_bg" android:layout_width="fill_parent" android:layout_height="46.0dip" android:text="@string/exit_ad_btn_name" android:textAllCaps="false" />
+</LinearLayout>

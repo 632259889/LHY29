@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:pangle="http://schemas.android.com/apk/com.bytedance.sdk.component">
+    <FrameLayout android:layout_gravity="center" android:id="@id/tt_video_reward_container" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <com.bytedance.sdk.openadsdk.component.reward.view.RFDownloadBarLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/tt_video_reward_bar" android:background="@drawable/tt_reward_full_new_bar_bg" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="76.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="14.0dip" android:paddingStart="15.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/tt_lp_new_style_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.bytedance.sdk.component.widget.SSWebView android:id="@id/tt_reward_browser_webview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layerType="hardware" pangle:tt_delay_init="true" />
+    <com.bytedance.sdk.component.widget.SSWebView android:id="@id/tt_browser_webview_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bottom_pop_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_emojis_tab" android:layout_width="fill_parent" android:layout_height="@dimen/emoji_tab_height" android:layout_alignParentTop="true">
+        <com.xvideostudio.videoeditor.emoji.PagerSlidingTabStrip android:id="@id/emojis_tab" android:background="@color/bottom_pop_bg" android:layout_width="fill_parent" android:layout_height="@dimen/emoji_tab_height" android:layout_marginLeft="@dimen/emoji_tab_width" android:layout_marginRight="@dimen/emoji_tab_width" app:pstsDividerColor="#ffebebed" app:pstsDividerPadding="0.0dip" app:pstsIndicatorColor="@color/theme_color" app:pstsIndicatorHeight="3.0dip" app:pstsShouldExpand="false" app:pstsTabBackground="@drawable/bg_emoji_navigation" app:pstsTabPaddingLeftRight="0.0dip" app:pstsUnderlineColor="@color/sticker_navigationline_color" app:pstsUnderlineHeight="0.0dip" />
+        <RelativeLayout android:layout_gravity="left" android:id="@id/rl_add_emoji" android:background="@color/bottom_pop_bg" android:clickable="true" android:layout_width="@dimen/emoji_add_tab_width" android:layout_height="@dimen/emoji_tab_height">
+            <View android:background="#ffebebed" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <ImageView android:visibility="visible" android:layout_width="@dimen/bottom_pop_sticker_tab_button_size" android:layout_height="@dimen/bottom_pop_sticker_tab_button_size" android:src="@drawable/ic_sticker_download" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/iv_new_emoji_emoji_layout" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/bg_store_newtip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        </RelativeLayout>
+        <View android:layout_gravity="bottom" android:background="@color/black_light_2" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:layout_gravity="right" android:id="@id/rl_setting_emoji" android:background="@color/bottom_pop_bg" android:clickable="true" android:layout_width="@dimen/emoji_add_tab_width" android:layout_height="@dimen/emoji_tab_height">
+            <ImageView android:layout_width="@dimen/bottom_pop_sticker_tab_button_size" android:layout_height="@dimen/bottom_pop_sticker_tab_button_size" android:src="@drawable/emoji_setting_navigation" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <View android:layout_gravity="bottom" android:background="@color/black_light_2" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </FrameLayout>
+    <com.xvideostudio.videoeditor.tool.MyViewPagerEmoji android:id="@id/emojis_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fl_emojis_tab" android:layout_alignParentBottom="true" />
+</RelativeLayout>

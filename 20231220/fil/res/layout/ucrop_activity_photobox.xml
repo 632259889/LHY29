@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ucrop_photobox" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_layout" layout="@layout/layout_toolbar" />
+    <FrameLayout android:id="@id/ucrop_frame" android:background="@color/ucrop_color_crop_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/ucrop_height_wrapper" android:layout_below="@id/toolbar_layout">
+        <com.yalantis.ucrop.view.UCropView android:id="@id/ucrop" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    </FrameLayout>
+</RelativeLayout>

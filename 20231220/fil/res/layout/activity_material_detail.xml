@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/material_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ppv="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_white_toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="85.0dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/iv_material_icon_emoji_detail" android:layout_width="51.599976dip" android:layout_height="51.599976dip" android:src="@drawable/ic_load_bg" android:scaleType="fitXY" android:layout_centerVertical="true" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_toRightOf="@id/iv_material_icon_emoji_detail" android:layout_centerVertical="true">
+                        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="16.0sp" android:textColor="@color/black_26" android:gravity="top" android:id="@id/tv_material_name_emoji_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="素材名称" android:layout_below="@id/fl_preview_material_item" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/material_paper_text_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="10.0dip" android:text="2014-01-11" />
+                        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_emoji_price_emoji_detail" android:background="@drawable/shape_sticker_material_free" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginTop="6.0dip" android:minWidth="41.0dip" android:text="@string/material_free_price" />
+                    </LinearLayout>
+                    <FrameLayout android:id="@id/fl_progressbtn_material_item" android:clickable="true" android:layout_width="@dimen/material_sticker_material_layout_size" android:layout_height="@dimen/material_sticker_material_layout_size" android:layout_below="@id/fl_preview_material_item" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                        <com.xvideostudio.videoeditor.view.ProgressPieView android:layout_gravity="center" android:id="@id/progressPieView_material_item" android:layout_width="33.299988dip" android:layout_height="33.299988dip" ppv:ppvBackgroundColor="@color/transparent" ppv:ppvProgress="0" ppv:ppvProgressColor="@color/theme_color" ppv:ppvShowText="false" ppv:ppvStrokeColor="@color/theme_color" ppv:ppvStrokeWidth="1.0dip" />
+                        <ImageView android:layout_gravity="center" android:id="@id/iv_download_state_material_item" android:visibility="gone" android:layout_width="@dimen/material_sticker_material_layout_size" android:layout_height="@dimen/material_sticker_material_layout_size" android:src="@drawable/ic_store_download_large" />
+                        <Button android:layout_gravity="center_vertical" android:id="@id/btn_download_material_item" android:background="@color/transparent" android:layout_width="@dimen/material_sticker_material_layout_size" android:layout_height="@dimen/material_sticker_material_layout_size" />
+                    </FrameLayout>
+                    <View android:background="@color/view_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <TextView android:textSize="@dimen/text_size_no_3" android:textColor="@color/actionbar_bg" android:layout_gravity="center_horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="20.0dip" android:text="表情详情说明" />
+            </LinearLayout>
+            <ImageView android:id="@id/iv_material_pic" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="10.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

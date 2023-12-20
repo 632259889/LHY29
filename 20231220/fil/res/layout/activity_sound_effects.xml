@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_toolbar" />
+    <RelativeLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="94.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_OpenOtherApp_music" android:background="@drawable/bg_bt_download_more_music_selector" android:layout_width="267.0dip" android:layout_height="39.0dip" android:layout_centerInParent="true">
+            <ImageView android:layout_width="@dimen/music_icon_width_2" android:layout_height="@dimen/music_icon_width_2" android:src="@drawable/ic_mulitermusic_music" />
+            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/tv_add_more_music" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:text="@string/download_more_audio" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@color/dialog_view_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/preload_lay" android:background="@drawable/ripple_bright_rectangle" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+            <ProgressBar android:id="@id/progressbar_music_local" android:layout_width="fill_parent" android:layout_height="fill_parent" android:progress="0" android:progressDrawable="@drawable/progress_bar_music_local_a_one" style="?android:progressBarStyleHorizontal" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="@dimen/music_text_size_1" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tx_music_preload_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:maxWidth="@dimen/music_item_preload_name_max_width" android:text="San Smith" android:singleLine="true" android:layout_marginStart="16.0dip" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/music_text_size_2" android:textColor="@color/white" android:id="@id/tx_music_preload_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="--/--" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="12.0dip" />
+                <RelativeLayout android:layout_gravity="end|center" android:id="@id/rl_music_add" android:background="@drawable/ripple_bright_rectangle" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginRight="10.0dip" android:layout_marginEnd="10.0dip">
+                    <ImageView android:id="@id/iv_music_add" android:layout_width="21.0dip" android:layout_height="21.0dip" android:src="@drawable/ic_mymusiclist_add" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/audio_picker_listview" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip" android:cacheColorHint="@color/transparent" android:divider="@drawable/list_item_divider_3" android:dividerHeight="0.5dip" android:layout_above="@id/preload_lay" />
+    </RelativeLayout>
+</LinearLayout>

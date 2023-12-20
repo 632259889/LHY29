@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:background="@color/config_dialog_bg" android:layout_width="fill_parent" android:layout_height="182.0dip">
+        <LinearLayout android:orientation="vertical" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="132.0dip">
+                <RelativeLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/iv_minus" android:background="@drawable/bg_conner_color_accent" android:layout_width="@dimen/dialog_duration_add_icon_width" android:layout_height="@dimen/dialog_duration_add_icon_width" android:src="@drawable/ic_duration_decrease" android:scaleType="fitCenter" android:layout_toLeftOf="@id/dialog_edit" android:layout_centerVertical="true" />
+                    <ImageView android:id="@id/iv_plus" android:background="@drawable/bg_conner_color_accent" android:layout_width="@dimen/dialog_duration_add_icon_width" android:layout_height="@dimen/dialog_duration_add_icon_width" android:src="@drawable/ic_duration_add" android:scaleType="fitCenter" android:layout_toRightOf="@id/dialog_edit" android:layout_centerVertical="true" />
+                    <com.xvideostudio.videoeditor.view.RobotoMediumEditText android:textSize="18.0sp" android:textColor="@color/white" android:textColorHint="@color/white" android:gravity="center" android:id="@id/dialog_edit" android:background="@drawable/bg_conner_gray_1" android:layout_width="133.0dip" android:layout_height="@dimen/dialog_duration_add_icon_width" android:layout_marginLeft="19.0dip" android:layout_marginRight="19.0dip" android:minHeight="@dimen/dialog_duration_add_icon_width" android:hint="10.0" android:scrollHorizontally="false" android:maxLength="7" android:layout_centerInParent="true" android:inputType="numberDecimal" />
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.xvideostudio.videoeditor.view.RobotoBoldButton android:textSize="@dimen/bottom_pop_button_text_size" android:textColor="@color/colorAccent" android:id="@id/bt_dialog_ok" android:background="@drawable/bottom_pop_button_selector" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_pop_button_height" android:text="@string/ok" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+HLX Version 100
+PixelShader<<<
+#ifdef GL_ES
+precision mediump float;
+precision mediump int;
+#endif
+
+uniform float time;
+uniform float duration;
+uniform sampler2D hl_images[4];
+uniform int object_id;
+uniform vec2 hl_target_size;
+varying vec2 hlf_texcoord;
+
+vec3 overlay(vec3 overlayComponent, vec3 underlayComponent, float alpha) {
+	vec3 underlay = underlayComponent * alpha;
+	return underlay * (underlay + (2.0 * overlayComponent * (1.0 - underlay)));
+}
+
+vec3 multiplyWithAlpha(vec3 overlayComponent, float alpha, vec3 underlayComponent) {
+	return underlayComponent * overlayComponent * alpha;
+}
+
+vec3 screenPixelComponent(vec3 maskPixelComponent, float alpha, vec3 imagePixelComponent) {
+	return 1.0 - (1.0 - (maskPixelComponent * alpha)) * (1.0 - imagePixelComponent);
+}
+
+
+void main(){
+	vec2 uv = hlf_texcoord;
+	vec4 color = vec4(1, 1, 1, 1);
+	vec3 color1; 
+	if (object_id == 0)
+	{
+		color = texture2D(hl_images[1], uv);
+		
+	}
+	if (object_id >0)
+	{
+		color = texture2D(hl_images[0], uv);
+	}
+	color1=color.rgb;
+	
+	float gray = dot(color1, vec3(0.299, 0.587, 0.114));		
+	color1 = overlay(vec3(gray), color1, 1.0);
+	color1 = multiplyWithAlpha(vec3(0.984, 0.949, 0.639), 0.588235, color1);
+	color1 = screenPixelComponent(vec3(0.909, 0.396, 0.702), 0.2, color1);
+	color1 = screenPixelComponent(vec3(0.035, 0.286, 0.914), 0.168627, color1);
+	color.rgb=color1;
+	gl_FragColor = color;
+}
+
+>>>PixelShader
