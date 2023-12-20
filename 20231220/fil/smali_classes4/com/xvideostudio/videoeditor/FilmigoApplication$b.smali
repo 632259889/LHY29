@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/appsflyer/AppsFlyerConversionListener;
+# .implements Lcom/appsflyer/AppsFlyerConversionListener;
 
 
 # annotations

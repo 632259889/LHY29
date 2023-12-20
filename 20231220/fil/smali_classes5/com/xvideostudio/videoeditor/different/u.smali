@@ -3091,24 +3091,24 @@
     return-void
 .end method
 
-.method public static t()Ljava/lang/String;
-    .locals 2
-
-    .line 1
-    invoke-static {}, Lcom/appsflyer/AppsFlyerLib;->getInstance()Lcom/appsflyer/AppsFlyerLib;
-
-    move-result-object v0
-
-    invoke-static {}, Lcom/xvideostudio/videoeditor/VideoEditorApplication;->I()Lcom/xvideostudio/videoeditor/VideoEditorApplication;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lcom/appsflyer/AppsFlyerLib;->getAppsFlyerUID(Landroid/content/Context;)Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
-.end method
+# .method public static t()Ljava/lang/String;
+#     .locals 2
+#
+#     .line 1
+#    invoke-static {}, Lcom/appsflyer/AppsFlyerLib;->getInstance()Lcom/appsflyer/AppsFlyerLib;#
+#
+#     move-result-object v0
+#
+#     invoke-static {}, Lcom/xvideostudio/videoeditor/VideoEditorApplication;->I()Lcom/xvideostudio/videoeditor/VideoEditorApplication;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v0, v1}, Lcom/appsflyer/AppsFlyerLib;->getAppsFlyerUID(Landroid/content/Context;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     return-object v0
+# .end method
 
 .method public static u(Ljava/lang/String;)Ljava/lang/String;
     .locals 13

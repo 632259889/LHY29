@@ -17,13 +17,13 @@
     return-void
 .end method
 
-.method public static synthetic P0(Lcom/xvideostudio/videoeditor/FilmigoApplication;Lcom/appsflyer/AppsFlyerConversionListener;)V
-    .locals 0
-
-    invoke-direct {p0, p1}, Lcom/xvideostudio/videoeditor/FilmigoApplication;->S0(Lcom/appsflyer/AppsFlyerConversionListener;)V
-
-    return-void
-.end method
+# .method public static synthetic P0(Lcom/xvideostudio/videoeditor/FilmigoApplication;Lcom/appsflyer/AppsFlyerConversionListener;)V#
+#     .locals 0
+#
+#     # invoke-direct {p0, p1}, Lcom/xvideostudio/videoeditor/FilmigoApplication;->S0(Lcom/appsflyer/AppsFlyerConversionListener;)V
+#
+#     return-void
+# .end method
 
 .method private Q0()V
     .locals 3
@@ -42,43 +42,43 @@
 
     new-instance v2, Lcom/xvideostudio/videoeditor/h;
 
-    invoke-direct {v2, p0, v0}, Lcom/xvideostudio/videoeditor/h;-><init>(Lcom/xvideostudio/videoeditor/FilmigoApplication;Lcom/appsflyer/AppsFlyerConversionListener;)V
+   invoke-direct {v2, p0, v0}, Lcom/xvideostudio/videoeditor/h;-><init>(Lcom/xvideostudio/videoeditor/FilmigoApplication;Ljava/lang/Object;)V#com/appsflyer/AppsFlyerConversionListener
 
     invoke-interface {v1, v2}, Ljava/util/concurrent/ExecutorService;->execute(Ljava/lang/Runnable;)V
 
     return-void
 .end method
 
-.method private synthetic S0(Lcom/appsflyer/AppsFlyerConversionListener;)V
-    .locals 2
-
-    .line 1
-    invoke-static {}, Lcom/appsflyer/AppsFlyerLib;->getInstance()Lcom/appsflyer/AppsFlyerLib;
-
-    move-result-object v0
-
-    const-string v1, "hZwTiWmsfuJmgcWPHMMvN6"
-
-    invoke-virtual {v0, v1, p1, p0}, Lcom/appsflyer/AppsFlyerLib;->init(Ljava/lang/String;Lcom/appsflyer/AppsFlyerConversionListener;Landroid/content/Context;)Lcom/appsflyer/AppsFlyerLib;
-
-    .line 2
-    invoke-static {}, Lcom/appsflyer/AppsFlyerLib;->getInstance()Lcom/appsflyer/AppsFlyerLib;
-
-    move-result-object p1
-
-    invoke-virtual {p1, p0}, Lcom/appsflyer/AppsFlyerLib;->start(Landroid/content/Context;)V
-
-    .line 3
-    invoke-static {}, Lcom/appsflyer/AppsFlyerLib;->getInstance()Lcom/appsflyer/AppsFlyerLib;
-
-    move-result-object p1
-
-    const/4 v0, 0x0
-
-    invoke-virtual {p1, v0}, Lcom/appsflyer/AppsFlyerLib;->setDebugLog(Z)V
-
-    return-void
-.end method
+# .method private synthetic S0(Lcom/appsflyer/AppsFlyerConversionListener;)V
+#     .locals 2
+#
+#     .line 1
+#     invoke-static {}, Lcom/appsflyer/AppsFlyerLib;->getInstance()Lcom/appsflyer/AppsFlyerLib;
+#
+#     move-result-object v0
+#
+#     const-string v1, "hZwTiWmsfuJmgcWPHMMvN6"
+#
+#     invoke-virtual {v0, v1, p1, p0}, Lcom/appsflyer/AppsFlyerLib;->init(Ljava/lang/String;Lcom/appsflyer/AppsFlyerConversionListener;Landroid/content/Context;)Lcom/appsflyer/AppsFlyerLib;
+#
+#     .line 2
+#     invoke-static {}, Lcom/appsflyer/AppsFlyerLib;->getInstance()Lcom/appsflyer/AppsFlyerLib;
+#
+#     move-result-object p1
+#
+#     invoke-virtual {p1, p0}, Lcom/appsflyer/AppsFlyerLib;->start(Landroid/content/Context;)V
+#
+#     .line 3
+#     invoke-static {}, Lcom/appsflyer/AppsFlyerLib;->getInstance()Lcom/appsflyer/AppsFlyerLib;
+#
+#     move-result-object p1
+#
+#     const/4 v0, 0x0
+#
+#     invoke-virtual {p1, v0}, Lcom/appsflyer/AppsFlyerLib;->setDebugLog(Z)V
+#
+#     return-void
+# .end method
 
 
 # virtual methods
@@ -182,7 +182,7 @@
     invoke-static {v0}, Lcom/xvideostudio/videoeditor/manager/FxManager;->T(Lcom/xvideostudio/videoeditor/manager/FxManager$a;)V
 
     .line 5
-    invoke-direct {p0}, Lcom/xvideostudio/videoeditor/FilmigoApplication;->Q0()V
+    # invoke-direct {p0}, Lcom/xvideostudio/videoeditor/FilmigoApplication;->Q0()V
 
     .line 6
     invoke-static {}, Lcom/xvideostudio/videoeditor/util/l1;->i()Ljava/lang/String;
