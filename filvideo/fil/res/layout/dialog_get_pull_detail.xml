@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cardview="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_88" cardview:cardBackgroundColor="@color/color_1D153C" cardview:cardCornerRadius="@dimen/dp_14">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_142" android:layout_marginRight="@dimen/dp_20">
+                <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="@dimen/dp_24" android:textColor="@color/white" android:gravity="center" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/string_hurry_up" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/dp_14" android:textColor="@color/color_83D2CDFF" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_18" android:text="@string/string_go_to_google" />
+                <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/rlShare" android:background="@drawable/btn_activity_continue" android:layout_width="fill_parent" android:layout_height="@dimen/dp_85" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_34" android:layout_marginRight="@dimen/dp_20">
+                    <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="@dimen/dp_20" android:textColor="@color/white" android:gravity="center" android:id="@id/tvShare" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_18" android:layout_marginTop="@dimen/dp_13" android:layout_marginRight="@dimen/dp_18" android:text="@string/string_get_it" android:textAllCaps="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/dp_230" android:src="@drawable/bg_activity_topbanner_success_b" />
+    <ImageView android:id="@id/ivClose" android:layout_width="@dimen/dp_27" android:layout_height="@dimen/dp_27" android:src="@drawable/ic_vip_promotion_close" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

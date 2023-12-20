@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_white_toolbar" />
+    <FrameLayout android:background="@color/material_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.xvideostudio.videoeditor.util.superlistviewandgridview.SuperListview android:id="@id/lv_music_list_material" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" superlistview:superlv__listClipToPadding="false" superlistview:superlv__listDivider="@android:color/transparent" superlistview:superlv__listDividerHeight="0.0dip" superlistview:superlv__listPaddingTop="@dimen/music_all_tag_item_margin_bottom" superlistview:superlv__moreProgress="@layout/view_more_progress" superlistview:superlv__scrollbarStyle="outsideOverlay" xmlns:superlistview="http://schemas.android.com/apk/res-auto" />
+        <ProgressBar android:layout_gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyle" />
+        <include layout="@layout/nodata_material" />
+    </FrameLayout>
+</LinearLayout>

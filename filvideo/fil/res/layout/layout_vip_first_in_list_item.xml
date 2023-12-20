@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/dp_10" android:layout_width="fill_parent" android:layout_height="@dimen/dp_40"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:background="@drawable/ic_vip_function_select" android:layout_width="@dimen/dp_16" android:layout_height="@dimen/dp_16" android:layout_marginLeft="@dimen/dp_21" android:layout_marginStart="@dimen/dp_21" />
+    <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="@dimen/sp_15" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:gravity="start|center" android:id="@id/tvVipTitle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_13" android:layout_marginRight="@dimen/dp_21" android:lines="1" android:layout_marginStart="@dimen/dp_13" android:layout_marginEnd="@dimen/dp_21" />
+</LinearLayout>

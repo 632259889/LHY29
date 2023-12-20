@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_dialog_message">
+        <item>Xem trước</item>
+        <item>Chia sẻ</item>
+        <item>Xóa</item>
+        <item>Đặt lại tên</item>
+        <item>Chi tiết</item>
+    </string-array>
+    <string-array name="draftbox_dialog_message">
+        <item>Biên tập</item>
+        <item>Xóa</item>
+    </string-array>
+    <string-array name="gif_quality">
+        <item>Chất lượng thấp</item>
+        <item>Chất lượng trung bình</item>
+        <item>Chất lượng cao</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>Trang chủ</item>
+        <item>Nguồn cảm hứng</item>
+        <item>Đề nghị</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>Trình diễn</item>
+        <item>Chia sẻ</item>
+        <item>Xóa</item>
+        <item>Đặt lại tên</item>
+        <item>Chi tiết</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>Lưu vào bộ nhớ điện thoại</item>
+        <item>Lưu vào bộ nhớ ngoài</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>HỐI PHIẾU CỦA TÔI</item>
+        <item>CÔNG VIỆC CỦA TÔI</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>Vui lòng kiên nhẫn chờ ở đây để xem video công phu mà bạn đã thực hiện thành công. Hoặc nó sẽ không thể xuất ra được nếu bạn thoát khỏi trang hiện tại.</item>
+        <item>Quảng cáo giúp Filmigo là một ứng dụng miễn phí. Xin cám ơn bạn đã hiểu và thông cảm điều đó. Bạn có thể nâng cấp lên bản Pro để xóa quảng cáo.</item>
+        <item>Vui lòng kiên nhẫn chờ ở đây để xem video công phu mà bạn đã thực hiện thành công. Hoặc nó sẽ không thể xuất ra được nếu bạn thoát khỏi trang hiện tại.</item>
+        <item>Sử dụng \"Ultra Cut\" để cắt nhiều phần từ một video và lưu lại một cách nhanh chóng. Đây là một tính năng rất hữu ích để giảm dung lượng của video lớn.</item>
+        <item>Nhắc nhở Tiện lợi: CHẾ ĐỘ NHANH đi kèm với tốc độ xuất nhanh, nhưng độ phân giải video thấp hơn. Trong khi đó, CHẾ ĐỘ HD mất nhiều thời gian hơn để xuất ra với chất lượng cao hơn.</item>
+        <item>Làm chậm hoặc tăng tốc video bằng cách nhấn vào \"Tốc độ\" trong phần \"Sửa Clip\".</item>
+        <item>Sau khi đoạn video được xuất thành công, bạn có thể đổi tên nó trong Phòng thu của tôi hoặc chia sẻ cho bạn bè mình.</item>
+        <item>Nhấn vào \"Đa Âm nhạc\" trong \"Sửa Pro\" để thêm nhiều đoạn âm nhạc vào một video.</item>
+        <item>Mất quá nhiều thời gian để xuất ra ư? Một video tuyệt vời sẽ được hiển thị cho bạn xem nếu bạn chọn uống một tách cà phê.</item>
+        <item>Trong chế độ đa âm nhạc, bạn có thể thiết lập âm lượng khác nhau cho âm nhạc khác nhau.</item>
+        <item>Tận dụng toàn bộ tính năng của \"Nhãn dán\". Ứng dụng hỗ trợ các Nhãn dán tích hợp,ảnh động GIF và Hình ảnh của chính bạn. Hơn nữa, ứng dụng còn hỗ trợ nhiều lớp!</item>
+        <item>Độc quyền: Quay video âm nhạc. Quay video khi đang phát âm nhạc. Đây là một tính năng rất hữu ích để quay các video nhảy đồng bộ.</item>
+        <item>Bạn có thể thay đổi màu nền bằng cách nhấn vào cài đặt ở góc trên cùng bên phải trong Phòng Chỉnh sửa.</item>
+        <item>Thu phóng video và hình ảnh, lấy nét video vào vị trí mà bạn muốn. Nhấn vào \"Sửa Pro\" > \"Sửa Clip\" > \"Thu phóng\".</item>
+        <item>Sử dụng \"Nén video\" để giảm dung lượng video và chia sẻ nhanh hơn với mạng có băng thông thấp. Nhấn \"Nén video\" trong trang chủ.</item>
+        <item>Bạn muốn có thêm tính năng? Đừng ngại ngần gửi email cho chúng tôi đến support@enjoy-global.com và cho chúng tôi biết điều bạn muốn.</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>Chỉnh sửa</item>
+        <item>Xóa Phần đã chọn</item>
+    </string-array>
+    <string-array name="video_dialog_message">
+        <item>Xem trước</item>
+        <item>Biên tập Video</item>
+        <item>Chia sẻ</item>
+        <item>Xóa</item>
+        <item>Đặt lại tên</item>
+        <item>Chi tiết</item>
+    </string-array>
+</resources>

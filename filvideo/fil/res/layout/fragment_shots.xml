@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ListView android:id="@id/draftbox_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#ffffffff" android:divider="@null" android:headerDividersEnabled="false" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/pb_load_videos" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyle" />
+        <RelativeLayout android:layout_gravity="bottom" android:background="@color/gray_layoyt_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="47.0dip">
+            <Button android:textSize="@dimen/vsc_video_new_text_size" android:textColor="@color/white" android:id="@id/btn_delete" android:background="@drawable/shape_theme_button_selector2" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="@dimen/bottom_layout_padding" android:text="@string/delete" android:layout_centerVertical="true" />
+            <androidx.appcompat.widget.AppCompatButton android:theme="@style/white_btn" android:textSize="@dimen/vsc_video_new_text_size" android:textColor="@color/black" android:id="@id/btn_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bottom_layout_padding" android:text="@string/cancel" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/layout_my_studio_null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-80.0dip">
+            <ImageView android:id="@id/ic_no_work" android:layout_width="84.0dip" android:layout_height="72.0dip" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff5b556d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/my_studio_no_video_yet" />
+            <TextView android:textSize="@dimen/dialog_text_size" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_create_one" android:background="@drawable/filmigo_round_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:minWidth="160.0dip" android:minHeight="46.0dip" android:text="@string/my_studio_create_one" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

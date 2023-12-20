@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/sticker_pop_center" android:paddingTop="@dimen/pop_sticker_padding" android:layout_width="@dimen/pop_sticker_sizew" android:layout_height="@dimen/pop_sticker_sizeh"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="@dimen/pop_sticker_sizew" android:layout_height="@dimen/pop_sticker_size">
+        <com.xvideostudio.videoeditor.view.ApngImageView android:layout_gravity="center" android:id="@id/popup_sticker_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/emoji1f002" android:scaleType="fitCenter" />
+        <com.xvideostudio.videoeditor.gifdecoder.GifView android:layout_gravity="center" android:id="@id/popup_sticker_gif_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

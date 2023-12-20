@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/gif_search_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_gifsearch_toolbar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/flowlayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/appbar_layout">
+        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textColor="@color/gif_search_tag_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:text="@string/giphy_find" />
+        <com.xvideostudio.videoeditor.view.FlowLayout android:id="@id/flow_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="9.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="9.0dip" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/ic_giphy_logo" android:layout_width="@dimen/dp_92" android:layout_height="@dimen/dp_24" android:layout_marginBottom="@dimen/dp_22" />
+    </LinearLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/srl_refresh" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/appbar_layout">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/ultimate_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <ProgressBar android:id="@id/pb_load" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerInParent="true" style="?android:progressBarStyle" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginStart="7.0dip">
+        <RelativeLayout android:id="@id/seekbar_value_lay" android:layout_width="32.0dip" android:layout_height="25.0dip">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_filter_index" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/white" android:id="@id/seekbar_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="60%" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="7.0dip" app:cardBackgroundColor="#992b2b2b" app:cardCornerRadius="18.0dip" app:cardElevation="0.0dip" app:cardUseCompatPadding="false">
+        <androidx.appcompat.widget.AppCompatSeekBar android:layout_gravity="center" android:id="@id/seekbar_value_move" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/dp_4" android:max="20" android:progress="0" android:progressDrawable="@drawable/seekbar_color_style" android:minHeight="@dimen/dp_3" android:thumb="@drawable/seekbar_color_thumb" android:thumbOffset="0.0dip" android:splitTrack="false" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/actionbar_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_toolbar" />
+    <com.xvideostudio.videoeditor.util.superlistviewandgridview.VSContestSuperListview android:id="@id/superlistview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/appbar_layout" superlistview:superlv__listClipToPadding="false" superlistview:superlv__listDivider="@android:color/transparent" superlistview:superlv__listDividerHeight="0.0dip" superlistview:superlv__moreProgress="@layout/view_more_progress" xmlns:superlistview="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

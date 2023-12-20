@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/dialog_view_line" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/toolbox_group_config_text">
+        <com.xvideostudio.videoeditor.view.NoScrollViewPager android:id="@id/emojis_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fl_emojis_tab" />
+    </RelativeLayout>
+    <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/toolbox_group_config_text" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/dp_45" android:layout_alignParentBottom="true">
+        <RadioButton android:gravity="center" android:id="@id/toolbox_effect" android:checked="true" android:drawableBottom="@drawable/radio_buttom_selector_textstyle" style="@style/toolbox_tab_edit" />
+        <RadioButton android:gravity="center" android:id="@id/toolbox_color" android:drawableBottom="@drawable/radio_buttom_selector_color" style="@style/toolbox_tab_edit" />
+        <RadioButton android:gravity="center" android:id="@id/toolbox_font" android:drawableBottom="@drawable/radio_buttom_selector_font" style="@style/toolbox_tab_edit" />
+        <RadioButton android:gravity="center" android:id="@id/toolbox_setting" android:drawableBottom="@drawable/radio_buttom_selector_setting" style="@style/toolbox_tab_edit" />
+    </RadioGroup>
+    <ImageView android:id="@id/editor_nav_indicator" android:background="@color/theme_color" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="@dimen/slider_height" />
+    <com.xvideostudio.videoeditor.view.RobotoBoldButton android:textSize="@dimen/bottom_pop_button_text_size" android:textColor="@color/colorAccent" android:id="@id/btn_config_text_ok" android:background="@drawable/bottom_pop_button_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_pop_button_height" android:text="@string/ok" />
+</RelativeLayout>

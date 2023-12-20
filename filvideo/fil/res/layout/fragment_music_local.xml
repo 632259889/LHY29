@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_music_top_banner" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rl_music_download" android:layout_width="fill_parent" android:layout_height="84.0dip">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_OpenOtherApp_music" android:background="@drawable/bg_bt_download_more_music_selector" android:layout_width="267.0dip" android:layout_height="39.0dip" android:layout_centerInParent="true">
+                <ImageView android:layout_width="@dimen/music_icon_width_2" android:layout_height="@dimen/music_icon_width_2" android:src="@drawable/ic_mulitermusic_music" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/tv_add_more_music" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:maxWidth="200.0dip" android:text="@string/download_more_music" android:maxLines="2" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:background="@color/dialog_view_line" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_cancel_music" android:background="@drawable/shape_gray_button_selector_1" android:layout_width="fill_parent" android:layout_height="@dimen/music_local_layout_height">
+            <ImageView android:id="@id/iv_mulitmusic_none" android:layout_width="@dimen/music_icon_width_2" android:layout_height="@dimen/music_icon_width_2" android:layout_marginLeft="14.0dip" android:src="@drawable/bg_mulitmusic_nonedisable" />
+            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/music_text_size_1" android:textColor="@color/unable_gray" android:id="@id/tv_clear_music" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:text="@string/effectnone" />
+        </LinearLayout>
+        <ImageView android:background="@color/dialog_view_line" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_remove_videos_original_voice" android:background="@drawable/shape_gray_button_selector_1" android:layout_width="fill_parent" android:layout_height="@dimen/music_local_layout_height">
+            <ImageView android:id="@id/iv_remove_videos_original_voice" android:layout_width="@dimen/music_icon_width_2" android:layout_height="@dimen/music_icon_width_2" android:layout_marginLeft="@dimen/music_icon_width_1" android:src="@drawable/bg_mulitmusic_remove" />
+            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/music_text_size_1" android:textColor="@color/white" android:id="@id/tv_remove_videos_original_voice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:text="@string/remove_videos_original_voice" />
+        </LinearLayout>
+        <TextView android:textSize="10.0sp" android:textColor="@color/view_line" android:gravity="center|left" android:id="@id/tv_music_list_title" android:background="@color/music_download_bg" android:paddingLeft="@dimen/music_icon_width_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="27.0dip" android:text="@string/music_download" />
+    </LinearLayout>
+    <ImageView android:background="@color/dialog_view_line" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <ListView android:scrollbarSize="@dimen/setting_gray_text_margin_top" android:scrollbarThumbVertical="@color/progressbar_secondary" android:id="@id/choosevideo_listview" android:scrollbars="vertical" android:fadingEdge="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/transparent" android:divider="@drawable/list_item_divider_3" android:dividerHeight="0.5dip" android:scrollbarFadeDuration="@integer/item_scroll_duration" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_no_music_history" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="77.399994dip" android:layout_height="77.399994dip" android:src="@drawable/bg_mulitmusic_history" />
+        <TextView android:textSize="12.699982dip" android:textColor="@color/home_item_text_color_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/music_no_music_history" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/theme_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_toolbar" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/conf_preview_container" android:background="@color/video_set_bg_color_black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom">
+            <FrameLayout android:layout_gravity="center" android:id="@id/fl_preview_container_common" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <hl.productor.aveditor.AmLiveWindow android:gravity="center" android:id="@id/conf_rl_fx_openglview" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+                    <com.xvideostudio.libenjoyvideoeditor.view.FreePuzzleView android:id="@id/freepuzzleview_conf_fx" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </FrameLayout>
+            <Button android:layout_gravity="center|right|top" android:id="@id/bt_video_sound_mute" android:background="@drawable/bt_mute_selector" android:visibility="visible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:foreground="@drawable/ripple_bright_oval" />
+            <com.xvideostudio.videoeditor.view.SeekVolume android:id="@id/volumeSeekBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+            <Button android:id="@id/conf_btn_preview" android:layout_marginLeft="@dimen/fastsetting_icon_margin_right" android:layout_marginBottom="@dimen/btn_setting_duration_margin" android:foreground="@drawable/ripple_bright_oval" style="@style/bt_play_preview_style" />
+            <Button android:layout_gravity="bottom|center|right" android:id="@id/bt_duration_selection" android:background="@drawable/ic_proeditor_fastsetting" android:visibility="gone" android:layout_width="@dimen/fastsetting_icon_width" android:layout_height="@dimen/fastsetting_icon_width" android:layout_marginRight="@dimen/fastsetting_icon_margin_right" android:layout_marginBottom="@dimen/btn_setting_duration_margin" android:foreground="@drawable/ripple_bright_oval" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/bottom" android:layout_width="fill_parent" android:layout_height="220.0dip" android:layout_alignParentBottom="true">
+            <RelativeLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:background="@color/transparent" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/editor_label_time_lay_height">
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/editor_label_time_text_size" android:textColor="@color/editor_label_time_color" android:gravity="center" android:id="@id/conf_text_seek" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_label_time_margin" android:text="@string/time_initial_value" android:layout_centerInParent="true" />
+                <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/editor_label_time_text_size" android:textColor="@color/editor_label_time_color" android:id="@id/conf_text_length" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/editor_label_time_margin" android:text="@string/time_initial_value" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/theme_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/timeline_view_height">
+                <com.xvideostudio.videoeditor.view.timeline.FxTimelineViewNew android:id="@id/conf_timeline_view" android:background="@color/theme_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <RelativeLayout android:background="@color/theme_bg_color" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageButton android:id="@id/conf_del_music" android:background="@color/transparent" android:visibility="gone" android:layout_width="@dimen/config_add_size" android:layout_height="@dimen/config_add_size" android:src="@drawable/btn_conf_del_selector" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+                <ImageButton android:id="@id/conf_add_music" android:background="@color/transparent" android:visibility="visible" android:layout_width="@dimen/config_add_size" android:layout_height="@dimen/config_add_size" android:src="@drawable/btn_conf_add_selector" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+                <ImageButton android:id="@id/conf_editor_music" android:background="@color/transparent" android:visibility="gone" android:layout_width="@dimen/config_add_size" android:layout_height="@dimen/config_add_size" android:src="@drawable/ic_proedit_edit" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+                <ImageButton android:id="@id/conf_cancel_music" android:background="@color/transparent" android:visibility="invisible" android:layout_width="@dimen/config_add_size" android:layout_height="@dimen/config_add_size" android:src="@drawable/bg_close_pressed" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/theme_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ll_title_bar_paintpad" layout="@layout/layout_toolbar" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/rl_color_picker" android:layout_below="@id/ll_title_bar_paintpad">
+        <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/paintViewLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/rl_color_picker" android:paddingBottom="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="200.0dip" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_centerHorizontal="true">
+            <com.xvideostudio.videoeditor.paintviews.ColorPickerPanelView android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="0.5" />
+            <com.xvideostudio.videoeditor.paintviews.ColorPickerPanelView android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="0.5" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.xvideostudio.videoeditor.paintviews.ColorPickerOvalView android:id="@id/color_panel" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip" />
+            <include android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginRight="15.0dip" layout="@layout/layout_piantpad_seekbar" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

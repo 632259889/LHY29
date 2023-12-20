@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clip_edit_drawable_size">8.0dip</dimen>
+    <dimen name="clip_ff_speed_bottom_margin_top">102.0dip</dimen>
+    <dimen name="clip_ff_speed_margin">20.0dip</dimen>
+    <dimen name="clip_ff_speed_text_size">22.0sp</dimen>
+    <dimen name="export_tips_margin_bottom">16.5dip</dimen>
+    <dimen name="export_tips_margin_top">64.0dip</dimen>
+    <dimen name="export_tv_stay_margin_top">44.599976dip</dimen>
+    <dimen name="export_tv_tip_first_margin_top">25.399994dip</dimen>
+    <dimen name="fu_lvjing_item_adapter_size">60.0dip</dimen>
+    <dimen name="fu_lvjing_meixing_item_sizes">30.0dip</dimen>
+    <dimen name="home_item_adapter_size">30.0dip</dimen>
+    <dimen name="home_item_new_margin_top">3.0dip</dimen>
+    <dimen name="home_margin_top">46.0dip</dimen>
+    <dimen name="home_top_rl_height">200.0dip</dimen>
+    <dimen name="img_splash_bottom">40.0dip</dimen>
+    <dimen name="img_splash_height">100.0dip</dimen>
+    <dimen name="img_splash_width">262.0dip</dimen>
+</resources>

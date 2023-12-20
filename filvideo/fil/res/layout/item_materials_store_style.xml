@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="16.0dip" android:paddingTop="22.0dip" android:paddingRight="16.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_line" android:background="@color/base_color" android:layout_width="4.0dip" android:layout_height="16.0dip" />
+    <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="14.0sp" android:textColor="@color/dialog_text_gray_color" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="-2.0dip" android:text="@string/style" android:layout_toRightOf="@id/iv_line" android:layout_marginStart="6.0dip" android:layout_toEndOf="@id/iv_line" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_more" android:background="@drawable/ripple_bright_rectangle" android:paddingLeft="@dimen/dp_5" android:paddingTop="@dimen/dp_5" android:paddingRight="@dimen/dp_5" android:paddingBottom="@dimen/dp_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/iv_line" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <TextView android:textSize="11.0sp" android:textColor="@color/bottom_pop_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/editor_theme_more" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/bottom_pop_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_3" android:text=">" android:layout_marginStart="@dimen/dp_3" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView android:id="@id/layout_style" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="12.0dip" android:layout_below="@id/iv_line" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="@dimen/home_card_radius">
+        <ImageView android:id="@id/iv_style" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/ripple_bright_rectangle" android:scaleType="fitXY" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

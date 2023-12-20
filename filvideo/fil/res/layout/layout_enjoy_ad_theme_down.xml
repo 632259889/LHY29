@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/adContainer" android:background="@color/color_242328" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivBigIcon" android:layout_width="fill_parent" android:layout_height="@dimen/dp_176" android:scaleType="centerCrop" />
+    <ImageView android:layout_width="@dimen/dp_17" android:layout_height="@dimen/dp_10" android:layout_marginTop="@dimen/dp_8" android:layout_marginRight="@dimen/dp_8" android:src="@drawable/ic_enjoyads_ad" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/dp_8" android:layout_alignParentEnd="true" />
+    <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="@dimen/dp_16" android:textColor="@color/white" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_14" android:layout_marginRight="@dimen/dp_20" android:layout_below="@id/ivBigIcon" />
+    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/dp_12" android:textColor="@color/white_60" android:id="@id/tvDes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_6" android:layout_marginRight="@dimen/dp_20" android:layout_below="@id/tvTitle" />
+    <RelativeLayout android:id="@id/rlStall" android:background="@drawable/shape_enjoy_ad_theme_down_install_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp_50" android:layout_marginLeft="@dimen/dp_30" android:layout_marginTop="@dimen/dp_23" android:layout_marginRight="@dimen/dp_30" android:layout_marginBottom="@dimen/dp_18" android:layout_below="@id/tvDes">
+        <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="@dimen/dp_16" android:textColor="@color/white" android:gravity="center" android:id="@id/tvInstall" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/string_learn_more" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

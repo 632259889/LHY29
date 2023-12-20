@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xvideostudio.videoeditor.widget.TriangleSeekBar android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_centerVertical="true" app:thumbColor="@color/colorTriangleSeekBar" app:triangleColor="@color/colorTriangleSeekBar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

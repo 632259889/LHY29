@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ads.NativeAdLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_ad_container" android:background="@color/main_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <View android:id="@id/view_link" android:background="@color/colorUncheck" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginBottom="10.0dip" />
+        <RelativeLayout android:id="@id/fl_big_ad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/view_link">
+            <com.facebook.ads.MediaView android:id="@id/iv_icon_ad" android:layout_width="fill_parent" android:layout_height="140.0dip" android:scaleType="centerCrop" />
+            <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/ad_sponsored" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="3.0dip" android:text="@string/facebook_ad_sponsored_tip" android:maxLines="1" android:shadowColor="@color/black" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" android:layout_marginStart="5.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_app_icon" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="8.0dip" android:layout_below="@id/fl_big_ad" android:layout_marginEnd="8.0dip">
+            <ImageView android:id="@id/iv_app_icon" android:layout_width="50.0dip" android:layout_height="50.0dip" android:scaleType="centerCrop" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/ad_choices" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-4.0dip" android:layout_marginBottom="-2.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_marginStart="-4.0dip" android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/layout_app_title" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_toRightOf="@id/rl_app_icon" android:layout_below="@id/fl_big_ad" android:layout_toEndOf="@id/rl_app_icon">
+            <RelativeLayout android:id="@id/rl_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:textSize="14.0sp" android:textColor="@color/view_line" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_app_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="11.0sp" android:textColor="@color/mystudio_item_text_with_title" android:ellipsize="end" android:id="@id/tv_app_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/rl_app_name" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <com.xvideostudio.videoeditor.view.RobotoMediumButton android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/btn_install" android:background="#ff3197ff" android:clickable="false" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="install" android:layout_below="@id/layout_app_title" android:textAllCaps="false" />
+    </RelativeLayout>
+</com.facebook.ads.NativeAdLayout>

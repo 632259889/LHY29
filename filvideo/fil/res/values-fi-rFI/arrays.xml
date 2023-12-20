@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gif_quality">
+        <item>Heikko laatu</item>
+        <item>Keskitasoinen laatu</item>
+        <item>Korkea laatu</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>Koti</item>
+        <item>Kilpailu</item>
+        <item>inspiraatio</item>
+        <item>Ehdotus</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>Tallenna puhelimen muistiin</item>
+        <item>Tallenna ulkoiseen muistiin</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>OMAT LUONNOKSET</item>
+        <item>OMAT TEOKSET</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>Odota täällä kärsivällisesti. Älä poistu nykyiseltä sivulta, muuten vientiprosessi lopetetaan.</item>
+        <item>"Mainokset tekevät Filmigo'sta ilmaisen sovelluksen. Kiitos ymmärryksestäsi. Voit myös ladata Pro-version mainosten poistamiseksi."</item>
+        <item>Jos puhelimesi suorituskyky on huono, suurten videolähteiden käyttäminen tai liian suuren materiaalimäärän lisääminen voi aiheuttaa vikatilanteen. Yritä uudelleen, kun olet poistanut jotain materiaalia tai tehosteita.</item>
+        <item>Käytä \"Ultraleikkausta\" leikataksesi yhden videon useisiin osiin ja pikatallenna sitten kaikki leikkeet. Se on erittäin hyödyllinen ominaisuus videoiden lyhentämiseen.</item>
+        <item>Ystävällinen muistutus: PIKATILA vie videot nopeammin, mutta viedyn videon resoluutio on huonompi. TILA käyttää vientiin enemmän aikaa, mutta laatu on parempi.</item>
+        <item>Voit hidastaa tai nopeuttaa videokuvaa klikkaamalla \"Nopeus\" kohdassa \"Leikkeen muokkaus\".</item>
+        <item>Kun videon vienti on onnistunut, voit nimetä sen uudelleen Oma studiossa ja jakaa sen ystäviesi kanssa.</item>
+        <item>Voit lisätä usempia kappaleita yhteen videoon klikkaamalla \"Multimusiikki\" kohdassa \"Pro-muokkaus\".</item>
+        <item>Kestääkö liian kauan? Juo kuppi kahvia ja palaa takaisin! Huomaat, että mahtava videosi on viety!</item>
+        <item>Usean kappaleen tilassa voit määrittää eri äänenvoimakkuuden eri kappaleille.</item>
+        <item>Hyödynnä tarraa mahdollisimman hyvin. Se tukee sisäänrakennettuja tarroja, omia kuviasi ja GIF-tiedostoja! Se tukee myös useita kerroksia!</item>
+        <item>> Ekslusiivista: Voit lisätä musiikkia kuvaamisen aikana! Tanssisynkkavideon kuvaaminen on helppoa.</item>
+        <item>Voit muuttaa taustavärejä napsauttamalla Muokkaa studiota -sivun oikeassa yläkulmassa olevaa asetuskuvaketta.</item>
+        <item>Zoomaa videota tai kuvaa, jotta videosi keskittyy haluamaasi kohtaan. Napsauta \"Pro-muokkaus\"> \"Leikkeen muokkaus\"> \"Zoomaa\".</item>
+        <item>Käytä \"Pakkaa video\" -toimintoa, jotta voit pienentää videoita, jolloin videoiden jakaminen on nopeampaa, vaikka verkkokaistanleveys onkin alhainen. Klikkaa \"Pakkaa video\" kotisivulla.</item>
+        <item>Haluatko lisää ominaisuuksia? Voit lähettää sähköpostia osoitteeseen support@enjoy-global.com ja kertoa meille.</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>Leikkaa</item>
+        <item>Poista valittu osa</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="89.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cardview="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="89.0dip" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:id="@id/ll_item" android:layout_width="@dimen/editor_music_item_size_a_one" android:layout_height="@dimen/editor_music_item_size_a_one" android:foreground="@drawable/ripple_bright_rectangle" cardview:cardBackgroundColor="@color/bottom_pop_list_item_border_color" cardview:cardCornerRadius="0.0dip" cardview:cardElevation="0.0dip">
+            <ImageView android:id="@id/itemImage" android:layout_width="@dimen/editor_music_item_size_a_one" android:layout_height="@dimen/editor_music_item_size_a_one" android:scaleType="fitXY" />
+            <ImageView android:layout_gravity="center" android:id="@id/itemImage_circle" android:background="@drawable/effect_bg_selector_a_one" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:layout_gravity="right" android:id="@id/itemPro" android:background="@drawable/ic_material_left_corner_viptip" android:visibility="visible" android:layout_width="27.0dip" android:layout_height="18.0dip" />
+            <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_name" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/music_library" android:maxLines="5" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</RelativeLayout>

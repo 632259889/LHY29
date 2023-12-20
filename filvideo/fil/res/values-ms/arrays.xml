@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_dialog_message">
+        <item>Pratonton</item>
+        <item>Kongsi</item>
+        <item>Hapuskan</item>
+        <item>Namakan semula</item>
+        <item>Butiran</item>
+    </string-array>
+    <string-array name="draftbox_dialog_message">
+        <item>meneruskan pengeditan</item>
+        <item>Padam</item>
+    </string-array>
+    <string-array name="gif_quality">
+        <item>Kualiti Rendah</item>
+        <item>Kualiti Sederhana</item>
+        <item>Kualiti Tinggi</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>Utama</item>
+        <item>Inspirasi</item>
+        <item>Cadangan</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>Tunjuk</item>
+        <item>Kongsi</item>
+        <item>Hapuskan</item>
+        <item>Namakan semula</item>
+        <item>Butiran</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>Simpan ke dalam memori telefon</item>
+        <item>Simpan ke memori luaran</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>DRAF AKU</item>
+        <item>KERJA SAYA</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>Sila tunggu di sini dan harap dapat bersabar sambil menonton video terperinci yang anda telah berjaya hasilkan. Atau ia mungkin gagal dieksport sekiranya anda keluar dari halaman ini sekarang.</item>
+        <item>Iklan membantu mengekalkan Filmigo sebagai aplikasi yang percuma. terima kasih atas pemahaman anda. Anda boleh menaik taraf kepada versi Pro untuk mengalih keluar iklan.</item>
+        <item>Sekiranya konfigurasi telefon anda berada pada tahap rendah, sumber video terlalu besar atau terlalu banyak bahan yang digunakan, ia boleh menyebabkan pengeksportan video gagal. Jadi, sila cuba sekali lagi selepas memadam beberapa bahan.</item>
+        <item>Gunakan \"Ultra Cut\" untuk memotong pelbagai bahagian daripada sesebuah video, dan simpan dengan segera. Ia merupakan ciri yang amat berguna untuk menyingkatkan video-video yang besar.</item>
+        <item>Peringatan Mesra: MOD PANTAS menggunakan kelajuan mengeksport yang pantas tetapi resolusi video adalah lebih rendah. Manakala Mod HD pula mengambil masa lebih lama untuk mengeksport tetapi dengan kualiti yang lebih tinggi.</item>
+        <item>Perlahankan atau percepatkan video dengan mengklik pada \"Speed\" di \"Clip Edit\".</item>
+        <item>Selepas video berjaya dieksport, anda boleh menamakannya semula dalam Studio Saya atau berkongsi dengan kawan-kawan anda.</item>
+        <item>Klik \"Multi Music\" di \"Pro Edit\" untuk menambah pelbagai muzik dalam satu video.</item>
+        <item>Mengambil masa terlalu lama untuk mengeksportnya? Apabila selesai, video yang hebat akan dapat ditunjukkan kepada anda, sambil menunggu ia selesai nikmatilah secawan dua kopi dahulu.</item>
+        <item>Dalam mod muzik pelbagai, anda boleh menetapkan pelbagai tahap bunyi untuk muzik yang berbeza.</item>
+        <item>Gunakan dengan penuh \"Sticker\". Ia menyokong Pelekat Yang Tersedia, Imej dan Gif anda. Tambahan pula, ia menyokong pelbagai lapisan!</item>
+        <item>Eksklusif: Rakaman video muzik. Rakaman video apabila memainkan muzik. Ia amat berguna untuk merakam video tarian-segerakan.</item>
+        <item>Anda boleh menukar warna latar belakang dengan mengklik pada ikon tetapan pada sudut atas kanan di Studio Edit.</item>
+        <item>Zum video dan gambar, jadikan video anda memfokus pada kedudukan yang anda ingini. Klik \"Pro Edit\" > \"Clip Edit\" > \"Zoom\".</item>
+        <item>Gunakan \"Compress video\" untuk menyingkatkan video dan berkongsi lebih pantas dengan rangkaian berjaringan rendah. Klik \"Compress Video\" di laman asal.</item>
+        <item>Inginkan lebih banyak ciri? Jangan teragak-agak untuk menghantar e-mel ke support@enjoy-global.com dan beritahu kami.</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>Potong</item>
+        <item>Delete Selected Part</item>
+    </string-array>
+    <string-array name="video_dialog_message">
+        <item>Pratonton</item>
+        <item>Sunting Video</item>
+        <item>Kongsi</item>
+        <item>Hapuskan</item>
+        <item>Hapuskan</item>
+        <item>Namakan semula</item>
+        <item>Butiran</item>
+    </string-array>
+</resources>

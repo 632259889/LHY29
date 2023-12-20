@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/font_item" android:layout_width="fill_parent" android:layout_height="160.0dip">
+        <RelativeLayout android:gravity="center_vertical" android:background="@drawable/bg_adapter_font_list_item" android:layout_width="fill_parent" android:layout_height="160.0dip">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_47" android:layout_marginTop="@dimen/dp_30" android:layout_marginRight="@dimen/dp_47" android:layout_marginBottom="@dimen/dp_50" android:layout_marginStart="@dimen/dp_47" android:layout_marginEnd="@dimen/dp_47">
+                <ImageView android:id="@id/iv_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="40.0sp" android:textColor="@color/dialog_text_gray_color" android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="160.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <RelativeLayout android:layout_gravity="end|bottom|center" android:id="@id/btn_download_material_item" android:background="@drawable/bg_store_download_a_one" android:layout_width="77.0dip" android:layout_height="30.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true">
+                <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="12.0sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/tv_download_material_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/material_downlaod_state" android:singleLine="true" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+    <RelativeLayout android:id="@id/font_ad" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="280.0dip" />
+</RelativeLayout>

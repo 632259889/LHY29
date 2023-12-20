@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#cc000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="6.1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_content_music" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.1" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/home_bg_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="2.0" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btn_music_new" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:background="@drawable/mp3_btn_new" android:clickable="false" android:layout_width="@dimen/home_buttom_icon_size" android:layout_height="@dimen/home_buttom_icon_size" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="16.0sp" android:textColor="@color/home_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/home_buttom_margin_top" android:text="@string/home_mp3_new" android:singleLine="true" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+        <View android:layout_gravity="center" android:background="@color/split_line_color" android:layout_width="0.5dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btn_music_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:background="@drawable/mp3_btn_view" android:clickable="false" android:layout_width="@dimen/home_buttom_icon_size" android:layout_height="@dimen/home_buttom_icon_size" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="16.0sp" android:textColor="@color/home_text_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/home_buttom_margin_top" android:text="@string/home_mp3_view" android:singleLine="true" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

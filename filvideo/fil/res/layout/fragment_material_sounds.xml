@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/material_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xvideostudio.videoeditor.util.superlistviewandgridview.SuperHeaderGridview android:id="@id/material_music_listview" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" superlistview:superlv__listClipToPadding="false" superlistview:superlv__listDivider="@android:color/transparent" superlistview:superlv__listDividerHeight="0.0dip" superlistview:superlv__moreProgress="@layout/view_more_progress" superlistview:superlv__scrollbarStyle="outsideOverlay" xmlns:superlistview="http://schemas.android.com/apk/res-auto" />
+    <include layout="@layout/nodata_material" />
+</FrameLayout>

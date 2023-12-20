@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>subs_ui_type</key>
+        <value>original plan</value>
+    </entry>
+    <entry>
+        <key>sku_day</key>
+        <value>NULL</value>
+    </entry>
+    <entry>
+        <key>sku_id</key>
+        <value>NULL</value>
+    </entry>
+    <entry>
+        <key>ad_show</key>
+        <value>H</value>
+    </entry>
+    <entry>
+        <key>filmigo_guide_price_sku1</key>
+        <value>NULL</value>
+    </entry>
+    <entry>
+        <key>filmigo_guide_price_sku2</key>
+        <value>NULL</value>
+    </entry>
+    <entry>
+        <key>filmigo_guide_type</key>
+        <value>NULL</value>
+    </entry>
+    <entry>
+        <key>Watermark_type</key>
+        <value>NULL</value>
+    </entry>
+    <entry>
+        <key>AdLTV_OneDay_Top50Percent</key>
+        <value>0.005044</value>
+    </entry>
+    <entry>
+        <key>AdLTV_OneDay_Top40Percent</key>
+        <value>0.007667</value>
+    </entry>
+    <entry>
+        <key>AdLTV_OneDay_Top30Percent</key>
+        <value>0.0105</value>
+    </entry>
+    <entry>
+        <key>AdLTV_OneDay_Top20Percent</key>
+        <value>0.01531</value>
+    </entry>
+    <entry>
+        <key>AdLTV_OneDay_Top10Percent</key>
+        <value>0.0272</value>
+    </entry>
+    <entry>
+        <key>Configure_payment_ID_by_country_5</key>
+        <value>{ "first_payment_item": "filmigo.week.6.99",
+            "second_payment_item": "filmigo.month.19.99_3",
+            "third_payment_item": "",
+            "Guide_VIP": "filmigo.month.19.99_3",
+            "first_open_guide_app_pay_id": "filmigo.month.19.99_3",
+            "detainmant_guide_app_pay_id": "filmigo.month.19.99_3",
+            "ace_app_pay_id": "filmigo.week",
+            "cancel_original_app_pay_id": "filmigo.year.49.99",
+            "cancel_guide_app_pay_id": "filmigo.year.19.99",
+            "newuser_promotion_app_pay_id": "filmigo.music.month.25.99" }</value>
+    </entry>
+    <entry>
+        <key>Configure_payment_ID_by_country_5_test</key>
+        <value>{ "first_payment_item": "filmigo.week.6.99",
+            "second_payment_item": "filmigo.month.19.99_3",
+            "third_payment_item": "filmigo.year.49.99",
+            "Guide_VIP": "filmigo.month.19.99_3",
+            "first_open_guide_app_pay_id": "filmigo.month.19.99_3",
+            "detainmant_guide_app_pay_id": "filmigo.month.19.99_3",
+            "ace_app_pay_id": "filmigo.week",
+            "cancel_original_app_pay_id": "filmigo.year.49.99",
+            "cancel_guide_app_pay_id": "filmigo.year.19.99",
+            "newuser_promotion_app_pay_id": "filmigo.music.month.25.99",
+            "payment_fail_guide_app_pay_id": "filmigo.month.15.99_3" }</value>
+    </entry>
+</defaultsMap>

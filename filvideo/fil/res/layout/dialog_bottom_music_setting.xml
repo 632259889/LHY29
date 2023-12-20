@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/bt_dialog_cancel" android:background="@color/main_black_80" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_above="@id/linearLayout" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+    <RelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/linearLayout" android:background="@color/bottom_pop_bg" android:layout_width="fill_parent" android:layout_height="258.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/ll_fast_mode" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentTop="true">
+            <com.xvideostudio.videoeditor.view.RobotoLightTextView android:textSize="@dimen/dialog_export_type_text_size_1" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_musicsetting_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_export_type_margin_left_1" android:layout_marginTop="15.0dip" android:maxWidth="@dimen/music_setting_name_max_width" android:text="Jingle Bells Swing" android:maxLines="1" />
+            <Button android:id="@id/bt_duration_selection" android:background="@drawable/ic_mulitermusic_setting" android:layout_width="33.399994dip" android:layout_height="33.399994dip" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bt_dialog_ok" android:layout_below="@id/ll_fast_mode">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="70.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="10.0dip">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.xvideostudio.videoeditor.view.RobotoLightTextView android:textSize="13.399994sp" android:textColor="@color/white" android:layout_gravity="center|left" android:id="@id/tx_music_starttime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+                    <com.xvideostudio.videoeditor.view.RobotoLightTextView android:textSize="13.399994sp" android:textColor="@color/colorAccent" android:layout_gravity="center" android:id="@id/tv_touch_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+                    <com.xvideostudio.videoeditor.view.RobotoLightTextView android:textSize="13.399994sp" android:textColor="@color/white" android:layout_gravity="center|right" android:id="@id/tx_music_endtime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="62.0dip" android:layout_marginLeft="18.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="8.0dip">
+                <Button android:id="@id/bt_musicsetting_item_play" android:background="@drawable/music_play_selector_3" android:layout_width="33.399994dip" android:layout_height="33.399994dip" />
+                <com.xvideostudio.videoeditor.tool.MusicRangeSeekBar android:id="@id/music_rangeseekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.699982dip" android:layout_marginRight="0.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.xvideostudio.videoeditor.view.RobotoBoldButton android:textSize="@dimen/bottom_pop_button_text_size" android:textColor="@color/colorAccent" android:id="@id/bt_dialog_ok" android:background="@drawable/bottom_pop_button_selector" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_pop_button_height" android:text="@string/music_set_add_music" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

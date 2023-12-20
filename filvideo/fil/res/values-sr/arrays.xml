@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gif_quality">
+        <item>Nizak kvalitet</item>
+        <item>Srednji kvalitet</item>
+        <item>Visok kvalitet</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>Kuća</item>
+        <item>Takmičenje</item>
+        <item>Inspiracija</item>
+        <item>Sugestija</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>Sačuvaj u memoriju telefona</item>
+        <item>Sačuvaj u eksternu memoriju</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>MOJE RADNE VERZIJE</item>
+        <item>MOJI RADOVI</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>Sačekajte ovde strpljivo. Nemojte izlaziti iz trenutne stranice, inače će proces izvoza biti prekinut.</item>
+        <item>Oglasi čine Filmigo besplatnom aplikacijom. Hvala na razumevanju. Takođe možete da preuzmete Pro verziju da biste uklonili oglase.</item>
+        <item>Ako su performanse vašeg telefona loše, korišćenje velikih video izvora ili dodavanje previše materijala može dovesti do neuspelog izvoza. Zato pokušajte ponovo nakon brisanja nekih materijala ili efekata.</item>
+        <item>Koristite isecanje \"Ultra rez\" jednog video zapisa na više delova, a zatim brzo sačuvajte sve klipove. To je vrlo korisna funkcija da video klipovi budu stanjeni.</item>
+        <item>Prijateljski podsetnik: BRZI REŽIM omogućava bržu brzinu za izvoz video zapisa, ali će izvezeni video zapis biti sa manjom rezolucijom video zapisa. Dok je za REŽIM potrebno više vremena za izvoz, on obezbeđuje veći kvalitet.</item>
+        <item>Usporite ili ubrzajte video zapis klikom na \"Brzina\" u \"Uređivanje klipova\"</item>
+        <item>Nakon što je video zapis uspešno izvezen, možete da ga preimenujete u Mom studiju i da ga delite svojim prijateljima.</item>
+        <item>Kliknite na \"Muzika više opcija\" u \"Pro uređivanje\" da biste dodali višestruku muziku u jedan video zapis.</item>
+        <item>Čekate predugo? Popijte šolju kafe i vratite se! Pronaći ćete izvezen fenomenalan video zapis!</item>
+        <item>U režimu više muzičkih opcija možete da podesite različitu jačnu zvuka za različitu muziku.</item>
+        <item>U potpunosti iskoristite \"Nalepnicu\". Podržava ugrađene nalepnice, vaše slike i GIF-ove! Takođe podržava višestruke slojeve!</item>
+        <item>>Ekskluzivno: možete da dodate muziku dok snimate! Lako je snimati video zapis sa sinhronizovanjem igranja.</item>
+        <item>"Možete da promenite boje pozadine tako što ćete kliknuti na ikonu za podešavanje u gornjem desnom uglu stranice 'Studio za uređivanje'."</item>
+        <item>Zumirajte video zapis ili sliku, što može učiniti da se vaš video zapis fokusira na položaj koji želite. Kliknite na \"Pro uređivanje\" > \"Uređivanje klipova\" > \"Zumiraj\".</item>
+        <item>Koristite \"Komprimuj video zapis\" da biste stanjili svoje video zapise i da bi vam to pomoglo da delite video zapis većom brzinom, čak i kada je vaša mrežna propusnost mala. Kliknite na \"Komprimuj video zapis\" na početnoj stranici.</item>
+        <item>Želite više funkcija? Slobodno pošaljite e-poruke na support@enjoy-global.com i recite nam.</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>Iseci</item>
+        <item>Izbriši izabrani deo</item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+.class interface abstract Landroidx/media2/widget/o$c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/media2/widget/o;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "c"
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Landroidx/media2/widget/p$d;)V
+.end method
+
+.method public abstract b()Landroid/os/Looper;
+.end method

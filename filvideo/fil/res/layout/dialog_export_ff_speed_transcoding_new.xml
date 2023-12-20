@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.xvideostudio.videoeditor.view.circularprogressview.CircularProgressIndicator android:layout_gravity="center" android:id="@id/circular_progress" android:layout_width="138.0dip" android:layout_height="138.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="10.0dip" android:layout_above="@id/v_center" android:layout_centerHorizontal="true" app:direction="clockwise" app:progressBackgroundColor="#ff2c545a" app:progressBackgroundStrokeWidth="23.0dip" app:progressColor="#ff4ed0d6" app:progressStrokeWidth="23.0dip" app:textColor="@color/white" app:textSize="30.0sp" />
+        <View android:id="@id/v_center" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_centerInParent="true" />
+        <com.xvideostudio.videoeditor.view.RobotoRegularButton android:textSize="@dimen/text_size_no_3" android:textColor="@color/white" android:gravity="center" android:id="@id/bt_dialog_cancel" android:background="@drawable/bg_color_circle_transcode" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="16.0dip" android:text="@string/editor_clip_ff_stop_encode_tip" android:layout_below="@id/v_center" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="vertical" android:padding="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/bt_dialog_cancel">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="37.0dip">
+                <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:textSize="23.0sp" android:textColor="@color/colorAccent" android:gravity="center" android:id="@id/tv_export_speed_transcoding_title" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/editor_clip_ff_encoding_tip" android:singleLine="true" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ProgressBar android:id="@id/progressBar1" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="50.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:progress="50" android:progressDrawable="@drawable/ff_export_speed_seekbar_drawable" android:layout_centerHorizontal="true" style="?android:progressBarStyleHorizontal" />
+                <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:textSize="23.0sp" android:textColor="@color/ff_export_speed_text_color" android:gravity="center" android:id="@id/tv_export_speed_transcoding_progress" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="50%" android:singleLine="true" android:layout_below="@id/progressBar1" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

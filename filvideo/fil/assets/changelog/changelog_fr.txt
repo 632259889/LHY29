@@ -1,0 +1,6 @@
+V7.6.4
+Plate-forme de messagerie Cloud VideoShow coopère avec apparaît un bug.
+Il a causé application peut recevoir des notifications répétées.
+Maintenant, cette version mise à jour a résolu le problème.
+Veuillez mettre à jour vers la version 7.6.4.
+Donc désolé pour l'inconvience.

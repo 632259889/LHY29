@@ -1,0 +1,6 @@
+﻿V7.6.4
+VideoShow işbirliği yapan Bulut mesajlaşma platformu hata gösteriyor.
+Bu, uygulamanın tekrarlanan bildirim almasına neden oldu.
+Şimdi bu güncelleştirilmiş sürüm sorunu çözdü.
+Lütfen 7.6.4 sürümüne güncelleyin.
+Bu inconvience için çok özür dilerim.

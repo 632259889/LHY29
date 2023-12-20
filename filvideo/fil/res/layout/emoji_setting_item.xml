@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/ll_material_theme_fx_sticker_item" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:id="@id/fl_material_material_item" style="@style/material_store_card">
+        <RelativeLayout android:id="@id/rl_material_material_item" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/fl_preview_material_item" android:background="@color/material_store_image_background_color" android:layout_width="fill_parent" android:layout_height="157.0dip">
+                <ImageView android:id="@id/iv_material_icon" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            </FrameLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fl_preview_material_item">
+                <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="13.0sp" android:textColor="@color/black_26" android:gravity="center_vertical" android:id="@id/tv_material_name" android:layout_width="fill_parent" android:layout_height="@dimen/material_store_download_layout_height" android:layout_marginLeft="@dimen/material_store_material_item_image_margin" android:text="素材名称" android:singleLine="true" android:layout_toLeftOf="@id/fl_progressbtn_material_item" />
+                <FrameLayout android:id="@id/fl_progressbtn_material_item" android:layout_width="@dimen/material_store_download_layout_width" android:layout_height="@dimen/material_store_download_layout_height" android:layout_alignParentRight="true">
+                    <Button android:layout_gravity="center" android:id="@id/btn_remove_emoji_setting_item" android:background="@drawable/ic_store_del" android:layout_width="@dimen/material_download_button_width" android:layout_height="@dimen/material_download_button_height" />
+                </FrameLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

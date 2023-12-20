@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MediaControlView_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="al_exo_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>@string/al_exo_controls_playback_speed_normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <integer-array name="al_exo_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+    <string-array name="audio_dialog_message">
+        <item>Preview</item>
+        <item>Share</item>
+        <item>Delete</item>
+        <item>Rename</item>
+        <item>Details</item>
+    </string-array>
+    <string-array name="draftbox_dialog_message">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+    <array name="emoji_add_sticker" />
+    <string-array name="emoji_apng">
+        <item>apng_01</item>
+        <item>apng_02</item>
+        <item>apng_03</item>
+        <item>apng_04</item>
+        <item>apng_05</item>
+        <item>apng_06</item>
+        <item>apng_07</item>
+        <item>apng_08</item>
+        <item>apng_09</item>
+        <item>apng_10</item>
+        <item>apng_11</item>
+        <item>apng_12</item>
+        <item>apng_13</item>
+        <item>apng_14</item>
+        <item>apng_15</item>
+        <item>apng_16</item>
+        <item>apng_17</item>
+        <item>apng_18</item>
+        <item>apng_19</item>
+    </string-array>
+    <string-array name="emoji_decoration">
+        <item>2f001</item>
+        <item>2f002</item>
+        <item>2f003</item>
+        <item>2f004</item>
+        <item>2f005</item>
+        <item>2f006</item>
+        <item>2f007</item>
+        <item>2f008</item>
+        <item>2f009</item>
+        <item>2f010</item>
+        <item>2f011</item>
+        <item>2f012</item>
+        <item>2f013</item>
+        <item>2f014</item>
+        <item>2f015</item>
+        <item>2f016</item>
+        <item>2f017</item>
+        <item>2f018</item>
+        <item>2f019</item>
+        <item>2f020</item>
+        <item>2f021</item>
+        <item>2f022</item>
+        <item>2f023</item>
+        <item>2f024</item>
+        <item>2f025</item>
+        <item>2f026</item>
+        <item>2f027</item>
+        <item>2f028</item>
+        <item>2f029</item>
+        <item>2f030</item>
+        <item>2f031</item>
+        <item>2f032</item>
+    </string-array>
+    <string-array name="emoji_face">
+        <item>1f001</item>
+        <item>1f002</item>
+        <item>1f003</item>
+        <item>1f004</item>
+        <item>1f005</item>
+        <item>1f006</item>
+        <item>1f007</item>
+        <item>1f008</item>
+        <item>1f009</item>
+        <item>1f010</item>
+        <item>1f011</item>
+        <item>1f012</item>
+        <item>1f013</item>
+        <item>1f014</item>
+        <item>1f015</item>
+        <item>1f016</item>
+        <item>1f017</item>
+        <item>1f018</item>
+        <item>1f019</item>
+        <item>1f020</item>
+        <item>1f021</item>
+        <item>1f022</item>
+        <item>1f023</item>
+        <item>1f024</item>
+    </string-array>
+    <array name="emoji_recent" />
+    <array name="emoji_setting" />
+    <string-array name="emoji_text">
+        <item>3f001</item>
+        <item>3f002</item>
+        <item>3f003</item>
+        <item>3f004</item>
+        <item>3f005</item>
+        <item>3f006</item>
+        <item>3f007</item>
+        <item>3f008</item>
+        <item>3f009</item>
+        <item>3f010</item>
+        <item>3f011</item>
+        <item>3f012</item>
+        <item>3f013</item>
+        <item>3f014</item>
+        <item>3f015</item>
+        <item>3f016</item>
+        <item>3f017</item>
+        <item>3f018</item>
+        <item>3f019</item>
+        <item>3f020</item>
+        <item>3f021</item>
+        <item>3f022</item>
+        <item>3f023</item>
+        <item>3f024</item>
+        <item>3f025</item>
+    </string-array>
+    <string-array name="gif_quality">
+        <item>Low Quality</item>
+        <item>Medium Quality</item>
+        <item>High Quality</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>Home</item>
+        <item>Contest</item>
+        <item>Inspiration</item>
+        <item>Suggestion</item>
+    </string-array>
+    <string-array name="indexable_letter">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="language_select">
+        <item>@string/setting_language_auto</item>
+        <item>English</item>
+        <item>العربية</item>
+        <item>Deutsch</item>
+        <item>Español</item>
+        <item>Le français</item>
+        <item>हिन्दी</item>
+        <item>Bahasa indonesia</item>
+        <item>lingua italiana</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Melayu</item>
+        <item>Nederlands</item>
+        <item>Português</item>
+        <item>русский</item>
+        <item>ไทย</item>
+        <item>Filipino</item>
+        <item>Türk dili</item>
+        <item>Người việt nam</item>
+        <item>中文</item>
+        <item>繁体中文</item>
+        <item>Bulharština</item>
+        <item>Česky</item>
+        <item>dansk</item>
+        <item>Ελληνικά</item>
+        <item>فارسی</item>
+        <item>suomalainen</item>
+        <item>magyar</item>
+        <item>עברית</item>
+        <item>norsk språk</item>
+        <item>Polski</item>
+        <item>românesc</item>
+        <item>Сербиан</item>
+        <item>Svenska</item>
+        <item>Kiswahili</item>
+        <item>Українська</item>
+    </string-array>
+    <integer-array name="media2_widget_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+    <string-array name="picture_dialog_message">
+        <item>Show</item>
+        <item>Share</item>
+        <item>Delete</item>
+        <item>Rename</item>
+        <item>Details</item>
+    </string-array>
+    <string-array name="raw_musics">
+        <item>delight</item>
+        <item>wedding_memory</item>
+        <item>holiday_adventure</item>
+        <item>shine_your_way</item>
+        <item>big_dream</item>
+        <item>merry</item>
+        <item>craze</item>
+        <item>birthday</item>
+    </string-array>
+    <string-array name="raw_musics_describe">
+        <item>@string/music_inner_delight</item>
+        <item>@string/music_inner_memory</item>
+        <item>@string/music_inner_holiday_adventure</item>
+        <item>@string/music_inner_big_dream</item>
+        <item>@string/music_inner_shine_your_way_hope</item>
+        <item>@string/music_inner_merry</item>
+        <item>@string/music_inner_tropical_summertime</item>
+        <item>@string/music_inner_birthday</item>
+    </string-array>
+    <string-array name="raw_musics_duration">
+        <item>60024</item>
+        <item>62796</item>
+        <item>62509</item>
+        <item>59557</item>
+        <item>39965</item>
+        <item>35106</item>
+        <item>59531</item>
+        <item>41454</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>"Save to the phone's memory?"</item>
+        <item>Save to the external memory?</item>
+    </string-array>
+    <string-array name="sticker_apng">
+        <item>1f013</item>
+        <item>1f014</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>MY DRAFTS</item>
+        <item>MY WORKS</item>
+    </string-array>
+    <string-array name="text_color_classics">
+        <item>\#004C86</item>
+        <item>\#79848A</item>
+        <item>\#FBB78F</item>
+        <item>\#A58E83</item>
+        <item>\#DACBBA</item>
+        <item>\#67BE48</item>
+        <item>\#D4CA99</item>
+        <item>\#99B7D4</item>
+        <item>\#B05C80</item>
+        <item>\#D0A8C0</item>
+        <item>\#004C86</item>
+        <item>\#B6D63C</item>
+        <item>\#FF685A</item>
+        <item>\#344341</item>
+        <item>\#BD9437</item>
+    </string-array>
+    <string-array name="text_color_gradient_ramp_end">
+        <item>\#82DFEF</item>
+        <item>\#FAA096</item>
+        <item>\#D5E279</item>
+        <item>\#E9C29F</item>
+        <item>\#684EF1</item>
+        <item>\#FE5878</item>
+        <item>\#0CC0FB</item>
+        <item>\#FDE15E</item>
+        <item>\#85D7CE</item>
+        <item>\#F74C5A</item>
+        <item>\#D9778F</item>
+        <item>\#C3EF71</item>
+        <item>\#512147</item>
+        <item>\#FBB38D</item>
+        <item>\#3AF6C4</item>
+    </string-array>
+    <string-array name="text_color_gradient_ramp_start">
+        <item>\#833AB4</item>
+        <item>\#74E4DE</item>
+        <item>\#C3A2ED</item>
+        <item>\#69EBAA</item>
+        <item>\#CD7BEC</item>
+        <item>\#FDA695</item>
+        <item>\#7AF6BE</item>
+        <item>\#FA876B</item>
+        <item>\#833AB4</item>
+        <item>\#613F97</item>
+        <item>\#7EED9E</item>
+        <item>\#3B55C6</item>
+        <item>\#E1A8B1</item>
+        <item>\#3F2C92</item>
+        <item>\#00CDF3</item>
+    </string-array>
+    <string-array name="text_color_modern">
+        <item>\#FEFFFF</item>
+        <item>\#000203</item>
+        <item>\#0096FB</item>
+        <item>\#40C743</item>
+        <item>\#FFCB41</item>
+        <item>\#FF8800</item>
+        <item>\#AE00BD</item>
+        <item>\#FF0000</item>
+        <item>\#FB8394</item>
+        <item>\#FFCED7</item>
+        <item>\#FFDDAE</item>
+        <item>\#D3913A</item>
+        <item>\#9E6330</item>
+        <item>\#004D27</item>
+        <item>\#525758</item>
+    </string-array>
+    <string-array name="text_color_morandi">
+        <item>\#FEFFFF</item>
+        <item>\#FAF0DC</item>
+        <item>\#A99A8F</item>
+        <item>\#A99A8F</item>
+        <item>\#4A4B4D</item>
+        <item>\#000001</item>
+        <item>\#DC736E</item>
+        <item>\#C08754</item>
+        <item>\#EEC745</item>
+        <item>\#E9C651</item>
+        <item>\#D0B76D</item>
+        <item>\#7F9D6D</item>
+        <item>\#2D5339</item>
+        <item>\#2C7F7F</item>
+        <item>\#006391</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>Please be patient for your video to be created. If you exit the current page, the video will fail to export.</item>
+        <item>Ads help keep FILMIGO as a free app. Thanks for your understanding.</item>
+        <item>If your phone performance is poor, using large video sources or too many materials could lead to a failed export. So please try again after deleting some materials or effects.</item>
+        <item>"Use \"Ultra Cut\" to trim multiple parts from one video and save quickly. It's a very useful feature to make videos slim down."</item>
+        <item>Friendly Reminder: FAST MODE is with fast exporting speed but lower video resolution, while HD MODE takes more time to export but provides higher quality.</item>
+        <item>Slow down or speed up the video by clicking \"Speed\" in \"Clip Edit\".</item>
+        <item>After the video is exported successfully, you can rename it in My Studio or share it with your friends.</item>
+        <item>Click \"Multi Music\" in \"PRO Edit\" to add multiple music in one video.</item>
+        <item>Why does it take so much time to export? An awesome video will be ready for you in the time it takes to drink a cup of coffee.</item>
+        <item>In Multiple Music Mode, you can set different volumes for different music.</item>
+        <item>Make full use of \"Stickers\". It supports built-in Stickers, your own Images, GIFs, and it also supports multiple layers!</item>
+        <item>"Exclusive: You may select music to play while the video is shooting. It's easy to shoot a dance-sync videos."</item>
+        <item>You can change background colors by clicking the setting icon at the right top in Edit Studio.</item>
+        <item>Zoom the video or picture, it makes your video focus on the position you want. Click \"PRO Edit\" > \"Clip Edit\" > \"Zoom\".</item>
+        <item>Use \"Compress Video\"To make videos slim down and share faster with low bandwidth network. Click \"Compress Video\" in homepage.</item>
+        <item>Want more features? Feel free to send emails to support@enjoy-global.com and tell us.</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>Trim</item>
+        <item>Delete selected part?</item>
+    </string-array>
+    <string-array name="video_dialog_message">
+        <item>Preview</item>
+        <item>Edit Video</item>
+        <item>Share</item>
+        <item>Delete</item>
+        <item>Rename</item>
+        <item>Details</item>
+    </string-array>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" cardview:cardCornerRadius="@dimen/dialog_card_corner_radius" cardview:cardElevation="@dimen/dialog_card_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cardview="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/dialog_layout">
+        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textStyle="bold" android:textColor="@color/black" android:id="@id/tv_login_rewards_title" android:text="@string/share_wei_xin_friend_title" style="@style/dialog_header_text" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/share_wei_xin_friend_one" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/dialog_share_wei_xin_one" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/share_wei_xin_friend_two" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="@string/share_wei_xin_friend_three" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/dialog_share_wei_xin_twe" />
+        <RelativeLayout android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.xvideostudio.videoeditor.view.RippleView android:background="@drawable/selector_row" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <Button android:textSize="@dimen/dialog_button_text_size" android:textColor="@color/light_pink" android:gravity="center" android:id="@id/share_weixn_dialog_know" android:background="@color/transparent" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dialog_button_min_width" android:text="@string/share_wei_xin_friend_know" android:singleLine="true" />
+            </com.xvideostudio.videoeditor.view.RippleView>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

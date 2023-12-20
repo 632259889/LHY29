@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:scrollbarSize="@dimen/setting_gray_text_margin_top" android:scrollbarThumbVertical="@color/progressbar_secondary" android:id="@id/editor_list" android:background="@color/editor_choose_clip_bg" android:scrollbars="vertical" android:fadingEdge="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/listview_selector" android:cacheColorHint="@color/transparent" android:divider="@drawable/list_item_divider_editor_choose" android:dividerHeight="0.5dip" android:scrollbarFadeDuration="@integer/item_scroll_duration" />
+    <RelativeLayout android:background="@color/black_90" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/editor_list" />
+</RelativeLayout>

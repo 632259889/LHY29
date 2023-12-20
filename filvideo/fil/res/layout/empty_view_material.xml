@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_network_icon_material" android:visibility="visible" android:layout_width="83.0dip" android:layout_height="83.0dip" android:layout_marginTop="150.0dip" android:src="@drawable/ic_store_empty" android:layout_centerHorizontal="true" />
+    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="16.0sp" android:textColor="#ffa1a1a1" android:id="@id/tv_network_error_material" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/material_pull_to_refresh" android:layout_below="@id/iv_network_icon_material" android:layout_centerHorizontal="true" />
+</RelativeLayout>

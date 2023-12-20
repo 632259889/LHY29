@@ -1,0 +1,56 @@
+HLX Version 100
+PixelShader<<<
+#ifdef GL_ES
+precision mediump float;
+precision mediump int;
+#endif
+
+uniform float time;
+uniform float duration;
+uniform sampler2D hl_images[4];
+uniform int object_id;
+uniform vec2 hl_target_size;
+varying vec2 hlf_texcoord;
+
+vec3 brightness(vec3 color, float brightness) {
+	float scaled = brightness / 2.0;
+	if (scaled < 0.0) {
+		return color * (1.0 + scaled);
+	} else {
+		return color + ((1.0 - color) * scaled);
+	}
+}
+
+vec3 overlay(vec3 overlayComponent, vec3 underlayComponent, float alpha) {
+	vec3 underlay = underlayComponent * alpha;
+	return underlay * (underlay + (2.0 * overlayComponent * (1.0 - underlay)));
+}
+
+void main(){
+	vec2 uv = hlf_texcoord;
+	vec4 color = vec4(1, 1, 1, 1);
+	vec3 color1;
+	if (object_id == 0)
+	{
+		color = texture2D(hl_images[1], uv);
+		
+	}
+	if (object_id >0)
+	{
+		color = texture2D(hl_images[0], uv);
+	}
+	color1=color.rgb;
+	float luminosity = dot(color1, vec3(0.21, 0.72, 0.07));
+	float brightGray = brightness(vec3(luminosity), 0.234375).r;
+	
+	vec3 tinted = overlay(vec3(0.419, 0.259, 0.047), vec3(brightGray), 1.0);
+	
+	float invertMask = 1.0 - luminosity;
+	float luminosity3 = pow(luminosity, 3.0);
+	
+	color1=vec3(luminosity3) + (tinted * invertMask * (luminosity + 1.0));
+	color.rgb=color1;
+	gl_FragColor = color;
+}
+
+>>>PixelShader

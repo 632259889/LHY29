@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xvideostudio.videoeditor.view.RotateViewGroup android:id="@id/rec_rotate_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:rotation="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/dpi_float_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ln_rec_duration" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/capture_float_margin" android:layout_marginTop="@dimen/capture_float_title_margin" android:layout_marginRight="@dimen/capture_float_margin" android:layout_centerHorizontal="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_rec_marker" android:visibility="visible" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_rec_marker" android:scaleType="fitCenter" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_duration" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ln_zoom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/capture_float_margin" android:layout_marginTop="@dimen/capture_zoom_margin" android:layout_marginRight="@dimen/capture_float_margin" android:layout_below="@id/ln_rec_duration" android:layout_centerHorizontal="true">
+            <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_zoom" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="x1.2" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/dpi_layout" android:background="@drawable/capture_dpi_bg" android:visibility="visible" android:layout_width="@dimen/capture_float_dpi_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/capture_float_margin" android:layout_marginTop="@dimen/capture_float_title_margin" android:layout_marginRight="@dimen/capture_float_margin" android:layout_alignParentRight="true">
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:text="@string/camera_resolution" />
+            <ListView android:id="@id/dpi_listview" android:background="@color/transparent" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:listSelector="@color/transparent" android:cacheColorHint="#00000000" android:divider="#ff191817" android:dividerHeight="0.100000024dip" android:minHeight="100.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.xvideostudio.videoeditor.view.RotateViewGroup>

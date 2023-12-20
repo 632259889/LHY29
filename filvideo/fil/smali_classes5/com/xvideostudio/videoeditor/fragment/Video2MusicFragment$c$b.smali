@@ -1,0 +1,75 @@
+.class Lcom/xvideostudio/videoeditor/fragment/Video2MusicFragment$c$b;
+.super Landroidx/recyclerview/widget/RecyclerView$n;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/xvideostudio/videoeditor/fragment/Video2MusicFragment$c;->h(Landroidx/recyclerview/widget/RecyclerView;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public a:I
+
+.field public final synthetic b:Lcom/xvideostudio/videoeditor/fragment/Video2MusicFragment$c;
+
+
+# direct methods
+.method public constructor <init>(Lcom/xvideostudio/videoeditor/fragment/Video2MusicFragment$c;)V
+    .locals 1
+
+    .line 1
+    iput-object p1, p0, Lcom/xvideostudio/videoeditor/fragment/Video2MusicFragment$c$b;->b:Lcom/xvideostudio/videoeditor/fragment/Video2MusicFragment$c;
+
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$n;-><init>()V
+
+    .line 2
+    invoke-static {p1}, Lcom/xvideostudio/videoeditor/fragment/Video2MusicFragment$c;->g(Lcom/xvideostudio/videoeditor/fragment/Video2MusicFragment$c;)Landroid/content/Context;
+
+    move-result-object p1
+
+    const/high16 v0, 0x40e00000    # 7.0f
+
+    invoke-static {p1, v0}, Lcom/xvideostudio/videoeditor/util/notch/d;->a(Landroid/content/Context;F)I
+
+    move-result p1
+
+    iput p1, p0, Lcom/xvideostudio/videoeditor/fragment/Video2MusicFragment$c$b;->a:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getItemOffsets(Landroid/graphics/Rect;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$b0;)V
+    .locals 1
+    .param p1    # Landroid/graphics/Rect;
+        .annotation build Lk/f0;
+        .end annotation
+    .end param
+    .param p2    # Landroid/view/View;
+        .annotation build Lk/f0;
+        .end annotation
+    .end param
+    .param p3    # Landroidx/recyclerview/widget/RecyclerView;
+        .annotation build Lk/f0;
+        .end annotation
+    .end param
+    .param p4    # Landroidx/recyclerview/widget/RecyclerView$b0;
+        .annotation build Lk/f0;
+        .end annotation
+    .end param
+
+    .line 1
+    iget v0, p0, Lcom/xvideostudio/videoeditor/fragment/Video2MusicFragment$c$b;->a:I
+
+    invoke-static {p1, p2, p3, p4, v0}, Le5/a;->a(Landroid/graphics/Rect;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$b0;I)V
+
+    return-void
+.end method

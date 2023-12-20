@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:background="@drawable/bg_rating_dialog" android:paddingBottom="@dimen/dp_24" android:layout_width="@dimen/dp_331" android:layout_height="wrap_content" android:minHeight="@dimen/dp_159">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_close" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:layout_marginTop="@dimen/dp_12" android:layout_marginRight="@dimen/dp_12" android:src="@drawable/ic_version_close" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ProgressBar android:layout_width="@dimen/dp_38" android:layout_height="@dimen/dp_38" android:layout_marginTop="@dimen/dp_31" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/sp_17" android:textColor="@color/color_white" android:gravity="center" android:id="@id/tv_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/hp131" android:layout_marginStart="@dimen/dp_34" android:layout_marginEnd="@dimen/dp_34" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/adContainer" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rlHead" android:layout_width="fill_parent" android:layout_height="@dimen/dp_72">
+        <RelativeLayout android:id="@id/rlIcon" android:layout_width="@dimen/dp_32" android:layout_height="@dimen/dp_32" android:layout_marginLeft="@dimen/dp_12" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_12">
+            <ImageView android:id="@id/ivIcon" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/dp_8" android:src="@drawable/ic_enjoyads_ad_circle" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="@dimen/dp_20" android:textColor="@color/color_414141" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_14" android:layout_toRightOf="@id/rlIcon" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_14" android:layout_toEndOf="@id/rlIcon" />
+    </RelativeLayout>
+    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/dp_16" android:textColor="@color/color_414141" android:id="@id/tvDes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_58" android:layout_marginRight="@dimen/dp_20" android:layout_below="@id/rlHead" android:layout_marginStart="@dimen/dp_58" android:layout_marginEnd="@dimen/dp_20" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:layout_marginRight="@dimen/dp_4" android:layout_below="@id/tvDes" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/dp_4" android:layout_alignParentEnd="true">
+        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/dp_14" android:textColor="@color/color_66404142" android:id="@id/tvNotNow" android:paddingLeft="@dimen/dp_16" android:paddingTop="@dimen/dp_18" android:paddingRight="@dimen/dp_16" android:paddingBottom="@dimen/dp_18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_not_now" />
+        <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="@dimen/dp_14" android:textColor="@color/color_5182FF" android:id="@id/tvInstall" android:paddingLeft="@dimen/dp_16" android:paddingTop="@dimen/dp_18" android:paddingRight="@dimen/dp_16" android:paddingBottom="@dimen/dp_18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_clean" android:layout_toRightOf="@id/tvNotNow" android:layout_toEndOf="@id/tvNotNow" />
+    </RelativeLayout>
+</RelativeLayout>

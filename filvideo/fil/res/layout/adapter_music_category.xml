@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_material_music_category_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/fl_material_material_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/material_store_card_layout_margin" android:foreground="?selectableItemBackground" android:stateListAnimator="@drawable/lift_on_touch" cardview:cardBackgroundColor="@color/white" cardview:cardCornerRadius="@dimen/material_store_card_radius" cardview:cardElevation="@dimen/material_store_card_elevation" cardview:cardMaxElevation="@dimen/material_store_card_max_elevation" cardview:cardPreventCornerOverlap="false" cardview:cardUseCompatPadding="true" cardview:contentPadding="@dimen/material_store_card_content_padding" xmlns:cardview="http://schemas.android.com/apk/res-auto">
+        <RelativeLayout android:id="@id/rl_material_material_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/fl_preview_material_item" android:layout_width="fill_parent" android:layout_height="157.0dip">
+                <ImageView android:id="@id/iv_music_category_cover" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/ripple_bright_rectangle" android:scaleType="fitXY" />
+                <View android:background="@color/black_50" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="13.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tv_music_category_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="素材名称" />
+                <ImageView android:id="@id/iv_music_category_marker" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/bg_store_newtip" />
+            </FrameLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

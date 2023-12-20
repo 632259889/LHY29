@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/dialog_pop_layout">
+        <TextView android:id="@id/tv_title" android:text="Tips" style="@style/dialog_header_text" />
+        <include layout="@layout/split_head_line" />
+        <TextView android:id="@id/tv_content" android:visibility="gone" android:text="Tips content" style="@style/dialog_content_text" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <EditText android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/et_input" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="50.0dip" android:maxLength="60" />
+        </LinearLayout>
+        <include layout="@layout/split_bottom_line" />
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_bottom_layout_height">
+            <ImageButton android:id="@id/bt_dialog_cancel" android:src="@drawable/dialog_btn_cancel_selector" style="@style/dialog_btn_style" />
+            <include layout="@layout/split_line_vertical" />
+            <ImageButton android:id="@id/bt_dialog_ok" android:src="@drawable/dialog_btn_ok_selector" style="@style/dialog_btn_style" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

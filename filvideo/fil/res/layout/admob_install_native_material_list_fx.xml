@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.nativead.NativeAdView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_material_material_item" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/ad_fl_preview_material_item" android:background="@color/material_store_image_background_color" android:layout_width="fill_parent" android:layout_height="157.0dip">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.google.android.gms.ads.nativead.MediaView android:id="@id/adMv" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:textSize="12.0sp" android:textColor="@color/white" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="3.0dip" android:text="@string/string_admob_ad_text" android:maxLines="1" android:shadowColor="@color/black" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:background="#30000000" android:layout_width="fill_parent" android:layout_height="29.0dip">
+                <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:textSize="16.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/adTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </FrameLayout>
+        <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="13.0sp" android:textColor="@color/black_26" android:gravity="center_vertical" android:id="@id/adDes" android:layout_width="fill_parent" android:layout_height="@dimen/material_store_download_layout_height" android:text="广告名称" android:singleLine="true" android:layout_toLeftOf="@id/fl_progressbtn_material_item" android:layout_below="@id/ad_fl_preview_material_item" />
+        <FrameLayout android:id="@id/fl_progressbtn_material_item" android:layout_width="wrap_content" android:layout_height="@dimen/material_store_download_layout_height" android:layout_below="@id/ad_fl_preview_material_item" android:layout_alignParentRight="true">
+            <ImageView android:layout_gravity="center" android:id="@id/adDown" android:background="@drawable/ic_store_download" android:visibility="visible" android:layout_width="@dimen/material_download_button_width" android:layout_height="@dimen/material_download_button_height" />
+        </FrameLayout>
+    </RelativeLayout>
+</com.google.android.gms.ads.nativead.NativeAdView>

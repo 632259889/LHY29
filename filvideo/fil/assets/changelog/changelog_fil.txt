@@ -1,0 +1,6 @@
+V7.6.4
+Ang platform ng pagmemensahe ng cloud VideoShow ay nakikipagtulungan sa lumilitaw na isang bug.
+Ito ay sanhi ng app ay maaaring makatanggap ng paulit-ulit na mga notification.
+Ngayon ang na-update na bersyon na ito ay nalutas ang problema.
+Paki-update sa bersyon 7.6.4.
+Kaya paumanhin para sa inconvience.

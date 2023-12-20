@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_dialog_message">
+        <item>Pré-visualização</item>
+        <item>Compartilhar</item>
+        <item>Excluir</item>
+        <item>Renomear</item>
+        <item>Detalhes</item>
+    </string-array>
+    <string-array name="draftbox_dialog_message">
+        <item>Editar</item>
+        <item>Excluir</item>
+    </string-array>
+    <string-array name="gif_quality">
+        <item>Qualidade Reduzida</item>
+        <item>Qualidade Média</item>
+        <item>Qualidade Elevada</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>Início</item>
+        <item>Inspiração</item>
+        <item>Sugestão</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>Mostrar</item>
+        <item>Compartilhar</item>
+        <item>Excluir</item>
+        <item>Renomear</item>
+        <item>Detalhes</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>Gravar na memória do telefone</item>
+        <item>Guardar na memória externa</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>MEUS RASCUNHOS</item>
+        <item>MEUS TRABALHOS</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>Por favor, aguarde pacientemente aqui para assistir ao vídeo elaborado que você fez com sucesso. Ou haverá uma falha ao exportá-lo se você estiver fora da página atual.</item>
+        <item>Os anúncios ajudam a manter o app Filmigo gratuito. Agradecemos a compreensão. Você pode fazer o upgrade para Pro e remover os anúncios.</item>
+        <item>Se seu celular tiver baixas configurações, a fonte do vídeo for muito grande ou muitas ferramentas foram usadas, a exportação poderá ser mal sucedida. Por isso, tente novamente após apagar algumas ferramentas.</item>
+        <item>Use o \"Ultracorte\" para cortar várias partes de um vídeo e salvar com rapidez. É um recurso muito útil para reduzir de tamanho um vídeo grande.</item>
+        <item>Lembrete cordial: o MODO RÁPIDO tem alta velocidade de exportação, mas baixa resolução de vídeo, ao passo que o MODO HD leva mais tempo para exportar, mas a qualidade é superior.</item>
+        <item>Diminua ou aumente a velocidade de um vídeo clicando em \"Velocidade\" em \"Edição de Clipe\".</item>
+        <item>Após o vídeo ser exportado com sucesso, você pode renomeá-lo no Meu Estúdio ou compartilhá-lo com seus amigos.</item>
+        <item>Clique em \"Várias Músicas\" em \"Edição Pro\" para adicionar várias músicas a um único vídeo.</item>
+        <item>Está demorando muito para exportar? Vamos lhe mostrar um vídeo incrível se você escolher tomar uma xícara de café.</item>
+        <item>No modo de várias músicas, é possível configurar volumes diferentes para músicas diferentes.</item>
+        <item>Aproveite por completo a função \"Adesivo\". Compatível com Adesivos Integrados, suas próprias Imagens, GIFs. Além disso, é compatível com várias camadas!</item>
+        <item>Exclusivo: gravação de vídeos musicais. Gravação de vídeo enquanto toca músicas. É muito útil para gravar vídeos sincronizados com dança.</item>
+        <item>Você pode mudar a cor do fundo clicando no ícone de configuração no canto superior direito do Estúdio de Edição.</item>
+        <item>Amplie o vídeo e a imagem e faça o vídeo focar na posição que você quiser. Clique em \"Edição Pro\" > \"Edição de Clipe\" > \"Ampliar\".</item>
+        <item>Use a função \"Comprimir Vídeo\" para reduzir o tamanho do vídeo e compartilhar mais rápido em redes de baixa largura de banda. Clique em \"Comprimir Vídeo\" na página inicial.</item>
+        <item>Quer mais recursos? Fique à vontade para mandar um e-mail para support@enjoy-global.com e contar pra gente.</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>Reduzir</item>
+        <item>Apagar a parte selecionada</item>
+    </string-array>
+    <string-array name="video_dialog_message">
+        <item>Pré- visualização</item>
+        <item>Editar vídeo</item>
+        <item>Compartilhar</item>
+        <item>Excluir</item>
+        <item>Renomear</item>
+        <item>Detalhes</item>
+    </string-array>
+</resources>

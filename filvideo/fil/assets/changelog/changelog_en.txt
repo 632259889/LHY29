@@ -1,0 +1,6 @@
+V7.6.4
+Cloud messaging platform VideoShow cooperates with appears a bug.
+It has caused app may receive repeated notifications.
+Now this updated version has resolved the problem.
+Please update to 7.6.4 version.
+So sorry for the inconvience.

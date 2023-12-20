@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_dialog_message">
+        <item>Prebiyu</item>
+        <item>Ibahagi</item>
+        <item>Alisin</item>
+        <item>Bigyan muli ng pangalan</item>
+        <item>Mga detalye</item>
+    </string-array>
+    <string-array name="draftbox_dialog_message">
+        <item>magpatuloy sa pag-edit</item>
+        <item>alisin</item>
+    </string-array>
+    <string-array name="gif_quality">
+        <item>Mababang Kalidad</item>
+        <item>Katamtamang Kalidad</item>
+        <item>Mataas na Kalidad</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>Home</item>
+        <item>Inspirasyon</item>
+        <item>Mungkahi</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>Ipakita</item>
+        <item>Ibahagi</item>
+        <item>Alisin</item>
+        <item>Bigyan muli ng pangalan</item>
+        <item>Mga detalye</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>I-save sa memorya ng phone</item>
+        <item>I-save sa panlabas na memorya</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>AKING DRAFT</item>
+        <item>AKING MGA GAWA</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>Mangyaring matiyagang maghintay sa panonood ng maliwanag na video na matagumpay mong nagawa. O hindi ito mai-export kapag umalis ka sa kasalukuyang pahina.</item>
+        <item>Ang mga ad ay nagpapanatili sa Filmigo bilang libreng app. Salamat sa inyong pang-unawa. Maaari kang mag-upgrade sa Pro version para tanggalin ang mga ad.</item>
+        <item>Kapag mababa ang kumpigurasyon ng iyong telepono,napakalaki ng video source o napakaraming materyal na ginamit, maaaring magdulot pareho ng hindi matagumpay na pag-export. Kaya mangyaring subukan muli pagkatapos burahin ang ilang materyal.</item>
+        <item>Gumamit ng \"Ultra Cut\" para i-trim ang maraming bahagi mula sa isang video, at i-save agad. Ito ay napakagamiting feature para paliitin ang malaking video.</item>
+        <item>Kapag mababa ang kumpigurasyon ng iyong telepono,napakalaki ng video source o napakaraming materyal na ginamit, maaaring magdulot pareho ng hindi matagumpay na pag-export. Kaya mangyaring subukan muli pagkatapos burahin ang ilang materyal.</item>
+        <item>Pabagalin o pabilisin ang video sa pamamagitan ng pag-click sa \"Speed\" sa \"Clip Edit\".</item>
+        <item>Pagkatapos matagumpay na ma-export ang video, maaari mong i-rename ito sa My Studio o i-share sa iyong mga kaibigan.</item>
+        <item>I-click ang \"Multi Music\" sa \"Pro Edit\" para magdagdag ng maraming musika sa isang video.</item>
+        <item>Sobrang tagal bago ma-export? Ang napakagandang video ay ipakikita sa iyo kung pipiliin mo na uminom ng isang tasa ng kape.</item>
+        <item>"Sa mode ng maramihang musika, maaari kang magtakda ng iba't ibang volume para sa iba't ibang musika."</item>
+        <item>Sulitin ang paggamit sa \"Sticker\". Sinusuportahan nito ang mga Built-in Sticker, ang sarili mong mga Imahen, mga Gif. Bukod dito, sinusuportahan nito ang maramihang layer!</item>
+        <item>Exclusive: Pagkuha ng Music video. Pagrerecord ng video kapag nagpapatugtog ng musika. Nakatutulong ito sa pagkuha ng dancep-sync video.</item>
+        <item>Maaari mong palitan ang kulay ng background sa pamamagitan ng pag-click ng setting icon sa kanang itaas sa Edit Studio.</item>
+        <item>I-zoom ang video at litrato, ipokus ang video sa posisyon na gusto mo. I-click ang \"Pro Edit\" > \"Clip Edit\" > \"Zoom\".</item>
+        <item>Gamitin ang \"Compress video\" para paliitin ang video at mas mabilis na i-share na may mababang bandwidth network. I-click ang \"Compress Video\" sa homepage.</item>
+        <item>Gusto ng higit pang feature? Huwag mag-atubiling magpadala ng email sa support@enjoy-global.com at sabihin sa amin.</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>Pantayin</item>
+        <item>Tanggalin ang Mga Piniling Bahagi</item>
+    </string-array>
+    <string-array name="video_dialog_message">
+        <item>Prebiyu</item>
+        <item>I-edit ang video</item>
+        <item>Ibahagi</item>
+        <item>Alisin</item>
+        <item>Bigyan muli ng pangalan</item>
+        <item>Mga detalye</item>
+    </string-array>
+</resources>

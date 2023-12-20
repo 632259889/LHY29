@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/dialog_bottom_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:textSize="17.0sp" android:textStyle="normal" android:textColor="@color/colorPrimaryDark" android:id="@id/dialog_title" android:paddingLeft="20.0dip" android:paddingTop="16.0dip" android:paddingRight="20.0dip" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_height="wrap_content" android:minHeight="50.0dip" android:text="@string/editor_add_clip_select" style="@style/dialog_header_text" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="100.0dip">
+        <RelativeLayout android:gravity="center" android:id="@id/rv_select_local_gif" android:background="@drawable/bottom_pop_rl_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_select_local_gif" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_gif_localgif" android:layout_centerHorizontal="true" />
+            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textColor="@color/bottom_pop_list_item_text_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/editor_select_clips" android:layout_below="@id/iv_select_local_gif" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/rv_select_online_gif" android:background="@drawable/bottom_pop_rl_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_select_online_gif" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_gif_onlinegif" android:layout_centerHorizontal="true" />
+            <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textColor="@color/bottom_pop_list_item_text_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/editor_select_online_gif" android:layout_below="@id/iv_select_online_gif" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

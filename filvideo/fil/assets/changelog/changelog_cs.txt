@@ -1,0 +1,6 @@
+﻿V7.6.4
+Platforma pro zasílání zpráv Cloud, kterou společnost VideoShow spolupracuje, se objeví jako chyba.
+To způsobilo, že aplikace může přijímat opakovaná oznámení.
+Nyní tato aktualizovaná verze vyřešila problém.
+Aktualizujte prosím na verzi 7.6.4.
+Omlouvám se za nepochopení.

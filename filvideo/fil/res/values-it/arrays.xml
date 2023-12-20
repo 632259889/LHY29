@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_dialog_message">
+        <item>Anteprima</item>
+        <item>Condividi</item>
+        <item>Elimina</item>
+        <item>Rinomina</item>
+        <item>Dettagli</item>
+    </string-array>
+    <string-array name="draftbox_dialog_message">
+        <item>Modifica</item>
+        <item>Elimina</item>
+    </string-array>
+    <string-array name="gif_quality">
+        <item>Qualità bassa</item>
+        <item>Qualità media</item>
+        <item>Qualità alta</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>Pagina iniziale</item>
+        <item>Ispirazione</item>
+        <item>Consiglio</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>Mostra</item>
+        <item>Condividi</item>
+        <item>Elimina</item>
+        <item>Rinomina</item>
+        <item>Dettagli</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>Salva nella memoria del telefono</item>
+        <item>Salvare nela memoria esterna</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>I MIEI BOZZE</item>
+        <item>I MIEI LAVORI</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>"Attendi pazientemente per vedere il video elaborato che hai realizzato. Se esci da questa pagina, l'esportazione verrà interrotta."</item>
+        <item>La pubblicità aiuta a mantenere Filmigo come app gratuita. Grazie per la comprensione. Puoi aggiornarti alla versione Pro per rimuovere la pubblicità.</item>
+        <item>"Il tuo cellulare con scarse prestazioni, le sorgenti video troppo grandi o il troppo materiale utilizzato potrebbero far fallire l'esportazione. Riprova dopo aver cancellato del materiale."</item>
+        <item>Usa \"Ultra Cut\" per tagliare più parti da un video e salvare in maniera rapida. È una funzione molto utile per snellire i video grandi.</item>
+        <item>"Promemoria amico: la MODALITÀ VELOCE accelera il processo di esportazione ma abbassa la qualità video. Al contrario, la modalità DH impiega più tempo per l'esportazione ma incrementa la qualità del video."</item>
+        <item>Rallenta o accelera il video cliccando su \"Velocità\" in \"Modifica Clip\".</item>
+        <item>Dopo aver esportato il video, potrai rinominarlo su My Studio o condividerlo con i tuoi amici.</item>
+        <item>Clicca su \"Più Musiche\" in \"Modifica Pro\" per aggiungere più tracce sonore in un video.</item>
+        <item>Esportazione troppo lenta? Ti verrà mostrato un video fantastico sei vorrai attendere bevendo un caffé.</item>
+        <item>In modalità con più tracce sonore, puoi impostare un volume diverso per ogni traccia.</item>
+        <item>Usa appieno la funzione \"Adesivi\". Supporta adesivi interni, immagini personali, gif. Inoltre supporta più layer!</item>
+        <item>Esclusivo: registrazione video musicali. Video registra quando suoni musica. È molto utile per registrare video che siano sincronizzati col ballo.</item>
+        <item>"Puoi cambiare il colore di sfondo cliccando sull'icona delle impostazioni in alto a destra in Edit Studio."</item>
+        <item>"Zooma sul video e sull'immagine, crea il tuo punto focale nella posizione che vuoi. Clicca su \"Modifica Pro\" > \"Modifica Clip\" > \"Zoom\"."</item>
+        <item>"Usa l'opzione \"Comprimi video\" per snellire il video e condividere con una rete con poca banda. Clicca su \"Comprimi Video\" nella homepage."</item>
+        <item>Vuoi altre funzioni? Mandaci liberamente una email a support@enjoy-global.com e diccelo.</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>Taglia</item>
+        <item>Elimina la parte selezionata</item>
+    </string-array>
+    <string-array name="video_dialog_message">
+        <item>Anteprima</item>
+        <item>Modificare video</item>
+        <item>Condividi</item>
+        <item>Elimina</item>
+        <item>Rinomina</item>
+        <item>Dettagli</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.nativead.NativeAdView android:id="@id/admob_rl_ad_container" android:padding="@dimen/dp_8" android:layout_width="fill_parent" android:layout_height="@dimen/material_ad_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/bg_ad_admob_list" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/rl_ad_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/fl_big_ad" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layout_app_title">
+                <com.google.android.gms.ads.nativead.MediaView android:id="@id/adMv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/layout_app_title" android:layout_width="fill_parent" android:layout_height="@dimen/dp_52" android:layout_alignParentBottom="true">
+                <com.xvideostudio.videoeditor.view.RobotoMediumButton android:textSize="@dimen/sp_10" android:textColor="@android:color/white" android:id="@id/adDown" android:background="@drawable/bg_install_ad_action_button" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:clickable="false" android:layout_width="@dimen/store_download_btn_width" android:layout_height="33.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+                <RelativeLayout android:id="@id/rl_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10" android:layout_toLeftOf="@id/adDown" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_toStartOf="@id/adDown" android:layout_alignParentStart="true">
+                    <RelativeLayout android:id="@id/rlName" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:textSize="11.0sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/adTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dp_160" android:singleLine="true" android:layout_centerVertical="true" />
+                        <ImageView android:layout_width="@dimen/dp_18" android:layout_height="@dimen/dp_11" android:layout_marginLeft="@dimen/dp_8" android:src="@drawable/ic_admob_mark" android:layout_toRightOf="@id/adTitle" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_8" android:layout_toEndOf="@id/adTitle" />
+                    </RelativeLayout>
+                    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/sp_9" android:textColor="@color/color_ad_admob_des" android:ellipsize="end" android:id="@id/adDes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_3" android:layout_marginBottom="@dimen/dp_3" android:maxLines="2" android:layout_below="@id/rlName" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</com.google.android.gms.ads.nativead.NativeAdView>

@@ -1,0 +1,6 @@
+V7.6.4
+Cloud messaging platform VideoShow werkt samen met een foutmelding.
+Het heeft ervoor gezorgd dat de app herhaalde meldingen kan ontvangen.
+Nu heeft deze bijgewerkte versie het probleem opgelost.
+Update alsjeblieft naar 7.6.4 versie.
+Zo sorry voor het ongemak.

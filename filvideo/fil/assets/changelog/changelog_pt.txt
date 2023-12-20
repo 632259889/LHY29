@@ -1,0 +1,6 @@
+﻿V7.6.4
+A plataforma de mensagens em nuvem VideoShow coopera com aparece um bug.
+Isso causou que o aplicativo possa receber notificações repetidas.
+Agora, esta versão atualizada resolveu o problema.
+Atualize para a versão 7.6.4.
+Desculpe-me pelo inconveniente.

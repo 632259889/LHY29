@@ -1,0 +1,22 @@
+.class interface abstract Landroidx/transition/s0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroidx/transition/x0;
+
+
+# virtual methods
+.method public abstract add(Landroid/view/View;)V
+    .param p1    # Landroid/view/View;
+        .annotation build Lk/f0;
+        .end annotation
+    .end param
+.end method
+
+.method public abstract remove(Landroid/view/View;)V
+    .param p1    # Landroid/view/View;
+        .annotation build Lk/f0;
+        .end annotation
+    .end param
+.end method

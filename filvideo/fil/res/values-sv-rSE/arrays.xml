@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gif_quality">
+        <item>Låg kvalitet</item>
+        <item>Medium kvalitet</item>
+        <item>Hög kvalitet</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>Hem</item>
+        <item>Tävling</item>
+        <item>Inspiration</item>
+        <item>Förslag</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>Spara i telefonminnet</item>
+        <item>Spara till det externa minnet</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>MINA UTKAST</item>
+        <item>MINA VERK</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>Vänligen vänta här tålmodigt. Lämna inte den aktuella sidan, annars kommer exportprocessen att avslutas.</item>
+        <item>Annonser gör Filmigo till en gratis app. Tack för att du förstår. Du kan också ladda ner Pro Versionen för att ta bort annonser.</item>
+        <item>Om din telefonprestanda är dålig kan det leda till ett exportfel om du använder stora videokällor eller om du lägger till för många material. Så försök igen efter att du har raderat några material eller effekter.</item>
+        <item>Använd \"Ultraklipp\" för att trimma en video i flera delar och spara sedan snabbt alla klipp. Det är en mycket användbar funktion för att göra videor mindre.</item>
+        <item>Påminnelse: SNABBT LÄGE ger en snabbare hastighet att exportera video, men den exporterade videon kommer att ha en lägre videoupplösning. Medan MODE tar mer tid att exportera men ger högre kvalitet.</item>
+        <item>Sakta ner eller snabba upp videon genom att klicka på \"Hastighet\" i \"Klippredigering\".</item>
+        <item>När videon har exporterats kan du byta namn på den i Min Studio och dela den med dina vänner.</item>
+        <item>Klicka på \"Multi Musik\" i \"Pro Redigera\" för att lägga till mer musik på en video.</item>
+        <item>Väntat för länge? Ta en kopp kaffe och kom tillbaka! Då hittar du en fantastisk video som har exporterats!</item>
+        <item>I multi musikläget kan du ställa in olika volymer för olika musik.</item>
+        <item>Använd \"Klistermärke\". Det stöder inbyggda klistermärken, egna bilder och GIF:ar! Det stöder också flera lager!</item>
+        <item>>Exklusivt: Du kan lägga till musik medan du filmar! Det är lätt att filma en danssynkroniserad video.</item>
+        <item>Du kan ändra bakgrundsfärger genom att klicka på inställningsikonen längst upp till höger pi Redigeringstudion.</item>
+        <item>Zooma videon eller bilden, vilket kan göra din video fokuserad på önskad position. Klicka på \"Pro Redigering\"> \"Klipp Redigering\"> \"Zooma\".</item>
+        <item>Använd \"Komprimera video\" för att minska dina videoklipp och det hjälper dig att dela videon snabbare, även om nätverksbandbredden är låg. Klicka på \"Komprimera video\" på hemsidan.</item>
+        <item>Vill du ha fler funktioner? Skicka gärna mail till support@enjoy-global.com och berätta för oss.</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>Trimma</item>
+        <item>Radera vald del</item>
+    </string-array>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_dialog_message">
+        <item>Vista previa</item>
+        <item>Compartir</item>
+        <item>Eliminar</item>
+        <item>Cambiar nombre</item>
+        <item>Detalles</item>
+    </string-array>
+    <string-array name="draftbox_dialog_message">
+        <item>Editar</item>
+        <item>Eliminar</item>
+    </string-array>
+    <string-array name="gif_quality">
+        <item>Calidad baja</item>
+        <item>Calidad media</item>
+        <item>Calidad alta</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>Inicio</item>
+        <item>Inspiración</item>
+        <item>Sugerencia</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>Mostrar</item>
+        <item>Compartir</item>
+        <item>Eliminar</item>
+        <item>Cambiar nombre</item>
+        <item>Detalles</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>Guardar en la memoria del teléfono.</item>
+        <item>Guardar en la memoria externa.</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>MIS DIBUJOS</item>
+        <item>MIS TRABAJOS</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>Tienes que ser paciente y esperar aquí para ver el elaborado vídeo que has creado con tanto éxito, porque si no estás en esta página la exportación dará error.</item>
+        <item>Los anuncios ayudan a mantener a Filmigo como app gratuita. Gracias por tu comprensión. Puedes mejorar a la versión Pro para eliminar los anuncios.</item>
+        <item>Si llamas con una configuración baja, una fuente de vídeo demasiado grande o haciendo uso de demasiados materiales, todo ello podría resultar en una exportación fallida. Así que, vuelve a intentarlo después de borrar algunos materiales.</item>
+        <item>Utiliza \"Ultracorte\" para recortar múltiples partes de un vídeo y guardarlo rápidamente. Es una función muy útil para reducir de tamaño grandes vídeos.</item>
+        <item>Recordatorio amable: MODO RÁPIDO funciona con una velocidad de exportación veloz, pero con una resolución de vídeo más baja. Por el contrario, el MODO HD necesita más tiempo para exportar con una calidad superior.</item>
+        <item>Ralentiza o acelera el vídeo haciendo clic en \"Velocidad\" en \"Editar clip\".</item>
+        <item>Una vez se haya exportado un vídeo con éxito, lo podrás renombrar en Mi Estudio o compartilo con tus amigos.</item>
+        <item>Haz clic en \"Música múltiple\" en \"Edición Pro\" para añadir múltiples músicas en un vídeo.</item>
+        <item>¿Dura mucho la exportación? Te mostraremos un genial vídeo si optas por tomar una taza de café.</item>
+        <item>En el modo de música múltiple, puedes establecer un volumen diferente para diferentes músicas.</item>
+        <item>Haz un uso completo de \"Sticker\". Admite stickers integrados, tus propias imágenes y GIF. ¡Además, admite múltiples capas!</item>
+        <item>Exclusivo: grabación de vídeo musical. Grabación de vídeo al reproducir música. Es muy útil para grabar vídeo sincronizado con baile.</item>
+        <item>Puedes cambiar el color de fondo haciendo clic en el icono de ajustes en la parte superior derecha en Estudio de edición.</item>
+        <item>Haz zoom en el vídeo y en la imagen, haz que tu vídeo se centre en la posición que desees. Haz clic en \"Edición Pro\" > \"Editar clip\" > \"Zoom\".</item>
+        <item>Usa \"Comprimir vídeo\" para reducir el tamaño del vídeo y compartirlo más rápido con una red de poco ancho de banda. Haz clic en \"Comprimir vídeo\" en la página de inicio.</item>
+        <item>¿Quieres más funciones? No dudes en enviarnos un e-mail a support@enjoy-global.com y decírnoslo.</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>Recortar</item>
+        <item>Eliminar parte seleccionada.</item>
+    </string-array>
+    <string-array name="video_dialog_message">
+        <item>Vista previa</item>
+        <item>Editar vídeo</item>
+        <item>Compartir</item>
+        <item>Eliminar</item>
+        <item>Cambiar nombre</item>
+        <item>Detalles</item>
+    </string-array>
+</resources>

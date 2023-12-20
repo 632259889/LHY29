@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_dialog_message">
+        <item>預覽</item>
+        <item>分享</item>
+        <item>删除</item>
+        <item>重命名</item>
+        <item>詳情</item>
+    </string-array>
+    <string-array name="draftbox_dialog_message">
+        <item>編輯視頻</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="gif_quality">
+        <item>標清</item>
+        <item>高清</item>
+        <item>超清</item>
+    </string-array>
+    <string-array name="home_tab_title_new">
+        <item>主頁</item>
+        <item>靈感</item>
+        <item>應用推薦</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>預覽</item>
+        <item>分享</item>
+        <item>删除</item>
+        <item>重命名</item>
+        <item>詳情</item>
+    </string-array>
+    <string-array name="set_path_list">
+        <item>保存至內寘存儲卡</item>
+        <item>保存至外置存儲卡</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>草稿箱</item>
+        <item>我的作品</item>
+    </string-array>
+    <string-array name="text_full_context">
+        <item>跳出當前頁面很可能造成匯出失敗，為了順利看到你精心製作的視頻，請多一點耐心停留在這裡。</item>
+        <item>廣告幫助視頻製作器成為一款免費的應用。感謝大家的理解！</item>
+        <item>如果您的手機配寘偏低，視頻源過大、素材過多都有可能造成匯出失敗，可以删减素材後重新嘗試。</item>
+        <item>使用\"多段剪切”從一個視頻中剪輯多個片段並且快速保存，這對於大視頻非常有幫助。</item>
+        <item>友情提示：快速模式轉出速度更快，但視頻清晰度略低；選擇高清模式，耗時更長但視頻更清晰。</item>
+        <item>點擊\"片段編輯”的\"快慢”來進行視頻快慢放。</item>
+        <item>視頻匯出成功後，您可以在工作室裏對視頻進行重命名，也可以分享給您的朋友。</item>
+        <item>點擊\"高級編輯”的\"多段音樂”，給整個視頻添加多個音樂。</item>
+        <item>匯出時間太長？不妨去喝杯咖啡，小歇過後您就能看到精彩的視頻了！</item>
+        <item>在多段音樂模式下，您可以調節設定多種配音，並設定不同的音量。</item>
+        <item>充分利用\"貼圖”。我們不僅支持內寘貼圖、您自己的圖片和gif動圖，也支持多層貼圖喲！</item>
+        <item>獨家：音樂視頻拍攝。播放音樂時錄影，對於舞蹈視頻非常有用哦！</item>
+        <item>您可以在視頻編輯主介面的右上方，點擊項目設定按鈕設定背景色哦。</item>
+        <item>旋轉縮放您的視頻或圖片，以達到你要表達的焦點。</item>
+        <item>在主介面使用\"壓縮視頻”來壓縮視頻，方便更快速地分享！</item>
+        <item>想要更多功能？把你的想法發送給我們吧：support@enjoy-global.com</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>剪切</item>
+        <item>删除選中的部分</item>
+    </string-array>
+    <string-array name="video_dialog_message">
+        <item>預覽</item>
+        <item>編輯視頻</item>
+        <item>分享</item>
+        <item>删除</item>
+        <item>重命名</item>
+        <item>詳情</item>
+    </string-array>
+</resources>

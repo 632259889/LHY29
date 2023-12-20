@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ripple="http://schemas.android.com/apk/res-auto" xmlns:wheel="http://schemas.android.com/apk/res-auto">
+    <com.xvideostudio.videoeditor.tool.ProgressWheel android:layout_gravity="center" android:id="@id/progress_wheel" android:layout_width="45.0dip" android:layout_height="45.0dip" wheel:matProg_barColor="@color/colorAccent" wheel:matProg_progressIndeterminate="true" />
+    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/sp_14" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_45" android:text="@string/fp121" />
+    <View android:layout_gravity="center" android:layout_width="45.0dip" android:layout_height="145.0dip" android:layout_marginTop="@dimen/dp_122" />
+</FrameLayout>
