@@ -1,6 +1,0 @@
-﻿V7.6.4
-Cloud messaging platform VideoShow bekerja sama dengan muncul bug.
-Ini menyebabkan aplikasi mungkin menerima pemberitahuan berulang kali.
-Sekarang versi update ini telah memecahkan masalah.
-Silakan update ke versi 7.6.4.
-Maaf atas inconvience.

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wheel="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:id="@id/home_adv_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <ViewFlipper android:id="@id/home_advFlipper" android:background="@drawable/home_adv_default" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/adv_ind" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
-    </FrameLayout>
-</LinearLayout>

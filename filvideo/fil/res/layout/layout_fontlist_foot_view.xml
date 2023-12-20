@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff5f5f5f" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_download_fontmanager" android:paddingLeft="28.0dip" android:paddingTop="18.0dip" android:paddingRight="28.0dip" android:paddingBottom="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hifont_download_tip" />
-    <Button android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:background="@drawable/btn_download_fontmanager" android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:paddingRight="15.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" />
-</LinearLayout>

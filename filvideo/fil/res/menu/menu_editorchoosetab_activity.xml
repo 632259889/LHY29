@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:icon="@drawable/ic_selectclip_all" android:id="@id/action_select_all" android:title="add all" app:showAsAction="always" />
-    <item android:icon="@drawable/ic_selectclip_sort" android:id="@id/action_sort" android:title="sort" app:showAsAction="always" />
-    <item android:icon="@drawable/ic_selectclip_video" android:id="@id/action_record" android:title="@string/clips_video" app:showAsAction="always" />
-    <item android:icon="@drawable/ic_selectclip_camera" android:id="@id/action_photo" android:title="@string/clips_photo" app:showAsAction="always" />
-</menu>

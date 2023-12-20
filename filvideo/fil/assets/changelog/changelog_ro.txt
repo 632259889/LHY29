@@ -1,6 +1,0 @@
-﻿V7.6.4
-Platforma de mesagerie în cloud, la care VideoShow cooperează, apare ca o eroare.
-A cauzat ca aplicația poate primi notificări repetate.
-Acum această versiune actualizată a rezolvat problema.
-Actualizați versiunea 7.6.4.
-Îmi pare rău pentru neconcordanță.

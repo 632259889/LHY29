@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="@dimen/dp_60" android:layout_height="@dimen/dp_60"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <CheckedTextView android:id="@id/checkBackground" android:background="@drawable/bg_item_curve_speed_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" android:checked="true" android:foreground="@drawable/ripple_bright_rectangle" />
-    <ImageView android:id="@id/ivItemIcon" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" android:layout_marginTop="@dimen/dp_12" android:src="@drawable/ic_speed_none_n" android:layout_centerHorizontal="true" />
-    <ImageView android:id="@id/ivSpeedEditor" android:visibility="gone" android:layout_width="@dimen/dp_42" android:layout_height="@dimen/dp_24" android:layout_marginTop="@dimen/dp_12" android:src="@drawable/ic_speed_prologueedit" android:layout_centerHorizontal="true" />
-    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/sp_10" android:textColor="@color/white" android:ellipsize="end" android:id="@id/speedName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_5" android:text="@string/effectnone" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
-</RelativeLayout>

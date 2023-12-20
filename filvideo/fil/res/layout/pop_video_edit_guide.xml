@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="#cc000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="120.0dip">
-        <ImageView android:id="@id/img_video_edit_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_launcher" android:scaleType="centerCrop" />
-        <ImageView android:layout_width="28.0dip" android:layout_height="48.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="-18.0dip" android:src="@drawable/bg_holddown" android:layout_below="@id/img_video_edit_icon" android:layout_marginStart="10.0dip" />
-    </RelativeLayout>
-    <TextView android:textSize="16.0dip" android:textColor="@color/white" android:background="@drawable/pop_up_left" android:paddingLeft="8.0dip" android:paddingTop="15.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:fitsSystemWindows="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="-4.0dip" android:text="@string/hold_down_to_preview" android:layout_marginStart="2.0dip" />
-</LinearLayout>

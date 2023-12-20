@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="#ff2b2a2e" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/sp_14" android:textColor="#ffcfced2" android:gravity="start" android:id="@id/tv_label_item" android:background="@drawable/ripple_bright_rectangle" android:paddingLeft="@dimen/dp_14" android:paddingTop="@dimen/dp_19" android:paddingRight="@dimen/dp_14" android:paddingBottom="@dimen/dp_19" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <View android:id="@id/view_label_item_decoration" android:background="#1affffff" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/dp_14" android:layout_marginStart="@dimen/dp_14" />
-</LinearLayout>

@@ -1,6 +1,0 @@
-﻿V7.6.4
-Platforma wiadomości w chmurce VideoShow współpracuje z pojawia się błąd.
-To spowodowało, że aplikacja może otrzymywać powtarzane powiadomienia.
-Teraz ta zaktualizowana wersja rozwiązała problem.
-Proszę zaktualizować do wersji 7.6.4.
-Przepraszam za niespodziankę.

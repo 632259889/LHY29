@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/tv_end_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2s" />
-    <ImageView android:id="@id/iv_edit_bar_right" android:layout_width="10.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/edit_bar_right" />
-</LinearLayout>

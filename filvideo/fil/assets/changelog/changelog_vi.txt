@@ -1,6 +1,0 @@
-V7.6.4
-Nền tảng nhắn tin đám mây VideoShow hợp tác với xuất hiện một lỗi.
-Nó đã gây ra ứng dụng có thể nhận được thông báo lặp đi lặp lại.
-Bây giờ phiên bản cập nhật này đã giải quyết vấn đề.
-Vui lòng cập nhật lên phiên bản 7.6.4.
-Vì vậy, xin lỗi vì sự không hài lòng.

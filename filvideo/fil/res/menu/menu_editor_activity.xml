@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:icon="@drawable/ic_edit_setting_new" android:id="@id/action_settings" android:title="@string/video_setting" app:showAsAction="always" />
-    <item android:icon="@drawable/ic_editor_share3" android:id="@id/action_export" android:title="@string/share" app:showAsAction="always" />
-    <item android:id="@id/action_test" android:visible="false" android:title="水印AB" app:showAsAction="always" />
-</menu>

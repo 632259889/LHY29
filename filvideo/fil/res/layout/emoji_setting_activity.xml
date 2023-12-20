@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/material_store_grid_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/layout_white_toolbar" />
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <GridView android:gravity="center" android:id="@id/listview_material_setting" android:background="@color/material_store_grid_bg" android:paddingLeft="@dimen/material_store_grid_list_padding_left" android:paddingTop="@dimen/material_store_grid_list_padding_top" android:paddingRight="@dimen/material_store_grid_list_padding_right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/transparent" android:horizontalSpacing="@dimen/material_store_grid_list_horizontal_spacing" android:verticalSpacing="@dimen/material_store_grid_list_vertical_spacing" android:numColumns="2" />
-        <include layout="@layout/nodata_material_setting" />
-    </FrameLayout>
-</LinearLayout>

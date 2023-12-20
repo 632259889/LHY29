@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:ripple="http://schemas.android.com/apk/res-auto" xmlns:wheel="http://schemas.android.com/apk/res-auto">
-    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/animation_view" android:layout_width="fill_parent" android:layout_height="@dimen/dp_66" wheel:lottie_autoPlay="true" wheel:lottie_fileName="anime_pixelate_working.json" wheel:lottie_loop="true" />
-    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/sp_14" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_65" android:text="@string/fp121" />
-    <View android:layout_gravity="center" android:layout_width="45.0dip" android:layout_height="145.0dip" android:layout_marginTop="@dimen/dp_122" />
-</FrameLayout>

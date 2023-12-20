@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="horizontal" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="58.0dip" android:foreground="@drawable/ripple_bright_rectangle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/sort_icon" android:padding="5.0dip" android:layout_width="@dimen/material_download_button_width" android:layout_height="@dimen/material_download_button_height" android:layout_margin="10.0dip" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
-    <TextView android:textSize="16.0sp" android:textColor="#ffcfced2" android:gravity="center" android:id="@id/sort_name" android:layout_width="wrap_content" android:layout_height="@dimen/material_download_button_height" android:layout_weight="1.0" android:layout_toRightOf="@id/sort_icon" android:layout_centerVertical="true" android:layout_toEndOf="@id/sort_icon" />
-    <ImageView android:id="@id/ivDrag" android:layout_width="wrap_content" android:layout_height="@dimen/material_download_button_height" android:layout_margin="10.0dip" android:foreground="@drawable/ripple_bright_rectangle" android:src="@drawable/ic_editor_sort_move" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
-</RelativeLayout>

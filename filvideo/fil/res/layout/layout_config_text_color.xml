@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_config_text_color" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.xvideostudio.videoeditor.paintviews.ColorPickerOvalView android:id="@id/color_panel" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip" />
-    <include android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginRight="15.0dip" layout="@layout/layout_piantpad_seekbar" />
-</LinearLayout>

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="@dimen/pop_tips_text_size" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center" android:id="@id/textView_poptipscenter" android:background="@drawable/pop_bottom_center" android:fitsSystemWindows="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/pop_tip_max_width" android:text="@string/click_here_to_enjoy_the_new_effects_tip" android:singleLine="false" android:lineSpacingExtra="0.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

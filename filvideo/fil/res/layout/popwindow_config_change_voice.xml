@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/config_dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="12.0sp" android:textColor="@color/bottom_pop_text_color" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/select_needed_voice_change" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_list" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginBottom="16.0dip" />
-    <EditText android:textColor="@color/white" android:textColorHint="@color/white" android:id="@id/et_voice_float_input" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:hint="请在此输入变声浮点参数" />
-    <com.xvideostudio.videoeditor.view.RobotoBoldButton android:textSize="@dimen/bottom_pop_button_text_size" android:textColor="@color/colorWhite" android:layout_gravity="center_horizontal" android:id="@id/btn_config_ok" android:background="@drawable/filmigo_round_btn" android:layout_width="166.0dip" android:layout_height="45.0dip" android:layout_marginBottom="26.0dip" android:text="@string/ok" />
-</LinearLayout>

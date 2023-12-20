@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="r_str_loading">Laster inn…</string>
-    <string name="r_str_net_fail">Nettverksproblem, dataforespørsel mislyktes</string>
-</resources>

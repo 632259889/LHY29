@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" cardview:cardCornerRadius="@dimen/dialog_card_corner_radius" cardview:cardElevation="@dimen/dialog_card_elevation"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cardview="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:background="@color/white" style="@style/dialog_layout">
-        <ImageView android:layout_width="112.0dip" android:layout_height="93.0dip" android:layout_marginLeft="80.0dip" android:layout_marginTop="42.0dip" android:layout_marginRight="80.0dip" android:src="@drawable/bg_unclock" />
-        <com.xvideostudio.videoeditor.view.RobotoMediumTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/login_rewards_congratulations_tip" />
-        <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="15.0sp" android:textColor="@color/vsc_category_text_color" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="51.0dip" android:text="@string/today_you_can_download_all_materials" android:minLines="2" />
-    </LinearLayout>
-</androidx.cardview.widget.CardView>

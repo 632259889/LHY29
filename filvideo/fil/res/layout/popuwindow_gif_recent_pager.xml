@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="16.0sp" android:textColor="@color/bottom_pop_text_color" android:id="@id/tv_no_gif" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/you_have_not_used_any_gif" android:layout_centerInParent="true" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/gif_window_setting_recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ProgressBar android:id="@id/requestProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
-</RelativeLayout>

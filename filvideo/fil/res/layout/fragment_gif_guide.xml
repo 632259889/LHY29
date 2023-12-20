@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@drawable/bg_gif_skill" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.xvideostudio.videoeditor.gifdecoder.GifView android:id="@id/guide_gifview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <TextView android:textSize="@dimen/guide_text_size" android:textStyle="bold" android:textColor="#ff5194f9" android:gravity="center" android:id="@id/tv_skill_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="@dimen/guide_text_margin_top" android:layout_marginRight="20.0dip" />
-    <ImageView android:id="@id/iv_last_guide" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</FrameLayout>

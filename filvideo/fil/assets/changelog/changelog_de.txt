@@ -1,6 +1,0 @@
-﻿V7.6.4
-Die Cloud-Messaging-Plattform, mit der VideoShow zusammenarbeitet, erscheint als Fehler.
-Es hat dazu geführt, dass app wiederholt Benachrichtigungen erhalten kann.
-Jetzt hat diese aktualisierte Version das Problem gelöst.
-Bitte aktualisieren Sie auf Version 7.6.4.
-Entschuldigt die Unannehmlichkeiten.

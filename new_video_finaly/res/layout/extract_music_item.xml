@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="1.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.video.music.SquareImageView android:layout_gravity="center" android:id="@id/video_thumb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
-    <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:gravity="end|bottom|center" android:layout_gravity="bottom" android:id="@id/video_length" android:background="#4d000000" android:paddingBottom="4.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="25.0dip" android:paddingEnd="2.0dip" />
-</FrameLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center" android:orientation="vertical" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <VideoView android:layout_gravity="center" android:id="@id/videoView" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foregroundGravity="center" />
-    <ImageView android:layout_gravity="center" android:id="@id/iv_pic" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
-    <TextView android:textSize="@dimen/duration_time_text_size" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tv_clip_detail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</RelativeLayout>

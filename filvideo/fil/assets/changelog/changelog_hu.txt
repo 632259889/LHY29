@@ -1,6 +1,0 @@
-﻿V7.6.4
-Felhőalapú üzenetküldő platform A VideoShow együttműködik megjeleníti a hibát.
-Az alkalmazás miatt ismételt értesítést kaphat.
-Most ez a frissített verzió megoldotta a problémát.
-Kérjük, frissítse a 7.6.4-es verzióra.
-Annyira sajnálom a kellemetlenséget.

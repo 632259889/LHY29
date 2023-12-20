@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:background="@color/theme_default_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.7"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:background="@color/theme_default_text_color" android:layout_width="4.0dip" android:layout_height="45.0dip" />
-</LinearLayout>

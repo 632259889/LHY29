@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center|left" android:layout_gravity="center" android:background="@drawable/video_text_color_bar_bg" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/iv_login_rewards_notify_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@mipmap/ic_launcher" />
-    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/tv_login_rewards_notify_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/login_rewards_title_tip" android:singleLine="true" android:layout_toRightOf="@id/iv_login_rewards_notify_icon" />
-    <TextView android:textSize="12.0sp" android:textColor="#ffeeeeee" android:id="@id/tv_login_rewards_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/login_rewards_remain_days_tip" android:singleLine="true" android:layout_below="@id/tv_login_rewards_notify_title" android:layout_alignLeft="@id/tv_login_rewards_notify_title" />
-</RelativeLayout>

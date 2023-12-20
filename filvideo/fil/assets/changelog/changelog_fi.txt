@@ -1,6 +1,0 @@
-﻿V7.6.4
-Cloud messaging -alusta VideoShow toimii yhteistyössä ja näyttää virheen.
-Se on aiheuttanut, että sovellus saa toistuvia ilmoituksia.
-Nyt tämä päivitetty versio on ratkaissut ongelman.
-Päivitä versioon 7.6.4.
-Olen pahoillani epärehellisyydestä.

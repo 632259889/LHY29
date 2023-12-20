@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/editor_choose_clip_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.tonicartos.widget.stickygridheaders.StickyGridHeadersGridView android:scrollbarSize="@dimen/setting_gray_text_margin_top" android:scrollbarThumbVertical="@color/progressbar_secondary" android:id="@id/gridView_new" android:background="@color/editor_choose_clip_bg" android:paddingBottom="20.0dip" android:scrollbars="vertical" android:fadingEdge="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@drawable/listview_selector" android:horizontalSpacing="3.0dip" android:verticalSpacing="3.0dip" android:numColumns="4" android:layout_weight="1.0" android:scrollbarFadeDuration="@integer/item_scroll_duration" />
-    <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="@dimen/text_size_no_4" android:textColor="@color/editor_choose_clip_count" android:gravity="center_horizontal" android:id="@id/no_data" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="100.0dip" android:text="无数据" />
-</LinearLayout>

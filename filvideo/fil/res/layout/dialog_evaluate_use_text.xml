@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cardview="http://schemas.android.com/apk/res-auto">
-    <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/sp_15" android:textStyle="bold" android:textColor="@color/evaluate_content_text_color" android:gravity="start" android:id="@id/tv_content" android:padding="@dimen/dp_19" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</RelativeLayout>

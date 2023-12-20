@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/appbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetEnd="0.0dip" app:contentInsetStart="0.0dip" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
-    <com.google.android.material.tabs.TabLayout android:id="@id/mTablayout" android:layout_width="fill_parent" android:layout_height="50.0dip" app:tabGravity="fill" app:tabIndicatorColor="@color/colorAccent" app:tabIndicatorFullWidth="true" app:tabIndicatorGravity="bottom" app:tabIndicatorHeight="@dimen/slider_height" app:tabMaxWidth="0.0dip" app:tabMode="fixed" app:tabSelectedTextColor="@color/colorAccent" app:tabTextColor="@color/tab_normal_color" />
-</com.google.android.material.appbar.AppBarLayout>

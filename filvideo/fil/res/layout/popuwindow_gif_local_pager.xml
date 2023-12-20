@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/get_local_gif" android:background="@drawable/bg_bottom_ok_a_one" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_10" android:layout_width="228.0dip" android:layout_height="53.299988dip" android:foreground="@drawable/ripple_bright_rectangle" android:layout_centerInParent="true">
-        <ImageView android:layout_gravity="center_vertical" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_gif_tab_localgif_white" />
-        <com.xvideostudio.videoeditor.view.RobotoBoldTextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/search_from_my_file" android:singleLine="true" android:layout_marginStart="12.0dip" />
-    </LinearLayout>
-</RelativeLayout>

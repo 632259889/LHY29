@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="22.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/indicator_layout" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="22.0dip">
-        <com.video.editor.view.OverlayThumbView android:id="@id/overlay_video_thumb" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="20.0dip" />
-        <ImageView android:id="@id/overlay_video_length" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@color/theme_default_accent_color" />
-    </LinearLayout>
-</RelativeLayout>

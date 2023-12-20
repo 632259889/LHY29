@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<SeekBar android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="2.0dip" android:max="100" android:progressDrawable="@drawable/pensize_seekbar" android:minHeight="2.0dip" android:thumb="@drawable/paintpad_seekbar_thumb_selector" android:thumbOffset="5.0dip" android:layout_toLeftOf="@id/iv_plus_paintpad_drawsticker" android:layout_toRightOf="@id/iv_minus_paintpad_drawsticker" android:layout_centerVertical="true" android:splitTrack="false"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

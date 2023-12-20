@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="12.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/text_texture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip" android:text="Texture" android:includeFontPadding="false" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/list_texture" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@id/text_texture" android:overScrollMode="never" />
-</RelativeLayout>

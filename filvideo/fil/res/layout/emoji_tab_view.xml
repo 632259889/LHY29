@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="45.0dip" android:layout_height="45.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.xvideostudio.videoeditor.view.ApngImageView android:layout_gravity="center" android:id="@id/imageView" android:layout_width="38.0dip" android:layout_height="38.0dip" android:scaleType="centerInside" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp_12" android:textColor="@color/color_whitek_40" android:layout_gravity="center" android:id="@id/tv_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <com.xvideostudio.videoeditor.view.ApngImageView android:layout_gravity="center|right|top" android:id="@id/iv_pro" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="20.0dip" android:src="@drawable/bg_store_pro_one" />
-    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="bottom|center|left" android:id="@id/iv_download" android:background="@drawable/ic_store_download_one" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:elevation="1.0dip" />
-</FrameLayout>

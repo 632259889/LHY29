@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="14.0dip" android:textColor="@color/theme_default_text_color" android:id="@id/novideo_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No convertible video files" android:layout_centerInParent="true" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/video_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
-    <com.base.common.loading.RotateLoading android:id="@id/progress" android:padding="2.0dip" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_centerInParent="true" app:loading_color="@color/theme_default_accent_color" app:loading_speed="12" app:loading_width="2.0dip" />
-</RelativeLayout>

@@ -1,6 +1,0 @@
-V7.6.4
-Platform mesej awan VideoShow bekerjasama dengan muncul bug.
-Ia telah menyebabkan aplikasi mungkin menerima pemberitahuan berulang.
-Kini versi terkini ini telah menyelesaikan masalah ini.
-Sila kemas kini ke versi 7.6.4.
-Jadi maaf atas ketidakselarasan itu.

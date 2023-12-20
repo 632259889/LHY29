@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout style="@style/dialog_pop_layout">
-        <TextView android:id="@id/textView1" android:text="@string/download_so_titile" style="@style/dialog_header_text" />
-        <include layout="@layout/split_head_line" />
-        <com.xvideostudio.videoeditor.tool.NumberProgressBar android:id="@id/npb_download_so" android:layout_marginLeft="10.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="40.0dip" style="@style/NumberProgressBar_Relax_Blue" />
-    </LinearLayout>
-</FrameLayout>

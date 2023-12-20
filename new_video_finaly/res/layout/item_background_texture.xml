@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@id/iv_bg_texture" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <ImageView android:layout_gravity="center" android:id="@id/iv_bg_texture_select" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</RelativeLayout>

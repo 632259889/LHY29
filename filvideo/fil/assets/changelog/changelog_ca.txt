@@ -1,6 +1,0 @@
-V7.6.4
-La plataforma de missatgeria en núvol VideoShow col·labora amb la que apareix un error.
-Ha provocat que l'aplicació rebi notificacions repetides.
-Ara, aquesta versió actualitzada ha resolt el problema.
-Actualitzeu la versió 7.6.4.
-Perdó la molèstia.
