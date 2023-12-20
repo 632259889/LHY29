@@ -32,15 +32,15 @@
     .end annotation
 .end field
 
-.field public final g:Lcom/facebook/ads/MediaView;
-    .annotation build Lk/f0;
-    .end annotation
-.end field
+# .field public final g:Lcom/facebook/ads/MediaView;
+#     .annotation build Lk/f0;
+#     .end annotation
+# .end field
 
-.field public final h:Lcom/facebook/ads/MediaView;
-    .annotation build Lk/f0;
-    .end annotation
-.end field
+# .field public final h:Lcom/facebook/ads/MediaView;
+#     .annotation build Lk/f0;
+#     .end annotation
+# .end field
 
 .field public final i:Landroid/widget/RelativeLayout;
     .annotation build Lk/f0;
@@ -246,9 +246,9 @@
 
     move-object v9, v2
 
-    check-cast v9, Lcom/facebook/ads/MediaView;
-
-    if-eqz v9, :cond_0
+    # check-cast v9, Lcom/facebook/ads/MediaView;
+    #
+    # if-eqz v9, :cond_0
 
     const v1, 0x7f0a05bd
 
@@ -259,9 +259,9 @@
 
     move-object v10, v2
 
-    check-cast v10, Lcom/facebook/ads/MediaView;
-
-    if-eqz v10, :cond_0
+    # check-cast v10, Lcom/facebook/ads/MediaView;
+    #
+    # if-eqz v10, :cond_0
 
     const v1, 0x7f0a05c0
 

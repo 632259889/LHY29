@@ -220,9 +220,9 @@
 
     move-object v8, v1
 
-    check-cast v8, Lcom/facebook/ads/MediaView;
+    # check-cast v8, Lcom/facebook/ads/MediaView;
 
-    if-eqz v8, :cond_0
+    # if-eqz v8, :cond_0
 
     const v0, 0x7f0a06a7
 
@@ -294,9 +294,9 @@
 
     move-object v3, p0
 
-    check-cast v3, Lcom/facebook/ads/NativeAdLayout;
+    # check-cast v3, Lcom/facebook/ads/NativeAdLayout;
 
-    move-object v2, v0
+    # move-object v2, v0
 
   #  invoke-direct/range {v2 .. v13}, Lg3/ce;-><init>(Lcom/facebook/ads/NativeAdLayout;Landroid/widget/LinearLayout;Landroid/widget/Button;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Lcom/facebook/ads/MediaView;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Lcom/xvideostudio/videoeditor/view/RobotoRegularTextView;Landroid/widget/TextView;Landroid/widget/TextView;)V
 
@@ -385,26 +385,26 @@
 
 
 # virtual methods
-.method public b()Lcom/facebook/ads/NativeAdLayout;
-    .locals 1
-    .annotation build Lk/f0;
-    .end annotation
+# .method public b()Lcom/facebook/ads/NativeAdLayout;
+#     .locals 1
+#     .annotation build Lk/f0;
+#     .end annotation
+#
+#     .line 1
+#     iget-object v0, p0, Lg3/ce;->b:Lcom/facebook/ads/NativeAdLayout;
+#
+#     return-object v0
+# .end method
 
-    .line 1
-    iget-object v0, p0, Lg3/ce;->b:Lcom/facebook/ads/NativeAdLayout;
-
-    return-object v0
-.end method
-
-.method public bridge synthetic getRoot()Landroid/view/View;
-    .locals 1
-    .annotation build Lk/f0;
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lg3/ce;->b()Lcom/facebook/ads/NativeAdLayout;
-
-    move-result-object v0
-
-    return-object v0
-.end method
+# .method public bridge synthetic getRoot()Landroid/view/View;
+#     .locals 1
+#     .annotation build Lk/f0;
+#     .end annotation
+#
+#     .line 1
+#     invoke-virtual {p0}, Lg3/ce;->b()Lcom/facebook/ads/NativeAdLayout;
+#
+#     move-result-object v0
+#
+#     return-object v0
+# .end method

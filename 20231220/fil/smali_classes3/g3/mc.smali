@@ -207,9 +207,9 @@
 
     move-object v7, v1
 
-    check-cast v7, Lcom/facebook/ads/MediaView;
-
-    if-eqz v7, :cond_0
+    # check-cast v7, Lcom/facebook/ads/MediaView;
+    #
+    # if-eqz v7, :cond_0
 
     const v0, 0x7f0a046c
 
@@ -294,9 +294,9 @@
 
     move-object v3, p0
 
-    check-cast v3, Lcom/facebook/ads/NativeAdLayout;
-
-    move-object v2, v0
+    # check-cast v3, Lcom/facebook/ads/NativeAdLayout;
+    #
+    # move-object v2, v0
 
     #invoke-direct/range {v2 .. v13}, Lg3/mc;-><init>(Lcom/facebook/ads/NativeAdLayout;Lcom/xvideostudio/videoeditor/view/RobotoBoldTextView;Lcom/xvideostudio/videoeditor/view/RobotoMediumButton;Landroid/widget/RelativeLayout;Lcom/facebook/ads/MediaView;Landroid/widget/RelativeLayout;Landroid/widget/LinearLayout;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Lcom/xvideostudio/videoeditor/view/RobotoRegularTextView;Lcom/xvideostudio/videoeditor/view/RobotoBoldTextView;)V
 
@@ -385,26 +385,26 @@
 
 
 # virtual methods
-.method public b()Lcom/facebook/ads/NativeAdLayout;
-    .locals 1
-    .annotation build Lk/f0;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lg3/mc;->b:Lcom/facebook/ads/NativeAdLayout;
-
-    return-object v0
-.end method
-
-.method public bridge synthetic getRoot()Landroid/view/View;
-    .locals 1
-    .annotation build Lk/f0;
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lg3/mc;->b()Lcom/facebook/ads/NativeAdLayout;
-
-    move-result-object v0
-
-    return-object v0
-.end method
+# .method public b()Lcom/facebook/ads/NativeAdLayout;
+#     .locals 1
+#     .annotation build Lk/f0;
+#     .end annotation
+#
+#     .line 1
+#     iget-object v0, p0, Lg3/mc;->b:Lcom/facebook/ads/NativeAdLayout;
+#
+#     return-object v0
+# .end method
+#
+# .method public bridge synthetic getRoot()Landroid/view/View;
+#     .locals 1
+#     .annotation build Lk/f0;
+#     .end annotation
+#
+#     .line 1
+#     invoke-virtual {p0}, Lg3/mc;->b()Lcom/facebook/ads/NativeAdLayout;
+#
+#     move-result-object v0
+#
+#     return-object v0
+# .end method

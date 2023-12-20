@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static a:Lcom/facebook/CallbackManager; = null
+# .field private static a:Lcom/facebook/CallbackManager; = null
 
 .field public static b:I = -0x1
 
@@ -1167,29 +1167,29 @@
     move-result-object v0
 
     :cond_0
-    const-string p1, "video/mp4"
-
-    .line 4
-    invoke-static {v0, p1}, Lcom/facebook/messenger/ShareToMessengerParams;->newBuilder(Landroid/net/Uri;Ljava/lang/String;)Lcom/facebook/messenger/ShareToMessengerParamsBuilder;
-
-    move-result-object p1
-
-    const-string v0, "{ \"video\" : \"video\" }"
-
-    .line 5
-    invoke-virtual {p1, v0}, Lcom/facebook/messenger/ShareToMessengerParamsBuilder;->setMetaData(Ljava/lang/String;)Lcom/facebook/messenger/ShareToMessengerParamsBuilder;
-
-    move-result-object p1
-
-    .line 6
-    invoke-virtual {p1}, Lcom/facebook/messenger/ShareToMessengerParamsBuilder;->build()Lcom/facebook/messenger/ShareToMessengerParams;
-
-    move-result-object p1
-
-    const/4 v0, 0x1
-
-    .line 7
-    invoke-static {p0, v0, p1}, Lcom/facebook/messenger/MessengerUtils;->shareToMessenger(Landroid/app/Activity;ILcom/facebook/messenger/ShareToMessengerParams;)V
+    # const-string p1, "video/mp4"
+    #
+    # .line 4
+    # invoke-static {v0, p1}, Lcom/facebook/messenger/ShareToMessengerParams;->newBuilder(Landroid/net/Uri;Ljava/lang/String;)Lcom/facebook/messenger/ShareToMessengerParamsBuilder;
+    #
+    # move-result-object p1
+    #
+    # const-string v0, "{ \"video\" : \"video\" }"
+    #
+    # .line 5
+    # invoke-virtual {p1, v0}, Lcom/facebook/messenger/ShareToMessengerParamsBuilder;->setMetaData(Ljava/lang/String;)Lcom/facebook/messenger/ShareToMessengerParamsBuilder;
+    #
+    # move-result-object p1
+    #
+    # .line 6
+    # invoke-virtual {p1}, Lcom/facebook/messenger/ShareToMessengerParamsBuilder;->build()Lcom/facebook/messenger/ShareToMessengerParams;
+    #
+    # move-result-object p1
+    #
+    # const/4 v0, 0x1
+    #
+    # .line 7
+    # invoke-static {p0, v0, p1}, Lcom/facebook/messenger/MessengerUtils;->shareToMessenger(Landroid/app/Activity;ILcom/facebook/messenger/ShareToMessengerParams;)V
 
     return-void
 .end method
@@ -1267,26 +1267,26 @@
 .method public static d0(Landroid/app/Activity;)V
     .locals 2
 
-    .line 1
-    invoke-static {}, Lcom/facebook/CallbackManager$Factory;->create()Lcom/facebook/CallbackManager;
-
-    move-result-object v0
-
-    sput-object v0, Lcom/xvideostudio/videoeditor/different/c;->a:Lcom/facebook/CallbackManager;
-
-    .line 2
-    new-instance v0, Lcom/facebook/share/widget/ShareDialog;
-
-    invoke-direct {v0, p0}, Lcom/facebook/share/widget/ShareDialog;-><init>(Landroid/app/Activity;)V
-
-    .line 3
-    sget-object p0, Lcom/xvideostudio/videoeditor/different/c;->a:Lcom/facebook/CallbackManager;
-
-    new-instance v1, Lcom/xvideostudio/videoeditor/different/c$a;
-
-    invoke-direct {v1}, Lcom/xvideostudio/videoeditor/different/c$a;-><init>()V
-
-    invoke-virtual {v0, p0, v1}, Lcom/facebook/internal/FacebookDialogBase;->registerCallback(Lcom/facebook/CallbackManager;Lcom/facebook/FacebookCallback;)V
+    # .line 1
+    # invoke-static {}, Lcom/facebook/CallbackManager$Factory;->create()Lcom/facebook/CallbackManager;
+    #
+    # move-result-object v0
+    #
+    # sput-object v0, Lcom/xvideostudio/videoeditor/different/c;->a:Lcom/facebook/CallbackManager;
+    #
+    # .line 2
+    # new-instance v0, Lcom/facebook/share/widget/ShareDialog;
+    #
+    # invoke-direct {v0, p0}, Lcom/facebook/share/widget/ShareDialog;-><init>(Landroid/app/Activity;)V
+    #
+    # .line 3
+    # sget-object p0, Lcom/xvideostudio/videoeditor/different/c;->a:Lcom/facebook/CallbackManager;
+    #
+    # new-instance v1, Lcom/xvideostudio/videoeditor/different/c$a;
+    #
+    # invoke-direct {v1}, Lcom/xvideostudio/videoeditor/different/c$a;-><init>()V
+    #
+    # invoke-virtual {v0, p0, v1}, Lcom/facebook/internal/FacebookDialogBase;->registerCallback(Lcom/facebook/CallbackManager;Lcom/facebook/FacebookCallback;)V
 
     return-void
 .end method
@@ -1653,12 +1653,12 @@
 .method public static l()V
     .locals 1
 
-    .line 1
-    invoke-static {}, Lcom/facebook/login/LoginManager;->getInstance()Lcom/facebook/login/LoginManager;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/facebook/login/LoginManager;->logOut()V
+    # .line 1
+    # invoke-static {}, Lcom/facebook/login/LoginManager;->getInstance()Lcom/facebook/login/LoginManager;
+    #
+    # move-result-object v0
+    #
+    # invoke-virtual {v0}, Lcom/facebook/login/LoginManager;->logOut()V
 
     return-void
 .end method
@@ -1677,13 +1677,13 @@
 .method public static m(IILandroid/content/Intent;)V
     .locals 1
 
-    .line 1
-    sget-object v0, Lcom/xvideostudio/videoeditor/different/c;->a:Lcom/facebook/CallbackManager;
-
-    if-eqz v0, :cond_0
-
-    .line 2
-    invoke-interface {v0, p0, p1, p2}, Lcom/facebook/CallbackManager;->onActivityResult(IILandroid/content/Intent;)Z
+    # .line 1
+    # sget-object v0, Lcom/xvideostudio/videoeditor/different/c;->a:Lcom/facebook/CallbackManager;
+    #
+    # if-eqz v0, :cond_0
+    #
+    # .line 2
+    # invoke-interface {v0, p0, p1, p2}, Lcom/facebook/CallbackManager;->onActivityResult(IILandroid/content/Intent;)Z
 
     :cond_0
     return-void
@@ -1704,7 +1704,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Lcom/facebook/FacebookSdk;->sdkInitialize(Landroid/content/Context;)V
+    # invoke-static {p0}, Lcom/facebook/FacebookSdk;->sdkInitialize(Landroid/content/Context;)V
 
     return-void
 .end method

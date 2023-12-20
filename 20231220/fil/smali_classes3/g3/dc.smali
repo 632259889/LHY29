@@ -271,9 +271,9 @@
 
     move-object v10, v2
 
-    check-cast v10, Lcom/facebook/ads/MediaView;
-
-    if-eqz v10, :cond_0
+    # check-cast v10, Lcom/facebook/ads/MediaView;
+    #
+    # if-eqz v10, :cond_0
 
     const v1, 0x7f0a046c
 
@@ -367,9 +367,9 @@
 
     move-object v4, v0
 
-    check-cast v4, Lcom/facebook/ads/NativeAdLayout;
-
-    move-object v3, v1
+    # check-cast v4, Lcom/facebook/ads/NativeAdLayout;
+    #
+    # move-object v3, v1
 
     # invoke-direct/range {v3 .. v17}, Lg3/dc;-><init>(Lcom/facebook/ads/NativeAdLayout;Landroid/widget/LinearLayout;Lcom/xvideostudio/videoeditor/view/RobotoMediumTextView;Lcom/xvideostudio/videoeditor/view/RobotoMediumButton;Landroid/widget/RelativeLayout;Landroid/widget/ImageView;Lcom/facebook/ads/MediaView;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Lcom/xvideostudio/videoeditor/view/RobotoRegularTextView;Lcom/xvideostudio/videoeditor/view/RobotoMediumTextView;Landroid/view/View;)V
 
@@ -458,26 +458,26 @@
 
 
 # virtual methods
-.method public b()Lcom/facebook/ads/NativeAdLayout;
-    .locals 1
-    .annotation build Lk/f0;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lg3/dc;->b:Lcom/facebook/ads/NativeAdLayout;
-
-    return-object v0
-.end method
-
-.method public bridge synthetic getRoot()Landroid/view/View;
-    .locals 1
-    .annotation build Lk/f0;
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lg3/dc;->b()Lcom/facebook/ads/NativeAdLayout;
-
-    move-result-object v0
-
-    return-object v0
-.end method
+# .method public b()Lcom/facebook/ads/NativeAdLayout;
+#     .locals 1
+#     .annotation build Lk/f0;
+#     .end annotation
+#
+#     .line 1
+#     iget-object v0, p0, Lg3/dc;->b:Lcom/facebook/ads/NativeAdLayout;
+#
+#     return-object v0
+# .end method
+# 
+# .method public bridge synthetic getRoot()Landroid/view/View;
+#     .locals 1
+#     .annotation build Lk/f0;
+#     .end annotation
+#
+#     .line 1
+#     invoke-virtual {p0}, Lg3/dc;->b()Lcom/facebook/ads/NativeAdLayout;
+#
+#     move-result-object v0
+#
+#     return-object v0
+# .end method

@@ -30,9 +30,9 @@
 .method public final run()V
     .locals 2
 
-    iget-object v0, p0, Lx2/e;->b:Lcom/facebook/appevents/iap/InAppPurchaseBillingClientWrapper;
-
-    iget-object v1, p0, Lx2/e;->c:Ljava/lang/Runnable;
+    # iget-object v0, p0, Lx2/e;->b:Lcom/facebook/appevents/iap/InAppPurchaseBillingClientWrapper;
+    #
+    # iget-object v1, p0, Lx2/e;->c:Ljava/lang/Runnable;
 
     # invoke-static {v0, v1}, Lcom/facebook/appevents/iap/InAppPurchaseBillingClientWrapper;->a(Lcom/facebook/appevents/iap/InAppPurchaseBillingClientWrapper;Ljava/lang/Runnable;)V
 

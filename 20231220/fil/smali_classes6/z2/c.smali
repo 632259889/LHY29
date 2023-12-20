@@ -42,7 +42,7 @@
 
     iget-object v1, p0, Lz2/c;->c:Ljava/lang/String;
 
-    iget-object v2, p0, Lz2/c;->d:Lcom/facebook/appevents/suggestedevents/ViewOnClickListener;
+    # iget-object v2, p0, Lz2/c;->d:Lcom/facebook/appevents/suggestedevents/ViewOnClickListener;
 
     iget-object v3, p0, Lz2/c;->e:Ljava/lang/String;
 

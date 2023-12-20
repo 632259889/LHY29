@@ -36,7 +36,7 @@
 .method public final accept(Ljava/io/File;Ljava/lang/String;)Z
     .locals 0
 
-    invoke-static {p1, p2}, Lcom/facebook/internal/instrument/InstrumentUtility;->a(Ljava/io/File;Ljava/lang/String;)Z
+    invoke-static {p1, p2}, Ljava/lang/Object;->a(Ljava/io/File;Ljava/lang/String;)Z#com/facebook/internal/instrument/InstrumentUtility
 
     move-result p1
 

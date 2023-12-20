@@ -1375,25 +1375,25 @@
 
     move-result-object v0
 
-    .line 127
-    invoke-static {v0, v15}, Lcom/facebook/messenger/ShareToMessengerParams;->newBuilder(Landroid/net/Uri;Ljava/lang/String;)Lcom/facebook/messenger/ShareToMessengerParamsBuilder;
-
-    move-result-object v0
-
-    const-string v2, "{ \"video\" : \"video\" }"
-
-    .line 128
-    invoke-virtual {v0, v2}, Lcom/facebook/messenger/ShareToMessengerParamsBuilder;->setMetaData(Ljava/lang/String;)Lcom/facebook/messenger/ShareToMessengerParamsBuilder;
-
-    move-result-object v0
-
-    .line 129
-    invoke-virtual {v0}, Lcom/facebook/messenger/ShareToMessengerParamsBuilder;->build()Lcom/facebook/messenger/ShareToMessengerParams;
-
-    move-result-object v0
+    # .line 127
+    # invoke-static {v0, v15}, Lcom/facebook/messenger/ShareToMessengerParams;->newBuilder(Landroid/net/Uri;Ljava/lang/String;)Lcom/facebook/messenger/ShareToMessengerParamsBuilder;
+    #
+    # move-result-object v0
+    #
+    # const-string v2, "{ \"video\" : \"video\" }"
+    #
+    # .line 128
+    # invoke-virtual {v0, v2}, Lcom/facebook/messenger/ShareToMessengerParamsBuilder;->setMetaData(Ljava/lang/String;)Lcom/facebook/messenger/ShareToMessengerParamsBuilder;
+    #
+    # move-result-object v0
+    #
+    # .line 129
+    # invoke-virtual {v0}, Lcom/facebook/messenger/ShareToMessengerParamsBuilder;->build()Lcom/facebook/messenger/ShareToMessengerParams;
+    #
+    # move-result-object v0
 
     .line 130
-    invoke-static {v1, v5, v0}, Lcom/facebook/messenger/MessengerUtils;->shareToMessenger(Landroid/app/Activity;ILcom/facebook/messenger/ShareToMessengerParams;)V
+    # invoke-static {v1, v5, v0}, Lcom/facebook/messenger/MessengerUtils;->shareToMessenger(Landroid/app/Activity;ILcom/facebook/messenger/ShareToMessengerParams;)V
 
     goto/16 :goto_1
 

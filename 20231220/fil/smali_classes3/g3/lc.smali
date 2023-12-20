@@ -194,9 +194,9 @@
 
     move-object v6, v1
 
-    check-cast v6, Lcom/facebook/ads/MediaView;
-
-    if-eqz v6, :cond_0
+    # check-cast v6, Lcom/facebook/ads/MediaView;
+    #
+    # if-eqz v6, :cond_0
 
     const v0, 0x7f0a046c
 

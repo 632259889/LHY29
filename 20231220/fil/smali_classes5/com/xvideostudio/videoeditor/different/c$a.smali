@@ -19,8 +19,8 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/facebook/FacebookCallback<",
-        "Lcom/facebook/share/Sharer$Result;",
+        # "Lcom/facebook/FacebookCallback<",
+        # "Lcom/facebook/share/Sharer$Result;",
         ">;"
     }
 .end annotation

@@ -84,8 +84,8 @@
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
         <meta-data android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION" android:value="true"/>
         <meta-data android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING" android:value="true"/>
-        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
-        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+        <!-- <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/> -->
         <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@mipmap/ic_launcher_white"/>
         <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/colorAccent"/>
         <service android:exported="false" android:name="com.xvideostudio.videoeditor.firebasemessaging.MyFirebaseMessagingService">
@@ -107,7 +107,7 @@
                 <action android:name="com.android.vending.INSTALL_REFERRER"/>
             </intent-filter>
         </receiver>
-        <provider android:authorities="com.facebook.app.FacebookContentProvider588672591501737" android:exported="true" android:name="com.facebook.FacebookContentProvider"/>
+        <!-- <provider android:authorities="com.facebook.app.FacebookContentProvider588672591501737" android:exported="true" android:name="com.facebook.FacebookContentProvider"/> -->
         <activity android:configChanges="keyboardHidden|orientation" android:label="分享" android:launchMode="singleTask" android:name="com.xvideostudio.videoeditor.activity.ShareActivity" android:theme="@style/Transparent1"/>
         <activity android:exported="false" android:name="com.xvideostudio.videoeditor.activity.AcePromotionActivity"/>
         <activity android:exported="false" android:name="com.xvideostudio.videoeditor.activity.SreenPlayActivity"/>
@@ -473,7 +473,7 @@
                 <data android:host="cct.com.video.maker" android:scheme="fbconnect"/>
             </intent-filter>
         </activity>
-        <provider android:authorities="com.video.maker.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <!-- <provider android:authorities="com.video.maker.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/> -->
         <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
             <intent-filter>
                 <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
@@ -544,7 +544,7 @@
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.facebook.ads.AudienceNetworkActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-        <provider android:authorities="com.video.maker.AudienceNetworkContentProvider" android:exported="false" android:name="com.facebook.ads.AudienceNetworkContentProvider"/>
+        <!-- <provider android:authorities="com.video.maker.AudienceNetworkContentProvider" android:exported="false" android:name="com.facebook.ads.AudienceNetworkContentProvider"/> -->
         <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity" android:theme="@style/tt_landing_page"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity" android:theme="@style/tt_landing_page"/>

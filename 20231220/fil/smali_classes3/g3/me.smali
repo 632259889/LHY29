@@ -269,9 +269,9 @@
 
     move-object v3, p0
 
-    check-cast v3, Lcom/facebook/ads/NativeAdLayout;
-
-    move-object v2, v0
+    # check-cast v3, Lcom/facebook/ads/NativeAdLayout;
+    #
+    # move-object v2, v0
 
     #invoke-direct/range {v2 .. v12}, Lg3/me;-><init>(Lcom/facebook/ads/NativeAdLayout;Landroid/widget/LinearLayout;Landroid/widget/Button;Landroid/widget/RelativeLayout;Lcom/facebook/ads/MediaView;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Landroid/widget/TextView;Landroid/widget/TextView;)V
 
