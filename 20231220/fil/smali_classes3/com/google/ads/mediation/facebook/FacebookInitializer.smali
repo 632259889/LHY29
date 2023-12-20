@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/facebook/ads/AudienceNetworkAds$InitListener;
+ .implements Lcom/facebook/ads/AudienceNetworkAds$InitListener;
 
 
 # annotations

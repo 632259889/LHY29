@@ -7,11 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/AnnotationDefault;
-    value = .subannotation Ljavax/annotation/Nonnull;
-        when = .enum Lcom/facebook/ads/redexgen/X/al;->A02:Lcom/facebook/ads/redexgen/X/al;
-    .end subannotation
-.end annotation
+# .annotation system Ldalvik/annotation/AnnotationDefault;
+#     value = .subannotation Ljavax/annotation/Nonnull;
+#         when = .enum Lcom/facebook/ads/redexgen/X/al;->A02:Lcom/facebook/ads/redexgen/X/al;
+#     .end subannotation
+# .end annotation
 
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {

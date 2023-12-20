@@ -13,7 +13,7 @@
                     <ImageView android:id="@id/ivExportGifIcon" android:layout_width="@dimen/dp_21" android:layout_height="@dimen/dp_21" android:src="@drawable/ic_export_gif_n" android:layout_centerInParent="true" />
                     <TextView android:textSize="@dimen/sp_9" android:textColor="@color/color_export_text_n" android:gravity="center" android:id="@id/tvExportGifDes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_7" android:text="@string/string_exporting_gif" android:layout_below="@id/ivExportGifIcon" android:layout_centerInParent="true" />
                 </RelativeLayout>
-                <ImageView android:id="@id/ivGifVipIcon" android:layout_width="@dimen/dp_21" android:layout_height="@dimen/dp_14" android:src="@drawable/ic_export_gif_vip_n" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/ivGifVipIcon" android:visibility="gone" android:layout_width="@dimen/dp_21" android:layout_height="@dimen/dp_14" android:src="@drawable/ic_export_gif_vip_n" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
             </RelativeLayout>
         </LinearLayout>
         <RelativeLayout android:id="@id/rlRemoveWater" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_24" android:layout_marginRight="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_21" android:layout_below="@id/llExprotSelect">

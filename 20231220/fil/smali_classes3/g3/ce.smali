@@ -7,10 +7,10 @@
 
 
 # instance fields
-.field private final b:Lcom/facebook/ads/NativeAdLayout;
-    .annotation build Lk/f0;
-    .end annotation
-.end field
+# .field private final b:Lcom/facebook/ads/NativeAdLayout;
+#     .annotation build Lk/f0;
+#     .end annotation
+# .end field
 
 .field public final c:Landroid/widget/LinearLayout;
     .annotation build Lk/f0;
@@ -32,10 +32,10 @@
     .end annotation
 .end field
 
-.field public final g:Lcom/facebook/ads/MediaView;
-    .annotation build Lk/f0;
-    .end annotation
-.end field
+# .field public final g:Lcom/facebook/ads/MediaView;
+#     .annotation build Lk/f0;
+#     .end annotation
+# .end field
 
 .field public final h:Landroid/widget/RelativeLayout;
     .annotation build Lk/f0;
@@ -64,91 +64,91 @@
 
 
 # direct methods
-.method private constructor <init>(Lcom/facebook/ads/NativeAdLayout;Landroid/widget/LinearLayout;Landroid/widget/Button;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Lcom/facebook/ads/MediaView;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Lcom/xvideostudio/videoeditor/view/RobotoRegularTextView;Landroid/widget/TextView;Landroid/widget/TextView;)V
-    .locals 0
-    .param p1    # Lcom/facebook/ads/NativeAdLayout;
-        .annotation build Lk/f0;
-        .end annotation
-    .end param
-    .param p2    # Landroid/widget/LinearLayout;
-        .annotation build Lk/f0;
-        .end annotation
-    .end param
-    .param p3    # Landroid/widget/Button;
-        .annotation build Lk/f0;
-        .end annotation
-    .end param
-    .param p4    # Landroid/widget/RelativeLayout;
-        .annotation build Lk/f0;
-        .end annotation
-    .end param
-    .param p5    # Landroid/widget/RelativeLayout;
-        .annotation build Lk/f0;
-        .end annotation
-    .end param
-    .param p6    # Lcom/facebook/ads/MediaView;
-        .annotation build Lk/f0;
-        .end annotation
-    .end param
-    .param p7    # Landroid/widget/RelativeLayout;
-        .annotation build Lk/f0;
-        .end annotation
-    .end param
-    .param p8    # Landroid/widget/RelativeLayout;
-        .annotation build Lk/f0;
-        .end annotation
-    .end param
-    .param p9    # Lcom/xvideostudio/videoeditor/view/RobotoRegularTextView;
-        .annotation build Lk/f0;
-        .end annotation
-    .end param
-    .param p10    # Landroid/widget/TextView;
-        .annotation build Lk/f0;
-        .end annotation
-    .end param
-    .param p11    # Landroid/widget/TextView;
-        .annotation build Lk/f0;
-        .end annotation
-    .end param
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    iput-object p1, p0, Lg3/ce;->b:Lcom/facebook/ads/NativeAdLayout;
-
-    .line 3
-    iput-object p2, p0, Lg3/ce;->c:Landroid/widget/LinearLayout;
-
-    .line 4
-    iput-object p3, p0, Lg3/ce;->d:Landroid/widget/Button;
-
-    .line 5
-    iput-object p4, p0, Lg3/ce;->e:Landroid/widget/RelativeLayout;
-
-    .line 6
-    iput-object p5, p0, Lg3/ce;->f:Landroid/widget/RelativeLayout;
-
-    .line 7
-    iput-object p6, p0, Lg3/ce;->g:Lcom/facebook/ads/MediaView;
-
-    .line 8
-    iput-object p7, p0, Lg3/ce;->h:Landroid/widget/RelativeLayout;
-
-    .line 9
-    iput-object p8, p0, Lg3/ce;->i:Landroid/widget/RelativeLayout;
-
-    .line 10
-    iput-object p9, p0, Lg3/ce;->j:Lcom/xvideostudio/videoeditor/view/RobotoRegularTextView;
-
-    .line 11
-    iput-object p10, p0, Lg3/ce;->k:Landroid/widget/TextView;
-
-    .line 12
-    iput-object p11, p0, Lg3/ce;->l:Landroid/widget/TextView;
-
-    return-void
-.end method
+# .method private constructor <init>(Lcom/facebook/ads/NativeAdLayout;Landroid/widget/LinearLayout;Landroid/widget/Button;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Lcom/facebook/ads/MediaView;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Lcom/xvideostudio/videoeditor/view/RobotoRegularTextView;Landroid/widget/TextView;Landroid/widget/TextView;)V
+#     .locals 0
+#     .param p1    # Lcom/facebook/ads/NativeAdLayout;
+#         .annotation build Lk/f0;
+#         .end annotation
+#     .end param
+#     .param p2    # Landroid/widget/LinearLayout;
+#         .annotation build Lk/f0;
+#         .end annotation
+#     .end param
+#     .param p3    # Landroid/widget/Button;
+#         .annotation build Lk/f0;
+#         .end annotation
+#     .end param
+#     .param p4    # Landroid/widget/RelativeLayout;
+#         .annotation build Lk/f0;
+#         .end annotation
+#     .end param
+#     .param p5    # Landroid/widget/RelativeLayout;
+#         .annotation build Lk/f0;
+#         .end annotation
+#     .end param
+#     .param p6    # Lcom/facebook/ads/MediaView;
+#         .annotation build Lk/f0;
+#         .end annotation
+#     .end param
+#     .param p7    # Landroid/widget/RelativeLayout;
+#         .annotation build Lk/f0;
+#         .end annotation
+#     .end param
+#     .param p8    # Landroid/widget/RelativeLayout;
+#         .annotation build Lk/f0;
+#         .end annotation
+#     .end param
+#     .param p9    # Lcom/xvideostudio/videoeditor/view/RobotoRegularTextView;
+#         .annotation build Lk/f0;
+#         .end annotation
+#     .end param
+#     .param p10    # Landroid/widget/TextView;
+#         .annotation build Lk/f0;
+#         .end annotation
+#     .end param
+#     .param p11    # Landroid/widget/TextView;
+#         .annotation build Lk/f0;
+#         .end annotation
+#     .end param
+#
+#     .line 1
+#     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+#
+#     .line 2
+#     iput-object p1, p0, Lg3/ce;->b:Lcom/facebook/ads/NativeAdLayout;
+#
+#     .line 3
+#     iput-object p2, p0, Lg3/ce;->c:Landroid/widget/LinearLayout;
+#
+#     .line 4
+#     iput-object p3, p0, Lg3/ce;->d:Landroid/widget/Button;
+#
+#     .line 5
+#     iput-object p4, p0, Lg3/ce;->e:Landroid/widget/RelativeLayout;
+#
+#     .line 6
+#     iput-object p5, p0, Lg3/ce;->f:Landroid/widget/RelativeLayout;
+#
+#     .line 7
+#     iput-object p6, p0, Lg3/ce;->g:Lcom/facebook/ads/MediaView;
+#
+#     .line 8
+#     iput-object p7, p0, Lg3/ce;->h:Landroid/widget/RelativeLayout;
+#
+#     .line 9
+#     iput-object p8, p0, Lg3/ce;->i:Landroid/widget/RelativeLayout;
+#
+#     .line 10
+#     iput-object p9, p0, Lg3/ce;->j:Lcom/xvideostudio/videoeditor/view/RobotoRegularTextView;
+#
+#     .line 11
+#     iput-object p10, p0, Lg3/ce;->k:Landroid/widget/TextView;
+#
+#     .line 12
+#     iput-object p11, p0, Lg3/ce;->l:Landroid/widget/TextView;
+#
+#     return-void
+# .end method
 
 .method public static a(Landroid/view/View;)Lg3/ce;
     .locals 14
@@ -298,7 +298,7 @@
 
     move-object v2, v0
 
-    invoke-direct/range {v2 .. v13}, Lg3/ce;-><init>(Lcom/facebook/ads/NativeAdLayout;Landroid/widget/LinearLayout;Landroid/widget/Button;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Lcom/facebook/ads/MediaView;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Lcom/xvideostudio/videoeditor/view/RobotoRegularTextView;Landroid/widget/TextView;Landroid/widget/TextView;)V
+  #  invoke-direct/range {v2 .. v13}, Lg3/ce;-><init>(Lcom/facebook/ads/NativeAdLayout;Landroid/widget/LinearLayout;Landroid/widget/Button;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Lcom/facebook/ads/MediaView;Landroid/widget/RelativeLayout;Landroid/widget/RelativeLayout;Lcom/xvideostudio/videoeditor/view/RobotoRegularTextView;Landroid/widget/TextView;Landroid/widget/TextView;)V
 
     return-object v0
 

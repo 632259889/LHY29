@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/facebook/appevents/internal/FileDownloadTask$Callback;
+# .implements Lcom/facebook/appevents/internal/FileDownloadTask$Callback;
 
 
 # instance fields
@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Ly2/e;->a:Ljava/util/List;
 
-    invoke-static {v0, p1}, Lcom/facebook/appevents/ml/ModelManager$TaskHandler$Companion;->a(Ljava/util/List;Ljava/io/File;)V
+    # invoke-static {v0, p1}, Lcom/facebook/appevents/ml/ModelManager$TaskHandler$Companion;->a(Ljava/util/List;Ljava/io/File;)V
 
     return-void
 .end method

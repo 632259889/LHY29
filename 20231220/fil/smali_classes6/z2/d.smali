@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lz2/d;->c:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/facebook/appevents/suggestedevents/ViewOnClickListener$Companion;->a(Ljava/lang/String;Ljava/lang/String;)V
+    #invoke-static {v0, v1}, Lcom/facebook/appevents/suggestedevents/ViewOnClickListener$Companion;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

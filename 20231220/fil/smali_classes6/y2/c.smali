@@ -36,7 +36,7 @@
 .method public final run()V
     .locals 0
 
-    invoke-static {}, Lcom/facebook/appevents/ml/ModelManager;->c()V
+    # invoke-static {}, Lcom/facebook/appevents/ml/ModelManager;->c()V
 
     return-void
 .end method

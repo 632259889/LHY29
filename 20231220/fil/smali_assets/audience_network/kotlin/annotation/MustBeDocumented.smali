@@ -35,8 +35,8 @@
     xi = 0x30
 .end annotation
 
-.annotation runtime Lkotlin/annotation/Target;
-    allowedTargets = {
-        .enum Lcom/facebook/ads/redexgen/X/ah;->A02:Lcom/facebook/ads/redexgen/X/ah;
-    }
-.end annotation
+# .annotation runtime Lkotlin/annotation/Target;
+#     allowedTargets = {
+#         .enum Lcom/facebook/ads/redexgen/X/ah;->A02:Lcom/facebook/ads/redexgen/X/ah;
+#     }
+# .end annotation

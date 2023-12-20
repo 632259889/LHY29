@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/facebook/GraphRequest$Callback;
+# .implements Lcom/facebook/GraphRequest$Callback;
 
 
 # instance fields
@@ -22,13 +22,13 @@
 .end method
 
 
-# virtual methods
-.method public final onCompleted(Lcom/facebook/GraphResponse;)V
-    .locals 1
-
-    iget-object v0, p0, Ld3/a;->a:Ljava/util/ArrayList;
-
-    invoke-static {v0, p1}, Lcom/facebook/internal/instrument/errorreport/ErrorReportHandler;->b(Ljava/util/ArrayList;Lcom/facebook/GraphResponse;)V
-
-    return-void
-.end method
+# # virtual methods
+# .method public final onCompleted(Lcom/facebook/GraphResponse;)V
+#     .locals 1
+#
+#     iget-object v0, p0, Ld3/a;->a:Ljava/util/ArrayList;
+#
+#     invoke-static {v0, p1}, Lcom/facebook/internal/instrument/errorreport/ErrorReportHandler;->b(Ljava/util/ArrayList;Lcom/facebook/GraphResponse;)V
+#
+#     return-void
+# .end method

@@ -40,7 +40,7 @@
                 </LinearLayout>
                 <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_gift" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="137.0dip" android:layout_weight="1.0">
                     <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
-                        <ImageView android:id="@id/rl_gift" android:layout_width="@dimen/main_item_icon_width" android:layout_height="@dimen/main_item_icon_width" android:src="@drawable/home_btn_gift" />
+                        <ImageView android:id="@id/rl_gift" android:visibility="gone" android:layout_width="@dimen/main_item_icon_width" android:layout_height="@dimen/main_item_icon_width" android:src="@drawable/home_btn_gift" />
                         <ImageView android:id="@id/im_homead_icon_ad" android:background="@drawable/homead_icon_ad" android:layout_width="@dimen/home_new_1_height" android:layout_height="@dimen/home_new_1_height" android:layout_alignRight="@id/rl_gift" android:layout_alignBottom="@id/rl_gift" />
                     </RelativeLayout>
                     <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:textSize="@dimen/text_size_no_2" android:textColor="@color/gray_light_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_item_text_margin_top" android:text="@string/home_featured_app" android:singleLine="true" />

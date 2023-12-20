@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/facebook/internal/FeatureManager$Callback;
+# .implements Lcom/facebook/internal/FeatureManager$Callback;
 
 
 # static fields
@@ -36,7 +36,7 @@
 .method public final onCompleted(Z)V
     .locals 0
 
-    invoke-static {p1}, Lcom/facebook/internal/instrument/InstrumentManager;->a(Z)V
+    # invoke-static {p1}, Lcom/facebook/internal/instrument/InstrumentManager;->a(Z)V
 
     return-void
 .end method

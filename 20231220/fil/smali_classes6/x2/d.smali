@@ -36,7 +36,7 @@
 .method public final run()V
     .locals 0
 
-    invoke-static {}, Lcom/facebook/appevents/iap/InAppPurchaseAutoLogger;->b()V
+    # invoke-static {}, Lcom/facebook/appevents/iap/InAppPurchaseAutoLogger;->b()V
 
     return-void
 .end method
