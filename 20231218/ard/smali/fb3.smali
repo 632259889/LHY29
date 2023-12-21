@@ -1,0 +1,44 @@
+.class public final Lfb3;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Lb35;
+
+
+# instance fields
+.field public final a:Lo35;
+
+
+# direct methods
+.method public constructor <init>(Lo35;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lfb3;->a:Lo35;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic zzb()Ljava/lang/Object;
+    .locals 2
+
+    iget-object v0, p0, Lfb3;->a:Lo35;
+
+    check-cast v0, Lz92;
+
+    .line 1
+    invoke-virtual {v0}, Lz92;->a()Landroid/content/Context;
+
+    move-result-object v0
+
+    .line 2
+    new-instance v1, Lcom/google/android/gms/internal/ads/bk;
+
+    invoke-direct {v1, v0}, Lcom/google/android/gms/internal/ads/bk;-><init>(Landroid/content/Context;)V
+
+    return-object v1
+.end method

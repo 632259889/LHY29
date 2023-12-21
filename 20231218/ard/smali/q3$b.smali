@@ -1,0 +1,355 @@
+.class public Lq3$b;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lq3;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "b"
+.end annotation
+
+
+# direct methods
+.method public static a(Landroid/app/AppOpsManager;Ljava/lang/String;ILjava/lang/String;)I
+    .locals 5
+
+    const-string v0, "\u06dc\u06e5\u06e8\u06e2\u06df\u06d7\u06e6\u06e0\u06d8\u06d8\u06e8\u06d6\u06da\u06da\u06e1\u06d8\u06d8\u06d6\u06e4\u06d6\u06e1\u06e6\u06d8\u06e6\u06e6\u06e0\u06e4\u06db\u06df\u06da\u06d7\u06eb\u06d6\u06d6\u06d8\u06e8\u06e5\u06e4\u06eb\u06d7\u06e8\u06e6\u06e1\u06ec\u06e4\u06db\u06e1\u06d8"
+
+    :goto_0
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v1
+
+    const/16 v2, 0x2eb
+
+    xor-int/2addr v1, v2
+
+    xor-int/lit8 v1, v1, 0xa
+
+    const/16 v2, 0x178
+
+    xor-int/2addr v1, v2
+
+    xor-int/lit16 v1, v1, 0x2da
+
+    const/16 v2, 0x30c
+
+    xor-int/2addr v1, v2
+
+    xor-int/lit16 v1, v1, 0x3c4
+
+    const/16 v2, 0x345
+
+    const v3, -0x7a9bf9ba
+
+    xor-int/2addr v1, v2
+
+    xor-int/2addr v1, v3
+
+    sparse-switch v1, :sswitch_data_0
+
+    goto :goto_0
+
+    :sswitch_0
+    const-string/jumbo v0, "\u06eb\u06d6\u06d8\u06d8\u06e0\u06ec\u06e2\u06e1\u06d7\u06dc\u06d6\u06e0\u06dc\u06d8\u06e2\u06da\u06e1\u06d8\u06e6\u06e0\u06ec\u06d8\u06e2\u06e5\u06da\u06db\u06d8\u06d8\u06e5\u06d9\u06e6\u06d8\u06d6\u06e2\u06d8\u06d8\u06d7\u06d7\u06d6\u06d8\u06e2\u06d7\u06e6\u06e4\u06e4\u06dc\u06e6\u06dc\u06e1\u06e4\u06e5\u06e4\u06dc\u06db\u06e2\u06e4\u06e5\u06e8\u06db\u06e7\u06dc\u06d8\u06dc\u06ec\u06e2\u06df\u06e2\u06e1\u06d8\u06db\u06e8\u06d9"
+
+    goto :goto_0
+
+    :sswitch_1
+    const-string v0, "\u06e2\u06e2\u06e6\u06d7\u06d9\u06eb\u06eb\u06e1\u06e8\u06e1\u06e8\u06ec\u06e1\u06d6\u06e5\u06e4\u06e6\u06d9\u06e6\u06e7\u06d7\u06d8\u06d7\u06dc\u06e4\u06e6\u06db\u06d7\u06e5\u06d6\u06d8\u06db\u06e5\u06d8\u06dc\u06e2\u06dc\u06d9\u06e1\u06d8\u06eb\u06e0\u06e0\u06ec\u06e0\u06d8\u06dc\u06e5\u06e0\u06d8\u06e5\u06e1\u06d8\u06d6\u06d9\u06ec\u06e5\u06d8\u06e1\u06dc\u06d9\u06ec\u06e0\u06e7\u06d6"
+
+    goto :goto_0
+
+    :sswitch_2
+    const-string v0, "\u06e5\u06e8\u06e6\u06d9\u06e7\u06e2\u06e4\u06dc\u06df\u06d6\u06e7\u06e7\u06e0\u06d7\u06e5\u06d8\u06d8\u06da\u06e7\u06ec\u06d7\u06d7\u06eb\u06e2\u06d6\u06d8\u06d9\u06eb\u06e2\u06e7\u06db\u06d7\u06e4\u06ec\u06dc\u06e2\u06dc\u06e7\u06d8\u06ec\u06e8\u06d8\u06eb\u06e7\u06e2\u06da\u06d6\u06e0\u06d9\u06d8\u06dc\u06d8\u06d9\u06db\u06df\u06dc\u06e1\u06e2"
+
+    goto :goto_0
+
+    :sswitch_3
+    const-string v0, "\u06e4\u06da\u06ec\u06d9\u06dc\u06e7\u06e4\u06d6\u06dc\u06e4\u06dc\u06e4\u06d7\u06dc\u06e7\u06d6\u06eb\u06e6\u06d8\u06dc\u06d7\u06e7\u06d6\u06eb\u06d8\u06d8\u06db\u06eb\u06df\u06d6\u06e8\u06ec\u06d9\u06e2\u06db\u06e6\u06d7\u06dc\u06d8\u06e5\u06e5\u06d7\u06ec\u06e2\u06e1\u06d8\u06e6\u06d9\u06db\u06df\u06e1\u06e4\u06e1\u06e7\u06df\u06d7\u06e8\u06d8\u06df\u06da\u06e1\u06d8\u06e6\u06d6\u06d6\u06e6\u06eb\u06d6"
+
+    goto :goto_0
+
+    :sswitch_4
+    const v1, -0x6d9c29c4
+
+    const-string v0, "\u06d7\u06e1\u06df\u06d9\u06e8\u06ec\u06e4\u06e4\u06e8\u06ec\u06e6\u06d8\u06d8\u06da\u06e6\u06d8\u06d8\u06e1\u06d6\u06d9\u06e4\u06d7\u06d6\u06df\u06e6\u06e2\u06d6\u06d9\u06e1\u06d8\u06d7\u06e2\u06dc\u06e5\u06e8\u06ec\u06e0\u06e1\u06d6\u06d8\u06e2\u06e0\u06df\u06eb\u06dc\u06e5\u06d8\u06e5\u06e1\u06d6\u06dc\u06e1\u06e1\u06d8\u06d6\u06d8\u06e6\u06e6\u06e0\u06e1\u06d8"
+
+    :goto_1
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v2
+
+    xor-int/2addr v2, v1
+
+    sparse-switch v2, :sswitch_data_1
+
+    goto :goto_1
+
+    :sswitch_5
+    const-string v0, "\u06e1\u06df\u06da\u06eb\u06d6\u06d6\u06d8\u06e4\u06d7\u06e1\u06d8\u06ec\u06d7\u06db\u06e2\u06e5\u06e0\u06d9\u06e6\u06e8\u06e1\u06e6\u06da\u06d7\u06e8\u06db\u06dc\u06e8\u06e5\u06e8\u06e4\u06e2\u06e0\u06dc\u06e8\u06e5\u06e8\u06e0\u06e0\u06e8\u06d8\u06df\u06e6\u06e2\u06eb\u06e5\u06e6\u06e6\u06e1\u06d6\u06d6\u06e5\u06d8\u06eb\u06e4\u06e0\u06df\u06e2\u06e8\u06e0\u06e4\u06e2\u06ec\u06db\u06dc\u06ec\u06e8\u06dc\u06d8\u06e2\u06df\u06e1\u06d8\u06e8\u06e4\u06ec\u06dc\u06df\u06da\u06e0\u06dc\u06dc\u06df\u06da\u06df"
+
+    goto :goto_0
+
+    :sswitch_6
+    const-string/jumbo v0, "\u06eb\u06e7\u06e8\u06ec\u06e4\u06e7\u06e6\u06e6\u06eb\u06db\u06e1\u06eb\u06e7\u06da\u06d6\u06d8\u06df\u06e0\u06d6\u06d9\u06df\u06eb\u06eb\u06ec\u06df\u06e4\u06e5\u06e1\u06db\u06eb\u06ec\u06e6\u06e6\u06da\u06e6\u06df\u06eb\u06dc\u06ec\u06e5\u06eb\u06eb\u06ec\u06e0\u06d8\u06d6\u06e4\u06ec\u06d9\u06e6\u06d8\u06e8\u06d6\u06da"
+
+    goto :goto_1
+
+    :sswitch_7
+    const v2, 0x3d222c45    # 0.039593f
+
+    const-string v0, "\u06dc\u06e6\u06d8\u06d7\u06e1\u06e5\u06d8\u06ec\u06e2\u06e6\u06d8\u06e0\u06d8\u06df\u06e2\u06e5\u06d6\u06eb\u06e1\u06dc\u06e4\u06e6\u06e6\u06e6\u06d9\u06d9\u06eb\u06e2\u06d7\u06df\u06e8\u06dc\u06da\u06db\u06ec\u06e6\u06eb\u06e7\u06e6\u06d8\u06d9\u06e5\u06e6\u06d8\u06e2\u06df\u06e6"
+
+    :goto_2
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v3
+
+    xor-int/2addr v3, v2
+
+    sparse-switch v3, :sswitch_data_2
+
+    goto :goto_2
+
+    :sswitch_8
+    const-string v0, "\u06da\u06e7\u06d8\u06d6\u06e0\u06d6\u06da\u06dc\u06df\u06d8\u06e6\u06e5\u06e5\u06d8\u06e5\u06e6\u06d9\u06da\u06e8\u06d6\u06d8\u06e5\u06e7\u06da\u06e0\u06d6\u06d7\u06e5\u06e7\u06e8\u06d8\u06e8\u06da\u06eb\u06e8\u06e2\u06eb\u06d7\u06d6\u06dc\u06e7\u06df\u06d8\u06d8\u06e7\u06e6\u06e6"
+
+    goto :goto_1
+
+    :sswitch_9
+    const-string v0, "\u06db\u06d6\u06e8\u06d8\u06d7\u06d7\u06e0\u06e2\u06e4\u06eb\u06e6\u06d8\u06e5\u06e5\u06ec\u06db\u06db\u06e1\u06d6\u06e1\u06d8\u06d8\u06d8\u06da\u06e1\u06d6\u06d8\u06e8\u06d8\u06da\u06ec\u06e5\u06e5\u06da\u06e8\u06d8\u06d9\u06e7\u06d9\u06e2\u06e4\u06e6\u06d8\u06db\u06dc\u06e6\u06d8\u06e1\u06e4\u06e1"
+
+    goto :goto_2
+
+    :sswitch_a
+    const v3, -0x7f4495a3
+
+    const-string v0, "\u06d7\u06d9\u06e8\u06d6\u06e7\u06e2\u06e1\u06e4\u06e5\u06d9\u06e5\u06db\u06ec\u06e2\u06e5\u06e8\u06e0\u06e8\u06e5\u06d8\u06e4\u06e8\u06e4\u06dc\u06e7\u06e1\u06df\u06d9\u06e1\u06e4\u06e8\u06e1\u06e7\u06d8\u06d8\u06d8\u06db\u06d6\u06e4\u06e5\u06d8\u06e4\u06da\u06d8\u06df\u06da\u06d8\u06d8\u06dc\u06e1\u06e6\u06d8\u06e8\u06d8\u06d6\u06d8\u06e8\u06e4\u06db\u06e4\u06e5\u06da\u06d9\u06d7\u06dc\u06d8\u06e4\u06e5\u06dc\u06d8"
+
+    :goto_3
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v4
+
+    xor-int/2addr v4, v3
+
+    sparse-switch v4, :sswitch_data_3
+
+    goto :goto_3
+
+    :sswitch_b
+    const-string/jumbo v0, "\u06eb\u06d8\u06d9\u06d8\u06e7\u06e5\u06d8\u06df\u06e7\u06df\u06d9\u06e7\u06d8\u06d8\u06d7\u06e5\u06e8\u06d8\u06e2\u06da\u06e5\u06e1\u06d7\u06d7\u06d7\u06ec\u06dc\u06d8\u06e6\u06e6\u06d6\u06d8\u06ec\u06d8\u06d9\u06e0\u06d7\u06e2\u06eb\u06d8\u06db\u06e4\u06e0\u06ec\u06d8\u06da\u06e0\u06d7\u06df"
+
+    goto :goto_2
+
+    :cond_0
+    const-string v0, "\u06df\u06e0\u06db\u06e1\u06e8\u06e7\u06e2\u06df\u06e4\u06dc\u06d6\u06e2\u06e1\u06d9\u06dc\u06d8\u06d8\u06e6\u06e7\u06d8\u06d7\u06d7\u06e5\u06d8\u06d6\u06e6\u06e8\u06d8\u06e1\u06db\u06e6\u06d7\u06dc\u06e8\u06d8\u06e6\u06e2\u06d6\u06d8\u06e8\u06e8\u06db\u06eb\u06e6\u06d6\u06d9\u06db\u06d6\u06d8\u06e4\u06e6\u06d9\u06d9\u06ec\u06e6\u06e2\u06e0\u06db\u06e6\u06e5\u06e2"
+
+    goto :goto_3
+
+    :sswitch_c
+    if-nez p0, :cond_0
+
+    const-string/jumbo v0, "\u06ec\u06d6\u06d7\u06db\u06df\u06d7\u06e5\u06e7\u06d8\u06df\u06e6\u06eb\u06d9\u06e7\u06db\u06e1\u06dc\u06e1\u06db\u06d8\u06e7\u06d8\u06df\u06e5\u06da\u06e0\u06e1\u06e6\u06d8\u06e6\u06e7\u06dc\u06e2\u06d6\u06d8\u06d8\u06e4\u06e7\u06e0\u06db\u06e5\u06e4\u06d9\u06d8\u06e8\u06d9\u06da\u06e5\u06d8\u06d8\u06d7\u06db\u06e7\u06d9\u06e6\u06d8\u06d6\u06db\u06e6\u06d8\u06db\u06d9\u06e2\u06ec\u06d8\u06e2\u06d8\u06e7\u06e5"
+
+    goto :goto_3
+
+    :sswitch_d
+    const-string v0, "\u06e2\u06ec\u06e5\u06d8\u06dc\u06d6\u06d8\u06eb\u06e0\u06da\u06db\u06e0\u06d9\u06da\u06d9\u06df\u06e0\u06d7\u06e6\u06e8\u06df\u06e8\u06d6\u06d6\u06e5\u06df\u06e4\u06e2\u06dc\u06db\u06dc\u06e1\u06df\u06e7\u06e6\u06e2\u06dc\u06d8\u06e2\u06d7\u06e1\u06eb\u06eb\u06e8\u06e7\u06e8\u06ec\u06e0\u06d7\u06db\u06d9\u06dc\u06d8\u06d9\u06d8\u06d8\u06d8\u06e5\u06d8\u06e0\u06eb\u06e6\u06e1\u06d8\u06e1\u06dc\u06e8\u06d9\u06e5\u06dc\u06d8\u06e1\u06e2\u06ec\u06e6\u06eb\u06d8\u06e6\u06e0\u06dc\u06e2\u06df\u06e0\u06df"
+
+    goto :goto_3
+
+    :sswitch_e
+    const-string v0, "\u06e6\u06d6\u06e7\u06e7\u06d6\u06e7\u06d8\u06d6\u06e5\u06e8\u06d8\u06df\u06df\u06eb\u06dc\u06eb\u06df\u06df\u06db\u06e0\u06d8\u06e8\u06e0\u06eb\u06d6\u06e0\u06e0\u06da\u06d6\u06e6\u06e0\u06e5\u06d8\u06d7\u06eb\u06d8\u06d7\u06dc\u06e1\u06ec\u06e4\u06e6\u06e7\u06e7\u06e5\u06d8\u06e5\u06e7\u06dc\u06d8\u06d8\u06e2\u06dc\u06d9\u06e8\u06e6\u06d7\u06e2\u06e5\u06d6\u06e1\u06d6\u06da\u06d6\u06e8\u06ec\u06df\u06e6\u06d8\u06e1\u06e7\u06d6\u06e4\u06e1\u06dc\u06d8\u06e8\u06d6\u06e1\u06d8\u06ec\u06e4\u06df\u06ec\u06d7\u06e0\u06e1\u06dc\u06e5\u06d8"
+
+    goto :goto_2
+
+    :sswitch_f
+    const-string v0, "\u06d9\u06d6\u06dc\u06d8\u06e8\u06d6\u06e0\u06e0\u06ec\u06d7\u06e8\u06d8\u06d8\u06d8\u06e0\u06e4\u06d8\u06d8\u06da\u06ec\u06e6\u06e8\u06dc\u06d6\u06da\u06e8\u06d6\u06e6\u06e1\u06d8\u06e4\u06d6\u06d8\u06eb\u06e6\u06e8\u06e5\u06eb\u06db\u06da\u06e2\u06e5\u06d8\u06d9\u06e2\u06e2\u06e4\u06d6\u06e6\u06d8"
+
+    goto :goto_1
+
+    :sswitch_10
+    const/4 v0, 0x1
+
+    :goto_4
+    return v0
+
+    :sswitch_11
+    invoke-virtual {p0, p1, p2, p3}, Landroid/app/AppOpsManager;->checkOpNoThrow(Ljava/lang/String;ILjava/lang/String;)I
+
+    move-result v0
+
+    goto :goto_4
+
+    :sswitch_12
+    const-string v0, "\u06d8\u06d6\u06df\u06ec\u06df\u06dc\u06d8\u06e4\u06e7\u06e2\u06da\u06e7\u06e1\u06e0\u06e8\u06e6\u06e4\u06d8\u06dc\u06d8\u06d9\u06e5\u06dc\u06e0\u06e2\u06db\u06df\u06e0\u06d7\u06e0\u06e1\u06dc\u06e6\u06dc\u06da\u06e6\u06ec\u06d9\u06e0\u06e5\u06e7\u06d7\u06dc\u06da\u06e0\u06e7\u06ec\u06ec\u06d8\u06dc\u06e2\u06eb\u06db\u06e0\u06e1\u06d8\u06eb\u06e0\u06e5\u06d8\u06d8\u06d9\u06e0\u06e8\u06e6\u06e5\u06d8\u06df\u06da\u06e8\u06d8\u06e8\u06d9\u06da\u06e2\u06d7\u06dc\u06e7\u06dc\u06e5\u06d8\u06e1\u06da\u06eb\u06db\u06d8\u06da"
+
+    goto/16 :goto_0
+
+    nop
+
+    :sswitch_data_0
+    .sparse-switch
+        -0x7415506b -> :sswitch_1
+        -0x2b67c1d9 -> :sswitch_0
+        -0x167086ed -> :sswitch_11
+        0x25125a9b -> :sswitch_3
+        0x56d7108c -> :sswitch_2
+        0x7013fd8d -> :sswitch_10
+        0x77db8415 -> :sswitch_4
+    .end sparse-switch
+
+    :sswitch_data_1
+    .sparse-switch
+        -0x6928fee4 -> :sswitch_12
+        -0x4e0f959d -> :sswitch_f
+        -0x3e3bbafb -> :sswitch_7
+        0x2414d421 -> :sswitch_5
+    .end sparse-switch
+
+    :sswitch_data_2
+    .sparse-switch
+        -0x7fbc4d84 -> :sswitch_6
+        -0x29169d1 -> :sswitch_e
+        0x142b3363 -> :sswitch_a
+        0x581913fe -> :sswitch_8
+    .end sparse-switch
+
+    :sswitch_data_3
+    .sparse-switch
+        -0x8be2a1b -> :sswitch_9
+        0x2d8b55f7 -> :sswitch_d
+        0x48dd2859 -> :sswitch_c
+        0x6e3d94d2 -> :sswitch_b
+    .end sparse-switch
+.end method
+
+.method public static b(Landroid/content/Context;)Ljava/lang/String;
+    .locals 4
+
+    const-string/jumbo v0, "\u06e6\u06e0\u06d7\u06e1\u06e5\u06e7\u06e2\u06dc\u06e5\u06d8\u06ec\u06d6\u06e8\u06d8\u06d8\u06d6\u06e8\u06d9\u06eb\u06e0\u06dc\u06dc\u06df\u06e7\u06eb\u06e2\u06da\u06d6\u06e2\u06d6\u06e6\u06d8\u06e1\u06e4\u06ec\u06e5\u06dc\u06e5\u06d8\u06da\u06da\u06dc\u06e5\u06d8\u06d8\u06e6\u06d6\u06e5\u06d8\u06e5\u06dc\u06d8\u06d8\u06e4\u06e0\u06e1\u06e5\u06e7\u06db\u06db\u06df\u06e5\u06e4\u06e7\u06e5\u06e2\u06dc\u06d8"
+
+    :goto_0
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v1
+
+    const/16 v2, 0x162
+
+    xor-int/2addr v1, v2
+
+    xor-int/lit16 v1, v1, 0x3db
+
+    const/16 v2, 0x3e4
+
+    xor-int/2addr v1, v2
+
+    xor-int/lit8 v1, v1, 0x3d
+
+    const/16 v2, 0x288
+
+    xor-int/2addr v1, v2
+
+    xor-int/lit16 v1, v1, 0xfb
+
+    const/16 v2, 0x2b2
+
+    const v3, 0x6b4021aa
+
+    xor-int/2addr v1, v2
+
+    xor-int/2addr v1, v3
+
+    sparse-switch v1, :sswitch_data_0
+
+    goto :goto_0
+
+    :sswitch_0
+    const-string v0, "\u06d6\u06e6\u06e0\u06eb\u06d6\u06da\u06db\u06ec\u06e1\u06d8\u06e5\u06e6\u06df\u06d9\u06dc\u06d7\u06d9\u06e6\u06d6\u06d8\u06d6\u06ec\u06db\u06df\u06d8\u06e2\u06e2\u06e0\u06df\u06e0\u06d8\u06d6\u06e7\u06df\u06df\u06e5\u06e4\u06e2\u06db\u06e2\u06e6\u06e4\u06e0\u06e8\u06e5\u06e1\u06e8\u06d7\u06d6\u06e4\u06e0\u06e5\u06d7\u06ec\u06d6\u06d8"
+
+    goto :goto_0
+
+    :sswitch_1
+    invoke-virtual {p0}, Landroid/content/Context;->getOpPackageName()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    nop
+
+    :sswitch_data_0
+    .sparse-switch
+        -0x13841420 -> :sswitch_1
+        0x63badc4e -> :sswitch_0
+    .end sparse-switch
+.end method
+
+.method public static c(Landroid/content/Context;)Landroid/app/AppOpsManager;
+    .locals 4
+
+    const-string v0, "\u06e0\u06e7\u06e0\u06d6\u06e4\u06d8\u06d8\u06e7\u06d7\u06d8\u06d8\u06e5\u06e1\u06e7\u06d8\u06dc\u06e4\u06e4\u06e2\u06d6\u06e7\u06d8\u06dc\u06d9\u06e7\u06e8\u06e0\u06d7\u06df\u06db\u06dc\u06e0\u06e1\u06d7\u06eb\u06dc\u06e1\u06db\u06ec\u06e2\u06e8\u06d9\u06eb\u06e1\u06dc\u06e1\u06d8\u06e2\u06e4"
+
+    :goto_0
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+
+    move-result v1
+
+    const/16 v2, 0x19a
+
+    xor-int/2addr v1, v2
+
+    xor-int/lit16 v1, v1, 0x3a3
+
+    const/16 v2, 0x3d0
+
+    xor-int/2addr v1, v2
+
+    xor-int/lit16 v1, v1, 0x36d
+
+    const/16 v2, 0x2eb
+
+    xor-int/2addr v1, v2
+
+    xor-int/lit16 v1, v1, 0x1e5
+
+    const/16 v2, 0x3e
+
+    const v3, -0x726a908b
+
+    xor-int/2addr v1, v2
+
+    xor-int/2addr v1, v3
+
+    sparse-switch v1, :sswitch_data_0
+
+    goto :goto_0
+
+    :sswitch_0
+    const-string v0, "\u06d8\u06d6\u06dc\u06d8\u06d9\u06e2\u06da\u06ec\u06d7\u06e8\u06d8\u06e2\u06dc\u06e5\u06d8\u06db\u06e6\u06d8\u06e7\u06d7\u06e5\u06d8\u06ec\u06ec\u06e8\u06d8\u06e6\u06d7\u06db\u06d7\u06df\u06e7\u06d8\u06e5\u06db\u06e2\u06df\u06e4\u06eb\u06ec\u06e4\u06e5\u06d7\u06eb\u06d8\u06e6\u06e8\u06df\u06d6\u06ec\u06e7\u06e6\u06dc\u06d8\u06e6\u06eb\u06d7\u06d6\u06d9\u06e6\u06d8\u06e1\u06da\u06df\u06eb\u06df\u06ec\u06db\u06e6\u06e1\u06d8\u06e7\u06d8\u06e4\u06e2\u06e0\u06e0\u06d8\u06ec\u06e1\u06e4\u06d8\u06db\u06e6\u06d9\u06e8\u06d8\u06df\u06df\u06ec"
+
+    goto :goto_0
+
+    :sswitch_1
+    const-class v0, Landroid/app/AppOpsManager;
+
+    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/app/AppOpsManager;
+
+    return-object v0
+
+    :sswitch_data_0
+    .sparse-switch
+        -0x1381587f -> :sswitch_1
+        -0x210f71c -> :sswitch_0
+    .end sparse-switch
+.end method
