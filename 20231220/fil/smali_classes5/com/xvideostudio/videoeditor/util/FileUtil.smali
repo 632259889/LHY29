@@ -8427,7 +8427,7 @@
 
     move-result-object p0
 
-    if-eqz p0, :cond_0
+    if-nez p0, :cond_0
 
     .line 3
     iget-object p0, p0, Landroid/content/pm/ApplicationInfo;->metaData:Landroid/os/Bundle;
@@ -8453,6 +8453,7 @@
     move-result-object p0
 
     return-object p0
+
 
     :catch_0
     move-exception p0

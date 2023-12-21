@@ -115,10 +115,10 @@
         <meta-data android:name="firebase_performance_logcat_enabled" android:value="true"/>
         <meta-data android:name="google_analytics_deferred_deep_link_enabled" android:value="true"/>
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
-        <meta-data android:name="HIFIVE_APPID" android:value="20da9321ac50425d87b7c7406547df87"/>
-        <meta-data android:name="HIFIVE_SERVERCODE" android:value="9e5ae00b64054e9b9d"/>
-        <meta-data android:name="UMENG_APPKEY" android:value="5a66f680a40fa33e1d000167"/>
-        <meta-data android:name="UMENG_CHANNEL" android:value="Video Maker"/>
+        <!-- <meta-data android:name="HIFIVE_APPID" android:value="20da9321ac50425d87b7c7406547df87"/>
+        <meta-data android:name="HIFIVE_SERVERCODE" android:value="9e5ae00b64054e9b9d"/> -->
+        <!-- <meta-data android:name="UMENG_APPKEY" android:value="111111"/>
+        <meta-data android:name="UMENG_CHANNEL" android:value="Video Maker"/> -->
         <provider android:authorities="com.video.maker.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
         </provider>
