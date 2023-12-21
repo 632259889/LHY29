@@ -74,7 +74,7 @@
 # virtual methods
 .method public a()Ljava/lang/Integer;
     .locals 1
-
+    #
     .line 1
     iget-object v0, p0, Lf4/a;->b:Lcom/vungle/warren/tasks/g;
 

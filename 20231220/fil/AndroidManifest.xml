@@ -539,7 +539,7 @@
         <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
         <provider android:authorities="com.video.maker.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
         <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:launchMode="singleTop" android:name="com.vungle.warren.ui.VungleActivity"/>
-        <provider android:authorities="com.video.maker.vungle-provider" android:exported="false" android:name="com.vungle.warren.utility.VungleProvider"/>
+        <!-- <provider android:authorities="com.video.maker.vungle-provider" android:exported="false" android:name="com.vungle.warren.utility.VungleProvider"/> -->
         <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>

@@ -20,7 +20,7 @@
     value = {
         "Ljava/lang/Object;",
         "Li4/a$b<",
-        "Lcom/vungle/warren/ui/presenter/a;",
+        # "Lcom/vungle/warren/ui/presenter/a;",
         ">;"
     }
 .end annotation

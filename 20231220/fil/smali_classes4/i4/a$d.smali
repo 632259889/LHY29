@@ -41,19 +41,19 @@
     .end param
 .end method
 
-.method public abstract j(Lcom/vungle/warren/ui/state/a;)V
-    .param p1    # Lcom/vungle/warren/ui/state/a;
-        .annotation build Lk/h0;
-        .end annotation
-    .end param
-.end method
-
-.method public abstract k(Lcom/vungle/warren/ui/state/a;)V
-    .param p1    # Lcom/vungle/warren/ui/state/a;
-        .annotation build Lk/h0;
-        .end annotation
-    .end param
-.end method
+# .method public abstract j(Lcom/vungle/warren/ui/state/a;)V
+#     .param p1    # Lcom/vungle/warren/ui/state/a;
+#         .annotation build Lk/h0;
+#         .end annotation
+#     .end param
+# .end method
+#
+# .method public abstract k(Lcom/vungle/warren/ui/state/a;)V
+#     .param p1    # Lcom/vungle/warren/ui/state/a;
+#         .annotation build Lk/h0;
+#         .end annotation
+#     .end param
+# .end method
 
 .method public abstract m()Z
 .end method
@@ -78,20 +78,20 @@
 .method public abstract start()V
 .end method
 
-.method public abstract t(Li4/a$b;Lcom/vungle/warren/ui/state/a;)V
-    .param p1    # Li4/a$b;
-        .annotation build Lk/f0;
-        .end annotation
-    .end param
-    .param p2    # Lcom/vungle/warren/ui/state/a;
-        .annotation build Lk/h0;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;",
-            "Lcom/vungle/warren/ui/state/a;",
-            ")V"
-        }
-    .end annotation
-.end method
+# .method public abstract t(Li4/a$b;Lcom/vungle/warren/ui/state/a;)V
+#     .param p1    # Li4/a$b;
+#         .annotation build Lk/f0;
+#         .end annotation
+#     .end param
+#     .param p2    # Lcom/vungle/warren/ui/state/a;
+#         .annotation build Lk/h0;
+#         .end annotation
+#     .end param
+#     .annotation system Ldalvik/annotation/Signature;
+#         value = {
+#             "(TT;",
+#             "Lcom/vungle/warren/ui/state/a;",
+#             ")V"
+#         }
+#     .end annotation
+# .end method
