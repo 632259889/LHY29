@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Ll8;->b:[B
 
-    invoke-static {v0, v1, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->m0(Ljava/io/File;[BLt70;)V
+    invoke-static {v0, v1, p1}, Lcom/example/drawingar/activity/CameraActivity;->m0(Ljava/io/File;[BLt70;)V
 
     return-void
 .end method

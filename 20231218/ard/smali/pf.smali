@@ -40,7 +40,7 @@
 
     check-cast p2, Ljava/io/File;
 
-    invoke-static {p1, p2}, Lcom/example/drawingar/activity/cbfbfjewfuehf;->c0(Ljava/io/File;Ljava/io/File;)I
+    invoke-static {p1, p2}, Lcom/example/drawingar/activity/CreationActivity;->c0(Ljava/io/File;Ljava/io/File;)I
 
     move-result p1
 

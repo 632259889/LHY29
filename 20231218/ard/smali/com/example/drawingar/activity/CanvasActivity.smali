@@ -4618,7 +4618,7 @@
     :sswitch_4
     new-instance v1, Landroid/content/Intent;
 
-    const-class v0, Lcom/example/drawingar/activity/paldmcjurbak;
+    const-class v0, Lcom/example/drawingar/activity/BrowserActivity;
 
     invoke-direct {v1, p0, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -5354,7 +5354,7 @@
     :sswitch_4
     new-instance v1, Landroid/content/Intent;
 
-    const-class v0, Lcom/example/drawingar/activity/uegrnjjnakfoe;
+    const-class v0, Lcom/example/drawingar/activity/CategoryMainActivity;
 
     invoke-direct {v1, p0, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 

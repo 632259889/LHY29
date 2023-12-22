@@ -7,16 +7,16 @@
 
 
 # instance fields
-.field public final synthetic a:Lcom/example/drawingar/activity/paldmcjurbak;
+.field public final synthetic a:Lcom/example/drawingar/activity/BrowserActivity;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/example/drawingar/activity/paldmcjurbak;)V
+.method public synthetic constructor <init>(Lcom/example/drawingar/activity/BrowserActivity;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lp6;->a:Lcom/example/drawingar/activity/paldmcjurbak;
+    iput-object p1, p0, Lp6;->a:Lcom/example/drawingar/activity/BrowserActivity;
 
     return-void
 .end method
@@ -26,9 +26,9 @@
 .method public final a()V
     .locals 1
 
-    iget-object v0, p0, Lp6;->a:Lcom/example/drawingar/activity/paldmcjurbak;
+    iget-object v0, p0, Lp6;->a:Lcom/example/drawingar/activity/BrowserActivity;
 
-    invoke-static {v0}, Lcom/example/drawingar/activity/paldmcjurbak;->Z(Lcom/example/drawingar/activity/paldmcjurbak;)V
+    invoke-static {v0}, Lcom/example/drawingar/activity/BrowserActivity;->Z(Lcom/example/drawingar/activity/BrowserActivity;)V
 
     return-void
 .end method

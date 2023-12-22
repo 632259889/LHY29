@@ -7,16 +7,16 @@
 
 
 # instance fields
-.field public final synthetic a:Lcom/example/drawingar/activity/xamfmfewl;
+.field public final synthetic a:Lcom/example/drawingar/activity/DrawOptionActivity;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/example/drawingar/activity/xamfmfewl;)V
+.method public synthetic constructor <init>(Lcom/example/drawingar/activity/DrawOptionActivity;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lyj;->a:Lcom/example/drawingar/activity/xamfmfewl;
+    iput-object p1, p0, Lyj;->a:Lcom/example/drawingar/activity/DrawOptionActivity;
 
     return-void
 .end method
@@ -26,9 +26,9 @@
 .method public final a()V
     .locals 1
 
-    iget-object v0, p0, Lyj;->a:Lcom/example/drawingar/activity/xamfmfewl;
+    iget-object v0, p0, Lyj;->a:Lcom/example/drawingar/activity/DrawOptionActivity;
 
-    invoke-static {v0}, Lcom/example/drawingar/activity/xamfmfewl;->b0(Lcom/example/drawingar/activity/xamfmfewl;)V
+    invoke-static {v0}, Lcom/example/drawingar/activity/DrawOptionActivity;->b0(Lcom/example/drawingar/activity/DrawOptionActivity;)V
 
     return-void
 .end method

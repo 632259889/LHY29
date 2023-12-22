@@ -1,4 +1,4 @@
-.class public Lcom/example/drawingar/activity/paldmcjurbak;
+.class public Lcom/example/drawingar/activity/BrowserActivity;
 .super Lc3;
 
 # interfaces
@@ -8,7 +8,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/example/drawingar/activity/paldmcjurbak$b;
+        Lcom/example/drawingar/activity/BrowserActivity$b;
     }
 .end annotation
 
@@ -29,12 +29,12 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->E:Lcom/myads/googlead/c;
+    iput-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->E:Lcom/myads/googlead/c;
 
     return-void
 .end method
 
-.method public static synthetic Y(Lcom/example/drawingar/activity/paldmcjurbak;Landroid/webkit/WebView$HitTestResult;Landroid/view/MenuItem;)Z
+.method public static synthetic Y(Lcom/example/drawingar/activity/BrowserActivity;Landroid/webkit/WebView$HitTestResult;Landroid/view/MenuItem;)Z
     .locals 4
 
     const-string v0, "\u06df\u06eb\u06db\u06db\u06d6\u06ec\u06e8\u06e2\u06e2\u06e5\u06dc\u06d8\u06e6\u06d8\u06d7\u06db\u06e1\u06d9\u06e8\u06e1\u06e6\u06d8\u06db\u06e4\u06e5\u06d8\u06d8\u06db\u06e1\u06d8\u06d8\u06d7\u06ec\u06eb\u06e2\u06e5\u06d8\u06e2\u06eb\u06db\u06e6\u06da\u06e1\u06d8\u06da\u06e4\u06ec\u06e4\u06d8\u06e8\u06d8\u06e1\u06df\u06d7\u06e5\u06e6\u06e0\u06e6\u06d9\u06e1\u06eb\u06ec\u06e0\u06df\u06e8\u06d8\u06d8\u06ec\u06d8\u06e5\u06d9\u06eb\u06e7\u06d9\u06ec\u06e1\u06d8\u06e8\u06d8\u06e6\u06d8"
@@ -90,7 +90,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/paldmcjurbak;->l0(Landroid/webkit/WebView$HitTestResult;Landroid/view/MenuItem;)Z
+    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/BrowserActivity;->l0(Landroid/webkit/WebView$HitTestResult;Landroid/view/MenuItem;)Z
 
     move-result v0
 
@@ -105,7 +105,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic Z(Lcom/example/drawingar/activity/paldmcjurbak;)V
+.method public static synthetic Z(Lcom/example/drawingar/activity/BrowserActivity;)V
     .locals 4
 
     const-string/jumbo v0, "\u06e7\u06d8\u06da\u06da\u06e1\u06d7\u06e6\u06d9\u06da\u06ec\u06e7\u06e4\u06e8\u06df\u06e5\u06dc\u06e7\u06d8\u06df\u06e7\u06e8\u06e5\u06e4\u06df\u06e2\u06eb\u06e1\u06db\u06e8\u06e8\u06da\u06d8\u06d8\u06e1\u06d8\u06df\u06dc\u06e1\u06e0\u06e4\u06d6\u06db\u06d8\u06eb\u06e7\u06e6\u06e7\u06d7\u06e4\u06e4\u06e2\u06df\u06d7\u06dc\u06d8\u06d7\u06da\u06ec\u06d7\u06e8\u06e7\u06d8\u06e2\u06ec\u06eb"
@@ -151,7 +151,7 @@
     goto :goto_0
 
     :sswitch_1
-    invoke-direct {p0}, Lcom/example/drawingar/activity/paldmcjurbak;->i0()V
+    invoke-direct {p0}, Lcom/example/drawingar/activity/BrowserActivity;->i0()V
 
     const-string/jumbo v0, "\u06e7\u06e8\u06e7\u06d8\u06d9\u06e6\u06d8\u06dc\u06e8\u06e2\u06d8\u06e8\u06e7\u06d8\u06d6\u06e7\u06d7\u06da\u06e2\u06d6\u06e6\u06e5\u06ec\u06d7\u06e1\u06e7\u06d8\u06e5\u06ec\u06e8\u06da\u06eb\u06d8\u06eb\u06d6\u06e7\u06d8\u06df\u06e7\u06d6\u06d8\u06e0\u06e6\u06e1\u06d8\u06e1\u06d8\u06dc\u06eb\u06df\u06e0\u06d7\u06d6\u06da\u06dc\u06e1\u06d9\u06e6\u06d7\u06e8\u06d8\u06e4\u06d9\u06dc\u06d7\u06d9\u06d6\u06d8\u06d7\u06ec\u06d6\u06e7\u06da\u06e6\u06e8\u06e7\u06e8\u06d8\u06e4\u06e8\u06df"
 
@@ -168,7 +168,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic a0(Lcom/example/drawingar/activity/paldmcjurbak;Landroid/webkit/WebView$HitTestResult;Landroid/view/MenuItem;)Z
+.method public static synthetic a0(Lcom/example/drawingar/activity/BrowserActivity;Landroid/webkit/WebView$HitTestResult;Landroid/view/MenuItem;)Z
     .locals 4
 
     const-string v0, "\u06e4\u06e8\u06e2\u06dc\u06da\u06e5\u06d8\u06d7\u06d8\u06e6\u06d8\u06db\u06dc\u06dc\u06e1\u06e0\u06da\u06e1\u06d7\u06df\u06e5\u06e7\u06dc\u06ec\u06e8\u06dc\u06d8\u06e4\u06e1\u06d6\u06ec\u06e1\u06e1\u06e7\u06da\u06db\u06da\u06df\u06db\u06e6\u06d8\u06e5\u06d6\u06e0\u06e5\u06d8\u06e8\u06d7\u06df"
@@ -224,7 +224,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/paldmcjurbak;->k0(Landroid/webkit/WebView$HitTestResult;Landroid/view/MenuItem;)Z
+    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/BrowserActivity;->k0(Landroid/webkit/WebView$HitTestResult;Landroid/view/MenuItem;)Z
 
     move-result v0
 
@@ -239,7 +239,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic b0(Lcom/example/drawingar/activity/paldmcjurbak;Landroid/widget/LinearLayout;Landroid/view/View;)V
+.method public static synthetic b0(Lcom/example/drawingar/activity/BrowserActivity;Landroid/widget/LinearLayout;Landroid/view/View;)V
     .locals 4
 
     const-string/jumbo v0, "\u06ec\u06d8\u06e5\u06d8\u06d9\u06e0\u06db\u06e6\u06ec\u06dc\u06eb\u06e7\u06e8\u06dc\u06e2\u06e1\u06da\u06df\u06ec\u06e8\u06e5\u06d9\u06db\u06dc\u06d9\u06e2\u06ec\u06ec\u06ec\u06d6\u06eb\u06e0\u06d8\u06e6\u06d7\u06e7\u06e6\u06d8\u06e8\u06df\u06d8\u06d8\u06d6\u06dc\u06da\u06da\u06df\u06e8\u06db\u06d9\u06d8\u06ec\u06db\u06df\u06e1\u06dc\u06e6\u06d8\u06e8\u06d6\u06e6\u06d8\u06eb\u06ec\u06e8\u06d9\u06df\u06e4\u06d7\u06dc\u06e2\u06db\u06d9\u06e8\u06e1\u06ec\u06ec"
@@ -295,7 +295,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/paldmcjurbak;->f0(Landroid/widget/LinearLayout;Landroid/view/View;)V
+    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/BrowserActivity;->f0(Landroid/widget/LinearLayout;Landroid/view/View;)V
 
     const-string v0, "\u06d6\u06eb\u06dc\u06e1\u06e5\u06e5\u06d8\u06eb\u06d6\u06e2\u06d7\u06dc\u06df\u06e7\u06e8\u06dc\u06e8\u06e4\u06e1\u06d8\u06e6\u06e5\u06e6\u06ec\u06d7\u06e1\u06d8\u06eb\u06d9\u06df\u06e6\u06ec\u06e8\u06d6\u06e8\u06e5\u06d8\u06db\u06e8\u06e7\u06e4\u06e0\u06ec\u06e5\u06dc\u06e0\u06d6\u06d9\u06e6\u06d8"
 
@@ -314,7 +314,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic c0(Lcom/example/drawingar/activity/paldmcjurbak;Landroid/view/View;)V
+.method public static synthetic c0(Lcom/example/drawingar/activity/BrowserActivity;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06d6\u06e7\u06d6\u06d8\u06ec\u06dc\u06d8\u06e1\u06d8\u06e5\u06d8\u06e8\u06e7\u06d8\u06d8\u06d8\u06df\u06e1\u06d8\u06e0\u06da\u06e8\u06d9\u06dc\u06db\u06dc\u06d6\u06dc\u06d8\u06dc\u06df\u06db\u06e6\u06e0\u06e4\u06e7\u06e1\u06d8\u06d8\u06e0\u06e8\u06e8\u06df\u06ec\u06e5\u06d8\u06e2\u06d7\u06db\u06df\u06da\u06d7"
@@ -365,7 +365,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/paldmcjurbak;->h0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/BrowserActivity;->h0(Landroid/view/View;)V
 
     const-string v0, "\u06df\u06d7\u06e8\u06df\u06e2\u06d8\u06e1\u06df\u06d9\u06da\u06e2\u06da\u06e4\u06db\u06ec\u06d9\u06d7\u06d6\u06e6\u06e0\u06d6\u06e4\u06da\u06db\u06e5\u06db\u06db\u06df\u06e8\u06e5\u06d8\u06e4\u06e8\u06d9\u06df\u06db\u06ec\u06e0\u06d7\u06db\u06dc\u06d6\u06dc\u06e5\u06e4\u06e0\u06eb\u06e4\u06dc\u06d8\u06e6\u06d7\u06e0\u06e6\u06dc\u06d6\u06d8\u06d8\u06df\u06d8\u06d8\u06dc\u06e4\u06e2\u06db\u06d8\u06e6\u06d8\u06d7\u06e5\u06e6\u06e6\u06e0\u06e6\u06d8\u06d8\u06d9\u06e7"
 
@@ -383,7 +383,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic d0(Lcom/example/drawingar/activity/paldmcjurbak;Landroid/view/View;)V
+.method public static synthetic d0(Lcom/example/drawingar/activity/BrowserActivity;Landroid/view/View;)V
     .locals 4
 
     const-string/jumbo v0, "\u06e7\u06da\u06d8\u06e2\u06e6\u06d8\u06e0\u06e7\u06eb\u06d7\u06e6\u06d8\u06d8\u06d6\u06dc\u06d6\u06d6\u06da\u06e5\u06db\u06dc\u06db\u06d9\u06e5\u06e8\u06e2\u06e5\u06d8\u06dc\u06d9\u06d8\u06e6\u06d7\u06dc\u06d8\u06dc\u06d9\u06d6\u06d7\u06e7\u06d6\u06e5\u06d8\u06e2\u06ec\u06e2\u06d6\u06d8\u06db\u06e0\u06e1\u06da\u06db\u06e0\u06d8\u06d9\u06d6"
@@ -434,7 +434,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/paldmcjurbak;->g0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/BrowserActivity;->g0(Landroid/view/View;)V
 
     const-string v0, "\u06e0\u06d9\u06e2\u06e8\u06da\u06d6\u06d8\u06d6\u06e2\u06ec\u06e0\u06d9\u06d7\u06e5\u06db\u06e4\u06e8\u06df\u06d6\u06df\u06e1\u06d6\u06d8\u06e4\u06ec\u06d7\u06d6\u06e1\u06e7\u06d8\u06ec\u06e0\u06e0\u06d7\u06d8\u06d8\u06d7\u06da\u06e1\u06d8\u06ec\u06e8\u06e7\u06d6\u06d8\u06e5\u06d8\u06e7\u06df\u06e8\u06ec\u06e2\u06e4\u06d9\u06ec\u06db\u06da\u06e2\u06d8\u06df\u06e8\u06e2\u06d8\u06e0\u06e6\u06e7\u06eb\u06db\u06e1\u06e2\u06d8\u06e6\u06d7\u06d6\u06d9\u06df\u06df\u06e6\u06dc\u06d8\u06ec\u06e1\u06e1\u06dc\u06e8\u06e7"
 
@@ -454,7 +454,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic e0(Lcom/example/drawingar/activity/paldmcjurbak;)V
+.method public static synthetic e0(Lcom/example/drawingar/activity/BrowserActivity;)V
     .locals 4
 
     const-string/jumbo v0, "\u06eb\u06d9\u06e7\u06df\u06da\u06e6\u06d8\u06e0\u06d6\u06dc\u06e6\u06d8\u06e4\u06eb\u06da\u06d7\u06df\u06e1\u06d8\u06e5\u06d7\u06e6\u06e0\u06d9\u06dc\u06d8\u06e2\u06dc\u06e4\u06df\u06da\u06e5\u06ec\u06e0\u06e7\u06d6\u06e0\u06e8\u06e7\u06d9\u06d6\u06e6\u06d8\u06e5\u06ec\u06e1\u06d9\u06e7\u06dc\u06d6\u06d9\u06e1\u06d6\u06eb\u06e5\u06eb\u06d6\u06db\u06dc\u06e1\u06d9\u06d8\u06dc\u06eb\u06da\u06d9\u06d6\u06e6\u06d8\u06d8\u06e6\u06ec\u06e5\u06d8\u06ec\u06d7\u06e0\u06d9\u06e6\u06e2\u06dc\u06e6\u06eb"
@@ -500,7 +500,7 @@
     goto :goto_0
 
     :sswitch_1
-    invoke-direct {p0}, Lcom/example/drawingar/activity/paldmcjurbak;->j0()V
+    invoke-direct {p0}, Lcom/example/drawingar/activity/BrowserActivity;->j0()V
 
     const-string/jumbo v0, "\u06ec\u06db\u06ec\u06d9\u06db\u06e6\u06e5\u06d6\u06e1\u06d8\u06eb\u06d8\u06dc\u06d6\u06eb\u06d7\u06ec\u06d6\u06d9\u06e7\u06e5\u06e4\u06e6\u06d9\u06e5\u06d8\u06e1\u06e8\u06d6\u06d6\u06eb\u06e2\u06d6\u06e1\u06d8\u06eb\u06e8\u06da\u06e5\u06df\u06e8\u06df\u06e0\u06d9\u06e1\u06db\u06db\u06d6\u06e8\u06d6\u06d8\u06d6\u06d7\u06e2\u06e4\u06e7\u06db\u06e4\u06e0\u06e2\u06df\u06e2\u06e1\u06e8\u06e6\u06d8\u06eb\u06d8\u06df\u06d6\u06ec\u06e5\u06d8\u06e0\u06e8\u06e1\u06d8\u06e8\u06df\u06e8\u06d8\u06d9\u06e2\u06d8\u06df\u06dc\u06d8\u06d8"
 
@@ -575,7 +575,7 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->f:Landroid/widget/LinearLayout;
 
@@ -663,7 +663,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/paldmcjurbak;->onBackPressed()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/BrowserActivity;->onBackPressed()V
 
     const-string v0, "\u06db\u06e8\u06d9\u06eb\u06eb\u06dc\u06e8\u06e4\u06dc\u06e8\u06d6\u06d8\u06d8\u06e8\u06e0\u06e5\u06e5\u06e2\u06e6\u06dc\u06d7\u06e6\u06d8\u06e8\u06dc\u06d6\u06e0\u06e0\u06e4\u06e0\u06d9\u06d9\u06df\u06ec\u06eb\u06ec\u06e1\u06dc\u06d8\u06d8\u06df\u06e5\u06ec\u06e7\u06d6\u06d8\u06db\u06d8\u06d9\u06d6\u06e8\u06e6\u06d8\u06d9\u06d6\u06d8\u06e6\u06e8\u06e6\u06d8\u06e8\u06e5\u06e6\u06d8\u06e6\u06d7\u06d7\u06df\u06e7\u06e1\u06d8"
 
@@ -734,7 +734,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/paldmcjurbak;->m0()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/BrowserActivity;->m0()V
 
     const-string v0, "\u06e4\u06e4\u06e1\u06d8\u06d7\u06ec\u06eb\u06eb\u06e8\u06e5\u06e2\u06e0\u06dc\u06d8\u06ec\u06d9\u06e2\u06e0\u06d8\u06e8\u06d8\u06db\u06d8\u06e2\u06df\u06e7\u06e0\u06dc\u06dc\u06d8\u06d8\u06dc\u06e5\u06dc\u06d8\u06e1\u06ec\u06e6\u06e4\u06e1\u06d6\u06d8\u06d6\u06da\u06e8\u06d8\u06e7\u06e5\u06d6\u06e7\u06dc\u06da"
 
@@ -798,7 +798,7 @@
     goto :goto_0
 
     :sswitch_1
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -809,7 +809,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->g:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
 
@@ -989,7 +989,7 @@
     goto :goto_0
 
     :sswitch_d
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -1000,7 +1000,7 @@
     goto :goto_0
 
     :sswitch_e
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->h:Landroid/widget/TextView;
 
@@ -1011,7 +1011,7 @@
     goto/16 :goto_0
 
     :sswitch_f
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -1024,7 +1024,7 @@
     goto/16 :goto_0
 
     :sswitch_10
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -1035,7 +1035,7 @@
     goto/16 :goto_0
 
     :sswitch_11
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->h:Landroid/widget/TextView;
 
@@ -1993,7 +1993,7 @@
     goto :goto_0
 
     :sswitch_1
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->g:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
 
@@ -2006,7 +2006,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -2017,7 +2017,7 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->g:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
 
@@ -2156,7 +2156,7 @@
     goto :goto_3
 
     :sswitch_8
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -2196,7 +2196,7 @@
     goto :goto_1
 
     :sswitch_d
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -2352,7 +2352,7 @@
     goto :goto_0
 
     :sswitch_4
-    iput-object v6, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iput-object v6, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     const-string v0, "\u06df\u06ec\u06d9\u06ec\u06e7\u06eb\u06e8\u06d6\u06d7\u06e7\u06e4\u06e0\u06e1\u06e7\u06e4\u06df\u06d9\u06dc\u06dc\u06e5\u06d9\u06ec\u06e6\u06d8\u06e7\u06ec\u06dc\u06d8\u06e8\u06d9\u06e6\u06d9\u06eb\u06e6\u06df\u06db\u06e2\u06e1\u06d8\u06e2\u06d7\u06d9\u06d8\u06e5\u06d9\u06e6\u06e0\u06eb\u06dc\u06e2\u06ec\u06e0\u06e1\u06d8\u06e5\u06e0\u06d8\u06d8\u06da\u06e6\u06e8\u06d8\u06e6\u06eb\u06e8\u06d8\u06d8\u06e2\u06e4\u06e8\u06e6\u06d9\u06db\u06eb\u06d6\u06e2\u06eb\u06d6\u06d8\u06d9\u06eb\u06d6\u06d8\u06db\u06e4\u06d6"
 
@@ -2385,7 +2385,7 @@
     goto :goto_0
 
     :sswitch_7
-    iput-object v5, p0, Lcom/example/drawingar/activity/paldmcjurbak;->D:Lib0;
+    iput-object v5, p0, Lcom/example/drawingar/activity/BrowserActivity;->D:Lib0;
 
     const-string v0, "\u06df\u06e0\u06ec\u06d6\u06e8\u06e2\u06e1\u06e0\u06e8\u06da\u06e6\u06df\u06e5\u06db\u06df\u06da\u06d6\u06e7\u06e6\u06db\u06da\u06d7\u06e7\u06ec\u06dc\u06d6\u06eb\u06d8\u06e8\u06e8\u06e4\u06da\u06ec\u06ec\u06eb\u06d9\u06dc\u06e4\u06e8\u06d8\u06e4\u06d9\u06ec\u06e7\u06e5\u06e0\u06dc\u06e2\u06e6\u06e2\u06e6\u06ec\u06ec\u06e2\u06e1\u06e7\u06ec\u06e2\u06e8\u06db\u06df\u06eb\u06e8\u06d8\u06d8\u06d7\u06d6\u06d8\u06d8\u06da\u06d6"
 
@@ -2506,7 +2506,7 @@
     goto/16 :goto_0
 
     :sswitch_14
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->f:Landroid/widget/LinearLayout;
 
@@ -2579,13 +2579,13 @@
     goto/16 :goto_0
 
     :sswitch_19
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->e:Landroid/widget/TextView;
 
     new-instance v1, Lo6;
 
-    invoke-direct {v1, p0, v3}, Lo6;-><init>(Lcom/example/drawingar/activity/paldmcjurbak;Landroid/widget/LinearLayout;)V
+    invoke-direct {v1, p0, v3}, Lo6;-><init>(Lcom/example/drawingar/activity/BrowserActivity;Landroid/widget/LinearLayout;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -2596,13 +2596,13 @@
     goto/16 :goto_0
 
     :sswitch_1a
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->b:Landroid/widget/CheckBox;
 
-    new-instance v1, Lcom/example/drawingar/activity/paldmcjurbak$a;
+    new-instance v1, Lcom/example/drawingar/activity/BrowserActivity$a;
 
-    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/paldmcjurbak$a;-><init>(Lcom/example/drawingar/activity/paldmcjurbak;)V
+    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/BrowserActivity$a;-><init>(Lcom/example/drawingar/activity/BrowserActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
@@ -2613,15 +2613,15 @@
     goto/16 :goto_0
 
     :sswitch_1b
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
-    new-instance v1, Lcom/example/drawingar/activity/paldmcjurbak$b;
+    new-instance v1, Lcom/example/drawingar/activity/BrowserActivity$b;
 
     const/4 v7, 0x0
 
-    invoke-direct {v1, p0, v7}, Lcom/example/drawingar/activity/paldmcjurbak$b;-><init>(Lcom/example/drawingar/activity/paldmcjurbak;Lcom/example/drawingar/activity/paldmcjurbak$a;)V
+    invoke-direct {v1, p0, v7}, Lcom/example/drawingar/activity/BrowserActivity$b;-><init>(Lcom/example/drawingar/activity/BrowserActivity;Lcom/example/drawingar/activity/BrowserActivity$a;)V
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebView;->setWebViewClient(Landroid/webkit/WebViewClient;)V
 
@@ -2632,7 +2632,7 @@
     goto/16 :goto_0
 
     :sswitch_1c
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -2651,7 +2651,7 @@
     goto/16 :goto_0
 
     :sswitch_1d
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -2670,7 +2670,7 @@
     goto/16 :goto_0
 
     :sswitch_1e
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -2802,7 +2802,7 @@
     goto/16 :goto_0
 
     :sswitch_2c
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -2821,7 +2821,7 @@
     goto/16 :goto_0
 
     :sswitch_2d
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -2940,7 +2940,7 @@
     goto/16 :goto_0
 
     :sswitch_3a
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -2955,7 +2955,7 @@
     goto/16 :goto_0
 
     :sswitch_3b
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->h:Landroid/widget/TextView;
 
@@ -2970,7 +2970,7 @@
     goto/16 :goto_0
 
     :sswitch_3c
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -2985,7 +2985,7 @@
     goto/16 :goto_0
 
     :sswitch_3d
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -3000,7 +3000,7 @@
     goto/16 :goto_0
 
     :sswitch_3e
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->h:Landroid/widget/TextView;
 
@@ -3015,13 +3015,13 @@
     goto/16 :goto_0
 
     :sswitch_3f
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->c:Landroid/widget/ImageView;
 
     new-instance v1, Ln6;
 
-    invoke-direct {v1, p0}, Ln6;-><init>(Lcom/example/drawingar/activity/paldmcjurbak;)V
+    invoke-direct {v1, p0}, Ln6;-><init>(Lcom/example/drawingar/activity/BrowserActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -3032,13 +3032,13 @@
     goto/16 :goto_0
 
     :sswitch_40
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->d:Landroid/widget/ImageView;
 
     new-instance v1, Lm6;
 
-    invoke-direct {v1, p0}, Lm6;-><init>(Lcom/example/drawingar/activity/paldmcjurbak;)V
+    invoke-direct {v1, p0}, Lm6;-><init>(Lcom/example/drawingar/activity/BrowserActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -3049,13 +3049,13 @@
     goto/16 :goto_0
 
     :sswitch_41
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->g:Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
 
     new-instance v1, Lp6;
 
-    invoke-direct {v1, p0}, Lp6;-><init>(Lcom/example/drawingar/activity/paldmcjurbak;)V
+    invoke-direct {v1, p0}, Lp6;-><init>(Lcom/example/drawingar/activity/BrowserActivity;)V
 
     invoke-virtual {v0, v1}, Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;->setOnRefreshListener(Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout$j;)V
 
@@ -3070,11 +3070,11 @@
 
     new-instance v1, Lq6;
 
-    invoke-direct {v1, p0}, Lq6;-><init>(Lcom/example/drawingar/activity/paldmcjurbak;)V
+    invoke-direct {v1, p0}, Lq6;-><init>(Lcom/example/drawingar/activity/BrowserActivity;)V
 
     invoke-direct {v0, v1}, Lcom/myads/googlead/c;-><init>(Lcom/myads/googlead/c$a;)V
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->E:Lcom/myads/googlead/c;
+    iput-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->E:Lcom/myads/googlead/c;
 
     const-string/jumbo v0, "\u06e6\u06e2\u06e1\u06d8\u06e8\u06dc\u06e7\u06db\u06e7\u06e7\u06dc\u06e4\u06dc\u06e7\u06db\u06d7\u06e0\u06e2\u06d6\u06d6\u06e6\u06d7\u06e6\u06e5\u06eb\u06d6\u06d7\u06d7\u06e4\u06da\u06da\u06d9\u06df\u06dc\u06d6\u06df\u06e8\u06e2\u06db\u06db\u06e0\u06e1\u06d8\u06da\u06d6\u06db\u06d8\u06e2\u06e0\u06eb\u06dc\u06e5\u06df\u06e4\u06dc\u06e0\u06ec\u06d7\u06e8\u06eb\u06db\u06e5\u06db\u06df"
 
@@ -3096,7 +3096,7 @@
     goto/16 :goto_0
 
     :sswitch_44
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->E:Lcom/myads/googlead/c;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->E:Lcom/myads/googlead/c;
 
     invoke-virtual {p0, v0, v2}, Landroid/app/Activity;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
@@ -3320,7 +3320,7 @@
     goto :goto_0
 
     :sswitch_5
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -3553,7 +3553,7 @@
 
     new-instance v2, Ll6;
 
-    invoke-direct {v2, p0, v1}, Ll6;-><init>(Lcom/example/drawingar/activity/paldmcjurbak;Landroid/webkit/WebView$HitTestResult;)V
+    invoke-direct {v2, p0, v1}, Ll6;-><init>(Lcom/example/drawingar/activity/BrowserActivity;Landroid/webkit/WebView$HitTestResult;)V
 
     invoke-interface {v0, v2}, Landroid/view/MenuItem;->setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem;
 
@@ -3570,7 +3570,7 @@
 
     new-instance v2, Lk6;
 
-    invoke-direct {v2, p0, v1}, Lk6;-><init>(Lcom/example/drawingar/activity/paldmcjurbak;Landroid/webkit/WebView$HitTestResult;)V
+    invoke-direct {v2, p0, v1}, Lk6;-><init>(Lcom/example/drawingar/activity/BrowserActivity;Landroid/webkit/WebView$HitTestResult;)V
 
     invoke-interface {v0, v2}, Landroid/view/MenuItem;->setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem;
 
@@ -3811,7 +3811,7 @@
     goto :goto_0
 
     :sswitch_d
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -3822,7 +3822,7 @@
     goto :goto_0
 
     :sswitch_e
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->h:Landroid/widget/TextView;
 
@@ -3833,7 +3833,7 @@
     goto/16 :goto_0
 
     :sswitch_f
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -3846,7 +3846,7 @@
     goto/16 :goto_0
 
     :sswitch_10
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->i:Landroid/webkit/WebView;
 
@@ -3857,7 +3857,7 @@
     goto/16 :goto_0
 
     :sswitch_11
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak;->C:Lj0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity;->C:Lj0;
 
     iget-object v0, v0, Lj0;->h:Landroid/widget/TextView;
 

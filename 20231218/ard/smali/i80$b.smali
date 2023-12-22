@@ -561,7 +561,7 @@
 
     iget-object v0, p0, Li80$b;->i:Landroid/app/Activity;
 
-    const-class v2, Lcom/example/drawingar/activity/dwqidnfnewf;
+    const-class v2, Lcom/example/drawingar/activity/eifruewf;
 
     invoke-direct {v1, v0, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 

@@ -1,10 +1,10 @@
-.class public Lcom/example/drawingar/activity/paldmcjurbak$b;
+.class public Lcom/example/drawingar/activity/BrowserActivity$b;
 .super Landroid/webkit/WebViewClient;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/example/drawingar/activity/paldmcjurbak;
+    value = Lcom/example/drawingar/activity/BrowserActivity;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -14,7 +14,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/example/drawingar/activity/paldmcjurbak;)V
+.method public constructor <init>(Lcom/example/drawingar/activity/BrowserActivity;)V
     .locals 0
 
     invoke-direct {p0}, Landroid/webkit/WebViewClient;-><init>()V
@@ -22,10 +22,10 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/example/drawingar/activity/paldmcjurbak;Lcom/example/drawingar/activity/paldmcjurbak$a;)V
+.method public synthetic constructor <init>(Lcom/example/drawingar/activity/BrowserActivity;Lcom/example/drawingar/activity/BrowserActivity$a;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/paldmcjurbak$b;-><init>(Lcom/example/drawingar/activity/paldmcjurbak;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/BrowserActivity$b;-><init>(Lcom/example/drawingar/activity/BrowserActivity;)V
 
     return-void
 .end method

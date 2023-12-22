@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lbu;->f:Landroid/app/Activity;
 
-    invoke-static {v0, v1, p1}, Lcom/example/drawingar/activity/dwqidnfnewf;->f0(Lcom/google/android/material/bottomsheet/a;Landroid/app/Activity;Landroid/view/View;)V
+    invoke-static {v0, v1, p1}, Lcom/example/drawingar/activity/eifruewf;->f0(Lcom/google/android/material/bottomsheet/a;Landroid/app/Activity;Landroid/view/View;)V
 
     return-void
 .end method

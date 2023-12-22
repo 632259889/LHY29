@@ -1,4 +1,4 @@
-.class public Lcom/example/drawingar/activity/paldmcjurbak$a;
+.class public Lcom/example/drawingar/activity/BrowserActivity$a;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/drawingar/activity/paldmcjurbak;->onCreate(Landroid/os/Bundle;)V
+    value = Lcom/example/drawingar/activity/BrowserActivity;->onCreate(Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field public final a:Lcom/example/drawingar/activity/paldmcjurbak;
+.field public final a:Lcom/example/drawingar/activity/BrowserActivity;
 
 
 # direct methods
-.method public constructor <init>(Lcom/example/drawingar/activity/paldmcjurbak;)V
+.method public constructor <init>(Lcom/example/drawingar/activity/BrowserActivity;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/example/drawingar/activity/paldmcjurbak$a;->a:Lcom/example/drawingar/activity/paldmcjurbak;
+    iput-object p1, p0, Lcom/example/drawingar/activity/BrowserActivity$a;->a:Lcom/example/drawingar/activity/BrowserActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -89,9 +89,9 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/paldmcjurbak$a;->a:Lcom/example/drawingar/activity/paldmcjurbak;
+    iget-object v0, p0, Lcom/example/drawingar/activity/BrowserActivity$a;->a:Lcom/example/drawingar/activity/BrowserActivity;
 
-    iget-object v0, v0, Lcom/example/drawingar/activity/paldmcjurbak;->D:Lib0;
+    iget-object v0, v0, Lcom/example/drawingar/activity/BrowserActivity;->D:Lib0;
 
     const-string v1, "isFirstBrowse"
 

@@ -1,4 +1,4 @@
-.class public Lcom/example/drawingar/activity/djwiiqdnq;
+.class public Lcom/example/drawingar/activity/CameraActivity;
 .super Lc3;
 
 # interfaces
@@ -8,8 +8,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/example/drawingar/activity/djwiiqdnq$k;,
-        Lcom/example/drawingar/activity/djwiiqdnq$l;
+        Lcom/example/drawingar/activity/CameraActivity$k;,
+        Lcom/example/drawingar/activity/CameraActivity$l;
     }
 .end annotation
 
@@ -146,57 +146,57 @@
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->G:Ljava/util/HashMap;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->G:Ljava/util/HashMap;
 
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->H:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->H:Ljava/util/ArrayList;
 
-    iput-boolean v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->K:Z
+    iput-boolean v1, p0, Lcom/example/drawingar/activity/CameraActivity;->K:Z
 
-    iput-boolean v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->L:Z
+    iput-boolean v1, p0, Lcom/example/drawingar/activity/CameraActivity;->L:Z
 
-    iput-boolean v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->M:Z
+    iput-boolean v1, p0, Lcom/example/drawingar/activity/CameraActivity;->M:Z
 
-    iput-boolean v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->N:Z
+    iput-boolean v1, p0, Lcom/example/drawingar/activity/CameraActivity;->N:Z
 
-    iput-boolean v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->O:Z
+    iput-boolean v1, p0, Lcom/example/drawingar/activity/CameraActivity;->O:Z
 
-    iput-boolean v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->P:Z
+    iput-boolean v1, p0, Lcom/example/drawingar/activity/CameraActivity;->P:Z
 
-    iput-boolean v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->Q:Z
+    iput-boolean v1, p0, Lcom/example/drawingar/activity/CameraActivity;->Q:Z
 
-    iput v3, p0, Lcom/example/drawingar/activity/djwiiqdnq;->W:I
+    iput v3, p0, Lcom/example/drawingar/activity/CameraActivity;->W:I
 
-    iput v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->X:I
+    iput v2, p0, Lcom/example/drawingar/activity/CameraActivity;->X:I
 
-    iput v3, p0, Lcom/example/drawingar/activity/djwiiqdnq;->Y:I
+    iput v3, p0, Lcom/example/drawingar/activity/CameraActivity;->Y:I
 
-    iput v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->Z:I
+    iput v1, p0, Lcom/example/drawingar/activity/CameraActivity;->Z:I
 
     invoke-static {p0}, Lcom/example/drawingar/activity/a;->d(Lz0;)Lcom/example/drawingar/activity/a;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->k0:Lcom/example/drawingar/activity/a;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->k0:Lcom/example/drawingar/activity/a;
 
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->l0:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->l0:Ljava/util/ArrayList;
 
-    iput v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->m0:I
+    iput v2, p0, Lcom/example/drawingar/activity/CameraActivity;->m0:I
 
     const/4 v0, 0x0
 
-    iput v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->n0:F
+    iput v0, p0, Lcom/example/drawingar/activity/CameraActivity;->n0:F
 
-    new-instance v0, Lcom/example/drawingar/activity/djwiiqdnq$b;
+    new-instance v0, Lcom/example/drawingar/activity/CameraActivity$b;
 
-    invoke-direct {v0, p0}, Lcom/example/drawingar/activity/djwiiqdnq$b;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v0, p0}, Lcom/example/drawingar/activity/CameraActivity$b;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     return-void
 .end method
@@ -256,7 +256,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->s:Landroid/widget/ImageView;
 
@@ -273,18 +273,18 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->H:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutHideAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutHideAnimWH(Landroid/view/View;)V
 
     const-string v0, "\u06da\u06e4\u06e4\u06eb\u06e0\u06dc\u06ec\u06e0\u06e4\u06d6\u06eb\u06d9\u06db\u06e4\u06d6\u06d6\u06e5\u06e2\u06e6\u06e0\u06d8\u06d8\u06e7\u06d6\u06d6\u06d8\u06da\u06df\u06e1\u06d8\u06e0\u06e1\u06e7\u06d6\u06df\u06d6\u06d8\u06d7\u06e6\u06d7\u06e0\u06da\u06e7\u06d7\u06e4\u06d9\u06e7\u06ec\u06da\u06d7\u06e7\u06e4\u06ec\u06e5\u06d8\u06ec\u06e4\u06da\u06eb\u06db\u06d7\u06e1\u06e6\u06d8\u06e5\u06d9\u06d6\u06d8\u06dc\u06e2\u06e5\u06d8\u06dc\u06e8\u06ec\u06e4\u06d8\u06d8"
 
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -295,7 +295,7 @@
     goto :goto_0
 
     :sswitch_5
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->L:Landroid/widget/SeekBar;
 
@@ -306,22 +306,22 @@
     goto :goto_0
 
     :sswitch_6
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->u:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutOpenAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutOpenAnimWH(Landroid/view/View;)V
 
     const-string/jumbo v0, "\u06e7\u06d9\u06da\u06e0\u06e2\u06dc\u06d8\u06e7\u06d8\u06db\u06d9\u06d8\u06e2\u06d9\u06e7\u06e1\u06e7\u06d8\u06e1\u06da\u06e6\u06d8\u06e6\u06e1\u06d8\u06e8\u06d6\u06e0\u06da\u06e5\u06e0\u06e1\u06e2\u06e8\u06d8\u06d6\u06d6\u06e1\u06d8\u06df\u06d7\u06e1\u06d8\u06d8\u06df\u06eb\u06ec\u06e7\u06dc\u06e1\u06e0\u06d6\u06eb\u06e4\u06d9\u06d7\u06d6\u06e7\u06d7\u06e1\u06dc\u06d8\u06e6\u06e4\u06e5\u06d8\u06d7\u06e8\u06d7"
 
     goto :goto_0
 
     :sswitch_7
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->w:Landroid/widget/LinearLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutHideAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutHideAnimWH(Landroid/view/View;)V
 
     const-string v0, "\u06d7\u06e4\u06df\u06d9\u06d6\u06eb\u06df\u06da\u06e5\u06d8\u06e8\u06d9\u06e0\u06d8\u06eb\u06e5\u06d7\u06eb\u06e8\u06d8\u06df\u06d7\u06e8\u06d8\u06da\u06df\u06e5\u06db\u06db\u06db\u06e2\u06e1\u06ec\u06e7\u06eb\u06dc\u06d8\u06d7\u06e5\u06e8\u06e4\u06e7\u06e7\u06e6\u06d7\u06e5\u06e4\u06ec\u06dc"
 
@@ -406,7 +406,7 @@
     goto :goto_3
 
     :sswitch_10
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->K:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->K:Z
 
     if-eqz v0, :cond_0
 
@@ -430,7 +430,7 @@
     goto :goto_1
 
     :sswitch_14
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->G:Landroid/widget/RelativeLayout;
 
@@ -441,7 +441,7 @@
     goto/16 :goto_0
 
     :sswitch_15
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->K:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/CameraActivity;->K:Z
 
     const-string v0, "\u06d9\u06db\u06d7\u06e8\u06d8\u06e7\u06da\u06e2\u06d9\u06d9\u06e5\u06e5\u06d8\u06dc\u06ec\u06e1\u06e8\u06d9\u06dc\u06e2\u06ec\u06e2\u06e6\u06e1\u06e7\u06d8\u06d7\u06e5\u06d6\u06d8\u06e7\u06e1\u06d9\u06dc\u06d8\u06d7\u06e5\u06eb\u06e6\u06d8\u06df\u06e8\u06d8\u06d8\u06e4\u06df\u06ec\u06d9\u06e5\u06e1\u06d7\u06d8\u06db\u06dc\u06e6\u06e5\u06d8\u06dc\u06e1\u06d8\u06eb\u06db\u06ec\u06df\u06dc\u06d6\u06d8\u06e6\u06d7\u06e6\u06d8\u06d9\u06e0\u06e5\u06d8\u06da\u06ec\u06e5\u06e2\u06df\u06d7"
 
@@ -526,7 +526,7 @@
     goto :goto_6
 
     :sswitch_1e
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->L:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->L:Z
 
     if-eqz v0, :cond_1
 
@@ -555,7 +555,7 @@
     goto/16 :goto_0
 
     :sswitch_23
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->F:Landroid/widget/RelativeLayout;
 
@@ -566,7 +566,7 @@
     goto/16 :goto_0
 
     :sswitch_24
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->L:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/CameraActivity;->L:Z
 
     const-string v0, "\u06e4\u06e6\u06e8\u06e8\u06e1\u06e7\u06ec\u06d7\u06da\u06eb\u06d7\u06e5\u06eb\u06d7\u06e8\u06eb\u06d6\u06d8\u06e6\u06da\u06d7\u06da\u06e4\u06eb\u06eb\u06e8\u06d6\u06d8\u06e7\u06d7\u06e7\u06da\u06e7\u06d9\u06e2\u06d7\u06d6\u06d8\u06e5\u06ec\u06eb\u06e5\u06d8\u06d9\u06e6\u06dc\u06eb\u06e4\u06d9\u06db\u06dc\u06d6\u06d9\u06e5\u06df\u06e0\u06e2\u06ec\u06e7\u06e4\u06d7\u06d8\u06d7\u06e2\u06df"
 
@@ -575,7 +575,7 @@
     :sswitch_25
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->j1(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->j1(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06e0\u06da\u06db\u06e6\u06d7\u06ec\u06e5\u06df\u06e7\u06e2\u06da\u06dc\u06e0\u06e8\u06e0\u06d8\u06e6\u06e8\u06d9\u06d9\u06e4\u06e4\u06e5\u06ec\u06d7\u06ec\u06db\u06e6\u06df\u06d7\u06eb\u06e0\u06df\u06d6\u06e7\u06d6\u06d8\u06e4\u06d6\u06e4\u06d7\u06d8\u06d6\u06e6\u06e1\u06e7\u06d6\u06da\u06d9\u06db\u06e4\u06eb\u06e6\u06dc\u06e4"
 
@@ -780,7 +780,7 @@
     goto :goto_3
 
     :sswitch_8
-    iget v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->m0:I
+    iget v0, p0, Lcom/example/drawingar/activity/CameraActivity;->m0:I
 
     const/4 v7, 0x3
 
@@ -909,7 +909,7 @@
     goto :goto_6
 
     :sswitch_18
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->N:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->N:Z
 
     if-eqz v0, :cond_1
 
@@ -938,7 +938,7 @@
     goto/16 :goto_0
 
     :sswitch_1d
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
@@ -1169,11 +1169,11 @@
     goto/16 :goto_0
 
     :sswitch_38
-    invoke-virtual {p0, p2}, Lcom/example/drawingar/activity/djwiiqdnq;->A0(Landroid/view/MotionEvent;)F
+    invoke-virtual {p0, p2}, Lcom/example/drawingar/activity/CameraActivity;->A0(Landroid/view/MotionEvent;)F
 
     move-result v0
 
-    iput v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->n0:F
+    iput v0, p0, Lcom/example/drawingar/activity/CameraActivity;->n0:F
 
     const-string v0, "\u06d9\u06df\u06e2\u06df\u06eb\u06e0\u06e6\u06db\u06e8\u06d8\u06dc\u06d8\u06ec\u06d6\u06d7\u06e7\u06df\u06e2\u06e6\u06d8\u06e8\u06d8\u06df\u06db\u06e5\u06ec\u06d7\u06db\u06ec\u06ec\u06e6\u06d8\u06d8\u06e1\u06e1\u06da\u06e6\u06d6\u06e8\u06e8\u06dc\u06e6\u06d8\u06e6\u06db\u06e4\u06eb\u06d8\u06e4"
 
@@ -1391,7 +1391,7 @@
     goto/16 :goto_0
 
     :sswitch_52
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->cancelAutoFocus()V
 
@@ -1400,7 +1400,7 @@
     goto/16 :goto_0
 
     :sswitch_53
-    invoke-virtual {p0, p2, v3}, Lcom/example/drawingar/activity/djwiiqdnq;->C0(Landroid/view/MotionEvent;Landroid/hardware/Camera$Parameters;)V
+    invoke-virtual {p0, p2, v3}, Lcom/example/drawingar/activity/CameraActivity;->C0(Landroid/view/MotionEvent;Landroid/hardware/Camera$Parameters;)V
 
     const-string/jumbo v0, "\u06ec\u06dc\u06d8\u06da\u06d7\u06d6\u06d8\u06e6\u06df\u06db\u06da\u06e0\u06e8\u06d8\u06e6\u06e5\u06e5\u06d8\u06e4\u06d8\u06dc\u06d8\u06dc\u06d9\u06e8\u06d8\u06d8\u06d6\u06dc\u06e7\u06e5\u06e7\u06eb\u06d7\u06e8\u06db\u06db\u06e4\u06d9\u06e2\u06ec\u06e4\u06db\u06eb\u06dc\u06eb\u06e6\u06d8\u06e2\u06d8\u06d6\u06d8\u06e4\u06e8\u06e6\u06d6\u06db\u06e5\u06d8\u06df\u06d9\u06dc\u06d8\u06e1\u06e5\u06e1\u06e6\u06dc\u06eb\u06d6\u06d7\u06da\u06e5\u06d9\u06e4\u06e8\u06eb\u06d9\u06dc"
 
@@ -1507,7 +1507,7 @@
     goto :goto_13
 
     :sswitch_60
-    invoke-virtual {p0, p2, v3}, Lcom/example/drawingar/activity/djwiiqdnq;->B0(Landroid/view/MotionEvent;Landroid/hardware/Camera$Parameters;)V
+    invoke-virtual {p0, p2, v3}, Lcom/example/drawingar/activity/CameraActivity;->B0(Landroid/view/MotionEvent;Landroid/hardware/Camera$Parameters;)V
 
     const-string v0, "\u06e1\u06ec\u06e1\u06d9\u06e1\u06e5\u06d8\u06d8\u06db\u06db\u06e4\u06e5\u06ec\u06e2\u06d7\u06e8\u06e4\u06eb\u06d6\u06d8\u06db\u06dc\u06da\u06d6\u06da\u06e8\u06d8\u06d7\u06d9\u06db\u06ec\u06dc\u06db\u06da\u06d7\u06da\u06e1\u06e1\u06e5\u06d9\u06e8\u06dc\u06e8\u06e1\u06e7\u06d8\u06d6\u06e5\u06db\u06da\u06e1\u06e5\u06d8\u06dc\u06e4\u06da\u06e7\u06e7\u06df\u06e0\u06e1\u06d8\u06d8\u06e5\u06e6\u06df\u06d9\u06e8\u06da"
 
@@ -2057,7 +2057,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, p0, v0, v1}, Lcom/example/drawingar/activity/djwiiqdnq;->e1(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p0, v0, v1}, Lcom/example/drawingar/activity/CameraActivity;->e1(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "\u06e1\u06df\u06dc\u06d7\u06d9\u06db\u06ec\u06d9\u06d6\u06e5\u06e0\u06d6\u06da\u06e2\u06e5\u06e2\u06e8\u06e6\u06e5\u06df\u06e8\u06d8\u06e2\u06e1\u06e1\u06df\u06e0\u06df\u06d8\u06eb\u06e5\u06d9\u06e0\u06e6\u06db\u06db\u06e5\u06d8\u06e5\u06e8\u06e5\u06eb\u06d6\u06d8\u06d8\u06db\u06e7\u06ec\u06db\u06ec\u06e6\u06d8\u06e5\u06e1\u06e5\u06e0\u06e0\u06d6\u06e7\u06e7\u06d8\u06d8\u06e7\u06e7\u06d8\u06d9\u06da\u06d6\u06d7\u06d6\u06d6\u06d8\u06da\u06eb\u06d6\u06d8"
 
@@ -2137,7 +2137,7 @@
     goto :goto_3
 
     :sswitch_d
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->M:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->M:Z
 
     if-eqz v0, :cond_0
 
@@ -2166,7 +2166,7 @@
     goto/16 :goto_0
 
     :sswitch_12
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->D:Lt8;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->D:Lt8;
 
     const-string v1, "on"
 
@@ -2177,7 +2177,7 @@
     goto/16 :goto_0
 
     :sswitch_13
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->D:Lt8;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->D:Lt8;
 
     const-string v1, "off"
 
@@ -2395,7 +2395,7 @@
 
     new-instance v1, Lt7;
 
-    invoke-direct {v1, p0, p1, p3}, Lt7;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;Ljava/io/File;Landroid/hardware/Camera;)V
+    invoke-direct {v1, p0, p1, p3}, Lt7;-><init>(Lcom/example/drawingar/activity/CameraActivity;Ljava/io/File;Landroid/hardware/Camera;)V
 
     sget-object v2, Le8;->a:Le8;
 
@@ -2424,7 +2424,7 @@
 .method private synthetic L0(Landroid/view/View;)V
     .locals 6
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->s:Landroid/widget/ImageView;
 
@@ -2436,13 +2436,13 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->H:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutHideAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutHideAnimWH(Landroid/view/View;)V
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     const v2, -0x8004ee5
 
@@ -2547,7 +2547,7 @@
 
     invoke-virtual {v0, v1}, Landroid/hardware/Camera$Parameters;->setRotation(I)V
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     invoke-virtual {v1, v0}, Landroid/hardware/Camera;->setParameters(Landroid/hardware/Camera$Parameters;)V
 
@@ -2685,15 +2685,15 @@
 
     invoke-direct {v0, v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     new-instance v2, Ln8;
 
-    invoke-direct {v2, p0}, Ln8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v2, p0}, Ln8;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     new-instance v3, Lm8;
 
-    invoke-direct {v3, p0, v0}, Lm8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;Ljava/io/File;)V
+    invoke-direct {v3, p0, v0}, Lm8;-><init>(Lcom/example/drawingar/activity/CameraActivity;Ljava/io/File;)V
 
     const/4 v0, 0x0
 
@@ -2859,7 +2859,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->s:Landroid/widget/ImageView;
 
@@ -2876,11 +2876,11 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->H:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutHideAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutHideAnimWH(Landroid/view/View;)V
 
     const-string v0, "\u06d9\u06d6\u06df\u06d6\u06d6\u06d8\u06eb\u06db\u06dc\u06e7\u06db\u06dc\u06d8\u06d7\u06e7\u06dc\u06e6\u06e1\u06d8\u06e1\u06e4\u06e1\u06d8\u06e4\u06db\u06dc\u06d8\u06e5\u06d7\u06e6\u06e6\u06e1\u06d8\u06da\u06e5\u06ec\u06d9\u06d7\u06df\u06ec\u06e5\u06e6\u06d8\u06df\u06ec\u06e8\u06d8\u06df\u06df\u06e1\u06e7\u06d9\u06e7\u06d6\u06ec\u06e6\u06d6\u06df\u06d8\u06d8"
 
@@ -2955,7 +2955,7 @@
     goto :goto_3
 
     :sswitch_b
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->N:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->N:Z
 
     if-nez v0, :cond_0
 
@@ -2994,14 +2994,14 @@
     goto/16 :goto_0
 
     :sswitch_11
-    iput-boolean v6, p0, Lcom/example/drawingar/activity/djwiiqdnq;->N:Z
+    iput-boolean v6, p0, Lcom/example/drawingar/activity/CameraActivity;->N:Z
 
     const-string v0, "\u06d6\u06df\u06dc\u06e2\u06e8\u06ec\u06e5\u06da\u06e5\u06d6\u06e5\u06d8\u06d8\u06e7\u06d6\u06e2\u06e7\u06e7\u06e5\u06da\u06e5\u06e6\u06e1\u06e0\u06e6\u06d8\u06e1\u06e1\u06df\u06e4\u06ec\u06e1\u06d8\u06d7\u06d7\u06e4\u06e4\u06d9\u06db\u06dc\u06eb\u06d6\u06d8\u06eb\u06e7\u06dc\u06d7\u06d6\u06eb\u06e7\u06d8\u06d8\u06e7\u06e5\u06e1\u06e2\u06d9\u06e1\u06e4\u06e0\u06e8\u06d8\u06d9\u06d8\u06eb\u06dc\u06d7\u06d7"
 
     goto/16 :goto_0
 
     :sswitch_12
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->m:Landroid/widget/ImageView;
 
@@ -3018,7 +3018,7 @@
     goto/16 :goto_0
 
     :sswitch_13
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -3029,22 +3029,22 @@
     goto/16 :goto_0
 
     :sswitch_14
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->w:Landroid/widget/LinearLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutHideAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutHideAnimWH(Landroid/view/View;)V
 
     const-string v0, "\u06e4\u06e5\u06e4\u06e7\u06e5\u06e1\u06e7\u06eb\u06e6\u06ec\u06d9\u06e8\u06d8\u06ec\u06df\u06e8\u06d8\u06e8\u06e0\u06e2\u06e2\u06e6\u06e8\u06d6\u06e5\u06e7\u06d9\u06dc\u06d8\u06e4\u06df\u06db\u06e6\u06e5\u06da\u06ec\u06e4\u06d9\u06e0\u06e7\u06d7\u06e5\u06d6\u06e1\u06d8\u06e1\u06e2\u06d7\u06e5\u06dc\u06df\u06e8\u06e8\u06d8\u06e7\u06db\u06e5\u06e1\u06e2\u06dc\u06d8\u06db\u06df\u06d9\u06da\u06d9\u06da"
 
     goto/16 :goto_0
 
     :sswitch_15
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->u:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutOpenAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutOpenAnimWH(Landroid/view/View;)V
 
     const-string v0, "\u06e4\u06d6\u06e5\u06d8\u06da\u06df\u06e4\u06df\u06d6\u06d8\u06df\u06e8\u06e8\u06d8\u06e2\u06db\u06db\u06d9\u06e6\u06e0\u06df\u06ec\u06e5\u06e2\u06e8\u06d8\u06d9\u06dc\u06d6\u06d8\u06e6\u06e0\u06e5\u06e8\u06d8\u06e5\u06e5\u06e6\u06e1\u06e8\u06da\u06e6\u06e0\u06d8\u06ec\u06d8\u06e0\u06e0"
 
@@ -3129,7 +3129,7 @@
     goto :goto_6
 
     :sswitch_1e
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->J:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->J:Z
 
     if-eqz v0, :cond_1
 
@@ -3153,7 +3153,7 @@
     goto/16 :goto_0
 
     :sswitch_22
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->v:Landroid/widget/LinearLayout;
 
@@ -3164,14 +3164,14 @@
     goto/16 :goto_0
 
     :sswitch_23
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->J:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/CameraActivity;->J:Z
 
     const-string/jumbo v0, "\u06e7\u06db\u06e5\u06e0\u06e0\u06d8\u06e7\u06d8\u06eb\u06ec\u06db\u06e2\u06d9\u06ec\u06df\u06df\u06d8\u06d8\u06dc\u06ec\u06da\u06d8\u06e4\u06d6\u06d8\u06d9\u06d9\u06e1\u06e8\u06dc\u06e0\u06ec\u06e5\u06e5\u06e6\u06da\u06e2\u06ec\u06d8\u06eb\u06df\u06d9\u06e5\u06d8\u06e6\u06d7\u06e8\u06d8\u06e0\u06e4\u06eb\u06d7\u06d8\u06e8\u06d8\u06db\u06e5\u06e1\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_24
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->y:Landroid/widget/RelativeLayout;
 
@@ -3182,25 +3182,25 @@
     goto/16 :goto_0
 
     :sswitch_25
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->z:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutHideAnim(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutHideAnim(Landroid/view/View;)V
 
     const-string v0, "\u06d6\u06e1\u06d7\u06e1\u06db\u06d8\u06e4\u06d8\u06d8\u06e6\u06e0\u06ec\u06e8\u06db\u06d6\u06df\u06eb\u06e0\u06e8\u06da\u06d8\u06d8\u06ec\u06e1\u06dc\u06d6\u06e1\u06e6\u06da\u06e8\u06e1\u06d8\u06e1\u06e1\u06da\u06df\u06d9\u06d6\u06d8\u06e1\u06e5\u06d6\u06d7\u06da\u06e6\u06ec\u06e4\u06e5"
 
     goto/16 :goto_0
 
     :sswitch_26
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->N:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/CameraActivity;->N:Z
 
     const-string/jumbo v0, "\u06e7\u06e4\u06db\u06e6\u06d6\u06da\u06e4\u06df\u06d6\u06d8\u06d8\u06e8\u06e5\u06e1\u06e0\u06da\u06e5\u06d6\u06e8\u06df\u06e2\u06e1\u06d8\u06e8\u06e8\u06eb\u06d8\u06e2\u06eb\u06d6\u06df\u06eb\u06d9\u06d9\u06ec\u06e7\u06d8\u06e0\u06da\u06e0\u06df\u06d6\u06e5\u06d6\u06d8\u06e7\u06d8\u06da\u06d7\u06e4\u06db\u06e6\u06d8\u06db\u06e2\u06d6\u06d8\u06e8\u06d6\u06d6\u06e2\u06d9\u06d6\u06e8\u06d8\u06dc\u06e7\u06e1\u06df\u06e2\u06d6\u06e2\u06e2\u06dc\u06ec\u06df\u06e4\u06e7\u06dc\u06d8\u06dc\u06d8\u06ec\u06e5\u06db"
 
     goto/16 :goto_0
 
     :sswitch_27
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->m:Landroid/widget/ImageView;
 
@@ -3217,7 +3217,7 @@
     goto/16 :goto_0
 
     :sswitch_28
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -3228,7 +3228,7 @@
     goto/16 :goto_0
 
     :sswitch_29
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->y:Landroid/widget/RelativeLayout;
 
@@ -3239,11 +3239,11 @@
     goto/16 :goto_0
 
     :sswitch_2a
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->z:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutOpenAnim(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutOpenAnim(Landroid/view/View;)V
 
     const-string v0, "\u06da\u06d9\u06dc\u06d8\u06e1\u06e6\u06e1\u06d8\u06e1\u06dc\u06e7\u06d8\u06dc\u06e2\u06d8\u06db\u06e6\u06d8\u06eb\u06e1\u06d8\u06e8\u06e5\u06d8\u06d8\u06e7\u06df\u06e6\u06da\u06e1\u06e6\u06d8\u06e6\u06ec\u06e5\u06d8\u06da\u06d9\u06dc\u06da\u06e0\u06d6\u06e5\u06d9\u06e2\u06e6\u06e4\u06df\u06db\u06eb\u06e8\u06df\u06d9\u06d9\u06d6\u06dc\u06d8\u06df\u06d9\u06e6\u06d8\u06dc\u06da\u06da\u06d7\u06d8\u06d9\u06e6\u06e4\u06e6\u06d8\u06e1\u06e8\u06e8\u06d9\u06e1\u06db\u06e4\u06ec\u06e4\u06dc\u06e7\u06d8\u06d8\u06db\u06e8\u06e5\u06d8\u06dc\u06d6\u06d8\u06d8"
 
@@ -3342,7 +3342,7 @@
 .method private synthetic N0(Landroid/view/View;)V
     .locals 5
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->s:Landroid/widget/ImageView;
 
@@ -3354,11 +3354,11 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->H:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutHideAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutHideAnimWH(Landroid/view/View;)V
 
     const v1, 0x5daab35c
 
@@ -3433,7 +3433,7 @@
     goto :goto_2
 
     :sswitch_6
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->M:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->M:Z
 
     if-eqz v0, :cond_0
 
@@ -3526,7 +3526,7 @@
     goto :goto_5
 
     :sswitch_10
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     if-nez v0, :cond_1
 
@@ -3559,21 +3559,21 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     :goto_6
     :sswitch_16
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->D:Lt8;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->D:Lt8;
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     const-string v2, "off"
 
     invoke-virtual {v0, v1, v2}, Lt8;->a(Landroid/hardware/Camera;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->l:Landroid/widget/ImageView;
 
@@ -3587,7 +3587,7 @@
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->M:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->M:Z
 
     :goto_7
     return-void
@@ -3689,7 +3689,7 @@
     goto :goto_a
 
     :sswitch_1d
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     if-nez v0, :cond_2
 
@@ -3722,21 +3722,21 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
     :goto_b
     :sswitch_23
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->D:Lt8;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->D:Lt8;
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     const-string v2, "on"
 
     invoke-virtual {v0, v1, v2}, Lt8;->a(Landroid/hardware/Camera;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->l:Landroid/widget/ImageView;
 
@@ -3750,7 +3750,7 @@
 
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->M:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->M:Z
 
     goto/16 :goto_7
 
@@ -3865,7 +3865,7 @@
 
     const/4 v5, 0x0
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->s:Landroid/widget/ImageView;
 
@@ -3877,11 +3877,11 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->H:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutHideAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutHideAnimWH(Landroid/view/View;)V
 
     const v1, 0x613cdeb
 
@@ -3960,7 +3960,7 @@
     goto :goto_3
 
     :sswitch_5
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->O:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->O:Z
 
     if-eqz v0, :cond_0
 
@@ -4004,59 +4004,59 @@
     goto :goto_0
 
     :sswitch_c
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->h0:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->h0:Landroid/media/MediaRecorder;
 
     invoke-virtual {v0}, Landroid/media/MediaRecorder;->stop()V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->g:Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
 
     invoke-virtual {v0, v6}, Landroid/widget/ImageButton;->setEnabled(Z)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->g:Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
 
     invoke-virtual {v0, v6}, Landroid/widget/ImageButton;->setClickable(Z)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->I:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v0, v6}, Landroid/widget/RelativeLayout;->setEnabled(Z)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->I:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v0, v6}, Landroid/widget/RelativeLayout;->setClickable(Z)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->y:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v0, v5}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->h0:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->h0:Landroid/media/MediaRecorder;
 
     invoke-virtual {v0}, Landroid/media/MediaRecorder;->release()V
 
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->O:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/CameraActivity;->O:Z
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->i0:Landroid/os/Handler;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->i0:Landroid/os/Handler;
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->j0:Ljava/lang/Runnable;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->j0:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->x:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0, v7}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->r:Landroid/widget/ImageView;
 
@@ -4068,13 +4068,13 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    iput v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->Z:I
+    iput v5, p0, Lcom/example/drawingar/activity/CameraActivity;->Z:I
 
     const-string v0, "Video saved to: "
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->U:Ljava/lang/String;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->U:Ljava/lang/String;
 
-    invoke-virtual {p0, p0, v0, v1}, Lcom/example/drawingar/activity/djwiiqdnq;->e1(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p0, v0, v1}, Lcom/example/drawingar/activity/CameraActivity;->e1(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_4
     :sswitch_d
@@ -4160,13 +4160,13 @@
     goto/16 :goto_1
 
     :sswitch_17
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/djwiiqdnq;->m1()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/CameraActivity;->m1()V
 
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->O:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->O:Z
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->x:Landroid/widget/LinearLayout;
 
@@ -4174,7 +4174,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->r:Landroid/widget/ImageView;
 
@@ -4186,9 +4186,9 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/djwiiqdnq;->g1()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/CameraActivity;->g1()V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->g:Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
 
@@ -4196,7 +4196,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setEnabled(Z)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->g:Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
 
@@ -4204,7 +4204,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setClickable(Z)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->I:Landroid/widget/RelativeLayout;
 
@@ -4212,7 +4212,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setEnabled(Z)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->I:Landroid/widget/RelativeLayout;
 
@@ -4220,7 +4220,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setClickable(Z)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->y:Landroid/widget/RelativeLayout;
 
@@ -4296,7 +4296,7 @@
     goto :goto_9
 
     :sswitch_1e
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->J:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->J:Z
 
     if-eqz v0, :cond_2
 
@@ -4325,7 +4325,7 @@
     goto :goto_8
 
     :sswitch_22
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->v:Landroid/widget/LinearLayout;
 
@@ -4335,7 +4335,7 @@
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->J:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->J:Z
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -4680,7 +4680,7 @@
     goto :goto_6
 
     :sswitch_14
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->K:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->K:Z
 
     if-eqz v0, :cond_1
 
@@ -4714,7 +4714,7 @@
     goto :goto_4
 
     :sswitch_1a
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->G:Landroid/widget/RelativeLayout;
 
@@ -4725,7 +4725,7 @@
     goto/16 :goto_0
 
     :sswitch_1b
-    iput-boolean v7, p0, Lcom/example/drawingar/activity/djwiiqdnq;->K:Z
+    iput-boolean v7, p0, Lcom/example/drawingar/activity/CameraActivity;->K:Z
 
     const-string v0, "\u06e1\u06e1\u06d6\u06d8\u06df\u06e7\u06e2\u06e6\u06dc\u06db\u06e7\u06e6\u06db\u06da\u06da\u06d9\u06e6\u06e6\u06d8\u06dc\u06db\u06db\u06ec\u06d6\u06d8\u06e5\u06db\u06ec\u06ec\u06e0\u06df\u06d9\u06e2\u06d7\u06db\u06df\u06e7\u06e6\u06e2\u06e6\u06d8\u06e8\u06e7\u06d7\u06df\u06e8\u06ec\u06e8\u06d9\u06d8\u06df\u06e8\u06e1\u06d8\u06da\u06e8\u06d7\u06d6\u06da\u06e0\u06d9\u06db\u06e2\u06da\u06ec\u06e8\u06d8\u06e8\u06d9\u06d6\u06e8\u06d8\u06e5\u06d8\u06d8\u06e1\u06e6"
 
@@ -4805,7 +4805,7 @@
     goto :goto_9
 
     :sswitch_23
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->L:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->L:Z
 
     if-eqz v0, :cond_2
 
@@ -4834,7 +4834,7 @@
     goto/16 :goto_0
 
     :sswitch_28
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->F:Landroid/widget/RelativeLayout;
 
@@ -4845,42 +4845,42 @@
     goto/16 :goto_0
 
     :sswitch_29
-    iput-boolean v7, p0, Lcom/example/drawingar/activity/djwiiqdnq;->L:Z
+    iput-boolean v7, p0, Lcom/example/drawingar/activity/CameraActivity;->L:Z
 
     const-string v0, "\u06d6\u06e8\u06e1\u06d8\u06e5\u06e2\u06dc\u06db\u06ec\u06ec\u06da\u06d6\u06d9\u06e7\u06e2\u06ec\u06df\u06ec\u06e8\u06d8\u06e7\u06eb\u06df\u06eb\u06dc\u06e1\u06d8\u06d9\u06dc\u06d8\u06e7\u06db\u06df\u06ec\u06e8\u06e1\u06d8\u06e6\u06eb\u06e0\u06ec\u06db\u06d9\u06ec\u06ec\u06d8\u06df\u06dc\u06e6\u06d8\u06e7\u06db\u06da\u06e5\u06db\u06e5\u06d8\u06eb\u06e7\u06d9\u06e8\u06e2\u06df\u06e8\u06e8\u06d6\u06da\u06e5\u06da"
 
     goto/16 :goto_0
 
     :sswitch_2a
-    invoke-virtual {p0, v2}, Lcom/example/drawingar/activity/djwiiqdnq;->j1(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v2}, Lcom/example/drawingar/activity/CameraActivity;->j1(Landroid/widget/ImageView;)V
 
     const-string/jumbo v0, "\u06e6\u06e0\u06d7\u06e5\u06e1\u06e5\u06e6\u06e7\u06dc\u06d8\u06e8\u06db\u06d8\u06ec\u06db\u06db\u06db\u06e8\u06d8\u06d8\u06e1\u06e7\u06e2\u06e6\u06df\u06df\u06d6\u06e8\u06e1\u06e4\u06e5\u06e7\u06e1\u06dc\u06db\u06dc\u06e0\u06e6\u06e1\u06e4\u06e0\u06da\u06ec\u06dc\u06d8\u06e8\u06dc\u06d8\u06eb\u06e4\u06e4\u06db\u06df\u06e0\u06d9\u06d6\u06e6\u06e4\u06e7\u06e4\u06e0\u06df\u06e1\u06d8\u06d8\u06d7\u06df\u06d8\u06dc\u06db\u06e8\u06e0\u06d6\u06e7\u06e0\u06db"
 
     goto/16 :goto_0
 
     :sswitch_2b
-    iput-boolean v7, p0, Lcom/example/drawingar/activity/djwiiqdnq;->I:Z
+    iput-boolean v7, p0, Lcom/example/drawingar/activity/CameraActivity;->I:Z
 
     const-string v0, "\u06d6\u06e8\u06da\u06df\u06e5\u06e8\u06d8\u06eb\u06d9\u06e7\u06e2\u06d7\u06d9\u06df\u06da\u06df\u06e2\u06e8\u06d8\u06d6\u06df\u06eb\u06e4\u06e8\u06dc\u06d8\u06ec\u06df\u06df\u06da\u06d6\u06e7\u06ec\u06d7\u06dc\u06d9\u06dc\u06dc\u06d8\u06d9\u06dc\u06ec\u06da\u06d8\u06e6\u06d8\u06df\u06e8\u06dc"
 
     goto/16 :goto_0
 
     :sswitch_2c
-    iput-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->R:Ljava/lang/String;
+    iput-object v2, p0, Lcom/example/drawingar/activity/CameraActivity;->R:Ljava/lang/String;
 
     const-string/jumbo v0, "\u06e7\u06db\u06e1\u06d8\u06d7\u06d6\u06d7\u06d8\u06d7\u06e4\u06eb\u06e2\u06d8\u06e4\u06e7\u06e2\u06e0\u06df\u06eb\u06df\u06d6\u06eb\u06e4\u06e6\u06d6\u06dc\u06d6\u06df\u06d8\u06ec\u06e8\u06d8\u06dc\u06db\u06d6\u06e2\u06e1\u06e5\u06d8\u06e1\u06ec\u06e5\u06e4\u06e1\u06d8\u06d8\u06e6\u06e2\u06d8\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_2d
-    iput-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->S:Ljava/lang/String;
+    iput-object v2, p0, Lcom/example/drawingar/activity/CameraActivity;->S:Ljava/lang/String;
 
     const-string v0, "\u06e1\u06e1\u06e6\u06d8\u06da\u06eb\u06e5\u06e1\u06d9\u06d6\u06d8\u06e7\u06e2\u06df\u06d7\u06e7\u06eb\u06e6\u06e4\u06d8\u06d8\u06e7\u06ec\u06e2\u06d7\u06d7\u06d8\u06db\u06da\u06d6\u06d8\u06d6\u06dc\u06e2\u06e4\u06d8\u06d7\u06d8\u06eb\u06df\u06e2\u06db\u06d7\u06d9\u06e1\u06e8\u06d8\u06d7\u06e6\u06e5\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_2e
-    iput-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->b0:Landroid/net/Uri;
+    iput-object v2, p0, Lcom/example/drawingar/activity/CameraActivity;->b0:Landroid/net/Uri;
 
     const-string v0, "\u06e6\u06db\u06e5\u06d8\u06e4\u06e4\u06e8\u06d8\u06e4\u06d6\u06df\u06e6\u06e8\u06e2\u06d6\u06db\u06e2\u06e2\u06eb\u06e8\u06d8\u06e8\u06e4\u06dc\u06d8\u06e4\u06e5\u06e8\u06d8\u06e5\u06e0\u06d6\u06dc\u06eb\u06e1\u06d8\u06d7\u06d6\u06d8\u06ec\u06d6\u06db\u06db\u06e1\u06e8\u06ec\u06e0\u06e5\u06d8\u06e0\u06e8\u06e8\u06d8\u06dc\u06dc\u06e7\u06eb\u06d7\u06e0\u06d9\u06d9\u06d7"
 
@@ -4900,7 +4900,7 @@
     goto/16 :goto_0
 
     :sswitch_30
-    iput-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->b0:Landroid/net/Uri;
+    iput-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->b0:Landroid/net/Uri;
 
     const-string v0, "\u06e4\u06d8\u06e0\u06d9\u06d9\u06d8\u06dc\u06e5\u06e8\u06d8\u06d8\u06da\u06e4\u06d6\u06da\u06d8\u06ec\u06db\u06d9\u06e8\u06e8\u06e2\u06d6\u06e0\u06eb\u06d7\u06e6\u06eb\u06e4\u06d7\u06e2\u06e1\u06e2\u06d8\u06dc\u06ec\u06d6\u06eb\u06d7\u06e4\u06e5\u06e6\u06eb\u06e0\u06da\u06db\u06e4\u06ec\u06e5\u06db\u06d9\u06e7\u06da\u06e6\u06e7\u06d7\u06dc\u06e2\u06d9\u06d7\u06e7\u06d7\u06df\u06e5\u06e6\u06df\u06eb\u06e1\u06d8"
 
@@ -4911,14 +4911,14 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->S:Ljava/lang/String;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->S:Ljava/lang/String;
 
     const-string/jumbo v0, "\u06e8\u06eb\u06e4\u06e0\u06e7\u06e2\u06e1\u06e5\u06ec\u06e8\u06e7\u06d6\u06d8\u06db\u06ec\u06e8\u06e1\u06e8\u06eb\u06d7\u06dc\u06d8\u06d8\u06eb\u06d8\u06e0\u06d6\u06ec\u06d8\u06d6\u06e5\u06d8\u06eb\u06e6\u06e1\u06d8\u06d9\u06e0\u06e6\u06e5\u06e1\u06d8\u06e5\u06e0\u06ec\u06eb\u06db\u06d8\u06dc\u06d9\u06e8\u06d6\u06d8\u06db\u06e4\u06eb"
 
     goto/16 :goto_0
 
     :sswitch_32
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/djwiiqdnq;->k1()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/CameraActivity;->k1()V
 
     const-string/jumbo v0, "\u06ec\u06d6\u06e8\u06dc\u06d7\u06db\u06e6\u06ec\u06d9\u06e2\u06dc\u06e7\u06da\u06d8\u06e6\u06e6\u06e7\u06d8\u06ec\u06e8\u06e8\u06d8\u06db\u06e6\u06d8\u06d8\u06e5\u06e0\u06e6\u06e0\u06df\u06d8\u06d8\u06e8\u06e1\u06dc\u06e0\u06d6\u06e8\u06d7\u06e8\u06e4\u06e0\u06da\u06e8\u06d9\u06df\u06d6\u06d8\u06da\u06da\u06d6\u06d6\u06e4\u06e8\u06e5\u06d6\u06ec\u06df\u06d7\u06dc\u06da\u06dc\u06d7\u06ec\u06e7"
 
@@ -5180,7 +5180,7 @@
     goto :goto_3
 
     :sswitch_b
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->N:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->N:Z
 
     if-eqz v0, :cond_0
 
@@ -5277,7 +5277,7 @@
     goto :goto_6
 
     :sswitch_16
-    iget v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->m0:I
+    iget v0, p0, Lcom/example/drawingar/activity/CameraActivity;->m0:I
 
     const/4 v7, 0x3
 
@@ -5316,7 +5316,7 @@
     return v2
 
     :sswitch_1d
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
@@ -5542,11 +5542,11 @@
     goto :goto_a
 
     :sswitch_37
-    invoke-virtual {p0, p2}, Lcom/example/drawingar/activity/djwiiqdnq;->A0(Landroid/view/MotionEvent;)F
+    invoke-virtual {p0, p2}, Lcom/example/drawingar/activity/CameraActivity;->A0(Landroid/view/MotionEvent;)F
 
     move-result v0
 
-    iput v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->n0:F
+    iput v0, p0, Lcom/example/drawingar/activity/CameraActivity;->n0:F
 
     const-string/jumbo v0, "\u06e8\u06e0\u06e6\u06d8\u06db\u06e4\u06d6\u06e6\u06d9\u06d6\u06d7\u06d9\u06d6\u06d8\u06d7\u06e6\u06eb\u06e4\u06eb\u06e8\u06e8\u06d8\u06d6\u06d6\u06dc\u06db\u06d7\u06df\u06d6\u06d8\u06d7\u06e7\u06db\u06da\u06e1\u06dc\u06e6\u06d6\u06d6\u06e1\u06e0\u06e1\u06d8\u06d7\u06e7\u06e7\u06da\u06dc\u06d6\u06d6\u06eb\u06e5\u06d8\u06e5\u06e1\u06dc\u06df\u06df\u06e8"
 
@@ -5759,7 +5759,7 @@
     goto/16 :goto_0
 
     :sswitch_50
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->cancelAutoFocus()V
 
@@ -5768,7 +5768,7 @@
     goto/16 :goto_0
 
     :sswitch_51
-    invoke-virtual {p0, p2, v3}, Lcom/example/drawingar/activity/djwiiqdnq;->C0(Landroid/view/MotionEvent;Landroid/hardware/Camera$Parameters;)V
+    invoke-virtual {p0, p2, v3}, Lcom/example/drawingar/activity/CameraActivity;->C0(Landroid/view/MotionEvent;Landroid/hardware/Camera$Parameters;)V
 
     const-string v0, "\u06d8\u06dc\u06e4\u06da\u06e5\u06dc\u06eb\u06e2\u06e1\u06d8\u06e4\u06db\u06d9\u06eb\u06d8\u06da\u06e1\u06da\u06e7\u06e6\u06d6\u06e1\u06d6\u06df\u06e5\u06db\u06da\u06db\u06e4\u06e7\u06e8\u06df\u06dc\u06e8\u06e2\u06e4\u06e0\u06d7\u06d7\u06d6\u06e4\u06d8\u06d8\u06e4\u06d7\u06e8\u06e1\u06da\u06d8\u06d8\u06e0\u06d8\u06e7\u06e2\u06df\u06e4\u06d7\u06e4\u06d7\u06e0\u06d8\u06eb\u06db\u06e4\u06e6\u06e8\u06db\u06ec\u06e0\u06e0\u06db\u06d7\u06e6\u06e7\u06d8\u06e2\u06e4\u06e4\u06d9\u06e0\u06da\u06da\u06e8\u06e8"
 
@@ -5875,7 +5875,7 @@
     goto :goto_13
 
     :sswitch_5e
-    invoke-virtual {p0, p2, v3}, Lcom/example/drawingar/activity/djwiiqdnq;->B0(Landroid/view/MotionEvent;Landroid/hardware/Camera$Parameters;)V
+    invoke-virtual {p0, p2, v3}, Lcom/example/drawingar/activity/CameraActivity;->B0(Landroid/view/MotionEvent;Landroid/hardware/Camera$Parameters;)V
 
     const-string/jumbo v0, "\u06e6\u06e0\u06da\u06d9\u06db\u06e5\u06e7\u06e7\u06dc\u06d8\u06e8\u06da\u06e7\u06e2\u06dc\u06dc\u06e0\u06e6\u06ec\u06dc\u06d8\u06e2\u06eb\u06eb\u06e1\u06d6\u06e0\u06d7\u06e4\u06d6\u06d9\u06e7\u06d8\u06e2\u06da\u06e1\u06e1\u06e2\u06d6\u06d7\u06e2\u06ec\u06d9\u06e8\u06e7\u06d8\u06e7\u06e1\u06d6\u06d7\u06e6\u06e6\u06d8\u06d9\u06ec\u06e7\u06db\u06d8\u06e4\u06da\u06e5\u06d8\u06dc\u06d7\u06d6\u06ec\u06e6\u06e1\u06d8\u06e4\u06e6\u06d7\u06dc\u06e6\u06e5"
 
@@ -6155,7 +6155,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->s:Landroid/widget/ImageView;
 
@@ -6172,18 +6172,18 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->H:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutHideAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutHideAnimWH(Landroid/view/View;)V
 
     const-string/jumbo v0, "\u06eb\u06e1\u06d6\u06d8\u06eb\u06db\u06d9\u06d8\u06e6\u06d7\u06e5\u06da\u06e0\u06e6\u06e7\u06d8\u06eb\u06d6\u06df\u06d8\u06e8\u06ec\u06e8\u06df\u06db\u06da\u06e0\u06e4\u06ec\u06df\u06e1\u06d8\u06e2\u06d8\u06dc\u06d8\u06e6\u06da\u06d8\u06df\u06d7\u06e6\u06e6\u06e5\u06e4\u06e6\u06e7\u06d8\u06d8\u06d9\u06e0\u06d8\u06e7\u06d7\u06e4\u06e2\u06e4\u06e6"
 
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->v:Landroid/widget/LinearLayout;
 
@@ -6198,7 +6198,7 @@
     :sswitch_5
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->J:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->J:Z
 
     const-string v0, "\u06d9\u06eb\u06e6\u06e5\u06d9\u06e6\u06df\u06ec\u06e8\u06d8\u06e2\u06d9\u06e1\u06d8\u06d8\u06d9\u06e5\u06d8\u06d9\u06dc\u06d8\u06da\u06df\u06ec\u06d8\u06d6\u06d8\u06da\u06db\u06da\u06e5\u06ec\u06d8\u06d8\u06e4\u06e7\u06dc\u06db\u06df\u06e0\u06da\u06ec\u06e4\u06e8\u06e4\u06dc\u06e7\u06eb\u06e6\u06d8\u06d6\u06e4\u06e0\u06da\u06e1\u06d9\u06ec\u06df\u06e4\u06dc\u06d6\u06d7\u06e4\u06e5\u06df\u06eb\u06da\u06e5\u06d8\u06dc\u06d8\u06e5\u06e8\u06e4\u06e6\u06e4\u06d9\u06d8"
 
@@ -6239,11 +6239,11 @@
     goto :goto_0
 
     :sswitch_a
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->k0:Lcom/example/drawingar/activity/a;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->k0:Lcom/example/drawingar/activity/a;
 
     new-instance v2, Li8;
 
-    invoke-direct {v2, p0}, Li8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v2, p0}, Li8;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1, v2}, Lcom/example/drawingar/activity/a;->c(Ljava/lang/Object;Lcom/example/drawingar/activity/a$a;)V
 
@@ -6494,7 +6494,7 @@
     goto :goto_6
 
     :sswitch_13
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->K:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->K:Z
 
     if-eqz v0, :cond_1
 
@@ -6538,7 +6538,7 @@
     goto :goto_4
 
     :sswitch_1a
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->G:Landroid/widget/RelativeLayout;
 
@@ -6549,7 +6549,7 @@
     goto/16 :goto_0
 
     :sswitch_1b
-    iput-boolean v7, p0, Lcom/example/drawingar/activity/djwiiqdnq;->K:Z
+    iput-boolean v7, p0, Lcom/example/drawingar/activity/CameraActivity;->K:Z
 
     const-string v0, "\u06e6\u06d9\u06e8\u06d8\u06d8\u06e8\u06dc\u06e4\u06e2\u06eb\u06e0\u06ec\u06d8\u06dc\u06e1\u06e6\u06d8\u06e0\u06eb\u06d8\u06e8\u06e1\u06e5\u06d8\u06e2\u06ec\u06e0\u06e2\u06d9\u06eb\u06ec\u06ec\u06e0\u06e2\u06e1\u06dc\u06e4\u06d6\u06db\u06d7\u06e2\u06e4\u06e5\u06df\u06dc\u06e5\u06e5\u06e4\u06e5\u06df\u06dc\u06dc\u06e1\u06e1\u06ec\u06e1\u06d8\u06ec\u06d6\u06e5\u06d8\u06e0\u06db\u06e5\u06d8\u06eb\u06d6\u06e4\u06e7\u06d6\u06e1\u06e5\u06d7\u06dc\u06d8\u06eb\u06e2\u06df"
 
@@ -6619,7 +6619,7 @@
     goto :goto_9
 
     :sswitch_22
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->L:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->L:Z
 
     if-eqz v0, :cond_2
 
@@ -6658,7 +6658,7 @@
     goto/16 :goto_0
 
     :sswitch_28
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->F:Landroid/widget/RelativeLayout;
 
@@ -6669,42 +6669,42 @@
     goto/16 :goto_0
 
     :sswitch_29
-    iput-boolean v7, p0, Lcom/example/drawingar/activity/djwiiqdnq;->L:Z
+    iput-boolean v7, p0, Lcom/example/drawingar/activity/CameraActivity;->L:Z
 
     const-string v0, "\u06da\u06e5\u06e6\u06d8\u06d8\u06db\u06da\u06e6\u06e8\u06e1\u06d9\u06d6\u06e5\u06d8\u06e8\u06db\u06e0\u06e0\u06db\u06e4\u06e0\u06ec\u06e8\u06d8\u06d7\u06df\u06d9\u06e1\u06d7\u06e5\u06e4\u06e6\u06e5\u06d8\u06e4\u06d7\u06e8\u06d8\u06d6\u06d7\u06e8\u06d8\u06d8\u06e5\u06dc\u06e8\u06da\u06eb\u06d6\u06d6\u06e1\u06d8\u06d6\u06eb\u06d8\u06df\u06e6\u06e0\u06d6\u06e7\u06da\u06eb\u06ec\u06e5\u06da\u06d6\u06e6\u06db\u06da\u06d8\u06d8\u06e6\u06e1\u06d6\u06d8\u06ec\u06d9\u06e5\u06d8\u06d7\u06d6\u06d7"
 
     goto/16 :goto_0
 
     :sswitch_2a
-    invoke-virtual {p0, v2}, Lcom/example/drawingar/activity/djwiiqdnq;->j1(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v2}, Lcom/example/drawingar/activity/CameraActivity;->j1(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06e6\u06d8\u06d7\u06df\u06e5\u06e1\u06d8\u06d9\u06db\u06da\u06e8\u06e2\u06e5\u06e6\u06e0\u06df\u06eb\u06d6\u06e7\u06d8\u06e7\u06db\u06d6\u06d8\u06d6\u06e1\u06e6\u06d8\u06e0\u06e8\u06dc\u06db\u06e1\u06dc\u06d7\u06df\u06e2\u06e8\u06ec\u06e6\u06d8\u06e6\u06df\u06d7\u06e4\u06e6\u06dc\u06df\u06dc\u06e6\u06ec\u06db\u06e5\u06d8\u06ec\u06e7\u06df\u06e6"
 
     goto/16 :goto_0
 
     :sswitch_2b
-    iput-boolean v7, p0, Lcom/example/drawingar/activity/djwiiqdnq;->I:Z
+    iput-boolean v7, p0, Lcom/example/drawingar/activity/CameraActivity;->I:Z
 
     const-string v0, "\u06db\u06e8\u06e5\u06db\u06e5\u06e5\u06d8\u06e2\u06e0\u06e0\u06df\u06e0\u06e1\u06d8\u06e5\u06e1\u06d6\u06e8\u06e4\u06d6\u06d8\u06e0\u06eb\u06db\u06db\u06d8\u06d8\u06dc\u06e0\u06e7\u06dc\u06d9\u06e4\u06ec\u06e0\u06d8\u06df\u06db\u06e7\u06db\u06da\u06ec\u06e8\u06e1\u06da\u06eb\u06ec\u06df\u06df\u06dc\u06d6\u06e4\u06e8\u06da\u06e8\u06e1\u06e0\u06e7\u06eb\u06ec\u06da\u06d9\u06d8\u06d6\u06eb\u06dc\u06d7\u06e5\u06d8\u06e8\u06e2\u06dc\u06d8\u06e2\u06e0\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_2c
-    iput-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->R:Ljava/lang/String;
+    iput-object v2, p0, Lcom/example/drawingar/activity/CameraActivity;->R:Ljava/lang/String;
 
     const-string v0, "\u06d7\u06e8\u06e8\u06e1\u06e1\u06e5\u06e7\u06d8\u06e1\u06d8\u06e8\u06e7\u06d9\u06d9\u06e6\u06e8\u06d8\u06e8\u06d7\u06e7\u06db\u06e0\u06dc\u06d8\u06e2\u06e4\u06eb\u06e8\u06e8\u06dc\u06eb\u06e7\u06dc\u06df\u06e6\u06d8\u06ec\u06e7\u06e6\u06d8\u06e5\u06e6\u06d8\u06eb\u06d6\u06e4\u06e0\u06e6\u06dc\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_2d
-    iput-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->b0:Landroid/net/Uri;
+    iput-object v2, p0, Lcom/example/drawingar/activity/CameraActivity;->b0:Landroid/net/Uri;
 
     const-string v0, "\u06db\u06db\u06d6\u06d8\u06e7\u06df\u06dc\u06d8\u06e6\u06d6\u06d7\u06e6\u06e2\u06eb\u06d8\u06e6\u06e8\u06e4\u06da\u06e4\u06e2\u06e0\u06d6\u06eb\u06e4\u06dc\u06d8\u06df\u06eb\u06e4\u06e5\u06da\u06dc\u06d8\u06e2\u06e0\u06da\u06dc\u06ec\u06e1\u06d8\u06ec\u06ec\u06e6\u06d8\u06e6\u06d7\u06d9\u06e4\u06e5\u06da\u06e8\u06e6\u06e8\u06e0\u06d9\u06e6\u06e1\u06e8"
 
     goto/16 :goto_0
 
     :sswitch_2e
-    iput-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->S:Ljava/lang/String;
+    iput-object v2, p0, Lcom/example/drawingar/activity/CameraActivity;->S:Ljava/lang/String;
 
     const-string v0, "\u06da\u06e5\u06e4\u06e4\u06e4\u06e0\u06eb\u06dc\u06e8\u06ec\u06d9\u06e4\u06e8\u06e8\u06e5\u06d8\u06da\u06e2\u06e4\u06e7\u06db\u06e8\u06ec\u06eb\u06e0\u06ec\u06e7\u06e5\u06d8\u06e6\u06db\u06ec\u06e2\u06d7\u06e5\u06eb\u06ec\u06e2\u06e8\u06d8\u06df\u06e1\u06d9\u06dc\u06db\u06e4\u06d7"
 
@@ -6826,14 +6826,14 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->S:Ljava/lang/String;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->S:Ljava/lang/String;
 
     const-string v0, "\u06e5\u06dc\u06e1\u06df\u06ec\u06da\u06e5\u06e4\u06eb\u06e0\u06e7\u06e5\u06e4\u06e5\u06e1\u06ec\u06e6\u06e6\u06eb\u06ec\u06eb\u06e8\u06e2\u06d7\u06e4\u06d8\u06df\u06d7\u06df\u06ec\u06e5\u06e7\u06d8\u06ec\u06e2\u06dc\u06d8\u06e7\u06e0\u06dc\u06e4\u06eb\u06d8\u06d8\u06e5\u06db\u06e5"
 
     goto/16 :goto_0
 
     :sswitch_3d
-    new-instance v0, Lcom/example/drawingar/activity/djwiiqdnq$l;
+    new-instance v0, Lcom/example/drawingar/activity/CameraActivity$l;
 
     const-string v3, "isDownload"
 
@@ -6841,13 +6841,13 @@
 
     move-result v3
 
-    invoke-direct {v0, p0, v3}, Lcom/example/drawingar/activity/djwiiqdnq$l;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;Z)V
+    invoke-direct {v0, p0, v3}, Lcom/example/drawingar/activity/CameraActivity$l;-><init>(Lcom/example/drawingar/activity/CameraActivity;Z)V
 
     const/4 v3, 0x1
 
     new-array v3, v3, [Ljava/lang/String;
 
-    iget-object v4, p0, Lcom/example/drawingar/activity/djwiiqdnq;->S:Ljava/lang/String;
+    iget-object v4, p0, Lcom/example/drawingar/activity/CameraActivity;->S:Ljava/lang/String;
 
     aput-object v4, v3, v7
 
@@ -7048,7 +7048,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->s:Landroid/widget/ImageView;
 
@@ -7065,18 +7065,18 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->H:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutHideAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutHideAnimWH(Landroid/view/View;)V
 
     const-string v0, "\u06da\u06e0\u06e1\u06e8\u06e8\u06e7\u06d8\u06e4\u06dc\u06d8\u06e6\u06e8\u06e7\u06d8\u06da\u06d6\u06e4\u06e6\u06e8\u06d6\u06d8\u06e0\u06e8\u06d9\u06e0\u06d6\u06d9\u06e6\u06df\u06db\u06e7\u06e7\u06e1\u06ec\u06e2\u06d9\u06e2\u06df\u06d6\u06e4\u06db\u06e0\u06d7\u06df\u06e5\u06d7\u06e5\u06da\u06e8\u06db\u06e4\u06e5\u06df\u06d6\u06e5\u06e8\u06db\u06e6\u06d6\u06e5\u06eb\u06e5\u06df\u06d9\u06dc\u06dc\u06df\u06e0\u06da\u06d8\u06ec\u06e2"
 
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->v:Landroid/widget/LinearLayout;
 
@@ -7091,7 +7091,7 @@
     :sswitch_5
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->J:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->J:Z
 
     const-string v0, "\u06e1\u06d7\u06df\u06e2\u06e8\u06dc\u06e4\u06e4\u06e5\u06d8\u06e4\u06e8\u06e8\u06e7\u06e4\u06d9\u06da\u06e7\u06dc\u06e2\u06ec\u06db\u06d9\u06e6\u06e1\u06db\u06da\u06ec\u06d9\u06e6\u06d8\u06e7\u06e0\u06e8\u06d8\u06db\u06e5\u06ec\u06ec\u06eb\u06e4\u06e7\u06eb\u06db\u06d6\u06e2\u06d8\u06d8\u06eb\u06db\u06d7\u06e7\u06db\u06d9\u06d8\u06df\u06d9\u06dc\u06e1\u06e2\u06e5\u06d8\u06da\u06e8\u06e6\u06d8"
 
@@ -7100,7 +7100,7 @@
     :sswitch_6
     new-instance v1, Landroid/content/Intent;
 
-    const-class v0, Lcom/example/drawingar/activity/paldmcjurbak;
+    const-class v0, Lcom/example/drawingar/activity/BrowserActivity;
 
     invoke-direct {v1, p0, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -7109,11 +7109,11 @@
     goto :goto_0
 
     :sswitch_7
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->k0:Lcom/example/drawingar/activity/a;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->k0:Lcom/example/drawingar/activity/a;
 
     new-instance v2, Lk8;
 
-    invoke-direct {v2, p0}, Lk8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v2, p0}, Lk8;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1, v2}, Lcom/example/drawingar/activity/a;->c(Ljava/lang/Object;Lcom/example/drawingar/activity/a$a;)V
 
@@ -7376,7 +7376,7 @@
     goto :goto_6
 
     :sswitch_15
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->K:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->K:Z
 
     if-eqz v0, :cond_1
 
@@ -7410,7 +7410,7 @@
     goto :goto_4
 
     :sswitch_1b
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->G:Landroid/widget/RelativeLayout;
 
@@ -7421,7 +7421,7 @@
     goto/16 :goto_0
 
     :sswitch_1c
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->K:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/CameraActivity;->K:Z
 
     const-string/jumbo v0, "\u06eb\u06d6\u06e0\u06e8\u06db\u06e1\u06d9\u06eb\u06eb\u06e0\u06e4\u06dc\u06e7\u06dc\u06e6\u06d8\u06ec\u06df\u06db\u06d6\u06da\u06da\u06d8\u06dc\u06e6\u06e2\u06e0\u06da\u06df\u06e2\u06ec\u06df\u06db\u06e5\u06d8\u06db\u06d6\u06eb\u06dc\u06e4\u06ec\u06e0\u06e1\u06e7\u06d8\u06d7\u06e0\u06d8\u06d8\u06d9\u06e0\u06d6\u06d8\u06ec\u06e1\u06db\u06d8\u06df\u06eb\u06e6\u06ec\u06e2\u06eb\u06e2\u06e6\u06d8\u06e2\u06d6\u06e4\u06d9\u06e2\u06dc\u06d8\u06e2\u06df\u06e1\u06d9\u06e1\u06dc\u06d8\u06eb\u06e0\u06dc\u06d7\u06e6\u06e8\u06dc\u06d9\u06e1"
 
@@ -7486,7 +7486,7 @@
     goto :goto_9
 
     :sswitch_22
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->L:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->L:Z
 
     if-eqz v0, :cond_2
 
@@ -7530,7 +7530,7 @@
     goto :goto_7
 
     :sswitch_29
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->F:Landroid/widget/RelativeLayout;
 
@@ -7541,28 +7541,28 @@
     goto/16 :goto_0
 
     :sswitch_2a
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->L:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/CameraActivity;->L:Z
 
     const-string v0, "\u06d7\u06df\u06e0\u06e4\u06df\u06e5\u06d8\u06ec\u06e1\u06dc\u06d8\u06e0\u06db\u06e5\u06e0\u06d7\u06ec\u06eb\u06da\u06ec\u06eb\u06db\u06e2\u06e4\u06e8\u06db\u06dc\u06ec\u06dc\u06d9\u06eb\u06d9\u06d6\u06ec\u06df\u06d6\u06d8\u06d6\u06dc\u06da\u06e4\u06db\u06eb\u06e0\u06e7\u06dc\u06e4\u06e8\u06dc\u06e7\u06ec\u06db\u06e8\u06e7\u06d8\u06d8\u06e5\u06e4\u06db\u06dc\u06e2\u06d6\u06dc\u06dc\u06da\u06da\u06db\u06dc\u06d8\u06ec\u06e1\u06d6\u06e8\u06e7\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_2b
-    invoke-virtual {p0, v6}, Lcom/example/drawingar/activity/djwiiqdnq;->j1(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v6}, Lcom/example/drawingar/activity/CameraActivity;->j1(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06e0\u06e2\u06e0\u06e4\u06e0\u06d6\u06d8\u06e6\u06d7\u06e4\u06d7\u06e8\u06e2\u06ec\u06db\u06e7\u06db\u06d6\u06e1\u06e4\u06e8\u06e1\u06d9\u06db\u06db\u06ec\u06e8\u06dc\u06eb\u06e1\u06e6\u06d8\u06db\u06e5\u06e8\u06e0\u06eb\u06d7\u06d7\u06e1\u06e5\u06d8\u06df\u06db\u06dc\u06d8\u06e6\u06d7\u06e5\u06db\u06e6\u06e5\u06d8\u06e0\u06dc\u06e0\u06e1\u06ec\u06df\u06df\u06e5\u06e6\u06d8\u06df\u06d7\u06e2\u06d8\u06ec\u06da\u06e5\u06e8\u06da\u06e1\u06e5\u06e5\u06eb\u06d6"
 
     goto/16 :goto_0
 
     :sswitch_2c
-    iput-object v6, p0, Lcom/example/drawingar/activity/djwiiqdnq;->S:Ljava/lang/String;
+    iput-object v6, p0, Lcom/example/drawingar/activity/CameraActivity;->S:Ljava/lang/String;
 
     const-string/jumbo v0, "\u06eb\u06d9\u06e5\u06d9\u06d7\u06df\u06d7\u06eb\u06d9\u06ec\u06d7\u06e8\u06e0\u06e4\u06e7\u06e5\u06e6\u06e0\u06dc\u06e4\u06e7\u06e7\u06d6\u06d8\u06d9\u06e4\u06d9\u06e4\u06e0\u06db\u06d8\u06df\u06e8\u06db\u06ec\u06e1\u06db\u06e0\u06e5\u06d8\u06e8\u06da\u06d8\u06d8\u06db\u06da\u06e1\u06df\u06d8\u06eb\u06e1\u06e0\u06d6\u06d8\u06e8\u06e6\u06e5\u06d8\u06e8\u06ec\u06dc\u06d8\u06dc\u06e2\u06d7\u06df\u06eb\u06d9"
 
     goto/16 :goto_0
 
     :sswitch_2d
-    iput-object v6, p0, Lcom/example/drawingar/activity/djwiiqdnq;->b0:Landroid/net/Uri;
+    iput-object v6, p0, Lcom/example/drawingar/activity/CameraActivity;->b0:Landroid/net/Uri;
 
     const-string v0, "\u06e1\u06d6\u06e2\u06eb\u06da\u06e4\u06e1\u06e1\u06e5\u06d8\u06da\u06ec\u06ec\u06e8\u06e7\u06e6\u06d8\u06e4\u06e8\u06da\u06db\u06ec\u06d7\u06ec\u06e6\u06e6\u06d8\u06d6\u06d8\u06db\u06d8\u06d6\u06d7\u06eb\u06e5\u06e5\u06e6\u06d8\u06e2\u06e4\u06e0\u06d6\u06e1\u06d9\u06e0\u06e1\u06d8\u06e4\u06df\u06e4\u06e4\u06d8\u06e6\u06d8\u06eb\u06e0\u06e5\u06e1\u06e6\u06df\u06e0\u06ec\u06d8\u06d8\u06d8\u06db\u06e5\u06e0\u06d9\u06d6\u06e7\u06df\u06d8\u06eb\u06e2\u06ec\u06d6\u06ec\u06ec\u06e7\u06df\u06e5\u06eb\u06df\u06e7"
 
@@ -7579,7 +7579,7 @@
 
     move-result v0
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->I:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->I:Z
 
     const-string v0, "\u06da\u06e4\u06e8\u06d8\u06e5\u06db\u06db\u06e7\u06e4\u06e8\u06e8\u06df\u06d8\u06d8\u06da\u06d8\u06e4\u06e5\u06db\u06d9\u06e4\u06d8\u06e1\u06d8\u06dc\u06e2\u06dc\u06da\u06e0\u06e2\u06e0\u06ec\u06db\u06dc\u06d9\u06e7\u06e8\u06df\u06e4\u06da\u06e4\u06dc\u06d8\u06ec\u06d9\u06d8\u06d8\u06df\u06d8\u06e8\u06d8\u06dc\u06e5\u06dc\u06e8\u06e6\u06dc\u06d8\u06e8\u06e8\u06df\u06da\u06dc\u06d6\u06d8\u06eb\u06dc\u06e8\u06d8\u06da\u06e7\u06d8\u06da\u06d6\u06d8\u06dc\u06db\u06e8\u06d8\u06d9\u06d7\u06d9\u06eb\u06db\u06d7\u06db\u06db\u06dc\u06d8\u06e0\u06eb\u06e6\u06d8"
 
@@ -7596,7 +7596,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->R:Ljava/lang/String;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->R:Ljava/lang/String;
 
     const-string/jumbo v0, "\u06ec\u06d8\u06dc\u06ec\u06ec\u06e5\u06e8\u06df\u06e2\u06df\u06dc\u06e0\u06ec\u06d8\u06dc\u06d8\u06ec\u06e0\u06d6\u06d8\u06e1\u06dc\u06e7\u06d8\u06e0\u06dc\u06dc\u06d8\u06d8\u06e4\u06eb\u06e2\u06d9\u06d6\u06d8\u06e7\u06df\u06e2\u06eb\u06e6\u06ec\u06e8\u06e8\u06d9\u06e6\u06e1\u06e1\u06d8\u06e7\u06d7\u06d8\u06d8\u06e6\u06e8\u06e7\u06df\u06e6\u06eb\u06e4\u06dc\u06d8\u06d8\u06e0\u06e6\u06d7\u06df\u06db\u06d6\u06da\u06e0\u06df"
 
@@ -7613,14 +7613,14 @@
 
     move-result v0
 
-    iput v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->V:I
+    iput v0, p0, Lcom/example/drawingar/activity/CameraActivity;->V:I
 
     const-string/jumbo v0, "\u06e6\u06e7\u06dc\u06d8\u06d8\u06e0\u06ec\u06e0\u06e6\u06e0\u06d7\u06e5\u06e1\u06e8\u06e7\u06d8\u06d6\u06d8\u06d8\u06d8\u06e0\u06e5\u06d8\u06e2\u06e0\u06dc\u06d8\u06e0\u06e4\u06ec\u06e2\u06e0\u06db\u06e6\u06e8\u06e7\u06da\u06e6\u06da\u06d7\u06d6\u06db\u06dc\u06d8\u06d7\u06e4\u06dc\u06d8\u06e1\u06e2\u06ec\u06d7\u06ec\u06e6\u06d8\u06e8\u06e1\u06e6\u06d8\u06e5\u06e4\u06dc\u06d8\u06e8\u06dc\u06e6\u06d9\u06d8\u06e2\u06e8\u06db\u06d6\u06d6\u06e2\u06e6\u06d8\u06d9\u06ec\u06d6\u06e0\u06d6\u06e1\u06d8\u06d8\u06d9\u06e6\u06e2\u06e2\u06db"
 
     goto/16 :goto_0
 
     :sswitch_31
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->l0:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->l0:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
@@ -7629,7 +7629,7 @@
     goto/16 :goto_0
 
     :sswitch_32
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->R:Ljava/lang/String;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->R:Ljava/lang/String;
 
     invoke-static {v0}, Lqd;->a(Ljava/lang/String;)Ljava/lang/String;
 
@@ -7639,14 +7639,14 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->l0:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->l0:Ljava/util/ArrayList;
 
     const-string/jumbo v0, "\u06eb\u06e1\u06d8\u06e1\u06d7\u06d9\u06d8\u06e2\u06e1\u06d6\u06e0\u06e6\u06d8\u06ec\u06db\u06d7\u06dc\u06e1\u06d8\u06d8\u06dc\u06e6\u06e7\u06db\u06e7\u06eb\u06e8\u06e6\u06e2\u06e6\u06e7\u06dc\u06d8\u06e7\u06d7\u06db\u06e7\u06ec\u06e6\u06d7\u06e5\u06d8\u06e4\u06e7\u06dc\u06e1\u06e7\u06dc\u06e8\u06e8\u06e8\u06e7\u06e7\u06d8\u06d7\u06dc\u06ec\u06eb\u06e5\u06db\u06db\u06ec\u06ec\u06e5\u06ec\u06e5\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_33
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/djwiiqdnq;->k1()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/CameraActivity;->k1()V
 
     const-string v0, "\u06d6\u06da\u06dc\u06d8\u06e5\u06d8\u06dc\u06d8\u06e6\u06da\u06e8\u06d8\u06e5\u06ec\u06e5\u06d8\u06d7\u06ec\u06e1\u06d8\u06e1\u06ec\u06e4\u06dc\u06e1\u06d8\u06d8\u06e7\u06e6\u06d8\u06df\u06e6\u06e5\u06e7\u06d6\u06df\u06db\u06d9\u06e5\u06e0\u06d7\u06e8\u06db\u06db\u06e0\u06e7\u06eb\u06e5\u06e7\u06dc\u06d8\u06d8"
 
@@ -7816,7 +7816,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->s:Landroid/widget/ImageView;
 
@@ -7833,18 +7833,18 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->H:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutHideAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutHideAnimWH(Landroid/view/View;)V
 
     const-string v0, "\u06db\u06e8\u06e5\u06d8\u06d9\u06e4\u06e7\u06db\u06e5\u06d8\u06e0\u06e5\u06e5\u06d8\u06d9\u06d8\u06d6\u06d8\u06e0\u06e5\u06da\u06d6\u06e7\u06d9\u06e5\u06e7\u06dc\u06ec\u06ec\u06e1\u06db\u06e7\u06dc\u06d8\u06d8\u06e8\u06d7\u06d6\u06e1\u06e7\u06d8\u06d6\u06df\u06e4\u06d6\u06e4\u06eb\u06e6\u06e1\u06e7\u06da\u06e2\u06da\u06e7\u06e1\u06e8\u06db\u06d6\u06db\u06db\u06dc\u06d6\u06da\u06df\u06d8\u06d8\u06dc\u06d8\u06e0\u06e1\u06db\u06e5\u06d8\u06eb\u06e7\u06df\u06e0\u06eb\u06e8\u06e0\u06ec\u06e5\u06d8\u06d8\u06dc\u06e1\u06d8\u06d9\u06dc\u06d9"
 
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->v:Landroid/widget/LinearLayout;
 
@@ -7859,7 +7859,7 @@
     :sswitch_5
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->J:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->J:Z
 
     const-string v0, "\u06d9\u06d6\u06d9\u06d9\u06e7\u06e6\u06e7\u06d9\u06e1\u06d8\u06d8\u06e8\u06d8\u06d8\u06da\u06eb\u06db\u06d7\u06d9\u06e4\u06dc\u06d8\u06da\u06e2\u06eb\u06da\u06e1\u06e2\u06e6\u06d8\u06e5\u06d9\u06d9\u06dc\u06e7\u06db\u06e2\u06e1\u06e7\u06d8\u06e6\u06d9\u06e0\u06db\u06ec\u06d6\u06d8\u06d7\u06e5\u06d8\u06e2\u06e7\u06e0\u06e4\u06e6\u06d9\u06e8\u06d8\u06e7\u06d8\u06e5\u06e5\u06d8\u06d8\u06e0\u06e5\u06df\u06d9\u06df\u06e0\u06e6\u06d7\u06e2\u06d9\u06e8\u06e1\u06e5\u06e5\u06e1\u06d8\u06df\u06db\u06db\u06e7\u06e1\u06db\u06e8\u06e0\u06ec"
 
@@ -7868,7 +7868,7 @@
     :sswitch_6
     new-instance v1, Landroid/content/Intent;
 
-    const-class v0, Lcom/example/drawingar/activity/uegrnjjnakfoe;
+    const-class v0, Lcom/example/drawingar/activity/CategoryMainActivity;
 
     invoke-direct {v1, p0, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -7877,11 +7877,11 @@
     goto :goto_0
 
     :sswitch_7
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->k0:Lcom/example/drawingar/activity/a;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->k0:Lcom/example/drawingar/activity/a;
 
     new-instance v2, Lj8;
 
-    invoke-direct {v2, p0}, Lj8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v2, p0}, Lj8;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1, v2}, Lcom/example/drawingar/activity/a;->c(Ljava/lang/Object;Lcom/example/drawingar/activity/a$a;)V
 
@@ -7959,7 +7959,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->s:Landroid/widget/ImageView;
 
@@ -7976,11 +7976,11 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->H:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutHideAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutHideAnimWH(Landroid/view/View;)V
 
     const-string/jumbo v0, "\u06ec\u06e6\u06d9\u06d9\u06eb\u06d8\u06d8\u06e5\u06d9\u06d9\u06d6\u06da\u06dc\u06d6\u06eb\u06d7\u06e7\u06e5\u06e8\u06e4\u06e0\u06d6\u06e7\u06e1\u06e2\u06df\u06df\u06e2\u06dc\u06df\u06e6\u06d8\u06da\u06dc\u06eb\u06d8\u06d6\u06db\u06db\u06da\u06d7\u06d6\u06db\u06d6\u06df\u06d6\u06e6\u06d8\u06d6\u06e2\u06e2\u06e2\u06e4\u06d7\u06e1\u06db\u06e5\u06e0\u06ec\u06ec\u06d6\u06d8\u06d8\u06d8\u06d7\u06df\u06e2\u06e2\u06e4\u06d9\u06e7\u06e7\u06df\u06d8\u06dc\u06df\u06e0\u06e8\u06d8\u06e1\u06d9\u06d8\u06e6\u06e8\u06e1"
 
@@ -8055,7 +8055,7 @@
     goto :goto_3
 
     :sswitch_b
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->P:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->P:Z
 
     if-nez v0, :cond_0
 
@@ -8091,25 +8091,25 @@
     :sswitch_10
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->P:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->P:Z
 
     const-string/jumbo v0, "\u06ec\u06e2\u06dc\u06da\u06e1\u06e6\u06d8\u06e5\u06dc\u06d7\u06e4\u06db\u06e8\u06d8\u06ec\u06e6\u06dc\u06d8\u06e6\u06da\u06ec\u06e5\u06e8\u06dc\u06da\u06db\u06e5\u06d8\u06eb\u06e6\u06e2\u06e1\u06e5\u06e8\u06e7\u06eb\u06d6\u06e7\u06e8\u06d8\u06e2\u06eb\u06eb\u06e2\u06d8\u06e2\u06e1\u06e6\u06e1\u06ec\u06ec\u06d7\u06e7\u06e7\u06d7\u06e0\u06dc\u06e2\u06d8\u06d7\u06e6\u06d8\u06db\u06e5\u06e1\u06d8\u06d7"
 
     goto/16 :goto_0
 
     :sswitch_11
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->o:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->j1(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->j1(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06d8\u06d7\u06e7\u06da\u06e5\u06e7\u06db\u06da\u06e5\u06d8\u06dc\u06e5\u06d8\u06d8\u06e1\u06db\u06eb\u06da\u06e2\u06df\u06ec\u06da\u06e6\u06e4\u06eb\u06e6\u06e0\u06e5\u06e6\u06db\u06da\u06e5\u06d7\u06e5\u06dc\u06e8\u06da\u06ec\u06db\u06d6\u06d6\u06d8\u06e8\u06e1\u06e5\u06d8\u06ec\u06d9\u06d7\u06d7\u06d8\u06df\u06e6\u06eb\u06dc\u06da\u06d9\u06d6\u06db\u06e6\u06da\u06df\u06dc\u06d6\u06d6\u06df\u06dc\u06d8\u06ec\u06d8\u06d8\u06d8\u06d8\u06e8\u06d7\u06d7\u06e0\u06e0\u06d6\u06d8\u06e8\u06e1\u06e6\u06eb\u06e4\u06e0"
 
     goto/16 :goto_0
 
     :sswitch_12
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->Q:Landroid/widget/TextView;
 
@@ -8139,7 +8139,7 @@
     goto/16 :goto_0
 
     :sswitch_14
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->P:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/CameraActivity;->P:Z
 
     const-string v0, "\u06da\u06e0\u06e5\u06eb\u06e4\u06e6\u06eb\u06da\u06e8\u06e0\u06eb\u06dc\u06dc\u06da\u06dc\u06e6\u06d9\u06da\u06d8\u06ec\u06ec\u06d9\u06eb\u06d9\u06e8\u06eb\u06db\u06e2\u06ec\u06e2\u06e2\u06eb\u06e7\u06eb\u06d6\u06e6\u06dc\u06e0\u06e6\u06e5\u06db\u06d6\u06d8\u06dc\u06e0\u06e7\u06e2\u06da\u06db\u06da\u06e7\u06e5\u06d8\u06db\u06e1\u06dc\u06d8\u06d7\u06e1\u06e1\u06d7\u06d9\u06d6\u06d8\u06d6\u06e0\u06d6\u06d8"
 
@@ -8148,14 +8148,14 @@
     :sswitch_15
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->j1(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->j1(Landroid/widget/ImageView;)V
 
     const-string/jumbo v0, "\u06e7\u06eb\u06e5\u06d9\u06df\u06df\u06eb\u06e7\u06d7\u06d7\u06da\u06ec\u06e4\u06dc\u06eb\u06e1\u06eb\u06df\u06dc\u06e6\u06e5\u06d8\u06d9\u06d9\u06d9\u06da\u06d9\u06d7\u06df\u06d9\u06df\u06e7\u06e6\u06e6\u06e6\u06ec\u06db\u06db\u06db\u06d8\u06e1\u06e8\u06da\u06d7\u06e5\u06e6\u06db\u06d7\u06d9\u06e6\u06e1\u06e4\u06e8\u06db\u06d6\u06d8\u06d7\u06e4\u06d6\u06d8\u06e5\u06e5\u06e2\u06e4\u06e8\u06da\u06db\u06da\u06e6\u06d8\u06e1\u06da\u06da\u06e1\u06ec\u06dc\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_16
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->Q:Landroid/widget/TextView;
 
@@ -8294,7 +8294,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->s:Landroid/widget/ImageView;
 
@@ -8311,11 +8311,11 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->H:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutHideAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutHideAnimWH(Landroid/view/View;)V
 
     const-string v0, "\u06df\u06e4\u06d9\u06d6\u06d9\u06e8\u06d8\u06e5\u06eb\u06df\u06d9\u06e7\u06e8\u06d6\u06d6\u06e6\u06d8\u06da\u06dc\u06e6\u06e1\u06e8\u06e0\u06da\u06dc\u06e8\u06e1\u06e6\u06e8\u06d8\u06d7\u06df\u06d8\u06d8\u06db\u06e7\u06e1\u06d8\u06e0\u06eb\u06e5\u06da\u06d8\u06e7\u06d9\u06d6\u06e5\u06d8\u06e6\u06e8\u06dc\u06d8\u06e4\u06e0\u06e4\u06e6\u06db\u06e8\u06df\u06d7\u06eb\u06db\u06d7\u06ec\u06eb\u06e0\u06e6\u06da\u06e8\u06da\u06ec\u06d7\u06e7\u06d7\u06e5\u06db\u06e0\u06dc\u06dc\u06e5\u06d6\u06d9\u06db\u06e6\u06d8\u06e6\u06d6\u06da"
 
@@ -8390,7 +8390,7 @@
     goto :goto_3
 
     :sswitch_b
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->J:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->J:Z
 
     if-nez v0, :cond_0
 
@@ -8424,7 +8424,7 @@
     goto/16 :goto_0
 
     :sswitch_10
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->v:Landroid/widget/LinearLayout;
 
@@ -8437,14 +8437,14 @@
     :sswitch_11
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->J:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->J:Z
 
     const-string v0, "\u06d8\u06e0\u06dc\u06da\u06d6\u06eb\u06e4\u06db\u06da\u06dc\u06d9\u06e1\u06e2\u06eb\u06eb\u06d9\u06da\u06dc\u06d8\u06e5\u06db\u06d8\u06d8\u06db\u06eb\u06e5\u06d8\u06db\u06e5\u06e8\u06db\u06e7\u06dc\u06d8\u06e4\u06e5\u06e0\u06e8\u06e4\u06e5\u06d6\u06e1\u06dc\u06d8\u06e8\u06e8\u06eb\u06d7\u06e8\u06d7\u06e4\u06eb\u06d8\u06e1\u06e6\u06d8\u06e8\u06e1\u06e2\u06e5\u06d8\u06e2\u06dc\u06dc\u06ec\u06e0\u06e1\u06e6\u06d8\u06d7\u06e7\u06dc\u06d7\u06ec\u06ec\u06d9\u06db\u06dc\u06d8\u06d9\u06e2\u06dc\u06d8\u06da\u06e7\u06eb\u06d7\u06e0\u06e7"
 
     goto/16 :goto_0
 
     :sswitch_12
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->v:Landroid/widget/LinearLayout;
 
@@ -8457,7 +8457,7 @@
     goto/16 :goto_0
 
     :sswitch_13
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->J:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/CameraActivity;->J:Z
 
     const-string v0, "\u06e5\u06df\u06d6\u06e1\u06df\u06e5\u06d8\u06e8\u06d9\u06e6\u06d8\u06dc\u06ec\u06e1\u06da\u06d8\u06e0\u06e1\u06db\u06e1\u06eb\u06d9\u06e1\u06e6\u06e4\u06df\u06e6\u06e1\u06d9\u06e0\u06df\u06e1\u06e6\u06e8\u06e8\u06d8\u06d7\u06e4\u06e2\u06e4\u06eb\u06e5\u06d9\u06ec\u06e7\u06eb\u06ec\u06e8"
 
@@ -8516,7 +8516,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic Y(Lcom/example/drawingar/activity/djwiiqdnq;Ljava/io/File;[BLandroid/hardware/Camera;)V
+.method public static synthetic Y(Lcom/example/drawingar/activity/CameraActivity;Ljava/io/File;[BLandroid/hardware/Camera;)V
     .locals 4
 
     const-string v0, "\u06e2\u06da\u06e0\u06e7\u06e8\u06db\u06dc\u06df\u06db\u06d8\u06dc\u06df\u06e8\u06e6\u06e4\u06d7\u06e0\u06df\u06d8\u06d8\u06e0\u06e0\u06d6\u06d9\u06e5\u06eb\u06da\u06d7\u06e4\u06e1\u06d9\u06e1\u06d8\u06e2\u06d8\u06e0\u06d7\u06dc\u06dc\u06d7\u06d7\u06e5\u06d8\u06db\u06d6\u06e8\u06d9\u06e2\u06e6\u06e7\u06da\u06d8\u06db\u06e8\u06db\u06dc\u06e1\u06db\u06e1\u06df\u06dc\u06d8\u06d8\u06d8\u06e8\u06d8\u06eb\u06e5\u06e4\u06da\u06e8\u06e7\u06d8\u06dc\u06e2\u06e6\u06d8\u06d7\u06e4\u06e1\u06d8\u06ec\u06e0\u06e5\u06e7\u06e0\u06d8\u06d8"
@@ -8577,7 +8577,7 @@
     goto :goto_0
 
     :sswitch_4
-    invoke-direct {p0, p1, p2, p3}, Lcom/example/drawingar/activity/djwiiqdnq;->K0(Ljava/io/File;[BLandroid/hardware/Camera;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/example/drawingar/activity/CameraActivity;->K0(Ljava/io/File;[BLandroid/hardware/Camera;)V
 
     const-string v0, "\u06d7\u06e5\u06e6\u06e4\u06e8\u06e4\u06e0\u06d6\u06e1\u06d8\u06da\u06e5\u06dc\u06e4\u06d9\u06d8\u06df\u06eb\u06dc\u06d8\u06d6\u06d9\u06e4\u06eb\u06e1\u06df\u06e7\u06d7\u06dc\u06ec\u06e7\u06dc\u06d8\u06ec\u06df\u06e5\u06d8\u06ec\u06eb\u06e2\u06e0\u06ec\u06e6\u06d8\u06db\u06da\u06e1\u06d8\u06e0\u06e4\u06e5\u06db\u06e5\u06da\u06d6\u06da\u06e2\u06da\u06e2\u06d8\u06e7\u06e6\u06db\u06d9\u06e2\u06d9\u06d6\u06db\u06e1\u06d8\u06e0\u06e7\u06e7\u06eb\u06ec\u06db\u06d8\u06d9\u06d6\u06d8\u06e8\u06e2\u06db\u06e1\u06dc\u06db\u06e7\u06e1\u06e1\u06d8"
 
@@ -8730,7 +8730,7 @@
     goto :goto_3
 
     :sswitch_a
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->L:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->L:Z
 
     if-eqz v0, :cond_0
 
@@ -8759,7 +8759,7 @@
     goto :goto_0
 
     :sswitch_f
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->F:Landroid/widget/RelativeLayout;
 
@@ -8770,7 +8770,7 @@
     goto/16 :goto_0
 
     :sswitch_10
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->L:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/CameraActivity;->L:Z
 
     const-string v0, "\u06d7\u06e0\u06e6\u06e4\u06df\u06d8\u06d8\u06e4\u06db\u06e1\u06d8\u06d9\u06e2\u06e6\u06d8\u06e7\u06e8\u06e1\u06db\u06ec\u06d6\u06db\u06db\u06d7\u06eb\u06e4\u06d6\u06e8\u06db\u06e7\u06e8\u06e6\u06e8\u06d8\u06eb\u06e4\u06d8\u06e4\u06e6\u06d6\u06d7\u06d7\u06d6\u06da\u06ec\u06e8\u06d8\u06e6\u06da\u06d7\u06d7\u06e4\u06ec\u06df\u06e6\u06da\u06e2\u06e1\u06dc\u06d8\u06d7\u06d6\u06e4\u06e0\u06d8\u06db\u06da\u06e2\u06e2\u06db\u06e8\u06e6\u06d8\u06eb\u06e6\u06dc\u06d9\u06e4\u06e1\u06d8\u06e4\u06d7\u06df\u06e4\u06ec\u06dc\u06d8\u06df\u06da\u06e7"
 
@@ -8845,7 +8845,7 @@
     goto :goto_6
 
     :sswitch_17
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->K:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->K:Z
 
     if-nez v0, :cond_1
 
@@ -8879,7 +8879,7 @@
     goto/16 :goto_0
 
     :sswitch_1d
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->G:Landroid/widget/RelativeLayout;
 
@@ -8892,25 +8892,25 @@
     :sswitch_1e
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->K:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->K:Z
 
     const-string/jumbo v0, "\u06e6\u06e8\u06e8\u06d8\u06e5\u06e8\u06e1\u06e1\u06d8\u06dc\u06d7\u06e8\u06e8\u06da\u06d8\u06db\u06db\u06d8\u06db\u06dc\u06e4\u06e2\u06dc\u06e6\u06df\u06e1\u06db\u06db\u06e2\u06df\u06d9\u06d6\u06e1\u06d8\u06d7\u06e5\u06d8\u06d8\u06db\u06e0\u06da\u06d6\u06e0\u06da\u06e5\u06d8\u06e7\u06e0\u06e5\u06e6\u06e6\u06e5\u06d6\u06e5\u06e6"
 
     goto/16 :goto_0
 
     :sswitch_1f
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->q:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->j1(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->j1(Landroid/widget/ImageView;)V
 
     const-string/jumbo v0, "\u06eb\u06da\u06e2\u06d7\u06df\u06ec\u06ec\u06d9\u06e2\u06da\u06e5\u06da\u06e7\u06da\u06dc\u06dc\u06db\u06e6\u06e7\u06da\u06d8\u06e4\u06e8\u06d8\u06e2\u06d8\u06e8\u06d8\u06e5\u06db\u06eb\u06d9\u06d9\u06d8\u06d8\u06e2\u06dc\u06d8\u06d9\u06e1\u06d6\u06d8\u06d7\u06dc\u06d8\u06dc\u06e8\u06e0\u06e4\u06dc\u06d7\u06df\u06d6\u06e0\u06e6\u06d7\u06d6\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_20
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->G:Landroid/widget/RelativeLayout;
 
@@ -8921,7 +8921,7 @@
     goto/16 :goto_0
 
     :sswitch_21
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->K:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/CameraActivity;->K:Z
 
     const-string v0, "\u06dc\u06e6\u06d8\u06d8\u06eb\u06db\u06e8\u06e5\u06da\u06e1\u06d8\u06e6\u06e6\u06e5\u06d8\u06e1\u06e5\u06e7\u06d8\u06da\u06e2\u06e8\u06d8\u06e0\u06e8\u06e5\u06d8\u06e8\u06e5\u06e6\u06d9\u06e5\u06e7\u06d8\u06e6\u06e6\u06d6\u06e1\u06e2\u06d8\u06d8\u06d8\u06e2\u06ec\u06df\u06e6\u06e5\u06dc\u06eb\u06d9\u06e4\u06da\u06e0\u06e0\u06d6\u06e1\u06df\u06e5\u06d8\u06e7\u06e8\u06e1\u06d8\u06d6\u06df\u06d6\u06e1\u06dc\u06d6\u06d8\u06e1\u06e8\u06dc\u06d8\u06da\u06e1\u06d8\u06d8\u06d9\u06d9\u06df\u06d9\u06e0\u06e5\u06d8\u06e2\u06e2\u06dc\u06e1\u06e7\u06e8\u06d8\u06e4\u06eb\u06df"
 
@@ -8930,7 +8930,7 @@
     :sswitch_22
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->j1(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->j1(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06e0\u06e4\u06d6\u06d8\u06e1\u06d8\u06e5\u06ec\u06db\u06e0\u06eb\u06ec\u06e1\u06d6\u06d9\u06d8\u06eb\u06d8\u06e8\u06d8\u06e5\u06e4\u06e1\u06d8\u06e7\u06e7\u06da\u06da\u06e7\u06ec\u06e0\u06db\u06e5\u06e4\u06e4\u06d7\u06e6\u06df\u06dc\u06eb\u06ec\u06ec\u06e0\u06e1\u06e1\u06d7\u06e6\u06d7\u06d9\u06e2\u06e7\u06df\u06ec\u06d7\u06d9\u06d6"
 
@@ -9018,7 +9018,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic Z(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;)V
+.method public static synthetic Z(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06e4\u06d8\u06df\u06e1\u06d8\u06dc\u06e8\u06d8\u06e6\u06e8\u06e5\u06e4\u06e2\u06eb\u06e4\u06d6\u06d8\u06dc\u06db\u06dc\u06d8\u06e1\u06e0\u06eb\u06d8\u06d8\u06e2\u06e2\u06da\u06e1\u06d8\u06e5\u06da\u06eb\u06ec\u06e7\u06ec\u06e1\u06e6\u06df\u06e1\u06ec\u06d9\u06eb\u06e2\u06dc\u06d8\u06e2\u06e6\u06d9\u06e0\u06d9\u06e5\u06e8\u06df\u06e7"
@@ -9069,7 +9069,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->T0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->T0(Landroid/view/View;)V
 
     const-string v0, "\u06e6\u06db\u06e5\u06d7\u06d7\u06d7\u06d7\u06e2\u06df\u06df\u06ec\u06e5\u06e2\u06dc\u06e7\u06d8\u06e8\u06db\u06e8\u06da\u06e8\u06e6\u06eb\u06e6\u06d6\u06d8\u06d9\u06e1\u06d7\u06e6\u06e1\u06dc\u06d8\u06e6\u06db\u06d6\u06d8\u06db\u06e1\u06da\u06ec\u06e6\u06e0\u06e7\u06e7\u06d8\u06d8\u06dc\u06e2\u06dc\u06d8"
 
@@ -9210,7 +9210,7 @@
     goto :goto_3
 
     :sswitch_9
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->K:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->K:Z
 
     if-eqz v0, :cond_0
 
@@ -9244,7 +9244,7 @@
     goto :goto_1
 
     :sswitch_e
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->G:Landroid/widget/RelativeLayout;
 
@@ -9255,7 +9255,7 @@
     goto :goto_0
 
     :sswitch_f
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->K:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/CameraActivity;->K:Z
 
     const-string/jumbo v0, "\u06e8\u06d6\u06da\u06e4\u06db\u06dc\u06d8\u06ec\u06d6\u06db\u06df\u06eb\u06e1\u06df\u06ec\u06d8\u06d8\u06d9\u06e8\u06e1\u06e6\u06df\u06da\u06da\u06d7\u06d7\u06e4\u06da\u06ec\u06e1\u06e2\u06dc\u06d8\u06e8\u06e8\u06e2\u06e7\u06e7\u06d7\u06ec\u06dc\u06e1\u06e7\u06ec\u06dc\u06d8\u06d7\u06df\u06e2\u06e0\u06d8\u06eb\u06da\u06df\u06e5\u06e0\u06dc\u06e7\u06d8\u06e5\u06e1\u06dc\u06d8\u06d7\u06eb\u06d6\u06db\u06eb\u06d8\u06d8"
 
@@ -9330,7 +9330,7 @@
     goto :goto_6
 
     :sswitch_17
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->L:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->L:Z
 
     if-nez v0, :cond_1
 
@@ -9364,7 +9364,7 @@
     goto :goto_4
 
     :sswitch_1c
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->F:Landroid/widget/RelativeLayout;
 
@@ -9377,25 +9377,25 @@
     :sswitch_1d
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->L:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->L:Z
 
     const-string v0, "\u06e5\u06df\u06e8\u06ec\u06e7\u06ec\u06ec\u06e4\u06e4\u06e2\u06e7\u06d7\u06d8\u06d6\u06e1\u06e1\u06dc\u06d6\u06d8\u06d8\u06e5\u06d7\u06ec\u06df\u06e8\u06df\u06d9\u06e5\u06db\u06e5\u06eb\u06db\u06e8\u06d8\u06eb\u06e6\u06e5\u06ec\u06e1\u06dc\u06d8\u06ec\u06e2\u06db\u06e6\u06d8\u06e1\u06e8\u06dc\u06df\u06eb\u06e5\u06d6\u06dc\u06e0\u06ec\u06eb\u06ec\u06d6\u06d8\u06d8\u06d8\u06eb\u06ec\u06d6\u06db\u06d6\u06e8\u06d8\u06df\u06d6\u06d9\u06d8\u06e6\u06d7\u06df\u06e2\u06e1\u06d8\u06e5\u06ec\u06e6\u06dc\u06eb\u06d9"
 
     goto/16 :goto_0
 
     :sswitch_1e
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->j:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->j1(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->j1(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06d9\u06d8\u06d6\u06e1\u06e7\u06e7\u06eb\u06d8\u06d8\u06d8\u06e5\u06e8\u06da\u06d7\u06e6\u06ec\u06dc\u06e6\u06db\u06e1\u06d6\u06e6\u06d8\u06dc\u06df\u06d8\u06e4\u06e4\u06d9\u06e8\u06e5\u06ec\u06da\u06eb\u06db\u06d9\u06e5\u06d6\u06e6\u06e8\u06e6\u06d8\u06e0\u06e5\u06e8\u06d8\u06e2\u06d9\u06e5\u06df\u06d6\u06e6\u06d8\u06e1\u06e8\u06d8\u06e1\u06eb\u06db"
 
     goto/16 :goto_0
 
     :sswitch_1f
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->F:Landroid/widget/RelativeLayout;
 
@@ -9406,7 +9406,7 @@
     goto/16 :goto_0
 
     :sswitch_20
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->L:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/CameraActivity;->L:Z
 
     const-string v0, "\u06db\u06d8\u06df\u06e2\u06e4\u06da\u06d8\u06d9\u06e8\u06d8\u06e2\u06d8\u06d6\u06eb\u06e0\u06dc\u06e4\u06e2\u06d8\u06d8\u06e5\u06d9\u06e5\u06eb\u06e0\u06e1\u06d7\u06e5\u06e1\u06ec\u06d9\u06d8\u06eb\u06dc\u06e5\u06d8\u06d8\u06e6\u06e0\u06d9\u06e6\u06df\u06e4\u06e4\u06e0\u06dc\u06d6\u06d7\u06e8\u06df\u06e2\u06da\u06db\u06dc\u06e1\u06df\u06df\u06e2\u06e8\u06e5\u06d8\u06e1\u06e5\u06e1\u06e4\u06d8\u06d7\u06e6\u06d6\u06e1\u06d7\u06e8\u06ec\u06dc"
 
@@ -9415,7 +9415,7 @@
     :sswitch_21
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->j1(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->j1(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06d9\u06dc\u06e1\u06d8\u06df\u06d7\u06e7\u06dc\u06dc\u06d8\u06e8\u06e2\u06d7\u06df\u06db\u06ec\u06e7\u06dc\u06e8\u06e8\u06d7\u06e1\u06d8\u06df\u06e7\u06e8\u06e2\u06e6\u06e6\u06d6\u06e2\u06e2\u06e2\u06da\u06d6\u06e5\u06da\u06da\u06e8\u06e8\u06e4\u06df\u06d9\u06e1\u06df\u06e5\u06d8\u06db\u06e5\u06e5\u06e4\u06dc\u06eb\u06d6\u06d6\u06e5\u06d8"
 
@@ -9506,7 +9506,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic a0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;)V
+.method public static synthetic a0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06df\u06e6\u06d8\u06da\u06d9\u06e4\u06d8\u06e5\u06e8\u06e5\u06eb\u06e0\u06e0\u06db\u06d8\u06da\u06da\u06e0\u06dc\u06e7\u06dc\u06d8\u06e1\u06e2\u06d8\u06d8\u06e4\u06e7\u06df\u06e4\u06e1\u06dc\u06e4\u06d6\u06eb\u06e8\u06d9\u06e4\u06e8\u06e6\u06e6\u06d8\u06e2\u06da\u06e8\u06d8\u06e0\u06e2\u06e7\u06e2\u06e8\u06e7\u06e5\u06d9\u06e8\u06da\u06e5\u06d6\u06ec\u06e8\u06e5\u06d8\u06e2\u06ec\u06d8\u06d8\u06e0\u06dc\u06ec\u06e0\u06df\u06e0\u06df\u06e0\u06dc\u06e5\u06e8\u06e8\u06df\u06da\u06eb\u06d7\u06e7\u06da\u06d7\u06dc\u06d8"
@@ -9557,7 +9557,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->M0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->M0(Landroid/view/View;)V
 
     const-string v0, "\u06d8\u06da\u06e2\u06e7\u06e1\u06d8\u06e4\u06e5\u06e4\u06d6\u06e0\u06d9\u06e0\u06e0\u06df\u06e1\u06e1\u06d7\u06e6\u06ec\u06d8\u06dc\u06e6\u06db\u06d9\u06e8\u06e2\u06e6\u06d8\u06dc\u06e5\u06db\u06e7\u06dc\u06ec\u06eb\u06d9\u06da\u06e6\u06d6\u06db\u06dc\u06e8\u06d6\u06d8\u06d6\u06e6\u06db\u06ec\u06e6\u06e4\u06ec\u06d8\u06df\u06d6\u06e4\u06e8\u06e0\u06e4\u06e8\u06d8\u06df\u06da\u06e8\u06db\u06df\u06db\u06da\u06d7\u06e8\u06d8\u06ec\u06e2\u06e7\u06db\u06d7\u06eb\u06e1\u06db\u06d6\u06d8\u06db\u06e4\u06d9"
 
@@ -9739,7 +9739,7 @@
     goto :goto_0
 
     :sswitch_f
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->n:Landroid/widget/ImageView;
 
@@ -9860,7 +9860,7 @@
     goto/16 :goto_0
 
     :sswitch_1c
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->n:Landroid/widget/ImageView;
 
@@ -9955,7 +9955,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic b0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;Landroid/view/MotionEvent;)Z
+.method public static synthetic b0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 4
 
     const-string v0, "\u06d7\u06e1\u06dc\u06e7\u06e8\u06e8\u06d8\u06d9\u06e5\u06e5\u06e7\u06e4\u06e5\u06e4\u06d7\u06e0\u06d7\u06e2\u06ec\u06e6\u06e7\u06dc\u06d7\u06d9\u06e4\u06ec\u06e8\u06e2\u06db\u06d8\u06e1\u06e7\u06d7\u06e2\u06e4\u06e5\u06d8\u06d8\u06e5\u06dc\u06d8\u06e5\u06d8\u06e4\u06e8\u06e2\u06e8\u06d7\u06d6\u06d8\u06eb\u06e6\u06d6\u06e1\u06e7\u06e8\u06d8"
@@ -10011,7 +10011,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/djwiiqdnq;->Q0(Landroid/view/View;Landroid/view/MotionEvent;)Z
+    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/CameraActivity;->Q0(Landroid/view/View;Landroid/view/MotionEvent;)Z
 
     move-result v0
 
@@ -10081,7 +10081,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->s:Landroid/widget/ImageView;
 
@@ -10098,18 +10098,18 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->H:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutHideAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutHideAnimWH(Landroid/view/View;)V
 
     const-string v0, "\u06da\u06e6\u06df\u06e8\u06df\u06d6\u06d8\u06e6\u06e7\u06e1\u06d8\u06da\u06eb\u06dc\u06e0\u06e4\u06db\u06e1\u06e6\u06e4\u06e8\u06dc\u06d8\u06e5\u06eb\u06db\u06da\u06df\u06d8\u06e4\u06d7\u06e5\u06e8\u06e1\u06eb\u06e0\u06e1\u06da\u06e4\u06e5\u06e6\u06d8\u06e6\u06eb\u06df\u06da\u06eb\u06d8\u06d8"
 
     goto :goto_0
 
     :sswitch_4
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/djwiiqdnq;->i1()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/CameraActivity;->i1()V
 
     const-string/jumbo v0, "\u06e8\u06e1\u06d6\u06d8\u06d7\u06d6\u06eb\u06e7\u06e5\u06df\u06e4\u06e6\u06eb\u06e6\u06e4\u06da\u06e6\u06dc\u06d8\u06da\u06ec\u06d7\u06db\u06db\u06e8\u06d8\u06e5\u06e8\u06d8\u06eb\u06e6\u06d6\u06d8\u06eb\u06e1\u06d8\u06e5\u06d7\u06d9\u06db\u06df\u06df\u06e2\u06db\u06e1\u06d8\u06db\u06d8\u06e1\u06e0\u06e0\u06dc\u06d8\u06da\u06dc\u06df\u06ec\u06e8\u06e4"
 
@@ -10189,7 +10189,7 @@
     goto :goto_3
 
     :sswitch_c
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->L:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->L:Z
 
     if-eqz v0, :cond_0
 
@@ -10223,7 +10223,7 @@
     goto/16 :goto_0
 
     :sswitch_12
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->F:Landroid/widget/RelativeLayout;
 
@@ -10234,7 +10234,7 @@
     goto/16 :goto_0
 
     :sswitch_13
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->L:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/CameraActivity;->L:Z
 
     const-string v0, "\u06d9\u06e2\u06e6\u06d8\u06db\u06d8\u06e2\u06e7\u06df\u06d6\u06df\u06d9\u06d9\u06da\u06e4\u06e5\u06d8\u06e1\u06e6\u06d9\u06da\u06e4\u06e8\u06d8\u06e0\u06ec\u06d8\u06d8\u06d9\u06d6\u06d8\u06dc\u06d7\u06e8\u06e4\u06d8\u06e6\u06d8\u06d8\u06ec\u06dc\u06db\u06e2\u06d8\u06d8\u06e6\u06dc\u06e6\u06d8\u06ec\u06e4\u06d8\u06db\u06df\u06dc\u06e2\u06d9\u06e2\u06df\u06e7\u06e1\u06df\u06ec\u06e1\u06d6\u06e2\u06e6\u06d8\u06eb\u06e8\u06d9\u06e8\u06e2\u06e5\u06ec\u06ec\u06dc\u06dc\u06e8"
 
@@ -10314,7 +10314,7 @@
     goto :goto_6
 
     :sswitch_1b
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->K:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->K:Z
 
     if-eqz v0, :cond_1
 
@@ -10348,7 +10348,7 @@
     goto/16 :goto_0
 
     :sswitch_21
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->G:Landroid/widget/RelativeLayout;
 
@@ -10359,7 +10359,7 @@
     goto/16 :goto_0
 
     :sswitch_22
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->K:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/CameraActivity;->K:Z
 
     const-string v0, "\u06df\u06d6\u06d7\u06e2\u06d8\u06e1\u06d8\u06e8\u06d6\u06d7\u06ec\u06da\u06dc\u06d8\u06d8\u06e2\u06e6\u06e5\u06e5\u06e4\u06dc\u06e6\u06e7\u06d8\u06d6\u06dc\u06da\u06dc\u06d9\u06df\u06e5\u06eb\u06e7\u06df\u06e5\u06ec\u06d9\u06d7\u06dc\u06e7\u06e0\u06d7\u06dc\u06e6\u06df\u06da\u06e8\u06d6\u06d6\u06d7\u06e5\u06db\u06e8\u06db\u06ec\u06d6\u06e5\u06dc\u06e1\u06e2\u06db\u06d6\u06d8\u06e8\u06d7\u06dc\u06e1\u06d9\u06d6\u06d8\u06e4\u06dc\u06e0\u06e6\u06d6\u06d6\u06d8"
 
@@ -10368,29 +10368,29 @@
     :sswitch_23
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->j1(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->j1(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06e6\u06d8\u06d6\u06d8\u06d7\u06d7\u06e0\u06e7\u06e4\u06da\u06d7\u06d6\u06e2\u06da\u06dc\u06d6\u06df\u06d8\u06d6\u06e0\u06d6\u06db\u06d6\u06e6\u06db\u06eb\u06e8\u06ec\u06dc\u06ec\u06e0\u06db\u06d9\u06e2\u06e0\u06e7\u06e2\u06db\u06d7\u06ec\u06e5\u06e2\u06d6\u06d8\u06d9\u06dc\u06e2\u06e7\u06e7\u06dc\u06d7\u06da\u06e8\u06dc\u06e7\u06da\u06d9\u06db\u06e5\u06d8\u06dc\u06d7\u06d9\u06e0\u06e0\u06e6\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_24
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->u:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutOpenAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutOpenAnimWH(Landroid/view/View;)V
 
     const-string v0, "\u06d6\u06d8\u06ec\u06dc\u06d6\u06e1\u06d8\u06e4\u06d8\u06dc\u06eb\u06e0\u06e7\u06d9\u06d6\u06db\u06e8\u06df\u06df\u06dc\u06d8\u06eb\u06e6\u06dc\u06d8\u06e6\u06ec\u06d8\u06d8\u06e6\u06d8\u06e1\u06d6\u06da\u06d8\u06d8\u06ec\u06e7\u06d7\u06d7\u06eb\u06db\u06e1\u06e7\u06e0\u06d8\u06e4\u06e0\u06db\u06e0\u06d8\u06da\u06d6\u06d7\u06e8\u06e7\u06e5\u06d7\u06da\u06df\u06e7\u06e7\u06eb\u06e7\u06e8\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_25
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->w:Landroid/widget/LinearLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutHideAnimWH(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutHideAnimWH(Landroid/view/View;)V
 
     const-string v0, "\u06df\u06e7\u06eb\u06e4\u06e4\u06d8\u06d8\u06dc\u06e6\u06dc\u06d8\u06d7\u06d8\u06e4\u06d8\u06d7\u06df\u06e5\u06eb\u06e1\u06e8\u06e7\u06e2\u06eb\u06e2\u06e6\u06d8\u06e0\u06df\u06e8\u06e5\u06da\u06dc\u06db\u06e5\u06ec\u06da\u06e5\u06e6\u06e2\u06e4\u06d9\u06e7\u06da\u06e2\u06e0\u06da\u06eb\u06e8\u06e8\u06d9\u06eb\u06e5\u06e5\u06e1\u06e1\u06d9\u06e7\u06df\u06e8\u06e5\u06e2\u06e6\u06e2\u06e1\u06d6\u06e6\u06d8\u06e0\u06d9\u06d7\u06e7"
 
@@ -10469,7 +10469,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic c0(Lcom/example/drawingar/activity/djwiiqdnq;)V
+.method public static synthetic c0(Lcom/example/drawingar/activity/CameraActivity;)V
     .locals 4
 
     const-string v0, "\u06e5\u06e4\u06eb\u06d7\u06da\u06d8\u06db\u06eb\u06dc\u06d8\u06da\u06eb\u06d6\u06dc\u06e0\u06eb\u06e4\u06dc\u06d7\u06e0\u06e2\u06dc\u06e5\u06d9\u06e6\u06e2\u06e5\u06e7\u06e1\u06d7\u06e5\u06d8\u06ec\u06e5\u06dc\u06d8\u06db\u06e7\u06d7\u06e1\u06d9\u06d7\u06e6\u06e1\u06e1\u06d8\u06e0\u06e4\u06da"
@@ -10515,7 +10515,7 @@
     goto :goto_0
 
     :sswitch_1
-    invoke-direct {p0}, Lcom/example/drawingar/activity/djwiiqdnq;->G0()V
+    invoke-direct {p0}, Lcom/example/drawingar/activity/CameraActivity;->G0()V
 
     const-string v0, "\u06e1\u06e2\u06e8\u06d8\u06ec\u06e0\u06eb\u06dc\u06e2\u06e6\u06d8\u06db\u06dc\u06d7\u06d8\u06dc\u06d6\u06db\u06da\u06eb\u06d7\u06ec\u06e6\u06d8\u06da\u06d8\u06da\u06df\u06d9\u06d6\u06d8\u06e2\u06e4\u06eb\u06d7\u06da\u06d9\u06d8\u06da\u06db\u06ec\u06e5\u06d8\u06d8\u06e6\u06da\u06e7\u06d8\u06d8\u06da\u06e6\u06d9\u06e6\u06d8\u06eb\u06e0\u06d8\u06db\u06e5\u06e1\u06d8\u06eb\u06e1\u06eb\u06dc\u06e8\u06e8\u06db\u06df\u06e5\u06e7\u06d8\u06e7\u06d8\u06ec\u06d6\u06e1\u06d8"
 
@@ -10694,7 +10694,7 @@
     goto :goto_1
 
     :sswitch_f
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->k:Landroid/widget/ImageView;
 
@@ -10820,7 +10820,7 @@
     goto/16 :goto_0
 
     :sswitch_1d
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->k:Landroid/widget/ImageView;
 
@@ -10908,7 +10908,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic d0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;Landroid/view/MotionEvent;)Z
+.method public static synthetic d0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 4
 
     const-string/jumbo v0, "\u06ec\u06d7\u06e5\u06e4\u06d7\u06e5\u06d9\u06e4\u06e2\u06d8\u06eb\u06db\u06d9\u06e6\u06e7\u06d8\u06d6\u06dc\u06d7\u06d6\u06ec\u06d9\u06e0\u06d8\u06e4\u06e8\u06e6\u06d8\u06da\u06e1\u06d7\u06dc\u06d6\u06df\u06e5\u06da\u06e8\u06d6\u06db\u06dc\u06da\u06db\u06d6\u06e0\u06da\u06e7\u06d6\u06e7\u06d8\u06e2\u06ec\u06e5\u06d8\u06e6\u06e7\u06e5\u06d8\u06e1\u06eb\u06da\u06e0\u06da\u06dc\u06d8\u06e5\u06e6\u06ec\u06d7\u06d8\u06d6\u06d9\u06eb\u06e6\u06e8\u06e2"
@@ -10964,7 +10964,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/djwiiqdnq;->a1(Landroid/view/View;Landroid/view/MotionEvent;)Z
+    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/CameraActivity;->a1(Landroid/view/View;Landroid/view/MotionEvent;)Z
 
     move-result v0
 
@@ -11040,7 +11040,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -11063,14 +11063,14 @@
     goto :goto_0
 
     :sswitch_3
-    iput-object v3, p0, Lcom/example/drawingar/activity/djwiiqdnq;->c0:Landroid/graphics/Bitmap;
+    iput-object v3, p0, Lcom/example/drawingar/activity/CameraActivity;->c0:Landroid/graphics/Bitmap;
 
     const-string/jumbo v0, "\u06e6\u06e1\u06e5\u06d8\u06eb\u06e4\u06e5\u06d8\u06e7\u06eb\u06dc\u06df\u06e4\u06dc\u06d8\u06e0\u06e8\u06db\u06d8\u06e1\u06d6\u06ec\u06ec\u06e1\u06e5\u06db\u06d7\u06dc\u06ec\u06d9\u06e7\u06e8\u06d8\u06d9\u06e6\u06e7\u06d9\u06d7\u06e6\u06d7\u06d7\u06d6\u06d8\u06d9\u06d9\u06e7\u06d7\u06e6\u06db\u06e4\u06e7\u06db\u06e6\u06e2\u06e0\u06e6\u06eb\u06e6\u06d8\u06d8\u06e8\u06db\u06d9\u06e8\u06e8\u06d8\u06e5\u06e1\u06e7\u06d8\u06ec\u06d6\u06e8\u06d8\u06df\u06eb\u06db\u06db\u06eb\u06d6\u06d8\u06df\u06e0\u06e7\u06d7\u06e6\u06dc\u06d8\u06dc\u06ec\u06d9"
 
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->H:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->H:Ljava/util/ArrayList;
 
     invoke-virtual {v0, v3}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
 
@@ -11081,7 +11081,7 @@
     goto :goto_0
 
     :sswitch_5
-    iput-boolean v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->Q:Z
+    iput-boolean v1, p0, Lcom/example/drawingar/activity/CameraActivity;->Q:Z
 
     const-string v0, "\u06db\u06eb\u06e8\u06d8\u06e2\u06e2\u06e6\u06d8\u06d7\u06e6\u06df\u06e5\u06e8\u06d8\u06dc\u06da\u06e4\u06da\u06d6\u06d6\u06d8\u06e6\u06e7\u06e6\u06d8\u06e5\u06d7\u06e2\u06e7\u06e5\u06e2\u06ec\u06e5\u06d8\u06df\u06e1\u06da\u06d7\u06e7\u06e6\u06d8\u06e4\u06ec\u06d6\u06d8\u06e7\u06e5\u06e1\u06d8\u06e1\u06e5\u06d6\u06d8\u06eb\u06e5\u06d6\u06eb\u06eb\u06e7\u06e8\u06d6\u06d6"
 
@@ -11188,15 +11188,15 @@
     goto :goto_1
 
     :sswitch_12
-    new-instance v0, Lcom/example/drawingar/activity/djwiiqdnq$k;
+    new-instance v0, Lcom/example/drawingar/activity/CameraActivity$k;
 
-    iget-object v4, p0, Lcom/example/drawingar/activity/djwiiqdnq;->c0:Landroid/graphics/Bitmap;
+    iget-object v4, p0, Lcom/example/drawingar/activity/CameraActivity;->c0:Landroid/graphics/Bitmap;
 
-    invoke-direct {v0, p0, v4}, Lcom/example/drawingar/activity/djwiiqdnq$k;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/graphics/Bitmap;)V
+    invoke-direct {v0, p0, v4}, Lcom/example/drawingar/activity/CameraActivity$k;-><init>(Lcom/example/drawingar/activity/CameraActivity;Landroid/graphics/Bitmap;)V
 
     new-array v4, v8, [Landroid/graphics/Bitmap;
 
-    iget-object v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->c0:Landroid/graphics/Bitmap;
+    iget-object v5, p0, Lcom/example/drawingar/activity/CameraActivity;->c0:Landroid/graphics/Bitmap;
 
     aput-object v5, v4, v2
 
@@ -11207,21 +11207,21 @@
     goto/16 :goto_0
 
     :sswitch_13
-    iput-boolean v8, p0, Lcom/example/drawingar/activity/djwiiqdnq;->Q:Z
+    iput-boolean v8, p0, Lcom/example/drawingar/activity/CameraActivity;->Q:Z
 
     const-string v0, "\u06dc\u06e4\u06d6\u06d8\u06db\u06e1\u06e0\u06e5\u06eb\u06e0\u06d8\u06e5\u06e6\u06d8\u06eb\u06e6\u06e7\u06e8\u06d9\u06d8\u06d7\u06e0\u06ec\u06d7\u06d6\u06d8\u06d6\u06e2\u06e1\u06ec\u06d6\u06e0\u06d7\u06e4\u06e6\u06e5\u06e7\u06e8\u06d8\u06d7\u06d7\u06e1\u06e1\u06dc\u06e7\u06d8\u06eb\u06e4\u06e4\u06d8\u06d6\u06db\u06ec\u06e4\u06d7\u06df\u06dc\u06d8\u06d8\u06e8\u06e0\u06df\u06d6\u06e0\u06db\u06e7\u06e1\u06e6\u06e1\u06eb\u06dc\u06da\u06eb\u06e5\u06d8\u06d6\u06e0\u06e4\u06e4\u06e7\u06d6\u06da\u06dc\u06e7\u06d8\u06e5\u06e6\u06e6"
 
     goto/16 :goto_0
 
     :sswitch_14
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/djwiiqdnq;->i1()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/CameraActivity;->i1()V
 
     const-string v0, "\u06d6\u06e4\u06dc\u06e8\u06e8\u06d7\u06e8\u06e7\u06d8\u06d8\u06e0\u06e1\u06d8\u06e6\u06eb\u06d7\u06e0\u06df\u06e1\u06d8\u06d7\u06e1\u06e6\u06ec\u06df\u06e8\u06da\u06e8\u06e1\u06eb\u06d8\u06e6\u06e1\u06e2\u06d6\u06d8\u06d7\u06db\u06dc\u06e5\u06e0\u06e8\u06d8\u06e8\u06d9\u06d7\u06df\u06d7\u06d8\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_15
-    iput-boolean v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->Q:Z
+    iput-boolean v2, p0, Lcom/example/drawingar/activity/CameraActivity;->Q:Z
 
     const-string/jumbo v0, "\u06e8\u06d7\u06d9\u06db\u06e1\u06e2\u06dc\u06dc\u06d8\u06da\u06e1\u06e4\u06e6\u06dc\u06e5\u06d6\u06eb\u06eb\u06df\u06e7\u06d8\u06d8\u06d9\u06e6\u06e7\u06d8\u06d6\u06e5\u06dc\u06e7\u06d6\u06d9\u06d8\u06d8\u06d6\u06d8\u06e0\u06e7\u06e7\u06dc\u06e6\u06e7\u06d8\u06e8\u06e1\u06e6\u06d8\u06e0\u06e6\u06dc\u06d9\u06e0\u06e8\u06e8\u06e8\u06dc\u06d8\u06eb\u06e0\u06d8"
 
@@ -11282,7 +11282,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic e0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;)V
+.method public static synthetic e0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06e5\u06da\u06df\u06d6\u06e5\u06d6\u06ec\u06d6\u06e1\u06d8\u06db\u06ec\u06e8\u06ec\u06d7\u06e6\u06e8\u06e8\u06d7\u06ec\u06e1\u06e8\u06d8\u06d7\u06e6\u06e8\u06d8\u06d6\u06d8\u06da\u06df\u06d7\u06df\u06e1\u06e4\u06e6\u06d8\u06db\u06dc\u06eb\u06d7\u06e5\u06e8\u06d8\u06dc\u06db\u06dc\u06ec\u06e0\u06db\u06e8\u06e5\u06dc\u06d8\u06e0\u06ec\u06dc\u06e4\u06dc\u06dc\u06d8\u06d9\u06e4\u06d7\u06d6\u06eb\u06e7\u06dc\u06df\u06e4\u06e8\u06df\u06e4\u06eb\u06e2\u06e7\u06e5\u06e5\u06d8"
@@ -11333,7 +11333,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->Z0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->Z0(Landroid/view/View;)V
 
     const-string v0, "\u06d8\u06e0\u06e2\u06e5\u06df\u06db\u06e7\u06e5\u06e6\u06d8\u06da\u06d6\u06dc\u06d8\u06db\u06dc\u06da\u06e7\u06da\u06e6\u06d8\u06e2\u06e6\u06e5\u06e5\u06d6\u06d8\u06d8\u06dc\u06e4\u06e7\u06d6\u06eb\u06e5\u06db\u06d6\u06e7\u06d8\u06db\u06dc\u06e5\u06e4\u06dc\u06df\u06e4\u06d8\u06d7\u06e8\u06e8\u06e5\u06ec\u06dc\u06e4\u06df\u06ec\u06e8\u06e2\u06e4\u06d6\u06e6\u06df\u06d8\u06db\u06e2\u06d7\u06e1\u06e0\u06e5\u06d8"
 
@@ -11351,7 +11351,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic f0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;Landroid/view/MotionEvent;)Z
+.method public static synthetic f0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 4
 
     const-string v0, "\u06d7\u06e2\u06e4\u06e7\u06e6\u06dc\u06e8\u06d8\u06e8\u06e2\u06e0\u06e8\u06e1\u06dc\u06e7\u06d6\u06d7\u06e8\u06d8\u06d9\u06e5\u06e0\u06eb\u06d6\u06dc\u06d8\u06df\u06df\u06d8\u06ec\u06e0\u06e7\u06d6\u06dc\u06d8\u06da\u06db\u06e5\u06d8\u06e5\u06e7\u06e6\u06d8\u06da\u06e0\u06db\u06dc\u06db\u06e6\u06d7\u06df\u06e1\u06d8\u06e5\u06e7\u06e1\u06d8\u06dc\u06e6\u06dc\u06e6\u06dc\u06e2\u06d7\u06e5\u06d6\u06d8\u06da\u06e6\u06dc\u06d8"
@@ -11407,7 +11407,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/djwiiqdnq;->F0(Landroid/view/View;Landroid/view/MotionEvent;)Z
+    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/CameraActivity;->F0(Landroid/view/View;Landroid/view/MotionEvent;)Z
 
     move-result v0
 
@@ -11422,7 +11422,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic g0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;)V
+.method public static synthetic g0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06dc\u06d8\u06d7\u06d7\u06d6\u06e1\u06df\u06e5\u06d9\u06d9\u06db\u06df\u06da\u06e6\u06e8\u06e6\u06eb\u06d7\u06eb\u06d9\u06ec\u06e1\u06d9\u06e7\u06df\u06e8\u06d8\u06e0\u06d8\u06e0\u06e2\u06d6\u06e7\u06d8\u06d7\u06dc\u06e4\u06d9\u06e7\u06ec\u06e8\u06e8\u06df\u06d6\u06e2\u06ec\u06e8\u06d6\u06da\u06e5\u06eb\u06e6\u06d8\u06dc\u06e4\u06da\u06da\u06d8\u06e5\u06d8\u06e0\u06d6\u06e1\u06d8\u06e7\u06e8\u06db"
@@ -11473,7 +11473,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->E0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->E0(Landroid/view/View;)V
 
     const-string v0, "\u06db\u06e1\u06eb\u06e8\u06d8\u06e2\u06df\u06e5\u06e7\u06d8\u06e6\u06e2\u06eb\u06e2\u06dc\u06dc\u06d6\u06dc\u06eb\u06d6\u06d6\u06db\u06dc\u06e6\u06e0\u06e0\u06e6\u06d7\u06eb\u06e2\u06e8\u06d8\u06e8\u06e1\u06da\u06ec\u06df\u06db\u06e5\u06d7\u06df\u06e8\u06db\u06dc\u06e1\u06d6\u06e7\u06d8\u06df\u06e4\u06e1\u06e2\u06d6\u06e0\u06d6\u06da\u06e4\u06df\u06d8\u06ec\u06db\u06e1\u06e7\u06e4\u06db\u06db\u06e1\u06d8\u06eb\u06eb\u06d7\u06df\u06ec\u06ec"
 
@@ -11493,7 +11493,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic h0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;)V
+.method public static synthetic h0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;)V
     .locals 4
 
     const-string/jumbo v0, "\u06e6\u06eb\u06d6\u06da\u06e5\u06d6\u06e7\u06d8\u06d9\u06ec\u06e1\u06da\u06d9\u06e0\u06e6\u06eb\u06e7\u06e5\u06e5\u06db\u06d8\u06ec\u06e5\u06d9\u06d6\u06d8\u06d6\u06eb\u06db\u06e7\u06e5\u06e1\u06e8\u06dc\u06d6\u06e5\u06dc\u06dc\u06d6\u06d9\u06db\u06df\u06e1\u06e7\u06e7\u06d7\u06da\u06df\u06da\u06e0\u06dc\u06db\u06e1"
@@ -11544,7 +11544,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->W0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->W0(Landroid/view/View;)V
 
     const-string v0, "\u06e0\u06d8\u06e5\u06d8\u06dc\u06e7\u06e5\u06e2\u06e1\u06d8\u06e1\u06e6\u06d6\u06e5\u06e5\u06eb\u06e1\u06e1\u06db\u06dc\u06e7\u06e6\u06e2\u06da\u06e6\u06e5\u06ec\u06da\u06d8\u06db\u06e1\u06d8\u06d8\u06d6\u06da\u06d7\u06ec\u06d6\u06d8\u06df\u06ec\u06e6\u06d8\u06d6\u06da\u06e5\u06d8\u06e6\u06e4\u06da\u06e1\u06e2\u06e4\u06d8\u06e4\u06d7\u06d9\u06e8\u06d8\u06e1\u06db\u06e2\u06d8\u06ec\u06e2\u06e0\u06e2\u06d8\u06da\u06ec\u06d6\u06e8\u06eb\u06e5\u06e1\u06e5\u06d6\u06ec\u06d8\u06e1\u06d8\u06e6\u06e7\u06e5\u06e7\u06ec\u06d7"
 
@@ -11562,7 +11562,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic i0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;Landroid/view/MotionEvent;)Z
+.method public static synthetic i0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 4
 
     const-string v0, "\u06e4\u06dc\u06e4\u06d6\u06d7\u06df\u06dc\u06e5\u06db\u06ec\u06e8\u06db\u06e7\u06da\u06d8\u06e7\u06d7\u06e2\u06ec\u06e1\u06d8\u06e6\u06e7\u06da\u06df\u06e6\u06e6\u06d8\u06e8\u06e5\u06e8\u06e5\u06e8\u06d6\u06d7\u06d8\u06ec\u06e6\u06df\u06d8\u06e7\u06df\u06e8\u06d8\u06e7\u06e7\u06d6\u06e7\u06dc\u06eb\u06e5\u06dc\u06eb\u06e1\u06d6\u06e8\u06dc\u06e5\u06e1\u06d8\u06d8\u06d9\u06d9\u06da\u06e6\u06db\u06d7\u06e0\u06d8\u06d9\u06e5\u06d9\u06d6\u06d8\u06e1\u06d8"
@@ -11618,7 +11618,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/djwiiqdnq;->c1(Landroid/view/View;Landroid/view/MotionEvent;)Z
+    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/CameraActivity;->c1(Landroid/view/View;Landroid/view/MotionEvent;)Z
 
     move-result v0
 
@@ -11633,7 +11633,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic j0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;)V
+.method public static synthetic j0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06d6\u06e1\u06da\u06e6\u06da\u06d6\u06d8\u06e8\u06d9\u06d6\u06e0\u06d6\u06dc\u06d8\u06da\u06e0\u06e4\u06d9\u06df\u06e0\u06d8\u06d7\u06d8\u06d8\u06d8\u06e8\u06e8\u06d8\u06d9\u06d9\u06e4\u06e6\u06e6\u06d8\u06d7\u06e4\u06d6\u06d8\u06d6\u06ec\u06d6\u06d8\u06dc\u06ec\u06d8\u06d8\u06ec\u06e1\u06e6\u06d8\u06e0\u06d6\u06da\u06e5\u06e6\u06e7\u06d8\u06e2\u06e1\u06d8\u06d8\u06e5\u06dc\u06e7\u06ec\u06e8\u06dc\u06d8\u06d8\u06e1\u06d7\u06d9\u06e7\u06d7\u06d6\u06e6\u06e0\u06d8\u06dc\u06d6\u06d8\u06ec\u06dc\u06e7\u06df\u06d8\u06d7\u06ec\u06e5\u06d8\u06e2\u06eb\u06d7"
@@ -11684,7 +11684,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->V0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->V0(Landroid/view/View;)V
 
     const-string v0, "\u06e2\u06e6\u06e0\u06ec\u06e0\u06ec\u06d9\u06e0\u06e5\u06e2\u06d6\u06df\u06e1\u06e7\u06df\u06e5\u06e1\u06d8\u06e4\u06d6\u06eb\u06e2\u06df\u06dc\u06e6\u06db\u06e4\u06d9\u06e5\u06dc\u06d8\u06d6\u06da\u06dc\u06d8\u06ec\u06d9\u06e5\u06d9\u06ec\u06d8\u06e0\u06df\u06e4\u06e8\u06d6\u06da"
 
@@ -11704,7 +11704,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic k0(Lcom/example/drawingar/activity/djwiiqdnq;Lx0;)V
+.method public static synthetic k0(Lcom/example/drawingar/activity/CameraActivity;Lx0;)V
     .locals 4
 
     const-string v0, "\u06e1\u06e6\u06df\u06e0\u06df\u06d7\u06d6\u06da\u06d7\u06e6\u06e8\u06ec\u06e6\u06ec\u06ec\u06e8\u06e2\u06d6\u06e2\u06e1\u06ec\u06e1\u06d7\u06d6\u06d8\u06dc\u06da\u06e1\u06e2\u06e1\u06e5\u06d8\u06e2\u06dc\u06e5\u06d8\u06df\u06e5\u06d6\u06d8\u06ec\u06d7\u06e7\u06e8\u06ec\u06e5\u06d8\u06e0\u06e2\u06d8\u06e6\u06e4\u06e5\u06d8\u06e0\u06e4\u06d8\u06d8\u06df\u06e8\u06eb"
@@ -11755,7 +11755,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->P0(Lx0;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->P0(Lx0;)V
 
     const-string v0, "\u06e5\u06db\u06d8\u06e0\u06d7\u06d7\u06d7\u06da\u06e1\u06d8\u06db\u06d9\u06d7\u06d7\u06e7\u06d8\u06d9\u06d8\u06e0\u06eb\u06d9\u06e2\u06ec\u06d7\u06d6\u06dc\u06e5\u06dc\u06d7\u06e6\u06e6\u06e0\u06df\u06eb\u06df\u06e7\u06e8\u06e8\u06da\u06d9\u06d9\u06e4\u06e5\u06e5\u06d8\u06e6\u06ec\u06e8\u06d8\u06d6\u06ec\u06eb\u06d6\u06e4\u06e6\u06d8\u06e4\u06d9\u06dc\u06d8\u06d6\u06e0\u06eb\u06e7\u06db\u06e8\u06d8"
 
@@ -11773,7 +11773,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic l0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;)V
+.method public static synthetic l0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06dc\u06d7\u06e1\u06e7\u06ec\u06dc\u06d8\u06db\u06d7\u06e7\u06d7\u06e0\u06d7\u06db\u06e5\u06dc\u06d8\u06e1\u06d7\u06da\u06e7\u06dc\u06d7\u06e0\u06e4\u06dc\u06d9\u06d6\u06d9\u06dc\u06e6\u06d9\u06e0\u06da\u06d8\u06d8\u06e0\u06dc\u06d8\u06db\u06dc\u06ec\u06df\u06d6\u06e5\u06da\u06eb\u06d8\u06e2\u06d6\u06d7\u06d9\u06e8\u06e1\u06e8\u06d8\u06e6\u06d6\u06e1\u06d8\u06da\u06eb\u06eb\u06e6\u06e8\u06da\u06eb\u06d9\u06d9\u06e7\u06db\u06e8\u06e0\u06ec\u06df\u06e5\u06e1\u06d6\u06d8\u06dc\u06df\u06d8\u06d8\u06ec\u06e1\u06e6\u06d8"
@@ -11824,7 +11824,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->X0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->X0(Landroid/view/View;)V
 
     const-string v0, "\u06d9\u06d8\u06da\u06e6\u06e4\u06e0\u06eb\u06e8\u06da\u06d7\u06ec\u06e1\u06d8\u06e6\u06e6\u06e8\u06d8\u06e4\u06e7\u06df\u06e6\u06d9\u06e5\u06e2\u06d7\u06d7\u06da\u06da\u06e5\u06d8\u06e0\u06d7\u06dc\u06d8\u06d8\u06db\u06d6\u06ec\u06eb\u06eb\u06e5\u06eb\u06d8\u06d8\u06d8\u06e0\u06e2\u06e4\u06e2\u06d6\u06d8\u06e1\u06eb\u06e8\u06d9\u06d7\u06e1\u06d8\u06da\u06e8\u06e1\u06d8\u06d7\u06dc\u06d7\u06d7\u06e1\u06e1\u06d8\u06da\u06e1\u06e7\u06d8\u06e1\u06e1\u06e0\u06e7\u06d9\u06e1\u06e6\u06eb\u06dc\u06d8\u06e5\u06e4\u06eb\u06df\u06eb\u06dc\u06d8\u06ec\u06df\u06e0"
 
@@ -11900,7 +11900,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-static {p0, p1, p2}, Lcom/example/drawingar/activity/djwiiqdnq;->H0(Ljava/io/File;[BLt70;)V
+    invoke-static {p0, p1, p2}, Lcom/example/drawingar/activity/CameraActivity;->H0(Ljava/io/File;[BLt70;)V
 
     const-string/jumbo v0, "\u06e7\u06e5\u06db\u06e5\u06d7\u06eb\u06e6\u06dc\u06e1\u06e1\u06e1\u06d7\u06e8\u06d7\u06dc\u06d8\u06e1\u06d8\u06dc\u06d8\u06e6\u06e6\u06d6\u06da\u06ec\u06e4\u06e8\u06d8\u06ec\u06e8\u06e1\u06d8\u06d9\u06d9\u06e6\u06d8\u06db\u06e6\u06d8\u06e2\u06e7\u06d8\u06d8\u06e8\u06d7\u06e6\u06e2\u06d8\u06e6"
 
@@ -11919,7 +11919,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic n0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;)V
+.method public static synthetic n0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;)V
     .locals 4
 
     const-string/jumbo v0, "\u06e7\u06df\u06df\u06e0\u06d6\u06e1\u06d7\u06e2\u06d8\u06d8\u06e4\u06db\u06d8\u06d8\u06e6\u06e1\u06e1\u06da\u06e7\u06e4\u06d6\u06e6\u06e4\u06e2\u06ec\u06e5\u06e0\u06d8\u06d8\u06dc\u06e7\u06e1\u06d8\u06ec\u06e6\u06e8\u06d8\u06e7\u06da\u06eb\u06e8\u06db\u06dc\u06e6\u06e7\u06e4\u06d9\u06d8\u06df\u06da\u06e2\u06d6\u06e5\u06d8\u06d6\u06d8\u06eb\u06d7\u06e2\u06d8\u06d8\u06eb\u06e5\u06da\u06e0\u06d8\u06d7\u06e8\u06ec\u06df\u06dc\u06e2\u06d8\u06d8\u06d7\u06e4\u06e7\u06e0\u06d9\u06e8\u06da\u06eb\u06e6\u06d8\u06e1\u06e7\u06e5\u06d8"
@@ -11970,7 +11970,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->Y0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->Y0(Landroid/view/View;)V
 
     const-string v0, "\u06da\u06df\u06eb\u06e6\u06d7\u06e2\u06eb\u06d8\u06d8\u06d8\u06e4\u06e1\u06e6\u06d8\u06d8\u06e2\u06e4\u06d8\u06e7\u06d8\u06d8\u06d8\u06e1\u06e0\u06e7\u06e6\u06e1\u06e1\u06e5\u06e1\u06e0\u06d6\u06d8\u06e2\u06ec\u06e0\u06db\u06e5\u06ec\u06d7\u06d6\u06e8\u06e5\u06da\u06e7\u06d6\u06e0\u06dc\u06e0\u06e5\u06e6\u06e5\u06d6\u06e1\u06e2\u06e7\u06e1\u06d7\u06e8\u06d8\u06e7\u06df\u06d9\u06d6\u06d7\u06e2\u06e6\u06d6\u06db\u06dc\u06d9\u06db\u06e4\u06d7\u06e1\u06d8\u06df\u06d9\u06ec\u06da\u06eb\u06e8\u06d8\u06e5\u06e6\u06e6\u06d8"
 
@@ -11988,7 +11988,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic o0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;)V
+.method public static synthetic o0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06d7\u06d9\u06d7\u06dc\u06da\u06d8\u06e6\u06da\u06e1\u06e7\u06da\u06da\u06e1\u06e0\u06e4\u06d7\u06e0\u06e0\u06e2\u06e8\u06d8\u06e2\u06dc\u06d8\u06e5\u06da\u06d8\u06d8\u06d9\u06da\u06d6\u06d8\u06d6\u06e8\u06d8\u06e4\u06e8\u06e1\u06e6\u06dc\u06e2\u06e5\u06d6\u06e5\u06e5\u06e7\u06e8"
@@ -12039,7 +12039,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->O0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->O0(Landroid/view/View;)V
 
     const-string v0, "\u06e4\u06d8\u06dc\u06d8\u06d7\u06dc\u06dc\u06d8\u06db\u06e7\u06da\u06e0\u06e6\u06db\u06e1\u06e8\u06e6\u06e7\u06e8\u06db\u06db\u06eb\u06df\u06e5\u06e4\u06dc\u06d8\u06eb\u06d8\u06e7\u06d6\u06e5\u06e7\u06d8\u06eb\u06e0\u06d8\u06d6\u06d8\u06d8\u06da\u06e0\u06e8\u06d8\u06dc\u06d9\u06d7\u06e2\u06e5\u06e5\u06e0\u06d9\u06e8\u06dc\u06e4\u06dc\u06e0\u06d9\u06dc\u06e1\u06d9\u06e6\u06d8\u06df\u06e4\u06e7\u06d6\u06e4\u06e6\u06d8"
 
@@ -12103,7 +12103,7 @@
     goto :goto_0
 
     :sswitch_1
-    invoke-static {p0}, Lcom/example/drawingar/activity/djwiiqdnq;->J0(Ljava/lang/Throwable;)V
+    invoke-static {p0}, Lcom/example/drawingar/activity/CameraActivity;->J0(Ljava/lang/Throwable;)V
 
     const-string/jumbo v0, "\u06e8\u06e7\u06eb\u06ec\u06e0\u06d8\u06dc\u06d7\u06d8\u06d8\u06d8\u06d8\u06e7\u06e7\u06e5\u06e5\u06d8\u06dc\u06d8\u06d9\u06d8\u06e4\u06d8\u06e8\u06d7\u06da\u06dc\u06d8\u06e0\u06db\u06eb\u06dc\u06d8\u06db\u06d8\u06e7\u06d8\u06e4\u06d8\u06d8\u06d8\u06df\u06da\u06e5\u06df\u06e7\u06ec\u06df\u06d7\u06df\u06d6\u06d6\u06eb\u06eb\u06e4\u06e2\u06e1\u06eb\u06e8\u06dc\u06d8\u06d9\u06eb\u06e5\u06da\u06eb\u06e7"
 
@@ -12122,7 +12122,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic q0(Lcom/example/drawingar/activity/djwiiqdnq;Lx0;)V
+.method public static synthetic q0(Lcom/example/drawingar/activity/CameraActivity;Lx0;)V
     .locals 4
 
     const-string/jumbo v0, "\u06e7\u06eb\u06ec\u06dc\u06e6\u06dc\u06e7\u06dc\u06d7\u06e5\u06e4\u06dc\u06d8\u06d8\u06e6\u06d8\u06d8\u06e0\u06d7\u06e1\u06e2\u06d7\u06da\u06ec\u06ec\u06e8\u06d8\u06e4\u06db\u06dc\u06d8\u06d9\u06d7\u06ec\u06e8\u06e6\u06e6\u06d6\u06eb\u06e0\u06e5\u06db\u06e4\u06e1\u06db\u06dc\u06d7\u06ec\u06d9\u06df\u06d8\u06dc\u06d8\u06dc\u06e0\u06db\u06dc\u06e6\u06e6\u06dc\u06d6\u06eb\u06db\u06d8\u06e4\u06eb\u06d9\u06eb\u06eb\u06df\u06df\u06dc\u06dc\u06d8\u06d8\u06df\u06e6"
@@ -12173,7 +12173,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->U0(Lx0;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->U0(Lx0;)V
 
     const-string/jumbo v0, "\u06e6\u06ec\u06e7\u06d6\u06dc\u06e2\u06eb\u06e6\u06e6\u06e5\u06e5\u06dc\u06dc\u06e1\u06df\u06e6\u06eb\u06e0\u06e2\u06db\u06d8\u06df\u06e6\u06d8\u06d8\u06df\u06d8\u06ec\u06e8\u06e5\u06e0\u06d9\u06e0\u06ec\u06d8\u06e7\u06e5\u06ec\u06e4\u06e1\u06e1\u06e7\u06d8\u06db\u06e0"
 
@@ -12193,7 +12193,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic r0(Lcom/example/drawingar/activity/djwiiqdnq;Ljava/io/File;Landroid/hardware/Camera;Ljava/lang/Integer;)V
+.method public static synthetic r0(Lcom/example/drawingar/activity/CameraActivity;Ljava/io/File;Landroid/hardware/Camera;Ljava/lang/Integer;)V
     .locals 4
 
     const-string/jumbo v0, "\u06e6\u06e6\u06d8\u06e4\u06dc\u06d7\u06d6\u06eb\u06df\u06d6\u06e8\u06e8\u06d8\u06e5\u06e1\u06d8\u06d8\u06d9\u06d7\u06e5\u06df\u06e0\u06e6\u06df\u06e7\u06e7\u06d9\u06e6\u06ec\u06db\u06d6\u06e5\u06d8\u06d6\u06e4\u06da\u06dc\u06da\u06e0\u06d8\u06db\u06dc\u06d9\u06e7\u06da\u06e6\u06ec\u06e8\u06d8"
@@ -12254,7 +12254,7 @@
     goto :goto_0
 
     :sswitch_4
-    invoke-direct {p0, p1, p2, p3}, Lcom/example/drawingar/activity/djwiiqdnq;->I0(Ljava/io/File;Landroid/hardware/Camera;Ljava/lang/Integer;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/example/drawingar/activity/CameraActivity;->I0(Ljava/io/File;Landroid/hardware/Camera;Ljava/lang/Integer;)V
 
     const-string v0, "\u06dc\u06e2\u06e0\u06db\u06d7\u06e6\u06d8\u06db\u06e4\u06e2\u06d6\u06d9\u06d6\u06d8\u06d9\u06e1\u06d8\u06d8\u06db\u06e5\u06e7\u06e7\u06e2\u06e6\u06da\u06d7\u06e8\u06e0\u06e5\u06d9\u06e5\u06df\u06df\u06e7\u06e8\u06d6\u06d8\u06db\u06e0\u06d6\u06d8\u06d9\u06e2\u06db\u06e4\u06da\u06db\u06e8\u06e6\u06e1\u06d8\u06e6\u06d7\u06d8\u06e0\u06ec\u06e6\u06d8\u06df\u06dc\u06d8\u06d8\u06d8\u06eb\u06eb\u06e2\u06e8\u06d8\u06d7\u06e5\u06eb"
 
@@ -12274,7 +12274,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic s0(Lcom/example/drawingar/activity/djwiiqdnq;Lx0;)V
+.method public static synthetic s0(Lcom/example/drawingar/activity/CameraActivity;Lx0;)V
     .locals 4
 
     const-string v0, "\u06e4\u06d9\u06e0\u06e5\u06d8\u06ec\u06e1\u06e8\u06d6\u06e1\u06e5\u06e4\u06da\u06e7\u06db\u06ec\u06db\u06e6\u06d6\u06db\u06d9\u06e0\u06e5\u06d9\u06e4\u06df\u06d6\u06d9\u06e2\u06dc\u06e5\u06d6\u06d9\u06e1\u06e8\u06d8\u06db\u06e0\u06df\u06e4\u06d9\u06e1\u06d8\u06e5\u06e2\u06d6\u06d7\u06ec\u06e5\u06d8\u06e5\u06e8\u06d8\u06e2\u06e1\u06e8"
@@ -12325,7 +12325,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->S0(Lx0;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->S0(Lx0;)V
 
     const-string v0, "\u06e0\u06e5\u06d9\u06db\u06d9\u06e2\u06e5\u06d9\u06df\u06e1\u06eb\u06e8\u06d6\u06e7\u06d6\u06d8\u06e0\u06d6\u06d9\u06ec\u06eb\u06d8\u06e0\u06e5\u06df\u06e0\u06eb\u06eb\u06e7\u06e2\u06e7\u06eb\u06e0\u06ec\u06eb\u06df\u06ec\u06e0\u06dc\u06d9\u06e7\u06d9\u06e8\u06ec\u06d8\u06e7\u06e8\u06e7\u06e4\u06d7\u06e2\u06ec\u06e6\u06e1\u06e5\u06d8\u06e4\u06e5\u06d6\u06d8\u06ec\u06d8\u06e5\u06e4\u06dc\u06e7\u06d8\u06dc\u06e6\u06d8\u06e2\u06db\u06e4\u06db\u06e2\u06eb\u06e4\u06e8\u06e8\u06e5\u06eb\u06eb\u06eb\u06e5"
 
@@ -12343,7 +12343,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic t0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;)V
+.method public static synthetic t0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06e4\u06dc\u06e1\u06d6\u06dc\u06e1\u06d8\u06e4\u06da\u06e8\u06e8\u06e2\u06df\u06df\u06da\u06d6\u06d8\u06e2\u06e7\u06eb\u06d8\u06e7\u06da\u06e8\u06e7\u06e1\u06e2\u06eb\u06e1\u06e5\u06e0\u06e7\u06df\u06e4\u06d6\u06da\u06e0\u06e1\u06d9\u06dc\u06d8\u06eb\u06dc\u06d6\u06e7\u06e7\u06d8\u06e5\u06e1\u06d8\u06eb\u06e0\u06dc\u06e2\u06e7\u06dc\u06d8\u06db\u06e2\u06db\u06da\u06e5\u06e7\u06e1\u06d8\u06ec\u06d6\u06d8\u06e5\u06d8\u06d7\u06d8\u06d8\u06eb\u06d9\u06d8\u06d8"
@@ -12394,7 +12394,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->d1(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->d1(Landroid/view/View;)V
 
     const-string v0, "\u06db\u06d9\u06d8\u06d6\u06d8\u06d9\u06d7\u06e0\u06d6\u06df\u06eb\u06e5\u06d8\u06d9\u06e7\u06da\u06e1\u06d8\u06d6\u06df\u06d8\u06d8\u06d6\u06e2\u06d6\u06d8\u06e5\u06db\u06d7\u06e0\u06e1\u06d7\u06e0\u06e4\u06e0\u06da\u06da\u06e4\u06d9\u06df\u06d6\u06d8\u06e5\u06e5\u06e6\u06d8\u06d6\u06eb\u06d8\u06d8"
 
@@ -12412,7 +12412,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic u0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;)V
+.method public static synthetic u0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06e1\u06d8\u06e8\u06e2\u06db\u06e1\u06d8\u06db\u06dc\u06e5\u06d8\u06e2\u06d7\u06dc\u06d8\u06dc\u06e8\u06e8\u06e2\u06e1\u06e7\u06e8\u06dc\u06d6\u06db\u06eb\u06d7\u06e0\u06e0\u06e6\u06d8\u06d9\u06dc\u06d9\u06d8\u06da\u06e2\u06dc\u06df\u06e5\u06d8\u06d7\u06eb\u06dc\u06e5\u06e0\u06d6\u06e7\u06d9\u06db\u06db\u06d8\u06e5\u06e1\u06e6\u06df\u06e5\u06e6\u06e1\u06d8"
@@ -12463,7 +12463,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->N0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->N0(Landroid/view/View;)V
 
     const-string v0, "\u06d8\u06e7\u06e4\u06e7\u06e8\u06db\u06d8\u06d9\u06e8\u06db\u06ec\u06da\u06d7\u06d9\u06eb\u06e5\u06e7\u06e1\u06d8\u06d9\u06ec\u06d8\u06d8\u06d6\u06e2\u06e6\u06d8\u06e1\u06eb\u06d7\u06ec\u06e5\u06e8\u06d8\u06d6\u06ec\u06e4\u06da\u06e7\u06d8\u06d8\u06e4\u06da\u06df\u06e7\u06dc\u06e7\u06ec\u06df\u06e7\u06d9\u06eb\u06df\u06e0\u06e8\u06d8\u06e4\u06e6\u06ec"
 
@@ -12481,7 +12481,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic v0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;)V
+.method public static synthetic v0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06e5\u06e7\u06e7\u06df\u06d9\u06ec\u06d8\u06e1\u06e7\u06d8\u06da\u06d7\u06d7\u06e5\u06e1\u06d6\u06e8\u06db\u06dc\u06d8\u06da\u06e8\u06da\u06d8\u06e4\u06d8\u06d8\u06da\u06d8\u06df\u06df\u06e0\u06e7\u06e1\u06e7\u06d8\u06e8\u06d9\u06e4\u06e4\u06e1\u06e0\u06d6\u06ec\u06e7\u06d8\u06db\u06e8\u06d8\u06da\u06d9\u06d6\u06e7\u06d9\u06d6\u06dc\u06e1\u06d8"
@@ -12532,7 +12532,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->R0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->R0(Landroid/view/View;)V
 
     const-string v0, "\u06e1\u06db\u06e1\u06e2\u06d6\u06d8\u06e7\u06d6\u06e7\u06d8\u06d7\u06ec\u06da\u06d9\u06d9\u06e4\u06da\u06da\u06e6\u06d8\u06d6\u06dc\u06d8\u06e4\u06e0\u06e0\u06df\u06d7\u06d6\u06e8\u06d6\u06e7\u06d8\u06e1\u06e0\u06d9\u06d9\u06e2\u06eb\u06d7\u06e2\u06d9\u06e2\u06d6\u06e6\u06d8\u06d7\u06d9\u06d8\u06d8"
 
@@ -12552,7 +12552,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic w0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;)V
+.method public static synthetic w0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;)V
     .locals 4
 
     const-string/jumbo v0, "\u06e8\u06e1\u06e7\u06e5\u06db\u06e2\u06da\u06e1\u06d7\u06e0\u06db\u06d9\u06dc\u06e4\u06e1\u06d8\u06e6\u06d8\u06ec\u06da\u06d8\u06dc\u06d9\u06d8\u06d8\u06e4\u06d9\u06d6\u06e8\u06eb\u06e1\u06e2\u06d9\u06e4\u06ec\u06d9\u06e7\u06df\u06eb\u06db\u06db\u06ec\u06d6\u06d8\u06d8\u06db\u06e8\u06d8\u06e4\u06d9\u06d7\u06eb\u06d7\u06e1\u06d8\u06e1\u06d6\u06e2"
@@ -12603,7 +12603,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->b1(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->b1(Landroid/view/View;)V
 
     const-string v0, "\u06db\u06e5\u06dc\u06d9\u06d8\u06db\u06e8\u06e6\u06e8\u06d8\u06d7\u06d6\u06e2\u06e5\u06d9\u06d7\u06d6\u06d8\u06e2\u06dc\u06e8\u06e2\u06ec\u06d6\u06ec\u06d7\u06eb\u06e4\u06e5\u06e6\u06da\u06d8\u06e0\u06e6\u06d7\u06d9\u06e8\u06eb\u06e5\u06e5\u06d8\u06e1\u06e8\u06ec\u06d6"
 
@@ -12621,7 +12621,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic x0(Lcom/example/drawingar/activity/djwiiqdnq;Landroid/view/View;)V
+.method public static synthetic x0(Lcom/example/drawingar/activity/CameraActivity;Landroid/view/View;)V
     .locals 4
 
     const-string/jumbo v0, "\u06e7\u06d8\u06df\u06e0\u06d7\u06e8\u06d7\u06d6\u06e1\u06eb\u06da\u06e6\u06da\u06e0\u06eb\u06dc\u06e5\u06e5\u06e6\u06d9\u06e6\u06eb\u06e6\u06db\u06d7\u06e0\u06e5\u06e4\u06e8\u06e7\u06d8\u06dc\u06e0\u06e1\u06e8\u06e7\u06db\u06d7\u06ec\u06df\u06e5\u06e0\u06df\u06eb\u06db\u06db\u06dc\u06e0\u06d8\u06d8\u06e1\u06d8\u06e8\u06da\u06df\u06d8\u06d8\u06e4\u06dc\u06dc\u06d8\u06eb\u06db\u06e4\u06d8\u06d7\u06e5\u06d8"
@@ -12672,7 +12672,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/djwiiqdnq;->L0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/CameraActivity;->L0(Landroid/view/View;)V
 
     const-string/jumbo v0, "\u06e7\u06e4\u06e0\u06dc\u06e8\u06d7\u06e0\u06e1\u06e5\u06d6\u06d8\u06da\u06d7\u06e5\u06d8\u06dc\u06da\u06e2\u06e6\u06e7\u06e7\u06df\u06d8\u06eb\u06dc\u06db\u06e5\u06d6\u06ec\u06e8\u06eb\u06e6\u06d8\u06eb\u06e8\u06e0\u06da\u06eb\u06e1\u06d8\u06e0\u06e1\u06da\u06e4\u06e2\u06d6\u06dc\u06e8\u06d8\u06d9\u06e8\u06d8\u06d6\u06df\u06e1\u06d8\u06d8\u06e2\u06e6\u06d8\u06d9\u06e8\u06d7\u06dc\u06d8\u06da\u06df\u06d7\u06d7\u06ec\u06d9\u06df\u06e8\u06d9\u06d6\u06d8"
 
@@ -12690,7 +12690,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic y0(Lcom/example/drawingar/activity/djwiiqdnq;)V
+.method public static synthetic y0(Lcom/example/drawingar/activity/CameraActivity;)V
     .locals 4
 
     const-string v0, "\u06d6\u06dc\u06e8\u06d8\u06e5\u06e2\u06e1\u06e2\u06d7\u06e7\u06d7\u06e4\u06e8\u06d8\u06ec\u06d7\u06e4\u06e7\u06dc\u06d7\u06db\u06e8\u06d8\u06d7\u06d9\u06e8\u06d8\u06ec\u06e7\u06dc\u06d8\u06e0\u06e5\u06e4\u06e0\u06eb\u06e6\u06d8\u06e4\u06d7\u06d8\u06d8\u06df\u06e0\u06e1\u06e4\u06e1\u06e4\u06d6\u06eb\u06df\u06eb\u06e0\u06e6\u06da\u06e4\u06d6\u06db\u06e2\u06da"
@@ -12736,7 +12736,7 @@
     goto :goto_0
 
     :sswitch_1
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/djwiiqdnq;->f1()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/CameraActivity;->f1()V
 
     const-string v0, "\u06da\u06e5\u06e1\u06d8\u06eb\u06d8\u06d8\u06d8\u06db\u06db\u06eb\u06e0\u06e4\u06e4\u06d6\u06e8\u06e5\u06dc\u06da\u06e0\u06db\u06d6\u06e5\u06e8\u06eb\u06eb\u06e2\u06e7\u06e0\u06d7\u06d7\u06dc\u06e8\u06d6\u06d6\u06d8\u06da\u06e2\u06e7\u06e2\u06eb\u06d7\u06d8\u06e1\u06e5\u06e5\u06e5\u06e1\u06e8\u06d7\u06eb\u06d8\u06e6\u06db\u06ec\u06e8\u06d9\u06e7\u06df\u06e7\u06e8\u06e0\u06e6\u06e4\u06d9\u06db\u06e2\u06d6\u06d8\u06d9\u06d9\u06db\u06d6\u06d9\u06d7"
 
@@ -13182,11 +13182,11 @@
     goto :goto_4
 
     :sswitch_1f
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
-    new-instance v4, Lcom/example/drawingar/activity/djwiiqdnq$d;
+    new-instance v4, Lcom/example/drawingar/activity/CameraActivity$d;
 
-    invoke-direct {v4, p0}, Lcom/example/drawingar/activity/djwiiqdnq$d;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v4, p0}, Lcom/example/drawingar/activity/CameraActivity$d;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v4}, Landroid/hardware/Camera;->autoFocus(Landroid/hardware/Camera$AutoFocusCallback;)V
 
@@ -13358,7 +13358,7 @@
     goto :goto_0
 
     :sswitch_5
-    invoke-virtual/range {p0 .. p1}, Lcom/example/drawingar/activity/djwiiqdnq;->A0(Landroid/view/MotionEvent;)F
+    invoke-virtual/range {p0 .. p1}, Lcom/example/drawingar/activity/CameraActivity;->A0(Landroid/view/MotionEvent;)F
 
     move-result v9
 
@@ -13367,7 +13367,7 @@
     goto :goto_0
 
     :sswitch_6
-    iget v8, p0, Lcom/example/drawingar/activity/djwiiqdnq;->n0:F
+    iget v8, p0, Lcom/example/drawingar/activity/CameraActivity;->n0:F
 
     const-string v1, "\u06d7\u06d7\u06ec\u06e2\u06eb\u06d9\u06e5\u06e5\u06e2\u06e8\u06d6\u06eb\u06e6\u06d7\u06e6\u06e1\u06e0\u06df\u06e4\u06e8\u06e4\u06ec\u06e2\u06da\u06db\u06e5\u06e2\u06df\u06db\u06da\u06e8\u06d8\u06dc\u06d7\u06d7\u06da\u06e0\u06e4\u06d6\u06e1\u06da\u06e1\u06e7\u06dc\u06df\u06db\u06da\u06e5\u06e8\u06d9\u06e2\u06d6\u06ec\u06d8\u06e0\u06e2\u06db\u06d8\u06e5\u06d8\u06df\u06d7\u06d8\u06d8"
 
@@ -13836,7 +13836,7 @@
     goto/16 :goto_0
 
     :sswitch_3f
-    iput v9, p0, Lcom/example/drawingar/activity/djwiiqdnq;->n0:F
+    iput v9, p0, Lcom/example/drawingar/activity/CameraActivity;->n0:F
 
     const-string/jumbo v1, "\u06eb\u06e1\u06eb\u06e2\u06dc\u06d9\u06d9\u06d8\u06da\u06df\u06e7\u06d6\u06e4\u06da\u06e5\u06e7\u06d7\u06e1\u06d8\u06eb\u06dc\u06e5\u06d8\u06e0\u06d6\u06da\u06ec\u06da\u06d6\u06d8\u06ec\u06e5\u06e1\u06d8\u06df\u06d8\u06dc\u06d8\u06e8\u06e6\u06e8\u06d8\u06e5\u06e2\u06e4\u06e8\u06e7\u06e5\u06d8\u06e6\u06e5\u06e7"
 
@@ -13928,7 +13928,7 @@
     goto/16 :goto_0
 
     :sswitch_49
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     move-object/from16 v0, p2
 
@@ -14156,7 +14156,7 @@
     goto :goto_2
 
     :sswitch_6
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     if-nez v0, :cond_0
 
@@ -14185,7 +14185,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
@@ -14195,7 +14195,7 @@
 
     invoke-virtual {v0, v1}, Landroid/hardware/Camera$Parameters;->setFlashMode(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
@@ -14205,13 +14205,13 @@
 
     invoke-virtual {v0, v1}, Landroid/hardware/Camera$Parameters;->setFocusMode(Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     invoke-virtual {v1, v0}, Landroid/hardware/Camera;->setParameters(Landroid/hardware/Camera$Parameters;)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->D:Lt8;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->D:Lt8;
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     const-string v2, "off"
 
@@ -14320,7 +14320,7 @@
     :sswitch_0
     new-instance v2, Lt8;
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     invoke-direct {v2, p0, v0}, Lt8;-><init>(Landroid/content/Context;Landroid/hardware/Camera;)V
 
@@ -14331,14 +14331,14 @@
     goto :goto_0
 
     :sswitch_1
-    iput-object v3, p0, Lcom/example/drawingar/activity/djwiiqdnq;->D:Lt8;
+    iput-object v3, p0, Lcom/example/drawingar/activity/CameraActivity;->D:Lt8;
 
     const-string v0, "\u06dc\u06e1\u06e8\u06e6\u06dc\u06e6\u06db\u06dc\u06d8\u06e1\u06df\u06d6\u06d7\u06e2\u06e6\u06d8\u06e0\u06da\u06e4\u06e1\u06e0\u06da\u06e4\u06e8\u06e1\u06d8\u06e8\u06e2\u06e7\u06e2\u06e0\u06db\u06e6\u06eb\u06d7\u06d8\u06d9\u06eb\u06e4\u06eb\u06d8\u06e8\u06df\u06e2"
 
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->t:Landroid/widget/LinearLayout;
 
@@ -14349,7 +14349,7 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->D:Lt8;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->D:Lt8;
 
     invoke-virtual {v0}, Landroid/view/SurfaceView;->getHolder()Landroid/view/SurfaceHolder;
 
@@ -14360,7 +14360,7 @@
     goto :goto_0
 
     :sswitch_4
-    iput-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->F:Landroid/view/SurfaceHolder;
+    iput-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->F:Landroid/view/SurfaceHolder;
 
     const-string/jumbo v0, "\u06e8\u06e7\u06d8\u06db\u06d8\u06e7\u06d8\u06d6\u06e2\u06db\u06e0\u06e4\u06ec\u06d8\u06d9\u06d8\u06da\u06e0\u06db\u06e5\u06e1\u06d7\u06e7\u06d6\u06d6\u06d8\u06e7\u06eb\u06df\u06db\u06db\u06d6\u06dc\u06da\u06e5\u06d9\u06e4\u06da\u06e0\u06e0\u06e8\u06e5\u06e4\u06e5\u06d8\u06ec\u06e2\u06d7\u06da\u06e4\u06e2\u06ec\u06d9\u06e6\u06e5\u06e8\u06dc\u06d8\u06dc\u06dc\u06e6\u06d8\u06d7\u06db\u06da\u06db\u06d9\u06e7\u06df\u06d9\u06dc\u06d8\u06e0\u06db\u06e6\u06d8\u06df\u06e7\u06e5\u06d8"
 
@@ -14374,7 +14374,7 @@
     goto :goto_0
 
     :sswitch_6
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->F:Landroid/view/SurfaceHolder;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->F:Landroid/view/SurfaceHolder;
 
     const/4 v2, 0x3
 
@@ -14395,7 +14395,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->e0:Landroid/view/animation/Animation;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->e0:Landroid/view/animation/Animation;
 
     const-string v0, "\u06e1\u06e7\u06eb\u06e0\u06d8\u06d8\u06d8\u06dc\u06e5\u06e2\u06eb\u06e6\u06da\u06db\u06e5\u06d6\u06d8\u06da\u06d7\u06dc\u06d8\u06d7\u06e7\u06db\u06eb\u06e7\u06e6\u06d6\u06d6\u06d8\u06e6\u06e7\u06e6\u06d8\u06e7\u06e5\u06d9\u06d6\u06da\u06d8\u06d9\u06e6\u06dc\u06d8\u06d9\u06dc\u06e8\u06e5\u06db\u06df\u06e2\u06e5\u06e6\u06d9\u06e2\u06dc\u06e6\u06e0\u06ec"
 
@@ -14412,7 +14412,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->f0:Landroid/view/animation/Animation;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->f0:Landroid/view/animation/Animation;
 
     const-string/jumbo v0, "\u06eb\u06d8\u06eb\u06d7\u06e1\u06e4\u06df\u06e5\u06d6\u06e5\u06e6\u06d6\u06d8\u06e2\u06d9\u06dc\u06e2\u06e1\u06e6\u06d8\u06e5\u06db\u06db\u06d8\u06e4\u06d9\u06e1\u06e1\u06db\u06dc\u06e1\u06d8\u06e8\u06e1\u06d8\u06d9\u06ec\u06e0\u06da\u06eb\u06e2\u06db\u06e6\u06e0\u06e7\u06e5\u06dc\u06d8\u06e4\u06e6\u06e1\u06e7\u06e5\u06d7\u06d7\u06da\u06e6\u06dc\u06d8\u06d9\u06d6\u06d9\u06e0\u06e8\u06e1\u06df\u06e7\u06e7\u06e4\u06e1\u06eb\u06df\u06e1\u06e5"
 
@@ -14423,7 +14423,7 @@
 
     invoke-direct {v0}, Landroid/media/MediaRecorder;-><init>()V
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->h0:Landroid/media/MediaRecorder;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->h0:Landroid/media/MediaRecorder;
 
     const-string/jumbo v0, "\u06ec\u06e6\u06e8\u06d8\u06e6\u06e5\u06e5\u06d8\u06da\u06db\u06d6\u06d8\u06e4\u06ec\u06d8\u06d8\u06e8\u06dc\u06d6\u06d8\u06e4\u06db\u06e8\u06d8\u06ec\u06d6\u06da\u06eb\u06db\u06e4\u06e7\u06e4\u06e6\u06eb\u06e2\u06e5\u06d8\u06d6\u06e6\u06db\u06df\u06e2\u06e7\u06e8\u06e7\u06e2\u06e8\u06d9\u06d6\u06d8\u06ec\u06d9\u06e2\u06e7\u06da\u06d6\u06db\u06d6\u06dc\u06d7\u06dc\u06d8\u06e6\u06e5\u06e1\u06d8\u06e4\u06e4\u06df\u06eb\u06db"
 
@@ -14440,7 +14440,7 @@
 
     move-result v0
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->I:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->I:Z
 
     const-string v0, "\u06e2\u06e8\u06da\u06dc\u06ec\u06e5\u06d8\u06e1\u06ec\u06e1\u06e5\u06ec\u06db\u06e2\u06e6\u06db\u06e4\u06d7\u06e5\u06d8\u06e0\u06df\u06e6\u06ec\u06e7\u06e4\u06e1\u06e0\u06eb\u06e8\u06d9\u06e0\u06e6\u06d6\u06e5\u06e7\u06d8\u06e5\u06d8\u06e6\u06df\u06d6\u06e8\u06d9\u06dc\u06e4\u06db\u06da"
 
@@ -14457,7 +14457,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->R:Ljava/lang/String;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->R:Ljava/lang/String;
 
     const-string v0, "\u06df\u06e5\u06d6\u06d8\u06d7\u06e1\u06dc\u06d8\u06e1\u06e1\u06dc\u06e2\u06ec\u06eb\u06eb\u06db\u06e4\u06d9\u06e4\u06e8\u06e6\u06eb\u06e8\u06d8\u06dc\u06e0\u06dc\u06e2\u06d7\u06e6\u06da\u06e7\u06dc\u06e0\u06ec\u06e0\u06dc\u06dc\u06e1\u06d8\u06e8\u06e5\u06d8\u06d8\u06ec\u06d9\u06e8\u06d8\u06eb\u06e1\u06d8\u06e7\u06d8\u06ec\u06e6\u06e7\u06e5\u06e8\u06df\u06d6\u06d8\u06db\u06d7\u06e5\u06d8\u06e4\u06e8\u06e7\u06d8"
 
@@ -14474,7 +14474,7 @@
 
     move-result v0
 
-    iput v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->V:I
+    iput v0, p0, Lcom/example/drawingar/activity/CameraActivity;->V:I
 
     const-string/jumbo v0, "\u06ec\u06d9\u06e1\u06e7\u06d7\u06d8\u06d8\u06ec\u06db\u06da\u06e0\u06da\u06e5\u06d8\u06dc\u06eb\u06d7\u06eb\u06dc\u06d7\u06d8\u06d9\u06e4\u06d8\u06da\u06d8\u06d8\u06e4\u06da\u06e8\u06da\u06eb\u06d7\u06e4\u06e4\u06e1\u06e0\u06d7\u06d6\u06d8\u06e8\u06e0\u06d9\u06da\u06d9\u06df\u06da\u06e6\u06e0\u06e0\u06db\u06e7\u06dc\u06d6\u06e4\u06e0\u06dc\u06d8"
 
@@ -14493,7 +14493,7 @@
 
     check-cast v0, Landroid/net/Uri;
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->b0:Landroid/net/Uri;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->b0:Landroid/net/Uri;
 
     const-string v0, "\u06db\u06da\u06df\u06e8\u06dc\u06d6\u06d8\u06e6\u06e7\u06e4\u06e1\u06e1\u06d8\u06db\u06e4\u06df\u06d7\u06eb\u06e2\u06e4\u06db\u06db\u06e2\u06e5\u06da\u06d9\u06dc\u06e0\u06eb\u06e7\u06d7\u06e8\u06d8\u06d9\u06da\u06d9\u06ec\u06e0\u06e8\u06d8\u06d7\u06eb\u06d8\u06e1\u06e5\u06e4\u06d7\u06e1\u06e1\u06dc\u06e5\u06e8\u06d8\u06e2\u06e4\u06e7\u06d8\u06e4\u06dc\u06d8\u06e4\u06e0\u06d8\u06dc\u06e7\u06da\u06ec\u06e0\u06e5\u06ec\u06e1\u06d8\u06d6\u06e7"
 
@@ -14510,14 +14510,14 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->S:Ljava/lang/String;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->S:Ljava/lang/String;
 
     const-string v0, "\u06e0\u06e4\u06eb\u06db\u06e6\u06d8\u06d8\u06e4\u06dc\u06e7\u06d8\u06dc\u06da\u06da\u06e2\u06e4\u06dc\u06d8\u06e7\u06e0\u06d8\u06d8\u06eb\u06e1\u06e8\u06e6\u06e1\u06d6\u06d8\u06e7\u06da\u06d7\u06e8\u06d6\u06d6\u06d8\u06e7\u06e5\u06e6\u06d8\u06dc\u06e5\u06e4\u06eb\u06da\u06d8\u06e8\u06e7\u06da\u06e1\u06d6\u06e5\u06e7\u06eb\u06e5\u06d8\u06e6\u06eb\u06e6\u06d8\u06dc\u06df\u06d8\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_f
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->R:Ljava/lang/String;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->R:Ljava/lang/String;
 
     invoke-static {v0}, Lqd;->a(Ljava/lang/String;)Ljava/lang/String;
 
@@ -14527,21 +14527,21 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->l0:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->l0:Ljava/util/ArrayList;
 
     const-string/jumbo v0, "\u06e6\u06e2\u06dc\u06d8\u06e0\u06e0\u06df\u06e4\u06e8\u06e2\u06dc\u06e7\u06db\u06e5\u06dc\u06dc\u06d6\u06d6\u06d8\u06ec\u06db\u06e6\u06d8\u06d6\u06e4\u06df\u06df\u06e4\u06e5\u06d8\u06e4\u06e5\u06eb\u06d6\u06e8\u06d8\u06d8\u06ec\u06eb\u06e6\u06d8\u06ec\u06eb\u06dc\u06eb\u06df\u06e1\u06d8\u06e6\u06d7\u06e5\u06d8\u06ec\u06dc\u06e6\u06d8\u06dc\u06d9\u06e2\u06d9\u06e4\u06e1\u06d8\u06db\u06d7\u06df\u06e1\u06df\u06e1\u06d7\u06ec\u06d6\u06db\u06e7\u06eb\u06db\u06e1\u06e2\u06e4\u06e6\u06e4\u06e7\u06eb\u06e7\u06e0\u06eb\u06d6\u06d7\u06dc\u06df"
 
     goto/16 :goto_0
 
     :sswitch_10
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/djwiiqdnq;->k1()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/CameraActivity;->k1()V
 
     const-string v0, "\u06dc\u06db\u06d6\u06d8\u06e6\u06e2\u06d9\u06d9\u06da\u06d6\u06db\u06db\u06e6\u06da\u06d9\u06e7\u06e7\u06e8\u06d8\u06d7\u06da\u06ec\u06e2\u06d9\u06ec\u06e6\u06e5\u06d8\u06e8\u06e1\u06d8\u06eb\u06e2\u06ec\u06dc\u06dc\u06d6\u06d8\u06d6\u06df\u06d8\u06df\u06eb\u06df\u06e4\u06e0\u06e0\u06e1\u06db\u06e5\u06d8\u06d7\u06d6\u06d6\u06e2\u06e6\u06e1\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_11
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -14552,7 +14552,7 @@
     goto/16 :goto_0
 
     :sswitch_12
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -14563,7 +14563,7 @@
     goto/16 :goto_0
 
     :sswitch_13
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -14751,7 +14751,7 @@
     goto :goto_0
 
     :sswitch_1
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->N:Landroid/widget/TextView;
 
@@ -14770,7 +14770,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->O:Landroid/widget/TextView;
 
@@ -14789,7 +14789,7 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->P:Landroid/widget/TextView;
 
@@ -14872,30 +14872,30 @@
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->i0:Landroid/os/Handler;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->i0:Landroid/os/Handler;
 
     const-string v0, "\u06e4\u06e7\u06e0\u06d6\u06e7\u06db\u06e1\u06e7\u06d8\u06d8\u06d9\u06d7\u06e6\u06d8\u06e8\u06e5\u06d9\u06d9\u06e0\u06e4\u06e2\u06da\u06e5\u06da\u06e7\u06e6\u06d8\u06da\u06e6\u06e5\u06d8\u06e4\u06e6\u06e2\u06d7\u06d8\u06d9\u06e8\u06e6\u06dc\u06d8\u06d8\u06d9\u06d6\u06d7\u06e2\u06e5\u06d9\u06e6\u06e7\u06d8\u06e1\u06e4\u06d6\u06e0\u06e6\u06e8\u06d8\u06d7\u06e8\u06e5\u06d8\u06e0\u06d8\u06dc\u06d8\u06e4\u06d7\u06df\u06e0\u06d8\u06e5\u06da\u06d6\u06e2\u06dc\u06ec\u06d6\u06d8\u06df\u06d6\u06e8\u06e5\u06d6\u06db\u06e4\u06df\u06d8\u06d8\u06df\u06d8"
 
     goto :goto_0
 
     :sswitch_2
-    new-instance v1, Lcom/example/drawingar/activity/djwiiqdnq$c;
+    new-instance v1, Lcom/example/drawingar/activity/CameraActivity$c;
 
-    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/djwiiqdnq$c;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/CameraActivity$c;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     const-string v0, "\u06e4\u06e6\u06e8\u06d8\u06d7\u06db\u06eb\u06d7\u06ec\u06e8\u06d8\u06ec\u06d9\u06d6\u06d8\u06e2\u06e2\u06dc\u06d9\u06d8\u06e8\u06d8\u06e1\u06d7\u06d9\u06d9\u06df\u06e6\u06d8\u06e5\u06d8\u06e0\u06d8\u06e7\u06e6\u06d8\u06eb\u06da\u06e1\u06d8\u06da\u06db\u06e1\u06eb\u06e4\u06dc\u06db\u06dc\u06ec\u06e6\u06dc\u06df"
 
     goto :goto_0
 
     :sswitch_3
-    iput-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->j0:Ljava/lang/Runnable;
+    iput-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->j0:Ljava/lang/Runnable;
 
     const-string/jumbo v0, "\u06e6\u06e4\u06da\u06eb\u06d8\u06e8\u06d8\u06da\u06ec\u06da\u06e2\u06e1\u06e6\u06d8\u06df\u06e8\u06dc\u06e2\u06e6\u06e1\u06d8\u06dc\u06e2\u06e5\u06e7\u06ec\u06e8\u06df\u06e4\u06e2\u06da\u06df\u06e2\u06d7\u06e8\u06d8\u06d7\u06dc\u06d6\u06e4\u06db\u06da\u06ec\u06e5\u06d6\u06e1\u06da\u06d7\u06e4\u06e7\u06db\u06db\u06d6\u06e7\u06d8\u06d7\u06da\u06d8\u06e5\u06e5\u06da\u06e5\u06d8\u06e1\u06d8\u06e0\u06d9\u06e0\u06dc\u06e8\u06d9\u06e5\u06db\u06e4\u06eb\u06d9\u06d8\u06e6\u06e6\u06d8\u06e4\u06e6\u06d9\u06dc\u06e7\u06d8"
 
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->i0:Landroid/os/Handler;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->i0:Landroid/os/Handler;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -14965,13 +14965,13 @@
     goto :goto_0
 
     :sswitch_1
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->s:Landroid/widget/ImageView;
 
-    new-instance v1, Lcom/example/drawingar/activity/djwiiqdnq$e;
+    new-instance v1, Lcom/example/drawingar/activity/CameraActivity$e;
 
-    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/djwiiqdnq$e;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/CameraActivity$e;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -14980,13 +14980,13 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->t:Landroid/widget/LinearLayout;
 
     new-instance v1, Lr8;
 
-    invoke-direct {v1, p0}, Lr8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lr8;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -14995,13 +14995,13 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->t:Landroid/widget/LinearLayout;
 
     new-instance v1, Lg8;
 
-    invoke-direct {v1, p0}, Lg8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lg8;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
@@ -15010,13 +15010,13 @@
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
     new-instance v1, Ld8;
 
-    invoke-direct {v1, p0}, Ld8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Ld8;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
@@ -15025,13 +15025,13 @@
     goto :goto_0
 
     :sswitch_5
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
-    new-instance v1, Lcom/example/drawingar/activity/djwiiqdnq$f;
+    new-instance v1, Lcom/example/drawingar/activity/CameraActivity$f;
 
-    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/djwiiqdnq$f;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/CameraActivity$f;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Lcom/example/drawingar/stickerlib/CustomStickerView;->C(Lcom/example/drawingar/stickerlib/CustomStickerView$b;)Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -15040,13 +15040,13 @@
     goto :goto_0
 
     :sswitch_6
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->g:Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
 
     new-instance v1, Lv7;
 
-    invoke-direct {v1, p0}, Lv7;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lv7;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -15055,13 +15055,13 @@
     goto :goto_0
 
     :sswitch_7
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->J:Landroid/widget/RelativeLayout;
 
     new-instance v1, Lw7;
 
-    invoke-direct {v1, p0}, Lw7;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lw7;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -15070,13 +15070,13 @@
     goto/16 :goto_0
 
     :sswitch_8
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->B:Landroid/widget/RelativeLayout;
 
     new-instance v1, Lq8;
 
-    invoke-direct {v1, p0}, Lq8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lq8;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -15085,13 +15085,13 @@
     goto/16 :goto_0
 
     :sswitch_9
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->p:Landroid/widget/SeekBar;
 
-    iget v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->Y:I
+    iget v1, p0, Lcom/example/drawingar/activity/CameraActivity;->Y:I
 
-    iget v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->X:I
+    iget v2, p0, Lcom/example/drawingar/activity/CameraActivity;->X:I
 
     sub-int/2addr v1, v2
 
@@ -15102,13 +15102,13 @@
     goto/16 :goto_0
 
     :sswitch_a
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->p:Landroid/widget/SeekBar;
 
-    new-instance v1, Lcom/example/drawingar/activity/djwiiqdnq$g;
+    new-instance v1, Lcom/example/drawingar/activity/CameraActivity$g;
 
-    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/djwiiqdnq$g;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/CameraActivity$g;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setOnSeekBarChangeListener(Landroid/widget/SeekBar$OnSeekBarChangeListener;)V
 
@@ -15117,7 +15117,7 @@
     goto/16 :goto_0
 
     :sswitch_b
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->L:Landroid/widget/SeekBar;
 
@@ -15130,7 +15130,7 @@
     goto/16 :goto_0
 
     :sswitch_c
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->L:Landroid/widget/SeekBar;
 
@@ -15143,13 +15143,13 @@
     goto/16 :goto_0
 
     :sswitch_d
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->L:Landroid/widget/SeekBar;
 
-    new-instance v1, Lcom/example/drawingar/activity/djwiiqdnq$h;
+    new-instance v1, Lcom/example/drawingar/activity/CameraActivity$h;
 
-    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/djwiiqdnq$h;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/CameraActivity$h;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setOnSeekBarChangeListener(Landroid/widget/SeekBar$OnSeekBarChangeListener;)V
 
@@ -15158,13 +15158,13 @@
     goto/16 :goto_0
 
     :sswitch_e
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->E:Landroid/widget/RelativeLayout;
 
     new-instance v1, Lf8;
 
-    invoke-direct {v1, p0}, Lf8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lf8;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
@@ -15173,13 +15173,13 @@
     goto/16 :goto_0
 
     :sswitch_f
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->E:Landroid/widget/RelativeLayout;
 
     new-instance v1, Lb8;
 
-    invoke-direct {v1, p0}, Lb8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lb8;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -15188,13 +15188,13 @@
     goto/16 :goto_0
 
     :sswitch_10
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->C:Landroid/widget/RelativeLayout;
 
     new-instance v1, Lh8;
 
-    invoke-direct {v1, p0}, Lh8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lh8;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
@@ -15203,13 +15203,13 @@
     goto/16 :goto_0
 
     :sswitch_11
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->C:Landroid/widget/RelativeLayout;
 
     new-instance v1, Ly7;
 
-    invoke-direct {v1, p0}, Ly7;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Ly7;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -15218,13 +15218,13 @@
     goto/16 :goto_0
 
     :sswitch_12
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->A:Landroid/widget/RelativeLayout;
 
     new-instance v1, Lc8;
 
-    invoke-direct {v1, p0}, Lc8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lc8;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -15233,13 +15233,13 @@
     goto/16 :goto_0
 
     :sswitch_13
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->D:Landroid/widget/RelativeLayout;
 
     new-instance v1, Lp8;
 
-    invoke-direct {v1, p0}, Lp8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lp8;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -15248,13 +15248,13 @@
     goto/16 :goto_0
 
     :sswitch_14
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->l:Landroid/widget/ImageView;
 
     new-instance v1, Lz7;
 
-    invoke-direct {v1, p0}, Lz7;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lz7;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -15263,13 +15263,13 @@
     goto/16 :goto_0
 
     :sswitch_15
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->K:Landroid/widget/RelativeLayout;
 
     new-instance v1, Lx7;
 
-    invoke-direct {v1, p0}, Lx7;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lx7;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -15278,13 +15278,13 @@
     goto/16 :goto_0
 
     :sswitch_16
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->i:Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
 
     new-instance v1, La8;
 
-    invoke-direct {v1, p0}, La8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, La8;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -15293,13 +15293,13 @@
     goto/16 :goto_0
 
     :sswitch_17
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->d:Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
 
     new-instance v1, Lo8;
 
-    invoke-direct {v1, p0}, Lo8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lo8;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -15308,13 +15308,13 @@
     goto/16 :goto_0
 
     :sswitch_18
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->f:Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
 
     new-instance v1, Lu7;
 
-    invoke-direct {v1, p0}, Lu7;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lu7;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -15323,13 +15323,13 @@
     goto/16 :goto_0
 
     :sswitch_19
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->I:Landroid/widget/RelativeLayout;
 
     new-instance v1, Ls8;
 
-    invoke-direct {v1, p0}, Ls8;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Ls8;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -15338,13 +15338,13 @@
     goto/16 :goto_0
 
     :sswitch_1a
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->c:Landroid/widget/LinearLayout;
 
-    new-instance v1, Lcom/example/drawingar/activity/djwiiqdnq$i;
+    new-instance v1, Lcom/example/drawingar/activity/CameraActivity$i;
 
-    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/djwiiqdnq$i;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/CameraActivity$i;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -15353,13 +15353,13 @@
     goto/16 :goto_0
 
     :sswitch_1b
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->e:Landroid/widget/LinearLayout;
 
-    new-instance v1, Lcom/example/drawingar/activity/djwiiqdnq$j;
+    new-instance v1, Lcom/example/drawingar/activity/CameraActivity$j;
 
-    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/djwiiqdnq$j;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/CameraActivity$j;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -15368,13 +15368,13 @@
     goto/16 :goto_0
 
     :sswitch_1c
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->h:Landroid/widget/LinearLayout;
 
-    new-instance v1, Lcom/example/drawingar/activity/djwiiqdnq$a;
+    new-instance v1, Lcom/example/drawingar/activity/CameraActivity$a;
 
-    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/djwiiqdnq$a;-><init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/CameraActivity$a;-><init>(Lcom/example/drawingar/activity/CameraActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -15430,7 +15430,7 @@
     const/4 v2, 0x0
 
     :try_start_0
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->b0:Landroid/net/Uri;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->b0:Landroid/net/Uri;
 
     const v3, 0x54fc1754
 
@@ -15560,16 +15560,16 @@
     :goto_4
     :sswitch_d
     :try_start_2
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->c0:Landroid/graphics/Bitmap;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->c0:Landroid/graphics/Bitmap;
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_1
 
     move-object v1, v0
 
     :goto_5
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->G:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->G:Ljava/util/HashMap;
 
-    iget-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v2, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v2, v2, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -15595,27 +15595,27 @@
 
     check-cast v0, Landroid/graphics/Bitmap;
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->c0:Landroid/graphics/Bitmap;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->c0:Landroid/graphics/Bitmap;
 
-    iget v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->Y:I
+    iget v0, p0, Lcom/example/drawingar/activity/CameraActivity;->Y:I
 
     div-int/lit8 v2, v0, 0x2
 
     sub-int/2addr v0, v2
 
-    iput v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->W:I
+    iput v0, p0, Lcom/example/drawingar/activity/CameraActivity;->W:I
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    iput v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->g0:F
+    iput v2, p0, Lcom/example/drawingar/activity/CameraActivity;->g0:F
 
-    iget-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v2, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v2, v2, Lk0;->p:Landroid/widget/SeekBar;
 
     invoke-virtual {v2, v0}, Landroid/widget/SeekBar;->setProgress(I)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->L:Landroid/widget/SeekBar;
 
@@ -15700,7 +15700,7 @@
     goto :goto_8
 
     :sswitch_15
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->I:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->I:Z
 
     if-eqz v0, :cond_1
 
@@ -15719,9 +15719,9 @@
     goto :goto_7
 
     :sswitch_18
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->l0:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->l0:Ljava/util/ArrayList;
 
-    iget v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->V:I
+    iget v1, p0, Lcom/example/drawingar/activity/CameraActivity;->V:I
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -15736,7 +15736,7 @@
     goto/16 :goto_4
 
     :sswitch_19
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->S:Ljava/lang/String;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->S:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/graphics/BitmapFactory;->decodeFile(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
@@ -15761,7 +15761,7 @@
 
     :sswitch_1a
     :try_start_4
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->S:Ljava/lang/String;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->S:Ljava/lang/String;
 
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -15922,7 +15922,7 @@
     goto :goto_e
 
     :sswitch_2a
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->S:Ljava/lang/String;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->S:Ljava/lang/String;
 
     if-nez v0, :cond_3
 
@@ -16108,7 +16108,7 @@
     goto :goto_15
 
     :sswitch_40
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->c0:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->c0:Landroid/graphics/Bitmap;
 
     if-eqz v0, :cond_5
 
@@ -16148,7 +16148,7 @@
 
     move-result-object v0
 
-    iget-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->c0:Landroid/graphics/Bitmap;
+    iget-object v2, p0, Lcom/example/drawingar/activity/CameraActivity;->c0:Landroid/graphics/Bitmap;
 
     invoke-direct {v1, v0, v2}, Landroid/graphics/drawable/BitmapDrawable;-><init>(Landroid/content/res/Resources;Landroid/graphics/Bitmap;)V
 
@@ -16225,7 +16225,7 @@
     goto :goto_18
 
     :sswitch_4c
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -16255,7 +16255,7 @@
     goto :goto_16
 
     :sswitch_50
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -16265,7 +16265,7 @@
 
     invoke-virtual {v0, v1}, Ltm0;->v(Landroid/graphics/drawable/Drawable;)Ltm0;
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -16273,11 +16273,11 @@
 
     move-result-object v0
 
-    iget v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->W:I
+    iget v1, p0, Lcom/example/drawingar/activity/CameraActivity;->W:I
 
     invoke-virtual {v0, v1}, Ltm0;->t(I)Ltm0;
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -16289,7 +16289,7 @@
 
     invoke-virtual {v0, v1}, Ltm0;->u(F)Ltm0;
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -16297,7 +16297,7 @@
 
     invoke-virtual {v0, v1}, Lcom/example/drawingar/stickerlib/CustomStickerView;->setBorder(Z)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -16549,7 +16549,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->q:Landroid/widget/ImageView;
 
@@ -16564,7 +16564,7 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->j:Landroid/widget/ImageView;
 
@@ -16579,7 +16579,7 @@
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->k:Landroid/widget/ImageView;
 
@@ -16594,7 +16594,7 @@
     goto :goto_0
 
     :sswitch_5
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->o:Landroid/widget/ImageView;
 
@@ -16773,7 +16773,7 @@
     .locals 6
 
     :try_start_0
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->b0:Landroid/net/Uri;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->b0:Landroid/net/Uri;
 
     const v2, 0x40847c23
 
@@ -16880,7 +16880,7 @@
     move-object v1, v0
 
     :goto_3
-    iput-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->c0:Landroid/graphics/Bitmap;
+    iput-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->c0:Landroid/graphics/Bitmap;
 
     const v2, -0x5dd39fd6
 
@@ -16981,7 +16981,7 @@
     goto :goto_7
 
     :sswitch_14
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->I:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->I:Z
 
     if-eqz v0, :cond_1
 
@@ -17000,9 +17000,9 @@
     goto :goto_6
 
     :sswitch_17
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->l0:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->l0:Ljava/util/ArrayList;
 
-    iget v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->V:I
+    iget v1, p0, Lcom/example/drawingar/activity/CameraActivity;->V:I
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -17019,7 +17019,7 @@
     goto :goto_3
 
     :sswitch_18
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->S:Ljava/lang/String;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->S:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/graphics/BitmapFactory;->decodeFile(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
@@ -17128,7 +17128,7 @@
 
     :sswitch_24
     :try_start_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->S:Ljava/lang/String;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->S:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -17200,7 +17200,7 @@
     goto :goto_c
 
     :sswitch_2b
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->S:Ljava/lang/String;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->S:Ljava/lang/String;
 
     if-nez v0, :cond_3
 
@@ -17343,7 +17343,7 @@
 
     invoke-direct {v0, v2, v1}, Landroid/graphics/drawable/BitmapDrawable;-><init>(Landroid/content/res/Resources;Landroid/graphics/Bitmap;)V
 
-    iget-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v2, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v2, v2, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -17353,9 +17353,9 @@
 
     invoke-virtual {v2, v3}, Lcom/example/drawingar/stickerlib/CustomStickerView;->a(Ltm0;)Lcom/example/drawingar/stickerlib/CustomStickerView;
 
-    iget-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->G:Ljava/util/HashMap;
+    iget-object v2, p0, Lcom/example/drawingar/activity/CameraActivity;->G:Ljava/util/HashMap;
 
-    iget-object v3, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v3, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v3, v3, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -17561,12 +17561,12 @@
 
     move-result-object v1
 
-    iput-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->T:Ljava/lang/String;
+    iput-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->T:Ljava/lang/String;
 
     :try_start_0
     new-instance v1, Ljava/io/FileOutputStream;
 
-    iget-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->T:Ljava/lang/String;
+    iget-object v2, p0, Lcom/example/drawingar/activity/CameraActivity;->T:Ljava/lang/String;
 
     invoke-direct {v1, v2}, Ljava/io/FileOutputStream;-><init>(Ljava/lang/String;)V
 
@@ -17889,7 +17889,7 @@
     goto :goto_0
 
     :sswitch_f
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->e0:Landroid/view/animation/Animation;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->e0:Landroid/view/animation/Animation;
 
     invoke-virtual {p1, v0}, Landroid/view/View;->startAnimation(Landroid/view/animation/Animation;)V
 
@@ -18353,7 +18353,7 @@
     goto :goto_0
 
     :sswitch_f
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->f0:Landroid/view/animation/Animation;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->f0:Landroid/view/animation/Animation;
 
     invoke-virtual {p1, v0}, Landroid/view/View;->startAnimation(Landroid/view/animation/Animation;)V
 
@@ -18659,7 +18659,7 @@
 
     const/4 v3, 0x1
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->unlock()V
 
@@ -18671,23 +18671,23 @@
 
     invoke-direct {v0}, Landroid/media/MediaRecorder;-><init>()V
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->h0:Landroid/media/MediaRecorder;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->h0:Landroid/media/MediaRecorder;
 
-    iget-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v2, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     invoke-virtual {v0, v2}, Landroid/media/MediaRecorder;->setCamera(Landroid/hardware/Camera;)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->h0:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->h0:Landroid/media/MediaRecorder;
 
     invoke-virtual {v0, v3}, Landroid/media/MediaRecorder;->setVideoSource(I)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->h0:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->h0:Landroid/media/MediaRecorder;
 
     iget v2, v1, Landroid/media/CamcorderProfile;->fileFormat:I
 
     invoke-virtual {v0, v2}, Landroid/media/MediaRecorder;->setOutputFormat(I)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->h0:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->h0:Landroid/media/MediaRecorder;
 
     iget v2, v1, Landroid/media/CamcorderProfile;->videoCodec:I
 
@@ -18719,13 +18719,13 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->U:Ljava/lang/String;
+    iput-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->U:Ljava/lang/String;
 
-    iget-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq;->h0:Landroid/media/MediaRecorder;
+    iget-object v2, p0, Lcom/example/drawingar/activity/CameraActivity;->h0:Landroid/media/MediaRecorder;
 
     invoke-virtual {v2, v0}, Landroid/media/MediaRecorder;->setOutputFile(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->h0:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->h0:Landroid/media/MediaRecorder;
 
     iget v2, v1, Landroid/media/CamcorderProfile;->videoFrameWidth:I
 
@@ -18733,7 +18733,7 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/media/MediaRecorder;->setVideoSize(II)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->h0:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->h0:Landroid/media/MediaRecorder;
 
     iget v2, v1, Landroid/media/CamcorderProfile;->videoFrameRate:I
 
@@ -18755,28 +18755,28 @@
     goto :goto_0
 
     :sswitch_0
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->h0:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->h0:Landroid/media/MediaRecorder;
 
     const-wide v2, 0x4031800000000000L    # 17.5
 
     invoke-virtual {v0, v2, v3}, Landroid/media/MediaRecorder;->setCaptureRate(D)V
 
     :sswitch_1
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->h0:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->h0:Landroid/media/MediaRecorder;
 
     iget v1, v1, Landroid/media/CamcorderProfile;->videoBitRate:I
 
     invoke-virtual {v0, v1}, Landroid/media/MediaRecorder;->setVideoEncodingBitRate(I)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->h0:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->h0:Landroid/media/MediaRecorder;
 
     const/16 v1, 0x5a
 
     invoke-virtual {v0, v1}, Landroid/media/MediaRecorder;->setOrientationHint(I)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->h0:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->h0:Landroid/media/MediaRecorder;
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->F:Landroid/view/SurfaceHolder;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->F:Landroid/view/SurfaceHolder;
 
     invoke-interface {v1}, Landroid/view/SurfaceHolder;->getSurface()Landroid/view/Surface;
 
@@ -18785,11 +18785,11 @@
     invoke-virtual {v0, v1}, Landroid/media/MediaRecorder;->setPreviewDisplay(Landroid/view/Surface;)V
 
     :try_start_0
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->h0:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->h0:Landroid/media/MediaRecorder;
 
     invoke-virtual {v0}, Landroid/media/MediaRecorder;->prepare()V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->h0:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->h0:Landroid/media/MediaRecorder;
 
     invoke-virtual {v0}, Landroid/media/MediaRecorder;->start()V
     :try_end_0
@@ -18852,7 +18852,7 @@
     goto :goto_3
 
     :sswitch_7
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->P:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->P:Z
 
     if-eqz v0, :cond_0
 
@@ -19040,7 +19040,7 @@
     goto :goto_3
 
     :sswitch_8
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     if-eqz v0, :cond_0
 
@@ -19074,14 +19074,14 @@
     goto :goto_0
 
     :sswitch_e
-    iput-object v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iput-object v5, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     const-string v0, "\u06db\u06eb\u06d9\u06eb\u06e0\u06e8\u06d8\u06e1\u06df\u06df\u06d9\u06e7\u06e6\u06e7\u06ec\u06e1\u06d8\u06e0\u06e2\u06e5\u06d9\u06e6\u06d6\u06d9\u06e8\u06e7\u06e5\u06e0\u06ec\u06db\u06dc\u06d8\u06e8\u06e2\u06e2\u06d9\u06df\u06e1\u06d8\u06d8\u06e0\u06e8\u06d6\u06df\u06e6\u06d8\u06e5\u06da\u06da\u06e7\u06eb\u06e2\u06da\u06e4\u06e5\u06e7\u06e4\u06e1\u06d8"
 
     goto :goto_0
 
     :sswitch_f
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->D:Lt8;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->D:Lt8;
 
     const-string v1, "off"
 
@@ -19092,7 +19092,7 @@
     goto/16 :goto_0
 
     :sswitch_10
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->l:Landroid/widget/ImageView;
 
@@ -19111,7 +19111,7 @@
     :sswitch_11
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->M:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->M:Z
 
     const-string v0, "\u06d6\u06e7\u06d8\u06d7\u06ec\u06d6\u06d8\u06d8\u06db\u06e5\u06e7\u06db\u06e8\u06d8\u06e7\u06df\u06e4\u06d7\u06eb\u06e5\u06d8\u06e5\u06ec\u06ec\u06e5\u06e5\u06e8\u06e7\u06df\u06d8\u06e0\u06e1\u06d6\u06e1\u06d9\u06d9\u06ec\u06e5\u06d8\u06d9\u06db\u06e8\u06d8\u06eb\u06e4\u06db\u06e5\u06e5\u06d8\u06d8\u06e5\u06e6\u06e7\u06d8\u06d6\u06e5\u06e8\u06e8\u06df\u06dc\u06d8\u06e7\u06d8\u06e7\u06df\u06d7\u06e1\u06d8\u06df\u06eb\u06dc\u06db\u06da\u06d6\u06d8\u06dc\u06e5\u06df\u06e5\u06e2\u06ec\u06e4\u06e5\u06e4\u06e4\u06e2\u06ec\u06dc\u06da\u06dc\u06d8"
 
@@ -19125,7 +19125,7 @@
     goto/16 :goto_0
 
     :sswitch_13
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->G:Ljava/util/HashMap;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->G:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
 
@@ -19247,7 +19247,7 @@
     goto :goto_0
 
     :sswitch_4
-    iput-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iput-object v1, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     const-string/jumbo v0, "\u06e7\u06e0\u06da\u06d8\u06e8\u06e8\u06e1\u06db\u06d7\u06e2\u06d8\u06e7\u06db\u06da\u06d8\u06e4\u06e5\u06eb\u06d9\u06d8\u06d8\u06d7\u06e6\u06e1\u06e5\u06eb\u06e1\u06d8\u06d9\u06e0\u06e6\u06d8\u06e5\u06da\u06e2\u06e2\u06e7\u06eb\u06d6\u06e2\u06e0\u06e5\u06d8\u06d6\u06d8\u06e8\u06e6\u06e5\u06e4\u06df\u06e2\u06e0\u06ec\u06d7\u06e6\u06e2\u06e1\u06db\u06e6\u06db\u06e2\u06eb\u06e0\u06dc\u06e2\u06e6\u06d8\u06e2\u06db\u06d9\u06db\u06e1\u06d8\u06e8\u06df\u06ec"
 
@@ -19265,7 +19265,7 @@
     goto :goto_0
 
     :sswitch_6
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->b:Landroid/widget/FrameLayout;
 
@@ -19276,21 +19276,21 @@
     goto :goto_0
 
     :sswitch_7
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/djwiiqdnq;->F()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/CameraActivity;->F()V
 
     const-string v0, "\u06db\u06e8\u06eb\u06e8\u06d6\u06e2\u06dc\u06e8\u06e7\u06e2\u06db\u06d9\u06dc\u06eb\u06e8\u06d8\u06d6\u06d7\u06e1\u06e8\u06e5\u06d6\u06d8\u06eb\u06e7\u06e2\u06e2\u06e1\u06ec\u06d8\u06dc\u06d8\u06d9\u06da\u06df\u06e2\u06e6\u06dc\u06eb\u06d8\u06d9\u06eb\u06e8\u06e0\u06e7\u06da\u06ec\u06e2\u06dc\u06d9\u06eb\u06da\u06e7\u06e8\u06e2\u06e5\u06d8\u06da\u06d9\u06e8\u06d8\u06dc\u06d7\u06e4\u06e0\u06da\u06dc\u06df\u06df\u06e2\u06d7\u06e1\u06e7\u06e7\u06d7\u06e7\u06e6\u06e5\u06da\u06d9\u06d6\u06e8\u06d8\u06ec\u06db"
 
     goto :goto_0
 
     :sswitch_8
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/djwiiqdnq;->D0()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/CameraActivity;->D0()V
 
     const-string v0, "\u06db\u06da\u06e6\u06d8\u06da\u06e5\u06dc\u06d8\u06dc\u06eb\u06d6\u06da\u06ec\u06eb\u06d9\u06d8\u06e2\u06d8\u06e1\u06eb\u06da\u06d7\u06e5\u06d6\u06e8\u06e0\u06e5\u06e7\u06da\u06d8\u06e4\u06ec\u06e7\u06db\u06e8\u06db\u06e7\u06e0\u06df\u06e1\u06e2\u06df\u06e4\u06e0\u06da\u06e1\u06df\u06e4\u06db\u06e8\u06d9\u06e1\u06e4\u06e6\u06e8\u06d6\u06d6\u06d6\u06dc\u06db\u06e6\u06da\u06dc\u06eb\u06e7"
 
     goto :goto_0
 
     :sswitch_9
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/djwiiqdnq;->h1()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/CameraActivity;->h1()V
 
     const-string v0, "\u06dc\u06eb\u06d6\u06df\u06ec\u06e1\u06e1\u06e1\u06df\u06e0\u06e8\u06e7\u06d8\u06e4\u06e4\u06d8\u06dc\u06e6\u06e0\u06ec\u06e7\u06dc\u06d9\u06e4\u06d8\u06d8\u06df\u06e8\u06d6\u06db\u06d6\u06e8\u06e2\u06e8\u06e8\u06da\u06d9\u06d6\u06e7\u06dc\u06eb\u06db\u06e1\u06da\u06e2\u06e0\u06d6\u06e8\u06d8\u06ec\u06eb\u06ec\u06e5\u06d8\u06df\u06e4\u06e0\u06e4\u06da\u06d6\u06da\u06e5\u06d6\u06e2\u06d9\u06d8\u06e1\u06e2\u06ec\u06e4\u06e2\u06d9\u06e7"
 
@@ -19445,7 +19445,7 @@
     goto :goto_3
 
     :sswitch_9
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     if-eqz v0, :cond_0
 
@@ -19474,14 +19474,14 @@
     goto :goto_0
 
     :sswitch_e
-    iput-object v5, p0, Lcom/example/drawingar/activity/djwiiqdnq;->E:Landroid/hardware/Camera;
+    iput-object v5, p0, Lcom/example/drawingar/activity/CameraActivity;->E:Landroid/hardware/Camera;
 
     const-string v0, "\u06df\u06e4\u06da\u06e0\u06db\u06e4\u06e8\u06d9\u06d8\u06da\u06d8\u06e5\u06d8\u06e4\u06e8\u06e4\u06d6\u06e5\u06df\u06e7\u06ec\u06db\u06dc\u06d7\u06e7\u06ec\u06dc\u06df\u06e2\u06d6\u06d9\u06e0\u06e5\u06e7\u06d8\u06d7\u06dc\u06d6\u06eb\u06e7\u06e4\u06d9\u06d8\u06d8\u06e2\u06e4\u06e0\u06e1\u06dc\u06e1\u06d8\u06e8\u06eb\u06d8\u06d8\u06e8\u06e5\u06d6\u06d8\u06e2\u06e8\u06e7\u06db\u06e1\u06e1\u06e6\u06e6\u06e7\u06ec\u06eb\u06e4\u06dc\u06e5\u06e2\u06eb"
 
     goto :goto_0
 
     :sswitch_f
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->D:Lt8;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->D:Lt8;
 
     const-string v1, "off"
 
@@ -19492,7 +19492,7 @@
     goto/16 :goto_0
 
     :sswitch_10
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->l:Landroid/widget/ImageView;
 
@@ -19511,7 +19511,7 @@
     :sswitch_11
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/djwiiqdnq;->M:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/CameraActivity;->M:Z
 
     const-string/jumbo v0, "\u06e8\u06ec\u06d6\u06d8\u06ec\u06e2\u06d8\u06d8\u06db\u06e6\u06d9\u06dc\u06da\u06d8\u06d8\u06d7\u06d6\u06d6\u06d9\u06d8\u06da\u06e1\u06df\u06e8\u06d8\u06e0\u06db\u06e8\u06d8\u06eb\u06eb\u06e2\u06e4\u06d7\u06db\u06d6\u06e8\u06df\u06e4\u06df\u06da\u06e8\u06e7\u06df\u06df\u06eb\u06ec\u06eb\u06dc\u06e5\u06d8\u06e1\u06d9\u06da\u06d8\u06dc\u06e5\u06ec\u06e7\u06e5\u06d6\u06e6\u06d9\u06db\u06d7\u06e1\u06d8\u06e7\u06dc\u06e7\u06e2\u06d6\u06df\u06ec\u06d8\u06d9\u06dc\u06e8\u06dc\u06d8\u06e0\u06d9\u06d8\u06dc\u06e8\u06e0\u06d9\u06e1\u06e5"
 
@@ -19615,7 +19615,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/djwiiqdnq;->D0()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/CameraActivity;->D0()V
 
     const-string v0, "\u06da\u06d7\u06da\u06eb\u06e2\u06e8\u06e5\u06db\u06e0\u06df\u06d6\u06e6\u06ec\u06dc\u06e1\u06d8\u06e7\u06dc\u06e7\u06d8\u06da\u06e6\u06e4\u06e2\u06d6\u06db\u06e1\u06e1\u06d8\u06dc\u06df\u06df\u06db\u06e0\u06e6\u06d8\u06e6\u06d9\u06e6\u06e0\u06e1\u06e7\u06e1\u06ec\u06e2\u06eb\u06d8\u06e1\u06d8\u06d6\u06e1\u06e6\u06d8\u06e6\u06df\u06d6\u06e4\u06e7\u06d8\u06eb\u06db\u06dc\u06d6\u06eb\u06d6\u06dc\u06d9\u06e2\u06e6\u06e6\u06e0\u06e8\u06e0\u06e4\u06db\u06e2\u06e5\u06e7\u06d6\u06e8\u06e5\u06d8\u06e0\u06dc\u06e2"
 

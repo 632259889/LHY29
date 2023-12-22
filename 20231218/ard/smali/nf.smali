@@ -137,7 +137,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-static {p1, p2}, Lcom/example/drawingar/activity/cbfbfjewfuehf;->Y(Ljava/lang/String;Landroid/net/Uri;)V
+    invoke-static {p1, p2}, Lcom/example/drawingar/activity/CreationActivity;->Y(Ljava/lang/String;Landroid/net/Uri;)V
 
     const-string v0, "\u06e4\u06eb\u06d6\u06d8\u06e4\u06df\u06e6\u06d8\u06dc\u06df\u06e8\u06d8\u06e1\u06e1\u06e4\u06ec\u06e5\u06e1\u06d6\u06d9\u06ec\u06d6\u06eb\u06d6\u06d8\u06dc\u06e6\u06d9\u06d6\u06dc\u06e1\u06e7\u06ec\u06d6\u06d8\u06e5\u06e2\u06d9\u06eb\u06da\u06d6\u06db\u06e5\u06e6\u06d8\u06e1\u06e2\u06eb\u06ec\u06e0\u06e1\u06d8\u06e0\u06da\u06e1\u06eb\u06db\u06d8\u06e0\u06e2\u06d8\u06d8"
 

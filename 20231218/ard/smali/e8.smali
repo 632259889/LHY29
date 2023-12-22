@@ -38,7 +38,7 @@
 
     check-cast p1, Ljava/lang/Throwable;
 
-    invoke-static {p1}, Lcom/example/drawingar/activity/djwiiqdnq;->p0(Ljava/lang/Throwable;)V
+    invoke-static {p1}, Lcom/example/drawingar/activity/CameraActivity;->p0(Ljava/lang/Throwable;)V
 
     return-void
 .end method

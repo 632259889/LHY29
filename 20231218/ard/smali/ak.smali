@@ -7,16 +7,16 @@
 
 
 # instance fields
-.field public final synthetic e:Lcom/example/drawingar/activity/xamfmfewl;
+.field public final synthetic e:Lcom/example/drawingar/activity/DrawOptionActivity;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/example/drawingar/activity/xamfmfewl;)V
+.method public synthetic constructor <init>(Lcom/example/drawingar/activity/DrawOptionActivity;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lak;->e:Lcom/example/drawingar/activity/xamfmfewl;
+    iput-object p1, p0, Lak;->e:Lcom/example/drawingar/activity/DrawOptionActivity;
 
     return-void
 .end method
@@ -26,9 +26,9 @@
 .method public final onClick(Landroid/view/View;)V
     .locals 1
 
-    iget-object v0, p0, Lak;->e:Lcom/example/drawingar/activity/xamfmfewl;
+    iget-object v0, p0, Lak;->e:Lcom/example/drawingar/activity/DrawOptionActivity;
 
-    invoke-static {v0, p1}, Lcom/example/drawingar/activity/xamfmfewl;->Z(Lcom/example/drawingar/activity/xamfmfewl;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/example/drawingar/activity/DrawOptionActivity;->Z(Lcom/example/drawingar/activity/DrawOptionActivity;Landroid/view/View;)V
 
     return-void
 .end method

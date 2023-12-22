@@ -1321,7 +1321,7 @@
 
     move-result-object v0
 
-    const-class v3, Lcom/example/drawingar/activity/dwqidnfnewf;
+    const-class v3, Lcom/example/drawingar/activity/eifruewf;
 
     invoke-direct {v2, v0, v3}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 

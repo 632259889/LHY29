@@ -1,4 +1,4 @@
-.class public Lcom/example/drawingar/activity/djwiiqdnq$d;
+.class public Lcom/example/drawingar/activity/CameraActivity$d;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/drawingar/activity/djwiiqdnq;->B0(Landroid/view/MotionEvent;Landroid/hardware/Camera$Parameters;)V
+    value = Lcom/example/drawingar/activity/CameraActivity;->B0(Landroid/view/MotionEvent;Landroid/hardware/Camera$Parameters;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+.method public constructor <init>(Lcom/example/drawingar/activity/CameraActivity;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

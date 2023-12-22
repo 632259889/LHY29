@@ -1,4 +1,4 @@
-.class public Lcom/example/drawingar/activity/djwiiqdnq$e;
+.class public Lcom/example/drawingar/activity/CameraActivity$e;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/drawingar/activity/djwiiqdnq;->h1()V
+    value = Lcom/example/drawingar/activity/CameraActivity;->h1()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field public final e:Lcom/example/drawingar/activity/djwiiqdnq;
+.field public final e:Lcom/example/drawingar/activity/CameraActivity;
 
 
 # direct methods
-.method public constructor <init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+.method public constructor <init>(Lcom/example/drawingar/activity/CameraActivity;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/example/drawingar/activity/djwiiqdnq$e;->e:Lcom/example/drawingar/activity/djwiiqdnq;
+    iput-object p1, p0, Lcom/example/drawingar/activity/CameraActivity$e;->e:Lcom/example/drawingar/activity/CameraActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -90,7 +90,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq$e;->e:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v2, p0, Lcom/example/drawingar/activity/CameraActivity$e;->e:Lcom/example/drawingar/activity/CameraActivity;
 
     const-string/jumbo v0, "\u06e7\u06e6\u06d8\u06d8\u06e7\u06e6\u06d8\u06d8\u06e2\u06e7\u06db\u06e5\u06e8\u06e8\u06e2\u06e7\u06e1\u06e8\u06d7\u06e1\u06d8\u06dc\u06e0\u06e0\u06d8\u06e2\u06d6\u06d8\u06eb\u06d8\u06d7\u06da\u06e1\u06e8\u06e0\u06d6\u06e8\u06d8\u06d6\u06da\u06d8\u06d8\u06e1\u06d6\u06db\u06e4\u06ec\u06e5\u06d6\u06da\u06e8\u06db\u06e1\u06df\u06e7\u06e6\u06ec\u06e5\u06db\u06e1\u06e1\u06e6\u06dc\u06d6\u06e5\u06e2\u06eb\u06e0\u06d9"
 
@@ -99,25 +99,25 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, v3, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, v3, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->H:Landroid/widget/RelativeLayout;
 
-    invoke-virtual {v3, v0}, Lcom/example/drawingar/activity/djwiiqdnq;->layoutOpenAnimWH(Landroid/view/View;)V
+    invoke-virtual {v3, v0}, Lcom/example/drawingar/activity/CameraActivity;->layoutOpenAnimWH(Landroid/view/View;)V
 
     const-string/jumbo v0, "\u06e6\u06e1\u06e5\u06d8\u06ec\u06e0\u06da\u06e2\u06e8\u06e8\u06e5\u06d9\u06da\u06e5\u06d9\u06df\u06ec\u06d8\u06d9\u06e4\u06e1\u06d6\u06e7\u06d6\u06df\u06ec\u06e7\u06ec\u06e8\u06e7\u06d8\u06e8\u06df\u06da\u06eb\u06e5\u06ec\u06ec\u06e6\u06d6\u06db\u06e0\u06d6\u06e8\u06eb\u06d6\u06da\u06da\u06dc\u06d8\u06e4\u06e2\u06d8\u06eb\u06d8\u06e6\u06d8"
 
     goto :goto_0
 
     :sswitch_4
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq$e;->e:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity$e;->e:Lcom/example/drawingar/activity/CameraActivity;
 
     const-string/jumbo v0, "\u06e6\u06e1\u06eb\u06df\u06e5\u06dc\u06e8\u06e2\u06e8\u06e4\u06da\u06e4\u06d9\u06e4\u06e8\u06e1\u06dc\u06ec\u06d6\u06e7\u06e5\u06d8\u06e5\u06e6\u06d8\u06e8\u06d8\u06e1\u06e5\u06e8\u06dc\u06e2\u06e1\u06d8\u06df\u06eb\u06dc\u06e2\u06d6\u06e1\u06e8\u06eb\u06e4\u06eb\u06d9\u06d7\u06d8\u06e1\u06e5\u06dc\u06e8\u06d7\u06e6\u06d7\u06dc"
 
     goto :goto_0
 
     :sswitch_5
-    iget-object v0, v1, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, v1, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->s:Landroid/widget/ImageView;
 

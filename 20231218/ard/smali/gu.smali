@@ -7,16 +7,16 @@
 
 
 # instance fields
-.field public final synthetic e:Lcom/example/drawingar/activity/dwqidnfnewf;
+.field public final synthetic e:Lcom/example/drawingar/activity/eifruewf;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/example/drawingar/activity/dwqidnfnewf;)V
+.method public synthetic constructor <init>(Lcom/example/drawingar/activity/eifruewf;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lgu;->e:Lcom/example/drawingar/activity/dwqidnfnewf;
+    iput-object p1, p0, Lgu;->e:Lcom/example/drawingar/activity/eifruewf;
 
     return-void
 .end method
@@ -26,9 +26,9 @@
 .method public final onClick(Landroid/view/View;)V
     .locals 1
 
-    iget-object v0, p0, Lgu;->e:Lcom/example/drawingar/activity/dwqidnfnewf;
+    iget-object v0, p0, Lgu;->e:Lcom/example/drawingar/activity/eifruewf;
 
-    invoke-static {v0, p1}, Lcom/example/drawingar/activity/dwqidnfnewf;->a0(Lcom/example/drawingar/activity/dwqidnfnewf;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/example/drawingar/activity/eifruewf;->a0(Lcom/example/drawingar/activity/eifruewf;Landroid/view/View;)V
 
     return-void
 .end method

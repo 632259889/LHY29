@@ -1,4 +1,4 @@
-.class public Lcom/example/drawingar/activity/djwiiqdnq$g;
+.class public Lcom/example/drawingar/activity/CameraActivity$g;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/drawingar/activity/djwiiqdnq;->h1()V
+    value = Lcom/example/drawingar/activity/CameraActivity;->h1()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field public final a:Lcom/example/drawingar/activity/djwiiqdnq;
+.field public final a:Lcom/example/drawingar/activity/CameraActivity;
 
 
 # direct methods
-.method public constructor <init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+.method public constructor <init>(Lcom/example/drawingar/activity/CameraActivity;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/example/drawingar/activity/djwiiqdnq$g;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iput-object p1, p0, Lcom/example/drawingar/activity/CameraActivity$g;->a:Lcom/example/drawingar/activity/CameraActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -96,18 +96,18 @@
     goto :goto_0
 
     :sswitch_4
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq$g;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity$g;->a:Lcom/example/drawingar/activity/CameraActivity;
 
     const-string/jumbo v0, "\u06ec\u06da\u06e8\u06d8\u06d7\u06e1\u06e6\u06d8\u06e6\u06e0\u06eb\u06e4\u06e2\u06e1\u06d7\u06e7\u06e2\u06ec\u06e8\u06dc\u06d8\u06dc\u06e6\u06e8\u06da\u06e8\u06dc\u06d9\u06e6\u06d8\u06e0\u06d8\u06df\u06ec\u06e7\u06db\u06e6\u06d7\u06df\u06e7\u06d6\u06d8\u06e2\u06ec\u06e5\u06d8\u06e0\u06db\u06e1\u06d8\u06e8\u06e5\u06eb\u06da\u06e8\u06e6\u06db\u06dc\u06ec\u06e0\u06db\u06e5\u06df\u06da\u06da\u06e5\u06e5\u06e5\u06d6\u06d6\u06e7\u06d8\u06e2\u06ec\u06db\u06e0\u06e5\u06eb\u06e2\u06eb\u06e6\u06e1\u06e6\u06ec\u06df\u06e0\u06d9"
 
     goto :goto_0
 
     :sswitch_5
-    iget v0, v1, Lcom/example/drawingar/activity/djwiiqdnq;->Y:I
+    iget v0, v1, Lcom/example/drawingar/activity/CameraActivity;->Y:I
 
     sub-int/2addr v0, p2
 
-    iput v0, v1, Lcom/example/drawingar/activity/djwiiqdnq;->W:I
+    iput v0, v1, Lcom/example/drawingar/activity/CameraActivity;->W:I
 
     const-string v0, "\u06e4\u06db\u06e0\u06e6\u06dc\u06e1\u06d8\u06d9\u06df\u06d9\u06e8\u06d7\u06dc\u06d8\u06ec\u06e4\u06d7\u06db\u06d9\u06df\u06e2\u06dc\u06e0\u06e8\u06e8\u06e2\u06e0\u06e6\u06d8\u06e1\u06d8\u06e5\u06d8\u06eb\u06d8\u06e5\u06e4\u06e7\u06d7\u06d9\u06d7\u06e5\u06d7\u06d6\u06d8\u06d8\u06d6\u06e7\u06d6\u06d8"
 
@@ -182,7 +182,7 @@
     goto :goto_3
 
     :sswitch_d
-    iget-object v0, v1, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, v1, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -222,9 +222,9 @@
     goto/16 :goto_0
 
     :sswitch_12
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$g;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$g;->a:Lcom/example/drawingar/activity/CameraActivity;
 
-    iget-object v0, v0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, v0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -232,9 +232,9 @@
 
     move-result-object v0
 
-    iget-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq$g;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v2, p0, Lcom/example/drawingar/activity/CameraActivity$g;->a:Lcom/example/drawingar/activity/CameraActivity;
 
-    iget v2, v2, Lcom/example/drawingar/activity/djwiiqdnq;->W:I
+    iget v2, v2, Lcom/example/drawingar/activity/CameraActivity;->W:I
 
     invoke-virtual {v0, v2}, Ltm0;->t(I)Ltm0;
 
@@ -243,9 +243,9 @@
     goto/16 :goto_0
 
     :sswitch_13
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$g;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$g;->a:Lcom/example/drawingar/activity/CameraActivity;
 
-    iget-object v0, v0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, v0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 

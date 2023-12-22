@@ -1,4 +1,4 @@
-.class public Lcom/example/drawingar/activity/djwiiqdnq$h;
+.class public Lcom/example/drawingar/activity/CameraActivity$h;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/drawingar/activity/djwiiqdnq;->h1()V
+    value = Lcom/example/drawingar/activity/CameraActivity;->h1()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field public final a:Lcom/example/drawingar/activity/djwiiqdnq;
+.field public final a:Lcom/example/drawingar/activity/CameraActivity;
 
 
 # direct methods
-.method public constructor <init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+.method public constructor <init>(Lcom/example/drawingar/activity/CameraActivity;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iput-object p1, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -406,11 +406,11 @@
     goto/16 :goto_0
 
     :sswitch_28
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    iput v2, v0, Lcom/example/drawingar/activity/djwiiqdnq;->g0:F
+    iput v2, v0, Lcom/example/drawingar/activity/CameraActivity;->g0:F
 
     const-string v0, "\u06d7\u06e2\u06d7\u06d8\u06e6\u06da\u06e7\u06da\u06d8\u06d8\u06dc\u06ec\u06e2\u06d7\u06e8\u06d8\u06e4\u06df\u06eb\u06e2\u06e1\u06e1\u06d8\u06dc\u06db\u06d6\u06db\u06d9\u06d9\u06e1\u06e7\u06e7\u06e5\u06e7\u06e7\u06d7\u06e1\u06d8\u06d8\u06e1\u06d7\u06e6\u06db\u06dc\u06e8\u06d8\u06db\u06e6\u06db\u06dc\u06da\u06d6\u06eb\u06e5\u06d6\u06e6\u06e5\u06e8\u06d8\u06da\u06e4\u06e0\u06da\u06e6\u06db\u06db\u06e0"
 
@@ -622,11 +622,11 @@
     goto :goto_d
 
     :sswitch_42
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
     const/high16 v2, 0x3fc00000    # 1.5f
 
-    iput v2, v0, Lcom/example/drawingar/activity/djwiiqdnq;->g0:F
+    iput v2, v0, Lcom/example/drawingar/activity/CameraActivity;->g0:F
 
     const-string v0, "\u06d9\u06d7\u06ec\u06e6\u06ec\u06d9\u06db\u06d8\u06e1\u06da\u06d9\u06e0\u06d9\u06e8\u06d6\u06d9\u06d7\u06eb\u06d9\u06db\u06df\u06e0\u06df\u06ec\u06db\u06e0\u06e1\u06e4\u06e1\u06d8\u06d8\u06ec\u06e2\u06e1\u06df\u06d9\u06e5\u06db\u06e0\u06e1\u06db\u06d6\u06df\u06e8\u06dc\u06e6\u06ec\u06da\u06eb\u06d6\u06ec\u06dc\u06db\u06db\u06ec\u06e5\u06da\u06e0\u06eb\u06da\u06e7\u06d8\u06da\u06ec\u06e7\u06eb\u06d6\u06da\u06d8\u06d6\u06e4"
 
@@ -838,11 +838,11 @@
     goto/16 :goto_0
 
     :sswitch_5c
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
     const/high16 v2, 0x40000000    # 2.0f
 
-    iput v2, v0, Lcom/example/drawingar/activity/djwiiqdnq;->g0:F
+    iput v2, v0, Lcom/example/drawingar/activity/CameraActivity;->g0:F
 
     const-string v0, "\u06d7\u06df\u06e6\u06d8\u06e2\u06d6\u06d8\u06d6\u06dc\u06df\u06e1\u06ec\u06e5\u06e4\u06e8\u06d8\u06d6\u06d9\u06e5\u06d8\u06eb\u06d6\u06e0\u06e7\u06df\u06e8\u06e1\u06d6\u06d8\u06df\u06e4\u06e1\u06d8\u06d9\u06e4\u06e4\u06e8\u06eb\u06e1\u06e5\u06e8\u06e1\u06da\u06ec\u06e2\u06db\u06e0\u06e4\u06d7\u06e5\u06e1\u06d6\u06d9\u06dc\u06d9\u06e8\u06d8\u06df\u06e7\u06e1\u06d8\u06db\u06e0\u06df\u06df\u06ec\u06d6\u06d8\u06d8\u06da\u06e7\u06d7\u06e0\u06d6\u06e2\u06da\u06db\u06df\u06e1\u06dc\u06d8\u06e5\u06d8\u06e4"
 
@@ -1049,11 +1049,11 @@
     goto/16 :goto_0
 
     :sswitch_75
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
     const/high16 v2, 0x40200000    # 2.5f
 
-    iput v2, v0, Lcom/example/drawingar/activity/djwiiqdnq;->g0:F
+    iput v2, v0, Lcom/example/drawingar/activity/CameraActivity;->g0:F
 
     const-string v0, "\u06e1\u06df\u06e4\u06e2\u06e2\u06e8\u06e8\u06e6\u06d6\u06d8\u06e2\u06eb\u06e4\u06e6\u06e8\u06d7\u06df\u06dc\u06d8\u06df\u06e1\u06e2\u06e7\u06d9\u06e4\u06e5\u06da\u06eb\u06e0\u06e1\u06e7\u06d7\u06d7\u06e1\u06d8\u06e5\u06e4\u06d7\u06e6\u06e0\u06e6\u06d9\u06e8\u06e6"
 
@@ -1265,11 +1265,11 @@
     goto/16 :goto_0
 
     :sswitch_8f
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
     const/high16 v2, 0x40400000    # 3.0f
 
-    iput v2, v0, Lcom/example/drawingar/activity/djwiiqdnq;->g0:F
+    iput v2, v0, Lcom/example/drawingar/activity/CameraActivity;->g0:F
 
     const-string/jumbo v0, "\u06eb\u06db\u06eb\u06df\u06e5\u06d6\u06d8\u06dc\u06da\u06db\u06db\u06e7\u06e5\u06d8\u06d9\u06d9\u06e6\u06d8\u06da\u06da\u06e8\u06e8\u06d8\u06e6\u06e6\u06e7\u06d6\u06da\u06e6\u06d8\u06db\u06da\u06d8\u06d8\u06d9\u06e0\u06d8\u06d8\u06db\u06e5\u06e6\u06d8\u06e4\u06d7\u06d6\u06db\u06e0\u06eb\u06e5\u06da\u06e1\u06e2\u06eb\u06d6\u06e6\u06e8\u06e4\u06e7\u06d9\u06df\u06e5\u06db\u06d6\u06d8\u06df\u06e8\u06d8\u06d9\u06e6\u06ec"
 
@@ -1478,11 +1478,11 @@
     goto :goto_25
 
     :sswitch_a8
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
     const/high16 v2, 0x40600000    # 3.5f
 
-    iput v2, v0, Lcom/example/drawingar/activity/djwiiqdnq;->g0:F
+    iput v2, v0, Lcom/example/drawingar/activity/CameraActivity;->g0:F
 
     const-string v0, "\u06db\u06d9\u06e1\u06d7\u06df\u06d9\u06d6\u06e2\u06e6\u06eb\u06e6\u06d8\u06e0\u06df\u06da\u06db\u06df\u06eb\u06d7\u06dc\u06d9\u06e6\u06ec\u06e6\u06d8\u06e5\u06db\u06e7\u06e2\u06dc\u06df\u06e8\u06d7\u06d6\u06e4\u06e1\u06da\u06e5\u06da\u06d9\u06db\u06da\u06e0\u06e7\u06e6\u06d8"
 
@@ -1698,11 +1698,11 @@
     goto :goto_2b
 
     :sswitch_c2
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
     const/high16 v2, 0x40800000    # 4.0f
 
-    iput v2, v0, Lcom/example/drawingar/activity/djwiiqdnq;->g0:F
+    iput v2, v0, Lcom/example/drawingar/activity/CameraActivity;->g0:F
 
     const-string v0, "\u06db\u06d9\u06e6\u06d8\u06db\u06d9\u06d8\u06d8\u06d9\u06e6\u06d8\u06e2\u06da\u06e5\u06d8\u06da\u06e5\u06e5\u06e7\u06e2\u06e4\u06e1\u06e0\u06e4\u06e2\u06e8\u06d8\u06df\u06db\u06d9\u06e6\u06e2\u06dc\u06df\u06d9\u06e1\u06e1\u06e1\u06d8\u06d8\u06ec\u06ec\u06d6\u06d8\u06e7\u06e8\u06e6\u06d8\u06d9\u06eb\u06e6\u06d8\u06da\u06d6\u06e5\u06da\u06ec\u06d6\u06e2\u06e1\u06e6\u06e2\u06e0\u06d8\u06e1\u06df\u06d6\u06e4\u06db\u06e8\u06d9\u06da\u06e8\u06d7\u06df\u06e6\u06e8\u06d7\u06d8\u06d8\u06ec\u06e5\u06e0\u06e0\u06d8\u06e0\u06e6\u06d9"
 
@@ -1918,11 +1918,11 @@
     goto/16 :goto_0
 
     :sswitch_dc
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
     const/high16 v2, 0x40900000    # 4.5f
 
-    iput v2, v0, Lcom/example/drawingar/activity/djwiiqdnq;->g0:F
+    iput v2, v0, Lcom/example/drawingar/activity/CameraActivity;->g0:F
 
     const-string v0, "\u06d7\u06ec\u06dc\u06d8\u06e5\u06e0\u06e5\u06d8\u06e7\u06db\u06e6\u06d7\u06e7\u06dc\u06d8\u06e8\u06e4\u06df\u06e1\u06df\u06e5\u06d9\u06e5\u06d8\u06d6\u06d7\u06e5\u06d8\u06db\u06d6\u06da\u06e5\u06db\u06d9\u06e0\u06e5\u06d8\u06db\u06e8\u06dc\u06d8\u06e0\u06e4\u06eb\u06e1\u06e4\u06e1\u06d8\u06d6\u06e7\u06dc\u06d8\u06da\u06df\u06d8\u06df\u06df\u06dc\u06d8\u06ec\u06e1\u06e0\u06e0\u06d6\u06d8\u06d6\u06e8\u06e8\u06ec\u06eb\u06e1\u06ec\u06e5\u06d6\u06d6\u06d7\u06da\u06e7\u06d9\u06d8"
 
@@ -2138,11 +2138,11 @@
     goto/16 :goto_0
 
     :sswitch_f6
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
     const/high16 v2, 0x40a00000    # 5.0f
 
-    iput v2, v0, Lcom/example/drawingar/activity/djwiiqdnq;->g0:F
+    iput v2, v0, Lcom/example/drawingar/activity/CameraActivity;->g0:F
 
     const-string v0, "\u06d9\u06dc\u06e8\u06d8\u06e7\u06e5\u06eb\u06e1\u06e5\u06d7\u06d8\u06e0\u06d8\u06d8\u06ec\u06e6\u06e5\u06eb\u06eb\u06d6\u06d7\u06e8\u06df\u06db\u06d6\u06e4\u06e1\u06db\u06e5\u06d8\u06dc\u06e8\u06e2\u06d9\u06d9\u06e5\u06da\u06d7\u06e8\u06e0\u06e4\u06d8\u06d9\u06db\u06d6\u06d8\u06da\u06eb\u06e4\u06e2\u06e4\u06dc\u06d8\u06d7\u06d9\u06e7\u06d6\u06eb\u06ec\u06e5\u06eb\u06d7\u06e6\u06d8\u06d9\u06df\u06e8\u06d8"
 
@@ -2358,11 +2358,11 @@
     goto/16 :goto_0
 
     :sswitch_110
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
     const/high16 v2, 0x40b00000    # 5.5f
 
-    iput v2, v0, Lcom/example/drawingar/activity/djwiiqdnq;->g0:F
+    iput v2, v0, Lcom/example/drawingar/activity/CameraActivity;->g0:F
 
     const-string v0, "\u06e2\u06d7\u06da\u06e2\u06e4\u06e6\u06ec\u06df\u06d8\u06e7\u06e0\u06e6\u06d8\u06db\u06e2\u06e7\u06e7\u06e1\u06e4\u06e0\u06d9\u06d6\u06e6\u06e4\u06d9\u06e4\u06e6\u06e7\u06d7\u06eb\u06e8\u06d8\u06df\u06e6\u06ec\u06e6\u06e8\u06db\u06e8\u06df\u06d9\u06d9\u06e0\u06e6\u06d8\u06d8\u06e0\u06e8\u06d8\u06e6\u06da\u06e2\u06d6\u06ec\u06da\u06d6\u06dc\u06e6\u06d8\u06e7\u06e1\u06e8\u06d9\u06d8\u06e8\u06d8\u06ec\u06ec\u06dc\u06d8"
 
@@ -2476,28 +2476,28 @@
     goto/16 :goto_0
 
     :sswitch_11e
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
     const/high16 v2, 0x40c00000    # 6.0f
 
-    iput v2, v0, Lcom/example/drawingar/activity/djwiiqdnq;->g0:F
+    iput v2, v0, Lcom/example/drawingar/activity/CameraActivity;->g0:F
 
     const-string v0, "\u06e2\u06e2\u06e2\u06df\u06e1\u06db\u06e0\u06df\u06e1\u06d8\u06d7\u06ec\u06dc\u06d8\u06e4\u06e2\u06e8\u06e2\u06ec\u06ec\u06d7\u06e5\u06e2\u06e4\u06e2\u06ec\u06e6\u06dc\u06df\u06d8\u06e0\u06dc\u06d8\u06db\u06eb\u06e8\u06d8\u06e2\u06e4\u06d6\u06d8\u06e5\u06d8\u06da\u06ec\u06d7\u06d6\u06d8\u06d6\u06e6\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_11f
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
-    iget-object v0, v0, Lcom/example/drawingar/activity/djwiiqdnq;->c0:Landroid/graphics/Bitmap;
+    iget-object v0, v0, Lcom/example/drawingar/activity/CameraActivity;->c0:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lqd;->k(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
-    iget v1, v1, Lcom/example/drawingar/activity/djwiiqdnq;->g0:F
+    iget v1, v1, Lcom/example/drawingar/activity/CameraActivity;->g0:F
 
     const/4 v2, 0x0
 
@@ -2588,9 +2588,9 @@
     goto :goto_45
 
     :sswitch_128
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
-    iget-object v0, v0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, v0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -2620,9 +2620,9 @@
     goto/16 :goto_0
 
     :sswitch_12c
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
-    iget-object v0, v0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, v0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -2632,7 +2632,7 @@
 
     new-instance v2, Landroid/graphics/drawable/BitmapDrawable;
 
-    iget-object v3, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v3, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
     invoke-virtual {v3}, Lc3;->getResources()Landroid/content/res/Resources;
 
@@ -2647,9 +2647,9 @@
     goto/16 :goto_0
 
     :sswitch_12d
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
-    iget-object v0, v0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, v0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -2657,9 +2657,9 @@
 
     move-result-object v0
 
-    iget-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v2, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
-    iget v2, v2, Lcom/example/drawingar/activity/djwiiqdnq;->g0:F
+    iget v2, v2, Lcom/example/drawingar/activity/CameraActivity;->g0:F
 
     invoke-virtual {v0, v2}, Ltm0;->u(F)Ltm0;
 
@@ -2668,9 +2668,9 @@
     goto/16 :goto_0
 
     :sswitch_12e
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
-    iget-object v0, v0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, v0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 
@@ -2678,9 +2678,9 @@
 
     move-result-object v0
 
-    iget-object v2, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v2, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
-    iget v2, v2, Lcom/example/drawingar/activity/djwiiqdnq;->W:I
+    iget v2, v2, Lcom/example/drawingar/activity/CameraActivity;->W:I
 
     invoke-virtual {v0, v2}, Ltm0;->t(I)Ltm0;
 
@@ -2689,9 +2689,9 @@
     goto/16 :goto_0
 
     :sswitch_12f
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$h;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$h;->a:Lcom/example/drawingar/activity/CameraActivity;
 
-    iget-object v0, v0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, v0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->M:Lcom/example/drawingar/stickerlib/CustomStickerView;
 

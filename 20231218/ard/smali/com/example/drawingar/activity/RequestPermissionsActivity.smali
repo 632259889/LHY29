@@ -1,4 +1,4 @@
-.class public Lcom/example/drawingar/activity/mfbwhbfwfjwknf;
+.class public Lcom/example/drawingar/activity/RequestPermissionsActivity;
 .super Landroid/app/Activity;
 
 
@@ -66,7 +66,7 @@
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    sput-object v0, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->f:Ljava/util/HashMap;
+    sput-object v0, Lcom/example/drawingar/activity/RequestPermissionsActivity;->f:Ljava/util/HashMap;
 
     const-string v0, "\u06db\u06d8\u06d6\u06e8\u06db\u06d8\u06d8\u06eb\u06d9\u06db\u06e5\u06d6\u06e7\u06d8\u06da\u06db\u06e8\u06d8\u06d8\u06da\u06eb\u06e6\u06e5\u06d9\u06df\u06d7\u06dc\u06d8\u06da\u06e5\u06e2\u06e5\u06e7\u06dc\u06e4\u06e2\u06d6\u06e2\u06ec\u06e8\u06e4\u06dc\u06e7\u06d8\u06e0\u06e5\u06d6\u06e7\u06e0\u06e4\u06d9\u06e7\u06e8\u06d8\u06d8\u06e7\u06e6\u06db\u06d9\u06e0\u06eb\u06e7\u06df\u06d9\u06d7\u06e7\u06e1\u06e0"
 
@@ -92,7 +92,7 @@
     return-void
 .end method
 
-.method public static synthetic a(Lcom/example/drawingar/activity/mfbwhbfwfjwknf;Landroidx/appcompat/app/a;Landroid/view/View;)V
+.method public static synthetic a(Lcom/example/drawingar/activity/RequestPermissionsActivity;Landroidx/appcompat/app/a;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06e0\u06e0\u06da\u06e5\u06e1\u06e1\u06d8\u06dc\u06e4\u06e5\u06e1\u06e5\u06e5\u06e2\u06e5\u06e7\u06d7\u06e8\u06dc\u06d8\u06e0\u06ec\u06e1\u06e6\u06eb\u06e8\u06d8\u06d8\u06e5\u06e6\u06d8\u06df\u06d6\u06e2\u06e4\u06eb\u06d6\u06d8\u06e7\u06e6\u06dc\u06d8\u06d8\u06e0\u06d8\u06da\u06dc\u06d8\u06d8\u06d8\u06d8\u06eb\u06df\u06e4\u06d8\u06d8\u06e8\u06e5\u06d6\u06d8\u06da\u06d9\u06d8\u06d8\u06d7\u06d8\u06e0\u06d7\u06da\u06dc\u06d8\u06e1\u06e6\u06e7\u06d8\u06e8\u06e0\u06d8\u06e0\u06e7\u06dc\u06d8\u06e8\u06e5\u06d6\u06d8"
@@ -148,7 +148,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->g(Landroidx/appcompat/app/a;Landroid/view/View;)V
+    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/RequestPermissionsActivity;->g(Landroidx/appcompat/app/a;Landroid/view/View;)V
 
     const-string/jumbo v0, "\u06ec\u06d9\u06ec\u06d6\u06df\u06d6\u06d8\u06da\u06df\u06eb\u06e4\u06e0\u06d8\u06e4\u06d8\u06d8\u06e2\u06d7\u06d6\u06e7\u06e8\u06da\u06eb\u06d8\u06e1\u06ec\u06d7\u06d8\u06d8\u06e4\u06e2\u06e0\u06e6\u06d6\u06e7\u06e7\u06d8\u06dc\u06e7\u06d6\u06d6\u06d8\u06db\u06e4\u06d8\u06d8\u06e2\u06e4\u06ec\u06df\u06d8\u06d8\u06ec\u06dc\u06d9\u06e5\u06e0\u06db\u06e4\u06e6\u06d6\u06d8\u06db\u06e0\u06dc\u06da\u06e0\u06d9\u06e1\u06e2\u06df\u06e4\u06dc\u06d8\u06d6\u06db\u06da"
 
@@ -167,7 +167,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic b(Lcom/example/drawingar/activity/mfbwhbfwfjwknf;Landroidx/appcompat/app/a;Landroid/view/View;)V
+.method public static synthetic b(Lcom/example/drawingar/activity/RequestPermissionsActivity;Landroidx/appcompat/app/a;Landroid/view/View;)V
     .locals 4
 
     const-string/jumbo v0, "\u06ec\u06da\u06e6\u06e2\u06e1\u06e1\u06d8\u06d9\u06e0\u06e7\u06df\u06da\u06d6\u06d8\u06e8\u06db\u06e1\u06d8\u06da\u06df\u06e4\u06eb\u06df\u06dc\u06d8\u06e6\u06e7\u06dc\u06d7\u06e0\u06eb\u06e6\u06d8\u06db\u06e2\u06e4\u06e8\u06d8\u06df\u06d8\u06e7\u06e5\u06df\u06e8\u06e0\u06db\u06e7\u06e1\u06e8\u06d8\u06d8\u06d7\u06e7\u06db\u06eb\u06e2\u06df\u06e8\u06e2\u06dc\u06e8\u06e4\u06e5\u06dc\u06ec\u06d6\u06df\u06e4\u06d6"
@@ -223,7 +223,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->f(Landroidx/appcompat/app/a;Landroid/view/View;)V
+    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/RequestPermissionsActivity;->f(Landroidx/appcompat/app/a;Landroid/view/View;)V
 
     const-string/jumbo v0, "\u06e8\u06d9\u06ec\u06e8\u06eb\u06e0\u06d8\u06d8\u06d8\u06e4\u06d8\u06d9\u06e8\u06e0\u06d6\u06dc\u06d7\u06e6\u06db\u06e8\u06e5\u06d8\u06e0\u06e2\u06dc\u06d8\u06dc\u06df\u06e7\u06df\u06d8\u06e6\u06df\u06e8\u06e1\u06e8\u06d6\u06db\u06e0\u06d7\u06e5\u06ec\u06e8\u06e7\u06d8\u06d8\u06e6\u06e7\u06d8\u06db\u06e7\u06e8\u06e2\u06e2\u06e7\u06e5\u06da\u06df"
 
@@ -253,7 +253,7 @@
     invoke-static {v0}, Landroid/os/Trace;->beginSection(Ljava/lang/String;)V
 
     :try_start_0
-    sget-object v0, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->f:Ljava/util/HashMap;
+    sget-object v0, Lcom/example/drawingar/activity/RequestPermissionsActivity;->f:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
@@ -775,7 +775,7 @@
     goto :goto_0
 
     :sswitch_1
-    sget-object v0, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->f:Ljava/util/HashMap;
+    sget-object v0, Lcom/example/drawingar/activity/RequestPermissionsActivity;->f:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
 
@@ -888,7 +888,7 @@
     goto :goto_1
 
     :sswitch_e
-    sget-object v0, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->f:Ljava/util/HashMap;
+    sget-object v0, Lcom/example/drawingar/activity/RequestPermissionsActivity;->f:Ljava/util/HashMap;
 
     const-string v2, "android.permission.READ_MEDIA_AUDIO"
 
@@ -901,7 +901,7 @@
     goto/16 :goto_0
 
     :sswitch_f
-    sget-object v0, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->f:Ljava/util/HashMap;
+    sget-object v0, Lcom/example/drawingar/activity/RequestPermissionsActivity;->f:Ljava/util/HashMap;
 
     const-string v2, "android.permission.READ_MEDIA_VIDEO"
 
@@ -914,7 +914,7 @@
     goto/16 :goto_0
 
     :sswitch_10
-    sget-object v0, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->f:Ljava/util/HashMap;
+    sget-object v0, Lcom/example/drawingar/activity/RequestPermissionsActivity;->f:Ljava/util/HashMap;
 
     const-string v2, "android.permission.READ_MEDIA_IMAGES"
 
@@ -927,7 +927,7 @@
     goto/16 :goto_0
 
     :sswitch_11
-    sget-object v0, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->f:Ljava/util/HashMap;
+    sget-object v0, Lcom/example/drawingar/activity/RequestPermissionsActivity;->f:Ljava/util/HashMap;
 
     const-string v2, "android.permission.READ_EXTERNAL_STORAGE"
 
@@ -940,7 +940,7 @@
     goto/16 :goto_0
 
     :sswitch_12
-    sget-object v0, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->f:Ljava/util/HashMap;
+    sget-object v0, Lcom/example/drawingar/activity/RequestPermissionsActivity;->f:Ljava/util/HashMap;
 
     const-string v2, "android.permission.WRITE_EXTERNAL_STORAGE"
 
@@ -953,7 +953,7 @@
     goto/16 :goto_0
 
     :sswitch_13
-    sget-object v0, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->f:Ljava/util/HashMap;
+    sget-object v0, Lcom/example/drawingar/activity/RequestPermissionsActivity;->f:Ljava/util/HashMap;
 
     const-string v2, "android.permission.CAMERA"
 
@@ -1044,7 +1044,7 @@
     goto :goto_6
 
     :sswitch_1c
-    invoke-static {p0}, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->d(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/example/drawingar/activity/RequestPermissionsActivity;->d(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -1077,7 +1077,7 @@
     :sswitch_21
     new-instance v1, Landroid/content/Intent;
 
-    const-class v0, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;
+    const-class v0, Lcom/example/drawingar/activity/RequestPermissionsActivity;
 
     invoke-direct {v1, p0, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -1591,7 +1591,7 @@
     :sswitch_18
     new-instance v0, Lmg0;
 
-    invoke-direct {v0, p0, v9}, Lmg0;-><init>(Lcom/example/drawingar/activity/mfbwhbfwfjwknf;Landroidx/appcompat/app/a;)V
+    invoke-direct {v0, p0, v9}, Lmg0;-><init>(Lcom/example/drawingar/activity/RequestPermissionsActivity;Landroidx/appcompat/app/a;)V
 
     invoke-virtual {v6, v0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -1604,7 +1604,7 @@
     :sswitch_19
     new-instance v0, Llg0;
 
-    invoke-direct {v0, p0, v9}, Llg0;-><init>(Lcom/example/drawingar/activity/mfbwhbfwfjwknf;Landroidx/appcompat/app/a;)V
+    invoke-direct {v0, p0, v9}, Llg0;-><init>(Lcom/example/drawingar/activity/RequestPermissionsActivity;Landroidx/appcompat/app/a;)V
 
     invoke-virtual {v7, v0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -2088,7 +2088,7 @@
     goto :goto_0
 
     :sswitch_1
-    sget-object v0, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->f:Ljava/util/HashMap;
+    sget-object v0, Lcom/example/drawingar/activity/RequestPermissionsActivity;->f:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
@@ -2342,7 +2342,7 @@
     goto/16 :goto_0
 
     :sswitch_12
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->h()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/RequestPermissionsActivity;->h()V
 
     const-string v0, "\u06d8\u06e1\u06e5\u06dc\u06e4\u06d8\u06d8\u06d6\u06db\u06e1\u06d8\u06d9\u06df\u06e5\u06da\u06d7\u06ec\u06d7\u06df\u06e6\u06d8\u06e7\u06d7\u06d8\u06d8\u06e5\u06e2\u06ec\u06e4\u06e0\u06df\u06d9\u06d8\u06e5\u06d9\u06d7\u06e1\u06d8\u06ec\u06e0\u06d8\u06d8\u06ec\u06d6\u06df\u06ec\u06e1\u06d9\u06e1\u06e6\u06d6\u06d8\u06db\u06dc\u06d7\u06e8\u06e1\u06eb\u06db\u06d6\u06e0\u06e2\u06d9\u06e8\u06d8\u06e4\u06e2\u06dc\u06dc\u06e4\u06e6"
 
@@ -2464,14 +2464,14 @@
 
     check-cast v0, Landroid/content/Intent;
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->e:Landroid/content/Intent;
+    iput-object v0, p0, Lcom/example/drawingar/activity/RequestPermissionsActivity;->e:Landroid/content/Intent;
 
     const-string/jumbo v0, "\u06e8\u06d7\u06df\u06e7\u06d7\u06e5\u06d8\u06da\u06e5\u06e2\u06da\u06e4\u06dc\u06d8\u06dc\u06e0\u06e8\u06d8\u06d8\u06dc\u06df\u06e2\u06e0\u06d8\u06dc\u06df\u06e1\u06e4\u06e5\u06d8\u06d8\u06d8\u06e4\u06d8\u06d8\u06df\u06e6\u06dc\u06d8\u06da\u06dc\u06e1\u06dc\u06e6\u06d8\u06d8\u06e2\u06d9\u06da\u06da\u06da\u06e7"
 
     goto :goto_0
 
     :sswitch_4
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->h()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/RequestPermissionsActivity;->h()V
 
     const-string/jumbo v0, "\u06eb\u06d8\u06d7\u06df\u06d7\u06d8\u06d8\u06d9\u06d6\u06e5\u06e2\u06d9\u06ec\u06e2\u06e6\u06e8\u06df\u06e5\u06e2\u06db\u06ec\u06e7\u06d9\u06d7\u06e7\u06e8\u06da\u06da\u06da\u06ec\u06dc\u06d8\u06ec\u06d9\u06d8\u06d8\u06d8\u06e2\u06da\u06e1\u06dc\u06eb\u06df\u06d9\u06d7\u06d8\u06da\u06df\u06d7\u06e1\u06e1\u06d8\u06e5\u06da\u06e0\u06e2\u06d9\u06dc\u06d8"
 
@@ -2588,7 +2588,7 @@
 
     move-object/from16 v1, p3
 
-    invoke-virtual {v0, v1}, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->e([I)Z
+    invoke-virtual {v0, v1}, Lcom/example/drawingar/activity/RequestPermissionsActivity;->e([I)Z
 
     move-result v14
 
@@ -2719,7 +2719,7 @@
     :sswitch_13
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->e:Landroid/content/Intent;
+    iget-object v2, v0, Lcom/example/drawingar/activity/RequestPermissionsActivity;->e:Landroid/content/Intent;
 
     const/high16 v5, 0x10000
 
@@ -2734,7 +2734,7 @@
     :sswitch_14
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->e:Landroid/content/Intent;
+    iget-object v2, v0, Lcom/example/drawingar/activity/RequestPermissionsActivity;->e:Landroid/content/Intent;
 
     move-object/from16 v0, p0
 
@@ -3010,7 +3010,7 @@
     goto/16 :goto_0
 
     :sswitch_32
-    sget-object v2, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->f:Ljava/util/HashMap;
+    sget-object v2, Lcom/example/drawingar/activity/RequestPermissionsActivity;->f:Ljava/util/HashMap;
 
     aget-object v3, p2, v11
 
@@ -3150,7 +3150,7 @@
     goto/16 :goto_0
 
     :sswitch_40
-    sget-object v2, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->f:Ljava/util/HashMap;
+    sget-object v2, Lcom/example/drawingar/activity/RequestPermissionsActivity;->f:Ljava/util/HashMap;
 
     aget-object v4, p2, v11
 
@@ -3211,7 +3211,7 @@
     goto/16 :goto_0
 
     :sswitch_45
-    sget-object v2, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->f:Ljava/util/HashMap;
+    sget-object v2, Lcom/example/drawingar/activity/RequestPermissionsActivity;->f:Ljava/util/HashMap;
 
     invoke-virtual {v2}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
@@ -3588,7 +3588,7 @@
     :sswitch_6e
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v13}, Lcom/example/drawingar/activity/mfbwhbfwfjwknf;->c(Ljava/util/ArrayList;)V
+    invoke-virtual {v0, v13}, Lcom/example/drawingar/activity/RequestPermissionsActivity;->c(Ljava/util/ArrayList;)V
 
     const-string v2, "\u06d9\u06da\u06d9\u06e8\u06eb\u06e6\u06d7\u06ec\u06d7\u06e5\u06df\u06e0\u06d8\u06e4\u06e7\u06d6\u06ec\u06eb\u06e5\u06e5\u06d8\u06df\u06e1\u06dc\u06d8\u06db\u06dc\u06eb\u06db\u06eb\u06e4\u06e6\u06e6\u06df\u06e4\u06dc\u06e8\u06e6\u06db\u06d8\u06d8\u06d8\u06e0\u06db\u06ec\u06ec\u06d6\u06d8\u06d9\u06d9\u06e5\u06d8\u06e4\u06db\u06e5\u06d8\u06e4\u06ec\u06d7"
 

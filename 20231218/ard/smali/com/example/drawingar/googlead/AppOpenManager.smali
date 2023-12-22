@@ -334,7 +334,7 @@
     .line 1
     iget-object v0, p0, Lcom/example/drawingar/googlead/AppOpenManager;->h:Landroid/app/Activity;
 
-    instance-of v1, v0, Lcom/example/drawingar/activity/djwiiqdnq;
+    instance-of v1, v0, Lcom/example/drawingar/activity/CameraActivity;
 
     const/4 v2, 0x0
 
@@ -358,7 +358,7 @@
 
     .line 5
     :cond_1
-    instance-of v1, v0, Lcom/example/drawingar/activity/dwqidnfnewf;
+    instance-of v1, v0, Lcom/example/drawingar/activity/eifruewf;
 
     if-eqz v1, :cond_3
 

@@ -28,7 +28,7 @@
 
     iget-object v0, p0, Lfu;->e:Landroid/app/Dialog;
 
-    invoke-static {v0, p1}, Lcom/example/drawingar/activity/dwqidnfnewf;->c0(Landroid/app/Dialog;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/example/drawingar/activity/eifruewf;->c0(Landroid/app/Dialog;Landroid/view/View;)V
 
     return-void
 .end method

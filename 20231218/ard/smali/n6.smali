@@ -6,16 +6,16 @@
 
 
 # instance fields
-.field public final e:Lcom/example/drawingar/activity/paldmcjurbak;
+.field public final e:Lcom/example/drawingar/activity/BrowserActivity;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/example/drawingar/activity/paldmcjurbak;)V
+.method public synthetic constructor <init>(Lcom/example/drawingar/activity/BrowserActivity;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Ln6;->e:Lcom/example/drawingar/activity/paldmcjurbak;
+    iput-object p1, p0, Ln6;->e:Lcom/example/drawingar/activity/BrowserActivity;
 
     return-void
 .end method
@@ -73,9 +73,9 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Ln6;->e:Lcom/example/drawingar/activity/paldmcjurbak;
+    iget-object v0, p0, Ln6;->e:Lcom/example/drawingar/activity/BrowserActivity;
 
-    invoke-static {v0, p1}, Lcom/example/drawingar/activity/paldmcjurbak;->d0(Lcom/example/drawingar/activity/paldmcjurbak;Landroid/view/View;)V
+    invoke-static {v0, p1}, Lcom/example/drawingar/activity/BrowserActivity;->d0(Lcom/example/drawingar/activity/BrowserActivity;Landroid/view/View;)V
 
     const-string v0, "\u06e5\u06e5\u06e2\u06e8\u06e5\u06eb\u06e5\u06d8\u06e6\u06d8\u06d8\u06e6\u06e2\u06d6\u06e8\u06e7\u06ec\u06db\u06e8\u06db\u06e6\u06e7\u06d8\u06db\u06e8\u06e1\u06e7\u06e8\u06e0\u06e7\u06eb\u06e5\u06ec\u06d6\u06d8\u06d6\u06e1\u06eb\u06e5\u06e6\u06eb\u06e1\u06e2\u06e2\u06dc\u06e1\u06e7\u06d8\u06e6\u06dc\u06dc\u06e2\u06e5\u06d7\u06e5\u06e4\u06db\u06dc\u06db\u06da\u06d6\u06eb\u06e0\u06eb\u06db\u06e5\u06e4\u06dc\u06d9\u06ec\u06d7\u06dc\u06e0\u06e7\u06eb"
 

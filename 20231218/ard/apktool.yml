@@ -6,7 +6,7 @@ usesFramework:
   - 1
   tag: null
 sdkInfo:
-  minSdkVersion: 19
+  minSdkVersion: 26
   targetSdkVersion: 33
 packageInfo:
   forcedPackageId: 127

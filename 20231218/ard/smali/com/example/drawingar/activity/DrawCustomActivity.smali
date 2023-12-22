@@ -1,4 +1,4 @@
-.class public Lcom/example/drawingar/activity/ewfnei;
+.class public Lcom/example/drawingar/activity/feiwfin;
 .super Lc3;
 
 
@@ -65,39 +65,39 @@
 
     invoke-direct {p0}, Lc3;-><init>()V
 
-    iput v0, p0, Lcom/example/drawingar/activity/ewfnei;->D:I
+    iput v0, p0, Lcom/example/drawingar/activity/feiwfin;->D:I
 
-    iput v0, p0, Lcom/example/drawingar/activity/ewfnei;->E:I
+    iput v0, p0, Lcom/example/drawingar/activity/feiwfin;->E:I
 
-    iput v2, p0, Lcom/example/drawingar/activity/ewfnei;->F:I
+    iput v2, p0, Lcom/example/drawingar/activity/feiwfin;->F:I
 
-    iput v2, p0, Lcom/example/drawingar/activity/ewfnei;->G:I
+    iput v2, p0, Lcom/example/drawingar/activity/feiwfin;->G:I
 
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->H:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->H:Ljava/util/ArrayList;
 
-    iput-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->K:Z
+    iput-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->K:Z
 
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->L:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->L:Z
 
-    iput-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->M:Z
+    iput-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->M:Z
 
-    iput-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->N:Z
+    iput-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->N:Z
 
-    iput-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->O:Z
+    iput-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->O:Z
 
-    iput-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->P:Z
+    iput-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->P:Z
 
-    iput-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->Q:Z
+    iput-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->Q:Z
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    iput v0, p0, Lcom/example/drawingar/activity/ewfnei;->R:F
+    iput v0, p0, Lcom/example/drawingar/activity/feiwfin;->R:F
 
     return-void
 .end method
@@ -158,7 +158,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/ewfnei;->l0()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/feiwfin;->l0()V
 
     const-string v0, "\u06df\u06d6\u06eb\u06d6\u06d8\u06e5\u06df\u06e4\u06eb\u06da\u06dc\u06da\u06e0\u06e5\u06d8\u06d8\u06d8\u06e2\u06db\u06ec\u06ec\u06dc\u06d7\u06dc\u06e8\u06ec\u06df\u06dc\u06e2\u06d6\u06df\u06d9\u06e0\u06db\u06d9\u06d9\u06eb\u06e7\u06d8\u06d8\u06ec\u06e7\u06e6\u06d8\u06e0\u06e0\u06d7\u06e1\u06d8\u06e4\u06d6\u06ec\u06e2\u06e5\u06d6\u06e1\u06d8\u06dc\u06e8\u06d8\u06e6\u06e7\u06e5\u06d7\u06ec"
 
@@ -341,7 +341,7 @@
     goto :goto_0
 .end method
 
-.method public static synthetic Y(Lcom/example/drawingar/activity/ewfnei;Landroid/content/DialogInterface;I)V
+.method public static synthetic Y(Lcom/example/drawingar/activity/feiwfin;Landroid/content/DialogInterface;I)V
     .locals 4
 
     const-string v0, "\u06e4\u06ec\u06e6\u06d8\u06e1\u06e8\u06e0\u06e5\u06eb\u06d8\u06df\u06db\u06d7\u06ec\u06d8\u06dc\u06d8\u06e4\u06e4\u06df\u06d9\u06e5\u06e1\u06d8\u06e7\u06d6\u06e5\u06d8\u06e6\u06e7\u06d8\u06d8\u06e5\u06db\u06d6\u06dc\u06e1\u06da\u06e5\u06e1\u06e8\u06e7\u06db\u06d8\u06d8\u06ec\u06eb\u06e2\u06dc\u06e1\u06e5\u06e5\u06ec\u06e1\u06d6\u06dc\u06dc\u06e6\u06da\u06e8\u06d8\u06e6\u06d7\u06e1\u06e1\u06dc\u06da\u06d6\u06e1\u06d8\u06d8\u06e8\u06e5\u06e8\u06d8\u06e0\u06d8\u06e6\u06e6\u06e1\u06ec\u06d8\u06e8\u06e8\u06d8\u06e4\u06e5\u06e2\u06df\u06e1\u06e8\u06d8"
@@ -397,7 +397,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/ewfnei;->v0(Landroid/content/DialogInterface;I)V
+    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/feiwfin;->v0(Landroid/content/DialogInterface;I)V
 
     const-string/jumbo v0, "\u06e7\u06ec\u06d7\u06e0\u06e4\u06e2\u06e6\u06df\u06e5\u06d8\u06da\u06eb\u06d8\u06d8\u06e5\u06d8\u06d9\u06e1\u06d6\u06e6\u06d8\u06e1\u06e7\u06d8\u06d7\u06e0\u06e1\u06d8\u06e6\u06eb\u06e1\u06e8\u06d6\u06ec\u06da\u06e1\u06e7\u06d8\u06e6\u06d8\u06e2\u06e7\u06e4\u06df\u06e5\u06d8\u06d8\u06e5\u06d7\u06e8\u06dc\u06e8\u06d9\u06e1\u06d7\u06e2\u06d6\u06d6\u06e8\u06e4\u06da\u06e5\u06da\u06ec\u06db\u06d6\u06e6\u06e5"
 
@@ -416,7 +416,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic Z(Lcom/example/drawingar/activity/ewfnei;Landroid/view/View;)V
+.method public static synthetic Z(Lcom/example/drawingar/activity/feiwfin;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06e2\u06d9\u06d7\u06db\u06da\u06e8\u06d8\u06ec\u06e2\u06e1\u06d8\u06dc\u06e0\u06da\u06d6\u06d9\u06d9\u06d8\u06e8\u06e5\u06d8\u06e6\u06da\u06da\u06e7\u06d8\u06e1\u06e7\u06e7\u06e5\u06e2\u06dc\u06e0\u06eb\u06e1\u06e8\u06da\u06d6\u06e6\u06e0\u06e0\u06da\u06dc\u06ec\u06e6\u06e8\u06d8\u06e5\u06eb\u06da\u06e2\u06dc\u06e8\u06d8\u06db\u06e2\u06e6"
@@ -467,7 +467,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/ewfnei;->q0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/feiwfin;->q0(Landroid/view/View;)V
 
     const-string v0, "\u06db\u06d8\u06dc\u06d8\u06da\u06e2\u06e1\u06d8\u06d8\u06e7\u06d7\u06e0\u06d7\u06db\u06e7\u06d8\u06e7\u06d7\u06e6\u06e5\u06d8\u06db\u06e6\u06da\u06df\u06d6\u06e1\u06e7\u06e5\u06e1\u06e1\u06d8\u06eb\u06d9\u06e0\u06d8\u06e0\u06d6\u06d9\u06e2\u06d7\u06e8\u06d8\u06e6\u06eb\u06d6\u06d8\u06da\u06e6\u06e6\u06d8\u06e7\u06e6\u06d6\u06e2\u06e6\u06d8\u06e0\u06e4\u06df\u06e5\u06ec\u06e6\u06d6\u06e7\u06db\u06d8\u06db\u06e4"
 
@@ -487,7 +487,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic a0(Lcom/example/drawingar/activity/ewfnei;Landroid/view/View;I)V
+.method public static synthetic a0(Lcom/example/drawingar/activity/feiwfin;Landroid/view/View;I)V
     .locals 4
 
     const-string v0, "\u06e5\u06dc\u06dc\u06e2\u06e5\u06d8\u06e6\u06e2\u06e6\u06d8\u06dc\u06e5\u06d6\u06d8\u06e6\u06db\u06ec\u06e6\u06e0\u06eb\u06d6\u06d8\u06d6\u06d8\u06eb\u06e8\u06e8\u06d8\u06eb\u06e1\u06e7\u06e0\u06e4\u06e8\u06d8\u06d7\u06e2\u06dc\u06d8\u06df\u06da\u06d9\u06e2\u06df\u06d8\u06d8\u06d9\u06e0\u06ec\u06d6\u06da\u06e4\u06eb\u06e6\u06e0\u06db\u06db\u06d7\u06da\u06d6\u06df\u06e1\u06df\u06e8\u06d8\u06e8\u06db\u06dc\u06d8\u06e2\u06ec\u06e5\u06db\u06e1\u06e8\u06d8\u06e6\u06ec\u06e5\u06d8\u06e8\u06e4\u06e2"
@@ -543,7 +543,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/ewfnei;->z0(Landroid/view/View;I)V
+    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/feiwfin;->z0(Landroid/view/View;I)V
 
     const-string v0, "\u06d9\u06dc\u06dc\u06e6\u06db\u06e8\u06d8\u06ec\u06e0\u06e6\u06e7\u06db\u06e0\u06e6\u06d6\u06e1\u06d8\u06e5\u06e1\u06eb\u06e0\u06e6\u06da\u06db\u06df\u06e7\u06d7\u06e7\u06e5\u06d8\u06e2\u06da\u06e7\u06e6\u06e2\u06e5\u06d8\u06d7\u06e7\u06da\u06e5\u06e7\u06da\u06d9\u06e7\u06e5\u06d8\u06d7\u06eb\u06d6\u06ec\u06e8\u06ec\u06dc\u06e7\u06d7\u06e8\u06ec\u06d9\u06e1\u06d8\u06e8\u06e1\u06e7\u06d8\u06e8\u06e7\u06e6\u06eb\u06e5\u06e6\u06e4\u06e2\u06df\u06e7\u06e6\u06d7\u06dc\u06d8\u06d8\u06d8\u06d6\u06e1\u06d8\u06d8\u06ec\u06e2"
 
@@ -562,7 +562,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic b0(Lcom/example/drawingar/activity/ewfnei;Landroid/content/DialogInterface;I[Ljava/lang/Integer;)V
+.method public static synthetic b0(Lcom/example/drawingar/activity/feiwfin;Landroid/content/DialogInterface;I[Ljava/lang/Integer;)V
     .locals 4
 
     const-string/jumbo v0, "\u06eb\u06e6\u06e7\u06d7\u06eb\u06e1\u06e0\u06e7\u06e4\u06dc\u06eb\u06d7\u06d7\u06df\u06db\u06dc\u06e2\u06df\u06df\u06e1\u06d8\u06db\u06e4\u06e1\u06e1\u06da\u06e2\u06e7\u06e8\u06d8\u06df\u06e2\u06e8\u06e4\u06da\u06db\u06e5\u06e7\u06da\u06dc\u06e4\u06e7\u06ec\u06d6\u06e1\u06d8\u06e4\u06e6\u06e6\u06df\u06d7\u06e5\u06e6\u06e8\u06e5\u06d8\u06d7\u06d8\u06e8\u06d8\u06dc\u06dc\u06d7\u06e5\u06d8\u06e7\u06e7\u06e2\u06e7\u06d6\u06e4\u06d9\u06da\u06d7\u06d7\u06e2\u06da\u06dc\u06e4\u06e6\u06e8\u06e8\u06d8\u06d6"
@@ -623,7 +623,7 @@
     goto :goto_0
 
     :sswitch_4
-    invoke-direct {p0, p1, p2, p3}, Lcom/example/drawingar/activity/ewfnei;->u0(Landroid/content/DialogInterface;I[Ljava/lang/Integer;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/example/drawingar/activity/feiwfin;->u0(Landroid/content/DialogInterface;I[Ljava/lang/Integer;)V
 
     const-string v0, "\u06df\u06e6\u06eb\u06e5\u06e2\u06e1\u06d8\u06eb\u06d7\u06d6\u06d8\u06d6\u06e1\u06dc\u06d8\u06e0\u06e6\u06eb\u06dc\u06ec\u06e1\u06d6\u06d8\u06da\u06dc\u06d8\u06d8\u06e7\u06ec\u06e2\u06d8\u06d6\u06e7\u06d9\u06e0\u06e0\u06e5\u06d8\u06ec\u06e4\u06db\u06e6\u06e1\u06e0\u06e6\u06ec\u06d6"
 
@@ -645,7 +645,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic c0(Lcom/example/drawingar/activity/ewfnei;Landroid/view/View;)V
+.method public static synthetic c0(Lcom/example/drawingar/activity/feiwfin;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06d9\u06e1\u06dc\u06d8\u06e7\u06ec\u06e1\u06da\u06ec\u06d7\u06e0\u06e2\u06ec\u06d8\u06ec\u06e1\u06d8\u06e7\u06e7\u06e2\u06dc\u06eb\u06d8\u06d6\u06e0\u06e0\u06e7\u06d8\u06dc\u06df\u06e0\u06e5\u06d7\u06d7\u06ec\u06d7\u06db\u06d6\u06e0\u06e5\u06d9\u06e4\u06e2\u06e5\u06d8\u06e0\u06d8\u06d8\u06da\u06e4\u06dc\u06db\u06e2\u06e0\u06d6\u06e2\u06df\u06d7\u06e4\u06d8\u06d8\u06d9\u06e5\u06e1\u06d9\u06db\u06e2\u06d9\u06d9\u06e0\u06e0\u06e4\u06df\u06e2\u06e6\u06e2\u06d9\u06da\u06e0\u06e7\u06e4\u06da\u06d6\u06ec\u06d7"
@@ -696,7 +696,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/ewfnei;->w0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/feiwfin;->w0(Landroid/view/View;)V
 
     const-string v0, "\u06d6\u06e4\u06e8\u06d8\u06ec\u06e7\u06d6\u06e6\u06ec\u06e7\u06eb\u06df\u06e6\u06d8\u06e7\u06df\u06e2\u06d9\u06e7\u06e5\u06e4\u06e4\u06e1\u06eb\u06e6\u06e4\u06e1\u06da\u06df\u06ec\u06d8\u06e8\u06d7\u06eb\u06e7\u06d7\u06e8\u06e7\u06e5\u06e6\u06e8\u06d8\u06e8\u06e2\u06df\u06db\u06e7\u06e8\u06d8\u06e1\u06df\u06e4\u06eb\u06e5\u06e1"
 
@@ -767,7 +767,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-static {p0, p1}, Lcom/example/drawingar/activity/ewfnei;->B0(Landroid/content/DialogInterface;I)V
+    invoke-static {p0, p1}, Lcom/example/drawingar/activity/feiwfin;->B0(Landroid/content/DialogInterface;I)V
 
     const-string/jumbo v0, "\u06ec\u06e2\u06e7\u06e0\u06d8\u06ec\u06d8\u06ec\u06e1\u06db\u06da\u06e1\u06e6\u06e8\u06db\u06d9\u06e8\u06e7\u06e2\u06d9\u06d8\u06d8\u06da\u06e0\u06df\u06d7\u06e6\u06d7\u06d8\u06d7\u06d7\u06d9\u06e6\u06d9\u06da\u06d6\u06db\u06db\u06d8\u06dc\u06d8\u06d7\u06e7\u06e1\u06d6\u06e0\u06dc"
 
@@ -785,7 +785,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic e0(Lcom/example/drawingar/activity/ewfnei;Landroid/view/View;)V
+.method public static synthetic e0(Lcom/example/drawingar/activity/feiwfin;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06e1\u06e0\u06e0\u06d7\u06e5\u06e8\u06d8\u06db\u06e4\u06df\u06e7\u06d8\u06d8\u06d8\u06db\u06ec\u06e6\u06d8\u06e7\u06e7\u06e5\u06d8\u06e7\u06d8\u06da\u06d9\u06db\u06d7\u06d7\u06e2\u06e1\u06e5\u06d7\u06d8\u06d8\u06e5\u06e5\u06e6\u06e8\u06e2\u06db\u06da\u06e2\u06df\u06e4\u06da\u06e0\u06d6\u06d8\u06e6\u06d6\u06e8\u06db\u06e8\u06db\u06e6\u06e2\u06d6\u06df\u06e6\u06d9\u06db\u06d7\u06e2\u06d8\u06d7\u06d9\u06ec\u06e8\u06df\u06e1\u06d6\u06e8\u06d8\u06e2\u06d7"
@@ -836,7 +836,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/ewfnei;->t0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/feiwfin;->t0(Landroid/view/View;)V
 
     const-string v0, "\u06e6\u06df\u06d8\u06d8\u06e0\u06db\u06e0\u06e8\u06d7\u06d8\u06e8\u06df\u06eb\u06dc\u06e1\u06e4\u06d7\u06e5\u06e8\u06d8\u06d6\u06e8\u06e8\u06e1\u06d8\u06da\u06e4\u06e4\u06d7\u06d6\u06da\u06db\u06e7\u06e2\u06d8\u06e4\u06e2\u06dc\u06e6\u06e7\u06d8\u06db\u06ec\u06e6\u06d8\u06db\u06e4\u06e2\u06db\u06e1\u06e5\u06d7\u06df\u06eb\u06d8\u06eb\u06eb"
 
@@ -856,7 +856,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic f0(Lcom/example/drawingar/activity/ewfnei;Landroid/content/DialogInterface;I)V
+.method public static synthetic f0(Lcom/example/drawingar/activity/feiwfin;Landroid/content/DialogInterface;I)V
     .locals 4
 
     const-string v0, "\u06df\u06d7\u06d8\u06d8\u06e0\u06d8\u06e5\u06e1\u06e4\u06da\u06da\u06e5\u06d7\u06e8\u06d6\u06e5\u06e2\u06dc\u06ec\u06d6\u06d6\u06d8\u06e1\u06eb\u06e5\u06eb\u06d8\u06e4\u06e1\u06da\u06e8\u06d8\u06e8\u06e0\u06e1\u06d8\u06e7\u06e7\u06dc\u06df\u06db\u06e5\u06e7\u06ec\u06d7\u06d6\u06eb\u06d9\u06db\u06dc\u06da\u06da\u06df\u06d7\u06e7\u06df\u06e6\u06e6\u06d9\u06db\u06e2\u06e7\u06d8\u06d8\u06e2\u06e1\u06e7\u06d6\u06ec\u06d8\u06d8\u06dc\u06eb\u06e8\u06d6\u06d7\u06e4"
@@ -912,7 +912,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/ewfnei;->A0(Landroid/content/DialogInterface;I)V
+    invoke-direct {p0, p1, p2}, Lcom/example/drawingar/activity/feiwfin;->A0(Landroid/content/DialogInterface;I)V
 
     const-string v0, "\u06d7\u06da\u06e5\u06d8\u06df\u06e8\u06d9\u06e7\u06d6\u06d8\u06db\u06e2\u06da\u06e1\u06d6\u06eb\u06d6\u06dc\u06d8\u06da\u06d6\u06e2\u06df\u06e7\u06d9\u06e8\u06dc\u06da\u06e6\u06d7\u06e6\u06d9\u06eb\u06ec\u06d7\u06ec\u06d6\u06eb\u06ec\u06e4\u06e6\u06d8\u06dc\u06d8\u06d9\u06e8\u06e4\u06e8\u06e7\u06e5\u06dc\u06db\u06e7\u06d6\u06d8\u06e4\u06ec\u06df\u06dc\u06da\u06eb\u06e5\u06dc\u06e2\u06ec\u06e7\u06d9\u06df\u06e7\u06d7\u06e8\u06d9"
 
@@ -931,7 +931,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic g0(Lcom/example/drawingar/activity/ewfnei;Landroid/view/View;)V
+.method public static synthetic g0(Lcom/example/drawingar/activity/feiwfin;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06db\u06d9\u06e7\u06da\u06e7\u06e5\u06d8\u06e5\u06dc\u06d6\u06d8\u06dc\u06e6\u06e1\u06d6\u06eb\u06eb\u06eb\u06d7\u06da\u06e4\u06e1\u06e7\u06d8\u06eb\u06df\u06e5\u06e0\u06da\u06e6\u06e0\u06ec\u06eb\u06e4\u06e0\u06e6\u06d8\u06da\u06db\u06da\u06e1\u06db\u06d7\u06e6\u06ec\u06d6\u06d6\u06e1\u06db"
@@ -982,7 +982,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/ewfnei;->s0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/feiwfin;->s0(Landroid/view/View;)V
 
     const-string v0, "\u06da\u06e7\u06e1\u06d8\u06eb\u06d8\u06da\u06d7\u06e8\u06e8\u06e6\u06e6\u06e6\u06d8\u06da\u06db\u06e1\u06d8\u06e4\u06d7\u06eb\u06e6\u06dc\u06eb\u06e4\u06e5\u06db\u06eb\u06e0\u06e7\u06dc\u06d6\u06d8\u06db\u06db\u06e0\u06df\u06ec\u06d8\u06d8\u06d9\u06d7\u06d9\u06ec\u06e0\u06eb\u06e2\u06d7\u06ec"
 
@@ -1002,7 +1002,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic h0(Lcom/example/drawingar/activity/ewfnei;Landroid/view/View;)V
+.method public static synthetic h0(Lcom/example/drawingar/activity/feiwfin;Landroid/view/View;)V
     .locals 4
 
     const-string/jumbo v0, "\u06eb\u06e1\u06d6\u06e7\u06e2\u06da\u06e1\u06e6\u06d6\u06d8\u06da\u06e7\u06e5\u06d8\u06e2\u06ec\u06e0\u06e4\u06df\u06d7\u06dc\u06d8\u06e1\u06d8\u06d8\u06d7\u06e0\u06d9\u06e4\u06e4\u06db\u06d6\u06db\u06eb\u06db\u06e1\u06d8\u06d7\u06e6\u06e2\u06e1\u06d8\u06dc\u06d8\u06e8\u06e5\u06e8\u06ec\u06db\u06e4\u06db\u06d8\u06d9\u06e7\u06e4\u06d8\u06e7\u06ec\u06d6\u06d8\u06e7\u06ec\u06dc\u06e7\u06e0\u06d8\u06df\u06e4\u06df\u06df\u06e1\u06e1\u06d8\u06e4\u06d7\u06d8\u06d8\u06ec\u06e1\u06db\u06e8\u06ec\u06db\u06dc\u06d8\u06e8\u06e0\u06da"
@@ -1053,7 +1053,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/ewfnei;->x0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/feiwfin;->x0(Landroid/view/View;)V
 
     const-string v0, "\u06e2\u06d8\u06dc\u06d8\u06d7\u06dc\u06d9\u06df\u06ec\u06e6\u06eb\u06d8\u06d8\u06e6\u06e4\u06e6\u06d8\u06da\u06d8\u06e8\u06d8\u06e1\u06db\u06e7\u06d6\u06e1\u06eb\u06d8\u06e0\u06d8\u06d8\u06e7\u06e8\u06e2\u06d9\u06e7\u06d8\u06df\u06ec\u06e4\u06e7\u06d7\u06df\u06df\u06e1\u06d8\u06e8\u06e1\u06e1\u06d8\u06e4\u06e4\u06e1\u06db\u06e8\u06e1\u06da\u06e6\u06d9\u06d7\u06db\u06d8\u06d8\u06e7\u06e7\u06da\u06d8\u06e6\u06d9\u06eb\u06dc\u06e7\u06e1\u06d7\u06e8\u06eb\u06e2\u06eb"
 
@@ -1071,7 +1071,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic i0(Lcom/example/drawingar/activity/ewfnei;Landroid/view/View;)V
+.method public static synthetic i0(Lcom/example/drawingar/activity/feiwfin;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06d9\u06e8\u06d6\u06d8\u06eb\u06e5\u06e1\u06d8\u06e8\u06e8\u06dc\u06d8\u06d7\u06e0\u06e8\u06d8\u06db\u06d9\u06d8\u06e0\u06df\u06dc\u06e6\u06ec\u06e1\u06e5\u06d8\u06da\u06e7\u06e4\u06e2\u06df\u06e6\u06eb\u06e4\u06d7\u06e6\u06d9\u06db\u06d8\u06d8\u06d6\u06d7\u06dc\u06d8\u06d7\u06e7\u06da\u06d8\u06ec\u06e2\u06d7\u06e8\u06e2\u06dc\u06e8\u06d8\u06dc\u06e1\u06d8\u06d7\u06df\u06e0\u06e2\u06eb\u06d6\u06d8\u06d8\u06e8\u06d7"
@@ -1122,7 +1122,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/ewfnei;->r0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/feiwfin;->r0(Landroid/view/View;)V
 
     const-string v0, "\u06db\u06e7\u06d9\u06e1\u06d6\u06d8\u06d7\u06e8\u06e6\u06e8\u06dc\u06da\u06e2\u06d6\u06d7\u06e2\u06d6\u06d9\u06df\u06eb\u06d7\u06df\u06e5\u06e1\u06d8\u06e5\u06d7\u06d8\u06d6\u06e2\u06e4\u06ec\u06df\u06e6\u06d8\u06e7\u06da\u06e7\u06da\u06e7\u06e6\u06d8\u06e4\u06dc\u06e8\u06d8\u06e8\u06dc\u06e4\u06db\u06e2\u06e7\u06e6\u06df\u06e5\u06d8\u06d9\u06d6\u06dc\u06e0\u06e1\u06e6\u06d8\u06eb\u06e7\u06d8\u06d8\u06dc\u06da\u06e8\u06e8\u06d8\u06d7\u06dc\u06df\u06e5\u06d8\u06e7\u06dc\u06da"
 
@@ -1142,7 +1142,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic j0(Lcom/example/drawingar/activity/ewfnei;Landroid/view/View;)V
+.method public static synthetic j0(Lcom/example/drawingar/activity/feiwfin;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06d6\u06d6\u06df\u06d8\u06dc\u06eb\u06db\u06d6\u06e8\u06d8\u06e7\u06da\u06dc\u06e0\u06d8\u06ec\u06e2\u06d8\u06e8\u06d8\u06e8\u06ec\u06ec\u06df\u06d7\u06e8\u06d8\u06ec\u06e6\u06e1\u06d7\u06e4\u06e1\u06d8\u06dc\u06da\u06da\u06e5\u06d7\u06d6\u06d7\u06eb\u06e1\u06d8\u06eb\u06e6\u06e1\u06db\u06e1\u06df\u06d9\u06ec\u06dc\u06d8\u06e6\u06e0\u06db\u06d8\u06d8\u06d7\u06df\u06e0\u06e1\u06df\u06e0\u06e5\u06d8\u06d9\u06d9\u06da\u06e1\u06e2\u06d8\u06d8\u06d6\u06db\u06e1\u06d8\u06e1\u06ec\u06e5"
@@ -1193,7 +1193,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/ewfnei;->y0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/feiwfin;->y0(Landroid/view/View;)V
 
     const-string v0, "\u06d7\u06d7\u06e5\u06d8\u06e0\u06e5\u06e6\u06d8\u06dc\u06d7\u06df\u06e0\u06df\u06e4\u06d9\u06eb\u06d8\u06e0\u06e1\u06dc\u06d8\u06e2\u06e4\u06e4\u06dc\u06e2\u06eb\u06e2\u06d9\u06d8\u06df\u06db\u06e5\u06d7\u06da\u06db\u06db\u06e8\u06e4\u06dc\u06e4\u06df\u06eb\u06da\u06e5\u06e0\u06e4\u06e2\u06e4\u06eb\u06e2\u06df\u06d8\u06e7\u06d8\u06dc\u06df\u06e7"
 
@@ -1213,7 +1213,7 @@
     .end sparse-switch
 .end method
 
-.method public static synthetic k0(Lcom/example/drawingar/activity/ewfnei;Landroid/view/View;)V
+.method public static synthetic k0(Lcom/example/drawingar/activity/feiwfin;Landroid/view/View;)V
     .locals 4
 
     const-string v0, "\u06e5\u06e2\u06e8\u06d8\u06d9\u06ec\u06e1\u06d7\u06eb\u06df\u06d6\u06df\u06da\u06e0\u06e8\u06d8\u06ec\u06d7\u06e6\u06e4\u06e5\u06d8\u06d7\u06d6\u06e8\u06e8\u06e5\u06e6\u06da\u06e1\u06e4\u06ec\u06e8\u06dc\u06d7\u06e1\u06d9\u06d9\u06d9\u06d6\u06da\u06ec\u06d7\u06d8\u06e1\u06dc\u06df\u06dc\u06d6\u06d8\u06d6\u06da\u06eb\u06e8\u06e1\u06e1\u06d8\u06eb\u06dc\u06da\u06dc\u06eb\u06d8\u06d8\u06e5\u06d6\u06e7\u06d8\u06e1\u06d8\u06e1\u06e6\u06dc\u06e5\u06e6\u06e1\u06e4"
@@ -1264,7 +1264,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/ewfnei;->p0(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lcom/example/drawingar/activity/feiwfin;->p0(Landroid/view/View;)V
 
     const-string/jumbo v0, "\u06e7\u06d8\u06e1\u06e1\u06e8\u06e4\u06ec\u06ec\u06e1\u06db\u06d8\u06ec\u06dc\u06d9\u06dc\u06d8\u06e5\u06d7\u06e8\u06d6\u06ec\u06ec\u06e1\u06df\u06e1\u06d8\u06da\u06d7\u06e0\u06e2\u06e8\u06e1\u06d8\u06df\u06e7\u06d9\u06e1\u06e8\u06e1\u06d8\u06e4\u06d7\u06eb\u06dc\u06e5\u06e7\u06d7\u06e0\u06db\u06d9\u06ec\u06ec\u06d6\u06e8\u06e4\u06eb\u06d7\u06dc\u06d8\u06dc\u06d6\u06e2\u06ec\u06e5\u06dc\u06e7\u06e7\u06e6"
 
@@ -1341,7 +1341,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->p:Lwj;
 
@@ -1354,7 +1354,7 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->q:Lck;
 
@@ -1367,7 +1367,7 @@
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->o:Landroid/widget/LinearLayout;
 
@@ -1378,46 +1378,46 @@
     goto :goto_0
 
     :sswitch_5
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->e:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06df\u06da\u06d6\u06e6\u06d6\u06e5\u06d8\u06d7\u06ec\u06e0\u06e0\u06e7\u06da\u06d8\u06eb\u06eb\u06d6\u06e8\u06db\u06e4\u06e1\u06da\u06da\u06d9\u06da\u06db\u06e1\u06e1\u06d6\u06e2\u06da\u06e6\u06d6\u06d9\u06d9\u06dc\u06d8\u06e8\u06d8\u06db\u06e8\u06d6\u06dc\u06e5\u06e2\u06dc\u06df\u06e4\u06d8\u06e4\u06d9\u06d6\u06d8\u06e7\u06e6\u06d8\u06ec\u06da\u06e6\u06d8\u06dc\u06d6\u06dc\u06e0\u06eb\u06d9\u06db\u06d9\u06e8\u06df\u06da\u06e0\u06e8\u06ec\u06d6"
 
     goto :goto_0
 
     :sswitch_6
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/ewfnei;->N:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/feiwfin;->N:Z
 
     const-string v0, "\u06e6\u06d9\u06e5\u06e5\u06e8\u06df\u06db\u06df\u06dc\u06dc\u06d7\u06d7\u06dc\u06e6\u06e5\u06d8\u06d8\u06df\u06d8\u06ec\u06e4\u06d8\u06d8\u06e5\u06e4\u06e8\u06db\u06e5\u06e0\u06e5\u06d8\u06da\u06da\u06e8\u06d8\u06da\u06df\u06e1\u06d8\u06e2\u06e8\u06e7\u06d8\u06db\u06dc\u06db\u06dc\u06d8\u06ec\u06d6\u06e6\u06d7\u06e5\u06db\u06e6\u06d8\u06e5\u06e6\u06e6"
 
     goto :goto_0
 
     :sswitch_7
-    iput-boolean v4, p0, Lcom/example/drawingar/activity/ewfnei;->O:Z
+    iput-boolean v4, p0, Lcom/example/drawingar/activity/feiwfin;->O:Z
 
     const-string/jumbo v0, "\u06ec\u06e1\u06d7\u06eb\u06e1\u06e8\u06d9\u06da\u06eb\u06e0\u06eb\u06dc\u06d8\u06dc\u06e2\u06e5\u06e8\u06e1\u06dc\u06d8\u06d6\u06ec\u06da\u06e8\u06e0\u06ec\u06db\u06e2\u06e1\u06d8\u06e6\u06eb\u06e5\u06e4\u06e8\u06e1\u06d8\u06df\u06e5\u06e5\u06e1\u06e4\u06ec\u06db\u06e5\u06da\u06d9\u06df\u06d6\u06d7\u06e2\u06e5\u06d8\u06da\u06e0\u06dc\u06dc\u06df\u06e8\u06d8"
 
     goto :goto_0
 
     :sswitch_8
-    iput-boolean v4, p0, Lcom/example/drawingar/activity/ewfnei;->P:Z
+    iput-boolean v4, p0, Lcom/example/drawingar/activity/feiwfin;->P:Z
 
     const-string v0, "\u06e1\u06eb\u06db\u06e1\u06e8\u06e8\u06d8\u06e1\u06da\u06e0\u06e5\u06e1\u06e8\u06e4\u06e2\u06ec\u06dc\u06ec\u06e1\u06d7\u06da\u06ec\u06e6\u06ec\u06d8\u06d8\u06e0\u06d7\u06e8\u06e1\u06e6\u06db\u06e4\u06ec\u06e5\u06e0\u06e1\u06da\u06e2\u06e5\u06d8\u06dc\u06e8\u06e6\u06da\u06e0\u06d6\u06d9\u06e7\u06e1\u06e8\u06df\u06d8\u06d8\u06df\u06d6\u06ec\u06e5\u06eb\u06da\u06e4\u06df\u06e1\u06d8\u06eb\u06e4\u06e8\u06d8\u06d9\u06d7\u06da\u06e0\u06e2\u06e4\u06dc\u06da\u06d6\u06d8"
 
     goto :goto_0
 
     :sswitch_9
-    iput-boolean v4, p0, Lcom/example/drawingar/activity/ewfnei;->Q:Z
+    iput-boolean v4, p0, Lcom/example/drawingar/activity/feiwfin;->Q:Z
 
     const-string v0, "\u06db\u06e8\u06d6\u06d8\u06e0\u06e0\u06e6\u06d8\u06df\u06d7\u06e0\u06e1\u06d8\u06ec\u06d9\u06df\u06df\u06e8\u06ec\u06e0\u06dc\u06e8\u06e8\u06dc\u06d9\u06df\u06d8\u06e8\u06e1\u06d8\u06ec\u06ec\u06d6\u06e1\u06eb\u06e4\u06d8\u06d9\u06d6\u06d8\u06d9\u06da\u06d9\u06e4\u06d7\u06d9\u06df\u06dc\u06e5\u06e7\u06d9\u06dc\u06da\u06dc\u06eb\u06e2\u06e1\u06d8"
 
     goto :goto_0
 
     :sswitch_a
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -1432,11 +1432,11 @@
     goto :goto_0
 
     :sswitch_b
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->O:Z
+    iget-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->O:Z
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1449,11 +1449,11 @@
     goto/16 :goto_0
 
     :sswitch_c
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->P:Z
+    iget-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->P:Z
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1466,11 +1466,11 @@
     goto/16 :goto_0
 
     :sswitch_d
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->Q:Z
+    iget-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->Q:Z
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1483,7 +1483,7 @@
     goto/16 :goto_0
 
     :sswitch_e
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -1524,7 +1524,7 @@
 
     const/4 v6, 0x0
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->o:Landroid/widget/LinearLayout;
 
@@ -1532,17 +1532,17 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
     invoke-virtual {v0, v6}, Landroid/widget/RelativeLayout;->setBackgroundColor(I)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->m:Landroid/widget/LinearLayout;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->o0(Landroid/view/View;)Landroid/graphics/Bitmap;
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->o0(Landroid/view/View;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -1672,7 +1672,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v0}, Lcom/example/drawingar/activity/ewfnei;->C0(Landroid/content/Context;Landroid/graphics/Bitmap;)Landroid/net/Uri;
+    invoke-static {v1, v0}, Lcom/example/drawingar/activity/feiwfin;->C0(Landroid/content/Context;Landroid/graphics/Bitmap;)Landroid/net/Uri;
 
     move-result-object v0
 
@@ -1680,11 +1680,11 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->I:Ljava/lang/String;
+    iput-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->I:Ljava/lang/String;
 
     new-instance v0, Landroid/content/Intent;
 
-    const-class v1, Lcom/example/drawingar/activity/xamfmfewl;
+    const-class v1, Lcom/example/drawingar/activity/DrawOptionActivity;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -1696,7 +1696,7 @@
 
     const-string v1, "pathImage"
 
-    iget-object v2, p0, Lcom/example/drawingar/activity/ewfnei;->I:Ljava/lang/String;
+    iget-object v2, p0, Lcom/example/drawingar/activity/feiwfin;->I:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -1809,7 +1809,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->p:Lwj;
 
@@ -1822,7 +1822,7 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->q:Lck;
 
@@ -1835,7 +1835,7 @@
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->o:Landroid/widget/LinearLayout;
 
@@ -1846,11 +1846,11 @@
     goto :goto_0
 
     :sswitch_5
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->l:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06d8\u06d9\u06e5\u06d8\u06dc\u06eb\u06e1\u06df\u06e0\u06db\u06e7\u06d9\u06db\u06e1\u06e8\u06e5\u06d8\u06db\u06e0\u06da\u06d9\u06e0\u06eb\u06e4\u06ec\u06e1\u06d8\u06e6\u06d8\u06ec\u06d6\u06d8\u06d8\u06df\u06d9\u06d6\u06e8\u06db\u06e0\u06d9\u06ec\u06d8\u06db\u06d6\u06e7\u06d7\u06d9\u06d9\u06e1\u06d9\u06d6\u06d8\u06ec\u06d9\u06e6\u06d6\u06e5\u06da"
 
@@ -1859,35 +1859,35 @@
     :sswitch_6
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->O:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->O:Z
 
     const-string/jumbo v0, "\u06e6\u06e1\u06d8\u06d8\u06e1\u06da\u06d7\u06d7\u06e4\u06db\u06e2\u06e5\u06dc\u06d8\u06d7\u06db\u06e6\u06d8\u06db\u06e8\u06d7\u06db\u06ec\u06e1\u06d6\u06e8\u06d7\u06df\u06e0\u06e8\u06e1\u06e7\u06e7\u06d6\u06d8\u06e1\u06e6\u06e8\u06ec\u06e7\u06d9\u06d8\u06e1\u06d8\u06e8\u06db\u06e8\u06dc\u06ec\u06dc\u06d8\u06dc\u06e0\u06e8\u06d8\u06e5\u06d8\u06e7\u06e7\u06e6\u06ec\u06e6\u06e7\u06db\u06d9\u06dc\u06e2\u06e0\u06df\u06d9\u06d8\u06d6\u06e1\u06eb\u06dc\u06df\u06dc\u06e6\u06ec\u06e6\u06e5\u06da\u06e2"
 
     goto :goto_0
 
     :sswitch_7
-    iput-boolean v4, p0, Lcom/example/drawingar/activity/ewfnei;->N:Z
+    iput-boolean v4, p0, Lcom/example/drawingar/activity/feiwfin;->N:Z
 
     const-string/jumbo v0, "\u06ec\u06dc\u06e4\u06da\u06e8\u06e4\u06d9\u06e1\u06db\u06e5\u06e1\u06e2\u06d7\u06e6\u06d6\u06e0\u06db\u06df\u06d6\u06ec\u06e6\u06d8\u06e8\u06ec\u06d8\u06d8\u06e6\u06e1\u06e2\u06d9\u06e1\u06da\u06e2\u06eb\u06e6\u06d8\u06ec\u06db\u06da\u06dc\u06d6\u06e4\u06e8\u06e1\u06e2\u06d8\u06db\u06e8\u06d8\u06da\u06d7\u06d8\u06d8\u06e1\u06d7\u06d6\u06e1\u06d9\u06d7\u06d7\u06e5\u06da\u06d9\u06e7\u06da\u06db\u06ec\u06e7"
 
     goto :goto_0
 
     :sswitch_8
-    iput-boolean v4, p0, Lcom/example/drawingar/activity/ewfnei;->P:Z
+    iput-boolean v4, p0, Lcom/example/drawingar/activity/feiwfin;->P:Z
 
     const-string v0, "\u06d9\u06d7\u06e0\u06dc\u06e4\u06d8\u06e1\u06e7\u06e5\u06e1\u06e0\u06eb\u06e2\u06e5\u06e4\u06ec\u06ec\u06e0\u06e4\u06e5\u06e7\u06d8\u06e2\u06d6\u06eb\u06d7\u06e1\u06d6\u06e1\u06eb\u06d6\u06d8\u06e7\u06e5\u06dc\u06d8\u06e2\u06e5\u06d6\u06e1\u06dc\u06e2\u06d7\u06e2\u06e1\u06dc\u06e8\u06e6\u06d8\u06eb\u06d9\u06e2\u06e2\u06df\u06e8\u06d8\u06db\u06ec\u06e7"
 
     goto :goto_0
 
     :sswitch_9
-    iput-boolean v4, p0, Lcom/example/drawingar/activity/ewfnei;->Q:Z
+    iput-boolean v4, p0, Lcom/example/drawingar/activity/feiwfin;->Q:Z
 
     const-string/jumbo v0, "\u06e7\u06da\u06ec\u06eb\u06d8\u06e8\u06d8\u06e0\u06da\u06da\u06dc\u06d9\u06d9\u06e0\u06e5\u06d8\u06e6\u06e1\u06d8\u06d8\u06df\u06e5\u06d8\u06d8\u06db\u06d9\u06e6\u06ec\u06d6\u06e6\u06d8\u06e1\u06e0\u06e0\u06e8\u06d7\u06d8\u06ec\u06e1\u06eb\u06e4\u06da\u06db\u06e4\u06dc\u06da\u06ec\u06d8\u06df\u06d6\u06e6\u06d8\u06e5\u06e2\u06e1\u06d8\u06d8\u06df\u06e5\u06d8"
 
     goto :goto_0
 
     :sswitch_a
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -1902,11 +1902,11 @@
     goto :goto_0
 
     :sswitch_b
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->O:Z
+    iget-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->O:Z
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1919,11 +1919,11 @@
     goto/16 :goto_0
 
     :sswitch_c
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->P:Z
+    iget-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->P:Z
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1936,11 +1936,11 @@
     goto/16 :goto_0
 
     :sswitch_d
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->Q:Z
+    iget-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->Q:Z
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1953,7 +1953,7 @@
     goto/16 :goto_0
 
     :sswitch_e
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -2044,7 +2044,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->p:Lwj;
 
@@ -2057,7 +2057,7 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->q:Lck;
 
@@ -2070,7 +2070,7 @@
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->o:Landroid/widget/LinearLayout;
 
@@ -2081,11 +2081,11 @@
     goto :goto_0
 
     :sswitch_5
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->k:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06db\u06e7\u06db\u06e2\u06d9\u06e1\u06d8\u06db\u06d6\u06d8\u06e8\u06e6\u06d8\u06dc\u06eb\u06d8\u06d8\u06db\u06eb\u06e6\u06d8\u06d6\u06db\u06d9\u06e7\u06e4\u06e5\u06dc\u06ec\u06d6\u06d8\u06d8\u06df\u06e5\u06d8\u06ec\u06e2\u06d9\u06e5\u06d7\u06e1\u06eb\u06e0\u06e7\u06db\u06db\u06eb\u06e4\u06eb\u06da\u06e2\u06e8\u06e8\u06d8\u06d7\u06d6\u06e1\u06e0\u06ec\u06dc\u06d6\u06e7\u06e6\u06e4\u06e1\u06e6\u06e2\u06e8\u06dc\u06e6\u06df\u06e2\u06e1\u06da\u06e4\u06e7\u06d8"
 
@@ -2094,35 +2094,35 @@
     :sswitch_6
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->P:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->P:Z
 
     const-string v0, "\u06e1\u06da\u06e2\u06e8\u06d8\u06d7\u06db\u06d6\u06d7\u06e1\u06d8\u06e1\u06d8\u06e5\u06d6\u06d8\u06d9\u06e5\u06d6\u06d8\u06d8\u06e6\u06ec\u06eb\u06e2\u06eb\u06da\u06e8\u06e1\u06d8\u06e5\u06e8\u06dc\u06d9\u06e5\u06e1\u06d8\u06dc\u06eb\u06eb\u06e2\u06db\u06e4\u06d7\u06e4\u06d8\u06d8\u06e6\u06e8\u06d8\u06e6\u06e7\u06dc\u06d8\u06e5\u06ec\u06e8\u06d8\u06da\u06eb\u06db\u06dc\u06da\u06e4\u06d8\u06d6\u06e2\u06eb\u06ec\u06e1\u06d8\u06d6\u06d9\u06d6\u06d8\u06d9\u06e8\u06df\u06e8\u06df\u06da"
 
     goto :goto_0
 
     :sswitch_7
-    iput-boolean v4, p0, Lcom/example/drawingar/activity/ewfnei;->N:Z
+    iput-boolean v4, p0, Lcom/example/drawingar/activity/feiwfin;->N:Z
 
     const-string v0, "\u06da\u06e2\u06d7\u06db\u06da\u06e6\u06d8\u06ec\u06d9\u06e1\u06d8\u06e8\u06e1\u06e6\u06df\u06df\u06e6\u06d9\u06e6\u06dc\u06db\u06d8\u06e7\u06d8\u06dc\u06ec\u06e0\u06db\u06d8\u06e7\u06df\u06d8\u06e6\u06d8\u06e7\u06db\u06e8\u06e0\u06e1\u06d9\u06e8\u06ec\u06da\u06d6\u06d6\u06d8\u06e5\u06dc\u06e0\u06e0\u06ec\u06e0\u06d9\u06d7\u06dc\u06d8\u06e4\u06d7\u06e0\u06e5\u06d9\u06e2\u06db\u06e1\u06e5\u06d8\u06e2\u06db\u06e2\u06db\u06e5\u06eb\u06ec\u06ec\u06dc\u06e7\u06d6\u06e1\u06d8\u06e8\u06e4\u06e4\u06d6\u06d8\u06d9\u06d6\u06da\u06d8\u06d8"
 
     goto :goto_0
 
     :sswitch_8
-    iput-boolean v4, p0, Lcom/example/drawingar/activity/ewfnei;->O:Z
+    iput-boolean v4, p0, Lcom/example/drawingar/activity/feiwfin;->O:Z
 
     const-string/jumbo v0, "\u06e8\u06e4\u06e7\u06e2\u06d9\u06e2\u06e8\u06e2\u06e8\u06d8\u06df\u06d9\u06e5\u06d8\u06e5\u06ec\u06d6\u06d8\u06dc\u06d6\u06e8\u06db\u06db\u06e6\u06da\u06db\u06d8\u06db\u06dc\u06da\u06e1\u06d7\u06e5\u06d8\u06dc\u06e5\u06ec\u06d9\u06e6\u06d9\u06e5\u06e6\u06db\u06eb\u06ec\u06e0\u06ec\u06e4"
 
     goto :goto_0
 
     :sswitch_9
-    iput-boolean v4, p0, Lcom/example/drawingar/activity/ewfnei;->Q:Z
+    iput-boolean v4, p0, Lcom/example/drawingar/activity/feiwfin;->Q:Z
 
     const-string v0, "\u06dc\u06d9\u06da\u06eb\u06d7\u06e7\u06d6\u06db\u06e8\u06da\u06e1\u06d8\u06d8\u06e1\u06e1\u06ec\u06e5\u06e7\u06d6\u06d8\u06e4\u06e7\u06e1\u06e0\u06e8\u06e0\u06e5\u06e0\u06e4\u06df\u06d8\u06e5\u06dc\u06e8\u06d8\u06e4\u06db\u06ec\u06df\u06d8\u06e5\u06e6\u06db\u06d6\u06df\u06da\u06e4\u06e8\u06e1\u06d6\u06eb\u06e7\u06e1\u06d8\u06e6\u06e5\u06d8"
 
     goto :goto_0
 
     :sswitch_a
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -2137,11 +2137,11 @@
     goto :goto_0
 
     :sswitch_b
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->O:Z
+    iget-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->O:Z
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -2154,11 +2154,11 @@
     goto/16 :goto_0
 
     :sswitch_c
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->P:Z
+    iget-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->P:Z
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -2171,11 +2171,11 @@
     goto/16 :goto_0
 
     :sswitch_d
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->Q:Z
+    iget-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->Q:Z
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -2188,7 +2188,7 @@
     goto/16 :goto_0
 
     :sswitch_e
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -2277,7 +2277,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->S:Ldk;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->S:Ldk;
 
     const/16 v1, 0x3e8
 
@@ -2288,14 +2288,14 @@
     goto :goto_0
 
     :sswitch_3
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/ewfnei;->M:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/feiwfin;->M:Z
 
     const-string v0, "\u06da\u06dc\u06d8\u06e1\u06df\u06dc\u06d8\u06df\u06e7\u06e0\u06e8\u06e1\u06d8\u06d8\u06d7\u06e1\u06e2\u06d9\u06eb\u06dc\u06d8\u06e7\u06dc\u06e0\u06e4\u06db\u06d6\u06d8\u06e6\u06dc\u06e5\u06df\u06df\u06e6\u06d8\u06d6\u06eb\u06e1\u06dc\u06e0\u06e1\u06e1\u06e1\u06eb\u06e8\u06df\u06eb\u06d9\u06d8\u06d9"
 
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -2312,21 +2312,21 @@
     :sswitch_5
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->K:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->K:Z
 
     const-string v0, "\u06d7\u06e5\u06e7\u06d8\u06e8\u06d8\u06e6\u06e2\u06d9\u06d7\u06d9\u06da\u06da\u06e2\u06d6\u06d8\u06e0\u06d8\u06e6\u06df\u06d9\u06d9\u06df\u06e1\u06e8\u06d8\u06db\u06e4\u06ec\u06d9\u06ec\u06e6\u06e1\u06e1\u06d6\u06e7\u06d7\u06e8\u06df\u06db\u06d8\u06d8\u06df\u06e5\u06da\u06e2\u06e2\u06da\u06df\u06e4\u06e6\u06d8\u06e0\u06da\u06e1\u06d7\u06db\u06d8\u06d8\u06da\u06e2\u06d9\u06df\u06e4\u06dc\u06d8\u06e1\u06e5\u06e0\u06e2\u06d9\u06d6\u06e6\u06e8\u06d9\u06e7\u06d8\u06e8\u06e2\u06d7\u06e2\u06e7\u06da\u06db\u06d7\u06e8\u06d8"
 
     goto :goto_0
 
     :sswitch_6
-    iput v4, p0, Lcom/example/drawingar/activity/ewfnei;->E:I
+    iput v4, p0, Lcom/example/drawingar/activity/feiwfin;->E:I
 
     const-string/jumbo v0, "\u06e7\u06db\u06d9\u06e2\u06e6\u06e5\u06d8\u06d7\u06eb\u06d8\u06d9\u06eb\u06e8\u06d8\u06e7\u06e1\u06eb\u06e8\u06e4\u06dc\u06d6\u06d7\u06e2\u06d7\u06eb\u06e6\u06d8\u06db\u06e0\u06d8\u06dc\u06d9\u06e5\u06df\u06e6\u06dc\u06ec\u06db\u06df\u06e7\u06d7\u06d8\u06d6\u06e0\u06d9\u06da\u06d6\u06eb\u06dc\u06dc\u06dc\u06e7\u06dc\u06d8\u06d8\u06dc\u06e7\u06e0\u06dc\u06eb\u06e7\u06e7\u06dc\u06e8\u06e0\u06e2\u06e8\u06ec\u06e6\u06d6\u06d8\u06e2\u06df\u06d8\u06e1\u06d6\u06eb\u06ec\u06eb\u06d6\u06db\u06e2\u06e6\u06d8"
 
     goto :goto_0
 
     :sswitch_7
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -2337,11 +2337,11 @@
     goto :goto_0
 
     :sswitch_8
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget v1, p0, Lcom/example/drawingar/activity/ewfnei;->E:I
+    iget v1, p0, Lcom/example/drawingar/activity/feiwfin;->E:I
 
     iput v1, v0, Lcom/example/drawingar/utils/DrawingArea;->e:I
 
@@ -2440,7 +2440,7 @@
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->S:Ldk;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->S:Ldk;
 
     const/16 v2, 0x3e8
 
@@ -2451,14 +2451,14 @@
     goto :goto_0
 
     :sswitch_5
-    iput-boolean v9, p0, Lcom/example/drawingar/activity/ewfnei;->M:Z
+    iput-boolean v9, p0, Lcom/example/drawingar/activity/feiwfin;->M:Z
 
     const-string v0, "\u06db\u06d7\u06e5\u06e4\u06eb\u06db\u06da\u06db\u06dc\u06d8\u06e7\u06d6\u06d6\u06e0\u06dc\u06d8\u06da\u06d6\u06d9\u06e6\u06e1\u06d6\u06d8\u06e4\u06d8\u06e2\u06e7\u06e8\u06e1\u06d8\u06e8\u06e7\u06d8\u06d8\u06e5\u06dc\u06eb\u06ec\u06e2\u06d6\u06e5\u06da\u06e2\u06dc\u06ec\u06e6\u06e4\u06d6\u06e2\u06df\u06dc\u06e5\u06d8\u06e0\u06e7\u06d8\u06d8\u06e1\u06d9\u06eb\u06e5\u06d7\u06d8\u06df\u06e1\u06d6\u06d8\u06df\u06e5\u06e0"
 
     goto :goto_0
 
     :sswitch_6
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -2484,28 +2484,28 @@
     goto :goto_0
 
     :sswitch_8
-    iput-boolean v8, p0, Lcom/example/drawingar/activity/ewfnei;->K:Z
+    iput-boolean v8, p0, Lcom/example/drawingar/activity/feiwfin;->K:Z
 
     const-string v0, "\u06d7\u06dc\u06e7\u06d9\u06e1\u06d7\u06d8\u06df\u06e2\u06da\u06e8\u06d6\u06e0\u06e8\u06d6\u06d8\u06da\u06e1\u06e8\u06d8\u06e7\u06dc\u06e8\u06d8\u06e7\u06e4\u06e5\u06df\u06e7\u06d7\u06e4\u06d7\u06e6\u06d8\u06e0\u06e1\u06e2\u06e1\u06d6\u06d7\u06eb\u06ec\u06eb\u06e6\u06e4\u06e8\u06d8\u06da\u06e7\u06ec\u06d9\u06d9\u06eb\u06ec\u06e7\u06e8\u06d8\u06da\u06e8\u06e8\u06d8"
 
     goto :goto_0
 
     :sswitch_9
-    iput p2, p0, Lcom/example/drawingar/activity/ewfnei;->E:I
+    iput p2, p0, Lcom/example/drawingar/activity/feiwfin;->E:I
 
     const-string v0, "\u06db\u06e2\u06dc\u06d8\u06d6\u06d6\u06d8\u06e1\u06d9\u06d6\u06dc\u06dc\u06e8\u06d8\u06d6\u06e7\u06e2\u06e0\u06d8\u06da\u06d8\u06d6\u06e0\u06da\u06ec\u06eb\u06d6\u06e4\u06e4\u06d9\u06eb\u06e1\u06d8\u06e0\u06e6\u06d8\u06e4\u06e7\u06e1\u06d9\u06e1\u06d8\u06e6\u06dc\u06e6\u06d8\u06d7\u06ec\u06e5\u06e8\u06e7\u06e8\u06e7\u06e5\u06e6\u06d8\u06df\u06e0\u06d7\u06eb\u06df\u06d8\u06d8\u06e5\u06db\u06e0\u06e6\u06d9\u06d8\u06df\u06e5\u06dc\u06e6\u06da\u06eb\u06e2\u06e5\u06d8\u06d8\u06e2\u06e7\u06d9\u06e2\u06d6\u06e0\u06db\u06d9"
 
     goto :goto_0
 
     :sswitch_a
-    iput-boolean v8, p0, Lcom/example/drawingar/activity/ewfnei;->L:Z
+    iput-boolean v8, p0, Lcom/example/drawingar/activity/feiwfin;->L:Z
 
     const-string v0, "\u06d9\u06e2\u06dc\u06e7\u06e1\u06d8\u06e2\u06d8\u06e2\u06e5\u06d8\u06e5\u06d8\u06d7\u06d7\u06d6\u06e0\u06db\u06e6\u06e6\u06eb\u06e0\u06e2\u06d7\u06db\u06df\u06e8\u06dc\u06e8\u06e4\u06db\u06e1\u06eb\u06e4\u06e6\u06d9\u06d6\u06d9\u06dc\u06d7\u06d7\u06e5\u06e5\u06df\u06e5\u06d8\u06e1\u06d6\u06e8\u06e0\u06e0\u06e8\u06d8\u06d9\u06db\u06e8\u06d8\u06dc\u06d9\u06e6\u06e2\u06d8\u06d8\u06e6\u06d8\u06eb\u06e5\u06e2\u06ec\u06e0\u06e2\u06e5\u06d9\u06df\u06e6\u06d8"
 
     goto :goto_0
 
     :sswitch_b
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -2516,11 +2516,11 @@
     goto :goto_0
 
     :sswitch_c
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget v2, p0, Lcom/example/drawingar/activity/ewfnei;->E:I
+    iget v2, p0, Lcom/example/drawingar/activity/feiwfin;->E:I
 
     invoke-virtual {v0, v2}, Lcom/example/drawingar/utils/DrawingArea;->setcolorselected(I)V
 
@@ -2529,7 +2529,7 @@
     goto :goto_0
 
     :sswitch_d
-    iget-object v2, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v2, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     const-string/jumbo v0, "\u06e7\u06dc\u06e1\u06d8\u06eb\u06d7\u06d8\u06e2\u06ec\u06ec\u06e8\u06dc\u06e6\u06e6\u06e0\u06e6\u06d8\u06e6\u06d8\u06d7\u06e0\u06dc\u06eb\u06e4\u06dc\u06e4\u06e2\u06e8\u06d8\u06eb\u06e5\u06e6\u06d8\u06e4\u06e5\u06d8\u06d8\u06e6\u06d7\u06da\u06df\u06e2\u06e8\u06eb\u06da\u06e5\u06d9\u06eb\u06d6\u06ec\u06d8\u06eb\u06e6\u06e7\u06e7\u06e1\u06e7\u06d6\u06d8\u06db\u06e2\u06d6\u06d8\u06e8\u06ec\u06e7\u06e8\u06e0\u06e6\u06d8\u06e4\u06d8\u06db\u06d6\u06e1\u06e5\u06d8\u06e2\u06d6\u06e6\u06d8\u06e6\u06d8\u06ec\u06df\u06d7\u06e0\u06d8\u06e1\u06d8"
 
@@ -2545,7 +2545,7 @@
     goto/16 :goto_0
 
     :sswitch_f
-    iget v0, p0, Lcom/example/drawingar/activity/ewfnei;->E:I
+    iget v0, p0, Lcom/example/drawingar/activity/feiwfin;->E:I
 
     iput v0, v1, Lcom/example/drawingar/utils/DrawingArea;->e:I
 
@@ -2622,7 +2622,7 @@
     goto :goto_3
 
     :sswitch_17
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->N:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->N:Z
 
     if-eqz v0, :cond_0
 
@@ -2658,7 +2658,7 @@
     :sswitch_1c
     iget-object v0, v3, Lq0;->e:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06d7\u06eb\u06d6\u06ec\u06e4\u06e2\u06d8\u06db\u06ec\u06e1\u06e7\u06e8\u06d8\u06e2\u06d7\u06d8\u06d8\u06e4\u06d9\u06e1\u06d8\u06db\u06ec\u06df\u06d8\u06d7\u06da\u06d6\u06db\u06e5\u06d8\u06db\u06e1\u06d8\u06d8\u06e1\u06e6\u06df\u06e5\u06df\u06e6\u06db\u06ec\u06d7\u06d8\u06dc\u06df\u06e8\u06df\u06e2\u06e8\u06e5\u06dc\u06d8\u06df\u06e6\u06e1\u06dc\u06e6"
 
@@ -2738,7 +2738,7 @@
     goto :goto_6
 
     :sswitch_24
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->P:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->P:Z
 
     if-eqz v0, :cond_1
 
@@ -2774,7 +2774,7 @@
     :sswitch_2a
     iget-object v0, v3, Lq0;->k:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06d7\u06e0\u06dc\u06e6\u06d9\u06df\u06d7\u06db\u06e6\u06d8\u06e0\u06e8\u06e5\u06eb\u06dc\u06d8\u06df\u06e0\u06dc\u06da\u06ec\u06da\u06df\u06d7\u06e8\u06e0\u06e2\u06e4\u06da\u06d9\u06e0\u06e1\u06e5\u06da\u06dc\u06df\u06eb\u06e2\u06e7\u06df\u06e4\u06db\u06e1\u06d8\u06e6\u06dc\u06e5\u06db\u06e0\u06e1\u06d8\u06e7\u06e8\u06d9\u06d9\u06e4\u06e2"
 
@@ -2849,7 +2849,7 @@
     goto :goto_9
 
     :sswitch_32
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->O:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->O:Z
 
     if-eqz v0, :cond_2
 
@@ -2885,7 +2885,7 @@
     :sswitch_37
     iget-object v0, v3, Lq0;->l:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string/jumbo v0, "\u06e6\u06e5\u06da\u06d8\u06e5\u06e7\u06e1\u06d6\u06e1\u06d8\u06d8\u06d6\u06e5\u06eb\u06e8\u06d7\u06e7\u06df\u06d6\u06d8\u06e4\u06e0\u06d9\u06d6\u06db\u06e1\u06da\u06d7\u06e2\u06e4\u06df\u06da\u06df\u06eb\u06e5\u06d8\u06d6\u06e4\u06d6\u06d8\u06d9\u06eb\u06e8\u06d9\u06df\u06e2\u06d9\u06d9\u06e6\u06da\u06d8\u06e6\u06d8\u06d9\u06db\u06d8\u06df\u06e6\u06e5"
 
@@ -2965,7 +2965,7 @@
     goto :goto_c
 
     :sswitch_3f
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->Q:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->Q:Z
 
     if-eqz v0, :cond_3
 
@@ -2996,14 +2996,14 @@
     :sswitch_44
     iget-object v0, v3, Lq0;->h:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06df\u06e6\u06db\u06e4\u06d6\u06e4\u06d6\u06ec\u06d8\u06d8\u06e8\u06e1\u06df\u06e4\u06da\u06e6\u06d9\u06e7\u06dc\u06db\u06e5\u06e5\u06e8\u06e8\u06e4\u06db\u06d6\u06d6\u06d8\u06e2\u06eb\u06d6\u06d8\u06d9\u06e0\u06d7\u06e1\u06e6\u06e1\u06e8\u06d8\u06d7\u06d7\u06e0\u06d8\u06e7\u06e7\u06e2\u06da\u06dc\u06db\u06da\u06da\u06d6\u06e4\u06e0\u06e7\u06d6\u06e8\u06eb\u06e4\u06df\u06e4\u06e0\u06d7\u06df\u06d6\u06d6\u06e4\u06e4\u06d8\u06e8\u06d8\u06e2\u06e5\u06d6\u06e5\u06e4\u06e0\u06e4\u06da\u06d9\u06e1\u06d6\u06e8"
 
     goto/16 :goto_0
 
     :sswitch_45
-    iput-boolean v8, p0, Lcom/example/drawingar/activity/ewfnei;->N:Z
+    iput-boolean v8, p0, Lcom/example/drawingar/activity/feiwfin;->N:Z
 
     const-string v0, "\u06da\u06eb\u06d6\u06d8\u06d6\u06d6\u06e5\u06e8\u06df\u06e6\u06e5\u06e2\u06d7\u06e4\u06ec\u06d6\u06e5\u06da\u06d6\u06e1\u06d6\u06e1\u06e5\u06e4\u06eb\u06d6\u06e2\u06eb\u06d6\u06e0\u06da\u06d8\u06d8\u06d8\u06e7\u06e1\u06d8\u06e1\u06e0\u06e6\u06e8\u06d8\u06dc\u06d8\u06db\u06e8\u06e5\u06d8\u06e0\u06d9\u06d9\u06d6\u06dc\u06e8\u06d8\u06e2\u06e1\u06d8\u06dc\u06e0\u06d8\u06d6\u06db\u06d9\u06e1\u06df\u06eb\u06dc\u06e1\u06e8\u06d8\u06db\u06e6\u06e8\u06e8\u06da\u06df"
 
@@ -3017,11 +3017,11 @@
     goto/16 :goto_0
 
     :sswitch_47
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->e:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06d9\u06e4\u06da\u06e7\u06e7\u06e1\u06da\u06d7\u06ec\u06eb\u06e2\u06dc\u06e2\u06da\u06e5\u06d6\u06e2\u06e7\u06da\u06da\u06dc\u06eb\u06e1\u06d8\u06d8\u06e4\u06d8\u06d9\u06df\u06e8\u06e4\u06d6\u06e7\u06e8\u06eb\u06da\u06db\u06e8\u06d8\u06d8\u06e5\u06d8\u06e6\u06d8\u06e0\u06e0\u06dc\u06d8\u06e1\u06d6\u06d8\u06d8\u06d7\u06dc\u06df\u06e5\u06e5\u06d8\u06e2\u06e7\u06e1\u06df\u06d9\u06ec\u06e6\u06e0\u06e1\u06e1\u06dc\u06d8\u06e5\u06eb\u06e5\u06d9\u06d7\u06eb\u06d6\u06dc\u06e8\u06df\u06da\u06e2\u06da\u06d7\u06e0"
 
@@ -3316,7 +3316,7 @@
     goto :goto_3
 
     :sswitch_a
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->N:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->N:Z
 
     if-eqz v0, :cond_0
 
@@ -3345,11 +3345,11 @@
     goto :goto_0
 
     :sswitch_f
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->e:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string/jumbo v0, "\u06ec\u06e5\u06e6\u06d8\u06e0\u06e7\u06e4\u06db\u06dc\u06d6\u06d8\u06e5\u06e1\u06d6\u06d8\u06e5\u06d6\u06d8\u06da\u06e1\u06e1\u06d7\u06e6\u06e2\u06e4\u06e7\u06df\u06e1\u06d9\u06dc\u06e6\u06da\u06e8\u06d8\u06df\u06ec\u06d9\u06d6\u06e7\u06d8\u06d8\u06db\u06d8\u06d9\u06e5\u06e5\u06d8\u06dc\u06d7\u06e6\u06e8\u06d6\u06eb\u06e4\u06e4\u06d7\u06d8\u06e2\u06d8\u06d8\u06da\u06e6\u06e4\u06e2\u06da\u06e6\u06d9\u06e8\u06d8"
 
@@ -3424,7 +3424,7 @@
     goto :goto_6
 
     :sswitch_16
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->P:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->P:Z
 
     if-eqz v0, :cond_1
 
@@ -3458,11 +3458,11 @@
     goto :goto_4
 
     :sswitch_1c
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->k:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06df\u06e4\u06dc\u06d7\u06e7\u06e8\u06e5\u06ec\u06df\u06e1\u06e6\u06d6\u06d8\u06df\u06e0\u06d9\u06da\u06e2\u06e8\u06d6\u06e4\u06ec\u06e2\u06d7\u06da\u06d6\u06e8\u06e0\u06e1\u06d8\u06e5\u06d8\u06ec\u06e4\u06d7\u06d7\u06da\u06d8\u06d8\u06db\u06eb\u06e1\u06d9\u06e0\u06d8\u06d8\u06d9\u06e1\u06e7\u06d8\u06d6\u06e8\u06d6\u06d6\u06db\u06eb\u06e1\u06e7\u06d8\u06e1\u06e4\u06dc\u06e1\u06d8\u06d9\u06d8\u06d6\u06e0"
 
@@ -3537,7 +3537,7 @@
     goto :goto_9
 
     :sswitch_24
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->O:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->O:Z
 
     if-eqz v0, :cond_2
 
@@ -3576,11 +3576,11 @@
     goto/16 :goto_0
 
     :sswitch_2a
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->l:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string/jumbo v0, "\u06e7\u06dc\u06d6\u06d9\u06d8\u06d9\u06e6\u06e0\u06e6\u06d8\u06da\u06e1\u06e7\u06e8\u06eb\u06e6\u06d8\u06d9\u06e4\u06d9\u06db\u06dc\u06d8\u06e0\u06d6\u06d8\u06e5\u06eb\u06e1\u06e2\u06e7\u06e8\u06d8\u06e8\u06d6\u06dc\u06e5\u06db\u06eb\u06e1\u06e0\u06dc\u06e5\u06d8\u06d9\u06db\u06e6\u06e1\u06d8\u06e7\u06e7\u06df\u06d8\u06d7\u06da\u06d7\u06dc\u06e1\u06d8"
 
@@ -3655,7 +3655,7 @@
     goto :goto_c
 
     :sswitch_31
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->Q:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->Q:Z
 
     if-eqz v0, :cond_3
 
@@ -3689,25 +3689,25 @@
     goto/16 :goto_0
 
     :sswitch_37
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->h:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string/jumbo v0, "\u06ec\u06db\u06dc\u06d8\u06eb\u06d6\u06e2\u06d6\u06eb\u06d6\u06d8\u06eb\u06da\u06e1\u06d8\u06d6\u06ec\u06df\u06e2\u06e6\u06e6\u06d8\u06eb\u06e4\u06d8\u06d8\u06d9\u06dc\u06e0\u06dc\u06da\u06df\u06d7\u06e5\u06d6\u06d8\u06e8\u06d8\u06e8\u06e6\u06e7\u06d8\u06dc\u06e1\u06d6\u06d8\u06e0\u06e1\u06e7\u06d9\u06ec"
 
     goto/16 :goto_0
 
     :sswitch_38
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/ewfnei;->N:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/feiwfin;->N:Z
 
     const-string v0, "\u06d9\u06e4\u06d7\u06da\u06e5\u06e8\u06d8\u06d6\u06d9\u06d9\u06d7\u06ec\u06e1\u06d8\u06d8\u06e7\u06eb\u06d7\u06e4\u06e5\u06db\u06e0\u06e6\u06e5\u06e7\u06d8\u06ec\u06d7\u06e2\u06d8\u06e7\u06e7\u06e8\u06dc\u06e0\u06dc\u06ec\u06ec\u06e2\u06d6\u06d8\u06e1\u06e2\u06da\u06db\u06da\u06ec\u06ec\u06e6\u06d8\u06e7\u06e1\u06d6\u06d8\u06e6\u06da\u06e8\u06d8\u06d6\u06e2\u06e1\u06d8\u06d7\u06dc\u06e5\u06d6\u06e0\u06e0"
 
     goto/16 :goto_0
 
     :sswitch_39
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -3722,11 +3722,11 @@
     goto/16 :goto_0
 
     :sswitch_3a
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->e:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06d6\u06e8\u06e0\u06e0\u06e0\u06d8\u06d8\u06e6\u06d6\u06dc\u06d8\u06d7\u06e0\u06d6\u06e5\u06e0\u06d6\u06da\u06e2\u06e5\u06eb\u06ec\u06e6\u06e2\u06eb\u06e6\u06e1\u06df\u06e7\u06db\u06d8\u06dc\u06eb\u06df\u06db\u06d9\u06da\u06e6\u06e2\u06e0\u06e2\u06e2\u06eb\u06da\u06d6\u06db\u06df\u06d7\u06e1\u06d9\u06da\u06da\u06e0\u06df\u06eb"
 
@@ -3926,7 +3926,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->o:Landroid/widget/LinearLayout;
 
@@ -4017,7 +4017,7 @@
     goto :goto_3
 
     :sswitch_b
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->K:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->K:Z
 
     if-eqz v0, :cond_0
 
@@ -4041,9 +4041,9 @@
     goto :goto_1
 
     :sswitch_f
-    iget v0, p0, Lcom/example/drawingar/activity/ewfnei;->E:I
+    iget v0, p0, Lcom/example/drawingar/activity/feiwfin;->E:I
 
-    iput v0, p0, Lcom/example/drawingar/activity/ewfnei;->D:I
+    iput v0, p0, Lcom/example/drawingar/activity/feiwfin;->D:I
 
     const-string v0, "\u06e0\u06db\u06e6\u06d8\u06eb\u06d6\u06e4\u06e2\u06d6\u06df\u06d8\u06e6\u06d6\u06e5\u06df\u06d8\u06db\u06df\u06e2\u06e2\u06da\u06e8\u06d8\u06e5\u06e6\u06dc\u06ec\u06d9\u06e5\u06d9\u06d9\u06e2\u06e8\u06da\u06e6\u06da\u06ec\u06da\u06d9\u06d8\u06e7\u06d8\u06da\u06ec\u06e8\u06d8\u06df\u06e4\u06d8\u06d8"
 
@@ -4052,18 +4052,18 @@
     :sswitch_10
     const/high16 v0, -0x1000000
 
-    iput v0, p0, Lcom/example/drawingar/activity/ewfnei;->D:I
+    iput v0, p0, Lcom/example/drawingar/activity/feiwfin;->D:I
 
     const-string/jumbo v0, "\u06ec\u06ec\u06d6\u06e8\u06ec\u06e4\u06e8\u06e0\u06df\u06e7\u06ec\u06e1\u06d8\u06e7\u06e7\u06d8\u06e1\u06db\u06d9\u06e4\u06e0\u06d7\u06e5\u06d6\u06d9\u06e8\u06d6\u06e1\u06d8\u06e7\u06d9\u06e2\u06e2\u06ec\u06d7\u06e2\u06da\u06e5\u06e1\u06e7\u06da\u06ec\u06d8\u06d8\u06e6\u06e2\u06e8\u06d7\u06d7\u06e5\u06dc\u06e2\u06ec\u06dc\u06e7\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_11
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->d:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06d6\u06d6\u06e5\u06e1\u06e4\u06e1\u06d8\u06e8\u06d9\u06d8\u06d8\u06e1\u06ec\u06e5\u06d9\u06e2\u06ec\u06e8\u06e4\u06e8\u06d8\u06d8\u06e1\u06df\u06d9\u06e4\u06ec\u06e5\u06dc\u06e8\u06d8\u06e5\u06dc\u06e6\u06df\u06d8\u06dc\u06d8\u06df\u06da\u06e6\u06d7\u06df\u06d7\u06d8\u06d8\u06df\u06e4\u06d6\u06d6\u06e6\u06da\u06dc\u06d8\u06e0\u06e8\u06e6\u06db\u06e1\u06dc\u06d8\u06e6\u06db\u06d6\u06d8\u06e1\u06df\u06e8\u06d8\u06e6\u06d8\u06dc\u06d8\u06db\u06eb\u06df\u06d8\u06e1\u06d9\u06ec\u06d7\u06e2\u06df\u06e4\u06d7\u06d6\u06df\u06d7\u06d8\u06e7\u06d9"
 
@@ -4074,7 +4074,7 @@
 
     move-result-object v0
 
-    iget v1, p0, Lcom/example/drawingar/activity/ewfnei;->D:I
+    iget v1, p0, Lcom/example/drawingar/activity/feiwfin;->D:I
 
     invoke-virtual {v0, v1}, Lac;->g(I)Lac;
 
@@ -4098,9 +4098,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lcom/example/drawingar/activity/ewfnei$b;
+    new-instance v1, Lcom/example/drawingar/activity/feiwfin$b;
 
-    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/ewfnei$b;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/feiwfin$b;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v0, v1}, Lac;->j(Lm80;)Lac;
 
@@ -4110,7 +4110,7 @@
 
     new-instance v2, Ljj;
 
-    invoke-direct {v2, p0}, Ljj;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v2, p0}, Ljj;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v0, v1, v2}, Lac;->k(Ljava/lang/CharSequence;Lzb;)Lac;
 
@@ -4120,7 +4120,7 @@
 
     new-instance v2, Loj;
 
-    invoke-direct {v2, p0}, Loj;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v2, p0}, Loj;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v0, v1, v2}, Lac;->i(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Lac;
 
@@ -4289,7 +4289,7 @@
     goto :goto_3
 
     :sswitch_5
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->N:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->N:Z
 
     if-eqz v0, :cond_0
 
@@ -4343,11 +4343,11 @@
     goto :goto_0
 
     :sswitch_e
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->e:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06e1\u06e2\u06e2\u06df\u06ec\u06d6\u06d8\u06e5\u06d9\u06e7\u06da\u06e7\u06e4\u06e5\u06d9\u06df\u06e8\u06d6\u06da\u06e2\u06d7\u06e2\u06e6\u06d9\u06dc\u06d6\u06ec\u06e4\u06e7\u06d9\u06d6\u06d8\u06d9\u06e7\u06e8\u06ec\u06da\u06dc\u06db\u06ec\u06e7\u06d8\u06dc\u06d6\u06eb\u06d7\u06e6\u06d8\u06d6\u06da\u06e1\u06d8\u06e1\u06e5\u06d8\u06e8\u06e8\u06d8\u06d8"
 
@@ -4432,7 +4432,7 @@
     goto :goto_6
 
     :sswitch_17
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->P:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->P:Z
 
     if-eqz v0, :cond_1
 
@@ -4456,11 +4456,11 @@
     goto/16 :goto_0
 
     :sswitch_1b
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->k:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06d9\u06d6\u06d8\u06d8\u06da\u06d8\u06e5\u06e2\u06d7\u06e8\u06da\u06e1\u06d6\u06d8\u06da\u06db\u06d9\u06df\u06e8\u06e2\u06e5\u06e6\u06e8\u06d8\u06e7\u06e1\u06dc\u06e6\u06db\u06eb\u06e7\u06e8\u06eb\u06d6\u06e8\u06df\u06e0\u06d7\u06e5\u06e4\u06d8\u06e1\u06df\u06d8\u06dc\u06d9\u06e4\u06d6"
 
@@ -4545,7 +4545,7 @@
     goto :goto_9
 
     :sswitch_24
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->O:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->O:Z
 
     if-eqz v0, :cond_2
 
@@ -4574,11 +4574,11 @@
     goto/16 :goto_0
 
     :sswitch_29
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->l:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06e4\u06e2\u06d7\u06e8\u06db\u06d6\u06d8\u06e2\u06e4\u06e0\u06e5\u06df\u06e1\u06d8\u06e7\u06e6\u06e0\u06df\u06db\u06e5\u06e8\u06e0\u06eb\u06d8\u06e5\u06e1\u06d8\u06d9\u06d7\u06d6\u06e6\u06e2\u06e1\u06da\u06d7\u06e5\u06d8\u06dc\u06d6\u06d8\u06e5\u06ec\u06da\u06e5\u06d7\u06e1\u06d8\u06ec\u06d8\u06d8\u06e1\u06eb\u06e6\u06e0\u06eb\u06e6\u06d9\u06e5\u06d8\u06ec\u06e1\u06e6\u06d8\u06db\u06db\u06d8\u06d8\u06db\u06dc\u06e6\u06e5\u06e5\u06e8\u06d8\u06da\u06db\u06e2\u06df\u06eb\u06ec"
 
@@ -4663,7 +4663,7 @@
     goto :goto_c
 
     :sswitch_32
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->Q:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->Q:Z
 
     if-eqz v0, :cond_3
 
@@ -4692,25 +4692,25 @@
     goto/16 :goto_0
 
     :sswitch_37
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->h:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string/jumbo v0, "\u06eb\u06dc\u06e5\u06dc\u06df\u06d8\u06d8\u06df\u06d9\u06e5\u06d8\u06d8\u06e4\u06e6\u06e4\u06d7\u06eb\u06e0\u06d7\u06e7\u06ec\u06dc\u06e2\u06df\u06e5\u06e7\u06e5\u06e4\u06e2\u06d7\u06eb\u06ec\u06e7\u06d8\u06d8\u06ec\u06d7\u06e5\u06d8\u06db\u06e2\u06e2\u06e2\u06dc\u06e8\u06e5\u06d9\u06ec\u06e1\u06d6\u06e8\u06d8\u06db\u06e1\u06db\u06e1\u06d9\u06e6\u06db\u06d6\u06dc\u06df\u06da\u06d8\u06d8\u06e6"
 
     goto/16 :goto_0
 
     :sswitch_38
-    iput-boolean v5, p0, Lcom/example/drawingar/activity/ewfnei;->N:Z
+    iput-boolean v5, p0, Lcom/example/drawingar/activity/feiwfin;->N:Z
 
     const-string v0, "\u06e5\u06e0\u06e4\u06d9\u06d8\u06dc\u06d8\u06e6\u06df\u06eb\u06da\u06d6\u06d9\u06ec\u06d9\u06eb\u06d6\u06d6\u06d7\u06dc\u06d7\u06eb\u06dc\u06e5\u06da\u06df\u06e8\u06ec\u06eb\u06e2\u06d6\u06d8\u06d7\u06eb\u06e4\u06d6\u06d7\u06d9\u06dc\u06d8\u06e4\u06e8\u06e6\u06d9\u06e0\u06e7"
 
     goto/16 :goto_0
 
     :sswitch_39
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -4725,18 +4725,18 @@
     goto/16 :goto_0
 
     :sswitch_3a
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->e:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06dc\u06d6\u06d9\u06d6\u06ec\u06d8\u06d8\u06d6\u06e4\u06d6\u06df\u06e0\u06e1\u06d8\u06d6\u06e6\u06db\u06e8\u06db\u06e1\u06d8\u06d8\u06e1\u06e6\u06d8\u06e0\u06df\u06e5\u06d8\u06eb\u06e4\u06d6\u06db\u06d8\u06e8\u06e0\u06d6\u06d6\u06d8\u06e2\u06e4\u06e5\u06d8\u06df\u06e8\u06e1\u06e1\u06eb\u06da\u06e7\u06e2\u06e0\u06ec\u06d6\u06d6\u06d7\u06d9\u06e0\u06e2\u06ec"
 
     goto/16 :goto_0
 
     :sswitch_3b
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -4939,7 +4939,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->p:Lwj;
 
@@ -4952,7 +4952,7 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->q:Lck;
 
@@ -4965,7 +4965,7 @@
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->o:Landroid/widget/LinearLayout;
 
@@ -4976,11 +4976,11 @@
     goto :goto_0
 
     :sswitch_5
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->h:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v0}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
     const-string v0, "\u06dc\u06e2\u06db\u06e1\u06e4\u06e5\u06e7\u06e1\u06d8\u06d8\u06e2\u06ec\u06d6\u06d8\u06dc\u06e2\u06e4\u06db\u06dc\u06dc\u06db\u06d6\u06d8\u06d8\u06e7\u06e2\u06e6\u06db\u06dc\u06d8\u06ec\u06e1\u06db\u06e1\u06d8\u06d9\u06e2\u06d8\u06d8\u06dc\u06e5\u06d8\u06e7\u06df\u06d6\u06e0\u06ec\u06d7\u06e4\u06d9\u06e1\u06df\u06d6\u06d8\u06da\u06e2\u06d6\u06d8\u06ec\u06d9\u06e6\u06d8\u06d7\u06e1\u06e8\u06e7\u06e6\u06d8"
 
@@ -4989,35 +4989,35 @@
     :sswitch_6
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->Q:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->Q:Z
 
     const-string v0, "\u06e4\u06e0\u06d6\u06d8\u06eb\u06d8\u06d8\u06d8\u06da\u06e1\u06d8\u06e5\u06ec\u06dc\u06d8\u06ec\u06dc\u06db\u06df\u06d9\u06e5\u06dc\u06da\u06df\u06eb\u06df\u06e7\u06eb\u06e1\u06d6\u06d8\u06d8\u06d7\u06dc\u06d7\u06d8\u06d6\u06df\u06eb\u06dc\u06d8\u06df\u06e7\u06e7\u06dc\u06da\u06dc\u06d9\u06d9\u06df\u06e1\u06e1\u06d8\u06d6\u06df\u06d7\u06d8\u06dc\u06e1\u06db\u06e7\u06e8\u06d8\u06d8\u06d9\u06e0\u06e6\u06e8\u06df"
 
     goto :goto_0
 
     :sswitch_7
-    iput-boolean v4, p0, Lcom/example/drawingar/activity/ewfnei;->N:Z
+    iput-boolean v4, p0, Lcom/example/drawingar/activity/feiwfin;->N:Z
 
     const-string v0, "\u06d7\u06d9\u06d9\u06da\u06e6\u06ec\u06e2\u06e5\u06e5\u06da\u06d9\u06d7\u06d8\u06da\u06e8\u06d8\u06e8\u06ec\u06d9\u06e7\u06ec\u06eb\u06df\u06e5\u06d8\u06e2\u06e2\u06e7\u06e1\u06d8\u06e8\u06db\u06e6\u06e6\u06e1\u06e5\u06d8\u06df\u06e4\u06e5\u06e5\u06df\u06dc\u06df\u06e1\u06d8\u06eb\u06d7\u06e1\u06e7\u06e0\u06e7\u06da\u06d6\u06d6\u06d8"
 
     goto :goto_0
 
     :sswitch_8
-    iput-boolean v4, p0, Lcom/example/drawingar/activity/ewfnei;->O:Z
+    iput-boolean v4, p0, Lcom/example/drawingar/activity/feiwfin;->O:Z
 
     const-string v0, "\u06dc\u06e0\u06e0\u06ec\u06ec\u06dc\u06d8\u06e6\u06d9\u06e2\u06e1\u06e7\u06e1\u06d8\u06e6\u06db\u06e8\u06eb\u06d8\u06e2\u06d9\u06d9\u06dc\u06d8\u06db\u06ec\u06df\u06e7\u06db\u06e1\u06d9\u06d7\u06e8\u06d7\u06da\u06d6\u06d8\u06d8\u06e6\u06e8\u06ec\u06df\u06e8\u06d8\u06e6\u06df\u06e6\u06e6\u06e7\u06e5\u06e2\u06e1\u06d8\u06e6\u06d6\u06d8\u06d8\u06e7\u06eb\u06eb\u06e2\u06e1\u06d7\u06d8\u06e6\u06d8\u06e2\u06df\u06d8\u06e1\u06e6\u06d6\u06da\u06d8\u06d8\u06d7\u06d9\u06e2\u06dc\u06db\u06da\u06e1\u06e6\u06e7\u06d8\u06df\u06db"
 
     goto :goto_0
 
     :sswitch_9
-    iput-boolean v4, p0, Lcom/example/drawingar/activity/ewfnei;->P:Z
+    iput-boolean v4, p0, Lcom/example/drawingar/activity/feiwfin;->P:Z
 
     const-string v0, "\u06df\u06e4\u06dc\u06e7\u06e1\u06e4\u06df\u06e5\u06e1\u06d8\u06e5\u06db\u06dc\u06d8\u06ec\u06ec\u06ec\u06e8\u06e4\u06d9\u06e0\u06db\u06dc\u06e6\u06da\u06db\u06ec\u06e5\u06e8\u06e5\u06df\u06e2\u06d8\u06df\u06e5\u06d6\u06e0\u06d8\u06d7\u06ec\u06d6\u06d8\u06df\u06df\u06e4\u06d9\u06e7\u06e7\u06db\u06df\u06e1\u06d7\u06dc\u06dc\u06e2\u06e1\u06eb\u06e0\u06e6\u06d8\u06e4\u06e2\u06d8\u06d8\u06e4\u06d9\u06e1\u06eb\u06e8\u06e1\u06d8\u06dc\u06da\u06dc\u06db\u06e7\u06e5\u06d9\u06e7\u06ec\u06d6\u06e5\u06d6\u06df\u06e5\u06e7"
 
     goto :goto_0
 
     :sswitch_a
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -5032,11 +5032,11 @@
     goto :goto_0
 
     :sswitch_b
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->O:Z
+    iget-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->O:Z
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -5049,11 +5049,11 @@
     goto/16 :goto_0
 
     :sswitch_c
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->P:Z
+    iget-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->P:Z
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -5066,11 +5066,11 @@
     goto/16 :goto_0
 
     :sswitch_d
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v1, p0, Lcom/example/drawingar/activity/ewfnei;->Q:Z
+    iget-boolean v1, p0, Lcom/example/drawingar/activity/feiwfin;->Q:Z
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -5083,7 +5083,7 @@
     goto/16 :goto_0
 
     :sswitch_e
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -5183,7 +5183,7 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->S:Ldk;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->S:Ldk;
 
     invoke-virtual {v0, p2}, Ldk;->y(I)V
 
@@ -5192,14 +5192,14 @@
     goto :goto_0
 
     :sswitch_4
-    iput-boolean v7, p0, Lcom/example/drawingar/activity/ewfnei;->M:Z
+    iput-boolean v7, p0, Lcom/example/drawingar/activity/feiwfin;->M:Z
 
     const-string v0, "\u06db\u06d6\u06d6\u06ec\u06d7\u06e2\u06ec\u06da\u06df\u06e0\u06e4\u06e1\u06db\u06da\u06d9\u06d7\u06eb\u06e6\u06db\u06dc\u06db\u06df\u06e7\u06e1\u06e5\u06e7\u06df\u06eb\u06dc\u06e2\u06df\u06e8\u06d6\u06d8\u06eb\u06df\u06e8\u06e5\u06e8\u06d6\u06db\u06e1\u06e2\u06d8\u06d8\u06e8\u06d8\u06df\u06e8\u06e1\u06d8\u06e0\u06e4\u06ec\u06e4\u06df\u06d6\u06d8\u06d6\u06eb\u06dc\u06e6\u06db\u06e4\u06e7\u06db\u06e4\u06eb\u06e0\u06e1\u06df\u06dc\u06d8\u06d9\u06db\u06e6\u06d8\u06e5\u06e4\u06db\u06d8\u06d9\u06db\u06e6\u06e0\u06e0"
 
     goto :goto_0
 
     :sswitch_5
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -5214,14 +5214,14 @@
     goto :goto_0
 
     :sswitch_6
-    iput-boolean v6, p0, Lcom/example/drawingar/activity/ewfnei;->L:Z
+    iput-boolean v6, p0, Lcom/example/drawingar/activity/feiwfin;->L:Z
 
     const-string v0, "\u06dc\u06d8\u06e2\u06d9\u06d8\u06d8\u06eb\u06df\u06df\u06e0\u06e5\u06e7\u06d8\u06e0\u06d6\u06e4\u06e4\u06d7\u06e7\u06e2\u06d8\u06dc\u06e2\u06da\u06e6\u06e0\u06eb\u06e5\u06d8\u06e6\u06d9\u06e7\u06e8\u06da\u06e8\u06d9\u06e6\u06dc\u06d8\u06d6\u06d7\u06d8\u06ec\u06dc\u06d8\u06d8\u06da\u06e7\u06e1\u06eb\u06ec\u06dc\u06d8\u06e8\u06dc\u06e1\u06d8\u06eb\u06e1\u06d7\u06e2\u06d6\u06e0\u06df\u06e2\u06e5\u06ec\u06d7\u06d9"
 
     goto :goto_0
 
     :sswitch_7
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -5256,7 +5256,7 @@
     goto :goto_0
 
     :sswitch_a
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->H:Ljava/util/ArrayList;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->H:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -5280,14 +5280,14 @@
     goto :goto_0
 
     :sswitch_c
-    iput-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->J:Ljava/lang/String;
+    iput-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->J:Ljava/lang/String;
 
     const-string v0, "\u06df\u06da\u06e1\u06d8\u06d6\u06e2\u06dc\u06d8\u06e7\u06e2\u06df\u06e2\u06e7\u06ec\u06dc\u06d7\u06e6\u06d8\u06e8\u06ec\u06df\u06db\u06e7\u06dc\u06d8\u06e4\u06db\u06e0\u06d8\u06dc\u06d6\u06d8\u06e8\u06d9\u06ec\u06d6\u06d6\u06d6\u06e5\u06d7\u06d8\u06d9\u06df\u06d7\u06e5\u06e2\u06ec\u06e2\u06d8\u06ec\u06e0\u06df\u06eb\u06da\u06e6\u06e4\u06e1\u06e7\u06e5\u06d8"
 
     goto/16 :goto_0
 
     :sswitch_d
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -5298,7 +5298,7 @@
     goto/16 :goto_0
 
     :sswitch_e
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->S:Ldk;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->S:Ldk;
 
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$g;->h()V
 
@@ -5345,59 +5345,59 @@
 
     const/4 v0, 0x0
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v1, v1, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
     invoke-virtual {v1}, Lcom/example/drawingar/utils/DrawingArea;->d()V
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->M:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->M:Z
 
-    iput-boolean v2, p0, Lcom/example/drawingar/activity/ewfnei;->L:Z
+    iput-boolean v2, p0, Lcom/example/drawingar/activity/feiwfin;->L:Z
 
-    iput v7, p0, Lcom/example/drawingar/activity/ewfnei;->E:I
+    iput v7, p0, Lcom/example/drawingar/activity/feiwfin;->E:I
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->K:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->K:Z
 
-    iput-boolean v2, p0, Lcom/example/drawingar/activity/ewfnei;->N:Z
+    iput-boolean v2, p0, Lcom/example/drawingar/activity/feiwfin;->N:Z
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->O:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->O:Z
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->P:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->P:Z
 
-    iput-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->Q:Z
+    iput-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->Q:Z
 
-    iput v3, p0, Lcom/example/drawingar/activity/ewfnei;->F:I
+    iput v3, p0, Lcom/example/drawingar/activity/feiwfin;->F:I
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    iput v1, p0, Lcom/example/drawingar/activity/ewfnei;->R:F
+    iput v1, p0, Lcom/example/drawingar/activity/feiwfin;->R:F
 
-    iput v3, p0, Lcom/example/drawingar/activity/ewfnei;->G:I
+    iput v3, p0, Lcom/example/drawingar/activity/feiwfin;->G:I
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v1, v1, Lq0;->e:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v1}, Lcom/example/drawingar/activity/ewfnei;->m0(Landroid/widget/ImageView;)V
+    invoke-virtual {p0, v1}, Lcom/example/drawingar/activity/feiwfin;->m0(Landroid/widget/ImageView;)V
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v1, v1, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget v2, p0, Lcom/example/drawingar/activity/ewfnei;->E:I
+    iget v2, p0, Lcom/example/drawingar/activity/feiwfin;->E:I
 
     invoke-virtual {v1, v2}, Lcom/example/drawingar/utils/DrawingArea;->setcolorselected(I)V
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v1, v1, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget v2, p0, Lcom/example/drawingar/activity/ewfnei;->E:I
+    iget v2, p0, Lcom/example/drawingar/activity/feiwfin;->E:I
 
     iput v2, v1, Lcom/example/drawingar/utils/DrawingArea;->e:I
 
-    iget-boolean v2, p0, Lcom/example/drawingar/activity/ewfnei;->L:Z
+    iget-boolean v2, p0, Lcom/example/drawingar/activity/feiwfin;->L:Z
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -5405,11 +5405,11 @@
 
     invoke-virtual {v1, v2}, Lcom/example/drawingar/utils/DrawingArea;->setiscolorSelected(Ljava/lang/Boolean;)V
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v1, v1, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v2, p0, Lcom/example/drawingar/activity/ewfnei;->M:Z
+    iget-boolean v2, p0, Lcom/example/drawingar/activity/feiwfin;->M:Z
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -5417,35 +5417,35 @@
 
     invoke-virtual {v1, v2}, Lcom/example/drawingar/utils/DrawingArea;->setisTextureSelected(Ljava/lang/Boolean;)V
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v1, v1, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget v2, p0, Lcom/example/drawingar/activity/ewfnei;->R:F
+    iget v2, p0, Lcom/example/drawingar/activity/feiwfin;->R:F
 
     invoke-virtual {v1, v2}, Lcom/example/drawingar/utils/DrawingArea;->setShadowset(F)V
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v1, v1, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget v2, p0, Lcom/example/drawingar/activity/ewfnei;->F:I
+    iget v2, p0, Lcom/example/drawingar/activity/feiwfin;->F:I
 
     invoke-virtual {v1, v2}, Lcom/example/drawingar/utils/DrawingArea;->setSizeset(I)V
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v1, v1, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget v2, p0, Lcom/example/drawingar/activity/ewfnei;->G:I
+    iget v2, p0, Lcom/example/drawingar/activity/feiwfin;->G:I
 
     invoke-virtual {v1, v2}, Lcom/example/drawingar/utils/DrawingArea;->setEraserSizeset(I)V
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v1, v1, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v2, p0, Lcom/example/drawingar/activity/ewfnei;->N:Z
+    iget-boolean v2, p0, Lcom/example/drawingar/activity/feiwfin;->N:Z
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -5453,11 +5453,11 @@
 
     invoke-virtual {v1, v2}, Lcom/example/drawingar/utils/DrawingArea;->setistrail(Ljava/lang/Boolean;)V
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v1, v1, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v2, p0, Lcom/example/drawingar/activity/ewfnei;->O:Z
+    iget-boolean v2, p0, Lcom/example/drawingar/activity/feiwfin;->O:Z
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -5465,11 +5465,11 @@
 
     invoke-virtual {v1, v2}, Lcom/example/drawingar/utils/DrawingArea;->setisnew(Ljava/lang/Boolean;)V
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v1, v1, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v2, p0, Lcom/example/drawingar/activity/ewfnei;->P:Z
+    iget-boolean v2, p0, Lcom/example/drawingar/activity/feiwfin;->P:Z
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -5477,11 +5477,11 @@
 
     invoke-virtual {v1, v2}, Lcom/example/drawingar/utils/DrawingArea;->setissimple(Ljava/lang/Boolean;)V
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v1, v1, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
-    iget-boolean v2, p0, Lcom/example/drawingar/activity/ewfnei;->Q:Z
+    iget-boolean v2, p0, Lcom/example/drawingar/activity/feiwfin;->Q:Z
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -5490,7 +5490,7 @@
     invoke-virtual {v1, v2}, Lcom/example/drawingar/utils/DrawingArea;->setiseraser(Ljava/lang/Boolean;)V
 
     :try_start_0
-    iget-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->H:Ljava/util/ArrayList;
+    iget-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->H:Ljava/util/ArrayList;
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
 
@@ -5624,7 +5624,7 @@
 
     move-result-object v1
 
-    iget-object v3, p0, Lcom/example/drawingar/activity/ewfnei;->H:Ljava/util/ArrayList;
+    iget-object v3, p0, Lcom/example/drawingar/activity/feiwfin;->H:Ljava/util/ArrayList;
 
     invoke-virtual {v3, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -5642,13 +5642,13 @@
     :goto_4
     new-instance v0, Ldk;
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->H:Ljava/util/ArrayList;
+    iget-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->H:Ljava/util/ArrayList;
 
     invoke-direct {v0, p0, v1}, Ldk;-><init>(Landroid/content/Context;Ljava/util/ArrayList;)V
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->S:Ldk;
+    iput-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->S:Ldk;
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->r:Landroidx/recyclerview/widget/RecyclerView;
 
@@ -5658,7 +5658,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$o;)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->r:Landroidx/recyclerview/widget/RecyclerView;
 
@@ -5668,19 +5668,19 @@
 
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setItemAnimator(Landroidx/recyclerview/widget/RecyclerView$l;)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->r:Landroidx/recyclerview/widget/RecyclerView;
 
-    iget-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->S:Ldk;
+    iget-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->S:Ldk;
 
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$g;)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->S:Ldk;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->S:Ldk;
 
     new-instance v1, Lnj;
 
-    invoke-direct {v1, p0}, Lnj;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v1, p0}, Lnj;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v0, v1}, Ldk;->x(Ldk$a;)V
 
@@ -5754,7 +5754,7 @@
     goto :goto_7
 
     :sswitch_10
-    iget-boolean v0, p0, Lcom/example/drawingar/activity/ewfnei;->K:Z
+    iget-boolean v0, p0, Lcom/example/drawingar/activity/feiwfin;->K:Z
 
     if-eqz v0, :cond_1
 
@@ -5788,9 +5788,9 @@
     goto :goto_5
 
     :sswitch_16
-    iget v0, p0, Lcom/example/drawingar/activity/ewfnei;->E:I
+    iget v0, p0, Lcom/example/drawingar/activity/feiwfin;->E:I
 
-    iput v0, p0, Lcom/example/drawingar/activity/ewfnei;->D:I
+    iput v0, p0, Lcom/example/drawingar/activity/feiwfin;->D:I
 
     :goto_8
     const v0, 0x7f0a023d
@@ -5801,7 +5801,7 @@
 
     check-cast v0, Landroid/widget/SeekBar;
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->U:Landroid/widget/SeekBar;
+    iput-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->U:Landroid/widget/SeekBar;
 
     const v0, 0x7f0a023e
 
@@ -5811,29 +5811,29 @@
 
     check-cast v0, Landroid/widget/SeekBar;
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->V:Landroid/widget/SeekBar;
+    iput-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->V:Landroid/widget/SeekBar;
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->U:Landroid/widget/SeekBar;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->U:Landroid/widget/SeekBar;
 
-    iget v1, p0, Lcom/example/drawingar/activity/ewfnei;->R:F
+    iget v1, p0, Lcom/example/drawingar/activity/feiwfin;->R:F
 
     float-to-int v1, v1
 
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setProgress(I)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->U:Landroid/widget/SeekBar;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->U:Landroid/widget/SeekBar;
 
     const/16 v1, 0x14
 
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setMax(I)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->V:Landroid/widget/SeekBar;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->V:Landroid/widget/SeekBar;
 
-    iget v1, p0, Lcom/example/drawingar/activity/ewfnei;->F:I
+    iget v1, p0, Lcom/example/drawingar/activity/feiwfin;->F:I
 
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setProgress(I)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->V:Landroid/widget/SeekBar;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->V:Landroid/widget/SeekBar;
 
     invoke-virtual {v0, v8}, Landroid/widget/SeekBar;->setMax(I)V
 
@@ -5845,20 +5845,20 @@
 
     check-cast v0, Landroid/widget/SeekBar;
 
-    iput-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->T:Landroid/widget/SeekBar;
+    iput-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->T:Landroid/widget/SeekBar;
 
-    iget v1, p0, Lcom/example/drawingar/activity/ewfnei;->G:I
+    iget v1, p0, Lcom/example/drawingar/activity/feiwfin;->G:I
 
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setProgress(I)V
 
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->T:Landroid/widget/SeekBar;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->T:Landroid/widget/SeekBar;
 
     invoke-virtual {v0, v8}, Landroid/widget/SeekBar;->setMax(I)V
 
     return-void
 
     :sswitch_17
-    iput v7, p0, Lcom/example/drawingar/activity/ewfnei;->D:I
+    iput v7, p0, Lcom/example/drawingar/activity/feiwfin;->D:I
 
     goto :goto_8
 
@@ -5961,14 +5961,14 @@
     goto :goto_0
 
     :sswitch_1
-    iput-object v4, p0, Lcom/example/drawingar/activity/ewfnei;->I:Ljava/lang/String;
+    iput-object v4, p0, Lcom/example/drawingar/activity/feiwfin;->I:Ljava/lang/String;
 
     const-string v0, "\u06e4\u06e8\u06d6\u06e7\u06d9\u06dc\u06d7\u06e0\u06e6\u06d8\u06e5\u06e4\u06d6\u06eb\u06e4\u06e5\u06db\u06e1\u06e7\u06d8\u06e2\u06e2\u06e0\u06e5\u06eb\u06e1\u06d8\u06e7\u06ec\u06e2\u06da\u06e1\u06e4\u06d7\u06e8\u06e1\u06d8\u06d9\u06da\u06db\u06e7\u06e5\u06e6\u06d9\u06e6\u06e6\u06d8\u06d8\u06eb\u06ec\u06e0\u06db\u06e4\u06e5\u06da\u06db\u06df\u06e2\u06ec\u06e8\u06db\u06ec\u06ec\u06e5\u06e0\u06d8\u06d6\u06db\u06df\u06e7\u06e1\u06d7\u06da\u06e6\u06d8\u06e8\u06dc\u06e1\u06da\u06eb\u06e8\u06eb\u06e0\u06dc\u06e0\u06e7\u06d6"
 
     goto :goto_0
 
     :sswitch_2
-    iput-object v4, p0, Lcom/example/drawingar/activity/ewfnei;->J:Ljava/lang/String;
+    iput-object v4, p0, Lcom/example/drawingar/activity/feiwfin;->J:Ljava/lang/String;
 
     const-string/jumbo v0, "\u06e7\u06d8\u06e7\u06d8\u06e2\u06db\u06d8\u06da\u06e6\u06dc\u06e7\u06d8\u06d8\u06d9\u06eb\u06e4\u06d6\u06e6\u06e6\u06d8\u06e8\u06df\u06d7\u06eb\u06e1\u06e7\u06d8\u06e0\u06eb\u06d7\u06d6\u06e4\u06e2\u06e0\u06e1\u06e5\u06eb\u06d6\u06e4\u06e0\u06d8\u06e6\u06e1\u06d9\u06d6\u06d9\u06e4\u06e6\u06e2\u06d8\u06df\u06d6\u06df\u06d6\u06d8\u06db\u06e1\u06d9\u06df\u06d6\u06e6\u06e0\u06da\u06dc\u06db\u06d8\u06d6\u06e4\u06da\u06db\u06e7\u06e2\u06e1\u06d8\u06e7\u06dc\u06df\u06d8\u06dc\u06dc\u06e8\u06e2\u06db\u06e1\u06dc\u06e5"
 
@@ -6071,7 +6071,7 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->e:Landroid/widget/ImageView;
 
@@ -6100,7 +6100,7 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->k:Landroid/widget/ImageView;
 
@@ -6129,7 +6129,7 @@
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->l:Landroid/widget/ImageView;
 
@@ -6158,7 +6158,7 @@
     goto :goto_0
 
     :sswitch_5
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->d:Landroid/widget/ImageView;
 
@@ -6187,7 +6187,7 @@
     goto/16 :goto_0
 
     :sswitch_6
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->g:Landroid/widget/ImageView;
 
@@ -6216,7 +6216,7 @@
     goto/16 :goto_0
 
     :sswitch_7
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->h:Landroid/widget/ImageView;
 
@@ -6245,7 +6245,7 @@
     goto/16 :goto_0
 
     :sswitch_8
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->j:Landroid/widget/ImageView;
 
@@ -6367,13 +6367,13 @@
     goto :goto_0
 
     :sswitch_1
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->c:Landroid/widget/ImageView;
 
-    new-instance v1, Lcom/example/drawingar/activity/ewfnei$a;
+    new-instance v1, Lcom/example/drawingar/activity/feiwfin$a;
 
-    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/ewfnei$a;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/feiwfin$a;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -6382,13 +6382,13 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->e:Landroid/widget/ImageView;
 
     new-instance v1, Lmj;
 
-    invoke-direct {v1, p0}, Lmj;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v1, p0}, Lmj;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -6397,13 +6397,13 @@
     goto :goto_0
 
     :sswitch_3
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->l:Landroid/widget/ImageView;
 
     new-instance v1, Lkj;
 
-    invoke-direct {v1, p0}, Lkj;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v1, p0}, Lkj;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -6412,13 +6412,13 @@
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->k:Landroid/widget/ImageView;
 
     new-instance v1, Luj;
 
-    invoke-direct {v1, p0}, Luj;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v1, p0}, Luj;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -6427,13 +6427,13 @@
     goto :goto_0
 
     :sswitch_5
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->n:Landroid/widget/LinearLayout;
 
     new-instance v1, Ltj;
 
-    invoke-direct {v1, p0}, Ltj;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v1, p0}, Ltj;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -6442,13 +6442,13 @@
     goto :goto_0
 
     :sswitch_6
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->d:Landroid/widget/ImageView;
 
     new-instance v1, Lsj;
 
-    invoke-direct {v1, p0}, Lsj;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v1, p0}, Lsj;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -6457,13 +6457,13 @@
     goto :goto_0
 
     :sswitch_7
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->f:Landroid/widget/ImageView;
 
     new-instance v1, Lvj;
 
-    invoke-direct {v1, p0}, Lvj;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v1, p0}, Lvj;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -6472,13 +6472,13 @@
     goto/16 :goto_0
 
     :sswitch_8
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->h:Landroid/widget/ImageView;
 
     new-instance v1, Llj;
 
-    invoke-direct {v1, p0}, Llj;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v1, p0}, Llj;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -6487,11 +6487,11 @@
     goto/16 :goto_0
 
     :sswitch_9
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->U:Landroid/widget/SeekBar;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->U:Landroid/widget/SeekBar;
 
-    new-instance v1, Lcom/example/drawingar/activity/ewfnei$c;
+    new-instance v1, Lcom/example/drawingar/activity/feiwfin$c;
 
-    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/ewfnei$c;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/feiwfin$c;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setOnSeekBarChangeListener(Landroid/widget/SeekBar$OnSeekBarChangeListener;)V
 
@@ -6500,11 +6500,11 @@
     goto/16 :goto_0
 
     :sswitch_a
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->V:Landroid/widget/SeekBar;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->V:Landroid/widget/SeekBar;
 
-    new-instance v1, Lcom/example/drawingar/activity/ewfnei$d;
+    new-instance v1, Lcom/example/drawingar/activity/feiwfin$d;
 
-    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/ewfnei$d;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/feiwfin$d;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setOnSeekBarChangeListener(Landroid/widget/SeekBar$OnSeekBarChangeListener;)V
 
@@ -6513,11 +6513,11 @@
     goto/16 :goto_0
 
     :sswitch_b
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->T:Landroid/widget/SeekBar;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->T:Landroid/widget/SeekBar;
 
-    new-instance v1, Lcom/example/drawingar/activity/ewfnei$e;
+    new-instance v1, Lcom/example/drawingar/activity/feiwfin$e;
 
-    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/ewfnei$e;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v1, p0}, Lcom/example/drawingar/activity/feiwfin$e;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/SeekBar;->setOnSeekBarChangeListener(Landroid/widget/SeekBar$OnSeekBarChangeListener;)V
 
@@ -6526,13 +6526,13 @@
     goto/16 :goto_0
 
     :sswitch_c
-    iget-object v0, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->i:Landroid/widget/ImageView;
 
     new-instance v1, Lrj;
 
-    invoke-direct {v1, p0}, Lrj;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v1, p0}, Lrj;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -6753,7 +6753,7 @@
 
     new-instance v2, Lpj;
 
-    invoke-direct {v2, p0}, Lpj;-><init>(Lcom/example/drawingar/activity/ewfnei;)V
+    invoke-direct {v2, p0}, Lpj;-><init>(Lcom/example/drawingar/activity/feiwfin;)V
 
     invoke-virtual {v3, v0, v2}, Landroidx/appcompat/app/a$a;->i(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/a$a;
 
@@ -6923,7 +6923,7 @@
     goto :goto_0
 
     :sswitch_4
-    iput-object v1, p0, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iput-object v1, p0, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     const-string/jumbo v0, "\u06e7\u06ec\u06db\u06e2\u06ec\u06dc\u06e6\u06e8\u06d7\u06d8\u06e6\u06e6\u06e8\u06e8\u06db\u06e7\u06eb\u06d8\u06da\u06e7\u06e5\u06e8\u06e8\u06d8\u06e1\u06e2\u06d7\u06e7\u06e6\u06d7\u06d7\u06db\u06e7\u06d9\u06e5\u06e4\u06e8\u06e1\u06d8\u06d8\u06e6\u06e6\u06e8\u06d8\u06e1\u06e7\u06e1"
 
@@ -6941,14 +6941,14 @@
     goto :goto_0
 
     :sswitch_6
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/ewfnei;->F()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/feiwfin;->F()V
 
     const-string v0, "\u06d9\u06d7\u06dc\u06d8\u06e5\u06e8\u06d8\u06e4\u06e6\u06e1\u06d8\u06df\u06df\u06d6\u06d6\u06eb\u06d9\u06df\u06e6\u06ec\u06d7\u06dc\u06dc\u06e8\u06d8\u06d6\u06d8\u06d7\u06d6\u06e0\u06eb\u06e2\u06e0\u06e2\u06e6\u06e6\u06e7\u06e6\u06d8\u06e8\u06db\u06db\u06d6\u06df\u06e6\u06df\u06e5\u06e6\u06d8\u06e6\u06df\u06e4\u06e1\u06e7\u06d6\u06d8\u06e8\u06e8\u06dc\u06d8\u06e0\u06e5\u06d6\u06e0\u06d8\u06e4\u06e6\u06e2\u06df\u06db\u06e6\u06e0\u06ec\u06d7\u06d7\u06e4\u06d6\u06e5"
 
     goto :goto_0
 
     :sswitch_7
-    invoke-virtual {p0}, Lcom/example/drawingar/activity/ewfnei;->n0()V
+    invoke-virtual {p0}, Lcom/example/drawingar/activity/feiwfin;->n0()V
 
     const-string v0, "\u06e5\u06e5\u06ec\u06e2\u06e7\u06e0\u06da\u06e8\u06e6\u06d8\u06ec\u06e6\u06dc\u06d8\u06d7\u06e0\u06dc\u06d8\u06e0\u06e5\u06e7\u06d8\u06dc\u06e6\u06d6\u06d8\u06e5\u06d9\u06e0\u06d8\u06e0\u06e1\u06e2\u06d6\u06e5\u06eb\u06dc\u06da\u06e1\u06e2\u06e6\u06e1\u06df\u06eb\u06e7\u06e6\u06dc\u06e7\u06e7\u06e7\u06ec\u06df\u06dc\u06ec\u06d6\u06d8\u06e8\u06dc\u06eb\u06da\u06e1\u06e1\u06e2\u06db\u06e7\u06e8\u06eb\u06da\u06ec\u06e8\u06df\u06db\u06eb\u06df\u06e0\u06e0\u06e4"
 

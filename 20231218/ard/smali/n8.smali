@@ -6,16 +6,16 @@
 
 
 # instance fields
-.field public final a:Lcom/example/drawingar/activity/djwiiqdnq;
+.field public final a:Lcom/example/drawingar/activity/CameraActivity;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+.method public synthetic constructor <init>(Lcom/example/drawingar/activity/CameraActivity;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Ln8;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iput-object p1, p0, Ln8;->a:Lcom/example/drawingar/activity/CameraActivity;
 
     return-void
 .end method
@@ -68,9 +68,9 @@
     goto :goto_0
 
     :sswitch_1
-    iget-object v0, p0, Ln8;->a:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Ln8;->a:Lcom/example/drawingar/activity/CameraActivity;
 
-    invoke-static {v0}, Lcom/example/drawingar/activity/djwiiqdnq;->c0(Lcom/example/drawingar/activity/djwiiqdnq;)V
+    invoke-static {v0}, Lcom/example/drawingar/activity/CameraActivity;->c0(Lcom/example/drawingar/activity/CameraActivity;)V
 
     const-string v0, "\u06da\u06e2\u06d6\u06e5\u06eb\u06df\u06e2\u06eb\u06e0\u06da\u06e7\u06ec\u06ec\u06e8\u06e8\u06d8\u06da\u06d9\u06e5\u06d8\u06d9\u06e1\u06e6\u06d8\u06db\u06dc\u06e6\u06d8\u06eb\u06e8\u06ec\u06e0\u06e7\u06e4\u06d7\u06db\u06d8\u06d8\u06dc\u06e6\u06e1\u06e2\u06dc\u06ec\u06e6\u06e7\u06d8\u06e8\u06ec\u06e7\u06d8\u06eb\u06e4\u06db\u06e4\u06d7\u06db\u06e4\u06dc\u06e7\u06e4\u06dc\u06d7\u06df\u06e8\u06d8\u06d7\u06d6\u06df"
 

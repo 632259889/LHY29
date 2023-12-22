@@ -34,7 +34,7 @@
 
     iget-object v1, p0, Lcu;->b:Landroid/widget/TextView;
 
-    invoke-static {v0, v1, p1, p2, p3}, Lcom/example/drawingar/activity/dwqidnfnewf;->Y([ILandroid/widget/TextView;Landroid/widget/RatingBar;FZ)V
+    invoke-static {v0, v1, p1, p2, p3}, Lcom/example/drawingar/activity/eifruewf;->Y([ILandroid/widget/TextView;Landroid/widget/RatingBar;FZ)V
 
     return-void
 .end method

@@ -1,4 +1,4 @@
-.class public Lcom/example/drawingar/activity/ewfnei$d;
+.class public Lcom/example/drawingar/activity/feiwfin$d;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/drawingar/activity/ewfnei;->n0()V
+    value = Lcom/example/drawingar/activity/feiwfin;->n0()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field public final a:Lcom/example/drawingar/activity/ewfnei;
+.field public final a:Lcom/example/drawingar/activity/feiwfin;
 
 
 # direct methods
-.method public constructor <init>(Lcom/example/drawingar/activity/ewfnei;)V
+.method public constructor <init>(Lcom/example/drawingar/activity/feiwfin;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/example/drawingar/activity/ewfnei$d;->a:Lcom/example/drawingar/activity/ewfnei;
+    iput-object p1, p0, Lcom/example/drawingar/activity/feiwfin$d;->a:Lcom/example/drawingar/activity/feiwfin;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -100,7 +100,7 @@
     goto :goto_0
 
     :sswitch_4
-    iget-object v2, p0, Lcom/example/drawingar/activity/ewfnei$d;->a:Lcom/example/drawingar/activity/ewfnei;
+    iget-object v2, p0, Lcom/example/drawingar/activity/feiwfin$d;->a:Lcom/example/drawingar/activity/feiwfin;
 
     const-string v0, "\u06e5\u06e7\u06d9\u06ec\u06eb\u06d6\u06d8\u06dc\u06e1\u06e0\u06e4\u06e0\u06ec\u06d7\u06e8\u06e8\u06d8\u06e0\u06d6\u06ec\u06e7\u06e4\u06d7\u06e8\u06e5\u06d6\u06d8\u06d7\u06e6\u06d8\u06da\u06da\u06dc\u06d8\u06db\u06db\u06e1\u06d8\u06e5\u06e6\u06eb\u06d8\u06db\u06e0\u06eb\u06eb\u06eb\u06e8\u06e8\u06e8\u06d8\u06d6\u06d7\u06d7\u06d6\u06ec\u06e1\u06d6\u06db\u06e6"
 
@@ -109,14 +109,14 @@
     goto :goto_0
 
     :sswitch_5
-    iput p2, v3, Lcom/example/drawingar/activity/ewfnei;->F:I
+    iput p2, v3, Lcom/example/drawingar/activity/feiwfin;->F:I
 
     const-string v0, "\u06d7\u06eb\u06ec\u06ec\u06d7\u06e2\u06e4\u06e1\u06d6\u06d6\u06e1\u06df\u06db\u06e6\u06d6\u06d6\u06e4\u06dc\u06d8\u06e4\u06d9\u06e0\u06e2\u06eb\u06e0\u06dc\u06da\u06ec\u06da\u06db\u06e6\u06d8\u06db\u06e4\u06e2\u06d9\u06ec\u06db\u06e0\u06d8\u06db\u06db\u06d6\u06d8\u06e6\u06e1\u06df"
 
     goto :goto_0
 
     :sswitch_6
-    iget-object v0, v3, Lcom/example/drawingar/activity/ewfnei;->C:Lq0;
+    iget-object v0, v3, Lcom/example/drawingar/activity/feiwfin;->C:Lq0;
 
     iget-object v0, v0, Lq0;->b:Lcom/example/drawingar/utils/DrawingArea;
 
@@ -127,16 +127,16 @@
     goto :goto_0
 
     :sswitch_7
-    iget-object v1, p0, Lcom/example/drawingar/activity/ewfnei$d;->a:Lcom/example/drawingar/activity/ewfnei;
+    iget-object v1, p0, Lcom/example/drawingar/activity/feiwfin$d;->a:Lcom/example/drawingar/activity/feiwfin;
 
     const-string v0, "\u06df\u06d8\u06e1\u06d8\u06e5\u06e0\u06db\u06d6\u06e6\u06e7\u06d8\u06e4\u06e6\u06e0\u06ec\u06df\u06e0\u06e8\u06d9\u06d8\u06d8\u06da\u06e7\u06dc\u06d8\u06e2\u06e4\u06e1\u06d9\u06d7\u06e2\u06e8\u06dc\u06e5\u06d8\u06e4\u06e0\u06da\u06e2\u06e4\u06e4\u06e4\u06db\u06e0\u06d9\u06e8\u06e5\u06d8\u06d6\u06e7\u06e2"
 
     goto :goto_0
 
     :sswitch_8
-    iget-object v0, v1, Lcom/example/drawingar/activity/ewfnei;->V:Landroid/widget/SeekBar;
+    iget-object v0, v1, Lcom/example/drawingar/activity/feiwfin;->V:Landroid/widget/SeekBar;
 
-    iget v2, v1, Lcom/example/drawingar/activity/ewfnei;->F:I
+    iget v2, v1, Lcom/example/drawingar/activity/feiwfin;->F:I
 
     invoke-virtual {v0, v2}, Landroid/widget/SeekBar;->setProgress(I)V
 

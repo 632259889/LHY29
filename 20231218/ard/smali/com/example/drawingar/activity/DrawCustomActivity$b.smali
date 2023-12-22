@@ -1,4 +1,4 @@
-.class public Lcom/example/drawingar/activity/ewfnei$b;
+.class public Lcom/example/drawingar/activity/feiwfin$b;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/drawingar/activity/ewfnei;->n0()V
+    value = Lcom/example/drawingar/activity/feiwfin;->n0()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/example/drawingar/activity/ewfnei;)V
+.method public constructor <init>(Lcom/example/drawingar/activity/feiwfin;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

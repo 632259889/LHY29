@@ -1,4 +1,4 @@
-.class public Lcom/example/drawingar/activity/djwiiqdnq$c;
+.class public Lcom/example/drawingar/activity/CameraActivity$c;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/drawingar/activity/djwiiqdnq;->g1()V
+    value = Lcom/example/drawingar/activity/CameraActivity;->g1()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field public final e:Lcom/example/drawingar/activity/djwiiqdnq;
+.field public final e:Lcom/example/drawingar/activity/CameraActivity;
 
 
 # direct methods
-.method public constructor <init>(Lcom/example/drawingar/activity/djwiiqdnq;)V
+.method public constructor <init>(Lcom/example/drawingar/activity/CameraActivity;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/example/drawingar/activity/djwiiqdnq$c;->e:Lcom/example/drawingar/activity/djwiiqdnq;
+    iput-object p1, p0, Lcom/example/drawingar/activity/CameraActivity$c;->e:Lcom/example/drawingar/activity/CameraActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -81,9 +81,9 @@
     goto :goto_0
 
     :sswitch_1
-    iget-object v0, p0, Lcom/example/drawingar/activity/djwiiqdnq$c;->e:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v0, p0, Lcom/example/drawingar/activity/CameraActivity$c;->e:Lcom/example/drawingar/activity/CameraActivity;
 
-    iget-object v0, v0, Lcom/example/drawingar/activity/djwiiqdnq;->C:Lk0;
+    iget-object v0, v0, Lcom/example/drawingar/activity/CameraActivity;->C:Lk0;
 
     iget-object v0, v0, Lk0;->R:Landroid/widget/TextView;
 
@@ -99,9 +99,9 @@
 
     const/4 v5, 0x0
 
-    iget-object v6, p0, Lcom/example/drawingar/activity/djwiiqdnq$c;->e:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v6, p0, Lcom/example/drawingar/activity/CameraActivity$c;->e:Lcom/example/drawingar/activity/CameraActivity;
 
-    iget v6, v6, Lcom/example/drawingar/activity/djwiiqdnq;->Z:I
+    iget v6, v6, Lcom/example/drawingar/activity/CameraActivity;->Z:I
 
     rem-int/lit16 v6, v6, 0xe10
 
@@ -115,9 +115,9 @@
 
     const/4 v5, 0x1
 
-    iget-object v6, p0, Lcom/example/drawingar/activity/djwiiqdnq$c;->e:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v6, p0, Lcom/example/drawingar/activity/CameraActivity$c;->e:Lcom/example/drawingar/activity/CameraActivity;
 
-    iget v6, v6, Lcom/example/drawingar/activity/djwiiqdnq;->Z:I
+    iget v6, v6, Lcom/example/drawingar/activity/CameraActivity;->Z:I
 
     rem-int/lit8 v6, v6, 0x3c
 
@@ -138,25 +138,25 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v1, p0, Lcom/example/drawingar/activity/djwiiqdnq$c;->e:Lcom/example/drawingar/activity/djwiiqdnq;
+    iget-object v1, p0, Lcom/example/drawingar/activity/CameraActivity$c;->e:Lcom/example/drawingar/activity/CameraActivity;
 
     const-string v0, "\u06d7\u06e2\u06d6\u06d8\u06da\u06d6\u06e8\u06d6\u06ec\u06e2\u06db\u06e2\u06df\u06e1\u06df\u06e4\u06e7\u06eb\u06d7\u06e6\u06e1\u06e5\u06d8\u06ec\u06e0\u06d8\u06e2\u06db\u06e4\u06e7\u06d8\u06db\u06e0\u06d7\u06e4\u06dc\u06e8\u06ec\u06df\u06d8\u06dc\u06d8\u06d6\u06d7\u06da\u06e4\u06e0\u06eb\u06e1\u06df\u06dc\u06d8\u06da\u06dc\u06e5\u06d8\u06db\u06d7\u06da"
 
     goto :goto_0
 
     :sswitch_3
-    iget v0, v1, Lcom/example/drawingar/activity/djwiiqdnq;->Z:I
+    iget v0, v1, Lcom/example/drawingar/activity/CameraActivity;->Z:I
 
     add-int/lit8 v0, v0, 0x1
 
-    iput v0, v1, Lcom/example/drawingar/activity/djwiiqdnq;->Z:I
+    iput v0, v1, Lcom/example/drawingar/activity/CameraActivity;->Z:I
 
     const-string v0, "\u06e4\u06e8\u06df\u06e1\u06eb\u06eb\u06d8\u06d9\u06dc\u06d8\u06e8\u06d6\u06e7\u06d8\u06e0\u06e6\u06d8\u06d8\u06e6\u06e5\u06e8\u06d9\u06e2\u06dc\u06e5\u06e4\u06db\u06eb\u06e4\u06ec\u06e4\u06e1\u06e8\u06d8\u06e7\u06eb\u06e6\u06d8\u06d7\u06e0\u06da\u06d9\u06e1\u06df\u06e0\u06d6\u06d6\u06d8\u06e5\u06e6\u06d8\u06d8\u06e1\u06e5\u06e5\u06e7\u06e5\u06d6\u06db\u06e5\u06d8"
 
     goto :goto_0
 
     :sswitch_4
-    iget-object v0, v1, Lcom/example/drawingar/activity/djwiiqdnq;->i0:Landroid/os/Handler;
+    iget-object v0, v1, Lcom/example/drawingar/activity/CameraActivity;->i0:Landroid/os/Handler;
 
     const-wide/16 v2, 0x3e8
 

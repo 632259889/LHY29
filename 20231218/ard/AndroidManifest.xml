@@ -37,15 +37,15 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.drawingar.activity.TextActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="stateAlwaysVisible"/>
-        <activity android:exported="true" android:name="com.example.drawingar.activity.ewfnei" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustNothing"/>
-        <activity android:exported="true" android:name="com.example.drawingar.activity.dwqidnfnewf" android:screenOrientation="portrait"/>
-        <activity android:exported="true" android:name="com.example.drawingar.activity.fehuwbfefew" android:screenOrientation="portrait"/>
-        <activity android:exported="true" android:name="com.example.drawingar.activity.djwiiqdnq" android:screenOrientation="portrait" android:theme="@style/cameraActivityTheme"/>
-        <activity android:exported="true" android:name="com.example.drawingar.activity.xamfmfewl" android:screenOrientation="portrait"/>
-        <activity android:exported="true" android:name="com.example.drawingar.activity.mfbwhbfwfjwknf" android:screenOrientation="portrait"/>
-        <activity android:exported="true" android:name="com.example.drawingar.activity.paldmcjurbak" android:screenOrientation="portrait"/>
-        <activity android:exported="true" android:name="com.example.drawingar.activity.uegrnjjnakfoe" android:screenOrientation="portrait"/>
-        <activity android:exported="true" android:name="com.example.drawingar.activity.cbfbfjewfuehf" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="com.example.drawingar.activity.feiwfin" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:exported="true" android:name="com.example.drawingar.activity.eifruewf" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="com.example.drawingar.activity.CategoryImagesActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="com.example.drawingar.activity.CameraActivity" android:screenOrientation="portrait" android:theme="@style/cameraActivityTheme"/>
+        <activity android:exported="true" android:name="com.example.drawingar.activity.DrawOptionActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="com.example.drawingar.activity.RequestPermissionsActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="com.example.drawingar.activity.BrowserActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="com.example.drawingar.activity.CategoryMainActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="com.example.drawingar.activity.CreationActivity" android:screenOrientation="portrait"/>
         <provider android:authorities="com.follow.suit.draw.camera.show.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
         </provider>

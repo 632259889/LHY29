@@ -1,7 +1,7 @@
 .class public Lcom/myads/googlead/b$a;
 .super Lcom/google/android/gms/ads/AdListener;
 
-#
+
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
     value = Lcom/myads/googlead/b;->i()V

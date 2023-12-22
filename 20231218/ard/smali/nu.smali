@@ -6,18 +6,18 @@
 
 
 # instance fields
-.field public final e:Lcom/example/drawingar/activity/dwqidnfnewf;
+.field public final e:Lcom/example/drawingar/activity/eifruewf;
 
 .field public final f:Landroid/app/Dialog;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/example/drawingar/activity/dwqidnfnewf;Landroid/app/Dialog;)V
+.method public synthetic constructor <init>(Lcom/example/drawingar/activity/eifruewf;Landroid/app/Dialog;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lnu;->e:Lcom/example/drawingar/activity/dwqidnfnewf;
+    iput-object p1, p0, Lnu;->e:Lcom/example/drawingar/activity/eifruewf;
 
     iput-object p2, p0, Lnu;->f:Landroid/app/Dialog;
 
@@ -77,11 +77,11 @@
     goto :goto_0
 
     :sswitch_2
-    iget-object v0, p0, Lnu;->e:Lcom/example/drawingar/activity/dwqidnfnewf;
+    iget-object v0, p0, Lnu;->e:Lcom/example/drawingar/activity/eifruewf;
 
     iget-object v1, p0, Lnu;->f:Landroid/app/Dialog;
 
-    invoke-static {v0, v1, p1}, Lcom/example/drawingar/activity/dwqidnfnewf;->Z(Lcom/example/drawingar/activity/dwqidnfnewf;Landroid/app/Dialog;Landroid/view/View;)V
+    invoke-static {v0, v1, p1}, Lcom/example/drawingar/activity/eifruewf;->Z(Lcom/example/drawingar/activity/eifruewf;Landroid/app/Dialog;Landroid/view/View;)V
 
     const-string v0, "\u06dc\u06e6\u06e7\u06d8\u06e6\u06e2\u06db\u06e7\u06d7\u06d8\u06da\u06d8\u06e7\u06d8\u06db\u06e1\u06e5\u06d8\u06e4\u06e7\u06d6\u06db\u06db\u06e8\u06dc\u06e0\u06df\u06db\u06e5\u06e5\u06ec\u06dc\u06e1\u06dc\u06e7\u06db\u06e8\u06e8\u06d9\u06d9\u06e1\u06d8\u06e6\u06e7\u06d8\u06d8\u06e1\u06e1\u06db\u06e7\u06e1\u06d8\u06d8\u06d7\u06e8\u06d8\u06e7\u06dc\u06e0\u06eb\u06e4\u06e8\u06d9\u06d7\u06e5\u06d8\u06e6\u06d6\u06dc\u06df\u06eb\u06ec\u06ec\u06e6\u06d8\u06d6\u06e1\u06d8"
 

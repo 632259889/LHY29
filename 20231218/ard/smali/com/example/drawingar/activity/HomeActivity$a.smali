@@ -1,4 +1,4 @@
-.class public Lcom/example/drawingar/activity/dwqidnfnewf$a;
+.class public Lcom/example/drawingar/activity/eifruewf$a;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -7,7 +7,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/drawingar/activity/dwqidnfnewf;->n0()V
+    value = Lcom/example/drawingar/activity/eifruewf;->n0()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,14 +17,14 @@
 
 
 # instance fields
-.field public final e:Lcom/example/drawingar/activity/dwqidnfnewf;
+.field public final e:Lcom/example/drawingar/activity/eifruewf;
 
 
 # direct methods
-.method public constructor <init>(Lcom/example/drawingar/activity/dwqidnfnewf;)V
+.method public constructor <init>(Lcom/example/drawingar/activity/eifruewf;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/example/drawingar/activity/dwqidnfnewf$a;->e:Lcom/example/drawingar/activity/dwqidnfnewf;
+    iput-object p1, p0, Lcom/example/drawingar/activity/eifruewf$a;->e:Lcom/example/drawingar/activity/eifruewf;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -125,7 +125,7 @@
     goto :goto_0
 
     :sswitch_5
-    iget-object v0, p0, Lcom/example/drawingar/activity/dwqidnfnewf$a;->e:Lcom/example/drawingar/activity/dwqidnfnewf;
+    iget-object v0, p0, Lcom/example/drawingar/activity/eifruewf$a;->e:Lcom/example/drawingar/activity/eifruewf;
 
     invoke-virtual {v0}, Lc3;->getResources()Landroid/content/res/Resources;
 
@@ -166,7 +166,7 @@
     goto :goto_0
 
     :sswitch_8
-    iget-object v1, p0, Lcom/example/drawingar/activity/dwqidnfnewf$a;->e:Lcom/example/drawingar/activity/dwqidnfnewf;
+    iget-object v1, p0, Lcom/example/drawingar/activity/eifruewf$a;->e:Lcom/example/drawingar/activity/eifruewf;
 
     const-string v0, "\u06da\u06da\u06d7\u06ec\u06e2\u06e4\u06eb\u06e6\u06d6\u06e8\u06dc\u06e7\u06d8\u06d6\u06d9\u06e8\u06e5\u06e1\u06d8\u06d8\u06e6\u06d8\u06e6\u06e2\u06dc\u06d8\u06e0\u06d9\u06e6\u06e1\u06e2\u06dc\u06d8\u06e1\u06e4\u06d9\u06e6\u06e4\u06da\u06e2\u06e8\u06df\u06df\u06e2\u06d6\u06d8\u06d8\u06e4\u06e1\u06e2\u06d9\u06e8\u06d6\u06e5\u06e6\u06d9\u06e0\u06d8\u06d7\u06e6\u06d8\u06d9\u06df\u06da\u06db\u06ec\u06d6\u06da\u06d8\u06e6\u06df\u06e8\u06d8\u06e0\u06d6\u06d9"
 
