@@ -80,11 +80,11 @@
                 <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:text="@string/setting_evaluate" style="@style/setting_text" />
                 <include layout="@layout/split_line_half" />
             </LinearLayout>
-            <LinearLayout android:id="@id/ln_setting_about" style="@style/setting_lay">
+            <LinearLayout android:id="@id/ln_setting_about" android:visibility="gone" style="@style/setting_lay">
                 <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:text="@string/set_l_info3" style="@style/setting_text" />
                 <include layout="@layout/split_line_half" />
             </LinearLayout>
-            <RelativeLayout android:id="@id/ln_setting_update" style="@style/setting_lay">
+            <RelativeLayout android:id="@id/ln_setting_update" android:visibility="gone" style="@style/setting_lay">
                 <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:layout_height="wrap_content" android:text="@string/set_l_info2" android:layout_centerVertical="true" style="@style/setting_text" />
                 <ImageView android:id="@id/iv_need_update_setting" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/bg_new_version_mark" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
             </RelativeLayout>
@@ -116,7 +116,7 @@
                 <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:text="@string/disclaimer" style="@style/setting_text" />
                 <include layout="@layout/split_line_half" />
             </LinearLayout>
-            <LinearLayout android:id="@id/ln_setting_delete_privacy" style="@style/setting_lay">
+            <LinearLayout android:id="@id/ln_setting_delete_privacy" android:visibility="gone" style="@style/setting_lay">
                 <com.xvideostudio.videoeditor.view.RobotoRegularTextView android:text="@string/gdpr_delete_privacy" style="@style/setting_text" />
                 <include layout="@layout/split_line_half" />
             </LinearLayout>

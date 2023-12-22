@@ -11760,11 +11760,11 @@
     <public type="string" name="face_material_title" id="0x7f120296" />
     <public type="string" name="face_no_network" id="0x7f120297" />
     <public type="string" name="facebook_ad_sponsored_tip" id="0x7f120298" />
-    <public type="string" name="facebook_app_id" id="0x7f120299" />
+    <!-- <public type="string" name="facebook_app_id" id="0x7f120299" />
     <public type="string" name="facebook_app_id_lite" id="0x7f12029a" />
     <public type="string" name="facebook_app_id_normal" id="0x7f12029b" />
-    <public type="string" name="facebook_app_id_pro" id="0x7f12029c" />
-    <public type="string" name="facebook_client_token" id="0x7f12029d" />
+    <public type="string" name="facebook_app_id_pro" id="0x7f12029c" /> -->
+    <!-- <public type="string" name="facebook_client_token" id="0x7f12029d" /> -->
     <public type="string" name="facebook_copyright_tip" id="0x7f12029e" />
     <public type="string" name="faceui_filter_lvjing_tab" id="0x7f12029f" />
     <public type="string" name="faceui_filter_meixing_chengdu" id="0x7f1202a0" />

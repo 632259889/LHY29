@@ -7,9 +7,9 @@
     <string name="a1080p_hd_export">Export v rozlišení 1080p HD</string>
     <string name="a3_day_free">Třídenní zkušební verze</string>
     <string name="about">O aplikaci</string>
-    <string name="about_info3">"VideoShow poskytuje uživatelům dobrý prožitek z editace videí. Při minimálním počtu operací můžete do svých videí přidat nejúžasnější efekty. 
+    <string name="about_info3">"VideoShow poskytuje uživatelům dobrý prožitek z editace videí. Při minimálním počtu operací můžete do svých videí přidat nejúžasnější efekty.
 
-Jestliže máte nějaké dotazy nebo připomínky, kontaktujte nás prosím na adrese support@enjoy-global.com 
+Jestliže máte nějaké dotazy nebo připomínky, kontaktujte nás prosím na adrese support@enjoy-global.com
 
 Všechna práva vyhrazena: Shanghai Enjoy Information Technology Co., Ltd"</string>
     <string name="action_feedback_title">Vyberte si poštovní schránku</string>
@@ -17,7 +17,7 @@ Všechna práva vyhrazena: Shanghai Enjoy Information Technology Co., Ltd"</stri
     <string name="add_clip_memory_warn_tip">Vybrali jste příliš mnoho fotografií, což by mohlo způsobit výpadek pro nedostatek paměti</string>
     <string name="add_more_than_50">Přidat lze nejvýše 50 klipů</string>
     <string name="add_mosaic">Přidat Pixelate</string>
-    <string name="add_share_tag_tip">Označte své video #Filmigoapp, a všimne si Vás více lidí</string>
+    <string name="add_share_tag_tip">Označte své video #Makerapp, a všimne si Vás více lidí</string>
     <string name="add_text">Text</string>
     <string name="add_video_format">Nepodporovaný typ média</string>
     <string name="addimg_delete_info">Vyberte alespoň jeden klip</string>
@@ -39,7 +39,7 @@ Všechna práva vyhrazena: Shanghai Enjoy Information Technology Co., Ltd"</stri
     <string name="app_info_view_compress">Komprimovat toto video</string>
     <string name="app_info_view_reverse">Obrátit video zpět</string>
     <string name="app_info_view_trim">Ořez videí</string>
-    <string name="app_pro_version">Filmigo Pro</string>
+    <string name="app_pro_version">Maker Pro</string>
     <string name="app_update_to_use_the_theme">Toto téma má novou grafickou funkci. Aby bylo možno aplikaci používat, je potřeba ji aktualizovat.</string>
     <string name="are_you_sure_exit_tips">Jestliže odejdete z aktuální stránky, Vaše video nebude uloženo!</string>
     <string name="audio_camera_permissions2">Pro nahrávání videí potřebujeme přístup k vaší kameře/fotoaparátu a k mikrofonu.</string>
@@ -65,12 +65,12 @@ Všechna práva vyhrazena: Shanghai Enjoy Information Technology Co., Ltd"</stri
     <string name="bt_trim_clip_add">Přidat</string>
     <string name="bt_trim_clip_add_tips">Můžete nadále ořezávat klipy a přidávat je!</string>
     <string name="bullet">Kulka</string>
-    <string name="buy_pro_tip_content_new">"1. Žádné reklamy 
+    <string name="buy_pro_tip_content_new">"1. Žádné reklamy
 2. Podpora exportu videí v rozlišení 1080p
-3. Exkluzivní materiály 
-4. Podpora importu videí v rozlišení 4K 
-5. Žádný vodoznak Filmigo
-6. Přidávejte až 20 efektů 
+3. Exkluzivní materiály
+4. Podpora importu videí v rozlišení 4K
+5. Žádný vodoznak Maker
+6. Přidávejte až 20 efektů
 7. Žádné reverzní omezení trvání"</string>
     <string name="camera">Fotoaparát</string>
     <string name="camera_freememory_space_low_tip">Na disku je málo místa. Vyprázdněte prosím část místa na disku</string>
@@ -93,7 +93,7 @@ Všechna práva vyhrazena: Shanghai Enjoy Information Technology Co., Ltd"</stri
     <string name="cancel_anytime">Kdykoli zrušit</string>
     <string name="cancel_at_anytime">Zrušit KDYKOLI</string>
     <string name="changelog_setting">Protokol změn</string>
-    <string name="changelog_title">Protokol změn Filmigo</string>
+    <string name="changelog_title">Protokol změn Maker</string>
     <string name="choose_4k_buypro_content">Pouze Video Maker Pro podporuje import videí s rozlišením 4K. Chcete jej zakoupit?</string>
     <string name="choose_4k_buypro_title">Toto video je příliš velké</string>
     <string name="choose_a_clip">Vyberte klip</string>
@@ -156,14 +156,14 @@ Všechna práva vyhrazena: Shanghai Enjoy Information Technology Co., Ltd"</stri
     <string name="cover_subtitle_effect_type_sparkling_red">Blyštivá červeň</string>
     <string name="cover_subtitle_effect_type_tiger_head">Tygří hlava</string>
     <string name="cpunotcompatible">Je nám líto, ale architektura této procesorové jednotky není kompatibiilní s aplikací. Co nejdříve tento problém napravíme</string>
-    <string name="cpunotcompatible2">Je nám líto, nenacházíme dynamickou knihovnu. Důvodem může být například nekompatibilní architektura nebo nedostatek místa. Odinstalujte nějaké aplikace a zkuste Filmigo naisntalovat znovu.</string>
+    <string name="cpunotcompatible2">Je nám líto, nenacházíme dynamickou knihovnu. Důvodem může být například nekompatibilní architektura nebo nedostatek místa. Odinstalujte nějaké aplikace a zkuste Maker naisntalovat znovu.</string>
     <string name="create_video_file_failed">Vnitřní úložiště nebo karta SD se při inicializaci kamery nenačetly. Zkontrolujte, prosím!</string>
     <string name="curvedSpeed">Zakřivená rychlost</string>
     <string name="custom_watermark">Vlastní vodoznak</string>
-    <string name="debug_mode_tip">"Toto je ladicí verze, která nám může posloužit k vyřešení některých obtížných problémů při exportu videí. 
+    <string name="debug_mode_tip">"Toto je ladicí verze, která nám může posloužit k vyřešení některých obtížných problémů při exportu videí.
 Je několik informací, které byste měli vědět. Tady jsou:
 1. Videa upravujte a exportujte jako normální;
-2. Jestliže se aplikace zhroutí, pak při opětovném otevření zkopíruje všechny příslušné soubory do zadaného adresáře (root dir/FilmigoLogPack).
+2. Jestliže se aplikace zhroutí, pak při opětovném otevření zkopíruje všechny příslušné soubory do zadaného adresáře (root dir/MakerLogPack).
 3. Zabalte prosím adresář na svém počítači a pošlete nám jej e-mailem na adresu support@enjoy-global.com
  To je vše. Velmi Vám děkujeme."</string>
     <string name="default_setting">Výchozí nastavení</string>
@@ -192,7 +192,7 @@ Je několik informací, které byste měli vědět. Tady jsou:
     <string name="dialog_rate_us_title">Těžce pracujeme na zlepšení prožitku uživatelů</string>
     <string name="dialog_yes">ANO</string>
     <string name="direction">Směr</string>
-    <string name="disallow_record_tips">Přejděte prosím na nastavení práv a povolte programu Filmigo nahrávat hlas</string>
+    <string name="disallow_record_tips">Přejděte prosím na nastavení práv a povolte programu Maker nahrávat hlas</string>
     <string name="discard_operation">Zahodit</string>
     <string name="disclaimer">Zřeknutí se odpovědnosti</string>
     <string name="disclaimer_content">Respektujeme vlastníky autorských práv. Používejte tedy funkce a služby této aplikace rozumně. Neporušujte zákony, nařízení, veřejná nařízení a dobré zvyky. A nepoužívejte tuto aplikaci k extrahování ani nahrávání neoprávněného videa nebo zvuku.</string>
@@ -492,7 +492,7 @@ Je několik informací, které byste měli vědět. Tady jsou:
     <string name="intercept_video">Z videa</string>
     <string name="invalid_param">Neplatný parametr!</string>
     <string name="invalid_volume_setting1">Hudbu nemůžete zcela ztlumit!</string>
-    <string name="invite_friend_prefix">Ahoj. Používám úžasnou aplikaci k editaci videí zvanou Filmigo. Podívejte se na ni a nainstalujte si ji. Autor:</string>
+    <string name="invite_friend_prefix">Ahoj. Používám úžasnou aplikaci k editaci videí zvanou Maker. Podívejte se na ni a nainstalujte si ji. Autor:</string>
     <string name="is_loop">Opakovat</string>
     <string name="jumpCut">Skokový střih</string>
     <string name="keep_user_tip_content2">Pokud nabídku opustíte, vynecháte nabídku.</string>
@@ -511,13 +511,13 @@ Je několik informací, které byste měli vědět. Tady jsou:
 2. Export videí v rozlišení 1080P HD
 3. Stahování neomezeného počtu materiálů."</string>
     <string name="login_rewards_expired_again">Stačí Vám prostě být v následujících %s dnech přihlášení k naší aplikaci, načež můžete verze funkce Pro zase zdarma odblokovat! Děkujeme Vám, že nás podporujete!</string>
-    <string name="login_rewards_expired_no">Ne, chci verzi Filmigo Pro zakoupit</string>
+    <string name="login_rewards_expired_no">Ne, chci verzi Maker Pro zakoupit</string>
     <string name="login_rewards_expired_tip">Vaše měsíční zkouška funkcí verze Pro právě skončila. Funkce verze Pro si však můžete zase odblokovat nepřetržitým přihlášením po dobu dalších tří dnů. Chcete to získat?</string>
     <string name="login_rewards_expired_yes">Ano, chci mít funkce verze Pro zdarma</string>
     <string name="login_rewards_first_day_tip">Odblokujte si funkce verze Pro na 30 dní nepřetržitým přihlášením po dobu tří dnů!</string>
     <string name="login_rewards_last_day_tip">Pospíchejte! Přihlaste se a odblokujte funkce verze Pro teď!</string>
     <string name="login_rewards_last_second_day_tip">Na odblokování Vám stačí jen přihlášení na jeden den</string>
-    <string name="login_rewards_purchase_pro_tip">Zakoupením verze Filmigo Pro můžete odstranit reklamy a podpoříte tak náš tým.</string>
+    <string name="login_rewards_purchase_pro_tip">Zakoupením verze Maker Pro můžete odstranit reklamy a podpoříte tak náš tým.</string>
     <string name="login_rewards_remain_days_tip">Jestliže chcete odblokovat funkce verze Pro, stačí Vám jen přihlásit se na %s dní.</string>
     <string name="login_rewards_title_tip">Odměny za nepřetržité přihlášení</string>
     <string name="long_click_top_pin_top">Dlouhým stiskem nahoře</string>
@@ -660,10 +660,10 @@ Vytvářejte úžasná videa hned teď"</string>
     <string name="pupumenu_select_type_size">velikost</string>
     <string name="pupumenu_select_type_title">Seřadit podle</string>
     <string name="purchase_vip_sub_terms_privacy">ZRUŠIT kdykoli</string>
-    <string name="question_attention">Pozor: tato operace odstraní všechny Vaše koncepty a resetuje Filmigo.</string>
+    <string name="question_attention">Pozor: tato operace odstraní všechny Vaše koncepty a resetuje Maker.</string>
     <string name="question_studio_step">"První krok: v telefonu najděte \"vnitřní úložiště\".
-Druhý krok: vymažte 1Filmigo a složku .1Filmigo (pokud nevidíte složku .1Filmigo, měli byste zapnout zobrazení skrytých souborů).
-Třetí krok: spusťte službu Filmigo.
+Druhý krok: vymažte 1Maker a složku .1Maker (pokud nevidíte složku .1Maker, měli byste zapnout zobrazení skrytých souborů).
+Třetí krok: spusťte službu Maker.
 Pozor: Pokud se Vám to nepodařilo, zkuste to znovu, nebo nás kontaktujte na adrese support@enjoy-global.com."</string>
     <string name="question_studio_title">Nelze exportovat video?</string>
     <string name="quick_export_sigle_video">"Pro export videa v rychlém režimu musejí být splněny následující podmínky:
@@ -686,9 +686,9 @@ Pozor: Pokud se Vám to nepodařilo, zkuste to znovu, nebo nás kontaktujte na a
     <string name="recording">U zkušební verze nehradíte žádné poplatky.</string>
     <string name="recover_videos_original_voice_cannot_support_tip">V tomto videu nelze obnovit původní hlas</string>
     <string name="refuse">ZAMÍTNOUT</string>
-    <string name="refuse_allow_audio_permission">Filmigo potřebuje přístup k mikrofonu telefonu, aby mohla nahrávat Váš hlas. Povolte prosím práva k mikrofonu.</string>
-    <string name="refuse_allow_camera_permission">Filmigo potřebuje práva pro přístup ke kameře Vašeho telefonu, aby mohla natáčet video. Povolte prosím práva ke kameře.</string>
-    <string name="refuse_allow_storage_permission">Filmigo potřebuje přístup k Vašim fotografiím a videím pro běžný chod editoru. Povolte prosím práva k úložišti.</string>
+    <string name="refuse_allow_audio_permission">Maker potřebuje přístup k mikrofonu telefonu, aby mohla nahrávat Váš hlas. Povolte prosím práva k mikrofonu.</string>
+    <string name="refuse_allow_camera_permission">Maker potřebuje práva pro přístup ke kameře Vašeho telefonu, aby mohla natáčet video. Povolte prosím práva ke kameře.</string>
+    <string name="refuse_allow_storage_permission">Maker potřebuje přístup k Vašim fotografiím a videím pro běžný chod editoru. Povolte prosím práva k úložišti.</string>
     <string name="remov_watermark">Odstranit vodoznak</string>
     <string name="remove_ads_checking">Kontroluji ...</string>
     <string name="remove_ads_checking_failed">Obnovení se nezdařilo</string>
@@ -709,7 +709,7 @@ Pozor: Pokud se Vám to nepodařilo, zkuste to znovu, nebo nás kontaktujte na a
     <string name="save_operation">Zahodit změny?</string>
     <string name="save_vip">Sleva 20%</string>
     <string name="scroll_text">Posouvání textu</string>
-    <string name="sd_permission_invalid">Je nám líto, ale Filmigo nesmí ukládat videa na paměťovou kartu. Zajistěte prosím, aby na Vaši paměťovou kartu bylo možné zapisovat</string>
+    <string name="sd_permission_invalid">Je nám líto, ale Maker nesmí ukládat videa na paměťovou kartu. Zajistěte prosím, aby na Vaši paměťovou kartu bylo možné zapisovat</string>
     <string name="select_a_clip_to_edit">Vybrat klip k úpravám</string>
     <string name="select_allitem_editorchoose">Načítání...</string>
     <string name="select_gif_resolution">Vyberte rozlišení GIF</string>
@@ -750,14 +750,14 @@ Pozor: Pokud se Vám to nepodařilo, zkuste to znovu, nebo nás kontaktujte na a
     <string name="setting_recommend_to_friend">Pozvěte přátele</string>
     <string name="setting_terms_privacy_info">Podmínky a ochrana osobních údajů</string>
     <string name="setting_updateto_normal_version_ok">Aktualizace</string>
-    <string name="setting_updateto_normal_version_title">Oficiální verze Filmigo</string>
+    <string name="setting_updateto_normal_version_title">Oficiální verze Maker</string>
     <string name="setting_video_background_black">Černá</string>
     <string name="setting_video_background_gause">Rozostření</string>
     <string name="setting_video_background_none">Bez pozadí</string>
     <string name="setting_video_background_white">Bílá</string>
     <string name="settingg_share_friend">Řekněte o tom příteli</string>
-    <string name="settingg_share_friend_text">Vyzkoušejte tuto aplikaci pro úpravy videí nazvanou Filmigo, je dost dobrá! https://play.google.com/store/apps/details?id=com.xvideostudio.videoeditor</string>
-    <string name="settingg_share_friend_title">Filmigo - editor videa</string>
+    <string name="settingg_share_friend_text">Vyzkoušejte tuto aplikaci pro úpravy videí nazvanou Maker, je dost dobrá! https://play.google.com/store/apps/details?id=com.xvideostudio.videoeditor</string>
+    <string name="settingg_share_friend_title">Maker - editor videa</string>
     <string name="share">Sdílet</string>
     <string name="share_clipboard_copy_tip">Zkopírováno od schránky</string>
     <string name="share_facebook_unlock_fail">Odblokování se nezdařilo</string>
@@ -794,7 +794,7 @@ Pozor: Pokud se Vám to nepodařilo, zkuste to znovu, nebo nás kontaktujte na a
     <string name="stencil_text">Text šablony</string>
     <string name="sticker_count_limit_info">Podpora nejvýše pěti nálepek současně</string>
     <string name="stop_exporting_video_tip">Dalším stiskem můžete odejít. Pod „MojeKoncepty“ můžete pokračovat v úpravách.</string>
-    <string name="storage_permission_content">Filmigo potřebuje uložit vaše videa do zařízení. K tomu potřebujeme povolit přístup k úložišti ve vašem zařízení.</string>
+    <string name="storage_permission_content">Maker potřebuje uložit vaše videa do zařízení. K tomu potřebujeme povolit přístup k úložišti ve vašem zařízení.</string>
     <string name="storage_permission_denied_allow">ZNOVU POŽÁDAT O POVOLENÍ</string>
     <string name="storage_permission_denied_content">Pokud chcete upravená videa a fotky uložit, přejděte do Nastavení a povolte přístup.</string>
     <string name="storage_permission_denied_refuse">ODMÍTNOUT</string>
@@ -804,7 +804,7 @@ Pozor: Pokud se Vám to nepodařilo, zkuste to znovu, nebo nás kontaktujte na a
     <string name="string_all_clip_add_adjust">Přidejte náhodné parametry nastavení do všech klipů</string>
     <string name="string_all_clip_remove_adjust">Odeberte parametry nastavení ze všech klipů</string>
     <string name="string_become_vip">Staňte se VIP</string>
-    <string name="string_camera_permission_content">Filmigo potřebuje k nahrávání videí fotoaparát a mikrofon, proto prosím k fotoaparátu a mikrofonu povolte přístup.</string>
+    <string name="string_camera_permission_content">Maker potřebuje k nahrávání videí fotoaparát a mikrofon, proto prosím k fotoaparátu a mikrofonu povolte přístup.</string>
     <string name="string_cancel_anytime">%s Kdykoli zrušit</string>
     <string name="string_clean">VYČISTIT</string>
     <string name="string_discount_off_count">SLEVA %s</string>
@@ -980,8 +980,8 @@ Pokud chcete odstranit reklamy, staňte se VIP"</string>
     <string name="user_logout">odhlášení</string>
     <string name="user_permit_permission_audio_recorder_tip">Schválili jste práva k nahrávání. Teď můžete stisknout tlačítko a začít dabovat.</string>
     <string name="user_permit_permission_take_picture_tip">Schválili jste práva ke kameře/fotoaparátu. Teď můžete začít pořizovat fotografie.</string>
-    <string name="user_refuse_permission_audio_recorder_tip">Zamítli jste požadavek, aby měla aplikace Filmigo přístup k funkci nahrávání. Filmigo teď není schopná normálně dabovat. Povolte prosím tato práva.</string>
-    <string name="user_refuse_permission_camera_tip">Zamítli jste požadavek, aby měla aplikace Filmigo přístup k Vaší kameře/fotoaparátu. Filmigo teď není schopna normálně provozovat kameru. Povolte prosím tato práva.</string>
+    <string name="user_refuse_permission_audio_recorder_tip">Zamítli jste požadavek, aby měla aplikace Maker přístup k funkci nahrávání. Maker teď není schopná normálně dabovat. Povolte prosím tato práva.</string>
+    <string name="user_refuse_permission_camera_tip">Zamítli jste požadavek, aby měla aplikace Maker přístup k Vaší kameře/fotoaparátu. Maker teď není schopna normálně provozovat kameru. Povolte prosím tato práva.</string>
     <string name="vertical">Vertikální</string>
     <string name="video_2_music">audio extraktor</string>
     <string name="video_adjust">Nastavení videa</string>

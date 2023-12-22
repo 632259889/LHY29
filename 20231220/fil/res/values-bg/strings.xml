@@ -53,7 +53,7 @@
     <string name="add_clip_memory_warn_tip">Избрали сте твърде много снимки, което може да доведе до срив поради недостиг на памет</string>
     <string name="add_more_than_50">Могат да се добавят най-много 50 клипа</string>
     <string name="add_mosaic">Добави пикселизиране</string>
-    <string name="add_share_tag_tip">Добавете хаштаг #Filmigoapp към Вашето видео, ще бъдете забелязани от повече хора</string>
+    <string name="add_share_tag_tip">Добавете хаштаг #Makerapp към Вашето видео, ще бъдете забелязани от повече хора</string>
     <string name="add_text">Текст</string>
     <string name="add_video_format">Неподдържан формат</string>
     <string name="addimg_delete_info">Избери поне един клип</string>
@@ -75,7 +75,7 @@
     <string name="app_info_view_compress">Компресирай този видеоклип</string>
     <string name="app_info_view_reverse">Обърни видеоклипа</string>
     <string name="app_info_view_trim">Изрязване на видеоклипове</string>
-    <string name="app_pro_version">Filmigo Pro</string>
+    <string name="app_pro_version">Maker Pro</string>
     <string name="app_update_to_use_the_theme">Темата има нова графична характеристика. Приложението трябва да се актуализира, за да я използва.</string>
     <string name="are_you_sure_exit_tips">Ако излезете от текущата страница, видеоклипът Ви няма да бъде запазен!</string>
     <string name="audio_camera_permissions2">За записване на видеоклипове, имаме нужда от достъп до вашата камера и микрофон.</string>
@@ -92,7 +92,7 @@
 2. Поддържа експортиране на 1080p видеоклипове
 3. Ексклузивни материали
 4. Поддържа импортиране на 4K видеоклипoве
-5. Няма воден знак на Filmigo
+5. Няма воден знак на Maker
 6. Добавете до 20 ефекта
 7. Без лимит на обратна продължителност"</string>
     <string name="camera">Камера</string>
@@ -116,7 +116,7 @@
     <string name="cancel_anytime">Отменете по всяко време</string>
     <string name="cancel_at_anytime">Отменете ПО ВСЯКО ВРЕМЕ</string>
     <string name="changelog_setting">Регистрационен файл</string>
-    <string name="changelog_title">Filmigo регистрационен файл</string>
+    <string name="changelog_title">Maker регистрационен файл</string>
     <string name="character_counter_content_description">Въведени знаци: %1$d от %2$d</string>
     <string name="character_counter_overflowed_content_description">Максималният брой знаци е надхвърлен с(ъс) %1$d от %2$d</string>
     <string name="choose_4k_buypro_content">Само Video Maker Pro поддържа импортиране на видеоклипове с разделителна способност 4K. Искате ли да закупите?</string>
@@ -201,14 +201,14 @@
     <string name="cover_subtitle_effect_type_sparkling_red">Искрящо червено</string>
     <string name="cover_subtitle_effect_type_tiger_head">Тигрова глава</string>
     <string name="cpunotcompatible">За съжаление архитектурата на CPU не е съвместима с приложението. Ще решим този проблем възможно най-скоро</string>
-    <string name="cpunotcompatible2">За съжаление библиотеката не може да бъде намерена по време на изпълнение. Причината може да е, че архитектурата е несъвместима или няма достатъчно място. Деинсталирайте някои приложения и опитайте отново да инсталирате Filmigo.</string>
+    <string name="cpunotcompatible2">За съжаление библиотеката не може да бъде намерена по време на изпълнение. Причината може да е, че архитектурата е несъвместима или няма достатъчно място. Деинсталирайте някои приложения и опитайте отново да инсталирате Maker.</string>
     <string name="create_video_file_failed">Вътрешното хранилище или SD картата не се заредиха при инициализиране на камерата. Моля, проверете!</string>
     <string name="curvedSpeed">Скорост на крива</string>
     <string name="custom_watermark">Персонализиран воден знак</string>
     <string name="debug_mode_tip">"Това е версия за отстраняване на грешки, която може да ни помогне да разрешим някои проблеми, свързани със сривове при експортирането на видеоклипове.
 Има известна информация, с която трябва да се запознаете, както следва:
 1. Редактирайте и експортирайте видеоклипове както обикновено;
-2. Ако се срине, приложението ще копира всички важни файлове в указаната директория (root dir/FilmigoLogPack), когато го отворите отново.
+2. Ако се срине, приложението ще копира всички важни файлове в указаната директория (root dir/MakerLogPack), когато го отворите отново.
 3. Моля, пакетирайте директорията на компютър и ни я изпратете по имейл: support@enjoy-global.com
  Това е всичко, благодарим Ви."</string>
     <string name="default_notification_channel_name">Възпроизвежда се в момента</string>
@@ -238,7 +238,7 @@
     <string name="dialog_rate_us_title">Работим усилено за по-добро потребителско изживяване</string>
     <string name="dialog_yes">ДА</string>
     <string name="direction">Посока</string>
-    <string name="disallow_record_tips">Моля, преминете към Настройка на разрешенията и позволете на Filmigo да записва глас</string>
+    <string name="disallow_record_tips">Моля, преминете към Настройка на разрешенията и позволете на Maker да записва глас</string>
     <string name="discard_operation">Отхвърляне</string>
     <string name="disclaimer">Отказ от права</string>
     <string name="disclaimer_content">Ние уважаваме притежателите на авторски права. Моля, използвайте разумно функциите и услугите на това приложение. Не нарушавайте законите, наредбите, обществения ред и добрите обичаи. Не използвайте това приложение за извличане или качване на неоторизирано видео или аудио съдържание.</string>
@@ -543,7 +543,7 @@
     <string name="intercept_video">От видеоклипа</string>
     <string name="invalid_param">Невалиден параметър!</string>
     <string name="invalid_volume_setting1">Не можете да заглушите музиката!</string>
-    <string name="invite_friend_prefix">Здравей, аз използвам Filmigo- страхотно приложение за редактиране на видеоклипове. Разгледай го и го инсталирай от тук:</string>
+    <string name="invite_friend_prefix">Здравей, аз използвам Maker- страхотно приложение за редактиране на видеоклипове. Разгледай го и го инсталирай от тук:</string>
     <string name="is_loop">Повтори</string>
     <string name="item_view_role_description">Раздел</string>
     <string name="jumpCut">Разделяне</string>
@@ -563,13 +563,13 @@
 2. 1080P HD видео експортиране
 3. Неограничено изтегляне на материали."</string>
     <string name="login_rewards_expired_again">Трябва само да влизате в приложението ни през следващите %s дни, след което ще можете да отключите про функциите безплатно! Благодарим Ви за подкрепата!</string>
-    <string name="login_rewards_expired_no">Не, искам да закупя Filmigo Про</string>
+    <string name="login_rewards_expired_no">Не, искам да закупя Maker Про</string>
     <string name="login_rewards_expired_tip">Вашият едномесечен пробен период на про функциите изтече. Можете да отключите отново про функциите чрез непрекъснато влизане в продължение на още три дни. Искате ли да го направите?</string>
     <string name="login_rewards_expired_yes">Да, искам да получа безплатно про функции</string>
     <string name="login_rewards_first_day_tip">Отключете Про функциите за 30 дни, с непрекъснато тридневно влизане!</string>
     <string name="login_rewards_last_day_tip">Побързайте! Влезте, за да отключите Про функции сега</string>
     <string name="login_rewards_last_second_day_tip">Нужно е да влезете 1 ден, за да отключите</string>
-    <string name="login_rewards_purchase_pro_tip">Купете Filmigo Про, за да премахнете рекламите и да подкрепите екипа.</string>
+    <string name="login_rewards_purchase_pro_tip">Купете Maker Про, за да премахнете рекламите и да подкрепите екипа.</string>
     <string name="login_rewards_remain_days_tip">Трябва да влизате в продължение на %s дни, за да отключите Про функциите</string>
     <string name="login_rewards_title_tip">Задължителни награди при влизане</string>
     <string name="long_click_top_pin_top">Натиснете и задръжте до края</string>
@@ -785,10 +785,10 @@
     <string name="pupumenu_select_type_size">размер</string>
     <string name="pupumenu_select_type_title">Сортирай по</string>
     <string name="purchase_vip_sub_terms_privacy">ОТМЕНИ АНИТИМ</string>
-    <string name="question_attention">Внимание: тази операция ще изтрие всичките Ви чернови и ще рестартира Filmigo.</string>
+    <string name="question_attention">Внимание: тази операция ще изтрие всичките Ви чернови и ще рестартира Maker.</string>
     <string name="question_studio_step">"Първа стъпка: намерете \"вътрешно хранилище\" в телефона си.
-Втората стъпка: изтрийте папки 1Filmigo и .1Filmigo (ако не виждате папка .1Filmigo, трябва да включите показването на скрити файлове).
-Трета стъпка: стартирайте Filmigo.
+Втората стъпка: изтрийте папки 1Maker и .1Maker (ако не виждате папка .1Maker, трябва да включите показването на скрити файлове).
+Трета стъпка: стартирайте Maker.
 Внимание: ако не сте успели, опитайте отново или се свържете с нас на адрес support@enjoy-global.com."</string>
     <string name="question_studio_title">Видеото не може да се експортира?</string>
     <string name="quick_export_sigle_video">"За експортиране на видео с бърз режим трябва да са изпълнени следните условия:
@@ -813,9 +813,9 @@
     <string name="recording">Безплатно по време на пробния период.</string>
     <string name="recover_videos_original_voice_cannot_support_tip">Оригиналният глас не може да бъде възстановен за това видео</string>
     <string name="refuse">ОТКАЗ</string>
-    <string name="refuse_allow_audio_permission">Filmigo се нуждае от достъп до микрофона на телефона, за да запише гласа Ви. Моля, одобрете разрешението за микрофона.</string>
-    <string name="refuse_allow_camera_permission">Filmigo се нуждае от достъп до камерата на Вашия телефон, за да заснеме видео. Моля, одобрете разрешението за камера.</string>
-    <string name="refuse_allow_storage_permission">Filmigo се нуждае от достъп до Вашите снимки и видеоклипове, за да стартира редактора нормално. Моля, одобрете разрешението за съхранение.</string>
+    <string name="refuse_allow_audio_permission">Maker се нуждае от достъп до микрофона на телефона, за да запише гласа Ви. Моля, одобрете разрешението за микрофона.</string>
+    <string name="refuse_allow_camera_permission">Maker се нуждае от достъп до камерата на Вашия телефон, за да заснеме видео. Моля, одобрете разрешението за камера.</string>
+    <string name="refuse_allow_storage_permission">Maker се нуждае от достъп до Вашите снимки и видеоклипове, за да стартира редактора нормално. Моля, одобрете разрешението за съхранение.</string>
     <string name="remov_watermark">Премахни воден знак</string>
     <string name="remove_ads_checking">Проверка...</string>
     <string name="remove_ads_checking_failed">Възстановяването не беше успешно</string>
@@ -843,7 +843,7 @@
     <string name="save_operation">Отхвърляне на промените?</string>
     <string name="save_vip">20% Отстъпка</string>
     <string name="scroll_text">Превърти текста</string>
-    <string name="sd_permission_invalid"> Съжаляваме, Filmigo не може да запази видеото в картата с памет. Моля, уверете се, че на картата с памет може да се записва</string>
+    <string name="sd_permission_invalid"> Съжаляваме, Maker не може да запази видеото в картата с памет. Моля, уверете се, че на картата с памет може да се записва</string>
     <string name="search_menu_title">Търсене</string>
     <string name="select_a_clip_to_edit">Избери клип за редактиране</string>
     <string name="select_allitem_editorchoose">Зареждане...</string>
@@ -885,14 +885,14 @@
     <string name="setting_recommend_to_friend">Покани приятелите си</string>
     <string name="setting_terms_privacy_info">Условия и поверителност</string>
     <string name="setting_updateto_normal_version_ok">Ъпдейт</string>
-    <string name="setting_updateto_normal_version_title">Официалната версия на Filmigo</string>
+    <string name="setting_updateto_normal_version_title">Официалната версия на Maker</string>
     <string name="setting_video_background_black">Черен</string>
     <string name="setting_video_background_gause">Замъгляване</string>
     <string name="setting_video_background_none">Няма фон</string>
     <string name="setting_video_background_white">Бял</string>
     <string name="settingg_share_friend">Кажи на приятел</string>
-    <string name="settingg_share_friend_text">Разгледайте приложението за видео редактор, Filmigo, Готино е! https://play.google.com/store/apps/details?id=com.xvideostudio.videoeditor</string>
-    <string name="settingg_share_friend_title">Filmigo - Видеоредактор</string>
+    <string name="settingg_share_friend_text">Разгледайте приложението за видео редактор, Maker, Готино е! https://play.google.com/store/apps/details?id=com.xvideostudio.videoeditor</string>
+    <string name="settingg_share_friend_title">Maker - Видеоредактор</string>
     <string name="share">Сподели</string>
     <string name="share_clipboard_copy_tip">Копирано в клипборда</string>
     <string name="share_facebook_unlock_fail">Неуспешно отключване</string>
@@ -932,7 +932,7 @@
     <string name="stencil_text">Текст на шаблона</string>
     <string name="sticker_count_limit_info">Поддържа максимум 5 стикера едновременно</string>
     <string name="stop_exporting_video_tip">Натиснете отново, за да излезете. Можете да продължите да редактирате в Моите чернови.</string>
-    <string name="storage_permission_content">Filmigo трябва да запише Вашите видеоклипове на устройството. За тази цел имаме нужда от разрешение за достъп до паметта на Вашето устройство.</string>
+    <string name="storage_permission_content">Maker трябва да запише Вашите видеоклипове на устройството. За тази цел имаме нужда от разрешение за достъп до паметта на Вашето устройство.</string>
     <string name="storage_permission_denied_allow">ПОВТОРНА ЗАЯВКА ЗА РАЗРЕШЕНИЕ</string>
     <string name="storage_permission_denied_content">За запазване на редактираните видеоклипове и снимки, моля, отидете в Настройки, за да активирате разрешението.</string>
     <string name="storage_permission_denied_refuse">ОТКАЗ</string>
@@ -942,7 +942,7 @@
     <string name="string_all_clip_add_adjust">Добавете параметри за коригиране към всички клипове</string>
     <string name="string_all_clip_remove_adjust">Премахнете параметри за коригиране от всички клипове</string>
     <string name="string_become_vip">Станете VIP</string>
-    <string name="string_camera_permission_content">Filmigo се нуждае от камера и микрофон, за да записва видео, моля, разрешете достъп до камера и микрофон.</string>
+    <string name="string_camera_permission_content">Maker се нуждае от камера и микрофон, за да записва видео, моля, разрешете достъп до камера и микрофон.</string>
     <string name="string_cancel_anytime">%s Отменете по всяко време</string>
     <string name="string_clean">ИЗЧИСТВАНЕ</string>
     <string name="string_discount_off_count">%s ОТСТЪПКА</string>
@@ -1118,8 +1118,8 @@
     <string name="user_logout">излизане от профила</string>
     <string name="user_permit_permission_audio_recorder_tip">Одобрили сте разрешение за записване. Сега можете да натиснете бутона, за да започнете да дублирате.</string>
     <string name="user_permit_permission_take_picture_tip">Одобрили сте разрешенията за използване на камерата. Сега можете да започнете да правите снимки.</string>
-    <string name="user_refuse_permission_audio_recorder_tip">Вие сте отказали заявката за Filmigo за достъп до функцията за запис. Filmigo не може да дублира нормално. Моля, одобрете разрешенията.</string>
-    <string name="user_refuse_permission_camera_tip">Вие сте отказали заявката за Filmigo за достъп до вашия фотоапарат. Filmigo не може да стартира камерата нормално. Моля, одобрете разрешенията.</string>
+    <string name="user_refuse_permission_audio_recorder_tip">Вие сте отказали заявката за Maker за достъп до функцията за запис. Maker не може да дублира нормално. Моля, одобрете разрешенията.</string>
+    <string name="user_refuse_permission_camera_tip">Вие сте отказали заявката за Maker за достъп до вашия фотоапарат. Maker не може да стартира камерата нормално. Моля, одобрете разрешенията.</string>
     <string name="vertical">Вертикално</string>
     <string name="video_2_music">Аудио екстрактор</string>
     <string name="video_adjust">Настройка на видео</string>

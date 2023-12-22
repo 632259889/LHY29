@@ -52,7 +52,7 @@
     <string name="add">إضافة</string>
     <string name="add_all_clips_notice">هل تريد تحديد جميع المقاطع في هذا المجلد؟</string>
     <string name="add_clip_memory_warn_tip">لقد قمت بتحديد العديد من الصور، سوف تنفد من الذاكرة</string>
-    <string name="add_font_tip_content">"نسخ ملف الخط (تنسيق .ttf أو .otf)، ثم اللصق إلى المجلد 
+    <string name="add_font_tip_content">"نسخ ملف الخط (تنسيق .ttf أو .otf)، ثم اللصق إلى المجلد
 
  بطاقة الذاكرة/1عرض الفيديو/ الخطوط/"</string>
     <string name="add_font_tip_title">كيفية إضافة المزيد من الخطوط</string>
@@ -103,10 +103,10 @@
     <string name="bt_trim_clip_add_tips">يمكنك الاستمرار في اقتطاع المقاطع وإضافتها!</string>
     <string name="bullet">رصاصة</string>
     <string name="buy_pro_tip_content_new">"1. لا إعلانات
-2. يدعم تصدير فيديوهات بجودة 1080p 
+2. يدعم تصدير فيديوهات بجودة 1080p
 3. مواد حصرية
-4. يدعم اتستيراد فيديوهات بجودة 4K 
-5. لا يحتوى على علامة مائية لـ Filmigo 
+4. يدعم اتستيراد فيديوهات بجودة 4K
+5. لا يحتوى على علامة مائية لـ Filmigo
 6. إضافة إلى غاية 20 مؤثرا
 7. مدة إرجاع لا محدودة"</string>
     <string name="camera">كاميره</string>
