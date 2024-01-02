@@ -1067,110 +1067,110 @@
     return-void
 .end method
 
-.method protected onActivityResult(IILandroid/content/Intent;)V
-    .locals 2
-
-    .line 1
-    invoke-super {p0, p1, p2, p3}, Lcom/tjhello/page/BasePageActivity;->onActivityResult(IILandroid/content/Intent;)V
-
-    const-string v0, "K3dEngine"
-
-    const-string v1, "onActivityResult:1"
-
-    .line 2
-    invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 3
-    iget-object v0, p0, Lcom/kong/paper/MainPage;->loginHelper:Lcom/kong/paper/Utils/save/LoginHelper;
-
-    invoke-virtual {v0, p1, p2, p3}, Lcom/kong/paper/Utils/save/LoginHelper;->A(IILandroid/content/Intent;)V
-
-    const/4 v0, 0x1
-
-    if-ne p1, v0, :cond_0
-
-    if-ne p2, v0, :cond_1
-
-    .line 4
-    invoke-virtual {p3}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
-
-    move-result-object p1
-
-    const-string p2, "back"
-
-    .line 5
-    invoke-virtual {p1, p2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string p2, "Back Data"
-
-    .line 6
-    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_1
-
-    iget-object p1, p0, Lcom/kong/paper/MainPage;->mainControl:Lcom/kong/paper/c;
-
-    if-eqz p1, :cond_1
-
-    .line 7
-    invoke-virtual {p1}, Lcom/kong/paper/c;->M0()V
-
-    goto :goto_0
-
-    .line 8
-    :cond_0
-    new-instance v0, Lr1/c$a;
-
-    invoke-direct {v0}, Lr1/c$a;-><init>()V
-
-    .line 9
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object p1
-
-    const-string v1, "requestCode"
-
-    invoke-virtual {v0, v1, p1}, Lr1/c$a;->b(Ljava/lang/String;Ljava/lang/Object;)Lr1/c$a;
-
-    move-result-object p1
-
-    .line 10
-    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object p2
-
-    const-string v0, "resultCode"
-
-    invoke-virtual {p1, v0, p2}, Lr1/c$a;->b(Ljava/lang/String;Ljava/lang/Object;)Lr1/c$a;
-
-    move-result-object p1
-
-    const-string p2, "data"
-
-    .line 11
-    invoke-virtual {p1, p2, p3}, Lr1/c$a;->b(Ljava/lang/String;Ljava/lang/Object;)Lr1/c$a;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Lr1/c$a;->a()Lr1/c;
-
-    move-result-object p1
-
-    const-string p2, "main"
-
-    const-string p3, "onActivityResult"
-
-    .line 12
-    invoke-static {p2, p3, p1}, Lr1/a;->d(Ljava/lang/String;Ljava/lang/String;Lr1/c;)V
-
-    :cond_1
-    :goto_0
-    return-void
-.end method
+# .method protected onActivityResult(IILandroid/content/Intent;)V
+#     .locals 2
+#
+#     .line 1
+#     invoke-super {p0, p1, p2, p3}, Lcom/tjhello/page/BasePageActivity;->onActivityResult(IILandroid/content/Intent;)V
+#
+#     const-string v0, "K3dEngine"
+#
+#     const-string v1, "onActivityResult:1"
+#
+#     .line 2
+#     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 3
+#     iget-object v0, p0, Lcom/kong/paper/MainPage;->loginHelper:Lcom/kong/paper/Utils/save/LoginHelper;
+#
+#     invoke-virtual {v0, p1, p2, p3}, Lcom/kong/paper/Utils/save/LoginHelper;->A(IILandroid/content/Intent;)V
+#
+#     const/4 v0, 0x1
+#
+#     if-ne p1, v0, :cond_0
+#
+#     if-ne p2, v0, :cond_1
+#
+#     .line 4
+#     invoke-virtual {p3}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
+#
+#     move-result-object p1
+#
+#     const-string p2, "back"
+#
+#     .line 5
+#     invoke-virtual {p1, p2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     const-string p2, "Back Data"
+#
+#     .line 6
+#     invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result p1
+#
+#     if-eqz p1, :cond_1
+#
+#     iget-object p1, p0, Lcom/kong/paper/MainPage;->mainControl:Lcom/kong/paper/c;
+#
+#     if-eqz p1, :cond_1
+#
+#     .line 7
+#     invoke-virtual {p1}, Lcom/kong/paper/c;->M0()V
+#
+#     goto :goto_0
+#
+#     .line 8
+#     :cond_0
+#     new-instance v0, Lr1/c$a;
+#
+#     invoke-direct {v0}, Lr1/c$a;-><init>()V
+#
+#     .line 9
+#     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+#
+#     move-result-object p1
+#
+#     const-string v1, "requestCode"
+#
+#     invoke-virtual {v0, v1, p1}, Lr1/c$a;->b(Ljava/lang/String;Ljava/lang/Object;)Lr1/c$a;
+#
+#     move-result-object p1
+#
+#     .line 10
+#     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+#
+#     move-result-object p2
+#
+#     const-string v0, "resultCode"
+#
+#     invoke-virtual {p1, v0, p2}, Lr1/c$a;->b(Ljava/lang/String;Ljava/lang/Object;)Lr1/c$a;
+#
+#     move-result-object p1
+#
+#     const-string p2, "data"
+#
+#     .line 11
+#     invoke-virtual {p1, p2, p3}, Lr1/c$a;->b(Ljava/lang/String;Ljava/lang/Object;)Lr1/c$a;
+#
+#     move-result-object p1
+#
+#     invoke-virtual {p1}, Lr1/c$a;->a()Lr1/c;
+#
+#     move-result-object p1
+#
+#     const-string p2, "main"
+#
+#     const-string p3, "onActivityResult"
+#
+#     .line 12
+#     invoke-static {p2, p3, p1}, Lr1/a;->d(Ljava/lang/String;Ljava/lang/String;Lr1/c;)V
+#
+#     :cond_1
+#     :goto_0
+#     return-void
+# .end method
 
 .method public onBackPressed()V
     .locals 2

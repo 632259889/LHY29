@@ -33,10 +33,10 @@
 
 
 # virtual methods
-.method public final run()V
-    .locals 0
-
-    invoke-static {}, Lcom/facebook/appevents/aam/MetadataIndexer;->a()V
-
-    return-void
-.end method
+# .method public final run()V
+#     .locals 0
+#
+#     invoke-static {}, Lcom/facebook/appevents/aam/MetadataIndexer;->a()V
+#
+#     return-void
+# .end method

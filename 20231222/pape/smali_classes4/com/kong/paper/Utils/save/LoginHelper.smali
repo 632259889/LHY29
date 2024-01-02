@@ -290,14 +290,14 @@
     return-object p0
 .end method
 
-.method public static final synthetic m(Lcom/kong/paper/Utils/save/LoginHelper;Lcom/facebook/AccessToken;)V
-    .locals 0
-
-    .line 1
-    invoke-direct {p0, p1}, Lcom/kong/paper/Utils/save/LoginHelper;->v(Lcom/facebook/AccessToken;)V
-
-    return-void
-.end method
+# .method public static final synthetic m(Lcom/kong/paper/Utils/save/LoginHelper;Lcom/facebook/AccessToken;)V
+#     .locals 0
+#
+#     .line 1
+#     invoke-direct {p0, p1}, Lcom/kong/paper/Utils/save/LoginHelper;->v(Lcom/facebook/AccessToken;)V
+#
+#     return-void
+# .end method
 
 .method public static final synthetic n(Ljava/lang/String;)V
     .locals 0
@@ -446,20 +446,20 @@
     return-void
 .end method
 
-.method private final s()Lcom/facebook/CallbackManager;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/kong/paper/Utils/save/LoginHelper;->c:Lz7/f;
-
-    invoke-interface {v0}, Lz7/f;->getValue()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/facebook/CallbackManager;
-
-    return-object v0
-.end method
+# .method private final s()Ljava/lang/Object;#com/facebook/CallbackManager
+#     .locals 1
+#
+#     .line 1
+#     iget-object v0, p0, Lcom/kong/paper/Utils/save/LoginHelper;->c:Lz7/f;
+#
+#     invoke-interface {v0}, Lz7/f;->getValue()Ljava/lang/Object;
+#
+#     move-result-object v0
+#
+#     check-cast v0, Ljava/lang/Object;#com/facebook/CallbackManager
+#
+#     return-object v0
+# .end method
 
 .method public static safedk_ComponentActivity_startActivityForResult_400537aeb948a6492f65a13e4d0b0824(Landroidx/activity/ComponentActivity;Landroid/content/Intent;I)V
     .locals 1
@@ -508,42 +508,42 @@
     return-object v0
 .end method
 
-.method private final v(Lcom/facebook/AccessToken;)V
-    .locals 1
-
-    .line 1
-    invoke-virtual {p1}, Lcom/facebook/AccessToken;->getToken()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-static {p1}, Lcom/google/firebase/auth/FacebookAuthProvider;->getCredential(Ljava/lang/String;)Lcom/google/firebase/auth/AuthCredential;
-
-    move-result-object p1
-
-    const-string v0, "getCredential(...)"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 2
-    sget-object v0, Lcom/kong/paper/Utils/save/LoginHelper;->i:Lcom/kong/paper/Utils/save/LoginHelper$a;
-
-    invoke-static {v0}, Lcom/kong/paper/Utils/save/LoginHelper$a;->a(Lcom/kong/paper/Utils/save/LoginHelper$a;)Lcom/google/firebase/auth/FirebaseAuth;
-
-    move-result-object v0
-
-    invoke-virtual {v0, p1}, Lcom/google/firebase/auth/FirebaseAuth;->signInWithCredential(Lcom/google/firebase/auth/AuthCredential;)Lcom/google/android/gms/tasks/Task;
-
-    move-result-object p1
-
-    .line 3
-    new-instance v0, Lcom/kong/paper/Utils/save/b;
-
-    invoke-direct {v0, p0}, Lcom/kong/paper/Utils/save/b;-><init>(Lcom/kong/paper/Utils/save/LoginHelper;)V
-
-    invoke-virtual {p1, v0}, Lcom/google/android/gms/tasks/Task;->addOnCompleteListener(Lcom/google/android/gms/tasks/OnCompleteListener;)Lcom/google/android/gms/tasks/Task;
-
-    return-void
-.end method
+# .method private final v(Lcom/facebook/AccessToken;)V
+#     .locals 1
+#
+#     .line 1
+#     invoke-virtual {p1}, Lcom/facebook/AccessToken;->getToken()Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     invoke-static {p1}, Lcom/google/firebase/auth/FacebookAuthProvider;->getCredential(Ljava/lang/String;)Lcom/google/firebase/auth/AuthCredential;
+#
+#     move-result-object p1
+#
+#     const-string v0, "getCredential(...)"
+#
+#     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     .line 2
+#     sget-object v0, Lcom/kong/paper/Utils/save/LoginHelper;->i:Lcom/kong/paper/Utils/save/LoginHelper$a;
+#
+#     invoke-static {v0}, Lcom/kong/paper/Utils/save/LoginHelper$a;->a(Lcom/kong/paper/Utils/save/LoginHelper$a;)Lcom/google/firebase/auth/FirebaseAuth;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v0, p1}, Lcom/google/firebase/auth/FirebaseAuth;->signInWithCredential(Lcom/google/firebase/auth/AuthCredential;)Lcom/google/android/gms/tasks/Task;
+#
+#     move-result-object p1
+#
+#     .line 3
+#     new-instance v0, Lcom/kong/paper/Utils/save/b;
+#
+#     invoke-direct {v0, p0}, Lcom/kong/paper/Utils/save/b;-><init>(Lcom/kong/paper/Utils/save/LoginHelper;)V
+#
+#     invoke-virtual {p1, v0}, Lcom/google/android/gms/tasks/Task;->addOnCompleteListener(Lcom/google/android/gms/tasks/OnCompleteListener;)Lcom/google/android/gms/tasks/Task;
+#
+#     return-void
+# .end method
 
 .method private static final w(Lcom/kong/paper/Utils/save/LoginHelper;Lcom/google/android/gms/tasks/Task;)V
     .locals 1
@@ -608,63 +608,63 @@
 
 
 # virtual methods
-.method public final A(IILandroid/content/Intent;)V
-    .locals 1
-
-    .line 1
-    invoke-direct {p0}, Lcom/kong/paper/Utils/save/LoginHelper;->s()Lcom/facebook/CallbackManager;
-
-    move-result-object v0
-
-    invoke-interface {v0, p1, p2, p3}, Lcom/facebook/CallbackManager;->onActivityResult(IILandroid/content/Intent;)Z
-
-    .line 2
-    iget p2, p0, Lcom/kong/paper/Utils/save/LoginHelper;->h:I
-
-    if-ne p1, p2, :cond_0
-
-    .line 3
-    :try_start_0
-    invoke-static {p3}, Lcom/google/android/gms/auth/api/signin/GoogleSignIn;->getSignedInAccountFromIntent(Landroid/content/Intent;)Lcom/google/android/gms/tasks/Task;
-
-    move-result-object p1
-
-    const-string p2, "getSignedInAccountFromIntent(...)"
-
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 4
-    new-instance p2, Lcom/kong/paper/Utils/save/LoginHelper$onActivityResult$1;
-
-    invoke-direct {p2, p0}, Lcom/kong/paper/Utils/save/LoginHelper$onActivityResult$1;-><init>(Lcom/kong/paper/Utils/save/LoginHelper;)V
-
-    new-instance p3, Lcom/kong/paper/Utils/save/f;
-
-    invoke-direct {p3, p2}, Lcom/kong/paper/Utils/save/f;-><init>(Ll8/l;)V
-
-    invoke-virtual {p1, p3}, Lcom/google/android/gms/tasks/Task;->addOnSuccessListener(Lcom/google/android/gms/tasks/OnSuccessListener;)Lcom/google/android/gms/tasks/Task;
-
-    .line 5
-    new-instance p2, Lcom/kong/paper/Utils/save/d;
-
-    invoke-direct {p2, p0}, Lcom/kong/paper/Utils/save/d;-><init>(Lcom/kong/paper/Utils/save/LoginHelper;)V
-
-    invoke-virtual {p1, p2}, Lcom/google/android/gms/tasks/Task;->addOnFailureListener(Lcom/google/android/gms/tasks/OnFailureListener;)Lcom/google/android/gms/tasks/Task;
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_0
-
-    :catch_0
-    move-exception p1
-
-    .line 6
-    invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
-
-    :cond_0
-    :goto_0
-    return-void
-.end method
+# .method public final A(IILandroid/content/Intent;)V
+#     .locals 1
+#
+#     .line 1
+#     # invoke-direct {p0}, Lcom/kong/paper/Utils/save/LoginHelper;->s()Ljava/lang/Object;#com/facebook/CallbackManager
+#
+#     move-result-object v0
+#
+#     invoke-interface {v0, p1, p2, p3}, Lcom/facebook/CallbackManager;->onActivityResult(IILandroid/content/Intent;)Z
+#
+#     .line 2
+#     iget p2, p0, Lcom/kong/paper/Utils/save/LoginHelper;->h:I
+#
+#     if-ne p1, p2, :cond_0
+#
+#     .line 3
+#     :try_start_0
+#     invoke-static {p3}, Lcom/google/android/gms/auth/api/signin/GoogleSignIn;->getSignedInAccountFromIntent(Landroid/content/Intent;)Lcom/google/android/gms/tasks/Task;
+#
+#     move-result-object p1
+#
+#     const-string p2, "getSignedInAccountFromIntent(...)"
+#
+#     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     .line 4
+#     new-instance p2, Lcom/kong/paper/Utils/save/LoginHelper$onActivityResult$1;
+#
+#     invoke-direct {p2, p0}, Lcom/kong/paper/Utils/save/LoginHelper$onActivityResult$1;-><init>(Lcom/kong/paper/Utils/save/LoginHelper;)V
+#
+#     new-instance p3, Lcom/kong/paper/Utils/save/f;
+#
+#     invoke-direct {p3, p2}, Lcom/kong/paper/Utils/save/f;-><init>(Ll8/l;)V
+#
+#     invoke-virtual {p1, p3}, Lcom/google/android/gms/tasks/Task;->addOnSuccessListener(Lcom/google/android/gms/tasks/OnSuccessListener;)Lcom/google/android/gms/tasks/Task;
+#
+#     .line 5
+#     new-instance p2, Lcom/kong/paper/Utils/save/d;
+#
+#     invoke-direct {p2, p0}, Lcom/kong/paper/Utils/save/d;-><init>(Lcom/kong/paper/Utils/save/LoginHelper;)V
+#
+#     invoke-virtual {p1, p2}, Lcom/google/android/gms/tasks/Task;->addOnFailureListener(Lcom/google/android/gms/tasks/OnFailureListener;)Lcom/google/android/gms/tasks/Task;
+#     :try_end_0
+#     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+#
+#     goto :goto_0
+#
+#     :catch_0
+#     move-exception p1
+#
+#     .line 6
+#     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
+#
+#     :cond_0
+#     :goto_0
+#     return-void
+# .end method
 
 .method public final D(Landroidx/appcompat/app/AppCompatActivity;Lcom/kong/paper/Utils/save/LoginHelper$c;)V
     .locals 2
@@ -738,60 +738,61 @@
     return-void
 .end method
 
-.method public final x()V
-    .locals 4
+# .method public final x()V
+#     .locals 4
+#
+#     const-string v0, "Facebook"
+#
+#     .line 1
+#     iput-object v0, p0, Lcom/kong/paper/Utils/save/LoginHelper;->g:Ljava/lang/String;
+#
+#     .line 2
+#     sget-object v0, Lcom/facebook/login/LoginManager;->Companion:Lcom/facebook/login/LoginManager$Companion;
+#
+#     invoke-virtual {v0}, Lcom/facebook/login/LoginManager$Companion;->getInstance()Lcom/facebook/login/LoginManager;
+#
+#     move-result-object v0
+#
+#     .line 3
+#     invoke-direct {p0}, Lcom/kong/paper/Utils/save/LoginHelper;->s()Lcom/facebook/CallbackManager;
+#
 
-    const-string v0, "Facebook"
-
-    .line 1
-    iput-object v0, p0, Lcom/kong/paper/Utils/save/LoginHelper;->g:Ljava/lang/String;
-
-    .line 2
-    sget-object v0, Lcom/facebook/login/LoginManager;->Companion:Lcom/facebook/login/LoginManager$Companion;
-
-    invoke-virtual {v0}, Lcom/facebook/login/LoginManager$Companion;->getInstance()Lcom/facebook/login/LoginManager;
-
-    move-result-object v0
-
-    .line 3
-    invoke-direct {p0}, Lcom/kong/paper/Utils/save/LoginHelper;->s()Lcom/facebook/CallbackManager;
-
-    move-result-object v1
-
-    new-instance v2, Lcom/kong/paper/Utils/save/LoginHelper$d;
-
-    invoke-direct {v2, p0}, Lcom/kong/paper/Utils/save/LoginHelper$d;-><init>(Lcom/kong/paper/Utils/save/LoginHelper;)V
-
-    invoke-virtual {v0, v1, v2}, Lcom/facebook/login/LoginManager;->registerCallback(Lcom/facebook/CallbackManager;Lcom/facebook/FacebookCallback;)V
-
-    .line 4
-    iget-object v1, p0, Lcom/kong/paper/Utils/save/LoginHelper;->f:Landroidx/appcompat/app/AppCompatActivity;
-
-    if-nez v1, :cond_0
-
-    const-string v1, "activity"
-
-    invoke-static {v1}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
-
-    const/4 v1, 0x0
-
-    :cond_0
-    const-string v2, "email"
-
-    const-string v3, "public_profile"
-
-    filled-new-array {v2, v3}, [Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v2}, Lkotlin/collections/h;->k([Ljava/lang/Object;)Ljava/util/List;
-
-    move-result-object v2
-
-    invoke-virtual {v0, v1, v2}, Lcom/facebook/login/LoginManager;->logInWithReadPermissions(Landroid/app/Activity;Ljava/util/Collection;)V
-
-    return-void
-.end method
+#     move-result-object v1
+#
+#     new-instance v2, Lcom/kong/paper/Utils/save/LoginHelper$d;
+#
+#     invoke-direct {v2, p0}, Lcom/kong/paper/Utils/save/LoginHelper$d;-><init>(Lcom/kong/paper/Utils/save/LoginHelper;)V
+#
+#     invoke-virtual {v0, v1, v2}, Lcom/facebook/login/LoginManager;->registerCallback(Lcom/facebook/CallbackManager;Lcom/facebook/FacebookCallback;)V
+#
+#     .line 4
+#     iget-object v1, p0, Lcom/kong/paper/Utils/save/LoginHelper;->f:Landroidx/appcompat/app/AppCompatActivity;
+#
+#     if-nez v1, :cond_0
+#
+#     const-string v1, "activity"
+#
+#     invoke-static {v1}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
+#
+#     const/4 v1, 0x0
+#
+#     :cond_0
+#     const-string v2, "email"
+#
+#     const-string v3, "public_profile"
+#
+#     filled-new-array {v2, v3}, [Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v2}, Lkotlin/collections/h;->k([Ljava/lang/Object;)Ljava/util/List;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v0, v1, v2}, Lcom/facebook/login/LoginManager;->logInWithReadPermissions(Landroid/app/Activity;Ljava/util/Collection;)V
+#
+#     return-void
+# .end method
 
 .method public final y()V
     .locals 3
@@ -870,13 +871,13 @@
     invoke-interface {v0}, Lcom/google/android/gms/auth/api/identity/SignInClient;->signOut()Lcom/google/android/gms/tasks/Task;
 
     .line 3
-    sget-object v0, Lcom/facebook/login/LoginManager;->Companion:Lcom/facebook/login/LoginManager$Companion;
+    # sget-object v0, Lcom/facebook/login/LoginManager;->Companion:Lcom/facebook/login/LoginManager$Companion;
+    #
+    # invoke-virtual {v0}, Lcom/facebook/login/LoginManager$Companion;->getInstance()Lcom/facebook/login/LoginManager;
 
-    invoke-virtual {v0}, Lcom/facebook/login/LoginManager$Companion;->getInstance()Lcom/facebook/login/LoginManager;
+    # move-result-object v0
 
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/facebook/login/LoginManager;->logOut()V
+    invoke-virtual {v0}, Ljava/lang/Object;->logOut()V#com/facebook/login/LoginManager
 
     .line 4
     sget-object v0, Lcom/kong/paper/Utils/save/LoginHelper;->i:Lcom/kong/paper/Utils/save/LoginHelper$a;

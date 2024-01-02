@@ -1039,7 +1039,7 @@
     .line 2
     iget-object v0, p0, Lcom/kong/paper/SettingPageActivity;->m:Lcom/kong/paper/Utils/save/LoginHelper;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/kong/paper/Utils/save/LoginHelper;->A(IILandroid/content/Intent;)V
+    # invoke-virtual {v0, p1, p2, p3}, Lcom/kong/paper/Utils/save/LoginHelper;->A(IILandroid/content/Intent;)V
 
     return-void
 .end method

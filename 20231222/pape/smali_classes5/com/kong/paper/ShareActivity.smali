@@ -336,16 +336,16 @@
     goto :goto_0
 
     :sswitch_5
-    const-string p1, "facebook"
-
-    .line 24
-    invoke-static {v4, p1}, Lz5/d;->c(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 25
-    sget-object v0, Leyewind/drawboard/util/SocialMedia;->f:Leyewind/drawboard/util/SocialMedia;
-
-    .line 26
-    invoke-static {p0, p1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # const-string p1, "facebook"
+    #
+    # .line 24
+    # invoke-static {v4, p1}, Lz5/d;->c(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 25
+    # sget-object v0, Leyewind/drawboard/util/SocialMedia;->f:Leyewind/drawboard/util/SocialMedia;
+    #
+    # .line 26
+    # invoke-static {p0, p1}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -472,12 +472,12 @@
     invoke-super {p0, p1}, Landroidx/fragment/app/FragmentActivity;->onCreate(Landroid/os/Bundle;)V
 
     .line 2
-    invoke-static {p0}, Lcom/facebook/drawee/backends/pipeline/Fresco;->initialize(Landroid/content/Context;)V
-
-    const p1, 0x7f0e0024
+    # invoke-static {p0}, Lcom/facebook/drawee/backends/pipeline/Fresco;->initialize(Landroid/content/Context;)V
+    #
+    # const p1, 0x7f0e0024
 
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/activity/ComponentActivity;->setContentView(I)V
+      # invoke-virtual {p0, p1}, Landroidx/activity/ComponentActivity;->setContentView(I)V
 
     .line 4
     invoke-static {p0}, Lbutterknife/ButterKnife;->bind(Landroid/app/Activity;)Lbutterknife/Unbinder;

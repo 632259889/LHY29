@@ -29,7 +29,7 @@
             <action android:name="android.intent.action.VIEW"/>
             <data android:scheme="market"/>
         </intent>
-        <package android:name="com.facebook.katana"/>
+        <!-- <package android:name="com.facebook.katana"/> -->
         <intent>
             <action android:name="com.applovin.am.intent.action.APPHUB_SERVICE"/>
         </intent>
@@ -50,7 +50,7 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
     <application android:allowBackup="true" android:alwaysRetainTaskState="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:isGame="true" android:label="@string/app_name" android:largeHeap="true" android:name="com.kong.paper.BaseApplication" android:persistent="true" android:supportsRtl="false" android:theme="@style/AppTheme">
         <meta-data android:name="APP_STORE" android:value="Google Play"/>
-        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+        <!-- <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/> -->
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:label="@string/app_name" android:name="com.kong.paper.MainActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -60,7 +60,7 @@
         <activity android:name="com.kong.paper.SettingPageActivity" android:screenOrientation="portrait"/>
         <activity android:name="com.kong.paper.SettingSubsInfoActivity" android:screenOrientation="portrait"/>
         <activity android:name="eyewind.drawboard.ReplayActivity"/>
-        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/sdkX_facebookId"/>
+        <!-- <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/sdkX_facebookId"/> -->
         <activity android:exported="true" android:name="com.kong.paper.ShareActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <category android:name="android.intent.category.OPENABLE"/>
@@ -187,15 +187,15 @@
         <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:hardwareAccelerated="true" android:name="com.inmobi.ads.rendering.InMobiAdActivity" android:theme="@android:style/Theme.NoTitleBar"/>
         <activity android:name="com.facebook.CustomTabMainActivity"/>
         <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
-            <intent-filter>
+            <!-- <intent-filter>
                 <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
-            </intent-filter>
+            </intent-filter> -->
         </receiver>
-        <receiver android:exported="false" android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver">
+        <!-- <receiver android:exported="false" android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver">
             <intent-filter>
                 <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"/>
             </intent-filter>
-        </receiver>
+        </receiver> -->
         <provider android:authorities="com.test.one.luckProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.luck.picture.lib.basic.PictureFileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/ps_file_paths"/>
         </provider>

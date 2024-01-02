@@ -2,8 +2,8 @@
 .super Ljava/lang/Object;
 .source "R8$$SyntheticClass"
 
-# interfaces
-.implements Lcom/facebook/internal/FeatureManager$Callback;
+# # interfaces
+# .implements Lcom/facebook/internal/FeatureManager$Callback;
 
 
 # static fields
@@ -33,10 +33,10 @@
 
 
 # virtual methods
-.method public final onCompleted(Z)V
-    .locals 0
-
-    invoke-static {p1}, Lcom/facebook/internal/instrument/InstrumentManager;->a(Z)V
-
-    return-void
-.end method
+# .method public final onCompleted(Z)V
+#     .locals 0
+#
+#     # invoke-static {p1}, Lcom/facebook/internal/instrument/InstrumentManager;->a(Z)V
+#
+#     return-void
+# .end method

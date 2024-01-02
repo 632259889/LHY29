@@ -1337,7 +1337,7 @@
     if-eqz p1, :cond_3
 
     .line 24
-    invoke-interface {p1}, Lcom/fyber/inneractive/sdk/player/controller/s;->onCompleted()V
+    # invoke-interface {p1}, Lcom/fyber/inneractive/sdk/player/controller/s;->onCompleted()V
 
     goto :goto_0
 
@@ -1707,7 +1707,7 @@
     if-eqz p1, :cond_9
 
     .line 141
-    invoke-interface {p1}, Lcom/fyber/inneractive/sdk/player/controller/s;->onCompleted()V
+    # invoke-interface {p1}, Lcom/fyber/inneractive/sdk/player/controller/s;->onCompleted()V
 
     .line 142
     :cond_9
@@ -2291,7 +2291,7 @@
     if-eqz v0, :cond_2
 
     .line 40
-    invoke-interface {v0}, Lcom/fyber/inneractive/sdk/player/controller/s;->onCompleted()V
+    # invoke-interface {v0}, Lcom/fyber/inneractive/sdk/player/controller/s;->onCompleted()V
 
     .line 41
     :cond_2

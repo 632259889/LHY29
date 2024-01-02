@@ -3,7 +3,7 @@
 .source "R8$$SyntheticClass"
 
 # interfaces
-.implements Lcom/facebook/appevents/internal/FileDownloadTask$Callback;
+# .implements Lcom/facebook/appevents/internal/FileDownloadTask$Callback;
 
 
 # instance fields
@@ -23,12 +23,12 @@
 
 
 # virtual methods
-.method public final onComplete(Ljava/io/File;)V
-    .locals 1
-
-    iget-object v0, p0, Lx2/e;->a:Ljava/util/List;
-
-    invoke-static {v0, p1}, Lcom/facebook/appevents/ml/ModelManager$TaskHandler$Companion;->a(Ljava/util/List;Ljava/io/File;)V
-
-    return-void
-.end method
+# .method public final onComplete(Ljava/io/File;)V
+#     .locals 1
+#
+#     iget-object v0, p0, Lx2/e;->a:Ljava/util/List;
+#
+#     invoke-static {v0, p1}, Lcom/facebook/appevents/ml/ModelManager$TaskHandler$Companion;->a(Ljava/util/List;Ljava/io/File;)V
+#
+#     return-void
+# .end method

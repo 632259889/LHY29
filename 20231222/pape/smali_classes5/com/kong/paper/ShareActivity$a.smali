@@ -1091,10 +1091,10 @@
 .method protected bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
-    check-cast p1, Ljava/lang/Void;
+    # .line 1
+    # check-cast p1, Ljava/lang/Void;
 
-    invoke-virtual {p0, p1}, Lcom/kong/paper/ShareActivity$a;->b(Ljava/lang/Void;)V
+    # invoke-virtual {p0, p1}, Lcom/kong/paper/ShareActivity$a;->b(Ljava/lang/Void;)V
 
     return-void
 .end method

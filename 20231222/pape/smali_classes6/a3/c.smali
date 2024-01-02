@@ -36,11 +36,11 @@
 .method public final compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 0
 
-    check-cast p1, Lcom/facebook/internal/instrument/InstrumentData;
+    check-cast p1, Ljava/lang/Object;#com/facebook/internal/instrument/InstrumentData
 
-    check-cast p2, Lcom/facebook/internal/instrument/InstrumentData;
-
-    invoke-static {p1, p2}, Lcom/facebook/internal/instrument/anrreport/ANRHandler;->b(Lcom/facebook/internal/instrument/InstrumentData;Lcom/facebook/internal/instrument/InstrumentData;)I
+    # check-cast p2, Lcom/facebook/internal/instrument/InstrumentData;
+    #
+    # invoke-static {p1, p2}, Lcom/facebook/internal/instrument/anrreport/ANRHandler;->b(Lcom/facebook/internal/instrument/InstrumentData;Lcom/facebook/internal/instrument/InstrumentData;)I
 
     move-result p1
 

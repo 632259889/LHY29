@@ -7,9 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/kong/paper/Utils/save/LoginHelper;->A(IILandroid/content/Intent;)V
-.end annotation
+# .annotation system Ldalvik/annotation/EnclosingMethod;
+#     value = Lcom/kong/paper/Utils/save/LoginHelper;->A(IILandroid/content/Intent;)V
+# .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x18

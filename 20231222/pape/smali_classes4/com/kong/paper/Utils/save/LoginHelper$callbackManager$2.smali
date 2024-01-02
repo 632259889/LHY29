@@ -20,7 +20,7 @@
     value = {
         "Lkotlin/jvm/internal/Lambda;",
         "Ll8/a<",
-        "Lcom/facebook/CallbackManager;",
+        # "Lcom/facebook/CallbackManager;",
         ">;"
     }
 .end annotation
@@ -55,24 +55,24 @@
 
 
 # virtual methods
-.method public bridge synthetic invoke()Ljava/lang/Object;
-    .locals 1
+# .method public bridge synthetic invoke()Ljava/lang/Object;
+#     .locals 1
+#
+#     .line 1
+#     invoke-virtual {p0}, Lcom/kong/paper/Utils/save/LoginHelper$callbackManager$2;->j()Ljava/lang/Object;#com/facebook/CallbackManager
+#
+#     move-result-object v0
+#
+#     return-object v0
+# .end method
 
-    .line 1
-    invoke-virtual {p0}, Lcom/kong/paper/Utils/save/LoginHelper$callbackManager$2;->j()Lcom/facebook/CallbackManager;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method public final j()Lcom/facebook/CallbackManager;
-    .locals 1
-
-    .line 1
-    invoke-static {}, Lcom/facebook/CallbackManager$Factory;->create()Lcom/facebook/CallbackManager;
-
-    move-result-object v0
-
-    return-object v0
-.end method
+# .method public final j()Lcom/facebook/CallbackManager;
+#     .locals 1
+#
+#     .line 1
+#     invoke-static {}, Lcom/facebook/CallbackManager$Factory;->create()Lcom/facebook/CallbackManager;
+#
+#     move-result-object v0
+#
+#     return-object v0
+# .end method
