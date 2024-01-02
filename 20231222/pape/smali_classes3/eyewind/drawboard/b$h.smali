@@ -121,6 +121,11 @@
         }
     .end annotation
 
+    .line 41
+   const-string v0, "cond_3....start"
+
+   invoke-static {v0}, Leyewind/drawboard/LogUtil;->log(Ljava/lang/String;)V
+
     .line 1
     iget-boolean p1, p1, Lcom/eyewind/lib/billing/core/info/BillingEasyResult;->isSuccess:Z
 
@@ -137,6 +142,11 @@
     move-result p2
 
     if-eqz p2, :cond_3
+    .line 41
+   const-string v0, "cond_3....next"
+
+   invoke-static {v0}, Leyewind/drawboard/LogUtil;->log(Ljava/lang/String;)V
+
 
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -150,6 +160,11 @@
     move-result v0
 
     if-eqz v0, :cond_0
+
+    .line 41
+   const-string v0, "cond_0....getProductList"
+
+   invoke-static {v0}, Leyewind/drawboard/LogUtil;->log(Ljava/lang/String;)V
 
     .line 4
     invoke-virtual {p2}, Lcom/eyewind/lib/billing/core/info/PurchaseInfo;->getProductList()Ljava/util/List;
@@ -229,9 +244,19 @@
 
     .line 11
     invoke-static {p2, p1}, Lp1/b;->A(Ljava/lang/String;Ljava/lang/Object;)V
+    .line 41
+   const-string v0, "cond_2....success"
+
+   invoke-static {v0}, Leyewind/drawboard/LogUtil;->log(Ljava/lang/String;)V
 
     :cond_3
+
+    .line 41
+   const-string v0, "cond_2....PurchaseInfo purchaseInfo : list"
+
+   invoke-static {v0}, Leyewind/drawboard/LogUtil;->log(Ljava/lang/String;)V
     return-void
+
 .end method
 
 .method public onQueryOrder(Lcom/eyewind/lib/billing/core/info/BillingEasyResult;Ljava/lang/String;Ljava/util/List;)V

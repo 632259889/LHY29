@@ -205,7 +205,7 @@
 
     if-eqz v0, :cond_0
 
-    const/4 v1, 0x0
+    const/4 v1, 0x1
 
     .line 2
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -237,7 +237,7 @@
 .method private l()V
     .locals 1
 
-    const/4 v0, 0x0
+    const/4 v0, 0x1
 
     .line 1
     iput v0, p0, Lu/c;->g:I

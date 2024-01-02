@@ -57,6 +57,11 @@
 .method private final O()V
     .locals 4
 
+
+    const-string v0, "liuheyi.........============()"
+
+    invoke-static {v0}, Leyewind/drawboard/LogUtil;->log(Ljava/lang/String;)V
+
     const/4 v0, 0x1
 
     .line 1
