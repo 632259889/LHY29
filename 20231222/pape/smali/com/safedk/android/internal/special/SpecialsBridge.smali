@@ -1070,135 +1070,135 @@
     goto :goto_0
 .end method
 
-.method public static vungleCallbackOnResponse(Lcom/vungle/warren/network/Callback;Lcom/vungle/warren/network/Call;Lcom/vungle/warren/network/Response;)V
-    .locals 4
-    .param p0, "targetInstance"    # Lcom/vungle/warren/network/Callback;
-    .param p1, "call"    # Lcom/vungle/warren/network/Call;
-    .param p2, "response"    # Lcom/vungle/warren/network/Response;
+# .method public static vungleCallbackOnResponse(Lcom/vungle/warren/network/Callback;Lcom/vungle/warren/network/Call;Lcom/vungle/warren/network/Response;)V
+#     .locals 4
+#     .param p0, "targetInstance"    # Lcom/vungle/warren/network/Callback;
+#     .param p1, "call"    # Lcom/vungle/warren/network/Call;
+#     .param p2, "response"    # Lcom/vungle/warren/network/Response;
+#
+#     const-string v0, "SafeDK-Special|SafeDK: Special-Specials> Lcom/safedk/android/internal/special/SpecialsBridge;->vungleCallbackOnResponse(Lcom/vungle/warren/network/Callback;Lcom/vungle/warren/network/Call;Lcom/vungle/warren/network/Response;)V"
+#
+#     invoke-static {v0}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;)I
+#
+#     nop
+#
+#     nop
+#
+#     nop
+#
+#     .prologue
+#     .line 401
+#     const-string v0, "SafeDK-Special"
+#
+#     new-instance v1, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v2, "vungleCallbackOnResponse triggered, targetInstance = "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     const-string v2, ", call = "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     const-string v2, " , response = "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {p2}, Lcom/vungle/warren/network/Response;->body()Ljava/lang/Object;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 402
+#     if-eqz p2, :cond_0
+#
+#     invoke-virtual {p2}, Lcom/vungle/warren/network/Response;->body()Ljava/lang/Object;
+#
+#     move-result-object v0
+#
+#     if-eqz v0, :cond_0
+#
+#     invoke-virtual {p2}, Lcom/vungle/warren/network/Response;->body()Ljava/lang/Object;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     if-eqz v0, :cond_0
+#
+#     invoke-virtual {p2}, Lcom/vungle/warren/network/Response;->body()Ljava/lang/Object;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     invoke-static {v0}, Lcom/safedk/android/utils/l;->s(Ljava/lang/String;)Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_0
+#
+#     .line 403
+#     const-string v0, "com.vungle"
+#
+#     const-string v1, "adx.ads.vungle.com/api/v"
+#
+#     invoke-virtual {p2}, Lcom/vungle/warren/network/Response;->body()Ljava/lang/Object;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     const/4 v3, 0x0
+#
+#     invoke-static {v0, v1, v2, v3}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V
+#
+#     .line 405
+#     :cond_0
+#     invoke-interface {p0, p1, p2}, Lcom/vungle/warren/network/Callback;->onResponse(Lcom/vungle/warren/network/Call;Lcom/vungle/warren/network/Response;)V
+#
+#     .line 406
+#     return-void
+# .end method
 
-    const-string v0, "SafeDK-Special|SafeDK: Special-Specials> Lcom/safedk/android/internal/special/SpecialsBridge;->vungleCallbackOnResponse(Lcom/vungle/warren/network/Callback;Lcom/vungle/warren/network/Call;Lcom/vungle/warren/network/Response;)V"
-
-    invoke-static {v0}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;)I
-
-    nop
-
-    nop
-
-    nop
-
-    .prologue
-    .line 401
-    const-string v0, "SafeDK-Special"
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "vungleCallbackOnResponse triggered, targetInstance = "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    const-string v2, ", call = "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    const-string v2, " , response = "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {p2}, Lcom/vungle/warren/network/Response;->body()Ljava/lang/Object;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 402
-    if-eqz p2, :cond_0
-
-    invoke-virtual {p2}, Lcom/vungle/warren/network/Response;->body()Ljava/lang/Object;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    invoke-virtual {p2}, Lcom/vungle/warren/network/Response;->body()Ljava/lang/Object;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    invoke-virtual {p2}, Lcom/vungle/warren/network/Response;->body()Ljava/lang/Object;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lcom/safedk/android/utils/l;->s(Ljava/lang/String;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    .line 403
-    const-string v0, "com.vungle"
-
-    const-string v1, "adx.ads.vungle.com/api/v"
-
-    invoke-virtual {p2}, Lcom/vungle/warren/network/Response;->body()Ljava/lang/Object;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    const/4 v3, 0x0
-
-    invoke-static {v0, v1, v2, v3}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V
-
-    .line 405
-    :cond_0
-    invoke-interface {p0, p1, p2}, Lcom/vungle/warren/network/Callback;->onResponse(Lcom/vungle/warren/network/Call;Lcom/vungle/warren/network/Response;)V
-
-    .line 406
-    return-void
-.end method
-
-.method public static vungleResponseBody(Lcom/vungle/warren/network/Response;)Ljava/lang/Object;
+.method public static vungleResponseBody(Ljava/lang/Object;)Ljava/lang/Object;#com/vungle/warren/network/Response
     .locals 3
     .param p0, "targetInstance"    # Lcom/vungle/warren/network/Response;
 
     const-string v0, "SafeDK-Special|SafeDK: Special-Specials> Lcom/safedk/android/internal/special/SpecialsBridge;->vungleResponseBody(Lcom/vungle/warren/network/Response;)Ljava/lang/Object;"
 
-    invoke-static {v0}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;)I
+    invoke-static {v0}, Ljava/lang/Object;->d(Ljava/lang/String;)I#com/safedk/android/utils/Logger
 
     nop
 
@@ -1210,7 +1210,7 @@
     .line 391
     if-eqz p0, :cond_0
 
-    invoke-virtual {p0}, Lcom/vungle/warren/network/Response;->body()Ljava/lang/Object;
+    invoke-virtual {p0}, Ljava/lang/Object;->body()Ljava/lang/Object;#com/vungle/warren/network/Response
 
     move-result-object v0
 
@@ -1239,7 +1239,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lcom/vungle/warren/network/Response;->body()Ljava/lang/Object;
+    invoke-virtual {p0}, Ljava/lang/Object;->body()Ljava/lang/Object;#com/vungle/warren/network/Response
 
     move-result-object v2
 
@@ -1255,7 +1255,7 @@
 
     .line 394
     :cond_0
-    invoke-virtual {p0}, Lcom/vungle/warren/network/Response;->body()Ljava/lang/Object;
+    invoke-virtual {p0},Ljava/lang/Object;->body()Ljava/lang/Object;#com/vungle/warren/network/Response
 
     move-result-object v0
 

@@ -782,104 +782,104 @@
     goto :goto_0
 .end method
 
-.method public static vungleFileDownloadCompleted(Lcom/vungle/warren/downloader/AssetDownloadListener;Ljava/io/File;Lcom/vungle/warren/downloader/DownloadRequest;)V
-    .locals 4
-    .param p0, "targetInstance"    # Lcom/vungle/warren/downloader/AssetDownloadListener;
-    .param p1, "file"    # Ljava/io/File;
-    .param p2, "downloadRequest"    # Lcom/vungle/warren/downloader/DownloadRequest;
-
-    const-string v0, "VungleNetwork|SafeDK: Partial-Network> Lcom/safedk/android/internal/partials/VungleNetworkBridge;->vungleFileDownloadCompleted(Lcom/vungle/warren/downloader/AssetDownloadListener;Ljava/io/File;Lcom/vungle/warren/downloader/DownloadRequest;)V"
-
-    invoke-static {v0}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;)I
-
-    nop
-
-    nop
-
-    nop
-
-    .prologue
-    .line 477
-    :try_start_0
-    const-string v0, "SafeDKNetwork"
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "vungleFileDownloadCompleted started, file="
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {p1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 478
-    const-string v0, "com.vungle"
-
-    invoke-virtual {p1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
-
-    move-result-object v1
-
-    const/4 v2, 0x0
-
-    invoke-static {v0, v1, v2}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-    :try_end_0
-    .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 482
-    :goto_0
-    invoke-interface {p0, p1, p2}, Lcom/vungle/warren/downloader/AssetDownloadListener;->onSuccess(Ljava/io/File;Lcom/vungle/warren/downloader/DownloadRequest;)V
-
-    .line 483
-    return-void
-
-    .line 479
-    :catch_0
-    move-exception v0
-
-    .line 480
-    const-string v1, "SafeDKNetwork"
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "Exception in vungleFileDownloadCompleted "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1, v2, v0}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
-
-    goto :goto_0
-.end method
+# .method public static vungleFileDownloadCompleted(Lcom/vungle/warren/downloader/AssetDownloadListener;Ljava/io/File;Lcom/vungle/warren/downloader/DownloadRequest;)V
+#     .locals 4
+#     .param p0, "targetInstance"    # Lcom/vungle/warren/downloader/AssetDownloadListener;
+#     .param p1, "file"    # Ljava/io/File;
+#     .param p2, "downloadRequest"    # Lcom/vungle/warren/downloader/DownloadRequest;
+#
+#     const-string v0, "VungleNetwork|SafeDK: Partial-Network> Lcom/safedk/android/internal/partials/VungleNetworkBridge;->vungleFileDownloadCompleted(Lcom/vungle/warren/downloader/AssetDownloadListener;Ljava/io/File;Lcom/vungle/warren/downloader/DownloadRequest;)V"
+#
+#     invoke-static {v0}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;)I
+#
+#     nop
+#
+#     nop
+#
+#     nop
+#
+#     .prologue
+#     .line 477
+#     :try_start_0
+#     const-string v0, "SafeDKNetwork"
+#
+#     new-instance v1, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v2, "vungleFileDownloadCompleted started, file="
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {p1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 478
+#     const-string v0, "com.vungle"
+#
+#     invoke-virtual {p1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     const/4 v2, 0x0
+#
+#     invoke-static {v0, v1, v2}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+#     :try_end_0
+#     .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
+#
+#     .line 482
+#     :goto_0
+#     invoke-interface {p0, p1, p2}, Lcom/vungle/warren/downloader/AssetDownloadListener;->onSuccess(Ljava/io/File;Lcom/vungle/warren/downloader/DownloadRequest;)V
+#
+#     .line 483
+#     return-void
+#
+#     .line 479
+#     :catch_0
+#     move-exception v0
+#
+#     .line 480
+#     const-string v1, "SafeDKNetwork"
+#
+#     new-instance v2, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v3, "Exception in vungleFileDownloadCompleted "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v1, v2, v0}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+#
+#     goto :goto_0
+# .end method
 
 .method public static webviewLoadData(Landroid/webkit/WebView;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 3

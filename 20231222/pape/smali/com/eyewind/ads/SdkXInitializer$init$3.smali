@@ -76,16 +76,16 @@
 .end method
 
 .method public final invoke()V
-    .locals 2
+    .locals 0
 
-    .line 2
-    invoke-static {}, Lcom/vungle/warren/utility/ActivityManager;->getInstance()Lcom/vungle/warren/utility/ActivityManager;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/eyewind/ads/SdkXInitializer$init$3;->b:Landroid/content/Context;
-
-    invoke-virtual {v0, v1}, Lcom/vungle/warren/utility/ActivityManager;->init(Landroid/content/Context;)V
+    # .line 2
+    # invoke-static {}, Lcom/vungle/warren/utility/ActivityManager;->getInstance()Lcom/vungle/warren/utility/ActivityManager;
+    #
+    # move-result-object v0
+    #
+    # iget-object v1, p0, Lcom/eyewind/ads/SdkXInitializer$init$3;->b:Landroid/content/Context;
+    #
+    # invoke-virtual {v0, v1}, Lcom/vungle/warren/utility/ActivityManager;->init(Landroid/content/Context;)V
 
     return-void
 .end method
