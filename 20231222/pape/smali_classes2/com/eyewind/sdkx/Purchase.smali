@@ -596,83 +596,83 @@
 
 .method public hashCode()I
     .locals 3
-
-    iget-object v0, p0, Lcom/eyewind/sdkx/Purchase;->skuId:Ljava/lang/String;
-
-    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
-
-    move-result v0
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget-object v1, p0, Lcom/eyewind/sdkx/Purchase;->type:Lcom/eyewind/sdkx/Purchase$Type;
-
-    invoke-virtual {v1}, Ljava/lang/Enum;->hashCode()I
-
-    move-result v1
-
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget-object v1, p0, Lcom/eyewind/sdkx/Purchase;->price:Ljava/lang/String;
-
-    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
-
-    move-result v1
-
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget-wide v1, p0, Lcom/eyewind/sdkx/Purchase;->priceMicros:J
-
-    invoke-static {v1, v2}, Lcom/chartboost/sdk/impl/o3;->a(J)I
-
-    move-result v1
-
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget-object v1, p0, Lcom/eyewind/sdkx/Purchase;->currencyCode:Ljava/lang/String;
-
-    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
-
-    move-result v1
-
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget-object v1, p0, Lcom/eyewind/sdkx/Purchase;->orderId:Ljava/lang/String;
-
-    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
-
-    move-result v1
-
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget-object v1, p0, Lcom/eyewind/sdkx/Purchase;->purchaseToken:Ljava/lang/String;
-
-    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
-
-    move-result v1
-
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget-wide v1, p0, Lcom/eyewind/sdkx/Purchase;->purchaseTime:J
-
-    invoke-static {v1, v2}, Lcom/chartboost/sdk/impl/o3;->a(J)I
-
-    move-result v1
-
-    add-int/2addr v0, v1
-
+    #
+    # iget-object v0, p0, Lcom/eyewind/sdkx/Purchase;->skuId:Ljava/lang/String;
+    #
+    # invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+    #
+    # move-result v0
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget-object v1, p0, Lcom/eyewind/sdkx/Purchase;->type:Lcom/eyewind/sdkx/Purchase$Type;
+    #
+    # invoke-virtual {v1}, Ljava/lang/Enum;->hashCode()I
+    #
+    # move-result v1
+    #
+    # add-int/2addr v0, v1
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget-object v1, p0, Lcom/eyewind/sdkx/Purchase;->price:Ljava/lang/String;
+    #
+    # invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
+    #
+    # move-result v1
+    #
+    # add-int/2addr v0, v1
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget-wide v1, p0, Lcom/eyewind/sdkx/Purchase;->priceMicros:J
+    #
+    # invoke-static {v1, v2}, Lcom/chartboost/sdk/impl/o3;->a(J)I
+    #
+    # move-result v1
+    #
+    # add-int/2addr v0, v1
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget-object v1, p0, Lcom/eyewind/sdkx/Purchase;->currencyCode:Ljava/lang/String;
+    #
+    # invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
+    #
+    # move-result v1
+    #
+    # add-int/2addr v0, v1
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget-object v1, p0, Lcom/eyewind/sdkx/Purchase;->orderId:Ljava/lang/String;
+    #
+    # invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
+    #
+    # move-result v1
+    #
+    # add-int/2addr v0, v1
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget-object v1, p0, Lcom/eyewind/sdkx/Purchase;->purchaseToken:Ljava/lang/String;
+    #
+    # invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
+    #
+    # move-result v1
+    #
+    # add-int/2addr v0, v1
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget-wide v1, p0, Lcom/eyewind/sdkx/Purchase;->purchaseTime:J
+    #
+    # invoke-static {v1, v2}, Lcom/chartboost/sdk/impl/o3;->a(J)I
+    #
+    # move-result v1
+    #
+    # add-int/2addr v0, v1
+    const/4 v0,0x1
     return v0
 .end method
 

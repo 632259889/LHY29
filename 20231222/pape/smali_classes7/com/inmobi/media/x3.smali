@@ -195,82 +195,83 @@
 
 .method public hashCode()I
     .locals 3
-
-    iget v0, p0, Lcom/inmobi/media/x3;->a:I
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget-wide v1, p0, Lcom/inmobi/media/x3;->b:J
-
-    invoke-static {v1, v2}, Lcom/chartboost/sdk/impl/o3;->a(J)I
-
-    move-result v1
-
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget-wide v1, p0, Lcom/inmobi/media/x3;->c:J
-
-    invoke-static {v1, v2}, Lcom/chartboost/sdk/impl/o3;->a(J)I
-
-    move-result v1
-
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget-wide v1, p0, Lcom/inmobi/media/x3;->d:J
-
-    invoke-static {v1, v2}, Lcom/chartboost/sdk/impl/o3;->a(J)I
-
-    move-result v1
-
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget v1, p0, Lcom/inmobi/media/x3;->e:I
-
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget v1, p0, Lcom/inmobi/media/x3;->f:I
-
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget v1, p0, Lcom/inmobi/media/x3;->g:I
-
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget v1, p0, Lcom/inmobi/media/x3;->h:I
-
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget-wide v1, p0, Lcom/inmobi/media/x3;->i:J
-
-    invoke-static {v1, v2}, Lcom/chartboost/sdk/impl/o3;->a(J)I
-
-    move-result v1
-
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget-wide v1, p0, Lcom/inmobi/media/x3;->j:J
-
-    invoke-static {v1, v2}, Lcom/chartboost/sdk/impl/o3;->a(J)I
-
-    move-result v1
-
-    add-int/2addr v0, v1
+    #
+    # iget v0, p0, Lcom/inmobi/media/x3;->a:I
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget-wide v1, p0, Lcom/inmobi/media/x3;->b:J
+    #
+    # invoke-static {v1, v2}, Lcom/chartboost/sdk/impl/o3;->a(J)I
+    #
+    # move-result v1
+    #
+    # add-int/2addr v0, v1
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget-wide v1, p0, Lcom/inmobi/media/x3;->c:J
+    #
+    # invoke-static {v1, v2}, Lcom/chartboost/sdk/impl/o3;->a(J)I
+    #
+    # move-result v1
+    #
+    # add-int/2addr v0, v1
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget-wide v1, p0, Lcom/inmobi/media/x3;->d:J
+    #
+    # invoke-static {v1, v2}, Lcom/chartboost/sdk/impl/o3;->a(J)I
+    #
+    # move-result v1
+    #
+    # add-int/2addr v0, v1
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget v1, p0, Lcom/inmobi/media/x3;->e:I
+    #
+    # add-int/2addr v0, v1
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget v1, p0, Lcom/inmobi/media/x3;->f:I
+    #
+    # add-int/2addr v0, v1
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget v1, p0, Lcom/inmobi/media/x3;->g:I
+    #
+    # add-int/2addr v0, v1
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget v1, p0, Lcom/inmobi/media/x3;->h:I
+    #
+    # add-int/2addr v0, v1
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget-wide v1, p0, Lcom/inmobi/media/x3;->i:J
+    #
+    # invoke-static {v1, v2}, Lcom/chartboost/sdk/impl/o3;->a(J)I
+    #
+    # move-result v1
+    #
+    # add-int/2addr v0, v1
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget-wide v1, p0, Lcom/inmobi/media/x3;->j:J
+    #
+    # invoke-static {v1, v2}, Lcom/chartboost/sdk/impl/o3;->a(J)I
+    #
+    # move-result v1
+    #
+    # add-int/2addr v0, v1
+    const/4 v0,0x1
 
     return v0
 .end method

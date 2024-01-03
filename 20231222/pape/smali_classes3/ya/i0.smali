@@ -294,11 +294,12 @@
 .method public hashCode()I
     .locals 2
 
-    iget-wide v0, p0, Lya/i0;->b:J
-
-    invoke-static {v0, v1}, Lcom/chartboost/sdk/impl/o3;->a(J)I
-
-    move-result v0
+    # iget-wide v0, p0, Lya/i0;->b:J
+    #
+    # invoke-static {v0, v1}, Lcom/chartboost/sdk/impl/o3;->a(J)I
+    #
+    # move-result v0
+    const/4 v0,0x1
 
     return v0
 .end method

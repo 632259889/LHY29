@@ -245,54 +245,55 @@
 
 .method public hashCode()I
     .locals 5
-
-    iget v0, p0, Ll2/a;->a:I
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget-object v1, p0, Ll2/a;->b:Ljava/lang/Boolean;
-
-    const/4 v2, 0x0
-
-    if-nez v1, :cond_0
-
-    const/4 v1, 0x0
-
-    goto :goto_0
-
-    :cond_0
-    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
-
-    move-result v1
-
-    :goto_0
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget-wide v3, p0, Ll2/a;->c:J
-
-    invoke-static {v3, v4}, Lcom/chartboost/sdk/impl/o3;->a(J)I
-
-    move-result v1
-
-    add-int/2addr v0, v1
-
-    mul-int/lit8 v0, v0, 0x1f
-
-    iget-object v1, p0, Ll2/a;->d:Ljava/util/Map;
-
-    if-nez v1, :cond_1
-
-    goto :goto_1
-
-    :cond_1
-    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
-
-    move-result v2
-
-    :goto_1
-    add-int/2addr v0, v2
+    #
+    # iget v0, p0, Ll2/a;->a:I
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget-object v1, p0, Ll2/a;->b:Ljava/lang/Boolean;
+    #
+    # const/4 v2, 0x0
+    #
+    # if-nez v1, :cond_0
+    #
+    # const/4 v1, 0x0
+    #
+    # goto :goto_0
+    #
+    # :cond_0
+    # invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+    #
+    # move-result v1
+    #
+    # :goto_0
+    # add-int/2addr v0, v1
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget-wide v3, p0, Ll2/a;->c:J
+    #
+    # invoke-static {v3, v4}, Lcom/chartboost/sdk/impl/o3;->a(J)I
+    #
+    # move-result v1
+    #
+    # add-int/2addr v0, v1
+    #
+    # mul-int/lit8 v0, v0, 0x1f
+    #
+    # iget-object v1, p0, Ll2/a;->d:Ljava/util/Map;
+    #
+    # if-nez v1, :cond_1
+    #
+    # goto :goto_1
+    #
+    # :cond_1
+    # invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+    #
+    # move-result v2
+    #
+    # :goto_1
+    # add-int/2addr v0, v2
+    const/4 v0,0x1
 
     return v0
 .end method
