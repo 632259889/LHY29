@@ -172,13 +172,13 @@
     return-void
 .end method
 
-.method public static synthetic b(Lcom/applovin/sdk/AppLovinSdkConfiguration;)V
-    .locals 0
-
-    invoke-static {p0}, Lcom/eyewind/ads/SdkX;->m(Lcom/applovin/sdk/AppLovinSdkConfiguration;)V
-
-    return-void
-.end method
+# .method public static synthetic b(Lcom/applovin/sdk/AppLovinSdkConfiguration;)V
+#     .locals 0
+#
+#     invoke-static {p0}, Lcom/eyewind/ads/SdkX;->m(Lcom/applovin/sdk/AppLovinSdkConfiguration;)V
+#
+#     return-void
+# .end method
 
 .method public static synthetic c(Landroidx/appcompat/app/AppCompatActivity;Lkotlin/jvm/internal/Ref$ObjectRef;)V
     .locals 0
@@ -303,7 +303,7 @@
     .line 10
     sget-object p2, Lcom/eyewind/ads/Ads;->a:Lcom/eyewind/ads/Ads;
 
-    invoke-virtual {p2, p1}, Lcom/eyewind/ads/Ads;->b(Landroid/app/Activity;)V
+    # invoke-virtual {p2, p1}, Lcom/eyewind/ads/Ads;->b(Landroid/app/Activity;)V
 
     :cond_3
     return-void
@@ -325,38 +325,38 @@
     return-void
 .end method
 
-.method private static final m(Lcom/applovin/sdk/AppLovinSdkConfiguration;)V
-    .locals 3
-
-    const/4 p0, 0x1
-
-    .line 1
-    sput-boolean p0, Lcom/eyewind/ads/SdkX;->c:Z
-
-    .line 2
-    sget-object p0, Lcom/eyewind/ads/SdkX;->b:Ll8/a;
-
-    if-eqz p0, :cond_0
-
-    invoke-interface {p0}, Ll8/a;->invoke()Ljava/lang/Object;
-
-    :cond_0
-    const/4 p0, 0x0
-
-    .line 3
-    sput-object p0, Lcom/eyewind/ads/SdkX;->b:Ll8/a;
-
-    const/4 v0, 0x0
-
-    const/4 v1, 0x2
-
-    const-string v2, "AppLovinSdk inited"
-
-    .line 4
-    invoke-static {v2, v0, v1, p0}, Lcom/eyewind/ads/UtilsKt;->D(Ljava/lang/String;ZILjava/lang/Object;)V
-
-    return-void
-.end method
+# .method private static final m(Lcom/applovin/sdk/AppLovinSdkConfiguration;)V
+#     .locals 3
+#
+#     const/4 p0, 0x1
+#
+#     .line 1
+#     sput-boolean p0, Lcom/eyewind/ads/SdkX;->c:Z
+#
+#     .line 2
+#     sget-object p0, Lcom/eyewind/ads/SdkX;->b:Ll8/a;
+#
+#     if-eqz p0, :cond_0
+#
+#     invoke-interface {p0}, Ll8/a;->invoke()Ljava/lang/Object;
+#
+#     :cond_0
+#     const/4 p0, 0x0
+#
+#     .line 3
+#     sput-object p0, Lcom/eyewind/ads/SdkX;->b:Ll8/a;
+#
+#     const/4 v0, 0x0
+#
+#     const/4 v1, 0x2
+#
+#     const-string v2, "AppLovinSdk inited"
+#
+#     .line 4
+#     invoke-static {v2, v0, v1, p0}, Lcom/eyewind/ads/UtilsKt;->D(Ljava/lang/String;ZILjava/lang/Object;)V
+#
+#     return-void
+# .end method
 
 .method private final n(Landroid/content/Context;)V
     .locals 4
@@ -479,7 +479,7 @@
     .line 5
     sget-object p1, Lcom/eyewind/ads/Ads;->a:Lcom/eyewind/ads/Ads;
 
-    invoke-virtual {p1, p3}, Lcom/eyewind/ads/Ads;->b(Landroid/app/Activity;)V
+    # invoke-virtual {p1, p3}, Lcom/eyewind/ads/Ads;->b(Landroid/app/Activity;)V
 
     goto :goto_0
 
@@ -922,14 +922,14 @@
     invoke-static {p1}, Lcom/eyewind/ads/UtilsKt;->K(Landroid/content/Context;)V
 
     .line 4
-    new-instance v0, Lcom/applovin/sdk/AppLovinSdkSettings;
-
-    invoke-direct {v0, p1}, Lcom/applovin/sdk/AppLovinSdkSettings;-><init>(Landroid/content/Context;)V
+    # new-instance v0, Lcom/applovin/sdk/AppLovinSdkSettings;
+    #
+    # invoke-direct {v0, p1}, Lcom/applovin/sdk/AppLovinSdkSettings;-><init>(Landroid/content/Context;)V
 
     const/4 v1, 0x0
 
     .line 5
-    invoke-virtual {v0, v1}, Lcom/applovin/sdk/AppLovinSdkSettings;->setExceptionHandlerEnabled(Z)V
+    # invoke-virtual {v0, v1}, Lcom/applovin/sdk/AppLovinSdkSettings;->setExceptionHandlerEnabled(Z)V
 
     .line 6
     invoke-static {}, Lcom/eyewind/ads/UtilsKt;->A()Z
@@ -939,7 +939,7 @@
     if-nez v2, :cond_0
 
     .line 7
-    invoke-virtual {v0, v1}, Lcom/applovin/sdk/AppLovinSdkSettings;->setCreativeDebuggerEnabled(Z)V
+    # invoke-virtual {v0, v1}, Lcom/applovin/sdk/AppLovinSdkSettings;->setCreativeDebuggerEnabled(Z)V
 
     .line 8
     :cond_0
@@ -950,28 +950,28 @@
     if-eqz v2, :cond_1
 
     .line 9
-    invoke-virtual {v0, v2}, Lcom/applovin/sdk/AppLovinSdkSettings;->setInitializationAdUnitIds(Ljava/util/List;)V
+    # invoke-virtual {v0, v2}, Lcom/applovin/sdk/AppLovinSdkSettings;->setInitializationAdUnitIds(Ljava/util/List;)V
 
     .line 10
     :cond_1
-    invoke-static {v0, p1}, Lcom/applovin/sdk/AppLovinSdk;->getInstance(Lcom/applovin/sdk/AppLovinSdkSettings;Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdk;
-
-    move-result-object v0
-
-    const-string v2, "max"
+    # invoke-static {v0, p1}, Lcom/applovin/sdk/AppLovinSdk;->getInstance(Lcom/applovin/sdk/AppLovinSdkSettings;Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdk;
+    #
+    # move-result-object v0
+    #
+    # const-string v2, "max"
 
     .line 11
-    invoke-virtual {v0, v2}, Lcom/applovin/sdk/AppLovinSdk;->setMediationProvider(Ljava/lang/String;)V
+    # invoke-virtual {v0, v2}, Lcom/applovin/sdk/AppLovinSdk;->setMediationProvider(Ljava/lang/String;)V
 
     .line 12
-    sget-object v2, Lk0/x;->a:Lk0/x;
+    # sget-object v2, Lk0/x;->a:Lk0/x;
 
-    invoke-virtual {v0, v2}, Lcom/applovin/sdk/AppLovinSdk;->initializeSdk(Lcom/applovin/sdk/AppLovinSdk$SdkInitializationListener;)V
+    # invoke-virtual {v0, v2}, Lcom/applovin/sdk/AppLovinSdk;->initializeSdk(Lcom/applovin/sdk/AppLovinSdk$SdkInitializationListener;)V
 
-    const/4 v0, 0x1
+    # const/4 v0, 0x1
 
     .line 13
-    invoke-static {p1, v1, v0}, Lcom/eyewind/ads/UtilsKt;->t(Landroid/app/Application;ZZ)V
+    # invoke-static {p1, v1, v0}, Lcom/eyewind/ads/UtilsKt;->t(Landroid/app/Application;ZZ)V
 
     .line 14
     new-instance v0, Lcom/eyewind/ads/SdkLifecycleObserver;

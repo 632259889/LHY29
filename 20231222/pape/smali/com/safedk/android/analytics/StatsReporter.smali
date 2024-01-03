@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/applovin/communicator/AppLovinCommunicatorPublisher;
+# .implements Lcom/applovin/communicator/AppLovinCommunicatorPublisher;
 
 
 # static fields
@@ -596,7 +596,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v0, v2}, Lcom/safedk/android/analytics/AppLovinBridge;->reportMaxCreativeId(Landroid/os/Bundle;Ljava/lang/String;Lcom/applovin/communicator/AppLovinCommunicatorPublisher;)V
+    # invoke-static {v1, v0, v2}, Lcom/safedk/android/analytics/AppLovinBridge;->reportMaxCreativeId(Landroid/os/Bundle;Ljava/lang/String;Lcom/applovin/communicator/AppLovinCommunicatorPublisher;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

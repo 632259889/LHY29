@@ -3913,7 +3913,7 @@
 
     .line 989
     :cond_0
-    instance-of v0, p0, Lcom/applovin/mediation/ads/MaxAdView;
+    instance-of v0, p0, Ljava/lang/Object;#com/applovin/mediation/ads/MaxAdView
 
     if-eqz v0, :cond_1
 
@@ -3928,7 +3928,7 @@
     move-result-object v0
 
     .line 992
-    instance-of v3, v0, Lcom/applovin/mediation/ads/MaxAdView;
+    instance-of v3, v0, Ljava/lang/Object;#com/applovin/mediation/ads/MaxAdView
 
     if-eqz v3, :cond_2
 
@@ -3950,7 +3950,7 @@
     move-result-object v0
 
     .line 996
-    instance-of v3, v0, Lcom/applovin/mediation/ads/MaxAdView;
+    instance-of v3, v0, Ljava/lang/Object;#com/applovin/mediation/ads/MaxAdView
 
     if-eqz v3, :cond_2
 
@@ -5357,7 +5357,7 @@
     invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1354
-    instance-of v1, v0, Lcom/applovin/mediation/ads/MaxAdView;
+    instance-of v1, v0, Ljava/lang/Object;#com/applovin/mediation/ads/MaxAdView
 
     if-eqz v1, :cond_1
 

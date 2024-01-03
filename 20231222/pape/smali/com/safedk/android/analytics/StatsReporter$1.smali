@@ -66,7 +66,7 @@
 
     iget-object v1, p0, Lcom/safedk/android/analytics/StatsReporter$1;->b:Lcom/safedk/android/analytics/StatsReporter;
 
-    invoke-static {v0, v1}, Lcom/safedk/android/analytics/AppLovinBridge;->a(Ljava/util/ArrayList;Lcom/applovin/communicator/AppLovinCommunicatorPublisher;)V
+    # invoke-static {v0, v1}, Lcom/safedk/android/analytics/AppLovinBridge;->a(Ljava/util/ArrayList;Lcom/applovin/communicator/AppLovinCommunicatorPublisher;)V
 
     .line 56
     invoke-static {}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->l()V

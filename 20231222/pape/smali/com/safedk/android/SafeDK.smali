@@ -241,7 +241,7 @@
     sput-object p1, Lcom/safedk/android/SafeDK;->v:Landroid/content/Context;
 
     .line 125
-    invoke-static {p1}, Lcom/safedk/android/analytics/AppLovinBridge;->init(Landroid/content/Context;)V
+    # invoke-static {p1}, Lcom/safedk/android/analytics/AppLovinBridge;->init(Landroid/content/Context;)V
 
     .line 127
     invoke-virtual {p0}, Lcom/safedk/android/SafeDK;->c()Z
@@ -728,7 +728,7 @@
 
     sget-object v3, Lcom/safedk/android/SafeDK;->o:Ljava/lang/String;
 
-    invoke-static {v1, v3}, Lcom/safedk/android/analytics/AppLovinBridge;->receiveEdgeUrls(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v1, v3}, Lcom/safedk/android/analytics/AppLovinBridge;->receiveEdgeUrls(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 232
     :goto_1

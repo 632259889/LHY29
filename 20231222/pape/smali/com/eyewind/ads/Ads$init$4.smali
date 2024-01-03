@@ -7,9 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/eyewind/ads/Ads;->b(Landroid/app/Activity;)V
-.end annotation
+# .annotation system Ldalvik/annotation/EnclosingMethod;
+#     value = Lcom/eyewind/ads/Ads;->b(Landroid/app/Activity;)V
+# .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x18
@@ -168,7 +168,7 @@
     .line 9
     iget-object v0, p0, Lcom/eyewind/ads/Ads$init$4;->c:Landroid/app/Activity;
 
-    invoke-static {v0}, Lcom/applovin/sdk/AppLovinSdkUtils;->isTablet(Landroid/content/Context;)Z
+    invoke-static {v0}, Ljava/lang/Object;->isTablet(Landroid/content/Context;)Z#com/applovin/sdk/AppLovinSdkUtils
 
     move-result v0
 

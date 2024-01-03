@@ -47,7 +47,7 @@
             "<",
             "Ljava/lang/ref/WeakReference",
             "<",
-            "Lcom/applovin/mediation/ads/MaxAdView;",
+            # "Lcom/applovin/mediation/ads/MaxAdView;",
             ">;>;>;"
         }
     .end annotation
@@ -1342,55 +1342,55 @@
     goto :goto_0
 .end method
 
-.method public static a(Lcom/applovin/mediation/ads/MaxAdView;)V
-    .locals 2
-
-    .prologue
-    .line 1587
-    invoke-static {p0}, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->a(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v0
-
-    .line 1588
-    sget-object v1, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->N:Ljava/util/Map;
-
-    invoke-interface {v1, v0}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 1590
-    sget-object v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->M:Ljava/util/Map;
-
-    invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
-
-    move-result-object v0
-
-    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
-
-    move-result-object v1
-
-    :cond_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/lang/String;
-
-    .line 1591
-    invoke-static {v0, p0}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Ljava/lang/String;Lcom/applovin/mediation/ads/MaxAdView;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    .line 1595
-    :cond_1
-    return-void
-.end method
+# .method public static a(Lcom/applovin/mediation/ads/MaxAdView;)V
+#     .locals 2
+#
+#     .prologue
+#     .line 1587
+#     invoke-static {p0}, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->a(Ljava/lang/Object;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     .line 1588
+#     sget-object v1, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->N:Ljava/util/Map;
+#
+#     invoke-interface {v1, v0}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     .line 1590
+#     sget-object v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->M:Ljava/util/Map;
+#
+#     invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
+#
+#     move-result-object v0
+#
+#     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+#
+#     move-result-object v1
+#
+#     :cond_0
+#     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_1
+#
+#     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+#
+#     move-result-object v0
+#
+#     check-cast v0, Ljava/lang/String;
+#
+#     .line 1591
+#     invoke-static {v0, p0}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Ljava/lang/String;Lcom/applovin/mediation/ads/MaxAdView;)Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_0
+#
+#     .line 1595
+#     :cond_1
+#     return-void
+# .end method
 
 .method static synthetic a(Lcom/safedk/android/analytics/brandsafety/BannerFinder;Lcom/safedk/android/analytics/brandsafety/e;Ljava/lang/String;)V
     .locals 0
@@ -2620,158 +2620,158 @@
     goto/16 :goto_3
 .end method
 
-.method public static a(Ljava/lang/String;Lcom/applovin/mediation/ads/MaxAdView;Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils$AdType;)V
-    .locals 5
-
-    .prologue
-    const/4 v4, 0x0
-
-    .line 1563
-    if-eqz p0, :cond_1
-
-    if-eqz p1, :cond_1
-
-    .line 1564
-    invoke-static {p1}, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->a(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v0
-
-    .line 1565
-    sget-object v1, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->N:Ljava/util/Map;
-
-    invoke-interface {v1, v0, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 1567
-    sget-object v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->M:Ljava/util/Map;
-
-    invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/util/List;
-
-    .line 1568
-    if-nez v0, :cond_2
-
-    .line 1569
-    new-instance v0, Ljava/util/ArrayList;
-
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-
-    .line 1570
-    sget-object v1, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->M:Ljava/util/Map;
-
-    invoke-interface {v1, p0, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 1571
-    const-string v1, "BannerFinder"
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "add Max ad view: added adUnitId: "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v3, " to maxAdViews map"
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 1577
-    :cond_0
-    new-instance v1, Ljava/lang/ref/WeakReference;
-
-    invoke-direct {v1, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
-
-    invoke-interface {v0, v4, v1}, Ljava/util/List;->add(ILjava/lang/Object;)V
-
-    .line 1578
-    const-string v1, "BannerFinder"
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "add Max ad view: "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v3, ", address: "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-static {p1}, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->a(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v3, ", list size: "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-interface {v0}, Ljava/util/List;->size()I
-
-    move-result v0
-
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v1, v0}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 1580
-    :cond_1
-    :goto_0
-    return-void
-
-    .line 1573
-    :cond_2
-    invoke-interface {v0, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Ljava/lang/ref/WeakReference;
-
-    invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
-
-    move-result-object v1
-
-    if-ne v1, p1, :cond_0
-
-    goto :goto_0
-.end method
+# .method public static a(Ljava/lang/String;Lcom/applovin/mediation/ads/MaxAdView;Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils$AdType;)V
+#     .locals 5
+#
+#     .prologue
+#     const/4 v4, 0x0
+#
+#     .line 1563
+#     if-eqz p0, :cond_1
+#
+#     if-eqz p1, :cond_1
+#
+#     .line 1564
+#     invoke-static {p1}, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->a(Ljava/lang/Object;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     .line 1565
+#     sget-object v1, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->N:Ljava/util/Map;
+#
+#     invoke-interface {v1, v0, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     .line 1567
+#     sget-object v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->M:Ljava/util/Map;
+#
+#     invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     move-result-object v0
+#
+#     check-cast v0, Ljava/util/List;
+#
+#     .line 1568
+#     if-nez v0, :cond_2
+#
+#     .line 1569
+#     new-instance v0, Ljava/util/ArrayList;
+#
+#     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+#
+#     .line 1570
+#     sget-object v1, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->M:Ljava/util/Map;
+#
+#     invoke-interface {v1, p0, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     .line 1571
+#     const-string v1, "BannerFinder"
+#
+#     new-instance v2, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v3, "add Max ad view: added adUnitId: "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v3, " to maxAdViews map"
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 1577
+#     :cond_0
+#     new-instance v1, Ljava/lang/ref/WeakReference;
+#
+#     invoke-direct {v1, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+#
+#     invoke-interface {v0, v4, v1}, Ljava/util/List;->add(ILjava/lang/Object;)V
+#
+#     .line 1578
+#     const-string v1, "BannerFinder"
+#
+#     new-instance v2, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v3, "add Max ad view: "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v3, ", address: "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-static {p1}, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->a(Ljava/lang/Object;)Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v3, ", list size: "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-interface {v0}, Ljava/util/List;->size()I
+#
+#     move-result v0
+#
+#     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     invoke-static {v1, v0}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 1580
+#     :cond_1
+#     :goto_0
+#     return-void
+#
+#     .line 1573
+#     :cond_2
+#     invoke-interface {v0, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
+#
+#     move-result-object v1
+#
+#     check-cast v1, Ljava/lang/ref/WeakReference;
+#
+#     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+#
+#     move-result-object v1
+#
+#     if-ne v1, p1, :cond_0
+#
+#     goto :goto_0
+# .end method
 
 .method private declared-synchronized a(Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/d;)V
     .locals 7
@@ -4090,7 +4090,7 @@
             "Ljava/lang/String;",
             "Ljava/lang/ref/WeakReference",
             "<",
-            "Lcom/applovin/mediation/ads/MaxAdView;",
+            # "Lcom/applovin/mediation/ads/MaxAdView;",
             ">;",
             "Lcom/safedk/android/analytics/brandsafety/d;",
             "Landroid/os/Bundle;",
@@ -5674,162 +5674,162 @@
     goto/16 :goto_0
 .end method
 
-.method public static a(Ljava/lang/String;Lcom/applovin/mediation/ads/MaxAdView;)Z
-    .locals 4
-
-    .prologue
-    .line 1602
-    sget-object v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->M:Ljava/util/Map;
-
-    invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/util/List;
-
-    .line 1603
-    if-eqz p1, :cond_2
-
-    if-eqz v0, :cond_2
-
-    .line 1604
-    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    move-result-object v2
-
-    :cond_0
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_2
-
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Ljava/lang/ref/WeakReference;
-
-    .line 1605
-    if-eqz v1, :cond_0
-
-    invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
-
-    move-result-object v3
-
-    if-ne p1, v3, :cond_0
-
-    .line 1606
-    invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->clear()V
-
-    .line 1607
-    invoke-interface {v0, v1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
-
-    .line 1608
-    const-string v1, "BannerFinder"
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "remove Max ad view: "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v3, ", address: "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-static {p1}, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->a(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v3, ", list size: "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-interface {v0}, Ljava/util/List;->size()I
-
-    move-result v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 1609
-    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    .line 1610
-    sget-object v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->M:Ljava/util/Map;
-
-    invoke-interface {v0, p0}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 1611
-    const-string v0, "BannerFinder"
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "remove Max ad view: removing adUnitId: "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    const-string v2, " from maxAdViews"
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 1613
-    :cond_1
-    const/4 v0, 0x1
-
-    .line 1617
-    :goto_0
-    return v0
-
-    :cond_2
-    const/4 v0, 0x0
-
-    goto :goto_0
-.end method
+# .method public static a(Ljava/lang/String;Lcom/applovin/mediation/ads/MaxAdView;)Z
+#     .locals 4
+#
+#     .prologue
+#     .line 1602
+#     sget-object v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->M:Ljava/util/Map;
+#
+#     invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     move-result-object v0
+#
+#     check-cast v0, Ljava/util/List;
+#
+#     .line 1603
+#     if-eqz p1, :cond_2
+#
+#     if-eqz v0, :cond_2
+#
+#     .line 1604
+#     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+#
+#     move-result-object v2
+#
+#     :cond_0
+#     invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+#
+#     move-result v1
+#
+#     if-eqz v1, :cond_2
+#
+#     invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+#
+#     move-result-object v1
+#
+#     check-cast v1, Ljava/lang/ref/WeakReference;
+#
+#     .line 1605
+#     if-eqz v1, :cond_0
+#
+#     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+#
+#     move-result-object v3
+#
+#     if-ne p1, v3, :cond_0
+#
+#     .line 1606
+#     invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->clear()V
+#
+#     .line 1607
+#     invoke-interface {v0, v1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
+#
+#     .line 1608
+#     const-string v1, "BannerFinder"
+#
+#     new-instance v2, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v3, "remove Max ad view: "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v3, ", address: "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-static {p1}, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->a(Ljava/lang/Object;)Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v3, ", list size: "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-interface {v0}, Ljava/util/List;->size()I
+#
+#     move-result v3
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 1609
+#     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_1
+#
+#     .line 1610
+#     sget-object v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->M:Ljava/util/Map;
+#
+#     invoke-interface {v0, p0}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     .line 1611
+#     const-string v0, "BannerFinder"
+#
+#     new-instance v1, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v2, "remove Max ad view: removing adUnitId: "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     const-string v2, " from maxAdViews"
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 1613
+#     :cond_1
+#     const/4 v0, 0x1
+#
+#     .line 1617
+#     :goto_0
+#     return v0
+#
+#     :cond_2
+#     const/4 v0, 0x0
+#
+#     goto :goto_0
+# .end method
 
 .method private a(Ljava/lang/String;Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/e;)Z
     .locals 4
@@ -10350,9 +10350,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/applovin/mediation/ads/MaxAdView;
+    check-cast v1, Ljava/lang/Object;#com/applovin/mediation/ads/MaxAdView
 
-    invoke-virtual {v1}, Lcom/applovin/mediation/ads/MaxAdView;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;#
 
     move-result-object v1
 
@@ -10423,9 +10423,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/applovin/mediation/ads/MaxAdView;
+    check-cast v1, Ljava/lang/Object;#com/applovin/mediation/ads/MaxAdView
 
-    invoke-virtual {v1}, Lcom/applovin/mediation/ads/MaxAdView;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;#com/applovin/mediation/ads/MaxAdView
 
     move-result-object v1
 
@@ -10553,9 +10553,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/applovin/mediation/ads/MaxAdView;
+    check-cast v1, Ljava/lang/Object;#com/applovin/mediation/ads/MaxAdView
 
-    invoke-virtual {v1}, Lcom/applovin/mediation/ads/MaxAdView;->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;#com/applovin/mediation/ads/MaxAdView
 
     move-result-object v1
 
@@ -10660,9 +10660,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/applovin/mediation/ads/MaxAdView;
+    check-cast v1, Ljava/lang/Object;#com/applovin/mediation/ads/MaxAdView
 
-    invoke-static {v2, v1}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Ljava/lang/String;Lcom/applovin/mediation/ads/MaxAdView;)Z
+    invoke-static {v2, v1}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Ljava/lang/String;Ljava/lang/Object;)Z#com/applovin/mediation/ads/MaxAdView
     :try_end_1
     .catch Ljava/lang/Throwable; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -14553,1075 +14553,1075 @@
     :cond_2
     return-void
 .end method
-
-.method public declared-synchronized onMessageReceived(Lcom/applovin/communicator/AppLovinCommunicatorMessage;)V
-    .locals 24
-    .param p1, "message"    # Lcom/applovin/communicator/AppLovinCommunicatorMessage;
-
-    .prologue
-    .line 177
-    monitor-enter p0
-
-    :try_start_0
-    invoke-static {}, Lcom/safedk/android/SafeDK;->getInstance()Lcom/safedk/android/SafeDK;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Lcom/safedk/android/SafeDK;->o()Z
-
-    move-result v2
-
-    if-eqz v2, :cond_0
-
-    invoke-static {}, Lcom/safedk/android/SafeDK;->getInstance()Lcom/safedk/android/SafeDK;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Lcom/safedk/android/SafeDK;->p()Z
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    move-result v2
-
-    if-nez v2, :cond_1
-
-    .line 273
-    :cond_0
-    :goto_0
-    monitor-exit p0
-
-    return-void
-
-    .line 181
-    :cond_1
-    :try_start_1
-    invoke-virtual/range {p1 .. p1}, Lcom/applovin/communicator/AppLovinCommunicatorMessage;->getMessageData()Landroid/os/Bundle;
-
-    move-result-object v13
-
-    .line 185
-    const-string v2, "revenue_event"
-
-    invoke-virtual {v13, v2}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_5
-
-    const-string v2, "ad_format"
-
-    invoke-virtual {v13, v2}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_5
-
-    move-object/from16 v0, p0
-
-    iget-object v2, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->b:Ljava/util/List;
-
-    const-string v3, "ad_format"
-
-    invoke-virtual {v13, v3}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-interface {v2, v3}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_5
-
-    .line 186
-    move-object/from16 v0, p0
-
-    iget-object v2, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v4, "Revenue event detected : "
-
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v3
-
-    invoke-virtual {v3, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-static {v2, v3}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 187
-    const-string v2, "revenue_event"
-
-    move-object v8, v2
-
-    .line 192
-    :goto_1
-    const-string v2, "ad_format"
-
-    invoke-virtual {v13, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v9
-
-    .line 193
-    const-string v2, "third_party_ad_placement_id"
-
-    invoke-virtual {v13, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
-
-    .line 194
-    const-string v2, "max_ad_unit_id"
-
-    invoke-virtual {v13, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v3
-
-    .line 196
-    const-string v2, "id"
-
-    const/4 v5, 0x0
-
-    invoke-virtual {v13, v2, v5}, Landroid/os/Bundle;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v5
-
-    .line 197
-    if-nez v5, :cond_2
-
-    .line 198
-    move-object/from16 v0, p0
-
-    iget-object v2, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
-
-    const-string v6, "No eventId in data bundle, cannot match"
-
-    invoke-static {v2, v6}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 201
-    :cond_2
-    const-string v2, "network_name"
-
-    invoke-virtual {v13, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v7
-
-    .line 202
-    invoke-static {v7}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->b(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v6
-
-    .line 203
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    move-result-wide v14
-
-    .line 204
-    invoke-static {v14, v15}, Lcom/safedk/android/utils/l;->b(J)J
-
-    move-result-wide v16
-
-    .line 207
-    const/4 v11, 0x0
-
-    .line 208
-    const-string v2, "creative_id"
-
-    invoke-virtual {v13, v2}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_3
-
-    .line 209
-    const-string v2, "creative_id"
-
-    invoke-virtual {v13, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v11
-
-    .line 212
-    :cond_3
-    move-object/from16 v0, p0
-
-    iget-object v2, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->b:Ljava/util/List;
-
-    invoke-interface {v2, v9}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_0
-
-    .line 214
-    move-object/from16 v0, p0
-
-    iget-object v2, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
-
-    new-instance v10, Ljava/lang/StringBuilder;
-
-    invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v12, "Max message received, package: "
-
-    invoke-virtual {v10, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v10
-
-    invoke-virtual {v10, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v10
-
-    const-string v12, ", ts (seconds): "
-
-    invoke-virtual {v10, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v10
-
-    move-wide/from16 v0, v16
-
-    invoke-virtual {v10, v0, v1}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
-    move-result-object v10
-
-    const-string v12, ", message received: "
-
-    invoke-virtual {v10, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v10
-
-    invoke-virtual/range {p1 .. p1}, Lcom/applovin/communicator/AppLovinCommunicatorMessage;->getMessageData()Landroid/os/Bundle;
-
-    move-result-object v12
-
-    invoke-virtual {v10, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v10
-
-    invoke-virtual {v10}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v10
-
-    invoke-static {v2, v10}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 215
-    new-instance v2, Lcom/safedk/android/analytics/brandsafety/d;
-
-    invoke-direct/range {v2 .. v7}, Lcom/safedk/android/analytics/brandsafety/d;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 217
-    const-string v3, "WILL_DISPLAY"
-
-    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_6
-
-    .line 218
-    if-eqz v6, :cond_4
-
-    move-object/from16 v0, p0
-
-    invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_4
-
-    .line 219
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
-
-    new-instance v8, Ljava/lang/StringBuilder;
-
-    invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v10, "WILL_DISPLAY event for package="
-
-    invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    const-string v10, " banner key="
-
-    invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    const-string v10, ", slot count="
-
-    invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    move-object/from16 v0, p0
-
-    iget v10, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d:I
-
-    invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v8
-
-    invoke-static {v3, v8}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 220
-    invoke-static {v6, v4, v11, v5, v9}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    :cond_4
-    move-object/from16 v8, p0
-
-    move-object v9, v7
-
-    move-object v10, v6
-
-    move-object v12, v2
-
-    .line 222
-    invoke-direct/range {v8 .. v15}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/d;Landroid/os/Bundle;J)V
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    goto/16 :goto_0
-
-    .line 177
-    :catchall_0
-    move-exception v2
-
-    monitor-exit p0
-
-    throw v2
-
-    .line 189
-    :cond_5
-    :try_start_2
-    const-string v2, "type"
-
-    invoke-virtual {v13, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v2
-
-    move-object v8, v2
-
-    goto/16 :goto_1
-
-    .line 223
-    :cond_6
-    const-string v3, "revenue_event"
-
-    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_8
-
-    .line 224
-    if-eqz v6, :cond_7
-
-    move-object/from16 v0, p0
-
-    invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_7
-
-    .line 225
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "REVENUE_EVENT event for package="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, " banner key="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ", slot count="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    move-object/from16 v0, p0
-
-    iget v5, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d:I
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    :cond_7
-    move-object/from16 v8, p0
-
-    move-object v9, v7
-
-    move-object v10, v6
-
-    move-object v12, v2
-
-    .line 227
-    invoke-virtual/range {v8 .. v13}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/d;Landroid/os/Bundle;)V
-
-    goto/16 :goto_0
-
-    .line 228
-    :cond_8
-    const-string v3, "DID_CLICKED"
-
-    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_d
-
-    .line 229
-    move-object/from16 v0, p0
-
-    invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    .line 230
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "DID_CLICKED event starting, currentActivityBanners keys ("
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    move-object/from16 v0, p0
-
-    iget-object v5, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->F:Ljava/util/Map;
-
-    invoke-interface {v5}, Ljava/util/Map;->keySet()Ljava/util/Set;
-
-    move-result-object v5
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ") = "
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    move-object/from16 v0, p0
-
-    iget-object v5, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->F:Ljava/util/Map;
-
-    invoke-interface {v5}, Ljava/util/Map;->keySet()Ljava/util/Set;
-
-    move-result-object v5
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 231
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->F:Ljava/util/Map;
-
-    invoke-interface {v3, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v3
-
-    check-cast v3, Lcom/safedk/android/analytics/brandsafety/e;
-
-    .line 232
-    move-object/from16 v0, p0
-
-    iget-object v4, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
-
-    new-instance v5, Ljava/lang/StringBuilder;
-
-    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v8, "DID_CLICKED event currentActivityBanner = "
-
-    invoke-virtual {v5, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-static {v4, v5}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 233
-    if-eqz v3, :cond_c
-
-    .line 234
-    invoke-virtual {v3}, Lcom/safedk/android/analytics/brandsafety/e;->F()Z
-
-    move-result v4
-
-    if-eqz v4, :cond_a
-
-    .line 236
-    iget-object v3, v3, Lcom/safedk/android/analytics/brandsafety/e;->J:Ljava/lang/String;
-
-    const-string v4, "com.inmobi"
-
-    invoke-static {v3, v4}, Lcom/safedk/android/analytics/brandsafety/DetectTouchUtils;->b(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 242
-    :cond_9
-    :goto_2
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "DID_CLICKED event for package="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    if-nez v6, :cond_b
-
-    :goto_3
-    invoke-virtual {v4, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ", slot count="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    move-object/from16 v0, p0
-
-    iget v5, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d:I
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 243
-    move-object/from16 v0, p0
-
-    invoke-direct {v0, v2}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d(Lcom/safedk/android/analytics/brandsafety/d;)V
-
-    goto/16 :goto_0
-
-    .line 238
-    :cond_a
-    if-eqz v7, :cond_9
-
-    const-string v4, "_BIDDING"
-
-    invoke-virtual {v7, v4}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
-
-    move-result v4
-
-    if-eqz v4, :cond_9
-
-    .line 239
-    iget-object v3, v3, Lcom/safedk/android/analytics/brandsafety/e;->J:Ljava/lang/String;
-
-    invoke-static {v3, v6}, Lcom/safedk/android/analytics/brandsafety/DetectTouchUtils;->b(Ljava/lang/String;Ljava/lang/String;)V
-
-    goto :goto_2
-
-    :cond_b
-    move-object v7, v6
-
-    .line 242
-    goto :goto_3
-
-    .line 245
-    :cond_c
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "DID_CLICKED event cannot find banner key "
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v3, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    goto/16 :goto_0
-
-    .line 248
-    :cond_d
-    const-string v3, "WILL_LOAD"
-
-    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_e
-
-    .line 249
-    if-eqz v6, :cond_0
-
-    move-object/from16 v0, p0
-
-    invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    .line 250
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
-
-    new-instance v5, Ljava/lang/StringBuilder;
-
-    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v7, "WILL_LOAD event for package="
-
-    invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    const-string v7, " banner key="
-
-    invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v5, ", slot count="
-
-    invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    move-object/from16 v0, p0
-
-    iget v5, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d:I
-
-    invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v3, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 251
-    invoke-static {v6, v4}, Lcom/safedk/android/analytics/brandsafety/creatives/e;->b(Ljava/lang/String;Ljava/lang/String;)V
-
-    goto/16 :goto_0
-
-    .line 253
-    :cond_e
-    const-string v3, "DID_HIDE"
-
-    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_f
-
-    .line 254
-    if-eqz v6, :cond_0
-
-    move-object/from16 v0, p0
-
-    invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    .line 255
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "DID_HIDE event for package="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, " banner key="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ", slot count="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    move-object/from16 v0, p0
-
-    iget v5, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d:I
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 256
-    move-object/from16 v0, p0
-
-    invoke-direct {v0, v2}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->c(Lcom/safedk/android/analytics/brandsafety/d;)V
-
-    goto/16 :goto_0
-
-    .line 258
-    :cond_f
-    const-string v3, "DID_LOAD"
-
-    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_10
-
-    .line 259
-    if-eqz v6, :cond_0
-
-    move-object/from16 v0, p0
-
-    invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    .line 260
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "DID_LOAD event for package="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, " banner key="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v4, ", slot count="
-
-    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    move-object/from16 v0, p0
-
-    iget v4, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d:I
-
-    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v3, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    goto/16 :goto_0
-
-    .line 262
-    :cond_10
-    const-string v3, "DID_DISPLAY"
-
-    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_11
-
-    .line 263
-    if-eqz v6, :cond_0
-
-    move-object/from16 v0, p0
-
-    invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    .line 264
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "DID_DISPLAY event for package="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, " banner key="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ", slot count="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    move-object/from16 v0, p0
-
-    iget v5, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d:I
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    move-object/from16 v17, p0
-
-    move-object/from16 v18, v6
-
-    move-object/from16 v19, v2
-
-    move-object/from16 v20, v11
-
-    move-object/from16 v21, v13
-
-    move-wide/from16 v22, v14
-
-    .line 265
-    invoke-direct/range {v17 .. v23}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/d;Ljava/lang/String;Landroid/os/Bundle;J)V
-
-    goto/16 :goto_0
-
-    .line 267
-    :cond_11
-    const-string v3, "DID_FAIL_DISPLAY"
-
-    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    .line 268
-    if-eqz v6, :cond_0
-
-    move-object/from16 v0, p0
-
-    invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    .line 269
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "DID_FAIL_DISPLAY event for package="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, " banner key="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ", slot count="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    move-object/from16 v0, p0
-
-    iget v5, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d:I
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 270
-    move-object/from16 v0, p0
-
-    invoke-direct {v0, v2}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Lcom/safedk/android/analytics/brandsafety/d;)V
-    :try_end_2
-    .catchall {:try_start_2 .. :try_end_2} :catchall_0
-
-    goto/16 :goto_0
-.end method
+# 
+# .method public declared-synchronized onMessageReceived(Lcom/applovin/communicator/AppLovinCommunicatorMessage;)V
+#     .locals 24
+#     .param p1, "message"    # Lcom/applovin/communicator/AppLovinCommunicatorMessage;
+#
+#     .prologue
+#     .line 177
+#     monitor-enter p0
+#
+#     :try_start_0
+#     invoke-static {}, Lcom/safedk/android/SafeDK;->getInstance()Lcom/safedk/android/SafeDK;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Lcom/safedk/android/SafeDK;->o()Z
+#
+#     move-result v2
+#
+#     if-eqz v2, :cond_0
+#
+#     invoke-static {}, Lcom/safedk/android/SafeDK;->getInstance()Lcom/safedk/android/SafeDK;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Lcom/safedk/android/SafeDK;->p()Z
+#     :try_end_0
+#     .catchall {:try_start_0 .. :try_end_0} :catchall_0
+#
+#     move-result v2
+#
+#     if-nez v2, :cond_1
+#
+#     .line 273
+#     :cond_0
+#     :goto_0
+#     monitor-exit p0
+#
+#     return-void
+#
+#     .line 181
+#     :cond_1
+#     :try_start_1
+#     invoke-virtual/range {p1 .. p1}, Lcom/applovin/communicator/AppLovinCommunicatorMessage;->getMessageData()Landroid/os/Bundle;
+#
+#     move-result-object v13
+#
+#     .line 185
+#     const-string v2, "revenue_event"
+#
+#     invoke-virtual {v13, v2}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
+#
+#     move-result v2
+#
+#     if-eqz v2, :cond_5
+#
+#     const-string v2, "ad_format"
+#
+#     invoke-virtual {v13, v2}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
+#
+#     move-result v2
+#
+#     if-eqz v2, :cond_5
+#
+#     move-object/from16 v0, p0
+#
+#     iget-object v2, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->b:Ljava/util/List;
+#
+#     const-string v3, "ad_format"
+#
+#     invoke-virtual {v13, v3}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     invoke-interface {v2, v3}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+#
+#     move-result v2
+#
+#     if-eqz v2, :cond_5
+#
+#     .line 186
+#     move-object/from16 v0, p0
+#
+#     iget-object v2, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
+#
+#     new-instance v3, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v4, "Revenue event detected : "
+#
+#     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v3
+#
+#     invoke-virtual {v3, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v3
+#
+#     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     invoke-static {v2, v3}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 187
+#     const-string v2, "revenue_event"
+#
+#     move-object v8, v2
+#
+#     .line 192
+#     :goto_1
+#     const-string v2, "ad_format"
+#
+#     invoke-virtual {v13, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v9
+#
+#     .line 193
+#     const-string v2, "third_party_ad_placement_id"
+#
+#     invoke-virtual {v13, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     .line 194
+#     const-string v2, "max_ad_unit_id"
+#
+#     invoke-virtual {v13, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     .line 196
+#     const-string v2, "id"
+#
+#     const/4 v5, 0x0
+#
+#     invoke-virtual {v13, v2, v5}, Landroid/os/Bundle;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v5
+#
+#     .line 197
+#     if-nez v5, :cond_2
+#
+#     .line 198
+#     move-object/from16 v0, p0
+#
+#     iget-object v2, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
+#
+#     const-string v6, "No eventId in data bundle, cannot match"
+#
+#     invoke-static {v2, v6}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 201
+#     :cond_2
+#     const-string v2, "network_name"
+#
+#     invoke-virtual {v13, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v7
+#
+#     .line 202
+#     invoke-static {v7}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->b(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v6
+#
+#     .line 203
+#     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+#
+#     move-result-wide v14
+#
+#     .line 204
+#     invoke-static {v14, v15}, Lcom/safedk/android/utils/l;->b(J)J
+#
+#     move-result-wide v16
+#
+#     .line 207
+#     const/4 v11, 0x0
+#
+#     .line 208
+#     const-string v2, "creative_id"
+#
+#     invoke-virtual {v13, v2}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
+#
+#     move-result v2
+#
+#     if-eqz v2, :cond_3
+#
+#     .line 209
+#     const-string v2, "creative_id"
+#
+#     invoke-virtual {v13, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v11
+#
+#     .line 212
+#     :cond_3
+#     move-object/from16 v0, p0
+#
+#     iget-object v2, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->b:Ljava/util/List;
+#
+#     invoke-interface {v2, v9}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+#
+#     move-result v2
+#
+#     if-eqz v2, :cond_0
+#
+#     .line 214
+#     move-object/from16 v0, p0
+#
+#     iget-object v2, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
+#
+#     new-instance v10, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v10}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v12, "Max message received, package: "
+#
+#     invoke-virtual {v10, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v10
+#
+#     invoke-virtual {v10, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v10
+#
+#     const-string v12, ", ts (seconds): "
+#
+#     invoke-virtual {v10, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v10
+#
+#     move-wide/from16 v0, v16
+#
+#     invoke-virtual {v10, v0, v1}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+#
+#     move-result-object v10
+#
+#     const-string v12, ", message received: "
+#
+#     invoke-virtual {v10, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v10
+#
+#     invoke-virtual/range {p1 .. p1}, Lcom/applovin/communicator/AppLovinCommunicatorMessage;->getMessageData()Landroid/os/Bundle;
+#
+#     move-result-object v12
+#
+#     invoke-virtual {v10, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v10
+#
+#     invoke-virtual {v10}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v10
+#
+#     invoke-static {v2, v10}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 215
+#     new-instance v2, Lcom/safedk/android/analytics/brandsafety/d;
+#
+#     invoke-direct/range {v2 .. v7}, Lcom/safedk/android/analytics/brandsafety/d;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 217
+#     const-string v3, "WILL_DISPLAY"
+#
+#     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_6
+#
+#     .line 218
+#     if-eqz v6, :cond_4
+#
+#     move-object/from16 v0, p0
+#
+#     invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_4
+#
+#     .line 219
+#     move-object/from16 v0, p0
+#
+#     iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
+#
+#     new-instance v8, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v10, "WILL_DISPLAY event for package="
+#
+#     invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v8
+#
+#     invoke-virtual {v8, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v8
+#
+#     const-string v10, " banner key="
+#
+#     invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v8
+#
+#     invoke-virtual {v8, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v8
+#
+#     const-string v10, ", slot count="
+#
+#     invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v8
+#
+#     move-object/from16 v0, p0
+#
+#     iget v10, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d:I
+#
+#     invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v8
+#
+#     invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v8
+#
+#     invoke-static {v3, v8}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 220
+#     invoke-static {v6, v4, v11, v5, v9}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+#
+#     :cond_4
+#     move-object/from16 v8, p0
+#
+#     move-object v9, v7
+#
+#     move-object v10, v6
+#
+#     move-object v12, v2
+#
+#     .line 222
+#     invoke-direct/range {v8 .. v15}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/d;Landroid/os/Bundle;J)V
+#     :try_end_1
+#     .catchall {:try_start_1 .. :try_end_1} :catchall_0
+#
+#     goto/16 :goto_0
+#
+#     .line 177
+#     :catchall_0
+#     move-exception v2
+#
+#     monitor-exit p0
+#
+#     throw v2
+#
+#     .line 189
+#     :cond_5
+#     :try_start_2
+#     const-string v2, "type"
+#
+#     invoke-virtual {v13, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     move-object v8, v2
+#
+#     goto/16 :goto_1
+#
+#     .line 223
+#     :cond_6
+#     const-string v3, "revenue_event"
+#
+#     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_8
+#
+#     .line 224
+#     if-eqz v6, :cond_7
+#
+#     move-object/from16 v0, p0
+#
+#     invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_7
+#
+#     .line 225
+#     move-object/from16 v0, p0
+#
+#     iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
+#
+#     new-instance v4, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v5, "REVENUE_EVENT event for package="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, " banner key="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ", slot count="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     move-object/from16 v0, p0
+#
+#     iget v5, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d:I
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     :cond_7
+#     move-object/from16 v8, p0
+#
+#     move-object v9, v7
+#
+#     move-object v10, v6
+#
+#     move-object v12, v2
+#
+#     .line 227
+#     invoke-virtual/range {v8 .. v13}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/d;Landroid/os/Bundle;)V
+#
+#     goto/16 :goto_0
+#
+#     .line 228
+#     :cond_8
+#     const-string v3, "DID_CLICKED"
+#
+#     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_d
+#
+#     .line 229
+#     move-object/from16 v0, p0
+#
+#     invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_0
+#
+#     .line 230
+#     move-object/from16 v0, p0
+#
+#     iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
+#
+#     new-instance v4, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v5, "DID_CLICKED event starting, currentActivityBanners keys ("
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     move-object/from16 v0, p0
+#
+#     iget-object v5, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->F:Ljava/util/Map;
+#
+#     invoke-interface {v5}, Ljava/util/Map;->keySet()Ljava/util/Set;
+#
+#     move-result-object v5
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ") = "
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     move-object/from16 v0, p0
+#
+#     iget-object v5, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->F:Ljava/util/Map;
+#
+#     invoke-interface {v5}, Ljava/util/Map;->keySet()Ljava/util/Set;
+#
+#     move-result-object v5
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 231
+#     move-object/from16 v0, p0
+#
+#     iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->F:Ljava/util/Map;
+#
+#     invoke-interface {v3, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     move-result-object v3
+#
+#     check-cast v3, Lcom/safedk/android/analytics/brandsafety/e;
+#
+#     .line 232
+#     move-object/from16 v0, p0
+#
+#     iget-object v4, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
+#
+#     new-instance v5, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v8, "DID_CLICKED event currentActivityBanner = "
+#
+#     invoke-virtual {v5, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v5
+#
+#     invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v5
+#
+#     invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v5
+#
+#     invoke-static {v4, v5}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 233
+#     if-eqz v3, :cond_c
+#
+#     .line 234
+#     invoke-virtual {v3}, Lcom/safedk/android/analytics/brandsafety/e;->F()Z
+#
+#     move-result v4
+#
+#     if-eqz v4, :cond_a
+#
+#     .line 236
+#     iget-object v3, v3, Lcom/safedk/android/analytics/brandsafety/e;->J:Ljava/lang/String;
+#
+#     const-string v4, "com.inmobi"
+#
+#     invoke-static {v3, v4}, Lcom/safedk/android/analytics/brandsafety/DetectTouchUtils;->b(Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 242
+#     :cond_9
+#     :goto_2
+#     move-object/from16 v0, p0
+#
+#     iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
+#
+#     new-instance v4, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v5, "DID_CLICKED event for package="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     if-nez v6, :cond_b
+#
+#     :goto_3
+#     invoke-virtual {v4, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ", slot count="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     move-object/from16 v0, p0
+#
+#     iget v5, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d:I
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 243
+#     move-object/from16 v0, p0
+#
+#     invoke-direct {v0, v2}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d(Lcom/safedk/android/analytics/brandsafety/d;)V
+#
+#     goto/16 :goto_0
+#
+#     .line 238
+#     :cond_a
+#     if-eqz v7, :cond_9
+#
+#     const-string v4, "_BIDDING"
+#
+#     invoke-virtual {v7, v4}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+#
+#     move-result v4
+#
+#     if-eqz v4, :cond_9
+#
+#     .line 239
+#     iget-object v3, v3, Lcom/safedk/android/analytics/brandsafety/e;->J:Ljava/lang/String;
+#
+#     invoke-static {v3, v6}, Lcom/safedk/android/analytics/brandsafety/DetectTouchUtils;->b(Ljava/lang/String;Ljava/lang/String;)V
+#
+#     goto :goto_2
+#
+#     :cond_b
+#     move-object v7, v6
+#
+#     .line 242
+#     goto :goto_3
+#
+#     .line 245
+#     :cond_c
+#     move-object/from16 v0, p0
+#
+#     iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
+#
+#     new-instance v4, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v5, "DID_CLICKED event cannot find banner key "
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v3, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     goto/16 :goto_0
+#
+#     .line 248
+#     :cond_d
+#     const-string v3, "WILL_LOAD"
+#
+#     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_e
+#
+#     .line 249
+#     if-eqz v6, :cond_0
+#
+#     move-object/from16 v0, p0
+#
+#     invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_0
+#
+#     .line 250
+#     move-object/from16 v0, p0
+#
+#     iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
+#
+#     new-instance v5, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v7, "WILL_LOAD event for package="
+#
+#     invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v5
+#
+#     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v5
+#
+#     const-string v7, " banner key="
+#
+#     invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v5
+#
+#     invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v5, ", slot count="
+#
+#     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     move-object/from16 v0, p0
+#
+#     iget v5, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d:I
+#
+#     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v3, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 251
+#     invoke-static {v6, v4}, Lcom/safedk/android/analytics/brandsafety/creatives/e;->b(Ljava/lang/String;Ljava/lang/String;)V
+#
+#     goto/16 :goto_0
+#
+#     .line 253
+#     :cond_e
+#     const-string v3, "DID_HIDE"
+#
+#     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_f
+#
+#     .line 254
+#     if-eqz v6, :cond_0
+#
+#     move-object/from16 v0, p0
+#
+#     invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_0
+#
+#     .line 255
+#     move-object/from16 v0, p0
+#
+#     iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
+#
+#     new-instance v4, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v5, "DID_HIDE event for package="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, " banner key="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ", slot count="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     move-object/from16 v0, p0
+#
+#     iget v5, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d:I
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 256
+#     move-object/from16 v0, p0
+#
+#     invoke-direct {v0, v2}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->c(Lcom/safedk/android/analytics/brandsafety/d;)V
+#
+#     goto/16 :goto_0
+#
+#     .line 258
+#     :cond_f
+#     const-string v3, "DID_LOAD"
+#
+#     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_10
+#
+#     .line 259
+#     if-eqz v6, :cond_0
+#
+#     move-object/from16 v0, p0
+#
+#     invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_0
+#
+#     .line 260
+#     move-object/from16 v0, p0
+#
+#     iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
+#
+#     new-instance v4, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v5, "DID_LOAD event for package="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, " banner key="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v4, ", slot count="
+#
+#     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     move-object/from16 v0, p0
+#
+#     iget v4, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d:I
+#
+#     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v3, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     goto/16 :goto_0
+#
+#     .line 262
+#     :cond_10
+#     const-string v3, "DID_DISPLAY"
+#
+#     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_11
+#
+#     .line 263
+#     if-eqz v6, :cond_0
+#
+#     move-object/from16 v0, p0
+#
+#     invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_0
+#
+#     .line 264
+#     move-object/from16 v0, p0
+#
+#     iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
+#
+#     new-instance v4, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v5, "DID_DISPLAY event for package="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, " banner key="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ", slot count="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     move-object/from16 v0, p0
+#
+#     iget v5, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d:I
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     move-object/from16 v17, p0
+#
+#     move-object/from16 v18, v6
+#
+#     move-object/from16 v19, v2
+#
+#     move-object/from16 v20, v11
+#
+#     move-object/from16 v21, v13
+#
+#     move-wide/from16 v22, v14
+#
+#     .line 265
+#     invoke-direct/range {v17 .. v23}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/d;Ljava/lang/String;Landroid/os/Bundle;J)V
+#
+#     goto/16 :goto_0
+#
+#     .line 267
+#     :cond_11
+#     const-string v3, "DID_FAIL_DISPLAY"
+#
+#     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_0
+#
+#     .line 268
+#     if-eqz v6, :cond_0
+#
+#     move-object/from16 v0, p0
+#
+#     invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_0
+#
+#     .line 269
+#     move-object/from16 v0, p0
+#
+#     iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a:Ljava/lang/String;
+#
+#     new-instance v4, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v5, "DID_FAIL_DISPLAY event for package="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, " banner key="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ", slot count="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     move-object/from16 v0, p0
+#
+#     iget v5, v0, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->d:I
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 270
+#     move-object/from16 v0, p0
+#
+#     invoke-direct {v0, v2}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Lcom/safedk/android/analytics/brandsafety/d;)V
+#     :try_end_2
+#     .catchall {:try_start_2 .. :try_end_2} :catchall_0
+#
+#     goto/16 :goto_0
+# .end method

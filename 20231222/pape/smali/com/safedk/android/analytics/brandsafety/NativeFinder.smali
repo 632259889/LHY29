@@ -30,7 +30,7 @@
             "Ljava/lang/String;",
             "Ljava/lang/ref/WeakReference",
             "<",
-            "Lcom/applovin/mediation/nativeAds/MaxNativeAdView;",
+            # "Lcom/applovin/mediation/nativeAds/MaxNativeAdView;",
             ">;>;"
         }
     .end annotation
@@ -155,7 +155,7 @@
     return-void
 .end method
 
-.method private static a(Landroid/view/ViewGroup;Ljava/lang/String;Ljava/util/List;Ljava/util/List;I)Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
+.method private static a(Landroid/view/ViewGroup;Ljava/lang/String;Ljava/util/List;Ljava/util/List;I)Ljava/lang/Object;#com/applovin/mediation/nativeAds/MaxNativeAdView
     .locals 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -169,8 +169,8 @@
             "Ljava/util/List",
             "<",
             "Ljava/lang/String;",
-            ">;I)",
-            "Lcom/applovin/mediation/nativeAds/MaxNativeAdView;"
+            ">;I)"
+            # "Lcom/applovin/mediation/nativeAds/MaxNativeAdView;"
         }
     .end annotation
 
@@ -248,7 +248,7 @@
     invoke-interface {p3, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 421
-    instance-of v5, v0, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
+    instance-of v5, v0, Ljava/lang/Object;#com/applovin/mediation/nativeAds/MaxNativeAdView
 
     if-eqz v5, :cond_1
 
@@ -268,7 +268,7 @@
     if-eqz v5, :cond_3
 
     .line 425
-    check-cast v0, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
+    check-cast v0, Ljava/lang/Objectj;#com/applovin/mediation/nativeAds/MaxNativeAdView
 
     :goto_1
     move-object v1, v0
@@ -291,7 +291,7 @@
     .line 428
     check-cast v0, Landroid/view/ViewGroup;
 
-    invoke-static {v0, p1, p2, p3, v3}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Landroid/view/ViewGroup;Ljava/lang/String;Ljava/util/List;Ljava/util/List;I)Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
+    invoke-static {v0, p1, p2, p3, v3}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Landroid/view/ViewGroup;Ljava/lang/String;Ljava/util/List;Ljava/util/List;I)Ljava/lang/Objectj;#com/applovin/mediation/nativeAds/MaxNativeAdView
 
     move-result-object v0
 
@@ -313,7 +313,7 @@
     goto :goto_1
 .end method
 
-.method private declared-synchronized a(Ljava/lang/String;Ljava/util/List;Ljava/util/List;)Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
+.method private declared-synchronized a(Ljava/lang/String;Ljava/util/List;Ljava/util/List;)Ljava/lang/Objectj;#com/applovin/mediation/nativeAds/MaxNativeAdView
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -326,8 +326,8 @@
             "Ljava/util/List",
             "<",
             "Ljava/lang/String;",
-            ">;)",
-            "Lcom/applovin/mediation/nativeAds/MaxNativeAdView;"
+            ">;)"
+            # "Lcom/applovin/mediation/nativeAds/MaxNativeAdView;"
         }
     .end annotation
 
@@ -426,7 +426,7 @@
 
     const/4 v1, 0x1
 
-    invoke-static {v0, p1, p2, p3, v1}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Landroid/view/ViewGroup;Ljava/lang/String;Ljava/util/List;Ljava/util/List;I)Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
+    invoke-static {v0, p1, p2, p3, v1}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Landroid/view/ViewGroup;Ljava/lang/String;Ljava/util/List;Ljava/util/List;I)Ljava/lang/Objectj;#com/applovin/mediation/nativeAds/MaxNativeAdView
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -777,7 +777,7 @@
     goto :goto_5
 .end method
 
-.method public static a(Lcom/applovin/mediation/nativeAds/MaxNativeAdView;)Ljava/lang/String;
+.method public static a(Ljava/lang/Object;)Ljava/lang/String;#com/applovin/mediation/nativeAds/MaxNativeAdView
     .locals 2
 
     .prologue
@@ -2224,9 +2224,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
+    check-cast v2, Ljava/lang/Object;#com/applovin/mediation/nativeAds/MaxNativeAdView
 
-    invoke-virtual {v2}, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {v2}, Ljava/lang/Object;->getParent()Landroid/view/ViewParent;#com/applovin/mediation/nativeAds/MaxNativeAdView
 
     move-result-object v2
 
@@ -2519,7 +2519,7 @@
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
     .line 223
-    invoke-direct {p0, v1, v2, v3}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Ljava/lang/String;Ljava/util/List;Ljava/util/List;)Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
+    invoke-direct {p0, v1, v2, v3}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Ljava/lang/String;Ljava/util/List;Ljava/util/List;)Ljava/lang/Object;#com/applovin/mediation/nativeAds/MaxNativeAdView
 
     move-result-object v5
 
@@ -2594,7 +2594,7 @@
 
     iget-object v6, p4, Lcom/safedk/android/analytics/brandsafety/d;->d:Ljava/lang/String;
 
-    invoke-virtual {p0, v3, v6, v5}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Ljava/lang/String;Ljava/lang/String;Lcom/applovin/mediation/nativeAds/MaxNativeAdView;)V
+    # invoke-virtual {p0, v3, v6, v5}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Ljava/lang/String;Ljava/lang/String;Lcom/applovin/mediation/nativeAds/MaxNativeAdView;)V
 
     move-object v3, v0
 
@@ -4474,109 +4474,109 @@
     return-void
 .end method
 
-.method public a(Ljava/lang/String;Ljava/lang/String;Lcom/applovin/mediation/nativeAds/MaxNativeAdView;)V
-    .locals 4
-
-    .prologue
-    .line 392
-    if-eqz p1, :cond_0
-
-    if-eqz p2, :cond_0
-
-    if-eqz p3, :cond_0
-
-    .line 393
-    invoke-static {p3}, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->a(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v0
-
-    .line 394
-    sget-object v1, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->K:Ljava/util/Map;
-
-    new-instance v2, Ljava/lang/ref/WeakReference;
-
-    invoke-direct {v2, p3}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
-
-    invoke-interface {v1, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 395
-    sget-object v1, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->L:Ljava/util/Map;
-
-    invoke-interface {v1, v0, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 396
-    const-string v1, "NativeFinder"
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "add native ad view: "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v3, ", eventId: "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v3, ", adViewAddress: "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    const-string v2, ", sdk: "
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    const-string v2, ", list size: "
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    sget-object v2, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->K:Ljava/util/Map;
-
-    invoke-interface {v2}, Ljava/util/Map;->size()I
-
-    move-result v2
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v1, v0}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 398
-    :cond_0
-    return-void
-.end method
+# .method public a(Ljava/lang/String;Ljava/lang/String;Lcom/applovin/mediation/nativeAds/MaxNativeAdView;)V
+#     .locals 4
+#
+#     .prologue
+#     .line 392
+#     if-eqz p1, :cond_0
+#
+#     if-eqz p2, :cond_0
+#
+#     if-eqz p3, :cond_0
+#
+#     .line 393
+#     invoke-static {p3}, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->a(Ljava/lang/Object;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     .line 394
+#     sget-object v1, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->K:Ljava/util/Map;
+#
+#     new-instance v2, Ljava/lang/ref/WeakReference;
+#
+#     invoke-direct {v2, p3}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+#
+#     invoke-interface {v1, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     .line 395
+#     sget-object v1, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->L:Ljava/util/Map;
+#
+#     invoke-interface {v1, v0, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     .line 396
+#     const-string v1, "NativeFinder"
+#
+#     new-instance v2, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v3, "add native ad view: "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v3, ", eventId: "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v3, ", adViewAddress: "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v0
+#
+#     const-string v2, ", sdk: "
+#
+#     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v0
+#
+#     const-string v2, ", list size: "
+#
+#     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v0
+#
+#     sget-object v2, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->K:Ljava/util/Map;
+#
+#     invoke-interface {v2}, Ljava/util/Map;->size()I
+#
+#     move-result v2
+#
+#     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     invoke-static {v1, v0}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 398
+#     :cond_0
+#     return-void
+# .end method
 
 .method public a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
@@ -5069,942 +5069,942 @@
     return-void
 .end method
 
-.method public onMessageReceived(Lcom/applovin/communicator/AppLovinCommunicatorMessage;)V
-    .locals 19
-    .param p1, "message"    # Lcom/applovin/communicator/AppLovinCommunicatorMessage;
-
-    .prologue
-    .line 68
-    invoke-static {}, Lcom/safedk/android/SafeDK;->getInstance()Lcom/safedk/android/SafeDK;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Lcom/safedk/android/SafeDK;->o()Z
-
-    move-result v2
-
-    if-eqz v2, :cond_0
-
-    invoke-static {}, Lcom/safedk/android/SafeDK;->getInstance()Lcom/safedk/android/SafeDK;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Lcom/safedk/android/SafeDK;->q()Z
-
-    move-result v2
-
-    if-nez v2, :cond_1
-
-    .line 157
-    :cond_0
-    :goto_0
-    return-void
-
-    .line 73
-    :cond_1
-    :try_start_0
-    invoke-virtual/range {p1 .. p1}, Lcom/applovin/communicator/AppLovinCommunicatorMessage;->getMessageData()Landroid/os/Bundle;
-
-    move-result-object v15
-
-    .line 77
-    const-string v2, "revenue_event"
-
-    invoke-virtual {v15, v2}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_5
-
-    const-string v2, "ad_format"
-
-    invoke-virtual {v15, v2}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_5
-
-    move-object/from16 v0, p0
-
-    iget-object v2, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->b:Ljava/util/List;
-
-    const-string v3, "ad_format"
-
-    invoke-virtual {v15, v3}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-interface {v2, v3}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_5
-
-    .line 78
-    const-string v2, "NativeFinder"
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v4, "Revenue event detected : "
-
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v3
-
-    invoke-virtual {v3, v15}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-static {v2, v3}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 79
-    const-string v2, "revenue_event"
-
-    move-object v8, v2
-
-    .line 84
-    :goto_1
-    const-string v2, "ad_format"
-
-    invoke-virtual {v15, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v9
-
-    .line 85
-    const-string v2, "third_party_ad_placement_id"
-
-    invoke-virtual {v15, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
-
-    .line 86
-    const-string v2, "max_ad_unit_id"
-
-    invoke-virtual {v15, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v3
-
-    .line 87
-    const-string v2, "ad_view"
-
-    invoke-virtual {v15, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v2}, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->j(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v14
-
-    .line 89
-    const-string v2, "id"
-
-    const/4 v5, 0x0
-
-    invoke-virtual {v15, v2, v5}, Landroid/os/Bundle;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v5
-
-    .line 90
-    if-nez v5, :cond_2
-
-    .line 91
-    const-string v2, "NativeFinder"
-
-    const-string v6, "No eventId in data bundle, cannot match"
-
-    invoke-static {v2, v6}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 94
-    :cond_2
-    const-string v2, "network_name"
-
-    invoke-virtual {v15, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v7
-
-    .line 95
-    invoke-static {v7}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->b(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v6
-
-    .line 96
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    move-result-wide v16
-
-    .line 97
-    invoke-static/range {v16 .. v17}, Lcom/safedk/android/utils/l;->b(J)J
-
-    move-result-wide v10
-
-    .line 100
-    const/4 v12, 0x0
-
-    .line 101
-    const-string v2, "creative_id"
-
-    invoke-virtual {v15, v2}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_3
-
-    .line 102
-    const-string v2, "creative_id"
-
-    invoke-virtual {v15, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v12
-
-    .line 105
-    :cond_3
-    move-object/from16 v0, p0
-
-    iget-object v2, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->b:Ljava/util/List;
-
-    invoke-interface {v2, v9}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_0
-
-    .line 107
-    const-string v2, "NativeFinder"
-
-    new-instance v13, Ljava/lang/StringBuilder;
-
-    invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v18, "Max message received, package: "
-
-    move-object/from16 v0, v18
-
-    invoke-virtual {v13, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v13
-
-    invoke-virtual {v13, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v13
-
-    const-string v18, ", ts (seconds): "
-
-    move-object/from16 v0, v18
-
-    invoke-virtual {v13, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v13
-
-    invoke-virtual {v13, v10, v11}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
-    move-result-object v10
-
-    const-string v11, ", message received: "
-
-    invoke-virtual {v10, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v10
-
-    invoke-virtual/range {p1 .. p1}, Lcom/applovin/communicator/AppLovinCommunicatorMessage;->getMessageData()Landroid/os/Bundle;
-
-    move-result-object v11
-
-    invoke-virtual {v10, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v10
-
-    invoke-virtual {v10}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v10
-
-    invoke-static {v2, v10}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 108
-    new-instance v2, Lcom/safedk/android/analytics/brandsafety/d;
-
-    invoke-direct/range {v2 .. v7}, Lcom/safedk/android/analytics/brandsafety/d;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 110
-    const-string v3, "WILL_DISPLAY"
-
-    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_6
-
-    .line 111
-    if-eqz v6, :cond_4
-
-    move-object/from16 v0, p0
-
-    invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_4
-
-    .line 112
-    const-string v3, "NativeFinder"
-
-    new-instance v8, Ljava/lang/StringBuilder;
-
-    invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v10, "WILL_DISPLAY event for package="
-
-    invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    const-string v10, ", key="
-
-    invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    const-string v10, ", view address="
-
-    invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8, v14}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    const-string v10, ", slot count="
-
-    invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    move-object/from16 v0, p0
-
-    iget v10, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->d:I
-
-    invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v8
-
-    invoke-static {v3, v8}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 113
-    invoke-static {v6, v4, v12, v5, v9}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    :cond_4
-    move-object/from16 v9, p0
-
-    move-object v10, v7
-
-    move-object v11, v6
-
-    move-object v13, v2
-
-    .line 115
-    invoke-direct/range {v9 .. v17}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/d;Ljava/lang/String;Landroid/os/Bundle;J)V
-    :try_end_0
-    .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto/16 :goto_0
-
-    .line 154
-    :catch_0
-    move-exception v2
-
-    .line 155
-    const-string v3, "NativeFinder"
-
-    const-string v4, "on message received exception"
-
-    invoke-static {v3, v4, v2}, Lcom/safedk/android/utils/Logger;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
-
-    goto/16 :goto_0
-
-    .line 81
-    :cond_5
-    :try_start_1
-    const-string v2, "type"
-
-    invoke-virtual {v15, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v2
-
-    move-object v8, v2
-
-    goto/16 :goto_1
-
-    .line 116
-    :cond_6
-    const-string v3, "revenue_event"
-
-    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_8
-
-    .line 117
-    if-eqz v6, :cond_7
-
-    move-object/from16 v0, p0
-
-    invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_7
-
-    .line 118
-    const-string v3, "NativeFinder"
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "REVENUE_EVENT event for package="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ", key="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ", view address="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v14}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ", slot count="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    move-object/from16 v0, p0
-
-    iget v5, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->d:I
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    :cond_7
-    move-object/from16 v9, p0
-
-    move-object v10, v7
-
-    move-object v11, v6
-
-    move-object v13, v2
-
-    .line 120
-    invoke-direct/range {v9 .. v15}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/d;Ljava/lang/String;Landroid/os/Bundle;)V
-
-    goto/16 :goto_0
-
-    .line 121
-    :cond_8
-    const-string v3, "DID_CLICKED"
-
-    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_a
-
-    .line 122
-    move-object/from16 v0, p0
-
-    invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    .line 123
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->I:Ljava/util/Map;
-
-    invoke-interface {v3, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v3
-
-    check-cast v3, Lcom/safedk/android/analytics/brandsafety/s;
-
-    .line 124
-    if-eqz v3, :cond_0
-
-    .line 125
-    const-string v3, "NativeFinder"
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "DID_CLICKED event for package="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    if-nez v6, :cond_9
-
-    :goto_2
-    invoke-virtual {v4, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ", slot count="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    move-object/from16 v0, p0
-
-    iget v5, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->d:I
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 126
-    move-object/from16 v0, p0
-
-    invoke-direct {v0, v2}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->c(Lcom/safedk/android/analytics/brandsafety/d;)V
-
-    goto/16 :goto_0
-
-    :cond_9
-    move-object v7, v6
-
-    .line 125
-    goto :goto_2
-
-    .line 129
-    :cond_a
-    const-string v3, "WILL_LOAD"
-
-    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_b
-
-    .line 130
-    if-eqz v6, :cond_0
-
-    move-object/from16 v0, p0
-
-    invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    .line 131
-    const-string v3, "NativeFinder"
-
-    new-instance v5, Ljava/lang/StringBuilder;
-
-    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v7, "WILL_LOAD event for package="
-
-    invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    const-string v7, ", key="
-
-    invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v5, ", slot count="
-
-    invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    move-object/from16 v0, p0
-
-    iget v5, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->d:I
-
-    invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v3, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 132
-    invoke-static {v6, v4}, Lcom/safedk/android/analytics/brandsafety/creatives/e;->b(Ljava/lang/String;Ljava/lang/String;)V
-
-    goto/16 :goto_0
-
-    .line 134
-    :cond_b
-    const-string v3, "DID_HIDE"
-
-    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_c
-
-    .line 135
-    if-eqz v6, :cond_0
-
-    move-object/from16 v0, p0
-
-    invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    .line 136
-    const-string v3, "NativeFinder"
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "DID_HIDE event for package="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ", key="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ", slot count="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    move-object/from16 v0, p0
-
-    iget v5, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->d:I
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 137
-    move-object/from16 v0, p0
-
-    invoke-direct {v0, v2}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Lcom/safedk/android/analytics/brandsafety/d;)V
-
-    goto/16 :goto_0
-
-    .line 139
-    :cond_c
-    const-string v3, "DID_LOAD"
-
-    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_d
-
-    .line 140
-    if-eqz v6, :cond_0
-
-    move-object/from16 v0, p0
-
-    invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    .line 141
-    const-string v3, "NativeFinder"
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "DID_LOAD event for package="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ", key="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v4, ", slot count="
-
-    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    move-object/from16 v0, p0
-
-    iget v4, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->d:I
-
-    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v3, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    goto/16 :goto_0
-
-    .line 143
-    :cond_d
-    const-string v3, "DID_DISPLAY"
-
-    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_e
-
-    .line 144
-    if-eqz v6, :cond_0
-
-    move-object/from16 v0, p0
-
-    invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    .line 145
-    const-string v3, "NativeFinder"
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "DID_DISPLAY event for package="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ", key="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ", slot count="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    move-object/from16 v0, p0
-
-    iget v5, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->d:I
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    move-object/from16 v5, p0
-
-    move-object v7, v2
-
-    move-object v8, v12
-
-    move-object v9, v15
-
-    move-wide/from16 v10, v16
-
-    .line 146
-    invoke-direct/range {v5 .. v11}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/d;Ljava/lang/String;Landroid/os/Bundle;J)V
-
-    goto/16 :goto_0
-
-    .line 148
-    :cond_e
-    const-string v3, "DID_FAIL_DISPLAY"
-
-    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    .line 149
-    if-eqz v6, :cond_0
-
-    move-object/from16 v0, p0
-
-    invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_0
-
-    .line 150
-    const-string v3, "NativeFinder"
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v5, "DID_FAIL_DISPLAY event for package="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ", key="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, ", slot count="
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    move-object/from16 v0, p0
-
-    iget v5, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->d:I
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 151
-    move-object/from16 v0, p0
-
-    invoke-direct {v0, v2}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->b(Lcom/safedk/android/analytics/brandsafety/d;)V
-    :try_end_1
-    .catch Ljava/lang/Throwable; {:try_start_1 .. :try_end_1} :catch_0
-
-    goto/16 :goto_0
-.end method
+# .method public onMessageReceived(Lcom/applovin/communicator/AppLovinCommunicatorMessage;)V
+#     .locals 19
+#     .param p1, "message"    # Lcom/applovin/communicator/AppLovinCommunicatorMessage;
+#
+#     .prologue
+#     .line 68
+#     invoke-static {}, Lcom/safedk/android/SafeDK;->getInstance()Lcom/safedk/android/SafeDK;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Lcom/safedk/android/SafeDK;->o()Z
+#
+#     move-result v2
+#
+#     if-eqz v2, :cond_0
+#
+#     invoke-static {}, Lcom/safedk/android/SafeDK;->getInstance()Lcom/safedk/android/SafeDK;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Lcom/safedk/android/SafeDK;->q()Z
+#
+#     move-result v2
+#
+#     if-nez v2, :cond_1
+#
+#     .line 157
+#     :cond_0
+#     :goto_0
+#     return-void
+#
+#     .line 73
+#     :cond_1
+#     :try_start_0
+#     invoke-virtual/range {p1 .. p1}, Lcom/applovin/communicator/AppLovinCommunicatorMessage;->getMessageData()Landroid/os/Bundle;
+#
+#     move-result-object v15
+#
+#     .line 77
+#     const-string v2, "revenue_event"
+#
+#     invoke-virtual {v15, v2}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
+#
+#     move-result v2
+#
+#     if-eqz v2, :cond_5
+#
+#     const-string v2, "ad_format"
+#
+#     invoke-virtual {v15, v2}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
+#
+#     move-result v2
+#
+#     if-eqz v2, :cond_5
+#
+#     move-object/from16 v0, p0
+#
+#     iget-object v2, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->b:Ljava/util/List;
+#
+#     const-string v3, "ad_format"
+#
+#     invoke-virtual {v15, v3}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     invoke-interface {v2, v3}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+#
+#     move-result v2
+#
+#     if-eqz v2, :cond_5
+#
+#     .line 78
+#     const-string v2, "NativeFinder"
+#
+#     new-instance v3, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v4, "Revenue event detected : "
+#
+#     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v3
+#
+#     invoke-virtual {v3, v15}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v3
+#
+#     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     invoke-static {v2, v3}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 79
+#     const-string v2, "revenue_event"
+#
+#     move-object v8, v2
+#
+#     .line 84
+#     :goto_1
+#     const-string v2, "ad_format"
+#
+#     invoke-virtual {v15, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v9
+#
+#     .line 85
+#     const-string v2, "third_party_ad_placement_id"
+#
+#     invoke-virtual {v15, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     .line 86
+#     const-string v2, "max_ad_unit_id"
+#
+#     invoke-virtual {v15, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     .line 87
+#     const-string v2, "ad_view"
+#
+#     invoke-virtual {v15, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v2}, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->j(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v14
+#
+#     .line 89
+#     const-string v2, "id"
+#
+#     const/4 v5, 0x0
+#
+#     invoke-virtual {v15, v2, v5}, Landroid/os/Bundle;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v5
+#
+#     .line 90
+#     if-nez v5, :cond_2
+#
+#     .line 91
+#     const-string v2, "NativeFinder"
+#
+#     const-string v6, "No eventId in data bundle, cannot match"
+#
+#     invoke-static {v2, v6}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 94
+#     :cond_2
+#     const-string v2, "network_name"
+#
+#     invoke-virtual {v15, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v7
+#
+#     .line 95
+#     invoke-static {v7}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->b(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v6
+#
+#     .line 96
+#     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+#
+#     move-result-wide v16
+#
+#     .line 97
+#     invoke-static/range {v16 .. v17}, Lcom/safedk/android/utils/l;->b(J)J
+#
+#     move-result-wide v10
+#
+#     .line 100
+#     const/4 v12, 0x0
+#
+#     .line 101
+#     const-string v2, "creative_id"
+#
+#     invoke-virtual {v15, v2}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
+#
+#     move-result v2
+#
+#     if-eqz v2, :cond_3
+#
+#     .line 102
+#     const-string v2, "creative_id"
+#
+#     invoke-virtual {v15, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v12
+#
+#     .line 105
+#     :cond_3
+#     move-object/from16 v0, p0
+#
+#     iget-object v2, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->b:Ljava/util/List;
+#
+#     invoke-interface {v2, v9}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+#
+#     move-result v2
+#
+#     if-eqz v2, :cond_0
+#
+#     .line 107
+#     const-string v2, "NativeFinder"
+#
+#     new-instance v13, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v18, "Max message received, package: "
+#
+#     move-object/from16 v0, v18
+#
+#     invoke-virtual {v13, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v13
+#
+#     invoke-virtual {v13, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v13
+#
+#     const-string v18, ", ts (seconds): "
+#
+#     move-object/from16 v0, v18
+#
+#     invoke-virtual {v13, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v13
+#
+#     invoke-virtual {v13, v10, v11}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+#
+#     move-result-object v10
+#
+#     const-string v11, ", message received: "
+#
+#     invoke-virtual {v10, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v10
+#
+#     invoke-virtual/range {p1 .. p1}, Lcom/applovin/communicator/AppLovinCommunicatorMessage;->getMessageData()Landroid/os/Bundle;
+#
+#     move-result-object v11
+#
+#     invoke-virtual {v10, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v10
+#
+#     invoke-virtual {v10}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v10
+#
+#     invoke-static {v2, v10}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 108
+#     new-instance v2, Lcom/safedk/android/analytics/brandsafety/d;
+#
+#     invoke-direct/range {v2 .. v7}, Lcom/safedk/android/analytics/brandsafety/d;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 110
+#     const-string v3, "WILL_DISPLAY"
+#
+#     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_6
+#
+#     .line 111
+#     if-eqz v6, :cond_4
+#
+#     move-object/from16 v0, p0
+#
+#     invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_4
+#
+#     .line 112
+#     const-string v3, "NativeFinder"
+#
+#     new-instance v8, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v10, "WILL_DISPLAY event for package="
+#
+#     invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v8
+#
+#     invoke-virtual {v8, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v8
+#
+#     const-string v10, ", key="
+#
+#     invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v8
+#
+#     invoke-virtual {v8, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v8
+#
+#     const-string v10, ", view address="
+#
+#     invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v8
+#
+#     invoke-virtual {v8, v14}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v8
+#
+#     const-string v10, ", slot count="
+#
+#     invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v8
+#
+#     move-object/from16 v0, p0
+#
+#     iget v10, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->d:I
+#
+#     invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v8
+#
+#     invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v8
+#
+#     invoke-static {v3, v8}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 113
+#     invoke-static {v6, v4, v12, v5, v9}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+#
+#     :cond_4
+#     move-object/from16 v9, p0
+#
+#     move-object v10, v7
+#
+#     move-object v11, v6
+#
+#     move-object v13, v2
+#
+#     .line 115
+#     invoke-direct/range {v9 .. v17}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/d;Ljava/lang/String;Landroid/os/Bundle;J)V
+#     :try_end_0
+#     .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
+#
+#     goto/16 :goto_0
+#
+#     .line 154
+#     :catch_0
+#     move-exception v2
+#
+#     .line 155
+#     const-string v3, "NativeFinder"
+#
+#     const-string v4, "on message received exception"
+#
+#     invoke-static {v3, v4, v2}, Lcom/safedk/android/utils/Logger;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+#
+#     goto/16 :goto_0
+#
+#     .line 81
+#     :cond_5
+#     :try_start_1
+#     const-string v2, "type"
+#
+#     invoke-virtual {v15, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     move-object v8, v2
+#
+#     goto/16 :goto_1
+#
+#     .line 116
+#     :cond_6
+#     const-string v3, "revenue_event"
+#
+#     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_8
+#
+#     .line 117
+#     if-eqz v6, :cond_7
+#
+#     move-object/from16 v0, p0
+#
+#     invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_7
+#
+#     .line 118
+#     const-string v3, "NativeFinder"
+#
+#     new-instance v4, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v5, "REVENUE_EVENT event for package="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ", key="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ", view address="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v14}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ", slot count="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     move-object/from16 v0, p0
+#
+#     iget v5, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->d:I
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     :cond_7
+#     move-object/from16 v9, p0
+#
+#     move-object v10, v7
+#
+#     move-object v11, v6
+#
+#     move-object v13, v2
+#
+#     .line 120
+#     invoke-direct/range {v9 .. v15}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/d;Ljava/lang/String;Landroid/os/Bundle;)V
+#
+#     goto/16 :goto_0
+#
+#     .line 121
+#     :cond_8
+#     const-string v3, "DID_CLICKED"
+#
+#     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_a
+#
+#     .line 122
+#     move-object/from16 v0, p0
+#
+#     invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_0
+#
+#     .line 123
+#     move-object/from16 v0, p0
+#
+#     iget-object v3, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->I:Ljava/util/Map;
+#
+#     invoke-interface {v3, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     move-result-object v3
+#
+#     check-cast v3, Lcom/safedk/android/analytics/brandsafety/s;
+#
+#     .line 124
+#     if-eqz v3, :cond_0
+#
+#     .line 125
+#     const-string v3, "NativeFinder"
+#
+#     new-instance v4, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v5, "DID_CLICKED event for package="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     if-nez v6, :cond_9
+#
+#     :goto_2
+#     invoke-virtual {v4, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ", slot count="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     move-object/from16 v0, p0
+#
+#     iget v5, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->d:I
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 126
+#     move-object/from16 v0, p0
+#
+#     invoke-direct {v0, v2}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->c(Lcom/safedk/android/analytics/brandsafety/d;)V
+#
+#     goto/16 :goto_0
+#
+#     :cond_9
+#     move-object v7, v6
+#
+#     .line 125
+#     goto :goto_2
+#
+#     .line 129
+#     :cond_a
+#     const-string v3, "WILL_LOAD"
+#
+#     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_b
+#
+#     .line 130
+#     if-eqz v6, :cond_0
+#
+#     move-object/from16 v0, p0
+#
+#     invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_0
+#
+#     .line 131
+#     const-string v3, "NativeFinder"
+#
+#     new-instance v5, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v7, "WILL_LOAD event for package="
+#
+#     invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v5
+#
+#     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v5
+#
+#     const-string v7, ", key="
+#
+#     invoke-virtual {v5, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v5
+#
+#     invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v5, ", slot count="
+#
+#     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     move-object/from16 v0, p0
+#
+#     iget v5, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->d:I
+#
+#     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v3, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 132
+#     invoke-static {v6, v4}, Lcom/safedk/android/analytics/brandsafety/creatives/e;->b(Ljava/lang/String;Ljava/lang/String;)V
+#
+#     goto/16 :goto_0
+#
+#     .line 134
+#     :cond_b
+#     const-string v3, "DID_HIDE"
+#
+#     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_c
+#
+#     .line 135
+#     if-eqz v6, :cond_0
+#
+#     move-object/from16 v0, p0
+#
+#     invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_0
+#
+#     .line 136
+#     const-string v3, "NativeFinder"
+#
+#     new-instance v4, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v5, "DID_HIDE event for package="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ", key="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ", slot count="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     move-object/from16 v0, p0
+#
+#     iget v5, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->d:I
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 137
+#     move-object/from16 v0, p0
+#
+#     invoke-direct {v0, v2}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Lcom/safedk/android/analytics/brandsafety/d;)V
+#
+#     goto/16 :goto_0
+#
+#     .line 139
+#     :cond_c
+#     const-string v3, "DID_LOAD"
+#
+#     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_d
+#
+#     .line 140
+#     if-eqz v6, :cond_0
+#
+#     move-object/from16 v0, p0
+#
+#     invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_0
+#
+#     .line 141
+#     const-string v3, "NativeFinder"
+#
+#     new-instance v4, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v5, "DID_LOAD event for package="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ", key="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v4, ", slot count="
+#
+#     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     move-object/from16 v0, p0
+#
+#     iget v4, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->d:I
+#
+#     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v3, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     goto/16 :goto_0
+#
+#     .line 143
+#     :cond_d
+#     const-string v3, "DID_DISPLAY"
+#
+#     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_e
+#
+#     .line 144
+#     if-eqz v6, :cond_0
+#
+#     move-object/from16 v0, p0
+#
+#     invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_0
+#
+#     .line 145
+#     const-string v3, "NativeFinder"
+#
+#     new-instance v4, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v5, "DID_DISPLAY event for package="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ", key="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ", slot count="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     move-object/from16 v0, p0
+#
+#     iget v5, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->d:I
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     move-object/from16 v5, p0
+#
+#     move-object v7, v2
+#
+#     move-object v8, v12
+#
+#     move-object v9, v15
+#
+#     move-wide/from16 v10, v16
+#
+#     .line 146
+#     invoke-direct/range {v5 .. v11}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/d;Ljava/lang/String;Landroid/os/Bundle;J)V
+#
+#     goto/16 :goto_0
+#
+#     .line 148
+#     :cond_e
+#     const-string v3, "DID_FAIL_DISPLAY"
+#
+#     invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_0
+#
+#     .line 149
+#     if-eqz v6, :cond_0
+#
+#     move-object/from16 v0, p0
+#
+#     invoke-virtual {v0, v7, v6}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->f(Ljava/lang/String;Ljava/lang/String;)Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_0
+#
+#     .line 150
+#     const-string v3, "NativeFinder"
+#
+#     new-instance v4, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v5, "DID_FAIL_DISPLAY event for package="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ", key="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     const-string v5, ", slot count="
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     move-object/from16 v0, p0
+#
+#     iget v5, v0, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->d:I
+#
+#     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v3, v4}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 151
+#     move-object/from16 v0, p0
+#
+#     invoke-direct {v0, v2}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->b(Lcom/safedk/android/analytics/brandsafety/d;)V
+#     :try_end_1
+#     .catch Ljava/lang/Throwable; {:try_start_1 .. :try_end_1} :catch_0
+#
+#     goto/16 :goto_0
+# .end method

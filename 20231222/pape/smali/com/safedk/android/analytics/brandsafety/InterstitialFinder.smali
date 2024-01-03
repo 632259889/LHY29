@@ -15890,957 +15890,957 @@
     return-void
 .end method
 
-.method public declared-synchronized onMessageReceived(Lcom/applovin/communicator/AppLovinCommunicatorMessage;)V
-    .locals 14
-    .param p1, "message"    # Lcom/applovin/communicator/AppLovinCommunicatorMessage;
-
-    .prologue
-    const/4 v6, 0x0
-
-    .line 291
-    monitor-enter p0
-
-    :try_start_0
-    invoke-static {}, Lcom/safedk/android/SafeDK;->getInstance()Lcom/safedk/android/SafeDK;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/safedk/android/SafeDK;->o()Z
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    move-result v0
-
-    if-nez v0, :cond_1
-
-    .line 417
-    :cond_0
-    :goto_0
-    monitor-exit p0
-
-    return-void
-
-    .line 294
-    :cond_1
-    :try_start_1
-    invoke-virtual {p1}, Lcom/applovin/communicator/AppLovinCommunicatorMessage;->getMessageData()Landroid/os/Bundle;
-
-    move-result-object v9
-
-    .line 296
-    const-string v0, "revenue_event"
-
-    invoke-virtual {v9, v0}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    const-string v0, "ad_format"
-
-    invoke-virtual {v9, v0}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    iget-object v0, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->b:Ljava/util/List;
-
-    const-string v1, "ad_format"
-
-    invoke-virtual {v9, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-interface {v0, v1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    .line 297
-    const-string v0, "InterstitialFinder"
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "Revenue event detected : "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v9}, Landroid/os/Bundle;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 298
-    invoke-virtual {p0, v9}, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->a(Landroid/os/Bundle;)V
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    goto :goto_0
-
-    .line 291
-    :catchall_0
-    move-exception v0
-
-    monitor-exit p0
-
-    throw v0
-
-    .line 302
-    :cond_2
-    :try_start_2
-    const-string v0, "type"
-
-    invoke-virtual {v9, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    .line 303
-    const-string v0, "ad_format"
-
-    invoke-virtual {v9, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
-
-    .line 304
-    const-string v0, "third_party_ad_placement_id"
-
-    invoke-virtual {v9, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v10
-
-    .line 305
-    const-string v0, "network_name"
-
-    invoke-virtual {v9, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v5
-
-    .line 306
-    const-string v0, "dsp_name"
-
-    invoke-virtual {v9, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v7
-
-    .line 307
-    invoke-static {v5}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->b(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v8
-
-    .line 308
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    move-result-wide v2
-
-    .line 309
-    invoke-static {v2, v3}, Lcom/safedk/android/utils/l;->b(J)J
-
-    move-result-wide v2
-
-    .line 313
-    const-string v0, "creative_id"
-
-    invoke-virtual {v9, v0}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_3
-
-    .line 314
-    const-string v0, "creative_id"
-
-    invoke-virtual {v9, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v6
-
-    .line 316
-    :cond_3
-    new-instance v0, Lcom/safedk/android/analytics/events/MaxEvent;
-
-    invoke-direct/range {v0 .. v7}, Lcom/safedk/android/analytics/events/MaxEvent;-><init>(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 318
-    invoke-static {}, Lcom/safedk/android/analytics/brandsafety/p;->a()Lcom/safedk/android/analytics/brandsafety/p;
-
-    move-result-object v7
-
-    invoke-virtual {v7, v0}, Lcom/safedk/android/analytics/brandsafety/p;->a(Lcom/safedk/android/analytics/events/MaxEvent;)V
-
-    .line 320
-    iget-object v7, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->b:Ljava/util/List;
-
-    invoke-interface {v7, v4}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
-
-    move-result v7
-
-    .line 322
-    sget-object v11, Lcom/safedk/android/analytics/brandsafety/creatives/AdNetworkConfiguration;->J:Lcom/safedk/android/analytics/brandsafety/creatives/AdNetworkConfiguration;
-
-    const/4 v12, 0x0
-
-    invoke-static {v8, v11, v12}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->a(Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/creatives/AdNetworkConfiguration;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v11
-
-    .line 326
-    if-eqz v7, :cond_4
-
-    if-eqz v5, :cond_4
-
-    invoke-virtual {v5, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v12
-
-    if-eqz v12, :cond_4
-
-    .line 327
-    const-string v0, "InterstitialFinder"
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "full screen type but ad network not supported ("
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    const-string v2, ")"
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    goto/16 :goto_0
-
-    .line 332
-    :cond_4
-    const-string v11, "id"
-
-    const/4 v12, 0x0
-
-    invoke-virtual {v9, v11, v12}, Landroid/os/Bundle;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v11
-
-    .line 333
-    if-nez v11, :cond_5
-
-    .line 334
-    const-string v12, "InterstitialFinder"
-
-    const-string v13, "No eventId in data bundle."
-
-    invoke-static {v12, v13}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 337
-    :cond_5
-    if-eqz v7, :cond_0
-
-    .line 341
-    const-string v7, "InterstitialFinder"
-
-    new-instance v12, Ljava/lang/StringBuilder;
-
-    invoke-direct {v12}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v13, "Max message received, package: "
-
-    invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v12
-
-    invoke-virtual {v12, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v12
-
-    const-string v13, ", ts (seconds): "
-
-    invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v12
-
-    invoke-virtual {v12, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v3, ", message received: "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {p1}, Lcom/applovin/communicator/AppLovinCommunicatorMessage;->getMessageData()Landroid/os/Bundle;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v7, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 343
-    const-string v2, "WILL_DISPLAY"
-
-    invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_6
-
-    .line 344
-    const-string v1, "InterstitialFinder"
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "adInfoCollectionForUpload count = "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    iget-object v3, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->y:Ljava/util/Map;
-
-    invoke-interface {v3}, Ljava/util/Map;->size()I
-
-    move-result v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v3, " : "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    iget-object v3, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->y:Ljava/util/Map;
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1, v2}, Lcom/safedk/android/utils/l;->b(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 345
-    iget v1, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->d:I
-
-    add-int/lit8 v1, v1, 0x1
-
-    iput v1, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->d:I
-
-    .line 346
-    if-eqz v8, :cond_0
-
-    .line 347
-    invoke-static {}, Lcom/safedk/android/analytics/brandsafety/p;->a()Lcom/safedk/android/analytics/brandsafety/p;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v0}, Lcom/safedk/android/analytics/brandsafety/p;->b(Lcom/safedk/android/analytics/events/MaxEvent;)V
-
-    .line 349
-    const/4 v0, 0x1
-
-    iput-boolean v0, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->E:Z
-
-    .line 350
-    invoke-static {v8}, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->k(Ljava/lang/String;)V
-
-    .line 351
-    new-instance v0, Ljava/util/concurrent/atomic/AtomicReference;
-
-    invoke-direct {v0, v9}, Ljava/util/concurrent/atomic/AtomicReference;-><init>(Ljava/lang/Object;)V
-
-    .line 355
-    invoke-virtual {p0, v8, v0}, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->a(Ljava/lang/String;Ljava/util/concurrent/atomic/AtomicReference;)V
-
-    .line 356
-    const/4 v0, 0x0
-
-    invoke-static {v8, v10, v6, v0, v4}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 357
-    new-instance v0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder$a;
-
-    invoke-direct {v0, p0, v10, v11}, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder$a;-><init>(Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 358
-    const-string v1, "InterstitialFinder"
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "WILL_DISPLAY event for package "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v3, " placement "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v3, " ad_type "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v3, ", activityFullScreenAdKey="
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 359
-    invoke-direct {p0, v8, v0, v11}, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->a(Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/InterstitialFinder$a;Ljava/lang/String;)V
-
-    goto/16 :goto_0
-
-    .line 361
-    :cond_6
-    const-string v0, "DID_CLICKED"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_8
-
-    .line 362
-    iget-object v0, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->C:Lcom/safedk/android/analytics/brandsafety/InterstitialInfoCollection;
-
-    invoke-virtual {v0, v11}, Lcom/safedk/android/analytics/brandsafety/InterstitialInfoCollection;->e(Ljava/lang/String;)Lcom/safedk/android/analytics/brandsafety/n;
-
-    move-result-object v0
-
-    .line 363
-    if-eqz v0, :cond_0
-
-    .line 364
-    const-string v1, "InterstitialFinder"
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "DID_CLICKED event for package "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    if-nez v8, :cond_7
-
-    :goto_1
-    invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 365
-    invoke-direct {p0, v0}, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->b(Lcom/safedk/android/analytics/brandsafety/n;)V
-
-    .line 367
-    invoke-virtual {v0}, Lcom/safedk/android/analytics/brandsafety/n;->e()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_0
-
-    .line 368
-    const-string v1, "onMessageReceived"
-
-    invoke-direct {p0, v0, v1}, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->e(Lcom/safedk/android/analytics/brandsafety/n;Ljava/lang/String;)V
-
-    goto/16 :goto_0
-
-    :cond_7
-    move-object v5, v8
-
-    .line 364
-    goto :goto_1
-
-    .line 371
-    :cond_8
-    const-string v0, "WILL_LOAD"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_9
-
-    .line 372
-    if-eqz v8, :cond_0
-
-    .line 373
-    const-string v0, "InterstitialFinder"
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "WILL_LOAD event for package "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    const-string v2, " placement "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 374
-    invoke-static {v8, v10}, Lcom/safedk/android/analytics/brandsafety/creatives/e;->b(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 375
-    const/4 v0, 0x0
-
-    invoke-static {v8, v10, v6, v0, v4}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    goto/16 :goto_0
-
-    .line 377
-    :cond_9
-    const-string v0, "DID_HIDE"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_a
-
-    .line 378
-    if-eqz v8, :cond_0
-
-    .line 379
-    invoke-static {v8}, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->l(Ljava/lang/String;)V
-
-    .line 380
-    const-string v0, "InterstitialFinder"
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "DID_HIDE event for package "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    const-string v2, " placement "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 381
-    iget-object v0, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->C:Lcom/safedk/android/analytics/brandsafety/InterstitialInfoCollection;
-
-    invoke-virtual {v0, v11}, Lcom/safedk/android/analytics/brandsafety/InterstitialInfoCollection;->e(Ljava/lang/String;)Lcom/safedk/android/analytics/brandsafety/n;
-
-    move-result-object v0
-
-    .line 382
-    if-eqz v0, :cond_0
-
-    .line 383
-    const/4 v1, 0x0
-
-    invoke-virtual {p0, v0, v1}, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->a(Lcom/safedk/android/analytics/brandsafety/n;Ljava/lang/String;)V
-
-    goto/16 :goto_0
-
-    .line 386
-    :cond_a
-    const-string v0, "DID_LOAD"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_b
-
-    .line 387
-    if-eqz v8, :cond_0
-
-    .line 388
-    const-string v0, "InterstitialFinder"
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "DID_LOAD event for package "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    const-string v2, " placement "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    goto/16 :goto_0
-
-    .line 390
-    :cond_b
-    const-string v0, "DID_DISPLAY"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_e
-
-    .line 392
-    if-eqz v8, :cond_0
-
-    .line 393
-    if-eqz v6, :cond_c
-
-    .line 394
-    iget-object v0, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->C:Lcom/safedk/android/analytics/brandsafety/InterstitialInfoCollection;
-
-    invoke-virtual {v0, v11}, Lcom/safedk/android/analytics/brandsafety/InterstitialInfoCollection;->e(Ljava/lang/String;)Lcom/safedk/android/analytics/brandsafety/n;
-
-    move-result-object v0
-
-    .line 395
-    const-string v1, "InterstitialFinder"
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "updateMaxCreativeId currentActivityInterstitial : "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 396
-    if-eqz v0, :cond_c
-
-    .line 397
-    iget-object v1, v0, Lcom/safedk/android/analytics/brandsafety/n;->z:Landroid/os/Bundle;
-
-    if-eqz v1, :cond_d
-
-    iget-object v1, v0, Lcom/safedk/android/analytics/brandsafety/n;->z:Landroid/os/Bundle;
-
-    const-string v2, "id"
-
-    invoke-virtual {v1, v2}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_d
-
-    iget-object v1, v0, Lcom/safedk/android/analytics/brandsafety/n;->z:Landroid/os/Bundle;
-
-    const-string v2, "id"
-
-    .line 398
-    invoke-virtual {v1, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    if-eqz v1, :cond_d
-
-    iget-object v1, v0, Lcom/safedk/android/analytics/brandsafety/n;->z:Landroid/os/Bundle;
-
-    const-string v2, "id"
-
-    .line 399
-    invoke-virtual {v1, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_d
-
-    .line 400
-    const-string v1, "InterstitialFinder"
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "updateMaxCreativeId setting Max creativeId to : "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v3, " for eventId "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 401
-    iput-object v6, v0, Lcom/safedk/android/analytics/brandsafety/n;->L:Ljava/lang/String;
-
-    .line 407
-    :cond_c
-    :goto_2
-    const-string v0, "InterstitialFinder"
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "DID_DISPLAY event for package "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    const-string v2, " placement "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    goto/16 :goto_0
-
-    .line 403
-    :cond_d
-    const-string v0, "InterstitialFinder"
-
-    const-string v1, "updateMaxCreativeId cannot update Max creativeId. event Id check failed."
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    goto :goto_2
-
-    .line 409
-    :cond_e
-    const-string v0, "DID_FAIL_DISPLAY"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    .line 410
-    const-string v0, "InterstitialFinder"
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "DID_FAIL_DISPLAY event for package "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    const-string v2, " placement "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 411
-    iget-object v0, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->C:Lcom/safedk/android/analytics/brandsafety/InterstitialInfoCollection;
-
-    invoke-virtual {v0, v11}, Lcom/safedk/android/analytics/brandsafety/InterstitialInfoCollection;->e(Ljava/lang/String;)Lcom/safedk/android/analytics/brandsafety/n;
-
-    move-result-object v0
-
-    .line 412
-    if-eqz v0, :cond_0
-
-    .line 413
-    const/4 v1, 0x1
-
-    iput-boolean v1, v0, Lcom/safedk/android/analytics/brandsafety/n;->M:Z
-
-    .line 414
-    const/4 v1, 0x0
-
-    invoke-direct {p0, v0, v1}, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->d(Lcom/safedk/android/analytics/brandsafety/n;Ljava/lang/String;)V
-    :try_end_2
-    .catchall {:try_start_2 .. :try_end_2} :catchall_0
-
-    goto/16 :goto_0
-.end method
+# .method public declared-synchronized onMessageReceived(Lcom/applovin/communicator/AppLovinCommunicatorMessage;)V
+#     .locals 14
+#     .param p1, "message"    # Lcom/applovin/communicator/AppLovinCommunicatorMessage;
+#
+#     .prologue
+#     const/4 v6, 0x0
+#
+#     .line 291
+#     monitor-enter p0
+#
+#     :try_start_0
+#     invoke-static {}, Lcom/safedk/android/SafeDK;->getInstance()Lcom/safedk/android/SafeDK;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v0}, Lcom/safedk/android/SafeDK;->o()Z
+#     :try_end_0
+#     .catchall {:try_start_0 .. :try_end_0} :catchall_0
+#
+#     move-result v0
+#
+#     if-nez v0, :cond_1
+#
+#     .line 417
+#     :cond_0
+#     :goto_0
+#     monitor-exit p0
+#
+#     return-void
+#
+#     .line 294
+#     :cond_1
+#     :try_start_1
+#     invoke-virtual {p1}, Lcom/applovin/communicator/AppLovinCommunicatorMessage;->getMessageData()Landroid/os/Bundle;
+#
+#     move-result-object v9
+#
+#     .line 296
+#     const-string v0, "revenue_event"
+#
+#     invoke-virtual {v9, v0}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_2
+#
+#     const-string v0, "ad_format"
+#
+#     invoke-virtual {v9, v0}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_2
+#
+#     iget-object v0, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->b:Ljava/util/List;
+#
+#     const-string v1, "ad_format"
+#
+#     invoke-virtual {v9, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-interface {v0, v1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_2
+#
+#     .line 297
+#     const-string v0, "InterstitialFinder"
+#
+#     new-instance v1, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v2, "Revenue event detected : "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v9}, Landroid/os/Bundle;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 298
+#     invoke-virtual {p0, v9}, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->a(Landroid/os/Bundle;)V
+#     :try_end_1
+#     .catchall {:try_start_1 .. :try_end_1} :catchall_0
+#
+#     goto :goto_0
+#
+#     .line 291
+#     :catchall_0
+#     move-exception v0
+#
+#     monitor-exit p0
+#
+#     throw v0
+#
+#     .line 302
+#     :cond_2
+#     :try_start_2
+#     const-string v0, "type"
+#
+#     invoke-virtual {v9, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     .line 303
+#     const-string v0, "ad_format"
+#
+#     invoke-virtual {v9, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     .line 304
+#     const-string v0, "third_party_ad_placement_id"
+#
+#     invoke-virtual {v9, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v10
+#
+#     .line 305
+#     const-string v0, "network_name"
+#
+#     invoke-virtual {v9, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v5
+#
+#     .line 306
+#     const-string v0, "dsp_name"
+#
+#     invoke-virtual {v9, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v7
+#
+#     .line 307
+#     invoke-static {v5}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->b(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v8
+#
+#     .line 308
+#     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+#
+#     move-result-wide v2
+#
+#     .line 309
+#     invoke-static {v2, v3}, Lcom/safedk/android/utils/l;->b(J)J
+#
+#     move-result-wide v2
+#
+#     .line 313
+#     const-string v0, "creative_id"
+#
+#     invoke-virtual {v9, v0}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_3
+#
+#     .line 314
+#     const-string v0, "creative_id"
+#
+#     invoke-virtual {v9, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v6
+#
+#     .line 316
+#     :cond_3
+#     new-instance v0, Lcom/safedk/android/analytics/events/MaxEvent;
+#
+#     invoke-direct/range {v0 .. v7}, Lcom/safedk/android/analytics/events/MaxEvent;-><init>(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 318
+#     invoke-static {}, Lcom/safedk/android/analytics/brandsafety/p;->a()Lcom/safedk/android/analytics/brandsafety/p;
+#
+#     move-result-object v7
+#
+#     invoke-virtual {v7, v0}, Lcom/safedk/android/analytics/brandsafety/p;->a(Lcom/safedk/android/analytics/events/MaxEvent;)V
+#
+#     .line 320
+#     iget-object v7, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->b:Ljava/util/List;
+#
+#     invoke-interface {v7, v4}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+#
+#     move-result v7
+#
+#     .line 322
+#     sget-object v11, Lcom/safedk/android/analytics/brandsafety/creatives/AdNetworkConfiguration;->J:Lcom/safedk/android/analytics/brandsafety/creatives/AdNetworkConfiguration;
+#
+#     const/4 v12, 0x0
+#
+#     invoke-static {v8, v11, v12}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->a(Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/creatives/AdNetworkConfiguration;Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v11
+#
+#     .line 326
+#     if-eqz v7, :cond_4
+#
+#     if-eqz v5, :cond_4
+#
+#     invoke-virtual {v5, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v12
+#
+#     if-eqz v12, :cond_4
+#
+#     .line 327
+#     const-string v0, "InterstitialFinder"
+#
+#     new-instance v1, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v2, "full screen type but ad network not supported ("
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     const-string v2, ")"
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     goto/16 :goto_0
+#
+#     .line 332
+#     :cond_4
+#     const-string v11, "id"
+#
+#     const/4 v12, 0x0
+#
+#     invoke-virtual {v9, v11, v12}, Landroid/os/Bundle;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v11
+#
+#     .line 333
+#     if-nez v11, :cond_5
+#
+#     .line 334
+#     const-string v12, "InterstitialFinder"
+#
+#     const-string v13, "No eventId in data bundle."
+#
+#     invoke-static {v12, v13}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 337
+#     :cond_5
+#     if-eqz v7, :cond_0
+#
+#     .line 341
+#     const-string v7, "InterstitialFinder"
+#
+#     new-instance v12, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v12}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v13, "Max message received, package: "
+#
+#     invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v12
+#
+#     invoke-virtual {v12, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v12
+#
+#     const-string v13, ", ts (seconds): "
+#
+#     invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v12
+#
+#     invoke-virtual {v12, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v3, ", message received: "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {p1}, Lcom/applovin/communicator/AppLovinCommunicatorMessage;->getMessageData()Landroid/os/Bundle;
+#
+#     move-result-object v3
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v7, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 343
+#     const-string v2, "WILL_DISPLAY"
+#
+#     invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v2
+#
+#     if-eqz v2, :cond_6
+#
+#     .line 344
+#     const-string v1, "InterstitialFinder"
+#
+#     new-instance v2, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v3, "adInfoCollectionForUpload count = "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     iget-object v3, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->y:Ljava/util/Map;
+#
+#     invoke-interface {v3}, Ljava/util/Map;->size()I
+#
+#     move-result v3
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v3, " : "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     iget-object v3, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->y:Ljava/util/Map;
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v1, v2}, Lcom/safedk/android/utils/l;->b(Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 345
+#     iget v1, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->d:I
+#
+#     add-int/lit8 v1, v1, 0x1
+#
+#     iput v1, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->d:I
+#
+#     .line 346
+#     if-eqz v8, :cond_0
+#
+#     .line 347
+#     invoke-static {}, Lcom/safedk/android/analytics/brandsafety/p;->a()Lcom/safedk/android/analytics/brandsafety/p;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, v0}, Lcom/safedk/android/analytics/brandsafety/p;->b(Lcom/safedk/android/analytics/events/MaxEvent;)V
+#
+#     .line 349
+#     const/4 v0, 0x1
+#
+#     iput-boolean v0, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->E:Z
+#
+#     .line 350
+#     invoke-static {v8}, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->k(Ljava/lang/String;)V
+#
+#     .line 351
+#     new-instance v0, Ljava/util/concurrent/atomic/AtomicReference;
+#
+#     invoke-direct {v0, v9}, Ljava/util/concurrent/atomic/AtomicReference;-><init>(Ljava/lang/Object;)V
+#
+#     .line 355
+#     invoke-virtual {p0, v8, v0}, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->a(Ljava/lang/String;Ljava/util/concurrent/atomic/AtomicReference;)V
+#
+#     .line 356
+#     const/4 v0, 0x0
+#
+#     invoke-static {v8, v10, v6, v0, v4}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 357
+#     new-instance v0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder$a;
+#
+#     invoke-direct {v0, p0, v10, v11}, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder$a;-><init>(Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 358
+#     const-string v1, "InterstitialFinder"
+#
+#     new-instance v2, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v3, "WILL_DISPLAY event for package "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v3, " placement "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v3, " ad_type "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v3, ", activityFullScreenAdKey="
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 359
+#     invoke-direct {p0, v8, v0, v11}, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->a(Ljava/lang/String;Lcom/safedk/android/analytics/brandsafety/InterstitialFinder$a;Ljava/lang/String;)V
+#
+#     goto/16 :goto_0
+#
+#     .line 361
+#     :cond_6
+#     const-string v0, "DID_CLICKED"
+#
+#     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_8
+#
+#     .line 362
+#     iget-object v0, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->C:Lcom/safedk/android/analytics/brandsafety/InterstitialInfoCollection;
+#
+#     invoke-virtual {v0, v11}, Lcom/safedk/android/analytics/brandsafety/InterstitialInfoCollection;->e(Ljava/lang/String;)Lcom/safedk/android/analytics/brandsafety/n;
+#
+#     move-result-object v0
+#
+#     .line 363
+#     if-eqz v0, :cond_0
+#
+#     .line 364
+#     const-string v1, "InterstitialFinder"
+#
+#     new-instance v2, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v3, "DID_CLICKED event for package "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     if-nez v8, :cond_7
+#
+#     :goto_1
+#     invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 365
+#     invoke-direct {p0, v0}, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->b(Lcom/safedk/android/analytics/brandsafety/n;)V
+#
+#     .line 367
+#     invoke-virtual {v0}, Lcom/safedk/android/analytics/brandsafety/n;->e()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+#
+#     move-result v1
+#
+#     if-nez v1, :cond_0
+#
+#     .line 368
+#     const-string v1, "onMessageReceived"
+#
+#     invoke-direct {p0, v0, v1}, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->e(Lcom/safedk/android/analytics/brandsafety/n;Ljava/lang/String;)V
+#
+#     goto/16 :goto_0
+#
+#     :cond_7
+#     move-object v5, v8
+#
+#     .line 364
+#     goto :goto_1
+#
+#     .line 371
+#     :cond_8
+#     const-string v0, "WILL_LOAD"
+#
+#     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_9
+#
+#     .line 372
+#     if-eqz v8, :cond_0
+#
+#     .line 373
+#     const-string v0, "InterstitialFinder"
+#
+#     new-instance v1, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v2, "WILL_LOAD event for package "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     const-string v2, " placement "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 374
+#     invoke-static {v8, v10}, Lcom/safedk/android/analytics/brandsafety/creatives/e;->b(Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 375
+#     const/4 v0, 0x0
+#
+#     invoke-static {v8, v10, v6, v0, v4}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+#
+#     goto/16 :goto_0
+#
+#     .line 377
+#     :cond_9
+#     const-string v0, "DID_HIDE"
+#
+#     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_a
+#
+#     .line 378
+#     if-eqz v8, :cond_0
+#
+#     .line 379
+#     invoke-static {v8}, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils;->l(Ljava/lang/String;)V
+#
+#     .line 380
+#     const-string v0, "InterstitialFinder"
+#
+#     new-instance v1, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v2, "DID_HIDE event for package "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     const-string v2, " placement "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 381
+#     iget-object v0, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->C:Lcom/safedk/android/analytics/brandsafety/InterstitialInfoCollection;
+#
+#     invoke-virtual {v0, v11}, Lcom/safedk/android/analytics/brandsafety/InterstitialInfoCollection;->e(Ljava/lang/String;)Lcom/safedk/android/analytics/brandsafety/n;
+#
+#     move-result-object v0
+#
+#     .line 382
+#     if-eqz v0, :cond_0
+#
+#     .line 383
+#     const/4 v1, 0x0
+#
+#     invoke-virtual {p0, v0, v1}, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->a(Lcom/safedk/android/analytics/brandsafety/n;Ljava/lang/String;)V
+#
+#     goto/16 :goto_0
+#
+#     .line 386
+#     :cond_a
+#     const-string v0, "DID_LOAD"
+#
+#     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_b
+#
+#     .line 387
+#     if-eqz v8, :cond_0
+#
+#     .line 388
+#     const-string v0, "InterstitialFinder"
+#
+#     new-instance v1, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v2, "DID_LOAD event for package "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     const-string v2, " placement "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     goto/16 :goto_0
+#
+#     .line 390
+#     :cond_b
+#     const-string v0, "DID_DISPLAY"
+#
+#     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_e
+#
+#     .line 392
+#     if-eqz v8, :cond_0
+#
+#     .line 393
+#     if-eqz v6, :cond_c
+#
+#     .line 394
+#     iget-object v0, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->C:Lcom/safedk/android/analytics/brandsafety/InterstitialInfoCollection;
+#
+#     invoke-virtual {v0, v11}, Lcom/safedk/android/analytics/brandsafety/InterstitialInfoCollection;->e(Ljava/lang/String;)Lcom/safedk/android/analytics/brandsafety/n;
+#
+#     move-result-object v0
+#
+#     .line 395
+#     const-string v1, "InterstitialFinder"
+#
+#     new-instance v2, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v3, "updateMaxCreativeId currentActivityInterstitial : "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 396
+#     if-eqz v0, :cond_c
+#
+#     .line 397
+#     iget-object v1, v0, Lcom/safedk/android/analytics/brandsafety/n;->z:Landroid/os/Bundle;
+#
+#     if-eqz v1, :cond_d
+#
+#     iget-object v1, v0, Lcom/safedk/android/analytics/brandsafety/n;->z:Landroid/os/Bundle;
+#
+#     const-string v2, "id"
+#
+#     invoke-virtual {v1, v2}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
+#
+#     move-result v1
+#
+#     if-eqz v1, :cond_d
+#
+#     iget-object v1, v0, Lcom/safedk/android/analytics/brandsafety/n;->z:Landroid/os/Bundle;
+#
+#     const-string v2, "id"
+#
+#     .line 398
+#     invoke-virtual {v1, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     if-eqz v1, :cond_d
+#
+#     iget-object v1, v0, Lcom/safedk/android/analytics/brandsafety/n;->z:Landroid/os/Bundle;
+#
+#     const-string v2, "id"
+#
+#     .line 399
+#     invoke-virtual {v1, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v1
+#
+#     if-eqz v1, :cond_d
+#
+#     .line 400
+#     const-string v1, "InterstitialFinder"
+#
+#     new-instance v2, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v3, "updateMaxCreativeId setting Max creativeId to : "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v3, " for eventId "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 401
+#     iput-object v6, v0, Lcom/safedk/android/analytics/brandsafety/n;->L:Ljava/lang/String;
+#
+#     .line 407
+#     :cond_c
+#     :goto_2
+#     const-string v0, "InterstitialFinder"
+#
+#     new-instance v1, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v2, "DID_DISPLAY event for package "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     const-string v2, " placement "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     goto/16 :goto_0
+#
+#     .line 403
+#     :cond_d
+#     const-string v0, "InterstitialFinder"
+#
+#     const-string v1, "updateMaxCreativeId cannot update Max creativeId. event Id check failed."
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     goto :goto_2
+#
+#     .line 409
+#     :cond_e
+#     const-string v0, "DID_FAIL_DISPLAY"
+#
+#     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_0
+#
+#     .line 410
+#     const-string v0, "InterstitialFinder"
+#
+#     new-instance v1, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v2, "DID_FAIL_DISPLAY event for package "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     const-string v2, " placement "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 411
+#     iget-object v0, p0, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->C:Lcom/safedk/android/analytics/brandsafety/InterstitialInfoCollection;
+#
+#     invoke-virtual {v0, v11}, Lcom/safedk/android/analytics/brandsafety/InterstitialInfoCollection;->e(Ljava/lang/String;)Lcom/safedk/android/analytics/brandsafety/n;
+#
+#     move-result-object v0
+#
+#     .line 412
+#     if-eqz v0, :cond_0
+#
+#     .line 413
+#     const/4 v1, 0x1
+#
+#     iput-boolean v1, v0, Lcom/safedk/android/analytics/brandsafety/n;->M:Z
+#
+#     .line 414
+#     const/4 v1, 0x0
+#
+#     invoke-direct {p0, v0, v1}, Lcom/safedk/android/analytics/brandsafety/InterstitialFinder;->d(Lcom/safedk/android/analytics/brandsafety/n;Ljava/lang/String;)V
+#     :try_end_2
+#     .catchall {:try_start_2 .. :try_end_2} :catchall_0
+#
+#     goto/16 :goto_0
+# .end method

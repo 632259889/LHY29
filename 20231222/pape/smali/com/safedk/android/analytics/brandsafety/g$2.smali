@@ -69,7 +69,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/safedk/android/analytics/AppLovinBridge;->reportImageUploadEvent(Landroid/os/Bundle;Lcom/applovin/communicator/AppLovinCommunicatorPublisher;)V
+    # invoke-static {v0, v1}, Lcom/safedk/android/analytics/AppLovinBridge;->reportImageUploadEvent(Landroid/os/Bundle;Lcom/applovin/communicator/AppLovinCommunicatorPublisher;)V
 
     .line 60
     iget-object v0, p0, Lcom/safedk/android/analytics/brandsafety/g$2;->a:Landroid/os/Bundle;

@@ -3370,99 +3370,99 @@
     return-void
 .end method
 
-.method public static a(Lcom/applovin/mediation/ads/MaxAdView;)V
-    .locals 4
-
-    .prologue
-    .line 914
-    if-eqz p0, :cond_0
-
-    .line 915
-    invoke-static {}, Lcom/safedk/android/utils/g;->J()Ljava/util/regex/Pattern;
-
-    move-result-object v0
-
-    invoke-virtual {p0}, Lcom/applovin/mediation/ads/MaxAdView;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/l;->e(Ljava/util/regex/Pattern;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    .line 916
-    if-eqz v0, :cond_1
-
-    .line 917
-    const-string v1, "CreativeInfoManager"
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "Max ad view destroyed: "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v3, " ad unit id: "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 918
-    invoke-static {v0, p0}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Ljava/lang/String;Lcom/applovin/mediation/ads/MaxAdView;)Z
-
-    .line 924
-    :cond_0
-    :goto_0
-    return-void
-
-    .line 920
-    :cond_1
-    const-string v0, "CreativeInfoManager"
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "Max ad view destroyed: "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 921
-    invoke-static {p0}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Lcom/applovin/mediation/ads/MaxAdView;)V
-
-    goto :goto_0
-.end method
+# .method public static a(Lcom/applovin/mediation/ads/MaxAdView;)V
+#     .locals 4
+#
+#     .prologue
+#     .line 914
+#     if-eqz p0, :cond_0
+#
+#     .line 915
+#     invoke-static {}, Lcom/safedk/android/utils/g;->J()Ljava/util/regex/Pattern;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {p0}, Lcom/applovin/mediation/ads/MaxAdView;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/l;->e(Ljava/util/regex/Pattern;Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     .line 916
+#     if-eqz v0, :cond_1
+#
+#     .line 917
+#     const-string v1, "CreativeInfoManager"
+#
+#     new-instance v2, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v3, "Max ad view destroyed: "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     const-string v3, " ad unit id: "
+#
+#     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 918
+#     invoke-static {v0, p0}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Ljava/lang/String;Lcom/applovin/mediation/ads/MaxAdView;)Z
+#
+#     .line 924
+#     :cond_0
+#     :goto_0
+#     return-void
+#
+#     .line 920
+#     :cond_1
+#     const-string v0, "CreativeInfoManager"
+#
+#     new-instance v1, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v2, "Max ad view destroyed: "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 921
+#     invoke-static {p0}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Lcom/applovin/mediation/ads/MaxAdView;)V
+#
+#     goto :goto_0
+# .end method
 
 .method public static a(Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils$AdType;Ljava/lang/String;)V
     .locals 3
@@ -10972,212 +10972,212 @@
     goto :goto_0
 .end method
 
-.method public static onMaxAdViewCreated(Lcom/applovin/mediation/ads/MaxAdView;Lcom/applovin/mediation/MaxAdFormat;Ljava/lang/String;)V
-    .locals 3
-    .param p0, "maxAdView"    # Lcom/applovin/mediation/ads/MaxAdView;
-    .param p1, "adFormat"    # Lcom/applovin/mediation/MaxAdFormat;
-    .param p2, "adUnitId"    # Ljava/lang/String;
-
-    .prologue
-    .line 903
-    const-string v0, "CreativeInfoManager"
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "Max ad view created: "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    const-string v2, " ad format: "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    const-string v2, " ad unit id: "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 904
-    if-eqz p0, :cond_1
-
-    if-eqz p1, :cond_1
-
-    .line 905
-    sget-object v0, Lcom/applovin/mediation/MaxAdFormat;->BANNER:Lcom/applovin/mediation/MaxAdFormat;
-
-    if-eq p1, v0, :cond_0
-
-    sget-object v0, Lcom/applovin/mediation/MaxAdFormat;->LEADER:Lcom/applovin/mediation/MaxAdFormat;
-
-    if-eq p1, v0, :cond_0
-
-    sget-object v0, Lcom/applovin/mediation/MaxAdFormat;->MREC:Lcom/applovin/mediation/MaxAdFormat;
-
-    if-ne p1, v0, :cond_1
-
-    .line 906
-    :cond_0
-    sget-object v0, Lcom/applovin/mediation/MaxAdFormat;->MREC:Lcom/applovin/mediation/MaxAdFormat;
-
-    if-ne p1, v0, :cond_2
-
-    sget-object v0, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils$AdType;->b:Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils$AdType;
-
-    .line 907
-    :goto_0
-    invoke-static {p2, p0, v0}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Ljava/lang/String;Lcom/applovin/mediation/ads/MaxAdView;Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils$AdType;)V
-
-    .line 910
-    :cond_1
-    return-void
-
-    .line 906
-    :cond_2
-    sget-object v0, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils$AdType;->c:Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils$AdType;
-
-    goto :goto_0
-.end method
-
-.method public static onMaxNativeAdLoaded(Lcom/applovin/mediation/nativeAds/MaxNativeAdView;Lcom/applovin/mediation/MaxAd;)V
-    .locals 7
-    .param p0, "maxAdView"    # Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
-    .param p1, "ad"    # Lcom/applovin/mediation/MaxAd;
-
-    .prologue
-    .line 928
-    if-eqz p1, :cond_1
-
-    .line 929
-    invoke-interface {p1}, Lcom/applovin/mediation/MaxAd;->getAdUnitId()Ljava/lang/String;
-
-    move-result-object v0
-
-    .line 930
-    invoke-static {p1}, Lcom/safedk/android/analytics/brandsafety/creatives/discoveries/c;->a(Lcom/applovin/mediation/MaxAd;)Landroid/os/Bundle;
-
-    move-result-object v1
-
-    .line 931
-    if-eqz v1, :cond_1
-
-    .line 932
-    const-string v2, "eventId"
-
-    invoke-virtual {v1, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v2
-
-    .line 933
-    const-string v3, "sdk"
-
-    invoke-virtual {v1, v3}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v3
-
-    .line 934
-    const-string v4, "bidResponse"
-
-    invoke-virtual {v1, v4}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    .line 935
-    const-string v4, "CreativeInfoManager"
-
-    new-instance v5, Ljava/lang/StringBuilder;
-
-    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v6, "Max native ad loaded: "
-
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    const-string v6, " ad unit id: "
-
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    const-string v5, ", network: "
-
-    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    invoke-interface {p1}, Lcom/applovin/mediation/MaxAd;->getNetworkName()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v4, v0}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 937
-    invoke-static {}, Lcom/safedk/android/SafeDK;->getInstance()Lcom/safedk/android/SafeDK;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/safedk/android/SafeDK;->B()Lcom/safedk/android/analytics/brandsafety/NativeFinder;
-
-    move-result-object v0
-
-    .line 938
-    if-eqz v0, :cond_0
-
-    if-eqz p0, :cond_0
-
-    .line 939
-    invoke-virtual {v0, v2, v3, p0}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Ljava/lang/String;Ljava/lang/String;Lcom/applovin/mediation/nativeAds/MaxNativeAdView;)V
-
-    .line 943
-    :cond_0
-    invoke-static {v3, v1, p0}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->b(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-
-    .line 946
-    :cond_1
-    return-void
-.end method
+# .method public static onMaxAdViewCreated(Lcom/applovin/mediation/ads/MaxAdView;Lcom/applovin/mediation/MaxAdFormat;Ljava/lang/String;)V
+#     .locals 3
+#     .param p0, "maxAdView"    # Lcom/applovin/mediation/ads/MaxAdView;
+#     .param p1, "adFormat"    # Lcom/applovin/mediation/MaxAdFormat;
+#     .param p2, "adUnitId"    # Ljava/lang/String;
+#
+#     .prologue
+#     .line 903
+#     const-string v0, "CreativeInfoManager"
+#
+#     new-instance v1, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v2, "Max ad view created: "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     const-string v2, " ad format: "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     const-string v2, " ad unit id: "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 904
+#     if-eqz p0, :cond_1
+#
+#     if-eqz p1, :cond_1
+#
+#     .line 905
+#     sget-object v0, Lcom/applovin/mediation/MaxAdFormat;->BANNER:Lcom/applovin/mediation/MaxAdFormat;
+#
+#     if-eq p1, v0, :cond_0
+#
+#     sget-object v0, Lcom/applovin/mediation/MaxAdFormat;->LEADER:Lcom/applovin/mediation/MaxAdFormat;
+#
+#     if-eq p1, v0, :cond_0
+#
+#     sget-object v0, Lcom/applovin/mediation/MaxAdFormat;->MREC:Lcom/applovin/mediation/MaxAdFormat;
+#
+#     if-ne p1, v0, :cond_1
+#
+#     .line 906
+#     :cond_0
+#     sget-object v0, Lcom/applovin/mediation/MaxAdFormat;->MREC:Lcom/applovin/mediation/MaxAdFormat;
+#
+#     if-ne p1, v0, :cond_2
+#
+#     sget-object v0, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils$AdType;->b:Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils$AdType;
+#
+#     .line 907
+#     :goto_0
+#     invoke-static {p2, p0, v0}, Lcom/safedk/android/analytics/brandsafety/BannerFinder;->a(Ljava/lang/String;Lcom/applovin/mediation/ads/MaxAdView;Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils$AdType;)V
+#
+#     .line 910
+#     :cond_1
+#     return-void
+#
+#     .line 906
+#     :cond_2
+#     sget-object v0, Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils$AdType;->c:Lcom/safedk/android/analytics/brandsafety/BrandSafetyUtils$AdType;
+#
+#     goto :goto_0
+# .end method
+
+# .method public static onMaxNativeAdLoaded(Lcom/applovin/mediation/nativeAds/MaxNativeAdView;Lcom/applovin/mediation/MaxAd;)V
+#     .locals 7
+#     .param p0, "maxAdView"    # Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
+#     .param p1, "ad"    # Lcom/applovin/mediation/MaxAd;
+#
+#     .prologue
+#     .line 928
+#     if-eqz p1, :cond_1
+#
+#     .line 929
+#     invoke-interface {p1}, Lcom/applovin/mediation/MaxAd;->getAdUnitId()Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     .line 930
+#     invoke-static {p1}, Lcom/safedk/android/analytics/brandsafety/creatives/discoveries/c;->a(Lcom/applovin/mediation/MaxAd;)Landroid/os/Bundle;
+#
+#     move-result-object v1
+#
+#     .line 931
+#     if-eqz v1, :cond_1
+#
+#     .line 932
+#     const-string v2, "eventId"
+#
+#     invoke-virtual {v1, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     .line 933
+#     const-string v3, "sdk"
+#
+#     invoke-virtual {v1, v3}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     .line 934
+#     const-string v4, "bidResponse"
+#
+#     invoke-virtual {v1, v4}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     .line 935
+#     const-string v4, "CreativeInfoManager"
+#
+#     new-instance v5, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v6, "Max native ad loaded: "
+#
+#     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v5
+#
+#     invoke-virtual {v5, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v5
+#
+#     const-string v6, " ad unit id: "
+#
+#     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v5
+#
+#     invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v0
+#
+#     const-string v5, ", network: "
+#
+#     invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v0
+#
+#     invoke-interface {p1}, Lcom/applovin/mediation/MaxAd;->getNetworkName()Ljava/lang/String;
+#
+#     move-result-object v5
+#
+#     invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     invoke-static {v4, v0}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 937
+#     invoke-static {}, Lcom/safedk/android/SafeDK;->getInstance()Lcom/safedk/android/SafeDK;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v0}, Lcom/safedk/android/SafeDK;->B()Lcom/safedk/android/analytics/brandsafety/NativeFinder;
+#
+#     move-result-object v0
+#
+#     .line 938
+#     if-eqz v0, :cond_0
+#
+#     if-eqz p0, :cond_0
+#
+#     .line 939
+#     invoke-virtual {v0, v2, v3, p0}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Ljava/lang/String;Ljava/lang/String;Lcom/applovin/mediation/nativeAds/MaxNativeAdView;)V
+#
+#     .line 943
+#     :cond_0
+#     invoke-static {v3, v1, p0}, Lcom/safedk/android/analytics/brandsafety/creatives/CreativeInfoManager;->b(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+#
+#     .line 946
+#     :cond_1
+#     return-void
+# .end method
 
 .method public static onMraidExpand(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/String;)V
     .locals 7

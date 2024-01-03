@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/applovin/communicator/AppLovinCommunicatorPublisher;
+# .implements Lcom/applovin/communicator/AppLovinCommunicatorPublisher;
 
 
 # static fields

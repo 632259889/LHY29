@@ -3,7 +3,7 @@
 .source "R8$$SyntheticClass"
 
 # interfaces
-.implements Lcom/applovin/exoplayer2/g$a;
+# .implements Lcom/applovin/exoplayer2/g$a;
 
 
 # static fields
@@ -33,12 +33,12 @@
 
 
 # virtual methods
-.method public final fromBundle(Landroid/os/Bundle;)Lcom/applovin/exoplayer2/g;
-    .locals 0
-
-    invoke-static {p1}, Lcom/applovin/exoplayer2/h/a/a$a;->b(Landroid/os/Bundle;)Lcom/applovin/exoplayer2/h/a/a$a;
-
-    move-result-object p1
-
-    return-object p1
-.end method
+# .method public final fromBundle(Landroid/os/Bundle;)Lcom/applovin/exoplayer2/g;
+#     .locals 0
+#
+#     invoke-static {p1}, Lcom/applovin/exoplayer2/h/a/a$a;->b(Landroid/os/Bundle;)Lcom/applovin/exoplayer2/h/a/a$a;
+#
+#     move-result-object p1
+#
+#     return-object p1
+# .end method

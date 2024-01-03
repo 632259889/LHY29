@@ -251,558 +251,558 @@
 
 
 # virtual methods
-.method public final b(Landroid/app/Activity;)V
-    .locals 13
-
-    const-string v0, "activity"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 1
-    sget-boolean v0, Lcom/eyewind/ads/Ads;->h:Z
-
-    if-eqz v0, :cond_0
-
-    return-void
-
-    :cond_0
-    const/4 v0, 0x1
-
-    .line 2
-    sput-boolean v0, Lcom/eyewind/ads/Ads;->h:Z
-
-    .line 3
-    sget-object v1, Lcom/eyewind/ads/Ads$init$1;->b:Lcom/eyewind/ads/Ads$init$1;
-
-    const/4 v2, 0x0
-
-    invoke-static {v2, v1, v0, v2}, Lcom/eyewind/ads/UtilsKt;->M(Ll8/a;Ll8/a;ILjava/lang/Object;)V
-
-    .line 4
-    sget-object v1, Lcom/applovin/mediation/MaxAdFormat;->BANNER:Lcom/applovin/mediation/MaxAdFormat;
-
-    invoke-virtual {v1, p1}, Lcom/applovin/mediation/MaxAdFormat;->getAdaptiveSize(Landroid/app/Activity;)Lcom/applovin/sdk/AppLovinSdkUtils$Size;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/applovin/sdk/AppLovinSdkUtils$Size;->getHeight()I
-
-    move-result v1
-
-    int-to-float v1, v1
-
-    invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
-
-    move-result-object v3
-
-    iget v3, v3, Landroid/util/DisplayMetrics;->density:F
-
-    mul-float v1, v1, v3
-
-    float-to-int v1, v1
-
-    .line 5
-    sput v1, Lcom/eyewind/ads/Ads;->j:I
-
-    .line 6
-    new-instance v1, Lkotlin/jvm/internal/Ref$BooleanRef;
-
-    invoke-direct {v1}, Lkotlin/jvm/internal/Ref$BooleanRef;-><init>()V
-
-    .line 7
-    new-instance v3, Lcom/eyewind/ads/Ads$init$2;
-
-    invoke-direct {v3, v1}, Lcom/eyewind/ads/Ads$init$2;-><init>(Lkotlin/jvm/internal/Ref$BooleanRef;)V
-
-    invoke-static {v2, v3, v0, v2}, Lcom/eyewind/ads/UtilsKt;->M(Ll8/a;Ll8/a;ILjava/lang/Object;)V
-
-    .line 8
-    new-instance v3, Lk0/p;
-
-    sget-object v4, Lcom/eyewind/ads/Ads;->b:Lk0/r;
-
-    invoke-direct {v3, v4}, Lk0/p;-><init>(Lcom/eyewind/sdkx/AdListener;)V
-
-    .line 9
-    iget-boolean v1, v1, Lkotlin/jvm/internal/Ref$BooleanRef;->b:Z
-
-    if-eqz v1, :cond_2
-
-    const/4 v1, 0x6
-
-    new-array v1, v1, [Lkotlin/Triple;
-
-    const/4 v4, 0x0
-
-    .line 10
-    new-instance v5, Lkotlin/Triple;
-
-    const v6, 0x3dcccccd    # 0.1f
-
-    invoke-static {v6}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    move-result-object v6
-
-    const-string v7, "total"
-
-    const-string v8, "Total_Ads_Revenue_01"
-
-    invoke-direct {v5, v7, v8, v6}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-
-    aput-object v5, v1, v4
-
-    .line 11
-    new-instance v4, Lkotlin/Triple;
-
-    const v5, 0x3c23d70a    # 0.01f
-
-    invoke-static {v5}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    move-result-object v5
-
-    const-string v6, "total001"
-
-    const-string v7, "Total_Ads_Revenue_001"
-
-    invoke-direct {v4, v6, v7, v5}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-
-    aput-object v4, v1, v0
-
-    const/4 v4, 0x2
-
-    .line 12
-    new-instance v5, Lkotlin/Triple;
-
-    const v6, 0x3d4ccccd    # 0.05f
-
-    invoke-static {v6}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    move-result-object v6
-
-    const-string v7, "total005"
-
-    const-string v8, "Total_Ads_Revenue_005"
-
-    invoke-direct {v5, v7, v8, v6}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-
-    aput-object v5, v1, v4
-
-    const/4 v4, 0x3
-
-    .line 13
-    new-instance v5, Lkotlin/Triple;
-
-    const v6, 0x3e4ccccd    # 0.2f
-
-    invoke-static {v6}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    move-result-object v6
-
-    const-string v7, "total02"
-
-    const-string v8, "Total_Ads_Revenue_02"
-
-    invoke-direct {v5, v7, v8, v6}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-
-    aput-object v5, v1, v4
-
-    const/4 v4, 0x4
-
-    .line 14
-    new-instance v5, Lkotlin/Triple;
-
-    const v6, 0x3e99999a    # 0.3f
-
-    invoke-static {v6}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    move-result-object v6
-
-    const-string v7, "total03"
-
-    const-string v8, "Total_Ads_Revenue_03"
-
-    invoke-direct {v5, v7, v8, v6}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-
-    aput-object v5, v1, v4
-
-    const/4 v4, 0x5
-
-    .line 15
-    new-instance v5, Lkotlin/Triple;
-
-    const/high16 v6, 0x3f000000    # 0.5f
-
-    invoke-static {v6}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    move-result-object v6
-
-    const-string v7, "total05"
-
-    const-string v8, "Total_Ads_Revenue_05"
-
-    invoke-direct {v5, v7, v8, v6}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-
-    aput-object v5, v1, v4
-
-    .line 16
-    invoke-static {v1}, Lkotlin/collections/h;->k([Ljava/lang/Object;)Ljava/util/List;
-
-    move-result-object v1
-
-    .line 17
-    invoke-static {p1}, Lcom/google/firebase/analytics/FirebaseAnalytics;->getInstance(Landroid/content/Context;)Lcom/google/firebase/analytics/FirebaseAnalytics;
-
-    move-result-object v11
-
-    const-string v4, "getInstance(activity)"
-
-    invoke-static {v11, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 18
-    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    move-result-object v1
-
-    move-object v5, v3
-
-    :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v3
-
-    if-eqz v3, :cond_1
-
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v3
-
-    check-cast v3, Lkotlin/Triple;
-
-    .line 19
-    new-instance v12, Lk0/f0;
-
-    invoke-virtual {v3}, Lkotlin/Triple;->m()Ljava/lang/Object;
-
-    move-result-object v4
-
-    move-object v8, v4
-
-    check-cast v8, Ljava/lang/String;
-
-    invoke-virtual {v3}, Lkotlin/Triple;->n()Ljava/lang/Object;
-
-    move-result-object v4
-
-    move-object v9, v4
-
-    check-cast v9, Ljava/lang/String;
-
-    invoke-virtual {v3}, Lkotlin/Triple;->o()Ljava/lang/Object;
-
-    move-result-object v3
-
-    check-cast v3, Ljava/lang/Number;
-
-    invoke-virtual {v3}, Ljava/lang/Number;->floatValue()F
-
-    move-result v10
-
-    move-object v4, v12
-
-    move-object v6, p1
-
-    move-object v7, v11
-
-    invoke-direct/range {v4 .. v10}, Lk0/f0;-><init>(Lcom/eyewind/sdkx/AdListener;Landroid/content/Context;Lcom/google/firebase/analytics/FirebaseAnalytics;Ljava/lang/String;Ljava/lang/String;F)V
-
-    move-object v5, v12
-
-    goto :goto_0
-
-    .line 20
-    :cond_1
-    new-instance v3, Lk0/a;
-
-    invoke-direct {v3, v5, v11}, Lk0/a;-><init>(Lcom/eyewind/sdkx/AdListener;Lcom/google/firebase/analytics/FirebaseAnalytics;)V
-
-    .line 21
-    :cond_2
-    new-instance v1, Lk0/d;
-
-    invoke-direct {v1, v3}, Lk0/d;-><init>(Lcom/eyewind/sdkx/AdListener;)V
-
-    const-string v3, "sdkX_amazon_appId"
-
-    .line 22
-    invoke-static {v3}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-static {v3}, Lcom/eyewind/ads/UtilsKt;->B(Ljava/lang/String;)Z
-
-    move-result v4
-
-    if-eqz v4, :cond_3
-
-    move-object v6, v3
-
-    goto :goto_1
-
-    :cond_3
-    move-object v6, v2
-
-    .line 23
-    :goto_1
-    new-instance v3, Lkotlin/jvm/internal/Ref$ObjectRef;
-
-    invoke-direct {v3}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
-
-    const-string v4, "sdkX_amazon_bannerId"
-
-    invoke-static {v4}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v4}, Lcom/eyewind/ads/UtilsKt;->B(Ljava/lang/String;)Z
-
-    move-result v5
-
-    if-eqz v5, :cond_4
-
-    goto :goto_2
-
-    :cond_4
-    move-object v4, v2
-
-    :goto_2
-    iput-object v4, v3, Lkotlin/jvm/internal/Ref$ObjectRef;->b:Ljava/lang/Object;
-
-    const-string v4, "sdkX_amazon_bannerId2"
-
-    .line 24
-    invoke-static {v4}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v4}, Lcom/eyewind/ads/UtilsKt;->B(Ljava/lang/String;)Z
-
-    move-result v5
-
-    if-eqz v5, :cond_5
-
-    move-object v8, v4
-
-    goto :goto_3
-
-    :cond_5
-    move-object v8, v2
-
-    .line 25
-    :goto_3
-    new-instance v4, Lkotlin/jvm/internal/Ref$BooleanRef;
-
-    invoke-direct {v4}, Lkotlin/jvm/internal/Ref$BooleanRef;-><init>()V
-
-    if-eqz v6, :cond_6
-
-    .line 26
-    iget-object v5, v3, Lkotlin/jvm/internal/Ref$ObjectRef;->b:Ljava/lang/Object;
-
-    if-eqz v5, :cond_6
-
-    .line 27
-    new-instance v11, Lcom/eyewind/ads/Ads$init$3;
-
-    invoke-direct {v11, v3}, Lcom/eyewind/ads/Ads$init$3;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;)V
-
-    new-instance v12, Lcom/eyewind/ads/Ads$init$4;
-
-    move-object v5, v12
-
-    move-object v7, p1
-
-    move-object v9, v3
-
-    move-object v10, v4
-
-    invoke-direct/range {v5 .. v10}, Lcom/eyewind/ads/Ads$init$4;-><init>(Ljava/lang/String;Landroid/app/Activity;Ljava/lang/String;Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/internal/Ref$BooleanRef;)V
-
-    invoke-static {v11, v12}, Lcom/eyewind/ads/UtilsKt;->L(Ll8/a;Ll8/a;)V
-
-    :cond_6
-    const-string v5, "sdkX_videoId"
-
-    .line 28
-    invoke-static {v5}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v5
-
-    .line 29
-    invoke-static {v5}, Lcom/eyewind/ads/UtilsKt;->B(Ljava/lang/String;)Z
-
-    move-result v6
-
-    if-eqz v6, :cond_7
-
-    .line 30
-    new-instance v6, Lcom/eyewind/ads/d;
-
-    invoke-direct {v6, p1, v5, v1}, Lcom/eyewind/ads/d;-><init>(Landroid/app/Activity;Ljava/lang/String;Lcom/eyewind/sdkx/AdListener;)V
-
-    sput-object v6, Lcom/eyewind/ads/Ads;->c:Lcom/eyewind/ads/d;
-
-    :cond_7
-    const-string v5, "sdkX_interstitialId"
-
-    .line 31
-    invoke-static {v5}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v5
-
-    .line 32
-    invoke-static {v5}, Lcom/eyewind/ads/UtilsKt;->B(Ljava/lang/String;)Z
-
-    move-result v6
-
-    if-eqz v6, :cond_8
-
-    .line 33
-    new-instance v6, Lcom/eyewind/ads/c;
-
-    invoke-direct {v6, p1, v5, v1}, Lcom/eyewind/ads/c;-><init>(Landroid/app/Activity;Ljava/lang/String;Lcom/eyewind/sdkx/AdListener;)V
-
-    sput-object v6, Lcom/eyewind/ads/Ads;->d:Lcom/eyewind/ads/c;
-
-    :cond_8
-    const-string v5, "sdkX_bannerId"
-
-    .line 34
-    invoke-static {v5}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v6
-
-    .line 35
-    invoke-static {v6}, Lcom/eyewind/ads/UtilsKt;->B(Ljava/lang/String;)Z
-
-    move-result v5
-
-    if-eqz v5, :cond_9
-
-    .line 36
-    new-instance v10, Lcom/eyewind/ads/BannerAd;
-
-    .line 37
-    iget-object v3, v3, Lkotlin/jvm/internal/Ref$ObjectRef;->b:Ljava/lang/Object;
-
-    move-object v7, v3
-
-    check-cast v7, Ljava/lang/String;
-
-    .line 38
-    iget-boolean v8, v4, Lkotlin/jvm/internal/Ref$BooleanRef;->b:Z
-
-    move-object v4, v10
-
-    move-object v5, p1
-
-    move-object v9, v1
-
-    .line 39
-    invoke-direct/range {v4 .. v9}, Lcom/eyewind/ads/BannerAd;-><init>(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;ZLcom/eyewind/sdkx/AdListener;)V
-
-    sput-object v10, Lcom/eyewind/ads/Ads;->e:Lcom/eyewind/ads/BannerAd;
-
-    :cond_9
-    const-string v3, "sdkX_hotInterstitialId"
-
-    .line 40
-    invoke-static {v3}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-static {v3}, Lcom/eyewind/ads/UtilsKt;->B(Ljava/lang/String;)Z
-
-    move-result v4
-
-    if-eqz v4, :cond_a
-
-    goto :goto_4
-
-    :cond_a
-    move-object v3, v2
-
-    :goto_4
-    if-eqz v3, :cond_b
-
-    .line 41
-    invoke-static {}, Landroidx/lifecycle/ProcessLifecycleOwner;->get()Landroidx/lifecycle/LifecycleOwner;
-
-    move-result-object v4
-
-    invoke-interface {v4}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
-
-    move-result-object v4
-
-    new-instance v5, Lcom/eyewind/ads/HotSplashLifecycleObserver;
-
-    invoke-direct {v5}, Lcom/eyewind/ads/HotSplashLifecycleObserver;-><init>()V
-
-    invoke-virtual {v4, v5}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
-
-    .line 42
-    new-instance v4, Lcom/eyewind/ads/c;
-
-    invoke-direct {v4, p1, v3, v1}, Lcom/eyewind/ads/c;-><init>(Landroid/app/Activity;Ljava/lang/String;Lcom/eyewind/sdkx/AdListener;)V
-
-    sput-object v4, Lcom/eyewind/ads/Ads;->f:Lcom/eyewind/ads/c;
-
-    :cond_b
-    const-string v3, "sdkX_admob_splashId"
-
-    .line 43
-    invoke-static {v3}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-static {v3}, Lcom/eyewind/ads/UtilsKt;->B(Ljava/lang/String;)Z
-
-    move-result v4
-
-    if-eqz v4, :cond_c
-
-    move-object v2, v3
-
-    :cond_c
-    if-eqz v2, :cond_d
-
-    .line 44
-    new-instance v3, Lk0/d0;
-
-    invoke-direct {v3, p1, v2, v1}, Lk0/d0;-><init>(Landroid/app/Activity;Ljava/lang/String;Lcom/eyewind/sdkx/AdListener;)V
-
-    invoke-virtual {v3}, Lk0/d0;->q()V
-
-    sput-object v3, Lcom/eyewind/ads/Ads;->g:Lk0/d0;
-
-    .line 45
-    :cond_d
-    invoke-static {p1}, Landroidx/core/content/ContextCompat;->getMainExecutor(Landroid/content/Context;)Ljava/util/concurrent/Executor;
-
-    move-result-object p1
-
-    sget-object v1, Lk0/e;->b:Lk0/e;
-
-    invoke-interface {p1, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
-
-    .line 46
-    sput-boolean v0, Lcom/eyewind/ads/Ads;->i:Z
-
-    return-void
-.end method
+# .method public final b(Landroid/app/Activity;)V
+#     .locals 13
+#
+#     const-string v0, "activity"
+#
+#     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     .line 1
+#     sget-boolean v0, Lcom/eyewind/ads/Ads;->h:Z
+#
+#     if-eqz v0, :cond_0
+#
+#     return-void
+#
+#     :cond_0
+#     const/4 v0, 0x1
+#
+#     .line 2
+#     sput-boolean v0, Lcom/eyewind/ads/Ads;->h:Z
+#
+#     .line 3
+#     sget-object v1, Lcom/eyewind/ads/Ads$init$1;->b:Lcom/eyewind/ads/Ads$init$1;
+#
+#     const/4 v2, 0x0
+#
+#     invoke-static {v2, v1, v0, v2}, Lcom/eyewind/ads/UtilsKt;->M(Ll8/a;Ll8/a;ILjava/lang/Object;)V
+#
+#     .line 4
+#     sget-object v1, Lcom/applovin/mediation/MaxAdFormat;->BANNER:Lcom/applovin/mediation/MaxAdFormat;
+#
+#     invoke-virtual {v1, p1}, Lcom/applovin/mediation/MaxAdFormat;->getAdaptiveSize(Landroid/app/Activity;)Lcom/applovin/sdk/AppLovinSdkUtils$Size;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Lcom/applovin/sdk/AppLovinSdkUtils$Size;->getHeight()I
+#
+#     move-result v1
+#
+#     int-to-float v1, v1
+#
+#     invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
+#
+#     move-result-object v3
+#
+#     invoke-virtual {v3}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+#
+#     move-result-object v3
+#
+#     iget v3, v3, Landroid/util/DisplayMetrics;->density:F
+#
+#     mul-float v1, v1, v3
+#
+#     float-to-int v1, v1
+#
+#     .line 5
+#     sput v1, Lcom/eyewind/ads/Ads;->j:I
+#
+#     .line 6
+#     new-instance v1, Lkotlin/jvm/internal/Ref$BooleanRef;
+#
+#     invoke-direct {v1}, Lkotlin/jvm/internal/Ref$BooleanRef;-><init>()V
+#
+#     .line 7
+#     new-instance v3, Lcom/eyewind/ads/Ads$init$2;
+#
+#     invoke-direct {v3, v1}, Lcom/eyewind/ads/Ads$init$2;-><init>(Lkotlin/jvm/internal/Ref$BooleanRef;)V
+#
+#     invoke-static {v2, v3, v0, v2}, Lcom/eyewind/ads/UtilsKt;->M(Ll8/a;Ll8/a;ILjava/lang/Object;)V
+#
+#     .line 8
+#     new-instance v3, Lk0/p;
+#
+#     sget-object v4, Lcom/eyewind/ads/Ads;->b:Lk0/r;
+#
+#     invoke-direct {v3, v4}, Lk0/p;-><init>(Lcom/eyewind/sdkx/AdListener;)V
+#
+#     .line 9
+#     iget-boolean v1, v1, Lkotlin/jvm/internal/Ref$BooleanRef;->b:Z
+#
+#     if-eqz v1, :cond_2
+#
+#     const/4 v1, 0x6
+#
+#     new-array v1, v1, [Lkotlin/Triple;
+#
+#     const/4 v4, 0x0
+#
+#     .line 10
+#     new-instance v5, Lkotlin/Triple;
+#
+#     const v6, 0x3dcccccd    # 0.1f
+#
+#     invoke-static {v6}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+#
+#     move-result-object v6
+#
+#     const-string v7, "total"
+#
+#     const-string v8, "Total_Ads_Revenue_01"
+#
+#     invoke-direct {v5, v7, v8, v6}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+#
+#     aput-object v5, v1, v4
+#
+#     .line 11
+#     new-instance v4, Lkotlin/Triple;
+#
+#     const v5, 0x3c23d70a    # 0.01f
+#
+#     invoke-static {v5}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+#
+#     move-result-object v5
+#
+#     const-string v6, "total001"
+#
+#     const-string v7, "Total_Ads_Revenue_001"
+#
+#     invoke-direct {v4, v6, v7, v5}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+#
+#     aput-object v4, v1, v0
+#
+#     const/4 v4, 0x2
+#
+#     .line 12
+#     new-instance v5, Lkotlin/Triple;
+#
+#     const v6, 0x3d4ccccd    # 0.05f
+#
+#     invoke-static {v6}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+#
+#     move-result-object v6
+#
+#     const-string v7, "total005"
+#
+#     const-string v8, "Total_Ads_Revenue_005"
+#
+#     invoke-direct {v5, v7, v8, v6}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+#
+#     aput-object v5, v1, v4
+#
+#     const/4 v4, 0x3
+#
+#     .line 13
+#     new-instance v5, Lkotlin/Triple;
+#
+#     const v6, 0x3e4ccccd    # 0.2f
+#
+#     invoke-static {v6}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+#
+#     move-result-object v6
+#
+#     const-string v7, "total02"
+#
+#     const-string v8, "Total_Ads_Revenue_02"
+#
+#     invoke-direct {v5, v7, v8, v6}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+#
+#     aput-object v5, v1, v4
+#
+#     const/4 v4, 0x4
+#
+#     .line 14
+#     new-instance v5, Lkotlin/Triple;
+#
+#     const v6, 0x3e99999a    # 0.3f
+#
+#     invoke-static {v6}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+#
+#     move-result-object v6
+#
+#     const-string v7, "total03"
+#
+#     const-string v8, "Total_Ads_Revenue_03"
+#
+#     invoke-direct {v5, v7, v8, v6}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+#
+#     aput-object v5, v1, v4
+#
+#     const/4 v4, 0x5
+#
+#     .line 15
+#     new-instance v5, Lkotlin/Triple;
+#
+#     const/high16 v6, 0x3f000000    # 0.5f
+#
+#     invoke-static {v6}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+#
+#     move-result-object v6
+#
+#     const-string v7, "total05"
+#
+#     const-string v8, "Total_Ads_Revenue_05"
+#
+#     invoke-direct {v5, v7, v8, v6}, Lkotlin/Triple;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+#
+#     aput-object v5, v1, v4
+#
+#     .line 16
+#     invoke-static {v1}, Lkotlin/collections/h;->k([Ljava/lang/Object;)Ljava/util/List;
+#
+#     move-result-object v1
+#
+#     .line 17
+#     invoke-static {p1}, Lcom/google/firebase/analytics/FirebaseAnalytics;->getInstance(Landroid/content/Context;)Lcom/google/firebase/analytics/FirebaseAnalytics;
+#
+#     move-result-object v11
+#
+#     const-string v4, "getInstance(activity)"
+#
+#     invoke-static {v11, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     .line 18
+#     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+#
+#     move-result-object v1
+#
+#     move-object v5, v3
+#
+#     :goto_0
+#     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+#
+#     move-result v3
+#
+#     if-eqz v3, :cond_1
+#
+#     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+#
+#     move-result-object v3
+#
+#     check-cast v3, Lkotlin/Triple;
+#
+#     .line 19
+#     new-instance v12, Lk0/f0;
+#
+#     invoke-virtual {v3}, Lkotlin/Triple;->m()Ljava/lang/Object;
+#
+#     move-result-object v4
+#
+#     move-object v8, v4
+#
+#     check-cast v8, Ljava/lang/String;
+#
+#     invoke-virtual {v3}, Lkotlin/Triple;->n()Ljava/lang/Object;
+#
+#     move-result-object v4
+#
+#     move-object v9, v4
+#
+#     check-cast v9, Ljava/lang/String;
+#
+#     invoke-virtual {v3}, Lkotlin/Triple;->o()Ljava/lang/Object;
+#
+#     move-result-object v3
+#
+#     check-cast v3, Ljava/lang/Number;
+#
+#     invoke-virtual {v3}, Ljava/lang/Number;->floatValue()F
+#
+#     move-result v10
+#
+#     move-object v4, v12
+#
+#     move-object v6, p1
+#
+#     move-object v7, v11
+#
+#     invoke-direct/range {v4 .. v10}, Lk0/f0;-><init>(Lcom/eyewind/sdkx/AdListener;Landroid/content/Context;Lcom/google/firebase/analytics/FirebaseAnalytics;Ljava/lang/String;Ljava/lang/String;F)V
+#
+#     move-object v5, v12
+#
+#     goto :goto_0
+#
+#     .line 20
+#     :cond_1
+#     new-instance v3, Lk0/a;
+#
+#     invoke-direct {v3, v5, v11}, Lk0/a;-><init>(Lcom/eyewind/sdkx/AdListener;Lcom/google/firebase/analytics/FirebaseAnalytics;)V
+#
+#     .line 21
+#     :cond_2
+#     new-instance v1, Lk0/d;
+#
+#     invoke-direct {v1, v3}, Lk0/d;-><init>(Lcom/eyewind/sdkx/AdListener;)V
+#
+#     const-string v3, "sdkX_amazon_appId"
+#
+#     .line 22
+#     invoke-static {v3}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     invoke-static {v3}, Lcom/eyewind/ads/UtilsKt;->B(Ljava/lang/String;)Z
+#
+#     move-result v4
+#
+#     if-eqz v4, :cond_3
+#
+#     move-object v6, v3
+#
+#     goto :goto_1
+#
+#     :cond_3
+#     move-object v6, v2
+#
+#     .line 23
+#     :goto_1
+#     new-instance v3, Lkotlin/jvm/internal/Ref$ObjectRef;
+#
+#     invoke-direct {v3}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+#
+#     const-string v4, "sdkX_amazon_bannerId"
+#
+#     invoke-static {v4}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v4}, Lcom/eyewind/ads/UtilsKt;->B(Ljava/lang/String;)Z
+#
+#     move-result v5
+#
+#     if-eqz v5, :cond_4
+#
+#     goto :goto_2
+#
+#     :cond_4
+#     move-object v4, v2
+#
+#     :goto_2
+#     iput-object v4, v3, Lkotlin/jvm/internal/Ref$ObjectRef;->b:Ljava/lang/Object;
+#
+#     const-string v4, "sdkX_amazon_bannerId2"
+#
+#     .line 24
+#     invoke-static {v4}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v4}, Lcom/eyewind/ads/UtilsKt;->B(Ljava/lang/String;)Z
+#
+#     move-result v5
+#
+#     if-eqz v5, :cond_5
+#
+#     move-object v8, v4
+#
+#     goto :goto_3
+#
+#     :cond_5
+#     move-object v8, v2
+#
+#     .line 25
+#     :goto_3
+#     new-instance v4, Lkotlin/jvm/internal/Ref$BooleanRef;
+#
+#     invoke-direct {v4}, Lkotlin/jvm/internal/Ref$BooleanRef;-><init>()V
+#
+#     if-eqz v6, :cond_6
+#
+#     .line 26
+#     iget-object v5, v3, Lkotlin/jvm/internal/Ref$ObjectRef;->b:Ljava/lang/Object;
+#
+#     if-eqz v5, :cond_6
+#
+#     .line 27
+#     new-instance v11, Lcom/eyewind/ads/Ads$init$3;
+#
+#     invoke-direct {v11, v3}, Lcom/eyewind/ads/Ads$init$3;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;)V
+#
+#     new-instance v12, Lcom/eyewind/ads/Ads$init$4;
+#
+#     move-object v5, v12
+#
+#     move-object v7, p1
+#
+#     move-object v9, v3
+#
+#     move-object v10, v4
+#
+#     invoke-direct/range {v5 .. v10}, Lcom/eyewind/ads/Ads$init$4;-><init>(Ljava/lang/String;Landroid/app/Activity;Ljava/lang/String;Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlin/jvm/internal/Ref$BooleanRef;)V
+#
+#     invoke-static {v11, v12}, Lcom/eyewind/ads/UtilsKt;->L(Ll8/a;Ll8/a;)V
+#
+#     :cond_6
+#     const-string v5, "sdkX_videoId"
+#
+#     .line 28
+#     invoke-static {v5}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v5
+#
+#     .line 29
+#     invoke-static {v5}, Lcom/eyewind/ads/UtilsKt;->B(Ljava/lang/String;)Z
+#
+#     move-result v6
+#
+#     if-eqz v6, :cond_7
+#
+#     .line 30
+#     new-instance v6, Lcom/eyewind/ads/d;
+#
+#     invoke-direct {v6, p1, v5, v1}, Lcom/eyewind/ads/d;-><init>(Landroid/app/Activity;Ljava/lang/String;Lcom/eyewind/sdkx/AdListener;)V
+#
+#     sput-object v6, Lcom/eyewind/ads/Ads;->c:Lcom/eyewind/ads/d;
+#
+#     :cond_7
+#     const-string v5, "sdkX_interstitialId"
+#
+#     .line 31
+#     invoke-static {v5}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v5
+#
+#     .line 32
+#     invoke-static {v5}, Lcom/eyewind/ads/UtilsKt;->B(Ljava/lang/String;)Z
+#
+#     move-result v6
+#
+#     if-eqz v6, :cond_8
+#
+#     .line 33
+#     new-instance v6, Lcom/eyewind/ads/c;
+#
+#     invoke-direct {v6, p1, v5, v1}, Lcom/eyewind/ads/c;-><init>(Landroid/app/Activity;Ljava/lang/String;Lcom/eyewind/sdkx/AdListener;)V
+#
+#     sput-object v6, Lcom/eyewind/ads/Ads;->d:Lcom/eyewind/ads/c;
+#
+#     :cond_8
+#     const-string v5, "sdkX_bannerId"
+#
+#     .line 34
+#     invoke-static {v5}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v6
+#
+#     .line 35
+#     invoke-static {v6}, Lcom/eyewind/ads/UtilsKt;->B(Ljava/lang/String;)Z
+#
+#     move-result v5
+#
+#     if-eqz v5, :cond_9
+#
+#     .line 36
+#     new-instance v10, Lcom/eyewind/ads/BannerAd;
+#
+#     .line 37
+#     iget-object v3, v3, Lkotlin/jvm/internal/Ref$ObjectRef;->b:Ljava/lang/Object;
+#
+#     move-object v7, v3
+#
+#     check-cast v7, Ljava/lang/String;
+#
+#     .line 38
+#     iget-boolean v8, v4, Lkotlin/jvm/internal/Ref$BooleanRef;->b:Z
+#
+#     move-object v4, v10
+#
+#     move-object v5, p1
+#
+#     move-object v9, v1
+#
+#     .line 39
+#     invoke-direct/range {v4 .. v9}, Lcom/eyewind/ads/BannerAd;-><init>(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;ZLcom/eyewind/sdkx/AdListener;)V
+#
+#     sput-object v10, Lcom/eyewind/ads/Ads;->e:Lcom/eyewind/ads/BannerAd;
+#
+#     :cond_9
+#     const-string v3, "sdkX_hotInterstitialId"
+#
+#     .line 40
+#     invoke-static {v3}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     invoke-static {v3}, Lcom/eyewind/ads/UtilsKt;->B(Ljava/lang/String;)Z
+#
+#     move-result v4
+#
+#     if-eqz v4, :cond_a
+#
+#     goto :goto_4
+#
+#     :cond_a
+#     move-object v3, v2
+#
+#     :goto_4
+#     if-eqz v3, :cond_b
+#
+#     .line 41
+#     invoke-static {}, Landroidx/lifecycle/ProcessLifecycleOwner;->get()Landroidx/lifecycle/LifecycleOwner;
+#
+#     move-result-object v4
+#
+#     invoke-interface {v4}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+#
+#     move-result-object v4
+#
+#     new-instance v5, Lcom/eyewind/ads/HotSplashLifecycleObserver;
+#
+#     invoke-direct {v5}, Lcom/eyewind/ads/HotSplashLifecycleObserver;-><init>()V
+#
+#     invoke-virtual {v4, v5}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+#
+#     .line 42
+#     new-instance v4, Lcom/eyewind/ads/c;
+#
+#     invoke-direct {v4, p1, v3, v1}, Lcom/eyewind/ads/c;-><init>(Landroid/app/Activity;Ljava/lang/String;Lcom/eyewind/sdkx/AdListener;)V
+#
+#     sput-object v4, Lcom/eyewind/ads/Ads;->f:Lcom/eyewind/ads/c;
+#
+#     :cond_b
+#     const-string v3, "sdkX_admob_splashId"
+#
+#     .line 43
+#     invoke-static {v3}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     invoke-static {v3}, Lcom/eyewind/ads/UtilsKt;->B(Ljava/lang/String;)Z
+#
+#     move-result v4
+#
+#     if-eqz v4, :cond_c
+#
+#     move-object v2, v3
+#
+#     :cond_c
+#     if-eqz v2, :cond_d
+#
+#     .line 44
+#     new-instance v3, Lk0/d0;
+#
+#     invoke-direct {v3, p1, v2, v1}, Lk0/d0;-><init>(Landroid/app/Activity;Ljava/lang/String;Lcom/eyewind/sdkx/AdListener;)V
+#
+#     invoke-virtual {v3}, Lk0/d0;->q()V
+#
+#     sput-object v3, Lcom/eyewind/ads/Ads;->g:Lk0/d0;
+#
+#     .line 45
+#     :cond_d
+#     invoke-static {p1}, Landroidx/core/content/ContextCompat;->getMainExecutor(Landroid/content/Context;)Ljava/util/concurrent/Executor;
+#
+#     move-result-object p1
+#
+#     sget-object v1, Lk0/e;->b:Lk0/e;
+#
+#     invoke-interface {p1, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+#
+#     .line 46
+#     sput-boolean v0, Lcom/eyewind/ads/Ads;->i:Z
+#
+#     return-void
+# .end method
 
 .method public final d()V
     .locals 1
@@ -1186,22 +1186,22 @@
     return-void
 .end method
 
-.method public showDebugger(Landroid/app/Activity;)V
-    .locals 1
-
-    const-string v0, "activity"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 1
-    invoke-static {p1}, Lcom/applovin/sdk/AppLovinSdk;->getInstance(Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdk;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Lcom/applovin/sdk/AppLovinSdk;->showMediationDebugger()V
-
-    return-void
-.end method
+# .method public showDebugger(Landroid/app/Activity;)V
+#     .locals 1
+#
+#     const-string v0, "activity"
+#
+#     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     .line 1
+#     invoke-static {p1}, Lcom/applovin/sdk/AppLovinSdk;->getInstance(Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdk;
+#
+#     move-result-object p1
+#
+#     invoke-virtual {p1}, Lcom/applovin/sdk/AppLovinSdk;->showMediationDebugger()V
+#
+#     return-void
+# .end method
 
 .method public showNative(Lcom/eyewind/sdkx/NativeAdParams;)V
     .locals 0

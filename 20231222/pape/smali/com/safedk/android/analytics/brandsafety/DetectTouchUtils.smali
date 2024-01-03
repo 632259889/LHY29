@@ -724,18 +724,18 @@
 
     if-eqz v1, :cond_1
 
-    instance-of v1, p1, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
+    instance-of v1, p1, Ljava/lang/Object;#com/applovin/mediation/nativeAds/MaxNativeAdView
 
     if-eqz v1, :cond_1
 
     .line 118
     move-object v0, p1
 
-    check-cast v0, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
+    check-cast v0, Ljava/lang/Object;#com/applovin/mediation/nativeAds/MaxNativeAdView
 
     move-object v1, v0
 
-    invoke-static {v1}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Lcom/applovin/mediation/nativeAds/MaxNativeAdView;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/safedk/android/analytics/brandsafety/NativeFinder;->a(Ljava/lang/Object;)Ljava/lang/String;#com/applovin/mediation/nativeAds/MaxNativeAdView
 
     move-result-object p0
 

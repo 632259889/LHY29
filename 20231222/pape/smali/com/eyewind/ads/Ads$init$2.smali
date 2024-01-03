@@ -7,9 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/eyewind/ads/Ads;->b(Landroid/app/Activity;)V
-.end annotation
+# .annotation system Ldalvik/annotation/EnclosingMethod;
+#     value = Lcom/eyewind/ads/Ads;->b(Landroid/app/Activity;)V
+# .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x18

@@ -3,7 +3,7 @@
 .source "R8$$SyntheticClass"
 
 # interfaces
-.implements Lcom/applovin/sdk/AppLovinSdk$SdkInitializationListener;
+# .implements Lcom/applovin/sdk/AppLovinSdk$SdkInitializationListener;
 
 
 # static fields
@@ -33,10 +33,10 @@
 
 
 # virtual methods
-.method public final onSdkInitialized(Lcom/applovin/sdk/AppLovinSdkConfiguration;)V
-    .locals 0
-
-    invoke-static {p1}, Lcom/eyewind/ads/SdkX;->b(Lcom/applovin/sdk/AppLovinSdkConfiguration;)V
-
-    return-void
-.end method
+# .method public final onSdkInitialized(Lcom/applovin/sdk/AppLovinSdkConfiguration;)V
+#     .locals 0
+#
+#     invoke-static {p1}, Lcom/eyewind/ads/SdkX;->b(Lcom/applovin/sdk/AppLovinSdkConfiguration;)V
+#
+#     return-void
+# .end method

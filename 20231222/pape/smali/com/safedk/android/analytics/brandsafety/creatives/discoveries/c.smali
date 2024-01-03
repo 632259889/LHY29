@@ -534,7 +534,7 @@
     return-void
 .end method
 
-.method public static a(Lcom/applovin/mediation/MaxAd;)Landroid/os/Bundle;
+.method public static a(Ljava/lang/Object;)Landroid/os/Bundle;#com/applovin/mediation/MaxAd
     .locals 13
 
     .prologue

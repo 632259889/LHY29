@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/applovin/communicator/AppLovinCommunicatorSubscriber;
+# .implements Lcom/applovin/communicator/AppLovinCommunicatorSubscriber;
 
 
 # annotations
@@ -45,7 +45,7 @@
 
 .field private static final r:Ljava/lang/String; = "device_type"
 
-.field private static final s:Ljava/lang/String; = "applovin_random_token"
+# .field private static final s:Ljava/lang/String; = "applovin_random_token"
 
 .field private static final t:Ljava/lang/String; = "device_brand"
 
@@ -189,10 +189,10 @@
 
     .line 104
     :goto_0
-    invoke-static {p0}, Lcom/safedk/android/analytics/AppLovinBridge;->registerToReceiveSafeDKSettings(Lcom/applovin/communicator/AppLovinCommunicatorSubscriber;)V
-
-    .line 105
-    invoke-static {p0}, Lcom/safedk/android/analytics/AppLovinBridge;->registerToReceiveUserInfo(Lcom/applovin/communicator/AppLovinCommunicatorSubscriber;)V
+    # invoke-static {p0}, Lcom/safedk/android/analytics/AppLovinBridge;->registerToReceiveSafeDKSettings(Lcom/applovin/communicator/AppLovinCommunicatorSubscriber;)V
+    #
+    # .line 105
+    # invoke-static {p0}, Lcom/safedk/android/analytics/AppLovinBridge;->registerToReceiveUserInfo(Lcom/applovin/communicator/AppLovinCommunicatorSubscriber;)V
 
     .line 106
     return-void
@@ -594,201 +594,201 @@
     return-object v0
 .end method
 
-.method public onMessageReceived(Lcom/applovin/communicator/AppLovinCommunicatorMessage;)V
-    .locals 6
-    .param p1, "message"    # Lcom/applovin/communicator/AppLovinCommunicatorMessage;
-
-    .prologue
-    const/4 v5, 0x1
-
-    .line 136
-    const-string v0, "DeviceData"
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "message received "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {p1}, Lcom/applovin/communicator/AppLovinCommunicatorMessage;->getMessageData()Landroid/os/Bundle;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 138
-    invoke-virtual {p1}, Lcom/applovin/communicator/AppLovinCommunicatorMessage;->getMessageData()Landroid/os/Bundle;
-
-    move-result-object v0
-
-    .line 140
-    const-string v1, "init_success"
-
-    invoke-virtual {v0, v1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_3
-
-    .line 141
-    iget-object v1, p0, Lcom/safedk/android/internal/DeviceData;->H:Lcom/safedk/android/utils/j;
-
-    if-eqz v1, :cond_2
-
-    .line 142
-    const-string v1, "applovin_random_token"
-
-    invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    iput-object v1, p0, Lcom/safedk/android/internal/DeviceData;->h:Ljava/lang/String;
-
-    .line 143
-    const-string v1, "sdk_key"
-
-    invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    iput-object v1, p0, Lcom/safedk/android/internal/DeviceData;->i:Ljava/lang/String;
-
-    .line 144
-    iget-object v1, p0, Lcom/safedk/android/internal/DeviceData;->H:Lcom/safedk/android/utils/j;
-
-    iget v2, p0, Lcom/safedk/android/internal/DeviceData;->d:I
-
-    iget-object v3, p0, Lcom/safedk/android/internal/DeviceData;->h:Ljava/lang/String;
-
-    iget-object v4, p0, Lcom/safedk/android/internal/DeviceData;->i:Ljava/lang/String;
-
-    invoke-virtual {v1, v2, v3, v4}, Lcom/safedk/android/utils/j;->a(ILjava/lang/String;Ljava/lang/String;)Z
-
-    .line 145
-    const-string v1, "device_type"
-
-    invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    iput-object v1, p0, Lcom/safedk/android/internal/DeviceData;->g:Ljava/lang/String;
-
-    .line 148
-    invoke-static {v0}, Lcom/safedk/android/utils/SdksMapping;->setMaxAdapterVersions(Landroid/os/Bundle;)V
-
-    .line 151
-    const-string v1, "init_success"
-
-    invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v1}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    .line 152
-    const-string v1, "DeviceData"
-
-    const-string v2, "AppLovinSdk reported success to retrieve settings"
-
-    invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 156
-    invoke-static {}, Lcom/safedk/android/SafeDK;->getInstance()Lcom/safedk/android/SafeDK;
-
-    move-result-object v1
-
-    invoke-virtual {v1, v0, v5}, Lcom/safedk/android/SafeDK;->a(Landroid/os/Bundle;Z)V
-
-    .line 157
-    invoke-static {}, Lcom/safedk/android/SafeDK;->aa()V
-
-    .line 171
-    :cond_0
-    :goto_0
-    return-void
-
-    .line 159
-    :cond_1
-    invoke-static {}, Lcom/safedk/android/SafeDK;->getInstance()Lcom/safedk/android/SafeDK;
-
-    move-result-object v0
-
-    invoke-virtual {v0, v5}, Lcom/safedk/android/SafeDK;->a(Z)V
-
-    .line 160
-    const-string v0, "DeviceData"
-
-    const-string v1, "AppLovinSdk reported a failure to retrieve settings. The saved settings from a previous session will be used."
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    goto :goto_0
-
-    .line 163
-    :cond_2
-    const-string v0, "DeviceData"
-
-    const-string v1, "AppLovinSdk prefs is null"
-
-    invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    goto :goto_0
-
-    .line 165
-    :cond_3
-    const-string v1, "value"
-
-    invoke-virtual {v0, v1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_4
-
-    .line 167
-    const-string v1, "value"
-
-    invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/safedk/android/internal/DeviceData;->j:Ljava/lang/String;
-
-    goto :goto_0
-
-    .line 168
-    :cond_4
-    const-string v1, "user_id"
-
-    invoke-virtual {v0, v1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_0
-
-    .line 169
-    const-string v1, "user_id"
-
-    invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/safedk/android/internal/DeviceData;->j:Ljava/lang/String;
-
-    goto :goto_0
-.end method
+# .method public onMessageReceived(Lcom/applovin/communicator/AppLovinCommunicatorMessage;)V
+#     .locals 6
+#     .param p1, "message"    # Lcom/applovin/communicator/AppLovinCommunicatorMessage;
+#
+#     .prologue
+#     const/4 v5, 0x1
+#
+#     .line 136
+#     const-string v0, "DeviceData"
+#
+#     new-instance v1, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v2, "message received "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {p1}, Lcom/applovin/communicator/AppLovinCommunicatorMessage;->getMessageData()Landroid/os/Bundle;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 138
+#     invoke-virtual {p1}, Lcom/applovin/communicator/AppLovinCommunicatorMessage;->getMessageData()Landroid/os/Bundle;
+#
+#     move-result-object v0
+#
+#     .line 140
+#     const-string v1, "init_success"
+#
+#     invoke-virtual {v0, v1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
+#
+#     move-result v1
+#
+#     if-eqz v1, :cond_3
+#
+#     .line 141
+#     iget-object v1, p0, Lcom/safedk/android/internal/DeviceData;->H:Lcom/safedk/android/utils/j;
+#
+#     if-eqz v1, :cond_2
+#
+#     .line 142
+#     const-string v1, "applovin_random_token"
+#
+#     invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     iput-object v1, p0, Lcom/safedk/android/internal/DeviceData;->h:Ljava/lang/String;
+#
+#     .line 143
+#     const-string v1, "sdk_key"
+#
+#     invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     iput-object v1, p0, Lcom/safedk/android/internal/DeviceData;->i:Ljava/lang/String;
+#
+#     .line 144
+#     iget-object v1, p0, Lcom/safedk/android/internal/DeviceData;->H:Lcom/safedk/android/utils/j;
+#
+#     iget v2, p0, Lcom/safedk/android/internal/DeviceData;->d:I
+#
+#     iget-object v3, p0, Lcom/safedk/android/internal/DeviceData;->h:Ljava/lang/String;
+#
+#     iget-object v4, p0, Lcom/safedk/android/internal/DeviceData;->i:Ljava/lang/String;
+#
+#     invoke-virtual {v1, v2, v3, v4}, Lcom/safedk/android/utils/j;->a(ILjava/lang/String;Ljava/lang/String;)Z
+#
+#     .line 145
+#     const-string v1, "device_type"
+#
+#     invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     iput-object v1, p0, Lcom/safedk/android/internal/DeviceData;->g:Ljava/lang/String;
+#
+#     .line 148
+#     invoke-static {v0}, Lcom/safedk/android/utils/SdksMapping;->setMaxAdapterVersions(Landroid/os/Bundle;)V
+#
+#     .line 151
+#     const-string v1, "init_success"
+#
+#     invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v1}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
+#
+#     move-result v1
+#
+#     if-eqz v1, :cond_1
+#
+#     .line 152
+#     const-string v1, "DeviceData"
+#
+#     const-string v2, "AppLovinSdk reported success to retrieve settings"
+#
+#     invoke-static {v1, v2}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 156
+#     invoke-static {}, Lcom/safedk/android/SafeDK;->getInstance()Lcom/safedk/android/SafeDK;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1, v0, v5}, Lcom/safedk/android/SafeDK;->a(Landroid/os/Bundle;Z)V
+#
+#     .line 157
+#     invoke-static {}, Lcom/safedk/android/SafeDK;->aa()V
+#
+#     .line 171
+#     :cond_0
+#     :goto_0
+#     return-void
+#
+#     .line 159
+#     :cond_1
+#     invoke-static {}, Lcom/safedk/android/SafeDK;->getInstance()Lcom/safedk/android/SafeDK;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v0, v5}, Lcom/safedk/android/SafeDK;->a(Z)V
+#
+#     .line 160
+#     const-string v0, "DeviceData"
+#
+#     const-string v1, "AppLovinSdk reported a failure to retrieve settings. The saved settings from a previous session will be used."
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     goto :goto_0
+#
+#     .line 163
+#     :cond_2
+#     const-string v0, "DeviceData"
+#
+#     const-string v1, "AppLovinSdk prefs is null"
+#
+#     invoke-static {v0, v1}, Lcom/safedk/android/utils/Logger;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     goto :goto_0
+#
+#     .line 165
+#     :cond_3
+#     const-string v1, "value"
+#
+#     invoke-virtual {v0, v1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
+#
+#     move-result v1
+#
+#     if-eqz v1, :cond_4
+#
+#     .line 167
+#     const-string v1, "value"
+#
+#     invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     iput-object v0, p0, Lcom/safedk/android/internal/DeviceData;->j:Ljava/lang/String;
+#
+#     goto :goto_0
+#
+#     .line 168
+#     :cond_4
+#     const-string v1, "user_id"
+#
+#     invoke-virtual {v0, v1}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
+#
+#     move-result v1
+#
+#     if-eqz v1, :cond_0
+#
+#     .line 169
+#     const-string v1, "user_id"
+#
+#     invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     iput-object v0, p0, Lcom/safedk/android/internal/DeviceData;->j:Ljava/lang/String;
+#
+#     goto :goto_0
+# .end method

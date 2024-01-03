@@ -795,16 +795,16 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
+    check-cast v1, Ljava/lang/Object;#com/applovin/mediation/nativeAds/MaxNativeAdView
 
     .line 873
-    invoke-virtual {v1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;->getWidth()I
+    # invoke-virtual {v1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;->getWidth()I
 
     move-result v2
 
     if-lez v2, :cond_0
 
-    invoke-virtual {v1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;->getHeight()I
+    # invoke-virtual {v1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;->getHeight()I
 
     move-result v2
 
@@ -813,13 +813,13 @@
     .line 874
     iget-object v2, p0, Lcom/safedk/android/analytics/brandsafety/NativeFinder$a;->a:Lcom/safedk/android/analytics/brandsafety/s;
 
-    invoke-virtual {v1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;->getWidth()I
+    # invoke-virtual {v1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;->getWidth()I
 
     move-result v3
 
     int-to-float v3, v3
 
-    invoke-virtual {v1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;->getHeight()I
+    # invoke-virtual {v1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;->getHeight()I
 
     move-result v4
 
@@ -842,7 +842,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;->getWidth()I
+    # invoke-virtual {v1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;->getWidth()I
 
     move-result v4
 
@@ -856,7 +856,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;->getHeight()I
+    # invoke-virtual {v1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;->getHeight()I
 
     move-result v1
 

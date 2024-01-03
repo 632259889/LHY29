@@ -83,7 +83,7 @@
 
     iget-object v1, p0, Lcom/eyewind/ads/SdkX$runSequence$2;->b:Landroidx/appcompat/app/AppCompatActivity;
 
-    invoke-virtual {v0, v1}, Lcom/eyewind/ads/Ads;->b(Landroid/app/Activity;)V
+    # invoke-virtual {v0, v1}, Lcom/eyewind/ads/Ads;->b(Landroid/app/Activity;)V
 
     return-void
 .end method

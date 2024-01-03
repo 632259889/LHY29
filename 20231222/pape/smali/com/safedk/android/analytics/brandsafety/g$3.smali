@@ -69,7 +69,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/safedk/android/analytics/AppLovinBridge;->reportClickUrlResolvedEvent(Landroid/os/Bundle;Lcom/applovin/communicator/AppLovinCommunicatorPublisher;)V
+    # invoke-static {v0, v1}, Lcom/safedk/android/analytics/AppLovinBridge;->reportClickUrlResolvedEvent(Landroid/os/Bundle;Lcom/applovin/communicator/AppLovinCommunicatorPublisher;)V
 
     .line 121
     :cond_0

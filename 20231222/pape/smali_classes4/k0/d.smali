@@ -47,78 +47,78 @@
 
 
 # virtual methods
-.method public onAdRevenue(Lcom/eyewind/sdkx/Ad;)V
-    .locals 4
-
-    const-string v0, "ad"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 1
-    invoke-super {p0, p1}, Lcom/eyewind/sdkx/WrapAdListener;->onAdRevenue(Lcom/eyewind/sdkx/Ad;)V
-
-    .line 2
-    invoke-virtual {p1}, Lcom/eyewind/sdkx/Ad;->getRawInfo()Ljava/lang/Object;
-
-    move-result-object v0
-
-    const-string v1, "null cannot be cast to non-null type com.applovin.mediation.MaxAd"
-
-    invoke-static {v0, v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
-
-    check-cast v0, Lcom/applovin/mediation/MaxAd;
-
-    .line 3
-    invoke-virtual {p1}, Lcom/eyewind/sdkx/Ad;->getRevenue()Lcom/eyewind/sdkx/AdRevenue;
-
-    move-result-object p1
-
-    if-eqz p1, :cond_0
-
-    .line 4
-    new-instance v1, Lcom/adjust/sdk/AdjustAdRevenue;
-
-    const-string v2, "applovin_max_sdk"
-
-    invoke-direct {v1, v2}, Lcom/adjust/sdk/AdjustAdRevenue;-><init>(Ljava/lang/String;)V
-
-    .line 5
-    invoke-virtual {p1}, Lcom/eyewind/sdkx/AdRevenue;->getValue()D
-
-    move-result-wide v2
-
-    invoke-static {v2, v3}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
-
-    move-result-object p1
-
-    const-string v2, "USD"
-
-    invoke-virtual {v1, p1, v2}, Lcom/adjust/sdk/AdjustAdRevenue;->setRevenue(Ljava/lang/Double;Ljava/lang/String;)V
-
-    .line 6
-    invoke-interface {v0}, Lcom/applovin/mediation/MaxAd;->getNetworkName()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v1, p1}, Lcom/adjust/sdk/AdjustAdRevenue;->setAdRevenueNetwork(Ljava/lang/String;)V
-
-    .line 7
-    invoke-interface {v0}, Lcom/applovin/mediation/MaxAd;->getAdUnitId()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v1, p1}, Lcom/adjust/sdk/AdjustAdRevenue;->setAdRevenueUnit(Ljava/lang/String;)V
-
-    .line 8
-    invoke-interface {v0}, Lcom/applovin/mediation/MaxAd;->getPlacement()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v1, p1}, Lcom/adjust/sdk/AdjustAdRevenue;->setAdRevenuePlacement(Ljava/lang/String;)V
-
-    .line 9
-    invoke-static {v1}, Lcom/adjust/sdk/Adjust;->trackAdRevenue(Lcom/adjust/sdk/AdjustAdRevenue;)V
-
-    :cond_0
-    return-void
-.end method
+# .method public onAdRevenue(Lcom/eyewind/sdkx/Ad;)V
+#     .locals 4
+#
+#     const-string v0, "ad"
+#
+#     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     .line 1
+#     invoke-super {p0, p1}, Lcom/eyewind/sdkx/WrapAdListener;->onAdRevenue(Lcom/eyewind/sdkx/Ad;)V
+#
+#     .line 2
+#     invoke-virtual {p1}, Lcom/eyewind/sdkx/Ad;->getRawInfo()Ljava/lang/Object;
+#
+#     move-result-object v0
+#
+#     const-string v1, "null cannot be cast to non-null type com.applovin.mediation.MaxAd"
+#
+#     invoke-static {v0, v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+#
+#     check-cast v0, Lcom/applovin/mediation/MaxAd;
+#
+#     .line 3
+#     invoke-virtual {p1}, Lcom/eyewind/sdkx/Ad;->getRevenue()Lcom/eyewind/sdkx/AdRevenue;
+#
+#     move-result-object p1
+#
+#     if-eqz p1, :cond_0
+#
+#     .line 4
+#     new-instance v1, Lcom/adjust/sdk/AdjustAdRevenue;
+#
+#     const-string v2, "applovin_max_sdk"
+#
+#     invoke-direct {v1, v2}, Lcom/adjust/sdk/AdjustAdRevenue;-><init>(Ljava/lang/String;)V
+#
+#     .line 5
+#     invoke-virtual {p1}, Lcom/eyewind/sdkx/AdRevenue;->getValue()D
+#
+#     move-result-wide v2
+#
+#     invoke-static {v2, v3}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+#
+#     move-result-object p1
+#
+#     const-string v2, "USD"
+#
+#     invoke-virtual {v1, p1, v2}, Lcom/adjust/sdk/AdjustAdRevenue;->setRevenue(Ljava/lang/Double;Ljava/lang/String;)V
+#
+#     .line 6
+#     invoke-interface {v0}, Lcom/applovin/mediation/MaxAd;->getNetworkName()Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     invoke-virtual {v1, p1}, Lcom/adjust/sdk/AdjustAdRevenue;->setAdRevenueNetwork(Ljava/lang/String;)V
+#
+#     .line 7
+#     invoke-interface {v0}, Lcom/applovin/mediation/MaxAd;->getAdUnitId()Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     invoke-virtual {v1, p1}, Lcom/adjust/sdk/AdjustAdRevenue;->setAdRevenueUnit(Ljava/lang/String;)V
+#
+#     .line 8
+#     invoke-interface {v0}, Lcom/applovin/mediation/MaxAd;->getPlacement()Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     invoke-virtual {v1, p1}, Lcom/adjust/sdk/AdjustAdRevenue;->setAdRevenuePlacement(Ljava/lang/String;)V
+#
+#     .line 9
+#     invoke-static {v1}, Lcom/adjust/sdk/Adjust;->trackAdRevenue(Lcom/adjust/sdk/AdjustAdRevenue;)V
+#
+#     :cond_0
+#     return-void
+# .end method

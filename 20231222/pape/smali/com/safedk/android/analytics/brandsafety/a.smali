@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/applovin/communicator/AppLovinCommunicatorSubscriber;
+# .implements Lcom/applovin/communicator/AppLovinCommunicatorSubscriber;
 .implements Lcom/safedk/android/analytics/brandsafety/f;
 .implements Lcom/safedk/android/internal/a;
 
