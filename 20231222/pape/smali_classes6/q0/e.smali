@@ -47,19 +47,19 @@
     const-string v0, "key"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 1
-    invoke-static {}, Lcom/umeng/cconfig/UMRemoteConfig;->getInstance()Lcom/umeng/cconfig/UMRemoteConfig;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    invoke-virtual {v0, p1}, Lcom/umeng/cconfig/UMRemoteConfig;->getConfigValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    if-eqz p1, :cond_0
+    
+    # .line 1
+    # # invoke-static {}, Lcom/umeng/cconfig/UMRemoteConfig;->getInstance()Lcom/umeng/cconfig/UMRemoteConfig;
+    # #
+    # # move-result-object v0
+    #
+    # if-eqz v0, :cond_0
+    #
+    # invoke-virtual {v0, p1}, Lcom/umeng/cconfig/UMRemoteConfig;->getConfigValue(Ljava/lang/String;)Ljava/lang/String;
+    #
+    # move-result-object p1
+    #
+    # if-eqz p1, :cond_0
 
     new-instance v0, Lp2/c;
 
@@ -67,11 +67,11 @@
 
     invoke-direct {v0, v1, p1}, Lp2/c;-><init>(Lcom/eyewind/remote_config/EwAnalyticsSDK$ValueSource;Ljava/lang/String;)V
 
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    :goto_0
+    # goto :goto_0
+    #
+    # :cond_0
+    # const/4 v0, 0x0
+    #
+    # :goto_0
     return-object v0
 .end method

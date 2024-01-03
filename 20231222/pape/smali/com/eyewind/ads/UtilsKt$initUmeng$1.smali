@@ -83,7 +83,7 @@
 
     const/4 v1, 0x1
 
-    invoke-static {v0, v1}, Lcom/umeng/commonsdk/UMConfigure;->submitPolicyGrantResult(Landroid/content/Context;Z)V
+    # invoke-static {v0, v1}, Lcom/umeng/commonsdk/UMConfigure;->submitPolicyGrantResult(Landroid/content/Context;Z)V
 
     const-string v0, "sdkX_umengPushSecret"
 
@@ -123,7 +123,7 @@
     move-result-object v4
 
     .line 8
-    invoke-static {v2, v3, v4, v1, v0}, Lcom/umeng/commonsdk/UMConfigure;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+    # invoke-static {v2, v3, v4, v1, v0}, Lcom/umeng/commonsdk/UMConfigure;->init(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
 
     return-void
 .end method

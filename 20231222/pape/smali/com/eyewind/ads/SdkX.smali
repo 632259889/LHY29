@@ -1509,7 +1509,7 @@
     move-object p1, v1
 
     :goto_0
-    invoke-static {p1, p2, p3}, Lcom/umeng/analytics/MobclickAgent;->onEventObject(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)V
+    # invoke-static {p1, p2, p3}, Lcom/umeng/analytics/MobclickAgent;->onEventObject(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)V
 
     goto :goto_4
 
@@ -1528,7 +1528,7 @@
     move-object p1, p3
 
     :goto_2
-    invoke-static {p1, p2}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-static {p1, p2}, Lcom/umeng/analytics/MobclickAgent;->onEvent(Landroid/content/Context;Ljava/lang/String;)V
 
     goto :goto_4
 

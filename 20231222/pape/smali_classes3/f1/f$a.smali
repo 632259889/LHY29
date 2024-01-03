@@ -2,8 +2,8 @@
 .super Ljava/lang/Object;
 .source "UmengConfigHelper.java"
 
-# interfaces
-.implements Lcom/umeng/cconfig/listener/OnConfigStatusChangedListener;
+# # interfaces
+# .implements Lcom/umeng/cconfig/listener/OnConfigStatusChangedListener;
 
 
 # annotations

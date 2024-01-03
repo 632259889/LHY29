@@ -754,7 +754,7 @@
     const-string v0, "draw"
 
     .line 3
-    invoke-static {v0}, Lcom/umeng/analytics/MobclickAgent;->onPageEnd(Ljava/lang/String;)V
+    # invoke-static {v0}, Lcom/umeng/analytics/MobclickAgent;->onPageEnd(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -829,7 +829,7 @@
     const-string v0, "draw"
 
     .line 2
-    invoke-static {v0}, Lcom/umeng/analytics/MobclickAgent;->onPageStart(Ljava/lang/String;)V
+    # invoke-static {v0}, Lcom/umeng/analytics/MobclickAgent;->onPageStart(Ljava/lang/String;)V
 
     .line 3
     iget-object v0, p0, Leyewind/drawboard/DrawBoardActivity;->paperView:Leyewind/drawboard/PaperView;

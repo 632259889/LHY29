@@ -66,13 +66,14 @@
 
     .line 1
     :try_start_0
-    const-class v2, Lcom/umeng/cconfig/RemoteConfigSettings;
+    # const-class v2, Lcom/umeng/cconfig/RemoteConfigSettings;
 
     .line 2
-    const-class v2, Lcom/umeng/cconfig/UMRemoteConfig;
+    # const-class v2, Lcom/umeng/cconfig/UMRemoteConfig;
+    const/4 v0,0x1
 
     .line 3
-    const-class v2, Lcom/umeng/cconfig/listener/OnConfigStatusChangedListener;
+    # const-class v2, Lcom/umeng/cconfig/listener/OnConfigStatusChangedListener;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
