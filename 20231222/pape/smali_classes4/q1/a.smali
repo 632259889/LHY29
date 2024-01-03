@@ -3,7 +3,7 @@
 .source "R8$$SyntheticClass"
 
 # interfaces
-.implements Lcom/adjust/sdk/OnAttributionChangedListener;
+# .implements Lcom/adjust/sdk/OnAttributionChangedListener;
 
 
 # static fields
@@ -33,10 +33,10 @@
 
 
 # virtual methods
-.method public final onAttributionChanged(Lcom/adjust/sdk/AdjustAttribution;)V
-    .locals 0
-
-    invoke-static {p1}, Lq1/b;->a(Lcom/adjust/sdk/AdjustAttribution;)V
-
-    return-void
-.end method
+# .method public final onAttributionChanged(Lcom/adjust/sdk/AdjustAttribution;)V
+#     .locals 0
+#
+#     invoke-static {p1}, Lq1/b;->a(Lcom/adjust/sdk/AdjustAttribution;)V
+#
+#     return-void
+# .end method

@@ -50,7 +50,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {}, Lcom/adjust/sdk/Adjust;->onPause()V
+    # invoke-static {}, Lcom/adjust/sdk/Adjust;->onPause()V
 
     return-void
 .end method
@@ -63,7 +63,7 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {}, Lcom/adjust/sdk/Adjust;->onResume()V
+    # invoke-static {}, Lcom/adjust/sdk/Adjust;->onResume()V
 
     return-void
 .end method

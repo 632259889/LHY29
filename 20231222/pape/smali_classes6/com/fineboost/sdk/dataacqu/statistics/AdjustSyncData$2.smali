@@ -37,9 +37,9 @@
 
     .line 1
     :try_start_0
-    invoke-static {}, Lcom/adjust/sdk/Adjust;->getAttribution()Lcom/adjust/sdk/AdjustAttribution;
-
-    move-result-object v0
+    # invoke-static {}, Lcom/adjust/sdk/Adjust;->getAttribution()Lcom/adjust/sdk/AdjustAttribution;
+    #
+    # move-result-object v0
 
     const/4 v1, 0x0
 
@@ -48,7 +48,7 @@
     .line 2
     iget-object v2, p0, Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData$2;->this$0:Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;
 
-    invoke-static {v2, v0}, Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;->access$300(Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;Lcom/adjust/sdk/AdjustAttribution;)V
+    # invoke-static {v2, v0}, Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;->access$300(Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;Lcom/adjust/sdk/AdjustAttribution;)V
 
     .line 3
     iget-object v0, p0, Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData$2;->this$0:Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;

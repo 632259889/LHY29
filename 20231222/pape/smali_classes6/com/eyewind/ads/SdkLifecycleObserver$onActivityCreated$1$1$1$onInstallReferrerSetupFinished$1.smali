@@ -80,46 +80,46 @@
 .end method
 
 .method public final invoke()V
-    .locals 3
-
-    .line 2
-    invoke-static {}, Lcom/adjust/sdk/Adjust;->getDefaultInstance()Lcom/adjust/sdk/AdjustInstance;
-
-    move-result-object v0
-
-    .line 3
-    iget-object v1, p0, Lcom/eyewind/ads/SdkLifecycleObserver$onActivityCreated$1$1$1$onInstallReferrerSetupFinished$1;->b:Ljava/lang/String;
-
-    iget-object v2, p0, Lcom/eyewind/ads/SdkLifecycleObserver$onActivityCreated$1$1$1$onInstallReferrerSetupFinished$1;->c:Landroid/app/Activity;
-
-    invoke-virtual {v0, v1, v2}, Lcom/adjust/sdk/AdjustInstance;->sendReferrer(Ljava/lang/String;Landroid/content/Context;)V
-
-    .line 4
-    iget-object v0, p0, Lcom/eyewind/ads/SdkLifecycleObserver$onActivityCreated$1$1$1$onInstallReferrerSetupFinished$1;->c:Landroid/app/Activity;
-
-    invoke-static {v0}, Lcom/eyewind/ads/UtilsKt;->G(Landroid/content/Context;)Landroid/content/SharedPreferences;
-
-    move-result-object v0
-
-    .line 5
-    invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
-
-    move-result-object v0
-
-    const-string v1, "editor"
-
-    .line 6
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v1, "checkedInstallReferrer"
-
-    const/4 v2, 0x1
-
-    .line 7
-    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
-
-    .line 8
-    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
+    .locals 0
+    #
+    # .line 2
+    # invoke-static {}, Ljava/lang/Object;->getDefaultInstance()Ljava/lang/Object;#Lcom/adjust/sdk/AdjustInstance
+    #
+    # move-result-object v0
+    #
+    # .line 3
+    # iget-object v1, p0, Lcom/eyewind/ads/SdkLifecycleObserver$onActivityCreated$1$1$1$onInstallReferrerSetupFinished$1;->b:Ljava/lang/String;
+    #
+    # iget-object v2, p0, Lcom/eyewind/ads/SdkLifecycleObserver$onActivityCreated$1$1$1$onInstallReferrerSetupFinished$1;->c:Landroid/app/Activity;
+    #
+    # # invoke-virtual {v0, v1, v2}, Lcom/adjust/sdk/AdjustInstance;->sendReferrer(Ljava/lang/String;Landroid/content/Context;)V
+    #
+    # .line 4
+    # iget-object v0, p0, Lcom/eyewind/ads/SdkLifecycleObserver$onActivityCreated$1$1$1$onInstallReferrerSetupFinished$1;->c:Landroid/app/Activity;
+    #
+    # invoke-static {v0}, Lcom/eyewind/ads/UtilsKt;->G(Landroid/content/Context;)Landroid/content/SharedPreferences;
+    #
+    # move-result-object v0
+    #
+    # .line 5
+    # invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    #
+    # move-result-object v0
+    #
+    # const-string v1, "editor"
+    #
+    # .line 6
+    # invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # const-string v1, "checkedInstallReferrer"
+    #
+    # const/4 v2, 0x1
+    #
+    # .line 7
+    # invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
+    #
+    # .line 8
+    # invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     return-void
 .end method

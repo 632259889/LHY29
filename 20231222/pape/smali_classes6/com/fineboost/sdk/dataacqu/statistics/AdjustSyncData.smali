@@ -161,14 +161,14 @@
     return v0
 .end method
 
-.method static synthetic access$300(Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;Lcom/adjust/sdk/AdjustAttribution;)V
-    .locals 0
-
-    .line 1
-    invoke-direct {p0, p1}, Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;->setUserOnce(Lcom/adjust/sdk/AdjustAttribution;)V
-
-    return-void
-.end method
+# .method static synthetic access$300(Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;Lcom/adjust/sdk/AdjustAttribution;)V
+#     .locals 0
+#
+#     .line 1
+#     invoke-direct {p0, p1}, Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;->setUserOnce(Lcom/adjust/sdk/AdjustAttribution;)V
+#
+#     return-void
+# .end method
 
 .method static synthetic access$400()I
     .locals 1
@@ -221,11 +221,11 @@
     invoke-static {v0}, Lcom/fineboost/utils/LogUtils;->d(Ljava/lang/String;)V
 
     .line 2
-    new-instance v0, Lcom/adjust/sdk/AdjustEvent;
-
-    const-string v1, "eas_attribution"
-
-    invoke-direct {v0, v1}, Lcom/adjust/sdk/AdjustEvent;-><init>(Ljava/lang/String;)V
+    # new-instance v0, Lcom/adjust/sdk/AdjustEvent;
+    #
+    # const-string v1, "eas_attribution"
+    #
+    # invoke-direct {v0, v1}, Lcom/adjust/sdk/AdjustEvent;-><init>(Ljava/lang/String;)V
 
     .line 3
     iget-object v1, p0, Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;->appid:Ljava/lang/String;
@@ -254,9 +254,9 @@
     iget-object v1, v1, Lcom/fineboost/sdk/dataacqu/AppProps;->__fid:Ljava/lang/String;
 
     :goto_0
-    const-string v3, "__fid"
-
-    invoke-virtual {v0, v3, v1}, Lcom/adjust/sdk/AdjustEvent;->addCallbackParameter(Ljava/lang/String;Ljava/lang/String;)V
+    # const-string v3, "__fid"
+    #
+    # invoke-virtual {v0, v3, v1}, Lcom/adjust/sdk/AdjustEvent;->addCallbackParameter(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 4
     invoke-static {}, Lcom/fineboost/sdk/dataacqu/SystemProps;->getInstance()Lcom/fineboost/sdk/dataacqu/SystemProps;
@@ -279,9 +279,9 @@
     iget-object v1, v1, Lcom/fineboost/sdk/dataacqu/SystemProps;->__did:Ljava/lang/String;
 
     :goto_1
-    const-string v3, "__did"
-
-    invoke-virtual {v0, v3, v1}, Lcom/adjust/sdk/AdjustEvent;->addCallbackParameter(Ljava/lang/String;Ljava/lang/String;)V
+    # const-string v3, "__did"
+    #
+    # invoke-virtual {v0, v3, v1}, Lcom/adjust/sdk/AdjustEvent;->addCallbackParameter(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 5
     iget-object v1, p0, Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;->appid:Ljava/lang/String;
@@ -308,14 +308,14 @@
     :goto_2
     const-string v1, "__bid"
 
-    invoke-virtual {v0, v1, v2}, Lcom/adjust/sdk/AdjustEvent;->addCallbackParameter(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-virtual {v0, v1, v2}, Lcom/adjust/sdk/AdjustEvent;->addCallbackParameter(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v1, "__platform"
 
     const-string v2, "1"
 
     .line 6
-    invoke-virtual {v0, v1, v2}, Lcom/adjust/sdk/AdjustEvent;->addCallbackParameter(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-virtual {v0, v1, v2}, Lcom/adjust/sdk/AdjustEvent;->addCallbackParameter(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 7
     invoke-static {}, Lcom/fineboost/sdk/dataacqu/SystemProps;->getInstance()Lcom/fineboost/sdk/dataacqu/SystemProps;
@@ -326,17 +326,17 @@
 
     const-string v2, "__pkg_name"
 
-    invoke-virtual {v0, v2, v1}, Lcom/adjust/sdk/AdjustEvent;->addCallbackParameter(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-virtual {v0, v2, v1}, Lcom/adjust/sdk/AdjustEvent;->addCallbackParameter(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     iget-object v1, p0, Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;->appid:Ljava/lang/String;
 
     const-string v2, "__appid"
 
-    invoke-virtual {v0, v2, v1}, Lcom/adjust/sdk/AdjustEvent;->addCallbackParameter(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-virtual {v0, v2, v1}, Lcom/adjust/sdk/AdjustEvent;->addCallbackParameter(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 9
-    invoke-static {v0}, Lcom/adjust/sdk/Adjust;->trackEvent(Lcom/adjust/sdk/AdjustEvent;)V
+    # invoke-static {v0}, Lcom/adjust/sdk/Adjust;->trackEvent(Lcom/adjust/sdk/AdjustEvent;)V
 
     .line 10
     new-instance v0, Ljava/lang/StringBuilder;
@@ -485,9 +485,9 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Lcom/adjust/sdk/Adjust;->getAdid()Ljava/lang/String;
-
-    move-result-object v0
+    # invoke-static {}, Lcom/adjust/sdk/Adjust;->getAdid()Ljava/lang/String;
+    #
+    # move-result-object v0
 
     .line 2
     new-instance v1, Ljava/lang/StringBuilder;
@@ -605,118 +605,118 @@
     return-void
 .end method
 
-.method private setUserOnce(Lcom/adjust/sdk/AdjustAttribution;)V
-    .locals 4
-
-    .line 1
-    iget-object v0, p1, Lcom/adjust/sdk/AdjustAttribution;->network:Ljava/lang/String;
-
-    const-string v1, "Organic"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    const-string v1, " trackerName:"
-
-    if-eqz v0, :cond_0
-
-    .line 2
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "AdjustSyncData\u5f52\u56e0\u6570\u636e\u65e0\u6548\uff0c\u4e0d\u8fdb\u884csetUsetOnce\n network:"
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object v2, p1, Lcom/adjust/sdk/AdjustAttribution;->network:Ljava/lang/String;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object p1, p1, Lcom/adjust/sdk/AdjustAttribution;->trackerName:Ljava/lang/String;
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-static {p1}, Lcom/fineboost/utils/LogUtils;->d(Ljava/lang/String;)V
-
-    return-void
-
-    .line 3
-    :cond_0
-    invoke-direct {p0}, Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;->isFistAttribution()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    return-void
-
-    .line 4
-    :cond_1
-    iget-object v0, p0, Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;->cacheUtils:Lcom/fineboost/utils/CacheUtils;
-
-    const/4 v2, 0x1
-
-    const-string v3, "IS_EVEN_ADJST_FIRST"
-
-    invoke-virtual {v0, v3, v2}, Lcom/fineboost/utils/CacheUtils;->putBoolean(Ljava/lang/String;Z)V
-
-    .line 5
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v2, "AdjustSyncDatasetUserOnce YFDataAgent.trackUserSetOnce\n network:"
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object v2, p1, Lcom/adjust/sdk/AdjustAttribution;->network:Ljava/lang/String;
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object v1, p1, Lcom/adjust/sdk/AdjustAttribution;->trackerName:Ljava/lang/String;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lcom/fineboost/utils/LogUtils;->d(Ljava/lang/String;)V
-
-    .line 6
-    new-instance v0, Ljava/util/HashMap;
-
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
-
-    .line 7
-    iget-object v1, p1, Lcom/adjust/sdk/AdjustAttribution;->network:Ljava/lang/String;
-
-    const-string v2, "__network_name"
-
-    invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 8
-    iget-object p1, p1, Lcom/adjust/sdk/AdjustAttribution;->trackerName:Ljava/lang/String;
-
-    const-string v1, "eas_tracker_name"
-
-    invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 9
-    invoke-static {v0}, Lcom/fineboost/sdk/dataacqu/YFDataAgent;->trackUserSetOnce(Ljava/util/Map;)V
-
-    return-void
-.end method
+# .method private setUserOnce(Lcom/adjust/sdk/AdjustAttribution;)V
+#     .locals 4
+#
+#     .line 1
+#     iget-object v0, p1, Lcom/adjust/sdk/AdjustAttribution;->network:Ljava/lang/String;
+#
+#     const-string v1, "Organic"
+#
+#     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+#
+#     move-result v0
+#
+#     const-string v1, " trackerName:"
+#
+#     if-eqz v0, :cond_0
+#
+#     .line 2
+#     new-instance v0, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v2, "AdjustSyncData\u5f52\u56e0\u6570\u636e\u65e0\u6548\uff0c\u4e0d\u8fdb\u884csetUsetOnce\n network:"
+#
+#     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     iget-object v2, p1, Lcom/adjust/sdk/AdjustAttribution;->network:Ljava/lang/String;
+#
+#     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     iget-object p1, p1, Lcom/adjust/sdk/AdjustAttribution;->trackerName:Ljava/lang/String;
+#
+#     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     invoke-static {p1}, Lcom/fineboost/utils/LogUtils;->d(Ljava/lang/String;)V
+#
+#     return-void
+#
+#     .line 3
+#     :cond_0
+#     invoke-direct {p0}, Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;->isFistAttribution()Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_1
+#
+#     return-void
+#
+#     .line 4
+#     :cond_1
+#     iget-object v0, p0, Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;->cacheUtils:Lcom/fineboost/utils/CacheUtils;
+#
+#     const/4 v2, 0x1
+#
+#     const-string v3, "IS_EVEN_ADJST_FIRST"
+#
+#     invoke-virtual {v0, v3, v2}, Lcom/fineboost/utils/CacheUtils;->putBoolean(Ljava/lang/String;Z)V
+#
+#     .line 5
+#     new-instance v0, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     const-string v2, "AdjustSyncDatasetUserOnce YFDataAgent.trackUserSetOnce\n network:"
+#
+#     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     iget-object v2, p1, Lcom/adjust/sdk/AdjustAttribution;->network:Ljava/lang/String;
+#
+#     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     iget-object v1, p1, Lcom/adjust/sdk/AdjustAttribution;->trackerName:Ljava/lang/String;
+#
+#     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     invoke-static {v0}, Lcom/fineboost/utils/LogUtils;->d(Ljava/lang/String;)V
+#
+#     .line 6
+#     new-instance v0, Ljava/util/HashMap;
+#
+#     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+#
+#     .line 7
+#     iget-object v1, p1, Lcom/adjust/sdk/AdjustAttribution;->network:Ljava/lang/String;
+#
+#     const-string v2, "__network_name"
+#
+#     invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     .line 8
+#     iget-object p1, p1, Lcom/adjust/sdk/AdjustAttribution;->trackerName:Ljava/lang/String;
+#
+#     const-string v1, "eas_tracker_name"
+#
+#     invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     .line 9
+#     invoke-static {v0}, Lcom/fineboost/sdk/dataacqu/YFDataAgent;->trackUserSetOnce(Ljava/util/Map;)V
+#
+#     return-void
+# .end method
 
 .method private sevenDateven()V
     .locals 1
@@ -1038,7 +1038,7 @@
     iget-object v1, v1, Lcom/fineboost/sdk/dataacqu/AppProps;->__fid:Ljava/lang/String;
 
     :goto_0
-    invoke-static {v0, v1}, Lcom/adjust/sdk/Adjust;->addSessionPartnerParameter(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/adjust/sdk/Adjust;->addSessionPartnerParameter(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "__did"
 
@@ -1063,7 +1063,7 @@
     iget-object v1, v1, Lcom/fineboost/sdk/dataacqu/SystemProps;->__did:Ljava/lang/String;
 
     :goto_1
-    invoke-static {v0, v1}, Lcom/adjust/sdk/Adjust;->addSessionPartnerParameter(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/adjust/sdk/Adjust;->addSessionPartnerParameter(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "__bid"
 
@@ -1090,14 +1090,14 @@
     iget-object v2, v1, Lcom/fineboost/sdk/dataacqu/AppProps;->__bid:Ljava/lang/String;
 
     :goto_2
-    invoke-static {v0, v2}, Lcom/adjust/sdk/Adjust;->addSessionPartnerParameter(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v2}, Lcom/adjust/sdk/Adjust;->addSessionPartnerParameter(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "__platform"
 
     const-string v1, "1"
 
     .line 6
-    invoke-static {v0, v1}, Lcom/adjust/sdk/Adjust;->addSessionPartnerParameter(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/adjust/sdk/Adjust;->addSessionPartnerParameter(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "__pkg_name"
 
@@ -1108,14 +1108,14 @@
 
     iget-object v1, v1, Lcom/fineboost/sdk/dataacqu/SystemProps;->__pkg_name:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/adjust/sdk/Adjust;->addSessionPartnerParameter(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/adjust/sdk/Adjust;->addSessionPartnerParameter(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "__appid"
 
     .line 8
     iget-object v1, p0, Lcom/fineboost/sdk/dataacqu/statistics/AdjustSyncData;->appid:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/adjust/sdk/Adjust;->addSessionPartnerParameter(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/adjust/sdk/Adjust;->addSessionPartnerParameter(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 9
     new-instance v0, Ljava/lang/StringBuilder;

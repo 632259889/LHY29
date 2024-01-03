@@ -52,7 +52,7 @@
         "J",
         "v",
         "u",
-        "Lcom/adjust/sdk/AdjustAttribution;",
+        # "Lcom/adjust/sdk/AdjustAttribution;",
         "q",
         "isPrivate",
         "S",
@@ -100,7 +100,7 @@
         "N",
         "(Landroid/app/Activity;)V",
         "currentActivity",
-        "Lcom/adjust/sdk/AdjustAttribution;",
+        # "Lcom/adjust/sdk/AdjustAttribution;",
         "adjustAttribution",
         "adsApplovinMax_release"
     }
@@ -149,7 +149,7 @@
 
 .field public static h:Landroid/app/Activity;
 
-.field private static i:Lcom/adjust/sdk/AdjustAttribution;
+# .field private static i:Lcom/adjust/sdk/AdjustAttribution;
 
 
 # direct methods
@@ -1480,13 +1480,13 @@
     return-void
 .end method
 
-.method public static synthetic b(Ll8/l;Lcom/adjust/sdk/AdjustAttribution;)V
-    .locals 0
-
-    invoke-static {p0, p1}, Lcom/eyewind/ads/UtilsKt;->s(Ll8/l;Lcom/adjust/sdk/AdjustAttribution;)V
-
-    return-void
-.end method
+# .method public static synthetic b(Ll8/l;Lcom/adjust/sdk/AdjustAttribution;)V
+#     .locals 0
+#
+#     invoke-static {p0, p1}, Lcom/eyewind/ads/UtilsKt;->s(Ll8/l;Lcom/adjust/sdk/AdjustAttribution;)V
+#
+#     return-void
+# .end method
 
 .method public static synthetic c(Landroid/content/Context;Z)V
     .locals 0
@@ -1504,14 +1504,14 @@
     return-void
 .end method
 
-.method public static final synthetic e()Lcom/adjust/sdk/AdjustAttribution;
-    .locals 1
-
-    .line 1
-    sget-object v0, Lcom/eyewind/ads/UtilsKt;->i:Lcom/adjust/sdk/AdjustAttribution;
-
-    return-object v0
-.end method
+# .method public static final synthetic e()Lcom/adjust/sdk/AdjustAttribution;
+#     .locals 1
+#
+#     .line 1
+#     sget-object v0, Lcom/eyewind/ads/UtilsKt;->i:Lcom/adjust/sdk/AdjustAttribution;
+#
+#     return-object v0
+# .end method
 
 .method public static final synthetic f()Ljava/util/concurrent/CopyOnWriteArrayList;
     .locals 1
@@ -1627,7 +1627,7 @@
     invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {}, Lcom/adjust/sdk/Adjust;->onResume()V
+    # invoke-static {}, Lcom/adjust/sdk/Adjust;->onResume()V
 
     .line 2
     invoke-static {p0}, Lcom/umeng/analytics/MobclickAgent;->onResume(Landroid/content/Context;)V
@@ -1749,117 +1749,117 @@
     return-object p0
 .end method
 
-.method public static final q(Landroid/content/Context;Ll8/l;)V
-    .locals 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/content/Context;",
-            "Ll8/l<",
-            "-",
-            "Lcom/adjust/sdk/AdjustAttribution;",
-            "Lz7/k;",
-            ">;)V"
-        }
-    .end annotation
-
-    const-string v0, "context"
-
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 1
-    new-instance v0, Lcom/adjust/sdk/AdjustConfig;
-
-    const-string v1, "sdkX_adjustId"
-
-    .line 2
-    invoke-static {v1}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    .line 3
-    sget-boolean v2, Lcom/eyewind/ads/UtilsKt;->a:Z
-
-    if-eqz v2, :cond_0
-
-    const-string v2, "sandbox"
-
-    goto :goto_0
-
-    :cond_0
-    const-string v2, "production"
-
-    .line 4
-    :goto_0
-    invoke-direct {v0, p0, v1, v2}, Lcom/adjust/sdk/AdjustConfig;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 5
-    sget-boolean v1, Lcom/eyewind/ads/UtilsKt;->a:Z
-
-    if-nez v1, :cond_1
-
-    sget-boolean v1, Lcom/eyewind/ads/UtilsKt;->b:Z
-
-    if-eqz v1, :cond_2
-
-    .line 6
-    :cond_1
-    sget-object v1, Lcom/adjust/sdk/LogLevel;->VERBOSE:Lcom/adjust/sdk/LogLevel;
-
-    invoke-virtual {v0, v1}, Lcom/adjust/sdk/AdjustConfig;->setLogLevel(Lcom/adjust/sdk/LogLevel;)V
-
-    .line 7
-    :cond_2
-    new-instance v1, Lk0/j0;
-
-    invoke-direct {v1, p1}, Lk0/j0;-><init>(Ll8/l;)V
-
-    invoke-virtual {v0, v1}, Lcom/adjust/sdk/AdjustConfig;->setOnAttributionChangedListener(Lcom/adjust/sdk/OnAttributionChangedListener;)V
-
-    .line 8
-    invoke-static {v0}, Lcom/adjust/sdk/Adjust;->onCreate(Lcom/adjust/sdk/AdjustConfig;)V
-
-    .line 9
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
-
-    move-result-object p1
-
-    const-string v0, "null cannot be cast to non-null type android.app.Application"
-
-    invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
-
-    check-cast p1, Landroid/app/Application;
-
-    invoke-static {p1}, Lcom/eyewind/ads/UtilsKt;->I(Landroid/app/Application;)V
-
-    .line 10
-    instance-of p1, p0, Landroidx/appcompat/app/AppCompatActivity;
-
-    if-eqz p1, :cond_3
-
-    .line 11
-    move-object p1, p0
-
-    check-cast p1, Landroidx/appcompat/app/AppCompatActivity;
-
-    invoke-virtual {p1}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
-
-    move-result-object p1
-
-    sget-object v0, Landroidx/lifecycle/Lifecycle$State;->RESUMED:Landroidx/lifecycle/Lifecycle$State;
-
-    if-ne p1, v0, :cond_3
-
-    .line 12
-    invoke-static {p0}, Lcom/eyewind/ads/UtilsKt;->l(Landroid/content/Context;)V
-
-    :cond_3
-    return-void
-.end method
+# .method public static final q(Landroid/content/Context;Ll8/l;)V
+#     .locals 3
+#     .annotation system Ldalvik/annotation/Signature;
+#         value = {
+#             "(",
+#             "Landroid/content/Context;",
+#             "Ll8/l<",
+#             "-",
+#             # "Lcom/adjust/sdk/AdjustAttribution;",
+#             "Lz7/k;",
+#             ">;)V"
+#         }
+#     .end annotation
+#
+#     const-string v0, "context"
+#
+#     invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     .line 1
+#     new-instance v0, Lcom/adjust/sdk/AdjustConfig;
+#
+#     const-string v1, "sdkX_adjustId"
+#
+#     .line 2
+#     invoke-static {v1}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     .line 3
+#     sget-boolean v2, Lcom/eyewind/ads/UtilsKt;->a:Z
+#
+#     if-eqz v2, :cond_0
+#
+#     const-string v2, "sandbox"
+#
+#     goto :goto_0
+#
+#     :cond_0
+#     const-string v2, "production"
+#
+#     .line 4
+#     :goto_0
+#     invoke-direct {v0, p0, v1, v2}, Lcom/adjust/sdk/AdjustConfig;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 5
+#     sget-boolean v1, Lcom/eyewind/ads/UtilsKt;->a:Z
+#
+#     if-nez v1, :cond_1
+#
+#     sget-boolean v1, Lcom/eyewind/ads/UtilsKt;->b:Z
+#
+#     if-eqz v1, :cond_2
+#
+#     .line 6
+#     :cond_1
+#     sget-object v1, Lcom/adjust/sdk/LogLevel;->VERBOSE:Lcom/adjust/sdk/LogLevel;
+#
+#     invoke-virtual {v0, v1}, Lcom/adjust/sdk/AdjustConfig;->setLogLevel(Lcom/adjust/sdk/LogLevel;)V
+#
+#     .line 7
+#     :cond_2
+#     new-instance v1, Lk0/j0;
+#
+#     invoke-direct {v1, p1}, Lk0/j0;-><init>(Ll8/l;)V
+#
+#     invoke-virtual {v0, v1}, Lcom/adjust/sdk/AdjustConfig;->setOnAttributionChangedListener(Lcom/adjust/sdk/OnAttributionChangedListener;)V
+#
+#     .line 8
+#     invoke-static {v0}, Lcom/adjust/sdk/Adjust;->onCreate(Lcom/adjust/sdk/AdjustConfig;)V
+#
+#     .line 9
+#     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+#
+#     move-result-object p1
+#
+#     const-string v0, "null cannot be cast to non-null type android.app.Application"
+#
+#     invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+#
+#     check-cast p1, Landroid/app/Application;
+#
+#     invoke-static {p1}, Lcom/eyewind/ads/UtilsKt;->I(Landroid/app/Application;)V
+#
+#     .line 10
+#     instance-of p1, p0, Landroidx/appcompat/app/AppCompatActivity;
+#
+#     if-eqz p1, :cond_3
+#
+#     .line 11
+#     move-object p1, p0
+#
+#     check-cast p1, Landroidx/appcompat/app/AppCompatActivity;
+#
+#     invoke-virtual {p1}, Landroidx/activity/ComponentActivity;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+#
+#     move-result-object p1
+#
+#     invoke-virtual {p1}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
+#
+#     move-result-object p1
+#
+#     sget-object v0, Landroidx/lifecycle/Lifecycle$State;->RESUMED:Landroidx/lifecycle/Lifecycle$State;
+#
+#     if-ne p1, v0, :cond_3
+#
+#     .line 12
+#     invoke-static {p0}, Lcom/eyewind/ads/UtilsKt;->l(Landroid/content/Context;)V
+#
+#     :cond_3
+#     return-void
+# .end method
 
 .method public static synthetic r(Landroid/content/Context;Ll8/l;ILjava/lang/Object;)V
     .locals 0
@@ -1872,192 +1872,192 @@
 
     .line 1
     :cond_0
-    invoke-static {p0, p1}, Lcom/eyewind/ads/UtilsKt;->q(Landroid/content/Context;Ll8/l;)V
+    # invoke-static {p0, p1}, Lcom/eyewind/ads/UtilsKt;->q(Landroid/content/Context;Ll8/l;)V
 
     return-void
 .end method
 
-.method private static final s(Ll8/l;Lcom/adjust/sdk/AdjustAttribution;)V
-    .locals 3
-
-    if-eqz p0, :cond_0
-
-    const-string v0, "it"
-
-    .line 1
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-interface {p0, p1}, Ll8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 2
-    :cond_0
-    sget-boolean p0, Lcom/eyewind/ads/UtilsKt;->g:Z
-
-    if-eqz p0, :cond_1
-
-    .line 3
-    sget-object p0, Lcom/eyewind/ads/SdkX;->a:Lcom/eyewind/ads/SdkX;
-
-    sget-object v0, Lcom/eyewind/sdkx/EventEndPoint;->YF:Lcom/eyewind/sdkx/EventEndPoint;
-
-    iget-object v1, p1, Lcom/adjust/sdk/AdjustAttribution;->trackerName:Ljava/lang/String;
-
-    const-string v2, "it.trackerName"
-
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v2, "adjust_tracker_name"
-
-    invoke-virtual {p0, v0, v2, v1}, Lcom/eyewind/ads/SdkX;->setUserProperty(Lcom/eyewind/sdkx/EventEndPoint;Ljava/lang/String;Ljava/lang/Object;)V
-
-    .line 4
-    iget-object p1, p1, Lcom/adjust/sdk/AdjustAttribution;->adid:Ljava/lang/String;
-
-    const-string v1, "it.adid"
-
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v1, "adjust_id"
-
-    invoke-virtual {p0, v0, v1, p1}, Lcom/eyewind/ads/SdkX;->setUserProperty(Lcom/eyewind/sdkx/EventEndPoint;Ljava/lang/String;Ljava/lang/Object;)V
-
-    goto :goto_0
-
-    .line 5
-    :cond_1
-    sput-object p1, Lcom/eyewind/ads/UtilsKt;->i:Lcom/adjust/sdk/AdjustAttribution;
-
-    :goto_0
-    return-void
-.end method
-
-.method public static final t(Landroid/app/Application;ZZ)V
-    .locals 2
-
-    const-string v0, "application"
-
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const/4 v0, 0x1
-
-    if-eqz p1, :cond_0
-
-    .line 1
-    invoke-static {}, Lcom/adjust/sdk/imei/AdjustImei;->readImei()V
-
-    .line 2
-    invoke-static {}, Lcom/adjust/sdk/oaid/AdjustOaid;->readOaid()V
-
-    .line 3
-    invoke-static {}, Lcom/umeng/cconfig/UMRemoteConfig;->getInstance()Lcom/umeng/cconfig/UMRemoteConfig;
-
-    move-result-object p1
-
-    .line 4
-    new-instance v1, Lcom/umeng/cconfig/RemoteConfigSettings$Builder;
-
-    invoke-direct {v1}, Lcom/umeng/cconfig/RemoteConfigSettings$Builder;-><init>()V
-
-    invoke-virtual {v1, v0}, Lcom/umeng/cconfig/RemoteConfigSettings$Builder;->setAutoUpdateModeEnabled(Z)Lcom/umeng/cconfig/RemoteConfigSettings$Builder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/umeng/cconfig/RemoteConfigSettings$Builder;->build()Lcom/umeng/cconfig/RemoteConfigSettings;
-
-    move-result-object v1
-
-    .line 5
-    invoke-virtual {p1, v1}, Lcom/umeng/cconfig/UMRemoteConfig;->setConfigSettings(Lcom/umeng/cconfig/RemoteConfigSettings;)V
-
-    :cond_0
-    const-string p1, "sdkX_umengId"
-
-    .line 6
-    invoke-static {p1}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    .line 7
-    sget-object v1, Lcom/eyewind/ads/SdkX;->a:Lcom/eyewind/ads/SdkX;
-
-    invoke-virtual {v1}, Lcom/eyewind/ads/SdkX;->getChannel()Ljava/lang/String;
-
-    move-result-object v1
-
-    .line 8
-    invoke-static {p0, p1, v1}, Lcom/umeng/commonsdk/UMConfigure;->preInit(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 9
-    new-instance p1, Lkotlin/jvm/internal/Ref$ObjectRef;
-
-    invoke-direct {p1}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
-
-    .line 10
-    invoke-static {p0}, Lcom/eyewind/ads/UtilsKt;->v(Landroid/content/Context;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    new-instance v1, Lcom/eyewind/ads/MetaInjectApplication;
-
-    invoke-direct {v1, p0}, Lcom/eyewind/ads/MetaInjectApplication;-><init>(Landroid/app/Application;)V
-
-    goto :goto_0
-
-    :cond_1
-    move-object v1, p0
-
-    .line 11
-    :goto_0
-    iput-object v1, p1, Lkotlin/jvm/internal/Ref$ObjectRef;->b:Ljava/lang/Object;
-
-    .line 12
-    sget-boolean v1, Lcom/eyewind/ads/UtilsKt;->b:Z
-
-    if-nez v1, :cond_2
-
-    sget-boolean v1, Lcom/eyewind/ads/UtilsKt;->a:Z
-
-    if-eqz v1, :cond_3
-
-    .line 13
-    :cond_2
-    invoke-static {v0}, Lcom/fineboost/sdk/dataacqu/YFDataAgent;->setLogSwitch(Z)V
-
-    .line 14
-    :cond_3
-    iget-object v0, p1, Lkotlin/jvm/internal/Ref$ObjectRef;->b:Ljava/lang/Object;
-
-    check-cast v0, Landroid/content/Context;
-
-    new-instance v1, Lcom/eyewind/ads/UtilsKt$a;
-
-    invoke-direct {v1, p1, p0}, Lcom/eyewind/ads/UtilsKt$a;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;Landroid/app/Application;)V
-
-    invoke-static {v0, v1}, Lcom/fineboost/sdk/dataacqu/YFDataAgent;->init(Landroid/content/Context;Lcom/fineboost/sdk/dataacqu/listener/AcquInitCallBack;)V
-
-    if-eqz p2, :cond_4
-
-    const-string p1, "sdkX_single_activity"
-
-    .line 15
-    invoke-static {p1}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-static {p1}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
-
-    move-result p1
-
-    if-nez p1, :cond_4
-
-    .line 16
-    invoke-static {p0}, Lcom/eyewind/ads/UtilsKt;->J(Landroid/app/Application;)V
-
-    :cond_4
-    return-void
-.end method
+# .method private static final s(Ll8/l;Lcom/adjust/sdk/AdjustAttribution;)V
+#     .locals 3
+#
+#     if-eqz p0, :cond_0
+#
+#     const-string v0, "it"
+#
+#     .line 1
+#     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     invoke-interface {p0, p1}, Ll8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     .line 2
+#     :cond_0
+#     sget-boolean p0, Lcom/eyewind/ads/UtilsKt;->g:Z
+#
+#     if-eqz p0, :cond_1
+#
+#     .line 3
+#     sget-object p0, Lcom/eyewind/ads/SdkX;->a:Lcom/eyewind/ads/SdkX;
+#
+#     sget-object v0, Lcom/eyewind/sdkx/EventEndPoint;->YF:Lcom/eyewind/sdkx/EventEndPoint;
+#
+#     iget-object v1, p1, Lcom/adjust/sdk/AdjustAttribution;->trackerName:Ljava/lang/String;
+#
+#     const-string v2, "it.trackerName"
+#
+#     invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     const-string v2, "adjust_tracker_name"
+#
+#     invoke-virtual {p0, v0, v2, v1}, Lcom/eyewind/ads/SdkX;->setUserProperty(Lcom/eyewind/sdkx/EventEndPoint;Ljava/lang/String;Ljava/lang/Object;)V
+#
+#     .line 4
+#     iget-object p1, p1, Lcom/adjust/sdk/AdjustAttribution;->adid:Ljava/lang/String;
+#
+#     const-string v1, "it.adid"
+#
+#     invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     const-string v1, "adjust_id"
+#
+#     invoke-virtual {p0, v0, v1, p1}, Lcom/eyewind/ads/SdkX;->setUserProperty(Lcom/eyewind/sdkx/EventEndPoint;Ljava/lang/String;Ljava/lang/Object;)V
+#
+#     goto :goto_0
+#
+#     .line 5
+#     :cond_1
+#     sput-object p1, Lcom/eyewind/ads/UtilsKt;->i:Lcom/adjust/sdk/AdjustAttribution;
+#
+#     :goto_0
+#     return-void
+# .end method
+
+# .method public static final t(Landroid/app/Application;ZZ)V
+#     .locals 2
+#
+#     const-string v0, "application"
+#
+#     invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     const/4 v0, 0x1
+#
+#     if-eqz p1, :cond_0
+#
+#     .line 1
+#     invoke-static {}, Lcom/adjust/sdk/imei/AdjustImei;->readImei()V
+#
+#     .line 2
+#     invoke-static {}, Lcom/adjust/sdk/oaid/AdjustOaid;->readOaid()V
+#
+#     .line 3
+#     invoke-static {}, Lcom/umeng/cconfig/UMRemoteConfig;->getInstance()Lcom/umeng/cconfig/UMRemoteConfig;
+#
+#     move-result-object p1
+#
+#     .line 4
+#     new-instance v1, Lcom/umeng/cconfig/RemoteConfigSettings$Builder;
+#
+#     invoke-direct {v1}, Lcom/umeng/cconfig/RemoteConfigSettings$Builder;-><init>()V
+#
+#     invoke-virtual {v1, v0}, Lcom/umeng/cconfig/RemoteConfigSettings$Builder;->setAutoUpdateModeEnabled(Z)Lcom/umeng/cconfig/RemoteConfigSettings$Builder;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Lcom/umeng/cconfig/RemoteConfigSettings$Builder;->build()Lcom/umeng/cconfig/RemoteConfigSettings;
+#
+#     move-result-object v1
+#
+#     .line 5
+#     invoke-virtual {p1, v1}, Lcom/umeng/cconfig/UMRemoteConfig;->setConfigSettings(Lcom/umeng/cconfig/RemoteConfigSettings;)V
+#
+#     :cond_0
+#     const-string p1, "sdkX_umengId"
+#
+#     .line 6
+#     invoke-static {p1}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     .line 7
+#     sget-object v1, Lcom/eyewind/ads/SdkX;->a:Lcom/eyewind/ads/SdkX;
+#
+#     invoke-virtual {v1}, Lcom/eyewind/ads/SdkX;->getChannel()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     .line 8
+#     invoke-static {p0, p1, v1}, Lcom/umeng/commonsdk/UMConfigure;->preInit(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 9
+#     new-instance p1, Lkotlin/jvm/internal/Ref$ObjectRef;
+#
+#     invoke-direct {p1}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
+#
+#     .line 10
+#     invoke-static {p0}, Lcom/eyewind/ads/UtilsKt;->v(Landroid/content/Context;)Z
+#
+#     move-result v1
+#
+#     if-eqz v1, :cond_1
+#
+#     new-instance v1, Lcom/eyewind/ads/MetaInjectApplication;
+#
+#     invoke-direct {v1, p0}, Lcom/eyewind/ads/MetaInjectApplication;-><init>(Landroid/app/Application;)V
+#
+#     goto :goto_0
+#
+#     :cond_1
+#     move-object v1, p0
+#
+#     .line 11
+#     :goto_0
+#     iput-object v1, p1, Lkotlin/jvm/internal/Ref$ObjectRef;->b:Ljava/lang/Object;
+#
+#     .line 12
+#     sget-boolean v1, Lcom/eyewind/ads/UtilsKt;->b:Z
+#
+#     if-nez v1, :cond_2
+#
+#     sget-boolean v1, Lcom/eyewind/ads/UtilsKt;->a:Z
+#
+#     if-eqz v1, :cond_3
+#
+#     .line 13
+#     :cond_2
+#     invoke-static {v0}, Lcom/fineboost/sdk/dataacqu/YFDataAgent;->setLogSwitch(Z)V
+#
+#     .line 14
+#     :cond_3
+#     iget-object v0, p1, Lkotlin/jvm/internal/Ref$ObjectRef;->b:Ljava/lang/Object;
+#
+#     check-cast v0, Landroid/content/Context;
+#
+#     new-instance v1, Lcom/eyewind/ads/UtilsKt$a;
+#
+#     invoke-direct {v1, p1, p0}, Lcom/eyewind/ads/UtilsKt$a;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;Landroid/app/Application;)V
+#
+#     invoke-static {v0, v1}, Lcom/fineboost/sdk/dataacqu/YFDataAgent;->init(Landroid/content/Context;Lcom/fineboost/sdk/dataacqu/listener/AcquInitCallBack;)V
+#
+#     if-eqz p2, :cond_4
+#
+#     const-string p1, "sdkX_single_activity"
+#
+#     .line 15
+#     invoke-static {p1}, Lcom/eyewind/ads/UtilsKt;->o(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     invoke-static {p1}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
+#
+#     move-result p1
+#
+#     if-nez p1, :cond_4
+#
+#     .line 16
+#     invoke-static {p0}, Lcom/eyewind/ads/UtilsKt;->J(Landroid/app/Application;)V
+#
+#     :cond_4
+#     return-void
+# .end method
 
 .method public static final u(Landroid/content/Context;)V
     .locals 9

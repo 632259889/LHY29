@@ -1588,11 +1588,11 @@
 
     .line 10
     :cond_7
-    new-instance p1, Lcom/adjust/sdk/AdjustEvent;
-
-    invoke-direct {p1, p2}, Lcom/adjust/sdk/AdjustEvent;-><init>(Ljava/lang/String;)V
-
-    invoke-static {p1}, Lcom/adjust/sdk/Adjust;->trackEvent(Lcom/adjust/sdk/AdjustEvent;)V
+    # new-instance p1, Lcom/adjust/sdk/AdjustEvent;
+    #
+    # invoke-direct {p1, p2}, Lcom/adjust/sdk/AdjustEvent;-><init>(Ljava/lang/String;)V
+    #
+    # invoke-static {p1}, Lcom/adjust/sdk/Adjust;->trackEvent(Lcom/adjust/sdk/AdjustEvent;)V
 
     goto :goto_4
 
