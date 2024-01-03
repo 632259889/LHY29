@@ -3,7 +3,7 @@
 .source "AmazonBanner.kt"
 
 # interfaces
-.implements Lcom/amazon/device/ads/DTBAdCallback;
+# .implements Lcom/amazon/device/ads/DTBAdCallback;
 
 
 # annotations
@@ -23,12 +23,12 @@
     }
     d2 = {
         "k0/f$a",
-        "Lcom/amazon/device/ads/DTBAdCallback;",
-        "Lcom/amazon/device/ads/DTBAdResponse;",
+        # "Lcom/amazon/device/ads/DTBAdCallback;",
+        # "Lcom/amazon/device/ads/DTBAdResponse;",
         "dtbAdResponse",
         "Lz7/k;",
         "onSuccess",
-        "Lcom/amazon/device/ads/AdError;",
+        # "Lcom/amazon/device/ads/AdError;",
         "adError",
         "onFailure",
         "adsApplovinMax_release"
@@ -81,7 +81,7 @@
 #
 #     return-void
 # .end method
-# 
+#
 # .method public onSuccess(Lcom/amazon/device/ads/DTBAdResponse;)V
 #     .locals 2
 #

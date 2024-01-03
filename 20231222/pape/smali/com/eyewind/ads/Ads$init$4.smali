@@ -105,95 +105,95 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/eyewind/ads/Ads$init$4;->invoke()V
+    # invoke-virtual {p0}, Lcom/eyewind/ads/Ads$init$4;->invoke()V
 
     sget-object v0, Lz7/k;->a:Lz7/k;
 
     return-object v0
 .end method
 
-.method public final invoke()V
-    .locals 4
-
-    .line 2
-    invoke-static {}, Lcom/eyewind/ads/UtilsKt;->A()Z
-
-    move-result v0
-
-    const/4 v1, 0x1
-
-    if-eqz v0, :cond_0
-
-    .line 3
-    invoke-static {v1}, Lcom/amazon/device/ads/AdRegistration;->enableTesting(Z)V
-
-    .line 4
-    invoke-static {v1}, Lcom/amazon/device/ads/AdRegistration;->enableLogging(Z)V
-
-    .line 5
-    :cond_0
-    iget-object v0, p0, Lcom/eyewind/ads/Ads$init$4;->b:Ljava/lang/String;
-
-    iget-object v2, p0, Lcom/eyewind/ads/Ads$init$4;->c:Landroid/app/Activity;
-
-    invoke-static {v0, v2}, Lcom/amazon/device/ads/AdRegistration;->getInstance(Ljava/lang/String;Landroid/content/Context;)Lcom/amazon/device/ads/AdRegistration;
-
-    .line 6
-    new-instance v0, Lcom/amazon/device/ads/DTBAdNetworkInfo;
-
-    sget-object v2, Lcom/amazon/device/ads/DTBAdNetwork;->MAX:Lcom/amazon/device/ads/DTBAdNetwork;
-
-    invoke-direct {v0, v2}, Lcom/amazon/device/ads/DTBAdNetworkInfo;-><init>(Lcom/amazon/device/ads/DTBAdNetwork;)V
-
-    invoke-static {v0}, Lcom/amazon/device/ads/AdRegistration;->setAdNetworkInfo(Lcom/amazon/device/ads/DTBAdNetworkInfo;)V
-
-    const-string v0, "1.0"
-
-    const-string v2, "2.0"
-
-    const-string v3, "3.0"
-
-    .line 7
-    filled-new-array {v0, v2, v3}, [Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lcom/amazon/device/ads/AdRegistration;->setMRAIDSupportedVersions([Ljava/lang/String;)V
-
-    .line 8
-    sget-object v0, Lcom/amazon/device/ads/MRAIDPolicy;->CUSTOM:Lcom/amazon/device/ads/MRAIDPolicy;
-
-    invoke-static {v0}, Lcom/amazon/device/ads/AdRegistration;->setMRAIDPolicy(Lcom/amazon/device/ads/MRAIDPolicy;)V
-
-    .line 9
-    iget-object v0, p0, Lcom/eyewind/ads/Ads$init$4;->c:Landroid/app/Activity;
-
-    invoke-static {v0}, Ljava/lang/Object;->isTablet(Landroid/content/Context;)Z#com/applovin/sdk/AppLovinSdkUtils
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    iget-object v0, p0, Lcom/eyewind/ads/Ads$init$4;->d:Ljava/lang/String;
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_1
-
-    .line 10
-    iget-object v0, p0, Lcom/eyewind/ads/Ads$init$4;->e:Lkotlin/jvm/internal/Ref$ObjectRef;
-
-    iget-object v2, p0, Lcom/eyewind/ads/Ads$init$4;->d:Ljava/lang/String;
-
-    iput-object v2, v0, Lkotlin/jvm/internal/Ref$ObjectRef;->b:Ljava/lang/Object;
-
-    .line 11
-    iget-object v0, p0, Lcom/eyewind/ads/Ads$init$4;->f:Lkotlin/jvm/internal/Ref$BooleanRef;
-
-    iput-boolean v1, v0, Lkotlin/jvm/internal/Ref$BooleanRef;->b:Z
-
-    :cond_1
-    return-void
-.end method
+# .method public final invoke()V
+#     .locals 4
+#
+#     .line 2
+#     invoke-static {}, Lcom/eyewind/ads/UtilsKt;->A()Z
+#
+#     move-result v0
+#
+#     const/4 v1, 0x1
+#
+#     if-eqz v0, :cond_0
+#
+#     .line 3
+#     # invoke-static {v1}, Lcom/amazon/device/ads/AdRegistration;->enableTesting(Z)V
+#
+#     .line 4
+#     # invoke-static {v1}, Lcom/amazon/device/ads/AdRegistration;->enableLogging(Z)V
+#
+#     .line 5
+#     :cond_0
+#     iget-object v0, p0, Lcom/eyewind/ads/Ads$init$4;->b:Ljava/lang/String;
+#
+#     iget-object v2, p0, Lcom/eyewind/ads/Ads$init$4;->c:Landroid/app/Activity;
+#
+#     invoke-static {v0, v2}, Lcom/amazon/device/ads/AdRegistration;->getInstance(Ljava/lang/String;Landroid/content/Context;)Lcom/amazon/device/ads/AdRegistration;
+#
+#     .line 6
+#     new-instance v0, Lcom/amazon/device/ads/DTBAdNetworkInfo;
+#
+#     sget-object v2, Lcom/amazon/device/ads/DTBAdNetwork;->MAX:Lcom/amazon/device/ads/DTBAdNetwork;
+#
+#     invoke-direct {v0, v2}, Lcom/amazon/device/ads/DTBAdNetworkInfo;-><init>(Lcom/amazon/device/ads/DTBAdNetwork;)V
+#
+#     invoke-static {v0}, Lcom/amazon/device/ads/AdRegistration;->setAdNetworkInfo(Lcom/amazon/device/ads/DTBAdNetworkInfo;)V
+#
+#     const-string v0, "1.0"
+#
+#     const-string v2, "2.0"
+#
+#     const-string v3, "3.0"
+#
+#     .line 7
+#     filled-new-array {v0, v2, v3}, [Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     invoke-static {v0}, Lcom/amazon/device/ads/AdRegistration;->setMRAIDSupportedVersions([Ljava/lang/String;)V
+#
+#     .line 8
+#     sget-object v0, Lcom/amazon/device/ads/MRAIDPolicy;->CUSTOM:Lcom/amazon/device/ads/MRAIDPolicy;
+#
+#     invoke-static {v0}, Lcom/amazon/device/ads/AdRegistration;->setMRAIDPolicy(Lcom/amazon/device/ads/MRAIDPolicy;)V
+#
+#     .line 9
+#     iget-object v0, p0, Lcom/eyewind/ads/Ads$init$4;->c:Landroid/app/Activity;
+#
+#     invoke-static {v0}, Ljava/lang/Object;->isTablet(Landroid/content/Context;)Z#com/applovin/sdk/AppLovinSdkUtils
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_1
+#
+#     iget-object v0, p0, Lcom/eyewind/ads/Ads$init$4;->d:Ljava/lang/String;
+#
+#     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+#
+#     move-result v0
+#
+#     if-nez v0, :cond_1
+#
+#     .line 10
+#     iget-object v0, p0, Lcom/eyewind/ads/Ads$init$4;->e:Lkotlin/jvm/internal/Ref$ObjectRef;
+#
+#     iget-object v2, p0, Lcom/eyewind/ads/Ads$init$4;->d:Ljava/lang/String;
+#
+#     iput-object v2, v0, Lkotlin/jvm/internal/Ref$ObjectRef;->b:Ljava/lang/Object;
+#
+#     .line 11
+#     iget-object v0, p0, Lcom/eyewind/ads/Ads$init$4;->f:Lkotlin/jvm/internal/Ref$BooleanRef;
+#
+#     iput-boolean v1, v0, Lkotlin/jvm/internal/Ref$BooleanRef;->b:Z
+#
+#     :cond_1
+#     return-void
+# .end method
