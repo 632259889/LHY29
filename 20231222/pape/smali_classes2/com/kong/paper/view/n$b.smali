@@ -38,28 +38,28 @@
 .method public a()V
     .locals 3
 
-    .line 1
-    new-instance v0, Lr1/c$a;
-
-    invoke-direct {v0}, Lr1/c$a;-><init>()V
-
-    const-string v1, "platform"
-
-    const-string v2, "facebook"
-
-    invoke-virtual {v0, v1, v2}, Lr1/c$a;->b(Ljava/lang/String;Ljava/lang/Object;)Lr1/c$a;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lr1/c$a;->a()Lr1/c;
-
-    move-result-object v0
-
-    const-string v1, "main"
-
-    const-string v2, "login"
-
-    invoke-static {v1, v2, v0}, Lr1/a;->d(Ljava/lang/String;Ljava/lang/String;Lr1/c;)V
+    # .line 1
+    # new-instance v0, Lr1/c$a;
+    #
+    # invoke-direct {v0}, Lr1/c$a;-><init>()V
+    #
+    # const-string v1, "platform"
+    #
+    # const-string v2, "facebook"
+    #
+    # invoke-virtual {v0, v1, v2}, Lr1/c$a;->b(Ljava/lang/String;Ljava/lang/Object;)Lr1/c$a;
+    #
+    # move-result-object v0
+    #
+    # invoke-virtual {v0}, Lr1/c$a;->a()Lr1/c;
+    #
+    # move-result-object v0
+    #
+    # const-string v1, "main"
+    #
+    # const-string v2, "login"
+    #
+    # invoke-static {v1, v2, v0}, Lr1/a;->d(Ljava/lang/String;Ljava/lang/String;Lr1/c;)V
 
     return-void
 .end method
@@ -67,28 +67,28 @@
 .method public b()V
     .locals 3
 
-    .line 1
-    new-instance v0, Lr1/c$a;
-
-    invoke-direct {v0}, Lr1/c$a;-><init>()V
-
-    const-string v1, "platform"
-
-    const-string v2, "google"
-
-    invoke-virtual {v0, v1, v2}, Lr1/c$a;->b(Ljava/lang/String;Ljava/lang/Object;)Lr1/c$a;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lr1/c$a;->a()Lr1/c;
-
-    move-result-object v0
-
-    const-string v1, "main"
-
-    const-string v2, "login"
-
-    invoke-static {v1, v2, v0}, Lr1/a;->d(Ljava/lang/String;Ljava/lang/String;Lr1/c;)V
+    # .line 1
+    # new-instance v0, Lr1/c$a;
+    #
+    # invoke-direct {v0}, Lr1/c$a;-><init>()V
+    #
+    # const-string v1, "platform"
+    #
+    # const-string v2, "google"
+    #
+    # invoke-virtual {v0, v1, v2}, Lr1/c$a;->b(Ljava/lang/String;Ljava/lang/Object;)Lr1/c$a;
+    #
+    # move-result-object v0
+    #
+    # invoke-virtual {v0}, Lr1/c$a;->a()Lr1/c;
+    #
+    # move-result-object v0
+    #
+    # const-string v1, "main"
+    #
+    # const-string v2, "login"
+    #
+    # invoke-static {v1, v2, v0}, Lr1/a;->d(Ljava/lang/String;Ljava/lang/String;Lr1/c;)V
 
     return-void
 .end method

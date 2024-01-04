@@ -375,7 +375,7 @@
     invoke-virtual {p1, v0}, La6/l;->g(La6/l$a;)V
 
     .line 4
-    invoke-virtual {p1}, Landroid/app/Dialog;->show()V
+    # invoke-virtual {p1}, Landroid/app/Dialog;->show()V
 
     :cond_0
     return-void

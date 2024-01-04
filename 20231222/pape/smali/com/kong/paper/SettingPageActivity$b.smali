@@ -38,14 +38,14 @@
 .method public a()V
     .locals 1
 
-    .line 1
-    iget-object v0, p0, Lcom/kong/paper/SettingPageActivity$b;->a:Lcom/kong/paper/SettingPageActivity;
-
-    invoke-static {v0}, Lcom/kong/paper/SettingPageActivity;->D(Lcom/kong/paper/SettingPageActivity;)Lcom/kong/paper/Utils/save/LoginHelper;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/kong/paper/Utils/save/LoginHelper;->x()V
+    # .line 1
+    # iget-object v0, p0, Lcom/kong/paper/SettingPageActivity$b;->a:Lcom/kong/paper/SettingPageActivity;
+    #
+    # invoke-static {v0}, Lcom/kong/paper/SettingPageActivity;->D(Lcom/kong/paper/SettingPageActivity;)Lcom/kong/paper/Utils/save/LoginHelper;
+    #
+    # move-result-object v0
+    #
+    # invoke-virtual {v0}, Lcom/kong/paper/Utils/save/LoginHelper;->x()V
 
     return-void
 .end method
@@ -53,14 +53,14 @@
 .method public b()V
     .locals 1
 
-    .line 1
-    iget-object v0, p0, Lcom/kong/paper/SettingPageActivity$b;->a:Lcom/kong/paper/SettingPageActivity;
-
-    invoke-static {v0}, Lcom/kong/paper/SettingPageActivity;->D(Lcom/kong/paper/SettingPageActivity;)Lcom/kong/paper/Utils/save/LoginHelper;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/kong/paper/Utils/save/LoginHelper;->y()V
+    # .line 1
+    # iget-object v0, p0, Lcom/kong/paper/SettingPageActivity$b;->a:Lcom/kong/paper/SettingPageActivity;
+    #
+    # invoke-static {v0}, Lcom/kong/paper/SettingPageActivity;->D(Lcom/kong/paper/SettingPageActivity;)Lcom/kong/paper/Utils/save/LoginHelper;
+    #
+    # move-result-object v0
+    #
+    # invoke-virtual {v0}, Lcom/kong/paper/Utils/save/LoginHelper;->y()V
 
     return-void
 .end method

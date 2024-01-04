@@ -93,7 +93,7 @@
         <meta-data android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION" android:value="true"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
         <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="@string/sdkX_admobId"/>
-        <meta-data android:name="EAS_APP_ID" android:value="@string/sdkX_easId"/>
+        <!-- <meta-data android:name="EAS_APP_ID" android:value="@string/sdkX_easId"/> -->
         <provider android:authorities="com.test.one.androidx-startup" android:enabled="true" android:exported="false" android:name="androidx.startup.InitializationProvider">
             <meta-data android:name="com.eyewind.ads.SdkXInitializer" android:value="androidx.startup"/>
             <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
@@ -136,7 +136,7 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:scheme="@string/facebook_login_protocol_scheme"/>
+                <data android:scheme="fbYOUR_APP_ID"/>
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>

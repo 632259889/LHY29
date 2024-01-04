@@ -21,7 +21,7 @@
 
 .field final synthetic d:Lcom/kong/paper/view/SpaceMain;
 
-
+#
 # direct methods
 .method constructor <init>(Lcom/kong/paper/view/SpaceMain;Lcom/kong/paper/view/l;Lo5/a;)V
     .locals 0
@@ -240,39 +240,39 @@
 
     .line 15
     :cond_1
-    new-instance v0, Ljava/util/HashMap;
-
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
-
-    const-string v1, "target_key"
-
-    const-string v2, "Click_ioc"
-
-    .line 16
-    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 17
-    iget-object v1, p0, Lcom/kong/paper/view/SpaceMain$c;->b:Lcom/kong/paper/view/l;
-
-    iget-object v1, v1, Lcom/kong/paper/view/l;->P0:Ljava/lang/String;
-
-    const-string v2, "target_id"
-
-    invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    const-string v1, "counting"
-
-    .line 18
-    invoke-static {v1, v0}, Lp1/b;->e(Ljava/lang/String;Ljava/util/Map;)V
-
-    .line 19
-    invoke-static {}, Lj1/a;->f()Landroid/content/Context;
-
-    move-result-object v0
-
-    const-string v1, "https://app.adjust.com/10406mv2"
-
-    invoke-static {v0, v1}, Lcom/kong/paper/view/SpaceMain;->N0(Landroid/content/Context;Ljava/lang/String;)V
+    # new-instance v0, Ljava/util/HashMap;
+    #
+    # invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+    #
+    # const-string v1, "target_key"
+    #
+    # const-string v2, "Click_ioc"
+    #
+    # .line 16
+    # invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    #
+    # .line 17
+    # iget-object v1, p0, Lcom/kong/paper/view/SpaceMain$c;->b:Lcom/kong/paper/view/l;
+    #
+    # iget-object v1, v1, Lcom/kong/paper/view/l;->P0:Ljava/lang/String;
+    #
+    # const-string v2, "target_id"
+    #
+    # invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    #
+    # const-string v1, "counting"
+    #
+    # .line 18
+    # invoke-static {v1, v0}, Lp1/b;->e(Ljava/lang/String;Ljava/util/Map;)V
+    #
+    # .line 19
+    # invoke-static {}, Lj1/a;->f()Landroid/content/Context;
+    #
+    # move-result-object v0
+    #
+    # const-string v1, "https://app.adjust.com/10406mv2"
+    #
+    # invoke-static {v0, v1}, Lcom/kong/paper/view/SpaceMain;->N0(Landroid/content/Context;Ljava/lang/String;)V
 
     :cond_2
     :goto_0

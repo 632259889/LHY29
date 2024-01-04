@@ -235,7 +235,7 @@
 
     iget-object v0, v0, Lcom/kong/paper/view/k;->R0:Lcom/kong/paper/view/k$c;
 
-    invoke-interface {v0}, Lcom/kong/paper/view/k$c;->d()V
+    invoke-interface {v0}, Lcom/kong/paper/view/k$c;->b()V
 
     .line 16
     :cond_5
