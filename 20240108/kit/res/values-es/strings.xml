@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AI_Cutout">Recorte de AI</string>
+    <string name="Access_All_Features">Acceder a todas las características</string>
+    <string name="Access_All_Features_tips">Califíquenos con 5 estrellas para tener 7 días de acceso GRATUITO a todas las funciones.</string>
+    <string name="Adapt_to_all">Se aplica a todos</string>
+    <string name="Add">Añade</string>
+    <string name="Add_A_Layers">Añade las capas A</string>
+    <string name="Adjust">Ajustar</string>
+    <string name="Adjust_and_Effects">Ajustar y efectos</string>
+    <string name="Adjust_button_moved_here">El botón de ajuste se ha movido aquí.</string>
+    <string name="Advanced_Features">Características avanzadas</string>
+    <string name="Advanced_Features_tips">Este proyecto contiene características avanzadas que son exclusivas de los usuarios PRO.</string>
+    <string name="Advanced_Tutorials">Tutoriales avanzados</string>
+    <string name="Aging">Envejecimiento</string>
+    <string name="Aging_Booth">"CABINA DE 
+ENVEJECIMIENTO"</string>
+    <string name="Aging_Booth_Single_Line">CABINA DE ENVEJECIMIENTO</string>
+    <string name="Aging_Filter">Filtro de envejecimiento</string>
+    <string name="Album">Álbumes</string>
+    <string name="All">Todos</string>
+    <string name="All_features_free_tips">Recordatorio: puede perder la oferta gratuita si desinstala PicsKit. ¡Espero que disfrute de nuestra aplicación!</string>
+    <string name="Allow_Access">Permitir el acceso</string>
+    <string name="Allow_notification_get_featured">Permita notificaciones y obtenga las últimas plantillas destacadas, pegatinas y otras actualizaciones.</string>
+    <string name="Alter">Alter</string>
+    <string name="Ambiance">Ambiente</string>
+    <string name="Angle">Ángulo</string>
+    <string name="Anticlockwise">Anti-horario</string>
+    <string name="Apply">Aplique</string>
+    <string name="Apply_to_my_image">Aplicar a mi imagen</string>
+    <string name="Applying">Aplicando...</string>
+    <string name="Applying_Art_Filter">Aplicando el filtro de arte...</string>
+    <string name="Art">Arte</string>
+    <string name="Art_Abstract">Resumen</string>
+    <string name="Art_Outline">Esquema</string>
+    <string name="Artistic_Filter">"ARTÍSTICO
+FILTRO"</string>
+    <string name="Artistic_Filter1">Artísticos</string>
+    <string name="Artistic_Filter_Single_Line">FILTRO ARTÍSTICO</string>
+    <string name="Artistic_Filters">Filtros artísticos</string>
+    <string name="Ascend">Ascender</string>
+    <string name="Asset_Store">"TIENDA DE
+ACTIVOS"</string>
+    <string name="Auto">Auto</string>
+    <string name="Auto_Cutout">"AUTO
+CORTESÍA"</string>
+    <string name="Auto_Cutout1">Separar</string>
+    <string name="Auto_Eraser">"AUTO
+BORRADOR"</string>
+    <string name="Auto_Eraser1">Borrador</string>
+    <string name="Auto_processing">Autoprocesamiento...</string>
+    <string name="Automatically_renew_cancel_anytime">Renovar automáticamente, cancelar en cualquier momento</string>
+    <string name="Back">Volver</string>
+    <string name="Back_to_Homepage">Volver a la página de inicio</string>
+    <string name="Background">Antecedentes</string>
+    <string name="Background_Remover">Removedor de fondo</string>
+    <string name="Basic">Básico</string>
+    <string name="Basic_Tutorials">Básica</string>
+    <string name="Biggest_Discount">Mayor descuento</string>
+    <string name="Biggest_Sale_Final_Hours">Mayor descuento Horas finales</string>
+    <string name="Black">Negro</string>
+    <string name="Blend">Mezcla</string>
+    <string name="Blur">Blur</string>
+    <string name="Blur_Fade">Fade</string>
+    <string name="Blur_Smooth">Transición</string>
+    <string name="Brightness">Brillo</string>
+    <string name="Brush">Cepillo</string>
+    <string name="Brushes">Cepillos</string>
+    <string name="CANCEL">CANCELAR</string>
+    <string name="CLAIM_GIFT">Recibir Regalos</string>
+    <string name="CRAZY_TUTORIALS">INSPIRANDO A LOS TUTORIALES</string>
+    <string name="Camera">Cámara</string>
+    <string name="Cannot_find_font_files">¿No puede encontrar archivos de fuentes?</string>
+    <string name="Cannot_find_your_image">¿No encuentras la imagen?</string>
+    <string name="Cannot_find_your_image_hint_1">Hola, debido a los requisitos de protección de privacidad de Google Play, hemos modificado la forma de leer y escribir archivos desde %s y la nueva versión ya no tiene acceso a ciertos directorios.</string>
+    <string name="Cannot_find_your_image_hint_2">Si no puede encontrar algunas imágenes cuando intenta importarlas desde álbumes de fotos, puede abrir el administrador de archivos del sistema de su Android, buscar el archivo de imagen que desea importar, copiarlo y pegarlo en la carpeta \"Cámara\" o \"DCIM\", luego reinicie la aplicación para volver a importar.</string>
+    <string name="Cant_find_the_font_you_want">¿No puede encontrar la fuente que desea?</string>
+    <string name="Cant_find_the_picture_you_want">¿No encuentras la imagen que quieres?</string>
+    <string name="Cant_find_the_project_you_want">¿No encuentras el proyecto que buscas?</string>
+    <string name="Canvas">Lienzo</string>
+    <string name="Canvas_Size">Tamaño del lienzo</string>
+    <string name="Change_Layer">Cambiar la capa</string>
+    <string name="Change_colorful_photo">Elige una foto colorida para obtener un efecto mágico</string>
+    <string name="Character">Carácter</string>
+    <string name="Cheek">Mejilla</string>
+    <string name="Chin">Chin</string>
+    <string name="Choose">Elija</string>
+    <string name="Choose_at_least_num">Elija al menos una</string>
+    <string name="Choose_what_interested_in">Elija lo que le interesa</string>
+    <string name="Christmas">Navidad</string>
+    <string name="Christmas_Surprise">"Navidad
+Sorpresa"</string>
+    <string name="Clarity">Claridad</string>
+    <string name="Clean_Picskit">2. Limpia el proceso de fondo de Picskit, reinicia nuestra aplicación.</string>
+    <string name="Clean_the_painted">Limpiar el área pintada para remodelar</string>
+    <string name="Click_change_mode">Haga clic para cambiar el modo.</string>
+    <string name="Click_here_reorder_folds">Haga clic aquí para reordenar los álbumes.</string>
+    <string name="Click_here_to_manage_your_stickers">Haga clic aquí para administrar sus pegatinas</string>
+    <string name="Clockwise">Agujas del reloj</string>
+    <string name="Clone">Clon</string>
+    <string name="Clone_Stamp">Sello de clonación</string>
+    <string name="Close">Cerrar</string>
+    <string name="Color">Color</string>
+    <string name="Color_Splash">Chapoteo</string>
+    <string name="Confirm">Confirme</string>
+    <string name="Congrats">Felicidades</string>
+    <string name="Congratulations">¡Felicidades!</string>
+    <string name="Continue">Seguir</string>
+    <string name="Contrast">Contraste</string>
+    <string name="Control_Adjust">"CONTROL &amp;
+AJUSTE"</string>
+    <string name="Control_Adjust1">Ajuste</string>
+    <string name="Copy">Copia</string>
+    <string name="Count_Layers_Selected">%d Capa(s) Seleccionado</string>
+    <string name="Crazy_Tutorials">Tutoriales inspiradores</string>
+    <string name="Create_First_Project">Crea tu primer proyecto!</string>
+    <string name="Create_My_Work">Crear mi trabajo</string>
+    <string name="Crop">Cortar</string>
+    <string name="Current_Output_Format">Formato de salida actual</string>
+    <string name="Curve">Curva</string>
+    <string name="Custom">Personalizado</string>
+    <string name="Custom_Size">Tamaño personalizado</string>
+    <string name="Custom_sticker">Personalizado</string>
+    <string name="Customize_modify_any_time">Personaliza tu propio PicsKit，modify en cualquier momento</string>
+    <string name="Cutout">Recorte</string>
+    <string name="Cutout_move_to_eraser">El recorte (tijeras) se ha movido al borrador.</string>
+    <string name="Cutout_outline_too_short">El contorno del recorte es demasiado corto</string>
+    <string name="DAYS">Día</string>
+    <string name="DONE">HECHO</string>
+    <string name="DOUBLE_EXPOSURE">"DOBLE
+EXPOSICIÓN"</string>
+    <string name="DOUBLE_EXPOSURE1">Mezcla</string>
+    <string name="Date_modified">Fecha de modificación</string>
+    <string name="Default">Defecto</string>
+    <string name="Delete">Eliminar</string>
+    <string name="Delete_A_Layers">Borrar una capa</string>
+    <string name="Density">Densidad</string>
+    <string name="Descend">Desciende</string>
+    <string name="Direction">Dirección</string>
+    <string name="Dispersion">Dispersión</string>
+    <string name="Do_you_want_to_give_up">¿Quieres renunciar a todas las modificaciones del borrador?</string>
+    <string name="Do_you_want_to_give_up_text">¿Quieres renunciar a todas las modificaciones del texto?</string>
+    <string name="Doodle">Garabatear</string>
+    <string name="Doodle_Art">Arte Garabateado</string>
+    <string name="Double_Exposure">Exposición</string>
+    <string name="Double_exposure_single_line">Doble exposición</string>
+    <string name="Double_tap_change_photos">Doble toque para cambiar las fotos.</string>
+    <string name="Download">Descargue</string>
+    <string name="Downloading">Descargando</string>
+    <string name="Drag_here_to_adjust_the_shadow_size">Arrastra aquí para ajustar el tamaño de la sombra.</string>
+    <string name="Drag_here_to_adjust_the_stroke_width">Arrastra aquí para ajustar el ancho del trazo</string>
+    <string name="Drag_layer_up_blending">Arrastre esta capa de imagen hacia arriba para mezclarla.</string>
+    <string name="Drag_the_area_to_slim">Arrastra el área para adelgazar</string>
+    <string name="Drag_the_marker_to_the_area_that_you_want_to_clone">Arrastra el marcador al área que quieres clonar.</string>
+    <string name="Drag_the_marker_to_the_area_wrap">"Arrastra el marcador al área
+que quieres clonar."</string>
+    <string name="Dripping_Effect">Efecto de goteo</string>
+    <string name="Duplicate">Duplicar</string>
+    <string name="Edge_Detection">Detectar Borde</string>
+    <string name="Edit">Editar</string>
+    <string name="Edition_compat_android_q">V2.4.0</string>
+    <string name="Effect_dispersion_colorsplash_move_hint">Color Splash y Dispersion se han movido a Efectos.</string>
+    <string name="Effects">Efectos</string>
+    <string name="Emoji_Stickers">"EMOJI&amp;
+STICKERS"</string>
+    <string name="Enter">Entrar</string>
+    <string name="Erase">Borrar</string>
+    <string name="Erase_adjust_move_hint">Tamaño, Offset, Dureza, Opacidad</string>
+    <string name="Erase_background_automatically">Borra el fondo automáticamente.</string>
+    <string name="Eraser">Borrador</string>
+    <string name="Eraser_restore_mode_hint">La foto original se mostrará cuando restaure para una mejor vista de la imagen completa.</string>
+    <string name="Exit_Tutorials">Deje el Tutorial</string>
+    <string name="Experience_now">Pruebalo ahora</string>
+    <string name="Explore_More">Explora más</string>
+    <string name="Exposure">Exposición</string>
+    <string name="FREE_Lifetime_VIP">VIP de por vida GRATIS</string>
+    <string name="Face_Detecting">Detección de la cara</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Fade">Fade</string>
+    <string name="Fail_to_restore"><u>¿Falla en la restauración?</u></string>
+    <string name="Failed_to_detect_Please_try_again_later">No se pudo detectar. Por favor, inténtelo de nuevo más tarde.</string>
+    <string name="Feather">Pluma</string>
+    <string name="Featured">Destacado</string>
+    <string name="Features">Características</string>
+    <string name="Features_Showcase">Características de la vitrina</string>
+    <string name="Feedback">Comentarios</string>
+    <string name="Fill">Llene</string>
+    <string name="Filter">Filtro</string>
+    <string name="Filters">Filtros</string>
+    <string name="Final_Hours">Horas finales</string>
+    <string name="Fit">Cuadro</string>
+    <string name="Fit_to_Canvas">Ajustado al lienzo</string>
+    <string name="Follow_Now">Sigue ahora</string>
+    <string name="Follow_us_on_Instagram_to_unlock_sticker">¡Síganos en Instagram para desbloquear %s gratis!</string>
+    <string name="Follow_us_on_Twitter_to_unlock_sticker">¡Sigue el twitter de nuestra nueva aplicación para desbloquear %s gratis!</string>
+    <string name="Font">Fuente</string>
+    <string name="Frame">Marco</string>
+    <string name="Free">Libre</string>
+    <string name="Free_2">Libre</string>
+    <string name="Free_Photos">Fotos gratis</string>
+    <string name="From_Instagram">de Instagram</string>
+    <string name="From_my_friends">Recomendaciones de mis amigos</string>
+    <string name="From_other_people_who_post">Vi a otras personas publicar con #PicsKit o @PicsKit.official</string>
+    <string name="Gallery">Galería</string>
+    <string name="Gallery_Shop">Tienda</string>
+    <string name="Gallery_sticker">Galería</string>
+    <string name="Get_Featured">Arte rápido</string>
+    <string name="Get_Lifetime_VIP_FREE">Obtén VIP de por vida GRATIS</string>
+    <string name="Get_Lifetime_VIP_FREE_share">¡Comparta la aplicación con amigos y obtenga VIP de por vida gratis!</string>
+    <string name="Get_unlimited_access">Obtén acceso ilimitado a todas las características y contenidos.</string>
+    <string name="Give_feedback_to_us">Dar opinion</string>
+    <string name="Glitch">Glitch</string>
+    <string name="Glitch_Filter">Filtro de falla</string>
+    <string name="Glitch_Filter_Upper">"FILTRO
+GLITCH"</string>
+    <string name="Glitch_Filter_Upper1">Defectuoso</string>
+    <string name="Go">Vamos</string>
+    <string name="Go_Try">Vamos</string>
+    <string name="Go_to_Setting">Ir a Configuración</string>
+    <string name="Google_Play_Store">Google Play Store</string>
+    <string name="Got_it">Entender</string>
+    <string name="Gradient">Gradiente</string>
+    <string name="Grain">Grano</string>
+    <string name="Gray">Gris</string>
+    <string name="HFlip">H-Flip</string>
+    <string name="HRS">Hora</string>
+    <string name="HSL">HSL</string>
+    <string name="Halo">Aureola</string>
+    <string name="Hardness">Dureza</string>
+    <string name="Height_area">Altura :</string>
+    <string name="Hello_due_to_the_privacy_font">Hola, debido a los requisitos de protección de la privacidad de Google Play, hemos modificado la forma de leer y escribir archivos a partir de la versión %s.</string>
+    <string name="Hello_due_to_the_privacy_picture">Hola, debido a los requisitos de protección de la privacidad de Google Play, hemos modificado la forma de leer y escribir archivos a partir de la versión %s.</string>
+    <string name="Hello_due_to_the_privacy_project">Hola, debido a los requisitos de protección de la privacidad de Google Play, hemos modificado la forma de leer y escribir archivos a partir de la versión %s.</string>
+    <string name="Hide">Ocultar</string>
+    <string name="HighlightShadowTint">Tono Dividido</string>
+    <string name="Highlights">Destacar</string>
+    <string name="History_projects_are_missing">¿Faltan archivos de proyecto?</string>
+    <string name="History_projects_hint_1">Hola, debido a los requisitos de protección de la privacidad de Google Play, hemos modificado la forma de leer y escribir archivos desde %s</string>
+    <string name="History_projects_hint_2">En las versiones anteriores de esta aplicación, incluso si la desinstala, aún puede leer los archivos del proyecto con la reinstalación. Sin embargo, en la última versión, a petición de Google Play, todos los archivos históricos del proyecto se perderán una vez desinstalados y no se podrán recuperar.</string>
+    <string name="History_projects_hint_3">Lo sentimos por los usuarios afectados por este cambio, pero es una decisión de Google Play y no hay mucho que podamos hacer al respecto. Por lo tanto, considere cuidadosamente antes de desinstalar esta aplicación en el futuro debido al riesgo de perder todos los archivos del proyecto.</string>
+    <string name="History_projects_hint_4">Si perdió el archivo de borrador del proyecto sin desinstalarlo, siempre puede enviar un correo electrónico a %s e informarnos los detalles. Trataremos de ayudarte. ¡Gracias!</string>
+    <string name="Hold_drag_change_order">Mantenga presionado y arrastre para cambiar el orden.</string>
+    <string name="How_do_you_know_PicsKit">¿Cómo sabes PicsKit?</string>
+    <string name="How_do_you_know_PicsKit_from_Instagram">¿Cómo sabes PicsKit en Instagram?</string>
+    <string name="How_to_enable_access">¿Cómo habilitar el acceso?</string>
+    <string name="How_to_enable_access_step_1">1. Ve a \"Configuración\".</string>
+    <string name="How_to_enable_access_step_2">2. Haga clic en \"Permiso\"</string>
+    <string name="How_to_enable_access_step_3">3. Permitir almacenamiento</string>
+    <string name="How_to_restore">¿Cómo restaurar el Pro?</string>
+    <string name="Hue">Hue</string>
+    <string name="I_Know">Entendido</string>
+    <string name="I_saw_My_friends_post">Vi a Mis amigos publicar con hashtags relacionados con #PicsKit o @PicsKit.official</string>
+    <string name="I_saw_people_use_PicsKit_on_Instagram">Otros</string>
+    <string name="If_you_cancel_move_projects">Los proyectos editados recientemente se han migrado con éxito, mientras que los anteriores aún se están migrando en el proceso. Una vez cancelados, algunos de estos proyectos podrían perderse para siempre. ¿Estás seguro de cancelar este proceso?</string>
+    <string name="If_your_phone_is_using_font">Si su teléfono usa una versión superior a %s, una vez que desinstale la aplicación, los proyectos que creó, las fuentes y las imágenes que importó se eliminarán por completo.</string>
+    <string name="If_your_phone_is_using_picture">Si su teléfono usa una versión superior a %s, una vez que desinstale la aplicación, los proyectos que creó, las fuentes y las imágenes que importó se eliminarán por completo.</string>
+    <string name="If_your_phone_is_using_project">Si su teléfono usa una versión superior a %s, una vez que desinstale la aplicación, los proyectos que creó, las fuentes y las imágenes que importó se eliminarán por completo.</string>
+    <string name="Import">Importación</string>
+    <string name="Import_Your_Fonts">Importa tus fuentes</string>
+    <string name="Import_font_hint_1">"Debido a la última regulación de Google Play con respecto a la lectura y escritura de archivos, ahora, después de hacer clic en el botón [Importar fuente], ingresará al administrador de archivos del sistema, buscará y hará clic en el archivo de fuente que desea importar (los formatos de archivo de fuente incluyen '. ttf '/'. otf '/'. ttc '; Si no puede encontrar el archivo específico, primero puede importar el archivo de fuente al directorio raíz de Android y luego reiniciar la aplicación para volver a importar)."</string>
+    <string name="Import_font_hint_2">¿No puede encontrar la fuente en la página de importación de archivos?</string>
+    <string name="Import_font_hint_3">Hola, debido a los requisitos de protección de la privacidad de Google Play, hemos modificado la forma de leer y escribir archivos desde %s y la nueva versión ya no tiene acceso a algunos directorios determinados.</string>
+    <string name="Import_font_hint_4">Si no puede encontrar el archivo de fuente que necesita, puede abrir el administrador de archivos del sistema de Android, buscar el archivo de fuente que desea importar, copiarlo y pegarlo en el directorio raíz de Android, luego reiniciar la aplicación para volver a importar.</string>
+    <string name="Import_fonts">Importar fuente</string>
+    <string name="Instagram_Story">Historia de Instagram</string>
+    <string name="It_would_be_better_if_you_choose_a_portrait_here">Sería mejor que eligieras un retrato aquí.</string>
+    <string name="Jaw">Mandíbula</string>
+    <string name="Join_PicsKit_Pro">Únete a PicsKit Pro</string>
+    <string name="Join_Pro_unlock_template">Únase a Pro para desbloquear la plantilla</string>
+    <string name="Keep_knowing_new_features">¡Sigue conociendo nuevas funciones!</string>
+    <string name="Later">Luego</string>
+    <string name="Layers">Capas</string>
+    <string name="Leave">Deje</string>
+    <string name="Leave_Here_to_Explorer">Quédese para explorar más</string>
+    <string name="Let_Us_Go">Vamos</string>
+    <string name="Let_do_it">Hagámoslo.</string>
+    <string name="Lifetime_VIP">Siempre VIP</string>
+    <string name="Lifetime_VIP_unlocked_tips">VIP de por vida desbloqueado! Recordatorio: no desinstale la aplicación, o puede perder la oferta gratuita. ¡Espero que disfrute de PicsKit!</string>
+    <string name="Limited_Time_Free">Límite de Tiempo Gratis</string>
+    <string name="Limited_Time_Offer">Oferta de tiempo limitado</string>
+    <string name="Limited_Time_Offer1">Tiempo limitado</string>
+    <string name="Limited_discount">"¡90% DE 
+DESCUENTO!"</string>
+    <string name="Line">Línea</string>
+    <string name="Line_spacing_is_not_supported_for_one_line">El espaciado de línea no se admite para una línea de texto.</string>
+    <string name="Loading">Cargando...</string>
+    <string name="Loading_Stickers">Cargando calcomanías...</string>
+    <string name="Loading_more">Cargando más...</string>
+    <string name="Local">Local</string>
+    <string name="Lock">Bloqueo</string>
+    <string name="Login_Fail">Error de inicio de sesion</string>
+    <string name="MINS">minuto</string>
+    <string name="Magic_Brushes">"MAGIA
+CEPILLOS"</string>
+    <string name="Magic_Brushes1">Cepillos</string>
+    <string name="Magic_Filters">"Atractivo
+FILTROS"</string>
+    <string name="Magic_Filters1">Filtros</string>
+    <string name="Magic_Filters_single_line">Filtros encantadores</string>
+    <string name="Magic_Sky">Cielo Mágico</string>
+    <string name="Manage_Stickers">Administrar pegatinas</string>
+    <string name="Materials">Materiales</string>
+    <string name="MemoryLimited">La imagen no se puede cargar normal o con memoria limitada, inténtelo más tarde o reinicie la aplicación de nuevo.</string>
+    <string name="Memory_Insufficient">Memoria insuficiente. Por favor, inténtelo de nuevo más tarde.</string>
+    <string name="Merge">Fusión</string>
+    <string name="Merge_Layers">Capa de fusión</string>
+    <string name="Modify_templates">Modificar las plantillas</string>
+    <string name="Monthly">Mensual</string>
+    <string name="More">Más</string>
+    <string name="Mosaic">Mosaico</string>
+    <string name="Move_Zoom_Rotate">Mover, hacer zoom y rotar.</string>
+    <string name="Move_and_Scale">Mover y escalar</string>
+    <string name="Move_pick_color">Muévete para elegir un color.</string>
+    <string name="My_friends_directly_recommended_PicsKit_to_me">Mis amigos me recomendaron directamente PicsKit.</string>
+    <string name="NEXT">SIGUIENTE</string>
+    <string name="Name">Nombre</string>
+    <string name="Neon">Neón</string>
+    <string name="Neon_Art">Arte de neón con un toque</string>
+    <string name="Network_error_Please_try_again">Error de red. Por favor, compruebe su red e inténtelo de nuevo.</string>
+    <string name="New_Project">Nuevo proyecto</string>
+    <string name="New_Stickers">Nuevas pegatinas</string>
+    <string name="New_Year">Año nuevo</string>
+    <string name="New_sales">"Año nuevo
+Ventas"</string>
+    <string name="Next">Siguiente</string>
+    <string name="No_I_will_pay">No, yo pagaré.</string>
+    <string name="No_Results">No hay resultados</string>
+    <string name="No_Watermark">"No hay
+marca de agua"</string>
+    <string name="No_more_redos">No más redos</string>
+    <string name="No_more_undos">No más deshechos</string>
+    <string name="No_thanks">No, gracias.</string>
+    <string name="Normal">Normal</string>
+    <string name="Not_Supported_Architecture">Al no ser compatible con su dispositivo, PicsKit se cerrará pronto de forma automática.</string>
+    <string name="Number_of_media_files">Cantidad de archivos multimedia</string>
+    <string name="Object">Objeto</string>
+    <string name="Object_Mode">Modo Objeto</string>
+    <string name="Object_removal">Eliminación de objetos</string>
+    <string name="Offset">Offset</string>
+    <string name="Only">Solamente</string>
+    <string name="Only_money_Now">Solo %s ahora</string>
+    <string name="Oops">Oops!</string>
+    <string name="Opacity">Opacidad</string>
+    <string name="Open_PicsKit">Abrir PicsKit</string>
+    <string name="Options_irrevocable_sure_leave">"La próxima vez empezarás desde el primer paso.
+¿Seguro que te vas?"</string>
+    <string name="Options_irrevocable_sure_return">"Opción irrevocable.
+¿Volver al primer paso?"</string>
+    <string name="Original">Original</string>
+    <string name="Other">Otro</string>
+    <string name="Others">Otros</string>
+    <string name="Outline">Esquema</string>
+    <string name="Outline_the_object">Esboza el objeto...</string>
+    <string name="Outline_the_object_and_press">Esboza el objeto y presiona la tecla>.</string>
+    <string name="Output_Format">Formato de salida</string>
+    <string name="Paint_the_area_to_restore_it">Pintar el área para restaurarla</string>
+    <string name="Pattern">Patrón</string>
+    <string name="Perspective">Perspectiva</string>
+    <string name="Photo_Collage">"COLLAGE DE
+FOTOS"</string>
+    <string name="Photo_Collage1">Collage</string>
+    <string name="Photo_Collage_title">Collage de fotos</string>
+    <string name="Photo_Effects">Efectos fotográficos</string>
+    <string name="PicsKit_VIP">PicsKit VIP</string>
+    <string name="PicsKit_VIP_tips">"Acceda a todas las funciones y disfrute 
+de una experiencia sin anuncios."</string>
+    <string name="Pinterest">Pinterest</string>
+    <string name="Please_Write_down_your_answer">Por favor escriba su respuesta.</string>
+    <string name="Please_donot_clear">Por favor, no borre los datos de la caché local para Picskit o Google Play.</string>
+    <string name="Please_enter_a_name">Por favor ingrese un nombre</string>
+    <string name="Please_select_photos">Por favor seleccione %1$d fotos (%2$d/%3$d)</string>
+    <string name="Please_waiting_for_downloading">Descargando ... Espere pacientemente.</string>
+    <string name="Popular">Popular</string>
+    <string name="Portrait">Retrato</string>
+    <string name="Portrait_Eyebrows">Cejas</string>
+    <string name="Portrait_Eyes">Ojos</string>
+    <string name="Portrait_Face">Cara</string>
+    <string name="Portrait_FaceWidth">Cara</string>
+    <string name="Portrait_Leg">Pierna</string>
+    <string name="Portrait_Lips">Labios</string>
+    <string name="Portrait_Mode">Modo Retrato</string>
+    <string name="Portrait_Nose">Nariz</string>
+    <string name="Portrait_Reshape">Remodelar</string>
+    <string name="Portrait_Smooth">Suave</string>
+    <string name="Portrait_SpotHeal">Acné claro</string>
+    <string name="Position">Posición</string>
+    <string name="Posts_stories_from_PicsKit_offical">Fuentes de Instagram / Historias de IG de PicsKit.official</string>
+    <string name="Premium_Filters">Premium Filters</string>
+    <string name="Premium_Fonts">Filtros de primera calidad</string>
+    <string name="Premium_Stickers">Pegatinas de primera calidad</string>
+    <string name="Preparing_for_using_this_feature">Preparándose para usar esta función...</string>
+    <string name="Press_add_favorite">Presione para agregar el preajuste como un favorito.</string>
+    <string name="Press_here_change_photos">Presione aquí para cambiar las fotos.</string>
+    <string name="Press_here_edit">Presione aquí para editar.</string>
+    <string name="Privacy_options">Opciones de privacidad</string>
+    <string name="Pro_Features">Características Pro</string>
+    <string name="Pro_Info">Pro Info</string>
+    <string name="Projects">Proyectos</string>
+    <string name="Protect_the_painted">Proteger el área pintada de la remodelación</string>
+    <string name="Protect_the_painted_area">Proteger el área pintada de la remodelación</string>
+    <string name="Purchase_Fail">La compra falló</string>
+    <string name="Purchase_Failure">Fallo en la compra</string>
+    <string name="Purchase_Restored">Compra restaurada</string>
+    <string name="Purchase_Restored_null">No hay productos comprados previamente disponibles para restaurar.</string>
+    <string name="Purchase_Restored_success">Sus productos comprados previamente han sido restaurados.</string>
+    <string name="Quick_repair">Reparación rápida</string>
+    <string name="Quit_zoom_in_mode">Salir del modo de zoom</string>
+    <string name="Radius">Radio</string>
+    <string name="Radius_Blur">Radial</string>
+    <string name="Rate_Lifetime_VIP_FREE">Califícanos con 5 estrellas para obtener VIP de por vida GRATIS.</string>
+    <string name="Rate_Now">Califica ahora</string>
+    <string name="Rate_PicsKit">Califica PicsKit</string>
+    <string name="Rate_PicsKit_tips">"Si te gusta usar PicsKit, ¿te importaría tomarte un momento para calificarlo? 
+
+No llevará más de un minuto. 
+
+Gracias por su apoyo."</string>
+    <string name="Recent">Recientes</string>
+    <string name="Recent_Searches">Búsquedas recientes</string>
+    <string name="Recognition_failed_try_later">El reconocimiento falló. Elija otra foto o intente más tarde.</string>
+    <string name="Recommendations_from_Instagram">De Instagram</string>
+    <string name="Recommendations_from_bloggers">Recomendaciones de bloggers de IG</string>
+    <string name="Redo">Rehacer</string>
+    <string name="Remove">Retire</string>
+    <string name="Remove_Advanced_Features">Eliminar las características avanzadas</string>
+    <string name="Remove_Advanced_Features_tips">¿Está seguro de eliminar todas las características avanzadas de este proyecto?</string>
+    <string name="Remove_all_Pro_Blending">¿Quitar todos los Pro Blending de este proyecto?</string>
+    <string name="Remove_all_Pro_Font">¿Quitar todos los recursos profesionales de este proyecto?</string>
+    <string name="Remove_all_Pro_Stickers">¿Quitar todas las pegatinas profesionales de este proyecto?</string>
+    <string name="Remove_all_Pro_brushes">¿Eliminar todos los efectos de pinceles Pro de este proyecto?</string>
+    <string name="Remove_the_unwanted_part_automatically">Eliminar la parte no deseada automáticamente.</string>
+    <string name="Rename">Renombrar</string>
+    <string name="Renew">Renovar</string>
+    <string name="Reorder_Folds">Reordenar álbumes</string>
+    <string name="Replace">Reemplazar</string>
+    <string name="Reset">Reiniciar</string>
+    <string name="Reset_hsl">¿Restablecimiento de todos los colores por defecto?</string>
+    <string name="Reshape">Remodelar</string>
+    <string name="Restart_Google_Play">1. Reinicie su Google Play y asegúrese de que Google Play sea accesible.</string>
+    <string name="Restore">Restaurar</string>
+    <string name="Restore_all_Pro_adjustments">¿Restaurar todos los ajustes de Pro a los valores por defecto?</string>
+    <string name="Retouch">Retoque</string>
+    <string name="Retry">Reintenta</string>
+    <string name="Return">Devuelve</string>
+    <string name="Reverse">Invertir</string>
+    <string name="Rotate">Flip</string>
+    <string name="SECS">Segundo</string>
+    <string name="SEE_ALL_to">VER TODO ></string>
+    <string name="Sales">Ventas</string>
+    <string name="Saturation">Saturación</string>
+    <string name="Save">Guardar</string>
+    <string name="Save_HD_Image">Guardar imagen HD</string>
+    <string name="Save_HD_Image_1">"Guardar
+Imagen HD"</string>
+    <string name="Save_Image">"Guardar
+Imagen"</string>
+    <string name="Save_percent">¡Ahorra %s!</string>
+    <string name="Save_percent2">"¡Ahorre
+%s!"</string>
+    <string name="Save_up_to_photos">Guarda hasta 15 fotos a la vez. Puedes guardar otras la próxima vez.</string>
+    <string name="Saved">Salvado.</string>
+    <string name="Saving_project_hint1">Guardando foto y proyecto ...</string>
+    <string name="Saving_project_hint2">Un gran trabajo merece más tiempo ...</string>
+    <string name="Saving_project_hint3">Solo unos segundos más. Por favor sea paciente...</string>
+    <string name="Scale">Escala</string>
+    <string name="Search">Busca en</string>
+    <string name="Search_Suggestions">Sugerencias de búsqueda</string>
+    <string name="Search_no_match_found">Lo siento, no se han encontrado coincidencias. Puedes ver algo más.</string>
+    <string name="Select">Seleccione</string>
+    <string name="Select_All">Select All</string>
+    <string name="Select_File_or_Folder">Seleccionar archivo o carpeta</string>
+    <string name="Select_Layers_Merge">Seleccionar capas para fusionar</string>
+    <string name="Selected">Seleccionado</string>
+    <string name="Settings">Ajustes</string>
+    <string name="Shadow">Sombra</string>
+    <string name="Shadows">Sombra</string>
+    <string name="Shape">Forma</string>
+    <string name="Shape_Blur">Forma</string>
+    <string name="Shape_Crop">"FORMA
+CORTAR"</string>
+    <string name="Shape_Crop1">Forma</string>
+    <string name="Shards">Fragmentos</string>
+    <string name="Share">Comparte</string>
+    <string name="Share_PicsKit">Compartir PicsKit</string>
+    <string name="Share_friends_access_free">Kongsi PicsKit kepada rakan untuk mendapatkan akses ke semua ciri secara PERCUMA.</string>
+    <string name="Share_to_Instagram">Compartir en Instagram</string>
+    <string name="Share_to_friends">Compartir con amigos</string>
+    <string name="Sharpen">Afilar</string>
+    <string name="Shop">Tienda</string>
+    <string name="Size">Tamaño</string>
+    <string name="Skew">Skew</string>
+    <string name="Skip">Saltar</string>
+    <string name="Sky">Cielo</string>
+    <string name="Smart_Blur">Auto</string>
+    <string name="Smart_Eraser">Auto Borrador</string>
+    <string name="Smart_Eraser_Hint">*Borrar o restaurar con la capacidad de detección de bordes.</string>
+    <string name="Something_went_wrong">"Algo salió mal.
+Por favor, inténtelo de nuevo más tarde."</string>
+    <string name="Spacing">Espaciado</string>
+    <string name="Stamp">Sello</string>
+    <string name="Start_Editing">Editar ahora</string>
+    <string name="Sticker_Store">Tienda de pegatinas</string>
+    <string name="Sticker_management_hint">La gestión de calcomanías se ha trasladado aquí.</string>
+    <string name="Stickers">Pegatinas</string>
+    <string name="Stretch">Estira</string>
+    <string name="Stripe">Raya</string>
+    <string name="Stroke">Golpe</string>
+    <string name="Structure">Claridad</string>
+    <string name="Style">Pintura</string>
+    <string name="Submit">Enviar</string>
+    <string name="Succeed_unlock">Tenga éxito</string>
+    <string name="Succeed_unlock_tips">¡Gracias por seguir a Picskit! ¡Has desbloqueado el VIP de %d días!</string>
+    <string name="Success">Éxito</string>
+    <string name="Successfully_Saved">Salvado con éxito %s.</string>
+    <string name="Suggested">Sugerido</string>
+    <string name="Surprise">Sorpresa</string>
+    <string name="Swap">Intercambio</string>
+    <string name="Swipe_to_Eraser">Pase al Borrador</string>
+    <string name="Switch">Cambiar</string>
+    <string name="Switch_to_free">¿Cambiar a un collage de fotos gratis?</string>
+    <string name="Tags_copied_clipboard">\#¡Etiquetas copiadas al portapapeles!</string>
+    <string name="Tags_share_ins">"\#picskit
+#picskitedit"</string>
+    <string name="Tap_add_layer_blending">Pulse + para añadir otra capa para la mezcla.</string>
+    <string name="Tap_to_Edit">Pulse para editar</string>
+    <string name="Tap_to_add_image">Toque para agregar una imagen.</string>
+    <string name="Teaching_Materials">Materiales de enseñanza</string>
+    <string name="Temperature">Temperatura</string>
+    <string name="Templates">Plantillas</string>
+    <string name="Text">Texto</string>
+    <string name="Texture">Textura</string>
+    <string name="Thank_you_for_your_patience">¡Gracias por su paciencia!</string>
+    <string name="Thanks_for_following">¡Gracias por seguir a Picskit! Etiquétenos para aparecer en la lista!</string>
+    <string name="Thanks_for_following_Picskit_Start_my_creative_journey">Gracias por seguir a Picskit！ Iniciar mi creatividad journey！</string>
+    <string name="Thanks_for_your_following_NFT">¡Gracias por tu seguimiento! Esta es una aplicación de creación de NFT que hemos desarrollado. Esperando que te guste</string>
+    <string name="This_may_take_long">Esto puede llevar mucho tiempo.</string>
+    <string name="This_mode_is_better_for_objects">Este modo es adecuado para los objetos.</string>
+    <string name="This_mode_is_better_for_portraits">Este modo es adecuado para los retratos.</string>
+    <string name="This_shouldnot_take_long">Esto no debería llevar mucho tiempo.</string>
+    <string name="Tint">Tintes</string>
+    <string name="Tips">Consejos</string>
+    <string name="Toolbox">Herramienta</string>
+    <string name="Toolbox_Background">"Cambiar
+el fondo"</string>
+    <string name="Toolbox_Background1">Antecedentes</string>
+    <string name="Toolbox_Frame">"Marco
+creativo"</string>
+    <string name="Toolbox_Frame1">Cuadro</string>
+    <string name="Toolbox_Recolor">"DIVERSIÓN
+DE COLOR"</string>
+    <string name="Toolbox_Recolor1">COLOREAR</string>
+    <string name="Toolbox_Reorder">Reordenar caja de herramientas</string>
+    <string name="Toolbox_Sky">"CAMBIO
+CIELO"</string>
+    <string name="Toolbox_Sky1">CIELO</string>
+    <string name="Toolbox_Text">"AÑADIR
+TEXTO"</string>
+    <string name="Toolbox_Text1">TEXTO</string>
+    <string name="Tools">Herramienta</string>
+    <string name="Transparent">Transparente</string>
+    <string name="Try_Now">¡Inténtalo ahora!</string>
+    <string name="Tutorials">Tutoriales</string>
+    <string name="Twitter">Gorjeo</string>
+    <string name="Two_fingers_to_enlarge_anywhere">Dos dedos para agrandar o reducir en cualquier lugar</string>
+    <string name="Type">Escriba</string>
+    <string name="Unable_apply_Dispersion_effect">No se puede aplicar el efecto de dispersión automáticamente. Seleccione manualmente un área para dispersar.</string>
+    <string name="Unable_detect_sky">No se puede detectar el área del cielo en esta foto.</string>
+    <string name="Unable_to_detect_facial">No se puede detectar el área facial en esta foto.</string>
+    <string name="Undo">Deshacer</string>
+    <string name="Unhide">Unhide</string>
+    <string name="Unlock">Desbloquear</string>
+    <string name="Unlock_All_Features">Desbloquear todos</string>
+    <string name="Unlock_Lifetime_VIP">Desbloquear VIP</string>
+    <string name="Unlock_for_Free">Desbloquear gratis</string>
+    <string name="Unlock_for_Free_tips">Síganos en Instagram para desbloquear VIP GRATIS durante 14 días.</string>
+    <string name="Unlock_permanently_for_price">Desbloquear %1$s permanentemente por %2$s</string>
+    <string name="Unselect_All">Seleccione todo</string>
+    <string name="Unsplash">Unsplash</string>
+    <string name="Upgrade_to_Pro">Versión Pro</string>
+    <string name="Use">Utilice</string>
+    <string name="Use_Alter">¡Utiliza el botón Alter para obtener un resultado diferente!</string>
+    <string name="Use_Eraser">Usar borrador</string>
+    <string name="Use_your_finger_and_start_stamping_elsewhere">Usa tu dedo y empieza a estampar en otra parte.</string>
+    <string name="Use_your_finger_wrap">"Usa tu dedo y 
+empezar a estampar en otro lugar."</string>
+    <string name="Useful_Tools">Herramientas útiles</string>
+    <string name="VFlip">V-Flip</string>
+    <string name="Version">Versión</string>
+    <string name="Vibrance">Vibración</string>
+    <string name="Vignette">Vignette</string>
+    <string name="Wait_Google">3. Espere a que el servidor de Google sincronice el estado de la compra.</string>
+    <string name="Watch">Mira</string>
+    <string name="Watch_Ads">Ver anuncio</string>
+    <string name="Watch_ad_unlock_24_hours">¡Mire un anuncio de video para desbloquear esta plantilla gratis durante 24 horas!</string>
+    <string name="Watch_ad_unlock_24_hours_lucky">¡Eres afortunado! No hay publicidad para esta vez. ¡Has desbloqueado esta plantilla gratis durante 24 horas!</string>
+    <string name="Watch_ad_unlock_24_hours_suc">¡Has desbloqueado esta plantilla gratis durante 24 horas!</string>
+    <string name="Watch_video_unlock">¡Mira un anuncio en vídeo para desbloquear %s gratis durante 24 horas!</string>
+    <string name="Watercolor">Acuarela</string>
+    <string name="Watermark">Marca de agua</string>
+    <string name="Whats_the_Difference">¿Cuál es la diferencia?</string>
+    <string name="Whatsapp">Whatsapp</string>
+    <string name="White">Blanco</string>
+    <string name="Who_You_Like">Nuevo: \"A quién debo mirar like？\"</string>
+    <string name="Width_area">Ancho :</string>
+    <string name="Win_chance_unlocking_vip">Gana la oportunidad de desbloquear el Vip</string>
+    <string name="Word_Art">WordArt</string>
+    <string name="Would_you_mind_rating_PicsKit">Si le gusta PicsKit, ¿podría darnos una calificación de 5 estrellas? Tu apoyo es vital para nosotros. ¡Gracias!</string>
+    <string name="Yearly">Anualmente</string>
+    <string name="You_change_it_settings">¡Puedes cambiarlo en la configuración!</string>
+    <string name="You_may_need_to_repeat">4. Puede que tengas que repetir el primer y segundo paso hasta que termine de restaurar el estado de la compra.</string>
+    <string name="Zoom_In">Acercamiento</string>
+    <string name="Zoom_the_canvas_hint">Amplía el lienzo y elige una capa para editar.</string>
+    <string name="abc_action_bar_home_description">Ir a inicio</string>
+    <string name="abc_action_bar_up_description">Desplazarse hacia arriba</string>
+    <string name="abc_action_menu_overflow_description">Más opciones</string>
+    <string name="abc_action_mode_done">Listo</string>
+    <string name="abc_activity_chooser_view_see_all">Ver todo</string>
+    <string name="abc_activitychooserview_choose_application">Seleccionar una aplicación</string>
+    <string name="abc_capital_off">DESACTIVADO</string>
+    <string name="abc_capital_on">ACTIVADO</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Suprimir</string>
+    <string name="abc_menu_enter_shortcut_label">Intro</string>
+    <string name="abc_menu_function_shortcut_label">Función +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Mayús +</string>
+    <string name="abc_menu_space_shortcut_label">Espacio</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menú +</string>
+    <string name="abc_search_hint">Buscar…</string>
+    <string name="abc_searchview_description_clear">Borrar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de búsqueda</string>
+    <string name="abc_searchview_description_search">Buscar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Búsqueda por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartir con</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartir con %s</string>
+    <string name="abc_toolbar_collapse_description">Ocultar</string>
+    <string name="abs">Abs</string>
+    <string name="add_to_favorite">Añadido a favoritos.</string>
+    <string name="album_cant_find_the_picture">¿No encuentras la imagen que quieres?</string>
+    <string name="app_name">PicsKit</string>
+    <string name="auto_mode">Modo automático</string>
+    <string name="background">Antecedentes</string>
+    <string name="blur_bg">Fondo borroso</string>
+    <string name="bottomsheet_action_expand_halfway">Desplegar hasta la mitad</string>
+    <string name="camera">Cámara</string>
+    <string name="camera_roll">Rollo de cámara</string>
+    <string name="can_not_find_app_gallery">No puedo encontrar la galería de aplicaciones</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cannot_delete_last_image">No se puede borrar la última imagen.</string>
+    <string name="character_counter_content_description">Caracteres introducidos: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Límite de caracteres superado (%1$d de %2$d)</string>
+    <string name="choose_a_picture_limit">Por favor seleccione al menos 1 foto.</string>
+    <string name="choose_pictures_num">Elija %1$s Photos（%2$d）</string>
+    <string name="choose_pictures_num_limit">Se pueden añadir %d fotos como máximo.</string>
+    <string name="cleanser_tips">Golpee en el acnes para quitarlo.</string>
+    <string name="clear">Despejen</string>
+    <string name="clear_text_end_icon_content_description">Borrar texto</string>
+    <string name="collage_background">Antecedentes</string>
+    <string name="collage_frame">Marco</string>
+    <string name="collage_layer_adjust">ajustar</string>
+    <string name="collage_layout">Diseño</string>
+    <string name="collage_ratio">Ratio</string>
+    <string name="collage_restore">Restaurar</string>
+    <string name="common_google_play_services_enable_button">Habilitar</string>
+    <string name="common_google_play_services_enable_text">%1$s no funcionará hasta que no habilites Servicios de Google Play.</string>
+    <string name="common_google_play_services_enable_title">Habilita Servicios de Google Play</string>
+    <string name="common_google_play_services_install_button">Instalar</string>
+    <string name="common_google_play_services_install_text">%1$s no se ejecutará si los Servicios de Google Play no están instalados en tu dispositivo.</string>
+    <string name="common_google_play_services_install_title">Descargar Servicios de Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Disponibilidad Servicios de Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Error de Servicios de Google Play</string>
+    <string name="common_google_play_services_unknown_issue">La aplicación %1$s tiene problemas con los Servicios de Google Play. Vuelve a intentarlo.</string>
+    <string name="common_google_play_services_unsupported_text">No es posible ejecutar la aplicación %1$s sin los Servicios de Google Play, que no son compatibles con tu dispositivo.</string>
+    <string name="common_google_play_services_update_button">Actualizar</string>
+    <string name="common_google_play_services_update_text">%1$s no funcionará hasta que no actualices Servicios de Google Play.</string>
+    <string name="common_google_play_services_update_title">Actualiza Servicios de Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s no se ejecutará hasta que finalice la actualización en curso de Servicios de Google Play.</string>
+    <string name="common_google_play_services_wear_update_text">Se necesita una nueva versión de Servicios de Google Play. Se actualizará en breve.</string>
+    <string name="common_open_on_phone">Abrir en teléfono</string>
+    <string name="common_signin_button_text">Iniciar sesión</string>
+    <string name="common_signin_button_text_long">Iniciar sesión con Google</string>
+    <string name="copy_toast_msg">Enlace copiado en el portapapeles</string>
+    <string name="core_face">Cara</string>
+    <string name="cur_progress_num">Progreso actual:</string>
+    <string name="default_hello">Hola, puedes %s dejar un mensaje. Le responderemos lo antes posible.</string>
+    <string name="default_reply">Gracias por sus comentarios, le responderemos lo antes posible.</string>
+    <string name="detect">Detectar</string>
+    <string name="detect_failure">No detectó la cara, mueva el icono para localizar la cara que quiere retocar</string>
+    <string name="detect_failure_change_pic">No detectó la cara. Por favor, cambie otra imagen.</string>
+    <string name="detect_success">Cara detectada</string>
+    <string name="detecting_face">Buscando en la cara.....</string>
+    <string name="dislike">No me gusta</string>
+    <string name="done">Hecho</string>
+    <string name="download_favorite">Descargue primero el preajuste.</string>
+    <string name="enjoying_FREE_lifetime_VIP">Estás disfrutando de nuestro VIP de por vida GRATIS</string>
+    <string name="error">Error</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
+    <string name="eyebrow_shape">Forma</string>
+    <string name="eyes_angle">Ángulo</string>
+    <string name="eyes_distance">Distancia</string>
+    <string name="face_brighten">Ilumina</string>
+    <string name="face_failed">¡Falló en detectar la cara!</string>
+    <string name="face_height">Altura</string>
+    <string name="face_narrow">Estrecha</string>
+    <string name="face_size">Tamaño</string>
+    <string name="face_width">Ancho</string>
+    <string name="fallback_menu_item_copy_link">Copiar enlace</string>
+    <string name="fallback_menu_item_open_in_browser">Abrir en el navegador</string>
+    <string name="fallback_menu_item_share_link">Compartir enlace</string>
+    <string name="fill">Llene</string>
+    <string name="filters">Filtros</string>
+    <string name="finish">Hecho</string>
+    <string name="finish_tutorial">Felicitaciones</string>
+    <string name="finish_tutorial_tips">¡Tutorial cumplido! Eso se ve muy bien. Aprende más y sigue adelante!</string>
+    <string name="follow_us">Síganos.</string>
+    <string name="follow_win_vip">"Síguenos
+Destaca"</string>
+    <string name="font_already_added">Se ha agregado la fuente. Seleccione otro.</string>
+    <string name="font_deleted_hint">La fuente se eliminó de su teléfono. Seleccione otro.</string>
+    <string name="font_due_to_android_latest_policy">\#Debido al %s de Android, si desinstalas la aplicación, las fuentes importadas no permanecerán en la aplicación.</string>
+    <string name="font_not_found">Vaya, no se encontraron fuentes</string>
+    <string name="font_unsupported">Tipo no admitido. Seleccione otro.</string>
+    <string name="frame_overall">Todo</string>
+    <string name="frame_part">Parte</string>
+    <string name="frame_round">Esquina</string>
+    <string name="free_trial_unlocked_tips">Tienes acceso desbloqueado a todas las funciones durante 7 días.</string>
+    <string name="freeze">Congelar</string>
+    <string name="give_up_all_modifications">¿Quieres renunciar a todas las modificaciones?</string>
+    <string name="go_back">Volver</string>
+    <string name="hold_add_favorite">Mantenga presionado el preajuste para agregarlo como favorito.</string>
+    <string name="home_due_to_android_latest_policy">\#Debido al %s de Android, todos los proyectos del historial pueden eliminarse si desinstalas la aplicación (pero los archivos multimedia originales no se eliminarán).</string>
+    <string name="hw_Order_account_area_not_supported_error">Order account area not supported error!</string>
+    <string name="hw_Order_has_been_canceled">Order has been canceled!</string>
+    <string name="hw_Order_not_accept_agreement">Order not accept agreement!</string>
+    <string name="hw_Order_state_net_error">Order state net error!</string>
+    <string name="hw_Order_state_param_error">Order state param error!</string>
+    <string name="hw_Order_vr_uninstall_error">Order vr uninstall error!</string>
+    <string name="hw_Product_already_owned_error">Product already owned error!</string>
+    <string name="hw_Product_consumed_error">Product consumed error!</string>
+    <string name="hw_Product_not_owned_error">Product not owned error!</string>
+    <string name="hw_external_error">External error</string>
+    <string name="hw_not_login">No iniciar sesión o no puede conectarse a HMS Core.</string>
+    <string name="hw_order_unknown_error">Order unknown error!</string>
+    <string name="icon_content_description">Icono del cuadro de diálogo</string>
+    <string name="installed_app_first">Por favor, instale esta aplicación primero.</string>
+    <string name="interactive_rate_dislike">Gracias por tu comentario. ¡Seguiremos mejorando el tutorial!</string>
+    <string name="interactive_rate_like">¡Me alegro de que te guste! Tu comentario nos hace avanzar.</string>
+    <string name="interactive_rate_tips">¡Tutorial cumplido! ¿Qué te pareció ese tutorial?</string>
+    <string name="interactive_tutorial_tips">¿Te sientes difícil? ¡Equípate con nuestros nuevos tutoriales! Tienes 10 veces más probabilidades de crear una foto fantástica si miras nuestros tutoriales.</string>
+    <string name="interactive_tutorial_tips2">Pruebe nuestros filtros de arte gratuitos y avanzados!</string>
+    <string name="internal_storage">Almacenamiento interno</string>
+    <string name="item_view_role_description">Pestaña</string>
+    <string name="know_app">Aprende sobre PicsKit</string>
+    <string name="know_app_tips">PicsKit es un poderoso editor de fotos para todos. Tómate unos segundos para aprenderlo y comienza tu viaje de diseño ahora!</string>
+    <string name="latest_policy">última política</string>
+    <string name="lift">Levante</string>
+    <string name="like">Como</string>
+    <string name="like_PicsKit_share_PicsKit">Si te gusta PicsKit, ¿por qué no compartir PicsKit? ¡Hagan fotos increíbles juntos y compartan la alegría!</string>
+    <string name="like_fivestar">5-ESTRELLA</string>
+    <string name="like_text_under_star">¿Te gusta %s? ¡Me encanta!</string>
+    <string name="like_unliker">Disgusto</string>
+    <string name="limit_pop_tips">"Las características avanzadas marcadas son de uso libre por
+un tiempo limitado.Disfrútalo!"</string>
+    <string name="limited_time_discount">Tiempo limitado: %s</string>
+    <string name="lip_smile">Sonríe</string>
+    <string name="material_clock_toggle_content_description">Selecciona AM o PM</string>
+    <string name="material_hour_selection">Seleccionar hora</string>
+    <string name="material_hour_suffix">%1$s en punto</string>
+    <string name="material_minute_selection">Seleccionar minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">A.M.</string>
+    <string name="material_timepicker_clock_mode_description">Cambia al modo de reloj para escribir la hora.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">P.M.</string>
+    <string name="material_timepicker_select_time">Seleccionar la hora</string>
+    <string name="material_timepicker_text_input_mode_description">Cambia al modo de introducción de texto para escribir la hora.</string>
+    <string name="mtrl_badge_numberless_content_description">Notificación nueva</string>
+    <string name="mtrl_chip_close_icon_content_description">Retirar %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Más de %1$d notificaciones nuevas</string>
+    <string name="mtrl_picker_a11y_next_month">Cambiar al mes siguiente</string>
+    <string name="mtrl_picker_a11y_prev_month">Cambiar al mes anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Selección actual: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecciona una fecha</string>
+    <string name="mtrl_picker_date_header_unselected">Fecha seleccionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Columna de días: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato no válido.</string>
+    <string name="mtrl_picker_invalid_format_example">Ejemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar: %1$s</string>
+    <string name="mtrl_picker_invalid_range">El periodo no es válido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ir al año %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fuera del periodo válido: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Fecha de inicio–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–Fecha de finalización</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecciona un periodo</string>
+    <string name="mtrl_picker_range_header_unselected">Fecha de inicio–Fecha de finalización</string>
+    <string name="mtrl_picker_save">Guardar</string>
+    <string name="mtrl_picker_text_input_date_hint">Fecha</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Fecha de finalización</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Fecha de inicio</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambiar al modo de introducción Calendario</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toca para seleccionar un día</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Cambiar al modo de introducción Texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toca para seleccionar un año</string>
+    <string name="multi_face">Elija una cara para retocar.</string>
+    <string name="multi_recognize">Reconociendo...</string>
+    <string name="native_body">Cuerpo</string>
+    <string name="native_headline">Título</string>
+    <string name="native_media_view">Vista del contenido multimedia</string>
+    <string name="neon_effects_wings">Efectos de neón chic, alas y emoji</string>
+    <string name="network_download_has_some_problem">Opps, algo anda mal con la descarga. Comprueba tu conexión de red. Si es un problema de la aplicación, puede enviarnos sus comentarios y lo solucionaremos lo antes posible.</string>
+    <string name="network_error">Error de red</string>
+    <string name="new_version_is_sorting">Debido a la última política de Android, necesitamos mover todos sus proyectos de historial a una nueva carpeta en caso de que pierda esos proyectos. No bloquee la pantalla ni cambie a otras aplicaciones. Cuantos más proyectos de historia, más tiempo puede llevar.</string>
+    <string name="next_step">Siguiente</string>
+    <string name="next_tutorial_name">Próximo tutorial: %s</string>
+    <string name="no">No</string>
+    <string name="no_camera_permission_tip">"PicsKit no tiene acceso a su cámara.
+Por favor, habilita el acceso en Configuración."</string>
+    <string name="no_permission_hint_1">¡PicsKit necesita acceso al almacenamiento de su dispositivo antes de comenzar sus increíbles ediciones!</string>
+    <string name="no_permission_hint_2">PicsKit necesita acceso al almacenamiento de su dispositivo. Habilite el acceso en Configuración</string>
+    <string name="no_photos_permission_tip">"PicsKit no tiene acceso a tus fotos.
+Por favor, habilita el acceso en Configuración."</string>
+    <string name="no_sd_card_tip">Sin tarjeta SD</string>
+    <string name="no_thanks">No, gracias.</string>
+    <string name="notifications_permission_confirm">Permitir</string>
+    <string name="notifications_permission_decline">No permitir</string>
+    <string name="notifications_permission_title">¿Permitir que la aplicación te envíe notificaciones?</string>
+    <string name="offline_notification_text">Toca para abrir el anuncio</string>
+    <string name="offline_notification_title">Mira el anuncio guardado cuando no tenías conexión</string>
+    <string name="offline_opt_in_confirm">Aceptar</string>
+    <string name="offline_opt_in_confirmation">Recibirás una notificación que incluirá el enlace cuando recuperes la conexión</string>
+    <string name="offline_opt_in_decline">No, gracias</string>
+    <string name="offline_opt_in_message">Te enviaremos una notificación que incluirá un enlace al sitio web del anunciante.</string>
+    <string name="offline_opt_in_title">Se abrirá el anuncio cuando recuperes la conexión.</string>
+    <string name="ok">OK</string>
+    <string name="one_Month_price">1 mes: %s/mes</string>
+    <string name="one_year">1 año</string>
+    <string name="password_toggle_content_description">Mostrar contraseña</string>
+    <string name="per_year_price">12 meses: %s/año</string>
+    <string name="percent_off">"40
+OFF"</string>
+    <string name="percent_off_2">(87% OFF)</string>
+    <string name="percent_off_2_develop">(80% OFF)</string>
+    <string name="percent_off_develop">"30
+OFF"</string>
+    <string name="permanently_for_price">%1$s permanentemente por %2$s</string>
+    <string name="photo_been_deleted">Esta foto ha sido borrada.</string>
+    <string name="photos">Fotos</string>
+    <string name="please_download_instagram">"Instagram no está instalado. 
+Por favor, descargue Instagram e inténtelo de nuevo."</string>
+    <string name="provicy_policy">Provicy Policy</string>
+    <string name="purchase_detail">"• Opciones de suscripción: %1$s al mes, %2$s al año. Suscríbete para tener acceso ilimitado a todas las funciones y contenidos que se ofrecen para su compra dentro de PicsKit.
+
+• Se le cobrará automáticamente cada período de renovación dependiendo de los términos de su suscripción, por ejemplo: mensual o anual.
+
+• Es posible que encuentre una autorización de pago en su método de pago hasta 24 horas antes de la fecha de renovación, pero sólo se le cobrará en la fecha de renovación. Para eliminar la autorización de pago, cancele la suscripción antes de la fecha de renovación.
+
+• Puedes cancelar tu suscripción en cualquier momento en la sección de suscripciones de Google Play. Cuando canceles tu suscripción, perderás el acceso a la misma al final del período de facturación actual.
+
+• Si cancelas una suscripción comprada en una aplicación de Google Play, no recibirás un reembolso para el período de facturación actual, pero seguirás recibiendo el contenido de tu suscripción durante el resto del período de facturación actual, independientemente de la fecha de cancelación. La cancelación entrará en vigor una vez transcurrido el periodo de facturación actual.
+
+• Los precios en otros países pueden variar y los cargos reales pueden ser convertidos a su moneda local dependiendo del país de residencia."</string>
+    <string name="purchase_detail_shuangyin">"• Opciones de suscripción: %1$s al mes, %2$s al año. Suscríbete para tener acceso ilimitado a todas las funciones y contenidos que se ofrecen para su compra dentro de PicsKit.
+
+• Se le cobrará automáticamente cada período de renovación dependiendo de los términos de su suscripción, por ejemplo: mensual o anual.
+
+• Es posible que encuentre una autorización de pago en su método de pago hasta 24 horas antes de la fecha de renovación, pero sólo se le cobrará en la fecha de renovación. Para eliminar la autorización de pago, cancele la suscripción antes de la fecha de renovación.
+
+• Puedes cancelar la suscripción en cualquier momento en la sección de suscripciones de Google Play. Al cancelar la suscripción, perderás el acceso a la misma al final del periodo de facturación actual. 
+
+• Si cancelas una suscripción adquirida en una aplicación de Google Play, no recibirás un reembolso para el periodo de facturación actual, pero seguirás recibiendo el contenido de tu suscripción durante el resto del periodo de facturación actual, independientemente de la fecha de cancelación. La cancelación entrará en vigor una vez transcurrido el periodo de facturación actual.
+
+• Los precios en otros países pueden variar y los cargos reales pueden convertirse a su moneda local dependiendo del país de residencia."</string>
+    <string name="question_tip1" formatted="false">"¡Complete un cuestionario para ganar %s!
+¿Le gustaría realizar una encuesta de %s para obtener VIP GRATIS?"</string>
+    <string name="question_tip1_str1">" VIP Gratis"</string>
+    <string name="question_tip1_str2">"2 minutos "</string>
+    <string name="question_tip2">Mayor probabilidad de ser recompensado si da %s.</string>
+    <string name="question_tip2_str1">respuestas confiables</string>
+    <string name="question_tip3">Felicitaciones por activar con éxito un acceso %s. Tendrá acceso ilimitado a todas las funciones de la aplicación sin anuncios durante este período de tiempo.</string>
+    <string name="question_tip3_str1">VIP de 10 días</string>
+    <string name="question_tip4">*No desinstale la aplicación o el estado VIP podría quedar invalidado.*</string>
+    <string name="question_title">Gana Recompensas</string>
+    <string name="question_write">Rellenar</string>
+    <string name="quit_app">Presione de nuevo para salir del programa</string>
+    <string name="raise">Levante</string>
+    <string name="rate_us">Nos califica</string>
+    <string name="refine">Refine</string>
+    <string name="resize">Ajuste</string>
+    <string name="restart">Reinicie</string>
+    <string name="restore">Restaurar</string>
+    <string name="s1">Guardar imagen</string>
+    <string name="s2">¿Permitir que el anuncio almacene imágenes en la galería de imágenes?</string>
+    <string name="s3">Aceptar</string>
+    <string name="s4">Rechazar</string>
+    <string name="s5">Crear evento de calendario</string>
+    <string name="s6">¿Permitir que el anuncio cree un evento de calendario?</string>
+    <string name="s7">Anuncio de prueba</string>
+    <string name="save_all_as_jpg">Todo guardado como JPG. Ocupa menos espacio y es rápido de exportar, pero las áreas transparentes se volverán blancas.</string>
+    <string name="save_all_as_png">Todo guardado como PNG. Más grande en tamaño y lleva más tiempo exportar, pero las áreas transparentes siguen siendo transparentes</string>
+    <string name="save_png_or_jpg">Guárdelo como imagen PNG cuando contenga transparencias, o se guardará como imagen JPG</string>
+    <string name="sdcard_not_exist">La tarjeta SD no existe</string>
+    <string name="search_menu_title">Buscar</string>
+    <string name="select_layer_first">Por favor, seleccione una capa primero.</string>
+    <string name="select_limit_layers">Por favor, no seleccione más de 3 capas.</string>
+    <string name="shadow_shape">Forma</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="subscription_option">"• Opciones de suscripción: %1$s al mes, %2$s al año. Suscríbete para tener acceso ilimitado a todas las funciones y contenidos que se ofrecen para su compra dentro de PicsKit.
+
+• Se le cobrará automáticamente cada período de renovación dependiendo de los términos de su suscripción, por ejemplo: mensual o anual.
+
+• Es posible que encuentre una autorización de pago en su método de pago hasta 24 horas antes de la fecha de renovación, pero sólo se le cobrará en la fecha de renovación. Para eliminar la autorización de pago, cancele la suscripción antes de la fecha de renovación. 
+
+• Puedes cancelar tu suscripción en cualquier momento en la sección de suscripciones de Google Play. Cuando canceles tu suscripción, perderás el acceso a la misma al final del período de facturación actual.
+
+• Si cancelas una suscripción comprada en una aplicación de Google Play, no recibirás un reembolso para el período de facturación actual, pero seguirás recibiendo el contenido de tu suscripción durante el resto del período de facturación actual, independientemente de la fecha de cancelación. La cancelación entrará en vigor una vez transcurrido el periodo de facturación actual.
+
+• Los precios en otros países pueden variar y los cargos reales pueden ser convertidos a su moneda local dependiendo del país de residencia.
+
+• Según las reglas de las diferentes plataformas, la membresía VIP no puede ser compartida entre iOS y Android.
+
+• Puedes acceder a todas las funciones profesionales de PicsKit mediante una suscripción mensual, una suscripción anual y una compra única (de por vida). La única diferencia está en el tiempo válido de desbloqueo. "</string>
+    <string name="subscription_option_shuangyin">"• Las características marcadas como avanzadas son de uso libre por un tiempo limitado. En otras palabras, ahora puedes acceder a todas las funciones y contenidos de PicsKit de forma gratuita. Para su referencia, los precios originales y los planes de suscripción se enumeran a continuación. Tenga la seguridad de que no se le cobrará automáticamente cuando termine este evento de tiempo limitado.
+
+• Opciones de suscripción: %1$s al mes, %2$s al año. Suscríbete para tener acceso ilimitado a todas las funciones y contenidos que se ofrecen para su compra dentro de PicsKit.
+
+• Se le cobrará automáticamente cada período de renovación dependiendo de los términos de su suscripción, por ejemplo: mensual o anual.
+
+• Es posible que encuentre una autorización de pago en su método de pago hasta 24 horas antes de la fecha de renovación, pero sólo se le cobrará en la fecha de renovación. Para eliminar la autorización de pago, cancele la suscripción antes de la fecha de renovación.
+
+• Puedes cancelar la suscripción en cualquier momento en la sección de suscripciones de Google Play. Al cancelar la suscripción, perderás el acceso a la misma al final del periodo de facturación actual. 
+
+• Si cancelas una suscripción adquirida en una aplicación de Google Play, no recibirás un reembolso para el periodo de facturación actual, pero seguirás recibiendo el contenido de tu suscripción durante el resto del periodo de facturación actual, independientemente de la fecha de cancelación. La cancelación entrará en vigor una vez transcurrido el periodo de facturación actual.
+
+• Los precios en otros países pueden variar y los cargos reales pueden convertirse a su moneda local dependiendo del país de residencia.
+
+• Según las reglas de las diferentes plataformas, la membresía VIP no puede ser compartida entre iOS y Android. 
+
+• Puede acceder a todas las funciones profesionales de PicsKit mediante una suscripción mensual, una suscripción anual y una compra única (de por vida). La única diferencia está en el tiempo válido de desbloqueo."</string>
+    <string name="sure_delete_project">¿Está seguro de borrar este proyecto?</string>
+    <string name="sure_delete_projects">¿Estás seguro de borrar? (Esta operación es irrevocable）</string>
+    <string name="sure_love_to">Por supuesto!</string>
+    <string name="sure_remove_watermark">¿Está seguro de eliminar la marca de agua de este proyecto?</string>
+    <string name="tattoo">Tatuaje</string>
+    <string name="terms_of_use">Condiciones de uso</string>
+    <string name="text_line_limit">Texto %d Líneas Limitadas.</string>
+    <string name="text_transparent_cannot_modify">No se admite el color de fondo transparente</string>
+    <string name="then_one_year_price">%s/año</string>
+    <string name="thick">Grueso</string>
+    <string name="tilt">Tilt</string>
+    <string name="tips_Launch_Billing_Flow_error">No se pudo comprar. Verifique su configuración de red y vuelva a intentarlo.</string>
+    <string name="tips_google_play">No se puede conectar a Google Play.</string>
+    <string name="tips_not_support_Subscriptions">Los servicios de Google no funcionan en su dispositivo. Compruebe si hay actualizaciones.</string>
+    <string name="title">Comentarios</string>
+    <string name="today_lucky_user">Para el afortunado usuario de hoy</string>
+    <string name="try_again">Intentar otra vez</string>
+    <string name="unfreeze">Descongelar</string>
+    <string name="unlock_successfully">¡Desbloquear con éxito!</string>
+    <string name="unlocked_pack_limited_time">¡Has desbloqueado %s gratis durante 24 horas!</string>
+    <string name="upper_limit">El límite superior es de 100.</string>
+    <string name="use_self_pic">Inténtalo con mis propias fotos</string>
+    <string name="value_exceeds_upper_limit">El valor introducido excede el límite superior.</string>
+    <string name="vip_info">Información VIP &amp; Condiciones de uso</string>
+    <string name="watermark_label_prefix">AdMob -</string>
+    <string name="won_Lifetime_VIP_free">¡Has ganado nuestro VIP de por vida de [占位,$13.99]! Todas las funciones avanzadas son ahora [占位,FREE] para usar. ¡Sólo disfrútalo!</string>
+    <string name="won_Lifetime_VIP_free_enjoy">¡Ganaste nuestro VIP de por vida gratis! ¡Todas las funciones avanzadas ahora son GRATIS! Sólo disfrútalo</string>
+    <string name="year_monthly_price">12 mes: %s/mes</string>
+    <string name="yes">Sí</string>
+</resources>

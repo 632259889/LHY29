@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lightcone.com.pack.view.SquareRelativeLayout android:padding="1.0dip" android:layout_width="58.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/image_edit_text_bg" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/ivPreview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="8.0sp" android:textColor="#ffffffff" android:gravity="bottom|center|left" android:id="@id/tvFont" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="ABC" />
+    <ImageView android:id="@id/ivPro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tag_pro" />
+    <ProgressBar android:id="@id/progressState" android:padding="1.5dip" android:layout_width="15.0dip" android:layout_height="15.0dip" android:indeterminateDrawable="@drawable/selector_download_icon" android:layout_alignRight="@id/ivPreview" android:layout_alignBottom="@id/ivPreview" />
+    <ImageView android:id="@id/ivSelect" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/canvassize_frame_selected" android:scaleType="fitCenter" />
+</lightcone.com.pack.view.SquareRelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="320.0dip" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="320.0dip" android:layout_height="50.0dip">
+        <ImageView android:id="@id/icon_applovin" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+        <Button android:textSize="22.0dip" android:textColor="#ff000000" android:id="@id/btn_applovin" android:background="#ff2d9dff" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Install" android:layout_alignParentRight="true" android:textAllCaps="false" />
+        <TextView android:textSize="20.0dip" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/txt_applovin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="Content" android:maxLines="1" android:lines="1" android:layout_toLeftOf="@id/btn_applovin" android:layout_toRightOf="@id/icon_applovin" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</merge>

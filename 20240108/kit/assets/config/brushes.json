@@ -1,0 +1,1405 @@
+[
+  {
+    "category": "Featured",
+    "localizedCategory": {
+      "ja": "厳選",
+      "ms": "Featured",
+      "zh": "精选",
+      "zh-Hant": "精選",
+      "ru": "Лучший",
+      "es": "Mejor",
+      "in": "Unggul"
+    },
+    "brushes": [
+      {
+        "id": 57,
+        "name": "sparkle bokeh",
+        "thumbnail": "sparkle bokeh.jpg",
+        "zipPath": "sparkle bokeh.zip",
+        "localizedCategory": {
+          "en": "MA2"
+        },
+        "images": [
+          "sparkle bokeh_1.png",
+          "sparkle bokeh_2.png",
+          "sparkle bokeh_3.png",
+          "sparkle bokeh_4.png",
+          "sparkle bokeh_5.png",
+          "sparkle bokeh_6.png"
+        ]
+      },
+      {
+        "id": 62,
+        "name": "butterfly2",
+        "thumbnail": "butterfly2.jpg",
+        "zipPath": "butterfly2.zip",
+        "localizedCategory": {
+          "en": "AN1"
+        },
+        "images": [
+          "butterfly2_1.png",
+          "butterfly2_2.png",
+          "butterfly2_3.png",
+          "butterfly2_4.png",
+          "butterfly2_5.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 17,
+        "name": "Nugget",
+        "thumbnail": "magic_nugget.jpg",
+        "zipPath": "magic_nugget.zip",
+        "localizedCategory": {
+          "en": "MA16"
+        },
+        "images": [
+          "magic_nugget_1.png",
+          "magic_nugget_2.png",
+          "magic_nugget_3.png"
+        ]
+      },
+      {
+        "id": 52,
+        "name": "rainbow heart",
+        "thumbnail": "rainbow heart.jpg",
+        "zipPath": "rainbow heart.zip",
+        "localizedCategory": {
+          "en": "SW5"
+        },
+        "images": [
+          "rainbow heart_1.png",
+          "rainbow heart_2.png",
+          "rainbow heart_3.png",
+          "rainbow heart_4.png",
+          "rainbow heart_5.png",
+          "rainbow heart_6.png"
+        ]
+      },
+      {
+        "id": 60,
+        "name": "alphabet",
+        "thumbnail": "alphabet.jpg",
+        "zipPath": "alphabet.zip",
+        "localizedCategory": {
+          "en": "BA2"
+        },
+        "images": [
+          "alphabet_1.png",
+          "alphabet_2.png",
+          "alphabet_3.png",
+          "alphabet_4.png",
+          "alphabet_5.png"
+        ]
+      },
+      {
+        "id": 64,
+        "name": "butterfly4",
+        "thumbnail": "butterfly4.jpg",
+        "zipPath": "butterfly4.zip",
+        "localizedCategory": {
+          "en": "AN6"
+        },
+        "images": [
+          "butterfly4_1.png",
+          "butterfly4_2.png",
+          "butterfly4_3.png",
+          "butterfly4_4.png",
+          "butterfly4_5.png"
+        ]
+      },
+      {
+        "id": 74,
+        "name": "Vaporwave",
+        "thumbnail": "Vaporwave.jpg",
+        "zipPath": "Vaporwave.zip",
+        "localizedCategory": {
+          "en": "MA1"
+        },
+        "images": [
+          "vaporwave_1.png",
+          "vaporwave_2.png",
+          "vaporwave_3.png",
+          "vaporwave_4.png",
+          "vaporwave_5.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 9,
+        "name": "Speckle",
+        "thumbnail": "basic_speckle.jpg",
+        "zipPath": "basic_speckle.zip",
+        "localizedCategory": {
+          "en": "BA19"
+        },
+        "images": [
+          "basic_speckle_1.png",
+          "basic_speckle_2.png",
+          "basic_speckle_3.png",
+          "basic_speckle_4.png"
+        ]
+      },
+      {
+        "id": 51,
+        "name": "planet",
+        "thumbnail": "planet.jpg",
+        "zipPath": "planet.zip",
+        "localizedCategory": {
+          "en": "MA3"
+        },
+        "images": [
+          "planet_1.png",
+          "planet_2.png",
+          "planet_3.png",
+          "planet_4.png",
+          "planet_5.png",
+          "planet_6.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 5,
+        "name": "Cloud",
+        "thumbnail": "basic_cloud.jpg",
+        "zipPath": "basic_cloud.zip",
+        "localizedCategory": {
+          "en": "BA16"
+        },
+        "images": [
+          "basic_cloud_1.png",
+          "basic_cloud_2.png",
+          "basic_cloud_3.png"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Basic",
+    "localizedCategory": {
+      "ja": "ベーシック",
+      "ms": "Asas",
+      "zh": "基础",
+      "zh-Hant": "基礎",
+      "ru": "основной",
+      "es": "Básico",
+      "in": "Dasar"
+    },
+    "brushes": [
+      {
+        "id": 70,
+        "name": "pentagram",
+        "thumbnail": "pentagram.jpg",
+        "zipPath": "pentagram.zip",
+        "localizedCategory": {
+          "en": "BA1"
+        },
+        "images": [
+          "pentagram_1.png",
+          "pentagram_2.png",
+          "pentagram_3.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 60,
+        "name": "alphabet",
+        "thumbnail": "alphabet.jpg",
+        "zipPath": "alphabet.zip",
+        "localizedCategory": {
+          "en": "BA2"
+        },
+        "images": [
+          "alphabet_1.png",
+          "alphabet_2.png",
+          "alphabet_3.png",
+          "alphabet_4.png",
+          "alphabet_5.png"
+        ]
+      },
+      {
+        "id": 68,
+        "name": "ice cube",
+        "thumbnail": "ice cube.jpg",
+        "zipPath": "ice-cube.zip",
+        "localizedCategory": {
+          "en": "BA3"
+        },
+        "images": [
+          "ice-cube_1.png",
+          "ice-cube_2.png",
+          "ice-cube_3.png"
+        ]
+      },
+      {
+        "id": 75,
+        "name": "dyeware",
+        "thumbnail": "dyeware.jpg",
+        "zipPath": "dyeware.zip",
+        "localizedCategory": {
+          "en": "BA4"
+        },
+        "images": [
+          "dyeware_1.png",
+          "dyeware_2.png",
+          "dyeware_3.png",
+          "dyeware_4.png",
+          "dyeware_5.png"
+        ]
+      },
+      {
+        "id": 71,
+        "name": "pentagram2",
+        "thumbnail": "pentagram 2 .jpg",
+        "zipPath": "pentagram2.zip",
+        "localizedCategory": {
+          "en": "BA5"
+        },
+        "images": [
+          "pentagram2_1.png",
+          "pentagram2_2.png",
+          "pentagram2_3.png",
+          "pentagram2_4.png"
+        ]
+      },
+      {
+        "id": 69,
+        "name": "music",
+        "thumbnail": "music.jpg",
+        "zipPath": "music.zip",
+        "localizedCategory": {
+          "en": "BA6"
+        },
+        "images": [
+          "music_1.png",
+          "music_2.png",
+          "music_3.png",
+          "music_4.png",
+          "music_5.png"
+        ]
+      },
+      {
+        "id": 67,
+        "name": "geometry",
+        "thumbnail": "geometry.jpg",
+        "zipPath": "geometry.zip",
+        "localizedCategory": {
+          "en": "BA7"
+        },
+        "images": [
+          "geometry_1.png",
+          "geometry_2.png",
+          "geometry_3.png",
+          "geometry_4.png"
+        ]
+      },
+      {
+        "id": 72,
+        "name": "pink cloud",
+        "thumbnail": "pink cloud.jpg",
+        "zipPath": "pink_cloud.zip",
+        "localizedCategory": {
+          "en": "BA8"
+        },
+        "images": [
+          "pink_cloud_1.png",
+          "pink_cloud_2.png",
+          "pink_cloud_3.png",
+          "pink_cloud_4.png"
+        ]
+      },
+      {
+        "id": 50,
+        "name": "hoilday",
+        "thumbnail": "hoilday.jpg",
+        "zipPath": "hoilday.zip",
+        "localizedCategory": {
+          "en": "BA9"
+        },
+        "images": [
+          "hoilday_1.png"
+        ]
+      },
+      {
+        "id": 56,
+        "name": "snowflake",
+        "thumbnail": "snowflake.jpg",
+        "zipPath": "snowflake.zip",
+        "localizedCategory": {
+          "en": "BA10"
+        },
+        "images": [
+          "snowflake_1.png",
+          "snowflake_2.png",
+          "snowflake_3.png",
+          "snowflake_4.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 55,
+        "name": "snow2",
+        "thumbnail": "snow.jpg",
+        "zipPath": "snow.zip",
+        "localizedCategory": {
+          "en": "BA11"
+        },
+        "images": [
+          "snow_1.png",
+          "snow_2.png",
+          "snow_3.png",
+          "snow_4.png",
+          "snow_5.png",
+          "snow_6.png"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Maple",
+        "thumbnail": "basic_maple.jpg",
+        "zipPath": "basic_maple.zip",
+        "localizedCategory": {
+          "en": "BA12"
+        },
+        "images": [
+          "basic_maple_1.png",
+          "basic_maple_2.png",
+          "basic_maple_3.png",
+          "basic_maple_4.png"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Clover",
+        "thumbnail": "basic_clover.jpg",
+        "zipPath": "basic_clover.zip",
+        "localizedCategory": {
+          "en": "BA13"
+        },
+        "images": [
+          "basic_clover_1.png",
+          "basic_clover_2.png",
+          "basic_clover_3.png",
+          "basic_clover_4.png"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Crack",
+        "thumbnail": "basic_crack.jpg",
+        "zipPath": "basic_crack.zip",
+        "localizedCategory": {
+          "en": "BA14"
+        },
+        "images": [
+          "basic_crack_1.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 6,
+        "name": "Sakura",
+        "thumbnail": "basic_sakura.jpg",
+        "zipPath": "basic_sakura.zip",
+        "localizedCategory": {
+          "en": "BA15"
+        },
+        "images": [
+          "basic_sakura_1.png",
+          "basic_sakura_2.png",
+          "basic_sakura_3.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 5,
+        "name": "Cloud",
+        "thumbnail": "basic_cloud.jpg",
+        "zipPath": "basic_cloud.zip",
+        "localizedCategory": {
+          "en": "BA16"
+        },
+        "images": [
+          "basic_cloud_1.png",
+          "basic_cloud_2.png",
+          "basic_cloud_3.png"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Bubble",
+        "thumbnail": "basic_bubble.jpg",
+        "zipPath": "basic_bubble.zip",
+        "localizedCategory": {
+          "en": "BA17"
+        },
+        "images": [
+          "basic_bubble_1.png",
+          "basic_bubble_2.png",
+          "basic_bubble_3.png"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Hexagram",
+        "thumbnail": "basic_hexagram.jpg",
+        "zipPath": "basic_hexagram.zip",
+        "localizedCategory": {
+          "en": "BA18"
+        },
+        "images": [
+          "basic_hexagram_1.png",
+          "basic_hexagram_2.png",
+          "basic_hexagram_3.png",
+          "basic_hexagram_4.png"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Speckle",
+        "thumbnail": "basic_speckle.jpg",
+        "zipPath": "basic_speckle.zip",
+        "localizedCategory": {
+          "en": "BA19"
+        },
+        "images": [
+          "basic_speckle_1.png",
+          "basic_speckle_2.png",
+          "basic_speckle_3.png",
+          "basic_speckle_4.png"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Dandelion",
+        "thumbnail": "basic_dandelion.jpg",
+        "zipPath": "basic_dandelion.zip",
+        "localizedCategory": {
+          "en": "BA20"
+        },
+        "images": [
+          "basic_dandelion_1.png",
+          "basic_dandelion_2.png",
+          "basic_dandelion_3.png"
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Fire",
+        "thumbnail": "basic_fire.jpg",
+        "zipPath": "basic_fire.zip",
+        "localizedCategory": {
+          "en": "BA21"
+        },
+        "images": [
+          "basic_fire_1.png"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Snow",
+        "thumbnail": "basic_snow.jpg",
+        "zipPath": "basic_snow.zip",
+        "localizedCategory": {
+          "en": "BA22"
+        },
+        "images": [
+          "basic_snow_1.png",
+          "basic_snow_2.png",
+          "basic_snow_3.png",
+          "basic_snow_4.png"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Flame",
+        "thumbnail": "basic_flame.jpg",
+        "zipPath": "basic_flame.zip",
+        "localizedCategory": {
+          "en": "BA23"
+        },
+        "images": [
+          "basic_flame_1.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 14,
+        "name": "Electricity",
+        "thumbnail": "basic_electricity.jpg",
+        "zipPath": "basic_electricity.zip",
+        "localizedCategory": {
+          "en": "BA24"
+        },
+        "images": [
+          "basic_electricity_1.png",
+          "basic_electricity_2.png",
+          "basic_electricity_3.png",
+          "basic_electricity_4.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 12,
+        "name": "Bullet",
+        "thumbnail": "basic_bullet.jpg",
+        "zipPath": "basic_bullet.zip",
+        "localizedCategory": {
+          "en": "BA25"
+        },
+        "images": [
+          "basic_bullet_1.png",
+          "basic_bullet_2.png",
+          "basic_bullet_3.png",
+          "basic_bullet_4.png",
+          "basic_bullet_5.png"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Sweet",
+    "localizedCategory": {
+      "ja": "甘い",
+      "ms": "Manis",
+      "zh": "可爱",
+      "zh-Hant": "可愛",
+      "ru": "Милый",
+      "es": "Lindo",
+      "in": "Imut"
+    },
+    "brushes": [
+      {
+        "id": 58,
+        "name": "starbokeh",
+        "thumbnail": "starbokeh.jpg",
+        "zipPath": "starbokeh.zip",
+        "localizedCategory": {
+          "en": "SW1"
+        },
+        "images": [
+          "starbokeh_1.png",
+          "starbokeh_2.png",
+          "starbokeh_3.png",
+          "starbokeh_4.png",
+          "starbokeh_5.png",
+          "starbokeh_6.png"
+        ]
+      },
+      {
+        "id": 49,
+        "name": "heart gun",
+        "thumbnail": "heart gun.jpg",
+        "zipPath": "heart gun.zip",
+        "localizedCategory": {
+          "en": "SW2"
+        },
+        "images": [
+          "heart gun_1.png",
+          "heart gun_2.png",
+          "heart gun_3.png",
+          "heart gun_4.png",
+          "heart gun_5.png",
+          "heart gun_6.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 45,
+        "name": "bokeh",
+        "thumbnail": "bokeh.jpg",
+        "zipPath": "bokeh.zip",
+        "localizedCategory": {
+          "en": "SW3"
+        },
+        "images": [
+          "bokeh_1.png",
+          "bokeh_2.png",
+          "bokeh_3.png",
+          "bokeh_4.png",
+          "bokeh_5.png",
+          "bokeh_6.png"
+        ]
+      },
+      {
+        "id": 48,
+        "name": "heart bokeh",
+        "thumbnail": "heart bokeh.jpg",
+        "zipPath": "heart bokeh.zip",
+        "localizedCategory": {
+          "en": "SW4"
+        },
+        "images": [
+          "heart bokeh_1.png",
+          "heart bokeh_2.png",
+          "heart bokeh_3.png",
+          "heart bokeh_4.png",
+          "heart bokeh_5.png"
+        ]
+      },
+      {
+        "id": 52,
+        "name": "rainbow heart",
+        "thumbnail": "rainbow heart.jpg",
+        "zipPath": "rainbow heart.zip",
+        "localizedCategory": {
+          "en": "SW5"
+        },
+        "images": [
+          "rainbow heart_1.png",
+          "rainbow heart_2.png",
+          "rainbow heart_3.png",
+          "rainbow heart_4.png",
+          "rainbow heart_5.png",
+          "rainbow heart_6.png"
+        ]
+      },
+      {
+        "id": 47,
+        "name": "flower",
+        "thumbnail": "flower.jpg",
+        "zipPath": "flower.zip",
+        "localizedCategory": {
+          "en": "SW6"
+        },
+        "images": [
+          "flower_1.png",
+          "flower_2.png",
+          "flower_3.png",
+          "flower_4.png",
+          "flower_5.png",
+          "flower_6.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 46,
+        "name": "flower bokeh",
+        "thumbnail": "flower bokeh.jpg",
+        "zipPath": "flower bokeh.zip",
+        "localizedCategory": {
+          "en": "SW7"
+        },
+        "images": [
+          "flower bokeh_1.png",
+          "flower bokeh_2.png",
+          "flower bokeh_3.png",
+          "flower bokeh_4.png",
+          "flower bokeh_5.png"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Animal",
+    "localizedCategory": {
+      "ja": "動物",
+      "ms": "Haiwan",
+      "zh": "动物",
+      "zh-Hant": "動物",
+      "ru": "животное",
+      "es": "Animal",
+      "in": "Satwa"
+    },
+    "brushes": [
+      {
+        "id": 62,
+        "name": "butterfly2",
+        "thumbnail": "butterfly2.jpg",
+        "zipPath": "butterfly2.zip",
+        "localizedCategory": {
+          "en": "AN1"
+        },
+        "images": [
+          "butterfly2_1.png",
+          "butterfly2_2.png",
+          "butterfly2_3.png",
+          "butterfly2_4.png",
+          "butterfly2_5.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 65,
+        "name": "dolphin",
+        "thumbnail": "dolphin.jpg",
+        "zipPath": "dolphin.zip",
+        "localizedCategory": {
+          "en": "AN2"
+        },
+        "images": [
+          "dolphin_1.png",
+          "dolphin_2.png",
+          "dolphin_3.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 63,
+        "name": "butterfly3",
+        "thumbnail": "butterfly3.jpg",
+        "zipPath": "butterfly3.zip",
+        "localizedCategory": {
+          "en": "AN3"
+        },
+        "images": [
+          "butterfly3_1.png",
+          "butterfly3_2.png",
+          "butterfly3_3.png",
+          "butterfly3_4.png",
+          "butterfly3_5.png"
+        ]
+      },
+      {
+        "id": 66,
+        "name": "dolphin2",
+        "thumbnail": "dolphin2.jpg",
+        "zipPath": "dolphin2.zip",
+        "localizedCategory": {
+          "en": "AN4"
+        },
+        "images": [
+          "dolphin2_1.png",
+          "dolphin2_2.png",
+          "dolphin2_3.png"
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Cat",
+        "thumbnail": "magic_cat.jpg",
+        "zipPath": "magic_cat.zip",
+        "localizedCategory": {
+          "en": "AN5"
+        },
+        "images": [
+          "magic_cat_1.png",
+          "magic_cat_2.png",
+          "magic_cat_3.png",
+          "magic_cat_4.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 64,
+        "name": "butterfly4",
+        "thumbnail": "butterfly4.jpg",
+        "zipPath": "butterfly4.zip",
+        "localizedCategory": {
+          "en": "AN6"
+        },
+        "images": [
+          "butterfly4_1.png",
+          "butterfly4_2.png",
+          "butterfly4_3.png",
+          "butterfly4_4.png",
+          "butterfly4_5.png"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Butterfly",
+        "thumbnail": "basic_butterfly.jpg",
+        "zipPath": "basic_butterfly.zip",
+        "localizedCategory": {
+          "en": "AN7"
+        },
+        "images": [
+          "basic_butterfly_1.png",
+          "basic_butterfly_2.png",
+          "basic_butterfly_3.png",
+          "basic_butterfly_4.png",
+          "basic_butterfly_5.png"
+        ],
+        "state": 1
+      }
+    ]
+  },
+  {
+    "category": "Magic",
+    "localizedCategory": {
+      "ja": "魔法",
+      "ms": "Magic",
+      "zh": "魔法",
+      "zh-Hant": "魔法",
+      "ru": "магия",
+      "es": "magia",
+      "in": "Sihir"
+    },
+    "brushes": [
+      {
+        "id": 74,
+        "name": "Vaporwave",
+        "thumbnail": "Vaporwave.jpg",
+        "zipPath": "Vaporwave.zip",
+        "localizedCategory": {
+          "en": "MA1"
+        },
+        "images": [
+          "vaporwave_1.png",
+          "vaporwave_2.png",
+          "vaporwave_3.png",
+          "vaporwave_4.png",
+          "vaporwave_5.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 57,
+        "name": "sparkle bokeh",
+        "thumbnail": "sparkle bokeh.jpg",
+        "zipPath": "sparkle bokeh.zip",
+        "localizedCategory": {
+          "en": "MA2"
+        },
+        "images": [
+          "sparkle bokeh_1.png",
+          "sparkle bokeh_2.png",
+          "sparkle bokeh_3.png",
+          "sparkle bokeh_4.png",
+          "sparkle bokeh_5.png",
+          "sparkle bokeh_6.png"
+        ]
+      },
+      {
+        "id": 51,
+        "name": "planet",
+        "thumbnail": "planet.jpg",
+        "zipPath": "planet.zip",
+        "localizedCategory": {
+          "en": "MA3"
+        },
+        "images": [
+          "planet_1.png",
+          "planet_2.png",
+          "planet_3.png",
+          "planet_4.png",
+          "planet_5.png",
+          "planet_6.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 53,
+        "name": "smoke1",
+        "thumbnail": "smoke1.jpg",
+        "zipPath": "smoke1.zip",
+        "localizedCategory": {
+          "en": "MA4"
+        },
+        "images": [
+          "smoke1_1.png",
+          "smoke1_2.png",
+          "smoke1_3.png",
+          "smoke1_4.png",
+          "smoke1_5.png",
+          "smoke1_6.png"
+        ]
+      },
+      {
+        "id": 54,
+        "name": "smoke2",
+        "thumbnail": "smoke2.jpg",
+        "zipPath": "smoke2.zip",
+        "localizedCategory": {
+          "en": "MA5"
+        },
+        "images": [
+          "smoke2_1.png",
+          "smoke2_2.png",
+          "smoke2_3.png",
+          "smoke2_4.png",
+          "smoke2_5.png"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Star",
+        "thumbnail": "magic_star.jpg",
+        "zipPath": "magic_star.zip",
+        "localizedCategory": {
+          "en": "MA6"
+        },
+        "images": [
+          "magic_star_1.png"
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Heart",
+        "thumbnail": "magic_heart.jpg",
+        "zipPath": "magic_heart.zip",
+        "localizedCategory": {
+          "en": "MA7"
+        },
+        "images": [
+          "magic_heart_1.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 25,
+        "name": "Dollar",
+        "thumbnail": "magic_dollar.jpg",
+        "zipPath": "magic_dollar.zip",
+        "localizedCategory": {
+          "en": "MA8"
+        },
+        "images": [
+          "magic_dollar_1.png",
+          "magic_dollar_2.png",
+          "magic_dollar_3.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 26,
+        "name": "Fruit",
+        "thumbnail": "magic_fruit.jpg",
+        "zipPath": "magic_fruit.zip",
+        "localizedCategory": {
+          "en": "MA9"
+        },
+        "images": [
+          "magic_fruit_1.png",
+          "magic_fruit_2.png",
+          "magic_fruit_3.png",
+          "magic_fruit_4.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 27,
+        "name": "Sketch",
+        "thumbnail": "magic_sketch.jpg",
+        "zipPath": "magic_sketch.zip",
+        "localizedCategory": {
+          "en": "MA10"
+        },
+        "images": [
+          "magic_sketch_1.png",
+          "magic_sketch_2.png",
+          "magic_sketch_3.png",
+          "magic_sketch_4.png",
+          "magic_sketch_5.png"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Kiss",
+        "thumbnail": "magic_kiss.jpg",
+        "zipPath": "magic_kiss.zip",
+        "localizedCategory": {
+          "en": "MA11"
+        },
+        "images": [
+          "magic_kiss_1.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 30,
+        "name": "Balloon",
+        "thumbnail": "magic_balloon.jpg",
+        "zipPath": "magic_balloon.zip",
+        "localizedCategory": {
+          "en": "MA12"
+        },
+        "images": [
+          "magic_balloon_1.png",
+          "magic_balloon_2.png",
+          "magic_balloon_3.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 20,
+        "name": "Footprint",
+        "thumbnail": "magic_footprint.jpg",
+        "zipPath": "magic_footprint.zip",
+        "localizedCategory": {
+          "en": "MA13"
+        },
+        "images": [
+          "magic_footprint_1.png"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Note",
+        "thumbnail": "magic_note.jpg",
+        "zipPath": "magic_note.zip",
+        "localizedCategory": {
+          "en": "MA14"
+        },
+        "images": [
+          "magic_note_1.png",
+          "magic_note_2.png",
+          "magic_note_3.png"
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Glitter",
+        "thumbnail": "magic_glitter.jpg",
+        "zipPath": "magic_glitter.zip",
+        "localizedCategory": {
+          "en": "MA15"
+        },
+        "images": [
+          "magic_glitter_1.png",
+          "magic_glitter_2.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 17,
+        "name": "Nugget",
+        "thumbnail": "magic_nugget.jpg",
+        "zipPath": "magic_nugget.zip",
+        "localizedCategory": {
+          "en": "MA16"
+        },
+        "images": [
+          "magic_nugget_1.png",
+          "magic_nugget_2.png",
+          "magic_nugget_3.png"
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Line",
+        "thumbnail": "magic_line.jpg",
+        "zipPath": "magic_line.zip",
+        "localizedCategory": {
+          "en": "MA17"
+        },
+        "images": [
+          "magic_line_1.png",
+          "magic_line_2.png",
+          "magic_line_3.png"
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Wine",
+        "thumbnail": "magic_wine.jpg",
+        "zipPath": "magic_wine.zip",
+        "localizedCategory": {
+          "en": "MA18"
+        },
+        "images": [
+          "magic_wine_1.png",
+          "magic_wine_2.png",
+          "magic_wine_3.png",
+          "magic_wine_4.png"
+        ]
+      },
+      {
+        "id": 29,
+        "name": "Expression",
+        "thumbnail": "magic_expression.jpg",
+        "zipPath": "magic_expression.zip",
+        "localizedCategory": {
+          "en": "MA19"
+        },
+        "images": [
+          "magic_expression_1.png",
+          "magic_expression_2.png",
+          "magic_expression_3.png",
+          "magic_expression_4.png",
+          "magic_expression_5.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 19,
+        "name": "Petal",
+        "thumbnail": "magic_petal.jpg",
+        "zipPath": "magic_petal.zip",
+        "localizedCategory": {
+          "en": "MA20"
+        },
+        "images": [
+          "magic_petal_1.png",
+          "magic_petal_2.png",
+          "magic_petal_3.png"
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Circle",
+        "thumbnail": "magic_circle.jpg",
+        "zipPath": "magic_circle.zip",
+        "localizedCategory": {
+          "en": "MA21"
+        },
+        "images": [
+          "magic_circle_1.png",
+          "magic_circle_2.png",
+          "magic_circle_3.png",
+          "magic_circle_4.png",
+          "magic_circle_5.png",
+          "magic_circle_6.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 32,
+        "name": "Splash",
+        "thumbnail": "magic_splash.jpg",
+        "zipPath": "magic_splash.zip",
+        "localizedCategory": {
+          "en": "MA22"
+        },
+        "images": [
+          "magic_splash_1.png",
+          "magic_splash_2.png",
+          "magic_splash_3.png",
+          "magic_splash_4.png",
+          "magic_splash_5.png"
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Yellow",
+        "thumbnail": "magic_yellow.jpg",
+        "zipPath": "magic_yellow.zip",
+        "localizedCategory": {
+          "en": "MA23"
+        },
+        "images": [
+          "magic_yellow_1.png",
+          "magic_yellow_2.png",
+          "magic_yellow_3.png",
+          "magic_yellow_4.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 35,
+        "name": "Candy",
+        "thumbnail": "magic_candy.jpg",
+        "zipPath": "magic_candy.zip",
+        "localizedCategory": {
+          "en": "MA24"
+        },
+        "images": [
+          "magic_candy_1.png",
+          "magic_candy_2.png",
+          "magic_candy_3.png",
+          "magic_candy_4.png",
+          "magic_candy_5.png"
+        ],
+        "state": 1
+      }
+    ]
+  },
+  {
+    "category": "Poetic",
+    "localizedCategory": {
+      "ja": "詩的",
+      "ms": "Puisi",
+      "zh": "诗意",
+      "zh-Hant": "詩意",
+      "ru": "поэзия",
+      "es": "Poético",
+      "in": "Puitis"
+    },
+    "brushes": [
+      {
+        "id": 59,
+        "name": "Aesthetic Flower",
+        "thumbnail": "Aesthetic Flower .jpg",
+        "zipPath": "aesthetic_flower.zip",
+        "localizedCategory": {
+          "en": "PO1"
+        },
+        "images": [
+          "aesthetic_flower_11.png",
+          "aesthetic_flower_12.png",
+          "aesthetic_flower_13.png",
+          "aesthetic_flower_14.png"
+        ]
+      },
+      {
+        "id": 73,
+        "name": "rose",
+        "thumbnail": "rose.jpg",
+        "zipPath": "rose.zip",
+        "localizedCategory": {
+          "en": "PO2"
+        },
+        "images": [
+          "rose_1.png",
+          "rose_2.png",
+          "rose_3.png",
+          "rose_4.png"
+        ]
+      },
+      {
+        "id": 61,
+        "name": "blossom",
+        "thumbnail": "blossom.jpg",
+        "zipPath": "blossom.zip",
+        "localizedCategory": {
+          "en": "PO3"
+        },
+        "images": [
+          "blossom_1.png",
+          "blossom_2.png",
+          "blossom_3.png",
+          "blossom_4.png",
+          "blossom_5.png"
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Bird",
+        "thumbnail": "brush_s_2.png",
+        "zipPath": "poetic_bird.zip",
+        "localizedCategory": {
+          "en": "PO4"
+        },
+        "images": [
+          "poetic_bird_1.png",
+          "poetic_bird_2.png",
+          "poetic_bird_3.png",
+          "poetic_bird_4.png",
+          "poetic_bird_5.png",
+          "poetic_bird_6.png"
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Autumn",
+        "thumbnail": "brush_s_1.png",
+        "zipPath": "poetic_autumn.zip",
+        "localizedCategory": {
+          "en": "PO5"
+        },
+        "images": [
+          "poetic_autumn_1.png",
+          "poetic_autumn_2.png",
+          "poetic_autumn_3.png",
+          "poetic_autumn_4.png",
+          "poetic_autumn_5.png",
+          "poetic_autumn_6.png"
+        ]
+      },
+      {
+        "id": 43,
+        "name": "Glitch",
+        "thumbnail": "brush_s_7.png",
+        "zipPath": "poetic_glitch.zip",
+        "localizedCategory": {
+          "en": "PO6"
+        },
+        "images": [
+          "poetic_glitch_1.png",
+          "poetic_glitch_2.png",
+          "poetic_glitch_3.png",
+          "poetic_glitch_4.png",
+          "poetic_glitch_5.png"
+        ],
+        "isUpright": true
+      },
+      {
+        "id": 41,
+        "name": "Kirakira",
+        "thumbnail": "brush_s_8.png",
+        "zipPath": "poetic_kirakira.zip",
+        "localizedCategory": {
+          "en": "PO7"
+        },
+        "images": [
+          "poetic_kirakira_1.png",
+          "poetic_kirakira_2.png",
+          "poetic_kirakira_3.png",
+          "poetic_kirakira_4.png",
+          "poetic_kirakira_5.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 39,
+        "name": "Ribbon",
+        "thumbnail": "brush_s_10.png",
+        "zipPath": "poetic_ribbon.zip",
+        "localizedCategory": {
+          "en": "PO8"
+        },
+        "images": [
+          "poetic_ribbon_1.png",
+          "poetic_ribbon_2.png",
+          "poetic_ribbon_3.png",
+          "poetic_ribbon_4.png",
+          "poetic_ribbon_5.png"
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Feather",
+        "thumbnail": "brush_s_5.png",
+        "zipPath": "poetic_feather.zip",
+        "localizedCategory": {
+          "en": "PO9"
+        },
+        "images": [
+          "poetic_feather_1.png",
+          "poetic_feather_2.png",
+          "poetic_feather_3.png",
+          "poetic_feather_4.png",
+          "poetic_feather_5.png",
+          "poetic_feather_6.png"
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Doodle",
+        "thumbnail": "brush_s_4.png",
+        "zipPath": "poetic_doodle.zip",
+        "localizedCategory": {
+          "en": "PO10"
+        },
+        "images": [
+          "poetic_doodle_1.png",
+          "poetic_doodle_2.png",
+          "poetic_doodle_3.png",
+          "poetic_doodle_4.png",
+          "poetic_doodle_5.png",
+          "poetic_doodle_6.png"
+        ],
+        "state": 1
+      },
+      {
+        "id": 42,
+        "name": "Chalk",
+        "thumbnail": "brush_s_3.png",
+        "zipPath": "poetic_chalk.zip",
+        "localizedCategory": {
+          "en": "PO11"
+        },
+        "images": [
+          "poetic_chalk_1.png"
+        ]
+      },
+      {
+        "id": 44,
+        "name": "Foam",
+        "thumbnail": "brush_s_6.png",
+        "zipPath": "poetic_foam.zip",
+        "localizedCategory": {
+          "en": "PO12"
+        },
+        "images": [
+          "poetic_foam_1.png",
+          "poetic_foam_2.png",
+          "poetic_foam_3.png",
+          "poetic_foam_4.png",
+          "poetic_foam_5.png"
+        ]
+      }
+    ]
+  }
+]

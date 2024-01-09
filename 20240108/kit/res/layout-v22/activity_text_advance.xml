@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mainContainer" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topBar" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <lightcone.com.pack.view.AppUITextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Text" android:layout_centerInParent="true" />
+        <RelativeLayout android:id="@id/topModeBar" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <lightcone.com.pack.view.AppUITextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/tvMode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Color" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/ivBack" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/nav_back_white_def" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bottomBar" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="164.0dip" android:layout_alignParentBottom="true">
+        <View android:background="#ff191925" android:layout_width="fill_parent" android:layout_height="31.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/toolsMenu" android:background="#ff191925" android:layout_width="fill_parent" android:layout_height="31.0dip" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/btnFont" android:background="@drawable/text_bg_select" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/icon_text_font" android:layout_weight="1.0" />
+            <ImageView android:id="@id/btnColor" android:background="@drawable/text_bg_select" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/text_icon_color2" android:layout_weight="1.0" />
+            <ImageView android:id="@id/btnStroke" android:background="@drawable/text_bg_select" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/text_icon_stroke" android:layout_weight="1.0" />
+            <ImageView android:id="@id/btnShadow" android:background="@drawable/text_bg_select" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/text_icon_shadow" android:layout_weight="1.0" />
+            <ImageView android:id="@id/btnSpacing" android:background="@drawable/text_bg_select" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/text_icon_spacing" android:layout_weight="1.0" />
+            <ImageView android:id="@id/btnBackground" android:background="@drawable/text_bg_select" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/text_icon_background" android:layout_weight="1.0" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/modeContainer" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/toolsMenu">
+            <RelativeLayout android:id="@id/rlFont" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <RelativeLayout android:id="@id/rlSpacing" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="80.0dip" android:src="@drawable/text_icon_line" android:layout_marginStart="20.0dip" />
+                <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="50.0dip" android:src="@drawable/text_icon_space" android:layout_marginStart="20.0dip" />
+                <SeekBar android:id="@id/spacingCharacterSeekBar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:maxHeight="5.0dip" android:max="150" android:progress="50" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="5.0dip" android:thumb="@drawable/thickness_adjust_circle" android:layout_marginStart="40.0dip" android:layout_marginEnd="20.0dip" android:splitTrack="false" />
+                <SeekBar android:id="@id/spacingLineSeekBar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" android:maxHeight="5.0dip" android:max="120" android:progress="40" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="5.0dip" android:thumb="@drawable/thickness_adjust_circle" android:layout_marginStart="40.0dip" android:layout_marginEnd="20.0dip" android:splitTrack="false" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rlStroke" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="50.0dip" android:src="@drawable/text_icon_size2" android:layout_marginStart="20.0dip" />
+                <SeekBar android:id="@id/strokeSeekBar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:maxHeight="5.0dip" android:max="72" android:progress="1" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="5.0dip" android:thumb="@drawable/thickness_adjust_circle" android:layout_marginStart="50.0dip" android:layout_marginEnd="20.0dip" android:splitTrack="false" />
+                <HorizontalScrollView android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="75.0dip">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip">
+                        <ImageView android:id="@id/ivStrokePicker" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/icon_color_doodle_s" android:scaleType="center" />
+                        <ImageView android:id="@id/ivStrokePanel" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/icon_colorwheel" android:scaleType="center" />
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/llStrokeLeftColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" />
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/llStrokeRightColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_marginEnd="10.0dip" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rlShadow" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="31.0dip" android:layout_marginStart="88.0dip" android:layout_marginEnd="88.0dip">
+                    <TextView android:textSize="13.0sp" android:textColor="@drawable/btn_text_color" android:gravity="center" android:id="@id/tvShadowShape" android:background="@drawable/btn_text_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/shadow_shape" android:layout_weight="1.0" />
+                    <TextView android:textSize="13.0sp" android:textColor="@drawable/btn_text_color" android:gravity="center" android:id="@id/tvShadowColor" android:background="@drawable/btn_text_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/Color" android:layout_weight="1.0" />
+                </LinearLayout>
+                <RelativeLayout android:id="@id/rlShadowSubContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="31.0dip" android:layout_marginBottom="0.0dip">
+                    <RelativeLayout android:id="@id/rlShadowShape" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <View android:id="@id/shadowCenterLine" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+                        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/text_icon_size2" android:layout_marginStart="20.0dip" />
+                        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="56.0dip" android:src="@drawable/text_icon_angle" android:layout_marginStart="20.0dip" />
+                        <ImageView android:layout_width="18.0sp" android:layout_height="18.0sp" android:layout_marginTop="20.0dip" android:src="@drawable/text_icon_blur" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/shadowCenterLine" />
+                        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="56.0dip" android:src="@drawable/eraser_icon_opacity" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/shadowCenterLine" />
+                        <SeekBar android:id="@id/shadowSizeSeekBar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:maxHeight="5.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="5.0dip" android:thumb="@drawable/thickness_adjust_circle" android:layout_marginStart="40.0dip" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/shadowCenterLine" android:splitTrack="false" />
+                        <SeekBar android:id="@id/shadowAngleSeekBar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="58.0dip" android:maxHeight="5.0dip" android:max="360" android:progress="0" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="5.0dip" android:thumb="@drawable/thickness_adjust_circle" android:layout_marginStart="40.0dip" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/shadowCenterLine" android:splitTrack="false" />
+                        <SeekBar android:id="@id/shadowBlurSeekBar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:maxHeight="5.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="5.0dip" android:thumb="@drawable/thickness_adjust_circle" android:layout_marginStart="30.0dip" android:layout_marginEnd="10.0dip" android:layout_toEndOf="@id/shadowCenterLine" android:splitTrack="false" />
+                        <SeekBar android:id="@id/shadowOpacitySeekBar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="58.0dip" android:maxHeight="5.0dip" android:max="255" android:progress="127" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="5.0dip" android:thumb="@drawable/thickness_adjust_circle" android:layout_marginStart="30.0dip" android:layout_marginEnd="10.0dip" android:layout_toEndOf="@id/shadowCenterLine" android:splitTrack="false" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/rlShadowColor" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <HorizontalScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip">
+                                <ImageView android:id="@id/ivShadowPicker" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/icon_color_doodle_s" android:scaleType="center" />
+                                <ImageView android:id="@id/ivShadowPanel" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/icon_colorwheel" android:scaleType="center" />
+                                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/llShadowLeftColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" />
+                                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/llShadowRightColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_marginEnd="10.0dip" />
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rlColor" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="31.0dip" android:layout_marginStart="88.0dip" android:layout_marginEnd="88.0dip">
+                    <TextView android:textSize="12.0sp" android:textColor="@drawable/btn_text_color" android:gravity="center" android:id="@id/tvColorColor" android:background="@drawable/btn_text_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/Color" android:layout_weight="1.0" />
+                    <TextView android:textSize="12.0sp" android:textColor="@drawable/btn_text_color" android:gravity="center" android:id="@id/tvColorGradient" android:background="@drawable/btn_text_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/Gradient" android:layout_weight="1.0" />
+                    <TextView android:textSize="12.0sp" android:textColor="@drawable/btn_text_color" android:gravity="center" android:id="@id/tvColorTexture" android:background="@drawable/btn_text_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/Texture" android:layout_weight="1.0" />
+                </LinearLayout>
+                <RelativeLayout android:id="@id/rlColorSubContainer" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="75.0dip" android:layout_marginBottom="0.0dip">
+                    <RelativeLayout android:id="@id/rlColorColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip">
+                                <ImageView android:id="@id/ivColorPicker" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/icon_color_doodle_s" android:scaleType="center" />
+                                <ImageView android:id="@id/ivColorPanel" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/icon_colorwheel" android:scaleType="center" />
+                                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/llLeftColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" />
+                                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/llRightColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_marginEnd="10.0dip" />
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/rlColorGradient" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvGradient" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/rlColorTexture" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvTexture" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="46.0dip" android:src="@drawable/tools_icon_opacity" android:layout_marginStart="20.0dip" />
+                <SeekBar android:id="@id/colorOpacitySeekBar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:maxHeight="5.0dip" android:max="255" android:progress="255" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="5.0dip" android:thumb="@drawable/thickness_adjust_circle" android:layout_marginStart="50.0dip" android:layout_marginEnd="20.0dip" android:splitTrack="false" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rlBackground" android:background="#ff000000" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_width="18.0sp" android:layout_height="18.0sp" android:layout_marginTop="50.0dip" android:src="@drawable/tools_icon_opacity" android:layout_marginStart="20.0dip" />
+                <SeekBar android:id="@id/backgroundSeekBar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:maxHeight="5.0dip" android:max="255" android:progress="255" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="5.0dip" android:thumb="@drawable/thickness_adjust_circle" android:layout_marginStart="50.0dip" android:layout_marginEnd="20.0dip" android:splitTrack="false" />
+                <HorizontalScrollView android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="75.0dip">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip">
+                        <ImageView android:id="@id/ivBackgroundAlpha" android:background="@drawable/selector_icon_color_select" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/icon_circle_grid" android:scaleType="center" />
+                        <ImageView android:id="@id/ivBackgroundPicker" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/icon_color_doodle_s" android:scaleType="center" />
+                        <ImageView android:id="@id/ivBackgroundPanel" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/icon_colorwheel" android:scaleType="center" />
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/llBackgroundLeftColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" />
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/llBackgroundRightColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_marginEnd="10.0dip" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rlRotate" android:background="#ff000000" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/rlRotateMenu" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <RelativeLayout android:id="@id/rlRotateMenu1" android:background="@drawable/border_text_rotate" android:layout_width="48.0dip" android:layout_height="48.0dip">
+                        <ImageView android:id="@id/ivRotate1" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/rotate_img1" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/rlRotateMenu2" android:background="@drawable/border_text_rotate" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+                        <ImageView android:id="@id/ivRotate2" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/rotate_img2" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/rlRotateMenu3" android:background="@drawable/border_text_rotate" android:layout_width="48.0dip" android:layout_height="48.0dip">
+                        <ImageView android:id="@id/ivRotate3" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/rotate_img3" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <RelativeLayout android:id="@id/rlRotateSubContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="0.0dip" android:layout_below="@id/rlRotateMenu">
+                    <lightcone.com.pack.view.NumberSeekBar android:id="@id/rotateSeekBar1" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-12.0dip" android:maxHeight="5.0dip" android:max="100" android:progress="50" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="5.0dip" android:thumb="@drawable/thickness_adjust_circle" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" android:splitTrack="false" />
+                    <lightcone.com.pack.view.NumberSeekBar android:id="@id/rotateSeekBar2" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-12.0dip" android:maxHeight="5.0dip" android:max="100" android:progress="50" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="5.0dip" android:thumb="@drawable/thickness_adjust_circle" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" android:splitTrack="false" />
+                    <lightcone.com.pack.view.NumberSeekBar android:id="@id/rotateSeekBar3" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-12.0dip" android:maxHeight="5.0dip" android:max="360" android:progress="180" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="5.0dip" android:thumb="@drawable/thickness_adjust_circle" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" android:splitTrack="false" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlMenu" android:layout_width="fill_parent" android:layout_height="31.0dip">
+            <ImageView android:id="@id/ivDone" android:layout_width="44.0dip" android:layout_height="fill_parent" android:src="@drawable/nav_done_def" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            <RelativeLayout android:id="@id/doContainer" android:layout_width="88.0dip" android:layout_height="31.0dip">
+                <ImageView android:id="@id/ivUndo" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="31.0dip" android:src="@drawable/selector_btn_edit_backward" android:scaleType="center" android:layout_alignParentBottom="true" />
+                <ImageView android:id="@id/ivRedo" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="31.0dip" android:src="@drawable/selector_btn_edit_forward" android:scaleType="center" android:layout_alignParentBottom="true" android:layout_toEndOf="@id/ivUndo" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlPickerHint" android:background="#ff000000" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvMovePickHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Move_pick_color" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/ivMovePickColor" android:background="#ffff0000" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/tvMovePickHint" />
+            <ImageView android:id="@id/ivMovePickBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottom_btn_cancel" android:layout_alignParentBottom="true" />
+            <ImageView android:id="@id/ivMovePickDone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottom_btn_done" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottomBar" android:layout_below="@id/topBar">
+        <RelativeLayout android:id="@id/container" android:background="@drawable/image_grid_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <ImageView android:id="@id/ivImage" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/tabContent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <lightcone.com.pack.view.TouchPointView android:id="@id/touchPointView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/llTextPanel" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="31.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <ImageView android:id="@id/ivExpand" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/selector_btn_updown" android:scaleType="fitEnd" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="31.0dip">
+            <ImageView android:id="@id/ivUndoPop" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="31.0dip" android:src="@drawable/selector_btn_edit_backward" android:scaleType="center" android:layout_alignParentBottom="true" />
+            <ImageView android:id="@id/ivRedoPop" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="31.0dip" android:src="@drawable/selector_btn_edit_forward" android:scaleType="center" android:layout_alignParentBottom="true" android:layout_toEndOf="@id/ivUndoPop" />
+            <ImageView android:id="@id/ivDonePop" android:layout_width="44.0dip" android:layout_height="fill_parent" android:src="@drawable/nav_done_def" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/rlFontMenu" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="88.0dip" android:layout_marginEnd="88.0dip">
+                <TextView android:textSize="12.0sp" android:textColor="@drawable/btn_text_color" android:gravity="center" android:id="@id/tvFontBasic" android:background="@drawable/btn_text_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/Basic" android:layout_weight="1.0" />
+                <TextView android:textSize="12.0sp" android:textColor="@drawable/btn_text_color" android:gravity="center" android:id="@id/tvFontArt" android:background="@drawable/btn_text_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/Word_Art" android:layout_weight="1.0" />
+                <TextView android:textSize="12.0sp" android:textColor="@drawable/btn_text_color" android:gravity="center" android:id="@id/tvFontLocal" android:background="@drawable/btn_text_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/Local" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:id="@id/ivLocalNew" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tag_new" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rvTextContainer" android:background="#ff010013" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="206.0dip">
+            <RelativeLayout android:id="@id/rlFontSubBasic" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.recyclerview.widget.RecyclerView android:scrollbarSize="4.0dip" android:scrollbarThumbVertical="@color/scrollbarColor" android:scrollbarStyle="outsideInset" android:id="@id/rvFont" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rlFontSubWordArt" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.recyclerview.widget.RecyclerView android:scrollbarSize="4.0dip" android:scrollbarThumbVertical="@color/scrollbarColor" android:scrollbarStyle="outsideInset" android:id="@id/rvFontArt" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rlFontSubLocal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/rlFontSubLocal1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <androidx.recyclerview.widget.RecyclerView android:scrollbarSize="4.0dip" android:scrollbarThumbVertical="@color/scrollbarColor" android:scrollbarStyle="outsideInset" android:id="@id/rvFontLocal" android:paddingBottom="44.0dip" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+                    <RelativeLayout android:id="@id/rlFontHelp1" android:background="#ff2a2939" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true" android:paddingVertical="5.0dip">
+                        <TextView android:textSize="11.0dip" android:textColor="#ff9f9f9f" android:gravity="center" android:id="@id/tvImportFont1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/font_due_to_android_latest_policy" android:layout_centerInParent="true" />
+                        <ImageView android:id="@id/ivFontHelp1" android:visibility="gone" android:layout_width="44.0dip" android:layout_height="wrap_content" android:src="@drawable/icon_help_s" android:scaleType="center" android:layout_centerVertical="true" android:layout_toStartOf="@id/tvImportFont1" />
+                    </RelativeLayout>
+                    <ImageView android:id="@id/ivImportFont1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:src="@drawable/home_bottom_btn_add" android:layout_alignParentBottom="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center_vertical" android:id="@id/rlFontSubLocal2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/ivImportFont2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/home_bottom_btn_add" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvImportFont2" android:background="@drawable/border_import_font" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginTop="17.0dip" android:text="@string/Import_Your_Fonts" android:layout_below="@id/ivImportFont2" android:layout_centerHorizontal="true" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+                    <ImageView android:id="@id/ivFontHelp2" android:visibility="gone" android:layout_width="44.0dip" android:layout_height="wrap_content" android:src="@drawable/icon_help_s" android:scaleType="center" android:layout_alignTop="@id/tvImportFont2" android:layout_alignBottom="@id/tvImportFont2" android:layout_toEndOf="@id/tvImportFont2" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/adjustHint" android:background="#99000000" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="44.0dip" android:layout_marginBottom="180.0dip" android:text="@string/Size" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+    <RelativeLayout android:id="@id/rlShadowAutoHint" android:visibility="invisible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="120.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14.0sp" android:textColor="#ff5062fb" android:gravity="center" android:id="@id/tvShadowAutoHint" android:background="@drawable/pop_cutout_bg" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/Drag_here_to_adjust_the_shadow_size" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:src="@drawable/pop_cutout_angle" android:layout_below="@id/tvShadowAutoHint" android:layout_marginStart="40.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rlStrokeAutoHint" android:visibility="invisible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="120.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14.0sp" android:textColor="#ff5062fb" android:gravity="center" android:id="@id/tvStrokeAutoHint" android:background="@drawable/pop_cutout_bg" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/Drag_here_to_adjust_the_stroke_width" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:src="@drawable/pop_cutout_angle" android:layout_below="@id/tvStrokeAutoHint" android:layout_marginStart="40.0dip" />
+    </RelativeLayout>
+    <lightcone.com.pack.view.FixedTextView android:id="@id/fixedTextView" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/topBar" />
+    <FrameLayout android:id="@id/mapFrameLayout" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/fixedTextView">
+        <lightcone.com.pack.view.FixedStrokeTextView android:id="@id/mapStrokeTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <lightcone.com.pack.view.FixedTextView android:id="@id/mapTextView" android:layout_width="360.0dip" android:layout_height="100.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/mapSmallFrameLayout" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/fixedTextView">
+        <lightcone.com.pack.view.FixedStrokeTextView android:id="@id/mapSmallStrokeTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <lightcone.com.pack.view.FixedTextView android:id="@id/mapSmallTextView" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+    </FrameLayout>
+</RelativeLayout>

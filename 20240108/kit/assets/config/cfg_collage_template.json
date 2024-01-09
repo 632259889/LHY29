@@ -1,0 +1,50 @@
+{
+  "category": "Collage Template",
+  "height": 60,
+  "itemNames": [
+    "collage_1_01",
+    "collage_1_02",
+    "collage_1_03",
+    "collage_2_01",
+    "collage_2_02",
+    "collage_2_03",
+    "collage_2_04",
+    "collage_3_01",
+    "collage_3_02",
+    "collage_3_03",
+    "collage_3_04",
+    "collage_4_01",
+    "collage_4_02",
+    "collage_4_03",
+    "collage_4_04",
+    "collage_4_17",
+    "collage_5_01",
+    "collage_5_02",
+    "collage_6_01",
+    "collage_6_02",
+    "collage_7_01",
+    "collage_7_02",
+    "collage_8_01",
+    "collage_8_02",
+    "collage_9_01",
+    "collage_9_02",
+    "collage_9_03",
+    "collage_10_01",
+    "collage_10_02",
+    "collage_10_03"
+  ],
+  "localizedCategory": {
+    "ja": "コラージュテンプレート",
+    "ms": "Templat Kolaj",
+    "zh": "拼图模板",
+    "zh-Hant": "拼圖模板",
+    "ru": "Коллаж шаблоны",
+    "es": "Plantilla de collage",
+    "in": "Templat Kolase"
+  },
+  "localizedPriority": {
+    "en": 9999,
+    "zh": 9999
+  },
+  "width": 60
+}

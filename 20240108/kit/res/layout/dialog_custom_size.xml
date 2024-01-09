@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="#f0000000" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/btnCancel" android:background="@drawable/selector_nav_close_white" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_confirm" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/Custom_Size" android:layout_marginEnd="40.0dip" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <lightcone.com.pack.view.AppUITextView android:enabled="false" android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/btnOk" android:background="@drawable/selector_custom_btn_ok" android:layout_width="65.0dip" android:layout_height="90.0dip" android:layout_margin="15.0dip" android:text="@string/ok" android:layout_alignParentRight="true" />
+            <RelativeLayout android:background="@drawable/shape_gray" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_toLeftOf="@id/btnOk" android:layout_marginStart="15.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="#ff4e4e5b" android:gravity="center" android:id="@id/tvWidthTips" android:layout_width="90.0dip" android:layout_height="wrap_content" android:text="@string/Width_area" android:layout_centerVertical="true" android:textAllCaps="true" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/tvWidthPx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="px" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" />
+                <EditText android:textSize="22.0sp" android:textColor="#ffffffff" android:textColorHint="#ff999999" android:gravity="center_vertical" android:id="@id/editWidth" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="0" android:maxLines="1" android:maxLength="4" android:layout_toLeftOf="@id/tvWidthPx" android:layout_toRightOf="@id/tvWidthTips" android:inputType="number" android:imeOptions="actionDone" />
+            </RelativeLayout>
+            <RelativeLayout android:background="@drawable/shape_gray" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="70.0dip" android:layout_toLeftOf="@id/btnOk" android:layout_marginStart="15.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="#ff4e4e5b" android:gravity="center" android:id="@id/tvHeightTips" android:layout_width="90.0dip" android:layout_height="wrap_content" android:text="@string/Height_area" android:layout_centerVertical="true" android:textAllCaps="true" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/tvHeightPx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="px" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" />
+                <EditText android:textSize="22.0sp" android:textColor="#ffffffff" android:textColorHint="#ff999999" android:gravity="center_vertical" android:id="@id/editHeight" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="0" android:maxLines="1" android:maxLength="4" android:layout_toLeftOf="@id/tvHeightPx" android:layout_toRightOf="@id/tvHeightTips" android:inputType="number" android:imeOptions="actionDone" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

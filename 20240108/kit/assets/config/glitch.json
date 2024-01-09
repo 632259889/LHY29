@@ -1,0 +1,427 @@
+[
+  {
+    "category": "Featured",
+    "localizedCategory": {
+      "ja": "厳選",
+      "ms": "Disediakan",
+      "zh": "推荐",
+      "zh-Hant": "推薦",
+      "ru": "Лучший",
+      "es": "Mejor",
+      "in": "Unggul"
+    },
+    "effects": [
+      {
+        "id": 38,
+        "title": "RainDrops",
+        "name": "RainDropsOnWindow",
+        "thumbnail": "Raindrops.webp"
+      },
+      {
+        "id": 8,
+        "title": "Scanline",
+        "name": "LineGlitch",
+        "thumbnail": "Scanline.webp"
+      },
+      {
+        "id": 12,
+        "title": "Noise",
+        "name": "NoiseLine",
+        "thumbnail": "Noise.webp"
+      },
+      {
+        "id": 4,
+        "title": "Bluish",
+        "name": "Blushing",
+        "thumbnail": "Bluish.webp"
+      },
+      {
+        "id": 14,
+        "title": "Zoom",
+        "name": "Zoom",
+        "thumbnail": "Zoom.webp",
+        "state": 3
+      },
+      {
+        "id": 25,
+        "title": "RGB",
+        "name": "RGBGhost",
+        "thumbnail": "RGB.webp",
+        "state": 1
+      },
+      {
+        "id": 13,
+        "title": "Wobble",
+        "name": "Shadowing",
+        "timePercent": 0.75,
+        "thumbnail": "Wobble.webp"
+      },
+      {
+        "id": 15,
+        "title": "Echo",
+        "name": "Dizzy",
+        "timePercent": 0.75,
+        "thumbnail": "Echo.webp",
+        "state": 1
+      }
+    ]
+  },
+  {
+    "category": "Malfunction",
+    "localizedCategory": {
+      "ja": "故障",
+      "ms": "Malfunction",
+      "zh": "宕机",
+      "zh-Hant": "宕機",
+      "ru": "дисфункция",
+      "es": "Disfunción",
+      "in": "Malfungsi"
+    },
+    "effects": [
+      {
+        "id": 43,
+        "title": "Bad TV",
+        "name": "Bad TV",
+        "thumbnail": "Bad TV.webp"
+      },
+      {
+        "id": 44,
+        "title": "Blowout",
+        "name": "Blowout",
+        "thumbnail": "Blowout.webp"
+      },
+      {
+        "id": 45,
+        "title": "GB",
+        "name": "GB",
+        "thumbnail": "GB.webp"
+      },
+      {
+        "id": 46,
+        "title": "Expand",
+        "name": "Expand",
+        "thumbnail": "Expand.webp",
+        "state": 1
+      },
+      {
+        "id": 47,
+        "title": "Neon",
+        "name": "Neon",
+        "thumbnail": "Neon.webp"
+      },
+      {
+        "id": 48,
+        "title": "H-Extrude",
+        "name": "H-Extrude",
+        "timePercent": 0.25,
+        "thumbnail": "H-Extrude.webp"
+      },
+      {
+        "id": 49,
+        "title": "V-Extrude",
+        "name": "V-Extrude",
+        "timePercent": 0.25,
+        "thumbnail": "V-Extrude.webp"
+      },
+      {
+        "id": 42,
+        "title": "Droste",
+        "name": "Droste",
+        "thumbnail": "Droste.webp",
+        "state": 1
+      },
+      {
+        "id": 41,
+        "title": "Aberration",
+        "name": "Aberration",
+        "timePercent": 0.75,
+        "thumbnail": "Aberration.webp",
+        "state": 1
+      }
+    ]
+  },
+  {
+    "category": "Glitch",
+    "localizedCategory": {
+      "ja": "グリッチ",
+      "ms": "Glitch",
+      "zh": "故障",
+      "zh-Hant": "故障",
+      "ru": "Сбой",
+      "es": "Glitch",
+      "in": "Kesalahan"
+    },
+    "effects": [
+      {
+        "id": 8,
+        "title": "Scanline",
+        "name": "LineGlitch",
+        "thumbnail": "Scanline.webp"
+      },
+      {
+        "id": 1,
+        "title": "VHS",
+        "name": "VHS",
+        "thumbnail": "VHS.webp"
+      },
+      {
+        "id": 2,
+        "title": "Distort",
+        "name": "DistortedTV",
+        "thumbnail": "Distort.webp",
+        "state": 1
+      },
+      {
+        "id": 3,
+        "title": "Linear",
+        "name": "LineGlitch",
+        "thumbnail": "Linear.webp"
+      },
+      {
+        "id": 4,
+        "title": "Bluish",
+        "name": "Blushing",
+        "thumbnail": "Bluish.webp"
+      },
+      {
+        "id": 5,
+        "title": "Shake",
+        "name": "GlitchBurr",
+        "thumbnail": "Shake.webp"
+      },
+      {
+        "id": 37,
+        "title": "Phantom",
+        "name": "TVGlitch",
+        "thumbnail": "TVGlitch.webp",
+        "state": 1
+      },
+      {
+        "id": 7,
+        "title": "Flicker",
+        "name": "Dazzling",
+        "timePercent": 0.64,
+        "thumbnail": "Flicker.webp",
+        "state": 1
+      },
+      {
+        "id": 9,
+        "title": "Old TV",
+        "name": "Scanvibrate2",
+        "thumbnail": "Old TV.webp",
+        "state": 1
+      },
+      {
+        "id": 10,
+        "title": "Wavy",
+        "name": "WavyTwist",
+        "thumbnail": "Wavy.webp"
+      },
+      {
+        "id": 12,
+        "title": "Noise",
+        "name": "NoiseLine",
+        "thumbnail": "Noise.webp"
+      }
+    ]
+  },
+  {
+    "category": "Rhythm",
+    "localizedCategory": {
+      "ja": "リズム",
+      "ms": "Rhythm",
+      "zh": "节奏",
+      "zh-Hant": "節奏",
+      "ru": "Ритм",
+      "es": "Ritmo",
+      "in": "Irama"
+    },
+    "effects": [
+      {
+        "id": 13,
+        "title": "Wobble",
+        "name": "Shadowing",
+        "timePercent": 0.75,
+        "thumbnail": "Wobble.webp"
+      },
+      {
+        "id": 14,
+        "title": "Zoom",
+        "name": "Zoom",
+        "thumbnail": "Zoom.webp",
+        "state": 3
+      },
+      {
+        "id": 15,
+        "title": "Echo",
+        "name": "Dizzy",
+        "timePercent": 0.75,
+        "thumbnail": "Echo.webp",
+        "state": 1
+      },
+      {
+        "id": 16,
+        "title": "Color",
+        "name": "Notecolor",
+        "thumbnail": "Color.webp",
+        "state": 1
+      },
+      {
+        "id": 17,
+        "title": "Creepy",
+        "name": "Weird",
+        "thumbnail": "Creepy.webp"
+      },
+      {
+        "id": 18,
+        "title": "Edge",
+        "name": "Edge",
+        "thumbnail": "Edge.webp",
+        "isConstant": true
+      },
+      {
+        "id": 19,
+        "title": "BW",
+        "name": "Lighting",
+        "thumbnail": "BW.webp"
+      },
+      {
+        "id": 21,
+        "title": "X-ray",
+        "name": "Xray",
+        "thumbnail": "X-ray.webp",
+        "state": 1
+      }
+    ]
+  },
+  {
+    "category": "Psychedelic",
+    "localizedCategory": {
+      "ja": "サイケデリック",
+      "ms": "Psychedelic",
+      "zh": "迷幻",
+      "zh-Hant": "迷幻",
+      "ru": "яркий",
+      "es": "Psicodélico",
+      "in": "Psikedelik"
+    },
+    "effects": [
+      {
+        "id": 25,
+        "title": "RGB",
+        "name": "RGBGhost",
+        "timePercent": 0.75,
+        "thumbnail": "RGB.webp",
+        "state": 1
+      },
+      {
+        "id": 24,
+        "title": "Rainbow",
+        "name": "Rainbow1",
+        "thumbnail": "Rainbow.webp",
+        "state": 1
+      },
+      {
+        "id": 26,
+        "title": "Jitter",
+        "name": "Jitter",
+        "thumbnail": "Jitter.webp",
+        "state": 1
+      },
+      {
+        "id": 27,
+        "title": "Darken",
+        "name": "Coline",
+        "thumbnail": "Darken.webp"
+      },
+      {
+        "id": 28,
+        "title": "Hue",
+        "name": "Hue",
+        "thumbnail": "Hue.webp",
+        "state": 1
+      },
+      {
+        "id": 29,
+        "title": "Ghost",
+        "name": "BGhost",
+        "thumbnail": "Ghost.webp"
+      },
+      {
+        "id": 30,
+        "title": "Duo Tone",
+        "name": "DuoTone",
+        "thumbnail": "Duo Tone.webp",
+        "state": 1
+      }
+    ]
+  },
+  {
+    "category": "Art",
+    "localizedCategory": {
+      "ja": "アート",
+      "ms": "Seni",
+      "zh": "艺术",
+      "zh-Hant": "藝術",
+      "ru": "статья",
+      "es": "Arte",
+      "in": "Seni"
+    },
+    "effects": [
+      {
+        "id": 38,
+        "title": "RainDrops",
+        "name": "RainDropsOnWindow",
+        "thumbnail": "Raindropsonwindow.webp"
+      },
+      {
+        "id": 31,
+        "title": "DBW",
+        "name": "DoubleWH",
+        "thumbnail": "DBW.webp",
+        "isConstant": true
+      },
+      {
+        "id": 32,
+        "title": "Ripple",
+        "name": "Ripple",
+        "thumbnail": "Ripple.webp"
+      },
+      {
+        "id": 33,
+        "title": "Money",
+        "name": "Money",
+        "thumbnail": "Money.webp",
+        "state": 1,
+        "isConstant": true
+      },
+      {
+        "id": 34,
+        "title": "Game",
+        "name": "Game",
+        "thumbnail": "Game.webp",
+        "isConstant": true
+      },
+      {
+        "id": 35,
+        "title": "Pixelate",
+        "name": "PixelGame",
+        "thumbnail": "Pixelate.webp",
+        "state": 1
+      },
+      {
+        "id": 36,
+        "title": "Vision",
+        "name": "Monitor",
+        "thumbnail": "Vision.webp",
+        "state": 1
+      },
+      {
+        "id": 39,
+        "title": "Rain",
+        "name": "RainDrops",
+        "thumbnail": "Raindrops.webp"
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#70ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip">
+        <RelativeLayout android:layout_width="120.0dip" android:layout_height="120.0dip">
+            <lightcone.com.pack.view.CircleBarView android:layout_gravity="center_horizontal" android:id="@id/circleBarView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:bar_width="10.0dip" app:bg_color="#00000000" app:progress_color="#ff578efd" app:start_angle="-90.0" app:sweep_angle="360.0" xmlns:app="http://schemas.android.com/apk/res-auto" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tvProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:textSize="18.0sp" android:textColor="#ff010013" android:gravity="center" android:id="@id/tvTips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/Applying_Art_Filter" />
+        <TextView android:textSize="18.0sp" android:textColor="#ff010013" android:gravity="center" android:id="@id/btnCancel" android:background="@drawable/loading_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/cancel" />
+    </LinearLayout>
+</RelativeLayout>

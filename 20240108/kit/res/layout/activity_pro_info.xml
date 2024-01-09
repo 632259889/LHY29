@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/vip_info" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/ivBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_nav_close" />
+    </RelativeLayout>
+    <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="44.0dip" android:layout_above="@id/bottomBar">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/tvContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/subscription_option" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@id/bottomBar" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <RelativeLayout android:id="@id/btnPrivacy" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="13.0sp" android:textColor="#ff5062fb" android:id="@id/tvPrivacy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="@string/provicy_policy" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/btnTerms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <TextView android:textSize="13.0sp" android:textColor="#ff5062fb" android:id="@id/tvTerms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="@string/terms_of_use" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

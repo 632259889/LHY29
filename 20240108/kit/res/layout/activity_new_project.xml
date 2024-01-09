@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff010013" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/tabBottom" android:layout_width="fill_parent" android:layout_height="43.0dip" android:layout_above="@id/adBanner">
+        <lightcone.com.pack.view.DrawableAppUIBoldTextView android:textSize="18.0dip" android:textColor="@drawable/selector_new_project_color" android:gravity="center" android:id="@id/tvAlbum" android:background="@drawable/selector_btn_new_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/All" android:drawableRight="@drawable/photolist_btn_up" android:drawablePadding="8.0dip" android:layout_weight="1.0" />
+        <lightcone.com.pack.view.AppUIBoldTextView android:textSize="18.0dip" android:textColor="@drawable/selector_new_project_color" android:gravity="center" android:id="@id/tvCanvas" android:background="@drawable/selector_btn_new_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/Canvas" android:layout_weight="1.0" />
+        <lightcone.com.pack.view.AppUIBoldTextView android:textSize="18.0dip" android:textColor="@drawable/selector_new_project_color" android:gravity="center" android:id="@id/tvUnsplash" android:background="@drawable/selector_btn_new_bg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/Free_Photos" android:layout_weight="1.0" />
+    </LinearLayout>
+    <lightcone.com.pack.view.NoScrollViewPager android:id="@id/pageFragment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tabBottom" />
+    <FrameLayout android:id="@id/adBanner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/admob_banner_layout" />
+    </FrameLayout>
+</RelativeLayout>

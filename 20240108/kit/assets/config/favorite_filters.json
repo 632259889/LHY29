@@ -1,0 +1,15 @@
+[
+  {
+    "category": "Favorite",
+    "localizedCategory": {
+      "ja": "お気に入り",
+      "ms": "Kegemaran",
+      "zh": "收藏",
+      "zh-Hant": "收藏",
+      "ru": "любимец",
+      "es": "Favorito",
+      "in": "Favorit"
+    },
+    "filters": []
+  }
+]

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootView" android:background="#ff010013" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/topBar" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:id="@id/ivBack" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/selector_nav_back_white" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/Custom_sticker" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/rlBottom" android:layout_below="@id/topBar" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rlBottom" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/ivCancel" android:background="@drawable/pop_right_btn_bg" android:layout_width="150.0dip" android:layout_height="50.0dip" android:text="@string/cancel" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/center" />
+        <View android:id="@id/center" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_centerInParent="true" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/ivDelete" android:background="@drawable/delete_selected" android:layout_width="150.0dip" android:layout_height="50.0dip" android:text="@string/Delete" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/center" />
+    </RelativeLayout>
+</RelativeLayout>

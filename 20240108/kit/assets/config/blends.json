@@ -1,0 +1,268 @@
+[
+  {
+    "id": 0,
+    "name": "Normal",
+    "blendMode": "NORMAL",
+    "thumbnail": "Normal.jpg",
+    "localizedCategory": {
+      "zh": "正常",
+      "zh-Hant": "正常"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Darken",
+    "blendMode": "DARKEN",
+    "thumbnail": "Darken.jpg",
+    "state": 1,
+    "localizedCategory": {
+      "zh": "变暗",
+      "zh-Hant": "變暗"
+    }
+  },
+  {
+    "id": 1,
+    "name": "Multiply",
+    "blendMode": "MULTIPLY",
+    "thumbnail": "Multiply.jpg",
+    "localizedCategory": {
+      "zh": "正片叠底",
+      "zh-Hant": "正片疊底"
+    }
+  },
+  {
+    "id": 7,
+    "name": "ColorBurn",
+    "blendMode": "COLORBURN",
+    "thumbnail": "Color Burn.jpg",
+    "localizedCategory": {
+      "zh": "颜色加深",
+      "zh-Hant": "顏色加深"
+    }
+  },
+  {
+    "id": 10,
+    "name": "LinearBurn",
+    "blendMode": "LINEARBURN",
+    "thumbnail": "Linear Burn.jpg",
+    "localizedCategory": {
+      "zh": "线性加深",
+      "zh-Hant": "線性加深"
+    }
+  },
+  {
+    "id": 11,
+    "name": "DarkerColor",
+    "blendMode": "DARKERCOLOR",
+    "thumbnail": "Darker Color.jpg",
+    "state": 1,
+    "localizedCategory": {
+      "zh": "深色",
+      "zh-Hant": "深色"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Lighten",
+    "blendMode": "LIGHTEN",
+    "thumbnail": "Lighten.jpg",
+    "state": 0,
+    "localizedCategory": {
+      "zh": "变亮",
+      "zh-Hant": "變亮"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Screen",
+    "blendMode": "SCREEN",
+    "thumbnail": "Screen.jpg",
+    "localizedCategory": {
+      "zh": "滤色",
+      "zh-Hant": "濾色"
+    }
+  },
+  {
+    "id": 6,
+    "name": "ColorDodge",
+    "blendMode": "COLORDODGE",
+    "thumbnail": "Color Dodge.jpg",
+    "localizedCategory": {
+      "zh": "颜色减淡",
+      "zh-Hant": "顏色減淡"
+    }
+  },
+  {
+    "id": 12,
+    "name": "LinearDodge",
+    "blendMode": "LINEARDODGE",
+    "thumbnail": "Linear Dodge.jpg",
+    "localizedCategory": {
+      "zh": "线性减淡",
+      "zh-Hant": "線性減淡"
+    }
+  },
+  {
+    "id": 13,
+    "name": "LighterColor",
+    "blendMode": "LIGHTERCOLOR",
+    "thumbnail": "Lighter Color.jpg",
+    "state": 1,
+    "localizedCategory": {
+      "zh": "浅色",
+      "zh-Hant": "淺色"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Overlay",
+    "blendMode": "OVERLAY",
+    "thumbnail": "Overlay.jpg",
+    "localizedCategory": {
+      "zh": "叠加",
+      "zh-Hant": "疊加"
+    }
+  },
+  {
+    "id": 14,
+    "name": "SoftLight",
+    "blendMode": "SOFTLIGHT",
+    "thumbnail": "Soft Light.jpg",
+    "localizedCategory": {
+      "zh": "柔光",
+      "zh-Hant": "柔光"
+    }
+  },
+  {
+    "id": 8,
+    "name": "HardLight",
+    "blendMode": "HARDLIGHT",
+    "thumbnail": "Hard Light.jpg",
+    "state": 0,
+    "localizedCategory": {
+      "zh": "强光",
+      "zh-Hant": "強光"
+    }
+  },
+  {
+    "id": 15,
+    "name": "VividLight",
+    "blendMode": "VIVIDLIGHT",
+    "thumbnail": "Vivid Light.jpg",
+    "localizedCategory": {
+      "zh": "亮光",
+      "zh-Hant": "亮光"
+    }
+  },
+  {
+    "id": 16,
+    "name": "LinearLight",
+    "blendMode": "LINEARLIGHT",
+    "thumbnail": "Linear Light.jpg",
+    "localizedCategory": {
+      "zh": "线性光",
+      "zh-Hant": "線性光"
+    }
+  },
+  {
+    "id": 17,
+    "name": "PinLight",
+    "blendMode": "PINLIGHT",
+    "thumbnail": "Pin Light.jpg",
+    "state": 1,
+    "localizedCategory": {
+      "zh": "点光",
+      "zh-Hant": "點光"
+    }
+  },
+  {
+    "id": 18,
+    "name": "HardMix",
+    "blendMode": "HARDMIX",
+    "thumbnail": "Hard Mix.jpg",
+    "localizedCategory": {
+      "zh": "实色混合",
+      "zh-Hant": "實色混合"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Difference",
+    "blendMode": "DIFFERENCE",
+    "thumbnail": "Difference.jpg",
+    "localizedCategory": {
+      "zh": "差值",
+      "zh-Hant": "差值"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Exclusion",
+    "blendMode": "EXCLUSION",
+    "thumbnail": "Exclusion.jpg",
+    "localizedCategory": {
+      "zh": "排除",
+      "zh-Hant": "排除"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Subtract",
+    "blendMode": "SUBTRACT",
+    "thumbnail": "Subtract.jpg",
+    "localizedCategory": {
+      "zh": "减去",
+      "zh-Hant": "減去"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Divide",
+    "blendMode": "DIVIDE",
+    "thumbnail": "Divide.jpg",
+    "localizedCategory": {
+      "zh": "划分",
+      "zh-Hant": "劃分"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Hue",
+    "blendMode": "HUE",
+    "thumbnail": "Hue.jpg",
+    "localizedCategory": {
+      "zh": "色相",
+      "zh-Hant": "色相"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Saturation",
+    "blendMode": "SATURATION",
+    "thumbnail": "Saturation.jpg",
+    "localizedCategory": {
+      "zh": "饱和度",
+      "zh-Hant": "飽和度"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Color",
+    "blendMode": "COLOR",
+    "thumbnail": "Color.jpg",
+    "localizedCategory": {
+      "zh": "颜色",
+      "zh-Hant": "顏色"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Luminosity",
+    "blendMode": "LUMINOSITY",
+    "thumbnail": "Luminosity.jpg",
+    "localizedCategory": {
+      "zh": "亮度",
+      "zh-Hant": "亮度"
+    }
+  }
+]

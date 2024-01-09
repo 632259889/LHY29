@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom" android:id="@id/rootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/btnCancel" android:layout_width="44.0dip" android:layout_height="44.0dip" />
+    <View android:background="#ff010013" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginBottom="120.0dip" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:id="@id/btnGuide" android:paddingBottom="50.0dip" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_alignParentBottom="true" />
+        <lightcone.com.pack.view.anim.AnimImageView android:id="@id/ivGesture" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="false" android:layout_width="100.0dip" android:layout_height="60.0dip" android:layout_marginTop="30.0dip" android:src="@drawable/tutorials_gesture2" android:layout_alignTop="@id/btnGuide" android:layout_alignEnd="@id/btnGuide" app:anim_id="@anim/gesture_infinte_seek_hor_left" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/shape_blue_fill" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_above="@id/btnGuide" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/ivReset" android:layout_alignParentStart="true">
+                    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/tvStepName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="title" />
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/ivStepFinish" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tutorials_icon_done2" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+                <ImageView android:id="@id/ivReset" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="22.0dip" android:src="@drawable/tutorials_recover" android:layout_centerVertical="true" android:layout_toStartOf="@id/tvStepNum" />
+                <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/tvStepNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3/5" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/tvStepTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:minHeight="30.0dip" android:text="tips" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_margin="5.0dip">
+                <ImageView android:id="@id/ivUndo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_btn_edit_backward" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/ivRedo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_btn_edit_forward" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" android:layout_toEndOf="@id/ivUndo" />
+                <TextView android:enabled="false" android:textSize="15.0sp" android:textColor="#ff4061fa" android:gravity="center" android:id="@id/tvDoNext" android:background="@drawable/selector_corner_white_btn" android:layout_width="110.0dip" android:layout_height="fill_parent" android:text="@string/next_step" android:layout_alignParentRight="true" />
+                <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/tvGoBack" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Back" android:layout_centerVertical="true" android:layout_toStartOf="@id/tvDoNext" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

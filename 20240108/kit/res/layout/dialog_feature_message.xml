@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/shape_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.viewpager.widget.ViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnClose" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Close" android:shadowColor="#70000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="2.0" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/rvPreview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:layout_gravity="center_horizontal" android:id="@id/tvTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="最新的dripping art一键模板，快来体验一下吧！" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnExperience" android:background="@drawable/shape_pop_btn_blue" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" android:text="@string/Experience_now" android:layout_marginStart="35.0dip" android:layout_marginEnd="35.0dip" />
+</LinearLayout>

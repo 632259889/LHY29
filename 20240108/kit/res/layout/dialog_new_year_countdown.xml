@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/ll_content" android:background="@drawable/ic_launcher_background" android:layout_width="300.0dip" android:layout_height="432.0dip" android:layout_centerInParent="true">
+        <TextView android:textSize="23.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/tv_title_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="75.0dip" android:text="@string/Biggest_Discount" android:shadowColor="#b35d0000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="5.0" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/rl_lng_en" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="110.0dip">
+            <ImageView android:id="@id/iv_title_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher_background" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_lng_other" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="110.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher_background" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="30.0dip" android:textStyle="bold" android:textColor="#ff8b0210" android:gravity="center" android:id="@id/tv_title_1" android:layout_width="wrap_content" android:layout_height="60.0dip" android:text="@string/Final_Hours" android:layout_centerHorizontal="true" android:textAllCaps="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_countdown_big" android:background="@drawable/ic_launcher_background" android:paddingTop="18.0dip" android:paddingBottom="5.0dip" android:visibility="visible" android:layout_width="287.0dip" android:layout_height="107.0dip" android:layout_marginTop="168.0dip" android:layout_centerHorizontal="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="60.0dip" android:layout_height="63.0dip" android:src="@drawable/ic_launcher_background" android:layout_centerInParent="true" />
+                <TextView android:textSize="13.0dip" android:textColor="#ffebc68b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/DAYS" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="30.0dip" android:textStyle="bold" android:textColor="#ffebc68b" android:id="@id/tv_days" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" android:layout_centerInParent="true" android:translationY="-6.0dip" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="60.0dip" android:layout_height="63.0dip" android:src="@drawable/ic_launcher_background" android:layout_centerInParent="true" />
+                <TextView android:textSize="13.0dip" android:textColor="#ffebc68b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/HRS" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="30.0dip" android:textStyle="bold" android:textColor="#ffebc68b" android:id="@id/tv_hrs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" android:layout_centerInParent="true" android:translationY="-6.0dip" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="60.0dip" android:layout_height="63.0dip" android:src="@drawable/ic_launcher_background" android:layout_centerInParent="true" />
+                <TextView android:textSize="13.0dip" android:textColor="#ffebc68b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/MINS" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="30.0dip" android:textStyle="bold" android:textColor="#ffebc68b" android:id="@id/tv_mins" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" android:layout_centerInParent="true" android:translationY="-6.0dip" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="60.0dip" android:layout_height="63.0dip" android:src="@drawable/ic_launcher_background" android:layout_centerInParent="true" />
+                <TextView android:textSize="13.0dip" android:textColor="#ffebc68b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/SECS" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="30.0dip" android:textStyle="bold" android:textColor="#ffebc68b" android:id="@id/tv_secs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" android:layout_centerInParent="true" android:translationY="-6.0dip" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_countdown_small" android:background="@drawable/ic_launcher_background" android:paddingTop="18.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="247.0dip" android:layout_height="107.0dip" android:layout_marginTop="168.0dip" android:layout_centerHorizontal="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="60.0dip" android:layout_height="63.0dip" android:src="@drawable/ic_launcher_background" android:layout_centerInParent="true" />
+                <TextView android:textSize="13.0dip" android:textColor="#ffebc68b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/HRS" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="30.0dip" android:textStyle="bold" android:textColor="#ffebc68b" android:id="@id/tv_hrs2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" android:layout_centerInParent="true" android:translationY="-6.0dip" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="60.0dip" android:layout_height="63.0dip" android:src="@drawable/ic_launcher_background" android:layout_centerInParent="true" />
+                <TextView android:textSize="13.0dip" android:textColor="#ffebc68b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/MINS" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="30.0dip" android:textStyle="bold" android:textColor="#ffebc68b" android:id="@id/tv_mins2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" android:layout_centerInParent="true" android:translationY="-6.0dip" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_width="60.0dip" android:layout_height="63.0dip" android:src="@drawable/ic_launcher_background" android:layout_centerInParent="true" />
+                <TextView android:textSize="13.0dip" android:textColor="#ffebc68b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/SECS" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="30.0dip" android:textStyle="bold" android:textColor="#ffebc68b" android:id="@id/tv_secs2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" android:layout_centerInParent="true" android:translationY="-6.0dip" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_above="@id/tv_now" android:layout_centerHorizontal="true">
+            <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_lifetime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Lifetime_VIP" android:layout_marginEnd="5.0dip" />
+            <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_old_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$9.99" />
+        </LinearLayout>
+        <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_now" android:background="@drawable/ic_launcher_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="21.0dip" android:text="Only $7.99 Now" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:onClick="onClick" />
+    </RelativeLayout>
+    <ImageView android:id="@id/iv_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:src="@drawable/newyar_pop_bnt_close" android:layout_alignTop="@id/ll_content" android:onClick="onClick" android:translationX="10.0dip" android:translationY="8.0dip" android:layout_alignEnd="@id/ll_content" />
+</RelativeLayout>

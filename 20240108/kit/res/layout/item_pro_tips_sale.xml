@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="15.0dip" android:textColor="#ff800004" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="√" />
+    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="15.0dip" android:textColor="#ff800004" android:id="@id/tvNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100+" android:layout_marginStart="10.0dip" />
+    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="15.0dip" android:textColor="#ff333333" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ArtiArtistic " android:layout_marginStart="10.0dip" />
+</LinearLayout>

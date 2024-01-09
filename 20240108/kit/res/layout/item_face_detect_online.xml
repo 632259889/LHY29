@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#99ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ff6050d2" android:gravity="center" android:id="@id/tv_detect" android:background="@drawable/shape_pop_bg" android:layout_width="200.0dip" android:layout_height="40.0dip" android:layout_marginBottom="10.0dip" android:text="@string/detect" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="#ff6050d2" android:gravity="center" android:id="@id/tv_detect_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="20.0dip" android:text="@string/detect_failure" android:layout_above="@id/tv_detect" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

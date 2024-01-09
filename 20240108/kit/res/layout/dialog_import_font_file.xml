@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/dialog_loading_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/inner_view" android:background="@drawable/shape_white" android:visibility="visible" android:layout_width="300.0dip" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/icon_view" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="44.0dip">
+            <TextView android:textSize="25.0dip" android:textColor="#ff000000" android:gravity="center" android:background="@drawable/shape_import_font_gray" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text=".ttf" />
+            <TextView android:textSize="25.0dip" android:textColor="#ff000000" android:gravity="center" android:background="@drawable/shape_import_font_gray" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text=".otf" android:layout_marginStart="24.0dip" />
+            <TextView android:textSize="25.0dip" android:textColor="#ff000000" android:gravity="center" android:background="@drawable/shape_import_font_gray" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text=".ttc" android:layout_marginStart="24.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/tip_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/Import_font_hint_1" android:layout_below="@id/icon_view" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/import_btn" android:background="@drawable/pop_btn_bg_v2" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="25.0dip" android:layout_marginBottom="10.0dip" android:text="@string/Import_fonts" android:layout_below="@id/tip_tv" android:layout_centerHorizontal="true" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" />
+        <ImageView android:id="@id/close_btn" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/nav_close_def" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffff0000" android:gravity="center" android:id="@id/error_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="15.0dip" android:text="@string/font_unsupported" android:layout_below="@id/import_btn" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+    </RelativeLayout>
+</LinearLayout>

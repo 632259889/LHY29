@@ -1,0 +1,120 @@
+[
+    {
+        "name": "Featured",
+        "localizedName": {
+            "en": "Featured🔥",
+            "zh": "热门🔥",
+            "zh-Hant": "熱門🔥",
+            "ja": "人気🔥",
+            "ms": "Trend🔥",
+            "ru": "Жарко🔥",
+            "es": "Tendencia🔥",
+            "in": "Unggulan🔥"
+        }
+    },
+    {
+        "name": "New",
+        "localizedName": {
+            "en": "New",
+            "zh": "最新",
+            "zh-Hant": "最新",
+            "ja": "新しい",
+            "ms": "Baru",
+            "in": "Baru",
+            "ru": "новый",
+            "es": "Nuevo"
+        }
+    },
+    {
+        "name": "Retro",
+        "localizedName": {
+            "en": "Retro",
+            "zh": "复古",
+            "zh-Hant": "復古",
+            "ja": "レトロ",
+            "ms": "Retro",
+            "in": "Retro",
+            "ru": "Ретро",
+            "es": "Retro"
+        }
+    },
+    {
+        "name": "Cool",
+        "localizedName": {
+            "en": "Cool",
+            "zh": "酷炫",
+            "zh-Hant": "酷炫",
+            "ja": "かっこいい",
+            "ms": "Cool",
+            "in": "Keren",
+            "ru": "Круто",
+            "es": "Frio"
+        }
+    },
+    {
+        "name": "Cute",
+        "localizedName": {
+            "en": "Cute",
+            "zh": "可爱",
+            "zh-Hant": "可愛",
+            "ja": "かわいい",
+            "ms": "Comel",
+            "in": "Imut",
+            "ru": "Милый",
+            "es": "Lindo"
+        }
+    },
+    {
+        "name": "Daily",
+        "localizedName": {
+            "en": "Daily",
+            "zh": "日常",
+            "zh-Hant": "日常",
+            "ja": "毎日",
+            "ms": "Setiap hari",
+            "in": "Harian",
+            "ru": "суточный",
+            "es": "Diario"
+        }
+    },
+    {
+        "name": "Decoration",
+        "localizedName": {
+            "en": "Decoration",
+            "zh": "装饰",
+            "zh-Hant": "裝飾",
+            "ja": "飾る",
+            "ms": "Hiaskan",
+            "in": "Dekorasi",
+            "ru": "Украшение",
+            "es": "Decoración"
+        }
+    },
+    {
+        "name": "Festival",
+        "localizedName": {
+            "en": "Festival",
+            "zh": "节日",
+            "zh-Hant": "節日",
+            "ja": "祭り",
+            "ms": "Pesta",
+            "in": "Festival",
+            "ru": "фестиваль",
+            "es": "Festival"
+        }
+    },
+    {
+        "name": "All",
+        "localizedName": {
+            "en": "All",
+            "zh": "全部",
+            "zh-Hant": "全部",
+            "ja": "すべて",
+            "ms": "Semua",
+            "in": "Semua",
+            "ru": "Все",
+            "es": "Todas"
+        },
+        "wildcard": true
+    }
+]

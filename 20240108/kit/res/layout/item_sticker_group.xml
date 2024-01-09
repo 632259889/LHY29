@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivBackground" android:background="@drawable/selector_btn_line_bg_top" android:layout_width="75.0dip" android:layout_height="45.0dip" />
+    <ImageView android:id="@id/ivPreview" android:layout_width="60.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_launcher" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+</RelativeLayout>

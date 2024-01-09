@@ -1,0 +1,48 @@
+.class final Lcom/google/android/gms/internal/ads/z13;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@22.6.0"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/b23;
+
+
+# annotations
+.annotation build Landroidx/annotation/VisibleForTesting;
+.end annotation
+
+
+# static fields
+.field private static final a:Lcom/google/android/gms/internal/ads/af;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    invoke-static {}, Lcom/google/android/gms/internal/ads/af;->H0()Lcom/google/android/gms/internal/ads/af;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/google/android/gms/internal/ads/z13;->a:Lcom/google/android/gms/internal/ads/af;
+
+    return-void
+.end method
+
+.method constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final zza()Lcom/google/android/gms/internal/ads/af;
+    .locals 1
+
+    sget-object v0, Lcom/google/android/gms/internal/ads/z13;->a:Lcom/google/android/gms/internal/ads/af;
+
+    return-object v0
+.end method

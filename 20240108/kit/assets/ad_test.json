@@ -1,0 +1,22 @@
+[
+    {
+      "name": "wb",
+      "dis": "https://dispatch.smilewhitebear.com/",
+      "src":"https://restest.guangzhuiyuan.cn/"
+    },
+    {
+      "name": "wsb",
+      "dis": "https://dispatch.wisharcbuilder.com/",
+      "src":"https://restest1.guangzhuiyuan.cn/"
+    },
+    {
+      "name": "lts",
+      "dis": "https://dispatch.lucktracysoft.com/",
+      "src":"https://restest2.guangzhuiyuan.cn/"
+    },
+    {
+      "name": "dml",
+      "dis": "https://dispatch.devmonkeylin.com/",
+      "src":"https://restest1.guangzhuiyuan.cn/"
+    }
+]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.gms.ads.nativead.NativeAdView android:id="@id/native_ad_view" android:background="@drawable/shape_transparent_stroke" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/gnt_ad_indicator_text_size" android:textStyle="bold" android:textColor="@color/gnt_ad_green" android:gravity="center" android:id="@id/ad_notification_view" android:background="@drawable/gnt_rounded_corners_shape" android:layout_width="@dimen/gnt_ad_indicator_width" android:layout_height="@dimen/gnt_ad_indicator_height" android:text="Ad" />
+            <lightcone.com.pack.view.RatioImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:scaleType="fitCenter" android:layout_below="@id/ad_notification_view" android:layout_centerVertical="true" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+            <TextView android:textSize="@dimen/gnt_text_size_small" android:textStyle="bold" android:textColor="@color/gnt_gray" android:id="@id/primary" android:background="@color/gnt_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.5dip" android:layout_toRightOf="@id/icon" android:layout_below="@id/ad_notification_view" android:layout_marginStart="2.5dip" android:layout_marginEnd="2.0dip" />
+            <TextView android:textSize="10.0sp" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="2.5dip" android:layout_marginBottom="2.5dip" android:layout_toRightOf="@id/icon" android:layout_above="@id/cta" android:layout_below="@id/primary" android:layout_marginStart="2.5dip" android:layout_marginEnd="2.0dip" />
+            <Button android:textColor="@color/gnt_white" android:gravity="center" android:id="@id/cta" android:background="@drawable/shape_btn_rect" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginBottom="2.0dip" android:lines="1" android:layout_toRightOf="@id/icon" android:layout_alignParentBottom="true" android:layout_marginStart="2.5dip" android:layout_marginEnd="2.0dip" />
+        </RelativeLayout>
+    </com.google.android.gms.ads.nativead.NativeAdView>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_main" android:layout_width="75.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textColor="#ff999999" android:gravity="center" android:id="@id/tab_title" android:layout_width="75.0dip" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/tab_bg" android:background="@drawable/tab_line_btn_selected" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/tab_title" android:layout_alignBottom="@id/tab_title" android:layout_alignStart="@id/tab_title" android:layout_alignEnd="@id/tab_title" />
+</RelativeLayout>

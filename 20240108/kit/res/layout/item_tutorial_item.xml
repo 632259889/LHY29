@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivShow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:riv_corner_radius_top_left="5.0dip" app:riv_corner_radius_top_right="5.0dip" />
+    <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvName" android:background="#ff000000" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="name" android:layout_alignBottom="@id/ivShow" />
+</RelativeLayout>

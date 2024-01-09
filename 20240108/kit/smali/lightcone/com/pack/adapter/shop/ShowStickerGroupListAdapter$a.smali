@@ -1,0 +1,19 @@
+.class public interface abstract Llightcone/com/pack/adapter/shop/ShowStickerGroupListAdapter$a;
+.super Ljava/lang/Object;
+.source "ShowStickerGroupListAdapter.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Llightcone/com/pack/adapter/shop/ShowStickerGroupListAdapter;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "a"
+.end annotation
+
+
+# virtual methods
+.method public abstract b(Llightcone/com/pack/feature/text/StickerGroup;)V
+.end method

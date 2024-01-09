@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/tabContent" android:background="@drawable/shape_white" android:paddingTop="20.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="450.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+        <lightcone.com.pack.view.AppUIBoldTextView android:textSize="18.0sp" android:textColor="#ff010013" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Current_Output_Format" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_format" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Auto" />
+            <ImageView android:id="@id/iconFormatHelp" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/auto_icon_help" android:layout_marginStart="15.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/tabCurrentFormat" android:layout_width="fill_parent" android:layout_height="290.0dip" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/tv_format_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/save_png_or_jpg" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/You_change_it_settings" />
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginTop="15.0dip" android:src="@drawable/auto_guide_img" />
+        </LinearLayout>
+        <ImageView android:id="@id/iconFormatHint" android:paddingTop="5.0dip" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="10.0dip" android:src="@drawable/hint_triangle" android:tint="#fff0f0f0" android:layout_marginStart="200.0dip" />
+        <ScrollView android:id="@id/tabOutputFormat" android:background="#fff0f0f0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="280.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/Auto" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/save_png_or_jpg" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_png" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="PNG" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/save_all_as_png" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_jpg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="JPG" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+                <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/save_all_as_jpg" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            </LinearLayout>
+        </ScrollView>
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnGotIt" android:background="@drawable/shape_pop_btn_blue" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="15.0dip" android:text="@string/Got_it" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/font_wordart_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/ivPreview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvFont" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="ABC" />
+    <ImageView android:id="@id/ivPro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tag_pro" />
+    <ProgressBar android:id="@id/progressState" android:padding="1.5dip" android:layout_width="15.0dip" android:layout_height="15.0dip" android:indeterminateDrawable="@drawable/selector_download_icon" android:layout_alignRight="@id/ivPreview" android:layout_alignBottom="@id/ivPreview" />
+    <ImageView android:id="@id/ivSelect" android:background="@drawable/font_select" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/nav_done_def" android:scaleType="fitCenter" />
+</RelativeLayout>

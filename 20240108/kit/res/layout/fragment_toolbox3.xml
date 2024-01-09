@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#ffffffff" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/bannerContainer" android:padding="4.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.youth.banner.Banner android:layout_gravity="center_horizontal" android:id="@id/bannerView" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_margin="6.0dip" app:banner_indicator_marginBottom="-12.0dip" app:banner_indicator_normal_color="#ffdddddd" app:banner_indicator_selected_color="#ff8164ff" />
+        <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ff010013" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/Useful_Tools" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <RelativeLayout android:id="@id/rvBannerText" android:tag="13" android:padding="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/ivBanner13" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/home_toolbox_banner15" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/ivIcon13" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/home_project_icon_text" />
+                    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvName13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/Toolbox_Text1" android:textAllCaps="true" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rvBannerRecolor" android:tag="14" android:padding="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/ivBanner14" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/home_toolbox_banner16" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/ivIcon14" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/home_project_icon_recolor" />
+                    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvName14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/Toolbox_Recolor1" android:textAllCaps="true" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <RelativeLayout android:id="@id/rvBannerAdjust" android:tag="3" android:padding="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/ivBanner8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/home_toolbox_banner3b" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/ivIcon8" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/home_project_icon_control2x" />
+                    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvName9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/Control_Adjust1" android:textAllCaps="true" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rvBannerFilter" android:tag="9" android:padding="6.0dip" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/ivBanner6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/home_toolbox_banner9" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/ivIcon6" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/icon_magic_filter" />
+                    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvName6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/Magic_Filters1" android:textAllCaps="true" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <RelativeLayout android:id="@id/rvBannerBackground" android:tag="16" android:padding="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/ivBanner16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/home_toolbox_banner18" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/ivIcon16" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/home_project_icon_background" />
+                    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvName16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/Toolbox_Background1" android:textAllCaps="true" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rvBannerFrame" android:tag="17" android:padding="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/ivBanner17" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/home_toolbox_banner19" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/ivIcon17" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/home_project_icon_frame" />
+                    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvName17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/Toolbox_Frame1" android:textAllCaps="true" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <RelativeLayout android:id="@id/rvBannerCollage" android:tag="101" android:padding="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/ivBanner4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/home_project_green" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageView android:id="@id/ivIcon4" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/home_project_icon_collage" />
+                    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvName4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/Photo_Collage1" android:textAllCaps="true" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rvBannerShape" android:tag="6" android:padding="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/ivBanner10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/home_project_purple" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageView android:id="@id/ivIcon10" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/home_project_icon_shape" />
+                    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvName11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/Shape_Crop1" android:textAllCaps="true" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rvBannerGlitch" android:tag="11" android:padding="6.0dip" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/ivBanner5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/home_project_red" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageView android:id="@id/ivIcon5" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/home_project_icon_glitch" />
+                    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvName5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/Glitch_Filter_Upper1" android:textAllCaps="true" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <RelativeLayout android:id="@id/rvBannerSky" android:tag="15" android:padding="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/ivBanner15" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/home_project_red" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageView android:id="@id/ivIcon15" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/home_project_icon_sky" />
+                    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvName15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/Toolbox_Sky1" android:textAllCaps="true" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rvBannerDouble" android:tag="12" android:padding="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/ivBanner7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/home_project_green" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageView android:id="@id/ivIcon7" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/home_project_icon_double" />
+                    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvName8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/DOUBLE_EXPOSURE1" android:textAllCaps="true" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rvBannerBrush" android:tag="5" android:padding="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:id="@id/ivBanner9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/home_project_purple" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageView android:id="@id/ivIcon9" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/home_project_icon_brushes" />
+                    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvName10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/Magic_Brushes1" android:textAllCaps="true" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/tabMaterials" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ff010013" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Materials" />
+            <lightcone.com.pack.view.AppUIBoldTextView android:textSize="12.0sp" android:textColor="#ff010013" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SEE_ALL_to" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerBannerSticker" android:padding="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

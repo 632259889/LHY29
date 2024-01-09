@@ -1,0 +1,333 @@
+[
+	{
+		"category": "Cartoon",
+		"localizedCategory": {
+			"ja": "漫画",
+			"ms": "Kartun",
+			"zh": "漫画",
+			"zh-Hant": "漫畫",
+			"ru": "комик",
+			"es": "Caricatura",
+			"in": "Kartun"
+		},
+		"skyFilters": [
+			{
+				"id": 24,
+				"name": "CA01",
+				"title": "CA01",
+				"thumbnail": "CA (1).jpg"
+			},
+			{
+				"id": 28,
+				"name": "CA05",
+				"title": "CA02",
+				"thumbnail": "CA (5).jpg"
+			},
+			{
+				"id": 25,
+				"name": "CA02",
+				"title": "CA03",
+				"thumbnail": "CA (2).jpg",
+				"state": 1
+			},
+			{
+				"id": 29,
+				"name": "CA06",
+				"title": "CA04",
+				"thumbnail": "CA (6).jpg"
+			},
+			{
+				"id": 27,
+				"name": "CA04",
+				"title": "CA05",
+				"thumbnail": "CA (4).jpg",
+				"state": 1
+			},
+			{
+				"id": 26,
+				"name": "CA03",
+				"title": "CA06",
+				"thumbnail": "CA (3).jpg"
+			},
+			{
+				"id": 30,
+				"name": "CA07",
+				"title": "CA07",
+				"thumbnail": "CA (7).jpg",
+				"state": 1
+			},
+			{
+				"id": 31,
+				"name": "CA08",
+				"title": "CA08",
+				"thumbnail": "CA (8).jpg",
+				"state": 1
+			},
+			{
+				"id": 32,
+				"name": "CA09",
+				"title": "CA09",
+				"thumbnail": "CA (9).jpg",
+				"state": 1
+			},
+			{
+				"id": 33,
+				"name": "CA10",
+				"title": "CA10",
+				"thumbnail": "CA (10).jpg",
+				"state": 1
+			},
+			{
+				"id": 34,
+				"name": "CA11",
+				"title": "CA11",
+				"thumbnail": "CA (11).jpg",
+				"state": 1
+			},
+			{
+				"id": 35,
+				"name": "CA12",
+				"title": "CA12",
+				"thumbnail": "CA (12).jpg",
+				"state": 1
+			}
+		]
+	},
+	{
+		"category": "Cloud",
+		"localizedCategory": {
+			"ja": "雲",
+			"ms": "Awan",
+			"zh": "晴空",
+			"zh-Hant": "晴空",
+			"ru": "облако",
+			"es": "Nube",
+			"in": "Awan"
+		},
+		"skyFilters": [
+			{
+				"id": 14,
+				"name": "Beach",
+				"title": "CL01",
+				"thumbnail": "s_beach.png"
+			},
+			{
+				"id": 15,
+				"name": "Cloudy",
+				"title": "CL02",
+				"thumbnail": "s_cloudy.png",
+				"state": 1
+			},
+			{
+				"id": 16,
+				"name": "Depth",
+				"title": "CL03",
+				"thumbnail": "s_depth.png"
+			},
+			{
+				"id": 22,
+				"name": "Fantasy",
+				"title": "CL04",
+				"thumbnail": "s_fantasy.png"
+			},
+			{
+				"id": 17,
+				"name": "Midair",
+				"title": "CL05",
+				"thumbnail": "s_midair.png",
+				"state": 1
+			},
+			{
+				"id": 23,
+				"name": "Glow",
+				"title": "CL06",
+				"thumbnail": "s_glow.png",
+				"state": 1
+			}
+		]
+	},
+	{
+		"category": "Magic",
+		"localizedCategory": {
+			"ja": "魔法",
+			"ms": "Magic",
+			"zh": "魔法",
+			"zh-Hant": "魔法",
+			"ru": "магия",
+			"es": "Magia",
+			"in": "Sihir"
+		},
+		"skyFilters": [
+			{
+				"id": 19,
+				"name": "Meteor",
+				"title": "MA01",
+				"thumbnail": "s_meteor.png"
+			},
+			{
+				"id": 20,
+				"name": "Sunrise",
+				"title": "MA02",
+				"thumbnail": "s_sunrise.png"
+			},
+			{
+				"id": 21,
+				"name": "Travel",
+				"title": "MA03",
+				"thumbnail": "s_travel.png"
+			},
+			{
+				"id": 36,
+				"name": "MA01",
+				"title": "MA04",
+				"thumbnail": "MA (1).jpg",
+				"state": 1
+			},
+			{
+				"id": 37,
+				"name": "MA02",
+				"title": "MA05",
+				"thumbnail": "MA (2).jpg",
+				"state": 1
+			},
+			{
+				"id": 38,
+				"name": "MA03",
+				"title": "MA06",
+				"thumbnail": "MA (3).jpg",
+				"state": 1
+			},
+			{
+				"id": 39,
+				"name": "MA04",
+				"title": "MA07",
+				"thumbnail": "MA (4).jpg",
+				"state": 1
+			},
+			{
+				"id": 40,
+				"name": "MA05",
+				"title": "MA08",
+				"thumbnail": "MA (5).jpg",
+				"state": 1
+			},
+			{
+				"id": 18,
+				"name": "Dyedblue",
+				"title": "MA09",
+				"thumbnail": "s_dyedblue.png"
+			}
+		]
+	},
+	{
+		"category": "Vacation",
+		"localizedCategory": {
+			"ja": "休暇",
+			"ms": "Percutian",
+			"zh": "度假",
+			"zh-Hant": "度假",
+			"ru": "отпуск",
+			"es": "Vacaciones",
+			"in": "Liburan"
+		},
+		"skyFilters": [
+			{
+				"id": 10,
+				"name": "Clarity2",
+				"title": "VA01",
+				"thumbnail": "s_clarity2.png"
+			},
+			{
+				"id": 11,
+				"name": "Homeward",
+				"title": "VA02",
+				"thumbnail": "s_homeward.png"
+			},
+			{
+				"id": 7,
+				"name": "Amphion",
+				"title": "VA03",
+				"thumbnail": "s_amphion.png",
+				"state": 1
+			},
+			{
+				"id": 8,
+				"name": "Bridge",
+				"title": "VA04",
+				"thumbnail": "s_bridge.png",
+				"state": 1
+			},
+			{
+				"id": 9,
+				"name": "Clarity1",
+				"title": "VA05",
+				"thumbnail": "s_clarity1.png",
+				"state": 1
+			},
+			{
+				"id": 12,
+				"name": "Pink",
+				"title": "VA06",
+				"thumbnail": "s_pink.png"
+			},
+			{
+				"id": 13,
+				"name": "Rainbow",
+				"title": "VA07",
+				"thumbnail": "s_rainbow.png"
+			}
+		]
+	},
+	{
+		"category": "Coco",
+		"localizedCategory": {
+			"ja": "ココ",
+			"ms": "Coco",
+			"zh": "椰子树",
+			"zh-Hant": "椰子樹",
+			"es": "Coco",
+			"in": "Kelapa"
+		},
+		"skyFilters": [
+			{
+				"id": 2,
+				"name": "Chilling",
+				"title": "CO01",
+				"thumbnail": "s_chilling.png",
+				"state": 1
+			},
+			{
+				"id": 1,
+				"name": "Curacao",
+				"title": "CO02",
+				"thumbnail": "s_curacao.png",
+				"state": 1
+			},
+			{
+				"id": 3,
+				"name": "Hope",
+				"title": "CO03",
+				"thumbnail": "s_hope.png"
+			},
+			{
+				"id": 6,
+				"name": "Homeward2",
+				"title": "CO04",
+				"thumbnail": "s_homeward2.png"
+			},
+			{
+				"id": 5,
+				"name": "Void",
+				"title": "CO05",
+				"thumbnail": "s_void.png",
+				"state": 1
+			},
+			{
+				"id": 4,
+				"name": "Offwards",
+				"title": "CO06",
+				"thumbnail": "s_offwards.png"
+			}
+		]
+	}
+]

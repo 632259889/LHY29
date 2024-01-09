@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lightcone.com.pack.view.OkStickersLayoutGrand android:id="@id/okStickersLayoutGrand" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginBottom="90.0dip" android:layout_alignParentBottom="true" />
+    <lightcone.com.pack.view.anim.AnimImageView android:id="@id/ivGesture" android:layout_width="44.0dip" android:layout_height="50.0dip" android:layout_marginTop="15.0dip" android:src="@drawable/tutorials_gesture2" android:layout_alignTop="@id/okStickersLayoutGrand" android:layout_alignEnd="@id/okStickersLayoutGrand" app:anim_id="@anim/gesture_infinte_seek_hor_left" />
+    <ImageView android:id="@id/ivHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:src="@drawable/hint_triangle" android:layout_above="@id/okStickersLayoutGrand" android:layout_centerHorizontal="true" android:rotation="180.0" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff5062fb" android:gravity="center_vertical" android:id="@id/tvHint" android:background="@drawable/shape_white" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="**试着滑动调节轴，将对比度调节到20的位置" android:layout_above="@id/ivHint" android:layout_centerHorizontal="true" />
+</RelativeLayout>

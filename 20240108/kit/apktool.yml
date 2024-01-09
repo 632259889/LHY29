@@ -1,0 +1,311 @@
+version: 2.9.0
+apkFileName: qqq.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 33
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 138
+  versionName: 2.7
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: 8
+  androidsupportmultidexversion.txt: 0
+  billing.properties: 8
+  firebase-analytics.properties: 8
+  firebase-annotations.properties: 8
+  firebase-common.properties: 8
+  firebase-components.properties: 8
+  firebase-core.properties: 8
+  firebase-crashlytics.properties: 8
+  firebase-datatransport.properties: 8
+  firebase-encoders-json.properties: 8
+  firebase-encoders-proto.properties: 8
+  firebase-encoders.properties: 8
+  firebase-iid-interop.properties: 8
+  firebase-installations-interop.properties: 8
+  firebase-installations.properties: 8
+  firebase-measurement-connector.properties: 8
+  firebase-messaging.properties: 8
+  play-services-ads-base.properties: 8
+  play-services-ads-identifier.properties: 8
+  play-services-ads-lite.properties: 8
+  play-services-ads.properties: 8
+  play-services-appset.properties: 8
+  play-services-base.properties: 8
+  play-services-basement.properties: 8
+  play-services-cloud-messaging.properties: 8
+  play-services-measurement-api.properties: 8
+  play-services-measurement-base.properties: 8
+  play-services-measurement-impl.properties: 8
+  play-services-measurement-sdk-api.properties: 8
+  play-services-measurement-sdk.properties: 8
+  play-services-measurement.properties: 8
+  play-services-stats.properties: 8
+  play-services-tasks.properties: 8
+  transport-api.properties: 8
+  transport-backend-cct.properties: 8
+  transport-runtime.properties: 8
+  user-messaging-platform.properties: 8
+  stamp-cert-sha256: 8
+  com/android/volley/AuthFailureError.java: 8
+  com/android/volley/Cache.java: 8
+  com/android/volley/CacheDispatcher.java: 8
+  com/android/volley/DefaultRetryPolicy.java: 8
+  com/android/volley/ExecutorDelivery.java: 8
+  com/android/volley/Network.java: 8
+  com/android/volley/NetworkDispatcher.java: 8
+  com/android/volley/NetworkError.java: 8
+  com/android/volley/NetworkResponse.java: 8
+  com/android/volley/NoConnectionError.java: 8
+  com/android/volley/ParseError.java: 8
+  com/android/volley/Request.java: 8
+  com/android/volley/RequestQueue.java: 8
+  com/android/volley/Response.java: 8
+  com/android/volley/ResponseDelivery.java: 8
+  com/android/volley/RetryPolicy.java: 8
+  com/android/volley/ServerError.java: 8
+  com/android/volley/TimeoutError.java: 8
+  com/android/volley/VolleyError.java: 8
+  com/android/volley/VolleyLog.java: 8
+  com/android/volley/toolbox/AndroidAuthenticator.java: 8
+  com/android/volley/toolbox/Authenticator.java: 8
+  com/android/volley/toolbox/BasicNetwork.java: 8
+  com/android/volley/toolbox/ByteArrayPool.java: 8
+  com/android/volley/toolbox/ClearCacheRequest.java: 8
+  com/android/volley/toolbox/DiskBasedCache.java: 8
+  com/android/volley/toolbox/HttpClientStack.java: 8
+  com/android/volley/toolbox/HttpHeaderParser.java: 8
+  com/android/volley/toolbox/HttpStack.java: 8
+  com/android/volley/toolbox/HurlStack.java: 8
+  com/android/volley/toolbox/ImageLoader.java: 8
+  com/android/volley/toolbox/ImageRequest.java: 8
+  com/android/volley/toolbox/JsonArrayRequest.java: 8
+  com/android/volley/toolbox/JsonObjectRequest.java: 8
+  com/android/volley/toolbox/JsonRequest.java: 8
+  com/android/volley/toolbox/NetworkImageView.java: 8
+  com/android/volley/toolbox/NoCache.java: 8
+  com/android/volley/toolbox/PoolingByteArrayOutputStream.java: 8
+  com/android/volley/toolbox/RequestFuture.java: 8
+  com/android/volley/toolbox/StringRequest.java: 8
+  com/android/volley/toolbox/Volley.java: 8
+  okhttp3/internal/publicsuffix/NOTICE: 8
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: 0
+  org/apache/log4j/lf5/config/defaultconfig.properties: 8
+  org/apache/log4j/lf5/viewer/images/channelexplorer_new.gif: 0
+  org/apache/log4j/lf5/viewer/images/channelexplorer_satellite.gif: 0
+  org/apache/log4j/lf5/viewer/images/lf5_small_icon.gif: 0
+  org/apache/log4j/xml/log4j.dtd: 8
+  org/bouncycastle/x509/CertPathReviewerMessages.properties: 8
+  org/bouncycastle/x509/CertPathReviewerMessages_de.properties: 8
+doNotCompress:
+- resources.arsc
+- META-INF/androidx.activity_activity.version
+- META-INF/androidx.annotation_annotation-experimental.version
+- META-INF/androidx.appcompat_appcompat-resources.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.arch.core_core-runtime.version
+- META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+- META-INF/androidx.browser_browser.version
+- META-INF/androidx.cardview_cardview.version
+- META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+- META-INF/androidx.core_core-ktx.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.databinding_viewbinding.version
+- META-INF/androidx.documentfile_documentfile.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.dynamicanimation_dynamicanimation.version
+- META-INF/androidx.exifinterface_exifinterface.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.legacy_legacy-support-core-ui.version
+- META-INF/androidx.legacy_legacy-support-core-utils.version
+- META-INF/androidx.legacy_legacy-support-v4.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core.version
+- META-INF/androidx.lifecycle_lifecycle-livedata.version
+- META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.lifecycle_lifecycle-service.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.media_media.version
+- META-INF/androidx.print_print.version
+- META-INF/androidx.privacysandbox.ads_ads-adservices-java.version
+- META-INF/androidx.privacysandbox.ads_ads-adservices.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.room_room-runtime.version
+- META-INF/androidx.savedstate_savedstate.version
+- META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+- META-INF/androidx.sqlite_sqlite-framework.version
+- META-INF/androidx.sqlite_sqlite.version
+- META-INF/androidx.startup_startup-runtime.version
+- META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+- META-INF/androidx.tracing_tracing.version
+- META-INF/androidx.transition_transition.version
+- META-INF/androidx.vectordrawable_vectordrawable-animated.version
+- META-INF/androidx.vectordrawable_vectordrawable.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager2_viewpager2.version
+- META-INF/androidx.viewpager_viewpager.version
+- META-INF/androidx.work_work-runtime.version
+- META-INF/com.google.android.material_material.version
+- META-INF/kotlinx_coroutines_core.version
+- META-INF/services/com.fasterxml.jackson.core.JsonFactory
+- META-INF/services/com.fasterxml.jackson.core.ObjectCodec
+- assets/y2.json
+- webp
+- jpg
+- png
+- mp4
+- assets/perfectme/shader/adjust/fragment_brightness.glsl
+- assets/perfectme/shader/adjust/fragment_contrast.glsl
+- assets/perfectme/shader/adjust/fragment_exposure.glsl
+- assets/perfectme/shader/base/fragment_gaussian_pass.glsl
+- assets/perfectme/shader/base/fragment_image_input.glsl
+- assets/perfectme/shader/base/fragment_normal.glsl
+- assets/perfectme/shader/base/fragment_oes_input.glsl
+- assets/perfectme/shader/base/vertex_normal.glsl
+- assets/perfectme/shader/base/vertex_oes_input.glsl
+- assets/perfectme/shader/beauty/fragment_beauty_blur.glsl
+- assets/perfectme/shader/beauty/fragment_beauty_highpass.glsl
+- assets/perfectme/shader/beauty/fragment_manual_beauty_highpass.glsl
+- assets/perfectme/shader/beauty/vertex_beauty_blur.glsl
+- assets/perfectme/shader/beauty/vertex_beauty_face.glsl
+- assets/perfectme/shader/effect/fragment_effect_glitter_white.glsl
+- assets/perfectme/shader/effect/fragment_effect_illusion.glsl
+- assets/perfectme/shader/effect/fragment_effect_multi_blur.glsl
+- assets/perfectme/shader/effect/fragment_effect_multi_four.glsl
+- assets/perfectme/shader/effect/fragment_effect_multi_six.glsl
+- assets/perfectme/shader/effect/fragment_effect_multi_three.glsl
+- assets/perfectme/shader/effect/fragment_effect_multi_two.glsl
+- assets/perfectme/shader/effect/fragment_effect_scale.glsl
+- assets/perfectme/shader/effect/fragment_effect_soul_stuff.glsl
+- assets/perfectme/shader/face/vertex_face_reshape.glsl
+- assets/perfectme/shader/makeup/vertex_makeup.glsl
+- assets/perfectme/shader/multiframe/fragment_droste.glsl
+- assets/perfectme/shader/multiframe/fragment_frame_blur.glsl
+- assets/perfectme/shader/multiframe/fragment_horizontal_mirror.glsl
+- assets/perfectme/shader/multiframe/fragment_vertical_mirror.glsl
+- assets/perfectme/shader/sticker/fragment_sticker_normal.glsl
+- assets/perfectme/shader/sticker/vertex_sticker_normal.glsl
+- assets/shaders/BaseVertex
+- assets/shaders/FallingStars
+- assets/shaders/Mirror4
+- res/raw/alpha_blend_vs
+- res/raw/alpha_reverse
+- res/raw/blend_color.glsl
+- res/raw/blend_colordodge_fs
+- res/raw/blend_darken_fs
+- res/raw/blend_darkercolor_fs
+- res/raw/blend_difference_fs
+- res/raw/blend_exclusion_fs
+- res/raw/blend_hardmix_fs
+- res/raw/blend_lighten_fs
+- res/raw/blend_lightercolor_fs
+- res/raw/blend_linearburn_fs
+- res/raw/blend_lineardodge_fs
+- res/raw/blend_linearlight_fs
+- res/raw/blend_multiply_fs
+- res/raw/blend_normal_fs
+- res/raw/blend_screen_fs
+- res/raw/blend_subtract_fs
+- res/raw/blend_vs
+- res/raw/cloneshow_fs
+- res/raw/colordots_fsh.glsl
+- res/raw/compare_fs
+- res/raw/compose1_fsh.glsl
+- res/raw/compose2_fsh.glsl
+- res/raw/composite_fs
+- res/raw/custom_fs
+- res/raw/custom_premultiply_fs
+- res/raw/custom_unpremultiply_fs
+- res/raw/custom_vs
+- res/raw/default_ori_frag.glsl
+- res/raw/default_ori_vert.glsl
+- res/raw/default_yflip_frag.glsl
+- res/raw/dispersion_base_fs.glsl
+- res/raw/dispersion_base_vs.glsl
+- res/raw/dispersion_composite_fs.glsl
+- res/raw/dispersion_disperse_mask_fs.glsl
+- res/raw/dispersion_final_fs.glsl
+- res/raw/dispersion_inpaint_mask_fs.glsl
+- res/raw/dispersion_inpaint_vs.glsl
+- res/raw/dispersion_pointsprite_vs.glsl
+- res/raw/edge_detect_fsh.glsl
+- res/raw/edge_detect_fsh2.glsl
+- res/raw/exposure_overlay_adjust.glsl
+- res/raw/facetransform_fs.glsl
+- res/raw/facetransform_vs.glsl
+- res/raw/feather_fs
+- res/raw/filter_glow2_fs.glsl
+- res/raw/filter_screen_blend_fs.glsl
+- res/raw/format_fs.glsl
+- res/raw/format_fs2.glsl
+- res/raw/format_fs_brigten_lip.glsl
+- res/raw/format_gel_fs
+- res/raw/format_vs
+- res/raw/format_vs2.glsl
+- res/raw/four_input_vs
+- res/raw/fragment_sharder.glsl
+- res/raw/gbze_fsh.glsl
+- res/raw/jyi_donggan_filter_fs
+- res/raw/jyi_neon_rotate_fs
+- res/raw/jyi_rotate_magnifier_fs
+- res/raw/jyi_rotate_magnifier_fs_2.glsl
+- res/raw/lgt3col_fsh.glsl
+- res/raw/morph_vs
+- res/raw/motionblur__fs
+- res/raw/mtr_scale3_fsh.glsl
+- res/raw/mtr_scale_fsh.glsl
+- res/raw/mtrbi_fsh.glsl
+- res/raw/mtrdk_fsh.glsl
+- res/raw/mtrdt_fsh.glsl
+- res/raw/mtrgn_fsh.glsl
+- res/raw/mtrpi_fsh.glsl
+- res/raw/mtrsp_fsh.glsl
+- res/raw/normal_egl_fs
+- res/raw/normal_vs
+- res/raw/one_input_vs
+- res/raw/outline_fs
+- res/raw/overlay_gel_fs
+- res/raw/overlay_vs
+- res/raw/pr_aac_fsh.glsl
+- res/raw/pr_abc_fsh.glsl
+- res/raw/pr_abe_fsh.glsl
+- res/raw/pr_abf_fsh.glsl
+- res/raw/pr_abg_fsh.glsl
+- res/raw/pr_adc_fsh.glsl
+- res/raw/pr_add_fsh.glsl
+- res/raw/ps_blend_colordodge.glsl
+- res/raw/ps_blend_darken.glsl
+- res/raw/ps_blend_multiply.glsl
+- res/raw/ps_blend_screen.glsl
+- res/raw/ps_desaturate.glsl
+- res/raw/ps_edge.glsl
+- res/raw/ps_gaussian_blur.glsl
+- res/raw/ps_gaussian_blur_ver.glsl
+- res/raw/ps_grey_scale.glsl
+- res/raw/ps_invert.glsl
+- res/raw/s1_fsh.glsl
+- res/raw/scb_fsh.glsl
+- gif
+- res/raw/shadow_fs
+- res/raw/texel_sharpen_fsh.glsl
+- res/raw/three_input_vs
+- res/raw/two_input_vs
+- res/raw/var_sc_fsh.glsl
+- res/raw/vertext_shader.glsl
+- res/raw/videoplayer_vs
+- res/raw/watermark_fs

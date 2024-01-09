@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topBar" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <ImageView android:id="@id/ivBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_nav_back" android:layout_centerVertical="true" />
+        <lightcone.com.pack.view.AppUITextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tvSettings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Settings" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:background="#ffc1c1c1" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignBottom="@id/topBar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tvAppVersion" android:layout_below="@id/topBar">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/tabVipEvent" android:background="@drawable/ic_launcher_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="280.0dip">
+                <lightcone.com.pack.view.AppUIBoldTextView android:textSize="25.0dip" android:textStyle="bold" android:textColor="#ff7c0002" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/Upgrade_to_Pro" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rvProTips" android:layout_width="wrap_content" android:layout_height="100.0dip" android:layout_marginTop="15.0dip" android:nestedScrollingEnabled="false" />
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="18.0dip" android:textColor="#ffffffff" android:id="@id/tvLifetimeVip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Lifetime_VIP" />
+                    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="18.0dip" android:textColor="#ffffffff" android:id="@id/tvOldPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$13.99" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/tvLifetimeVip" />
+                    <View android:background="#ffff0004" android:layout_width="wrap_content" android:layout_height="2.0dip" android:layout_centerVertical="true" android:layout_alignStart="@id/tvOldPrice" android:layout_alignEnd="@id/tvOldPrice" />
+                </RelativeLayout>
+                <lightcone.com.pack.view.AppUIBoldTextView android:textSize="20.0dip" android:textColor="#ff7c0002" android:gravity="center" android:id="@id/tvSalePrice" android:background="@drawable/ic_launcher_background" android:layout_width="270.0dip" android:layout_height="43.0dip" android:layout_marginTop="10.0dip" android:text="@string/Only_money_Now" />
+            </LinearLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/tabVip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/sidebar_icon_proinfo" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tvPro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Upgrade_to_Pro" android:layout_centerVertical="true" android:layout_marginStart="64.0dip" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_down" android:layout_centerVertical="true" android:rotation="-90.0" android:layout_alignParentEnd="true" />
+                <View android:background="#ffc1c1c1" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/tabTutorials" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/sidebar_icon_tutorials" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tvTutorial" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Tutorials" android:layout_centerVertical="true" android:layout_marginStart="64.0dip" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_down" android:layout_centerVertical="true" android:rotation="-90.0" android:layout_alignParentEnd="true" />
+                <View android:background="#ffc1c1c1" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/tabWatermark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_watermark" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tvWatermark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Watermark" android:layout_centerVertical="true" android:layout_marginStart="64.0dip" />
+                <ImageView android:id="@id/switchWatermark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_smart_switch" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <View android:background="#ffc1c1c1" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/tabSaveHD" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_save_hd_image" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tvSaveHD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Save_HD_Image" android:layout_centerVertical="true" android:layout_marginStart="64.0dip" />
+                <ImageView android:id="@id/switchSaveHD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_smart_switch" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <View android:background="#ffc1c1c1" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/tabToolboxReorder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/sidebar_icon_sort" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tvReorder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Toolbox_Reorder" android:layout_centerVertical="true" android:layout_marginStart="64.0dip" />
+                <View android:background="#ffc1c1c1" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/tabRateUs" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/sidebar_icon_rateus" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tvRate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rate_us" android:layout_centerVertical="true" android:layout_marginStart="64.0dip" />
+                <View android:background="#ffc1c1c1" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/tabShare" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/sidebar_icon_share" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tvShare" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Share" android:layout_centerVertical="true" android:layout_marginStart="64.0dip" />
+                <View android:background="#ffc1c1c1" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/tabPrivacyOpt" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/settting_icon_privacyoption" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tvPrivacyOpt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Privacy_options" android:layout_centerVertical="true" android:layout_marginStart="64.0dip" />
+                <View android:background="#ffc1c1c1" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/tabFeedback" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/sidebar_icon_feedback" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tvFeedback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Feedback" android:layout_centerVertical="true" android:layout_marginStart="64.0dip" />
+                <ImageView android:layout_gravity="top" android:id="@id/tagNewFeedback" android:background="@drawable/page_selected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginStart="2.0dip" android:layout_toEndOf="@id/tvFeedback" />
+                <TextView android:textSize="11.0sp" android:textColor="#ffe6e6e6" android:gravity="center" android:id="@id/tagCountFeedback" android:background="@drawable/setting_feedback_msg_bg" android:layout_width="20.0dip" android:layout_height="18.0dip" android:text="99" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/tagNewFeedback" />
+                <View android:background="#ffc1c1c1" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/tabTemplates" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/sidebar_icon_modify" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tvTemplates" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Modify_templates" android:layout_centerVertical="true" android:layout_marginStart="64.0dip" />
+                <View android:background="#ffc1c1c1" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/tabInstagram" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/finish_icon_ins" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="64.0dip">
+                    <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tvInstagram" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/follow_us" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff333333" android:id="@id/tvInstagramTips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Win_chance_unlocking_vip" />
+                </LinearLayout>
+                <View android:background="#ffc1c1c1" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/tabYoutube" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/setting_icon_youtube" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="64.0dip">
+                    <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tvYoutube" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/follow_us" />
+                </LinearLayout>
+                <View android:background="#ffc1c1c1" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/tabPinterest" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/setting_icon_pinterest" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="64.0dip">
+                    <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tvPinterest" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/follow_us" />
+                </LinearLayout>
+                <View android:background="#ffc1c1c1" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/tabProInfo" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/pay_setting_icon_proinfo" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tvProInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Pro_Info" android:layout_centerVertical="true" android:layout_marginStart="64.0dip" />
+                <View android:background="#ffc1c1c1" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/tabOutput" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/pay_setting_icon_output" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tvOutput" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Output_Format" android:layout_centerVertical="true" android:layout_marginStart="64.0dip" />
+                <View android:background="#ffc1c1c1" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textColor="#ff000000" android:gravity="center" android:id="@id/tvAppVersion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/app_name" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

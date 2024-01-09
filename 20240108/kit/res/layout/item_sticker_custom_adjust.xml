@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="65.0dip" android:layout_height="75.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivShow" android:padding="5.0dip" android:layout_width="65.0dip" android:layout_height="65.0dip" android:scaleType="fitCenter" />
+    <ImageView android:id="@id/ivDelete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:src="@drawable/selector_project_checkbox" android:layout_alignTop="@id/ivShow" android:layout_marginEnd="2.0dip" android:layout_alignEnd="@id/ivShow" />
+</RelativeLayout>

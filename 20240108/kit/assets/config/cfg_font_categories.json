@@ -1,0 +1,2830 @@
+[
+  {
+    "category": "basic",
+    "items": [
+      {
+        "byteCount": 0,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "Default",
+        "displayName": "系统字体常规体",
+        "file": "",
+        "name": "",
+        "preview": {
+          "en": "_en.png",
+          "zh": "_zh.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 62124,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN01",
+        "displayName": "Pinyon Script",
+        "file": "PinyonScript-Regular.ttf",
+        "name": "PinyonScript",
+        "preview": {
+          "en": "PinyonScript.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 70352,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN02",
+        "displayName": "Sandoval-Regular",
+        "file": "sandoval.ttf",
+        "name": "Sandoval-Regular",
+        "preview": {
+          "en": "Sandoval-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 73216,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN03",
+        "displayName": "Vinque-Regular",
+        "file": "vinque.ttf",
+        "name": "Vinque-Regular",
+        "preview": {
+          "en": "Vinque-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 54544,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN04",
+        "displayName": "Shark Ready",
+        "file": "Shark Ready.ttf",
+        "name": "SharkReady",
+        "preview": {
+          "en": "SharkReady.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 81048,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN05",
+        "displayName": "HemiHeadRg-BoldItalic",
+        "file": "hemi head bd it.ttf",
+        "name": "HemiHeadRg-BoldItalic",
+        "preview": {
+          "en": "HemiHeadRg-BoldItalic.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 116520,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN06",
+        "displayName": "Dancing Script Regular",
+        "file": "DancingScript-Regular.ttf",
+        "name": "DancingScript-Regular",
+        "preview": {
+          "en": "DancingScript-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 78492,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN07",
+        "displayName": "BudmoJiggler-Regular",
+        "file": "budmo jiggler.ttf",
+        "name": "BudmoJiggler-Regular",
+        "preview": {
+          "en": "BudmoJiggler-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 68656,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN08",
+        "displayName": "GoodTimesRg-Regular",
+        "file": "good times rg.ttf",
+        "name": "GoodTimesRg-Regular",
+        "preview": {
+          "en": "GoodTimesRg-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 91400,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN09",
+        "displayName": "Oswald-Regular",
+        "file": "Oswald-Regular.ttf",
+        "name": "Oswald-Regular",
+        "preview": {
+          "en": "Oswald-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 151512,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN10",
+        "displayName": "PricedownBl-Regular",
+        "file": "pricedown bl.ttf",
+        "name": "PricedownBl-Regular",
+        "preview": {
+          "en": "PricedownBl-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 44128,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN11",
+        "displayName": "Stentiga-Regular",
+        "file": "stentiga.ttf",
+        "name": "Stentiga-Regular",
+        "preview": {
+          "en": "Stentiga-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 140220,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN12",
+        "displayName": "BudmoJigglish-Regular",
+        "file": "budmo jigglish.ttf",
+        "name": "BudmoJigglish-Regular",
+        "preview": {
+          "en": "BudmoJigglish-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 562696,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN13",
+        "displayName": "Angeline Vintage",
+        "file": "Angeline Vintage_Demo.ttf",
+        "name": "AngelineVintage",
+        "preview": {
+          "en": "AngelineVintage.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 54304,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN14",
+        "displayName": "Shadows Into Light",
+        "file": "ShadowsIntoLight.ttf",
+        "name": "ShadowsIntoLight",
+        "preview": {
+          "en": "ShadowsIntoLight.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 19112,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN15",
+        "displayName": "Bradley Gratis",
+        "file": "Bradley Gratis.ttf",
+        "name": "BradleyGratis",
+        "preview": {
+          "en": "BradleyGratis.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 119128,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN16",
+        "displayName": "Ranga Regular",
+        "file": "Ranga-Regular.ttf",
+        "name": "Ranga-Regular",
+        "preview": {
+          "en": "Ranga-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 70356,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN17",
+        "displayName": "Penguin Attack",
+        "file": "PenguinAttack.ttf",
+        "name": "PenguinAttack",
+        "preview": {
+          "en": "PenguinAttack.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 145888,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN18",
+        "displayName": "Amatic SC Bold",
+        "file": "AmaticSC-Bold.ttf",
+        "name": "AmaticSC-Bold",
+        "preview": {
+          "en": "AmaticSC-Bold.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 75164,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN19",
+        "displayName": "Berylium-Italic",
+        "file": "berylium rg it.ttf",
+        "name": "Berylium-Italic",
+        "preview": {
+          "en": "Berylium-Italic.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 59476,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN20",
+        "displayName": "TapeFlow",
+        "file": "Tape Flow.ttf",
+        "name": "TapeFlow",
+        "preview": {
+          "en": "TapeFlow.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 84896,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN21",
+        "displayName": "Ribeye Marrow",
+        "file": "RibeyeMarrow-Regular.ttf",
+        "name": "RibeyeMarrow-Regular",
+        "preview": {
+          "en": "RibeyeMarrow-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 138448,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN22",
+        "displayName": "MetalLord-Regular",
+        "file": "metal lord.ttf",
+        "name": "MetalLord-Regular",
+        "preview": {
+          "en": "MetalLord-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 442960,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN23",
+        "displayName": "PT Sans",
+        "file": "PT_Sans-Web-Regular.ttf",
+        "name": "PTSans-Regular",
+        "preview": {
+          "en": "PTSans-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 150340,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN24",
+        "displayName": "CarbonPhyber-Regular",
+        "file": "carbon phyber.ttf",
+        "name": "CarbonPhyber-Regular",
+        "preview": {
+          "en": "CarbonPhyber-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 527560,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN25",
+        "displayName": "Fira Sans Black Italic",
+        "file": "FiraSans-BlackItalic.ttf",
+        "name": "FiraSans-BlackItalic",
+        "preview": {
+          "en": "FiraSans-BlackItalic.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 92108,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN26",
+        "displayName": "Hanalei Fill",
+        "file": "HanaleiFill-Regular.ttf",
+        "name": "HanaleiFill-Regular",
+        "preview": {
+          "en": "HanaleiFill-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 75824,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN27",
+        "displayName": "Berylium-BoldItalic",
+        "file": "berylium bd it.ttf",
+        "name": "Berylium-boldItalic",
+        "preview": {
+          "en": "Berylium-boldItalic.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 40184,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN28",
+        "displayName": "GiantTigers-Regular",
+        "file": "giant tigers.ttf",
+        "name": "GiantTigers-Regular",
+        "preview": {
+          "en": "GiantTigers-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 236212,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN29",
+        "displayName": "PlayfairDisplay-Regular",
+        "file": "PlayfairDisplay-Regular.ttf",
+        "name": "PlayfairDisplay-Regular",
+        "preview": {
+          "en": "PlayfairDisplay-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 74568,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN30",
+        "displayName": "PlanetBensonTwo-Regular",
+        "file": "planet benson 2.ttf",
+        "name": "PlanetBensonTwo-Regular",
+        "preview": {
+          "en": "PlanetBensonTwo-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 425188,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN31",
+        "displayName": "Plume",
+        "file": "Plume-Free-Brush-Font.otf",
+        "name": "Plume",
+        "preview": {
+          "en": "Plume.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 127384,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN32",
+        "displayName": "MinyaNouvelle-Italic",
+        "file": "minya nouvelle it.ttf",
+        "name": "MinyaNouvelle-Italic",
+        "preview": {
+          "en": "MinyaNouvelle-Italic.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 124744,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN33",
+        "displayName": "MinyaNouvelle-BoldItalic",
+        "file": "minya nouvelle bd it.ttf",
+        "name": "MinyaNouvelle-boldItalic",
+        "preview": {
+          "en": "MinyaNouvelle-boldItalic.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 91972,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN34",
+        "displayName": "CarbonBl-Regular",
+        "file": "carbon bl.ttf",
+        "name": "CarbonBl-Regular",
+        "preview": {
+          "en": "CarbonBl-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 77008,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN35",
+        "displayName": "Berylium-Bold",
+        "file": "berylium bd.ttf",
+        "name": "Berylium-Bold",
+        "preview": {
+          "en": "Berylium-Bold.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 137072,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN36",
+        "displayName": "Bukhari Script",
+        "file": "Bukhari Script.ttf",
+        "name": "Bukhari-Script",
+        "preview": {
+          "en": "Bukhari-Script.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 77324,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN37",
+        "displayName": "Berylium-Regular",
+        "file": "berylium rg.ttf",
+        "name": "Berylium-Regular",
+        "preview": {
+          "en": "Berylium-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 54008,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN38",
+        "displayName": "SandovalSpeed-Regular",
+        "file": "sandoval speed.ttf",
+        "name": "SandovalSpeed-Regular",
+        "preview": {
+          "en": "SandovalSpeed-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 163388,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN39",
+        "displayName": "Raleway-Regular",
+        "file": "Raleway-Regular.ttf",
+        "name": "Raleway-Regular",
+        "preview": {
+          "en": "Raleway-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 61556,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN40",
+        "displayName": "Indie Flower",
+        "file": "IndieFlower.ttf",
+        "name": "IndieFlower",
+        "preview": {
+          "en": "IndieFlower.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 117500,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN41",
+        "displayName": "DeftoneStylus-Regular",
+        "file": "deftone stylus.ttf",
+        "name": "DeftoneStylus-Regular",
+        "preview": {
+          "en": "DeftoneStylus-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 18060,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN42",
+        "displayName": "Ninja Naruto",
+        "file": "njnaruto.ttf",
+        "name": "Ninja-Naruto",
+        "preview": {
+          "en": "Ninja-Naruto.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 14364,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN43",
+        "displayName": "Aafia Regular",
+        "file": "Aafia.otf",
+        "name": "Aafia-Regular",
+        "preview": {
+          "en": "Aafia-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 63440,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN44",
+        "displayName": "FacileSans",
+        "file": "Facile Sans.otf",
+        "name": "FacileSans",
+        "preview": {
+          "en": "FacileSans.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 25700,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN45",
+        "displayName": "Fontograd Regular",
+        "file": "Fontograd.ttf",
+        "name": "Fontograd-Regular",
+        "preview": {
+          "en": "Fontograd-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 57040,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN46",
+        "displayName": "Covered By Your Grace",
+        "file": "CoveredByYourGrace.ttf",
+        "name": "CoveredByYourGrace",
+        "preview": {
+          "en": "CoveredByYourGrace.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 143268,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN47",
+        "displayName": "Mexcellent-Regular",
+        "file": "mexcellent rg.ttf",
+        "name": "Mexcellent-Regular",
+        "preview": {
+          "en": "Mexcellent-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 110080,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN48",
+        "displayName": "Foo-Regular",
+        "file": "foo.ttf",
+        "name": "Foo-Regular",
+        "preview": {
+          "en": "Foo-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 131508,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN49",
+        "displayName": "MinyaNouvelle-Bold",
+        "file": "minya nouvelle bd.ttf",
+        "name": "MinyaNouvelle-Bold",
+        "preview": {
+          "en": "MinyaNouvelle-Bold.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 142644,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN50",
+        "displayName": "MinyaNouvelle-Regular",
+        "file": "minya nouvelle rg.ttf",
+        "name": "MinyaNouvelle-Regular",
+        "preview": {
+          "en": "MinyaNouvelle-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 2558264,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN51",
+        "displayName": "MotoyaLMaru W3 mono",
+        "file": "小衫圆体.ttf",
+        "name": "MotoyaLMaru-W3-90ms-RKSJ-H",
+        "preview": {
+          "en": "MotoyaLMaru-W3-90ms-RKSJ-H.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 6302056,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": false
+        },
+        "displayCode": "ZH-S01",
+        "displayName": "ZCOOL XiaoWei Regular",
+        "file": "ZCOOLXiaoWei-Regular.ttf",
+        "name": "ZCOOLXiaoWei-Regular",
+        "preview": {
+          "en": "ZCOOLXiaoWei-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 8297476,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-S02",
+        "displayName": "思源黑体 CN Light",
+        "file": "思源黑体CN 细体.otf",
+        "name": "SourceHanSansCN-Light",
+        "preview": {
+          "en": "SourceHanSansCN-Light.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 5856032,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": false
+        },
+        "displayCode": "ZH-S03",
+        "displayName": "Ma Shan Zheng Regular",
+        "file": "MaShanZheng-Regular.ttf",
+        "name": "MaShanZheng-Regular",
+        "preview": {
+          "en": "MaShanZheng-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 1669784,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": false
+        },
+        "displayCode": "ZH-S04",
+        "displayName": "站酷快乐体2016修订版",
+        "file": "站酷快乐体2016修订版_0.ttf",
+        "name": "HappyZcool-2016",
+        "preview": {
+          "en": "HappyZcool-2016.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 8024144,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-S05",
+        "displayName": "清松手寫體1",
+        "file": "清松手寫體01_猫啃网.ttf",
+        "name": "JasonWriting1",
+        "preview": {
+          "en": "JasonWriting1.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 8927464,
+        "charSet": {
+          "ja": true,
+          "ko": true,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-S06",
+        "displayName": "文泉驛等寬正黑",
+        "file": "文泉驿等宽正黑.ttf",
+        "name": "WenQuanYiZenHeiMono",
+        "preview": {
+          "en": "WenQuanYiZenHeiMono.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 5150988,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": false
+        },
+        "displayCode": "ZH-S07",
+        "displayName": "Long Cang Regular",
+        "file": "LongCang-Regular.ttf",
+        "name": "LongCang-Regular",
+        "preview": {
+          "en": "LongCang-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 12278708,
+        "charSet": {
+          "ja": true,
+          "ko": true,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-S08",
+        "displayName": "Unifont",
+        "file": "Unifont点阵黑13.0.01.ttf",
+        "name": "UnifontMedium",
+        "preview": {
+          "en": "UnifontMedium.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 22138540,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-S09",
+        "displayName": "HanaMinA Regular",
+        "file": "HanaMinA.ttf",
+        "name": "HanaMinA",
+        "preview": {
+          "en": "HanaMinA.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 8364840,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-S10",
+        "displayName": "思源黑体 CN Regular",
+        "file": "思源黑体CN 常规.otf",
+        "name": "SourceHanSansCN-Regular",
+        "preview": {
+          "en": "SourceHanSansCN-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 27228580,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN52",
+        "displayName": "HanaMinB Regular",
+        "file": "HanaMinB.ttf",
+        "name": "HanaMinB",
+        "preview": {
+          "en": "HanaMinB.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 8608184,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-S11",
+        "displayName": "思源黑体 CN Bold Bold",
+        "file": "思源黑体CN 粗体.otf",
+        "name": "SourceHanSansCN-Bold",
+        "preview": {
+          "en": "SourceHanSansCN-Bold.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 8390148,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-S12",
+        "displayName": "思源黑体 CN Medium",
+        "file": "思源黑体CN 中等.otf",
+        "name": "SourceHanSansCN-Medium",
+        "preview": {
+          "en": "SourceHanSansCN-Medium.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 41279728,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-S13",
+        "displayName": "BabelStone Han",
+        "file": "BabelStoneHan_猫啃网.ttf",
+        "name": "BabelStoneHan",
+        "preview": {
+          "en": "BabelStoneHan.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 23943188,
+        "charSet": {
+          "ja": true,
+          "ko": true,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-S14",
+        "displayName": "Code2003",
+        "file": "Code2003.ttf",
+        "name": "Code2003",
+        "preview": {
+          "en": "Code2003.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 14663464,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-S15",
+        "displayName": "Resource Han Rounded CN Regular",
+        "file": "ResourceHanRoundedCN-Regular.ttf",
+        "name": "Resource-Han-Rounded-CN-Regular",
+        "preview": {
+          "en": "Resource-Han-Rounded-CN-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 12473708,
+        "charSet": {
+          "ja": true,
+          "ko": true,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-S16",
+        "displayName": "SetoFont",
+        "file": "濑户字体_猫啃网.ttf",
+        "name": "SetoFont",
+        "preview": {
+          "en": "SetoFont.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 4949476,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": false
+        },
+        "displayCode": "ZH-S17",
+        "displayName": "Liu Jian Mao Cao Regular",
+        "file": "钟齐流江毛草.ttf",
+        "name": "LiuJianMaoCao-Regular",
+        "preview": {
+          "en": "LiuJianMaoCao-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 151220,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN53",
+        "displayName": "Bubble3D",
+        "file": "Bubble3D.ttf",
+        "name": "Bubble3D",
+        "preview": {
+          "en": "Bubble3D.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 42488,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN54",
+        "displayName": "Metropolis1920",
+        "file": "Metropolis 1920.otf",
+        "name": "Metropolis1920",
+        "preview": {
+          "en": "Metropolis1920.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 67364,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN55",
+        "displayName": "Abril Fatface",
+        "file": "AbrilFatface-Regular.ttf",
+        "name": "AbrilFatface-Regular",
+        "preview": {
+          "en": "AbrilFatface-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 126244,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN56",
+        "displayName": "Dacquoise-Regular",
+        "file": "dacquoise.ttf",
+        "name": "Dacquoise-Regular",
+        "preview": {
+          "en": "Dacquoise-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 65012,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN57",
+        "displayName": "Grand Hotel",
+        "file": "GrandHotel-Regular.ttf",
+        "name": "GrandHotel-Regular",
+        "preview": {
+          "en": "GrandHotel-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 44832,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN58",
+        "displayName": "Rancho Regular",
+        "file": "Rancho-Regular.ttf",
+        "name": "Rancho-Regular",
+        "preview": {
+          "en": "Rancho-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 24240,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN59",
+        "displayName": "SEA GARDENS ",
+        "file": "SEA_GARDENS.ttf",
+        "name": "SEAGARDENS",
+        "preview": {
+          "en": "SEAGARDENS.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 29180,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN60",
+        "displayName": "Amburegul Banget",
+        "file": "Amburegul.otf",
+        "name": "Amburegul",
+        "preview": {
+          "en": "Amburegul.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 10696136,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": false,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-T01",
+        "displayName": "莫大毛筆-Bold",
+        "file": "Bakudai-Bold.ttf",
+        "name": "Bakudai-Bold",
+        "preview": {
+          "en": "Bakudai-Bold.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 51972,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN61",
+        "displayName": "BlowBrush",
+        "file": "blowbrush.otf",
+        "name": "BlowBrush",
+        "preview": {
+          "en": "BlowBrush.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 51836,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN62",
+        "displayName": "Brewsky",
+        "file": "Brewsky.ttf",
+        "name": "Brewsky",
+        "preview": {
+          "en": "Brewsky.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 278056,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN63",
+        "displayName": "BurnstownDam-Regular",
+        "file": "burnstown dam.ttf",
+        "name": "BurnstownDam-Regular",
+        "preview": {
+          "en": "BurnstownDam-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 59700,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN64",
+        "displayName": "ChickweedTitling-Regular",
+        "file": "chickweed-titling.ttf",
+        "name": "ChickweedTitling-Regular",
+        "preview": {
+          "en": "ChickweedTitling-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 52512,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN65",
+        "displayName": "Chisel Mark",
+        "file": "Chisel-Mark.ttf",
+        "name": "ChiselMark",
+        "preview": {
+          "en": "ChiselMark.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 36880,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN66",
+        "displayName": "ChocolateDealer-Bold",
+        "file": "CHOCD TRIAL___.otf",
+        "name": "ChocolateDealer-Bold",
+        "preview": {
+          "en": "ChocolateDealer-Bold.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 18412,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN67",
+        "displayName": "Commanders",
+        "file": "Commanders.ttf",
+        "name": "Commanders",
+        "preview": {
+          "en": "Commanders.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 51584,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN68",
+        "displayName": "CrackMan-Regular",
+        "file": "crackman.ttf",
+        "name": "CrackMan-Regular",
+        "preview": {
+          "en": "CrackMan-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 124940,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN69",
+        "displayName": "Didact Gothic Regular",
+        "file": "DidactGothic-Regular.otf",
+        "name": "DidactGothic-Regular",
+        "preview": {
+          "en": "DidactGothic-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 133384,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN70",
+        "displayName": "DK Tartufo Regular",
+        "file": "DK Tartufo.otf",
+        "name": "DKTartufo-Regular",
+        "preview": {
+          "en": "DKTartufo-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 23021312,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": false,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-T02",
+        "displayName": "Genkaimincho",
+        "file": "genkai-mincho.ttf",
+        "name": "Genkaimincho",
+        "preview": {
+          "en": "Genkaimincho.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 8953760,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": false,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-T03",
+        "displayName": "I.Ngaan",
+        "file": "I.Ngaan.ttf",
+        "name": "I.Ngaan",
+        "preview": {
+          "en": "I.Ngaan.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 13085420,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": false,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-T04",
+        "displayName": "I.PenCrane-B",
+        "file": "I.PenCrane-B.ttf",
+        "name": "I.PenCrane-B",
+        "preview": {
+          "en": "I.PenCrane-B.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 2879376,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": false
+        },
+        "displayCode": "ZH-S18",
+        "displayName": "IPix",
+        "file": "IPix中文像素字体.ttf",
+        "name": "IPix",
+        "preview": {
+          "en": "IPix.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 7366180,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": false,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-T05",
+        "displayName": "jf open 粉圓 1.0",
+        "file": "jf-openhuninn-1.0.ttf",
+        "name": "jf-openhuninn-1.0",
+        "preview": {
+          "en": "jf-openhuninn-1.0.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 184672,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN71",
+        "displayName": "LemonTuesday",
+        "file": "Lemon-Tuesday.otf",
+        "name": "LemonTuesday",
+        "preview": {
+          "en": "LemonTuesday.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 96424,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN72",
+        "displayName": "MadLines",
+        "file": "MadLines.ttf",
+        "name": "MadLines",
+        "preview": {
+          "en": "MadLines.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 14416,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN73",
+        "displayName": "Marchesa",
+        "file": "Marchesa.otf",
+        "name": "Marchesa",
+        "preview": {
+          "en": "Marchesa.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 13836832,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": false,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-T06",
+        "displayName": "内海フォント-Regular",
+        "file": "NaikaiFont-Regular.ttf",
+        "name": "NaikaiFont-Regular",
+        "preview": {
+          "en": "NaikaiFont-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 43748,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN74",
+        "displayName": "Nickainley-Normal",
+        "file": "Nickainley-Normal.otf",
+        "name": "Nickainley-Normal",
+        "preview": {
+          "en": "Nickainley-Normal.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 44228,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN75",
+        "displayName": "Oh,Maria Bold",
+        "file": "OhMaria_Bold.ttf",
+        "name": "OhMaria-Bold",
+        "preview": {
+          "en": "OhMaria-Bold.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 87000,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN76",
+        "displayName": "Oregano Italic",
+        "file": "Oregano-Italic.ttf",
+        "name": "Oregano-Italic",
+        "preview": {
+          "en": "Oregano-Italic.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 80320,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN77",
+        "displayName": "Oregano",
+        "file": "Oregano-Regular.ttf",
+        "name": "Oregano-Regular",
+        "preview": {
+          "en": "Oregano-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 42820,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN78",
+        "displayName": "Playball",
+        "file": "Playball.ttf",
+        "name": "Playball-Regular",
+        "preview": {
+          "en": "Playball-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 36636,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN79",
+        "displayName": "Rise of Kingdom",
+        "file": "Rise_of_Kingdom.ttf",
+        "name": "RiseofKingdom",
+        "preview": {
+          "en": "RiseofKingdom.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 67972,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN80",
+        "displayName": "Teen-Regular",
+        "file": "teen.ttf",
+        "name": "Teen-Regular",
+        "preview": {
+          "en": "Teen-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 244264,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN81",
+        "displayName": "UrbanJungleDEMO",
+        "file": "UrbanJungleDEMO.otf",
+        "name": "UrbanJungleDEMO",
+        "preview": {
+          "en": "UrbanJungleDEMO.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 87912,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN82",
+        "displayName": "WorldofWater-Regular",
+        "file": "world of water.ttf",
+        "name": "WorldofWater-Regular",
+        "preview": {
+          "en": "WorldofWater-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 64856,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN83",
+        "displayName": "Yesteryear",
+        "file": "Yesteryear-Regular.ttf",
+        "name": "Yesteryear-Regular",
+        "preview": {
+          "en": "Yesteryear-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 6227568,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": false
+        },
+        "displayCode": "ZH-S19",
+        "displayName": "包图小白体",
+        "file": "包图小白体.ttf",
+        "name": "baotuxiaobaiti",
+        "preview": {
+          "en": "baotuxiaobaiti.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 4576532,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": false,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-T07",
+        "displayName": "同文新字典体",
+        "file": "同文新字典体.ttf",
+        "name": "dejima-tsu3",
+        "preview": {
+          "en": "dejima-tsu3.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 12853412,
+        "charSet": {
+          "ja": true,
+          "ko": true,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-S20",
+        "displayName": "文泉驛正黑",
+        "file": "文泉驿正黑.ttf",
+        "name": "WenQuanYiZenHei",
+        "preview": {
+          "en": "WenQuanYiZenHei.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 8312128,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": true,
+          "zh-Hant": false
+        },
+        "displayCode": "ZH-S21",
+        "displayName": "ZCOOL QingKe HuangYou Regular",
+        "file": "ZCOOLQingKeHuangYou-Regular.ttf",
+        "name": "ZCOOLQingKeHuangYou-Regular",
+        "preview": {
+          "en": "ZCOOLQingKeHuangYou-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 10520732,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": false,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-T08",
+        "displayName": "王汉宗中魏碑简",
+        "file": "王汉宗中魏碑简.ttf",
+        "name": "HanWang-WeiBeiMedium-Gb5",
+        "preview": {
+          "en": "HanWang-WeiBeiMedium-Gb5.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 11043008,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": false,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-T09",
+        "displayName": "王漢宗仿宋體一標準",
+        "file": "王汉宗仿宋体标准_猫啃网.ttf",
+        "name": "HanWangWCL06",
+        "preview": {
+          "en": "HanWangWCL06.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 12714396,
+        "charSet": {
+          "ja": true,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": false,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-T10",
+        "displayName": "王漢宗粗鋼體一標準",
+        "file": "王汉宗粗钢体-标准.ttf",
+        "name": "HanWangWCL07",
+        "preview": {
+          "en": "HanWangWCL07.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 9535468,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": false,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-T11",
+        "displayName": "王汉宗细新宋简",
+        "file": "王汉宗细新宋简.ttf",
+        "name": "HanWang-SinSongThin-Gb5",
+        "preview": {
+          "en": "HanWang-SinSongThin-Gb5.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 8878332,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": false,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-T12",
+        "displayName": "王漢宗超明體繁",
+        "file": "王汉宗超明体繁.ttf",
+        "name": "HanWangMingBlack",
+        "preview": {
+          "en": "HanWangMingBlack.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 6278764,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": false,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-T13",
+        "displayName": "王漢宗鋼筆行楷繁",
+        "file": "王汉宗钢笔行楷繁.ttf",
+        "name": "HanWangGB06",
+        "preview": {
+          "en": "HanWangGB06.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 8573804,
+        "charSet": {
+          "ja": false,
+          "ko": false,
+          "zh": true,
+          "zh-Hans": false,
+          "zh-Hant": true
+        },
+        "displayCode": "ZH-T14",
+        "displayName": "王漢宗顏楷體繁",
+        "file": "王汉宗颜楷体繁.ttf",
+        "name": "HanWangYanKai",
+        "preview": {
+          "en": "HanWangYanKai.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 233816,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN84",
+        "displayName": "3M Trislan",
+        "file": "3M-Trislan.ttf",
+        "name": "3MTrislan",
+        "preview": {
+          "en": "3MTrislan.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 85184,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN85",
+        "displayName": "Barlow Semi Condensed Medium",
+        "file": "BarlowSemiCondensed-Medium.ttf",
+        "name": "BarlowSemiCondensed-Medium",
+        "preview": {
+          "en": "BarlowSemiCondensed-Medium.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 98832,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN86",
+        "displayName": "BioRhyme Bold",
+        "file": "BioRhyme-Bold.ttf",
+        "name": "BioRhyme-Bold",
+        "preview": {
+          "en": "BioRhyme-Bold.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 71364,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN87",
+        "displayName": "Chakra Petch Bold",
+        "file": "ChakraPetch-Bold.ttf",
+        "name": "ChakraPetch-Bold",
+        "preview": {
+          "en": "ChakraPetch-Bold.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 73708,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN88",
+        "displayName": "Chakra Petch Italic",
+        "file": "ChakraPetch-Italic.ttf",
+        "name": "ChakraPetch-Italic",
+        "preview": {
+          "en": "ChakraPetch-Italic.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 71808,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN89",
+        "displayName": "Chakra Petch Light",
+        "file": "ChakraPetch-Light.ttf",
+        "name": "ChakraPetch-Light",
+        "preview": {
+          "en": "ChakraPetch-Light.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 101372,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN90",
+        "displayName": "Charmonman Bold",
+        "file": "Charmonman-Bold.ttf",
+        "name": "Charmonman-Bold",
+        "preview": {
+          "en": "Charmonman-Bold.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 60664,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN91",
+        "displayName": "Cinzel Decorative Black",
+        "file": "CinzelDecorative-Black.ttf",
+        "name": "CinzelDecorative-Black",
+        "preview": {
+          "en": "CinzelDecorative-Black.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 82012,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN92",
+        "displayName": "Comic Neue Normal",
+        "file": "Comic Neue.ttf",
+        "name": "ComicNeue",
+        "preview": {
+          "en": "ComicNeue.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 369216,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN93",
+        "displayName": "Cormorant SC Bold",
+        "file": "CormorantSC-Bold.ttf",
+        "name": "CormorantSC-Bold",
+        "preview": {
+          "en": "CormorantSC-Bold.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 64716,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN94",
+        "displayName": "Fondamento-Italic",
+        "file": "Fondamento-Italic.ttf",
+        "name": "Fondamento-Italic",
+        "preview": {
+          "en": "Fondamento-Italic.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 84160,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN95",
+        "displayName": "Fondamento Regular",
+        "file": "Fondamento-Regular.ttf",
+        "name": "Fondamento-Regular",
+        "preview": {
+          "en": "Fondamento-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 80500,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN96",
+        "displayName": "Henny Penny",
+        "file": "HennyPenny-Regular.ttf",
+        "name": "HennyPenny-Regular",
+        "preview": {
+          "en": "HennyPenny-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 58416,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN97",
+        "displayName": "Josefin Sans Bold",
+        "file": "JosefinSans-Bold.ttf",
+        "name": "JosefinSans-Bold",
+        "preview": {
+          "en": "JosefinSans-Bold.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 62568,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN98",
+        "displayName": "Josefin Sans Bold Italic",
+        "file": "JosefinSans-BoldItalic.ttf",
+        "name": "JosefinSans-BoldItalic",
+        "preview": {
+          "en": "JosefinSans-BoldItalic.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 34920,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN99",
+        "displayName": "Nothing You Could Do",
+        "file": "NothingYouCouldDo.ttf",
+        "name": "NothingYouCouldDo",
+        "preview": {
+          "en": "NothingYouCouldDo.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 33624,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN100",
+        "displayName": "Passero One",
+        "file": "PasseroOne-Regular.ttf",
+        "name": "PasseroOne-Regular",
+        "preview": {
+          "en": "PasseroOne-Regular.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 359048,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN101",
+        "displayName": "PT Serif",
+        "file": "PT Serif.ttf",
+        "name": "PTSerif-Regular",
+        "preview": {
+          "en": "PTSerif-Regular.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 274120,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN102",
+        "displayName": "QumpellkaNo12",
+        "file": "QumpellkaNo12.otf",
+        "name": "QumpellkaNo12",
+        "preview": {
+          "en": "QumpellkaNo12.png"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 293908,
+        "charSet": {
+          "ar": false,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "EN103",
+        "displayName": "Spectral Bold",
+        "file": "Spectral-Bold.ttf",
+        "name": "Spectral-Bold",
+        "preview": {
+          "en": "Spectral-Bold.png"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 531356,
+        "charSet": {
+          "ar": true,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "AR01",
+        "displayName": "Amiri Bold",
+        "file": "Amiri-Bold.ttf",
+        "name": "Amiri-Bold",
+        "preview": {
+          "en": "Amiri-Bold.png",
+          "fa": "Amiri-Bold-fa"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 553832,
+        "charSet": {
+          "ar": true,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "AR02",
+        "displayName": "Amiri Regular",
+        "file": "Amiri-Regular.ttf",
+        "name": "Amiri-Regular",
+        "preview": {
+          "en": "Amiri-Regular.png",
+          "fa": "Amiri-Regular-fa"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 101124,
+        "charSet": {
+          "ar": true,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "AR03",
+        "displayName": "Changa Bold",
+        "file": "Changa-Bold.ttf",
+        "name": "Changa-Bold",
+        "preview": {
+          "en": "Changa-Bold.png",
+          "fa": "Changa-Bold-fa"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 100764,
+        "charSet": {
+          "ar": true,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "AR04",
+        "displayName": "Changa Regular",
+        "file": "Changa-Regular.ttf",
+        "name": "Changa-Regular",
+        "preview": {
+          "en": "Changa-Regular.png",
+          "fa": "Changa-Regular-fa"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 116936,
+        "charSet": {
+          "ar": true,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "AR05",
+        "displayName": "ElMessiri-Regular",
+        "file": "ElMessiri-Regular.ttf",
+        "name": "ElMessiri-Regular",
+        "preview": {
+          "en": "ElMessiri-Regular.png",
+          "fa": "ElMessiri-Regular-fa"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 280008,
+        "charSet": {
+          "ar": true,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "AR06",
+        "displayName": "Lalezar-Regular",
+        "file": "Lalezar-Regular.ttf",
+        "name": "Lalezar-Regular",
+        "preview": {
+          "en": "Lalezar-Regular.png",
+          "fa": "Lalezar-Regular-fa"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 39988,
+        "charSet": {
+          "ar": true,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "AR07",
+        "displayName": "Mada ExtraLight",
+        "file": "Mada-ExtraLight.ttf",
+        "name": "Mada-ExtraLight",
+        "preview": {
+          "en": "Mada-ExtraLight.png",
+          "fa": "Mada-ExtraLight-fa"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 39808,
+        "charSet": {
+          "ar": true,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "AR08",
+        "displayName": "Mada Light",
+        "file": "Mada-Light.ttf",
+        "name": "Mada-Light",
+        "preview": {
+          "en": "Mada-Light.png",
+          "fa": "Mada-Light-fa"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 39764,
+        "charSet": {
+          "ar": true,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "AR09",
+        "displayName": "Mada Regular",
+        "file": "Mada-Regular.ttf",
+        "name": "Mada-Regular",
+        "preview": {
+          "en": "Mada-Regular.png",
+          "fa": "Mada-Regular-fa"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 137172,
+        "charSet": {
+          "ar": true,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "AR10",
+        "displayName": "Markazi Text Bold",
+        "file": "MarkaziText-Bold.ttf",
+        "name": "MarkaziText-Bold",
+        "preview": {
+          "en": "MarkaziText-Bold.png",
+          "fa": "MarkaziText-Bold-fa"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 137124,
+        "charSet": {
+          "ar": true,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "AR11",
+        "displayName": "Markazi Text Regular",
+        "file": "MarkaziText-Regular.ttf",
+        "name": "MarkaziText-Regular",
+        "preview": {
+          "en": "MarkaziText-Regular.png",
+          "fa": "MarkaziText-Regular-fa"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 57868,
+        "charSet": {
+          "ar": true,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "AR12",
+        "displayName": "Reem Kufi Regular",
+        "file": "ReemKufi-Regular.ttf",
+        "name": "ReemKufi-Regular",
+        "preview": {
+          "en": "ReemKufi-Regular.png",
+          "fa": "ReemKufi-Regular-fa"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 318876,
+        "charSet": {
+          "ar": true,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "AR13",
+        "displayName": "Scheherazade Bold",
+        "file": "Scheherazade-Bold.ttf",
+        "name": "Scheherazade-Bold",
+        "preview": {
+          "en": "Scheherazade-Bold.png",
+          "fa": "Scheherazade-Bold-fa"
+        },
+        "pro": 1
+      },
+      {
+        "byteCount": 282516,
+        "charSet": {
+          "ar": true,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "AR14",
+        "displayName": "Scheherazade",
+        "file": "Scheherazade-Regular.ttf",
+        "name": "Scheherazade-Regular",
+        "preview": {
+          "en": "Scheherazade-Regular.png",
+          "fa": "Scheherazade-Regular-fa"
+        },
+        "pro": 0
+      },
+      {
+        "byteCount": 71900,
+        "charSet": {
+          "ar": true,
+          "ja": false,
+          "ko": false,
+          "zh": false,
+          "zh-Hans": false,
+          "zh-Hant": false
+        },
+        "displayCode": "AR15",
+        "displayName": "Vibes Regular",
+        "file": "Vibes-Regular.ttf",
+        "name": "Vibes-Regular",
+        "preview": {
+          "en": "Vibes-Regular.png",
+          "fa": "Vibes-Regular-fa"
+        },
+        "pro": 1
+      }
+    ]
+  }
+]

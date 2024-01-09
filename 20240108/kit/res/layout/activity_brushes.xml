@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mainContainer" android:background="#ff010013" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/topBar" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <lightcone.com.pack.view.AppUITextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Brushes" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bottomBar" android:layout_width="fill_parent" android:layout_height="164.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <ImageView android:id="@id/ivUndo" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/selector_btn_edit_backward" android:scaleType="center" android:layout_alignParentBottom="true" />
+            <ImageView android:id="@id/ivRedo" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/selector_btn_edit_forward" android:scaleType="center" android:layout_alignParentBottom="true" android:layout_toEndOf="@id/ivUndo" />
+            <ImageView android:id="@id/ivErase" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/btn_eraser" android:scaleType="center" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            <ImageView android:id="@id/ivEditEye" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/selector_btn_edit_eye" android:scaleType="center" android:layout_toLeftOf="@id/ivErase" android:layout_alignParentBottom="true" />
+            <ImageView android:id="@id/ivBrushSetting" android:visibility="gone" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/btn_settings" android:scaleType="center" android:layout_toLeftOf="@id/ivEditEye" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvGroups" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginTop="44.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/btnDone" android:layout_below="@id/rvGroups" />
+        <ImageView android:id="@id/btnCancel" android:background="#ff010013" android:layout_width="wrap_content" android:layout_height="30.0dip" android:src="@drawable/bottom_btn_cancel" android:scaleType="centerInside" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/btnDone" android:background="#ff010013" android:layout_width="wrap_content" android:layout_height="30.0dip" android:src="@drawable/bottom_btn_done" android:scaleType="centerInside" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/tabBrushSetting" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginTop="44.0dip">
+            <RadioButton android:textSize="10.0sp" android:textColor="@drawable/selector_edit_group_color" android:gravity="center" android:id="@id/rbBrushScale" android:background="@drawable/selector_edit_group_bg" android:layout_width="0.0dip" android:layout_height="25.0dip" android:checked="true" android:button="@null" android:text="@string/Scale" android:drawableBottom="@drawable/selector_edit_group_line" android:layout_weight="1.0" />
+            <RadioButton android:textSize="10.0sp" android:textColor="@drawable/selector_edit_group_color" android:gravity="center" android:id="@id/rbBrushRadius" android:background="@drawable/selector_edit_group_bg" android:layout_width="0.0dip" android:layout_height="25.0dip" android:button="@null" android:text="@string/Radius" android:drawableBottom="@drawable/selector_edit_group_line" android:layout_weight="1.0" />
+            <RadioButton android:textSize="10.0sp" android:textColor="@drawable/selector_edit_group_color" android:gravity="center" android:id="@id/rbBrushDensity" android:background="@drawable/selector_edit_group_bg" android:layout_width="0.0dip" android:layout_height="25.0dip" android:button="@null" android:text="@string/Density" android:drawableBottom="@drawable/selector_edit_group_line" android:layout_weight="1.0" />
+            <RadioButton android:textSize="10.0sp" android:textColor="@drawable/selector_edit_group_color" android:gravity="center" android:id="@id/rbBrushOpacity" android:background="@drawable/selector_edit_group_bg" android:layout_width="0.0dip" android:layout_height="25.0dip" android:button="@null" android:text="@string/Opacity" android:drawableBottom="@drawable/selector_edit_group_line" android:layout_weight="1.0" />
+        </RadioGroup>
+        <SeekBar android:id="@id/seekBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:maxHeight="5.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="5.0dip" android:thumb="@drawable/thickness_adjust_circle" android:layout_above="@id/rlEraserMenu" android:layout_below="@id/tabBrushSetting" android:splitTrack="false" />
+        <ImageView android:id="@id/btnBrushesSettingDone" android:background="#ff010013" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:src="@drawable/bottom_btn_done" android:scaleType="centerInside" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/rlEraserMenu" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_alignParentBottom="true">
+            <RadioButton android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:checked="true" android:button="@null" android:src="@drawable/icon_eraser_erase" android:scaleType="centerInside" android:text="@string/Swipe_to_Eraser" android:drawableLeft="@drawable/eraser_icon_erase" android:drawablePadding="10.0dip" android:layout_above="@id/btnEraserDone" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/btnEraserDone" android:background="#ff010013" android:layout_width="fill_parent" android:layout_height="30.0dip" android:src="@drawable/bottom_btn_done" android:scaleType="centerInside" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/container" android:background="#ff010013" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottomBar" android:layout_below="@id/topBar">
+        <View android:background="@drawable/image_grid_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <lightcone.com.pack.view.MyImageView android:id="@id/ivImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" />
+        <RelativeLayout android:id="@id/brushesLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <lightcone.com.pack.view.BrushesView android:id="@id/brushesView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <lightcone.com.pack.view.TouchMatrixView android:id="@id/touchDoodleView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/brushContainer" android:background="#66000000" android:visibility="invisible" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_centerInParent="true">
+            <lightcone.com.pack.view.BrushShowView android:id="@id/brushShowView" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_centerInParent="true" app:particleCount="6" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/radiusContainer" android:background="#66000000" android:visibility="invisible" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_centerInParent="true">
+            <lightcone.com.pack.view.CircleColorView android:id="@id/radiusView" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/tabLottie" android:background="#80000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/animation_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:lottie_autoPlay="false" app:lottie_fileName="lottie_finger_tap.json" app:lottie_loop="false" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+</RelativeLayout>

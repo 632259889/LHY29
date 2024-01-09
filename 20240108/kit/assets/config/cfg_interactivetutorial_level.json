@@ -1,0 +1,72 @@
+[
+  {
+    "lvl": 1,
+    "exp": 0,
+    "msg": {
+      "en": "Welcome to PicsKit! Watch tutorials to get started!",
+      "ja": "PicsKitへようこそ！ チュートリアルをご覧ください。",
+      "ms": "Selamat datang ke PicsKit! Tonton tutorial untuk bermula!",
+      "zh": "欢迎萌新！点击教程学习，开始创作之旅！",
+      "zh-Hant": "歡迎萌新！點擊教程學習，開始創作之旅！",
+      "ru": "Добро пожаловать в PicsKit! Смотреть учебники, чтобы начать!",
+      "es": "¡Bienvenido a PicsKit! Mira los tutoriales para empezar!",
+      "in": "Selamat datang! Tonton tutorial untuk memulai!"
+    }
+  },
+  {
+    "lvl": 2,
+    "exp": 80,
+    "msg": {
+      "en": "Great! Learn more to find out more magic of PicsKit!",
+      "ja": "すごい！ PicsKitの魔法を見つけましょう！",
+      "ms": "Hebat! Pergi mencari lebih keajaiban PicsKit!",
+      "zh": "您已入门PicsKit！学习更多技能，继续进击！",
+      "zh-Hant": "您已入門PicsKit！學習更多技能，繼續進擊！",
+      "ru": "Здорово! Узнайте больше о волшебстве PicsKit!",
+      "es": "¡Grandioso! Aprende más para descubrir más magia de PicsKit!",
+      "in": "Bagus! Terus dan pelajari lebih lanjut!"
+    }
+  },
+  {
+    "lvl": 3,
+    "exp": 180,
+    "msg": {
+      "en": "Basic skills completed! Let's get to core skills now!",
+      "ja": "おめでとう！ さあ、コアスキルを身に付けましょう。",
+      "ms": "Tahniah! Mari dapatkan kemahiran teras sekarang!",
+      "zh": "太棒了，即将成为PicsKit达人！",
+      "zh-Hant": "太棒了，即將成為PicsKit達人！",
+      "ru": "Базовые навыки получаем! Давайте перейдем к основным навыкам сейчас!",
+      "es": "¡Las habilidades básicas se consiguen! ¡Vamos a las habilidades básicas ahora!",
+      "in": "Keterampilan dasar selesai! Masih di jalan."
+    }
+  },
+  {
+    "lvl": 4,
+    "exp": 300,
+    "msg": {
+      "en": "Wonderful! On the way to master PicsKit already!",
+      "ja": "素晴らしい！ すでにPicsKitをマスターしようとしています！",
+      "ms": "Hebat! Dalam perjalanan untuk menguasai PicsKit sudah!",
+      "zh": "探索更多技能，让PicsKit成为设计利器！",
+      "zh-Hant": "探索更多技能，讓PicsKit成為設計利器！",
+      "ru": "Чудесно! Уже на пути к освоению PicsKit!",
+      "es": "¡Maravilloso! ¡En camino para dominar PicsKit ya!",
+      "in": "Hebat! Dalam perjalanan untuk menguasai PicsKit!"
+    }
+  },
+  {
+    "lvl": 5,
+    "exp": 390,
+    "msg": {
+      "en": "Getting closer to a PicsKit champ!",
+      "ja": "PicsKitチャンピオンに近づく！",
+      "ms": "Mendapatkan lebih dekat dengan juara PicsKit!",
+      "zh": "您的PicsKit技术已经炉火纯青！",
+      "zh-Hant": "您的PicsKit技術已經爐火純青！",
+      "ru": "Приближаемся к чемпиону PicsKit!",
+      "es": "¡Acercándonos a un campeón de PicsKit!",
+      "in": "Semakin dekat untuk menjadi Master PicsKit!"
+    }
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "name": "100+\nFilters",
+    "localizedCategory": {
+      "es": "100+\nFiltros",
+      "in": "100+\nFilters",
+      "ja": "100+\nフィルター",
+      "ms": "100+\nPenapis",
+      "ru": "100+\nфильтры",
+      "zh": "100+\n滤镜",
+      "zh-Hant": "100+\n濾鏡"
+    },
+    "thumbnail": "features_filter.webp",
+    "thumbnail1": "100+ filters_160x160.webp"
+  },
+  {
+    "name": "Glitch\nEffects",
+    "localizedCategory": {
+      "es": "Glitch\nEfectos",
+      "in": "Kesalahan\nEfek",
+      "ja": "グリッチ\n効果",
+      "ms": "Glitch\nKesan",
+      "ru": "Сбой\nПоследствия",
+      "zh": "故障\n特效",
+      "zh-Hant": "故障\n特效"
+    },
+    "thumbnail": "features_effects.webp",
+    "thumbnail1": "glitch effects_160x160.webp"
+  },
+  {
+    "name": "Pro\nBlending",
+    "localizedCategory": {
+      "es": "Pro\nMezcla",
+      "in": "Pro\nMemadukan",
+      "ja": "プロ\nブレンド",
+      "ms": "Pro\nCampuran",
+      "ru": "профессионал\nсмешивание",
+      "zh": "专业\n混合",
+      "zh-Hant": "專業\n混合"
+    },
+    "thumbnail": "features_mixture.webp",
+    "thumbnail1": "pro blending_160x160.webp"
+  },
+  {
+    "name": "40+\nBrushes",
+    "localizedCategory": {
+      "es": "40+\nCepillos",
+      "in": "40+\nSikat",
+      "ja": "40+\nブラシ",
+      "ms": "40+\nBerus",
+      "ru": "40+\nКисти",
+      "zh": "40+\n笔刷",
+      "zh-Hant": "40+\n筆刷"
+    },
+    "thumbnail": "features_brushes.webp",
+    "thumbnail1": "40+ brushes_160x160.webp"
+  },
+  {
+    "name": "300+\nStickers",
+    "localizedCategory": {
+      "es": "300+\nPegatinas",
+      "in": "300+\nStiker",
+      "ja": "300+\nステッカー",
+      "ms": "300+\nPelekat",
+      "ru": "300+\nНаклейки",
+      "zh": "300+\n贴纸",
+      "zh-Hant": "300+\n貼紙"
+    },
+    "thumbnail": "features_stickers.webp",
+    "thumbnail1": "300+ stickers_160x160.webp"
+  },
+  {
+    "name": "Auto\nEraser",
+    "localizedCategory": {
+      "es": "Auto\nBorrador",
+      "in": "Penghapus\nOtomatis",
+      "ja": "オート\n消しゴム",
+      "ms": "Eraser\nKereta",
+      "ru": "Авто\nластик",
+      "zh": "智能\n橡皮擦",
+      "zh-Hant": "智能\n橡皮擦"
+    },
+    "thumbnail": "features_matting.webp",
+    "thumbnail1": "auto eraser_160x160.webp"
+  },
+  {
+    "name": "Save in\nHD",
+    "localizedCategory": {
+      "es": "Guardar En\nHD",
+      "in": "Simpan\nHD",
+      "ja": "保存する\nHD画像",
+      "ms": "Simpan dalam\nHD",
+      "ru": "Сохранить в\nHD",
+      "zh": "高清\n保存",
+      "zh-Hant": "高清\n保存"
+    },
+    "thumbnail": "features_hdimages.webp",
+    "thumbnail1": ""
+  },
+  {
+    "name": "Remove\nAds",
+    "localizedCategory": {
+      "es": "Eliminar Los\nAnuncios",
+      "in": "Hilangkan\niklan",
+      "ja": "削除する\n広告",
+      "ms": "Keluarkan\nIklan",
+      "ru": "Удалить\nобъявления",
+      "zh": "广告\n去除",
+      "zh-Hant": "廣告\n去除"
+    },
+    "thumbnail": "features_ad.webp",
+    "thumbnail1": "remove ads_160x160.webp"
+  },
+  {
+    "name": "Artistic\nFilters",
+    "localizedCategory": {
+      "es": "Filtros\nArtísticos",
+      "in": "Filter\nArtistik",
+      "ja": "芸術的\nフィルター",
+      "ms": "Penapis\nArtistik",
+      "ru": "Художественные\nФильтры",
+      "zh": "艺术\n滤镜",
+      "zh-Hant": "藝術\n濾鏡"
+    },
+    "thumbnail": "features_art.webp",
+    "thumbnail1": "artistic filters_160x160.webp"
+  },
+  {
+    "name": "Cut-out\nShapes",
+    "localizedCategory": {
+      "es": "Formas\nRecortadas",
+      "in": "Bentuk\nCut-out",
+      "ja": "切り取る\n形",
+      "ms": "Bentuk\nPotong",
+      "ru": "Формы\nвыреза",
+      "zh": "特殊\n裁剪",
+      "zh-Hant": "特殊\n裁剪"
+    },
+    "thumbnail": "features_shape.webp",
+    "thumbnail1": "cut-out shapes_160x160.webp"
+  },
+  {
+    "name": "Auto\nCutout",
+    "localizedCategory": {
+      "es": "Auto\nCuttout",
+      "in": "Potongan\notomatis",
+      "ja": "オート\n切り取る",
+      "ms": "Cutout\nAuto",
+      "ru": "Авто\nCutout",
+      "zh": "智能\n抠图",
+      "zh-Hant": "智能\n摳圖"
+    },
+    "thumbnail": "features_auto_cutout.webp",
+    "thumbnail1": ""
+  },
+  {
+    "name": "Watercolor\nFilters",
+    "localizedCategory": {
+      "es": "Filtros De \nAcuarela",
+      "in": "Cat air\nFilters",
+      "ja": "水彩\nフィルター",
+      "ms": "Cat air\nPenapis",
+      "ru": "Акварельные\nфильтры",
+      "zh": "水彩\n滤镜",
+      "zh-Hant": "水彩\n濾鏡"
+    },
+    "thumbnail": "features_watercolor.webp",
+    "thumbnail1": ""
+  },
+  {
+    "name": "Filling\nPatterns",
+    "localizedCategory": {
+      "es": "Patrones De\nLlenado",
+      "in": "Mengisi\nPola",
+      "ja": "充填\nパターン",
+      "ms": "Pengisian\nCorak",
+      "ru": "Заполнить\nшаблоны",
+      "zh": "多种填充\n样式",
+      "zh-Hant": "多種填充\n樣式"
+    },
+    "thumbnail": "features_filling_pattern.webp",
+    "thumbnail1": ""
+  },
+  {
+    "name": "Sky\nFilters",
+    "localizedCategory": {
+      "es": "Filtros\nDel Cielo",
+      "in": "Langit\nFilters",
+      "ja": "空\nフィルター",
+      "ms": "Langit\nPenapis",
+      "ru": "Фильтры\nнеба",
+      "zh": "天空\n滤镜",
+      "zh-Hant": "天空\n濾鏡"
+    },
+    "thumbnail": "features_sky_filter.webp",
+    "thumbnail1": "sky filters_160x160.webp"
+  },
+  {
+    "name": "100+\nCollages",
+    "localizedCategory": {
+      "es": "100+\nCollages",
+      "in": "100+\nKolase",
+      "ja": "100+\nコラージュ",
+      "ms": "100+\nKolaj",
+      "ru": "100+\nКоллажи",
+      "zh": "100+\n拼图",
+      "zh-Hant": "100+\n拼圖"
+    },
+    "thumbnail": "store_collage_bg.webp",
+    "thumbnail1": "collage grids_160x160.webp"
+  },
+  {
+    "name": "Face\nTune",
+    "localizedCategory": {
+      "es": "Sintonía De\nLa cara",
+      "in": "Face\nTune",
+      "ja": "顔の\nレタッチ",
+      "ms": "Retouch\nmuka",
+      "ru": "Настройка\nлица",
+      "zh": "人像\n修图",
+      "zh-Hant": "人像\n修圖"
+    },
+    "thumbnail": "store_exportportrait_bg.webp",
+    "thumbnail1": "facetune_160x160.webp"
+  }
+]

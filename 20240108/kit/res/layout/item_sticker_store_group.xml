@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivPreview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/ic_launcher" android:scaleType="fitCenter" android:layout_centerHorizontal="true" app:riv_border_color="#ffdddddd" app:riv_border_width="1.0px" app:riv_corner_radius="13.0dip" />
+    <View android:id="@id/redPointView" android:background="@drawable/red_point_small_20" android:visibility="visible" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginTop="0.0dip" android:layout_alignTop="@id/ivPreview" android:layout_marginEnd="-3.0dip" android:layout_alignEnd="@id/ivPreview" />
+    <lightcone.com.pack.view.AppUITextView android:textSize="14.0dip" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/tvName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Sticker_Store" android:maxLines="1" android:singleLine="true" android:layout_below="@id/ivPreview" android:layout_marginStart="8.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/shape_black_stroke" android:layout_width="60.0dip" android:layout_height="20.0dip" android:layout_margin="5.0dip" android:layout_below="@id/tvName">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ivState" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_ad" android:layout_marginEnd="3.0dip" />
+        <TextView android:textSize="11.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tvPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$0.99" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tvMark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:text="Free" />
+</RelativeLayout>

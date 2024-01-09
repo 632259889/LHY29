@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lightcone.com.pack.view.OkStickersLayoutGrand android:id="@id/okStickersLayoutGrand" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="44.0dip" android:layout_marginBottom="164.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="44.0dip" android:layout_marginBottom="164.0dip">
+        <View android:id="@id/viewPicker" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_centerInParent="true" />
+        <lightcone.com.pack.view.anim.AnimImageView android:id="@id/ivGesture" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginTop="-50.0dip" android:src="@drawable/tutorials_gesture2" android:layout_below="@id/viewPicker" android:paddingStart="15.0dip" android:layout_alignStart="@id/viewPicker" android:layout_alignEnd="@id/viewPicker" app:anim_id="@anim/gesture_infinte_move_ver" />
+        <ImageView android:id="@id/ivHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/hint_triangle" android:layout_above="@id/viewPicker" android:rotation="180.0" android:layout_alignStart="@id/viewPicker" android:layout_alignEnd="@id/viewPicker" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff5062fb" android:gravity="center_vertical" android:id="@id/tvHint" android:background="@drawable/shape_white" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="270.0dip" android:text="这是吸色器，使用吸色器可以获取画面中的颜色。点击尝试一下吧。" android:layout_above="@id/ivHint" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

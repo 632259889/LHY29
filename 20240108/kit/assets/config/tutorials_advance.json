@@ -1,0 +1,1642 @@
+[
+  {
+    "id": 9,
+    "name": "Break the Color",
+    "localizedCategory": {
+      "ja": "色を壊す",
+      "ms": "Pecahkan Warna",
+      "zh": "我的调色盘",
+      "zh-Hant": "我的調色盤",
+      "ru": "Моя палитра"
+    },
+    "showType": "VIDEO",
+    "showName": "贴纸框.mp4",
+    "materials": [
+      {
+        "fileName": "贴纸框1.jpg"
+      },
+      {
+        "fileName": "贴纸框2.png"
+      }
+    ],
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "贴纸框.mp4",
+        "guideName": "Break the Color",
+        "localizedCategoryName": {
+          "ja": "色を壊す",
+          "ms": "Pecahkan Warna",
+          "zh": "我的调色盘",
+          "zh-Hant": "我的調色盤",
+          "ru": "Моя палитра"
+        },
+        "guideTips": "Use desktop stickers to break the color！",
+        "localizedCategoryTips": {
+          "ja": "デスクトップのステッカーを使って色を壊しましょう！",
+          "ms": "Gunakan pelekat desktop untuk memecahkan warna！",
+          "zh": "人生的色彩不设限！",
+          "zh-Hant": "人生的色彩不設限！",
+          "ru": "Нет предела цвету жизни!"
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "sticker_box_1.png",
+        "guideName": "Select Photo",
+        "localizedCategoryName": {
+          "ja": "写真を選択",
+          "ms": "Pilih Foto",
+          "zh": "挑选图片",
+          "zh-Hant": "挑選圖片",
+          "ru": "Выберите картинку"
+        },
+        "guideTips": "Select one person photo from your album.",
+        "localizedCategoryTips": {
+          "ja": "アルバムから1人の写真を選択します。",
+          "ms": "Pilih satu orang foto dari album Anda.",
+          "zh": "从相册中挑选一张人物图片。",
+          "zh-Hant": "從相冊中選擇一張人物圖片。",
+          "ru": "Выберите изображение персонажа из альбома."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "sticker_box_2.png",
+        "guideName": "Apply Sticker",
+        "localizedCategoryName": {
+          "ja": "ステッカーを貼る",
+          "ms": "Sapukan Pelekat",
+          "zh": "添加贴纸",
+          "zh-Hant": "添加貼紙",
+          "ru": "Добавить наклейки"
+        },
+        "guideTips": "Choose one desktop sticker and adjust its placment.",
+        "localizedCategoryTips": {
+          "ja": "デスクトップステッカーを1つ選択し、その配置を調整します。",
+          "ms": "Pilih satu pelekat desktop dan sesuaikan penempatannya.",
+          "zh": "点击贴纸栏，选择一张Desktop贴纸，调整贴纸角度和位置。",
+          "zh-Hant": "點擊貼紙欄，選擇一張電腦框貼紙，調整貼紙的角度和位置。",
+          "ru": "Нажмите на панель стикеров, выберите стикер на рабочем столе, отрегулируйте угол и положение стикера."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "sticker_box_3.png",
+        "guideName": "Magic Eraser",
+        "localizedCategoryName": {
+          "ja": "マジック消しゴム",
+          "ms": "Pemadam Sihir",
+          "zh": "擦除贴纸多余范围",
+          "zh-Hant": "擦除貼紙多餘部分",
+          "ru": "Волшебный ластик"
+        },
+        "guideTips": "Use eraser to erase the extra part of the sticker which covers the girl.",
+        "localizedCategoryTips": {
+          "ja": "消しゴムを使用して、女の子を覆うステッカーの余分な部分を消去します。",
+          "ms": "Gunakan pemadam untuk memadamkan bahagian pelekat yang menutupi gadis itu.",
+          "zh": "关闭橡皮擦的智能模式，用橡皮擦工具擦除贴纸的多余部分。",
+          "zh-Hant": "關閉橡皮擦的智能模式，用橡皮擦工具擦除貼紙的多餘部分。",
+          "ru": "Отключите интеллектуальный режим ластика и используйте инструмент ластик, чтобы стереть лишние части наклейки."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "sticker_box_4.png",
+        "guideName": "Merging and Filter",
+        "localizedCategoryName": {
+          "ja": "マージとフィルター",
+          "ms": "Penggabungan dan Penapis",
+          "zh": "合并图层，添加滤镜",
+          "zh-Hant": "合并圖層，添加濾鏡",
+          "ru": "Слияние и фильтр"
+        },
+        "guideTips": "Merge the two layers，and apply filter-film03.",
+        "localizedCategoryTips": {
+          "ja": "2つのレイヤーをマージし、filter-film03を適用します。",
+          "ms": "Gabungkan dua lapisan ， dan sapukan filter-film03.",
+          "zh": "合并图层，添加普通滤镜中胶片系列的FO3。",
+          "zh-Hant": "合并圖層，添加普通濾鏡中膠片系列的FO3。",
+          "ru": "Объедините слои и добавьте FO3 из серии фильмов в обычный фильтр."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "sticker_box_5.png",
+        "guideName": "Done",
+        "localizedCategoryName": {
+          "ja": "できた!",
+          "ms": "Selesai!",
+          "zh": "学习完成",
+          "zh-Hant": "學習完成",
+          "ru": "Исследование завершено"
+        },
+        "guideTips": "More free creative stickers are waiting for your check！",
+        "localizedCategoryTips": {
+          "ja": "より多くの無料のクリエイティブステッカーがあなたのチェックを待っています！",
+          "ms": "Lebih banyak pelekat kreatif percuma menunggu cek anda！",
+          "zh": "查看更多创意贴纸，去贴纸商店逛逛！",
+          "zh-Hant": "查看更多創意貼紙，去貼紙商店逛逛！",
+          "ru": "Посмотрите больше креативных стикеров и зайдите в магазин стикеров!"
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Eyes on You",
+    "localizedCategory": {
+      "ja": "目を向ける",
+      "ms": "Mata dihidupkan",
+      "zh": "猫咪眼睛",
+      "zh-Hant": "貓咪眼睛",
+      "ru": "Кошачьи глаза"
+    },
+    "showType": "IMAGE",
+    "showName": "cat_eye_6.png",
+    "materials": [
+      {
+        "fileName": "猫咪眼睛1.jpg"
+      },
+      {
+        "fileName": "猫咪眼睛2.jpg"
+      }
+    ],
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "猫咪脸.mp4",
+        "guideName": "Eyes on You",
+        "localizedCategoryName": {
+          "ja": "目を向ける",
+          "ms": "Mata dihidupkan",
+          "zh": "猫咪眼睛",
+          "zh-Hant": "貓咪眼睛",
+          "ru": "Кошачьи глаза"
+        },
+        "guideTips": "Four steps make you an artist！",
+        "localizedCategoryTips": {
+          "ja": "4つのステップでアーティストになれます！",
+          "ms": "Empat langkah menjadikan anda seorang artis！",
+          "zh": "简单四个步骤让你成为小艺术家！",
+          "zh-Hant": "簡單四個步驟讓你成為小藝術家！",
+          "ru": "Четыре простых шага сделают вас маленьким художником!"
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "cat_eye_1.png",
+        "guideName": "Select Photo",
+        "localizedCategoryName": {
+          "ja": "写真を選択",
+          "ms": "Pilih Foto",
+          "zh": "挑选图片",
+          "zh-Hant": "挑選圖片",
+          "ru": "Выберите фото"
+        },
+        "guideTips": "Select one person photo and one cat photo from your album，adjust the placement of the eyes。",
+        "localizedCategoryTips": {
+          "ja": "アルバムから人物写真と猫写真を1枚ずつ選択し、目の配置を調整します。",
+          "ms": "Pilih foto satu orang dan satu foto kucing dari album anda, sesuaikan penempatan mata.",
+          "zh": "从相册中挑选一张猫咪图片和一张人物图片，调整人物图层的角度。",
+          "zh-Hant": "從相冊中選擇一張貓咪圖片和人物圖片，調整人物圖層的角度。",
+          "ru": "Выберите изображение кошки и изображение персонажа из альбома, чтобы отрегулировать угол слоя персонажа."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "cat_eye_2.png",
+        "guideName": "Crop",
+        "localizedCategoryName": {
+          "ja": "トリム",
+          "ms": "Potong",
+          "zh": "裁切图片",
+          "zh-Hant": "裁剪圖片",
+          "ru": "Кадрировать картинку"
+        },
+        "guideTips": "Click tool-crop to remove the extra part.",
+        "localizedCategoryTips": {
+          "ja": "ツールクロップをクリックして、余分な部分を削除します。",
+          "ms": "Klik alat pemotong untuk mengeluarkan bahagian tambahan.",
+          "zh": "选择工具，点击裁切功能，裁去多余部分。",
+          "zh-Hant": "選擇工具，點擊裁剪工具，裁剪去多餘部分。",
+          "ru": "Выберите инструмент и нажмите функцию обрезки, чтобы отрезать лишнее."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "cat_eye_3.png",
+        "guideName": "Magic Eraser",
+        "localizedCategoryName": {
+          "ja": "マジック消しゴム",
+          "ms": "Pemadam Sihir",
+          "zh": "擦除贴纸多余范围",
+          "zh-Hant": "擦除貼紙多餘範圍",
+          "ru": "Стереть стикер дополнительный диапазон"
+        },
+        "guideTips": "Use eraser tool to erase the extra part of the eyes.",
+        "localizedCategoryTips": {
+          "ja": "消しゴムツールを使用して、目の余分な部分を消去します。",
+          "ms": "Gunakan alat pemadam untuk menghapus bahagian tambahan mata.",
+          "zh": "调整图片位置，关闭橡皮擦的智能模式，用橡皮擦工具擦除贴纸的多余部分。",
+          "zh-Hant": "調整圖片位置，關閉橡皮擦的智能模式，用橡皮擦工具擦除貼紙的多餘部分。",
+          "ru": "Используйте ластик, чтобы стереть лишнюю часть глаз."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "cat_eye_4.png",
+        "guideName": "Merging",
+        "localizedCategoryName": {
+          "ja": "マージ",
+          "ms": "Penggabungan",
+          "zh": "合并图层，添加滤镜",
+          "zh-Hant": "合併圖層，添加濾鏡",
+          "ru": "сращивание"
+        },
+        "guideTips": "Merge the two layers and apply filter-portrait-p03,then click the adjustment option to adjust the grain to maximum.",
+        "localizedCategoryTips": {
+          "ja": "2つのレイヤーを結合し、filter-portrait-p03を適用してから、調整オプションをクリックして、粒子を最大に調整します。",
+          "ms": "Gabungkan dua lapisan dan terapkan filter-potret-p03, kemudian klik pilihan pelarasan untuk menyesuaikan butiran ke maksimum.",
+          "zh": "合并图层，添加普通滤镜中肖像系列的PO3,然后点击设置，调整颗粒效果到最大值。",
+          "zh-Hant": "合併圖層，添加普通濾鏡中肖像濾鏡的PO3,然後點擊設置，調整顆粒效果到最大值。",
+          "ru": "Объедините слои и добавьте PO3 портретного фильтра в обычный фильтр. Нажмите Настройки, чтобы настроить эффект частиц на максимум."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "cat_eye_5.png",
+        "guideName": "Saturation Adjustment",
+        "localizedCategoryName": {
+          "ja": "彩度調整",
+          "ms": "Pelarasan Ketepuan",
+          "zh": "调整图片饱和度",
+          "zh-Hant": "調整圖片飽和度",
+          "ru": "Отрегулируйте насыщенность изображения"
+        },
+        "guideTips": "Use adjustment option to lower saturation.",
+        "localizedCategoryTips": {
+          "ja": "調整オプションを使用して彩度を下げます。",
+          "ms": "Gunakan pilihan pelarasan untuk menurunkan tepu.",
+          "zh": "选择效果，点击调整栏，降低图片饱和度。",
+          "zh-Hant": "選擇效果，點擊調整蘭，降低圖片飽和度。",
+          "ru": "Выберите эффект и нажмите на полосу настройки, чтобы уменьшить насыщенность изображения."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "cat_eye_6.png",
+        "guideName": "Done!",
+        "localizedCategoryName": {
+          "ja": "できた!",
+          "ms": "Selesai!",
+          "zh": "学习完成",
+          "zh-Hant": "學習完成",
+          "ru": "Исследование завершено"
+        },
+        "guideTips": "Try it now！",
+        "localizedCategoryTips": {
+          "ja": "やってみよう！",
+          "ms": "Cubalah sekarang！",
+          "zh": "学以致用，马上试试！",
+          "zh-Hant": "學以致用，馬上試試！",
+          "ru": "Попробуй это сейчас!"
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Nebula’s kiss",
+    "localizedCategory": {
+      "ja": "星雲のキス",
+      "ms": "Ciuman Nebula",
+      "zh": "拥抱星云",
+      "zh-Hant": "擁抱星雲",
+      "ru": "Туманность Объятия"
+    },
+    "showType": "IMAGE",
+    "showName": "img_embracenebula_6.png",
+    "materials": [
+      {
+        "fileName": "拥抱星云1.jpg"
+      },
+      {
+        "fileName": "拥抱星云2.jpg"
+      }
+    ],
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "拥抱星云.mp4",
+        "guideName": "Nebula’s kiss",
+        "localizedCategoryName": {
+          "ja": "星雲のキス",
+          "ms": "Ciuman Nebula",
+          "zh": "拥抱星云",
+          "zh-Hant": "擁抱星雲",
+          "ru": "Туманность Объятия"
+        },
+        "guideTips": "Simple steps to make you a great artist!",
+        "localizedCategoryTips": {
+          "ja": "あなたを素晴らしいアーティストにするための簡単な手順!",
+          "ms": "Langkah mudah untuk menjadikan anda seorang seniman yang hebat!",
+          "zh": "运用图层滤镜达到你意想不到的艺术效果！",
+          "zh-Hant": "簡單步驟打造創意效果！",
+          "ru": "Используйте слои и фильтры, чтобы создать замечательные произведения искусства!"
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_embracenebula_1.png",
+        "guideName": "Select Photo",
+        "localizedCategoryName": {
+          "ja": "写真を選択",
+          "ms": "Pilih Foto",
+          "zh": "挑选图片",
+          "zh-Hant": "挑選圖片",
+          "ru": "Выберите картинку"
+        },
+        "guideTips": "Select one couple photo and one nebula photo from your album.",
+        "localizedCategoryTips": {
+          "ja": "アルバムからカップル写真1枚と星雲写真1枚を選択します。",
+          "ms": "Pilih satu foto pasangan dan satu foto nebula dari album anda.",
+          "zh": "从相册中分别挑选一张人物图片和一张星云图片。",
+          "zh-Hant": "從相冊中選擇一張情侶照片和星雲照片",
+          "ru": "Выберите фото пары и фото туманности из альбома"
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_embracenebula_2.png",
+        "guideName": "Adjust Placement",
+        "localizedCategoryName": {
+          "ja": "場所を調整",
+          "ms": "Laraskan Lokasi",
+          "zh": "调整图片位置大小",
+          "zh-Hant": "調整圖片位置大小",
+          "ru": "Изменить размер изображения"
+        },
+        "guideTips": "Adjust the placement and size of Layer2 to make the nebula photo cover the boy.",
+        "localizedCategoryTips": {
+          "ja": "レイヤ2の配置とサイズを調整して、星雲の写真が男の子を覆うようにします。",
+          "ms": "Sesuaikan penempatan dan ukuran Layer2 untuk membuat gambar nebula menutupi budak lelaki itu.",
+          "zh": "调整图层2的大小和位置，需要刚好遮住男子的范围。",
+          "zh-Hant": "調整圖層2的大小和位置，使星雲完全覆蓋男孩子的部分",
+          "ru": "Отрегулируйте размер и положение слоя 2, чтобы туманность полностью покрывала мальчика"
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_embracenebula_3.png",
+        "guideName": "Magic Eraser",
+        "localizedCategoryName": {
+          "ja": "マジック消しゴム",
+          "ms": "Pemadam Sihir",
+          "zh": "擦除男子范围",
+          "zh-Hant": "擦除男子范围",
+          "ru": "Волшебный ластик"
+        },
+        "guideTips": "Use eraser tool to erase the boy.",
+        "localizedCategoryTips": {
+          "ja": "消しゴムツールを使って男の子を消します。",
+          "ms": "Gunakan alat pemadam untuk memadamkan budak lelaki itu.",
+          "zh": "用橡皮擦工具擦除男子范围，露出底层星云材质图层。",
+          "zh-Hant": "使用橡皮擦擦除男子，露出星雲底層",
+          "ru": "Используйте ластик, чтобы стереть мальчика, открывая слой туманности внизу."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_embracenebula_4.png",
+        "guideName": "Merge the Layers",
+        "localizedCategoryName": {
+          "ja": "レイヤーをマージする",
+          "ms": "Gabungkan Lapisan",
+          "zh": "合并图层",
+          "zh-Hant": "合并圖層",
+          "ru": "Объединить слои"
+        },
+        "guideTips": "Merge both Layer 1 and Layer 2.",
+        "localizedCategoryTips": {
+          "ja": "レイヤー1とレイヤー2の両方をマージします。",
+          "ms": "Gabungkan kedua Lapisan 1 dan Lapisan 2.",
+          "zh": "合并图层1和图层2。",
+          "zh-Hant": "合并圖層1和图層2。",
+          "ru": "Слейте слой 1 и слой 2."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_embracenebula_5.png",
+        "guideName": "Apply Filter",
+        "localizedCategoryName": {
+          "ja": "フィルターを適用",
+          "ms": "Sapukan Penapis",
+          "zh": "添加滤镜",
+          "zh-Hant": "添加濾鏡",
+          "ru": "Добавить фильтр"
+        },
+        "guideTips": "Apply Filter-Summer-03 filter or other filters you like.",
+        "localizedCategoryTips": {
+          "ja": "Filter-Summer-03フィルターまたは他のフィルターを適用します。",
+          "ms": "Sapukan penapis Filter-Summer-03 atau penapis lain yang anda suka.",
+          "zh": "添加summer系列的SUM3滤镜。",
+          "zh-Hant": "添加summer系列的SUM3濾鏡。",
+          "ru": "Добавлен летний фильтр SUM3."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_embracenebula_6.png",
+        "guideName": "Done!",
+        "localizedCategoryName": {
+          "ja": "できた!",
+          "ms": "Selesai!",
+          "zh": "学习完成",
+          "zh-Hant": "學習完成！",
+          "ru": "Исследование завершено!"
+        },
+        "guideTips": "Start my own creative journey!",
+        "localizedCategoryTips": {
+          "ja": "私自身の創造的な旅を始めてください！",
+          "ms": "Mulakan perjalanan kreatif saya sendiri!",
+          "zh": "探索更多滤镜，开始我的创作之旅！",
+          "zh-Hant": "馬上開始我的創作之旅！",
+          "ru": "Начните мое творческое путешествие немедленно!"
+        }
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Art of Division",
+    "localizedCategory": {
+      "ja": "分割の芸術",
+      "ms": "Seni Pembahagian",
+      "zh": "分裂的艺术",
+      "zh-Hant": "分裂的藝術",
+      "ru": "Искусство деления"
+    },
+    "showType": "IMAGE",
+    "showName": "img_creativity_9.png",
+    "materials": [
+      {
+        "fileName": "分裂的艺术1.jpg"
+      },
+      {
+        "fileName": "分裂的艺术2.jpg"
+      }
+    ],
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "三头1.mp4",
+        "guideName": "Art of Division",
+        "localizedCategoryName": {
+          "ja": "分割の芸術",
+          "ms": "Seni Pembahagian",
+          "zh": "分裂的艺术",
+          "zh-Hant": "分裂的藝術",
+          "ru": "Искусство деления"
+        },
+        "guideTips": "Make use of layers to create amazing works!",
+        "localizedCategoryTips": {
+          "ja": "レイヤーを使用して素晴らしい作品を作成してください！",
+          "ms": "Menggunakan lapisan untuk mencipta karya yang menakjubkan!",
+          "zh": "运用多图层达到你意想不到的艺术效果！",
+          "zh-Hant": "運用多圖層達到你意想不到的效果！",
+          "ru": "Используйте несколько слоев, чтобы достичь ваших неожиданных результатов!"
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_creativity_1.png",
+        "guideName": "Select photos",
+        "localizedCategoryName": {
+          "ja": "写真を選択",
+          "ms": "Pilih foto",
+          "zh": "挑选图片",
+          "zh-Hant": "挑選圖片",
+          "ru": "Выберите картинку"
+        },
+        "guideTips": "Select two photos from your album.",
+        "localizedCategoryTips": {
+          "ja": "アルバムから2枚の写真を選択します。",
+          "ms": "Pilih dua foto dari album anda.",
+          "zh": "从相册中挑选两张图片",
+          "zh-Hant": "從相冊中挑選兩張圖片。",
+          "ru": "Выберите две фотографии из вашего альбома."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_creativity_2.png",
+        "guideName": "Cut Out",
+        "localizedCategoryName": {
+          "ja": "切り取る",
+          "ms": "Potong",
+          "zh": "剪刀抠图",
+          "zh-Hant": "剪刀摳圖",
+          "ru": "Ножницы вырез"
+        },
+        "guideTips": "Cut out the person and then apply auto cut-out function on it.",
+        "localizedCategoryTips": {
+          "ja": "人を切り取り、その上で自動切り取り機能を適用します。",
+          "ms": "Potong orang di gambar dan gunakan fungsi peta automatik.",
+          "zh": "选择工具里的剪刀抠图功能，然后选择智能抠图，抠出人物。",
+          "zh-Hant": "選擇工具裏的剪刀摳圖功能摳出人物，然後選擇智能摳圖。",
+          "ru": "Выберите инструмент «Вырез ножниц», а затем выберите «Умный вырез», чтобы вырезать символы."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_creativity_3.png",
+        "guideName": "Copy the Layer",
+        "localizedCategoryName": {
+          "ja": "レイヤーをコピーする",
+          "ms": "Salin Lapisan",
+          "zh": "复制图层",
+          "zh-Hant": "複製圖層",
+          "ru": "Дубликат слоя"
+        },
+        "guideTips": "Copy the layer 1 and divide the face into two parts with cut out function. ",
+        "localizedCategoryTips": {
+          "ja": "レイヤー1をコピーし、カットアウト機能を使用して顔を2つの部分に分割します。 ",
+          "ms": "Salin lapisan 1 dan bahagikan muka ke dalam dua bahagian dengan memotong fungsi. ",
+          "zh": "复制图层1，用剪刀抠图，分别抠出左右两边脸。",
+          "zh-Hant": "複製圖層1，用剪刀摳图，分別摳出左右兩邊臉。",
+          "ru": "Скопируйте слой 1 и разделите грань на две части с помощью функции вырезания."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_creativity_4.png",
+        "guideName": "Layer Movement",
+        "localizedCategoryName": {
+          "ja": "レイヤーの動き",
+          "ms": "Pergerakan Lapisan",
+          "zh": "移动图层",
+          "zh-Hant": "移動圖層",
+          "ru": "Переместить слой"
+        },
+        "guideTips": "Move the layer 3 to the left while layer 2 to the right.",
+        "localizedCategoryTips": {
+          "ja": "レイヤー3を左に、レイヤー2を右に移動します。",
+          "ms": "Pindahkan lapisan 3 ke kiri manakala lapisan 2 ke kanan.",
+          "zh": "往左移动图层3，往右移动图层2。",
+          "zh-Hant": "往左移動圖層3，往右移動圖層2。",
+          "ru": "Переместите слой 3 влево и слой 2 вправо."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_creativity_5.png",
+        "guideName": "Add a Photo for Blending",
+        "localizedCategoryName": {
+          "ja": "写真を追加してミックスする",
+          "ms": "Tambah Photo for Blending",
+          "zh": "添加需要混合的素材图层",
+          "zh-Hant": "添加需要混合的素材圖層",
+          "ru": "Добавьте слои материала для смешивания"
+        },
+        "guideTips": "Select one photo as layer 4 for blending from your album.",
+        "localizedCategoryTips": {
+          "ja": "アルバムからブレンドするレイヤー4として1枚の写真を選択します。",
+          "ms": "Pilih satu foto sebagai lapisan 4 untuk campuran dari album anda.",
+          "zh": "从相册中挑选一张素材图片，作为图层4。",
+          "zh-Hant": "從相冊中挑選一張素材圖片，作为圖層4。",
+          "ru": "Выберите изображение материала из альбома в качестве слоя 4."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_creativity_6.png",
+        "guideName": "Adjust Layer Placement",
+        "localizedCategoryName": {
+          "ja": "レイヤーの配置を調整する",
+          "ms": "Laraskan Penempatan Lapisan",
+          "zh": "调整图层4的图层位置",
+          "zh-Hant": "調整圖層4的位置",
+          "ru": "Отрегулируйте положение слоя 4"
+        },
+        "guideTips": "Put layer 4 above layer 1.",
+        "localizedCategoryTips": {
+          "ja": "レイヤー4をレイヤー1の上に配置します。",
+          "ms": "Letakkan lapisan 4 di atas lapisan 1.",
+          "zh": "调整图层4的位置，放在图层1之上。",
+          "zh-Hant": "调整圖層4的位置，放在圖層1上面。",
+          "ru": "Отрегулируйте положение слоя 4 и поместите его на слой 1."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_creativity_7.png",
+        "guideName": "Blending",
+        "localizedCategoryName": {
+          "ja": "ブレンド",
+          "ms": "Campuran",
+          "zh": "对图层4应用混合效果",
+          "zh-Hant": "對圖層4應用混合效果",
+          "ru": "Примените эффект смешивания к слою 4"
+        },
+        "guideTips": "Apply tool-blending-overlay effect on layer 4. Remove the extra parts including eyes with magical eraser.",
+        "localizedCategoryTips": {
+          "ja": "レイヤー4にツールブレンドオーバーレイエフェクトを適用します。目を含む余分な部分を魔法の消しゴムで取り除きます。",
+          "ms": "Sapukan kesan pengikat alat-lapisan pada lapisan 4. Keluarkan bahagian tambahan termasuk mata dengan pemadam ajaib.",
+          "zh": "对图层4应用工具--混合模式--“覆盖”效果。并用橡皮擦擦除眼睛及多余部分。",
+          "zh-Hant": "对圖層4应用工具--混合模式--“覆蓋”效果。并用橡皮擦擦除眼睛及多餘部分。",
+          "ru": "Примените эффект наложения «overlay» к слою 4. И используйте ластик, чтобы вытереть глаза и лишние детали."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_creativity_8.png",
+        "guideName": "Add a Background Photo",
+        "localizedCategoryName": {
+          "ja": "背景写真を追加する",
+          "ms": "Tambah Photo Latar Belakang",
+          "zh": "添加一张背景图片",
+          "zh-Hant": "添加一張背景圖片",
+          "ru": "Добавить фоновое изображение"
+        },
+        "guideTips": "Click + button to add a new gradient canvas and put it at the bottom of all the layers.",
+        "localizedCategoryTips": {
+          "ja": "[+]ボタンをクリックして新しいグラデーションキャンバスを追加し、すべてのレイヤーの下部に配置します。",
+          "ms": "Klik butang + untuk menambah kanvas kecerunan baru dan letakkan di bahagian bawah semua lapisan.",
+          "zh": "点击添加按钮，添加一张渐变画布，移动到最后一层作为背景，完成。",
+          "zh-Hant": "點擊添加按鈕，添加一張漸變畫布，移動到最後一層作爲背景，完成。",
+          "ru": "Нажмите кнопку «Добавить», чтобы добавить градиентный холст и перетащите его вниз, как фоновый слой, чтобы закончить."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_creativity_9.png",
+        "guideName": "Done!",
+        "localizedCategoryName": {
+          "ja": "完成！",
+          "ms": "Selesai!",
+          "zh": "学习完成！",
+          "zh-Hant": "學習完成！",
+          "ru": "Исследование завершено!"
+        },
+        "guideTips": "To explore more functions and begin my journey for creation!",
+        "localizedCategoryTips": {
+          "ja": "より多くの機能を探索し、私の創造的な旅を始めましょう！",
+          "ms": "Untuk meneroka lebih banyak fungsi dan memulakan perjalanan saya untuk penciptaan!",
+          "zh": "探索更多功能，开始我的创作之旅！",
+          "zh-Hant": "探索更多功能，開始我的創作之旅！",
+          "ru": "Узнайте больше о возможностях и начните мое творческое путешествие!"
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Skyscraper",
+    "localizedCategory": {
+      "ja": "超高層ビル",
+      "ms": "Pencakar langit",
+      "zh": "摩天大楼",
+      "zh-Hant": "摩天大樓",
+      "ru": "Небоскребы"
+    },
+    "showType": "IMAGE",
+    "showName": "img_skyscraper_6.png",
+    "materials": [
+      {
+        "fileName": "摩天大楼.jpg"
+      }
+    ],
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "摩天大楼.mp4",
+        "guideName": "Skyscraper",
+        "localizedCategoryName": {
+          "ja": "超高層ビル",
+          "ms": "Pencakar langit",
+          "zh": "摩天大楼",
+          "zh-Hant": "摩天大樓",
+          "ru": "Небоскребы"
+        },
+        "guideTips": "Get useful tips to edit perfect magic skyscraper photo！",
+        "localizedCategoryTips": {
+          "ja": "完璧な魔法の超高層ビルの写真を編集するための役立つヒントを入手！",
+          "ms": "Dapatkan petua berguna untuk mengedit foto pencakar langit sihir yang sempurna！",
+          "zh": "运用图层滤镜达到你意想不到的艺术效果！",
+          "zh-Hant": "實用編輯小技巧教你打造魔幻世界！",
+          "ru": "Используйте практические советы по редактированию, чтобы создать волшебный мир!"
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_skyscraper_1.png",
+        "guideName": "Select Photo",
+        "localizedCategoryName": {
+          "ja": "写真を選択",
+          "ms": "Pilih Foto",
+          "zh": "挑选图片",
+          "zh-Hant": "挑選圖片",
+          "ru": "Выберите картинку"
+        },
+        "guideTips": "Select one skyscraper photo from your album.",
+        "localizedCategoryTips": {
+          "ja": "アルバムから超高層ビルの写真を1枚選択します。",
+          "ms": "Pilih satu foto pencakar langit dari album anda.",
+          "zh": "在相册中挑选一张素材图。",
+          "zh-Hant": "在相冊中挑選一張素材圖。",
+          "ru": "Выберите одну фотографию небоскреба из вашего альбома."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_skyscraper_2.png",
+        "guideName": "Copy Layer 1",
+        "localizedCategoryName": {
+          "ja": "レイヤー1をコピー",
+          "ms": "Salin Lapisan 1",
+          "zh": "复制图片，垂直翻转",
+          "zh-Hant": "複製圖片，垂直翻轉",
+          "ru": "Скопируйте картинку, переверните вертикально"
+        },
+        "guideTips": "Copy Layer 1 and then apply tool--rotate, choose vertical flip and adjust the placement of layer.",
+        "localizedCategoryTips": {
+          "ja": "レイヤー1をコピーしてツールを適用します-回転、垂直反転を選択し、レイヤーの配置を調整します。",
+          "ms": "Salin Lapisan 1 dan kemudian gunakan alat - putar, pilih sandaran menegak dan sesuaikan penempatan lapisan.",
+          "zh": "复制图层1，点击工具里的旋转功能，选择垂直翻转。调整两个图层的位置。",
+          "zh-Hant": "複製圖層1，點擊工具裏的選擇功能，選擇垂直翻轉，調整兩個圖層的位置。",
+          "ru": "Дублируйте слой 1, нажмите на функцию поворота в инструменте, выберите вертикальное отражение, отрегулируйте положение двух слоев."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_skyscraper_3.png",
+        "guideName": "Magic Eraser",
+        "localizedCategoryName": {
+          "ja": "マジック消しゴム",
+          "ms": "Pemadam Sihir",
+          "zh": "擦除图层2的天空部分",
+          "zh-Hant": "橡皮擦擦除",
+          "ru": "Ластик стереть"
+        },
+        "guideTips": "Use eraser to erase the sky of Layer 2.",
+        "localizedCategoryTips": {
+          "ja": "消しゴムを使用して、レイヤー2の空を消去します。",
+          "ms": "Gunakan pemadam untuk memadamkan langit Lapisan 2.",
+          "zh": "用橡皮擦工具图层2的天空部分。",
+          "zh-Hant": "使用橡皮擦工具擦除圖層2的天空部分。",
+          "ru": "Используйте ластик, чтобы стереть часть неба слоя 2."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_skyscraper_4.png",
+        "guideName": "Merge the Layers",
+        "localizedCategoryName": {
+          "ja": "レイヤーをマージする",
+          "ms": "Gabungkan Lapisan",
+          "zh": "合并图层，调整角度",
+          "zh-Hant": "合并圖層，調整角度",
+          "ru": "Объединить слои"
+        },
+        "guideTips": "Merge the layers and adjust the angle of the skyscraper as photo shown.",
+        "localizedCategoryTips": {
+          "ja": "レイヤーを結合し、写真のように超高層ビルの角度を調整します。",
+          "ms": "Gabungkan lapisan dan sesuaikan sudut pencakar langit seperti foto yang ditunjukkan.",
+          "zh": "合并图层，调整图的角度，图上为45°。",
+          "zh-Hant": "合并圖層調整圖片角度至45°。",
+          "ru": "Объедините слои и отрегулируйте угол изображения до 45°."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_skyscraper_5.png",
+        "guideName": "Apply Filter",
+        "localizedCategoryName": {
+          "ja": "フィルターを適用",
+          "ms": "Sapukan Penapis",
+          "zh": "添加滤镜",
+          "zh-Hant": "添加濾鏡",
+          "ru": "Добавить фильтр"
+        },
+        "guideTips": "Apply Glitch--Psychedelic--Duo Tone effect and adjust the effect.",
+        "localizedCategoryTips": {
+          "ja": "グリッチ-サイケデリック-デュオトーン効果を適用し、効果を調整します。",
+          "ms": "Sapukan kesan Glitch - Psychedelic - Duo Tone dan sesuaikan kesannya.",
+          "zh": "点击效果里的故障风，选择“迷幻”栏里的色相，调节“色相”滑杆，调整到最终效果。",
+          "zh-Hant": "點擊效果裏的故障風，選擇“迷幻”欄裏的色相，調節“色相”滑桿，調整至理想效果。",
+          "ru": "Примените эффект Сбой-психоделический-Duo Tone и настройте его."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_skyscraper_6.png",
+        "guideName": "Done！",
+        "localizedCategoryName": {
+          "ja": "できた！",
+          "ms": "Selesai！",
+          "zh": "学习完成",
+          "zh-Hant": "學習完成！",
+          "ru": "Исследование завершено!"
+        },
+        "guideTips": "Try now quickly!",
+        "localizedCategoryTips": {
+          "ja": "今すぐお試しください!",
+          "ms": "Cuba sekarang dengan pantas!",
+          "zh": "探索更多滤镜，开始我的创作之旅！",
+          "zh-Hant": "馬上開始我的創作之旅！",
+          "ru": "Начните мое творческое путешествие немедленно!"
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Pinky Desktop",
+    "localizedCategory": {
+      "ja": "ストリートガール",
+      "ms": "Gadis jalanan",
+      "zh": "街头少女",
+      "zh-Hant": "街頭少女",
+      "ru": "мизинец рабочий стол"
+    },
+    "showType": "IMAGE",
+    "showName": "img_computerwindow_5.png",
+    "materials": [
+      {
+        "fileName": "街头少女1.jpg"
+      },
+      {
+        "fileName": "街头少女2.png"
+      }
+    ],
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "电脑窗创意图.mp4",
+        "guideName": "Pinky Desktop",
+        "localizedCategoryName": {
+          "ja": "ストリートガール",
+          "ms": "Gadis jalanan",
+          "zh": "街头少女",
+          "zh-Hant": "街頭少女",
+          "ru": "мизинец рабочий стол"
+        },
+        "guideTips": "Use Auto Eraser to create amazing works！",
+        "localizedCategoryTips": {
+          "ja": "消しゴムを使用して、予期しない結果を達成してください！",
+          "ms": "Gunakan pemadam untuk mencapai hasil yang tidak dijangka anda!",
+          "zh": "使用橡皮擦达到你意想不到的效果！",
+          "zh-Hant": "使用橡皮擦功能，達到你意想不到的藝術效果！",
+          "ru": "Используйте функцию ластика, чтобы добиться неожиданного художественного эффекта!"
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_computerwindow_1.png",
+        "guideName": "Select Photo",
+        "localizedCategoryName": {
+          "ja": "写真を選択",
+          "ms": "Pilih gambar",
+          "zh": "选择图片",
+          "zh-Hant": "選擇圖片",
+          "ru": "Выберите картинку"
+        },
+        "guideTips": "Select one person photo and one desktop photo from your album.",
+        "localizedCategoryTips": {
+          "ja": "アルバムからポートレートとコンピューターフレームの画像を選択します。",
+          "ms": "Pilih gambar bingkai dan gambar komputer dari album.",
+          "zh": "从相册中选择一张人像和电脑框图片。",
+          "zh-Hant": "從相冊中選擇一張人像和電腦框圖片。",
+          "ru": "Выберите портрет и компьютерную рамку из альбома."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_computerwindow_2.png",
+        "guideName": "Auto Eraser",
+        "localizedCategoryName": {
+          "ja": "消しゴム消去",
+          "ms": "Memadam pemadam",
+          "zh": "橡皮擦除",
+          "zh-Hant": "使用橡皮擦",
+          "ru": "Используйте ластик"
+        },
+        "guideTips": "Erase the white part from the desktop.",
+        "localizedCategoryTips": {
+          "ja": "消しゴムを使用して、コンピューターフレームの白い部分を消去します。",
+          "ms": "Gunakan pemadam untuk memadamkan bahagian putih bingkai komputer.",
+          "zh": "使用橡皮擦擦除电脑框的白色部分。",
+          "zh-Hant": "擦除電腦框中間的白色部分。",
+          "ru": "Сотрите белую часть в середине рамки компьютера."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_computerwindow_3.png",
+        "guideName": "Adjust the Placement",
+        "localizedCategoryName": {
+          "ja": "調整レイヤー",
+          "ms": "Lapisan penyesuaian",
+          "zh": "调整图层",
+          "zh-Hant": "調整圖層",
+          "ru": "Корректирующий слой"
+        },
+        "guideTips": "Adjust the desktop's angle and placement.",
+        "localizedCategoryTips": {
+          "ja": "レイヤー2の位置と角度を調整し、適切な位置に配置します。",
+          "ms": "Laraskan kedudukan dan sudut lapisan 2 dan letakkannya dalam kedudukan yang sesuai.",
+          "zh": "调整图层2的位置和角度，把它放在一个合适的位置。",
+          "zh-Hant": "調整圖層2的位置和角度，把它放在一個合適的位置",
+          "ru": "Отрегулируйте положение и угол слоя 2 и поместите его в подходящее положение."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_computerwindow_4.png",
+        "guideName": "Erase the Extra Part",
+        "localizedCategoryName": {
+          "ja": "過剰を拭き取ります",
+          "ms": "Lapkan lebihan itu",
+          "zh": "擦掉多余部分",
+          "zh-Hant": "擦掉多餘部分",
+          "ru": "Сотрите лишнее"
+        },
+        "guideTips": "Use Auto Eraser to remove parts that overlaps girl’s legs.",
+        "localizedCategoryTips": {
+          "ja": "消しゴム機能を使用して、キャラクターの余分な部分を消去します。",
+          "ms": "Gunakan fungsi pemadam untuk memadam bahagian lebihan watak.",
+          "zh": "使用橡皮擦功能，擦除遮住人物的多余部分。",
+          "zh-Hant": "使用橡皮擦功能，擦掉電腦框與人物重合的部分",
+          "ru": "Используйте функцию ластика, чтобы стереть часть кадра компьютера, которая совпадает с символом"
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_computerwindow_5.png",
+        "guideName": "Done!",
+        "localizedCategoryName": {
+          "ja": "学習が完了しました！",
+          "ms": "Pembelajaran selesai!",
+          "zh": "学习完成！",
+          "zh-Hant": "學習完成！",
+          "ru": "Исследование завершено!"
+        },
+        "guideTips": "To explore more amazing functions and start my own creative journey!",
+        "localizedCategoryTips": {
+          "ja": "より多くの機能を探索し、創造的な旅を始めましょう！",
+          "ms": "Terokai lebih banyak ciri dan mulakan perjalanan kreatif saya!",
+          "zh": "探索更多功能，开始我的创作之旅！",
+          "zh-Hant": "探索更多神奇功能，開始我的創作之旅！",
+          "ru": "Узнайте больше о магических особенностях и начните мое творческое путешествие!"
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Lost in City",
+    "localizedCategory": {
+      "ja": "市で失われた",
+      "ms": "Lost in City",
+      "zh": "都市迷离",
+      "zh-Hant": "都市迷離",
+      "ru": "Потерянный в городе"
+    },
+    "showType": "IMAGE",
+    "showName": "img_exposure_5.png",
+    "materials": [
+      {
+        "fileName": "都市迷离1.jpg"
+      },
+      {
+        "fileName": "都市迷离2.jpg"
+      }
+    ],
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "双重曝光1.mp4",
+        "guideName": "Lost in City",
+        "localizedCategoryName": {
+          "ja": "市で失われた",
+          "ms": "Lost in City",
+          "zh": "都市迷离",
+          "zh-Hant": "都市迷離",
+          "ru": "Потерянный в городе"
+        },
+        "guideTips": "Make use of layer and blending to create amazing works!",
+        "localizedCategoryTips": {
+          "ja": "レイヤーとブレンドを使用して、素晴らしい作品を作成しましょう！",
+          "ms": "Menggunakan lapisan dan pengadunan untuk mencipta karya yang menakjubkan!",
+          "zh": "运用双重曝光达到你意想不到的艺术效果！",
+          "zh-Hant": "運用雙重曝光達到你意想不到的藝術效果！",
+          "ru": "Используйте двойную экспозицию для достижения ваших неожиданных художественных эффектов!"
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_exposure_1.png",
+        "guideName": "Add Two Photos",
+        "localizedCategoryName": {
+          "ja": "写真を2枚追加",
+          "ms": "Tambah Dua Foto",
+          "zh": "添加两张照片",
+          "zh-Hant": "添加兩張圖片",
+          "ru": "Добавьте две картинки"
+        },
+        "guideTips": "Put person layer below the city layer.",
+        "localizedCategoryTips": {
+          "ja": "人レイヤーを都市レイヤーの下に配置します。",
+          "ms": "Letakkan lapisan orang di bawah lapisan bandar.",
+          "zh": "人物1作为底图，城市1作为混合素材。",
+          "zh-Hant": "人物1作爲底圖，城市1作爲混合素材。",
+          "ru": "Рисунок 1 служит базовой картой, а Город 1 служит смешанным материалом."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_exposure_2.png",
+        "guideName": "Cut out",
+        "localizedCategoryName": {
+          "ja": "切り取る",
+          "ms": "Potong",
+          "zh": "剪刀抠图",
+          "zh-Hant": "剪刀摳圖",
+          "ru": "Ножницы вырез"
+        },
+        "guideTips": "Copy the person layer and apply auto cut out function on the person. Then, Make two person layers overlap.",
+        "localizedCategoryTips": {
+          "ja": "人物レイヤーをコピーし、人物に自動カットアウト機能を適用します。 次に、2人のレイヤーをオーバーラップさせます。",
+          "ms": "Salin lapisan orang dan gunakan fungsi auto cut pada orang itu. Kemudian, buat dua lapisan orang bertindih.",
+          "zh": "复制人物1，对复制人物进行剪刀抠图，然后选择智能，抠出人物，对齐两张图层。",
+          "zh-Hant": "複製人物1，对複製人物进行剪刀摳圖，然后選擇智能，摳出人物，對齊兩張圖片。",
+          "ru": "Скопируйте символ 1, обрежьте скопированный символ ножницами, а затем выберите «Умный», выберите символ и выровняйте две картинки."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_exposure_3.png",
+        "guideName": "Adjust Layer Placement",
+        "localizedCategoryName": {
+          "ja": "レイヤーの位置を調整する",
+          "ms": "Laraskan Penempatan Lapisan",
+          "zh": "调整图层",
+          "zh-Hant": "調整圖層",
+          "ru": "Корректирующий слой"
+        },
+        "guideTips": "Put city 1 layer on the middle of the layers and lower its transparency to 40%.",
+        "localizedCategoryTips": {
+          "ja": "都市1のレイヤーをレイヤーの中央に配置し、透明度を40％に下げます。",
+          "ms": "Letakkan bandar 1 lapisan di tengah-tengah lapisan dan kurangkan ketelusannya hingga 40%.",
+          "zh": "把城市1放在中间图层位置。对城市1 进行不透明40%的调整。",
+          "zh-Hant": "把城市1放在中間圖層位置。对城市1 进行不透明40%的調整。",
+          "ru": "Поместите слой 1 города на середину слоев и понизьте прозрачность до 40%."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_exposure_4.png",
+        "guideName": "Blending",
+        "localizedCategoryName": {
+          "ja": "ブレンド",
+          "ms": "Campuran",
+          "zh": "添加图层混合效果",
+          "zh-Hant": "應用圖層混合效果",
+          "ru": "Применить эффект смешивания слоя"
+        },
+        "guideTips": "Copy city 1 layer and put it on the top of the layers. Apply tool-blending-lighten effect on the city 2 layer.",
+        "localizedCategoryTips": {
+          "ja": "都市1のレイヤーをコピーして、レイヤーの一番上に配置します。 都市2レイヤーにtool-blending-lightenエフェクトを適用します。",
+          "ms": "Salin bandar 1 lapisan dan letakkan di bahagian atas lapisan. Gunakan kesan penggabungan alat pada bandar 2 lapisan.",
+          "zh": "复制城市1图层，默认是最顶层，对城市2图层 进行混合效果，请选择“变亮”效果。",
+          "zh-Hant": "複製城市1图层，默認是最頂層，对城市2圖層 进行混合效果，選擇“變亮”效果。",
+          "ru": "Скопируйте город 1 слой и поместите его поверх слоев. Примените эффект наложения инструмента на слой 2 города."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_exposure_5.png",
+        "guideName": "Done!",
+        "localizedCategoryName": {
+          "ja": "できた！",
+          "ms": "Selesai!",
+          "zh": "学习完成",
+          "zh-Hant": "學習完成",
+          "ru": "Исследование завершено"
+        },
+        "guideTips": "To explore more amazing effect and begin my journey for creation!",
+        "localizedCategoryTips": {
+          "ja": "より素晴らしい効果を探求し、創造の旅を始めましょう！",
+          "ms": "Untuk meneroka kesan yang lebih menakjubkan dan memulakan perjalanan saya untuk penciptaan!",
+          "zh": "探索更多功能，开始我的创作之旅！",
+          "zh-Hant": "探索更多功能，開始我的創作之旅！",
+          "ru": "Узнайте больше о возможностях и начните мое творческое путешествие!"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Dream ＆ Reality",
+    "localizedCategory": {
+      "ja": "夢と現実",
+      "ms": "Dream & Realiti",
+      "zh": "梦境与现实",
+      "zh-Hant": "夢境與現實",
+      "ru": "Мечта и реальность"
+    },
+    "showType": "IMAGE",
+    "showName": "img_artistfilter_5.png",
+    "materials": [
+      {
+        "fileName": "梦境与现实.jpg"
+      }
+    ],
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "艺术滤镜1.mp4",
+        "guideName": "Dream ＆ Reality",
+        "localizedCategoryName": {
+          "ja": "夢と現実",
+          "ms": "Dream & Realiti",
+          "zh": "梦境与现实",
+          "zh-Hant": "夢境與現實",
+          "ru": "Мечта и реальность"
+        },
+        "guideTips": "Make use of artistic filters to create amazing works!",
+        "localizedCategoryTips": {
+          "ja": "芸術的なフィルターを使用して素晴らしい作品を作成しましょう！",
+          "ms": "Menggunakan penapis artistik untuk mencipta karya yang menakjubkan!",
+          "zh": "运用艺术滤镜达到你意想不到的艺术效果！",
+          "zh-Hant": "運用藝術濾鏡達到你意想不到的藝術效果！",
+          "ru": "Используйте художественные фильтры для достижения ваших неожиданных художественных эффектов!"
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_artistfilter_1.png",
+        "guideName": "Add one photo",
+        "localizedCategoryName": {
+          "ja": "写真を1枚追加",
+          "ms": "Tambah satu foto",
+          "zh": "添加图片",
+          "zh-Hant": "添加圖片",
+          "ru": "Добавить картинку"
+        },
+        "guideTips": "Add one person photo and copy it. Then, Make two layers overlap.",
+        "localizedCategoryTips": {
+          "ja": "一人の写真を追加してコピーします。 次に、2つのレイヤーをオーバーラップさせます。",
+          "ms": "Tambah satu foto seseorang dan salinnya. Kemudian, Buat dua lapisan bertindih.",
+          "zh": "添加一张人物图片，再复制一层，调整两张图层对齐。",
+          "zh-Hant": "添加一張人物圖片，再複製一層, 對齊兩個圖層。",
+          "ru": "Добавьте изображение персонажа, скопируйте и выровняйте два слоя."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_artistfilter_2.png",
+        "guideName": "Apply Artistic Filter",
+        "localizedCategoryName": {
+          "ja": "アーティスティックフィルターを適用",
+          "ms": "Gunakan Penapis Artistik",
+          "zh": "应用艺术滤镜",
+          "zh-Hant": "應用藝術濾鏡",
+          "ru": "Применить Арт Фильтр"
+        },
+        "guideTips": "Apply artistic filter--flow effect on the second layer.",
+        "localizedCategoryTips": {
+          "ja": "アーティスティックフィルターを適用します。2番目のレイヤーにフロー効果を適用します。",
+          "ms": "Gunakan penapis artistik - kesan aliran pada lapisan kedua.",
+          "zh": "给人物2图层应用艺术滤镜里的Flow效果。",
+          "zh-Hant": "給人物2圖層應用藝術濾鏡中的Flow效果。",
+          "ru": "Примените эффект Flow от художественного фильтра к слою персонажа 2."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_artistfilter_3.png",
+        "guideName": "Shape Crop",
+        "localizedCategoryName": {
+          "ja": "シェイプクロップ",
+          "ms": "Bentuk Tanaman",
+          "zh": "形状裁剪",
+          "zh-Hant": "形狀裁剪",
+          "ru": "Форма обрезки"
+        },
+        "guideTips": "Apply shape crop you like on the person 2 layer and then adjust its placement.",
+        "localizedCategoryTips": {
+          "ja": "お好みのシェイプクロップをperson 2レイヤーに適用し、その配置を調整します。",
+          "ms": "Gunakan tanaman bentuk yang anda suka pada lapisan orang 2 dan kemudian laraskan penempatannya.",
+          "zh": "对人物2图层进行任意形状裁剪后，调整好图层位置。",
+          "zh-Hant": "对人物2圖層进行圓形形狀的裁剪，調整好圖層位置。",
+          "ru": "Примените форму кадрирования на лицо 2 слоя и затем отрегулируйте его размещение."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_artistfilter_4.png",
+        "guideName": "Shape Crop",
+        "localizedCategoryName": {
+          "ja": "シェイプクロップ",
+          "ms": "Bentuk Tanaman",
+          "zh": "形状裁剪",
+          "zh-Hant": "形狀裁剪",
+          "ru": "Форма обрезки"
+        },
+        "guideTips": "Apply tool-shape crop function on the layer.",
+        "localizedCategoryTips": {
+          "ja": "レイヤーにツールシェイプクロップ機能を適用します。",
+          "ms": "Gunakan fungsi tanaman bentuk alat pada lapisan.",
+          "zh": "点击工具内的轮廓。",
+          "zh-Hant": "點擊工具内的輪廓。",
+          "ru": "Нажмите на схему в инструменте."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_artistfilter_5.png",
+        "guideName": "Done!",
+        "localizedCategoryName": {
+          "ja": "完成！",
+          "ms": "Selesai!",
+          "zh": "学习完成",
+          "zh-Hant": "學習完成",
+          "ru": "Исследование завершено"
+        },
+        "guideTips": "To explore more functions and begin my journey for creation!",
+        "localizedCategoryTips": {
+          "ja": "より多くの機能を探索し、私の創造的な旅を始めましょう！",
+          "ms": "Untuk meneroka lebih banyak fungsi dan memulakan perjalanan saya untuk penciptaan!",
+          "zh": "探索更多艺术滤镜，开始我的创作之旅！",
+          "zh-Hant": "探索更多藝術濾鏡，開始我的創作之旅！",
+          "ru": "Узнайте больше о возможностях и начните мое творческое путешествие!"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Dreamy Blue Party",
+    "localizedCategory": {
+      "ja": "ファンタジーブルーパーティー",
+      "ms": "Pesta biru fantasi",
+      "zh": "梦幻蓝派对",
+      "zh-Hant": "夢幻藍派對",
+      "ru": "мечтательный синий Партия"
+    },
+    "showType": "IMAGE",
+    "showName": "img_bluepool_8.png",
+    "materials": [
+      {
+        "fileName": "梦幻蓝派对.jpg"
+      }
+    ],
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "蓝色泳池.mp4",
+        "guideName": "Dreamy Blue Party",
+        "localizedCategoryName": {
+          "ja": "ファンタジーブルーパーティー",
+          "ms": "Pesta biru fantasi",
+          "zh": "梦幻蓝派对",
+          "zh-Hant": "夢幻藍派對",
+          "ru": "мечтательный синий Партия"
+        },
+        "guideTips": "Get useful tips to edit perfect artistic summer photo!",
+        "localizedCategoryTips": {
+          "ja": "実用的な編集のヒントから、完璧な夢のプールパーティーを作成することができます。",
+          "ms": "Petua penyuntingan praktikal mengajar anda untuk mencipta pesta kolam impian yang sempurna!",
+          "zh": "实用编辑小技巧教你打造完美梦幻的泳池派对！",
+          "zh-Hant": "實用編輯小技巧教你打造完美夢幻的泳池派對！",
+          "ru": "Используйте практические советы по редактированию, чтобы создать вечеринку у бассейна!"
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_bluepool_1.png",
+        "guideName": "Select Photo",
+        "localizedCategoryName": {
+          "ja": "写真を選ぶ",
+          "ms": "Pilih gambar",
+          "zh": "挑选图片",
+          "zh-Hant": "挑選圖片",
+          "ru": "Выберите картинку"
+        },
+        "guideTips": "First, add a canvas layer and choose 4:5 size and blue color. Then, choose one pool photo and place it on the middle of the blue canvas.",
+        "localizedCategoryTips": {
+          "ja": "最初に、レイヤーを追加します-キャンバスを選択します-サイズ選択4：5、色選択は水色です。 次に、青いキャンバスの中央でプールの写真を選択します。",
+          "ms": "Pertama, tambahkan lapisan-pilih pemilihan saiz kanvas 4: 5, warna pilihan warna biru muda. Kemudian, pilih foto kolam di tengah-tengah kanvas biru.",
+          "zh": "首先，添加图层-选择画布-尺寸选择4：5，颜色选择淡蓝色。然后，选择一张泳池照片放在蓝色画布中间。",
+          "zh-Hant": "首先，添加圖層-選擇畫布-尺寸選擇4：5，顔色選擇淡藍色。然后，选择一张泳池照片放在蓝色画布中间。",
+          "ru": "Добавьте слой, выберите холст, выберите размер 4: 5 и выберите голубой цвет. Затем выберите фотографию бассейна и поместите ее в середину синего холста."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_bluepool_2.png",
+        "guideName": "Copy Layer 2",
+        "localizedCategoryName": {
+          "ja": "レイヤー2の複製",
+          "ms": "Lapisan pendua 2",
+          "zh": "复制图层2",
+          "zh-Hant": "複製圖層2",
+          "ru": "Двойной слой 2"
+        },
+        "guideTips": "Copy Layer 2 and use Cut out to cut the triangle shape and move it down.",
+        "localizedCategoryTips": {
+          "ja": "レイヤー2を複製し、図に示すようにハサミを使用して三角形を切り取り、左下に移動します。",
+          "ms": "Lapisan duplikat 2, gunakan gunting untuk memotong bentuk segi tiga seperti yang ditunjukkan dalam angka untuk bergerak ke kiri bawah.",
+          "zh": "复制图层2，使用剪刀抠图剪出如图的三角形形状往左下方移动。",
+          "zh-Hant": "複製圖層2，使用剪刀摳圖剪出如下三角形的形狀往左下方移動。",
+          "ru": "Скопируйте слой 2 и используйте Cut, чтобы вырезать треугольную форму и переместить ее вниз."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_bluepool_3.png",
+        "guideName": "Copy Layer 2 Again",
+        "localizedCategoryName": {
+          "ja": "レイヤー2の複製",
+          "ms": "Lapisan pendua 2",
+          "zh": "复制图层2",
+          "zh-Hant": "複製圖層2",
+          "ru": "Двойной слой 2"
+        },
+        "guideTips": "Copy Layer 2 and use Cut out to cut one more triangle shape and move it up.",
+        "localizedCategoryTips": {
+          "ja": "レイヤー2を複製します。ハサミを使用して、三角形の形状の図を切り取り、右上に移動します。",
+          "ms": "Lapisan duplikat 2, gunakan gunting untuk memotong angka seperti yang ditunjukkan dalam bentuk segitiga dan gerakkannya ke kanan atas.",
+          "zh": "复制图层2，使用剪刀抠图再次剪出一个如图三角形形状往右上方移动。",
+          "zh-Hant": "複製圖層2，使用剪刀摳圖再次剪出一個如圖三角形形狀往右上方移動。",
+          "ru": "Скопируйте слой 2 и используйте Cut, чтобы вырезать еще одну треугольную форму и переместить ее вверх."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_bluepool_4.png",
+        "guideName": "Cut out",
+        "localizedCategoryName": {
+          "ja": "はさみ",
+          "ms": "Gunting",
+          "zh": "剪刀抠图",
+          "zh-Hant": "剪刀摳圖",
+          "ru": "Ножницы вырез"
+        },
+        "guideTips": "Use Cut out to remove the extra parts from Layer 3 and 4.",
+        "localizedCategoryTips": {
+          "ja": "ハサミを使用して、レイヤー3と4の角を切り取ります。",
+          "ms": "Gunakan gunting untuk memotong sudut lapisan 3 dan 4.",
+          "zh": "使用剪刀抠图裁剪掉图层3和4多出来的边角部分。",
+          "zh-Hant": "使用剪刀摳圖裁剪掉圖層3和4多出來的邊角部分。",
+          "ru": "Используйте ножницы, чтобы вырезать дополнительные углы слоев 3 и 4."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_bluepool_5.png",
+        "guideName": "Brushes",
+        "localizedCategoryName": {
+          "ja": "マジックブラシ",
+          "ms": "Berus sihir",
+          "zh": "魔术笔刷",
+          "zh-Hant": "魔術筆刷",
+          "ru": "Волшебная кисть"
+        },
+        "guideTips": "Apply Style(Doodles)-Brushes-Basic-Cloud brush on the photo. Adjust the transparency of the cloud.",
+        "localizedCategoryTips": {
+          "ja": "グラフィティバー-ブラシ機能をクリックし、[基本-クラウド]ブラシを選択して、クラウドレイヤーの透明度を上げます。",
+          "ms": "Klik grafiti bar - fungsi berus, pilih berus Asas-Awan, dan kemudian meningkatkan ketelusan lapisan awan.",
+          "zh": "点击涂鸦栏-笔刷功能，选择“基本-云朵”笔刷，然后提高云朵图层的透明度。",
+          "zh-Hant": "點擊塗鴉欄-筆刷功能，選擇“基本”中的雲朵筆刷，然後提高雲朵圖層的透明度。",
+          "ru": "Нажмите на функцию кисти, выберите кисть «Basic-Cloud» и увеличьте прозрачность слоя облаков."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_bluepool_6.png",
+        "guideName": "Merge the Layers",
+        "localizedCategoryName": {
+          "ja": "レイヤーを結合",
+          "ms": "Gabungkan lapisan",
+          "zh": "合并图层",
+          "zh-Hant": "合并圖層",
+          "ru": "Объединить слои"
+        },
+        "guideTips": "Enter the layer page and click merge button to merge Layer 2,3,4,5.",
+        "localizedCategoryTips": {
+          "ja": "レイヤー編集ページに移動し、マージオプションをクリックして、レイヤー2、3、4、5をマージします。",
+          "ms": "Pergi ke halaman Edit Layer dan klik pada pilihan Merge untuk menggabungkan lapisan 2, 3, 4, 5.",
+          "zh": "进入图层编辑页面，点击合并选项，合并图层2，3，4，5。",
+          "zh-Hant": "進入圖層編輯頁面，點擊合并選項，合并圖層2，3，4，5。",
+          "ru": "Перейдите на страницу редактирования слоя и выберите параметр объединения, чтобы объединить слои 2, 3, 4 и 5."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_bluepool_7.png",
+        "guideName": "Adjust the Contrast",
+        "localizedCategoryName": {
+          "ja": "コントラストを調整する",
+          "ms": "Laraskan kontras",
+          "zh": "调整对比度",
+          "zh-Hant": "調整對比度",
+          "ru": "Отрегулируйте контраст"
+        },
+        "guideTips": "Choose Layer 2 and click ”Effects--Adjust--Contrast” to lower contrast to -40.",
+        "localizedCategoryTips": {
+          "ja": "レイヤー2に統合した後、レイヤー2を選択し、「効果-調整-コントラスト」機能をクリックして、調整レバーを左に-40に押します。",
+          "ms": "Setelah bergabung ke lapisan 2, pilih lapisan 2, klik fungsi Kesan-Laraskan-Kontras, dan tuil penyesuaian ditolak ke kiri ke -40.",
+          "zh": "合并后为图层2，选择图层2，点击“效果—调整—对比”功能，调节杆往左推至-40。",
+          "zh-Hant": "合并后為圖層2，選擇圖層2，點擊“效果—調整—對比”功能，對比度調到-40。",
+          "ru": "Слияние со слоем 2. Выберите слой 2 и нажмите функцию «Effect-Adjust-Contrast», чтобы настроить контрастность до -40."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_bluepool_8.png",
+        "guideName": "Done！",
+        "localizedCategoryName": {
+          "ja": "学習が完了しました！",
+          "ms": "Pembelajaran selesai!",
+          "zh": "学习完成！",
+          "zh-Hant": "學習完成！",
+          "ru": "Исследование завершено!"
+        },
+        "guideTips": "To explore more amazing functions and start my own creative journey!",
+        "localizedCategoryTips": {
+          "ja": "より多くの機能を探索し、創造的な旅を始めましょう！",
+          "ms": "Terokai lebih banyak ciri dan mulakan perjalanan kreatif saya!",
+          "zh": "探索更多功能，开始我的创作之旅！",
+          "zh-Hant": "探索更多神奇功能，開始我的創作之旅！",
+          "ru": "Узнайте больше о магических особенностях и начните мое творческое путешествие!"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Artistic Tear",
+    "localizedCategory": {
+      "ja": "アート涙",
+      "ms": "Tear Artistik",
+      "zh": "艺术眼泪",
+      "zh-Hant": "藝術眼淚",
+      "ru": "Художественная слеза"
+    },
+    "showType": "IMAGE",
+    "showName": "img_arttears_6.png",
+    "materials": [
+      {
+        "fileName": "艺术眼泪1.jpg"
+      },
+      {
+        "fileName": "艺术眼泪2.jpg"
+      }
+    ],
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "艺术眼泪.mp4",
+        "guideName": "Artistic Tear",
+        "localizedCategoryName": {
+          "ja": "アート涙",
+          "ms": "Tear Artistik",
+          "zh": "艺术眼泪",
+          "zh-Hant": "藝術眼淚",
+          "ru": "Художественная слеза"
+        },
+        "guideTips": "Use Shape crop to create amazing works!",
+        "localizedCategoryTips": {
+          "ja": "シェイプクロップを使用して、予想外の驚くべき結果を達成してください！",
+          "ms": "Gunakan tanaman Bentuk untuk mencipta karya yang menakjubkan!",
+          "zh": "使用形状裁剪达到你意想不到的惊人效果！",
+          "zh-Hant": "使用形狀裁剪達到你意想不到的驚人效果！",
+          "ru": "Используйте обрезку формы для достижения неожиданных и удивительных результатов!"
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_arttears_1.png",
+        "guideName": "Select Photo",
+        "localizedCategoryName": {
+          "ja": "写真を選ぶ",
+          "ms": "Pilih gambar",
+          "zh": "挑选图片",
+          "zh-Hant": "挑選圖片",
+          "ru": "Выберите картинку"
+        },
+        "guideTips": "Select one person photo from your album.",
+        "localizedCategoryTips": {
+          "ja": "アルバムから人物の顔の写真を選択します。",
+          "ms": "Pilih foto muka seseorang dari album.",
+          "zh": "从相册中选择一张人的脸部照片。",
+          "zh-Hant": "從相冊中選擇一張人的臉部照片。",
+          "ru": "Выберите фотографию лица человека из альбома"
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_arttears_2.png",
+        "guideName": "Apply Filter",
+        "localizedCategoryName": {
+          "ja": "白黒フィルターを追加する",
+          "ms": "Tambah penapis hitam dan putih",
+          "zh": "添加黑白滤镜",
+          "zh-Hant": "添加黑白濾鏡",
+          "ru": "Добавить черно-белые фильтры"
+        },
+        "guideTips": "Apply Normal filter 01 to make the photo black-and-white.",
+        "localizedCategoryTips": {
+          "ja": "フィルター-通常フィルター01を使用して、画像を白黒に見せます。",
+          "ms": "Gunakan Penapis-Penapis Normal 01 untuk membuat imej kelihatan hitam dan putih.",
+          "zh": "使用滤镜-普通滤镜01令图片呈现出黑白效果。",
+          "zh-Hant": "使用濾鏡-普通濾鏡01令圖片呈現出黑白效果。",
+          "ru": "Используйте общий фильтр 01, чтобы изображение выглядело черно-белым."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_arttears_3.png",
+        "guideName": "Select Colorful Photo",
+        "localizedCategoryName": {
+          "ja": "カラー画像を追加する",
+          "ms": "Tambah imej warna",
+          "zh": "添加彩色图片",
+          "zh-Hant": "添加彩色圖片",
+          "ru": "Добавить цветные картинки"
+        },
+        "guideTips": "Select one artistic photo from your album and make it Layer 2. Choose tear drop shape crop from “Tool---Shape Crop---Basic”.",
+        "localizedCategoryTips": {
+          "ja": "アルバムからレイヤー2として芸術的なカラー画像を選択します。 レイヤー2を選択した状態で、[ツールシェイプクロップ-基本シェイプ]でティアドロップシェイプを選択します。",
+          "ms": "Pilih gambar warna seni dari album sebagai lapisan 2. Dengan Layer 2 yang dipilih, pilih bentuk titik air mata di Alat-Bentuk Tanaman-Bentuk Asas.",
+          "zh": "从相册中选择一张具有艺术性的彩色图片为图层2。选中图层2，在工具-形状裁剪--基本形状中选择泪滴形状。",
+          "zh-Hant": "Выберите художественный цветной рисунок из фотоальбома в качестве слоя 2. Выберите слой 2 и выберите форму капли в инструменты-Форма урожая-Основная форма."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_arttears_4.png",
+        "guideName": "Shape Crop",
+        "localizedCategoryName": {
+          "ja": "形状切断",
+          "ms": "Bentuk pemotongan",
+          "zh": "形状裁剪",
+          "zh-Hant": "形狀裁剪",
+          "ru": "Форма обрезки"
+        },
+        "guideTips": "Choose tear drop shape and make colorful tear drop.",
+        "localizedCategoryTips": {
+          "ja": "カラフルなアートの涙を切り取るために、涙の形を選択します。",
+          "ms": "Pilih bentuk titisan air mata untuk memotong air mata seni berwarna-warni.",
+          "zh": "选中泪滴形状裁剪出彩色艺术泪滴。",
+          "zh-Hant": "選中淚滴形狀裁剪出彩色藝術淚滴。",
+          "ru": "Выберите форму слезы, чтобы обрезать красочные художественные слезы."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_arttears_5.png",
+        "guideName": "Copy Layer 2",
+        "localizedCategoryName": {
+          "ja": "レイヤー2の複製",
+          "ms": "Lapisan pendua 2",
+          "zh": "复制图层2",
+          "zh-Hant": "複製圖層2",
+          "ru": "Двойной слой 2"
+        },
+        "guideTips": "Copy the tear drop layer and adjust its amount and placement on the face.",
+        "localizedCategoryTips": {
+          "ja": "ティアドロップレイヤーをコピーし、ティアドロップの数とサイズを調整します。",
+          "ms": "Salin lapisan air mata dan laraskan nombor dan saiz air mata.",
+          "zh": "复制泪滴图层，调整泪滴的数量和大小。",
+          "zh-Hant": "複製淚滴圖層，調整淚滴的數量和大小。",
+          "ru": "Дублируйте слой слезинки и отрегулируйте количество и размер капель."
+        }
+      },
+      {
+        "type": "IMAGE",
+        "fileName": "img_arttears_6.png",
+        "guideName": "Done!",
+        "localizedCategoryName": {
+          "ja": "学習が完了しました！",
+          "ms": "Pembelajaran selesai!",
+          "zh": "学习完成！",
+          "zh-Hant": "學習完成！",
+          "ru": "Исследование завершено!"
+        },
+        "guideTips": "To explore more amazing functions and start my own creative journey!",
+        "localizedCategoryTips": {
+          "ja": "より多くの機能を探索し、創造的な旅を始めましょう！",
+          "ms": "Terokai lebih banyak ciri dan mulakan perjalanan kreatif saya!",
+          "zh": "探索更多功能，开始我的创作之旅！",
+          "zh-Hant": "探索更多功能，開始我的創作之旅！",
+          "ru": "Узнайте больше о возможностях и начните мое творческое путешествие!"
+        }
+      }
+    ]
+  }
+]

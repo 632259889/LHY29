@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/llPickerRoot" android:background="#e0000000" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="40.0dip">
+            <TextView android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_cancel" android:background="@drawable/selector_nav_close_white" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+            <LinearLayout android:layout_gravity="center_vertical" android:id="@id/preview_layout" android:padding="0.0dip" android:layout_width="0.0dip" android:layout_height="25.0dip" android:layout_margin="0.0dip" android:layout_weight="1.0">
+                <View android:id="@id/old_color_panel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <View android:id="@id/new_color_panel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/hex_layout" android:layout_width="96.0dip" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\#" />
+                <TextView android:textSize="12.0dip" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/et_hex" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="25.0dip" android:hint="@string/Enter" android:maxLines="1" android:maxLength="6" />
+            </LinearLayout>
+            <TextView android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_confirm" android:background="@drawable/selector_nav_done_white" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        </LinearLayout>
+        <lightcone.com.pack.view.ColorPicker.ColorPickerView android:id="@id/color_picker_view" android:tag="portrait" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layerType="software" />
+        <LinearLayout android:orientation="vertical" android:id="@id/tab_color_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <RadioGroup android:orientation="horizontal" android:id="@id/rg_color_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+                <RadioButton android:textSize="12.0dip" android:textColor="@drawable/selector_icon_btm_text_color" android:gravity="center_horizontal" android:id="@id/rb_rgb" android:background="@drawable/btn_text_selector" android:layout_width="0.0dip" android:layout_height="30.0dip" android:checked="true" android:button="@null" android:text="RGB" android:layout_weight="1.0" />
+                <RadioButton android:textSize="12.0dip" android:textColor="@drawable/selector_icon_btm_text_color" android:gravity="center_horizontal" android:id="@id/rb_hsb" android:background="@drawable/btn_text_selector" android:layout_width="0.0dip" android:layout_height="30.0dip" android:button="@null" android:text="HSB" android:layout_weight="1.0" />
+            </RadioGroup>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+                <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_color_1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:text="R" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/iv_subtract_1" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/color_icon_subtract" android:scaleType="center" />
+                <lightcone.com.pack.view.ColorPicker.ColorSeekBar android:id="@id/sb_color_1" android:layout_width="0.0dip" android:layout_height="25.0dip" android:layout_weight="1.0" />
+                <ImageView android:id="@id/iv_plus_1" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/color_icon_plus" android:scaleType="center" />
+                <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="end|center" android:id="@id/tv_num_1" android:layout_width="25.0dip" android:layout_height="25.0dip" android:text="255" android:layout_centerVertical="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+                <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_color_2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:text="G" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/iv_subtract_2" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/color_icon_subtract" android:scaleType="center" />
+                <lightcone.com.pack.view.ColorPicker.ColorSeekBar android:id="@id/sb_color_2" android:layout_width="0.0dip" android:layout_height="25.0dip" android:layout_weight="1.0" />
+                <ImageView android:id="@id/iv_plus_2" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/color_icon_plus" android:scaleType="center" />
+                <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="end|center" android:id="@id/tv_num_2" android:layout_width="25.0dip" android:layout_height="25.0dip" android:text="255" android:layout_centerVertical="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+                <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_color_3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:text="B" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/iv_subtract_3" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/color_icon_subtract" android:scaleType="center" />
+                <lightcone.com.pack.view.ColorPicker.ColorSeekBar android:id="@id/sb_color_3" android:layout_width="0.0dip" android:layout_height="25.0dip" android:layout_weight="1.0" />
+                <ImageView android:id="@id/iv_plus_3" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/color_icon_plus" android:scaleType="center" />
+                <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="end|center" android:id="@id/tv_num_3" android:layout_width="25.0dip" android:layout_height="25.0dip" android:text="255" android:layout_centerVertical="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

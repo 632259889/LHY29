@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/topBar" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <ImageView android:id="@id/ivBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_nav_back" android:layout_centerVertical="true" />
+        <lightcone.com.pack.view.AppUITextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tvSettings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Toolbox_Reorder" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="44.0dip" />
+</RelativeLayout>

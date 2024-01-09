@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/tabContent" android:background="#ff010013" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tabBottom" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/image_phone" />
+        <lightcone.com.pack.view.VideoView.MutedVideoView android:layout_gravity="center" android:id="@id/texture_video" android:layout_width="215.0dip" android:layout_height="380.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/image_view" android:layout_width="215.0dip" android:layout_height="380.0dip" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/tabDownload" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <lightcone.com.pack.view.CircleProgressView android:id="@id/circleProgressView" android:background="@drawable/download_bar1_bg" android:layout_width="70.0dip" android:layout_height="70.0dip" />
+                <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:layout_gravity="center" android:id="@id/tvProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" />
+            </FrameLayout>
+            <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/tvDownloadTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/Downloading" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/tabBottom" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="name" />
+        <TextView android:textSize="15.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/tv_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="tips" />
+    </LinearLayout>
+</RelativeLayout>

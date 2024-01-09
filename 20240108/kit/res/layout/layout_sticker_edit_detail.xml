@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lightcone.com.pack.view.StickerEditDetailLayout android:background="#ff222224" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:scrollbarSize="4.0dip" android:scrollbarThumbVertical="@color/scrollbarColor" android:scrollbarStyle="outsideInset" android:id="@id/rvList" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/rlDownload" android:background="#ff222224" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivDownload" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/sticker_store_img" android:layout_centerHorizontal="true" app:riv_corner_radius="15.0dip" />
+        <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvStickerName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="5.0dip" android:text="@string/Download" android:layout_below="@id/ivDownload" />
+        <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvDownload" android:background="@drawable/bg_btn_download" android:layout_width="120.0dip" android:layout_height="30.0dip" android:text="@string/Download" android:layout_below="@id/tvStickerName" android:layout_centerHorizontal="true" />
+        <ProgressBar android:id="@id/vProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="100" android:progress="0" android:progressDrawable="@drawable/layer_list_progress_drawable_2" android:layout_alignTop="@id/tvDownload" android:layout_alignBottom="@id/tvDownload" android:layout_alignStart="@id/tvDownload" android:layout_alignEnd="@id/tvDownload" style="@android:style/Widget.ProgressBar.Horizontal" />
+    </RelativeLayout>
+</lightcone.com.pack.view.StickerEditDetailLayout>

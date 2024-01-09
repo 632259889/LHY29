@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lightcone.com.pack.view.DialogEraserDoLayout android:id="@id/mainContainer" android:layout_width="88.0dip" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivUndo" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/selector_btn_edit_backward" android:scaleType="center" />
+    <ImageView android:id="@id/ivRedo" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/selector_btn_edit_forward" android:scaleType="center" android:layout_toEndOf="@id/ivUndo" />
+</lightcone.com.pack.view.DialogEraserDoLayout>

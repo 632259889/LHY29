@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvInteractiveGroup" android:background="@drawable/shape_gray_interactive" android:paddingTop="25.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-20.0dip" android:layout_below="@id/tabGroup" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" />
+    <RelativeLayout android:id="@id/tabGroup" android:background="@drawable/shape_black_interactive" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="100.0dip">
+        <ImageView android:id="@id/ivGroup" android:layout_width="140.0dip" android:layout_height="75.0dip" android:src="@drawable/ic_launcher" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/btnMore" android:layout_toEndOf="@id/ivGroup">
+            <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:id="@id/tvName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="基本技能" />
+            <TextView android:textSize="15.0dip" android:textColor="#ff7c74e3" android:id="@id/tvFinish" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2/4" />
+        </LinearLayout>
+        <ImageView android:id="@id/btnMore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tutorials_btn_up" android:layout_centerVertical="true" android:rotation="-90.0" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

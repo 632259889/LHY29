@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1,
+    "name": "Instagram",
+    "width": "2048",
+    "height": "2048",
+    "thumbnail": "canvassize_btn_instagraml.png"
+  },
+  {
+    "id": 2,
+    "name": "Ins Story",
+    "width": "1152",
+    "height": "2048",
+    "thumbnail": "canvassize_btn_insstory.png"
+  },
+  {
+    "id": 3,
+    "name": "Ins Portrait",
+    "width": "1638",
+    "height": "2048",
+    "thumbnail": "canvassize_btn_insportrait.png"
+  },
+  {
+    "id": 4,
+    "name": "FB Cover",
+    "width": "2048",
+    "height": "778",
+    "thumbnail": "canvassize_btn_fbcover.png"
+  },
+  {
+    "id": 5,
+    "name": "FB Post",
+    "width": "2048",
+    "height": "1076",
+    "thumbnail": "canvassize_btn_fbpost.png"
+  },
+  {
+    "id": 6,
+    "name": "Twitter Post",
+    "width": "2048",
+    "height": "1154",
+    "thumbnail": "canvassize_btn_twitterpost.png"
+  },
+  {
+    "id": 7,
+    "name": "Twitter Header",
+    "width": "2048",
+    "height": "682",
+    "thumbnail": "canvassize_btn_twitterheader.png"
+  },
+  {
+    "id": 8,
+    "name": "Youtube",
+    "width": "2048",
+    "height": "1152",
+    "thumbnail": "canvassize_btn_youtube.png"
+  },
+  {
+    "id": 9,
+    "name": "Pinterest Post",
+    "width": "1366",
+    "height": "2048",
+    "thumbnail": "canvassize_btn_pinterestpost.png"
+  },
+  {
+    "id": 10,
+    "name": "Snapchat",
+    "width": "1152",
+    "height": "2048",
+    "thumbnail": "canvassize_btn_snapchat.png"
+  },
+  {
+    "id": 11,
+    "name": "1：1",
+    "width": "2048",
+    "height": "2048",
+    "thumbnail": "crop_1_1.png"
+  },
+  {
+    "id": 22,
+    "name": "1：2",
+    "width": "1024",
+    "height": "2048",
+    "thumbnail": "crop_1_2.png"
+  },
+  {
+    "id": 23,
+    "name": "2：1",
+    "width": "2048",
+    "height": "1024",
+    "thumbnail": "crop_2_1.png"
+  },
+  {
+    "id": 21,
+    "name": "2：3",
+    "width": "1366",
+    "height": "2048",
+    "thumbnail": "crop_2_3.png"
+  },
+  {
+    "id": 12,
+    "name": "3：2",
+    "width": "2048",
+    "height": "1366",
+    "thumbnail": "crop_3_2.png"
+  },
+  {
+    "id": 13,
+    "name": "3：4",
+    "width": "1536",
+    "height": "2048",
+    "thumbnail": "crop_3_4.png"
+  },
+  {
+    "id": 14,
+    "name": "4：3",
+    "width": "2048",
+    "height": "1536",
+    "thumbnail": "crop_4_3.png"
+  },
+  {
+    "id": 15,
+    "name": "4：5",
+    "width": "1638",
+    "height": "2048",
+    "thumbnail": "crop_4_5.png"
+  },
+  {
+    "id": 16,
+    "name": "5：4",
+    "width": "2048",
+    "height": "1638",
+    "thumbnail": "crop_5_4.png"
+  },
+  {
+    "id": 17,
+    "name": "16：9",
+    "width": "2048",
+    "height": "1152",
+    "thumbnail": "crop_16_9.png"
+  },
+  {
+    "id": 18,
+    "name": "9：16",
+    "width": "1152",
+    "height": "2048",
+    "thumbnail": "crop_9_16.png"
+  },
+  {
+    "id": 19,
+    "name": "1：1",
+    "width": "2048",
+    "height": "2048",
+    "thumbnail": "canvassize_btn_circle.png",
+    "shapeType": 1
+  },
+  {
+    "id": 20,
+    "name": "1：1",
+    "width": "2048",
+    "height": "2048",
+    "thumbnail": "canvassize_btn_triangle.png",
+    "shapeType": 2
+  }
+]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/tv_top" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="04-11   18：33" android:layout_centerVertical="true" />
+        <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_count" android:background="@drawable/bg_circle_red" android:padding="3.0dip" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="10" android:layout_toRightOf="@id/tv_time" android:layout_centerVertical="true" />
+        <CheckBox android:gravity="center" android:id="@id/cb_resolve" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="30.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:scaleX="0.9" android:scaleY="0.9" android:buttonTint="#ff666666" />
+    </RelativeLayout>
+    <View android:background="#cceeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:layout_below="@id/tv_top" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_exception_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="40.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ff148392" android:ellipsize="end" android:id="@id/tv_exception_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="java.lang.IllegalStateException" android:maxLines="1" android:layout_below="@id/tv_top" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:ellipsize="end" android:id="@id/tv_exception_trace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:text="androidx.appcompat.app.appcompat.appcompat" android:maxLines="1" android:layout_below="@id/tv_exception_name" />
+    </LinearLayout>
+    <View android:background="#ff999999" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

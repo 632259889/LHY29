@@ -1,0 +1,325 @@
+[
+  {
+    "unlockId": "Cleavage",
+    "type": "乳沟",
+    "PRO": 1,
+    "category": "乳沟",
+    "resource": [
+      {
+        "categoryTag": "C1",
+        "imageName": "cleavage_01.png",
+        "thumbnail": "cleavage_01.png"
+      },
+      {
+        "categoryTag": "C2",
+        "imageName": "cleavage_02.png",
+        "thumbnail": "cleavage_02.png"
+      },
+      {
+        "categoryTag": "C3",
+        "imageName": "cleavage_03.png",
+        "thumbnail": "cleavage_03.png"
+      },
+      {
+        "categoryTag": "C4",
+        "imageName": "cleavage_04.png",
+        "thumbnail": "cleavage_04.png"
+      },
+      {
+        "categoryTag": "C5",
+        "imageName": "cleavage_05.png",
+        "thumbnail": "cleavage_05.png"
+      },
+      {
+        "categoryTag": "C6",
+        "imageName": "cleavage_06.png",
+        "thumbnail": "cleavage_06.png"
+      },
+      {
+        "categoryTag": "C7",
+        "imageName": "cleavage_07.png",
+        "thumbnail": "cleavage_07.png"
+      },
+      {
+        "categoryTag": "C8",
+        "imageName": "cleavage_08.png",
+        "thumbnail": "cleavage_08.png"
+      }
+    ]
+  },
+  {
+    "unlockId": "Abs_Feature",
+    "type": "马甲线",
+    "PRO": 1,
+    "category": "精选",
+    "resource": [
+      {
+        "categoryTag": "M7",
+        "imageName": "abs_11.png",
+        "thumbnail": "abs_11.png"
+      },
+      {
+        "categoryTag": "M6",
+        "imageName": "abs_29.png",
+        "thumbnail": "abs_29.png"
+      },
+      {
+        "categoryTag": "L10",
+        "imageName": "abs_8.png",
+        "thumbnail": "abs_8.png"
+      },
+      {
+        "categoryTag": "L11",
+        "imageName": "abs_10.png",
+        "thumbnail": "abs_10.png"
+      },
+      {
+        "categoryTag": "S3",
+        "imageName": "abs_31.png",
+        "thumbnail": "abs_31.png"
+      },
+      {
+        "categoryTag": "S7",
+        "imageName": "abs_4.png",
+        "thumbnail": "abs_4.png"
+      },
+      {
+        "categoryTag": "S8",
+        "imageName": "abs_6.png",
+        "thumbnail": "abs_6.png"
+      },
+      {
+        "categoryTag": "F7",
+        "imageName": "abs_40.png",
+        "thumbnail": "abs_40.png"
+      }
+    ]
+  },
+  {
+    "unlockId": "Abs_Light",
+    "type": "马甲线",
+    "PRO": 1,
+    "category": "轻度",
+    "resource": [
+      {
+        "categoryTag": "L1",
+        "imageName": "abs_17.png",
+        "thumbnail": "abs_17.png"
+      },
+      {
+        "categoryTag": "L2",
+        "imageName": "abs_19.png",
+        "thumbnail": "abs_19.png"
+      },
+      {
+        "categoryTag": "L3",
+        "imageName": "abs_20.png",
+        "thumbnail": "abs_20.png"
+      },
+      {
+        "categoryTag": "L4",
+        "imageName": "abs_21.png",
+        "thumbnail": "abs_21.png"
+      },
+      {
+        "categoryTag": "L5",
+        "imageName": "abs_22.png",
+        "thumbnail": "abs_22.png"
+      },
+      {
+        "categoryTag": "L6",
+        "imageName": "abs_23.png",
+        "thumbnail": "abs_23.png"
+      },
+      {
+        "categoryTag": "L7",
+        "imageName": "abs_2.png",
+        "thumbnail": "abs_2.png"
+      },
+      {
+        "categoryTag": "L8",
+        "imageName": "abs_3.png",
+        "thumbnail": "abs_3.png"
+      },
+      {
+        "categoryTag": "L9",
+        "imageName": "abs_5.png",
+        "thumbnail": "abs_5.png"
+      },
+      {
+        "categoryTag": "L10",
+        "imageName": "abs_8.png",
+        "thumbnail": "abs_8.png"
+      },
+      {
+        "categoryTag": "L11",
+        "imageName": "abs_10.png",
+        "thumbnail": "abs_10.png"
+      }
+    ]
+  },
+  {
+    "unlockId": "Abs_Medium",
+    "type": "Abs",
+    "PRO": 1,
+    "category": "中度",
+    "resource": [
+      {
+        "categoryTag": "M1",
+        "imageName": "abs_24.png",
+        "thumbnail": "abs_24.png"
+      },
+      {
+        "categoryTag": "M2",
+        "imageName": "abs_25.png",
+        "thumbnail": "abs_25.png"
+      },
+      {
+        "categoryTag": "M3",
+        "imageName": "abs_26.png",
+        "thumbnail": "abs_26.png"
+      },
+      {
+        "categoryTag": "M4",
+        "imageName": "abs_27.png",
+        "thumbnail": "abs_27.png"
+      },
+      {
+        "categoryTag": "M5",
+        "imageName": "abs_28.png",
+        "thumbnail": "abs_28.png"
+      },
+      {
+        "categoryTag": "M6",
+        "imageName": "abs_29.png",
+        "thumbnail": "abs_29.png"
+      },
+      {
+        "categoryTag": "M7",
+        "imageName": "abs_11.png",
+        "thumbnail": "abs_11.png"
+      },
+      {
+        "categoryTag": "M8",
+        "imageName": "abs_12.png",
+        "thumbnail": "abs_12.png"
+      },
+      {
+        "categoryTag": "M9",
+        "imageName": "abs_13.png",
+        "thumbnail": "abs_13.png"
+      },
+      {
+        "categoryTag": "M10",
+        "imageName": "abs_14.png",
+        "thumbnail": "abs_14.png"
+      },
+      {
+        "categoryTag": "M11",
+        "imageName": "abs_16.png",
+        "thumbnail": "abs_16.png"
+      }
+    ]
+  },
+  {
+    "unlockId": "Abs_Strong",
+    "type": "马甲线",
+    "PRO": 1,
+    "category": "重度",
+    "resource": [
+      {
+        "categoryTag": "S1",
+        "imageName": "abs_18.png",
+        "thumbnail": "abs_18.png"
+      },
+      {
+        "categoryTag": "S2",
+        "imageName": "abs_30.png",
+        "thumbnail": "abs_30.png"
+      },
+      {
+        "categoryTag": "S3",
+        "imageName": "abs_31.png",
+        "thumbnail": "abs_31.png"
+      },
+      {
+        "categoryTag": "S4",
+        "imageName": "abs_32.png",
+        "thumbnail": "abs_32.png"
+      },
+      {
+        "categoryTag": "S5",
+        "imageName": "abs_33.png",
+        "thumbnail": "abs_33.png"
+      },
+      {
+        "categoryTag": "S6",
+        "imageName": "abs_1.png",
+        "thumbnail": "abs_1.png"
+      },
+      {
+        "categoryTag": "S7",
+        "imageName": "abs_4.png",
+        "thumbnail": "abs_4.png"
+      },
+      {
+        "categoryTag": "S8",
+        "imageName": "abs_6.png",
+        "thumbnail": "abs_6.png"
+      },
+      {
+        "categoryTag": "S9",
+        "imageName": "abs_7.png",
+        "thumbnail": "abs_7.png"
+      },
+      {
+        "categoryTag": "S10",
+        "imageName": "abs_9.png",
+        "thumbnail": "abs_9.png"
+      }
+    ]
+  },
+  {
+    "unlockId": "Abs_Fitness",
+    "type": "马甲线",
+    "PRO": 1,
+    "category": "健身",
+    "resource": [
+      {
+        "categoryTag": "F1",
+        "imageName": "abs_34.png",
+        "thumbnail": "abs_34.png"
+      },
+      {
+        "categoryTag": "F2",
+        "imageName": "abs_35.png",
+        "thumbnail": "abs_35.png"
+      },
+      {
+        "categoryTag": "F3",
+        "imageName": "abs_36.png",
+        "thumbnail": "abs_36.png"
+      },
+      {
+        "categoryTag": "F4",
+        "imageName": "abs_37.png",
+        "thumbnail": "abs_37.png"
+      },
+      {
+        "categoryTag": "F5",
+        "imageName": "abs_38.png",
+        "thumbnail": "abs_38.png"
+      },
+      {
+        "categoryTag": "F6",
+        "imageName": "abs_39.png",
+        "thumbnail": "abs_39.png"
+      },
+      {
+        "categoryTag": "F7",
+        "imageName": "abs_40.png",
+        "thumbnail": "abs_40.png"
+      }
+    ]
+  }
+]

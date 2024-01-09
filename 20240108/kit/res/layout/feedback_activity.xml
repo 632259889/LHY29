@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/fb_user_setting_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/feedback_title_bar" />
+    <View android:background="@drawable/fb_sector_divider_background" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="13.0sp" android:textColor="#ff999999" android:textColorHint="#ffd3d3d3" android:gravity="top" android:id="@id/feedback_content" android:background="@drawable/fb_bg_preference" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/feedback_content_hint" android:minLines="5" android:imeOptions="flagNoExtractUi" />
+            <View android:background="@drawable/fb_sector_divider_background" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+            <EditText android:textSize="13.0sp" android:textColor="#ff999999" android:textColorHint="#ffd3d3d3" android:id="@id/feedback_email" android:background="@drawable/fb_bg_preference" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/feedback_email_hint" android:singleLine="true" android:selectAllOnFocus="true" />
+            <View android:background="@drawable/fb_sector_divider_background" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+            <RelativeLayout android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:textColor="#ff999999" android:textColorLink="@color/fb_master_color" android:autoLink="email" android:id="@id/feedback_email_contact" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_email_address" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="5.0dip" android:layout_width="70.0dip" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivShow" android:background="@drawable/image_grid_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/ivSelect" android:background="@drawable/frame_image_selected" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvSelect" android:background="#804061fa" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="1" />
+    <ImageView android:id="@id/ivHide" android:background="@drawable/layer_icon_hide" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentBottom="true" />
+    <View android:gravity="center" android:id="@id/ivSelectHide" android:background="#604061fa" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

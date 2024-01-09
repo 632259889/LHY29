@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/tabBanner" android:background="@drawable/ic_launcher_background" android:layout_width="fill_parent" android:layout_height="230.0dip">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="40.0">
+                <ImageView android:id="@id/ivBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_nav_close_white" android:onClick="onClick" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="190.0">
+                <ImageView android:id="@id/iv_title_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher_background" />
+                <lightcone.com.pack.view.AppUIBoldTextView android:textSize="40.0dip" android:textColor="#ffffdd8c" android:id="@id/tv_title_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Christmas" android:textAllCaps="true" />
+                <lightcone.com.pack.view.AppUIBoldTextView android:textSize="50.0dip" android:textColor="#ffffdd8c" android:id="@id/tv_title_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-15.0dip" android:text="@string/Surprise" />
+                <lightcone.com.pack.view.AppUITextView android:textSize="11.0dip" android:textColor="#ff781a24" android:gravity="center_horizontal" android:id="@id/tv_title_time" android:background="@drawable/ic_launcher_background" android:paddingTop="7.0dip" android:layout_width="wrap_content" android:layout_height="24.0dip" android:text="@string/limited_time_discount" />
+            </LinearLayout>
+        </LinearLayout>
+        <lightcone.com.pack.view.AutoPollRecyclerView android:id="@id/arvFeatures" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvProTips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="35.0dip" android:layout_marginEnd="35.0dip" android:nestedScrollingEnabled="false" />
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <lightcone.com.pack.view.AppUIBoldTextView android:textSize="24.0sp" android:textColor="#ff333333" android:id="@id/tvSaleOnly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Only" />
+            <lightcone.com.pack.view.AppUIBoldTextView android:textSize="24.0sp" android:textColor="#ffc80017" android:id="@id/tvSalePrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$9.99" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/tvSaleOnly" />
+            <lightcone.com.pack.view.AppUIBoldTextView android:textSize="15.0sp" android:textColor="#ff333333" android:id="@id/tvOldPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$13.99" android:layout_centerVertical="true" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/tvSalePrice" />
+            <View android:background="#ffff0004" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_centerVertical="true" android:layout_alignStart="@id/tvOldPrice" android:layout_alignEnd="@id/tvOldPrice" />
+        </RelativeLayout>
+        <lightcone.com.pack.view.AppUIBoldTextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tvUnlock" android:background="@drawable/ic_launcher_background" android:layout_width="305.0dip" android:layout_height="48.0dip" android:layout_marginTop="10.0dip" android:text="@string/Unlock_Lifetime_VIP" android:onClick="onClick" />
+        <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:layout_gravity="center_horizontal" android:id="@id/tvGuide" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Fail_to_restore" android:onClick="onClick" />
+    </LinearLayout>
+</ScrollView>

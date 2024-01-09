@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lightcone.com.pack.view.StickerEditLayout android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="281.0dip" android:layout_marginBottom="35.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <ImageView android:id="@id/ivExpand" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/selector_btn_updown" android:scaleType="fitEnd" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:background="#ff010013" android:layout_width="fill_parent" android:layout_height="31.0dip" android:layout_marginTop="44.0dip">
+            <ImageView android:id="@id/ivStore" android:layout_width="62.0dip" android:layout_height="31.0dip" android:src="@drawable/sticker_icon_store" android:scaleType="center" />
+            <ImageView android:id="@id/ivHistory" android:background="@drawable/selector_btn_line_bg" android:layout_width="50.0dip" android:layout_height="31.0dip" android:src="@drawable/sticker_icon_history" android:scaleType="center" android:layout_toEndOf="@id/ivStore" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rvGroups" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toEndOf="@id/ivHistory" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rvStickerContainer" android:background="#ff010013" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="206.0dip" android:layout_marginTop="75.0dip">
+            <androidx.viewpager.widget.ViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/customContainer" android:background="#ff010013" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="44.0dip">
+            <androidx.recyclerview.widget.RecyclerView android:scrollbarSize="4.0dip" android:scrollbarThumbVertical="@color/scrollbarColor" android:scrollbarStyle="outsideInset" android:id="@id/rvCustom" android:paddingBottom="40.0dip" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textSize="13.0dip" android:textColor="#ff9f9f9f" android:gravity="center" android:id="@id/tvGalleryFindHint" android:background="#ff010013" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/album_cant_find_the_picture" android:layout_alignParentBottom="true" android:paddingVertical="5.0dip" />
+        </RelativeLayout>
+        <ImageView android:id="@id/redPointView" android:visibility="visible" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="35.0dip" android:src="@drawable/sticker_store_tag_new" android:layout_marginStart="40.0dip" />
+    </FrameLayout>
+    <RelativeLayout android:background="#ff0f0f17" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/ivStoreSetting" android:background="#ff0f0f17" android:layout_width="44.0dip" android:layout_height="31.0dip" android:src="@drawable/stamp_icon_setting_selected" android:scaleType="centerInside" />
+        <TextView android:textSize="12.0sp" android:textColor="@drawable/selector_home_category_color" android:gravity="center" android:id="@id/tvGallery" android:background="@drawable/selector_btn_line_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Gallery" android:layout_marginStart="44.0dip" android:layout_toStartOf="@id/lineCenter" />
+        <View android:id="@id/lineCenter" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_centerInParent="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@drawable/selector_home_category_color" android:gravity="center" android:id="@id/tvCustom" android:background="@drawable/selector_btn_line_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Custom_sticker" android:layout_marginEnd="44.0dip" android:layout_toEndOf="@id/lineCenter" />
+        <ImageView android:id="@id/ivDone" android:background="#ff15151f" android:layout_width="wrap_content" android:layout_height="35.0dip" android:src="@drawable/bottom_btn_done" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <CheckBox android:textSize="12.0dip" android:textColor="#ffffffff" android:id="@id/debugCheckStickerThumb" android:background="#66ffffff" android:layout_width="60.0dip" android:layout_height="35.0dip" android:layout_marginBottom="35.0dip" android:text="缩略" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/debugColorPanel" android:background="#66ffffff" android:layout_width="60.0dip" android:layout_height="35.0dip" android:layout_marginBottom="35.0dip" android:text="调底色" android:layout_alignParentBottom="true" android:layout_toEndOf="@id/debugCheckStickerThumb" />
+</lightcone.com.pack.view.StickerEditLayout>

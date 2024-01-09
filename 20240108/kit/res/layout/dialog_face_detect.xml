@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ccffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/ivHint1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/portrait_hint_icon" android:layout_centerInParent="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/portrait_hint_icon2" android:layout_alignBottom="@id/ivHint1" android:layout_alignEnd="@id/ivHint1" />
+        <lightcone.com.pack.view.AppUIBoldTextView android:textSize="18.0sp" android:textColor="#ff6050d2" android:gravity="center" android:id="@id/tvTips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/Face_Detecting" android:layout_below="@id/ivHint1" android:layout_centerHorizontal="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvRetry" android:background="@drawable/pop_btn_bg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/Retry" android:layout_below="@id/tvTips" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="18.0sp" android:textColor="#ff010013" android:gravity="center" android:id="@id/btnCancel" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginTop="20.0dip" android:text="" android:drawableStart="@drawable/nav_close_def" android:layout_marginStart="20.0dip" />
+</RelativeLayout>

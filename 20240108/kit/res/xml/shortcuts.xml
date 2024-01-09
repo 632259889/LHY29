@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/icon_get_featured" android:enabled="true">
+        <intent android:targetPackage="com.test.one" android:action="shortcut_GetFeatured" android:targetClass="lightcone.com.pack.activity.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@drawable/icon_new_stickers" android:enabled="true">
+        <intent android:targetPackage="com.test.one" android:action="shortcut_NewStickers" android:targetClass="lightcone.com.pack.activity.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@drawable/icon_use_eraser" android:enabled="true">
+        <intent android:targetPackage="com.test.one" android:action="shortcut_UseEraser" android:targetClass="lightcone.com.pack.activity.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@drawable/icon_start_editing" android:enabled="true">
+        <intent android:targetPackage="com.test.one" android:action="shortcut_StartEditing" android:targetClass="lightcone.com.pack.activity.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff010013" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/navBar" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <ImageView android:id="@id/ivBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_nav_delete" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/ivCamera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_nav_camera" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/tabBottom" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_above="@id/adBanner">
+        <lightcone.com.pack.view.DrawableAppUIBoldTextView android:textSize="18.0dip" android:textColor="@drawable/selector_new_project_color" android:gravity="center" android:id="@id/tvAlbum" android:background="@drawable/selector_btn_new_bg" android:layout_width="160.0dip" android:layout_height="30.0dip" android:text="@string/All" android:drawableRight="@drawable/photolist_btn_up" android:drawablePadding="8.0dip" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+        <TextView android:enabled="false" android:textSize="11.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnNext" android:background="@drawable/selector_btn_next_bg" android:layout_width="90.0dip" android:layout_height="30.0dip" android:text="@string/next_step" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/tabPictures" android:background="#ff252434" android:padding="2.5dip" android:layout_width="fill_parent" android:layout_height="92.5dip" android:layout_below="@id/navBar">
+        <ImageView android:id="@id/btnDeletePictures" android:layout_width="26.0dip" android:layout_height="29.5dip" android:src="@drawable/project_bottom_delete_selected" android:scaleType="centerInside" android:paddingEnd="5.0dip" />
+        <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvChoosePictures" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/choose_pictures_num" android:layout_alignTop="@id/btnDeletePictures" android:layout_alignBottom="@id/btnDeletePictures" android:layout_toEndOf="@id/btnDeletePictures" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvChoosePictures" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/btnDeletePictures" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvFileItem" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.5dip" android:layout_above="@id/tabBottom" android:layout_below="@id/tabPictures" />
+    <RelativeLayout android:id="@id/rlFileKind" android:background="@drawable/shape_gray" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/tabBottom">
+        <LinearLayout android:id="@id/btnSort" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+            <ImageView android:padding="10.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/icon_reorder" />
+            <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="center" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/Reorder_Folds" android:layout_marginStart="10.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvGalleryFindHint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/Cannot_find_your_image" android:layout_marginEnd="5.0dip" android:layout_alignParentEnd="true" />
+        <lightcone.com.pack.view.WrapRecycleView.WrapRecyclerView android:id="@id/rvFileKind" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/btnSort" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/adBanner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/admob_banner_layout" />
+    </FrameLayout>
+</RelativeLayout>

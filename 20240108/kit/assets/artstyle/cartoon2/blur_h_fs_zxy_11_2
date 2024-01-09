@@ -1,0 +1,62 @@
+#define iChannel0 inputImageTexture
+#define fragColor gl_FragColor
+#define w1 0.033159047
+#define w2 0.054670025
+#define w3 0.08065691
+#define w4 0.10648267
+#define w5 0.12579441
+#define w6 0.13298076
+#define wS 0.9345069
+//#define w1 0.3246524
+//#define w2 0.6065306
+//#define w3 0.8824969
+//#define w4 1.0
+//#define wS 4.6273600
+
+precision highp float;
+
+varying vec2 st;
+uniform sampler2D inputImageTexture;
+uniform vec2 iResolution;
+uniform float stride;
+//uniform float weights[19];
+
+//vec4 texture2D(sampler2D src, vec2 loc){
+//    vec4 color = texture2D(src, loc);
+////    if(loc.x < 0. || loc.x >= 1.){
+////        float a = fract(loc.x);
+////        color = vec4(vec3(0.), smoothstep(0., 1., a) * (-10.));
+////        color = vec4(vec3(0.), 1.);
+////    }
+////    return color;
+//}
+
+vec4 BlurH (sampler2D source, vec2 size, vec2 uv) {
+
+
+    vec4 A = vec4(0.0);
+    vec4 C = vec4(0.0);
+
+    float width = stride / size.x;
+
+
+    A = texture2D(source, (uv + vec2(width * -5., 0.0))) * w1 + texture2D(source, (uv + vec2(width * -4., 0.0))) * w2 + texture2D(source, (uv + vec2(width * -3., 0.0))) * w3
+    + texture2D(source, (uv + vec2(width * -2., 0.0))) * w4 + texture2D(source, (uv + vec2(width * -1., 0.0))) * w5 + texture2D(source, (uv)) * w6
+    + texture2D(source, (uv + vec2(width * 1., 0.0))) * w5 + texture2D(source, (uv + vec2(width * 2., 0.0))) * w4 + texture2D(source, (uv + vec2(width * 3., 0.0))) * w3
+    + texture2D(source, (uv + vec2(width * 4., 0.0))) * w2 + texture2D(source, (uv + vec2(width * 5., 0.0))) * w1;
+
+    //    A = texture2D(source, (uv + vec2(width * -2., 0.0))) * w2 +
+    //    texture2D(source, (uv + vec2(width * -1., 0.0))) * w3 + texture2D(source, uv) * w4
+    //    + texture2D(source, (uv + vec2(width * 1., 0.0))) * w3 + texture2D(source, (uv + vec2(width * 2., 0.0))) * w2;
+
+    A = A / wS;
+//    A = A * smoothstep(0., stride * 5. / size.x, mod(uv.x, 1. - stride * 5. / size.x));
+    return A;
+
+}
+
+void main()
+{
+    // Apply vertical blur to buffer A
+    fragColor = BlurH(iChannel0, iResolution.xy, st);
+}

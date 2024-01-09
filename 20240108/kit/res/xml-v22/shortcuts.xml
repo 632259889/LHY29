@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/icon_get_featured" android:enabled="true" android:shortcutId="GetFeatured" android:shortcutShortLabel="@string/Get_Featured" android:shortcutLongLabel="@string/Get_Featured" android:shortcutDisabledMessage="@string/Get_Featured">
+        <intent android:targetPackage="com.test.one" android:action="shortcut_GetFeatured" android:targetClass="lightcone.com.pack.activity.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@drawable/icon_new_stickers" android:enabled="true" android:shortcutId="NewStickers" android:shortcutShortLabel="@string/New_Stickers" android:shortcutLongLabel="@string/New_Stickers" android:shortcutDisabledMessage="@string/New_Stickers">
+        <intent android:targetPackage="com.test.one" android:action="shortcut_NewStickers" android:targetClass="lightcone.com.pack.activity.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@drawable/icon_use_eraser" android:enabled="true" android:shortcutId="UseEraser" android:shortcutShortLabel="@string/Use_Eraser" android:shortcutLongLabel="@string/Use_Eraser" android:shortcutDisabledMessage="@string/Use_Eraser">
+        <intent android:targetPackage="com.test.one" android:action="shortcut_UseEraser" android:targetClass="lightcone.com.pack.activity.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@drawable/icon_start_editing" android:enabled="true" android:shortcutId="StartEditing" android:shortcutShortLabel="@string/Start_Editing" android:shortcutLongLabel="@string/Start_Editing" android:shortcutDisabledMessage="@string/Start_Editing">
+        <intent android:targetPackage="com.test.one" android:action="shortcut_StartEditing" android:targetClass="lightcone.com.pack.activity.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

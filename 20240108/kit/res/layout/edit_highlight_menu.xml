@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/highlightMenu" android:background="#ff010013" android:layout_width="fill_parent" android:layout_height="210.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/highlightHandle" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:id="@id/highlightContrast" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/btn_contrast" android:scaleType="center" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/highlightUndo" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/selector_btn_edit_backward" android:scaleType="center" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/highlightRedo" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/selector_btn_edit_forward" android:scaleType="center" android:layout_toRightOf="@id/highlightUndo" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/rgHighlight" android:background="#ff0f0f17" android:layout_width="fill_parent" android:layout_height="31.0dip" android:layout_below="@id/highlightHandle">
+        <RadioButton android:textSize="12.0sp" android:textColor="@drawable/selector_edit_group_color" android:gravity="center" android:id="@id/btnShadowTint" android:background="@drawable/selector_edit_group_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:checked="true" android:button="@null" android:text="@string/Shadow" android:drawableBottom="@drawable/selector_edit_group_line" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" />
+        <RadioButton android:textSize="12.0sp" android:textColor="@drawable/selector_edit_group_color" android:gravity="center" android:id="@id/btnHighlightTint" android:background="@drawable/selector_edit_group_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:button="@null" android:text="@string/Highlights" android:drawableBottom="@drawable/selector_edit_group_line" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" />
+    </RadioGroup>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_above="@id/highlight_color_panel" android:layout_below="@id/rgHighlight" android:layout_centerHorizontal="true">
+        <lightcone.com.pack.view.WrapRecycleView.WrapRecyclerView android:layout_gravity="center_vertical" android:id="@id/rv_highlight" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/highlight_color_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/tabHighlightBtnSub">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llSeekHighlight" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <lightcone.com.pack.view.ColorPicker.ColorSeekBar android:id="@id/sb_color_highlight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginStart="14.5dip" android:layout_marginEnd="14.5dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/highlightNumber" android:background="@drawable/bubble_bg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/highlight_color_panel">
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/textHighlight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/tabHighlightBtnSub" android:background="#ff010013" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/btnHighlightSubCancel" android:layout_width="0.0dip" android:layout_height="30.0dip" android:src="@drawable/bottom_btn_cancel" android:scaleType="fitStart" android:layout_weight="1.0" />
+        <ImageView android:id="@id/btnHighlightSubDone" android:layout_width="0.0dip" android:layout_height="30.0dip" android:src="@drawable/bottom_btn_done" android:scaleType="fitEnd" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

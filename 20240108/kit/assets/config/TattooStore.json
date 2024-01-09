@@ -1,0 +1,318 @@
+[
+  {
+    "unlockId": "Tattoo_Gothic",
+    "type": "Tattoo",
+    "PRO": 1,
+    "category": "Gothic",
+    "resource": [
+      {
+        "pro": true,
+        "categoryTag": "G1",
+        "imageName": "g_tattoo_1.png",
+        "thumbnail": "thumbnail_g_tattoo_1.png"
+      },
+      {
+        "pro": true,
+        "categoryTag": "G2",
+        "imageName": "g_tattoo_2.png",
+        "thumbnail": "thumbnail_g_tattoo_2.png"
+      },
+      {
+        "categoryTag": "G3",
+        "imageName": "g_tattoo_3.png",
+        "thumbnail": "thumbnail_g_tattoo_3.png"
+      },
+      {
+        "categoryTag": "G4",
+        "imageName": "g_tattoo_4.png",
+        "thumbnail": "thumbnail_g_tattoo_4.png"
+      },
+
+      {
+        "categoryTag": "G6",
+        "imageName": "g_tattoo_7.png",
+        "thumbnail": "thumbnail_g_tattoo_6.png"
+      },
+      {
+        "categoryTag": "G7",
+        "imageName": "g_tattoo_5.png",
+        "thumbnail": "thumbnail_g_tattoo_7.png"
+      },
+
+
+      {
+        "categoryTag": "G5",
+        "imageName": "g_tattoo_6.png",
+        "thumbnail": "thumbnail_g_tattoo_5.png"
+      },
+      {
+        "categoryTag": "G8",
+        "imageName": "g_tattoo_8.png",
+        "thumbnail": "thumbnail_g_tattoo_8.png"
+      },
+      {
+        "categoryTag": "G9",
+        "imageName": "g_tattoo_9.png",
+        "thumbnail": "thumbnail_g_tattoo_9.png"
+      },
+      {
+        "categoryTag": "G10",
+        "imageName": "g_tattoo_10.png",
+        "thumbnail": "thumbnail_g_tattoo_10.png"
+      }
+    ]
+  },
+  {
+    "unlockId": "Tattoo_Flower",
+    "type": "Tattoo",
+    "PRO": 1,
+    "category": "Flower",
+    "resource": [
+      {
+        "categoryTag": "F14",
+        "imageName": "f_tattoo_14.png",
+        "thumbnail": "thumbnail_f_tattoo_14.png"
+      },
+      {
+        "categoryTag": "F15",
+        "imageName": "f_tattoo_15.png",
+        "thumbnail": "thumbnail_f_tattoo_15.png"
+      },
+      {
+        "categoryTag": "F1",
+        "imageName": "f_tattoo_1.png",
+        "thumbnail": "thumbnail_f_tattoo_1.png"
+      },
+      {
+        "categoryTag": "F2",
+        "imageName": "f_tattoo_2.png",
+        "thumbnail": "thumbnail_f_tattoo_2.png"
+      },
+      {
+        "categoryTag": "F3",
+        "imageName": "f_tattoo_3.png",
+        "thumbnail": "thumbnail_f_tattoo_3.png"
+      },
+      {
+        "categoryTag": "F4",
+        "imageName": "f_tattoo_4.png",
+        "thumbnail": "thumbnail_f_tattoo_4.png"
+      },
+      {
+        "categoryTag": "F5",
+        "imageName": "f_tattoo_5.png",
+        "thumbnail": "thumbnail_f_tattoo_5.png"
+      },
+      {
+        "categoryTag": "F6",
+        "imageName": "f_tattoo_6.png",
+        "thumbnail": "thumbnail_f_tattoo_6.png"
+      },
+      {
+        "categoryTag": "F7",
+        "imageName": "f_tattoo_7.png",
+        "thumbnail": "thumbnail_f_tattoo_7.png"
+      },
+      {
+        "categoryTag": "F8",
+        "imageName": "f_tattoo_8.png",
+        "thumbnail": "thumbnail_f_tattoo_8.png"
+      },
+      {
+        "categoryTag": "F9",
+        "imageName": "f_tattoo_9.png",
+        "thumbnail": "thumbnail_f_tattoo_9.png"
+      },
+      {
+        "categoryTag": "F10",
+        "imageName": "f_tattoo_10.png",
+        "thumbnail": "thumbnail_f_tattoo_10.png"
+      },
+      {
+        "categoryTag": "F11",
+        "imageName": "f_tattoo_11.png",
+        "thumbnail": "thumbnail_f_tattoo_11.png"
+      },
+      {
+        "categoryTag": "F12",
+        "imageName": "f_tattoo_12.png",
+        "thumbnail": "thumbnail_f_tattoo_12.png"
+      },
+      {
+        "categoryTag": "F13",
+        "imageName": "f_tattoo_13.png",
+        "thumbnail": "thumbnail_f_tattoo_13.png"
+      }
+    ]
+  },
+  {
+    "unlockId": "Tattoo_Love",
+    "type": "Tattoo",
+    "PRO":1,
+    "category": "Love",
+    "resource": [
+      {
+        "categoryTag": "L1",
+        "imageName": "l_tattoo_1.png",
+        "thumbnail": "thumbnail_l_tattoo_1.png"
+      },
+      {
+        "categoryTag": "L2",
+        "imageName": "l_tattoo_2.png",
+        "thumbnail": "thumbnail_l_tattoo_2.png"
+      },
+      {
+        "categoryTag": "L3",
+        "imageName": "l_tattoo_3.png",
+        "thumbnail": "thumbnail_l_tattoo_3.png"
+      },
+      {
+        "categoryTag": "L4",
+        "imageName": "l_tattoo_4.png",
+        "thumbnail": "thumbnail_l_tattoo_4.png"
+      },
+      {
+        "categoryTag": "L5",
+        "imageName": "l_tattoo_5.png",
+        "thumbnail": "thumbnail_l_tattoo_5.png"
+      },
+      {
+        "categoryTag": "L6",
+        "imageName": "l_tattoo_6.png",
+        "thumbnail": "thumbnail_l_tattoo_6.png"
+      }
+    ]
+  },
+  {
+    "unlockId": "Tattoo_Crown",
+    "type": "Tattoo",
+    "PRO": 1,
+    "category": "Crown",
+    "resource": [
+      {
+        "categoryTag": "C1",
+        "imageName": "c_tattoo_1.png",
+        "thumbnail": "thumbnail_c_tattoo_1.png"
+      },
+      {
+        "categoryTag": "C2",
+        "imageName": "c_tattoo_2.png",
+        "thumbnail": "thumbnail_c_tattoo_2.png"
+      },
+      {
+        "categoryTag": "C3",
+        "imageName": "c_tattoo_3.png",
+        "thumbnail": "thumbnail_c_tattoo_3.png"
+      },
+      {
+        "categoryTag": "C4",
+        "imageName": "c_tattoo_4.png",
+        "thumbnail": "thumbnail_c_tattoo_4.png"
+      },
+      {
+        "categoryTag": "C5",
+        "imageName": "c_tattoo_5.png",
+        "thumbnail": "thumbnail_c_tattoo_5.png"
+      }
+    ]
+  },
+  {
+    "unlockId": "Tattoo_Animal",
+    "type": "Tattoo",
+    "PRO": 1,
+    "category": "Animal",
+    "resource": [
+      {
+        "categoryTag": "A1",
+        "imageName": "a_tattoo_1.png",
+        "thumbnail": "thumbnail_a_tattoo_1.png"
+      },
+      {
+        "categoryTag": "A2",
+        "imageName": "a_tattoo_2.png",
+        "thumbnail": "thumbnail_a_tattoo_2.png"
+      },
+      {
+        "categoryTag": "A3",
+        "imageName": "a_tattoo_3.png",
+        "thumbnail": "thumbnail_a_tattoo_3.png"
+      },
+      {
+        "categoryTag": "A4",
+        "imageName": "a_tattoo_4.png",
+        "thumbnail": "thumbnail_a_tattoo_4.png"
+      },
+      {
+        "categoryTag": "A5",
+        "imageName": "a_tattoo_5.png",
+        "thumbnail": "thumbnail_a_tattoo_5.png"
+      }
+    ]
+  },
+  {
+    "unlockId": "Tattoo_Other",
+    "type": "Tattoo",
+    "PRO": 1,
+    "category": "Other",
+    "resource": [
+      {
+        "categoryTag": "O1",
+        "imageName": "o_tattoo1.png",
+        "thumbnail": "thumbnail_o_tattoo1.png"
+      },
+      {
+        "categoryTag": "O2",
+        "imageName": "o_tattoo2.png",
+        "thumbnail": "thumbnail_o_tattoo2.png"
+      },
+      {
+        "categoryTag": "O3",
+        "imageName": "o_tattoo3.png",
+        "thumbnail": "thumbnail_o_tattoo3.png"
+      },
+      {
+        "categoryTag": "O4",
+        "imageName": "o_tattoo4.png",
+        "thumbnail": "thumbnail_o_tattoo4.png"
+      },
+      {
+        "categoryTag": "O5",
+        "imageName": "o_tattoo5.png",
+        "thumbnail": "thumbnail_o_tattoo5.png"
+      }
+    ]
+  },
+  {
+    "unlockId": "Tattoo_Christmas",
+    "type": "Tattoo",
+    "PRO": 1,
+    "category": "Winter",
+    "resource": [
+      {
+        "categoryTag": "CS1",
+        "imageName": "cs_tattoo_1.png",
+        "thumbnail": "thumbnail_cs_tattoo_1.png"
+      },
+      {
+        "categoryTag": "CS2",
+        "imageName": "cs_tattoo_2.png",
+        "thumbnail": "thumbnail_cs_tattoo_2.png"
+      },
+      {
+        "categoryTag": "CS3",
+        "imageName": "cs_tattoo_3.png",
+        "thumbnail": "thumbnail_cs_tattoo_3.png"
+      },
+      {
+        "categoryTag": "CS4",
+        "imageName": "cs_tattoo_4.png",
+        "thumbnail": "thumbnail_cs_tattoo_4.png"
+      },
+      {
+        "categoryTag": "CS5",
+        "imageName": "cs_tattoo_5.png",
+        "thumbnail": "thumbnail_cs_tattoo_5.png"
+      }
+    ]
+  }
+]

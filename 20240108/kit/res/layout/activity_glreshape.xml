@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topBar" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <lightcone.com.pack.view.AppUITextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Portrait_Reshape" android:layout_centerInParent="true" />
+        <ImageView android:layout_gravity="center" android:id="@id/iv_help" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_nav_tutorial" android:layout_centerVertical="true" android:layout_toStartOf="@id/tvTitle" />
+        <ImageView android:layout_gravity="center" android:id="@id/iv_freeze_help" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_nav_tutorial" android:layout_centerVertical="true" android:layout_toStartOf="@id/tvTitle" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/ll_bottom" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="164.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/rl_menu" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_above="@id/title_bar">
+            <LinearLayout android:orientation="horizontal" android:id="@id/sub_tab_face" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_reshape" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/iv_size" android:background="@drawable/selector_reshape_back" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/portrait_btn_reshape" android:scaleType="center" />
+                    <TextView android:textSize="11.0dip" android:textColor="@drawable/selector_portrait_menu_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/Reshape" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_refine" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/iv_width" android:background="@drawable/selector_reshape_back" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/reshape_btn_refine" android:scaleType="center" />
+                    <TextView android:textSize="11.0dip" android:textColor="@drawable/selector_portrait_menu_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/refine" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_resize" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/iv_height" android:background="@drawable/selector_reshape_back" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/reshape_btn_resize" android:scaleType="center" />
+                    <TextView android:textSize="11.0dip" android:textColor="@drawable/selector_portrait_menu_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/resize" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_restore" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/iv_brighten" android:background="@drawable/selector_reshape_back" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/reshape_btn_restore" android:scaleType="center" />
+                    <TextView android:textSize="11.0dip" android:textColor="@drawable/selector_portrait_menu_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/restore" />
+                </LinearLayout>
+                <RelativeLayout android:gravity="center" android:orientation="vertical" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_freeze" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <ImageView android:id="@id/iv_smile" android:background="@drawable/selector_reshape_back" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/reshape_btn_freeze" android:scaleType="center" android:layout_centerHorizontal="true" />
+                        <TextView android:textSize="11.0dip" android:textColor="@drawable/selector_portrait_menu_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/freeze" />
+                    </LinearLayout>
+                    <com.accordion.perfectme.view.CircleView android:id="@id/cv_red" android:visibility="visible" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_centerInParent="true" android:translationX="20.0dip" android:translationY="-20.0dip" />
+                    <ImageView android:id="@id/iv_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/pro_2" android:layout_centerHorizontal="true" android:translationX="-10.0dip" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_freeze_menu" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_above="@id/title_bar">
+            <LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+                <ImageView android:id="@id/btn_back" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_sub_freeze" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:background="@drawable/selector_reshape_back" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/freeze_icon_freeze_def" android:scaleType="center" />
+                    <TextView android:textSize="11.0dip" android:textColor="@drawable/selector_portrait_menu_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/freeze" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_unfreeze" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:background="@drawable/selector_reshape_back" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/freeze_icon_unfreeze_def" android:scaleType="center" />
+                    <TextView android:textSize="11.0dip" android:textColor="@drawable/selector_portrait_menu_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/unfreeze" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_fill" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:background="@drawable/selector_reshape_back" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/tools_icon_fill" android:scaleType="center" />
+                    <TextView android:textSize="11.0dip" android:textColor="@drawable/selector_portrait_menu_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/fill" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_clear" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:background="@drawable/selector_reshape_back" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/reshape_icon_clear_default" android:scaleType="center" />
+                    <TextView android:textSize="11.0dip" android:textColor="@drawable/selector_portrait_menu_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/clear" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:textSize="13.0dip" android:textColor="#ff999999" android:gravity="center" android:id="@id/tv_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="43.0dip" android:text="@string/Drag_the_area_to_slim" />
+        <LinearLayout android:id="@id/ll_edit_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/btn_undo" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_last" android:alpha="0.5" />
+            <ImageView android:id="@id/btn_redo" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_next" android:alpha="0.5" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/ll_freeze_edit_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/btn_origin">
+            <ImageView android:id="@id/iv_freeze_undo" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="7.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_last" android:alpha="0.5" />
+            <ImageView android:id="@id/iv_freeze_redo" android:paddingLeft="7.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_next" android:alpha="0.5" />
+            <SeekBar android:id="@id/seek_bar" android:layout_toLeftOf="@id/icon_right2" android:layout_toRightOf="@id/icon_left2" style="@style/SeekBar" />
+        </LinearLayout>
+        <ImageView android:id="@id/btn_origin" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_constrat" android:layout_marginEnd="5.0dip" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/btn_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_cancel" />
+            <ImageView android:id="@id/btn_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_done" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/freeze_bottom_bar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/freeze_btn_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_cancel" />
+            <ImageView android:id="@id/freeze_btn_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_done" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/container" android:background="@drawable/image_grid_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll_bottom" android:layout_below="@id/topBar">
+        <ImageView android:id="@id/iv_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.accordion.perfectme.view.texture.ReshapeTextureView android:id="@id/texture_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.accordion.perfectme.view.gltouch.GLReshapeTouchView android:id="@id/touch_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.accordion.perfectme.view.gltouch.GLFreezeTouchView android:id="@id/freeze_touch_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:id="@id/rl_detect_online" android:visibility="gone" layout="@layout/item_face_detect_online" />
+        <RelativeLayout android:orientation="vertical" android:id="@id/edit_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/magnifier" android:background="@drawable/tab_detail_view" android:paddingLeft="1.0dip" android:paddingTop="3.0dip" android:paddingRight="4.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="105.0dip" android:layout_height="109.0dip" android:layout_marginTop="20.0dip" />
+        </RelativeLayout>
+        <ImageView android:id="@id/tv_change_face" android:padding="10.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:src="@drawable/selector_multi_face" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_multi_face" android:background="#ff505eff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="@string/multi_face" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

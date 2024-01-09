@@ -1,0 +1,112 @@
+[
+    {
+        "category": "Basic",
+        "items": [
+            {
+                "name": "AG11",
+                "preview": "aging_preview_00011.png",
+                "texture": "aging_texture_00011.png",
+                "vertices": "aging_vertices_00011.json",
+                "pro": false
+            },
+            {
+                "name": "AG12",
+                "preview": "aging_preview_00012.png",
+                "texture": "aging_texture_00012.png",
+                "vertices": "aging_vertices_00012.json",
+                "pro": false
+            },
+            {
+                "name": "AG13",
+                "preview": "aging_preview_00013.png",
+                "texture": "aging_texture_00013.png",
+                "vertices": "aging_vertices_00013.json",
+                "pro": false
+            },
+            {
+                "name": "AG14",
+                "preview": "aging_preview_00014.png",
+                "texture": "aging_texture_00014.png",
+                "vertices": "aging_vertices_00014.json",
+                "pro": false
+            },
+            {
+                "name": "AG15",
+                "preview": "aging_preview_00015.png",
+                "texture": "aging_texture_00015.png",
+                "vertices": "aging_vertices_00015.json",
+                "pro": false
+            },
+            {
+                "name": "AG02",
+                "preview": "aging_preview_00002.png",
+                "texture": "aging_texture_00002.png",
+                "vertices": "aging_vertices_00002.json",
+                "pro": false
+            },
+            {
+                "name": "AG04",
+                "preview": "aging_preview_00004.png",
+                "texture": "aging_texture_00004.png",
+                "vertices": "aging_vertices_00004.json",
+                "pro": false
+            },
+            {
+                "name": "AG05",
+                "preview": "aging_preview_00005.png",
+                "texture": "aging_texture_00005.png",
+                "vertices": "aging_vertices_00005.json",
+                "pro": false
+            },
+            {
+                "name": "AG06",
+                "preview": "aging_preview_00006.png",
+                "texture": "aging_texture_00006.png",
+                "vertices": "aging_vertices_00006.json",
+                "pro": false
+            },
+            {
+                "name": "AG08",
+                "preview": "aging_preview_00008.png",
+                "texture": "aging_texture_00008.png",
+                "vertices": "aging_vertices_00008.json",
+                "pro": false
+            },
+            {
+                "name": "AG10",
+                "preview": "aging_preview_00010.png",
+                "texture": "aging_texture_00010.png",
+                "vertices": "aging_vertices_00010.json",
+                "pro": false
+            },
+            {
+                "name": "AG01",
+                "preview": "aging_preview_00001.png",
+                "texture": "aging_texture_00001.png",
+                "vertices": "aging_vertices_00001.json",
+                "pro": false
+            },
+            {
+                "name": "AG03",
+                "preview": "aging_preview_00003.png",
+                "texture": "aging_texture_00003.png",
+                "vertices": "aging_vertices_00003.json",
+                "pro": false
+            },
+            {
+                "name": "AG07",
+                "preview": "aging_preview_00007.png",
+                "texture": "aging_texture_00007.png",
+                "vertices": "aging_vertices_00007.json",
+                "pro": false
+            },
+            {
+                "name": "AG09",
+                "preview": "aging_preview_00009.png",
+                "texture": "aging_texture_00009.png",
+                "vertices": "aging_vertices_00009.json",
+                "pro": false
+            }
+        ]
+    }
+]

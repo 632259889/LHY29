@@ -1,0 +1,4719 @@
+[
+  {
+    "category": "Christmas",
+    "height": 180,
+    "items": [
+      {
+        "byteCount": 569891,
+        "isLayerEmpty": true,
+        "name": "CH00001",
+        "preview": "template_preview_CH00001.jpg",
+        "pro": true
+      },
+      {
+        "byteCount": 573448,
+        "isLayerEmpty": true,
+        "name": "CH00006",
+        "preview": "template_preview_CH00006.jpg"
+      },
+      {
+        "byteCount": 259437,
+        "isLayerEmpty": true,
+        "name": "CH00003",
+        "preview": "template_preview_CH00003.jpg"
+      },
+      {
+        "byteCount": 736008,
+        "isLayerEmpty": true,
+        "name": "CH00004",
+        "preview": "template_preview_CH00004.jpg",
+        "pro": true
+      },
+      {
+        "byteCount": 477996,
+        "isLayerEmpty": true,
+        "name": "CH00005",
+        "preview": "template_preview_CH00005.jpg"
+      },
+      {
+        "byteCount": 268163,
+        "isLayerEmpty": true,
+        "name": "CH00002",
+        "preview": "template_preview_CH00002.jpg"
+      },
+      {
+        "byteCount": 547454,
+        "isLayerEmpty": true,
+        "name": "CH00007",
+        "preview": "template_preview_CH00007.jpg",
+        "pro": true
+      },
+      {
+        "byteCount": 417143,
+        "isLayerEmpty": true,
+        "name": "CH00008",
+        "preview": "template_preview_CH00008.jpg"
+      },
+      {
+        "byteCount": 492925,
+        "isLayerEmpty": true,
+        "name": "CH00009",
+        "preview": "template_preview_CH00009.jpg"
+      },
+      {
+        "byteCount": 492925,
+        "isLayerEmpty": true,
+        "name": "CH00010",
+        "preview": "template_preview_CH00010.jpg",
+        "pro": true
+      }
+    ],
+    "localizedCategory": {
+      "ja": "クリスマス",
+      "ms": "Krismas",
+      "zh": "圣诞",
+      "zh-Hant": "聖誕",
+      "ru": "Рождество",
+      "es": "Navidad",
+      "in": "Natal"
+    },
+    "localizedPriority": {
+      "zh": 15
+    },
+    "width": 102
+  },
+  {
+    "category": "New Year",
+    "height": 180,
+    "items": [
+      {
+        "byteCount": 220754,
+        "isLayerEmpty": true,
+        "name": "NY00001",
+        "preview": "template_preview_NY00001.jpg"
+      },
+      {
+        "byteCount": 226896,
+        "isLayerEmpty": true,
+        "name": "NY00007",
+        "preview": "template_preview_NY00007.jpg",
+        "pro": true
+      },
+      {
+        "byteCount": 156425,
+        "isLayerEmpty": true,
+        "name": "NY00002",
+        "preview": "template_preview_NY00002.jpg"
+      },
+      {
+        "byteCount": 384173,
+        "isLayerEmpty": true,
+        "name": "NY00003",
+        "preview": "template_preview_NY00003.jpg",
+        "pro": true
+      },
+      {
+        "byteCount": 90457,
+        "isLayerEmpty": true,
+        "name": "NY00004",
+        "preview": "template_preview_NY00004.jpg"
+      },
+      {
+        "byteCount": 235440,
+        "isLayerEmpty": true,
+        "name": "NY00005",
+        "preview": "template_preview_NY00005.jpg",
+        "pro": true
+      },
+      {
+        "byteCount": 320295,
+        "isLayerEmpty": true,
+        "name": "NY00006",
+        "preview": "template_preview_NY00006.jpg"
+      },
+      {
+        "byteCount": 92368,
+        "isLayerEmpty": true,
+        "name": "NY00008",
+        "preview": "template_preview_NY00008.jpg"
+      },
+      {
+        "byteCount": 87893,
+        "isLayerEmpty": true,
+        "name": "NY00009",
+        "preview": "template_preview_NY00009.jpg",
+        "pro": true
+      },
+      {
+        "byteCount": 53482,
+        "isLayerEmpty": true,
+        "name": "NY00010",
+        "preview": "template_preview_NY00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "新年",
+      "ms": "Tahun Baru",
+      "zh": "新年",
+      "zh-Hant": "新年",
+      "ru": "Новый год",
+      "es": "Año nuevo",
+      "in": "Tahun baru"
+    },
+    "localizedPriority": {
+      "zh": 15
+    },
+    "width": 102
+  },
+  {
+    "category": "Instagram Stories",
+    "height": 192,
+    "items": [
+      {
+        "byteCount": 484095,
+        "isLayerEmpty": true,
+        "name": "I00079",
+        "preview": "template_preview_I00079.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 138455,
+        "isLayerEmpty": true,
+        "name": "I00080",
+        "preview": "template_preview_I00080.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 419904,
+        "isLayerEmpty": true,
+        "name": "I00069",
+        "preview": "template_preview_I00069.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 19869,
+        "isLayerEmpty": true,
+        "name": "I00070",
+        "preview": "template_preview_I00070.jpg",
+        "pro": true
+      },
+      {
+        "byteCount": 325034,
+        "isLayerEmpty": true,
+        "name": "I00071",
+        "preview": "template_preview_I00071.jpg",
+        "pro": true
+      },
+      {
+        "byteCount": 245301,
+        "isLayerEmpty": true,
+        "name": "I00072",
+        "preview": "template_preview_I00072.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 221387,
+        "isLayerEmpty": true,
+        "name": "I00073",
+        "preview": "template_preview_I00073.jpg",
+        "pro": true
+      },
+      {
+        "byteCount": 598098,
+        "isLayerEmpty": true,
+        "name": "I00074",
+        "preview": "template_preview_I00074.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 350836,
+        "isLayerEmpty": true,
+        "name": "I00075",
+        "preview": "template_preview_I00075.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 571659,
+        "isLayerEmpty": true,
+        "name": "I00076",
+        "preview": "template_preview_I00076.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 693155,
+        "isLayerEmpty": true,
+        "name": "I00077",
+        "preview": "template_preview_I00077.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 1021112,
+        "isLayerEmpty": true,
+        "name": "I00078",
+        "preview": "template_preview_I00078.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 106893,
+        "isLayerEmpty": true,
+        "name": "I00050_V2",
+        "preview": "template_preview_I00050.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 100696,
+        "isLayerEmpty": true,
+        "name": "I00051_V2",
+        "preview": "template_preview_I00051.jpg",
+        "pro": true
+      },
+      {
+        "byteCount": 136864,
+        "isLayerEmpty": true,
+        "name": "I00052",
+        "preview": "template_preview_I00052.jpg",
+        "pro": true
+      },
+      {
+        "byteCount": 229202,
+        "isLayerEmpty": true,
+        "name": "I00053_V2",
+        "preview": "template_preview_I00053.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 417594,
+        "isLayerEmpty": true,
+        "name": "I00054",
+        "preview": "template_preview_I00054.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 86470,
+        "isLayerEmpty": true,
+        "name": "I00055",
+        "preview": "template_preview_I00055.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 214279,
+        "isLayerEmpty": true,
+        "name": "I00056",
+        "preview": "template_preview_I00056.jpg",
+        "pro": true
+      },
+      {
+        "byteCount": 1010210,
+        "isLayerEmpty": true,
+        "name": "I00057",
+        "preview": "template_preview_I00057.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 347631,
+        "isLayerEmpty": true,
+        "name": "I00058",
+        "preview": "template_preview_I00058.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 608544,
+        "isLayerEmpty": true,
+        "name": "I00059",
+        "preview": "template_preview_I00059.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 573675,
+        "isLayerEmpty": true,
+        "name": "I00060",
+        "preview": "template_preview_I00060.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 691729,
+        "isLayerEmpty": true,
+        "name": "I00061",
+        "preview": "template_preview_I00061.jpg",
+        "pro": true
+      },
+      {
+        "byteCount": 623347,
+        "isLayerEmpty": true,
+        "name": "I00062",
+        "preview": "template_preview_I00062.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 87420,
+        "isLayerEmpty": true,
+        "name": "I00063",
+        "preview": "template_preview_I00063.jpg",
+        "pro": true
+      },
+      {
+        "byteCount": 909941,
+        "isLayerEmpty": true,
+        "name": "I00064",
+        "preview": "template_preview_I00064.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 691827,
+        "isLayerEmpty": true,
+        "name": "I00065",
+        "preview": "template_preview_I00065.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 482649,
+        "isLayerEmpty": true,
+        "name": "I00066",
+        "preview": "template_preview_I00066.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 248618,
+        "isLayerEmpty": true,
+        "name": "I00067",
+        "preview": "template_preview_I00067.jpg",
+        "pro": true
+      },
+      {
+        "byteCount": 348522,
+        "isLayerEmpty": true,
+        "name": "I00068",
+        "preview": "template_preview_I00068.jpg",
+        "pro": false
+      },
+      {
+        "byteCount": 972088,
+        "isLayerEmpty": true,
+        "name": "I00048",
+        "preview": "template_preview_I00048.jpg",
+        "pro": true,
+        "minVerCode": 94,
+        "minVerCodeCN": 9,
+        "minVerCodeHW": 2
+      },
+      {
+        "byteCount": 471775,
+        "isLayerEmpty": true,
+        "name": "I00049",
+        "preview": "template_preview_I00049.jpg",
+        "pro": false,
+        "minVerCode": 94,
+        "minVerCodeCN": 9,
+        "minVerCodeHW": 2
+      },
+      {
+        "byteCount": 1256978,
+        "isLayerEmpty": true,
+        "name": "I00045",
+        "preview": "template_preview_I00045.jpg",
+        "pro": false,
+        "minVerCode": 94,
+        "minVerCodeCN": 9,
+        "minVerCodeHW": 2
+      },
+      {
+        "byteCount": 365283,
+        "isLayerEmpty": true,
+        "name": "I00040",
+        "preview": "template_preview_I00040.jpg",
+        "pro": false,
+        "minVerCode": 94,
+        "minVerCodeCN": 9,
+        "minVerCodeHW": 2
+      },
+      {
+        "byteCount": 230157,
+        "isLayerEmpty": true,
+        "name": "I00041",
+        "preview": "template_preview_I00041.jpg",
+        "pro": true,
+        "minVerCode": 94,
+        "minVerCodeCN": 9,
+        "minVerCodeHW": 2
+      },
+      {
+        "byteCount": 456568,
+        "isLayerEmpty": true,
+        "name": "I00042",
+        "preview": "template_preview_I00042.jpg",
+        "pro": false,
+        "minVerCode": 94,
+        "minVerCodeCN": 9,
+        "minVerCodeHW": 2
+      },
+      {
+        "byteCount": 206456,
+        "isLayerEmpty": true,
+        "name": "I00043",
+        "preview": "template_preview_I00043.jpg",
+        "pro": false,
+        "minVerCode": 94,
+        "minVerCodeCN": 9,
+        "minVerCodeHW": 2
+      },
+      {
+        "byteCount": 185041,
+        "isLayerEmpty": true,
+        "name": "I00044",
+        "preview": "template_preview_I00044.jpg",
+        "pro": false,
+        "minVerCode": 94,
+        "minVerCodeCN": 9,
+        "minVerCodeHW": 2
+      },
+      {
+        "byteCount": 205479,
+        "isLayerEmpty": true,
+        "name": "I00046",
+        "preview": "template_preview_I00046.jpg",
+        "pro": true,
+        "minVerCode": 94,
+        "minVerCodeCN": 9,
+        "minVerCodeHW": 2
+      },
+      {
+        "byteCount": 390773,
+        "isLayerEmpty": true,
+        "name": "I00047",
+        "preview": "template_preview_I00047.jpg",
+        "pro": false,
+        "minVerCode": 94,
+        "minVerCodeCN": 9,
+        "minVerCodeHW": 2
+      },
+      {
+        "byteCount": 4324,
+        "isLayerEmpty": true,
+        "name": "I00031",
+        "preview": "template_preview_I00031.jpg",
+        "pro": true,
+        "minVerCode": 86,
+        "minVerCodeCN": 8,
+        "minVerCodeHW": 0
+      },
+      {
+        "byteCount": 1462,
+        "isLayerEmpty": true,
+        "name": "I00032",
+        "preview": "template_preview_I00032.jpg",
+        "pro": false,
+        "minVerCode": 86,
+        "minVerCodeCN": 8,
+        "minVerCodeHW": 0
+      },
+      {
+        "byteCount": 539689,
+        "isLayerEmpty": true,
+        "name": "I00033",
+        "preview": "template_preview_I00033.jpg",
+        "pro": false,
+        "minVerCode": 86,
+        "minVerCodeCN": 8,
+        "minVerCodeHW": 0
+      },
+      {
+        "byteCount": 134786,
+        "isLayerEmpty": true,
+        "name": "I00034",
+        "preview": "template_preview_I00034.jpg",
+        "pro": false,
+        "minVerCode": 86,
+        "minVerCodeCN": 8,
+        "minVerCodeHW": 0
+      },
+      {
+        "byteCount": 1136274,
+        "isLayerEmpty": true,
+        "name": "I00035",
+        "preview": "template_preview_I00035.jpg",
+        "pro": false,
+        "minVerCode": 86,
+        "minVerCodeCN": 8,
+        "minVerCodeHW": 0
+      },
+      {
+        "byteCount": 4308,
+        "isLayerEmpty": true,
+        "name": "I00036",
+        "preview": "template_preview_I00036.jpg",
+        "pro": false,
+        "minVerCode": 86,
+        "minVerCodeCN": 8,
+        "minVerCodeHW": 0
+      },
+      {
+        "byteCount": 158235,
+        "isLayerEmpty": true,
+        "name": "I00001_V4",
+        "preview": "template_preview_I00001.jpg"
+      },
+      {
+        "byteCount": 134953,
+        "isLayerEmpty": true,
+        "name": "I00002_V4",
+        "preview": "template_preview_I00002.jpg"
+      },
+      {
+        "byteCount": 74283,
+        "isLayerEmpty": true,
+        "name": "I00003_V5",
+        "preview": "template_preview_I00003.jpg"
+      },
+      {
+        "byteCount": 37439,
+        "isLayerEmpty": true,
+        "name": "I00004_V5",
+        "preview": "template_preview_I00004.jpg"
+      },
+      {
+        "byteCount": 91727,
+        "pro": false,
+        "isLayerEmpty": true,
+        "name": "I00005_V4",
+        "preview": "template_preview_I00005.jpg"
+      },
+      {
+        "byteCount": 66952,
+        "isLayerEmpty": true,
+        "name": "I00006_V4",
+        "preview": "template_preview_I00006.jpg"
+      },
+      {
+        "byteCount": 72348,
+        "isLayerEmpty": true,
+        "name": "I00007_V6",
+        "preview": "template_preview_I00007.jpg"
+      },
+      {
+        "byteCount": 174666,
+        "isLayerEmpty": true,
+        "name": "I00008_V4",
+        "preview": "template_preview_I00008.jpg"
+      },
+      {
+        "byteCount": 117856,
+        "isLayerEmpty": true,
+        "name": "I00009_V4",
+        "preview": "template_preview_I00009.jpg"
+      },
+      {
+        "byteCount": 136211,
+        "isLayerEmpty": true,
+        "name": "I00010_V6",
+        "preview": "template_preview_I00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "Instagramの物語",
+      "ms": "Cerita Instagram",
+      "zh": "Instagram故事",
+      "zh-Hant": "Instagram故事",
+      "ru": "Истории Инстаграм",
+      "es": "Historias de Instagram",
+      "in": "Cerita Instagram"
+    },
+    "localizedPriority": {
+      "zh": 15
+    },
+    "width": 108
+  },
+  {
+    "category": "Instagram Post",
+    "height": 108,
+    "items": [
+      {
+        "byteCount": 796533,
+        "name": "T00027",
+        "preview": "template_preview_T00027.jpg"
+      },
+      {
+        "byteCount": 767206,
+        "name": "T00028",
+        "preview": "template_preview_T00028.jpg"
+      },
+      {
+        "byteCount": 525798,
+        "pro": true,
+        "name": "T00029",
+        "preview": "template_preview_T00029.jpg"
+      },
+      {
+        "byteCount": 304920,
+        "fontNames": [
+          "Roboto-Black"
+        ],
+        "name": "T00018_V2",
+        "preview": "template_preview_T00018.jpg"
+      },
+      {
+        "byteCount": 228544,
+        "fontNames": [
+          "ArialMT",
+          "Arial-BoldMT"
+        ],
+        "name": "T00023_V2",
+        "preview": "template_preview_T00023.jpg"
+      },
+      {
+        "byteCount": 622703,
+        "fontNames": [
+          "CormorantSC-Bold",
+          "PTSans-Regular"
+        ],
+        "name": "T00022_V2",
+        "preview": "template_preview_T00022.jpg"
+      },
+      {
+        "byteCount": 576886,
+        "fontNames": [
+          "Scada-Italic",
+          "SharkReady"
+        ],
+        "name": "T00021_V2",
+        "preview": "template_preview_T00021.jpg"
+      },
+      {
+        "byteCount": 571510,
+        "fontNames": [
+          "PTSans-Regular",
+          "CormorantSC-Bold"
+        ],
+        "name": "T00001_V4",
+        "pro": true,
+        "preview": "template_preview_T00001.jpg"
+      },
+      {
+        "byteCount": 840680,
+        "fontNames": [
+          "Share-Bold"
+        ],
+        "name": "T00004_V5",
+        "preview": "template_preview_T00004.jpg"
+      },
+      {
+        "byteCount": 704824,
+        "fontNames": [
+          "Sablon Up",
+          "Quikhand",
+          "SablonUp-Regular"
+        ],
+        "name": "T00015_V6",
+        "pro": true,
+        "preview": "template_preview_T00015.jpg"
+      },
+      {
+        "byteCount": 1004327,
+        "fontNames": [
+          "Changa-Light",
+          "MidnightDrive-Two"
+        ],
+        "name": "T00006_V5",
+        "preview": "template_preview_T00006.jpg"
+      },
+      {
+        "byteCount": 748697,
+        "fontNames": [
+          "DancingScript-Bold"
+        ],
+        "name": "T00002_V6",
+        "preview": "template_preview_T00002.jpg"
+      },
+      {
+        "byteCount": 815383,
+        "fontNames": [
+          "MidnightDrive-Two",
+          "HelveticaNeue-CondensedBlack",
+          "HelveticaInserat-Roman"
+        ],
+        "name": "T00003_V6",
+        "pro": true,
+        "preview": "template_preview_T00003.jpg"
+      },
+      {
+        "byteCount": 840944,
+        "fontNames": [
+          "PTSans-Regular",
+          "MidnightDrive-Two"
+        ],
+        "name": "T00005_V4",
+        "pro": true,
+        "preview": "template_preview_T00005.jpg"
+      },
+      {
+        "byteCount": 887746,
+        "name": "T00007_V4",
+        "preview": "template_preview_T00007.jpg"
+      },
+      {
+        "byteCount": 875678,
+        "fontNames": [
+          "Times New Roman",
+          "Abecedary-Regular"
+        ],
+        "name": "T00008_V5",
+        "preview": "template_preview_T00008.jpg"
+      },
+      {
+        "byteCount": 407858,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "T00009_V5",
+        "pro": true,
+        "preview": "template_preview_T00009.jpg"
+      },
+      {
+        "byteCount": 728722,
+        "fontNames": [
+          "DancingScript-Bold"
+        ],
+        "name": "T00010_V5",
+        "preview": "template_preview_T00010.jpg"
+      },
+      {
+        "byteCount": 635924,
+        "fontNames": [
+          "PTSans-Regular",
+          "MidnightDrive-Two"
+        ],
+        "name": "T00011_V6",
+        "preview": "template_preview_T00011.jpg"
+      },
+      {
+        "byteCount": 635864,
+        "fontNames": [
+          "Trochut-Bold",
+          "PTSans-Regular"
+        ],
+        "name": "T00012_V5",
+        "preview": "template_preview_T00012.jpg"
+      },
+      {
+        "byteCount": 695494,
+        "fontNames": [
+          "Scada-boldItalic"
+        ],
+        "name": "T00013_V4",
+        "pro": true,
+        "preview": "template_preview_T00013.jpg"
+      },
+      {
+        "byteCount": 559767,
+        "fontNames": [
+          "PTSans-Regular",
+          "MidnightDrive-Two"
+        ],
+        "name": "T00014_V5",
+        "preview": "template_preview_T00014.jpg"
+      },
+      {
+        "byteCount": 548373,
+        "fontNames": [
+          "PTSans-Regular",
+          "HelveticaNeue-CondensedBlack",
+          "HelveticaInserat-Roman"
+        ],
+        "name": "T00016_V6",
+        "preview": "template_preview_T00016.jpg",
+        "minVerCode": 110,
+        "minVerCodeCN": 999,
+        "minVerCodeHW": 999
+      },
+      {
+        "byteCount": 273835,
+        "fontNames": [
+          "PTSans-Regular",
+          "AmaticSC-Bold"
+        ],
+        "name": "T00017_V2",
+        "preview": "template_preview_T00017.jpg"
+      },
+      {
+        "byteCount": 539607,
+        "fontNames": [
+          "CormorantSC-Bold",
+          "PTSans-Regular"
+        ],
+        "name": "T00019_V2",
+        "preview": "template_preview_T00019.jpg"
+      },
+      {
+        "byteCount": 272492,
+        "fontNames": [
+          "PTSans-Regular",
+          "Mali-Bold"
+        ],
+        "name": "T00020_V2",
+        "preview": "template_preview_T00020.jpg"
+      },
+      {
+        "byteCount": 230083,
+        "fontNames": [
+          "Share-Regular"
+        ],
+        "name": "T00024_V2",
+        "pro": true,
+        "preview": "template_preview_T00024.jpg"
+      },
+      {
+        "byteCount": 488678,
+        "fontNames": [
+          "PTSans-Regular",
+          "CormorantSC-Regular"
+        ],
+        "name": "T00025_V2",
+        "preview": "template_preview_T00025.jpg"
+      },
+      {
+        "byteCount": 526631,
+        "fontNames": [
+          "Share-Bold"
+        ],
+        "name": "T00026_V2",
+        "preview": "template_preview_T00026.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "Instagramの投稿",
+      "ms": "Post Instagram",
+      "zh": "Instagram帖子",
+      "zh-Hant": "Instagram帖子",
+      "ru": "Почта Инстаграм",
+      "es": "Instagram Post",
+      "in": "Posting Instagram"
+    },
+    "localizedPriority": {
+      "zh": 14
+    },
+    "width": 108
+  },
+  {
+    "category": "Facebook Post",
+    "height": 108,
+    "items": [
+      {
+        "byteCount": 384573,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "FP00012_V2",
+        "preview": "template_preview_FP00012.jpg"
+      },
+      {
+        "byteCount": 267392,
+        "fontNames": [
+          "Arial-BoldMT",
+          "ArialMT"
+        ],
+        "name": "FP00014_V2",
+        "preview": "template_preview_FP00014.jpg"
+      },
+      {
+        "byteCount": 199985,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "FP00011_V2",
+        "pro": true,
+        "preview": "template_preview_FP00011.jpg"
+      },
+      {
+        "byteCount": 129726,
+        "fontNames": [
+          "CormorantSC-Bold"
+        ],
+        "name": "FP00013_V2",
+        "preview": "template_preview_FP00013.jpg"
+      },
+      {
+        "byteCount": 1044845,
+        "fontNames": [
+          "PTSans-Regular",
+          "Edo SZ",
+          "EdoSZ"
+        ],
+        "name": "FP00001_V6",
+        "pro": true,
+        "preview": "template_preview_FP00001.jpg"
+      },
+      {
+        "byteCount": 902910,
+        "fontNames": [
+          "Mali-Bold",
+          "PTSans-Regular"
+        ],
+        "name": "FP00002_V5",
+        "preview": "template_preview_FP00002.jpg"
+      },
+      {
+        "byteCount": 1156650,
+        "fontNames": [
+          "CormorantSC-Regular",
+          "PTSans-Regular"
+        ],
+        "name": "FP00003_V5",
+        "pro": true,
+        "preview": "template_preview_FP00003.jpg"
+      },
+      {
+        "byteCount": 825728,
+        "fontNames": [
+          "PTSans-Regular",
+          "CarbonBl-Regular"
+        ],
+        "name": "FP00004_V5",
+        "preview": "template_preview_FP00004.jpg"
+      },
+      {
+        "byteCount": 989824,
+        "fontNames": [
+          "Arial-BoldMT",
+          "Scada-Regular"
+        ],
+        "name": "FP00005_V5",
+        "preview": "template_preview_FP00005.jpg"
+      },
+      {
+        "byteCount": 827205,
+        "fontNames": [
+          "Arial-BoldMT",
+          "Comic Sans MS",
+          "ComicSansMS-Bold"
+        ],
+        "name": "FP00006_V6",
+        "pro": true,
+        "preview": "template_preview_FP00006.jpg"
+      },
+      {
+        "byteCount": 172935,
+        "fontNames": [
+          "PTSans-Regular",
+          "Roboto-Black"
+        ],
+        "name": "FP00007_V4",
+        "preview": "template_preview_FP00007.jpg"
+      },
+      {
+        "byteCount": 715327,
+        "fontNames": [
+          "GilliganShutterRegular",
+          "Arial-BoldMT"
+        ],
+        "name": "FP00008_V6",
+        "pro": true,
+        "preview": "template_preview_FP00008.jpg"
+      },
+      {
+        "byteCount": 662305,
+        "fontNames": [
+          "SpecialElite-Regular",
+          "Roboto-Black"
+        ],
+        "name": "FP00009_V5",
+        "preview": "template_preview_FP00009.jpg"
+      },
+      {
+        "byteCount": 1357370,
+        "fontNames": [
+          "PTSans-Regular",
+          "Roboto-Black"
+        ],
+        "name": "FP00010_V5",
+        "preview": "template_preview_FP00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "Facebookの投稿",
+      "ms": "Post Facebook",
+      "zh": "Facebook帖子",
+      "zh-Hant": "Facebook帖子",
+      "ru": "публикация в Facebook",
+      "es": "Post de Facebook",
+      "in": "Posting Facebook"
+    },
+    "localizedPriority": {
+      "zh": 11
+    },
+    "width": 129
+  },
+  {
+    "category": "Facebook Cover",
+    "height": 104,
+    "items": [
+      {
+        "byteCount": 301074,
+        "fontNames": [
+          "Share-Bold",
+          "PTSans-Regular"
+        ],
+        "name": "FC00013_V2",
+        "preview": "template_preview_FC00013.jpg"
+      },
+      {
+        "byteCount": 206708,
+        "fontNames": [
+          "CormorantSC-Bold",
+          "ArialMT"
+        ],
+        "name": "FC00011_V2",
+        "pro": true,
+        "preview": "template_preview_FC00011.jpg"
+      },
+      {
+        "byteCount": 138929,
+        "fontNames": [
+          "CormorantSC-Bold"
+        ],
+        "name": "FC00014_V2",
+        "pro": true,
+        "preview": "template_preview_FC00014.jpg"
+      },
+      {
+        "byteCount": 484083,
+        "fontNames": [
+          "Cambria",
+          "DancingScript-Regular"
+        ],
+        "name": "FC00012_V2",
+        "preview": "template_preview_FC00012.jpg"
+      },
+      {
+        "byteCount": 889935,
+        "fontNames": [
+          "EdoSZ"
+        ],
+        "name": "FC00006_V2",
+        "preview": "template_preview_FC00006_V3.jpg"
+      },
+      {
+        "byteCount": 531421,
+        "fontNames": [
+          "EdoSZ",
+          "Sk-Modernist-Regular"
+        ],
+        "name": "FC00001",
+        "pro": true,
+        "preview": "template_preview_FC00001_V3.jpg"
+      },
+      {
+        "byteCount": 916804,
+        "fontNames": [
+          "Sk-Modernist-Bold"
+        ],
+        "name": "FC00002_V2",
+        "preview": "template_preview_FC00002_V3.jpg"
+      },
+      {
+        "byteCount": 356453,
+        "fontNames": [
+          "Calibri-Bold"
+        ],
+        "name": "FC00003",
+        "pro": true,
+        "preview": "template_preview_FC00003_V3.jpg"
+      },
+      {
+        "byteCount": 549326,
+        "fontNames": [
+          "GloriaHallelujah"
+        ],
+        "name": "FC00004",
+        "preview": "template_preview_FC00004_V3.jpg"
+      },
+      {
+        "byteCount": 559046,
+        "fontNames": [
+          "LucidaBright"
+        ],
+        "name": "FC00005_V2",
+        "preview": "template_preview_FC00005_V3.jpg"
+      },
+      {
+        "byteCount": 876170,
+        "fontNames": [
+          "PaintyPaint1",
+          "Arial-BoldMT"
+        ],
+        "name": "FC00007_V2",
+        "pro": true,
+        "preview": "template_preview_FC00007_V3.jpg"
+      },
+      {
+        "byteCount": 509072,
+        "fontNames": [
+          "EdoSZ",
+          "Arial-BoldMT"
+        ],
+        "name": "FC00008_V3",
+        "preview": "template_preview_FC00008_V3.jpg"
+      },
+      {
+        "byteCount": 432048,
+        "fontNames": [
+          "AngelineVintage",
+          "Sk-Modernist-Regular"
+        ],
+        "name": "FC00009_V2",
+        "preview": "template_preview_FC00009_V3.jpg"
+      },
+      {
+        "byteCount": 683511,
+        "fontNames": [
+          "BrittanySignatureRegular"
+        ],
+        "name": "FC00010_V2",
+        "preview": "template_preview_FC00010_V3.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "Facebookカバー",
+      "ms": "Tutup Facebook",
+      "zh": "Facebook封面",
+      "zh-Hant": "Facebook封面",
+      "ru": "Обложка Facebook",
+      "es": "Portada de Facebook",
+      "in": "Sampul Facebook"
+    },
+    "localizedPriority": {
+      "zh": 10
+    },
+    "width": 281
+  },
+  {
+    "category": "Social Media",
+    "height": 108,
+    "items": [
+      {
+        "byteCount": 376638,
+        "fontNames": [
+          "ArialMT"
+        ],
+        "name": "SM00018_V2",
+        "preview": "template_preview_SM00018.jpg"
+      },
+      {
+        "byteCount": 323086,
+        "fontNames": [
+          "PTSans-Regular"
+        ],
+        "name": "SM00020_V2",
+        "preview": "template_preview_SM00020.jpg"
+      },
+      {
+        "byteCount": 850434,
+        "fontNames": [
+          "Caveat-Regular",
+          "Cambria"
+        ],
+        "name": "SM00012_V2",
+        "pro": true,
+        "preview": "template_preview_SM00012.jpg"
+      },
+      {
+        "byteCount": 233358,
+        "name": "SM00013_V2",
+        "preview": "template_preview_SM00013.jpg"
+      },
+      {
+        "byteCount": 318772,
+        "fontNames": [
+          "Roboto-Black",
+          "PTSans-Regular"
+        ],
+        "name": "SM00011_V2",
+        "pro": true,
+        "preview": "template_preview_SM00011.jpg"
+      },
+      {
+        "byteCount": 239791,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "SM00014_V2",
+        "pro": true,
+        "preview": "template_preview_SM00014.jpg"
+      },
+      {
+        "byteCount": 294906,
+        "fontNames": [
+          "Roboto-Black",
+          "Arial-BoldMT"
+        ],
+        "name": "SM00015_V2",
+        "preview": "template_preview_SM00015.jpg"
+      },
+      {
+        "byteCount": 233289,
+        "name": "SM00016_V2",
+        "preview": "template_preview_SM00016.jpg"
+      },
+      {
+        "byteCount": 361500,
+        "fontNames": [
+          "Cambria"
+        ],
+        "name": "SM00017_V2",
+        "preview": "template_preview_SM00017.jpg"
+      },
+      {
+        "byteCount": 278870,
+        "fontNames": [
+          "SpaceMono-Regular",
+          "Share-Bold"
+        ],
+        "name": "SM00019_V2",
+        "preview": "template_preview_SM00019.jpg"
+      },
+      {
+        "byteCount": 333108,
+        "fontNames": [
+          "Roboto-Black",
+          "Caveat-Bold"
+        ],
+        "name": "SM00003",
+        "pro": true,
+        "preview": "template_preview_SM00003.jpg"
+      },
+      {
+        "byteCount": 843226,
+        "fontNames": [
+          "PTSans-Regular"
+        ],
+        "name": "SM00004",
+        "pro": true,
+        "preview": "template_preview_SM00004.jpg"
+      },
+      {
+        "byteCount": 615235,
+        "fontNames": [
+          "Roboto-Black",
+          "Caveat-Bold"
+        ],
+        "name": "SM00005_V3",
+        "preview": "template_preview_SM00005_V2.jpg"
+      },
+      {
+        "byteCount": 885469,
+        "fontNames": [
+          "Roboto-Black"
+        ],
+        "name": "SM00006",
+        "preview": "template_preview_SM00006.jpg"
+      },
+      {
+        "byteCount": 508510,
+        "fontNames": [
+          "Roboto-Black"
+        ],
+        "name": "SM00001_V2",
+        "preview": "template_preview_SM00001.jpg"
+      },
+      {
+        "byteCount": 450062,
+        "fontNames": [
+          "Caveat-Bold",
+          "PTSans-Regular"
+        ],
+        "name": "SM00007",
+        "pro": true,
+        "preview": "template_preview_SM00007.jpg"
+      },
+      {
+        "byteCount": 776323,
+        "fontNames": [
+          "Share-Bold"
+        ],
+        "name": "SM00002",
+        "pro": true,
+        "preview": "template_preview_SM00002.jpg"
+      },
+      {
+        "byteCount": 802649,
+        "fontNames": [
+          "Roboto-Black",
+          "PTSans-Regular"
+        ],
+        "name": "SM00008",
+        "pro": true,
+        "preview": "template_preview_SM00008.jpg"
+      },
+      {
+        "byteCount": 775148,
+        "fontNames": [
+          "PTSans-Regular"
+        ],
+        "name": "SM00009_V2",
+        "preview": "template_preview_SM00009_V2.jpg"
+      },
+      {
+        "byteCount": 619490,
+        "fontNames": [
+          "Roboto-Black"
+        ],
+        "name": "SM00010",
+        "preview": "template_preview_SM00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "ソーシャルメディア",
+      "ms": "Media sosial",
+      "zh": "社交媒体",
+      "zh-Hant": "社交媒體",
+      "ru": "Социальные сети",
+      "es": "Redes sociales",
+      "in": "Media sosial"
+    },
+    "localizedPriority": {
+      "zh": 13
+    },
+    "width": 108
+  },
+  {
+    "category": "Facebook Stories",
+    "height": 192,
+    "items": [
+      {
+        "byteCount": 1024894,
+        "fontNames": [
+          "MarcellusSC-Regular"
+        ],
+        "name": "F00001_V5",
+        "preview": "template_preview_F00001.jpg"
+      },
+      {
+        "byteCount": 819376,
+        "fontNames": [
+          "CarbonBl-Regular"
+        ],
+        "name": "F00002_V5",
+        "preview": "template_preview_F00002.jpg"
+      },
+      {
+        "byteCount": 1374722,
+        "fontNames": [
+          "CormorantSC-Bold",
+          "PTSans-Regular"
+        ],
+        "name": "F00003_V5",
+        "pro": true,
+        "preview": "template_preview_F00003.jpg"
+      },
+      {
+        "byteCount": 478360,
+        "fontNames": [
+          "PTSans-Regular",
+          "Sablon Up",
+          "SablonUp-Regular"
+        ],
+        "name": "F00004_V6",
+        "pro": true,
+        "preview": "template_preview_F00004.jpg"
+      },
+      {
+        "byteCount": 859097,
+        "fontNames": [
+          "LibelSuitRg-Regular",
+          "Share-Regular"
+        ],
+        "name": "F00005_V6",
+        "preview": "template_preview_F00005.jpg"
+      },
+      {
+        "byteCount": 965547,
+        "fontNames": [
+          "Edo SZ",
+          "EdoSZ"
+        ],
+        "name": "F00006_V6",
+        "preview": "template_preview_F00006.jpg"
+      },
+      {
+        "byteCount": 978162,
+        "fontNames": [
+          "CormorantSC-Bold"
+        ],
+        "name": "F00007_V5",
+        "preview": "template_preview_F00007.jpg"
+      },
+      {
+        "byteCount": 1362714,
+        "fontNames": [
+          "CormorantSC-Bold"
+        ],
+        "name": "F00008_V6",
+        "pro": true,
+        "preview": "template_preview_F00008.jpg"
+      },
+      {
+        "byteCount": 677244,
+        "fontNames": [
+          "PTSans-Regular"
+        ],
+        "name": "F00009_V5",
+        "preview": "template_preview_F00009.jpg"
+      },
+      {
+        "byteCount": 1198191,
+        "fontNames": [
+          "Arial-BoldMT",
+          "MidnightDrive-Two"
+        ],
+        "name": "F00010_V6",
+        "preview": "template_preview_F00010.jpg"
+      },
+      {
+        "byteCount": 976821,
+        "fontNames": [
+          "CormorantSC-Bold"
+        ],
+        "name": "F00011_V5",
+        "preview": "template_preview_F00011.jpg"
+      },
+      {
+        "byteCount": 839161,
+        "name": "F00012_V4",
+        "pro": true,
+        "preview": "template_preview_F00012.jpg"
+      },
+      {
+        "byteCount": 610396,
+        "fontNames": [
+          "Roboto-Black",
+          "PTSans-Regular"
+        ],
+        "name": "F00013_V5",
+        "preview": "template_preview_F00013.jpg"
+      },
+      {
+        "byteCount": 696137,
+        "fontNames": [
+          "Roboto-Black",
+          "Scada-Regular"
+        ],
+        "name": "F00014_V4",
+        "preview": "template_preview_F00014.jpg"
+      },
+      {
+        "byteCount": 674303,
+        "fontNames": [
+          "PoiretOne-Regular"
+        ],
+        "name": "F00015_V5",
+        "pro": true,
+        "preview": "template_preview_F00015.jpg"
+      },
+      {
+        "byteCount": 868245,
+        "fontNames": [
+          "CormorantSC-Bold"
+        ],
+        "name": "F00016",
+        "preview": "template_preview_F00016.jpg"
+      },
+      {
+        "byteCount": 907105,
+        "fontNames": [
+          "Cambria",
+          "PTSans-Regular"
+        ],
+        "name": "F00017",
+        "preview": "template_preview_F00017.jpg"
+      },
+      {
+        "byteCount": 186155,
+        "fontNames": [
+          "ComicSansMS-Bold"
+        ],
+        "name": "F00018",
+        "pro": true,
+        "preview": "template_preview_F00018.jpg"
+      },
+      {
+        "byteCount": 819538,
+        "fontNames": [
+          "Cambria"
+        ],
+        "name": "F00019",
+        "preview": "template_preview_F00019.jpg"
+      },
+      {
+        "byteCount": 1089545,
+        "fontNames": [
+          "Stencil"
+        ],
+        "name": "F00020",
+        "preview": "template_preview_F00020.jpg"
+      },
+      {
+        "byteCount": 581615,
+        "fontNames": [
+          "ComicSansMS-Bold"
+        ],
+        "name": "F00021",
+        "pro": true,
+        "preview": "template_preview_F00021.jpg"
+      },
+      {
+        "byteCount": 702914,
+        "fontNames": [
+          "GilliganShutterRegular",
+          "PTSans-Regular"
+        ],
+        "name": "F00022",
+        "preview": "template_preview_F00022.jpg"
+      },
+      {
+        "byteCount": 697967,
+        "fontNames": [
+          "ComicSansMS-Bold"
+        ],
+        "name": "F00023",
+        "preview": "template_preview_F00023.jpg"
+      },
+      {
+        "byteCount": 557991,
+        "fontNames": [
+          "PTSans-Regular"
+        ],
+        "name": "F00024",
+        "pro": true,
+        "preview": "template_preview_F00024.jpg"
+      },
+      {
+        "byteCount": 946443,
+        "name": "F00025",
+        "preview": "template_preview_F00025.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "Facebookの物語",
+      "ms": "Cerita Facebook",
+      "zh": "Facebook故事",
+      "zh-Hant": "Facebook故事",
+      "ru": "Истории Facebook",
+      "es": "Historias de Facebook",
+      "in": "Cerita Facebook"
+    },
+    "localizedPriority": {
+      "zh": 12
+    },
+    "width": 108
+  },
+  {
+    "category": "WhatsApp Stories",
+    "height": 192,
+    "items": [
+      {
+        "byteCount": 871617,
+        "fontNames": [
+          "MarcellusSC-Regular",
+          "PTSans-Regular"
+        ],
+        "name": "WS00001_V5",
+        "preview": "template_preview_WS00001.jpg"
+      },
+      {
+        "byteCount": 1077945,
+        "fontNames": [
+          "SpaceMono-Regular"
+        ],
+        "name": "WS00002_V5",
+        "pro": true,
+        "preview": "template_preview_WS00002.jpg"
+      },
+      {
+        "byteCount": 1036581,
+        "fontNames": [
+          "SpaceMono-Bold",
+          "Roboto-Black"
+        ],
+        "name": "WS00003_V5",
+        "preview": "template_preview_WS00003.jpg"
+      },
+      {
+        "byteCount": 798312,
+        "fontNames": [
+          "Roboto-Black"
+        ],
+        "name": "WS00004_V5",
+        "pro": true,
+        "preview": "template_preview_WS00004.jpg"
+      },
+      {
+        "byteCount": 961359,
+        "fontNames": [
+          "SpaceMono-boldItalic",
+          "PTSans-Regular"
+        ],
+        "name": "WS00005_V6",
+        "preview": "template_preview_WS00005_V2.jpg"
+      },
+      {
+        "byteCount": 653355,
+        "name": "WS00006_V4",
+        "preview": "template_preview_WS00006.jpg"
+      },
+      {
+        "byteCount": 544523,
+        "fontNames": [
+          "SpaceMono-Regular"
+        ],
+        "name": "WS00007_V5",
+        "preview": "template_preview_WS00007.jpg"
+      },
+      {
+        "byteCount": 594285,
+        "name": "WS00008_V5",
+        "pro": true,
+        "preview": "template_preview_WS00008.jpg"
+      },
+      {
+        "byteCount": 1001997,
+        "fontNames": [
+          "Roboto-Black"
+        ],
+        "name": "WS00009_V4",
+        "preview": "template_preview_WS00009.jpg"
+      },
+      {
+        "byteCount": 177842,
+        "fontNames": [
+          "Roboto-Black"
+        ],
+        "name": "WS00010_V4",
+        "preview": "template_preview_WS00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "WhatsAppストーリー",
+      "ms": "WhatsApp Story",
+      "zh": "WhatsApp故事",
+      "zh-Hant": "WhatsApp故事",
+      "ru": "Истории WhatsApp",
+      "es": "Historias de WhatsApp",
+      "in": "Kisah WhatsApp"
+    },
+    "localizedPriority": {
+      "zh": 9
+    },
+    "width": 108
+  },
+  {
+    "category": "Image Collage",
+    "height": 192,
+    "items": [
+      {
+        "byteCount": 1094365,
+        "fontNames": [
+          "STZhongsong"
+        ],
+        "name": "C00011",
+        "preview": "template_preview_C00011.jpg"
+      },
+      {
+        "byteCount": 1283633,
+        "name": "C00017",
+        "pro": true,
+        "preview": "template_preview_C00017.jpg"
+      },
+      {
+        "byteCount": 1420111,
+        "fontNames": [
+          "Share-Bold"
+        ],
+        "name": "C00013",
+        "preview": "template_preview_C00013.jpg"
+      },
+      {
+        "byteCount": 884681,
+        "fontNames": [
+          "STZhongsong",
+          "Roboto-BlackItalic"
+        ],
+        "name": "C00014",
+        "preview": "template_preview_C00014.jpg"
+      },
+      {
+        "byteCount": 685053,
+        "name": "C00001_V5",
+        "pro": true,
+        "preview": "template_preview_C00001.jpg"
+      },
+      {
+        "byteCount": 1041568,
+        "fontNames": [
+          "PTSans-Regular",
+          "Share-Italic"
+        ],
+        "name": "C00002_V5",
+        "preview": "template_preview_C00002.jpg"
+      },
+      {
+        "byteCount": 899960,
+        "fontNames": [
+          "Share-boldItalic",
+          "Arial-BoldMT",
+          "Edo SZ",
+          "EdoSZ"
+        ],
+        "name": "C00003_V6",
+        "preview": "template_preview_C00003.jpg"
+      },
+      {
+        "byteCount": 585556,
+        "fontNames": [
+          "Share-Bold",
+          "PTSans-Regular"
+        ],
+        "name": "C00004_V6",
+        "pro": true,
+        "preview": "template_preview_C00004.jpg"
+      },
+      {
+        "byteCount": 584261,
+        "fontNames": [
+          "QikkiReg",
+          "Arial-BoldMT",
+          "PTSans-Regular"
+        ],
+        "name": "C00005_V6",
+        "preview": "template_preview_C00005.jpg"
+      },
+      {
+        "byteCount": 901797,
+        "fontNames": [
+          "Times New Roman"
+        ],
+        "name": "C00006_V5",
+        "preview": "template_preview_C00006.jpg"
+      },
+      {
+        "byteCount": 575347,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "C00007_V6",
+        "pro": true,
+        "preview": "template_preview_C00007.jpg"
+      },
+      {
+        "byteCount": 847859,
+        "name": "C00008_V5",
+        "preview": "template_preview_C00008.jpg"
+      },
+      {
+        "byteCount": 924120,
+        "fontNames": [
+          "Cambria"
+        ],
+        "name": "C00009_V5",
+        "preview": "template_preview_C00009.jpg"
+      },
+      {
+        "byteCount": 532686,
+        "fontNames": [
+          "Share-boldItalic",
+          "PTSans-Regular"
+        ],
+        "name": "C00010_V5",
+        "preview": "template_preview_C00010.jpg"
+      },
+      {
+        "byteCount": 1135046,
+        "fontNames": [
+          "Roboto-Black",
+          "PTSans-Regular"
+        ],
+        "name": "C00018",
+        "pro": true,
+        "preview": "template_preview_C00018.jpg"
+      },
+      {
+        "byteCount": 664086,
+        "fontNames": [
+          "STZhongsong"
+        ],
+        "name": "C00012",
+        "preview": "template_preview_C00012.jpg"
+      },
+      {
+        "byteCount": 612295,
+        "fontNames": [
+          "STZhongsong"
+        ],
+        "name": "C00015",
+        "pro": true,
+        "preview": "template_preview_C00015.jpg"
+      },
+      {
+        "byteCount": 662498,
+        "fontNames": [
+          "Roboto-Black"
+        ],
+        "name": "C00016",
+        "preview": "template_preview_C00016.jpg"
+      },
+      {
+        "byteCount": 726094,
+        "fontNames": [
+          "STZhongsong",
+          "PTSans-Regular"
+        ],
+        "name": "C00019",
+        "preview": "template_preview_C00019.jpg"
+      },
+      {
+        "byteCount": 773449,
+        "fontNames": [
+          "STZhongsong",
+          "Share-Bold"
+        ],
+        "name": "C00020",
+        "pro": true,
+        "preview": "template_preview_C00020.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "画像コラージュ",
+      "ms": "Kolaj gambar",
+      "zh": "图片拼图",
+      "zh-Hant": "圖片拼圖",
+      "ru": "Коллаж изображений",
+      "es": "Collage de imágenes",
+      "in": "Kolase Gambar"
+    },
+    "localizedPriority": {
+      "zh": 995
+    },
+    "width": 108
+  },
+  {
+    "category": "Twitter Header",
+    "height": 100,
+    "items": [
+      {
+        "byteCount": 116853,
+        "fontNames": [
+          "Awery"
+        ],
+        "name": "TH00001_V2",
+        "preview": "template_preview_TH00001.jpg"
+      },
+      {
+        "byteCount": 87423,
+        "name": "TH00002_V2",
+        "pro": true,
+        "preview": "template_preview_TH00002.jpg"
+      },
+      {
+        "byteCount": 439378,
+        "fontNames": [
+          "Stencil"
+        ],
+        "name": "TH00003_V2",
+        "pro": true,
+        "preview": "template_preview_TH00003.jpg"
+      },
+      {
+        "byteCount": 34081,
+        "name": "TH00004_V2",
+        "preview": "template_preview_TH00004.jpg"
+      },
+      {
+        "byteCount": 412620,
+        "fontNames": [
+          "Arenski-Regular"
+        ],
+        "name": "TH00005_V2",
+        "preview": "template_preview_TH00005.jpg"
+      },
+      {
+        "byteCount": 335049,
+        "fontNames": [
+          "GyiestOld",
+          "Arial-BoldItalicMT"
+        ],
+        "name": "TH00006_V2",
+        "pro": true,
+        "preview": "template_preview_TH00006.jpg"
+      },
+      {
+        "byteCount": 430838,
+        "fontNames": [
+          "Awery"
+        ],
+        "name": "TH00007_V2",
+        "preview": "template_preview_TH00007.jpg"
+      },
+      {
+        "byteCount": 466719,
+        "fontNames": [
+          "Arial-BoldMT",
+          "Arenski-Regular"
+        ],
+        "name": "TH00008_V2",
+        "pro": true,
+        "preview": "template_preview_TH00008.jpg"
+      },
+      {
+        "byteCount": 152418,
+        "fontNames": [
+          "Arial-BoldItalicMT"
+        ],
+        "name": "TH00009_V2",
+        "preview": "template_preview_TH00009.jpg"
+      },
+      {
+        "byteCount": 322203,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "TH00010_V2",
+        "pro": true,
+        "preview": "template_preview_TH00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "Twitterヘッダー",
+      "ms": "Twitter Header",
+      "zh": "Twitter封面",
+      "zh-Hant": "Twitter封面",
+      "ru": "Заголовок Twitter",
+      "es": "Encabezado de Twitter",
+      "in": "Twitter Header"
+    },
+    "localizedPriority": {
+      "zh": 8
+    },
+    "width": 330
+  },
+  {
+    "category": "Creative Collage",
+    "height": 125,
+    "items": [
+      {
+        "byteCount": 1907880,
+        "name": "P00011_V6",
+        "preview": "template_preview_P00011.jpg"
+      },
+      {
+        "byteCount": 2433344,
+        "name": "P00012_V5",
+        "preview": "template_preview_P00012.jpg"
+      },
+      {
+        "byteCount": 946444,
+        "name": "P00013_V5",
+        "pro": true,
+        "preview": "template_preview_P00013.jpg"
+      },
+      {
+        "byteCount": 2995016,
+        "name": "P00014_V5",
+        "preview": "template_preview_P00014.jpg"
+      },
+      {
+        "byteCount": 2610837,
+        "name": "P00015_V5",
+        "preview": "template_preview_P00015.jpg"
+      },
+      {
+        "byteCount": 1418089,
+        "name": "P00001_V5",
+        "pro": true,
+        "preview": "template_preview_P00001.jpg"
+      },
+      {
+        "byteCount": 2198110,
+        "name": "P00002_V6",
+        "preview": "template_preview_P00002.jpg"
+      },
+      {
+        "byteCount": 3553433,
+        "name": "P00003_V5",
+        "preview": "template_preview_P00003.jpg"
+      },
+      {
+        "byteCount": 2451210,
+        "name": "P00004_V6",
+        "pro": true,
+        "preview": "template_preview_P00004.jpg"
+      },
+      {
+        "byteCount": 1611683,
+        "name": "P00005_V6",
+        "preview": "template_preview_P00005.jpg"
+      },
+      {
+        "byteCount": 1018601,
+        "name": "P00006_V5",
+        "pro": true,
+        "preview": "template_preview_P00006.jpg"
+      },
+      {
+        "byteCount": 2382429,
+        "name": "P00007_V6",
+        "preview": "template_preview_P00007.jpg"
+      },
+      {
+        "byteCount": 1459883,
+        "name": "P00008_V5",
+        "preview": "template_preview_P00008.jpg"
+      },
+      {
+        "byteCount": 1928151,
+        "name": "P00009_V5",
+        "preview": "template_preview_P00009.jpg"
+      },
+      {
+        "byteCount": 3210386,
+        "name": "P00010_V6",
+        "pro": true,
+        "preview": "template_preview_P00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "クリエイティブコラージュ",
+      "ms": "Kolaj kreatif",
+      "zh": "创意拼贴",
+      "zh-Hant": "創意拼貼",
+      "ru": "Творческий Коллаж",
+      "es": "Collage creativo",
+      "in": "Kolase Kreatif"
+    },
+    "localizedPriority": {
+      "zh": 16
+    },
+    "width": 105
+  },
+  {
+    "category": "YouTube Channel Art",
+    "height": 100,
+    "items": [
+      {
+        "byteCount": 1659950,
+        "fontNames": [
+          "Sk-Modernist-Bold"
+        ],
+        "name": "YC00005_V2",
+        "preview": "template_preview_YC00005.jpg"
+      },
+      {
+        "byteCount": 656928,
+        "fontNames": [
+          "PaintyPaint1"
+        ],
+        "name": "YC00003_V2",
+        "preview": "template_preview_YC00003.jpg"
+      },
+      {
+        "byteCount": 1447093,
+        "fontNames": [
+          "AngelineVintage"
+        ],
+        "name": "YC00001_V2",
+        "pro": true,
+        "preview": "template_preview_YC00001.jpg"
+      },
+      {
+        "byteCount": 700295,
+        "fontNames": [
+          "DENNE|Sketchy"
+        ],
+        "name": "YC00002_V2",
+        "preview": "template_preview_YC00002.jpg"
+      },
+      {
+        "byteCount": 767520,
+        "name": "YC00004_V2",
+        "pro": true,
+        "preview": "template_preview_YC00004.jpg"
+      },
+      {
+        "byteCount": 906358,
+        "fontNames": [
+          "HemiHeadRg-BoldItalic"
+        ],
+        "name": "YC00006_V2",
+        "preview": "template_preview_YC00006_V2.jpg"
+      },
+      {
+        "byteCount": 1221453,
+        "fontNames": [
+          "Chiller-Regular"
+        ],
+        "name": "YC00007_V2",
+        "preview": "template_preview_YC00007.jpg"
+      },
+      {
+        "byteCount": 138878,
+        "fontNames": [
+          "EdoSZ"
+        ],
+        "name": "YC00008",
+        "pro": true,
+        "preview": "template_preview_YC00008.jpg"
+      },
+      {
+        "byteCount": 1396814,
+        "fontNames": [
+          "Daubmark"
+        ],
+        "name": "YC00009_V3",
+        "preview": "template_preview_YC00009.jpg"
+      },
+      {
+        "byteCount": 1513334,
+        "fontNames": [
+          "AngelineVintage"
+        ],
+        "name": "YC00010_V2",
+        "pro": true,
+        "preview": "template_preview_YC00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "YouTubeチャンネルアート",
+      "ms": "Perlindungan saluran YouTube",
+      "zh": "YouTube频道封面",
+      "zh-Hant": "YouTube頻道封面",
+      "ru": "Искусство канала YouTube",
+      "es": "Arte del canal de YouTube",
+      "in": "Seni Saluran YouTube"
+    },
+    "localizedPriority": {
+      "zh": 7
+    },
+    "width": 180
+  },
+  {
+    "category": "YouTube Thumbnail",
+    "height": 95,
+    "items": [
+      {
+        "byteCount": 282342,
+        "fontNames": [
+          "SablonUp-Regular"
+        ],
+        "name": "Y00011_V6",
+        "preview": "template_preview_Y00011.jpg"
+      },
+      {
+        "byteCount": 427037,
+        "fontNames": [
+          "ShowcardGothic-Reg"
+        ],
+        "name": "Y00006_V5",
+        "preview": "template_preview_Y00006.jpg"
+      },
+      {
+        "byteCount": 491397,
+        "fontNames": [
+          "FasterOne-Regular"
+        ],
+        "name": "Y00012_V5",
+        "pro": true,
+        "preview": "template_preview_Y00012.jpg"
+      },
+      {
+        "byteCount": 389975,
+        "name": "Y00013_V5",
+        "pro": true,
+        "preview": "template_preview_Y00013.jpg"
+      },
+      {
+        "byteCount": 290743,
+        "fontNames": [
+          "DENNE|Sketchy"
+        ],
+        "name": "Y00014_V5",
+        "preview": "template_preview_Y00014.jpg"
+      },
+      {
+        "byteCount": 299399,
+        "fontNames": [
+          "Caveat-Regular",
+          "AmaticSC-Regular"
+        ],
+        "name": "Y00015_V5",
+        "preview": "template_preview_Y00015.jpg"
+      },
+      {
+        "byteCount": 287417,
+        "fontNames": [
+          "AmaticSC-Regular"
+        ],
+        "name": "Y00001_V5",
+        "preview": "template_preview_Y00001.jpg"
+      },
+      {
+        "byteCount": 277980,
+        "fontNames": [
+          "Roboto-Black"
+        ],
+        "name": "Y00002_V4",
+        "pro": true,
+        "preview": "template_preview_Y00002.jpg"
+      },
+      {
+        "byteCount": 262610,
+        "fontNames": [
+          "Foo-Regular"
+        ],
+        "name": "Y00003_V5",
+        "preview": "template_preview_Y00003.jpg"
+      },
+      {
+        "byteCount": 478846,
+        "name": "Y00004_V4",
+        "pro": true,
+        "preview": "template_preview_Y00004.jpg"
+      },
+      {
+        "byteCount": 319722,
+        "fontNames": [
+          "Bazaronite",
+          "Scada-Regular"
+        ],
+        "name": "Y00005_V5",
+        "preview": "template_preview_Y00005.jpg"
+      },
+      {
+        "byteCount": 321618,
+        "fontNames": [
+          "Caveat-Regular"
+        ],
+        "name": "Y00007_V4",
+        "preview": "template_preview_Y00007.jpg"
+      },
+      {
+        "byteCount": 273665,
+        "fontNames": [
+          "PressStart2P-Regular"
+        ],
+        "name": "Y00008_V4",
+        "preview": "template_preview_Y00008.jpg"
+      },
+      {
+        "byteCount": 709923,
+        "fontNames": [
+          "Caveat-Regular",
+          "SpecialElite-Regular"
+        ],
+        "name": "Y00009_V5",
+        "pro": true,
+        "preview": "template_preview_Y00009.jpg"
+      },
+      {
+        "byteCount": 240309,
+        "fontNames": [
+          "PoiretOne-Regular"
+        ],
+        "name": "Y00010_V5",
+        "pro": true,
+        "preview": "template_preview_Y00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "YouTubeサムネイル",
+      "ms": "Thumbnail YouTube",
+      "zh": "YouTube视频缩略图",
+      "zh-Hant": "YouTube視頻縮略圖",
+      "ru": "эскиз YouTube",
+      "es": "La miniatura de YouTube",
+      "in": "Thumbnail YouTube"
+    },
+    "localizedPriority": {
+      "zh": 6
+    },
+    "width": 170
+  },
+  {
+    "category": "Twitch Banner",
+    "height": 100,
+    "items": [
+      {
+        "byteCount": 898446,
+        "fontNames": [
+          "Arial-BoldMT",
+          "HelveticaInserat-Roman"
+        ],
+        "name": "TW00001",
+        "preview": "template_preview_TW00001.jpg"
+      },
+      {
+        "byteCount": 242134,
+        "fontNames": [
+          "HelveticaInserat-Roman"
+        ],
+        "name": "TW00002",
+        "pro": true,
+        "preview": "template_preview_TW00002.jpg"
+      },
+      {
+        "byteCount": 628509,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "TW00003",
+        "pro": true,
+        "preview": "template_preview_TW00003.jpg"
+      },
+      {
+        "byteCount": 1002883,
+        "fontNames": [
+          "Arial-BoldMT",
+          "HelveticaInserat-Roman"
+        ],
+        "name": "TW00004",
+        "preview": "template_preview_TW00004.jpg"
+      },
+      {
+        "byteCount": 94168,
+        "fontNames": [
+          "Arial-BoldMT",
+          "HelveticaInserat-Roman"
+        ],
+        "name": "TW00005",
+        "pro": true,
+        "preview": "template_preview_TW00005.jpg"
+      },
+      {
+        "byteCount": 88506,
+        "fontNames": [
+          "Arial-BoldItalicMT",
+          "Arial-BoldMT"
+        ],
+        "name": "TW00006",
+        "preview": "template_preview_TW00006.jpg"
+      },
+      {
+        "byteCount": 139118,
+        "fontNames": [
+          "Arial-BoldMT",
+          "HelveticaInserat-Roman"
+        ],
+        "name": "TW00007",
+        "pro": true,
+        "preview": "template_preview_TW00007.jpg"
+      },
+      {
+        "byteCount": 592268,
+        "fontNames": [
+          "Arial-BoldMT",
+          "HelveticaInserat-Roman"
+        ],
+        "name": "TW00008",
+        "preview": "template_preview_TW00008.jpg"
+      },
+      {
+        "byteCount": 668747,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "TW00009",
+        "pro": true,
+        "preview": "template_preview_TW00009.jpg"
+      },
+      {
+        "byteCount": 859902,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "TW00010",
+        "preview": "template_preview_TW00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "Twitchのカバー",
+      "ms": "Twitch Banner",
+      "zh": "Twitch封面",
+      "zh-Hant": "Twitch封面",
+      "ru": "Twitch Баннер",
+      "es": "Twitch Bandera",
+      "in": "Spanduk berkedut"
+    },
+    "localizedPriority": {
+      "zh": 5
+    },
+    "width": 188
+  },
+  {
+    "category": "Pinterest Graphic",
+    "height": 150,
+    "items": [
+      {
+        "byteCount": 1111523,
+        "fontNames": [
+          "Share-Regular"
+        ],
+        "name": "PG00001_V2",
+        "preview": "template_preview_PG00001.jpg"
+      },
+      {
+        "byteCount": 967103,
+        "fontNames": [
+          "Roboto-Black",
+          "PTSans-Regular",
+          "Share-Bold"
+        ],
+        "name": "PG00005",
+        "pro": true,
+        "preview": "template_preview_PG00005.jpg"
+      },
+      {
+        "byteCount": 1220563,
+        "fontNames": [
+          "Roboto-Black"
+        ],
+        "name": "PG00002_V2",
+        "preview": "template_preview_PG00002.jpg"
+      },
+      {
+        "byteCount": 974405,
+        "fontNames": [
+          "Share-Bold"
+        ],
+        "name": "PG00003_V2",
+        "preview": "template_preview_PG00003.jpg"
+      },
+      {
+        "byteCount": 955137,
+        "fontNames": [
+          "Share-Bold",
+          "EdoSZ"
+        ],
+        "name": "PG00004_V2",
+        "pro": true,
+        "preview": "template_preview_PG00004.jpg"
+      },
+      {
+        "byteCount": 1533892,
+        "fontNames": [
+          "Roboto-Black",
+          "Share-Italic"
+        ],
+        "name": "PG00006_V3",
+        "preview": "template_preview_PG00006.jpg"
+      },
+      {
+        "byteCount": 881638,
+        "fontNames": [
+          "CormorantSC-Bold",
+          "PTSans-Regular"
+        ],
+        "name": "PG00007_V2",
+        "pro": true,
+        "preview": "template_preview_PG00007.jpg"
+      },
+      {
+        "byteCount": 897154,
+        "fontNames": [
+          "Cambria"
+        ],
+        "name": "PG00008_V2",
+        "preview": "template_preview_PG00008.jpg"
+      },
+      {
+        "byteCount": 1202258,
+        "fontNames": [
+          "Roboto-Black",
+          "PTSans-Regular"
+        ],
+        "name": "PG00009_V3",
+        "pro": true,
+        "preview": "template_preview_PG00009.jpg"
+      },
+      {
+        "byteCount": 592389,
+        "fontNames": [
+          "PTSans-Regular"
+        ],
+        "name": "PG00010_V2",
+        "preview": "template_preview_PG00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "Pinterestグラフィック",
+      "ms": "Gambar Pinterest",
+      "zh": "Pinterest图片",
+      "zh-Hant": "Pinterest圖片",
+      "ru": "графика Пинтереста",
+      "es": "Gráfico de interés",
+      "in": "Grafik Pinterest"
+    },
+    "localizedPriority": {
+      "zh": 4
+    },
+    "width": 100
+  },
+  {
+    "category": "Tumblr Graphic",
+    "height": 150,
+    "items": [
+      {
+        "byteCount": 984528,
+        "fontNames": [
+          "SharkReady",
+          "Arial-BoldMT"
+        ],
+        "name": "TG00001",
+        "preview": "template_preview_TG00001.jpg"
+      },
+      {
+        "byteCount": 696142,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "TG00002",
+        "pro": true,
+        "preview": "template_preview_TG00002.jpg"
+      },
+      {
+        "byteCount": 1298960,
+        "fontNames": [
+          "Arial-BoldMT",
+          "SharkReady"
+        ],
+        "name": "TG00003",
+        "preview": "template_preview_TG00003.jpg"
+      },
+      {
+        "byteCount": 632962,
+        "fontNames": [
+          "Arial-BoldMT",
+          "Cambria"
+        ],
+        "name": "TG00004",
+        "preview": "template_preview_TG00004.jpg"
+      },
+      {
+        "byteCount": 759948,
+        "fontNames": [
+          "AmaticSC-Regular"
+        ],
+        "name": "TG00005",
+        "pro": true,
+        "preview": "template_preview_TG00005.jpg"
+      },
+      {
+        "byteCount": 576002,
+        "fontNames": [
+          "FrederickatheGreat-Regular"
+        ],
+        "name": "TG00006",
+        "preview": "template_preview_TG00006.jpg"
+      },
+      {
+        "byteCount": 555832,
+        "fontNames": [
+          "HelveticaInserat-Roman",
+          "Arial-BoldMT"
+        ],
+        "name": "TG00007",
+        "pro": true,
+        "preview": "template_preview_TG00007.jpg"
+      },
+      {
+        "byteCount": 746857,
+        "fontNames": [
+          "PTSans-Regular",
+          "Arial-BoldMT"
+        ],
+        "name": "TG00008",
+        "preview": "template_preview_TG00008.jpg"
+      },
+      {
+        "byteCount": 1018125,
+        "name": "TG00009",
+        "preview": "template_preview_TG00009.jpg"
+      },
+      {
+        "byteCount": 905212,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "TG00010",
+        "pro": true,
+        "preview": "template_preview_TG00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "zh": "Tumblr图片",
+      "zh-Hant": "Tumblr圖片",
+      "ja": "Tumblrの写真",
+      "ms": "Grafik Tumblr",
+      "ru": "Tumblr График",
+      "es": "Gráfico Tumblr",
+      "in": "Tumblr Graphic"
+    },
+    "localizedPriority": {
+      "zh": 3
+    },
+    "width": 100
+  },
+  {
+    "category": "LinkedIn Banner",
+    "height": 100,
+    "items": [
+      {
+        "byteCount": 426556,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "LB00001_V2",
+        "preview": "template_preview_LB00001.jpg"
+      },
+      {
+        "byteCount": 172110,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "LB00002_V2",
+        "pro": true,
+        "preview": "template_preview_LB00002.jpg"
+      },
+      {
+        "byteCount": 105906,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "LB00003_V2",
+        "pro": true,
+        "preview": "template_preview_LB00003.jpg"
+      },
+      {
+        "byteCount": 310475,
+        "fontNames": [
+          "Awery"
+        ],
+        "name": "LB00004_V2",
+        "preview": "template_preview_LB00004.jpg"
+      },
+      {
+        "byteCount": 204760,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "LB00005_V2",
+        "preview": "template_preview_LB00005.jpg"
+      },
+      {
+        "byteCount": 311796,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "LB00006_V2",
+        "preview": "template_preview_LB00006.jpg"
+      },
+      {
+        "byteCount": 77483,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "LB00007_V2",
+        "preview": "template_preview_LB00007.jpg"
+      },
+      {
+        "byteCount": 262623,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "LB00008_V2",
+        "pro": true,
+        "preview": "template_preview_LB00008.jpg"
+      },
+      {
+        "byteCount": 219639,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "LB00009_V2",
+        "pro": true,
+        "preview": "template_preview_LB00009.jpg"
+      },
+      {
+        "byteCount": 179001,
+        "fontNames": [
+          "Bukhari-Script"
+        ],
+        "name": "LB00010_V2",
+        "preview": "template_preview_LB00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "zh": "领英封面",
+      "zh-Hant": "領英封面",
+      "ja": "LinkedInカバー",
+      "ms": "Banner LinkedIn",
+      "ru": "Связанный баннер",
+      "es": "Banner de LinkedIn",
+      "in": "Banner LinkedIn"
+    },
+    "localizedPriority": {
+      "zh": 2
+    },
+    "width": 331
+  },
+  {
+    "category": "Poster",
+    "height": 150,
+    "items": [
+      {
+        "byteCount": 67268,
+        "fontNames": [
+          "Foo-Regular"
+        ],
+        "name": "PO00001_V4",
+        "preview": "template_preview_PO00001.jpg"
+      },
+      {
+        "byteCount": 216697,
+        "fontNames": [
+          "HelveticaInserat-Roman",
+          "PTSans-Regular"
+        ],
+        "name": "PO00002_V5",
+        "pro": true,
+        "preview": "template_preview_PO00002.jpg"
+      },
+      {
+        "byteCount": 77622,
+        "fontNames": [
+          "Roboto-Black"
+        ],
+        "name": "PO00003_V4",
+        "preview": "template_preview_PO00003.jpg"
+      },
+      {
+        "byteCount": 282437,
+        "fontNames": [
+          "Roboto-Black",
+          "Edo SZ",
+          "PTSans-Regular",
+          "EdoSZ"
+        ],
+        "name": "PO00004_V6",
+        "preview": "template_preview_PO00004.jpg"
+      },
+      {
+        "byteCount": 638808,
+        "fontNames": [
+          "CarbonBl-Regular",
+          "Roboto-Black"
+        ],
+        "name": "PO00005_V5",
+        "pro": true,
+        "preview": "template_preview_PO00005.jpg"
+      },
+      {
+        "byteCount": 320365,
+        "fontNames": [
+          "HelveticaNeue-CondensedBlack",
+          "Foo-Regular",
+          "HelveticaInserat-Roman"
+        ],
+        "name": "PO00006_V6",
+        "preview": "template_preview_PO00006.jpg"
+      },
+      {
+        "byteCount": 418067,
+        "fontNames": [
+          "Mexcellent3D-Regular",
+          "Roboto-Black"
+        ],
+        "name": "PO00007_V5",
+        "pro": true,
+        "preview": "template_preview_PO00007.jpg"
+      },
+      {
+        "byteCount": 309456,
+        "fontNames": [
+          "PTSans-Regular",
+          "MICHAELJackfruit"
+        ],
+        "name": "PO00008_V5",
+        "preview": "template_preview_PO00008.jpg"
+      },
+      {
+        "byteCount": 1228131,
+        "fontNames": [
+          "PTSans-Regular",
+          "Roboto-Black"
+        ],
+        "name": "PO00009_V5",
+        "preview": "template_preview_PO00009.jpg"
+      },
+      {
+        "byteCount": 683231,
+        "fontNames": [
+          "Scada-Bold",
+          "Mali-boldItalic",
+          "Scada-Regular"
+        ],
+        "name": "PO00010_V5",
+        "pro": true,
+        "preview": "template_preview_PO00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "ポスター",
+      "ms": "Poster",
+      "zh": "海报",
+      "zh-Hant": "海報",
+      "ru": "Плакат",
+      "es": "Cartel",
+      "in": "Poster"
+    },
+    "localizedPriority": {
+      "zh": 18
+    },
+    "width": 100
+  },
+  {
+    "category": "Recipe Card",
+    "height": 150,
+    "items": [
+      {
+        "byteCount": 561020,
+        "fontNames": [
+          "CormorantSC-Regular",
+          "PTSans-Regular"
+        ],
+        "name": "RC00001",
+        "preview": "template_preview_RC00001.jpg"
+      },
+      {
+        "byteCount": 649959,
+        "fontNames": [
+          "PTSans-Regular",
+          "Berylium-Regular"
+        ],
+        "name": "RC00002",
+        "preview": "template_preview_RC00002.jpg"
+      },
+      {
+        "byteCount": 222442,
+        "fontNames": [
+          "FiraSans-BlackItalic"
+        ],
+        "name": "RC00003",
+        "pro": true,
+        "preview": "template_preview_RC00003.jpg"
+      },
+      {
+        "byteCount": 565963,
+        "fontNames": [
+          "EdoSZ",
+          "FiraSans-BlackItalic",
+          "PTSans-Regular"
+        ],
+        "name": "RC00004",
+        "preview": "template_preview_RC00004.jpg"
+      },
+      {
+        "byteCount": 684718,
+        "name": "RC00005",
+        "preview": "template_preview_RC00005.jpg"
+      },
+      {
+        "byteCount": 817454,
+        "fontNames": [
+          "MarcellusSC-Regular"
+        ],
+        "name": "RC00006",
+        "pro": true,
+        "preview": "template_preview_RC00006.jpg"
+      },
+      {
+        "byteCount": 223906,
+        "fontNames": [
+          "Cambria"
+        ],
+        "name": "RC00007",
+        "preview": "template_preview_RC00007.jpg"
+      },
+      {
+        "byteCount": 1739723,
+        "fontNames": [
+          "EdoSZ",
+          "Pacifico-Regular"
+        ],
+        "name": "RC00008",
+        "pro": true,
+        "preview": "template_preview_RC00008.jpg"
+      },
+      {
+        "byteCount": 640236,
+        "fontNames": [
+          "PTSans-Regular",
+          "GilliganShutterRegular"
+        ],
+        "name": "RC00009",
+        "preview": "template_preview_RC00009.jpg"
+      },
+      {
+        "byteCount": 1108863,
+        "fontNames": [
+          "LobsterTwo-BoldItalic",
+          "Changa-Light"
+        ],
+        "name": "RC00010",
+        "pro": true,
+        "preview": "template_preview_RC00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "zh": "食谱卡片",
+      "zh-Hant": "食譜卡片",
+      "ja": "レシピカード",
+      "ms": "Kad resipi",
+      "ru": "Рецептурная карта",
+      "es": "Tarjeta de recetas",
+      "in": "Kartu Resep"
+    },
+    "localizedPriority": {
+      "zh": 1
+    },
+    "width": 100
+  },
+  {
+    "category": "Mobile Poster",
+    "height": 192,
+    "items": [
+      {
+        "byteCount": 1469471,
+        "fontNames": [
+          "PTSans-Regular",
+          "Roboto-Black"
+        ],
+        "name": "MP00013_V2",
+        "preview": "template_preview_MP00013.jpg"
+      },
+      {
+        "byteCount": 1017649,
+        "fontNames": [
+          "STZhongsong",
+          "Roboto-Black"
+        ],
+        "name": "MP00012_V2",
+        "pro": true,
+        "preview": "template_preview_MP00012.jpg"
+      },
+      {
+        "byteCount": 1100922,
+        "fontNames": [
+          "STZhongsong",
+          "Roboto-Black"
+        ],
+        "name": "MP00011_V2",
+        "preview": "template_preview_MP00011.jpg"
+      },
+      {
+        "byteCount": 656447,
+        "fontNames": [
+          "HappyZcool-2016",
+          "SourceHanSansCN-Medium",
+          "Roboto-Black"
+        ],
+        "name": "MP00014_V2",
+        "preview": "template_preview_MP00014.jpg"
+      },
+      {
+        "byteCount": 393017,
+        "name": "MP00004_V5",
+        "preview": "template_preview_MP00004.jpg"
+      },
+      {
+        "byteCount": 1133765,
+        "name": "MP00001_V7",
+        "pro": true,
+        "preview": "template_preview_MP00001.jpg"
+      },
+      {
+        "byteCount": 893991,
+        "name": "MP00002_V7",
+        "preview": "template_preview_MP00002.jpg"
+      },
+      {
+        "byteCount": 997726,
+        "name": "MP00003_V6",
+        "pro": true,
+        "preview": "template_preview_MP00003.jpg"
+      },
+      {
+        "byteCount": 1008257,
+        "name": "MP00005_V7",
+        "preview": "template_preview_MP00005.jpg"
+      },
+      {
+        "byteCount": 1249301,
+        "name": "MP00006_V6",
+        "preview": "template_preview_MP00006.jpg"
+      },
+      {
+        "byteCount": 1299208,
+        "fontNames": [
+          "Roboto-Black"
+        ],
+        "name": "MP00007_V7",
+        "preview": "template_preview_MP00007.jpg"
+      },
+      {
+        "byteCount": 604758,
+        "name": "MP00008_V6",
+        "pro": true,
+        "preview": "template_preview_MP00008.jpg"
+      },
+      {
+        "byteCount": 1008414,
+        "name": "MP00009_V6",
+        "preview": "template_preview_MP00009.jpg"
+      },
+      {
+        "byteCount": 724858,
+        "name": "MP00010_V6",
+        "pro": true,
+        "preview": "template_preview_MP00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "モバイルポスター",
+      "ms": "Poster Bergerak",
+      "zh": "手机海报",
+      "zh-Hant": "手機海報",
+      "ru": "Мобильный плакат",
+      "es": "Póster móvil",
+      "in": "Poster Seluler"
+    },
+    "localizedPriority": {
+      "zh": 999
+    },
+    "width": 108
+  },
+  {
+    "category": "Mobile Wallpaper",
+    "height": 192,
+    "items": [
+      {
+        "byteCount": 315863,
+        "name": "W00042",
+        "preview": "template_preview_W00042.jpg"
+      },
+      {
+        "byteCount": 365563,
+        "fontNames": [
+          "Caveat-Bold"
+        ],
+        "name": "W00045",
+        "pro": true,
+        "preview": "template_preview_W00045.jpg"
+      },
+      {
+        "byteCount": 1370615,
+        "name": "W00047",
+        "preview": "template_preview_W00047.jpg"
+      },
+      {
+        "byteCount": 1269051,
+        "name": "W00039",
+        "preview": "template_preview_W00039.jpg"
+      },
+      {
+        "byteCount": 396744,
+        "name": "W00004_V6",
+        "preview": "template_preview_W00004.jpg"
+      },
+      {
+        "byteCount": 1579235,
+        "name": "W00001_V6",
+        "pro": true,
+        "preview": "template_preview_W00001.jpg"
+      },
+      {
+        "byteCount": 799036,
+        "fontNames": [
+          "PressStart2P-Regular"
+        ],
+        "name": "W00002_V4",
+        "pro": true,
+        "preview": "template_preview_W00002.jpg"
+      },
+      {
+        "byteCount": 840599,
+        "name": "W00003_V4",
+        "preview": "template_preview_W00003.jpg"
+      },
+      {
+        "byteCount": 758407,
+        "fontNames": [
+          "BrittanySignatureRegular"
+        ],
+        "name": "W00005_V5",
+        "preview": "template_preview_W00005.jpg"
+      },
+      {
+        "byteCount": 698154,
+        "fontNames": [
+          "Roboto-BlackItalic",
+          "Scada-Regular"
+        ],
+        "name": "W00006_V5",
+        "preview": "template_preview_W00006.jpg"
+      },
+      {
+        "byteCount": 962336,
+        "name": "W00007_V5",
+        "preview": "template_preview_W00007.jpg"
+      },
+      {
+        "byteCount": 954005,
+        "name": "W00008_V5",
+        "preview": "template_preview_W00008.jpg"
+      },
+      {
+        "byteCount": 914146,
+        "fontNames": [
+          "PTSans-Regular"
+        ],
+        "name": "W00009_V5",
+        "pro": true,
+        "preview": "template_preview_W00009.jpg"
+      },
+      {
+        "byteCount": 506342,
+        "fontNames": [
+          "STZhongsong"
+        ],
+        "name": "W00010",
+        "preview": "template_preview_W00010.jpg"
+      },
+      {
+        "byteCount": 233248,
+        "name": "W00011",
+        "preview": "template_preview_W00011.jpg"
+      },
+      {
+        "byteCount": 268643,
+        "fontNames": [
+          "STZhongsong"
+        ],
+        "name": "W00012",
+        "preview": "template_preview_W00012.jpg"
+      },
+      {
+        "byteCount": 433551,
+        "name": "W00013",
+        "preview": "template_preview_W00013.jpg"
+      },
+      {
+        "byteCount": 939540,
+        "name": "W00014",
+        "pro": true,
+        "preview": "template_preview_W00014.jpg"
+      },
+      {
+        "byteCount": 287077,
+        "name": "W00015",
+        "preview": "template_preview_W00015.jpg"
+      },
+      {
+        "byteCount": 298975,
+        "name": "W00016",
+        "preview": "template_preview_W00016.jpg"
+      },
+      {
+        "byteCount": 522712,
+        "name": "W00017",
+        "pro": true,
+        "preview": "template_preview_W00017.jpg"
+      },
+      {
+        "byteCount": 1317144,
+        "name": "W00018",
+        "preview": "template_preview_W00018.jpg"
+      },
+      {
+        "byteCount": 176498,
+        "name": "W00019",
+        "preview": "template_preview_W00019.jpg"
+      },
+      {
+        "byteCount": 237534,
+        "name": "W00020",
+        "preview": "template_preview_W00020.jpg"
+      },
+      {
+        "byteCount": 1020731,
+        "fontNames": [
+          "PangMenZhengDao"
+        ],
+        "name": "W00021",
+        "preview": "template_preview_W00021.jpg"
+      },
+      {
+        "byteCount": 480568,
+        "name": "W00022",
+        "pro": true,
+        "preview": "template_preview_W00022.jpg"
+      },
+      {
+        "byteCount": 315874,
+        "fontNames": [
+          "YouYuan"
+        ],
+        "name": "W00023",
+        "preview": "template_preview_W00023.jpg"
+      },
+      {
+        "byteCount": 498442,
+        "name": "W00024",
+        "preview": "template_preview_W00024.jpg"
+      },
+      {
+        "byteCount": 295621,
+        "name": "W00025",
+        "preview": "template_preview_W00025.jpg"
+      },
+      {
+        "byteCount": 210578,
+        "name": "W00026",
+        "preview": "template_preview_W00026.jpg"
+      },
+      {
+        "byteCount": 284097,
+        "name": "W00027",
+        "preview": "template_preview_W00027.jpg"
+      },
+      {
+        "byteCount": 724297,
+        "fontNames": [
+          "HappyZcool-2016"
+        ],
+        "name": "W00028",
+        "pro": true,
+        "preview": "template_preview_W00028.jpg"
+      },
+      {
+        "byteCount": 240402,
+        "name": "W00029",
+        "preview": "template_preview_W00029.jpg"
+      },
+      {
+        "byteCount": 168577,
+        "name": "W00030",
+        "preview": "template_preview_W00030.jpg"
+      },
+      {
+        "byteCount": 353589,
+        "name": "W00031",
+        "preview": "template_preview_W00031.jpg"
+      },
+      {
+        "byteCount": 541470,
+        "name": "W00032",
+        "pro": true,
+        "preview": "template_preview_W00032.jpg"
+      },
+      {
+        "byteCount": 1630325,
+        "fontNames": [
+          "zcoolwenyiti"
+        ],
+        "name": "W00033",
+        "preview": "template_preview_W00033.jpg"
+      },
+      {
+        "byteCount": 385155,
+        "fontNames": [
+          "HappyZcool-2016"
+        ],
+        "name": "W00034",
+        "pro": true,
+        "preview": "template_preview_W00034.jpg"
+      },
+      {
+        "byteCount": 708599,
+        "name": "W00035",
+        "pro": true,
+        "preview": "template_preview_W00035.jpg"
+      },
+      {
+        "byteCount": 315240,
+        "name": "W00036",
+        "preview": "template_preview_W00036.jpg"
+      },
+      {
+        "byteCount": 624825,
+        "fontNames": [
+          "HappyZcool-2016"
+        ],
+        "name": "W00037",
+        "preview": "template_preview_W00037.jpg"
+      },
+      {
+        "byteCount": 611532,
+        "name": "W00038",
+        "preview": "template_preview_W00038.jpg"
+      },
+      {
+        "byteCount": 1171679,
+        "name": "W00040",
+        "pro": true,
+        "preview": "template_preview_W00040.jpg"
+      },
+      {
+        "byteCount": 480826,
+        "fontNames": [
+          "CarbonPhyber-Regular",
+          "PTSans-Regular"
+        ],
+        "name": "W00041",
+        "pro": true,
+        "preview": "template_preview_W00041.jpg"
+      },
+      {
+        "byteCount": 926727,
+        "name": "W00043",
+        "preview": "template_preview_W00043.jpg"
+      },
+      {
+        "byteCount": 925767,
+        "fontNames": [
+          "SpaceMono-Regular"
+        ],
+        "name": "W00044",
+        "preview": "template_preview_W00044.jpg"
+      },
+      {
+        "byteCount": 171039,
+        "fontNames": [
+          "DENNE|Sketchy"
+        ],
+        "name": "W00046",
+        "preview": "template_preview_W00046.jpg"
+      },
+      {
+        "byteCount": 977090,
+        "fontNames": [
+          "STZhongsong"
+        ],
+        "name": "W00048",
+        "preview": "template_preview_W00048.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "携帯壁紙",
+      "ms": "Wallpaper Mudah Alih",
+      "zh": "手机壁纸",
+      "zh-Hant": "手機壁紙",
+      "ru": "Мобильные обои",
+      "es": "Fondo de pantalla móvil",
+      "in": "Wallpaper Seluler"
+    },
+    "localizedPriority": {
+      "zh": 996
+    },
+    "width": 108
+  },
+  {
+    "category": "Mobile Invitation",
+    "height": 192,
+    "items": [
+      {
+        "byteCount": 581280,
+        "fontNames": [
+          "Awery"
+        ],
+        "name": "MI00001_V4",
+        "preview": "template_preview_MI00001.jpg"
+      },
+      {
+        "byteCount": 648229,
+        "fontNames": [
+          "EngebrechtreExpanded-BoldItalic"
+        ],
+        "name": "MI00002_V5",
+        "preview": "template_preview_MI00002.jpg"
+      },
+      {
+        "byteCount": 898585,
+        "name": "MI00003_V4",
+        "pro": true,
+        "preview": "template_preview_MI00003.jpg"
+      },
+      {
+        "byteCount": 746584,
+        "fontNames": [
+          "AmaticSC-Regular"
+        ],
+        "name": "MI00004_V4",
+        "preview": "template_preview_MI00004.jpg"
+      },
+      {
+        "byteCount": 606042,
+        "fontNames": [
+          "Awery",
+          "Times New Roman"
+        ],
+        "name": "MI00005_V4",
+        "preview": "template_preview_MI00005.jpg"
+      },
+      {
+        "byteCount": 916214,
+        "name": "MI00006_V4",
+        "preview": "template_preview_MI00006.jpg"
+      },
+      {
+        "byteCount": 579485,
+        "name": "MI00007_V5",
+        "pro": true,
+        "preview": "template_preview_MI00007.jpg"
+      },
+      {
+        "byteCount": 416301,
+        "name": "MI00008_V4",
+        "preview": "template_preview_MI00008.jpg"
+      },
+      {
+        "byteCount": 593138,
+        "fontNames": [
+          "Awery"
+        ],
+        "name": "MI00009_V5",
+        "pro": true,
+        "preview": "template_preview_MI00009.jpg"
+      },
+      {
+        "byteCount": 846908,
+        "name": "MI00010_V4",
+        "preview": "template_preview_MI00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "携帯の招待状",
+      "ms": "Jemputan Bergerak",
+      "zh": "手机邀请函",
+      "zh-Hant": "手機邀請函",
+      "es": "Invitación móvil",
+      "ru": "Мобильное приглашение",
+      "in": "Undangan Seluler"
+    },
+    "localizedPriority": {
+      "zh": 20
+    },
+    "width": 108
+  },
+  {
+    "category": "Taobao Banner",
+    "height": 65,
+    "items": [
+      {
+        "byteCount": 820925,
+        "name": "TB00001_V4",
+        "preview": "template_preview_TB00001_V3.jpg"
+      },
+      {
+        "byteCount": 864123,
+        "name": "TB00002_V4",
+        "pro": true,
+        "preview": "template_preview_TB00002_V3.jpg"
+      },
+      {
+        "byteCount": 419934,
+        "name": "TB00003_V4",
+        "preview": "template_preview_TB00003_V3.jpg"
+      },
+      {
+        "byteCount": 823659,
+        "name": "TB00004_V4",
+        "pro": true,
+        "preview": "template_preview_TB00004_V3.jpg"
+      },
+      {
+        "byteCount": 781597,
+        "name": "TB00005_V6",
+        "preview": "template_preview_TB00005_V3.jpg"
+      },
+      {
+        "byteCount": 556987,
+        "name": "TB00006_V4",
+        "preview": "template_preview_TB00006_V3.jpg"
+      },
+      {
+        "byteCount": 468373,
+        "name": "TB00007_V4",
+        "pro": true,
+        "preview": "template_preview_TB00007_V3.jpg"
+      },
+      {
+        "byteCount": 772982,
+        "name": "TB00008_V5",
+        "preview": "template_preview_TB00008_V3.jpg"
+      },
+      {
+        "byteCount": 857777,
+        "name": "TB00009_V4",
+        "preview": "template_preview_TB00009_V3.jpg"
+      },
+      {
+        "byteCount": 626876,
+        "name": "TB00010_V5",
+        "pro": true,
+        "preview": "template_preview_TB00010_V3.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "淘宝網バナー",
+      "ms": "Banner Taobao",
+      "zh": "淘宝banner",
+      "zh-Hant": "淘寶banner",
+      "ru": "Таобао Баннер",
+      "es": "Bandera de Taobao",
+      "in": "Spanduk Taobao"
+    },
+    "localizedPriority": {
+      "zh": 23
+    },
+    "width": 192
+  },
+  {
+    "category": "WeChat Moments",
+    "height": 108,
+    "items": [
+      {
+        "byteCount": 712470,
+        "fontNames": [
+          "STZhongsong"
+        ],
+        "name": "M00023_V2",
+        "preview": "template_preview_M00023.jpg"
+      },
+      {
+        "byteCount": 446707,
+        "fontNames": [
+          "MidnightDrive-Two",
+          "STZhongsong"
+        ],
+        "name": "M00024_V2",
+        "preview": "template_preview_M00024.jpg"
+      },
+      {
+        "byteCount": 385042,
+        "name": "M00021_V2",
+        "pro": true,
+        "preview": "template_preview_M00021.jpg"
+      },
+      {
+        "byteCount": 394963,
+        "fontNames": [
+          "CarbonBl-Regular",
+          "Arenski-Regular"
+        ],
+        "name": "M00022_V2",
+        "pro": true,
+        "preview": "template_preview_M00022.jpg"
+      },
+      {
+        "byteCount": 807572,
+        "name": "M00013_V4",
+        "preview": "template_preview_M00013.jpg"
+      },
+      {
+        "byteCount": 594575,
+        "name": "M00017_V4",
+        "pro": true,
+        "preview": "template_preview_M00017.jpg"
+      },
+      {
+        "byteCount": 898955,
+        "fontNames": [
+          "STZhongsong"
+        ],
+        "name": "M00020_V5",
+        "preview": "template_preview_M00020.jpg"
+      },
+      {
+        "byteCount": 1017488,
+        "fontNames": [
+          "Trochut-Bold"
+        ],
+        "name": "M00001_V5",
+        "preview": "template_preview_M00001.jpg"
+      },
+      {
+        "byteCount": 1028176,
+        "fontNames": [
+          "Roboto-BlackItalic"
+        ],
+        "name": "M00002_V5",
+        "pro": true,
+        "preview": "template_preview_M00002.jpg"
+      },
+      {
+        "byteCount": 483614,
+        "name": "M00003_V5",
+        "preview": "template_preview_M00003.jpg"
+      },
+      {
+        "byteCount": 440559,
+        "fontNames": [
+          "Scada-Italic"
+        ],
+        "name": "M00004_V5",
+        "pro": true,
+        "preview": "template_preview_M00004.jpg"
+      },
+      {
+        "byteCount": 769842,
+        "name": "M00005_V5",
+        "preview": "template_preview_M00005.jpg"
+      },
+      {
+        "byteCount": 560708,
+        "name": "M00006_V5",
+        "preview": "template_preview_M00006.jpg"
+      },
+      {
+        "byteCount": 419955,
+        "fontNames": [
+          "Share-Italic"
+        ],
+        "name": "M00007_V5",
+        "preview": "template_preview_M00007.jpg"
+      },
+      {
+        "byteCount": 875748,
+        "name": "M00008_V5",
+        "preview": "template_preview_M00008.jpg"
+      },
+      {
+        "byteCount": 399427,
+        "name": "M00009_V5",
+        "preview": "template_preview_M00009.jpg"
+      },
+      {
+        "byteCount": 298208,
+        "fontNames": [
+          "SpaceMono-Italic"
+        ],
+        "name": "M00010_V5",
+        "pro": true,
+        "preview": "template_preview_M00010.jpg"
+      },
+      {
+        "byteCount": 864164,
+        "fontNames": [
+          "HappyZcool-2016"
+        ],
+        "name": "M00011_V4",
+        "preview": "template_preview_M00011.jpg"
+      },
+      {
+        "byteCount": 801175,
+        "fontNames": [
+          "STZhongsong"
+        ],
+        "name": "M00012_V6",
+        "preview": "template_preview_M00012.jpg"
+      },
+      {
+        "byteCount": 644445,
+        "fontNames": [
+          "Azedo-Bold",
+          "Sk-Modernist-Bold"
+        ],
+        "name": "M00014_V6",
+        "preview": "template_preview_M00014.jpg"
+      },
+      {
+        "byteCount": 950090,
+        "fontNames": [
+          "HappyZcool-2016",
+          "CenturyGothic"
+        ],
+        "name": "M00015_V6",
+        "preview": "template_preview_M00015.jpg"
+      },
+      {
+        "byteCount": 745048,
+        "name": "M00016_V6",
+        "preview": "template_preview_M00016.jpg"
+      },
+      {
+        "byteCount": 469884,
+        "fontNames": [
+          "YouYuan"
+        ],
+        "name": "M00018_V6",
+        "preview": "template_preview_M00018.jpg"
+      },
+      {
+        "byteCount": 458661,
+        "fontNames": [
+          "Plume"
+        ],
+        "name": "M00019_V5",
+        "pro": true,
+        "preview": "template_preview_M00019.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "WeChatの瞬間",
+      "ms": "WeChat Moments",
+      "zh": "微信朋友圈",
+      "zh-Hant": "微信朋友圈",
+      "ru": "Уэш-Шат Моменты",
+      "es": "WeChat Momentos",
+      "in": "Momen WeChat"
+    },
+    "localizedPriority": {
+      "zh": 998
+    },
+    "width": 108
+  },
+  {
+    "category": "Wechat Official Account Cover",
+    "height": 100,
+    "items": [
+      {
+        "byteCount": 230526,
+        "name": "GZ00001",
+        "preview": "template_preview_GZ00001_V2.jpg"
+      },
+      {
+        "byteCount": 186073,
+        "name": "GZ00002",
+        "preview": "template_preview_GZ00002_V2.jpg"
+      },
+      {
+        "byteCount": 615521,
+        "fontNames": [
+          "HappyZcool-2016"
+        ],
+        "name": "GZ00003",
+        "pro": true,
+        "preview": "template_preview_GZ00003_V2.jpg"
+      },
+      {
+        "byteCount": 278161,
+        "name": "GZ00004",
+        "preview": "template_preview_GZ00004_V2.jpg"
+      },
+      {
+        "byteCount": 508629,
+        "fontNames": [
+          "HappyZcool-2016"
+        ],
+        "name": "GZ00005",
+        "pro": true,
+        "preview": "template_preview_GZ00005_V2.jpg"
+      },
+      {
+        "byteCount": 295713,
+        "name": "GZ00006",
+        "preview": "template_preview_GZ00006_V2.jpg"
+      },
+      {
+        "byteCount": 358320,
+        "name": "GZ00007",
+        "preview": "template_preview_GZ00007_V2.jpg"
+      },
+      {
+        "byteCount": 329208,
+        "name": "GZ00008",
+        "pro": true,
+        "preview": "template_preview_GZ00008_V2.jpg"
+      },
+      {
+        "byteCount": 177299,
+        "name": "GZ00009",
+        "preview": "template_preview_GZ00009_V2.jpg"
+      },
+      {
+        "byteCount": 419540,
+        "name": "GZ00010",
+        "preview": "template_preview_GZ00010_V2.jpg"
+      },
+      {
+        "byteCount": 167987,
+        "name": "GZ00011",
+        "preview": "template_preview_GZ00011_V2.jpg"
+      },
+      {
+        "byteCount": 111365,
+        "name": "GZ00012",
+        "preview": "template_preview_GZ00012_V2.jpg"
+      },
+      {
+        "byteCount": 114529,
+        "fontNames": [
+          "HappyZcool-2016"
+        ],
+        "name": "GZ00013",
+        "preview": "template_preview_GZ00013_V2.jpg"
+      },
+      {
+        "byteCount": 133641,
+        "name": "GZ00014",
+        "preview": "template_preview_GZ00014_V2.jpg"
+      },
+      {
+        "byteCount": 124451,
+        "name": "GZ00015",
+        "preview": "template_preview_GZ00015_V2.jpg"
+      },
+      {
+        "byteCount": 545494,
+        "name": "GZ00016",
+        "pro": true,
+        "preview": "template_preview_GZ00016_V2.jpg"
+      },
+      {
+        "byteCount": 97665,
+        "name": "GZ00017",
+        "preview": "template_preview_GZ00017_V2.jpg"
+      },
+      {
+        "byteCount": 133285,
+        "fontNames": [
+          "HappyZcool-2016"
+        ],
+        "name": "GZ00018",
+        "pro": true,
+        "preview": "template_preview_GZ00018.jpg"
+      },
+      {
+        "byteCount": 99506,
+        "name": "GZ00019",
+        "preview": "template_preview_GZ00019.jpg"
+      },
+      {
+        "byteCount": 91693,
+        "name": "GZ00020",
+        "preview": "template_preview_GZ00020.jpg"
+      },
+      {
+        "byteCount": 85634,
+        "name": "GZ00021",
+        "preview": "template_preview_GZ00021.jpg"
+      },
+      {
+        "byteCount": 112140,
+        "name": "GZ00022",
+        "preview": "template_preview_GZ00022.jpg"
+      },
+      {
+        "byteCount": 102891,
+        "name": "GZ00023_V2",
+        "pro": true,
+        "preview": "template_preview_GZ00023_V3.jpg"
+      },
+      {
+        "byteCount": 274316,
+        "name": "GZ00024",
+        "preview": "template_preview_GZ00024.jpg"
+      },
+      {
+        "byteCount": 121330,
+        "name": "GZ00025",
+        "preview": "template_preview_GZ00025.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "Wechat公式アカウントカバー",
+      "ms": "Cover Akaun Rasmi Wechat",
+      "zh": "公众号封面",
+      "zh-Hant": "公眾號封面",
+      "ru": "WeChat Обложка",
+      "es": "Wechat Cubrir",
+      "in": "Penutup Weechat"
+    },
+    "localizedPriority": {
+      "zh": 26
+    },
+    "width": 235
+  },
+  {
+    "category": "Wechat Business Poster",
+    "height": 177,
+    "items": [
+      {
+        "byteCount": 286667,
+        "name": "WH00003",
+        "preview": "template_preview_WH00003.jpg"
+      },
+      {
+        "byteCount": 995169,
+        "name": "WH00010_V2",
+        "preview": "template_preview_WH00010.jpg"
+      },
+      {
+        "byteCount": 1373393,
+        "name": "WH00002_V2",
+        "pro": true,
+        "preview": "template_preview_WH00002.jpg"
+      },
+      {
+        "byteCount": 1034515,
+        "name": "WH00001_V2",
+        "preview": "template_preview_WH00001.jpg"
+      },
+      {
+        "byteCount": 896948,
+        "name": "WH00004",
+        "pro": true,
+        "preview": "template_preview_WH00004.jpg"
+      },
+      {
+        "byteCount": 569797,
+        "name": "WH00005_V2",
+        "preview": "template_preview_WH00005.jpg"
+      },
+      {
+        "byteCount": 1479310,
+        "name": "WH00006_V2",
+        "preview": "template_preview_WH00006.jpg"
+      },
+      {
+        "byteCount": 419450,
+        "name": "WH00007_V2",
+        "preview": "template_preview_WH00007.jpg"
+      },
+      {
+        "byteCount": 483955,
+        "name": "WH00008",
+        "preview": "template_preview_WH00008.jpg"
+      },
+      {
+        "byteCount": 683969,
+        "name": "WH00009",
+        "pro": true,
+        "preview": "template_preview_WH00009.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "Wechatビジネスポスター",
+      "ms": "Poster Perniagaan Wechat",
+      "zh": "微商海报",
+      "zh-Hant": "微商海報",
+      "ru": "Бизнес-постер Wechat",
+      "es": "Afiche de negocios Wechat",
+      "in": "Poster Bisnis WeChat"
+    },
+    "localizedPriority": {
+      "zh": 25
+    },
+    "width": 100
+  },
+  {
+    "category": "Course Ad Cover",
+    "height": 100,
+    "items": [
+      {
+        "byteCount": 269438,
+        "name": "KC00009",
+        "preview": "template_preview_KC00009.jpg"
+      },
+      {
+        "byteCount": 364932,
+        "name": "KC00001",
+        "preview": "template_preview_KC00001.jpg"
+      },
+      {
+        "byteCount": 316011,
+        "name": "KC00002",
+        "pro": true,
+        "preview": "template_preview_KC00002.jpg"
+      },
+      {
+        "byteCount": 345584,
+        "fontNames": [
+          "HappyZcool-2016"
+        ],
+        "name": "KC00003",
+        "preview": "template_preview_KC00003.jpg"
+      },
+      {
+        "byteCount": 474888,
+        "name": "KC00004",
+        "pro": true,
+        "preview": "template_preview_KC00004.jpg"
+      },
+      {
+        "byteCount": 263206,
+        "fontNames": [
+          "HappyZcool-2016"
+        ],
+        "name": "KC00005",
+        "preview": "template_preview_KC00005.jpg"
+      },
+      {
+        "byteCount": 272372,
+        "fontNames": [
+          "Arial-BoldMT"
+        ],
+        "name": "KC00006",
+        "pro": true,
+        "preview": "template_preview_KC00006.jpg"
+      },
+      {
+        "byteCount": 641840,
+        "fontNames": [
+          "HappyZcool-2016"
+        ],
+        "name": "KC00007",
+        "preview": "template_preview_KC00007.jpg"
+      },
+      {
+        "byteCount": 540485,
+        "fontNames": [
+          "STZhongsong"
+        ],
+        "name": "KC00008",
+        "pro": true,
+        "preview": "template_preview_KC00008.jpg"
+      },
+      {
+        "byteCount": 445238,
+        "name": "KC00010",
+        "preview": "template_preview_KC00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "コース広告カバー",
+      "ms": "Cover Iklan Kursus",
+      "zh": "课程封面",
+      "zh-Hant": "課程封面",
+      "ru": "Обложка курсов",
+      "es": "Portada del curso",
+      "in": "Sampul Iklan Kursus"
+    },
+    "localizedPriority": {
+      "zh": 24
+    },
+    "width": 175
+  },
+  {
+    "category": "QR Code",
+    "height": 100,
+    "items": [
+      {
+        "byteCount": 205526,
+        "name": "QR00001",
+        "preview": "template_preview_QR00001.jpg"
+      },
+      {
+        "byteCount": 516309,
+        "fontNames": [
+          "SourceHanSansCN-Medium"
+        ],
+        "name": "QR00002",
+        "preview": "template_preview_QR00002.jpg"
+      },
+      {
+        "byteCount": 282133,
+        "fontNames": [
+          "SourceHanSansCN-Bold"
+        ],
+        "name": "QR00003",
+        "pro": true,
+        "preview": "template_preview_QR00003.jpg"
+      },
+      {
+        "byteCount": 192440,
+        "name": "QR00004",
+        "preview": "template_preview_QR00004.jpg"
+      },
+      {
+        "byteCount": 281614,
+        "name": "QR00005",
+        "pro": true,
+        "preview": "template_preview_QR00005.jpg"
+      },
+      {
+        "byteCount": 198404,
+        "fontNames": [
+          "SourceHanSansCN-Bold"
+        ],
+        "name": "QR00006",
+        "preview": "template_preview_QR00006.jpg"
+      },
+      {
+        "byteCount": 490290,
+        "fontNames": [
+          "PangMenZhengDao"
+        ],
+        "name": "QR00007",
+        "preview": "template_preview_QR00007.jpg"
+      },
+      {
+        "byteCount": 634037,
+        "fontNames": [
+          "SourceHanSansCN-Bold"
+        ],
+        "name": "QR00008",
+        "pro": true,
+        "preview": "template_preview_QR00008.jpg"
+      },
+      {
+        "byteCount": 411476,
+        "name": "QR00009",
+        "preview": "template_preview_QR00009.jpg"
+      },
+      {
+        "byteCount": 72447,
+        "name": "QR00010",
+        "preview": "template_preview_QR00010.jpg"
+      },
+      {
+        "byteCount": 114346,
+        "name": "QR00011",
+        "preview": "template_preview_QR00011.jpg"
+      },
+      {
+        "byteCount": 140827,
+        "fontNames": [
+          "SourceHanSansCN-Medium"
+        ],
+        "name": "QR00012",
+        "pro": true,
+        "preview": "template_preview_QR00012.jpg"
+      },
+      {
+        "byteCount": 261340,
+        "name": "QR00013",
+        "preview": "template_preview_QR00013.jpg"
+      },
+      {
+        "byteCount": 237779,
+        "name": "QR00014",
+        "preview": "template_preview_QR00014.jpg"
+      },
+      {
+        "byteCount": 385371,
+        "fontNames": [
+          "PangMenZhengDao",
+          "SourceHanSansCN-Bold"
+        ],
+        "name": "QR00015",
+        "pro": true,
+        "preview": "template_preview_QR00015.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "QRコード",
+      "ms": "Kod QR",
+      "zh": "关注二维码",
+      "zh-Hant": "關註二維碼",
+      "ru": "QR код",
+      "es": "Código QR",
+      "in": "Kode QR"
+    },
+    "localizedPriority": {
+      "zh": 27
+    },
+    "width": 180
+  },
+  {
+    "category": "Takeout Ads",
+    "height": 100,
+    "items": [
+      {
+        "byteCount": 936564,
+        "name": "WM00001",
+        "preview": "template_preview_WM00001.jpg"
+      },
+      {
+        "byteCount": 575116,
+        "fontNames": [
+          "STZhongsong"
+        ],
+        "name": "WM00002",
+        "pro": true,
+        "preview": "template_preview_WM00002.jpg"
+      },
+      {
+        "byteCount": 972702,
+        "name": "WM00003",
+        "preview": "template_preview_WM00003.jpg"
+      },
+      {
+        "byteCount": 662317,
+        "fontNames": [
+          "HappyZcool-2016"
+        ],
+        "name": "WM00004",
+        "pro": true,
+        "preview": "template_preview_WM00004.jpg"
+      },
+      {
+        "byteCount": 1019115,
+        "fontNames": [
+          "HappyZcool-2016"
+        ],
+        "name": "WM00005",
+        "preview": "template_preview_WM00005.jpg"
+      },
+      {
+        "byteCount": 904225,
+        "fontNames": [
+          "STZhongsong"
+        ],
+        "name": "WM00006",
+        "preview": "template_preview_WM00006.jpg"
+      },
+      {
+        "byteCount": 924653,
+        "name": "WM00007",
+        "preview": "template_preview_WM00007.jpg"
+      },
+      {
+        "byteCount": 862891,
+        "name": "WM00008",
+        "pro": true,
+        "preview": "template_preview_WM00008.jpg"
+      },
+      {
+        "byteCount": 675489,
+        "fontNames": [
+          "STZhongsong"
+        ],
+        "name": "WM00009",
+        "pro": true,
+        "preview": "template_preview_WM00009.jpg"
+      },
+      {
+        "byteCount": 1092850,
+        "name": "WM00010",
+        "preview": "template_preview_WM00010.jpg"
+      },
+      {
+        "byteCount": 1135529,
+        "fontNames": [
+          "STZhongsong"
+        ],
+        "name": "WM00011",
+        "preview": "template_preview_WM00011.jpg"
+      },
+      {
+        "byteCount": 789877,
+        "name": "WM00012",
+        "pro": true,
+        "preview": "template_preview_WM00012.jpg"
+      },
+      {
+        "byteCount": 809847,
+        "name": "WM00013",
+        "preview": "template_preview_WM00013.jpg"
+      },
+      {
+        "byteCount": 628906,
+        "fontNames": [
+          "STZhongsong"
+        ],
+        "name": "WM00014",
+        "pro": true,
+        "preview": "template_preview_WM00014.jpg"
+      },
+      {
+        "byteCount": 1004403,
+        "name": "WM00015",
+        "preview": "template_preview_WM00015.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "テイクアウト広告",
+      "ms": "Iklan Takeout",
+      "zh": "外卖主图",
+      "zh-Hant": "外賣主圖",
+      "ru": "Вынос рекламы",
+      "es": "Anuncio para llevar",
+      "in": "Iklan Makanan"
+    },
+    "localizedPriority": {
+      "zh": 17
+    },
+    "width": 134
+  },
+  {
+    "category": "Twitter Post",
+    "height": 100,
+    "items": [
+      {
+        "byteCount": 744337,
+        "fontNames": [
+          "PTSans-Regular"
+        ],
+        "name": "TP00001",
+        "preview": "template_preview_TP00001.jpg"
+      },
+      {
+        "byteCount": 157083,
+        "fontNames": [
+          "Roboto-Black"
+        ],
+        "name": "TP00002",
+        "pro": true,
+        "preview": "template_preview_TP00002.jpg"
+      },
+      {
+        "byteCount": 651845,
+        "fontNames": [
+          "Roboto-Black",
+          "PTSans-Regular"
+        ],
+        "name": "TP00003",
+        "preview": "template_preview_TP00003.jpg"
+      },
+      {
+        "byteCount": 531389,
+        "fontNames": [
+          "SharkReady"
+        ],
+        "name": "TP00004",
+        "pro": true,
+        "preview": "template_preview_TP00004.jpg"
+      },
+      {
+        "byteCount": 479261,
+        "fontNames": [
+          "Roboto-Black",
+          "PTSans-Regular"
+        ],
+        "name": "TP00005",
+        "preview": "template_preview_TP00005.jpg"
+      },
+      {
+        "byteCount": 531807,
+        "fontNames": [
+          "Roboto-Black"
+        ],
+        "name": "TP00006",
+        "preview": "template_preview_TP00006.jpg"
+      },
+      {
+        "byteCount": 806462,
+        "fontNames": [
+          "Roboto-Black",
+          "PTSans-Regular"
+        ],
+        "name": "TP00007",
+        "preview": "template_preview_TP00007.jpg"
+      },
+      {
+        "byteCount": 317947,
+        "fontNames": [
+          "Roboto-Black"
+        ],
+        "name": "TP00008",
+        "pro": true,
+        "preview": "template_preview_TP00008.jpg"
+      },
+      {
+        "byteCount": 983329,
+        "fontNames": [
+          "PTSans-Regular",
+          "Roboto-Black"
+        ],
+        "name": "TP00009",
+        "preview": "template_preview_TP00009.jpg"
+      },
+      {
+        "byteCount": 497445,
+        "fontNames": [
+          "PTSans-Regular",
+          "EdoSZ"
+        ],
+        "name": "TP00010",
+        "pro": true,
+        "preview": "template_preview_TP00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "zh": "Twitter帖子",
+      "zh-Hant": "Twitter帖子",
+      "ja": "Twitterの投稿",
+      "ms": "Post Twitter",
+      "ru": "Твиттер-пост",
+      "es": "Publicación en Twitter",
+      "in": "Twitter Post"
+    },
+    "localizedPriority": {
+      "zh": 0
+    },
+    "width": 200
+  },
+  {
+    "category": "Wechat Official Account Post",
+    "height": 108,
+    "items": [
+      {
+        "byteCount": 1036654,
+        "name": "GX00001",
+        "preview": "template_preview_GX00001.jpg"
+      },
+      {
+        "byteCount": 116893,
+        "name": "GX00002",
+        "pro": true,
+        "preview": "template_preview_GX00002.jpg"
+      },
+      {
+        "byteCount": 207409,
+        "fontNames": [
+          "SourceHanSansCN-Medium"
+        ],
+        "name": "GX00003",
+        "preview": "template_preview_GX00003.jpg"
+      },
+      {
+        "byteCount": 225788,
+        "fontNames": [
+          "SourceHanSansCN-Medium"
+        ],
+        "name": "GX00004",
+        "pro": true,
+        "preview": "template_preview_GX00004.jpg"
+      },
+      {
+        "byteCount": 142084,
+        "name": "GX00005",
+        "preview": "template_preview_GX00005.jpg"
+      },
+      {
+        "byteCount": 253635,
+        "name": "GX00006",
+        "preview": "template_preview_GX00006.jpg"
+      },
+      {
+        "byteCount": 334679,
+        "fontNames": [
+          "SourceHanSansCN-Bold"
+        ],
+        "name": "GX00007",
+        "pro": true,
+        "preview": "template_preview_GX00007.jpg"
+      },
+      {
+        "byteCount": 372227,
+        "fontNames": [
+          "SourceHanSansCN-Bold"
+        ],
+        "name": "GX00008",
+        "preview": "template_preview_GX00008.jpg"
+      },
+      {
+        "byteCount": 676495,
+        "fontNames": [
+          "SourceHanSansCN-Bold"
+        ],
+        "name": "GX00009",
+        "pro": true,
+        "preview": "template_preview_GX00009.jpg"
+      },
+      {
+        "byteCount": 489669,
+        "name": "GX00010",
+        "preview": "template_preview_GX00010.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "Wechat公式アカウント投稿",
+      "ms": "Post Pejabat Rasmi Wechat",
+      "zh": "公众号小图",
+      "zh-Hant": "公眾號小圖",
+      "ru": "Wechat После",
+      "es": "Wechat Enviar",
+      "in": "Wechat Post"
+    },
+    "localizedPriority": {
+      "zh": 0
+    },
+    "width": 108
+  },
+  {
+    "category": "Taobao Cover",
+    "height": 108,
+    "items": [
+      {
+        "byteCount": 170536,
+        "name": "TZ00001",
+        "preview": "template_preview_TZ00001.jpg"
+      },
+      {
+        "byteCount": 1044744,
+        "name": "TZ00002",
+        "preview": "template_preview_TZ00002.jpg"
+      },
+      {
+        "byteCount": 311354,
+        "fontNames": [
+          "YouYuan"
+        ],
+        "name": "TZ00003",
+        "pro": true,
+        "preview": "template_preview_TZ00003.jpg"
+      },
+      {
+        "byteCount": 1079827,
+        "fontNames": [
+          "YouYuan"
+        ],
+        "name": "TZ00004",
+        "pro": true,
+        "preview": "template_preview_TZ00004.jpg"
+      },
+      {
+        "byteCount": 553788,
+        "name": "TZ00005",
+        "preview": "template_preview_TZ00005.jpg"
+      },
+      {
+        "byteCount": 208898,
+        "name": "TZ00006",
+        "preview": "template_preview_TZ00006.jpg"
+      },
+      {
+        "byteCount": 320907,
+        "name": "TZ00007",
+        "pro": true,
+        "preview": "template_preview_TZ00007.jpg"
+      },
+      {
+        "byteCount": 951978,
+        "name": "TZ00008",
+        "pro": true,
+        "preview": "template_preview_TZ00008.jpg"
+      },
+      {
+        "byteCount": 1059719,
+        "fontNames": [
+          "STZhongsong"
+        ],
+        "name": "TZ00009",
+        "preview": "template_preview_TZ00009.jpg"
+      },
+      {
+        "byteCount": 149242,
+        "name": "TZ00010",
+        "pro": true,
+        "preview": "template_preview_TZ00010.jpg"
+      },
+      {
+        "byteCount": 1048029,
+        "name": "TZ00011",
+        "preview": "template_preview_TZ00011.jpg"
+      },
+      {
+        "byteCount": 82510,
+        "name": "TZ00012",
+        "pro": true,
+        "preview": "template_preview_TZ00012.jpg"
+      },
+      {
+        "byteCount": 315671,
+        "fontNames": [
+          "YouYuan"
+        ],
+        "name": "TZ00013",
+        "preview": "template_preview_TZ00013.jpg"
+      },
+      {
+        "byteCount": 251287,
+        "name": "TZ00014",
+        "pro": true,
+        "preview": "template_preview_TZ00014.jpg"
+      },
+      {
+        "byteCount": 317751,
+        "fontNames": [
+          "YouYuan"
+        ],
+        "name": "TZ00015",
+        "preview": "template_preview_TZ00015.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "zh": "淘宝主图",
+      "zh-Hant": "淘寶主圖",
+      "ja": "淘宝網メイン画像",
+      "ms": "Cover Taobao",
+      "ru": "Крышка Таобао",
+      "es": "Portada de Taobao",
+      "in": "Sampul Taobao"
+    },
+    "localizedPriority": {
+      "zh": 0
+    },
+    "width": 108
+  },
+  {
+    "category": "Logo",
+    "height": 108,
+    "items": [
+      {
+        "byteCount": 149076,
+        "fontNames": [
+          "HappyZcool-2016"
+        ],
+        "name": "LG00003_V2",
+        "pro": true,
+        "preview": "template_preview_LG00003.jpg"
+      },
+      {
+        "byteCount": 124270,
+        "fontNames": [
+          "SourceHanSansCN-Medium"
+        ],
+        "name": "LG00002_V2",
+        "preview": "template_preview_LG00002.jpg"
+      },
+      {
+        "byteCount": 79127,
+        "fontNames": [
+          "CormorantSC-Bold",
+          "SourceHanSansCN-Medium"
+        ],
+        "name": "LG00005_V2",
+        "pro": true,
+        "preview": "template_preview_LG00005.jpg"
+      },
+      {
+        "byteCount": 203655,
+        "fontNames": [
+          "HappyZcool-2016",
+          "SourceHanSansCN-Medium"
+        ],
+        "name": "LG00004_V2",
+        "preview": "template_preview_LG00004.jpg"
+      },
+      {
+        "byteCount": 158419,
+        "fontNames": [
+          "SourceHanSansCN-Bold"
+        ],
+        "name": "LG00001_V2",
+        "preview": "template_preview_LG00001.jpg"
+      }
+    ],
+    "localizedCategory": {
+      "ja": "ロゴ",
+      "ms": "Logo",
+      "zh": "图标",
+      "zh-Hant": "圖標",
+      "ru": "логотип",
+      "es": "Logo",
+      "in": "Logo"
+    },
+    "localizedPriority": {
+      "zh": 997
+    },
+    "width": 108
+  }
+]

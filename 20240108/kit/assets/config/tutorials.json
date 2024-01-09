@@ -1,0 +1,776 @@
+[
+  {
+    "id": 1,
+    "name": "Edit Multiple Layers",
+    "localizedName": {
+      "es": "Editar varias capas",
+      "in": "Edit Banyak Lapisan",
+      "ja": "複数のレイヤーを編集",
+      "ms": "Edit Pelbagai Lapisan",
+      "ru": "Редактирование многослойных",
+      "zh": "编辑多个图层",
+      "zh-Hant": "編輯多個圖層"
+    },
+    "title": "Layers",
+    "localizedTitle": {
+      "es": "Capas",
+      "in": "Lapisan",
+      "ja": "レイヤー",
+      "ms": "Lapisan",
+      "ru": "Слои",
+      "zh": "图层",
+      "zh-Hant": "圖層"
+    },
+    "image": "tutorial_banner.webp",
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "layer_add.mp4",
+        "guideName": "Add",
+        "localizedName": {
+          "es": "Añade",
+          "in": "Tambah",
+          "ja": "追加",
+          "ms": "TAMBAH",
+          "ru": "Добавить",
+          "zh": "添加",
+          "zh-Hant": "添加"
+        },
+        "guideTips": "Tap [+] to add a new layer.",
+        "localizedTips": {
+          "es": "Toca [+] para añadir una nueva capa.",
+          "in": "Ketuk [+] untuk menambahkan lapisan baru.",
+          "ja": "新しいレイヤーを追加するには[+]をタップします。",
+          "ms": "Ketik [+] untuk menambah lapisan baru.",
+          "ru": "Коснитесь [+], чтобы добавить новый слой.",
+          "zh": "点击“+”添加新图层。",
+          "zh-Hant": "點擊“+”添加新圖層。"
+        }
+      },
+      {
+        "type": "VIDEO",
+        "fileName": "layer_replace.mp4",
+        "guideName": "Replace, Lock, Delete",
+        "localizedName": {
+          "es": "Reemplazar, bloquear, eliminar",
+          "in": "Ganti, Kunci, Hapus",
+          "ja": "置換、ロック、削除",
+          "ms": "Gantikan, Kunci, Padam",
+          "ru": "Заменить, заблокировать, удалить",
+          "zh": "替换、锁定、删除图层",
+          "zh-Hant": "替換、鎖定、刪除圖層"
+        },
+        "guideTips": "Replace an image layer with a new one.\n\nLock an image layer to make it immobile.\n\nDelete an image layer when no longer needed.",
+        "localizedTips": {
+          "es": "Reemplazar una capa de imagen por una nueva.\n\nBloquear una capa de imagen para hacerla inmóvil.\n\nEliminar una capa de imagen cuando ya no se necesite.",
+          "in": "Ganti layer gambar dengan yang baru.\n\nKunci layer gambar untuk membuatnya tidak bergerak.\n\nHapus layer gambar saat tidak lagi diperlukan.",
+          "ja": "レイヤーの画像を置き換えます。\n\n画像レイヤーをロックして動かないようにします。\n\n不要になったら画像レイヤーを削除します。",
+          "ms": "Gantikan lapisan imej dengan yang baru.\n\nKunci lapisan imej untuk menjadikannya tidak bergerak.\n\nPadamkan lapisan imej apabila tidak diperlukan lagi.",
+          "ru": "Замените слой изображения на новый. Закрепите слой изображения, чтобы сделать его неподвижным. Удаление слоя изображения, когда в нем больше нет необходимости.",
+          "zh": "给图层替换图片。\n\n锁定图层以固定。\n\n删除不要的图层。",
+          "zh-Hant": "給圖層替換圖片。\n\n鎖定圖層以固定。\n\n刪除不要的圖層。"
+        }
+      },
+      {
+        "type": "VIDEO",
+        "fileName": "layer_merge.mp4",
+        "guideName": "Merge",
+        "localizedName": {
+          "es": "Fusión",
+          "in": "Bergabung",
+          "ja": "マージ",
+          "ms": "MERGE",
+          "ru": "Слияние",
+          "zh": "合并",
+          "zh-Hant": "合併"
+        },
+        "guideTips": "Select up to 3 layers and combine them into one.",
+        "localizedTips": {
+          "es": "Selecciona hasta 3 capas y combínalas en una sola.",
+          "in": "Pilih hingga 3 lapisan dan gabungkan menjadi satu.",
+          "ja": "最大3つのレイヤーを選択し、それらを1つに結合します。",
+          "ms": "Pilih sehingga 3 lapisan dan menggabungkannya menjadi satu.",
+          "ru": "Выберите до 3 слоев и объедините их в один.",
+          "zh": "选择最多三张图层进行合并。",
+          "zh-Hant": "選擇最多三張圖層進行合併。"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Outline Objects",
+    "localizedName": {
+      "es": "Objetos de contorno",
+      "in": "Garis Besar Objek",
+      "ja": "アウトラインオブジェクト",
+      "ms": "POTONG",
+      "ru": "Объекты",
+      "zh": "剪刀抠图",
+      "zh-Hant": "剪刀摳圖"
+    },
+    "title": "Cutout",
+    "localizedTitle": {
+      "es": "Recorte",
+      "in": "Memotong",
+      "ja": "切り抜き",
+      "ms": "POTONG",
+      "ru": "Вырезка",
+      "zh": "剪刀抠图",
+      "zh-Hant": "剪刀摳圖"
+    },
+    "image": "tutorial_banner1.webp",
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "cutout5.mp4",
+        "guideName": "Cutout",
+        "localizedName": {
+          "es": "Recorte",
+          "in": "Memotong",
+          "ja": "切り抜き",
+          "ms": "POTONG",
+          "ru": "Вырезка",
+          "zh": "剪刀抠图",
+          "zh-Hant": "剪刀摳圖"
+        },
+        "guideTips": "Outline the object and tap Auto to remove the background automatically.",
+        "localizedTips": {
+          "es": "Contornee el objeto y toque Auto para eliminar el fondo automáticamente.",
+          "in": "Garis besar objek dan ketuk Otomatis untuk menghapus latar belakang secara otomatis.",
+          "ja": "オブジェクトの輪郭を描き、自動をタップして背景を自動的に削除します。",
+          "ms": "ariskan objek dan ketik [Auto] untuk mengeluarkan latar belakang secara automatik.",
+          "ru": "Выделите объект и нажмите Авто, чтобы удалить фон автоматически.",
+          "zh": "勾出物体轮廓，点击“自动”一键去除背景。",
+          "zh-Hant": "勾出物體輪廓，點擊“自動”一鍵去除背景。"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Apply Filter Effects",
+    "localizedName": {
+      "es": "Aplicar efectos de filtro",
+      "in": "Terapkan Efek Filter",
+      "ja": "フィルター効果を適用",
+      "ms": "Sapukan Kesan Penapis",
+      "ru": "Применить эффекты фильтрации",
+      "zh": "滤镜效果",
+      "zh-Hant": "濾鏡效果"
+    },
+    "title": "Filters",
+    "localizedTitle": {
+      "es": "Filtros",
+      "in": "Filters",
+      "ja": "フィルター",
+      "ms": "Penapis",
+      "ru": "Фильтры.",
+      "zh": "滤镜",
+      "zh-Hant": "濾鏡"
+    },
+    "image": "tutorial_banner2.webp",
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "filter2.mp4",
+        "guideName": "Filters",
+        "localizedName": {
+          "es": "Filtros",
+          "in": "Filters",
+          "ja": "フィルター",
+          "ms": "Penapis",
+          "ru": "Фильтры.",
+          "zh": "滤镜",
+          "zh-Hant": "濾鏡"
+        },
+        "guideTips": "Enhance your photos with different filters.",
+        "localizedTips": {
+          "es": "Mejora tus fotos con diferentes filtros.",
+          "in": "Tingkatkan foto Anda dengan filter yang berbeda.",
+          "ja": "さまざまなフィルターで写真を補正します。",
+          "ms": "Meningkatkan foto anda dengan penapis yang berbeza.",
+          "ru": "Улучшите свои фотографии с помощью различных фильтров.",
+          "zh": "用滤镜改善您的图片。",
+          "zh-Hant": "用濾鏡改善您的圖片。"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Blend",
+    "localizedName": {
+      "es": "Mezcla",
+      "in": "Campur",
+      "ja": "ブレンド",
+      "ms": "BLEND",
+      "ru": "Смешать",
+      "zh": "混合",
+      "zh-Hant": "混合"
+    },
+    "title": "Blends",
+    "localizedTitle": {
+      "es": "Mezclas",
+      "in": "Campur",
+      "ja": "ブレンド",
+      "ms": "BLEND",
+      "ru": "Смешать",
+      "zh": "混合",
+      "zh-Hant": "混合"
+    },
+    "image": "tutorial_banner3.webp",
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "blend2.mp4",
+        "guideName": "Blends",
+        "localizedName": {
+          "es": "Mezclas",
+          "in": "Campur",
+          "ja": "ブレンド",
+          "ms": "BLEND",
+          "ru": "Смешать",
+          "zh": "混合",
+          "zh-Hant": "混合"
+        },
+        "guideTips": "Enhance your photos with different blends.",
+        "localizedTips": {
+          "es": "Mejora tus fotos con diferentes mezclas.",
+          "in": "Tingkatkan foto Anda dengan campuran yang berbeda.",
+          "ja": "さまざまなフィルターで写真を補正します。",
+          "ms": "Pilih mod campuran untuk membuat pendedahan ganda hebat dengan foto anda.",
+          "ru": "Улучшите свои фотографии с помощью различных смесей.",
+          "zh": "为您的图片选择合适的混合模式。",
+          "zh-Hant": "為您的圖片選擇合適的混合模式。"
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Erase the Background",
+    "localizedName": {
+      "es": "Borrar el fondo",
+      "in": "Hapus Background",
+      "ja": "背景を消去する",
+      "ms": "Padamkan Latar Belakang",
+      "ru": "Стереть фон",
+      "zh": "擦除背景",
+      "zh-Hant": "擦除背景"
+    },
+    "title": "Eraser",
+    "localizedTitle": {
+      "es": "Borrador",
+      "in": "Penghapus",
+      "ja": "消しゴム",
+      "ms": "Pemadam",
+      "ru": "Ластик",
+      "zh": "橡皮擦",
+      "zh-Hant": "橡皮擦"
+    },
+    "image": "tutorial_banner4.webp",
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "erase_erase2.mp4",
+        "guideName": "Erase & Restore",
+        "localizedName": {
+          "es": "Borrar y restaurar",
+          "in": "Hapus & Pulihkan",
+          "ja": "消去と復元",
+          "ms": "ERASE & RESTORE",
+          "ru": "удаление и восстановление",
+          "zh": "擦除与恢复",
+          "zh-Hant": "擦除與恢復"
+        },
+        "guideTips": "Erase and restore the background with your finger.",
+        "localizedTips": {
+          "es": "Borra y restaura el fondo con el dedo.",
+          "in": "Hapus dan pulihkan latar belakang dengan jari Anda.",
+          "ja": "指で背景を消去して復元します。",
+          "ms": "Padam dan pulihkan latar belakang dengan jari anda.",
+          "ru": "Сотрите и восстановите фон пальцем.",
+          "zh": "划动手指擦除或恢复背景。",
+          "zh-Hant": "劃動手指擦除或恢復背景。"
+        }
+      },
+      {
+        "type": "VIDEO",
+        "fileName": "erase_reverse2.mp4",
+        "guideName": "Reverse",
+        "localizedName": {
+          "es": "Invertir",
+          "in": "Balik",
+          "ja": "逆",
+          "ms": "REVERSE",
+          "ru": "Обратный ход",
+          "zh": "反向",
+          "zh-Hant": "反向"
+        },
+        "guideTips": "Reverse the process to keep only the part that's been erased.",
+        "localizedTips": {
+          "es": "Invierte el proceso para mantener sólo la parte que ha sido borrada.",
+          "in": "Membalikkan proses untuk menjaga hanya bagian yang telah dihapus.",
+          "ja": "消去された部分のみを保持するために、プロセスを逆にします。",
+          "ms": "Balikkan proses untuk menyimpan hanya bahagian yang telah dipadamkan.",
+          "ru": "Переверните процесс, чтобы сохранить только ту часть, которая была стерта.",
+          "zh": "点击反向，保留已擦除部分。",
+          "zh-Hant": "點擊反向，保留已擦除部分。"
+        }
+      },
+      {
+        "type": "VIDEO",
+        "fileName": "erase_auto2.mp4",
+        "guideName": "Auto",
+        "localizedName": {
+          "es": "Auto",
+          "in": "Otomatis",
+          "ja": "自動",
+          "ms": "AUTO",
+          "ru": "Авто",
+          "zh": "自动",
+          "zh-Hant": "自動"
+        },
+        "guideTips": "Remove the unnecessary part automatically.",
+        "localizedTips": {
+          "es": "Quitar la parte innecesaria automáticamente.",
+          "in": "Hapus bagian yang tidak perlu secara otomatis.",
+          "ja": "不要な部分は自動的に取り除きます。",
+          "ms": "Keluarkan bahagian yang tidak perlu secara automatik.",
+          "ru": "Удалите ненужную часть автоматически.",
+          "zh": "自动去除多余背景。",
+          "zh-Hant": "自動去除多餘背景。"
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Clone Stamp",
+    "localizedName": {
+      "es": "Sello de clonación",
+      "in": "Cap Klon",
+      "ja": "クローンスタンプ",
+      "ms": "Clone Stamp",
+      "ru": "Штемпель клона",
+      "zh": "克隆印章",
+      "zh-Hant": "克隆印章"
+    },
+    "title": "Clone Stamp",
+    "localizedTitle": {
+      "es": "Sello de clonación",
+      "in": "Cap Klon",
+      "ja": "クローンスタンプ",
+      "ms": "STAMP CLONE",
+      "ru": "Штемпель клона",
+      "zh": "克隆印章",
+      "zh-Hant": "克隆印章"
+    },
+    "image": "tutorial_banner5.webp",
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "clone_stamp3.mp4",
+        "guideName": "Clone Stamp",
+        "localizedName": {
+          "es": "Sello de clonación",
+          "in": "Cap Klon",
+          "ja": "クローンスタンプ",
+          "ms": "STAMP CLONE",
+          "ru": "Штемпель клона",
+          "zh": "克隆印章",
+          "zh-Hant": "克隆印章"
+        },
+        "guideTips": "Drag the marker to the area that you want to clone.\nUse your finger and start stamping elsewhere.",
+        "localizedTips": {
+          "es": "Arrastra el marcador al área que quieres clonar. Usa tu dedo y empieza a estampar en otro lugar.",
+          "in": "Seret penanda ke area yang ingin Anda tiru.\nGunakan jari Anda dan mulai cap di tempat lain.",
+          "ja": "複製したい領域にマーカーをドラッグします。\nあなたの指を使って他の場所に刻印を始めましょう。",
+          "ms": "Seret penanda ke kawasan yang anda ingin klonkan.\nGunakan jari anda dan mula setem di tempat lain.",
+          "ru": "Перетащите маркер в область, которую вы хотите клонировать.Use пальцем и начните штамповать в другом месте.",
+          "zh": "拖动图标至需要克隆的部分。\n划动手指在其他区域进行克隆。",
+          "zh-Hant": "拖動圖標至需要克隆的部分。\n劃動手指在其他區域進行克隆。"
+        }
+      },
+      {
+        "type": "VIDEO",
+        "fileName": "clone_stamp4.mp4",
+        "guideName": "Clone Stamp",
+        "localizedName": {
+          "es": "Sello de clonación",
+          "in": "Cap Klon",
+          "ja": "クローンスタンプ",
+          "ms": "STAMP CLONE",
+          "ru": "Штемпель клона",
+          "zh": "克隆印章",
+          "zh-Hant": "克隆印章"
+        },
+        "guideTips": "Drag the marker to the area that you want to clone.\nUse your finger and start stamping elsewhere.",
+        "localizedTips": {
+          "es": "Arrastra el marcador al área que quieres clonar. Usa tu dedo y empieza a estampar en otro lugar.",
+          "in": "Seret penanda ke area yang ingin Anda tiru.\nGunakan jari Anda dan mulai cap di tempat lain.",
+          "ja": "複製したい領域にマーカーをドラッグします。\nあなたの指を使って他の場所に刻印を始めましょう。",
+          "ms": "Seret penanda ke kawasan yang anda ingin klonkan.\nGunakan jari anda dan mula setem di tempat lain.",
+          "ru": "Перетащите маркер в область, которую вы хотите клонировать.Use пальцем и начните штамповать в другом месте.",
+          "zh": "拖动图标至需要克隆的部分。\n划动手指在其他区域进行克隆。",
+          "zh-Hant": "拖動圖標至需要克隆的部分。\n劃動手指在其他區域進行克隆。"
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Dispersion",
+    "localizedName": {
+      "es": "Dispersión",
+      "in": "Penyebaran",
+      "ja": "分散",
+      "ms": "Penyebaran",
+      "ru": "Распространение",
+      "zh": "分散",
+      "zh-Hant": "分散"
+    },
+    "title": "Dispersion",
+    "localizedTitle": {
+      "es": "Dispersión",
+      "in": "Penyebaran",
+      "ja": "分散",
+      "ms": "Penyebaran",
+      "ru": "Распространение",
+      "zh": "分散",
+      "zh-Hant": "分散"
+    },
+    "willHideFromTutorial": true,
+    "image": "",
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "dispersion.mp4",
+        "guideName": "Dispersion",
+        "localizedName": {
+          "es": "Dispersión",
+          "in": "Penyebaran",
+          "ja": "分散",
+          "ms": "Penyebaran",
+          "ru": "Распространение",
+          "zh": "分散",
+          "zh-Hant": "分散"
+        },
+        "guideTips": "Select area and tap [√ ] to enjoy the magic effect.",
+        "localizedTips": {
+          "es": "Selecciona el área y toca [√ ] para disfrutar del efecto mágico.",
+          "in": "pilih area dan ketuk [√] untuk menikmati efek sihir.",
+          "ja": "エリアを選択して[√]をタップし、魔法の効果を楽しみます。",
+          "ms": "Pilih kawasan dan sentuh [√] untuk menikmati kesan ajaib.",
+          "ru": "Выберите область и коснитесь [√], чтобы насладиться волшебным эффектом.",
+          "zh": "选择区域，点击[√]享受魔法效果。",
+          "zh-Hant": "選擇區域，點擊[√]享受魔法效果。"
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Reshape",
+    "localizedName": {
+      "es": "Remodelar",
+      "in": "Mengubah",
+      "ja": "R形を変える",
+      "ms": "Ubah bentuk",
+      "ru": "Реформировать",
+      "zh": "重塑",
+      "zh-Hant": "重塑"
+    },
+    "title": "Reshape",
+    "localizedTitle": {
+      "es": "Remodelar",
+      "in": "Mengubah",
+      "ja": "形を変える",
+      "ms": "RUbah bentuk",
+      "ru": "Реформировать",
+      "zh": "重塑",
+      "zh-Hant": "重塑"
+    },
+    "willHideFromTutorial": true,
+    "image": "",
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "portrait_reshape.mp4",
+        "guideName": "Reshape",
+        "localizedName": {
+          "es": "Remodelar",
+          "in": "Mengubah",
+          "ja": "形を変える",
+          "ms": "Ubah bentuk",
+          "ru": "Реформировать",
+          "zh": "重塑",
+          "zh-Hant": "重塑"
+        },
+        "guideTips": "Drag any area with your finger, release to reshape.",
+        "localizedTips": {
+          "es": "Arrastra cualquier área con tu dedo, suéltalo para darle nueva forma.",
+          "in": "Seret area mana pun dengan jari Anda, lepaskan untuk membentuk kembali.",
+          "ja": "指で任意の領域をドラッグし、離して形を変えます。",
+          "ms": "Seret mana-mana kawasan dengan jari anda, lepaskan untuk membentuk semula.",
+          "ru": "Перетащите любую область пальцем, отпустите, чтобы изменить форму.",
+          "zh": "用手指拖拽任意区域，松手后即可重塑形状。",
+          "zh-Hant": "手指拖拽任意區域，鬆手後即可重塑形狀。"
+        }
+      },
+      {
+        "type": "VIDEO",
+        "fileName": "portrait_resize.mp4",
+        "guideName": "Resize",
+        "localizedName": {
+          "es": "Redimensionar",
+          "in": "Ubah ukuran",
+          "ja": "リサイズ",
+          "ms": "Saiz semula",
+          "ru": "Изменить размер",
+          "zh": "缩放",
+          "zh-Hant": "縮放"
+        },
+        "guideTips": "Zoom in/out to control the size of the area you move.",
+        "localizedTips": {
+          "es": "Haz un zoom para controlar el tamaño del área que te mueves.",
+          "in": "Perbesar / perkecil untuk mengontrol ukuran area yang Anda pindahkan.",
+          "ja": "ズームイン/ズームアウトして、移動する領域のサイズを制御します。",
+          "ms": "Zum masuk / keluar untuk mengawal saiz kawasan yang anda bergerak.",
+          "ru": "Увеличение/уменьшение масштаба для управления размером перемещаемой области.",
+          "zh": "双指放缩来改变大小。",
+          "zh-Hant": "雙指放縮來改變大小。"
+        }
+      },
+      {
+        "type": "VIDEO",
+        "fileName": "portrait_freeze.mp4",
+        "guideName": "Freeze",
+        "localizedName": {
+          "es": "Congelar",
+          "in": "Membekukan",
+          "ja": "氷結",
+          "ms": "Beku",
+          "ru": "Заморозить",
+          "zh": "锁定",
+          "zh-Hant": "鎖定"
+        },
+        "guideTips": "Brush over the area you don't want to move.",
+        "localizedTips": {
+          "es": "Cepilla el área que no quieres mover.",
+          "in": "Sikat bagian yang tidak ingin Anda pindahkan.",
+          "ja": "動かしたくない領域にブラシをかけます。",
+          "ms": "Berus di atas kawasan yang anda tidak mahu bergerak.",
+          "ru": "Почисти территорию, которую ты не хочешь переезжать.",
+          "zh": "涂抹不想变形的区域。",
+          "zh-Hant": "塗抹不想變形的區域。"
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Freeze",
+    "localizedName": {
+      "es": "Congelar",
+      "in": "Membekukan",
+      "ja": "氷結",
+      "ms": "Beku",
+      "ru": "Заморозить",
+      "zh": "锁定",
+      "zh-Hant": "鎖定"
+    },
+    "title": "Freeze",
+    "localizedTitle": {
+      "es": "Congelar",
+      "in": "Membekukan",
+      "ja": "氷結",
+      "ms": "Beku",
+      "ru": "Заморозить",
+      "zh": "锁定",
+      "zh-Hant": "鎖定"
+    },
+    "willHideFromTutorial": true,
+    "image": "",
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "portrait_freeze.mp4",
+        "guideName": "Freeze",
+        "localizedName": {
+          "es": "Congelar",
+          "in": "Membekukan",
+          "ja": "氷結",
+          "ms": "Beku",
+          "ru": "Заморозить",
+          "zh": "锁定",
+          "zh-Hant": "Freeze"
+        },
+        "guideTips": "Brush over the area you don't want to move.",
+        "localizedTips": {
+          "es": "Cepilla el área que no quieres mover.",
+          "in": "Sikat bagian yang tidak ingin Anda pindahkan.",
+          "ja": "動かしたくない領域にブラシをかけます。",
+          "ms": "Berus di atas kawasan yang anda tidak mahu bergerak.",
+          "ru": "Почисти территорию, которую ты не хочешь переезжать.",
+          "zh": "涂抹不想变形的区域。",
+          "zh-Hant": "塗抹不想變形的區域。"
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Spot Heal",
+    "localizedName": {
+      "es": "Curación por puntos",
+      "in": "Sembuhkan Spot",
+      "ja": "スポットヒール",
+      "ms": "Tempat sembuh",
+      "ru": "Точечное исцеление",
+      "zh": "斑点修复",
+      "zh-Hant": "斑點修復"
+    },
+    "title": "Spot Heal",
+    "localizedTitle": {
+      "es": "Curación por puntos",
+      "in": "Sembuhkan Spot",
+      "ja": "スポットヒール",
+      "ms": "Tempat sembuh",
+      "ru": "Точечное исцеление",
+      "zh": "斑点修复",
+      "zh-Hant": "斑點修復"
+    },
+    "willHideFromTutorial": true,
+    "image": "",
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "portrait_spot_heal.mp4",
+        "guideName": "Spot Heal",
+        "localizedName": {
+          "es": "Curación por puntos",
+          "in": "Sembuhkan Spot",
+          "ja": "スポットヒール",
+          "ms": "Tempat sembuh",
+          "ru": "Точечное исцеление",
+          "zh": "斑点修复",
+          "zh-Hant": "斑點修復"
+        },
+        "guideTips": "Tap on unwanted spots to remove them.",
+        "localizedTips": {
+          "es": "Golpee en las manchas no deseadas para eliminarlas.",
+          "in": "Ketuk pada tempat yang tidak diinginkan untuk menghapusnya.",
+          "ja": "不要なスポットをタップして削除します。",
+          "ms": "Ketik pada tempat yang tidak diingini untuk mengeluarkannya.",
+          "ru": "Нажмите на нежелательные места, чтобы удалить их.",
+          "zh": "点击不需要的斑点将其消除。",
+          "zh-Hant": "點擊不需要的斑點將其消除。"
+        }
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Leg",
+    "localizedName": {
+      "es": "Pierna",
+      "in": "Kaki",
+      "ja": "脚",
+      "ms": "Kaki",
+      "ru": "Нога",
+      "zh": "长腿增高",
+      "zh-Hant": "長腿增高"
+    },
+    "title": "Leg",
+    "localizedTitle": {
+      "es": "Pierna",
+      "in": "Kaki",
+      "ja": "脚",
+      "ms": "Kaki",
+      "ru": "Нога",
+      "zh": "长腿增高",
+      "zh-Hant": "長腿增高"
+    },
+    "willHideFromTutorial": true,
+    "image": "",
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "portrait_leg.mp4",
+        "guideName": "Leg",
+        "localizedName": {
+          "es": "Pierna",
+          "in": "Kaki",
+          "ja": "脚",
+          "ms": "Kaki",
+          "ru": "Нога",
+          "zh": "长腿增高",
+          "zh-Hant": "長腿增高"
+        },
+        "guideTips": "Move the frame to select the area, make your legs thinner and longer.",
+        "localizedTips": {
+          "es": "Mueve el marco para seleccionar el área, haz que tus piernas sean más delgadas y largas.",
+          "in": "Gerakkan bingkai untuk memilih area, buat kaki Anda lebih tipis dan lebih panjang.",
+          "ja": "フレームを動かして領域を選択し、足を細く長くします。",
+          "ms": "Gerakkan bingkai untuk memilih kawasan itu, menjadikan kaki anda lebih nipis dan lebih lama.",
+          "ru": "Переместите рамку, чтобы выбрать область, сделайте ноги тоньше и длиннее.",
+          "zh": "移动选框来选择区域，使你的双腿变得更加修长。",
+          "zh-Hant": "移動選框來選擇區域，使你的雙腿變得更加修長。"
+        }
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Retouch",
+    "localizedName": {
+      "es": "Retoque",
+      "in": "Meretus",
+      "ja": "レタッチ",
+      "ms": "Retouch",
+      "ru": "Ретушь",
+      "zh": "删除",
+      "zh-Hant": "刪除"
+    },
+    "title": "Retouch",
+    "localizedTitle": {
+      "es": "Retoque",
+      "in": "Meretus",
+      "ja": "レタッチ",
+      "ms": "Retouch",
+      "ru": "Ретушь",
+      "zh": "删除",
+      "zh-Hant": "刪除"
+    },
+    "willHideFromTutorial": true,
+    "image": "",
+    "guides": [
+      {
+        "type": "VIDEO",
+        "fileName": "retouch.mp4",
+        "guideName": "Retouch",
+        "localizedName": {
+          "es": "Retoque",
+          "in": "Meretus",
+          "ja": "レタッチ",
+          "ms": "Retouch",
+          "ru": "Ретушь",
+          "zh": "删除",
+          "zh-Hant": "刪除"
+        },
+        "guideTips": "Brush over the object, then [go] to remove what you don't need.",
+        "localizedTips": {
+          "es": "Cepilla el objeto, y luego [ve] a quitar lo que no necesitas.",
+          "in": "Sikat objek, lalu [pergi] untuk menghapus apa yang tidak Anda butuhkan.",
+          "ja": "オブジェクトにブラシをかけ、[移動]して不要なものを削除します。",
+          "ms": "Berus ke atas objek, kemudian [GO] untuk mengeluarkan apa yang anda tidak perlukan.",
+          "ru": "Нанесите кисточку на объект, затем [идите], чтобы удалить то, что вам не нужно.",
+          "zh": "涂抹不想要的物体，点击[GO]即可移除。",
+          "zh-Hant": "塗抹不想要的物體，點擊[GO]即可移除。"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,466 @@
+[
+  {
+    "id": 27,
+    "name": "Fireworks",
+    "localizedCategory": {
+      "ja": "花火",
+      "ms": "Bunga api",
+      "zh": "烟花",
+      "zh-Hant": "煙花",
+      "ru": "Фейерверк",
+      "es": "Fuegos artificiales",
+      "in": "Kembang api"
+    },
+    "adjustMode": 1,
+    "thumbnail": "27.jpg"
+   },
+   {
+    "id": 30,
+    "name": "Christmas",
+    "localizedCategory": {
+      "ja": "クリスマス",
+      "ms": "Krismas",
+      "zh": "圣诞",
+      "zh-Hant": "聖誕",
+      "ru": "Рождество",
+      "es": "Navidad",
+      "in": "hari Natal"
+    },
+    "adjustMode": 1,
+    "thumbnail": "30.jpg",
+    "state": 1
+  },
+  {
+    "id": 28,
+    "name": "Snowing",
+    "localizedCategory": {
+      "ja": "雪が降る",
+      "ms": "Bersalji",
+      "zh": "飘雪",
+      "zh-Hant": "飄雪",
+      "ru": "Идет снег",
+      "es": "Navidad",
+      "in": "Bersalju"
+    },
+    "adjustMode": 1,
+    "thumbnail": "28.jpg",
+    "state": 1
+  },
+   {
+    "id": 1013,
+    "name": "Sparkle",
+    "localizedCategory": {
+      "ja": "スパーク",
+      "ms": "Percikan",
+      "zh": "火花",
+      "zh-Hant": "火花",
+      "ru": "искриться",
+      "es": "Sparkle",
+      "in": "Berkilau"
+    },
+    "adjustMode": 2,
+    "thumbnail": "13.jpg"
+   },  
+  {
+    "id": 29,
+    "name": "Winter",
+    "localizedCategory": {
+      "ja": "冬",
+      "ms": "Musim Sejuk",
+      "zh": "冬日",
+      "zh-Hant": "冬日",
+      "ru": "Зима",
+      "es": "Invierno",
+      "in": "Musim dingin"
+    },
+    "adjustMode": 1,
+    "thumbnail": "29.jpg",
+    "state": 1
+  },
+  {
+    "id": 31,
+    "name": "NewYear",
+    "localizedCategory": {
+      "ja": "新年",
+      "ms": "Tahun Baru",
+      "zh": "新年",
+      "zh-Hant": "新年",
+      "ru": "Новый год",
+      "es": "Año nuevo",
+      "in": "Tahun baru"
+    },
+    "adjustMode": 1,
+    "thumbnail": "31.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Secret",
+    "localizedCategory": {
+      "ja": "シークレット",
+      "ms": "Rahsia",
+      "zh": "秘密",
+      "zh-Hant": "秘密",
+      "ru": "секрет",
+      "es": "Secreto",
+      "in": "Rahasia"
+    },
+    "adjustMode": 1,
+    "thumbnail": "15.jpg"
+  },  
+  {
+    "id": 22,
+    "name": "Universe",
+    "localizedCategory": {
+      "ja": "宇宙",
+      "ms": "Alam semesta",
+      "zh": "宇宙",
+      "zh-Hant": "宇宙",
+      "ru": "вселенная",
+      "es": "Universo",
+      "in": "Walking Dreamer"
+    },
+    "adjustMode": 1,
+    "thumbnail": "22.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Serendipity",
+    "localizedCategory": {
+      "ja": "驚き",
+      "ms": "Kejutan",
+      "zh": "惊喜",
+      "zh-Hant": "驚喜",
+      "ru": "Приятно удивил",
+      "es": "Serendipia",
+      "in": "Serendipity"
+    },
+    "adjustMode": 1,
+    "thumbnail": "20.jpg",
+    "state": 1
+  },
+  
+  
+  {
+    "id": 3,
+    "name": "Fairy Tale",
+    "localizedCategory": {
+      "ja": "おとぎ話",
+      "ms": "Kisah dongeng",
+      "zh": "童话",
+      "zh-Hant": "童話",
+      "ru": "Сказка",
+      "es": "Cuento de hadas",
+      "in": "Dongeng"
+    },
+    "adjustMode": 1,
+    "thumbnail": "3.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Ocean Escape",
+    "localizedCategory": {
+      "ja": "緑の海",
+      "ms": "Laut hijau",
+      "zh": "绿海",
+      "zh-Hant": "綠海",
+      "ru": "Зеленое море",
+      "es": "Escape del océano",
+      "in": "Ocean Escape"
+    },
+    "adjustMode": 1,
+    "thumbnail": "16.jpg",
+    "state": 1
+  },
+  {
+    "id": 10,
+    "name": "Urban Decay",
+    "localizedCategory": {
+      "ja": "市衰退",
+      "ms": "Penurunan bandar",
+      "zh": "城市衰败",
+      "zh-Hant": "城市衰敗",
+      "ru": "Городской закат",
+      "es": "Decadencia urbana",
+      "in": "Kerusakan kota"
+    },
+    "adjustMode": 1,
+    "thumbnail": "10.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Lure",
+    "localizedCategory": {
+      "ja": "ルアー",
+      "ms": "Lure",
+      "zh": "诱惑",
+      "zh-Hant": "誘惑",
+      "ru": "завлекать",
+      "es": "Señuelo",
+      "in": "Memikat"
+    },
+    "adjustMode": 1,
+    "thumbnail": "21.jpg"
+  },
+  {
+    "id": 1004,
+    "name": "Forest Sea",
+    "localizedCategory": {
+      "ja": "林海",
+      "ms": "Lin Hai",
+      "zh": "林海",
+      "zh-Hant": "林海",
+      "ru": "Лин Хай",
+      "es": "Mar del bosque",
+      "in": "Laut Hutan"
+    },
+    "adjustMode": 1,
+    "thumbnail": "4.jpg"
+  },
+  {
+    "id": 26,
+    "name": "After Dark",
+    "localizedCategory": {
+      "ja": "日没後",
+      "ms": "Selepas gelap",
+      "zh": "黑夜之后",
+      "zh-Hant": "黑夜之後",
+      "ru": "В будущем",
+      "es": "Oscuridad",
+      "in": "Laut Hutan"
+    },
+    "adjustMode": 1,
+    "thumbnail": "26.jpg",
+    "state": 1
+  },
+  {
+    "id": 25,
+    "name": "Walking Dreamer",
+    "localizedCategory": {
+      "ja": "歩く夢想家",
+      "ms": "Walking Dreamer",
+      "zh": "清醒梦想家",
+      "zh-Hant": "清醒夢想家",
+      "ru": "Ходячий Мечтатель",
+      "es": "Soñador Caminante",
+      "in": "Walking Dreamer"
+    },
+    "adjustMode": 1,
+    "thumbnail": "25.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Wonderlust",
+    "localizedCategory": {
+      "ja": "トレース",
+      "ms": "Jejak",
+      "zh": "仙踪",
+      "zh-Hant": "仙踪",
+      "ru": "Фея Тропа",
+      "es": "Wonderlust",
+      "in": "Wonderlust"
+    },
+    "adjustMode": 1,
+    "thumbnail": "19.jpg"
+  },
+  {
+    "id": 14,
+    "name": "White Angel",
+    "localizedCategory": {
+      "ja": "雪の言語",
+      "ms": "Bahasa salji",
+      "zh": "雪语",
+      "zh-Hant": "雪語",
+      "ru": "Белый ангел",
+      "es": "Ángel Blanco",
+      "in": "Malaikat"
+    },
+    "adjustMode": 1,
+    "thumbnail": "14.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Twilight",
+    "localizedCategory": {
+      "ja": "小さな町",
+      "ms": "Bandar kecil",
+      "zh": "小镇",
+      "zh-Hant": "小鎮",
+      "ru": "сумеречный",
+      "es": "Crepúsculo",
+      "in": "Senja"
+    },
+    "adjustMode": 1,
+    "thumbnail": "12.jpg",
+    "state": 1
+  },
+  {
+    "id": 7,
+    "name": "Green fairy",
+    "localizedCategory": {
+      "ja": "エルフ",
+      "ms": "Elf",
+      "zh": "精灵",
+      "zh-Hant": "精靈",
+      "ru": "гениальность",
+      "es": "Hada verde",
+      "in": "Peri"
+    },
+    "adjustMode": 1,
+    "thumbnail": "7.jpg"
+  },
+  {
+    "id": 1005,
+    "name": "Forbidden land",
+    "localizedCategory": {
+      "ja": "砂丘",
+      "ms": "Pasir pasir",
+      "zh": "沙丘",
+      "zh-Hant": "沙丘",
+      "ru": "Песчаные дюны",
+      "es": "Tierra prohibida",
+      "in": "Tanah"
+    },
+    "adjustMode": 1,
+    "thumbnail": "5.jpg"
+  },
+  {
+    "id": 1018,
+    "name": "Mythology",
+    "localizedCategory": {
+      "ja": "クラウド",
+      "ms": "Awan",
+      "zh": "云端",
+      "zh-Hant": "雲端",
+      "ru": "мифология",
+      "es": "Mitología",
+      "in": "Mitologi"
+    },
+    "adjustMode": 1,
+    "thumbnail": "18.jpg",
+    "state": 1
+  },
+  {
+    "id": 11,
+    "name": "Morning Light",
+    "localizedCategory": {
+      "ja": "朝",
+      "ms": "Pagi",
+      "zh": "晨曦",
+      "zh-Hant": "晨曦",
+      "ru": "Утренний свет",
+      "es": "Luz de la mañana"
+    },
+    "adjustMode": 1,
+    "thumbnail": "11.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Illusion",
+    "localizedCategory": {
+      "ja": "ファンタジー",
+      "ms": "Ilusi",
+      "zh": "幻想",
+      "zh-Hant": "幻想",
+      "ru": "иллюзия",
+      "es": "Ilusión",
+      "in": "Ilusi"
+    },
+    "adjustMode": 1,
+    "thumbnail": "8.jpg",
+    "state": 1
+  },
+  {
+    "id": 1006,
+    "name": "Milky Way",
+    "localizedCategory": {
+      "ja": "银河",
+      "ms": "Bima Sakti",
+      "zh": "银河",
+      "zh-Hant": "銀河",
+      "ru": "галактика",
+      "es": "La Vía Láctea",
+      "in": "Bima Sakti"
+    },
+    "adjustMode": 1,
+    "thumbnail": "6.jpg",
+    "state": 1
+  },
+  {
+    "id": 1,
+    "name": "Fantasy",
+    "localizedCategory": {
+      "ja": "オーロラ",
+      "ms": "Fantasy",
+      "zh": "极光",
+      "zh-Hant": "極光",
+      "ru": "Фантазия",
+      "es": "Fantasía",
+      "in": "Fantasi"
+    },
+    "adjustMode": 1,
+    "thumbnail": "1.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Linger",
+    "localizedCategory": {
+      "ja": "リンガー",
+      "ms": "Linger",
+      "zh": "徘徊",
+      "zh-Hant": "徘徊",
+      "ru": "зависать",
+      "es": "Permanezca en",
+      "in": "Arahkan"
+    },
+    "adjustMode": 1,
+    "thumbnail": "23.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Paradise",
+    "localizedCategory": {
+      "ja": "天国",
+      "ms": "Syurga",
+      "zh": "天堂",
+      "zh-Hant": "天堂",
+      "ru": "Рай",
+      "es": "Paraíso",
+      "in": "Firdaus"
+    },
+    "adjustMode": 1,
+    "thumbnail": "17.jpg",
+    "state": 1
+  },
+  {
+    "id": 2,
+    "name": "Starry Night",
+    "localizedCategory": {
+      "ja": "星空",
+      "ms": "Malam berbintang",
+      "zh": "星夜",
+      "zh-Hant": "星夜",
+      "ri": "Звездное небо",
+      "es": "Noche estrellada",
+      "in": "Penuh bintang"
+    },
+    "adjustMode": 2,
+    "thumbnail": "2.jpg",
+    "state": 1
+  },
+  {
+    "id": 9,
+    "name": "Galaxy",
+    "localizedCategory": {
+      "ja": "銀河",
+      "ms": "Galaxy",
+      "zh": "星河",
+      "zh-Hant": "星河",
+      "ru": "галактика",
+      "es": "Galaxia",
+      "in": "Galaksi"
+    },
+    "adjustMode": 1,
+    "thumbnail": "9.jpg",
+    "state": 1
+  }
+]

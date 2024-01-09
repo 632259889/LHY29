@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootView" android:background="#ff010013" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/topBar" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:id="@id/ivBack" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/selector_nav_back_white" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/Stickers" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/rlBottom" android:layout_below="@id/topBar" />
+    <RelativeLayout android:id="@id/rlDownload" android:background="#ff010013" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/rlBottom" android:layout_below="@id/topBar">
+        <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivDownload" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/basictutorials_banner" android:layout_centerInParent="true" android:translationY="-30.0dip" app:riv_corner_radius="15.0dip" />
+        <lightcone.com.pack.view.AppUITextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvStickerName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Download" android:layout_below="@id/ivDownload" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvDownload" android:background="@drawable/pop_right_btn_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" android:text="@string/Download" android:layout_below="@id/tvStickerName" android:layout_centerHorizontal="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+        <ProgressBar android:id="@id/vProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="100" android:progress="0" android:progressDrawable="@drawable/layer_list_progress_drawable_1" android:layout_alignTop="@id/tvDownload" android:layout_alignBottom="@id/tvDownload" android:layout_alignStart="@id/tvDownload" android:layout_alignEnd="@id/tvDownload" style="@android:style/Widget.ProgressBar.Horizontal" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/rlBottom" android:background="#ff010013" android:layout_width="fill_parent" android:layout_height="31.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/ivStore" android:layout_width="62.0dip" android:layout_height="31.0dip" android:src="@drawable/sticker_icon_store" />
+        <ImageView android:id="@id/ivHistory" android:background="@drawable/selector_btn_line_bg_top" android:visibility="visible" android:layout_width="62.0dip" android:layout_height="31.0dip" android:src="@drawable/sticker_icon_history" android:scaleType="center" />
+        <ImageView android:id="@id/ivCustom" android:background="@drawable/selector_btn_line_bg_top" android:visibility="visible" android:layout_width="62.0dip" android:layout_height="31.0dip" android:src="@drawable/sticker_icon_custom" android:scaleType="center" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvGroups" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</RelativeLayout>

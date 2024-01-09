@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ll_version" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <TextView android:textColor="#ff000000" android:id="@id/tv_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="V4.0.0" android:layout_centerVertical="true" />
+        <View android:id="@id/view_select" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="4.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:scaleX="0.6" android:scaleY="0.6" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_events" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/ll_version" />
+</RelativeLayout>

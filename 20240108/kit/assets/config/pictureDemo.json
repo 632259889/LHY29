@@ -1,0 +1,873 @@
+{
+  "Toolbox": {
+    "Artistic Filters": {
+      "demo": [
+        {
+          "items": [
+            "Toolbox - Artistic Filters 1-Oil (1).jpg"
+          ]
+        }
+      ]
+    },
+    "Auto Eraser": {
+      "demo": [
+        {
+          "items": [
+            "Toolbox - Auto Eraser1.jpg"
+          ]
+        }
+      ]
+    },
+    "Control Adjust": {
+      "demo": [
+        {
+          "items": [
+            "Toolbox - Control&Adjust1.jpg"
+          ]
+        }
+      ]
+    },
+    "Aging Filters": {
+      "demo": [
+        {
+          "items": []
+        }
+      ]
+    },
+    "Cutout": {
+      "demo": [
+        {
+          "items": [
+            "Toolbox - Cutout1.jpg"
+          ]
+        }
+      ]
+    },
+    "Emoji Stickers": {
+      "demo": [
+        {
+          "items": [
+            "Toolbox - Emoji&Stickers1.jpg"
+          ]
+        }
+      ]
+    },
+    "Magic Brushes": {
+      "demo": [
+        {
+          "items": [
+            "Toolbox - Magic Brushes1.jpg"
+          ]
+        }
+      ]
+    },
+    "Shape Crop": {
+      "demo": [
+        {
+          "items": [
+            "Toolbox - Shape & Crop1.jpg"
+          ]
+        }
+      ]
+    },
+    "Magic Filters": {
+      "filters": [
+        {
+          "name": "Featured",
+          "localizedName": {
+            "zh": "推荐",
+            "zh-Hant": "推薦",
+            "ja": "お勧め",
+            "ms": "Disediakan",
+            "ru": "Лучший",
+            "es": "Mejor",
+            "in": "Unggul"
+          },
+          "params": {
+            "filterId": 3099,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Filters_BL0.webp",
+          "index": 1
+        },
+        {
+          "name": "Xmas Mood",
+          "localizedName": {
+            "en": "Xmas Mood",
+            "ja": "クリスマスムード",
+            "ms": "Mood Xmas",
+            "zh": "圣诞心情",
+            "zh-Hant": "聖誕心情",
+            "ru": "Рождество 2",
+            "es": "Navidad 2",
+            "in": "hari Natal 2"
+          },
+          "params": {
+            "filterId": 1101,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "XM01.webp",
+          "index": 7
+        },
+        {
+          "name": "Indiekid",
+          "localizedName": {
+            "en": "Indiekid",
+            "ja": "鮮やかさ",
+            "ms": "Indiekid",
+            "zh": "灿烂",
+            "zh-Hant": "燦爛",
+            "ru": "Indiekid",
+            "es": "Indiekid",
+            "in": "Indiekid"
+          },
+          "params": {
+            "filterId": 5201,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "indie kid.webp",
+          "index": 2
+        },
+        {
+          "name": "Plastic",
+          "localizedName": {
+            "ja": "プラスチック",
+            "ms": "Plastik",
+            "zh": "塑料包装",
+            "zh-Hant": "塑料包裝",
+            "ru": "пластик",
+            "es": "Plástico",
+            "in": "Plastik"
+          },
+          "params": {
+            "filterId": 5101,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Plastic.webp",
+          "index": 13
+        },
+        {
+          "name": "Halloween",
+          "localizedName": {
+            "zh": "万圣节",
+            "zh-Hant": "萬聖節",
+            "ja": "ハロウィン",
+            "ms": "Halloween",
+            "ru": "Хэллоуин",
+            "es": "Halloween",
+            "in": "Halloween"
+          },
+          "params": {
+            "filterId": 2001,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Halloween.webp",
+          "index": 22
+        },
+        {
+          "name": "Sun Blinds",
+          "localizedName": {
+            "ja": "ブラインド",
+            "ms": "Tirai Matahari",
+            "zh": "阳光窗影",
+            "zh-Hant": "陽光窗影",
+            "ru": "Слепое окно",
+            "es": "Ventana ciega",
+            "in": "Jendela Buta"
+          },
+          "params": {
+            "filterId": 5001,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "SunBlinds.webp",
+          "index": 3
+        },
+        {
+          "name": "Violet",
+          "localizedName": {
+            "ja": "バイオレット",
+            "ms": "Violet",
+            "zh": "紫罗兰",
+            "zh-Hant": "紫羅蘭",
+            "ru": "Виолетта",
+            "es": "Violeta",
+            "in": "Ungu"
+          },
+          "params": {
+            "filterId": 6001,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Violet.webp",
+          "index": 8
+        },
+        {
+          "name": "Retro",
+          "localizedName": {
+            "ja": "ビンテージ",
+            "ms": "Vintaj",
+            "zh": "经典",
+            "zh-Hant": "經典",
+            "ru": "Ретро",
+            "es": "Retro",
+            "in": "Retro"
+          },
+          "params": {
+            "filterId": 6009,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Vintage2.webp",
+          "index": 5
+        },
+        {
+          "name": "Champagne",
+          "localizedName": {
+            "ja": "シャンパン",
+            "ms": "Champagne",
+            "zh": "香槟",
+            "zh-Hant": "香檳",
+            "ru": "шампанское",
+            "es": "Champán",
+            "in": "Sampanye"
+          },
+          "params": {
+            "filterId": 6022,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Champagne.webp",
+          "index": 23
+        },
+        {
+          "name": "Summer",
+          "localizedName": {
+            "zh": "夏日",
+            "zh-Hant": "夏日",
+            "ja": "夏",
+            "ms": "Musim panas",
+            "ru": "Лето",
+            "es": "Verano",
+            "in": "Musim panas"
+          },
+          "params": {
+            "filterId": 10010,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Summer.webp",
+          "index": 9
+        },
+        {
+          "name": "Cream",
+          "localizedName": {
+            "zh": "奶油",
+            "zh-Hant": "奶油",
+            "ja": "クリーム",
+            "ms": "Krim",
+            "ru": "Крем",
+            "es": "Crema",
+            "in": "Krim"
+          },
+          "params": {
+            "filterId": 1001,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Cream.webp",
+          "index": 6
+        },
+        {
+          "name": "Portrait",
+          "localizedName": {
+            "zh": "肖像",
+            "zh-Hant": "肖像",
+            "ja": "肖像画",
+            "ms": "Potret",
+            "ru": "Портрет",
+            "es": "Retrato",
+            "in": "Potret"
+          },
+          "params": {
+            "filterId": 10020,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Portrait.webp",
+          "index": 12
+        },
+        {
+          "name": "Dust Overlay",
+          "localizedName": {
+            "zh": "尘埃",
+            "zh-Hant": "塵埃",
+            "ja": "ほこり",
+            "ms": "Habuk",
+            "ru": "Пыли",
+            "es": "Polvo",
+            "in": "Debu"
+          },
+          "params": {
+            "filterId": 4001,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Dust.webp",
+          "index": 18
+        },
+        {
+          "name": "Coco",
+          "localizedName": {
+            "zh": "可可",
+            "zh-Hant": "可可",
+            "ja": "ココ",
+            "ms": "Coco",
+            "ru": "кокос",
+            "es": "Coco",
+            "in": "Kelapa"
+          },
+          "params": {
+            "filterId": 22001,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "coco.webp",
+          "index": 11
+        },
+        {
+          "name": "Smoke",
+          "localizedName": {
+            "zh": "烟雾",
+            "zh-Hant": "煙霧",
+            "ja": "煙",
+            "ms": "Asap",
+            "ru": "дым",
+            "es": "Humo",
+            "in": "Merokok"
+          },
+          "params": {
+            "filterId": 3021,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Smoke.webp",
+          "index": 17
+        },
+        {
+          "name": "B&W",
+          "localizedName": {
+            "ja": "黒と白",
+            "ms": "B&W",
+            "zh": "黑白",
+            "zh-Hant": "黑白",
+            "ru": "Черно-белый",
+            "es": "Blanco negro",
+            "in": "Putih hitam"
+          },
+          "params": {
+            "filterId": 5009,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "B&W.webp",
+          "index": 4
+        },
+        {
+          "name": "Film Overlay",
+          "localizedName": {
+            "zh": "胶片",
+            "zh-Hant": "膠片",
+            "ja": "フィルムオーバーレイ",
+            "ms": "Overlay Filem",
+            "ru": "фильм",
+            "es": "Flim",
+            "in": "Film"
+          },
+          "params": {
+            "filterId": 10080,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Film.webp",
+          "index": 16
+        },
+        {
+          "name": "Minimal",
+          "localizedName": {
+            "zh": "极简主义",
+            "zh-Hant": "極簡主義",
+            "ja": "ミニマリズム",
+            "ms": "Minimalisme",
+            "ru": "просто",
+            "es": "Minimalismo",
+            "in": "Minimalisme"
+          },
+          "params": {
+            "filterId": 22009,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "minimal.webp",
+          "index": 20
+        },
+        {
+          "name": "Grain Overlay",
+          "localizedName": {
+            "zh": "颗粒",
+            "zh-Hant": "顆粒",
+            "ja": "粒",
+            "ms": "Bijian",
+            "ru": "зерна",
+            "es": "Pellet",
+            "in": "Gandum"
+          },
+          "params": {
+            "filterId": 4007,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Grain.webp",
+          "index": 19
+        },
+        {
+          "name": "Teal&Orange",
+          "localizedName": {
+            "zh": "青橙",
+            "zh-Hant": "青橙",
+            "ja": "ティールオレンジ",
+            "ms": "Teal Orange",
+            "ru": "Тил Апельсин",
+            "es": "Teal&Orange",
+            "in": "Teal"
+          },
+          "params": {
+            "filterId": 10030,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Teal&Orange.webp",
+          "index": 21
+        },
+        {
+          "name": "Christmas",
+          "localizedName": {
+            "zh": "圣诞节",
+            "zh-Hant": "聖誕節",
+            "ja": "クリスマス",
+            "ms": "Krismas",
+            "ru": "рождество",
+            "es": "Navidad",
+            "in": "hari Natal"
+          },
+          "params": {
+            "filterId": 21001,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Christmas.webp",
+          "index": 10
+        },
+        {
+          "name": "Street Style",
+          "localizedName": {
+            "zh": "街头",
+            "zh-Hant": "街頭",
+            "ja": "通り",
+            "ms": "Jalan",
+            "ru": "улица",
+            "es": "Calle",
+            "in": "jalan"
+          },
+          "params": {
+            "filterId": 3028,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "StreetStyle.webp",
+          "index": 14
+        },
+        {
+          "name": "Hong Kong",
+          "localizedName": {
+            "zh": "香港",
+            "zh-Hant": "香港",
+            "ja": "香港",
+            "ms": "Hong Kong",
+            "ru": "Гонконг",
+            "es": "Hong Kong",
+            "in": "Hong Kong"
+          },
+          "params": {
+            "filterId": 3001,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "HongKong.webp",
+          "index": 24
+        },
+        {
+          "name": "Bali",
+          "localizedName": {
+            "zh": "巴厘",
+            "zh-Hant": "巴厘",
+            "ja": "バリ島",
+            "ms": "Bali",
+            "ru": "Бали",
+            "es": "Bali",
+            "in": "Bali"
+          },
+          "params": {
+            "filterId": 3011,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Bali.webp",
+          "index": 26
+        },
+        {
+          "name": "Vintage overlay",
+          "localizedName": {
+            "zh": "复古",
+            "zh-Hant": "復古",
+            "ja": "レトロ",
+            "ms": "Retro",
+            "ru": "марочный",
+            "es": "Vintage",
+            "in": "Vintage"
+          },
+          "params": {
+            "filterId": 3037,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Vintage.webp",
+          "index": 15
+        },
+        {
+          "name": "Paris Babe",
+          "localizedName": {
+            "zh": "巴黎宝贝",
+            "zh-Hant": "巴黎寶貝",
+            "ja": "パリス・ベイブ",
+            "ms": "Paris Babe",
+            "ru": "Пэрис детка",
+            "es": "Paris Babe",
+            "in": "Paris Babe"
+          },
+          "params": {
+            "filterId": 4014,
+            "grain": 0,
+            "intensity": 1
+          },
+          "preview": "Paris Babe.webp",
+          "index": 25
+        }
+      ],
+      "demo": [
+        {
+          "items": [
+            "Toolbox - Magic Fitlers XMAS01.jpg"
+          ],
+          "name": "Xmas Mood"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Cream (2).jpg"
+          ],
+          "name": "Featured"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Indiekid (1).jpg"
+          ],
+          "name": "Indiekid"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Plastic (1).jpg"
+          ],
+          "name": "Plastic"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Sun Blinds (1).jpg"
+          ],
+          "name": "Sun Blinds"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Violet (1).jpg"
+          ],
+          "name": "Violet"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Vintage2 (1).jpg"
+          ],
+          "name": "Retro"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Champagne(1).jpg"
+          ],
+          "name": "Champagne"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Summer (1).jpg"
+          ],
+          "name": "Summer"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Cream (1).jpg"
+          ],
+          "name": "Cream"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Portrait (1).jpg"
+          ],
+          "name": "Portrait"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Dust01.jpg"
+          ],
+          "name": "Dust Overlay"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers coco(1).jpg"
+          ],
+          "name": "Coco"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Holloween (1).jpg"
+          ],
+          "name": "Halloween"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Smoke(1).jpg"
+          ],
+          "name": "Smoke"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers B&W(1).jpg"
+          ],
+          "name": "B&W"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Film Overlay (1).jpg"
+          ],
+          "name": "Film Overlay"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers minimal(1).jpg"
+          ],
+          "name": "Minimal"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Grain01.jpg"
+          ],
+          "name": "Grain Overlay"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Teal&Orange (1).jpg"
+          ],
+          "name": "Teal&Orange"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Christmas01.jpg"
+          ],
+          "name": "Christmas"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers StreetStyle(1).jpg"
+          ],
+          "name": "Street Style"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers HongKong(1).jpg"
+          ],
+          "name": "Hong Kong"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Bali(1).jpg"
+          ],
+          "name": "Bali"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Vintage(1).jpg"
+          ],
+          "name": "Vintage overlay"
+        },
+        {
+          "items": [
+            "Toolbox - Magic Fitlers Paris-Babe01.jpg"
+          ],
+          "name": "Paris Babe"
+        }
+      ]
+    },
+    "Glitch Filters": {
+      "filters": [
+        {
+          "name": "Featured",
+          "localizedName": {
+            "zh": "推荐",
+            "zh-Hant": "推薦",
+            "ja": "お勧め",
+            "ms": "Disediakan",
+            "ru": "Лучший",
+            "es": "Mejor",
+            "in": "Unggul"
+          },
+          "params": {
+            "filterId": 14
+          },
+          "preview": "Glitch_Zoom.webp"
+        },
+        {
+          "name": "Malfunction",
+          "localizedName": {
+            "zh": "宕机",
+            "zh-Hant": "宕機",
+            "ja": "故障",
+            "ms": "Malfunction",
+            "ru": "дисфункция",
+            "es": "Disfunción",
+            "in": "Malfungsi"
+          },
+          "params": {
+            "filterId": 43
+          },
+          "preview": "Glitch_Malfunction.webp"
+        },
+        {
+          "name": "Glitch",
+          "localizedName": {
+            "zh": "故障",
+            "zh-Hant": "故障",
+            "ja": "グリッチ",
+            "ms": "Kegagalan",
+            "ru": "Сбой",
+            "es": "Glitch",
+            "in": "Kesalahan"
+          },
+          "params": {
+            "filterId": 3
+          },
+          "preview": "Glitch-Gliter.webp"
+        },
+        {
+          "name": "Rhythm",
+          "localizedName": {
+            "zh": "节奏",
+            "zh-Hant": "節奏",
+            "ja": "リズム",
+            "ms": "Rhythm",
+            "ru": "Ритм",
+            "es": "Ritmo",
+            "in": "Irama"
+          },
+          "params": {
+            "filterId": 13
+          },
+          "preview": "Glitch-Rhythm.webp"
+        },
+        {
+          "name": "Psychedelic",
+          "localizedName": {
+            "zh": "迷幻",
+            "zh-Hant": "迷幻",
+            "ja": "サイケデリック",
+            "ms": "Psychedelic",
+            "ru": "яркий",
+            "es": "Psicodélico",
+            "in": "Psikedelik"
+          },
+          "params": {
+            "filterId": 24
+          },
+          "preview": "Glitch-Psychedelic.webp"
+        },
+        {
+          "name": "Art",
+          "localizedName": {
+            "zh": "艺术",
+            "zh-Hant": "藝術",
+            "ja": "芸術",
+            "ms": "Seni",
+            "ru": "статья",
+            "es": "Arte",
+            "in": "Seni"
+          },
+          "params": {
+            "filterId": 31
+          },
+          "preview": "Glitch-Art.webp"
+        }
+      ],
+      "demo": [
+        {
+          "items": [
+            "Toolbox - Glitch(3).jpg"
+          ]
+        },
+        {
+          "items": [
+            "Toolbox - Glitch(3).jpg"
+          ]
+        },
+        {
+          "items": [
+            "Toolbox - Glitch(3).jpg"
+          ]
+        },
+        {
+          "items": [
+            "Toolbox - Glitch(3).jpg"
+          ]
+        },
+        {
+          "items": [
+            "Toolbox - Glitch(3).jpg"
+          ]
+        },
+        {
+          "items": [
+            "Toolbox - Glitch(3).jpg"
+          ]
+        }
+      ]
+    },
+    "Double Exposure": {
+      "demo": [
+        {
+          "items": [
+            "Toolbox - double exposure (1).jpg"
+          ]
+        }
+      ]
+    }
+  }
+}

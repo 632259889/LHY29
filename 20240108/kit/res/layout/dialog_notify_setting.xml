@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/shape_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="110.0dip" android:layout_height="110.0dip" android:layout_margin="10.0dip" android:src="@drawable/icon_trumpet" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/btnClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_nav_close" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textSize="18.0sp" android:textColor="#ff5062fb" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Keep_knowing_new_features" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tvTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/Allow_notification_get_featured" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnGotoSetting" android:background="@drawable/shape_pop_btn_blue" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/Go_to_Setting" android:layout_marginStart="35.0dip" android:layout_marginEnd="35.0dip" />
+</LinearLayout>

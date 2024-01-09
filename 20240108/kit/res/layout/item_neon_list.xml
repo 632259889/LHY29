@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lightcone.com.pack.view.SquareRelativeLayout android:gravity="center_vertical" android:layout_width="55.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivBack" android:background="@drawable/shape_black_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivShow" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip" android:scaleType="centerInside" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+    <ImageView android:id="@id/ivSelect" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_filter_selected_setting" android:scaleType="centerCrop" />
+    <lightcone.com.pack.view.CircleProgressView android:id="@id/circleProgressView" android:background="@drawable/download_bar1_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_alignLeft="@id/ivShow" android:layout_alignTop="@id/ivShow" android:layout_alignRight="@id/ivShow" android:layout_alignBottom="@id/ivShow" />
+    <ImageView android:id="@id/ivIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tag_pro" android:scaleType="fitStart" />
+    <ProgressBar android:id="@id/progressState" android:padding="1.5dip" android:layout_width="15.0dip" android:layout_height="15.0dip" android:indeterminateDrawable="@drawable/selector_download_icon" android:layout_alignRight="@id/ivShow" />
+    <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvName" android:background="@drawable/image_mask_new_fold" android:layout_width="fill_parent" android:layout_height="16.0dip" android:text="None" android:layout_alignBottom="@id/ivBack" />
+</lightcone.com.pack.view.SquareRelativeLayout>

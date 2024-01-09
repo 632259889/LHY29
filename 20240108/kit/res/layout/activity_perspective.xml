@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mainContainer" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topLayout" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <lightcone.com.pack.view.AppUITextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Perspective" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/container" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottomLayout" android:layout_below="@id/topLayout">
+        <FrameLayout android:id="@id/tabContent" android:background="@drawable/image_grid_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <lightcone.com.pack.view.MyImageView android:id="@id/backImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <lightcone.com.pack.view.TouchGuidelineView android:id="@id/touchView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rlHint" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottomLayout" android:layout_below="@id/topLayout">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/perspective_arrows_1" android:layout_centerInParent="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/perspective_arrows_2" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bottomLayout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="164.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_above="@id/rlBottom" android:layout_centerHorizontal="true">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/autoBtn" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/perspective_bgc_icon_auto" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/autoSelect" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/border_dispersion" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="10.0dip" android:textColor="#ff4061fa" android:gravity="center" android:id="@id/autoTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/Auto" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/blackBtn" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/perspective_bgc_icon_black" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/blackSelect" android:visibility="invisible" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/border_dispersion" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/blackTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/Black" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/whiteBtn" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/perspective_bgc_icon_white" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/whiteSelect" android:visibility="invisible" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/border_dispersion" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/whiteTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/White" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/transparentBtn" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/perspective_bgc_icon_transparent" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/transparentSelect" android:visibility="invisible" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/border_dispersion" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/transparentTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/Transparent" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/rlBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/backBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottom_btn_cancel" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/doneBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottom_btn_done" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="88.0dip" android:layout_height="44.0dip">
+            <ImageView android:id="@id/ivUndo" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/selector_btn_edit_backward" android:scaleType="center" />
+            <ImageView android:id="@id/ivRedo" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/selector_btn_edit_forward" android:scaleType="center" android:layout_toEndOf="@id/ivUndo" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

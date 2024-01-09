@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topBar" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <lightcone.com.pack.view.AppUITextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Portrait_SpotHeal" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_help" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_nav_tutorial" android:layout_centerVertical="true" android:layout_toStartOf="@id/tvTitle" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="164.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <ImageView android:id="@id/btn_undo" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_last" android:alpha="0.5" />
+                <ImageView android:id="@id/btn_redo" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_next" android:alpha="0.5" />
+            </LinearLayout>
+            <ImageView android:id="@id/btn_origin" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_constrat" android:layout_alignParentBottom="true" android:layout_marginEnd="5.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="85.0dip">
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+                <SeekBar android:id="@id/seek_bar" android:max="100" android:progress="50" style="@style/SeekBar" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="35.0dip">
+            <ImageView android:id="@id/btn_cancel" android:src="@drawable/button_cancel" style="@style/TitleBarBtnL" />
+            <ImageView android:id="@id/btn_done" android:src="@drawable/button_done" style="@style/TitleBarBtnR" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/container" android:background="@drawable/image_grid_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_bar" android:layout_below="@id/topBar">
+        <ImageView android:id="@id/iv_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.accordion.perfectme.view.mesh.TargetMeshView android:id="@id/mesh_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.accordion.perfectme.view.touch.CleanserTouchView android:id="@id/touch_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.accordion.perfectme.view.mesh.TargetMeshView android:id="@id/pic_origin" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/picture_origin" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:orientation="vertical" android:id="@id/edit_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <ImageView android:id="@id/magnifier" android:background="@drawable/tab_detail_view" android:paddingLeft="1.0dip" android:paddingTop="3.0dip" android:paddingRight="4.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="105.0dip" android:layout_height="109.0dip" android:layout_marginTop="20.0dip" />
+    <lightcone.com.pack.view.CircleColorView android:id="@id/radiusView" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerInParent="true" android:translationY="-60.0dip" />
+</RelativeLayout>

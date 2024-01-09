@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+                    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/How_to_restore" android:layout_centerInParent="true" />
+                    <ImageView android:id="@id/ivBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_nav_back_white" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center_horizontal" android:background="#ff191925" android:layout_width="fill_parent" android:layout_height="170.0dip" android:layout_marginTop="20.5dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+                    <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/tvGuide1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/Restart_Google_Play" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dip" />
+                    <ImageView android:layout_width="340.0dip" android:layout_height="107.0dip" android:layout_marginTop="13.5dip" android:src="@drawable/tutorials_img1" android:layout_below="@id/tvGuide1" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center_horizontal" android:background="#ff191925" android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+                    <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/tvGuide2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/Clean_Picskit" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dip" />
+                    <ImageView android:layout_width="340.0dip" android:layout_height="191.5dip" android:layout_marginTop="16.0dip" android:src="@drawable/tutorials_img2" android:layout_below="@id/tvGuide2" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center_horizontal" android:background="#ff191925" android:layout_width="fill_parent" android:layout_height="130.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+                    <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/tvGuide3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/Wait_Google" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dip" />
+                    <ImageView android:layout_width="62.0dip" android:layout_height="55.5dip" android:layout_marginTop="23.0dip" android:src="@drawable/tutorials_img3" android:layout_below="@id/tvGuide3" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center_horizontal" android:background="#ff191925" android:layout_width="fill_parent" android:layout_height="275.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+                    <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/tvGuide4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/You_may_need_to_repeat" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dip" />
+                    <ImageView android:layout_width="340.0dip" android:layout_height="200.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/tutorials_img4" android:layout_below="@id/tvGuide4" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center_horizontal" android:background="#ff191925" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="25.5dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+                    <ImageView android:id="@id/ivWarning" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="11.0dip" android:src="@drawable/tutorials_img6" android:layout_marginStart="7.5dip" />
+                    <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/tvGuide5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/Please_donot_clear" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/ivWarning" />
+                    <ImageView android:layout_width="39.0dip" android:layout_height="38.0dip" android:layout_marginTop="8.5dip" android:src="@drawable/tutorials_img5" android:layout_below="@id/tvGuide5" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

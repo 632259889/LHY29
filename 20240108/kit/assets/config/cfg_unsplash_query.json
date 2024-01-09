@@ -1,0 +1,392 @@
+[
+  {
+    "query": "PEOPLE",
+    "preview": "1.people.webp",
+    "localizedQuery": {
+      "ja": "人",
+      "ms": "Watak",
+      "zh": "人",
+      "zh-Hant": "人",
+      "ru": "ЛЮДИ",
+      "es": "Gente",
+      "in": "Manusia"
+    }
+  },
+  {
+    "query": "SCHOOL",
+    "preview": "2.school.webp",
+    "localizedQuery": {
+      "ja": "学校",
+      "ms": "SEKOLAH",
+      "zh": "校园",
+      "zh-Hant": "校園",
+      "ru": "ШКОЛА",
+      "es": "Escuela",
+      "in": "Sekolah"
+    }
+  },
+  {
+    "query": "NATURE",
+    "preview": "3.nature.webp",
+    "localizedQuery": {
+      "ja": "自然",
+      "ms": "NATURE",
+      "zh": "自然",
+      "zh-Hant": "自然",
+      "ru": "ПРИРОДА",
+      "es": "Naturaleza",
+      "in": "Alam"
+    }
+  },
+  {
+    "query": "AUTUMN",
+    "preview": "4.autumn.webp",
+    "localizedQuery": {
+      "ja": "秋",
+      "ms": "AUTUMN",
+      "zh": "秋天",
+      "zh-Hant": "秋天",
+      "ru": "ОСЕНЬ",
+      "es": "Otoño",
+      "in": "Musim gugur"
+    }
+  },
+  {
+    "query": "ARCHITECTURE",
+    "preview": "5.architecture.webp",
+    "localizedQuery": {
+      "ja": "建築",
+      "ms": "ARCHITECTURE",
+      "zh": "建筑",
+      "zh-Hant": "建築",
+      "ru": "АРХИТЕКТУРА",
+      "es": "Arquitectura",
+      "in": "Arsitektur"
+    }
+  },
+  {
+    "query": "BUSINESS",
+    "preview": "6.business.webp",
+    "localizedQuery": {
+      "ja": "事業",
+      "ms": "PERNIAGAAN",
+      "zh": "商务",
+      "zh-Hant": "商務",
+      "ru": "БИЗНЕС",
+      "es": "Negocios",
+      "in": "Bisnis"
+    }
+  },
+  {
+    "query": "WALLPAPER",
+    "preview": "7.wallpaper.webp",
+    "localizedQuery": {
+      "ja": "壁紙",
+      "ms": "WALLPAPER",
+      "zh": "壁纸",
+      "zh-Hant": "壁紙",
+      "ru": "ОБОИ НА СТЕНУ",
+      "es": "Fondo de pantalla",
+      "in": "Wallpaper"
+    }
+  },
+  {
+    "query": "ANIMALS",
+    "preview": "8.animals.webp",
+    "localizedQuery": {
+      "ja": "動物",
+      "ms": "HAIWAN",
+      "zh": "动物",
+      "zh-Hant": "動物",
+      "ru": "ЖИВОТНЫЕ",
+      "es": "Animales",
+      "in": "Satwa"
+    }
+  },
+  {
+    "query": "TRAVEL",
+    "preview": "9.-TRAVEL.webp",
+    "localizedQuery": {
+      "ja": "旅行",
+      "ms": "TRAVEL",
+      "zh": "旅行",
+      "zh-Hant": "旅行",
+      "ru": "ПУТЕШЕСТВОВАТЬ",
+      "es": "Viaje",
+      "in": "Perjalanan"
+    }
+  },
+  {
+    "query": "FASHION",
+    "preview": "10.FASHION.webp",
+    "localizedQuery": {
+      "ja": "ファッション",
+      "ms": "FASHION",
+      "zh": "时尚",
+      "zh-Hant": "時尚",
+      "ru": "стиль",
+      "es": "Moda",
+      "in": "Mode"
+    }
+  },
+  {
+    "query": "FOOD",
+    "preview": "11.FOOD.webp",
+    "localizedQuery": {
+      "ja": "フード",
+      "ms": "MAKANAN",
+      "zh": "食品",
+      "zh-Hant": "食品",
+      "ru": "пища",
+      "es": "Alimentos",
+      "in": "Makanan"
+    }
+  },
+  {
+    "query": "CITY",
+    "preview": "12.CITY.webp",
+    "localizedQuery": {
+      "ja": "市区町村",
+      "ms": "CITY",
+      "zh": "城市",
+      "zh-Hant": "城市",
+      "ru": "ГОРОД",
+      "es": "Ciudad",
+      "in": "Kota"
+    }
+  },
+  {
+    "query": "HOME",
+    "preview": "13.HOME.webp",
+    "localizedQuery": {
+      "ja": "ホーム",
+      "ms": "HOME",
+      "zh": "家居",
+      "zh-Hant": "家居",
+      "ru": "ДОМ",
+      "es": "Inicio",
+      "in": "Rumah"
+    }
+  },
+  {
+    "query": "FILM",
+    "preview": "14.FILM.webp",
+    "localizedQuery": {
+      "ja": "膜",
+      "ms": "FILM",
+      "zh": "电影",
+      "zh-Hant": "電影",
+      "ru": "ФИЛЬМ",
+      "es": "Película",
+      "in": "Film"
+    }
+  },
+  {
+    "query": "HEALTH",
+    "preview": "15.HEALTH.webp",
+    "localizedQuery": {
+      "ja": "健康",
+      "ms": "KESIHATAN",
+      "zh": "健康",
+      "zh-Hant": "健康",
+      "ru": "ЗДОРОВЬЕ",
+      "es": "Salud",
+      "in": "Kesehatan"
+    }
+  },
+  {
+    "query": "ART",
+    "preview": "16.ART.png",
+    "localizedQuery": {
+      "ja": "アート",
+      "ms": "ART",
+      "zh": "艺术",
+      "zh-Hant": "藝術",
+      "ru": "искусство",
+      "es": "Arte",
+      "in": "Seni"
+    }
+  },
+  {
+    "query": "CULTURE",
+    "preview": "17.CULTURE.png",
+    "localizedQuery": {
+      "ja": "文化",
+      "ms": "BUDAYA",
+      "zh": "文化",
+      "zh-Hant": "文化",
+      "ru": "КУЛЬТУРА",
+      "es": "Cultura",
+      "in": "Budaya"
+    }
+  },
+  {
+    "query": "LOVE",
+    "preview": "18.LOVE.png",
+    "localizedQuery": {
+      "ja": "愛",
+      "ms": "Cinta",
+      "zh": "爱",
+      "zh-Hant": "愛",
+      "ru": "ЛЮБОВЬ",
+      "es": "Amor",
+      "in": "Cinta"
+    }
+  },
+  {
+    "query": "PATTERNS",
+    "preview": "19.PATTERNS.png",
+    "localizedQuery": {
+      "ja": "模様",
+      "ms": "Corak",
+      "zh": "花纹",
+      "zh-Hant": "花紋",
+      "ru": "СХЕМЫ",
+      "es": "Amor",
+      "in": "Pola"
+    }
+  },
+  {
+    "query": "FOREST",
+    "preview": "20.FOREST.png",
+    "localizedQuery": {
+      "ja": "森林",
+      "ms": "HUTAN",
+      "zh": "森林",
+      "zh-Hant": "森林",
+      "ru": "Patrones",
+      "es": "Bosque",
+      "in": "Hutan"
+    }
+  },
+  {
+    "query": "PARTY",
+    "preview": "21.PARTY.png",
+    "localizedQuery": {
+      "ja": "パーティー",
+      "ms": "PARTY",
+      "zh": "派对",
+      "zh-Hant": "派對",
+      "ru": "ПАРТИЯ",
+      "es": "Fiesta",
+      "in": "Pesta"
+    }
+  },
+  {
+    "query": "SPIRITUALITY",
+    "preview": "22.SPIRITUALITY.png",
+    "localizedQuery": {
+      "ja": "霊性",
+      "ms": "SPIRITUALITY",
+      "zh": "神灵",
+      "zh-Hant": "神靈",
+      "ru": "ДУХОВНОСТЬ",
+      "es": "Espiritualidad",
+      "in": "Kerohanian"
+    }
+  },
+  {
+    "query": "MUSIC",
+    "preview": "23.MUSIC.png",
+    "localizedQuery": {
+      "ja": "音楽",
+      "ms": "MUSIC",
+      "zh": "音乐",
+      "zh-Hant": "音樂",
+      "ru": "МУЗЫКА",
+      "es": "Música",
+      "in": "Musik"
+    }
+  },
+  {
+    "query": "BABY",
+    "preview": "24.BABY.png",
+    "localizedQuery": {
+      "ja": "赤ちゃん",
+      "ms": "Bayi",
+      "zh": "宝宝",
+      "zh-Hant": "寶寶",
+      "ru": "ДЕТКА",
+      "es": "Bebé",
+      "in": "Bayi"
+    }
+  },
+  {
+    "query": "SPORTS",
+    "preview": "25.SPORTS.png",
+    "localizedQuery": {
+      "ja": "スポーツ",
+      "ms": "SUKAN",
+      "zh": "体育",
+      "zh-Hant": "體育",
+      "ru": "ВИДЫ СПОРТА",
+      "es": "Deportes",
+      "in": "Olah raga"
+    }
+  },
+  {
+    "query": "TRANSPORTATION",
+    "preview": "26.TRANSPORTATION.png",
+    "localizedQuery": {
+      "ja": "交通手段",
+      "ms": "TRANSPORTATION",
+      "zh": "交通",
+      "zh-Hant": "交通",
+      "ru": "ТРАНСПОРТ",
+      "es": "Transporte",
+      "in": "Angkutan"
+    }
+  },
+  {
+    "query": "COMPUTER",
+    "preview": "27.MUSIC.png",
+    "localizedQuery": {
+      "ja": "コンピューター",
+      "ms": "KOMPUTER",
+      "zh": "电脑",
+      "zh-Hant": "電腦",
+      "ru": "КОМПЬЮТЕР",
+      "es": "Computadora",
+      "in": "Komputer"
+    }
+  },
+  {
+    "query": "CURRENT",
+    "preview": "28.CURRENT.png",
+    "localizedQuery": {
+      "ja": "現在",
+      "ms": "Hal ehwal semasa",
+      "zh": "时事",
+      "zh-Hant": "時事",
+      "ru": "ТЕКУЩИЙ",
+      "es": "Actual",
+      "in": "Arus"
+    }
+  },
+  {
+    "query": "GAME",
+    "preview": "29.GAME.png",
+    "localizedQuery": {
+      "ja": "ゲーム",
+      "ms": "GAME",
+      "zh": "游戏",
+      "zh-Hant": "遊戲",
+      "ru": "ИГРА",
+      "es": "Juego",
+      "in": "Permainan"
+    }
+  },
+  {
+    "query": "EXPERIMENTAL",
+    "preview": "30.EXPERIMENTAL.png",
+    "localizedQuery": {
+      "ja": "実験的",
+      "ms": "PERCUBAAN",
+      "zh": "实验",
+      "zh-Hant": "實驗",
+      "ru": "подопытный",
+      "es": "Experimental",
+      "in": "Eksperimental"
+    }
+  }
+]

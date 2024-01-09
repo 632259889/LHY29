@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/ll_content" android:background="@drawable/ic_launcher_background" android:layout_width="300.0dip" android:layout_height="400.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/iv_title_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="71.0dip" android:src="@drawable/ic_launcher_background" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="36.0dip" android:textColor="#ffffdd8c" android:id="@id/tv_title_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110.0dip" android:text="@string/Christmas" android:layout_centerHorizontal="true" android:textAllCaps="true" />
+        <TextView android:textSize="50.0dip" android:textColor="#ffffdd8c" android:id="@id/tv_title_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-18.0dip" android:text="@string/Surprise" android:layout_below="@id/tv_title_1" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_below="@id/iv_title_bg" android:layout_centerHorizontal="true">
+            <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_lifetime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Lifetime_VIP" android:layout_marginEnd="5.0dip" />
+            <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_old_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$9.99" />
+        </LinearLayout>
+        <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_now" android:background="@drawable/ic_launcher_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:text="Only $7.99 Now" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/iv_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:src="@drawable/ic_launcher_background" android:layout_alignTop="@id/ll_content" android:translationX="15.0dip" android:translationY="-15.0dip" android:layout_alignEnd="@id/ll_content" />
+</RelativeLayout>

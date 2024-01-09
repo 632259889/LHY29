@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_marginTop="7.5dip" android:layout_marginBottom="7.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivShow" android:padding="5.0dip" android:layout_width="55.0dip" android:layout_height="55.0dip" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/ivIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tag_pro" android:layout_alignEnd="@id/ivShow" />
+    <ImageView android:id="@id/ivIns" android:visibility="invisible" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/edit_icon_twitter" android:layout_alignStart="@id/ivShow" />
+    <ProgressBar android:id="@id/progressState" android:padding="1.5dip" android:layout_width="15.0dip" android:layout_height="15.0dip" android:indeterminateDrawable="@drawable/selector_download_icon" android:layout_alignBottom="@id/ivShow" android:layout_alignEnd="@id/ivShow" />
+    <ImageView android:id="@id/ivDelete" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/layers_bottom_delete" android:scaleType="center" android:layout_alignBottom="@id/ivShow" android:layout_alignEnd="@id/ivShow" />
+    <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:id="@id/tvName" android:background="#66000000" android:visibility="gone" android:layout_width="55.0dip" android:layout_height="wrap_content" android:text="" android:layout_centerHorizontal="true" />
+</RelativeLayout>

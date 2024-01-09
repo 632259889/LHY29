@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:background="#ff010013" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/navBar" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <ImageView android:id="@id/ivBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_nav_delete" android:layout_centerVertical="true" />
+        <lightcone.com.pack.view.AppUITextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="44.0dip" android:layout_marginRight="44.0dip" android:text="@string/Unsplash" />
+    </RelativeLayout>
+    <com.aspsine.swipetoloadlayout.SwipeToLoadLayout android:id="@id/swipeToLoadLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/navBar" app:load_more_enabled="true" app:swipe_style="classic">
+        <com.aspsine.swipetoloadlayout.SwipeRefreshHeaderLayout android:id="@id/swipe_refresh_header" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <TextView android:textColor="#ffcccccc" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Loading" />
+        </com.aspsine.swipetoloadlayout.SwipeRefreshHeaderLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/swipe_target" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.5dip" />
+        <com.aspsine.swipetoloadlayout.SwipeLoadMoreFooterLayout android:id="@id/swipe_load_more_footer" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <TextView android:textColor="#ffcccccc" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Loading_more" />
+        </com.aspsine.swipetoloadlayout.SwipeLoadMoreFooterLayout>
+    </com.aspsine.swipetoloadlayout.SwipeToLoadLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/llHint" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_centerInParent="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/search_hint_onresults" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="20.0sp" android:textColor="#ff4061fa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/No_Results" />
+    </LinearLayout>
+</RelativeLayout>

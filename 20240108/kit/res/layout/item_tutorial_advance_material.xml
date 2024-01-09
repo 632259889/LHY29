@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lightcone.com.pack.view.SquareRelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:background="@drawable/shape_transparent_stroke_corners" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/ivShow" android:layout_alignBottom="@id/ivShow" android:layout_alignStart="@id/ivShow" android:layout_alignEnd="@id/ivShow" />
+    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivShow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/template_icon_loading" android:scaleType="centerInside" app:riv_corner_radius="10.0dip" />
+    <TextView android:textSize="11.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvImport" android:background="@drawable/shape_guide_import" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/Import" android:layout_alignRight="@id/ivShow" android:layout_alignBottom="@id/ivShow" />
+</lightcone.com.pack.view.SquareRelativeLayout>

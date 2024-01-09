@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#22ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/shape_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="47.5dip" android:layout_marginEnd="47.5dip" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <ImageView android:layout_gravity="end" android:id="@id/btnCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nav_close_def" />
+        <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivImage" android:layout_width="200.0dip" android:layout_height="200.0dip" app:riv_corner_radius_bottom_left="5.0dip" app:riv_corner_radius_bottom_right="5.0dip" app:riv_corner_radius_top_left="5.0dip" app:riv_corner_radius_top_right="5.0dip" />
+        <lightcone.com.pack.view.AppUIBoldTextView android:textSize="18.0sp" android:textColor="#ff5062fb" android:gravity="center" android:id="@id/tvTips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="20.0dip" android:text="@string/Who_You_Like" android:lineSpacingExtra="2.0sp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip">
+            <lightcone.com.pack.view.AppUITextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnOk" android:background="@drawable/pop_right_btn_bg" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="@string/Try_Now" android:layout_weight="1.0" android:layout_marginStart="27.5dip" android:layout_marginEnd="27.5dip" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    </LinearLayout>
+    <ImageView android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_above="@id/tabBottom" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/tabBottom" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="10.0sp" android:textColor="@drawable/selector_icon_btm_text_color" android:gravity="center" android:id="@id/tvToolbox" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/Toolbox" android:drawableTop="@drawable/selector_icon_toolbox" android:layout_weight="1.0" />
+        <TextView android:textSize="10.0sp" android:textColor="@drawable/selector_icon_btm_text_color" android:gravity="center" android:id="@id/tvFeatures" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/Features" android:drawableTop="@drawable/selector_icon_features" android:layout_weight="1.0" />
+        <ImageView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="10.0sp" android:textColor="@drawable/selector_icon_btm_text_color" android:gravity="center" android:id="@id/tvTemplates" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/Templates" android:drawableTop="@drawable/selector_icon_templates" android:layout_weight="1.0" />
+        <TextView android:textSize="10.0sp" android:textColor="@drawable/selector_icon_btm_text_color" android:gravity="center" android:id="@id/tvProjects" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/Projects" android:drawableTop="@drawable/selector_icon_projects" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:id="@id/ivAdd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:src="@drawable/home_bottom_btn_add" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

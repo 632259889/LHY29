@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/shape_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip">
+        <ImageView android:layout_gravity="end" android:id="@id/btnClose" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/selector_nav_close" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff5062fb" android:gravity="center" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="-10.0dip" android:layout_marginRight="20.0dip" android:text="@string/Unlock_for_Free" />
+        <ImageView android:id="@id/ivImage" android:layout_width="fill_parent" android:layout_height="165.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/finish_icon_ins" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/tvTips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="tips" android:lineSpacingExtra="2.0sp" />
+        <lightcone.com.pack.view.AppUITextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnOk" android:background="@drawable/pop_right_btn_bg" android:layout_width="fill_parent" android:layout_height="51.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/Watch_Ads" />
+        <TextView android:textSize="13.0dip" android:textColor="#ff999999" android:gravity="center" android:id="@id/btnCancel" android:background="@drawable/shape_text_underline_gray" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:text="@string/No_thanks" />
+        <View android:layout_width="fill_parent" android:layout_height="15.0dip" />
+    </LinearLayout>
+</FrameLayout>

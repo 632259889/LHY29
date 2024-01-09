@@ -1,0 +1,63 @@
+[
+  {
+    "showCount": "200+",
+    "localizedCategory": {
+      "en": "Art Effects & Filters",
+      "es": "Efectos y filtros Arte",
+      "in": "Efek & Filter Seni",
+      "ja": "アートエフェクトとフィルター",
+      "ms": "Kesan Seni & Penapis",
+      "ru": "Художественные эффекты",
+      "zh": "艺术滤镜 & 普通滤镜",
+      "zh-Hant": "藝術濾鏡 & 普通濾鏡"
+    }
+  },
+  {
+    "showCount": "3000+",
+    "localizedCategory": {
+      "en": "Stickers",
+      "es": "Pegatinas",
+      "in": "Stiker",
+      "ja": "ステッカー",
+      "ms": "Pelekat",
+      "ru": "Наклейки",
+      "zh": "贴纸资源",
+      "zh-Hant": "貼紙資源"
+    }
+  },
+  {
+    "showCount": "50+",
+    "localizedCategory": {
+      "en": "Photo Editing Tools",
+      "es": "Herramientas de edición",
+      "in": "Alat Pengeditan Foto",
+      "ja": "写真編集ツール",
+      "ms": "Alat Penyuntingan Foto",
+      "ru": "инструменты",
+      "zh": "照片编辑工具",
+      "zh-Hant": "照片編輯工具"
+    }
+  },
+  {
+    "localizedShowCount": {
+      "en": "Unlimited",
+      "es": "Ilimitado",
+      "in": "Tak terbatas",
+      "ja": "無制限",
+      "ms": "Tanpa had",
+      "ru": "Безлимитный",
+      "zh": "无限",
+      "zh-Hant": "無限"
+    },
+    "localizedCategory": {
+      "en": "Layers",
+      "es": "Capas",
+      "in": "Lapisan",
+      "ja": "レイヤー",
+      "ms": "Lapisan",
+      "ru": "Слои",
+      "zh": "图层",
+      "zh-Hant": "圖層"
+    }
+  }
+]

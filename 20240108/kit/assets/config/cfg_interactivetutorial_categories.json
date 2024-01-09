@@ -1,0 +1,236 @@
+[
+  {
+    "category": "basic",
+    "localizedCategory": {
+      "en": "Basic Skill",
+      "ja": "基本スキル",
+      "ms": "Kemahiran Asas",
+      "zh": "基本技能",
+      "zh-Hant": "基本技能",
+      "ru": "Базовый навык",
+      "es": "Habilidad básica",
+      "in": "Dasar"
+    },
+    "preview": "interactive_tutorial_1.webp",
+    "items": [
+      {
+        "name": "multilayer",
+        "localizedName": {
+          "en": "Multilayer",
+          "ja": "多層",
+          "ms": "Multilayer",
+          "zh": "多图层",
+          "zh-Hant": "多圖層",
+          "ru": "Многослойный",
+          "es": "Multicapa",
+          "in": "Multilayer"
+        },
+        "file": "multilayer2_V2",
+        "id": 1,
+        "preview": "interactive_tutorial_1.webp",
+        "experience": 60
+      },
+      {
+        "name": "art",
+        "localizedName": {
+          "en": "Artistic Filters",
+          "ja": "アートフィルター",
+          "ms": "Penapis Artistik",
+          "zh": "艺术滤镜",
+          "zh-Hant": "藝術濾鏡",
+          "ru": "Арт фильтр",
+          "es": "Filtros artísticos",
+          "in": "Filter Artistik"
+        },
+        "file": "art_V5",
+        "id": 2,
+        "preview": "interactive_tutorial_19.webp",
+        "experience": 30
+      },
+      {
+        "name": "layer",
+        "localizedName": {
+          "en": "Adjust Layers",
+          "ja": "レイヤーを調整",
+          "ms": "Pelarasan Lapisan",
+          "zh": "图层调整",
+          "zh-Hant": "圖層調整",
+          "ru": "Корректирующий слой",
+          "es": "Ajustar las capas",
+          "in": "Sesuaikan Layers"
+        },
+        "file": "layer_V3",
+        "id": 3,
+        "preview": "interactive_tutorial_2.webp",
+        "experience": 60
+      },
+      {
+        "name": "crop",
+        "localizedName": {
+          "en": "Crop Layer",
+          "ja": "レイヤークロップ",
+          "ms": "Lapisan Tanaman",
+          "zh": "图层裁剪",
+          "zh-Hant": "圖層裁剪",
+          "ru": "обрезать Слои",
+          "es": "Capa de cultivo",
+          "in": "Lapisan Pangkas"
+        },
+        "file": "crop_V2",
+        "id": 4,
+        "preview": "interactive_tutorial_3.webp",
+        "experience": 60
+      },
+      {
+        "name": "eraser",
+        "localizedName": {
+          "en": "Eraser",
+          "ja": "消しゴム",
+          "ms": "Pemadam",
+          "zh": "橡皮擦",
+          "zh-Hant": "橡皮擦",
+          "ru": "Ластик",
+          "es": "Borrador",
+          "in": "Penghapus"
+        },
+        "file": "eraser_V2",
+        "id": 5,
+        "preview": "interactive_tutorial_4.webp",
+        "experience": 30
+      }
+    ]
+  },
+  {
+    "category": "retouch",
+    "localizedCategory": {
+      "en": "Photo Retouch",
+      "ja": "写真を修復する",
+      "ms": "Photo Retouch",
+      "zh": "修复照片",
+      "zh-Hant": "修復照片",
+      "ru": "Фото ретуширование",
+      "es": "Retoque fotográfico",
+      "in": "Retouch Foto"
+    },
+    "preview": "interactive_tutorial_5.webp",
+    "items": [
+      {
+        "name": "adjust",
+        "localizedName": {
+          "en": "Adjust",
+          "ja": "調整する",
+          "ms": "Melaraskan",
+          "zh": "调节",
+          "zh-Hant": "調節",
+          "ru": "регулировка",
+          "es": "Ajustar",
+          "in": "Mengatur"
+        },
+        "file": "adjust_V3",
+        "id": 6,
+        "preview": "interactive_tutorial_5.webp",
+        "experience": 30
+      }
+    ]
+  },
+  {
+    "category": "creative",
+    "localizedCategory": {
+      "en": "Creative Effect",
+      "ja": "クリエイティブ効果",
+      "ms": "Kesan Kreatif",
+      "zh": "制作创意效果",
+      "zh-Hant": "製作創意效果",
+      "ru": "Творческий эффект",
+      "es": "Efecto creativo",
+      "in": "Efek Kreatif"
+    },
+    "preview": "interactive_tutorial_8.webp",
+    "items": [
+      {
+        "name": "scissors",
+        "localizedName": {
+          "en": "Cutout",
+          "ja": "はさみ",
+          "ms": "Gunting",
+          "zh": "剪刀抠图",
+          "zh-Hant": "剪刀摳圖",
+          "ru": "выпиливать",
+          "es": "Recorte",
+          "in": "Gunting"
+        },
+        "file": "scissors_V3",
+        "id": 7,
+        "preview": "interactive_tutorial_8.webp",
+        "experience": 30
+      },
+      {
+        "name": "colorsplash",
+        "localizedName": {
+          "en": "Color Splash",
+          "ja": "カラーポップ",
+          "ms": "Splash Warna",
+          "zh": "泼色",
+          "zh-Hant": "潑色",
+          "ru": "Перекрасить",
+          "es": "Splash",
+          "in": "Percikan warna"
+        },
+        "file": "colorsplash_V4",
+        "id": 8,
+        "preview": "interactive_tutorial_9.webp",
+        "experience": 30
+      },
+      {
+        "name": "blend",
+        "localizedName": {
+          "en": "Blend",
+          "ja": "ブレンド",
+          "ms": "Campurkan",
+          "zh": "混合",
+          "zh-Hant": "混合",
+          "ru": "смесь",
+          "es": "Mezcla",
+          "in": "Campur"
+        },
+        "file": "blend_V2",
+        "id": 10,
+        "preview": "interactive_tutorial_11.webp",
+        "experience": 30
+      }
+    ]
+  },
+  {
+    "category": "painting",
+    "localizedCategory": {
+      "en": "Painting Master",
+      "ja": "絵画マスター",
+      "ms": "Lukisan Master",
+      "zh": "绘画大师",
+      "zh-Hant": "繪畫大師",
+      "ru": "Мастер рисования",
+      "es": "Maestro de la pintura",
+      "in": "Master Lukisan"
+    },
+    "preview": "interactive_tutorial_12.webp",
+    "items": [
+      {
+        "name": "doodle",
+        "localizedName": {
+          "en": "Doodle",
+          "ja": "落書き",
+          "ms": "Doodle",
+          "zh": "涂鸦",
+          "zh-Hant": "塗鴉",
+          "ru": "граффити",
+          "es": "Garabatear",
+          "in": "Coretan"
+        },
+        "file": "doodle_V2",
+        "id": 11,
+        "preview": "interactive_tutorial_12.webp",
+        "experience": 30
+      }
+    ]
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "id": 1,
+    "category": "Filters",
+    "shops": [
+      {
+        "id": 1,
+        "sku": "com.test.one.artfilters",
+        "showName": "Art Filters",
+        "localizedCategory": {
+          "ja": "アートフィルター",
+          "ms": "Penapis Seni",
+          "zh": "艺术滤镜",
+          "zh-Hant": "藝術濾鏡",
+          "ru": "Арт Фильтры",
+          "es": "Filtros de arte",
+          "in": "Filter Seni"
+        },
+        "thumbnail": "shop_banner_art_filter.webp",
+        "price": 0.99,
+        "state": 0
+      },
+      {
+        "id": 2,
+        "sku": "com.test.one.glitchfilters",
+        "showName": "Glitch Filters",
+        "localizedCategory": {
+          "ja": "グリッチフィルター",
+          "ms": "Penapis Glitch",
+          "zh": "故障风滤镜",
+          "zh-Hant": "故障風濾鏡",
+          "ru": "Фильтры глюка",
+          "es": "Filtros de falla",
+          "in": "Filter Kesalahan"
+        },
+        "thumbnail": "shop_banner_glitch_filter.webp",
+        "price": 0.99,
+        "state": 2
+      },
+      {
+        "id": 3,
+        "sku": "com.test.one.doubleexposurefilters",
+        "showName": "Double Exposure filters",
+        "localizedCategory": {
+          "ja": "二重露光フィルター",
+          "ms": "Penapis Pendedahan Berganda",
+          "zh": "双曝滤镜",
+          "zh-Hant": "雙曝濾鏡",
+          "ru": "Двойное воздействие",
+          "es": "Filtros de doble exposición",
+          "in": "Filter paparan ganda"
+        },
+        "thumbnail": "shop_banner_double_exposure.webp",
+        "price": 0.99,
+        "state": 2
+      },
+      {
+        "id": 4,
+        "sku": "com.test.one.charmingfilters",
+        "showName": "Charming Filters",
+        "localizedCategory": {
+          "ja": "グラマーフィルター",
+          "ms": "Penapis Glamour",
+          "zh": "魅力滤镜",
+          "zh-Hant": "魅力濾鏡",
+          "ru": "Хорошие фильтры",
+          "es": "Filtros encantadores",
+          "in": "Filter Populer"
+        },
+        "thumbnail": "shop_banner_charming_filters.webp",
+        "price": 0.99,
+        "state": 2
+      },
+      {
+        "id": 5,
+        "sku": "com.test.one.watercolorfilters",
+        "showName": "Watercolor Filters",
+        "localizedCategory": {
+          "ja": "水彩フィルター",
+          "ms": "Penapis Air",
+          "zh": "水彩滤镜",
+          "zh-Hant": "水彩濾鏡",
+          "ru": "Акварельный фильтр",
+          "es": "Filtros de acuarela",
+          "in": "Filter Cat Air"
+        },
+        "thumbnail": "shop_banner_watercolor.webp",
+        "price": 0.99,
+        "state": 0
+      },
+      {
+        "id": 6,
+        "sku": "com.test.one.skyfilters",
+        "showName": "Sky filters",
+        "localizedCategory": {
+          "ja": "スカイフィルター",
+          "ms": "Penapis Langit",
+          "zh": "天空滤镜",
+          "zh-Hant": "天空濾鏡",
+          "ru": "Небесный фильтр",
+          "es": "Los filtros del cielo",
+          "in": "Filter langit"
+        },
+        "thumbnail": "shop_banner_sky_filter.webp",
+        "price": 0.99,
+        "state": 0
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "category": "Others",
+    "shops": [
+      {
+        "id": 7,
+        "sku": "com.test.one.removeads",
+        "showName": "Remove Ads",
+        "localizedCategory": {
+          "ja": "広告を削除",
+          "ms": "Alih Keluar Iklan",
+          "zh": "去除广告",
+          "zh-Hant": "移除廣告",
+          "ru": "Убрать рекламу",
+          "es": "Eliminar los anuncios",
+          "in": "Hilangkan iklan"
+        },
+        "thumbnail": "shop_banner_removeads.webp",
+        "price": 0.99,
+        "state": 1
+      },
+      {
+        "id": 8,
+        "sku": "com.test.one.premiumshapes",
+        "showName": "Premium Shapes",
+        "localizedCategory": {
+          "ja": "専用形状",
+          "ms": "Bentuk Eksklusif",
+          "zh": "专享形状",
+          "zh-Hant": "專享形狀",
+          "ru": "Эксклюзивная форма",
+          "es": "Formas Premium",
+          "in": "Bentuk Premium"
+        },
+        "thumbnail": "shop_banner_cut.webp",
+        "price": 0.99,
+        "state": 0
+      },
+      {
+        "id": 9,
+        "sku": "com.test.one.premiumfonts",
+        "showName": "Premium Fonts",
+        "localizedCategory": {
+          "ja": "専用フォント",
+          "ms": "Fon eksklusif",
+          "zh": "专享字体",
+          "zh-Hant": "專享字體",
+          "ru": "Эксклюзивный шрифт",
+          "es": "Fuentes Premium",
+          "in": "Font Premium"
+        },
+        "thumbnail": "shop_banner_fonts.webp",
+        "price": 0.99,
+        "state": 1
+      },
+      {
+        "id": 10,
+        "sku": "com.test.one.premiumblends",
+        "showName": "Premium Blends",
+        "localizedCategory": {
+          "ja": "専用混合",
+          "ms": "Penapis",
+          "zh": "专享混合",
+          "zh-Hant": "專享混合",
+          "ru": "Эксклюзивный микс",
+          "es": "Mezclas Premium",
+          "in": "Campuran Premium"
+        },
+        "thumbnail": "shop_banner_blend.webp",
+        "price": 0.99,
+        "state": 0
+      },
+      {
+        "id": 11,
+        "sku": "com.test.one.premiumbrushes",
+        "showName": "Premium Brushes",
+        "localizedCategory": {
+          "ja": "専用ブラシ",
+          "ms": "Berus Eksklusif",
+          "zh": "专享笔刷",
+          "zh-Hant": "專享筆刷",
+          "ru": "Эксклюзивная кисть",
+          "es": "Cepillos Premium",
+          "in": "Sikat Premium"
+        },
+        "thumbnail": "shop_banner_brush.webp",
+        "price": 0.99,
+        "state": 2
+      }
+    ]
+  }
+]

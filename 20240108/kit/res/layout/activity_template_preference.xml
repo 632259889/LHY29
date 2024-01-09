@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topBar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/btnBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_nav_back" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff7363fe" android:gravity="center" android:id="@id/btnSkip" android:background="@drawable/nav_skip_bg" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="@string/Skip" android:layout_alignParentEnd="true" />
+        <lightcone.com.pack.view.AppUIBoldTextView android:textSize="16.0sp" android:textColor="#ff151515" android:gravity="center" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="@string/Choose_what_interested_in" android:layout_centerHorizontal="true" />
+        <lightcone.com.pack.view.AppUITextView android:textSize="13.0sp" android:textColor="#ff151515" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Customize_modify_any_time" android:layout_below="@id/tvTitle" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_above="@id/btnChoose" android:layout_below="@id/topBar" android:layout_centerHorizontal="true">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/rvPreferences" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView android:enabled="false" android:textSize="18.0sp" android:textColor="@drawable/selector_bottom_btn_text_color" android:gravity="center" android:id="@id/btnChoose" android:background="@drawable/selector_bottom_btn" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_margin="15.0dip" android:text="@string/Choose_at_least_num" android:layout_alignParentBottom="true" />
+</RelativeLayout>

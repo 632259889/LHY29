@@ -1,0 +1,147 @@
+{
+  "switchRate": 40,
+  "sponsored": {
+    "en": "Sponsored",
+    "fr": "Sponsorisé",
+    "de": "Gesponsert",
+    "pt": "Patrocinados",
+    "es": "patrocinado",
+    "ja": "後援",
+    "ko": "후원",
+    "others": {}
+  },
+  "tryItNow": {
+    "en": "Try it now！",
+    "fr": "Essayez-le maintenant!",
+    "de": "Probieren Sie es jetzt!",
+    "pt": "Tente agora!",
+    "es": "¡Pruebalo ahora!",
+    "ja": "今試してみて！",
+    "ko": "지금 시도하십시오!",
+    "others": {}
+  },
+  "forFree": {
+    "en": "<font color=\"#ff0000\">FOR FREE</font>",
+    "fr": "<font color=\"#ff0000\">GRATUITEMENT</font>",
+    "de": "<font color=\"#ff0000\">KOSTENLOS</font>",
+    "pt": "<font color=\"#ff0000\">GRATUITAMENTE</font>",
+    "es": "<font color=\"#ff0000\">GRATIS</font>",
+    "ja": "<font color=\"#ff0000\">無料</font>",
+    "ko": "<font color=\"#ff0000\">무료로</font>",
+    "others": {}
+  },
+  "style": [
+    {
+      "startTime": "2022-03-23 00:00:01",
+      "endTime": "2022-03-26 00:00:01",
+      "imageName": "popup_banner_free.png",
+      "title": {
+        "en": "Free Change Your Work into NFT",
+        "fr": "Changez gratuitement votre travail en NFT",
+        "de": "Ändern Sie Ihre Arbeit in NFT",
+        "pt": "Mude gratuitamente seu trabalho para NFT",
+        "es": "Cambie gratis su trabajo a NFT",
+        "ja": "あなたの仕事をNFTに無料で変更する",
+        "ko": "작업을 NFT로 무료 변경",
+        "others": {}
+      },
+      "contentList": [
+        {
+          "en": "Do you want to store forever or sell your work on the blockchain?",
+          "fr": "Voulez-vous stocker pour toujours ou vendre votre travail sur la blockchain ?",
+          "de": "Möchten Sie Ihre Arbeit auf der Blockchain für immer speichern oder verkaufen?",
+          "pt": "Você quer armazenar para sempre ou vender seu trabalho no blockchain?",
+          "es": "¿Quieres almacenar para siempre o vender tu trabajo en blockchain?",
+          "ja": "永久に保存しますか、それともブロックチェーンで作品を販売しますか？",
+          "ko": "블록체인에 영원히 저장하시겠습니까, 아니면 작업을 판매하시겠습니까?",
+          "others": {}
+        },
+        {
+          "en": "We provide the most convenient way to access this %s.",
+          "fr": "Nous fournissons le moyen le plus pratique d'y accéder %s.",
+          "de": "Wir bieten die bequemste Möglichkeit, %s darauf zuzugreifen.",
+          "pt": "Nós fornecemos a maneira mais conveniente de acessar isso %s.",
+          "es": "Brindamos la forma más conveniente de acceder a esto %s.",
+          "ja": "これに%sでアクセスするための最も便利な方法を提供します。",
+          "ko": "%s 액세스할 수 있는 가장 편리한 방법을 제공합니다.",
+          "others": {}
+        }
+      ]
+    },
+    {
+      "startTime": "2022-03-28 00:00:01",
+      "endTime": "2022-03-31 00:00:01",
+      "imageName": "popup_banner_nft.png",
+      "title": {
+        "en": "Let's Sell Your Work as NFT",
+        "fr": "Vendons votre travail en tant que NFT",
+        "de": "Lassen Sie uns Ihre Arbeit als NFT verkaufen",
+        "pt": "Vamos vender seu trabalho como NFT",
+        "es": "Vendamos su trabajo como NFT",
+        "ja": "あなたの作品をNFTとして売りましょう",
+        "ko": "NFT로 작업을 판매합시다",
+        "others": {}
+      },
+      "contentList": [
+        {
+          "en": "Have you heard of NFT that sold for tens of millions of dollars?",
+          "fr": "Avez-vous entendu parler de NFT vendu pour des dizaines de millions de dollars ?",
+          "de": "Haben Sie von NFT gehört, das für zig Millionen Dollar verkauft wurde?",
+          "pt": "Você já ouviu falar de NFT que foi vendido por dezenas de milhões de dólares?",
+          "es": "¿Has oído hablar de NFT que se vendió por decenas de millones de dólares?",
+          "ja": "数千万ドルで売れたNFTについて聞いたことがありますか？",
+          "ko": "수천만 달러에 팔린 NFT에 대해 들어 보셨습니까?",
+          "others": {}
+        },
+        {
+          "en": "We provide the most convenient way to access this %s.",
+          "fr": "Nous fournissons le moyen le plus pratique d'y accéder %s.",
+          "de": "Wir bieten die bequemste Möglichkeit, %s darauf zuzugreifen.",
+          "pt": "Nós fornecemos a maneira mais conveniente de acessar isso %s.",
+          "es": "Brindamos la forma más conveniente de acceder a esto %s.",
+          "ja": "これに%sでアクセスするための最も便利な方法を提供します。",
+          "ko": "%s 액세스할 수 있는 가장 편리한 방법을 제공합니다.",
+          "others": {}
+        }
+      ]
+    },
+    {
+      "startTime": "2022-04-02 00:00:01",
+      "endTime": "2022-04-05 00:00:01",
+      "imageName": "popup_banner_provide.png",
+      "title": {
+        "en": "",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "es": "",
+        "ja": "",
+        "ko": "",
+        "others": {
+        }
+      },
+      "contentList": [
+        {
+          "en": "Do you want to get NFTs for free?",
+          "fr": "Voulez-vous obtenir des NFT gratuitement ?",
+          "de": "Möchten Sie NFTs kostenlos erhalten?",
+          "pt": "Você quer obter NFTs de graça?",
+          "es": "¿Quieres obtener NFT gratis?",
+          "ja": "NFTを無料で入手しますか？",
+          "ko": "NFT를 무료로 받고 싶습니까?",
+          "others": {}
+        },
+        {
+          "en": "We provide the most convenient way to access this %s.",
+          "fr": "Nous fournissons le moyen le plus pratique d'y accéder %s.",
+          "de": "Wir bieten die bequemste Möglichkeit, %s darauf zuzugreifen.",
+          "pt": "Nós fornecemos a maneira mais conveniente de acessar isso %s.",
+          "es": "Brindamos la forma más conveniente de acceder a esto %s.",
+          "ja": "これに%sでアクセスするための最も便利な方法を提供します。",
+          "ko": "%s 액세스할 수 있는 가장 편리한 방법을 제공합니다.",
+          "others": {}
+        }
+      ]
+    }
+  ]
+}

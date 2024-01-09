@@ -1,0 +1,468 @@
+[
+  {
+    "groupId": 1,
+    "groupName": "Social Life",
+    "groups": [
+      {
+        "category": "Instagram Stories",
+        "localizedCategory": {
+          "ja": "Instagramの物語",
+          "ms": "Cerita Instagram",
+          "zh": "Instagram故事",
+          "zh-Hant": "Instagram故事",
+          "ru": "Истории Инстаграм",
+          "es": "Historias de Instagram",
+          "in": "Cerita Instagram"
+        },
+        "icon": "icon_ins"
+      },
+      {
+        "category": "Facebook Stories",
+        "localizedCategory": {
+          "ja": "Facebookの物語",
+          "ms": "Cerita Facebook",
+          "zh": "Facebook故事",
+          "zh-Hant": "Facebook故事",
+          "ru": "Истории Facebook",
+          "es": "Historias de Facebook",
+          "in": "Cerita Facebook"
+        },
+        "icon": "icon_facebook"
+      },
+      {
+        "category": "Image Collage",
+        "localizedCategory": {
+          "ja": "画像コラージュ",
+          "ms": "Kolaj gambar",
+          "zh": "图片拼图",
+          "zh-Hant": "圖片拼圖",
+          "ru": "Коллаж изображений",
+          "es": "Collage de imágenes",
+          "in": "Kolase Gambar"
+        },
+        "icon": "icon_collage"
+      },
+      {
+        "category": "WhatsApp Stories",
+        "localizedCategory": {
+          "ja": "WhatsAppストーリー",
+          "ms": "WhatsApp Story",
+          "zh": "WhatsApp故事",
+          "zh-Hant": "WhatsApp故事",
+          "ru": "Истории WhatsApp",
+          "es": "Historias de WhatsApp",
+          "in": "Kisah WhatsApp"
+        },
+        "icon": "icon_whatsapp"
+      },
+      {
+        "category": "Twitter Post",
+        "localizedCategory": {
+          "zh": "Twitter帖子",
+          "zh-Hant": "Twitter帖子",
+          "ja": "Twitterの投稿",
+          "ms": "Post Twitter",
+          "ru": "Твиттер-пост",
+          "es": "Publicación en Twitter",
+          "in": "Twitter Post"
+        },
+        "icon": "icon_twitter",
+        "substitutions": [
+          "Facebook Cover",
+          "YouTube Channel Art"
+        ]
+      },
+      {
+        "category": "Pinterest Graphic",
+        "localizedCategory": {
+          "ja": "Pinterestグラフィック",
+          "ms": "Gambar Pinterest",
+          "zh": "Pinterest图片",
+          "zh-Hant": "Pinterest圖片",
+          "ru": "графика Пинтереста",
+          "es": "Gráfico de interés",
+          "in": "Grafik Pinterest"
+        },
+        "icon": "icon_pinterest"
+      },
+      {
+        "category": "Tumblr Graphic",
+        "localizedCategory": {
+          "zh": "Tumblr图片",
+          "zh-Hant": "Tumblr圖片",
+          "ja": "Tumblrの写真",
+          "ms": "Grafik Tumblr",
+          "ru": "Tumblr График",
+          "es": "Gráfico Tumblr",
+          "in": "Tumblr Graphic"
+        },
+        "icon": "icon_tumblr"
+      },
+      {
+        "category": "Snapchat Geofilter",
+        "localizedCategory": {
+          "zh": "Snapchat地点水印",
+          "zh-Hant": "Snapchat地點水印",
+          "ja": "Snapchatロケーションの透かし",
+          "ms": "Snapchat Geofilter",
+          "ru": "Снэпчат Геофильтр",
+          "es": "Geofiltro Snapchat",
+          "in": "Snapchat Geofilter"
+        },
+        "icon": "icon_snapchat",
+        "substitutions": [
+          "Mobile Poster",
+          "Instagram Stories",
+          "Facebook Stories",
+          "WhatsApp Stories",
+          "Pinterest Graphic"
+        ]
+      },
+      {
+        "category": "YouTube Thumbnail",
+        "localizedCategory": {
+          "ja": "YouTubeサムネイル",
+          "ms": "Thumbnail YouTube",
+          "zh": "YouTube视频缩略图",
+          "zh-Hant": "YouTube視頻縮略圖",
+          "ru": "эскиз YouTube",
+          "es": "La miniatura de YouTube",
+          "in": "Thumbnail YouTube"
+        },
+        "icon": "icon_youtube"
+      },
+      {
+        "category": "Social Media",
+        "localizedCategory": {
+          "ja": "ソーシャルメディア",
+          "ms": "Media sosial",
+          "zh": "社交媒体",
+          "zh-Hant": "社交媒體",
+          "ru": "Социальные сети",
+          "es": "Redes sociales",
+          "in": "Media sosial"
+        },
+        "icon": "icon_ins"
+      },
+      {
+        "category": "Instagram Post",
+        "localizedCategory": {
+          "ja": "Instagramの投稿",
+          "ms": "Post Instagram",
+          "zh": "Instagram帖子",
+          "zh-Hant": "Instagram帖子",
+          "ru": "Почта Инстаграм",
+          "es": "Instagram Post",
+          "in": "Posting Instagram"
+        },
+        "icon": "icon_ins"
+      },
+      {
+        "category": "Creative Collage",
+        "localizedCategory": {
+          "ja": "クリエイティブコラージュ",
+          "ms": "Kolaj kreatif",
+          "zh": "创意拼贴",
+          "zh-Hant": "創意拼貼",
+          "ru": "Творческий Коллаж",
+          "es": "Collage creativo",
+          "in": "Kolase Kreatif"
+        },
+        "icon": "icon_collage"
+      },
+      {
+        "category": "Facebook Post",
+        "localizedCategory": {
+          "ja": "Facebookの投稿",
+          "ms": "Post Facebook",
+          "zh": "Facebook帖子",
+          "zh-Hant": "Facebook帖子",
+          "ru": "публикация в Facebook",
+          "es": "Post de Facebook",
+          "in": "Posting Facebook"
+        },
+        "icon": "icon_facebook"
+      },
+      {
+        "category": "Facebook Cover",
+        "localizedCategory": {
+          "ja": "Facebookカバー",
+          "ms": "Tutup Facebook",
+          "zh": "Facebook封面",
+          "zh-Hant": "Facebook封面",
+          "ru": "Обложка Facebook",
+          "es": "Portada de Facebook",
+          "in": "Sampul Facebook"
+        },
+        "icon": "icon_facebook"
+      },
+      {
+        "category": "Mobile Wallpaper",
+        "localizedCategory": {
+          "ja": "携帯壁紙",
+          "ms": "Wallpaper Mudah Alih",
+          "zh": "手机壁纸",
+          "zh-Hant": "手機壁紙",
+          "ru": "Мобильные обои",
+          "es": "Fondo de pantalla móvil",
+          "in": "Wallpaper Seluler"
+        },
+        "icon": "icon_collage"
+      },
+      {
+        "category": "YouTube Channel Art",
+        "localizedCategory": {
+          "ja": "YouTubeチャンネルアート",
+          "ms": "Perlindungan saluran YouTube",
+          "zh": "YouTube频道封面",
+          "zh-Hant": "YouTube頻道封面",
+          "ru": "Искусство канала YouTube",
+          "es": "Arte del canal de YouTube",
+          "in": "Seni Saluran YouTube"
+        },
+        "icon": "icon_youtube"
+      },
+      {
+        "category": "Greeting Card",
+        "localizedCategory": {
+          "zh": "问候卡片",
+          "zh-Hant": "問候卡片",
+          "ja": "グリーティングカード",
+          "ms": "Kad ucapan",
+          "ru": "Поздравительная открытка",
+          "es": "Tarjeta de felicitación",
+          "in": "Kartu ucapan"
+        },
+        "icon": "icon_greetingcard",
+        "substitutions": [
+          "Mobile Invitation",
+          "Poster"
+        ]
+      },
+      {
+        "category": "Memo",
+        "localizedCategory": {
+          "zh": "备忘录",
+          "zh-Hant": "備忘錄",
+          "ja": "メモ",
+          "ms": "Memo",
+          "ru": "Записка",
+          "es": "Memo",
+          "in": "Memo"
+        },
+        "icon": "icon_memo",
+        "substitutions": [
+          "Poster",
+          "Mobile Wallpaper"
+        ]
+      },
+      {
+        "category": "WeChat Moments",
+        "localizedCategory": {
+          "ja": "WeChatの瞬間",
+          "ms": "WeChat Moments",
+          "zh": "微信朋友圈",
+          "zh-Hant": "微信朋友圈",
+          "ru": "Уэш-Шат Моменты",
+          "es": "WeChat Momentos",
+          "in": "Momen WeChat"
+        },
+        "icon": "icon_weichat"
+      }
+    ]
+  },
+  {
+    "groupId": 2,
+    "groupName": "Marketing",
+    "groups": [
+      {
+        "category": "Poster",
+        "localizedCategory": {
+          "ja": "ポスター",
+          "ms": "Poster",
+          "zh": "海报",
+          "zh-Hant": "海報",
+          "ru": "Плакат",
+          "es": "Cartel",
+          "in": "Poster"
+        },
+        "icon": "icon_poster"
+      },
+      {
+        "category": "Mobile Invitation",
+        "localizedCategory": {
+          "ja": "携帯の招待状",
+          "ms": "Jemputan Bergerak",
+          "zh": "手机邀请函",
+          "zh-Hant": "手機邀請函",
+          "ru": "Мобильное приглашение",
+          "es": "Invitación móvil",
+          "in": "Undangan Seluler"
+        },
+        "icon": "icon_poster"
+      },
+      {
+        "category": "Mobile Poster",
+        "localizedCategory": {
+          "ja": "モバイルポスター",
+          "ms": "Poster Bergerak",
+          "zh": "手机海报",
+          "zh-Hant": "手機海報",
+          "ru": "Мобильный плакат",
+          "es": "Póster móvil",
+          "in": "Poster Seluler"
+        },
+        "icon": "icon_poster"
+      },
+      {
+        "category": "Wechat Business Poster",
+        "localizedCategory": {
+          "ja": "Wechatビジネスポスター",
+          "ms": "Poster Perniagaan Wechat",
+          "zh": "微商海报",
+          "zh-Hant": "微商海報",
+          "ru": "Бизнес-постер Wechat",
+          "es": "Afiche de negocios Wechat",
+          "in": "Poster Bisnis WeChat"
+        },
+        "icon": "icon_weichat"
+      },
+      {
+        "category": "Wechat Official Account Cover",
+        "localizedCategory": {
+          "ja": "Wechat公式アカウントカバー",
+          "ms": "Cover Akaun Rasmi Wechat",
+          "zh": "公众号封面",
+          "zh-Hant": "公眾號封面",
+          "ru": "Крышка официального аккаунта Wechat",
+          "es": "Cubierta de la cuenta oficial de Wechat",
+          "in": "Penutup Akun Resmi WeChat"
+        },
+        "icon": "icon_weichat"
+      },
+      {
+        "category": "Course Ad Cover",
+        "localizedCategory": {
+          "ja": "コース広告カバー",
+          "ms": "Cover Iklan Kursus",
+          "zh": "课程封面",
+          "zh-Hant": "課程封面",
+          "ru": "Обложка курсов",
+          "es": "Portada del anuncio del curso",
+          "in": "Sampul Iklan Kursus"
+        },
+        "icon": "icon_poster"
+      }
+    ]
+  },
+  {
+    "groupId": 3,
+    "groupName": "Business",
+    "groups": [
+      {
+        "category": "LinkedIn Banner",
+        "localizedCategory": {
+          "zh": "领英封面",
+          "zh-Hant": "領英封面",
+          "ja": "LinkedInカバー",
+          "ms": "Banner LinkedIn",
+          "ru": "Связанный баннер",
+          "es": "Banner de LinkedIn",
+          "in": "Banner LinkedIn"
+        },
+        "icon": "icon_linkedln",
+        "substitutions": [
+          "Facebook Cover",
+          "YouTube Channel Art"
+        ]
+      },
+      {
+        "category": "Recipe Card",
+        "localizedCategory": {
+          "zh": "食谱卡片",
+          "zh-Hant": "食譜卡片",
+          "ja": "レシピカード",
+          "ms": "Kad resipi",
+          "ru": "Рецептурная карта",
+          "es": "Tarjeta de recetas",
+          "in": "Kartu Resep"
+        },
+        "icon": "icon_recipecard"
+      },
+      {
+        "category": "Mobile Invitation",
+        "localizedCategory": {
+          "ja": "携帯の招待状",
+          "ms": "Jemputan Bergerak",
+          "zh": "手机邀请函",
+          "zh-Hant": "Мобильное приглашение",
+          "es": "Invitación móvil",
+          "in": "Undangan Seluler"
+        },
+        "icon": "icon_poster"
+      },
+      {
+        "category": "Coupon",
+        "localizedCategory": {
+          "zh": "优惠券",
+          "zh-Hant": "優惠券",
+          "ja": "クーポン",
+          "ms": "Kupon",
+          "ru": "Купон",
+          "es": "Cupón",
+          "in": "Kupon"
+        },
+        "icon": "icon_coupon",
+        "substitutions": [
+          "Wechat Business Poster",
+          "Taobao Banner",
+          "Course Ad Cover",
+          "Wechat Official Account Cover"
+        ]
+      },
+      {
+        "category": "Taobao Banner",
+        "localizedCategory": {
+          "ja": "淘宝網バナー",
+          "ms": "Banner Taobao",
+          "zh": "淘宝banner",
+          "zh-Hant": "淘寶banner",
+          "ru": "Таобао Баннер",
+          "es": "Bandera de Taobao",
+          "in": "Spanduk Taobao"
+        },
+        "icon": "icon_taobao"
+      },
+      {
+        "category": "Taobao Cover",
+        "localizedCategory": {
+          "zh": "淘宝主图",
+          "zh-Hant": "淘寶主圖",
+          "ja": "淘宝網メイン画像",
+          "ms": "Cover Taobao",
+          "ru": "Крышка Таобао",
+          "es": "Portada de Taobao",
+          "in": "Sampul Taobao"
+        },
+        "icon": "icon_taobao",
+        "substitutions": [
+          "Taobao Banner",
+          "Wechat Business Poster"
+        ]
+      },
+      {
+        "category": "Course Ad Cover",
+        "localizedCategory": {
+          "ja": "コース広告カバー",
+          "ms": "Cover Iklan Kursus",
+          "zh": "课程封面",
+          "zh-Hant": "課程封面",
+          "ru": "Обложка курсов",
+          "es": "Portada del anuncio del curso",
+          "in": "Sampul Iklan Kursus"
+        },
+        "icon": "icon_poster"
+      }
+    ]
+  }
+]

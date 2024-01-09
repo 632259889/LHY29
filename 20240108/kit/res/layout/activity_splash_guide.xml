@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/rootView" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lightcone.com.pack.view.NoScrollViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/ivShadow" android:layout_width="fill_parent" android:layout_height="427.0dip" android:src="@drawable/shadow1" android:scaleType="fitEnd" android:layout_alignParentBottom="true" />
+    <lightcone.com.pack.view.AppUIBoldTextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ff4061fa" android:gravity="center" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/Background_Remover" android:layout_above="@id/tvNext" />
+    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvNext" android:background="@drawable/pop_right_btn_bg" android:layout_width="fill_parent" android:layout_height="51.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="105.0dip" android:text="@string/NEXT" android:layout_alignParentBottom="true" />
+    <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/pagePointer" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="0.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <RadioButton android:gravity="center" android:id="@id/page1" android:background="#00000000" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:checked="true" android:button="@drawable/selector_page_point_big" />
+        <RadioButton android:id="@id/page2" android:background="#00000000" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:button="@drawable/selector_page_point_big" />
+        <RadioButton android:id="@id/page3" android:background="#00000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:button="@drawable/selector_page_point_big" />
+        <RadioButton android:id="@id/page4" android:background="#00000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:button="@drawable/selector_page_point_big" />
+    </RadioGroup>
+</RelativeLayout>

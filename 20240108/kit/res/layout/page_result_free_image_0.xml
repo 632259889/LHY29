@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/tabContent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+        <View android:background="@drawable/image_grid_white_repeat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/ivResult" android:layout_alignBottom="@id/ivResult" android:layout_alignStart="@id/ivResult" android:layout_alignEnd="@id/ivResult" />
+        <ImageView android:id="@id/ivResult" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.gms.ads.nativead.NativeAdView android:id="@id/native_ad_view" android:background="@drawable/shape_blue_corners" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/gnt_ad_indicator_text_size" android:textStyle="bold" android:textColor="@color/gnt_ad_green" android:gravity="center" android:id="@id/ad_notification_view" android:background="@drawable/gnt_rounded_corners_shape" android:layout_width="@dimen/gnt_ad_indicator_width" android:layout_height="@dimen/gnt_ad_indicator_height" android:text="Ad" />
+            <LinearLayout android:id="@id/tab_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ad_notification_view">
+                <ImageView android:id="@id/icon" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="2.5dip" android:scaleType="fitCenter" android:layout_marginStart="1.0dip" />
+                <TextView android:textSize="@dimen/gnt_text_size_small" android:textStyle="bold" android:textColor="@color/gnt_gray" android:layout_gravity="center_vertical" android:id="@id/primary" android:background="@color/gnt_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.5dip" android:layout_marginStart="2.5dip" android:layout_marginEnd="1.0dip" />
+            </LinearLayout>
+            <com.google.android.gms.ads.nativead.MediaView android:id="@id/media_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.5dip" android:layout_marginBottom="2.5dip" android:layout_below="@id/tab_top" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" />
+            <Button android:textColor="@color/gnt_white" android:gravity="center" android:id="@id/cta" android:background="@drawable/shape_btn_bottom_corner" android:layout_width="fill_parent" android:layout_height="30.0dip" android:lines="1" android:layout_below="@id/media_view" />
+        </RelativeLayout>
+    </com.google.android.gms.ads.nativead.NativeAdView>
+</merge>

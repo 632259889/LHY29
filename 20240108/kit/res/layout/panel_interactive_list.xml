@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/navBar" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <ImageView android:id="@id/btnClose" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/selector_nav_close_white" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/know_app" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/tabBottom" android:background="#ff161420" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="77.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="15.0dip" android:textColor="#ffcccccc" android:gravity="center" android:id="@id/tvProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cur_progress_num" />
+        <lightcone.com.pack.view.NumberProgressBar android:id="@id/pbProgress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxHeight="13.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/progress_bar_line" android:minHeight="13.0dip" android:layout_toEndOf="@id/tvProgress" style="?android:progressBarStyleHorizontal" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffcccccc" android:gravity="center" android:id="@id/tvLevelTips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="太棒了，即将成为PicsKit达人！" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <lightcone.com.pack.view.WrapRecycleView.WrapRecyclerView android:id="@id/rvInteractive" android:padding="7.5dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/tabBottom" android:layout_below="@id/navBar" />
+</RelativeLayout>

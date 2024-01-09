@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="85.0dip" android:layout_marginTop="7.5dip" android:layout_marginBottom="7.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivShow" android:layout_width="85.0dip" android:layout_height="85.0dip" android:scaleType="fitCenter" android:layout_centerHorizontal="true" app:riv_corner_radius="3.0dip" />
+    <ImageView android:id="@id/ivIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tag_pro" android:layout_alignRight="@id/ivShow" />
+    <ProgressBar android:id="@id/progressState" android:padding="1.5dip" android:layout_width="15.0dip" android:layout_height="15.0dip" android:indeterminateDrawable="@drawable/selector_download_icon" android:layout_alignRight="@id/ivShow" android:layout_alignBottom="@id/ivShow" />
+</RelativeLayout>

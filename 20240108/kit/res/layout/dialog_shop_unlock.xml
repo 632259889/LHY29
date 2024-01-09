@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/shape_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ivBack" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/selector_nav_close" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ff5062fb" android:gravity="center" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:text="@string/Unlock_for_Free" />
+    </RelativeLayout>
+    <ImageView android:id="@id/ivImage" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_margin="10.0dip" android:adjustViewBounds="true" />
+    <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/tvLucky" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/today_lucky_user" />
+    <TextView android:textSize="18.0dip" android:textColor="#ff010013" android:gravity="center" android:id="@id/tvTips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="tips" android:lineSpacingExtra="2.0sp" />
+    <TextView android:textSize="14.0dip" android:textColor="#ff666666" android:gravity="center_vertical" android:id="@id/tvNewError" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/Network_error_Please_try_again" android:drawablePadding="10.0dip" android:drawableStart="@drawable/icon_nowifi" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/tabBtns" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip">
+        <lightcone.com.pack.view.AppUITextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/btnCancel" android:background="@drawable/shape_black_stroke_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:text="@string/Watch" android:layout_weight="1.0" />
+        <lightcone.com.pack.view.AppUITextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnOk" android:background="@drawable/pop_right_btn_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="@string/Join_PicsKit_Pro" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="20.0dip" />
+</LinearLayout>

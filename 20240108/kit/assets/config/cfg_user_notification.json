@@ -1,0 +1,154 @@
+{
+  "说明": "此配置为在线配置。notifyHourOfDay表示推送时间的整点（24小时制，12即当天12:00）。periodFromInitTime为距离初始化推送当天notifyHourOfDay这个时间点的时间间隔(小时,2天后即48)。展示模板的弹窗默认用模板图，加载成功才替换为previewsHd高清图。",
+  "notifyHourOfDay": 12,
+  "features": [
+    {
+      "title": {
+        "zh": "想要超酷的霓虹效果？😎",
+        "en": "Want Chic Neon?😎",
+        "ja": "クールなネオンが欲しいですか？😎",
+        "ms": "Mahukan Neon Sejuk? 😎",
+        "zh-Hant": "超酷的霓虹效果？ 😎",
+        "id": "Ingin Cool Neon? 😎",
+        "es": "¿Quieres Cool Neon? 😎",
+        "ru": "Хотите крутой неон? 😎"
+      },
+      "body": {
+        "zh": "安排！超多酷炫贴纸等你来发挥🔥",
+        "en": "Here we have tons of ready-made cool stickers for you!🔥",
+        "ja": "ここにあなたのための既製のクールなステッカーがたくさんあります！🔥",
+        "ms": "Di sini kami mempunyai banyak pelekat sejuk siap untuk anda! 🔥",
+        "zh-Hant": "安排！超多酷炫貼紙等你來發揮🔥",
+        "id": "Di sini kami memiliki banyak stiker keren siap pakai untuk Anda! 🔥",
+        "es": "¡Aquí tenemos toneladas de pegatinas geniales listas para usar! 🔥",
+        "ru": "У нас есть для вас куча готовых крутых стикеров! 🔥"
+      },
+      "featureName": "Stickers - Halo_v4",
+      "alertText": {
+        "zh": "安排！超多酷炫贴纸等你来发挥🔥",
+        "en": "Here we have tons of ready-made cool stickers for you!🔥",
+        "ja": "ここにあなたのための既製のクールなステッカーがたくさんあります！🔥",
+        "ms": "Di sini kami mempunyai banyak pelekat sejuk siap untuk anda! 🔥",
+        "zh-Hant": "安排！超多酷炫貼紙等你來發揮🔥",
+        "id": "Di sini kami memiliki banyak stiker keren siap pakai untuk Anda! 🔥",
+        "es": "¡Aquí tenemos toneladas de pegatinas geniales listas para usar! 🔥",
+        "ru": "У нас есть для вас куча готовых крутых стикеров! 🔥"
+      },
+      "periodFromInitTime": 384
+    },
+    {
+      "title": {
+        "zh": "制作酷炫海报🌟",
+        "en": "Make Chic Poster🌟",
+        "ja": "シックなポスター🌟",
+        "ms": "Buat Poster Chic🌟",
+        "zh-Hant": "製作酷炫海報🌟",
+        "id": "Buat Poster Cantik🌟",
+        "es": "Hacer un cartel elegante🌟",
+        "ru": "Сделать шикарный плакат🌟"
+      },
+      "body": {
+        "zh": "用这个模板给你的图片升级啦🤩",
+        "en": "Renew your photo with this fabulous template🤩",
+        "ja": "この素晴らしいテンプレートで写真を更新してください🤩",
+        "ms": "Perbaharui foto anda dengan templat yang hebat ini🤩",
+        "zh-Hant": "用這個模板給你的圖片升級啦🤩",
+        "id": "Perbarui foto Anda dengan template luar biasa ini🤩",
+        "es": "Renueva tu foto con esta fabulosa plantilla🤩",
+        "ru": "Обновите свою фотографию с помощью этого великолепного шаблона🤩"
+      },
+      "featureName": "Special - Attitude",
+      "alertText": {
+        "zh": "用这个模板给你的图片升级啦🤩",
+        "en": "Renew your photo with this fabulous template🤩",
+        "ja": "この素晴らしいテンプレートで写真を更新してください🤩",
+        "ms": "Perbaharui foto anda dengan templat yang hebat ini🤩",
+        "zh-Hant": "用這個模板給你的圖片升級啦🤩",
+        "id": "Perbarui foto Anda dengan template luar biasa ini🤩",
+        "es": "Renueva tu foto con esta fabulosa plantilla🤩",
+        "ru": "Обновите свою фотографию с помощью этого великолепного шаблона🤩"
+      },
+      "periodFromInitTime": 288,
+      "previewsHd": [
+        "T-81C-HD.jpg",
+        "T-81D-HD.jpg"
+      ]
+    },
+    {
+      "title": {
+        "zh": "召唤精灵",
+        "en": "Summon a Genie",
+        "ja": "魔神を召喚",
+        "ms": "Panggil Ahli Sihir",
+        "zh-Hant": "召喚精靈",
+        "id": "Panggil Penyihirnya",
+        "es": "Invocar a un genio",
+        "ru": "Призвать джинна"
+      },
+      "body": {
+        "zh": "一键召唤精灵获得魔力！😆",
+        "en": "Summon your own genie and get the magic power!😆",
+        "ja": "自分の魔神を召喚して魔法の力を手に入れよう！😆",
+        "ms": "Panggil jin anda sendiri dan dapatkan kekuatan sihir!😆",
+        "zh-Hant": "一鍵召喚精靈獲得魔力！😆",
+        "id": "Panggil elf dan dapatkan energi magis!😆",
+        "es": "¡Invoca a un genio y obtén el poder mágico!😆",
+        "ru": "Вызовите джинна и получите магическую силу!😆"
+      },
+      "featureName": "Special - Summon a Genie",
+      "alertText": {
+        "zh": "一键召唤精灵获得魔力！😆",
+        "en": "Summon your own genie and get the magic power!😆",
+        "ja": "自分の魔神を召喚して魔法の力を手に入れよう！😆",
+        "ms": "Panggil jin anda sendiri dan dapatkan kekuatan sihir!😆",
+        "zh-Hant": "一鍵召喚精靈獲得魔力！😆",
+        "id": "Panggil elf dan dapatkan energi magis!😆",
+        "es": "¡Invoca a un genio y obtén el poder mágico!😆",
+        "ru": "Вызовите джинна и получите магическую силу!😆"
+      },
+      "periodFromInitTime": 48,
+      "previewsHd": [
+        "T-131C-HD.jpg",
+        "T-131D-HD.jpg"
+      ]
+    },
+    {
+      "title": {
+        "zh": "最美黄昏日落时",
+        "en": "During Golden Hour",
+        "ja": "ゴールデンアワー中",
+        "ms": "Rebut Waktu Utama",
+        "zh-Hant": "最美黃昏日落時",
+        "es": "Agarra la hora dorada",
+        "ru": "Получите золотой час",
+        "id": "Raih Jam Emas"
+      },
+      "body": {
+        "zh": "一秒添加最美的黄金窗影 🌇",
+        "en": "Add the best golden window shadow with a tap 🌇",
+        "ja": "タップで最高のゴールデンウィンドウシャドウを追加する ",
+        "ms": "Tambahkan bayangan tingkap emas yang paling indah dengan satu klik🌇",
+        "zh-Hant": "一秒添加最美的黃金窗影 🌇",
+        "es": "Agregue la sombra de ventana más hermosa con un clic 🌇",
+        "ru": "Добавьте лучшую золотую тень окна одним касанием",
+        "id": "Tambahkan bayangan jendela emas terindah dengan satu klik 🌇"
+      },
+      "featureName": "Special - Golden Hour",
+      "alertText": {
+        "zh": "一秒添加最美的黄金窗影 🌇",
+        "en": "Add the best golden window shadow with a tap 🌇",
+        "ja": "タップで最高のゴールデンウィンドウシャドウを追加する ",
+        "ms": "Tambahkan bayangan tingkap emas yang paling indah dengan satu klik🌇",
+        "zh-Hant": "一秒添加最美的黃金窗影 🌇",
+        "es": "Agregue la sombra de ventana más hermosa con un clic 🌇",
+        "ru": "Добавьте лучшую золотую тень окна одним касанием",
+        "id": "Tambahkan bayangan jendela emas terindah dengan satu klik 🌇"
+      },
+      "periodFromInitTime": 120,
+      "previewsHd": [
+        "T-120C-HD.jpg",
+        "T-120D-HD.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/dialog_loading_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/inner_view" android:background="@drawable/shape_white" android:visibility="visible" android:layout_width="300.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/tvTitle" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:text="@string/Cant_find_the_project_you_want" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        <ScrollView android:id="@id/sv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/tvTitle">
+            <LinearLayout android:orientation="vertical" android:id="@id/llContent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/tvHint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Hello_due_to_the_privacy_project" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+            </LinearLayout>
+        </ScrollView>
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/okBtn" android:background="@drawable/pop_btn_bg_v2" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="25.0dip" android:layout_marginBottom="20.0dip" android:text="@string/ok" android:layout_below="@id/sv" android:layout_centerHorizontal="true" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    </RelativeLayout>
+</LinearLayout>

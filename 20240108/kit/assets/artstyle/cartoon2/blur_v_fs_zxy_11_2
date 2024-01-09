@@ -1,0 +1,60 @@
+#define iChannel0 inputImageTexture
+#define fragColor gl_FragColor
+#define w1 0.033159047
+#define w2 0.054670025
+#define w3 0.08065691
+#define w4 0.10648267
+#define w5 0.12579441
+#define w6 0.13298076
+#define wS 0.9345069
+
+//#define w1 0.3353352
+//#define w2 0.6065306
+//#define w3 1.0
+//#define wS 1.7517658
+//
+//#define w1 0.3246524
+//#define w2 0.6065306
+//#define w3 0.8824969
+//#define w4 1.0
+//#define wS 4.6273600
+
+precision highp float;
+
+varying vec2 st;
+uniform sampler2D inputImageTexture;
+uniform vec2 iResolution;
+uniform float stride;
+
+//vec4 texture2D(sampler2D src, vec2 loc){
+//    vec4 color = texture2D(src, loc);
+//    if(loc.y < 0. || loc.y >= 1.){
+////        float a = fract(loc.y);
+//        color = vec4(vec3(0.), 1.);
+////        color = vec4(0.);
+//    }
+//    return color;
+//}
+
+vec4 BlurV (sampler2D source, vec2 size, vec2 uv) {
+
+    vec4 A = vec4(0.0);
+    vec4 C = vec4(0.0);
+
+    float height = stride / size.y;
+
+    A = texture2D(source, (uv + vec2(0., height * -5.))) * w1 + texture2D(source, (uv + vec2(0., height * -4.))) * w2 + texture2D(source, (uv + vec2(0., height * -3.))) * w3
+    + texture2D(source, (uv + vec2(0., height * -2.))) * w4 + texture2D(source, (uv + vec2(0., height * -1.))) * w5 + texture2D(source, (uv)) * w6
+    + texture2D(source, (uv + vec2(0., height * 1.))) * w5 + texture2D(source, (uv + vec2(0., height * 2.))) * w4 + texture2D(source, (uv + vec2(0., height * 3.))) * w3
+    + texture2D(source, (uv + vec2(0., height * 4.))) * w2 + texture2D(source, (uv + vec2(0., height * 5.))) * w1;
+
+    A = A / wS;
+//    A = A * smoothstep(0., stride * 5. / size.y, mod(uv.y, 1. - stride * 5. / size.y));
+    return A;
+}
+
+void main()
+{
+    // Apply vertical blur to buffer A
+    fragColor = BlurV(iChannel0, iResolution.xy, st);
+}

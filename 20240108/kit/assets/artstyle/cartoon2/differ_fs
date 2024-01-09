@@ -1,0 +1,23 @@
+precision highp float;
+
+varying vec2 st;
+uniform sampler2D inputImageTexture;
+uniform sampler2D inputTexture2;
+
+float tanh(float x){
+    return (exp(x) - exp(-x)) / (exp(x) + exp(-x));
+}
+
+void main(){
+    vec3 differ = texture2D(inputImageTexture, st).rgb - texture2D(inputTexture2, st).rgb;
+
+//    float gray = dot(differ, vec3(0.299, 0.587, 0.114));
+//    if(gray < 0.){
+//        gl_FragColor = vec4(vec3(16. * tanh(abs(gray))), 1.);
+//    }else{
+//        gl_FragColor = vec4(vec3(0.), 1.);
+//    }
+//    gl_FragColor = vec4(vec3(tanh(4. * differ.r), tanh(4. * differ.g), tanh(4. * differ.b)), 1.);
+//    gl_FragColor = vec4(differ, 1.);
+    gl_FragColor = vec4((differ + vec3(1.)) / 2. , 1.);
+}

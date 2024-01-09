@@ -1,0 +1,11 @@
+.class public interface abstract Lcom/google/android/gms/internal/ads/sa2;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@22.6.0"
+
+
+# virtual methods
+.method public abstract a(Lcom/google/android/gms/ads/internal/client/zzl;Ljava/lang/String;Lcom/google/android/gms/internal/ads/qa2;Lcom/google/android/gms/internal/ads/ra2;)Z
+.end method
+
+.method public abstract zza()Z
+.end method

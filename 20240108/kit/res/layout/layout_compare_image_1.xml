@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lightcone.com.pack.view.CompareLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lightcone.com.pack.video.player.VideoTextureView android:id="@id/textureView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/ivAdjust" android:layout_width="85.0dip" android:layout_height="fill_parent">
+        <View android:layout_gravity="center" android:background="#ff7364f5" android:layout_width="3.0dip" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/collage_btn_right_left" />
+    </FrameLayout>
+</lightcone.com.pack.view.CompareLayout>

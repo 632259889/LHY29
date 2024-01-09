@@ -1,0 +1,3424 @@
+[
+  {
+    "name": "Special - Summon a Genie",
+    "project": "FEATURES_00131",
+    "pro": true,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 1,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-131C.webp",
+      "T-131D.webp"
+    ],
+    "commands": [
+      "layerIndex1",
+      "art",
+      "Rich",
+      -1,
+      0.2
+    ],
+    "width": 400,
+    "height": 500
+  },
+  {
+    "name": "Christmas_1",
+    "project": "FEATURES_00152",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 1,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-152C.webp",
+      "T-152D.webp"
+    ],
+    "commands": [
+      "layerIndex1"
+    ],
+    "width": 1,
+    "height": 1
+  },
+  {
+    "name": "Christmas_2",
+    "project": "FEATURES_00154",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 1,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-154C.webp",
+      "T-154D.webp"
+    ],
+    "commands": [
+      "layerIndex1"
+    ],
+    "width": 1,
+    "height": 1
+  },
+  {
+    "name": "Special - Golden Hour",
+    "project": "FEATURES_00120",
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "shouldResize": true,
+      "ls": [
+        {
+          "idx": 0,
+          "steps": [
+            {
+              "type": "filter",
+              "params": {
+                "name": "SU01",
+                "intensity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-120C.webp",
+      "T-120D.webp"
+    ],
+    "commands": [
+      "adjust",
+      "{\"Contrast\": 30,\"Temperature\": -16,\"Brightness\": -6}"
+    ],
+    "width": 333,
+    "height": 500
+  },
+  {
+    "name": "Special - Attitude",
+    "project": "FEATURES_00081",
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "remould",
+              "params": {
+                "name": "RemouldLookupFilter",
+                "remouldParams": {
+                  "lookupImgName": "lookup_FEATURES_00081.png"
+                }
+              }
+            },
+            {
+              "type": "flip",
+              "params": {
+                "vertical": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-81C.webp",
+      "T-81D.webp"
+    ],
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "name": "Dripping - Glowing Butterflies",
+    "project": "FEATURES_00090",
+    "pro": false,
+    "isPortrait": true,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 2,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            },
+            {
+              "type": "remould",
+              "params": {
+                "name": "DrippingFilter",
+                "remouldParams": {
+                  "ratio": 3,
+                  "drippingMask": "FEATURES_00090.png"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex2",
+      "art",
+      "Oil",
+      -1,
+      0.75
+    ],
+    "previews": [
+      "T-90C.webp",
+      "T-90D.webp"
+    ],
+    "width": 500,
+    "height": 500
+  },
+  {
+    "name": "Special - Halo Love",
+    "project": "FEATURES_00132",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 3,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-132C.webp",
+      "T-132D.webp"
+    ],
+    "commands": [
+      "layerIndex3",
+      "art",
+      "Stamp",
+      -1,
+      0.6
+    ],
+    "width": 500,
+    "height": 500
+  },
+  {
+    "name": "Special - Different Background",
+    "project": "FEATURES_00134",
+    "pro": true,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 4,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            },
+            {
+              "type": "cacheImage"
+            }
+          ]
+        },
+        {
+          "idx": 3,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "readImage"
+            },
+            {
+              "type": "remould",
+              "params": {
+                "name": "GlitchRGBFilter",
+                "remouldParams": {
+                  "pos": -1,
+                  "r": 0,
+                  "g": 0.741,
+                  "b": 0.984
+                }
+              }
+            },
+            {
+              "type": "adjust",
+              "params": {
+                "Blur": 60
+              }
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "readImage"
+            },
+            {
+              "type": "remould",
+              "params": {
+                "name": "GlitchRGBFilter",
+                "remouldParams": {
+                  "pos": -1,
+                  "r": 1,
+                  "g": 0.89,
+                  "b": 0.302
+                }
+              }
+            },
+            {
+              "type": "adjust",
+              "params": {
+                "Blur": 60
+              }
+            }
+          ]
+        },
+        {
+          "idx": 1,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "readImage"
+            },
+            {
+              "type": "remould",
+              "params": {
+                "name": "GlitchRGBFilter",
+                "remouldParams": {
+                  "pos": -1,
+                  "r": 1,
+                  "g": 0.239,
+                  "b": 0.976
+                }
+              }
+            },
+            {
+              "type": "adjust",
+              "params": {
+                "Blur": 60
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-134C.webp",
+      "T-134D.webp"
+    ],
+    "pickMapping": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "commands": [
+      "layerIndex5"
+    ],
+    "width": 375,
+    "height": 500
+  },
+  {
+    "name": "Special - Cutting Board",
+    "project": "FEATURES_00085",
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        },
+        {
+          "idx": 1,
+          "steps": [
+            {
+              "type": "remould",
+              "params": {
+                "name": "ClippingMaskFilter",
+                "remouldParams": {
+                  "sourceImgName": "FEATURES_00085.png",
+                  "asSource": true,
+                  "aspectFill": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "pickMapping": [
+      0,
+      0
+    ],
+    "commands": [
+      "layerIndex1",
+      "art",
+      "Stamp"
+    ],
+    "previews": [
+      "T-85C.webp",
+      "T-85D.webp"
+    ],
+    "width": 333,
+    "height": 500
+  },
+  {
+    "name": "Dark Comic",
+    "feature": "template",
+    "project": "FEATURES_00138",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 3,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            },
+            {
+              "type": "cacheImage"
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "remould",
+              "params": {
+                "name": "BlueGradientFilter"
+              }
+            },
+            {
+              "type": "translate",
+              "params": {
+                "x": 0.05
+              }
+            }
+          ]
+        },
+        {
+          "idx": 1,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "remould",
+              "params": {
+                "name": "PurpleGradientFilter"
+              }
+            },
+            {
+              "type": "translate",
+              "params": {
+                "x": -0.05
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex3"
+    ],
+    "previews": [
+      "T-138C.jpg",
+      "T-138D.jpg"
+    ],
+    "width": 300,
+    "height": 400
+  },
+  {
+    "name": "Dripping - Silver Planet",
+    "project": "FEATURES_00091",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 3,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            },
+            {
+              "type": "remould",
+              "params": {
+                "name": "DrippingFilter",
+                "remouldParams": {
+                  "ratio": 4,
+                  "drippingMask": "FEATURES_00091.png"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex3",
+      "art",
+      -100012,
+      -1,
+      0.6
+    ],
+    "previews": [
+      "T-91C.webp",
+      "T-91D.webp"
+    ],
+    "width": 500,
+    "height": 500
+  },
+  {
+    "name": "Christmas_3",
+    "project": "FEATURES_00155",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 1,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            },
+            {
+              "type": "filter",
+              "params": {
+                "name": "SUM04",
+                "intensity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-155C.webp",
+      "T-155D.webp"
+    ],
+    "commands": [
+      "layerIndex1"
+    ],
+    "width": 1,
+    "height": 1
+  },
+  {
+    "name": "2021!",
+    "project": "FEATURES_00156",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 2,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-156C.webp",
+      "T-156D.webp"
+    ],
+    "commands": [
+      "layerIndex2"
+    ],
+    "width": 2,
+    "height": 2
+  },
+  {
+    "name": "Happy New Year",
+    "project": "FEATURES_00153",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 0,
+          "aspectFill": true,
+          "steps": [
+            {
+              "type": "cacheImage"
+            }
+          ]
+        },
+        {
+          "idx": 3,
+          "aspectFill": true,
+          "steps": [
+            {
+              "type": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-153C.webp",
+      "T-153D.webp"
+    ],
+    "commands": [
+      "layerIndex3"
+    ],
+    "width": 1,
+    "height": 1
+  },
+  {
+    "name": "Indie kid",
+    "project": "FEATURES_00136",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0,
+          "steps": [
+            {
+              "type": "remould",
+              "params": {
+                "name": "RemouldLookupFilter",
+                "remouldParams": {
+                  "lookupImgName": "Indie-kid.png"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-136C.jpg",
+      "T-136D.jpg"
+    ],
+    "commands": [
+      "layerIndex0"
+    ],
+    "width": 450,
+    "height": 500
+  },
+  {
+    "name": "Special - Starry Night",
+    "project": "FEATURES_00083",
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 2,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            },
+            {
+              "type": "fill",
+              "params": {
+                "color": "#000000"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-83C.webp",
+      "T-83D.webp"
+    ],
+    "width": 333,
+    "height": 500
+  },
+  {
+    "name": "Drip_2",
+    "project": "FEATURES_00145",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 3,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            },
+            {
+              "type": "remould",
+              "params": {
+                "name": "DrippingFilter",
+                "remouldParams": {
+                  "ratio": 3.5,
+                  "drippingMask": "Drip2_4.png"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex3"
+    ],
+    "previews": [
+      "T-145C.jpg",
+      "T-145D.jpg"
+    ],
+    "width": 450,
+    "height": 450
+  },
+  {
+    "name": "Exposure - Sea of Stars",
+    "project": "FEATURES_00077",
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "shouldResize": true,
+      "ls": [
+        {
+          "idx": 1,
+          "steps": [
+            {
+              "type": "remould",
+              "params": {
+                "name": "RemouldLookupFilter",
+                "remouldParams": {
+                  "lookupImgName": "lookup_FEATURES_00077.png"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "commands": [
+      "blend"
+    ],
+    "previews": [
+      "T-77C.webp",
+      "T-77D.webp"
+    ],
+    "width": 339,
+    "height": 500
+  },
+  {
+    "name": "Holographic",
+    "project": "FEATURES_00142",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "shouldResize": true,
+      "ls": [
+        {
+          "idx": 0
+        },
+        {
+          "idx": 2,
+          "steps": [
+            {
+              "type": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-142C.jpg",
+      "T-142D.jpg"
+    ],
+    "commands": [
+      "layerIndex2"
+    ],
+    "width": 400,
+    "height": 500
+  },
+  {
+    "name": "Special - Glorious Halo",
+    "project": "FEATURES_00107_V2",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        },
+        {
+          "idx": 4,
+          "steps": [
+            {
+              "type": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    "pickMapping": [
+      0,
+      0
+    ],
+    "previews": [
+      "T-107C.webp",
+      "T-107D.webp"
+    ],
+    "width": 400,
+    "height": 500
+  },
+  {
+    "name": "Dripping - Holographic",
+    "project": "FEATURES_00087",
+    "pro": true,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 2,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            },
+            {
+              "type": "remould",
+              "params": {
+                "name": "DrippingFilter",
+                "remouldParams": {
+                  "ratio": 3.5,
+                  "drippingMask": "FEATURES_00087.png"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex2",
+      "art",
+      -100003,
+      -1,
+      0.5
+    ],
+    "previews": [
+      "T-87C.webp",
+      "T-87D.webp"
+    ],
+    "width": 500,
+    "height": 500
+  },
+  {
+    "name": "Retro disco",
+    "project": "FEATURES_00147",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 2,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            },
+            {
+              "type": "filter",
+              "params": {
+                "name": "BW07",
+                "intensity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex2"
+    ],
+    "previews": [
+      "T-147C.jpg",
+      "T-147D.jpg"
+    ],
+    "width": 335,
+    "height": 500
+  },
+  {
+    "name": "Cross the universe",
+    "project": "FEATURES_00143",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "shouldResize": true,
+      "ls": [
+        {
+          "idx": 0,
+          "steps": [
+            {
+              "type": "filter",
+              "params": {
+                "name": "BW03",
+                "intensity": 1
+              }
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "filter",
+              "params": {
+                "name": "BW03",
+                "intensity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-143C.jpg",
+      "T-143D.jpg"
+    ],
+    "commands": [
+      "layerIndex2"
+    ],
+    "width": 400,
+    "height": 500
+  },
+  {
+    "name": "Poster",
+    "project": "FEATURES_00141",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 5,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            },
+            {
+              "type": "filter",
+              "params": {
+                "name": "VL03",
+                "intensity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-141C.jpg",
+      "T-141D.jpg"
+    ],
+    "width": 400,
+    "height": 500
+  },
+  {
+    "name": "Cubes",
+    "feature": "template",
+    "project": "FEATURES_00137",
+    "pro": true,
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 1,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            }
+          ]
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex1"
+    ],
+    "previews": [
+      "T-137C.jpg",
+      "T-137D.jpg"
+    ],
+    "width": 224,
+    "height": 400
+  },
+  {
+    "name": "Doodle Babe",
+    "project": "FEATURES_00144",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 3,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-144C.jpg",
+      "T-144D.jpg"
+    ],
+    "commands": [
+      "layerIndex3"
+    ],
+    "width": 400,
+    "height": 500
+  },
+  {
+    "name": "Shadow",
+    "project": "FEATURES_00139",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "previews": [
+      "T-139C.jpg",
+      "T-139D.jpg"
+    ],
+    "width": 333,
+    "height": 500
+  },
+  {
+    "name": "Thanksgiving - 1",
+    "project": "FEATURES_00150",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "shouldResize": false,
+      "ls": [
+        {
+          "idx": 0,
+          "useLayerState": true,
+          "aspectFill": true
+        }
+      ]
+    },
+    "previews": [
+      "T-150C.webp",
+      "T-150D.webp"
+    ],
+    "pickMapping": [
+      0
+    ],
+    "commands": [
+      "layerIndex0",
+      "filter",
+      "SU01"
+    ],
+    "width": 281,
+    "height": 500
+  },
+  {
+    "name": "Thanksgiving - 2",
+    "project": "FEATURES_00151",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "shouldResize": false,
+      "ls": [
+        {
+          "idx": 0,
+          "useLayerState": true,
+          "aspectFill": true
+        }
+      ]
+    },
+    "previews": [
+      "T-151C.webp",
+      "T-151D.webp"
+    ],
+    "pickMapping": [
+      0
+    ],
+    "commands": [
+      "layerIndex0",
+      "filter",
+      "HA08"
+    ],
+    "width": 281,
+    "height": 500
+  },
+  {
+    "name": "Background - Burning",
+    "project": "FEATURES_00099",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "shouldResize": true,
+      "ls": [
+        {
+          "idx": 0
+        },
+        {
+          "idx": 1,
+          "virtual": true
+        },
+        {
+          "idx": 2,
+          "steps": [
+            {
+              "type": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    "pickMapping": [
+      0,
+      0,
+      0
+    ],
+    "commands": [
+      "layerIndex2"
+    ],
+    "previews": [
+      "T-99C.webp",
+      "T-99D.webp"
+    ],
+    "width": 500,
+    "height": 500
+  },
+  {
+    "name": "Special - Surreal City",
+    "project": "FEATURES_00133",
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "shouldResize": true,
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "previews": [
+      "T-133C.webp",
+      "T-133D.webp"
+    ],
+    "pickMapping": [
+      0
+    ],
+    "commands": [
+      "layerIndex0",
+      "filter",
+      "BW07"
+    ],
+    "width": 375,
+    "height": 500
+  },
+  {
+    "name": "Halloween 1",
+    "project": "FEATURES_00148",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0,
+          "useLayerState": true,
+          "aspectFill": true
+        }
+      ]
+    },
+    "previews": [
+      "T-148C.jpg",
+      "T-148D.jpg"
+    ],
+    "commands": [
+      "layerIndex0"
+    ],
+    "width": 281,
+    "height": 500
+  },
+  {
+    "name": "Special - RGB",
+    "project": "FEATURES_00071",
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "shouldResize": true,
+      "ls": [
+        {
+          "idx": 0,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "cacheImage",
+              "params": {
+                "index": 0
+              }
+            },
+            {
+              "type": "remould",
+              "params": {
+                "name": "GlitchBgFilter"
+              }
+            }
+          ]
+        },
+        {
+          "aspectFit": true,
+          "idx": 1,
+          "steps": [
+            {
+              "type": "readImage",
+              "params": {
+                "index": 0
+              }
+            },
+            {
+              "type": "feather",
+              "params": {
+                "threshold": 0.02
+              }
+            }
+          ]
+        },
+        {
+          "aspectFit": true,
+          "idx": 2,
+          "steps": [
+            {
+              "type": "readImage",
+              "params": {
+                "index": 0
+              }
+            },
+            {
+              "type": "remould",
+              "params": {
+                "name": "GlitchRGBFilter",
+                "remouldParams": {
+                  "pos": 0,
+                  "r": 1,
+                  "g": 0,
+                  "b": 0
+                }
+              }
+            },
+            {
+              "type": "translate",
+              "params": {
+                "x": -0.15
+              }
+            },
+            {
+              "type": "feather",
+              "params": {
+                "threshold": 0.02
+              }
+            }
+          ]
+        },
+        {
+          "aspectFit": true,
+          "idx": 3,
+          "steps": [
+            {
+              "type": "readImage",
+              "params": {
+                "index": 0
+              }
+            },
+            {
+              "type": "remould",
+              "params": {
+                "name": "GlitchRGBFilter",
+                "remouldParams": {
+                  "pos": 0,
+                  "r": 0,
+                  "g": 0.8,
+                  "b": 0.8
+                }
+              }
+            },
+            {
+              "type": "translate",
+              "params": {
+                "x": 0.15
+              }
+            },
+            {
+              "type": "feather",
+              "params": {
+                "threshold": 0.02
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "pickMapping": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "previews": [
+      "T-71C.webp",
+      "T-71D.webp"
+    ],
+    "width": 500,
+    "height": 500
+  },
+  {
+    "name": "Halloween 2",
+    "project": "FEATURES_00149",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 4,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-149C.jpg",
+      "T-149D.jpg"
+    ],
+    "commands": [
+      "layerIndex4",
+      "glitch",
+      "Wobble",
+      0.4
+    ],
+    "width": 281,
+    "height": 500
+  },
+  {
+    "name": "Surround",
+    "project": "FEATURES_00140",
+    "pro": true,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 0,
+          "aspectFill": true,
+          "steps": [
+            {
+              "type": "cacheImage"
+            },
+            {
+              "type": "filter",
+              "params": {
+                "name": "BW07",
+                "intensity": 1
+              }
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "aspectFill": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "filter",
+              "params": {
+                "name": "BW07",
+                "intensity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "previews": [
+      "T-140C.jpg",
+      "T-140D.jpg"
+    ],
+    "width": 300,
+    "height": 400
+  },
+  {
+    "name": "Special - My Doppelganger",
+    "project": "FEATURES_00135",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "shouldResize": true,
+      "ls": [
+        {
+          "idx": 6,
+          "aspectOrigin": true,
+          "steps": [
+            {
+              "type": "portrait"
+            }
+          ]
+        },
+        {
+          "idx": 5,
+          "aspectOrigin": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "cacheImage"
+            },
+            {
+              "type": "translate",
+              "params": {
+                "y": -0.025
+              }
+            }
+          ]
+        },
+        {
+          "idx": 4,
+          "aspectOrigin": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "cacheImage"
+            },
+            {
+              "type": "translate",
+              "params": {
+                "y": -0.05
+              }
+            }
+          ]
+        },
+        {
+          "idx": 3,
+          "aspectOrigin": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "cacheImage"
+            },
+            {
+              "type": "translate",
+              "params": {
+                "y": -0.075
+              }
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "aspectOrigin": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "cacheImage"
+            },
+            {
+              "type": "translate",
+              "params": {
+                "y": -0.1
+              }
+            }
+          ]
+        },
+        {
+          "idx": 1,
+          "aspectOrigin": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "cacheImage"
+            },
+            {
+              "type": "translate",
+              "params": {
+                "y": -0.125
+              }
+            }
+          ]
+        },
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "pickMapping": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "previews": [
+      "T-135C.webp",
+      "T-135D.webp"
+    ],
+    "width": 360,
+    "height": 500
+  },
+  {
+    "name": "Special - Glorious Halo",
+    "project": "FEATURES_00107_V2",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        },
+        {
+          "idx": 4,
+          "steps": [
+            {
+              "type": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    "pickMapping": [
+      0,
+      0
+    ],
+    "previews": [
+      "T-107C.webp",
+      "T-107D.webp"
+    ],
+    "width": 400,
+    "height": 500
+  },
+  {
+    "name": "Special - Screens",
+    "project": "FEATURES_00130",
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 1,
+          "aspectOrigin": true
+        }
+      ]
+    },
+    "previews": [
+      "T-130C.jpg",
+      "T-130D.jpg"
+    ],
+    "commands": [
+      "layerIndex1",
+      "glitch",
+      "GB",
+      0.05
+    ],
+    "width": 281,
+    "height": 500
+  },
+  {
+    "name": "Geometry",
+    "feature": "template",
+    "project": "FEATURES_00146",
+    "pro": true,
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 2,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            },
+            {
+              "type": "outline",
+              "params": {
+                "color": "#adacd2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex2"
+    ],
+    "previews": [
+      "T-146C.jpg",
+      "T-146D.jpg"
+    ],
+    "width": 450,
+    "height": 450
+  },
+  {
+    "name": "Background - Unicorn",
+    "project": "FEATURES_00095",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "shouldResize": true,
+      "ls": [
+        {
+          "idx": 0
+        },
+        {
+          "idx": 1,
+          "virtual": true
+        },
+        {
+          "idx": 2,
+          "virtual": true
+        },
+        {
+          "idx": 3,
+          "steps": [
+            {
+              "type": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    "pickMapping": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "commands": [
+      "layerIndex2"
+    ],
+    "previews": [
+      "T-95C.webp",
+      "T-95D.webp"
+    ],
+    "width": 500,
+    "height": 500
+  },
+  {
+    "name": "Background - Shining Stars",
+    "project": "FEATURES_00093",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "shouldResize": true,
+      "ls": [
+        {
+          "idx": 0
+        },
+        {
+          "idx": 1,
+          "virtual": true
+        },
+        {
+          "idx": 2,
+          "steps": [
+            {
+              "type": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    "pickMapping": [
+      0,
+      0,
+      0
+    ],
+    "commands": [
+      "layerIndex2"
+    ],
+    "previews": [
+      "T-93C.webp",
+      "T-93D.webp"
+    ],
+    "width": 500,
+    "height": 500
+  },
+  {
+    "name": "Special - In the Mirror 1",
+    "project": "FEATURES_00121",
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0,
+          "aspectFill": true
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex0"
+    ],
+    "previews": [
+      "T-121C.webp",
+      "T-121D.webp"
+    ],
+    "width": 333,
+    "height": 500
+  },
+  {
+    "name": "Special - Splatter Art 3",
+    "project": "FEATURES_00117",
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "previews": [
+      "T-117C.webp",
+      "T-117D.webp"
+    ],
+    "commands": [
+      "layerIndex0"
+    ],
+    "width": 1,
+    "height": 1
+  },
+  {
+    "name": "Dripping - Vintage",
+    "project": "FEATURES_00089",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 2,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            },
+            {
+              "type": "remould",
+              "params": {
+                "name": "DrippingFilter",
+                "remouldParams": {
+                  "ratio": 3.5,
+                  "drippingMask": "FEATURES_00089.png"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex2"
+    ],
+    "previews": [
+      "T-89C.webp",
+      "T-89D.webp"
+    ],
+    "width": 500,
+    "height": 500
+  },
+  {
+    "name": "Special - Smoky",
+    "project": "FEATURES_00111",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        },
+        {
+          "idx": 2,
+          "steps": [
+            {
+              "type": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    "pickMapping": [
+      0,
+      0
+    ],
+    "previews": [
+      "T-111C.webp",
+      "T-111D.webp"
+    ],
+    "width": 720,
+    "height": 900
+  },
+  {
+    "name": "Special - Comic Slip",
+    "project": "FEATURES_00086",
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        },
+        {
+          "idx": 1,
+          "steps": [
+            {
+              "type": "remould",
+              "params": {
+                "name": "ClippingMaskFilter",
+                "remouldParams": {
+                  "sourceImgName": "FEATURES_00086.png",
+                  "asSource": true,
+                  "aspectFill": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "pickMapping": [
+      0,
+      0
+    ],
+    "commands": [
+      "layerIndex1",
+      "art",
+      "Oil"
+    ],
+    "previews": [
+      "T-86C.webp",
+      "T-86D.webp"
+    ],
+    "width": 400,
+    "height": 500
+  },
+  {
+    "name": "Special - Halo",
+    "feature": "glory",
+    "pro": true,
+    "isPortrait": true,
+    "glory": 2,
+    "previews": [
+      "T-31C.webp",
+      "T-31D.webp"
+    ],
+    "demoItems": [
+    ],
+    "width": 500,
+    "height": 560
+  },
+  {
+    "name": "Dripping - Halo",
+    "project": "FEATURES_00088",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 1,
+          "aspectFit": true,
+          "steps": [
+            {
+              "type": "portrait"
+            },
+            {
+              "type": "trim"
+            },
+            {
+              "type": "remould",
+              "params": {
+                "name": "DrippingFilter",
+                "remouldParams": {
+                  "ratio": 5.5,
+                  "drippingMask": "FEATURES_00088.png"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex1"
+    ],
+    "previews": [
+      "T-88C.webp",
+      "T-88D.webp"
+    ],
+    "width": 500,
+    "height": 500
+  },
+  {
+    "name": "Special - In the Mirror 2",
+    "project": "FEATURES_00122",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0,
+          "aspectFill": true
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex0"
+    ],
+    "previews": [
+      "T-122C.webp",
+      "T-122D.webp"
+    ],
+    "width": 500,
+    "height": 500
+  },
+  {
+    "name": "Special - VOGUE 1",
+    "project": "FEATURES_00126_V2",
+    "pro": false,
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        },
+        {
+          "idx": 3,
+          "steps": [
+            {
+              "type": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    "pickMapping": [
+      0,
+      0
+    ],
+    "commands": [
+      "layerIndex3"
+    ],
+    "previews": [
+      "T-126C.webp",
+      "T-126D.webp"
+    ],
+    "width": 281,
+    "height": 500
+  },
+  {
+    "name": "Special - In the Mirror 3",
+    "project": "FEATURES_00123",
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0,
+          "aspectFill": true
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex0"
+    ],
+    "previews": [
+      "T-123C.webp",
+      "T-123D.webp"
+    ],
+    "width": 333,
+    "height": 500
+  },
+  {
+    "name": "Special - In the Mirror 4",
+    "project": "FEATURES_00124",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0,
+          "aspectFill": true
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex0"
+    ],
+    "previews": [
+      "T-124C.webp",
+      "T-124D.webp"
+    ],
+    "width": 500,
+    "height": 500
+  },
+  {
+    "name": "Special - Classic SUB 1",
+    "project": "FEATURES_00112",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "previews": [
+      "T-112C.webp",
+      "T-112D.webp"
+    ],
+    "commands": [
+      "layerIndex0"
+    ],
+    "width": 1,
+    "height": 1
+  },
+  {
+    "name": "Special - Jigsaw",
+    "feature": "grid",
+    "pro": true,
+    "previews": [
+      "T-27C.webp",
+      "T-27D.webp"
+    ],
+    "demoItems": [
+    ],
+    "width": 1,
+    "height": 1
+  },
+  {
+    "name": "Special - In the Mirror 5",
+    "project": "FEATURES_00125",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0,
+          "aspectFill": true
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex0"
+    ],
+    "previews": [
+      "T-125C.webp",
+      "T-125D.webp"
+    ],
+    "width": 333,
+    "height": 500
+  },
+  {
+    "name": "Special - Artistic Outline",
+    "feature": "template",
+    "pro": true,
+    "isPortrait": true,
+    "previews": [
+      "T-20C.webp",
+      "T-20D.webp"
+    ],
+    "params": {
+      "name": "FEATURES_00020",
+      "portrait": true,
+      "adjust": true,
+      "color": "#ffffff",
+      "filterId": 5016,
+      "intensity": 1,
+      "ls": [
+        {
+          "idx": 1
+        }
+      ]
+    },
+    "demoItems": [
+    ],
+    "width": 375,
+    "height": 562
+  },
+  {
+    "name": "Sticker",
+    "feature": "sticker",
+    "params": {
+      "name": "FEATURES_10004"
+    },
+    "previews": [
+      "T-4C.webp",
+      "T-4D.webp"
+    ],
+    "width": 500,
+    "height": 500,
+    "demoItems": [
+    ]
+  },
+  {
+    "name": "Special - Classic SUB 3",
+    "project": "FEATURES_00114",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "previews": [
+      "T-114C.webp",
+      "T-114D.webp"
+    ],
+    "commands": [
+      "layerIndex0"
+    ],
+    "width": 1,
+    "height": 1
+  },
+  {
+    "name": "Special - Splatter Art 1",
+    "project": "FEATURES_00115",
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "previews": [
+      "T-115C.webp",
+      "T-115D.webp"
+    ],
+    "commands": [
+      "layerIndex0"
+    ],
+    "width": 1,
+    "height": 1
+  },
+  {
+    "name": "Special - Classic SUB 2",
+    "project": "FEATURES_00113",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "previews": [
+      "T-113C.webp",
+      "T-113D.webp"
+    ],
+    "commands": [
+      "layerIndex0",
+      "filter",
+      "GR05"
+    ],
+    "width": 360,
+    "height": 500
+  },
+  {
+    "name": "Special - Splatter Art 2",
+    "project": "FEATURES_00116",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "previews": [
+      "T-116C.webp",
+      "T-116D.webp"
+    ],
+    "commands": [
+      "layerIndex0"
+    ],
+    "width": 1,
+    "height": 1
+  },
+  {
+    "name": "Background - Classic Luxury",
+    "project": "FEATURES_00101",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "shouldResize": true,
+      "ls": [
+        {
+          "idx": 0
+        },
+        {
+          "idx": 1,
+          "virtual": true
+        },
+        {
+          "idx": 2,
+          "steps": [
+            {
+              "type": "portrait"
+            }
+          ]
+        }
+      ]
+    },
+    "pickMapping": [
+      0,
+      0,
+      0
+    ],
+    "commands": [
+      "layerIndex2"
+    ],
+    "previews": [
+      "T-101C.webp",
+      "T-101D.webp"
+    ],
+    "width": 500,
+    "height": 500
+  },
+  {
+    "name": "Special - Color Palette",
+    "feature": "filter4",
+    "pro": true,
+    "previews": [
+      "F-04C.webp",
+      "F-04D.webp"
+    ],
+    "width": 1,
+    "height": 1
+  },
+  {
+    "name": "Art - Oil",
+    "feature": "art",
+    "params": {
+      "filterId": 100008
+    },
+    "demoItems": [
+    ],
+    "previews": [
+      "A-7C.webp",
+      "A-7D.webp"
+    ],
+    "width": 400,
+    "height": 500
+  },
+  {
+    "name": "Special - Graffiti 2",
+    "project": "FEATURES_00109",
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        },
+        {
+          "idx": 1,
+          "steps": [
+            {
+              "type": "art",
+              "params": {
+                "name": "Stamp",
+                "filterId": -100012
+              }
+            },
+            {
+              "type": "remould",
+              "params": {
+                "name": "ClippingMaskFilter",
+                "remouldParams": {
+                  "sourceImgName": "FEATURES_00109.png",
+                  "asSource": true,
+                  "aspectFill": true
+                }
+              }
+            },
+            {
+              "type": "outline",
+              "params": {
+                "color": "#FFFFFF",
+                "threshold": 0.05
+              }
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "steps": [
+            {
+              "type": "remould",
+              "params": {
+                "name": "ColorExtractFilter"
+              }
+            },
+            {
+              "type": "remould",
+              "params": {
+                "name": "ClippingMaskFilter",
+                "remouldParams": {
+                  "sourceImgName": "FEATURES_00109.png",
+                  "asSource": true,
+                  "aspectFill": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "pickMapping": [
+      0,
+      0,
+      0
+    ],
+    "previews": [
+      "T-109C.webp",
+      "T-109D.webp"
+    ],
+    "width": 400,
+    "height": 500
+  },
+  {
+    "name": "Special - Face Map",
+    "project": "FEATURES_00106",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex1",
+      "blend"
+    ],
+    "previews": [
+      "T-106C.webp",
+      "T-106D.webp"
+    ],
+    "width": 400,
+    "height": 500
+  },
+  {
+    "name": "Special - Misty Forest",
+    "project": "FEATURES_00110",
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "previews": [
+      "T-110C.webp",
+      "T-110D.webp"
+    ],
+    "width": 400,
+    "height": 500
+  },
+  {
+    "name": "Special - Graffiti 1",
+    "project": "FEATURES_00108",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        },
+        {
+          "idx": 1,
+          "steps": [
+            {
+              "type": "art",
+              "params": {
+                "name": "Comics",
+                "filterId": -100001
+              }
+            },
+            {
+              "type": "remould",
+              "params": {
+                "name": "ClippingMaskFilter",
+                "remouldParams": {
+                  "sourceImgName": "FEATURES_00108.png",
+                  "asSource": true,
+                  "aspectFill": true
+                }
+              }
+            },
+            {
+              "type": "outline",
+              "params": {
+                "color": "#FFFFFF",
+                "threshold": 0.05
+              }
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "steps": [
+            {
+              "type": "remould",
+              "params": {
+                "name": "ColorExtractFilter"
+              }
+            },
+            {
+              "type": "remould",
+              "params": {
+                "name": "ClippingMaskFilter",
+                "remouldParams": {
+                  "sourceImgName": "FEATURES_00108.png",
+                  "asSource": true,
+                  "aspectFill": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "pickMapping": [
+      0,
+      0,
+      0
+    ],
+    "previews": [
+      "T-108C.webp",
+      "T-108D.webp"
+    ],
+    "width": 400,
+    "height": 500
+  },
+  {
+    "name": "Special - Art Enthusiast",
+    "project": "FEATURES_00104",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0,
+          "aspectFill": true
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex0"
+    ],
+    "previews": [
+      "T-104C.webp",
+      "T-104D.webp"
+    ],
+    "width": 400,
+    "height": 500
+  },
+  {
+    "name": "Special - Color Platter",
+    "project": "FEATURES_00105",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "commands": [
+      "layerIndex0"
+    ],
+    "previews": [
+      "T-105C.webp",
+      "T-105D.webp"
+    ],
+    "width": 400,
+    "height": 500
+  },
+  {
+    "name": "Exposure - Ocean Escape",
+    "feature": "exposure",
+    "params": {
+      "filterId": 16
+    },
+    "previews": [
+      "Exposure-Ocean Escape.webp",
+      "Exposure-Ocean Escape(2).webp"
+    ],
+    "width": 500,
+    "height": 744,
+    "demoItems": [
+    ]
+  },
+  {
+    "name": "Exposure - Milky Way",
+    "feature": "exposure",
+    "params": {
+      "filterId": 1006
+    },
+    "previews": [
+      "Exposure-Milk Way.webp",
+      "Exposure-Milk Way(2).webp"
+    ],
+    "width": 500,
+    "height": 744,
+    "demoItems": [
+    ]
+  },
+  {
+    "name": "Special - Colorful Smoke",
+    "feature": "template",
+    "pro": true,
+    "isPortrait": true,
+    "params": {
+      "name": "FEATURES_00034",
+      "portrait": true,
+      "ls": [
+        {
+          "idx": 1
+        }
+      ]
+    },
+    "previews": [
+      "T-34C.webp",
+      "T-34D.webp"
+    ],
+    "demoItems": [
+    ],
+    "width": 281,
+    "height": 500
+  },
+  {
+    "name": "Glitch - RGB",
+    "feature": "glitch",
+    "params": {
+      "filterId": 25,
+      "intensity": 0.75
+    },
+    "previews": [
+      "G-2C.webp",
+      "G-2D.webp"
+    ],
+    "width": 500,
+    "height": 744,
+    "demoItems": [
+    ]
+  },
+  {
+    "name": "Special - Roaming in Space",
+    "feature": "template",
+    "params": {
+      "name": "FEATURES_00024",
+      "portrait": true,
+      "ls": [
+        {
+          "idx": 2
+        }
+      ]
+    },
+    "isPortrait": true,
+    "previews": [
+      "T-24C.webp",
+      "T-24D.webp"
+    ],
+    "width": 1,
+    "height": 1,
+    "demoItems": [
+    ]
+  },
+  {
+    "name": "Special - Outline",
+    "isPortrait": true,
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "name": "FEATURES_00036",
+      "portrait": true,
+      "adjust": true,
+      "color": "#ffffff",
+      "ls": [
+        {
+          "idx": 1
+        }
+      ]
+    },
+    "previews": [
+      "T-36C.webp",
+      "T-36D.webp"
+    ],
+    "demoItems": [
+    ],
+    "width": 333,
+    "height": 500
+  },
+  {
+    "name": "Art - Obama",
+    "feature": "art",
+    "params": {
+      "filterId": 100009
+    },
+    "previews": [
+      "A-4C.webp",
+      "A-4D.webp"
+    ],
+    "demoItems": [
+    ],
+    "width": 500,
+    "height": 704
+  },
+  {
+    "name": "Art - Rich",
+    "feature": "art",
+    "params": {
+      "filterId": 100011
+    },
+    "demoItems": [
+    ],
+    "previews": [
+      "A-5C.webp",
+      "A-5D.webp"
+    ],
+    "width": 683,
+    "height": 1024
+  },
+  {
+    "name": "Brushes - 02",
+    "feature": "brushes",
+    "params": {
+      "name": "FEATURES_00008"
+    },
+    "previews": [
+      "T-8C.webp",
+      "T-8D.webp"
+    ],
+    "width": 1,
+    "height": 1,
+    "demoItems": [
+    ]
+  },
+  {
+    "name": "Special - Emboss",
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "name": "FEATURES_00032",
+      "portrait": true,
+      "adjust": true,
+      "color": "#ffffff",
+      "filterId": 100011,
+      "filterType": "art",
+      "intensity": 1,
+      "ls": [
+        {
+          "idx": 1
+        }
+      ]
+    },
+    "previews": [
+      "T-32C.webp",
+      "T-32D.webp"
+    ],
+    "demoItems": [
+    ],
+    "width": 420,
+    "height": 500
+  },
+  {
+    "name": "Special - Game of Hearts",
+    "feature": "template",
+    "params": {
+      "name": "FEATURES_00019"
+    },
+    "isPortrait": true,
+    "previews": [
+      "T-19C.webp",
+      "T-19D.webp"
+    ],
+    "width": 375,
+    "height": 562,
+    "demoItems": [
+    ]
+  },
+  {
+    "name": "Glitch - Wobble",
+    "feature": "glitch",
+    "params": {
+      "filterId": 13,
+      "intensity": 0.75
+    },
+    "previews": [
+      "G-1C.webp",
+      "G-1D.webp"
+    ],
+    "width": 683,
+    "height": 1024,
+    "demoItems": [
+    ]
+  },
+  {
+    "name": "Special - Fire",
+    "feature": "template",
+    "pro": true,
+    "params": {
+      "name": "FEATURES_00018"
+    },
+    "previews": [
+      "T-18C.webp",
+      "T-18D.webp"
+    ],
+    "width": 375,
+    "height": 446,
+    "demoItems": [
+    ]
+  },
+  {
+    "name": "Special - Colorful",
+    "feature": "template",
+    "params": {
+      "name": "FEATURES_00023",
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "previews": [
+      "T-23C.webp",
+      "T-23D.webp"
+    ],
+    "demoItems": [
+    ],
+    "width": 1,
+    "height": 1
+  },
+  {
+    "name": "Special - Red Only",
+    "pro": true,
+    "feature": "color",
+    "previews": [
+      "T-26C.webp",
+      "T-26D.webp"
+    ],
+    "demoItems": [
+    ],
+    "width": 2,
+    "height": 3
+  },
+  {
+    "name": "Special - Sunlight",
+    "feature": "template",
+    "params": {
+      "name": "FEATURES_00038",
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "isPortrait": true,
+    "previews": [
+      "T-38C.webp",
+      "T-38D.webp"
+    ],
+    "demoItems": [
+    ],
+    "width": 216,
+    "height": 384
+  },
+  {
+    "name": "Special - Pencil Sketch",
+    "feature": "watercolor",
+    "params": {
+      "filterId": 21,
+      "intensity": 1,
+      "scale": 1.1
+    },
+    "previews": [
+      "W-3C.webp",
+      "W-3D.webp"
+    ],
+    "width": 2,
+    "height": 3,
+    "demoItems": [
+    ]
+  },
+  {
+    "name": "Special - Dislocation",
+    "feature": "shear",
+    "previews": [
+      "T-37C.webp",
+      "T-37D.webp"
+    ],
+    "width": 1,
+    "height": 1,
+    "demoItems": [
+    ]
+  },
+  {
+    "name": "Special - Blue Hearts",
+    "feature": "template",
+    "pro": true,
+    "isPortrait": true,
+    "params": {
+      "name": "FEATURES_00033",
+      "portrait": true,
+      "ls": [
+        {
+          "idx": 2
+        }
+      ]
+    },
+    "previews": [
+      "T-33C.webp",
+      "T-33D.webp"
+    ],
+    "width": 420,
+    "height": 500,
+    "demoItems": [
+    ]
+  },
+  {
+    "name": "Special - Colorful Splash",
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "name": "FEATURES_00035",
+      "emboss": true,
+      "ls": [
+        {
+          "idx": 0
+        },
+        {
+          "idx": 2
+        },
+        {
+          "idx": 3
+        }
+      ]
+    },
+    "demoItems": [
+    ],
+    "previews": [
+      "T-35C.webp",
+      "T-35D.webp"
+    ],
+    "width": 281,
+    "height": 500
+  },
+  {
+    "name": "Special - GrayScale",
+    "feature": "template",
+    "params": {
+      "name": "FEATURES_00041",
+      "filterId": 5014,
+      "intensity": 1,
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "previews": [
+      "T-41C.webp",
+      "T-41D.webp"
+    ],
+    "demoItems": [
+    ],
+    "width": 421,
+    "height": 500
+  },
+  {
+    "name": "Special - Comics Art",
+    "feature": "template",
+    "pro": true,
+    "isPortrait": true,
+    "params": {
+      "name": "FEATURES_00045",
+      "portrait": true,
+      "adjust": true,
+      "color": "#8B5742",
+      "filterId": 100006,
+      "filterType": "art",
+      "intensity": 1,
+      "ls": [
+        {
+          "idx": 1
+        }
+      ]
+    },
+    "previews": [
+      "T-45C.webp",
+      "T-45D.webp"
+    ],
+    "width": 270,
+    "height": 480
+  },
+  {
+    "name": "Special - Superman",
+    "feature": "template",
+    "params": {
+      "name": "FEATURES_00046",
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "previews": [
+      "T-46C.webp",
+      "T-46D.webp"
+    ],
+    "width": 272,
+    "height": 496
+  },
+  {
+    "name": "Special - Boom",
+    "feature": "template",
+    "pro": true,
+    "isPortrait": true,
+    "params": {
+      "name": "FEATURES_00044",
+      "portrait": true,
+      "adjust": true,
+      "color": "#000000",
+      "filterId": 100003,
+      "filterType": "art",
+      "intensity": 1,
+      "ls": [
+        {
+          "idx": 5
+        }
+      ]
+    },
+    "previews": [
+      "T-44C.webp",
+      "T-44D.webp"
+    ],
+    "width": 272,
+    "height": 488
+  },
+  {
+    "name": "Special - Flowers Blossom",
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "name": "FEATURES_00039",
+      "portrait": true,
+      "emboss": true,
+      "ls": [
+        {
+          "idx": 1
+        },
+        {
+          "idx": 2
+        }
+      ]
+    },
+    "previews": [
+      "T-39C.webp",
+      "T-39D.webp"
+    ],
+    "width": 328,
+    "height": 496
+  },
+  {
+    "name": "Special - Flowers Surround",
+    "feature": "template",
+    "isPortrait": true,
+    "params": {
+      "name": "FEATURES_00025",
+      "portrait": true,
+      "adjust": true,
+      "color": "#E9A571",
+      "ls": [
+        {
+          "idx": 6
+        }
+      ]
+    },
+    "previews": [
+      "T-25C.webp",
+      "T-25D.webp"
+    ],
+    "width": 328,
+    "height": 488
+  },
+  {
+    "name": "Special - Raindrops",
+    "feature": "template",
+    "params": {
+      "name": "FEATURES_10001",
+      "filterId": 5016,
+      "intensity": 1,
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "previews": [
+      "F-05C.webp",
+      "F-05D.webp"
+    ],
+    "width": 336,
+    "height": 496
+  },
+  {
+    "name": "Special - Sketch",
+    "feature": "sketch",
+    "pro": true,
+    "isPortrait": true,
+    "previews": [
+      "F-01C.webp",
+      "F-01D.webp"
+    ],
+    "width": 1,
+    "height": 1
+  },
+  {
+    "name": "Special - Broken Glass",
+    "feature": "template",
+    "params": {
+      "name": "FEATURES_10002",
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "previews": [
+      "F-02C.webp",
+      "F-02D.webp"
+    ],
+    "width": 1,
+    "height": 1
+  },
+  {
+    "name": "Special - Inner World",
+    "feature": "face",
+    "isPortrait": true,
+    "params": {
+      "name": "FEATURES_00043",
+      "portrait": true,
+      "ls": [
+        {
+          "idx": 1
+        },
+        {
+          "idx": 2
+        }
+      ]
+    },
+    "previews": [
+      "F-03C.webp",
+      "F-03D.webp"
+    ],
+    "width": 1,
+    "height": 1
+  },
+  {
+    "name": "Special - Busy City",
+    "feature": "portrait_city",
+    "pro": true,
+    "isPortrait": true,
+    "params": {
+      "name": "FEATURES_10006",
+      "portrait": true,
+      "ls": [
+        {
+          "idx": 2
+        }
+      ]
+    },
+    "previews": [
+      "F-06C.webp",
+      "F-06D.webp"
+    ],
+    "width": 416,
+    "height": 496
+  },
+  {
+    "name": "Special - Constellation",
+    "feature": "template",
+    "params": {
+      "name": "FEATURES_00047"
+    },
+    "previews": [
+      "T-47C.webp",
+      "T-47D.webp"
+    ],
+    "width": 608,
+    "height": 1080
+  },
+  {
+    "name": "Special - Old Television",
+    "pro": true,
+    "feature": "template",
+    "params": {
+      "name": "FEATURES_10007"
+    },
+    "previews": [
+      "F-07C.webp",
+      "F-07D.webp"
+    ],
+    "width": 720,
+    "height": 1080
+  },
+  {
+    "name": "Special - City Life",
+    "feature": "portrait_city",
+    "isPortrait": true,
+    "params": {
+      "name": "FEATURES_10008",
+      "portrait": true,
+      "ls": [
+        {
+          "idx": 1
+        },
+        {
+          "idx": 2
+        }
+      ]
+    },
+    "previews": [
+      "F-08C.webp",
+      "F-08D.webp"
+    ],
+    "width": 608,
+    "height": 1080
+  },
+  {
+    "name": "Special - Orange Stripes",
+    "feature": "orange",
+    "isPortrait": true,
+    "params": {
+      "name": "FEATURES_10009",
+      "portrait": true,
+      "filterId": 100005,
+      "filterType": "art",
+      "intensity": 0.35,
+      "ls": [
+        {
+          "idx": 3
+        },
+        {
+          "idx": 4
+        }
+      ]
+    },
+    "previews": [
+      "F-09C.webp",
+      "F-09D.webp"
+    ],
+    "width": 280,
+    "height": 496
+  },
+  {
+    "name": "Special - Old Record",
+    "feature": "template",
+    "params": {
+      "name": "FEATURES_10010"
+    },
+    "previews": [
+      "F-10C.webp",
+      "F-10D.webp"
+    ],
+    "width": 720,
+    "height": 1080
+  },
+  {
+    "name": "Special - Skyscraper",
+    "feature": "wallpaper",
+    "isPortrait": true,
+    "params": {
+      "name": "FEATURES_10011",
+      "portrait": true,
+      "ls": [
+        {
+          "idx": 1
+        }
+      ]
+    },
+    "previews": [
+      "F-11C.webp",
+      "F-11D.webp"
+    ],
+    "width": 328,
+    "height": 496
+  },
+  {
+    "name": "Special - Grace",
+    "feature": "template",
+    "pro": true,
+    "isPortrait": true,
+    "params": {
+      "name": "FEATURES_10012",
+      "portrait": true,
+      "filterId": 5016,
+      "intensity": 1,
+      "ls": [
+        {
+          "idx": 2
+        }
+      ]
+    },
+    "previews": [
+      "F-12C.webp",
+      "F-12D.webp"
+    ],
+    "width": 720,
+    "height": 1080
+  },
+  {
+    "name": "Special - Pink Heart",
+    "feature": "template",
+    "params": {
+      "name": "FEATURES_10013"
+    },
+    "previews": [
+      "F-13C.webp",
+      "F-13D.webp"
+    ],
+    "width": 336,
+    "height": 496
+  },
+  {
+    "name": "Special - Sunshine",
+    "feature": "template",
+    "params": {
+      "name": "FEATURES_10014"
+    },
+    "previews": [
+      "F-14C.webp",
+      "F-14D.webp"
+    ],
+    "width": 336,
+    "height": 496
+  },
+  {
+    "name": "Special - Water Vapor",
+    "pro": true,
+    "feature": "bead_glass",
+    "params": {
+      "name": "FEATURES_10015",
+      "ls": [
+        {
+          "idx": 0
+        },
+        {
+          "idx": 1
+        }
+      ]
+    },
+    "previews": [
+      "F-15C.webp",
+      "F-15D.webp"
+    ],
+    "width": 1,
+    "height": 1
+  },
+  {
+    "name": "Special - Ancient Camera 1",
+    "project": "FEATURES_00118",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "previews": [
+      "T-118C.webp",
+      "T-118D.webp"
+    ],
+    "commands": [
+      "layerIndex0"
+    ],
+    "width": 333,
+    "height": 500
+  },
+  {
+    "name": "Special - Ancient Camera 2",
+    "project": "FEATURES_00119",
+    "pro": false,
+    "feature": "template",
+    "params": {
+      "ls": [
+        {
+          "idx": 0
+        }
+      ]
+    },
+    "previews": [
+      "T-119C.webp",
+      "T-119D.webp"
+    ],
+    "commands": [
+      "layerIndex0"
+    ],
+    "width": 333,
+    "height": 500
+  }
+]

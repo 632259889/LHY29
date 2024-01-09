@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#66000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="300.0dip" android:layout_height="220.0dip" android:layout_centerInParent="true">
+        <lightcone.com.pack.view.CircleBgImageView android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <lightcone.com.pack.view.AppUIBoldTextView android:textSize="20.0dip" android:textColor="#ff5062fb" android:gravity="center" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/auto_mode" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/ivHelp" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/icon_help_black" android:scaleType="center" android:layout_toStartOf="@id/tvTitle" />
+        <ImageView android:id="@id/ivClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nav_close_def" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/ivPortrait" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginTop="60.0dip" android:src="@drawable/pop_auto_icon_portrait" android:layout_marginStart="35.0dip" />
+        <ImageView android:id="@id/ivObject" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginTop="60.0dip" android:src="@drawable/pop_auto_icon_object" android:layout_marginEnd="35.0dip" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvPortrait" android:background="@drawable/pop_btn" android:layout_width="130.0dip" android:layout_height="34.0dip" android:layout_marginBottom="20.0dip" android:text="@string/Portrait" android:layout_alignParentBottom="true" android:layout_marginStart="10.0dip" />
+        <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvObject" android:background="@drawable/pop_btn" android:layout_width="130.0dip" android:layout_height="34.0dip" android:layout_marginBottom="20.0dip" android:text="@string/Object" android:layout_alignParentBottom="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rlAutoHint" android:visibility="invisible" android:layout_width="300.0dip" android:layout_height="520.0dip" android:layout_centerInParent="true">
+        <lightcone.com.pack.view.CircleBgImageView android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <lightcone.com.pack.view.AppUIBoldTextView android:textSize="20.0dip" android:textColor="#ff5062fb" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/Whats_the_Difference" />
+        <ImageView android:id="@id/ivHintClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nav_close_def" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:id="@id/rlPortrait" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+            <ImageView android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/pop_difference_icon_portrait" />
+            <lightcone.com.pack.view.AppUIBoldTextView android:textSize="16.0dip" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Portrait_Mode" android:layout_marginStart="70.0dip" />
+            <lightcone.com.pack.view.AppUITextView android:textSize="13.0dip" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/This_mode_is_better_for_portraits" android:layout_marginStart="70.0dip" />
+            <ImageView android:layout_width="260.0dip" android:layout_height="130.0dip" android:layout_marginTop="70.0dip" android:src="@drawable/portrait_mode_img" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/rlPortrait" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+            <ImageView android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/pop_difference_icon_object" />
+            <lightcone.com.pack.view.AppUIBoldTextView android:textSize="16.0dip" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Object_Mode" android:layout_marginStart="70.0dip" />
+            <lightcone.com.pack.view.AppUITextView android:textSize="13.0dip" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/This_mode_is_better_for_objects" android:layout_marginStart="70.0dip" />
+            <ImageView android:layout_width="260.0dip" android:layout_height="130.0dip" android:layout_marginTop="70.0dip" android:src="@drawable/object_mode_img" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

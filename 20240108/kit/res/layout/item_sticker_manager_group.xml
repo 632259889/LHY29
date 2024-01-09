@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="65.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivRank" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/sticker_manage_icon_move" android:scaleType="center" />
+    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivPreview" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_launcher" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/ivRank" app:riv_border_color="#ff333333" app:riv_border_width="1.0dip" app:riv_corner_radius="8.0dip" />
+    <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="64.0dip" android:text="@string/Sticker_Store" android:layout_marginStart="5.0dip" android:layout_toStartOf="@id/rlDownload" android:layout_toEndOf="@id/ivPreview" />
+    <RelativeLayout android:id="@id/rlDownload" android:layout_width="120.0dip" android:layout_height="64.0dip" android:layout_marginEnd="5.0dip" android:layout_alignParentEnd="true">
+        <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvUse" android:background="@drawable/pop_btn" android:layout_width="wrap_content" android:layout_height="30.0dip" android:minWidth="90.0dip" android:text="@string/Use" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:paddingStart="15.0dip" android:paddingEnd="15.0dip" />
+        <ProgressBar android:id="@id/vProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="100" android:progress="0" android:progressDrawable="@drawable/layer_list_progress_drawable_2" android:layout_alignTop="@id/tvUse" android:layout_alignBottom="@id/tvUse" android:layout_alignStart="@id/tvUse" android:layout_alignEnd="@id/tvUse" style="@android:style/Widget.ProgressBar.Horizontal" />
+        <ImageView android:id="@id/ivDownload" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/sticker_btn_download" android:scaleType="center" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:background="#ff333333" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

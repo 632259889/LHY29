@@ -1,0 +1,52 @@
+#define iChannel0 inputImageTexture
+#define texture(a, b) texture2D(a, fract(b))
+#define fragColor gl_FragColor
+
+precision highp float;
+
+varying vec2 st;
+uniform sampler2D inputImageTexture;
+uniform float blurRadius;
+uniform vec2 iResolution;
+
+float SCurve (float x) {
+    x = x * 2.0 - 1.0;
+    return -x * abs(x) * 0.5 + x + 0.5;
+}
+
+vec4 BlurV (sampler2D source, vec2 size, vec2 uv, float radius) {
+
+    if (radius >= 1.0)
+    {
+        vec4 A = vec4(0.0);
+        vec4 C = vec4(0.0);
+
+        float height = 4.0 / size.y;
+
+        float divisor = 0.0;
+        float weight = 0.0;
+
+        float radiusMultiplier = 1.0 / radius;
+
+        for (float y = -radius; y <= radius; y++)
+        {
+            A = texture(source, uv + vec2(0.0, y * height));
+
+            weight = SCurve(1.0 - (abs(y) * radiusMultiplier));
+
+            C += A * weight;
+
+            divisor += weight;
+        }
+
+        return vec4(C.r / divisor, C.g / divisor, C.b / divisor, 1.0);
+    }
+
+    return texture(source, uv);
+}
+
+void main()
+{
+    // Apply vertical blur to buffer A
+    fragColor = BlurV(iChannel0, iResolution.xy, st, blurRadius);
+}

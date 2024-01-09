@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/shape_white" android:layout_width="300.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/tabShow" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <lightcone.com.pack.view.VideoView.MutedVideoView android:id="@id/mutedVideoView" android:layout_width="fill_parent" android:layout_height="168.9dip" />
+        <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivImage" android:layout_width="fill_parent" android:layout_height="168.9dip" android:scaleType="fitCenter" app:riv_corner_radius_top_left="10.0dip" app:riv_corner_radius_top_right="10.0dip" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_free_limited" />
+        <TextView android:textSize="22.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Advanced_Features" android:layout_marginStart="10.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#fffffc00" android:gravity="center" android:id="@id/tvHint" android:background="@drawable/tag_limited_bghdpi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Limited_Time_Free" android:layout_centerInParent="true" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+        <View android:background="@drawable/shape_blue_corners" android:layout_width="wrap_content" android:layout_height="2.0dip" android:layout_centerVertical="true" android:layout_toStartOf="@id/tvHint" />
+        <View android:background="@drawable/shape_blue_corners" android:layout_width="wrap_content" android:layout_height="2.0dip" android:layout_centerVertical="true" android:layout_toEndOf="@id/tvHint" />
+    </RelativeLayout>
+    <TextView android:textSize="17.0sp" android:textColor="#ff333333" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tvTips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/limit_pop_tips" />
+    <lightcone.com.pack.view.DrawableTextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/btnOk" android:background="@drawable/shape_pop_btn_blue" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:text="@string/CLAIM_GIFT" android:drawablePadding="10.0dip" android:drawableStart="@drawable/free_icon_gifthdpi" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff999999" android:gravity="center" android:id="@id/btnCancel" android:background="@drawable/shape_text_underline_gray" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" android:text="@string/Got_it" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+    <View android:layout_width="wrap_content" android:layout_height="15.0dip" />
+</LinearLayout>

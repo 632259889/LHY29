@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topBar" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <lightcone.com.pack.view.AppUITextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Portrait_Leg" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_help" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_nav_tutorial" android:layout_centerVertical="true" android:layout_toStartOf="@id/tvTitle" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="164.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <ImageView android:id="@id/btn_undo" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_last" android:alpha="0.5" />
+                <ImageView android:id="@id/btn_redo" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_next" android:alpha="0.5" />
+            </LinearLayout>
+            <ImageView android:id="@id/btn_origin" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="35.0dip" android:src="@drawable/button_constrat" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/icon_left2" android:src="@drawable/leg_icon_height" style="@style/SeekBarIconL" />
+            <SeekBar android:id="@id/weight_bar" android:layout_toRightOf="@id/icon_left2" android:layout_marginEnd="40.0dip" style="@style/SeekBar" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-8.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/icon_slim_leg_left" android:src="@drawable/leg_icon_width" style="@style/SeekBarIconL" />
+            <SeekBar android:id="@id/weight_bar_slim" android:layout_toRightOf="@id/icon_slim_leg_left" android:layout_marginEnd="40.0dip" style="@style/SeekBar" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/title_bar" android:layout_width="fill_parent" style="@style/TitleBar">
+            <ImageView android:id="@id/btn_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_cancel" />
+            <ImageView android:id="@id/btn_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_done" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/container" android:background="@drawable/image_grid_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_bar" android:layout_below="@id/topBar">
+        <ImageView android:id="@id/iv_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.accordion.perfectme.view.mesh.TargetMeshView android:id="@id/mesh_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.accordion.perfectme.view.touch.LengthenTouchView android:id="@id/touch_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.accordion.perfectme.view.mesh.TargetMeshView android:id="@id/pic_origin" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/picture_origin" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:orientation="vertical" android:id="@id/edit_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</RelativeLayout>

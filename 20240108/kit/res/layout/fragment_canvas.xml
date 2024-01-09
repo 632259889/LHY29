@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/tabRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/navBar" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <ImageView android:id="@id/ivBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_nav_delete" android:layout_centerVertical="true" />
+        <lightcone.com.pack.view.DrawableTextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Canvas" android:drawablePadding="8.0dip" android:layout_toLeftOf="@id/ivDone" android:layout_toRightOf="@id/ivBack" />
+        <ImageView android:id="@id/ivDone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_nav_done_white" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/ivResult" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_below="@id/navBar" />
+    <RelativeLayout android:id="@id/tabCanvas" android:background="#ff191925" android:layout_width="fill_parent" android:layout_height="320.0dip" android:layout_below="@id/navBar">
+        <ImageView android:id="@id/ivBg" android:background="@drawable/image_grid_white_repeat" android:layout_width="280.0dip" android:layout_height="280.0dip" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/ivCanvas" android:layout_width="280.0dip" android:layout_height="280.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        <lightcone.com.pack.view.ShapeMaskView android:id="@id/shapeMaskView" android:layout_width="280.0dip" android:layout_height="280.0dip" android:layout_centerInParent="true" />
+        <TextView android:textSize="11.0dip" android:textColor="#ffffffff" android:id="@id/tvCanvasWidth" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="1000" android:layout_below="@id/ivCanvas" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="11.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvCanvasHeight" android:layout_width="50.0dip" android:layout_height="wrap_content" android:text="1000" android:layout_centerVertical="true" android:rotation="90.0" android:layout_marginStart="-33.0dip" android:layout_alignStart="@id/ivCanvas" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="320.0dip" android:layout_below="@id/navBar" />
+    <ScrollView android:background="#ff010013" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tabCanvas">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/Size" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rvSize" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_marginTop="10.0dip" />
+                <View android:background="#ff252434" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/Color" />
+                <HorizontalScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip">
+                    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip">
+                        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivTransparent" android:padding="6.0dip" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/icon_circle_grid" android:scaleType="fitCenter" app:riv_corner_radius="16.0dip" />
+                            <ImageView android:id="@id/ivTransparentSelect" android:padding="4.0dip" android:visibility="gone" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/color_selected" />
+                        </FrameLayout>
+                        <ImageView android:id="@id/ivPanel" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/icon_colorwheel" android:scaleType="center" />
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/llLeftColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/llRightColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <View android:background="#ff252434" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/Gradient" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rvGradient" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" />
+                <View android:background="#ff252434" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/Pattern" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rvPattern" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" />
+                <View android:background="#ff252434" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/Texture" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rvTexture" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" />
+                <View android:background="#ff252434" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

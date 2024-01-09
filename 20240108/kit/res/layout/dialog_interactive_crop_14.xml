@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <lightcone.com.pack.view.anim.AnimImageView android:id="@id/ivGesture" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginBottom="30.0dip" android:src="@drawable/tutorials_gesture2" android:layout_alignParentBottom="true" android:layout_marginStart="5.0dip" android:layout_alignStart="@id/btnGuide" app:anim_id="@anim/gesture_infinte_move_ver" />
+    <ImageView android:id="@id/btnGuide" android:layout_width="50.0dip" android:layout_height="129.0dip" android:layout_marginBottom="35.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_marginStart="165.0dip" />
+</RelativeLayout>

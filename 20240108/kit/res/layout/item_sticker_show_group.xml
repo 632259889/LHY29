@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivPreview" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/ic_launcher" android:scaleType="fitCenter" android:layout_centerHorizontal="true" app:riv_border_color="#ffbbbbbb" app:riv_border_width="1.0px" app:riv_corner_radius="8.0dip" />
+    <lightcone.com.pack.view.AppUITextView android:textSize="14.0dip" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/tvName" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="@string/Sticker_Store" android:maxLines="1" android:singleLine="true" android:layout_below="@id/ivPreview" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topBar" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <lightcone.com.pack.view.AppUITextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/abs" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_help" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_nav_tutorial" android:layout_centerVertical="true" android:layout_toStartOf="@id/tvTitle" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bottomBar" android:layout_width="fill_parent" android:layout_height="164.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <ImageView android:id="@id/btn_undo" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_last" android:alpha="0.5" />
+                <ImageView android:id="@id/btn_redo" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_next" android:alpha="0.5" />
+            </LinearLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/opacity_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="88.0dip" android:layout_marginEnd="88.0dip">
+                <ImageView android:id="@id/btn_magic" android:paddingTop="8.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="37.0dip" android:layout_height="fill_parent" android:layout_marginRight="56.0dip" android:layout_alignParentRight="true" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+                    <ImageView android:id="@id/icon_left" android:src="@drawable/tools_icon_opacity" style="@style/SeekBarIconL" />
+                    <SeekBar android:id="@id/opacity_bar" android:layout_marginLeft="4.0dip" android:progress="50" android:layout_toRightOf="@id/icon_left" style="@style/SeekBar" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <ImageView android:id="@id/iv_origin" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_constrat" android:layout_alignParentBottom="true" android:layout_marginEnd="5.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="44.0dip" android:layout_above="@id/title_bar" android:layout_alignParentStart="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/bottom_bar_main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_menu" android:layout_width="fill_parent" android:layout_height="25.0dip" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/sticker_list" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bottom_bar_sub" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="72.0dip">
+                    <RelativeLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageView android:id="@id/btn_resharp" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/tab_icon_reshape_default" android:scaleType="centerInside" />
+                        <TextView android:textSize="12.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/txt_resharp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="Resharp" android:layout_alignParentBottom="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageView android:id="@id/btn_rotate" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/tab_icon_vertical_default" android:scaleType="centerInside" />
+                        <TextView android:textSize="12.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/txt_rotate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="Rotate" android:layout_alignParentBottom="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <LinearLayout android:paddingLeft="23.0dip" android:paddingRight="23.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <ImageView android:id="@id/btn_eraser" android:paddingBottom="16.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/tab_icon_eraser_default" android:scaleType="centerInside" android:layout_weight="1.0" />
+                            <View android:id="@id/divider_eraser" android:background="#ffcccccc" android:visibility="gone" android:layout_width="0.70000005dip" android:layout_height="25.0dip" android:layout_marginTop="13.0dip" android:layout_marginBottom="20.0dip" />
+                            <ImageView android:id="@id/btn_eraser_undo" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/tab_icon_add_default" android:scaleType="centerInside" android:layout_weight="1.0" />
+                        </LinearLayout>
+                        <TextView android:textSize="12.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/txt_eraser" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="Eraser" android:layout_alignParentBottom="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="59.0dip">
+                    <ImageView android:gravity="center" android:id="@id/txt_rotate_bar" android:visibility="invisible" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginLeft="21.0dip" android:src="@drawable/tab_icon_vertical_default" />
+                    <com.accordion.perfectme.view.seekbar.MySeekBar android:id="@id/rotate_bar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="25.0dip" />
+                    <ImageView android:gravity="center" android:id="@id/txt_eraser_bar" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginLeft="21.0dip" android:src="@drawable/icon_eraser_default" />
+                    <SeekBar android:id="@id/eraser_bar" android:visibility="gone" android:layout_marginLeft="4.0dip" android:layout_marginRight="25.0dip" android:progress="60" style="@style/SeekBar" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/btn_cancel" android:src="@drawable/button_cancel" style="@style/TitleBarBtnL" />
+            <ImageView android:id="@id/btn_done" android:src="@drawable/button_done" style="@style/TitleBarBtnR" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottomBar" android:layout_below="@id/topBar">
+        <ImageView android:id="@id/iv_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.accordion.perfectme.view.mesh.TargetMeshView android:id="@id/picture" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.accordion.perfectme.view.mesh.TargetMeshView android:id="@id/pic_origin" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.accordion.perfectme.view.mesh.StickerMeshView android:id="@id/sticker_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.accordion.perfectme.view.touch.SingleTagTouchView android:id="@id/touch_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/picture_origin" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:orientation="vertical" android:id="@id/edit_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <ImageView android:id="@id/magnifier" android:background="@drawable/tab_detail_view" android:paddingLeft="1.0dip" android:paddingTop="3.0dip" android:paddingRight="4.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="105.0dip" android:layout_height="109.0dip" android:layout_marginTop="20.0dip" />
+</RelativeLayout>

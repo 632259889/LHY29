@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topBar" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <ImageView android:id="@id/ivBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_nav_close" android:layout_centerVertical="true" />
+        <lightcone.com.pack.view.AppUITextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Tutorials" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/pagePointer" android:layout_below="@id/topBar" />
+    <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/pagePointer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/btnDo" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnDo" android:background="@drawable/pop_right_btn_bg" android:padding="5.0dip" android:layout_width="230.0dip" android:layout_height="43.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="27.5dip" android:text="@string/Create_My_Work" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/tabDo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnMaterials" android:background="@drawable/pop_right_btn_bg" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="@string/Teaching_Materials" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnDo1" android:background="@drawable/pop_right_btn_bg" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:text="@string/Create_My_Work" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

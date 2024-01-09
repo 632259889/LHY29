@@ -1,0 +1,517 @@
+[
+  {
+    "category": "Featured",
+    "localizedCategory": {
+      "ja": "厳選",
+      "ms": "Disediakan",
+      "zh": "推荐",
+      "zh-Hant": "推薦",
+      "ru": "Лучший",
+      "es": "Mejor",
+      "in": "Unggul"
+    },
+    "artStyles": [
+      {
+        "id": 100003,
+        "name": "Flow",
+        "displayName": "Flow 2",
+        "thumbnail": "FLOW 2.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100009,
+        "name": "Obama",
+        "displayName": "Obama 2",
+        "thumbnail": "OBAMA 2.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100024,
+        "name": "Pixy",
+        "displayName": "Pixy",
+        "thumbnail": "Pixy.webp",
+        "artType": "Cartoon",
+        "state": 1
+      },
+      {
+        "id": 100021,
+        "name": "Graphite",
+        "displayName": "Graphite",
+        "thumbnail": "Graphited.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100016,
+        "name": "Cartoon",
+        "displayName": "Cartoon",
+        "thumbnail": "Cartoon.webp",
+        "artType": "Cartoon",
+        "state": 3
+      },
+      {
+        "id": 101001,
+        "name": "写实风",
+        "displayName": "Realistic",
+        "thumbnail": "Realistic.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100012,
+        "name": "Stamp",
+        "displayName": "Stamp 2",
+        "thumbnail": "Stamp 2.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100014,
+        "name": "Bold",
+        "displayName": "Bold",
+        "thumbnail": "Bold.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 101006,
+        "name": "墨水钢笔",
+        "displayName": "Ink Draft",
+        "thumbnail": "Ink Draft.webp",
+        "artType": "Cartoon",
+        "state": 1
+      },
+      {
+        "id": -100011,
+        "name": "Rich 1",
+        "displayName": "Rich",
+        "thumbnail": "RICH.webp",
+        "artType": "Cartoon_1"
+      }
+    ]
+  },
+  {
+    "category": "Cartoon",
+    "localizedCategory": {
+      "ja": "アニメ",
+      "ms": "Kartun",
+      "zh": "卡通",
+      "zh-Hant": "卡通",
+      "ru": "Мультик",
+      "es": "Caricatura",
+      "in": "Kartun"
+    },
+    "artStyles": [
+      {
+        "id": -200001,
+        "name": "Effect10",
+        "displayName": "Portrait",
+        "thumbnail": "Portrait.jpg",
+        "artType": "Cartoon_2"
+      },
+      {
+        "id": -200002,
+        "name": "Effect5",
+        "displayName": "Comics",
+        "thumbnail": "Comics.jpg",
+        "artType": "Cartoon_2"
+      },
+      {
+        "id": -200003,
+        "name": "Effect9",
+        "displayName": "Watercolor2",
+        "thumbnail": "Watercolor2.jpg",
+        "artType": "Cartoon_2"
+      },
+      {
+        "id": 101003,
+        "name": "彩色绘画",
+        "displayName": "Colorful",
+        "thumbnail": "Colorful.webp",
+        "artType": "Cartoon",
+        "state": 1
+      },
+      {
+        "id": 101002,
+        "name": "抽象风",
+        "displayName": "Abstruse",
+        "thumbnail": "Abstruse.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": -100003,
+        "name": "Flow 1",
+        "displayName": "Flow",
+        "thumbnail": "FLOW.webp",
+        "artType": "Cartoon_1"
+      },
+      {
+        "id": -100008,
+        "name": "Oil 1",
+        "displayName": "Oil",
+        "thumbnail": "OIL.webp",
+        "artType": "Cartoon_1"
+      },
+      {
+        "id": 100028,
+        "name": "Sketchpencil",
+        "displayName": "Pencil",
+        "thumbnail": "Sketchpencil.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100030,
+        "name": "Watercolor",
+        "displayName": "Watercolor",
+        "thumbnail": "Watercolor 2.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": -100011,
+        "name": "Rich 1",
+        "displayName": "Rich",
+        "thumbnail": "RICH.webp",
+        "artType": "Cartoon_1"
+      },
+      {
+        "id": 100015,
+        "name": "Canvas",
+        "displayName": "Canvas",
+        "thumbnail": "Canvas.webp",
+        "artType": "Cartoon",
+        "state": 1
+      },
+      {
+        "id": -100001,
+        "name": "Comics 1",
+        "displayName": "Comics",
+        "thumbnail": "COMICS.webp",
+        "artType": "Cartoon_1"
+      },
+      {
+        "id": -100002,
+        "name": "Dark 1",
+        "displayName": "Dark",
+        "thumbnail": "DARK.webp",
+        "artType": "Cartoon_1",
+        "state": 1
+      },
+      {
+        "id": -100004,
+        "name": "Grunge 1",
+        "displayName": "Grunge",
+        "thumbnail": "GRUNGE.webp",
+        "artType": "Cartoon_1"
+      },
+      {
+        "id": -100005,
+        "name": "Ink 1",
+        "displayName": "Ink",
+        "thumbnail": "INK.webp",
+        "artType": "Cartoon_1"
+      },
+      {
+        "id": -100006,
+        "name": "Lively 1",
+        "displayName": "Lively",
+        "thumbnail": "LIVELY.webp",
+        "artType": "Cartoon_1",
+        "state": 1
+      },
+      {
+        "id": -100007,
+        "name": "Lux 1",
+        "displayName": "Lux",
+        "thumbnail": "LUX.webp",
+        "artType": "Cartoon_1"
+      },
+      {
+        "id": -100010,
+        "name": "Paint 1",
+        "displayName": "Paint",
+        "thumbnail": "PAINT.webp",
+        "artType": "Cartoon_1",
+        "state": 1
+      },
+      {
+        "id": -100009,
+        "name": "Obama 1",
+        "displayName": "Obama",
+        "thumbnail": "OBAMA.webp",
+        "artType": "Cartoon_1"
+      },
+      {
+        "id": -100012,
+        "name": "Stamp 1",
+        "displayName": "Stamp",
+        "thumbnail": "Stamp.webp",
+        "artType": "Cartoon_1"
+      },
+      {
+        "id": 101001,
+        "name": "写实风",
+        "displayName": "Realistic",
+        "thumbnail": "Realistic.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 101006,
+        "name": "墨水钢笔",
+        "displayName": "Ink Draft",
+        "thumbnail": "Ink Draft.webp",
+        "artType": "Cartoon",
+        "state": 1
+      },
+      {
+        "id": 101007,
+        "name": "蓝色墨水",
+        "displayName": "Dark Blue",
+        "thumbnail": "Dark Blue.webp",
+        "artType": "Cartoon"
+      }
+    ]
+  },
+  {
+    "category": "Comics",
+    "localizedCategory": {
+      "ja": "漫画",
+      "ms": "Komik",
+      "zh": "漫画",
+      "zh-Hant": "漫畫",
+      "ru": "комикс",
+      "es": "Cómics",
+      "in": "Komik"
+    },
+    "artStyles": [
+      {
+        "id": 100017,
+        "name": "Child",
+        "displayName": "Child",
+        "thumbnail": "Child.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 101010,
+        "name": "薄荷",
+        "displayName": "Portray",
+        "thumbnail": "Portray.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100008,
+        "name": "Oil",
+        "displayName": "Oil 2",
+        "thumbnail": "OIL 2.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100014,
+        "name": "Bold",
+        "displayName": "Bold",
+        "thumbnail": "Bold.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 101004,
+        "name": "柔和黑白",
+        "displayName": "Soft BW",
+        "thumbnail": "Soft BW.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 101005,
+        "name": "铅笔",
+        "displayName": "Depiction",
+        "thumbnail": "Depiction.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100024,
+        "name": "Pixy",
+        "displayName": "Pixy",
+        "thumbnail": "Pixy.webp",
+        "artType": "Cartoon",
+        "state": 1
+      },
+      {
+        "id": 100011,
+        "name": "Rich",
+        "displayName": "Rich 2",
+        "thumbnail": "RICH 2.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100016,
+        "name": "Cartoon",
+        "displayName": "Cartoon",
+        "thumbnail": "Cartoon.webp",
+        "artType": "Cartoon",
+        "state": 3
+      },
+      {
+        "id": 100013,
+        "name": "Bloom",
+        "displayName": "Bloom",
+        "thumbnail": "Bloom.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100018,
+        "name": "Coal",
+        "displayName": "Coal",
+        "thumbnail": "Coal.webp",
+        "artType": "Cartoon",
+        "state": 1
+      },
+      {
+        "id": 100020,
+        "name": "Grain",
+        "displayName": "Grain",
+        "thumbnail": "Grain.webp",
+        "artType": "Cartoon",
+        "state": 1
+      },
+      {
+        "id": 100003,
+        "name": "Flow",
+        "displayName": "Flow 2",
+        "thumbnail": "FLOW 2.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100021,
+        "name": "Graphite",
+        "displayName": "Graphite",
+        "thumbnail": "Graphited.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100022,
+        "name": "Hatch",
+        "displayName": "Hatch",
+        "thumbnail": "Hatch.webp",
+        "artType": "Cartoon",
+        "state": 1
+      },
+      {
+        "id": 100025,
+        "name": "Ringo",
+        "displayName": "Ringo",
+        "thumbnail": "Ringo.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100009,
+        "name": "Obama",
+        "displayName": "Obama 2",
+        "thumbnail": "OBAMA 2.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100027,
+        "name": "Sketch",
+        "displayName": "Sketch",
+        "thumbnail": "Sketch.webp",
+        "artType": "Cartoon",
+        "state": 1
+      },
+      {
+        "id": 100029,
+        "name": "Sweet",
+        "displayName": "Sweet",
+        "thumbnail": "Sweet.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100023,
+        "name": "Oldtimer",
+        "displayName": "Oldtimer",
+        "thumbnail": "Oldtimer.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100006,
+        "name": "Lively",
+        "displayName": "Lively 2",
+        "thumbnail": "LIVELY 2.webp",
+        "artType": "Cartoon",
+        "state": 1
+      },
+      {
+        "id": 100001,
+        "name": "Comics",
+        "displayName": "Comics 2",
+        "thumbnail": "COMICS 2.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100026,
+        "name": "Scribble",
+        "displayName": "Scribble",
+        "thumbnail": "Scribble.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100002,
+        "name": "Dark",
+        "displayName": "Dark 2",
+        "thumbnail": "DARK 2.webp",
+        "artType": "Cartoon",
+        "state": 1
+      },
+      {
+        "id": 100004,
+        "name": "Grunge",
+        "displayName": "Grunge 2",
+        "thumbnail": "GRUNGE 2.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100019,
+        "name": "Flag",
+        "displayName": "Flag",
+        "thumbnail": "Flag.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100005,
+        "name": "Ink",
+        "displayName": "Ink 2",
+        "thumbnail": "INK 2.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100010,
+        "name": "Paint",
+        "displayName": "Paint 2",
+        "thumbnail": "PAINT 2.webp",
+        "artType": "Cartoon",
+        "state": 1
+      },
+      {
+        "id": 100007,
+        "name": "Lux",
+        "displayName": "Lux 2",
+        "thumbnail": "LUX 2.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 100012,
+        "name": "Stamp",
+        "displayName": "Stamp 2",
+        "thumbnail": "Stamp 2.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 101008,
+        "name": "圆珠笔",
+        "displayName": "Ballpen",
+        "thumbnail": "Blue Ballpen.webp",
+        "artType": "Cartoon"
+      },
+      {
+        "id": 101009,
+        "name": "技术绘画",
+        "displayName": "Illustration",
+        "thumbnail": "Illustration.webp",
+        "artType": "Cartoon"
+      }
+    ]
+  }
+]

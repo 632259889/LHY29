@@ -1,0 +1,100 @@
+[
+  {
+    "category": "Doodle",
+    "doodles": [
+      {
+        "id": 0,
+        "name": "Stripe_0",
+        "thumbnail": "doodle_s_0.png",
+        "images": [
+          "doodle_doodle_0_1.png"
+        ],
+        "isUpright": true
+      },
+      {
+        "id": 2,
+        "name": "Stripe_2",
+        "thumbnail": "doodle_s_2.png",
+        "images": [
+          "doodle_doodle_2_1.png"
+        ],
+        "isUpright": true
+      },
+      {
+        "id": 3,
+        "name": "Stripe_3",
+        "thumbnail": "doodle_s_3.png",
+        "images": [
+          "doodle_doodle_3_1.png",
+          "doodle_doodle_3_2.png",
+          "doodle_doodle_3_3.png"
+        ],
+        "isUpright": true,
+        "state": 1
+      },
+      {
+        "id": 4,
+        "name": "Stripe_4",
+        "thumbnail": "doodle_s_4.png",
+        "images": [
+          "doodle_doodle_4_1.png"
+        ],
+        "isUpright": true,
+        "state": 1
+      },
+      {
+        "id": 5,
+        "name": "Stripe_5",
+        "thumbnail": "doodle_s_5.png",
+        "images": [
+          "doodle_doodle_5_1.png",
+          "doodle_doodle_5_2.png",
+          "doodle_doodle_5_3.png"
+        ],
+        "isUpright": true,
+        "state": 1
+      },
+      {
+        "id": 6,
+        "name": "Stripe_6",
+        "thumbnail": "doodle_s_6.png",
+        "images": [
+          "doodle_doodle_6_1.png"
+        ],
+        "isUpright": true,
+        "state": 1
+      },
+      {
+        "id": 7,
+        "name": "Stripe_7",
+        "thumbnail": "doodle_s_7.png",
+        "images": [
+          "doodle_doodle_7_1.png"
+        ],
+        "isUpright": true
+      },
+      {
+        "id": 8,
+        "name": "Stripe_8",
+        "thumbnail": "doodle_s_8.png",
+        "images": [
+          "doodle_doodle_8_1.png"
+        ],
+        "isUpright": true,
+        "state": 1
+      },
+      {
+        "id": 9,
+        "name": "Stripe_9",
+        "thumbnail": "doodle_s_9.png",
+        "images": [
+          "doodle_doodle_9_1.png",
+          "doodle_doodle_9_2.png",
+          "doodle_doodle_9_3.png",
+          "doodle_doodle_9_4.png"
+        ],
+        "isUpright": true
+      }
+    ]
+  }
+]

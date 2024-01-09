@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:background="@drawable/border_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/template_icon_loading_4" android:scaleType="center" android:layout_alignTop="@id/tabImage" android:layout_alignBottom="@id/tabImage" />
+    <lightcone.com.pack.view.RatioLinearLayout android:id="@id/tabImage" android:layout_width="fill_parent" android:layout_height="wrap_content" app:height_weight="320" app:width_weight="690">
+        <com.makeramen.roundedimageview.RoundedImageView android:id="@id/ivImage" android:layout_width="fill_parent" android:layout_height="wrap_content" app:riv_corner_radius="10.0dip" />
+    </lightcone.com.pack.view.RatioLinearLayout>
+    <ImageView android:id="@id/ivIcon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="1.0dip" android:src="@drawable/icon_free_limited" android:scaleType="fitStart" android:layout_marginStart="1.0dip" />
+    <lightcone.com.pack.view.AppUITextView android:textSize="13.0dip" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_margin="5.0dip" android:text="name" android:maxLines="1" android:layout_below="@id/tabImage" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/tabPrice" android:background="@drawable/shape_black_stroke" android:layout_width="60.0dip" android:layout_height="20.0dip" android:layout_margin="5.0dip" android:layout_below="@id/tabImage" android:layout_alignParentEnd="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ivState" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_ad" android:layout_marginEnd="3.0dip" />
+        <TextView android:textSize="11.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tvPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$0.99" />
+    </LinearLayout>
+</RelativeLayout>

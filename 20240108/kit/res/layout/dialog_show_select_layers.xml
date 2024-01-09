@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:background="#ff010013" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="164.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/tvLayersSelected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Select_Layers_Merge" />
+    <TextView android:enabled="false" android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnLayersMerge" android:background="@drawable/selector_pop_btn_bg" android:layout_width="175.0dip" android:layout_height="43.0dip" android:layout_marginTop="20.0dip" android:text="@string/Merge" />
+    <lightcone.com.pack.view.AppUITextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnLayersCancel" android:layout_width="175.0dip" android:layout_height="43.0dip" android:layout_marginTop="10.0dip" android:text="@string/cancel" />
+</LinearLayout>

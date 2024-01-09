@@ -1,0 +1,82 @@
+{
+  "versionCode": 125,
+  "popFreeLimitOnVip": 9999,
+  "rating": 30,
+  "following": 0,
+  "nonIncentiveRate": 50,
+  "freeLimitRate": 100,
+  "freeLimitRank": {
+    "freeLimitImmediate": 90,
+    "freeLimitRatting": 0,
+    "freeLimitShare": 10
+  },
+  "surveyRate": 0,
+  "christmasSale": {
+    "switchVersion": 9999,
+    "startTime": "2020-12-17 00:00:00",
+    "endTime": "2020-12-27 23:59:59"
+  },
+  "newYearSale": {
+    "switchVersion": 9999,
+    "startTime": "2020-12-28 00:00:00",
+    "endTime": "2021-01-10 23:59:59"
+  },
+  "countdownSale": {
+    "switchVersion": 9999,
+    "startTime": "2021-01-11 00:00:00",
+    "endTime": "2021-01-13 23:59:59"
+  },
+  "VipCountdownSale": {
+    "rate": 0,
+    "durationSeconds": 86400
+  },
+  "questionnaireConfig": {
+    "rate": 0,
+    "startTime": "2021-03-20 00:00:00",
+    "endTime": "2021-04-30 23:59:59",
+    "wholeType": 0,
+    "wholeConfig": {
+      "country": [],
+      "lng": [],
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSe5BL2S6yQOVrC8tsWnlTjvGnD6dwYI62qZmjQ0NHse1S85cw/viewform?usp=sf_link"
+    },
+    "detailConfig": [
+      {
+        "country": [
+
+        ],
+        "lng": [
+
+        ],
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSe5BL2S6yQOVrC8tsWnlTjvGnD6dwYI62qZmjQ0NHse1S85cw/viewform?usp=sf_link"
+      },
+      {
+        "country": [
+          "DE"
+        ],
+        "lng": [
+          "de"
+        ],
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSeqo1W0QKVdK0KCw1kBm_X3kmm36krrxGeU8i0BfPW9_p4vbw/viewform?usp=sf_link"
+      },
+      {
+        "country": [
+          "BR"
+        ],
+        "lng": [
+          "pt"
+        ],
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLScLEIXQOlbuy_cWoqgzTtFaeq8kgXtWbJjJBeIzzfpIxZXWrg/viewform?usp=sf_link"
+      },
+      {
+        "country": [
+          "ID"
+        ],
+        "lng": [
+          "in"
+        ],
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSdumeLgSRaudSpm7DV1EgDoJSIYwL21gWGUTb3DxUSV1ZsiPA/viewform?usp=sf_link"
+      }
+    ]
+  }
+}

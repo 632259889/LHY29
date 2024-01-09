@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvProjects" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" />
+    <TextView android:textSize="11.0dip" android:textColor="#ff9f9f9f" android:gravity="center" android:id="@id/tvProjectFindHint" android:background="#fff0f0f0" android:padding="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_due_to_android_latest_policy" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_blue_fill" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvTips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="tips" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="120.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvLike" android:layout_width="0.0dip" android:layout_height="80.0dip" android:text="@string/like" android:drawableTop="@drawable/tutorials_emoji_like" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvDislike" android:layout_width="0.0dip" android:layout_height="80.0dip" android:text="@string/dislike" android:drawableTop="@drawable/tutorials_emoji_dislike" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

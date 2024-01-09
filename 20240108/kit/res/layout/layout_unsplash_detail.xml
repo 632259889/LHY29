@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lightcone.com.pack.view.UnsplashLookDetailLayout android:background="#ff212023" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivImage" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/navBar" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <ImageView android:id="@id/ivBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_nav_back" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/ivDown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_nav_download" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:text="Photo by" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="" android:maxLength="20" />
+        </RelativeLayout>
+        <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="on" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvSplash" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/Unsplash" />
+        </RelativeLayout>
+    </LinearLayout>
+</lightcone.com.pack.view.UnsplashLookDetailLayout>

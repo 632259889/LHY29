@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff282828" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/file_flag" android:padding="19.0dip" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/icon_folder" />
+    <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/font_text" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text="Aa" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toEndOf="@id/file_flag">
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/file_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="11.0sp" android:textColor="#ff999999" android:ellipsize="middle" android:id="@id/sub_nums" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

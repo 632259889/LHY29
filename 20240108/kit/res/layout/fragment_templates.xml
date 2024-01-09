@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/tabSearch" android:background="@drawable/shape_search_template" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="37.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/btnSearchCancel">
+        <ImageView android:id="@id/iconSearch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/templates_result_icon_search" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+        <ImageView android:id="@id/iconDelete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_search_history_delete" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" />
+        <EditText android:textSize="18.0dip" android:textColor="#ff010013" android:textColorHighlight="#ff4e4e5b" android:textColorHint="#ff999999" android:gravity="center_vertical" android:id="@id/editSearch" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/Search" android:maxLines="1" android:singleLine="true" android:imeOptions="actionSearch" android:layout_toStartOf="@id/iconDelete" android:layout_toEndOf="@id/iconSearch" />
+    </RelativeLayout>
+    <TextView android:textSize="15.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/btnSearchCancel" android:layout_width="wrap_content" android:layout_height="37.0dip" android:text="@string/cancel" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+    <com.aspsine.swipetoloadlayout.SwipeToLoadLayout android:id="@id/swipeToLoadLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tabSearch" app:load_more_enabled="true" app:swipe_style="classic">
+        <com.aspsine.swipetoloadlayout.SwipeRefreshHeaderLayout android:id="@id/swipe_refresh_header" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <TextView android:textColor="#ffcccccc" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Loading" />
+        </com.aspsine.swipetoloadlayout.SwipeRefreshHeaderLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/swipe_target" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" />
+        <com.aspsine.swipetoloadlayout.SwipeLoadMoreFooterLayout android:id="@id/swipe_load_more_footer" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <TextView android:textColor="#ffcccccc" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Loading_more" />
+        </com.aspsine.swipetoloadlayout.SwipeLoadMoreFooterLayout>
+    </com.aspsine.swipetoloadlayout.SwipeToLoadLayout>
+    <TextView android:textSize="11.0dip" android:textColor="#ff9f9f9f" android:gravity="center" android:id="@id/tvProjectFindHint" android:background="#fff0f0f0" android:padding="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_due_to_android_latest_policy" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/tabSuggestions" android:background="#f8ffffff" android:padding="15.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tabSearch">
+        <lightcone.com.pack.view.AppUITextView android:textSize="18.0dip" android:textColor="#ff4e4e5b" android:id="@id/tvSearchSuggestions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Search_Suggestions" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvSearchSuggestions" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tvSearchSuggestions" />
+    </RelativeLayout>
+</RelativeLayout>

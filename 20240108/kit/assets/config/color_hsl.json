@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "value": "#FF0000",
+    "tag": "红色",
+    "startH": "#FF00B4",
+    "endH": "#FF0000",
+    "startS": "#818181",
+    "endS": "#FF0000",
+    "startL": "#FFFFFF",
+    "endL": "#FF0000"
+  },
+  {
+    "id": 2,
+    "value": "#E88320",
+    "tag": "橙色",
+    "startH": "#FF0000",
+    "endH": "#E88320",
+    "startS": "#818181",
+    "endS": "#E88320",
+    "startL": "#FFFFFF",
+    "endL": "#E88320"
+  },
+  {
+    "id": 3,
+    "value": "#FFCF2A",
+    "tag": "黄色",
+    "startH": "#FFFFFF",
+    "endH": "#FFCF2A",
+    "startS": "#818181",
+    "endS": "#FFCF2A",
+    "startL": "#FFFFFF",
+    "endL": "#FFCF2A"
+  },
+  {
+    "id": 4,
+    "value": "#73EF00",
+    "tag": "绿色",
+    "startH": "#FFCF2A",
+    "endH": "#73EF00",
+    "startS": "#818181",
+    "endS": "#73EF00",
+    "startL": "#FFFFFF",
+    "endL": "#73EF00"
+  },
+  {
+    "id": 5,
+    "value": "#4EFEFF",
+    "tag": "青色",
+    "startH": "#73EF00",
+    "endH": "#4EFEFF",
+    "startS": "#818181",
+    "endS": "#4EFEFF",
+    "startL": "#FFFFFF",
+    "endL": "#4EFEFF"
+  },
+  {
+    "id": 6,
+    "value": "#3881FF",
+    "tag": "蓝色",
+    "startH": "#4EFEFF",
+    "endH": "#3881FF",
+    "startS": "#818181",
+    "endS": "#3881FF",
+    "startL": "#FFFFFF",
+    "endL": "#3881FF"
+  },
+  {
+    "id": 7,
+    "value": "#5637F4",
+    "tag": "紫色",
+    "startH": "#3881FF",
+    "endH": "#5637F4",
+    "startS": "#818181",
+    "endS": "#5637F4",
+    "startL": "#FFFFFF",
+    "endL": "#5637F4"
+  },
+  {
+    "id": 8,
+    "value": "#E734E7",
+    "tag": "洋红",
+    "startH": "#5637F4",
+    "endH": "#E734E7",
+    "startS": "#818181",
+    "endS": "#E734E7",
+    "startL": "#FFFFFF",
+    "endL": "#E734E7"
+  }
+]

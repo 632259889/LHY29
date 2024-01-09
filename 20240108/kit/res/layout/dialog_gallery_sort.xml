@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dialog_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/dialog_content" android:background="@drawable/shape_corner_white" android:layout_width="fill_parent" android:layout_height="285.0dip" android:layout_marginLeft="17.5dip" android:layout_marginRight="17.5dip" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llName" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="40.0dip" android:layout_marginStart="20.0dip">
+            <ImageView android:id="@id/selectName" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/selector_icon_sort" android:scaleType="centerInside" />
+            <TextView android:textSize="18.0dip" android:textColor="#ff010013" android:gravity="center_vertical" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Name" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llDate" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/llName" android:layout_marginStart="20.0dip">
+            <ImageView android:id="@id/selectDate" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/selector_icon_sort" android:scaleType="centerInside" />
+            <TextView android:textSize="18.0dip" android:textColor="#ff010013" android:gravity="center_vertical" android:id="@id/tvDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Date_modified" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llNumber" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/llDate" android:layout_marginStart="20.0dip">
+            <ImageView android:id="@id/selectNumber" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/selector_icon_sort" android:scaleType="centerInside" />
+            <TextView android:textSize="18.0dip" android:textColor="#ff010013" android:gravity="center_vertical" android:id="@id/tvNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Number_of_media_files" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="23.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnAscend" android:background="@drawable/pop_right_btn_bg" android:layout_width="120.0dip" android:layout_height="43.0dip" android:text="@string/Ascend" />
+            <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnDescend" android:background="@drawable/pop_right_btn_bg" android:layout_width="120.0dip" android:layout_height="43.0dip" android:text="@string/Descend" android:layout_marginStart="10.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

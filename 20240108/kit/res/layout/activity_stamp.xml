@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mainContainer" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topLayout" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:id="@id/ivHelp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/btn_nav_tutorial" android:layout_toLeftOf="@id/tvTitle" android:layout_centerVertical="true" />
+        <lightcone.com.pack.view.AppUITextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Clone_Stamp" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/container" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottomLayout" android:layout_below="@id/topLayout">
+        <FrameLayout android:id="@id/tabContent" android:background="@drawable/image_grid_repeat" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <lightcone.com.pack.video.player.VideoTextureView android:id="@id/surfaceView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <lightcone.com.pack.view.MyImageView android:id="@id/imageView" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+            <lightcone.com.pack.view.TouchStampView android:id="@id/touchPointView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/ivClone" android:visibility="invisible" android:layout_width="88.0dip" android:layout_height="88.0dip" android:src="@drawable/selector_clone_stamp" />
+        </FrameLayout>
+        <RelativeLayout android:id="@id/rlHint1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0dip" android:textColor="#ff5062fb" android:gravity="center" android:id="@id/tvAutoHint" android:background="@drawable/pop_cutout_bg" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/Drag_the_marker_to_the_area_wrap" android:layout_below="@id/ivTriangle" />
+            <ImageView android:id="@id/ivTriangle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hint_triangle" android:layout_below="@id/ivHand" android:layout_centerHorizontal="true" android:translationX="-30.0dip" />
+            <ImageView android:id="@id/ivHand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_gesture" android:layout_centerHorizontal="true" android:translationX="-30.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlHint2" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="300.0dip" android:layout_centerHorizontal="true">
+            <TextView android:textSize="14.0dip" android:textColor="#ff5062fb" android:gravity="center" android:id="@id/tvAutoHint2" android:background="@drawable/pop_cutout_bg" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/Use_your_finger_wrap" android:layout_below="@id/ivTriangle2" />
+            <ImageView android:id="@id/ivTriangle2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hint_triangle" android:layout_below="@id/ivHand2" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/ivHand2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_gesture" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bottomLayout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="164.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="88.0dip" android:layout_height="44.0dip">
+            <ImageView android:id="@id/ivUndo" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/selector_btn_edit_backward" android:scaleType="center" />
+            <ImageView android:id="@id/ivRedo" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/selector_btn_edit_forward" android:scaleType="center" android:layout_toEndOf="@id/ivUndo" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="44.0dip" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/ivCompare" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/btn_contrast" android:scaleType="center" />
+            <ImageView android:id="@id/ivErase" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/eraser_icon_erase" android:scaleType="center" android:layout_toEndOf="@id/ivCompare" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/backBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottom_btn_cancel" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/doneBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottom_btn_done" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="44.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvHint" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Drag_the_marker_to_the_area_that_you_want_to_clone" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginTop="74.0dip" android:layout_above="@id/rlBottom">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/stampSettingBtn" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/btn_settings" android:scaleType="center" />
+                <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/stampSettingTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/Settings" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/cloneBtn" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/icon_stamp_clone" android:scaleType="center" />
+                <TextView android:textSize="14.0dip" android:textColor="#ff4061fa" android:gravity="center" android:id="@id/stampCloneTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/Choose" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/stampBtn" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/icon_stamp_stamp" android:scaleType="center" />
+                <TextView android:textSize="14.0dip" android:textColor="#ff4061fa" android:gravity="center" android:id="@id/stampStampTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/Clone" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/rlSmartSetting" android:background="#ff000000" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ivSmartDone">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llMenu" android:background="#ff212023" android:layout_width="fill_parent" android:layout_height="31.0dip">
+                    <TextView android:textSize="13.0sp" android:textColor="@drawable/btn_text_color" android:gravity="center" android:id="@id/tvSize" android:background="@drawable/btn_text_selector" android:layout_width="100.0dip" android:layout_height="fill_parent" android:text="@string/Size" />
+                    <TextView android:textSize="13.0sp" android:textColor="@drawable/btn_text_color" android:gravity="center" android:id="@id/tvOpacity" android:background="@drawable/btn_text_selector" android:layout_width="100.0dip" android:layout_height="fill_parent" android:text="@string/Opacity" />
+                    <TextView android:textSize="13.0sp" android:textColor="@drawable/btn_text_color" android:gravity="center" android:id="@id/tvHardness" android:background="@drawable/btn_text_selector" android:layout_width="100.0dip" android:layout_height="fill_parent" android:text="@string/Hardness" />
+                </LinearLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/llMenu">
+                    <RelativeLayout android:id="@id/rlSize" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <SeekBar android:id="@id/sizeSeekBar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:maxHeight="5.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="5.0dip" android:thumb="@drawable/thickness_adjust_circle" android:layout_centerVertical="true" android:splitTrack="false" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/rlOpacity" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <SeekBar android:id="@id/opacitySeekBar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:maxHeight="5.0dip" android:max="100" android:progress="40" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="5.0dip" android:thumb="@drawable/thickness_adjust_circle" android:layout_centerVertical="true" android:splitTrack="false" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/rlHardness" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <SeekBar android:id="@id/hardnessSeekBar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:maxHeight="5.0dip" android:max="100" android:progress="40" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="5.0dip" android:thumb="@drawable/thickness_adjust_circle" android:layout_centerVertical="true" android:splitTrack="false" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+            <ImageView android:id="@id/ivSmartDone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:src="@drawable/bottom_btn_done" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/tabAlbum" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.5dip" android:layout_marginTop="7.5dip" android:layout_marginRight="7.5dip">
+        <TextView android:textSize="19.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/tvPhotos" android:background="@drawable/btn_home_photo" android:padding="20.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/photos" android:drawableRight="@drawable/icon_home_photo" android:layout_weight="1.0" android:textAllCaps="true" />
+        <TextView android:textSize="19.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/tvCamera" android:background="@drawable/btn_home_camera" android:padding="20.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/camera" android:drawableRight="@drawable/icon_home_camera" android:layout_weight="1.0" android:textAllCaps="true" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvProjects" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:layout_below="@id/tabAlbum" />
+    <TextView android:textSize="11.0dip" android:textColor="#ff9f9f9f" android:gravity="center" android:id="@id/tvProjectFindHint" android:background="#fff0f0f0" android:padding="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_due_to_android_latest_policy" android:layout_alignParentBottom="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/tabNoProject" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/project_icon_hint" />
+        <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Create_First_Project" />
+        <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tvGo" android:background="@drawable/pop_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Let_Us_Go" />
+        <TextView android:textSize="15.0dip" android:textColor="#ff666666" android:gravity="center" android:id="@id/tvNoProjectFindHint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/Cant_find_the_project_you_want" />
+    </LinearLayout>
+</RelativeLayout>

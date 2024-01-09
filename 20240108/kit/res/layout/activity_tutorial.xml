@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topBar" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <ImageView android:id="@id/ivBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_nav_back" android:layout_centerVertical="true" />
+        <lightcone.com.pack.view.AppUITextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Basic_Tutorials" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvTutorials" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_above="@id/btnDo" android:layout_below="@id/topBar" />
+    <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnDo" android:background="@drawable/bottom_btn_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/Let_do_it" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>
