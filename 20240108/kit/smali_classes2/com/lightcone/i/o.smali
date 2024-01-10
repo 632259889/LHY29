@@ -66,13 +66,7 @@
 
 .method public static b(Ljava/security/PublicKey;Ljava/lang/String;Ljava/lang/String;)Z
     .locals 3
-
-    .line 1
-    const-string v0, "liuheyi.........dddddddd()"
-
-  invoke-static {v0}, Llightcone/com/pack/activity/LogUtil;->log(Ljava/lang/String;)V
-
-
+    
     const-string v0, "IABUtil/Security"
 
     const/4 v1, 0x1

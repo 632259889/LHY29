@@ -63,7 +63,7 @@
 
     if-eqz p0, :cond_0
 
-    const-string v2, "com.test.one.removeads"
+    const-string v2, "com.image.master.removeads"
 
     .line 1
     invoke-static {v2}, Llightcone/com/pack/h/g;->u(Ljava/lang/String;)Z

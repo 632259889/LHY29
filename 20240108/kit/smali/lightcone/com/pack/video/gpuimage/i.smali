@@ -148,7 +148,7 @@
 .end method
 
 .method private c()V
-    .locals 2
+    .locals 3
 
     .line 1
     iget v0, p0, Llightcone/com/pack/video/gpuimage/i;->a:I

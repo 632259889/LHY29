@@ -330,7 +330,7 @@ Jualan"</string>
     <string name="Oops">Oops!</string>
     <string name="Opacity">Ketelusan</string>
     <string name="Open_PicsKit">Buka PicsKit</string>
-    <string name="Options_irrevocable_sure_leave">"Anda akan bermula dari langkah pertama kali seterusnya. 
+    <string name="Options_irrevocable_sure_leave">"Anda akan bermula dari langkah pertama kali seterusnya.
 Jangan pergi?"</string>
     <string name="Options_irrevocable_sure_return">"Opsyen tidak dapat ditarik balik.
 Terus kembali ke langkah pertama?"</string>
@@ -349,7 +349,7 @@ Terus kembali ke langkah pertama?"</string>
     <string name="Photo_Collage_title">Foto Kolaj</string>
     <string name="Photo_Effects">Kesan Foto</string>
     <string name="PicsKit_VIP">PicsKit VIP</string>
-    <string name="PicsKit_VIP_tips">"Akses semua ciri dan nikmati 
+    <string name="PicsKit_VIP_tips">"Akses semua ciri dan nikmati
 pengalaman bebas iklan."</string>
     <string name="Pinterest">Pinterest</string>
     <string name="Please_Write_down_your_answer">Sila tuliskan jawapan anda.</string>
@@ -397,9 +397,9 @@ pengalaman bebas iklan."</string>
     <string name="Rate_Lifetime_VIP_FREE">Nilaikan kami 5 bintang untuk mendapatkan VIP Seumur Hidup secara PERCUMA.</string>
     <string name="Rate_Now">Kadar sekarang</string>
     <string name="Rate_PicsKit">Rate PicsKit</string>
-    <string name="Rate_PicsKit_tips">"Sekiranya anda menikmati menggunakan PicsKit, adakah anda mengambil masa untuk menilai? 
+    <string name="Rate_PicsKit_tips">"Sekiranya anda menikmati menggunakan PicsKit, adakah anda mengambil masa untuk menilai?
 
-Ia tidak mengambil masa lebih daripada satu minit. 
+Ia tidak mengambil masa lebih daripada satu minit.
 
 Terima kasih atas sokongan anda."</string>
     <string name="Recent">Baru-baru ini</string>
@@ -622,7 +622,7 @@ TEKS"</string>
     <string name="abs">Abs</string>
     <string name="add_to_favorite">Ditambah kegemaran.</string>
     <string name="album_cant_find_the_picture">Tidak dapat mencari gambar yang anda mahukan?</string>
-    <string name="app_name">PicsKit</string>
+    <string name="app_name">Image master</string>
     <string name="auto_mode">Mod Auto</string>
     <string name="background">Latar Belakang</string>
     <string name="blur_bg">Blur bg</string>
@@ -833,13 +833,13 @@ Diskaun"</string>
     <string name="please_download_instagram">"Instagram tidak dipasang.
 Sila muat turun Instagram dan cuba lagi."</string>
     <string name="provicy_policy">Dasar Privasi</string>
-    <string name="purchase_detail">"• Pilihan langganan: %1$s sebulan, %2$s setahun. Langgan untuk akses tanpa had ke semua ciri dan kandungan yang ditawarkan untuk pembelian dalam PicsKit. 
+    <string name="purchase_detail">"• Pilihan langganan: %1$s sebulan, %2$s setahun. Langgan untuk akses tanpa had ke semua ciri dan kandungan yang ditawarkan untuk pembelian dalam PicsKit.
 
-• Anda akan dikenakan bayaran secara automatik setiap tempoh pembaharuan bergantung pada syarat langganan anda, misalnya: bulanan atau tahunan. 
+• Anda akan dikenakan bayaran secara automatik setiap tempoh pembaharuan bergantung pada syarat langganan anda, misalnya: bulanan atau tahunan.
 
-• Anda mungkin mendapat kebenaran pembayaran pada kaedah pembayaran anda sehingga 24 jam sebelum tarikh pembaharuan tetapi anda hanya akan dikenakan bayaran pada tarikh pembaharuan. Untuk membuang kebenaran pembayaran, batalkan langganan sebelum tarikh pembaharuan. 
+• Anda mungkin mendapat kebenaran pembayaran pada kaedah pembayaran anda sehingga 24 jam sebelum tarikh pembaharuan tetapi anda hanya akan dikenakan bayaran pada tarikh pembaharuan. Untuk membuang kebenaran pembayaran, batalkan langganan sebelum tarikh pembaharuan.
 
-• Anda boleh membatalkan langganan anda kapan saja di bahagian langganan di Google Play. Apabila anda membatalkan langganan, anda akan kehilangan akses ke langganan pada akhir tempoh pengebilan semasa. 
+• Anda boleh membatalkan langganan anda kapan saja di bahagian langganan di Google Play. Apabila anda membatalkan langganan, anda akan kehilangan akses ke langganan pada akhir tempoh pengebilan semasa.
 
 • Sekiranya anda membatalkan langganan yang dibeli dari aplikasi di Google Play, anda tidak akan menerima bayaran balik untuk tempoh penagihan semasa, tetapi akan terus menerima kandungan langganan anda untuk baki tempoh penagihan semasa, tanpa mengira tarikh pembatalan. Pembatalan anda akan berkuat kuasa setelah tempoh pengebilan semasa berlalu.
 
@@ -855,7 +855,7 @@ Sila muat turun Instagram dan cuba lagi."</string>
 • Sekiranya anda membatalkan langganan yang dibeli dari aplikasi di Google Play, anda tidak akan menerima bayaran balik untuk tempoh penagihan semasa, tetapi akan terus menerima kandungan langganan anda untuk baki tempoh penagihan semasa, tanpa mengira tarikh pembatalan. Pembatalan anda akan berkuat kuasa setelah tempoh pengebilan semasa berlalu.
 
 • Harga di negara lain mungkin berbeza dan caj sebenar boleh ditukar ke mata wang tempatan anda bergantung pada negara tempat tinggal."</string>
-    <string name="question_tip1" formatted="false">"Isi borang soal selidik untuk memenangkan %s! 
+    <string name="question_tip1" formatted="false">"Isi borang soal selidik untuk memenangkan %s!
 Adakah anda ingin mengikuti tinjaua %s untuk peluang VIP Percuma?"</string>
     <string name="question_tip1_str1">VIP PERCUMA</string>
     <string name="question_tip1_str2">2 minit</string>
@@ -889,19 +889,19 @@ Adakah anda ingin mengikuti tinjaua %s untuk peluang VIP Percuma?"</string>
     <string name="select_limit_layers">Sila pilih sehingga 3 lapisan.</string>
     <string name="shadow_shape">Bentuk</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="subscription_option">"• Pilihan langganan: %1$s sebulan, %2$s setahun. Langgan untuk akses tanpa had ke semua ciri dan kandungan yang ditawarkan untuk pembelian dalam PicsKit. 
+    <string name="subscription_option">"• Pilihan langganan: %1$s sebulan, %2$s setahun. Langgan untuk akses tanpa had ke semua ciri dan kandungan yang ditawarkan untuk pembelian dalam PicsKit.
 
-• Anda akan dikenakan bayaran secara automatik setiap tempoh pembaharuan bergantung pada syarat langganan anda, misalnya: bulanan atau tahunan. 
+• Anda akan dikenakan bayaran secara automatik setiap tempoh pembaharuan bergantung pada syarat langganan anda, misalnya: bulanan atau tahunan.
 
-• Anda mungkin mendapat kebenaran pembayaran pada kaedah pembayaran anda sehingga 24 jam sebelum tarikh pembaharuan tetapi anda hanya akan dikenakan bayaran pada tarikh pembaharuan. Untuk membuang kebenaran pembayaran, batalkan langganan sebelum tarikh pembaharuan. 
+• Anda mungkin mendapat kebenaran pembayaran pada kaedah pembayaran anda sehingga 24 jam sebelum tarikh pembaharuan tetapi anda hanya akan dikenakan bayaran pada tarikh pembaharuan. Untuk membuang kebenaran pembayaran, batalkan langganan sebelum tarikh pembaharuan.
 
-• Anda boleh membatalkan langganan anda kapan saja di bahagian langganan di Google Play. Apabila anda membatalkan langganan, anda akan kehilangan akses ke langganan pada akhir tempoh pengebilan semasa. 
+• Anda boleh membatalkan langganan anda kapan saja di bahagian langganan di Google Play. Apabila anda membatalkan langganan, anda akan kehilangan akses ke langganan pada akhir tempoh pengebilan semasa.
 
-• Sekiranya anda membatalkan langganan yang dibeli dari aplikasi di Google Play, anda tidak akan menerima bayaran balik untuk tempoh penagihan semasa, tetapi akan terus menerima kandungan langganan anda untuk baki tempoh penagihan semasa, tanpa mengira tarikh pembatalan. Pembatalan anda akan berkuat kuasa setelah tempoh pengebilan semasa berlalu. 
+• Sekiranya anda membatalkan langganan yang dibeli dari aplikasi di Google Play, anda tidak akan menerima bayaran balik untuk tempoh penagihan semasa, tetapi akan terus menerima kandungan langganan anda untuk baki tempoh penagihan semasa, tanpa mengira tarikh pembatalan. Pembatalan anda akan berkuat kuasa setelah tempoh pengebilan semasa berlalu.
 
 • Harga di negara lain mungkin berbeza dan caj sebenar boleh ditukar ke mata wang tempatan anda bergantung pada negara tempat tinggal.
 
-• Menurut peraturan platform yang berbeza, keahlian VIP tidak dapat dibagi antara iOS dan Android. 
+• Menurut peraturan platform yang berbeza, keahlian VIP tidak dapat dibagi antara iOS dan Android.
 
 • Anda boleh mendapatkan akses ke semua ciri pro di PicsKit melalui langganan bulanan, langganan tahunan dan pembelian sekali sahaja. Satu-satunya perbezaan adalah pada masa sah buka kunci."</string>
     <string name="subscription_option_shuangyin">"• Ciri-ciri yang ditandai sebagai maju bebas digunakan untuk waktu yang terhad. Dengan kata lain, anda kini boleh mendapatkan akses ke semua ciri dan kandungan di PicsKit secara percuma. Untuk rujukan anda, rancangan harga dan langganan asal disenaraikan seperti berikut. Yakinlah bahawa anda tidak akan dikenakan bayaran secara automatik apabila acara waktu terhad ini selesai.

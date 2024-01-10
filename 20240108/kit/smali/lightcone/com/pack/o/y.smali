@@ -95,7 +95,7 @@
 
     const-string v1, "packageName"
 
-    const-string v2, "com.test.one"
+    const-string v2, "com.image.master"
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
@@ -135,7 +135,7 @@
 
     const-string v1, "packageName"
 
-    const-string v2, "com.test.one"
+    const-string v2, "com.image.master"
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
@@ -173,7 +173,7 @@
 
     const-string v1, "packageName"
 
-    const-string v2, "com.test.one"
+    const-string v2, "com.image.master"
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
@@ -213,7 +213,7 @@
 
     const-string v1, "packageName"
 
-    const-string v2, "com.test.one"
+    const-string v2, "com.image.master"
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
@@ -239,7 +239,7 @@
 
     const-string v1, "packageName"
 
-    const-string v2, "com.test.one"
+    const-string v2, "com.image.master"
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
@@ -277,7 +277,7 @@
 
     const-string v1, "packageName"
 
-    const-string v2, "com.test.one"
+    const-string v2, "com.image.master"
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
@@ -315,7 +315,7 @@
 
     const-string v1, "packageName"
 
-    const-string v2, "com.test.one"
+    const-string v2, "com.image.master"
 
     .line 3
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
@@ -362,7 +362,7 @@
 
     const-string v1, "extra_pkgname"
 
-    const-string v2, "com.test.one"
+    const-string v2, "com.image.master"
 
     .line 4
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;

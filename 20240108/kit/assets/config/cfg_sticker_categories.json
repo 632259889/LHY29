@@ -15,7 +15,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.emoji3",
+    "sku": "com.image.master.emoji3",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -103,7 +103,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.lasercartoon",
+    "sku": "com.image.master.lasercartoon",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -197,7 +197,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.pixelgame",
+    "sku": "com.image.master.pixelgame",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -292,7 +292,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.lovelyeaster",
+    "sku": "com.image.master.lovelyeaster",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -387,7 +387,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.happyeaster",
+    "sku": "com.image.master.happyeaster",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -474,7 +474,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.specialvalentine",
+    "sku": "com.image.master.specialvalentine",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -562,7 +562,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.motionblur",
+    "sku": "com.image.master.motionblur",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -675,7 +675,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.shapeoflove",
+    "sku": "com.image.master.shapeoflove",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -796,7 +796,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.highvoltage",
+    "sku": "com.image.master.highvoltage",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -872,7 +872,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.fruittags",
+    "sku": "com.image.master.fruittags",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -981,7 +981,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.fashiconicon",
+    "sku": "com.image.master.fashiconicon",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -1073,7 +1073,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.cartoontattoo",
+    "sku": "com.image.master.cartoontattoo",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -1162,7 +1162,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.smiley",
+    "sku": "com.image.master.smiley",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -1263,7 +1263,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.neoneffect",
+    "sku": "com.image.master.neoneffect",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -1385,7 +1385,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.comicdecoration",
+    "sku": "com.image.master.comicdecoration",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -1494,7 +1494,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.2021happynewyear",
+    "sku": "com.image.master.2021happynewyear",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -1582,7 +1582,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.xmaxtime",
+    "sku": "com.image.master.xmaxtime",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -1682,7 +1682,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.2021newyear",
+    "sku": "com.image.master.2021newyear",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -1830,7 +1830,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.stunningfireworks",
+    "sku": "com.image.master.stunningfireworks",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -2078,7 +2078,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.alien",
+    "sku": "com.image.master.alien",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -2167,7 +2167,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.gingerxmas",
+    "sku": "com.image.master.gingerxmas",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -2317,7 +2317,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.inkbrush",
+    "sku": "com.image.master.inkbrush",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -2426,7 +2426,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.japanesestyle",
+    "sku": "com.image.master.japanesestyle",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -2515,7 +2515,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.astrologyaesthetic",
+    "sku": "com.image.master.astrologyaesthetic",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -2603,7 +2603,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.thanksgivingday",
+    "sku": "com.image.master.thanksgivingday",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -2691,7 +2691,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.goldenautumn",
+    "sku": "com.image.master.goldenautumn",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -2780,7 +2780,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.happyhalloween",
+    "sku": "com.image.master.happyhalloween",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -2879,7 +2879,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.halloweenhorror",
+    "sku": "com.image.master.halloweenhorror",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -3062,7 +3062,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.halloweenghost",
+    "sku": "com.image.master.halloweenghost",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -3153,7 +3153,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.magichalloween",
+    "sku": "com.image.master.magichalloween",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -3255,7 +3255,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.dictionary",
+    "sku": "com.image.master.dictionary",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -3363,7 +3363,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.pinkicecream",
+    "sku": "com.image.master.pinkicecream",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -3507,7 +3507,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.projection",
+    "sku": "com.image.master.projection",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -3615,7 +3615,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.vintageflora",
+    "sku": "com.image.master.vintageflora",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -3764,7 +3764,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.sweety",
+    "sku": "com.image.master.sweety",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -3854,7 +3854,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.shiningbright",
+    "sku": "com.image.master.shiningbright",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -3963,7 +3963,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.indiekids",
+    "sku": "com.image.master.indiekids",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -4072,7 +4072,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.goldfish",
+    "sku": "com.image.master.goldfish",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -4160,7 +4160,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.wordscard",
+    "sku": "com.image.master.wordscard",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -4250,7 +4250,7 @@
       "zh": ""
     },
     "sbg": "#e8e8e8",
-    "sku": "com.test.one.basicshapes",
+    "sku": "com.image.master.basicshapes",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -4382,7 +4382,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.shellspearls",
+    "sku": "com.image.master.shellspearls",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -4491,7 +4491,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.1980s",
+    "sku": "com.image.master.1980s",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -4597,7 +4597,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.lipstick",
+    "sku": "com.image.master.lipstick",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -4767,7 +4767,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.fluorescentgreen",
+    "sku": "com.image.master.fluorescentgreen",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -4917,7 +4917,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.swag",
+    "sku": "com.image.master.swag",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -5006,7 +5006,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.ai",
+    "sku": "com.image.master.ai",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -5136,7 +5136,7 @@
       "zh": ""
     },
     "sbg": "#e8e8e8",
-    "sku": "com.test.one.coolshapes",
+    "sku": "com.image.master.coolshapes",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -5225,7 +5225,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.holographicart",
+    "sku": "com.image.master.holographicart",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -5334,7 +5334,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.rainbowlight",
+    "sku": "com.image.master.rainbowlight",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -5450,7 +5450,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.darkred",
+    "sku": "com.image.master.darkred",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -5556,7 +5556,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.voguefashion",
+    "sku": "com.image.master.voguefashion",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -5684,7 +5684,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.happygrad",
+    "sku": "com.image.master.happygrad",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -5778,7 +5778,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.summerfun",
+    "sku": "com.image.master.summerfun",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -5885,7 +5885,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.retropieces",
+    "sku": "com.image.master.retropieces",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -5982,7 +5982,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.quotessub",
+    "sku": "com.image.master.quotessub",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -6152,7 +6152,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.facesketch",
+    "sku": "com.image.master.facesketch",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -6282,7 +6282,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.colorbrush",
+    "sku": "com.image.master.colorbrush",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -6392,7 +6392,7 @@
       "zh": ""
     },
     "tbg": "#494961",
-    "sku": "com.test.one.plog",
+    "sku": "com.image.master.plog",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -6540,7 +6540,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.lovelyfreckles",
+    "sku": "com.image.master.lovelyfreckles",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -6670,7 +6670,7 @@
       "zh": ""
     },
     "tbg": "#E8E8E8",
-    "sku": "com.test.one.doodleart",
+    "sku": "com.image.master.doodleart",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -6828,7 +6828,7 @@
       "zh": ""
     },
     "sbg": "#e8e8e8",
-    "sku": "com.test.one.fantasybutterfly",
+    "sku": "com.image.master.fantasybutterfly",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -6938,7 +6938,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.fantasycloud",
+    "sku": "com.image.master.fantasycloud",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -7026,7 +7026,7 @@
     "sdl": {
       "zh": ""
     },
-    "sku": "com.test.one.softgirlaesthetic",
+    "sku": "com.image.master.softgirlaesthetic",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -7171,7 +7171,7 @@
     },
     "sd": "sticker_top_banner_black_white.jpg",
     "sp": "sticker_store_black_white.jpg",
-    "sku": "com.test.one.blackwhite",
+    "sku": "com.image.master.blackwhite",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -7284,7 +7284,7 @@
     },
     "sd": "sticker_top_banner_face_collage.jpg",
     "sp": "sticker_store_face_collage.jpg",
-    "sku": "com.test.one.facecollage",
+    "sku": "com.image.master.facecollage",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -7538,7 +7538,7 @@
     },
     "sd": "sticker_top_banner_PaintingCollage.jpg",
     "sp": "sticker_store_PaintingCollage.jpg",
-    "sku": "com.test.one.paintingcollage",
+    "sku": "com.image.master.paintingcollage",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -7644,7 +7644,7 @@
     },
     "sd": "sticker_top_banner_ripped_paper.jpg",
     "sp": "sticker_store_ripped_paper.jpg",
-    "sku": "com.test.one.rippedpaper",
+    "sku": "com.image.master.rippedpaper",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -7750,7 +7750,7 @@
     },
     "sd": "sticker_top_banner_bad_bad_emoji.jpg",
     "sp": "sticker_store_bad_bad_emoji.jpg",
-    "sku": "com.test.one.badbademoji",
+    "sku": "com.image.master.badbademoji",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -7863,7 +7863,7 @@
     },
     "sd": "sticker_top_banner_darkmaiden.jpg",
     "sp": "sticker_store_darkmaiden.jpg",
-    "sku": "com.test.one.darkmaiden",
+    "sku": "com.image.master.darkmaiden",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -7980,7 +7980,7 @@
     "sd": "sticker_top_banner_dripping_tears.jpg",
     "sp": "sticker_store_dripping_tears.jpg",
     "sbg": "#E8E8E8",
-    "sku": "com.test.one.drippingtears",
+    "sku": "com.image.master.drippingtears",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -8068,7 +8068,7 @@
     },
     "sd": "sticker_top_banner_purple_windows.jpg",
     "sp": "sticker_store_purple_windows.jpg",
-    "sku": "com.test.one.purplewindows",
+    "sku": "com.image.master.purplewindows",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -8214,7 +8214,7 @@
     "sp": "sticker_store_shadow.jpg",
     "sbg": "#E8E8E8",
     "tbg": "#E8E8E8",
-    "sku": "com.test.one.shadow",
+    "sku": "com.image.master.shadow",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -8321,7 +8321,7 @@
     "sd": "sticker_top_banner_dripping_pop.jpg",
     "sp": "sticker_store_dripping_pop.jpg",
     "sbg": "#e8e8e8",
-    "sku": "com.test.one.drippingpop",
+    "sku": "com.image.master.drippingpop",
     "st": 3,
     "pri": "0.99",
     "tg": [
@@ -8426,7 +8426,7 @@
     },
     "sd": "sticker_top_banner_colorful_mood.jpg",
     "sp": "sticker_store_colorful_mood.jpg",
-    "sku": "com.test.one.colorfulmood",
+    "sku": "com.image.master.colorfulmood",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -8611,7 +8611,7 @@
     },
     "sd": "sticker_top_banner_conv_art.jpg",
     "sp": "sticker_store_conv_art.jpg",
-    "sku": "com.test.one.convart",
+    "sku": "com.image.master.convart",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -8715,7 +8715,7 @@
     },
     "sd": "sticker_top_banner_greecestyle.jpg",
     "sp": "sticker_store_greecestyle.jpg",
-    "sku": "com.test.one.greecestyle",
+    "sku": "com.image.master.greecestyle",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -8861,7 +8861,7 @@
     "sd": "sticker_top_banner_simple_sketch.jpg",
     "sp": "sticker_store_simple_sketch.jpg",
     "tbg": "#e8e8e8",
-    "sku": "com.test.one.simplesketch",
+    "sku": "com.image.master.simplesketch",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -9087,7 +9087,7 @@
     "sd": "sticker_top_banner_bling_bling.jpg",
     "sp": "sticker_store_bling_bling.jpg",
     "sbg": "#E8E8E8",
-    "sku": "com.test.one.blingbling",
+    "sku": "com.image.master.blingbling",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -9271,7 +9271,7 @@
     },
     "sd": "sticker_top_banner_emojipack.jpg",
     "sp": "sticker_store_emojipack.jpg",
-    "sku": "com.test.one.emojipack",
+    "sku": "com.image.master.emojipack",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -9499,7 +9499,7 @@
     },
     "sd": "sticker_top_banner_polaroid_aesthetic2.jpg",
     "sp": "sticker_store_polaroid_aesthetic2.jpg",
-    "sku": "com.test.one.polaroidaesthetic2",
+    "sku": "com.image.master.polaroidaesthetic2",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -9603,7 +9603,7 @@
     },
     "sd": "sticker_top_banner_retro_beat.jpg",
     "sp": "sticker_store_retro_beat.jpg",
-    "sku": "com.test.one.retrobeat",
+    "sku": "com.image.master.retrobeat",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -9728,7 +9728,7 @@
     "sd": "sticker_top_banner_chinese_characters.jpg",
     "sp": "sticker_store_chinese_characters.jpg",
     "tbg": "#E8E8E8",
-    "sku": "com.test.one.chinesecharacters",
+    "sku": "com.image.master.chinesecharacters",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -9830,7 +9830,7 @@
     },
     "sd": "sticker_top_banner_phonebox.jpg",
     "sp": "sticker_store_phonebox.jpg",
-    "sku": "com.test.one.phonebox",
+    "sku": "com.image.master.phonebox",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -10020,7 +10020,7 @@
     },
     "sd": "sticker_top_banner_planet_fantasy.jpg",
     "sp": "sticker_store_planet_fantasy.jpg",
-    "sku": "com.test.one.planetfantasy",
+    "sku": "com.image.master.planetfantasy",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -10122,7 +10122,7 @@
     },
     "sd": "sticker_top_banner_polaroidaesthetic.jpg",
     "sp": "sticker_store_polaroidaesthetic.jpg",
-    "sku": "com.test.one.polaroidaesthetic",
+    "sku": "com.image.master.polaroidaesthetic",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -10249,7 +10249,7 @@
     },
     "sd": "sticker_top_banner_paintingcuts.jpg",
     "sp": "sticker_store_paintingcuts.jpg",
-    "sku": "com.test.one.paintingcuts",
+    "sku": "com.image.master.paintingcuts",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -10353,7 +10353,7 @@
     },
     "sd": "sticker_top_banner_Sailormoon_Icons.jpg",
     "sp": "sticker_store_Sailormoon_Icons.jpg",
-    "sku": "com.test.one.sailormoonicons",
+    "sku": "com.image.master.sailormoonicons",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -10496,7 +10496,7 @@
     },
     "sd": "sticker_top_banner_spring.jpg",
     "sp": "sticker_store_spring.jpg",
-    "sku": "com.test.one.spring",
+    "sku": "com.image.master.spring",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -10598,7 +10598,7 @@
     },
     "sd": "sticker_top_banner_microsoft_icons.jpg",
     "sp": "sticker_store_microsoft_icons.jpg",
-    "sku": "com.test.one.microsofticons",
+    "sku": "com.image.master.microsofticons",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -10753,7 +10753,7 @@
     },
     "sd": "sticker_top_banner_newspaper_collage.jpg",
     "sp": "sticker_store_newspaper_collage.jpg",
-    "sku": "com.test.one.newspapercollage",
+    "sku": "com.image.master.newspapercollage",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -10896,7 +10896,7 @@
     },
     "sd": "sticker_top_banner_palette.jpg",
     "sp": "sticker_store_palette.jpg",
-    "sku": "com.test.one.palette",
+    "sku": "com.image.master.palette",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -11092,7 +11092,7 @@
     },
     "sd": "sticker_top_banner_health_guardian.jpg",
     "sp": "sticker_store_health_guardian.jpg",
-    "sku": "com.test.one.healthguardian",
+    "sku": "com.image.master.healthguardian",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -11275,7 +11275,7 @@
     },
     "sd": "sticker_top_banner_darkcartoon.jpg",
     "sp": "sticker_store_darkcartoon.jpg",
-    "sku": "com.test.one.darkcartoon",
+    "sku": "com.image.master.darkcartoon",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -11362,7 +11362,7 @@
     },
     "sd": "sticker_top_banner_coupledaily.jpg",
     "sp": "sticker_store_coupledaily.jpg",
-    "sku": "com.test.one.coupledaily",
+    "sku": "com.image.master.coupledaily",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -11436,7 +11436,7 @@
     },
     "sd": "sticker_top_banner_celebration_ballon.jpg",
     "sp": "sticker_store_celebration_ballon.jpg",
-    "sku": "com.test.one.celebrationballon",
+    "sku": "com.image.master.celebrationballon",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -11893,7 +11893,7 @@
     },
     "sd": "sticker_top_banner_butterfly.jpg",
     "sp": "sticker_store_butterfly.jpg",
-    "sku": "com.test.one.butterfly",
+    "sku": "com.image.master.butterfly",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -12131,7 +12131,7 @@
     },
     "sd": "sticker_top_banner_minimalism.jpg",
     "sp": "sticker_store_minimalism.jpg",
-    "sku": "com.test.one.minimalism",
+    "sku": "com.image.master.minimalism",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -12233,7 +12233,7 @@
     },
     "sd": "sticker_top_banner_vaporwave2.jpg",
     "sp": "sticker_store_vaporwave2.jpg",
-    "sku": "com.test.one.vaporwave2",
+    "sku": "com.image.master.vaporwave2",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -12347,7 +12347,7 @@
     },
     "sd": "sticker_top_banner_journal_tape.jpg",
     "sp": "sticker_store_journal_tape.jpg",
-    "sku": "com.test.one.journaltape",
+    "sku": "com.image.master.journaltape",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -12490,7 +12490,7 @@
     },
     "sd": "sticker_top_banner_minimal tape.jpg",
     "sp": "sticker_store_minimal tape.jpg",
-    "sku": "com.test.one.minimaltape",
+    "sku": "com.image.master.minimaltape",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -12585,7 +12585,7 @@
     },
     "sd": "sticker_top_banner_angel sculptor.jpg",
     "sp": "sticker_store_angel sculptor.jpg",
-    "sku": "com.test.one.angelsculptor",
+    "sku": "com.image.master.angelsculptor",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -12667,7 +12667,7 @@
     },
     "sd": "sticker_top_banner_renaissance.jpg",
     "sp": "sticker_store_renaissance.jpg",
-    "sku": "com.test.one.renaissance",
+    "sku": "com.image.master.renaissance",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -12838,7 +12838,7 @@
     },
     "sd": "sticker_top_banner_sunglasses.jpg",
     "sp": "sticker_store_sunglasses.jpg",
-    "sku": "com.test.one.sunglasses",
+    "sku": "com.image.master.sunglasses",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -12925,7 +12925,7 @@
     },
     "sd": "sticker_top_banner_youtube frame.jpg",
     "sp": "sticker_store_youtube frame.jpg",
-    "sku": "com.test.one.youtubeframe",
+    "sku": "com.image.master.youtubeframe",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -12983,7 +12983,7 @@
     },
     "sd": "sticker_top_banner_christmas_lover.jpg",
     "sp": "sticker_store_christmas_lover.jpg",
-    "sku": "com.test.one.christmaslover",
+    "sku": "com.image.master.christmaslover",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -13077,7 +13077,7 @@
     },
     "sd": "sticker_top_banner_romantichristmas.jpg",
     "sp": "sticker_store_romantichristmas.jpg",
-    "sku": "com.test.one.romantichristmas",
+    "sku": "com.image.master.romantichristmas",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -13243,7 +13243,7 @@
     },
     "sd": "sticker_top_banner_christmas_emoji.jpg",
     "sp": "sticker_store_christmas_emoji.jpg",
-    "sku": "com.test.one.christmasemoji",
+    "sku": "com.image.master.christmasemoji",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -13345,7 +13345,7 @@
     },
     "sd": "sticker_top_banner_merry christmas.jpg",
     "sp": "sticker_store_merry christmas.jpg",
-    "sku": "com.test.one.merrychristmas",
+    "sku": "com.image.master.merrychristmas",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -13439,7 +13439,7 @@
     },
     "sd": "sticker_top_banner_hat_crush.jpg",
     "sp": "sticker_store_hat_crush.jpg",
-    "sku": "com.test.one.hatcrush",
+    "sku": "com.image.master.hatcrush",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -13541,7 +13541,7 @@
     },
     "sd": "sticker_top_banner_IndianFood.jpg",
     "sp": "sticker_store_IndianFood.jpg",
-    "sku": "com.test.one.indianfood",
+    "sku": "com.image.master.indianfood",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -13627,7 +13627,7 @@
     },
     "sd": "sticker_top_banner_marker_graffiti.jpg",
     "sp": "sticker_store_marker_graffiti.jpg",
-    "sku": "com.test.one.markergraffiti",
+    "sku": "com.image.master.markergraffiti",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -13813,7 +13813,7 @@
     "sd": "sticker_top_banner_daily_surprise.jpg",
     "sp": "sticker_store_daily_surprise.jpg",
     "sbg": "#E8E8E8",
-    "sku": "com.test.one.dailysurprise",
+    "sku": "com.image.master.dailysurprise",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -14038,7 +14038,7 @@
     },
     "sd": "sticker_top_banner_childhood_snacks.jpg",
     "sp": "sticker_store_childhood_snacks.jpg",
-    "sku": "com.test.one.childhoodsnacks",
+    "sku": "com.image.master.childhoodsnacks",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -14133,7 +14133,7 @@
     },
     "sd": "sticker_top_banner_retro magazine.jpg",
     "sp": "sticker_store_retro magazine.jpg",
-    "sku": "com.test.one.retromagazine",
+    "sku": "com.image.master.retromagazine",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -14204,7 +14204,7 @@
     },
     "sd": "sticker_top_banner_note_icon.jpg",
     "sp": "sticker_store_note_icon.jpg",
-    "sku": "com.test.one.noteicon",
+    "sku": "com.image.master.noteicon",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -14327,7 +14327,7 @@
     },
     "sd": "sticker_top_banner_Hair_Accessories.jpg",
     "sp": "sticker_store_Hair_Accessories.jpg",
-    "sku": "com.test.one.hairaccessories",
+    "sku": "com.image.master.hairaccessories",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -14430,7 +14430,7 @@
     },
     "sd": "sticker_top_banner_give_thanks.jpg",
     "sp": "sticker_store_give_thanks.jpg",
-    "sku": "com.test.one.givethanks",
+    "sku": "com.image.master.givethanks",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -14517,7 +14517,7 @@
     },
     "sd": "sticker_top_banner_facebook_likes.jpg",
     "sp": "sticker_store_facebook_likes.jpg",
-    "sku": "com.test.one.facebooklikes",
+    "sku": "com.image.master.facebooklikes",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -14597,7 +14597,7 @@
     },
     "sd": "sticker_top_banner_hunger_game.jpg",
     "sp": "sticker_store_hunger_game.jpg",
-    "sku": "com.test.one.hungergame",
+    "sku": "com.image.master.hungergame",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -14701,7 +14701,7 @@
     },
     "sd": "sticker_top_banner_olddays.jpg",
     "sp": "sticker_store_olddays.jpg",
-    "sku": "com.test.one.olddays",
+    "sku": "com.image.master.olddays",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -14788,7 +14788,7 @@
     },
     "sd": "sticker_top_banner_unicorn.jpg",
     "sp": "sticker_store_unicorn.jpg",
-    "sku": "com.test.one.unicorn",
+    "sku": "com.image.master.unicorn",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -14870,7 +14870,7 @@
     },
     "sd": "sticker_top_banner_Dreamy_Bubble.jpg",
     "sp": "sticker_store_Dreamy_Bubble.jpg",
-    "sku": "com.test.one.dreamybubble",
+    "sku": "com.image.master.dreamybubble",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -14956,7 +14956,7 @@
     },
     "sd": "sticker_top_banner_nihong.jpg",
     "sp": "sticker_store_nihong.jpg",
-    "sku": "com.test.one.nihong",
+    "sku": "com.image.master.nihong",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -15219,7 +15219,7 @@
     "sd": "sticker_top_banner_christmas_onarment.jpg",
     "sp": "sticker_store_christmas_onarment.jpg",
     "sbg": "#E8E8E8",
-    "sku": "com.test.one.christmasonarment",
+    "sku": "com.image.master.christmasonarment",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -15337,7 +15337,7 @@
     },
     "sd": "sticker_top_banner_Corgis_Travel.jpg",
     "sp": "sticker_store_Corgis_Travel.jpg",
-    "sku": "com.test.one.corgistravel",
+    "sku": "com.image.master.corgistravel",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -15423,7 +15423,7 @@
     },
     "sd": "sticker_top_banner_Frame.jpg",
     "sp": "sticker_store_Frame.jpg",
-    "sku": "com.test.one.frame",
+    "sku": "com.image.master.frame",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -15510,7 +15510,7 @@
     },
     "sd": "sticker_top_banner_Skateboard.jpg",
     "sp": "sticker_store_Skateboard.jpg",
-    "sku": "com.test.one.skateboard",
+    "sku": "com.image.master.skateboard",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -15596,7 +15596,7 @@
     },
     "sd": "sticker_top_banner_thanksgiving_fall.jpg",
     "sp": "sticker_store_thanksgiving_fall.jpg",
-    "sku": "com.test.one.thanksgivingfall",
+    "sku": "com.image.master.thanksgivingfall",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -15692,7 +15692,7 @@
     "sd": "sticker_top_banner_Halo.jpg",
     "sp": "sticker_store_Halo.jpg",
     "sbg": "#E8E8E8",
-    "sku": "com.test.one.halo",
+    "sku": "com.image.master.halo",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -15968,7 +15968,7 @@
     },
     "sd": "sticker_top_banner_colorfulsmoke.jpg",
     "sp": "sticker_store_colorfulsmoke.jpg",
-    "sku": "com.test.one.colorfulsmoke",
+    "sku": "com.image.master.colorfulsmoke",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -16111,7 +16111,7 @@
     "sd": "sticker_top_banner_ tatto.jpg",
     "sp": "sticker_store_tatto.jpg",
     "tbg": "#e8e8e8",
-    "sku": "com.test.one.tatto",
+    "sku": "com.image.master.tatto",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -16215,7 +16215,7 @@
     "sd": "sticker_top_banner_christmasline.jpg",
     "sp": "sticker_store_ christmasline.jpg",
     "tbg": "#51525e",
-    "sku": "com.test.one.christmasline",
+    "sku": "com.image.master.christmasline",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -16317,7 +16317,7 @@
     },
     "sd": "sticker_top_banner_store_emoji2.jpg",
     "sp": "sticker_store_emoji2.jpg",
-    "sku": "com.test.one.emoji2",
+    "sku": "com.image.master.emoji2",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -16424,7 +16424,7 @@
     },
     "sd": "sticker_top_banner_store_pixel vapor power.jpg",
     "sp": "sticker_store_pixel vapor power.jpg",
-    "sku": "com.test.one.pixelvaporpower",
+    "sku": "com.image.master.pixelvaporpower",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -16507,7 +16507,7 @@
     "sd": "sticker_top_banner_swag_ootd.jpg",
     "sp": "sticker_store_ swag_ootd.jpg",
     "tbg": "#e8e8e8",
-    "sku": "com.test.one.swagootd",
+    "sku": "com.image.master.swagootd",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -16593,7 +16593,7 @@
     },
     "sd": "sticker_top_neon-christmas.jpg",
     "sp": "sticker_store_ neon-christmas.jpg",
-    "sku": "com.test.one.neonchristmas",
+    "sku": "com.image.master.neonchristmas",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -16695,7 +16695,7 @@
     },
     "sd": "sticker_top_banner_melting-drip.jpg",
     "sp": "sticker_store_melting_drip.jpg",
-    "sku": "com.test.one.meltingdrip",
+    "sku": "com.image.master.meltingdrip",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -16789,7 +16789,7 @@
     },
     "sd": "sticker_top_banner_store_paint.jpg",
     "sp": "sticker_store_paint.jpg",
-    "sku": "com.test.one.paint",
+    "sku": "com.image.master.paint",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -16884,7 +16884,7 @@
     },
     "sd": "sticker_top_banner_art_animal gathering.jpg",
     "sp": "sticker_store_animal gathering.jpg",
-    "sku": "com.test.one.animalgathering",
+    "sku": "com.image.master.animalgathering",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -16954,7 +16954,7 @@
     },
     "sd": "sticker_top_banner_store_colorful fruit.jpg",
     "sp": "sticker_store_colorful fruit.jpg",
-    "sku": "com.test.one.colorfulfruit",
+    "sku": "com.image.master.colorfulfruit",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -17041,7 +17041,7 @@
     },
     "sd": "sticker_top_banner_store_girl shalloween.jpg",
     "sp": "sticker_store_ girls halloween.jpg",
-    "sku": "com.test.one.girlshalloween",
+    "sku": "com.image.master.girlshalloween",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -17136,7 +17136,7 @@
     },
     "sd": "sticker_top_banner_store_goldenhoney_v2.jpg",
     "sp": "sticker_store_goldenhoney.jpg",
-    "sku": "com.test.one.goldenhoney",
+    "sku": "com.image.master.goldenhoney",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -17216,7 +17216,7 @@
     },
     "sd": "sticker_top_banner_store_purpledream.jpg",
     "sp": "sticker_store_purpledream.jpg",
-    "sku": "com.test.one.purpledream",
+    "sku": "com.image.master.purpledream",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -17295,7 +17295,7 @@
     },
     "sd": "sticker_top_banner_store_retrocharacters.jpg",
     "sp": "sticker_store_retrocharacters-.jpg",
-    "sku": "com.test.one.retrocharacters",
+    "sku": "com.image.master.retrocharacters",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -17386,7 +17386,7 @@
     },
     "sd": "sticker_top_banner_retroeurope.jpg",
     "sp": "sticker_store_retroeurope.jpg",
-    "sku": "com.test.one.retroeurope",
+    "sku": "com.image.master.retroeurope",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -17473,7 +17473,7 @@
     },
     "sd": "sticker_top_banner_store_retro handwriting magazine_cover.jpg",
     "sp": "sticker_store_retro handwriting magazine_cover.jpg",
-    "sku": "com.test.one.retrohandwritingmagazine",
+    "sku": "com.image.master.retrohandwritingmagazine",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -17552,7 +17552,7 @@
     },
     "sd": "sticker_top_banner_store_secretgarden.jpg",
     "sp": "sticker_store_secretgarden.jpg",
-    "sku": "com.test.one.secretgarden",
+    "sku": "com.image.master.secretgarden",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -17654,7 +17654,7 @@
     },
     "sd": "sticker_top_banner_heart.jpg",
     "sp": "sticker_store_heart.jpg",
-    "sku": "com.test.one.colorlove",
+    "sku": "com.image.master.colorlove",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -17742,7 +17742,7 @@
     },
     "sd": "sticker_top_banner_store_comic face.jpg",
     "sp": "sticker_store_ comic face.jpg",
-    "sku": "com.test.one.comicfaces",
+    "sku": "com.image.master.comicfaces",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -17815,7 +17815,7 @@
     "sd": "sticker_top_banner_evil.jpg",
     "sp": "sticker_store_evil.jpg",
     "tbg": "#e8e8e8",
-    "sku": "com.test.one.evil",
+    "sku": "com.image.master.evil",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -17898,7 +17898,7 @@
     },
     "sd": "sticker_top_banner_desktop.jpg",
     "sp": "sticker_store_desktop.jpg",
-    "sku": "com.test.one.desktop",
+    "sku": "com.image.master.desktop",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -18121,7 +18121,7 @@
     },
     "sd": "sticker_top_banner_store_pinky dream.jpg",
     "sp": "sticker_store_pinky dream.jpg",
-    "sku": "com.test.one.pinkydream",
+    "sku": "com.image.master.pinkydream",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -18193,7 +18193,7 @@
     },
     "sd": "sticker_top_banner_store_shining jewelry.jpg",
     "sp": "sticker_store_shining jewelry.jpg",
-    "sku": "com.test.one.shiningjewelry",
+    "sku": "com.image.master.shiningjewelry",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -18297,7 +18297,7 @@
     "sd": "sticker_top_banner_store_halloween.jpg",
     "sp": "sticker_store_halloween.jpg",
     "sbg": "#E8E8E8",
-    "sku": "com.test.one.halloween",
+    "sku": "com.image.master.halloween",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -18420,7 +18420,7 @@
     "sd": "sticker_top_banner_store_angel's wings.jpg",
     "sp": "sticker_store_angel's wings.jpg",
     "sbg": "#E8E8E8",
-    "sku": "com.test.one.angelswings",
+    "sku": "com.image.master.angelswings",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -18535,7 +18535,7 @@
     "sdl": {
       "zh": "sticker_top_banner_store_fairy's tail_cn.jpg"
     },
-    "sku": "com.test.one.fairystail",
+    "sku": "com.image.master.fairystail",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -18606,7 +18606,7 @@
     },
     "sd": "stiker_top_banner_hair clip.jpg",
     "sp": "sticker_store_hair clip.jpg",
-    "sku": "com.test.one.hairclip",
+    "sku": "com.image.master.hairclip",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -18684,7 +18684,7 @@
     },
     "sd": "sticker_top_banner_art_parodies.jpg",
     "sp": "sticker_store_art_parodies.jpg",
-    "sku": "com.test.one.artparodies",
+    "sku": "com.image.master.artparodies",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -18790,7 +18790,7 @@
     },
     "sd": "sticker_top_banner_junkfood.jpg",
     "sp": "sticker_store_junkfood.jpg",
-    "sku": "com.test.one.junkfoodfactory",
+    "sku": "com.image.master.junkfoodfactory",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -18889,7 +18889,7 @@
     },
     "sd": "sticker_top_banner_planet.jpg",
     "sp": "sticker_store_planet.jpg",
-    "sku": "com.test.one.planet",
+    "sku": "com.image.master.planet",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -18975,7 +18975,7 @@
     },
     "sd": "sticker_top_banner_store_magazine cover.jpg",
     "sp": "sticker_store_magazine cover.jpg",
-    "sku": "com.test.one.magazinecover",
+    "sku": "com.image.master.magazinecover",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -19082,7 +19082,7 @@
     },
     "sd": "sticker_top_banner_neon.jpg",
     "sp": "sticker_store_neon.jpg",
-    "sku": "com.test.one.neon",
+    "sku": "com.image.master.neon",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -19168,7 +19168,7 @@
     },
     "sd": "sticker_top_banner_pink.jpg",
     "sp": "sticker_store_pink.jpg",
-    "sku": "com.test.one.pink",
+    "sku": "com.image.master.pink",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -19250,7 +19250,7 @@
     },
     "sd": "sticker_top_banner_pixel.jpg",
     "sp": "sticker_store_pixel.jpg",
-    "sku": "com.test.one.pixel",
+    "sku": "com.image.master.pixel",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -19388,7 +19388,7 @@
     },
     "sd": "sticker_top_banner_store_sweetie.jpg",
     "sp": "sticker_store_sweetie.jpg",
-    "sku": "com.test.one.sweetie",
+    "sku": "com.image.master.sweetie",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -19477,7 +19477,7 @@
     },
     "sd": "sticker_top_banner_harajuku.jpg",
     "sp": "sticker_store_art_harajuku.jpg",
-    "sku": "com.test.one.harajuku",
+    "sku": "com.image.master.harajuku",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -19551,7 +19551,7 @@
     },
     "sd": "sticker_top_banner_rainbowbabe.jpg",
     "sp": "sticker_store_rainbowbabe.jpg",
-    "sku": "com.test.one.rainbowbabe",
+    "sku": "com.image.master.rainbowbabe",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -19642,7 +19642,7 @@
     },
     "sd": "sticker_top_banner_emoji.jpg",
     "sp": "sticker_store_emoji.jpg",
-    "sku": "com.test.one.emoji",
+    "sku": "com.image.master.emoji",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -19833,7 +19833,7 @@
     "sd": "sticker_top_banner_cute.jpg",
     "sp": "sticker_store_ cute.jpg",
     "sbg": "#e8e8e8",
-    "sku": "com.test.one.cute",
+    "sku": "com.image.master.cute",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -20050,7 +20050,7 @@
     },
     "sd": "sticker_top_banner_face.jpg",
     "sp": "sticker_store_face.jpg",
-    "sku": "com.test.one.face",
+    "sku": "com.image.master.face",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -20381,7 +20381,7 @@
     },
     "sd": "sticker_top_banner_rainbow.jpg",
     "sp": "sticker_store_ rainbow.jpg",
-    "sku": "com.test.one.rainbow",
+    "sku": "com.image.master.rainbow",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -20515,7 +20515,7 @@
     },
     "sd": "sticker_top_banner_sign.jpg",
     "sp": "sticker_store_ sign.jpg",
-    "sku": "com.test.one.sign",
+    "sku": "com.image.master.sign",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -20656,7 +20656,7 @@
     },
     "sd": "sticker_top_banner_vaporwave.jpg",
     "sp": "sticker_store_ vaporwave.jpg",
-    "sku": "com.test.one.vaporwave",
+    "sku": "com.image.master.vaporwave",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -20903,7 +20903,7 @@
     "sd": "sticker_top_banner_word.jpg",
     "sp": "sticker_store_ word.jpg",
     "sbg": "#e8e8e8",
-    "sku": "com.test.one.word",
+    "sku": "com.image.master.word",
     "st": 2,
     "pri": "0.99",
     "tg": [
@@ -21039,7 +21039,7 @@
     },
     "sd": "sticker_top_banner_summer.jpg",
     "sp": "sticker_store_ summer.jpg",
-    "sku": "com.test.one.summer",
+    "sku": "com.image.master.summer",
     "st": 0,
     "pri": "0.99",
     "tg": [
@@ -21136,7 +21136,7 @@
     },
     "sd": "sticker_top_banner_flower.jpg",
     "sp": "sticker_store_ flower.jpg",
-    "sku": "com.test.one.flower",
+    "sku": "com.image.master.flower",
     "st": 1,
     "pri": "0.99",
     "tg": [
@@ -21201,7 +21201,7 @@
     },
     "sd": "sticker_top_banner_lens.jpg",
     "sp": "sticker_store_ lens.jpg",
-    "sku": "com.test.one.lens",
+    "sku": "com.image.master.lens",
     "st": 1,
     "pri": "0.99",
     "tg": [

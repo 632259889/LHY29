@@ -474,7 +474,7 @@
 .method private l()V
     .locals 1
 
-    const-string v0, "com.test.one.removeads"
+    const-string v0, "com.image.master.removeads"
 
     .line 1
     invoke-static {v0}, Llightcone/com/pack/h/g;->u(Ljava/lang/String;)Z

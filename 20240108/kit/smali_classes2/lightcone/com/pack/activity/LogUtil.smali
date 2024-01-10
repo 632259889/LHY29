@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/test/LogUtil;->logObject(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-static {p0, v0}, Llightcone/com/pack/activity/LogUtil;->logObject(Ljava/lang/String;Ljava/lang/Object;)V
 
     .line 20
     return-void
@@ -84,7 +84,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/test/LogUtil;->logObject(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-static {p0, v0}, Llightcone/com/pack/activity/LogUtil;->logObject(Ljava/lang/String;Ljava/lang/Object;)V
 
     .line 24
     return-void
@@ -100,7 +100,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, v0}, Lcom/test/LogUtil;->logObject(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-static {p0, v0}, Llightcone/com/pack/activity/LogUtil;->logObject(Ljava/lang/String;Ljava/lang/Object;)V
 
     .line 28
     return-void

@@ -417,12 +417,12 @@
 
     if-eqz v0, :cond_1
 
-    const-string v0, "com.test.one.christmasonetimepurchase"
+    const-string v0, "com.image.master.christmasonetimepurchase"
 
     goto :goto_0
 
     :cond_1
-    const-string v0, "com.test.one.xmasonetimepurchase"
+    const-string v0, "com.image.master.xmasonetimepurchase"
 
     :goto_0
     invoke-static {p1, v0}, Llightcone/com/pack/h/g;->P(Landroid/app/Activity;Ljava/lang/String;)V

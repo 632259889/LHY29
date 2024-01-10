@@ -29,7 +29,7 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-string v0, "com.test.oneSpUtil"
+    const-string v0, "com.image.masterSpUtil"
 
     .line 2
     iput-object v0, p0, Llightcone/com/pack/o/t0/a;->b:Ljava/lang/String;

@@ -104,6 +104,7 @@
 
     .line 3
     :cond_0
+
     sget-object v0, Llightcone/com/pack/l/x0;->a:Llightcone/com/pack/l/x0;
 
     return-object v0
@@ -155,6 +156,8 @@
 
     .line 4
     :cond_0
+
+
     invoke-interface {p2}, Llightcone/com/pack/l/x0$a;->a()V
 
     return-void

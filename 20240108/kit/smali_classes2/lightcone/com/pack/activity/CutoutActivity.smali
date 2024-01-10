@@ -1265,7 +1265,7 @@
 .end method
 
 .method static synthetic l(Llightcone/com/pack/activity/CutoutActivity;)Z
-    .locals 0
+    .locals 1
 
     .line 1
     invoke-direct {p0}, Llightcone/com/pack/activity/CutoutActivity;->t()Z
@@ -2641,7 +2641,7 @@
 .end method
 
 .method protected onCreate(Landroid/os/Bundle;)V
-    .locals 2
+    .locals 3
     .param p1    # Landroid/os/Bundle;
         .annotation build Landroidx/annotation/Nullable;
         .end annotation

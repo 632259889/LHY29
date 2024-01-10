@@ -56,7 +56,7 @@
     <string name="abc_shareactionprovider_share_with_application">%s과(와) 공유</string>
     <string name="abc_toolbar_collapse_description">접기</string>
     <string name="album_cant_find_the_picture">원하는 사진을 찾을 수 없습니까?</string>
-    <string name="app_name">PicsKit</string>
+    <string name="app_name">Image master</string>
     <string name="bottomsheet_action_expand_halfway">반만 펼치기</string>
     <string name="character_counter_content_description">입력된 글자 %1$d/%2$d</string>
     <string name="character_counter_overflowed_content_description">글자 수 제한이 초과되었습니다(%1$d/%2$d).</string>

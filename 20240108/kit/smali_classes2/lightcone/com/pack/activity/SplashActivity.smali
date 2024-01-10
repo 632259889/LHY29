@@ -350,13 +350,6 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 4
 
-    
-
-    .line 1
-    const-string v0, "liuheyi.........dddddddd()"
-
-  invoke-static {v0}, Llightcone/com/pack/activity/LogUtil;->log(Ljava/lang/String;)V
-
 
     .line 1
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V

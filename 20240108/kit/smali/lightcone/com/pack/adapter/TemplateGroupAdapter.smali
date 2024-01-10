@@ -496,7 +496,7 @@
 
     invoke-interface {v0, p1, v1}, Ljava/util/List;->add(ILjava/lang/Object;)V
 
-    const-string p1, "com.test.one.removeads"
+    const-string p1, "com.image.master.removeads"
 
     .line 4
     invoke-static {p1}, Llightcone/com/pack/h/g;->u(Ljava/lang/String;)Z

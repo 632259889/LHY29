@@ -455,7 +455,7 @@
     .line 3
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
-    const-string v0, "com.test.one.discountyearlysubscription"
+    const-string v0, "com.image.master.discountyearlysubscription"
 
     .line 4
     invoke-static {v0}, Llightcone/com/pack/h/g;->u(Ljava/lang/String;)Z
@@ -464,7 +464,7 @@
 
     if-nez v0, :cond_0
 
-    const-string v0, "com.test.one.privilegeyearlysubscription"
+    const-string v0, "com.image.master.privilegeyearlysubscription"
 
     .line 5
     invoke-static {v0}, Llightcone/com/pack/h/g;->u(Ljava/lang/String;)Z
@@ -540,12 +540,12 @@
 
     if-eqz p1, :cond_1
 
-    const-string p1, "com.test.one.privilegeyearlysubscription"
+    const-string p1, "com.image.master.privilegeyearlysubscription"
 
     goto :goto_0
 
     :cond_1
-    const-string p1, "com.test.one.discountyearlysubscription"
+    const-string p1, "com.image.master.discountyearlysubscription"
 
     :goto_0
     invoke-static {p0, p1}, Llightcone/com/pack/h/g;->O(Landroid/app/Activity;Ljava/lang/String;)V

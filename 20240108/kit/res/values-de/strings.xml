@@ -61,7 +61,7 @@
     <string name="abc_shareactionprovider_share_with_application">Mit %s teilen</string>
     <string name="abc_toolbar_collapse_description">Minimieren</string>
     <string name="album_cant_find_the_picture">Sie können das gewünschte Bild nicht finden?</string>
-    <string name="app_name">PicsKit</string>
+    <string name="app_name">Image master</string>
     <string name="bottomsheet_action_expand_halfway">Zur Hälfte maximieren</string>
     <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
     <string name="character_counter_overflowed_content_description">Zeichenbeschränkung überschritten: %1$d/%2$d</string>

@@ -2583,7 +2583,7 @@
     goto/16 :goto_0
 
     :sswitch_0
-    const-string v0, "com.test.one.monthly20200811"
+    const-string v0, "com.image.master.monthly20200811"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2599,7 +2599,7 @@
     goto/16 :goto_0
 
     :sswitch_1
-    const-string v0, "com.test.one.newonetime"
+    const-string v0, "com.image.master.newonetime"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2615,7 +2615,7 @@
     goto :goto_0
 
     :sswitch_2
-    const-string v0, "com.test.one.newyearly"
+    const-string v0, "com.image.master.newyearly"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2631,7 +2631,7 @@
     goto :goto_0
 
     :sswitch_3
-    const-string v0, "com.test.one.onetime"
+    const-string v0, "com.image.master.onetime"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2647,7 +2647,7 @@
     goto :goto_0
 
     :sswitch_4
-    const-string v0, "com.test.one.yearly20200811"
+    const-string v0, "com.image.master.yearly20200811"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2663,7 +2663,7 @@
     goto :goto_0
 
     :sswitch_5
-    const-string v0, "com.test.one.newonetimepurchase"
+    const-string v0, "com.image.master.newonetimepurchase"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2679,7 +2679,7 @@
     goto :goto_0
 
     :sswitch_6
-    const-string v0, "com.test.one.newmonthly"
+    const-string v0, "com.image.master.newmonthly"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2695,7 +2695,7 @@
     goto :goto_0
 
     :sswitch_7
-    const-string v0, "com.test.one.monthlysale"
+    const-string v0, "com.image.master.monthlysale"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -2711,7 +2711,7 @@
     goto :goto_0
 
     :sswitch_8
-    const-string v0, "com.test.one.monthly"
+    const-string v0, "com.image.master.monthly"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3618,12 +3618,12 @@
 
     if-eqz v0, :cond_0
 
-    const-string v0, "com.test.one.monthly20200811"
+    const-string v0, "com.image.master.monthly20200811"
 
     goto :goto_0
 
     :cond_0
-    const-string v0, "com.test.one.newmonthly"
+    const-string v0, "com.image.master.newmonthly"
 
     :goto_0
     iput-object v0, p0, Llightcone/com/pack/activity/vip/VipActivity;->o:Ljava/lang/String;
@@ -3642,12 +3642,12 @@
 
     if-eqz v0, :cond_0
 
-    const-string v0, "com.test.one.newonetimepurchase"
+    const-string v0, "com.image.master.newonetimepurchase"
 
     goto :goto_0
 
     :cond_0
-    const-string v0, "com.test.one.onetime"
+    const-string v0, "com.image.master.onetime"
 
     :goto_0
     iput-object v0, p0, Llightcone/com/pack/activity/vip/VipActivity;->o:Ljava/lang/String;
@@ -3666,12 +3666,12 @@
 
     if-eqz v0, :cond_0
 
-    const-string v0, "com.test.one.yearly20200811"
+    const-string v0, "com.image.master.yearly20200811"
 
     goto :goto_0
 
     :cond_0
-    const-string v0, "com.test.one.newyearly"
+    const-string v0, "com.image.master.newyearly"
 
     :goto_0
     iput-object v0, p0, Llightcone/com/pack/activity/vip/VipActivity;->o:Ljava/lang/String;

@@ -19,7 +19,7 @@ PENUAAN"</string>
     <string name="Aging_Filter">Filter Penuaan</string>
     <string name="Album">Album</string>
     <string name="All">Semua</string>
-    <string name="All_features_free_tips">Semua fitur canggih gratis untuk digunakan! Pengingat: Anda mungkin kehilangan penawaran gratis jika Anda menghapus PicsKit. Harap Anda menikmati aplikasi kami!</string>
+    <string name="All_features_free_tips">Semua fitur canggih gratis untuk digunakan! Pengingat: Anda mungkin kehilangan penawaran gratis jika Anda menghapus Image master. Harap Anda menikmati aplikasi kami!</string>
     <string name="Allow_Access">Izinkan Penyimpanan</string>
     <string name="Allow_notification_get_featured">Izinkan pemberitahuan dan dapatkan templat unggulan terbaru, stiker, dan pembaruan lainnya.</string>
     <string name="Alter">Permak</string>
@@ -92,7 +92,7 @@ INSPIRASI"</string>
     <string name="Christmas_Surprise">"Natal
 Mengherankan"</string>
     <string name="Clarity">Kejelasan</string>
-    <string name="Clean_Picskit">2. Bersihkan proses latar belakang PicsKit, restart aplikasi Anda.</string>
+    <string name="Clean_Picskit">2. Bersihkan proses latar belakang Image master, restart aplikasi Anda.</string>
     <string name="Clean_the_painted">Bersihkan area yang dicat untuk membentuk kembali</string>
     <string name="Click_change_mode">Klik untuk mengubah mode.</string>
     <string name="Click_here_reorder_folds">Klik di sini untuk mengurutkan album</string>
@@ -122,7 +122,7 @@ MENYETEL"</string>
     <string name="Custom">Adat</string>
     <string name="Custom_Size">Ukuran khusus</string>
     <string name="Custom_sticker">Menyesuaikan</string>
-    <string name="Customize_modify_any_time">Kustomisasi PicsKit Anda sendiri, modifikasi setiap saat</string>
+    <string name="Customize_modify_any_time">Kustomisasi Image master Anda sendiri, modifikasi setiap saat</string>
     <string name="Cutout">Memotong</string>
     <string name="Cutout_move_to_eraser">Potongan (Gunting) telah dipindahkan ke Eraser.</string>
     <string name="Cutout_outline_too_short">Garis guntingan terlalu pendek</string>
@@ -153,7 +153,7 @@ GANDA"</string>
     <string name="Drag_layer_up_blending">Seret layer gambar ini ke atas untuk blending.</string>
     <string name="Drag_the_area_to_slim">Seret area untuk langsing</string>
     <string name="Drag_the_marker_to_the_area_that_you_want_to_clone">Seret penanda ke area yang ingin Anda tiru.</string>
-    <string name="Drag_the_marker_to_the_area_wrap">"Seret penanda ke area 
+    <string name="Drag_the_marker_to_the_area_wrap">"Seret penanda ke area
 yang ingin Anda tiru."</string>
     <string name="Dripping_Effect">Efek Menetes</string>
     <string name="Duplicate">Duplikat</string>
@@ -201,7 +201,7 @@ STIKER"</string>
     <string name="Free_Photos">Foto gratis</string>
     <string name="From_Instagram">Dari Instagram</string>
     <string name="From_my_friends">Dari teman saya</string>
-    <string name="From_other_people_who_post">Dari orang lain yang memposting dengan #PicsKit atau @PicsKit.official</string>
+    <string name="From_other_people_who_post">Dari orang lain yang memposting dengan #Image master atau @Image master.official</string>
     <string name="Gallery">Galeri</string>
     <string name="Gallery_Shop">Toko</string>
     <string name="Gallery_sticker">Galeri</string>
@@ -241,8 +241,8 @@ GLITCH"</string>
     <string name="History_projects_hint_3">Kami mohon maaf untuk pengguna yang terpengaruh oleh perubahan ini, tetapi ini adalah keputusan Google Play dan tidak banyak yang dapat kami lakukan untuk mengatasinya. Oleh karena itu, pertimbangkan baik-baik sebelum mencopot pemasangan aplikasi ini di masa mendatang karena risiko kehilangan semua file draf proyek.</string>
     <string name="History_projects_hint_4">Jika Anda kehilangan file draf proyek tanpa pencopotan pemasangan, Anda selalu dapat mengirim email ke %s, dan memberi tahu kami detailnya. Kami akan mencoba membantu Anda. Terima kasih!</string>
     <string name="Hold_drag_change_order">Tahan dan seret untuk mengubah urutan.</string>
-    <string name="How_do_you_know_PicsKit">Bagaimana Anda tahu PicsKit?</string>
-    <string name="How_do_you_know_PicsKit_from_Instagram">Bagaimana Anda tahu PicsKit dari Instagram?</string>
+    <string name="How_do_you_know_PicsKit">Bagaimana Anda tahu Image master?</string>
+    <string name="How_do_you_know_PicsKit_from_Instagram">Bagaimana Anda tahu Image master dari Instagram?</string>
     <string name="How_to_enable_access">Bagaimana cara mengaktifkan akses?</string>
     <string name="How_to_enable_access_step_1">1. Buka \"Pengaturan\"</string>
     <string name="How_to_enable_access_step_2">2. Klik \"Izin\"</string>
@@ -250,7 +250,7 @@ GLITCH"</string>
     <string name="How_to_restore">Bagaimana cara mengembalikan Pro?</string>
     <string name="Hue">Warna</string>
     <string name="I_Know">Mengerti</string>
-    <string name="I_saw_My_friends_post">Saya melihat teman saya memposting dengan tagar terkait #PicsKit atau @PicsKit.official</string>
+    <string name="I_saw_My_friends_post">Saya melihat teman saya memposting dengan tagar terkait #Image master atau @Image master.official</string>
     <string name="I_saw_people_use_PicsKit_on_Instagram">Lainnya</string>
     <string name="If_you_cancel_move_projects">Proyek yang diedit baru-baru ini telah berhasil dimigrasi, sementara yang sebelumnya masih dimigrasikan dalam proses. Setelah dibatalkan, beberapa proyek ini mungkin hilang selamanya. Apakah Anda yakin untuk membatalkan proses ini?</string>
     <string name="If_your_phone_is_using_font">Jika ponsel Anda menggunakan versi di atas %s, setelah Anda mencopot pemasangan Aplikasi, proyek yang Anda buat, font dan gambar yang Anda impor akan dihapus seluruhnya .</string>
@@ -266,7 +266,7 @@ GLITCH"</string>
     <string name="Instagram_Story">Kisah Instagram</string>
     <string name="It_would_be_better_if_you_choose_a_portrait_here">Sebuah potret manusia akan menjadi yang terbaik di sini.</string>
     <string name="Jaw">Rahang</string>
-    <string name="Join_PicsKit_Pro">Ikuti PicsKit Pro</string>
+    <string name="Join_PicsKit_Pro">Ikuti Image master Pro</string>
     <string name="Join_Pro_unlock_template">Bergabunglah dengan Pro untuk Membuka Kunci Template</string>
     <string name="Keep_knowing_new_features">Ketahui terus fitur-fitur baru!</string>
     <string name="Later">Kemudian</string>
@@ -276,7 +276,7 @@ GLITCH"</string>
     <string name="Let_Us_Go">Ayo pergi</string>
     <string name="Let_do_it">Ayo lakukan</string>
     <string name="Lifetime_VIP">VIP selamanya</string>
-    <string name="Lifetime_VIP_unlocked_tips">VIP Seumur Hidup Tidak Terkunci! Pengingat: tolong jangan hapus aplikasi ini, atau Anda dapat kehilangan penawaran gratis. Harap Anda menikmati PicsKit!</string>
+    <string name="Lifetime_VIP_unlocked_tips">VIP Seumur Hidup Tidak Terkunci! Pengingat: tolong jangan hapus aplikasi ini, atau Anda dapat kehilangan penawaran gratis. Harap Anda menikmati Image master!</string>
     <string name="Limited_Time_Free">Waktu Terbatas Gratis</string>
     <string name="Limited_Time_Offer">Penawaran terbatas</string>
     <string name="Limited_Time_Offer1">Waktu terbatas</string>
@@ -312,7 +312,7 @@ MENARIK"</string>
     <string name="Move_Zoom_Rotate">Pindahkan, Zoom, dan Putar.</string>
     <string name="Move_and_Scale">Pindahkan dan Skala</string>
     <string name="Move_pick_color">Pindah untuk memilih warna.</string>
-    <string name="My_friends_directly_recommended_PicsKit_to_me">Teman saya langsung merekomendasikan PicsKit kepada saya</string>
+    <string name="My_friends_directly_recommended_PicsKit_to_me">Teman saya langsung merekomendasikan Image master kepada saya</string>
     <string name="NEXT">LANJUT</string>
     <string name="Name">Nama</string>
     <string name="Neon">Neon</string>
@@ -332,7 +332,7 @@ Tanda Air"</string>
     <string name="No_more_undos">Tidak ada lagi undo</string>
     <string name="No_thanks">Tidak, terima kasih</string>
     <string name="Normal">Normal</string>
-    <string name="Not_Supported_Architecture">Tidak didukung oleh perangkat Anda. PicsKit akan segera ditutup secara otomatis.</string>
+    <string name="Not_Supported_Architecture">Tidak didukung oleh perangkat Anda. Image master akan segera ditutup secara otomatis.</string>
     <string name="Number_of_media_files">Jumlah file media</string>
     <string name="Object">Obyek</string>
     <string name="Object_Mode">Mode Objek</string>
@@ -342,7 +342,7 @@ Tanda Air"</string>
     <string name="Only_money_Now">Hanya %s Sekarang</string>
     <string name="Oops">Oops!</string>
     <string name="Opacity">Kegelapan</string>
-    <string name="Open_PicsKit">Buka PicsKit</string>
+    <string name="Open_PicsKit">Buka Image master</string>
     <string name="Options_irrevocable_sure_leave">"Lain kali Anda akan mulai dari langkah pertama.
 Yakin untuk pergi?"</string>
     <string name="Options_irrevocable_sure_return">"Opsi tidak dapat dibatalkan.
@@ -362,8 +362,8 @@ FOTO"</string>
     <string name="Photo_Collage1">Kolase</string>
     <string name="Photo_Collage_title">Kolase Foto</string>
     <string name="Photo_Effects">Efek Foto</string>
-    <string name="PicsKit_VIP">PicsKit VIP</string>
-    <string name="PicsKit_VIP_tips">"Akses semua fitur dan nikmati 
+    <string name="PicsKit_VIP">Image master VIP</string>
+    <string name="PicsKit_VIP_tips">"Akses semua fitur dan nikmati
 pengalaman bebas iklan."</string>
     <string name="Pinterest">Pinterest</string>
     <string name="Please_Write_down_your_answer">Mohon tulis jawaban Anda.</string>
@@ -385,7 +385,7 @@ pengalaman bebas iklan."</string>
     <string name="Portrait_Smooth">Halus</string>
     <string name="Portrait_SpotHeal">Spot Heal</string>
     <string name="Position">Posisi</string>
-    <string name="Posts_stories_from_PicsKit_offical">Posting / Cerita dari @PicsKit.official</string>
+    <string name="Posts_stories_from_PicsKit_offical">Posting / Cerita dari @Image master.official</string>
     <string name="Premium_Filters">Filter Premium</string>
     <string name="Premium_Fonts">Font Premium</string>
     <string name="Premium_Stickers">Stiker Premium</string>
@@ -410,10 +410,10 @@ pengalaman bebas iklan."</string>
     <string name="Radius_Blur">Buram Radial</string>
     <string name="Rate_Lifetime_VIP_FREE">Beri kami 5 bintang untuk mendapatkan VIP Seumur Hidup GRATIS.</string>
     <string name="Rate_Now">Beri Nilai Kami</string>
-    <string name="Rate_PicsKit">Nilai PicsKit</string>
-    <string name="Rate_PicsKit_tips">"Jika Anda menikmati menggunakan PicsKit, maukah Anda meluangkan waktu untuk menilai itu? 
+    <string name="Rate_PicsKit">Nilai Image master</string>
+    <string name="Rate_PicsKit_tips">"Jika Anda menikmati menggunakan Image master, maukah Anda meluangkan waktu untuk menilai itu?
 
-Tidak akan lebih dari satu menit. 
+Tidak akan lebih dari satu menit.
 
 Terima kasih atas dukunganmu."</string>
     <string name="Recent">Baru</string>
@@ -429,7 +429,7 @@ Terima kasih atas dukunganmu."</string>
     <string name="Remove_all_Pro_Font">Hapus semua Sumber Daya Pro dari proyek ini?</string>
     <string name="Remove_all_Pro_Stickers">Hapus semua Stiker Pro dari proyek ini?</string>
     <string name="Remove_all_Pro_brushes">Hapus semua efek Pro brushes dari proyek ini?</string>
-    <string name="Remove_the_unwanted_part_automatically">"Hapus bagian yang 
+    <string name="Remove_the_unwanted_part_automatically">"Hapus bagian yang
 tidak diinginkan secara otomatis"</string>
     <string name="Rename">Ganti nama</string>
     <string name="Renew">Memperbarui</string>
@@ -483,8 +483,8 @@ MEMOTONG"</string>
     <string name="Shape_Crop1">Bentuk</string>
     <string name="Shards">Bentuk</string>
     <string name="Share">Bagikan</string>
-    <string name="Share_PicsKit">Bagikan PicsKit</string>
-    <string name="Share_friends_access_free">Bagikan PicsKit ke teman untuk mendapatkan akses ke semua fitur GRATIS.</string>
+    <string name="Share_PicsKit">Bagikan Image master</string>
+    <string name="Share_friends_access_free">Bagikan Image master ke teman untuk mendapatkan akses ke semua fitur GRATIS.</string>
     <string name="Share_to_Instagram">Bagikan ke Instagram</string>
     <string name="Share_to_friends">Bagikan ke teman</string>
     <string name="Sharpen">Mengasah</string>
@@ -511,7 +511,7 @@ Silakan coba lagi nanti."</string>
     <string name="Style">Lukisan</string>
     <string name="Submit">Kirimkan</string>
     <string name="Succeed_unlock">Berhasil</string>
-    <string name="Succeed_unlock_tips">Terima kasih telah mengikuti Picskit! Anda telah membuka kunci %d-hari VIP!</string>
+    <string name="Succeed_unlock_tips">Terima kasih telah mengikuti Image master! Anda telah membuka kunci %d-hari VIP!</string>
     <string name="Success">Keberhasilan</string>
     <string name="Successfully_Saved">Berhasil Disimpan %s.</string>
     <string name="Suggested">Disarankan</string>
@@ -521,8 +521,8 @@ Silakan coba lagi nanti."</string>
     <string name="Switch">Mengubah</string>
     <string name="Switch_to_free">Beralih ke kolase foto gratis?</string>
     <string name="Tags_copied_clipboard">\#Tags disalin ke clipboard!</string>
-    <string name="Tags_share_ins">"\#picskit
-#picskitedit"</string>
+    <string name="Tags_share_ins">"\#Image master
+#Image masteredit"</string>
     <string name="Tap_add_layer_blending">Ketuk + untuk menambahkan lapisan lain untuk ditambahkan.</string>
     <string name="Tap_to_Edit">Ketuk untuk Mengedit</string>
     <string name="Tap_to_add_image">Ketuk untuk menambahkan gambar.</string>
@@ -532,8 +532,8 @@ Silakan coba lagi nanti."</string>
     <string name="Text">Teks</string>
     <string name="Texture">Tekstur</string>
     <string name="Thank_you_for_your_patience">Terima kasih atas kesabaran Anda!</string>
-    <string name="Thanks_for_following">Terima kasih telah mengikuti Picskit! Tandai kami untuk ditampilkan!</string>
-    <string name="Thanks_for_following_Picskit_Start_my_creative_journey">Terima kasih telah mengikuti Picskit! Mulai perjalanan kreatifku!</string>
+    <string name="Thanks_for_following">Terima kasih telah mengikuti Image master! Tandai kami untuk ditampilkan!</string>
+    <string name="Thanks_for_following_Picskit_Start_my_creative_journey">Terima kasih telah mengikuti Image master! Mulai perjalanan kreatifku!</string>
     <string name="Thanks_for_your_following_NFT">Terima kasih untuk mengikuti Anda! Ini adalah aplikasi pembuat NFT yang kami kembangkan. Berharap Anda menyukainya.</string>
     <string name="This_may_take_long">Ini mungkin butuh waktu lama.</string>
     <string name="This_mode_is_better_for_objects">Mode ini cocok untuk objek.</string>
@@ -583,7 +583,7 @@ TEKS"</string>
     <string name="Use_Alter">Gunakan tombol Permak untuk mengubah hasil!</string>
     <string name="Use_Eraser">Gunakan Penghapus</string>
     <string name="Use_your_finger_and_start_stamping_elsewhere">Gunakan jari Anda dan mulai cap di tempat lain.</string>
-    <string name="Use_your_finger_wrap">"Gunakan jari Anda dan 
+    <string name="Use_your_finger_wrap">"Gunakan jari Anda dan
 mulai stamping pada bagian lain."</string>
     <string name="Useful_Tools">Alat Berguna</string>
     <string name="VFlip">V-Flip</string>
@@ -606,7 +606,7 @@ mulai stamping pada bagian lain."</string>
     <string name="Width_area">Lebar:</string>
     <string name="Win_chance_unlocking_vip">Menangkan peluang vip gratis</string>
     <string name="Word_Art">SeniKata</string>
-    <string name="Would_you_mind_rating_PicsKit">Jika Anda menyukai PicsKit, dapatkah Anda memberi kami peringkat 5 bintang? Dukungan Anda sangat penting bagi kami. Terima kasih!</string>
+    <string name="Would_you_mind_rating_PicsKit">Jika Anda menyukai Image master, dapatkah Anda memberi kami peringkat 5 bintang? Dukungan Anda sangat penting bagi kami. Terima kasih!</string>
     <string name="Yearly">Tahunan</string>
     <string name="You_change_it_settings">Anda dapat mengubahnya di pengaturan!</string>
     <string name="You_may_need_to_repeat">4. Anda mungkin perlu mengulangi langkah 1 dan 2 sampai selesai memulihkan status pembelian.</string>
@@ -642,7 +642,7 @@ mulai stamping pada bagian lain."</string>
     <string name="abs">Abs</string>
     <string name="add_to_favorite">Ditambahkan ke favorit.</string>
     <string name="album_cant_find_the_picture">Tidak dapat menemukan gambar yang Anda inginkan?</string>
-    <string name="app_name">PicsKit</string>
+    <string name="app_name">Image master</string>
     <string name="auto_mode">Mode Otomatis</string>
     <string name="background">Latar Belakang</string>
     <string name="blur_bg">Kabur bg</string>

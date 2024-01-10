@@ -4084,7 +4084,7 @@
     .line 12
     invoke-virtual {p0, v0}, Lcom/lightcone/ad/admob/banner/BannerAdFragmentActivity;->b(Z)V
 
-    const-string v0, "com.test.one.removeads"
+    const-string v0, "com.image.master.removeads"
 
     .line 13
     invoke-static {v0}, Llightcone/com/pack/h/g;->u(Ljava/lang/String;)Z

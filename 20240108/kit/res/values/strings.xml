@@ -19,7 +19,7 @@ BOOTH"</string>
     <string name="Aging_Filter">Aging Filter</string>
     <string name="Album">Albums</string>
     <string name="All">All</string>
-    <string name="All_features_free_tips">All advanced features are free to use! Reminder: you may lose the free offer if you uninstall PicsKit. Hope you enjoy our app!</string>
+    <string name="All_features_free_tips">All advanced features are free to use! Reminder: you may lose the free offer if you uninstall Image master. Hope you enjoy our app!</string>
     <string name="Allow_Access">Allow Storage Access</string>
     <string name="Allow_notification_get_featured">Allow notification and get latest featured templates, stickers and other updates.</string>
     <string name="Alter">Alter</string>
@@ -92,7 +92,7 @@ TUTORIALS"</string>
     <string name="Christmas_Surprise">"Christmas
 Surprise"</string>
     <string name="Clarity">Clarity</string>
-    <string name="Clean_Picskit">2. Clean the Picskit background process, restart our app.</string>
+    <string name="Clean_Picskit">2. Clean the Image master background process, restart our app.</string>
     <string name="Clean_the_painted">Clean the painted area to reshape</string>
     <string name="Click_change_mode">Click to change mode.</string>
     <string name="Click_here_reorder_folds">Click here to reorder folds.</string>
@@ -123,7 +123,7 @@ ADJUST"</string>
     <string name="Custom">Custom</string>
     <string name="Custom_Size">Custom Size</string>
     <string name="Custom_sticker">Custom</string>
-    <string name="Customize_modify_any_time">Customize your own PicsKit，modify at any time</string>
+    <string name="Customize_modify_any_time">Customize your own Image master，modify at any time</string>
     <string name="Cutout">Cutout</string>
     <string name="Cutout_move_to_eraser">Cutout (Scissors) has been moved into Eraser.</string>
     <string name="Cutout_outline_too_short">Cutout outline is too short</string>
@@ -202,7 +202,7 @@ STICKERS"</string>
     <string name="Free_Photos">Free Photos</string>
     <string name="From_Instagram">From Instagram</string>
     <string name="From_my_friends">From my friends</string>
-    <string name="From_other_people_who_post">From other people who post with #PicsKit or @PicsKit.official</string>
+    <string name="From_other_people_who_post">From other people who post with #Image master or @Image master.official</string>
     <string name="Gallery">Gallery</string>
     <string name="Gallery_Shop">Shop</string>
     <string name="Gallery_sticker">Gallery</string>
@@ -242,8 +242,8 @@ FILTER"</string>
     <string name="History_projects_hint_3">"We are sorry for users who are affected by this change, but it is Google Play's decision and there is not much we can do about it. Therefore, please consider carefully before uninstalling this app in the future due to the risk of losing all the draft project files."</string>
     <string name="History_projects_hint_4">If you lost the draft project file without uninstallation, you can always send an email to %s, and tell us the details. We will try to help you. Thank you!</string>
     <string name="Hold_drag_change_order">Hold and drag to change order.</string>
-    <string name="How_do_you_know_PicsKit">How do you know PicsKit?</string>
-    <string name="How_do_you_know_PicsKit_from_Instagram">How do you know PicsKit from Instagram?</string>
+    <string name="How_do_you_know_PicsKit">How do you know Image master?</string>
+    <string name="How_do_you_know_PicsKit_from_Instagram">How do you know Image master from Instagram?</string>
     <string name="How_to_enable_access">How to enable access?</string>
     <string name="How_to_enable_access_step_1">1. Click Settings</string>
     <string name="How_to_enable_access_step_2">2. Click Permission</string>
@@ -251,7 +251,7 @@ FILTER"</string>
     <string name="How_to_restore">How to restore Pro?</string>
     <string name="Hue">Hue</string>
     <string name="I_Know">Got it</string>
-    <string name="I_saw_My_friends_post">I saw my friends post with #PicsKit related hashtags or @PicsKit.official</string>
+    <string name="I_saw_My_friends_post">I saw my friends post with #Image master related hashtags or @Image master.official</string>
     <string name="I_saw_people_use_PicsKit_on_Instagram">Others</string>
     <string name="If_you_cancel_move_projects">Recently edited projects have been successfully migrated, while the previous ones are still being migrated in the process. Once canceled, some of these projects might be lost forever. Are you sure to cancel this process?</string>
     <string name="If_your_phone_is_using_font">If your phone is using version above %s, once you uninstall the App, the projects you created, the fonts and images you imported will be removed totally.</string>
@@ -267,7 +267,7 @@ FILTER"</string>
     <string name="Instagram_Story">Instagram Story</string>
     <string name="It_would_be_better_if_you_choose_a_portrait_here">It would be better if you choose a portrait here.</string>
     <string name="Jaw">Jaw</string>
-    <string name="Join_PicsKit_Pro">Join PicsKit Pro</string>
+    <string name="Join_PicsKit_Pro">Join Image master Pro</string>
     <string name="Join_Pro_unlock_template">Join Pro to Unlock the Template</string>
     <string name="Keep_knowing_new_features">Keep knowing new features!</string>
     <string name="Later">Later</string>
@@ -277,7 +277,7 @@ FILTER"</string>
     <string name="Let_Us_Go">"Let's Go"</string>
     <string name="Let_do_it">"Let's do it"</string>
     <string name="Lifetime_VIP">Lifetime VIP</string>
-    <string name="Lifetime_VIP_unlocked_tips">Lifetime VIP unlocked! Reminder: please do not uninstall the app, or you may lose the free offer. Hope you enjoy PicsKit!</string>
+    <string name="Lifetime_VIP_unlocked_tips">Lifetime VIP unlocked! Reminder: please do not uninstall the app, or you may lose the free offer. Hope you enjoy Image master!</string>
     <string name="Limited_Time_Free">Limited Time Free</string>
     <string name="Limited_Time_Offer">Limited-Time Offer</string>
     <string name="Limited_Time_Offer1">Limited Time Offer</string>
@@ -313,7 +313,7 @@ FILTERS"</string>
     <string name="Move_Zoom_Rotate">Move, Zoom, and Rotate.</string>
     <string name="Move_and_Scale">Move and Scale</string>
     <string name="Move_pick_color">Move to pick a color.</string>
-    <string name="My_friends_directly_recommended_PicsKit_to_me">My friends directly recommended PicsKit to me</string>
+    <string name="My_friends_directly_recommended_PicsKit_to_me">My friends directly recommended Image master to me</string>
     <string name="NEXT">NEXT</string>
     <string name="Name">Name</string>
     <string name="Neon">Neon</string>
@@ -333,7 +333,7 @@ Watermark"</string>
     <string name="No_more_undos">No more undos</string>
     <string name="No_thanks">No, thanks</string>
     <string name="Normal">Normal</string>
-    <string name="Not_Supported_Architecture">Not supported by your device, PicsKit will soon be closed automatically.</string>
+    <string name="Not_Supported_Architecture">Not supported by your device, Image master will soon be closed automatically.</string>
     <string name="Number_of_media_files">Number of media files</string>
     <string name="Object">Object</string>
     <string name="Object_Mode">Object Mode</string>
@@ -343,7 +343,7 @@ Watermark"</string>
     <string name="Only_money_Now">Only %s Now</string>
     <string name="Oops">Oops!</string>
     <string name="Opacity">Opacity</string>
-    <string name="Open_PicsKit">Open PicsKit</string>
+    <string name="Open_PicsKit">Open Image master</string>
     <string name="Options_irrevocable_sure_leave">"You'll start from the first step next time.
 Sure to leave?"</string>
     <string name="Options_irrevocable_sure_return">"Option irrevocable.
@@ -363,12 +363,12 @@ COLLAGE"</string>
     <string name="Photo_Collage1">Collage</string>
     <string name="Photo_Collage_title">Photo Collage</string>
     <string name="Photo_Effects">Photo Effects</string>
-    <string name="PicsKit_VIP">PicsKit VIP</string>
-    <string name="PicsKit_VIP_tips">"Access all features and enjoy 
+    <string name="PicsKit_VIP">Image master VIP</string>
+    <string name="PicsKit_VIP_tips">"Access all features and enjoy
 an ad free experience."</string>
     <string name="Pinterest">Pinterest</string>
     <string name="Please_Write_down_your_answer">Please Write down your answer.</string>
-    <string name="Please_donot_clear">"Please don't clear the local cache data for Picskit or Google Play."</string>
+    <string name="Please_donot_clear">"Please don't clear the local cache data for Image master or Google Play."</string>
     <string name="Please_enter_a_name">Please enter a name</string>
     <string name="Please_select_photos">Please select %1$d photos (%2$d/%3$d)</string>
     <string name="Please_waiting_for_downloading">Downloading...Please wait patiently.</string>
@@ -386,7 +386,7 @@ an ad free experience."</string>
     <string name="Portrait_Smooth">Smooth</string>
     <string name="Portrait_SpotHeal">Spot Heal</string>
     <string name="Position">Position</string>
-    <string name="Posts_stories_from_PicsKit_offical">Posts/Stories from @PicsKit.official</string>
+    <string name="Posts_stories_from_PicsKit_offical">Posts/Stories from @Image master.official</string>
     <string name="Premium_Filters">Premium Filters</string>
     <string name="Premium_Fonts">Premium Fonts</string>
     <string name="Premium_Stickers">Premium Stickers</string>
@@ -413,10 +413,10 @@ an ad free experience."</string>
     <string name="Radius_Blur">Radial Blur</string>
     <string name="Rate_Lifetime_VIP_FREE">Rate us 5 stars to get Lifetime VIP for FREE.</string>
     <string name="Rate_Now">Rate Now</string>
-    <string name="Rate_PicsKit">Rate PicsKit</string>
-    <string name="Rate_PicsKit_tips">"If you enjoy using PicsKit, would you mind taking a moment to rate it? 
+    <string name="Rate_PicsKit">Rate Image master</string>
+    <string name="Rate_PicsKit_tips">"If you enjoy using Image master, would you mind taking a moment to rate it?
 
-It won't take more than a minute. 
+It won't take more than a minute.
 
 Thanks for your support."</string>
     <string name="Recent">Recent</string>
@@ -486,8 +486,8 @@ CROP"</string>
     <string name="Shape_Crop1">Shape</string>
     <string name="Shards">Shards</string>
     <string name="Share">Share</string>
-    <string name="Share_PicsKit">Share PicsKit</string>
-    <string name="Share_friends_access_free">Share PicsKit to friends to get access to all features for FREE.</string>
+    <string name="Share_PicsKit">Share Image master</string>
+    <string name="Share_friends_access_free">Share Image master to friends to get access to all features for FREE.</string>
     <string name="Share_to_Instagram">Share to Instagram</string>
     <string name="Share_to_friends">Share to friends</string>
     <string name="Sharpen">Sharpen</string>
@@ -514,7 +514,7 @@ Please try again later."</string>
     <string name="Style">Drawing</string>
     <string name="Submit">Submit</string>
     <string name="Succeed_unlock">Succeed</string>
-    <string name="Succeed_unlock_tips">"Thanks for following Picskit! You've unlocked %d-day VIP!"</string>
+    <string name="Succeed_unlock_tips">"Thanks for following Image master! You've unlocked %d-day VIP!"</string>
     <string name="Success">Success</string>
     <string name="Successfully_Saved">Successfully Saved %s.</string>
     <string name="Suggested">Suggested</string>
@@ -524,8 +524,8 @@ Please try again later."</string>
     <string name="Switch">Switch</string>
     <string name="Switch_to_free">Switch to a free photo collage?</string>
     <string name="Tags_copied_clipboard">\#Tags copied to clipboard!</string>
-    <string name="Tags_share_ins">"\#picskit
-#picskitedit"</string>
+    <string name="Tags_share_ins">"\#Image master
+#Image masteredit"</string>
     <string name="Tap_add_layer_blending">Tap + to add another layer for blending.</string>
     <string name="Tap_to_Edit">Tap to Edit</string>
     <string name="Tap_to_add_image">Tap to add an image.</string>
@@ -538,8 +538,8 @@ Please try again later."</string>
     <string name="Text">Text</string>
     <string name="Texture">Texture</string>
     <string name="Thank_you_for_your_patience">Thank you for your patience！</string>
-    <string name="Thanks_for_following">Thanks for following Picskit! Tag us to get featured!</string>
-    <string name="Thanks_for_following_Picskit_Start_my_creative_journey">Thanks for following Picskit！ Start my creative journey！</string>
+    <string name="Thanks_for_following">Thanks for following Image master! Tag us to get featured!</string>
+    <string name="Thanks_for_following_Picskit_Start_my_creative_journey">Thanks for following Image master！ Start my creative journey！</string>
     <string name="Thanks_for_your_following_NFT">"Thanks for your following! This is an NFT creator app we've developed. Hoping you like it."</string>
     <string name="This_may_take_long">This may take long.</string>
     <string name="This_mode_is_better_for_objects">This mode is suitable for objects.</string>
@@ -612,7 +612,7 @@ start stamping elsewhere."</string>
     <string name="Width_area">Width :</string>
     <string name="Win_chance_unlocking_vip">Win chance of unlocking vip</string>
     <string name="Word_Art">WordArt</string>
-    <string name="Would_you_mind_rating_PicsKit">If you like PicsKit, could you please give us a 5-star rating? Your support is vital for us. Thank you!</string>
+    <string name="Would_you_mind_rating_PicsKit">If you like Image master, could you please give us a 5-star rating? Your support is vital for us. Thank you!</string>
     <string name="Yearly">Yearly</string>
     <string name="You_change_it_settings">You can change it in settings!</string>
     <string name="You_may_need_to_repeat">"4. You may need to repeat the 1st and 2nd step until it's finished restoring the purchase status."</string>
@@ -650,7 +650,7 @@ start stamping elsewhere."</string>
     <string name="album_cant_find_the_picture">"Can' t find the picture you want?"</string>
     <string name="all_life_vip">Lifetime VIP member for permanent use</string>
     <string name="androidx_startup">androidx.startup</string>
-    <string name="app_name">PicsKit</string>
+    <string name="app_name">Image master</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="ask_solved">Problem solved already?</string>
     <string name="auto_mode">Auto Mode</string>
@@ -809,8 +809,8 @@ Get featured"</string>
     <string name="interactive_tutorial_tips2">Try our free and advanced art filters!</string>
     <string name="internal_storage">Internal Storage</string>
     <string name="item_view_role_description">Tab</string>
-    <string name="know_app">Learn about PicsKit</string>
-    <string name="know_app_tips">PicsKit is a powerful photo editor for everyone. Just take some seconds to learn it and start your design journey now!</string>
+    <string name="know_app">Learn about Image master</string>
+    <string name="know_app_tips">Image master is a powerful photo editor for everyone. Just take some seconds to learn it and start your design journey now!</string>
     <string name="know_it">Get it.</string>
     <string name="latest_policy">latest policy</string>
     <string name="library_roundedimageview_author">Vince Mi</string>
@@ -824,7 +824,7 @@ Get featured"</string>
     <string name="library_roundedimageview_repositoryLink">https://github.com/vinc3m1/RoundedImageView.git</string>
     <string name="lift">Lift</string>
     <string name="like">Like</string>
-    <string name="like_PicsKit_share_PicsKit">If you like PicsKit, why not share PicsKit? Make awesome photos together and share the joy!</string>
+    <string name="like_PicsKit_share_PicsKit">If you like Image master, why not share Image master? Make awesome photos together and share the joy!</string>
     <string name="like_fivestar">A 5-star rating</string>
     <string name="like_text_under_star">Do you like %s? Loving it!</string>
     <string name="like_unliker">Dislike</string>
@@ -901,11 +901,11 @@ Please enjoy it!"</string>
     <string name="next_step">Next</string>
     <string name="next_tutorial_name">Next tutorial: %s</string>
     <string name="no">No</string>
-    <string name="no_camera_permission_tip">"PicsKit does not have access to your Camera.
+    <string name="no_camera_permission_tip">"Image master does not have access to your Camera.
 Please enable access in Settings."</string>
-    <string name="no_permission_hint_1">"PicsKit needs access to your device's storage. Please enable access to start your awesome edits!"</string>
-    <string name="no_permission_hint_2">"PicsKit needs access to your device's storage. Please enable access in Settings"</string>
-    <string name="no_photos_permission_tip">"PicsKit does not have access to your Photos.
+    <string name="no_permission_hint_1">"Image master needs access to your device's storage. Please enable access to start your awesome edits!"</string>
+    <string name="no_permission_hint_2">"Image master needs access to your device's storage. Please enable access in Settings"</string>
+    <string name="no_photos_permission_tip">"Image master does not have access to your Photos.
 Please enable access in Settings."</string>
     <string name="no_sd_card_tip">No SD card</string>
     <string name="no_thanks">No, thanks</string>
@@ -941,11 +941,11 @@ OFF"</string>
     <string name="permanently_for_price">%1$s permanently for %2$s</string>
     <string name="photo_been_deleted">This photo has been deleted.</string>
     <string name="photos">Photos</string>
-    <string name="please_download_instagram">"Instagram is not installed. 
+    <string name="please_download_instagram">"Instagram is not installed.
 Please download Instagram and try again."</string>
     <string name="project_id">test-7dfb6</string>
     <string name="provicy_policy">Privacy Policy</string>
-    <string name="purchase_detail">"• Subscription options: %1$s per month, %2$s per year. Subscribe for unlimited access to all features and content offered for purchase within PicsKit.
+    <string name="purchase_detail">"• Subscription options: %1$s per month, %2$s per year. Subscribe for unlimited access to all features and content offered for purchase within Image master.
 
 • You’ll automatically be charged each renewal period depending on your subscription terms, for example: monthly, or annually.
 
@@ -956,18 +956,18 @@ Please download Instagram and try again."</string>
 • If you cancel a subscription purchased from an app on Google Play, you will not receive a refund for the current billing period, but will continue to receive your subscription content for the remainder of the current billing period, regardless of the cancellation date. Your cancellation goes into effect after the current billing period has passed.
 
 • Pricing in other countries may vary and actual charges may be converted to your local currency depending on the country of residence."</string>
-    <string name="purchase_detail_shuangyin">"• Subscription options: %1$s per month, %2$s per year. Subscribe for unlimited access to all features and content offered for purchase within PicsKit.
+    <string name="purchase_detail_shuangyin">"• Subscription options: %1$s per month, %2$s per year. Subscribe for unlimited access to all features and content offered for purchase within Image master.
 
 • You’ll automatically be charged each renewal period depending on your subscription terms, for example: monthly, or annually.
 
 • You might find a payment authorization on your payment method up to 24 hours before the renewal date but you’ll only be charged on the renewal date. To remove the payment authorization, cancel the subscription before the renewal date.
 
-• You can cancel your subscription at any time in the subscriptions section on Google Play. When you cancel your subscription, you’ll lose access to the subscription at the end of the current billing period. 
+• You can cancel your subscription at any time in the subscriptions section on Google Play. When you cancel your subscription, you’ll lose access to the subscription at the end of the current billing period.
 
 • If you cancel a subscription purchased from an app on Google Play, you will not receive a refund for the current billing period, but will continue to receive your subscription content for the remainder of the current billing period, regardless of the cancellation date. Your cancellation goes into effect after the current billing period has passed.
 
 • Pricing in other countries may vary and actual charges may be converted to your local currency depending on the country of residence."</string>
-    <string name="question_tip1" formatted="false">"Fill out a questionnaire to win %s! 
+    <string name="question_tip1" formatted="false">"Fill out a questionnaire to win %s!
 Would you like to take a %s survey for chances of Free VIP?"</string>
     <string name="question_tip1_str1">FREE VIP</string>
     <string name="question_tip1_str2">2-minute</string>
@@ -1005,7 +1005,7 @@ Would you like to take a %s survey for chances of Free VIP?"</string>
     <string name="select_limit_layers">Please select no more than 3 layers.</string>
     <string name="shadow_shape">Shape</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="subscription_option">"• Subscription options: %1$s per month, %2$s per year. Subscribe for unlimited access to all features and content offered for purchase within PicsKit.
+    <string name="subscription_option">"• Subscription options: %1$s per month, %2$s per year. Subscribe for unlimited access to all features and content offered for purchase within Image master.
 
 • You’ll automatically be charged each renewal period depending on your subscription terms, for example: monthly, or annually.
 
@@ -1019,24 +1019,24 @@ Would you like to take a %s survey for chances of Free VIP?"</string>
 
 • According to the rules of different platforms, VIP membership cannot be shared between iOS and Android.
 
-• You can get access to all pro features in PicsKit through monthly subscription, annual subscription and one-time(lifetime) purchase. The only difference is on the unlock valid time. "</string>
-    <string name="subscription_option_shuangyin">"• Features marked as advanced are free to use for a limited time. In other words, you can now get access to all features and content in PicsKit for free. For your reference, the original pricing and subscription plans are listed as follows. Rest assured that you will not be charged automatically when this limited-time event is over.
+• You can get access to all pro features in Image master through monthly subscription, annual subscription and one-time(lifetime) purchase. The only difference is on the unlock valid time. "</string>
+    <string name="subscription_option_shuangyin">"• Features marked as advanced are free to use for a limited time. In other words, you can now get access to all features and content in Image master for free. For your reference, the original pricing and subscription plans are listed as follows. Rest assured that you will not be charged automatically when this limited-time event is over.
 
-• Subscription options: %1$s per month, %2$s per year. Subscribe for unlimited access to all features and content offered for purchase within PicsKit.
+• Subscription options: %1$s per month, %2$s per year. Subscribe for unlimited access to all features and content offered for purchase within Image master.
 
  • You’ll automatically be charged each renewal period depending on your subscription terms, for example: monthly, or annually.
 
  • You might find a payment authorization on your payment method up to 24 hours before the renewal date but you’ll only be charged on the renewal date. To remove the payment authorization, cancel the subscription before the renewal date.
 
- • You can cancel your subscription at any time in the subscriptions section on Google Play. When you cancel your subscription, you’ll lose access to the subscription at the end of the current billing period. 
+ • You can cancel your subscription at any time in the subscriptions section on Google Play. When you cancel your subscription, you’ll lose access to the subscription at the end of the current billing period.
 
  • If you cancel a subscription purchased from an app on Google Play, you will not receive a refund for the current billing period, but will continue to receive your subscription content for the remainder of the current billing period, regardless of the cancellation date. Your cancellation goes into effect after the current billing period has passed.
 
  • Pricing in other countries may vary and actual charges may be converted to your local currency depending on the country of residence.
 
- • According to the rules of different platforms, VIP membership cannot be shared between iOS and Android. 
+ • According to the rules of different platforms, VIP membership cannot be shared between iOS and Android.
 
- • You can get access to all pro features in PicsKit through monthly subscription, annual subscription and one-time(lifetime) purchase. The only difference is on the unlock valid time."</string>
+ • You can get access to all pro features in Image master through monthly subscription, annual subscription and one-time(lifetime) purchase. The only difference is on the unlock valid time."</string>
     <string name="sure_delete_project">Are you sure to delete this project?</string>
     <string name="sure_delete_projects">Are you sure to delete?(This operation is irrevocable）</string>
     <string name="sure_love_to">Sure, I‘d love to!</string>

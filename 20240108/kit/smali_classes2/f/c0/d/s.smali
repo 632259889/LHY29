@@ -215,7 +215,8 @@
     return p1
 
     :cond_3
-    return v2
+    # const/4 v0,0x1
+    return v0
 .end method
 
 .method public abstract synthetic getGetter()Lf/f0/i$a;

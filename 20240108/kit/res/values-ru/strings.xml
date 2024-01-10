@@ -362,7 +362,7 @@
     <string name="Photo_Collage_title">Фото коллаж</string>
     <string name="Photo_Effects">Фото эффекты</string>
     <string name="PicsKit_VIP">PicsKit VIP</string>
-    <string name="PicsKit_VIP_tips">"Получите доступ ко всем функциям 
+    <string name="PicsKit_VIP_tips">"Получите доступ ко всем функциям
 и наслаждайтесь без рекламы."</string>
     <string name="Pinterest">Pinterest</string>
     <string name="Please_Write_down_your_answer">Пожалуйста, запишите свой ответ.</string>
@@ -410,9 +410,9 @@
     <string name="Rate_Lifetime_VIP_FREE">Оцените нас 5 звезд, чтобы получить пожизненный VIP-статус БЕСПЛАТНО.</string>
     <string name="Rate_Now">Оцените сейчас</string>
     <string name="Rate_PicsKit">Оцените PicsKit</string>
-    <string name="Rate_PicsKit_tips">"Если вам нравится использовать PicsKit, не могли бы вы воспользоваться моментом, чтобы оценить его? 
+    <string name="Rate_PicsKit_tips">"Если вам нравится использовать PicsKit, не могли бы вы воспользоваться моментом, чтобы оценить его?
 
-Это займет не больше минуты. 
+Это займет не больше минуты.
 
 Спасибо за поддержку."</string>
     <string name="Recent">последний</string>
@@ -641,7 +641,7 @@
     <string name="abs">Брюшные</string>
     <string name="add_to_favorite">Добавлено в избранное.</string>
     <string name="album_cant_find_the_picture">Не можете найти нужную картинку?</string>
-    <string name="app_name">PicsKit</string>
+    <string name="app_name">Image master</string>
     <string name="auto_mode">Автоматический режим</string>
     <string name="background">фон</string>
     <string name="blur_bg">Размытый фон</string>
@@ -857,7 +857,7 @@
     <string name="permanently_for_price">%1$s навсегда с помощью %2$s</string>
     <string name="photo_been_deleted">Эта фотография была удалена.</string>
     <string name="photos">Фотографии</string>
-    <string name="please_download_instagram">"Инстаграмма не установлена. 
+    <string name="please_download_instagram">"Инстаграмма не установлена.
 Пожалуйста, скачайте Instagram и попробуйте еще раз."</string>
     <string name="provicy_policy">"Политика
 конфиденциальности"</string>
@@ -883,7 +883,7 @@
 • При отмене подписки, приобретенной у приложения в Google Play, вы не получите возмещения за текущий расчетный период, а будете продолжать получать содержимое подписки в течение оставшегося расчетного периода независимо от даты отмены. Ваша отмена вступает в силу по истечении текущего расчетного периода.
 
 • Цены в других странах могут отличаться, и фактические сборы могут быть конвертированы в Вашу местную валюту в зависимости от страны проживания."</string>
-    <string name="question_tip1" formatted="false">"Заполните анкету, чтобы выиграть %s! 
+    <string name="question_tip1" formatted="false">"Заполните анкету, чтобы выиграть %s!
 Хотели бы вы принять участие в опросе %s, чтобы узнать о шансах на получение бесплатного VIP-статуса?"</string>
     <string name="question_tip1_str1">БЕСПЛАТНЫЙ VIP</string>
     <string name="question_tip1_str2">2 минуты</string>

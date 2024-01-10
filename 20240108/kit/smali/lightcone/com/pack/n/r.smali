@@ -413,7 +413,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string v2, "com.test.one.removeads"
+    const-string v2, "com.image.master.removeads"
 
     invoke-static {v2}, Llightcone/com/pack/h/g;->u(Ljava/lang/String;)Z
 
@@ -558,7 +558,7 @@
 .method public n(Landroid/app/Activity;)V
     .locals 2
 
-    const-string v0, "com.test.one.removeads"
+    const-string v0, "com.image.master.removeads"
 
     .line 1
     invoke-static {v0}, Llightcone/com/pack/h/g;->u(Ljava/lang/String;)Z

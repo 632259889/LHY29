@@ -5,7 +5,7 @@
     "shops": [
       {
         "id": 1,
-        "sku": "com.test.one.artfilters",
+        "sku": "com.image.master.artfilters",
         "showName": "Art Filters",
         "localizedCategory": {
           "ja": "アートフィルター",
@@ -22,7 +22,7 @@
       },
       {
         "id": 2,
-        "sku": "com.test.one.glitchfilters",
+        "sku": "com.image.master.glitchfilters",
         "showName": "Glitch Filters",
         "localizedCategory": {
           "ja": "グリッチフィルター",
@@ -39,7 +39,7 @@
       },
       {
         "id": 3,
-        "sku": "com.test.one.doubleexposurefilters",
+        "sku": "com.image.master.doubleexposurefilters",
         "showName": "Double Exposure filters",
         "localizedCategory": {
           "ja": "二重露光フィルター",
@@ -56,7 +56,7 @@
       },
       {
         "id": 4,
-        "sku": "com.test.one.charmingfilters",
+        "sku": "com.image.master.charmingfilters",
         "showName": "Charming Filters",
         "localizedCategory": {
           "ja": "グラマーフィルター",
@@ -73,7 +73,7 @@
       },
       {
         "id": 5,
-        "sku": "com.test.one.watercolorfilters",
+        "sku": "com.image.master.watercolorfilters",
         "showName": "Watercolor Filters",
         "localizedCategory": {
           "ja": "水彩フィルター",
@@ -90,7 +90,7 @@
       },
       {
         "id": 6,
-        "sku": "com.test.one.skyfilters",
+        "sku": "com.image.master.skyfilters",
         "showName": "Sky filters",
         "localizedCategory": {
           "ja": "スカイフィルター",
@@ -113,7 +113,7 @@
     "shops": [
       {
         "id": 7,
-        "sku": "com.test.one.removeads",
+        "sku": "com.image.master.removeads",
         "showName": "Remove Ads",
         "localizedCategory": {
           "ja": "広告を削除",
@@ -130,7 +130,7 @@
       },
       {
         "id": 8,
-        "sku": "com.test.one.premiumshapes",
+        "sku": "com.image.master.premiumshapes",
         "showName": "Premium Shapes",
         "localizedCategory": {
           "ja": "専用形状",
@@ -147,7 +147,7 @@
       },
       {
         "id": 9,
-        "sku": "com.test.one.premiumfonts",
+        "sku": "com.image.master.premiumfonts",
         "showName": "Premium Fonts",
         "localizedCategory": {
           "ja": "専用フォント",
@@ -164,7 +164,7 @@
       },
       {
         "id": 10,
-        "sku": "com.test.one.premiumblends",
+        "sku": "com.image.master.premiumblends",
         "showName": "Premium Blends",
         "localizedCategory": {
           "ja": "専用混合",
@@ -181,7 +181,7 @@
       },
       {
         "id": 11,
-        "sku": "com.test.one.premiumbrushes",
+        "sku": "com.image.master.premiumbrushes",
         "showName": "Premium Brushes",
         "localizedCategory": {
           "ja": "専用ブラシ",

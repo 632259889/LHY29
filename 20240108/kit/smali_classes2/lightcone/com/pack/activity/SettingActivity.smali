@@ -68,10 +68,6 @@
 .method private A()V
     .locals 4
 
-    const-string v0, "liuheyi.........SettingActivity a()"
-
-  invoke-static {v0}, Llightcone/com/pack/activity/LogUtil;->log(Ljava/lang/String;)V
-
     .line 1
     invoke-static {}, Llightcone/com/pack/h/g;->w()Z
 
@@ -305,7 +301,7 @@
 .method private f()V
     .locals 3
 
-    const-string v0, "com.test.one.removeads"
+    const-string v0, "com.image.master.removeads"
 
     .line 1
     invoke-static {v0}, Llightcone/com/pack/h/g;->u(Ljava/lang/String;)Z
@@ -1060,7 +1056,7 @@
 
     if-eqz v0, :cond_1
 
-    const-string v0, "com.test.one.removeads"
+    const-string v0, "com.image.master.removeads"
 
     invoke-static {v0}, Llightcone/com/pack/h/g;->u(Ljava/lang/String;)Z
 
@@ -1498,10 +1494,6 @@
     .line 2
     invoke-direct {p0}, Llightcone/com/pack/activity/SettingActivity;->A()V
 
-    .line 3
-    const-string v0, "liuheyi.........SettingActivity ccdssss()"
-
-  invoke-static {v0}, Llightcone/com/pack/activity/LogUtil;->log(Ljava/lang/String;)V
 
     .line 3
     iget-object v0, p0, Llightcone/com/pack/activity/SettingActivity;->tagNewFeedback:Landroid/widget/ImageView;
@@ -1509,19 +1501,13 @@
     const/4 v1, 0x4
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
-    .line 4
-    const-string v0, "liuheyi.........SettingActivity tagNewFeedback()"
 
-  invoke-static {v0}, Llightcone/com/pack/activity/LogUtil;->log(Ljava/lang/String;)V
 
     .line 4
     iget-object v0, p0, Llightcone/com/pack/activity/SettingActivity;->tagCountFeedback:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    const-string v0, "liuheyi.........SettingActivity tagCountFeedback()"
-
-    invoke-static {v0}, Llightcone/com/pack/activity/LogUtil;->log(Ljava/lang/String;)V
 
     # .line 5
     # invoke-static {}, Lcom/lightcone/feedback/a;->a()Lcom/lightcone/feedback/a;
@@ -1585,9 +1571,6 @@
 
 .method public synthetic y(I)V
     .locals 1
-    const-string v0, "liuheyi.........SettingActivity yyyyyy()"
-
-  invoke-static {v0}, Llightcone/com/pack/activity/LogUtil;->log(Ljava/lang/String;)V
 
     invoke-direct {p0, p1}, Llightcone/com/pack/activity/SettingActivity;->x(I)V
 

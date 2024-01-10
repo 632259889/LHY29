@@ -601,7 +601,7 @@
 
     iput-object v0, p0, Llightcone/com/pack/adapter/FeatureListAdapter;->g:Ljava/util/List;
 
-    const-string p1, "com.test.one.removeads"
+    const-string p1, "com.image.master.removeads"
 
     .line 3
     invoke-static {p1}, Llightcone/com/pack/h/g;->u(Ljava/lang/String;)Z

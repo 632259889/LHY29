@@ -238,12 +238,12 @@
 
     if-eqz p1, :cond_0
 
-    const-string p1, "com.test.one.christmasyearlysubscription"
+    const-string p1, "com.image.master.christmasyearlysubscription"
 
     goto :goto_0
 
     :cond_0
-    const-string p1, "com.test.one.xmasyearlysubscription"
+    const-string p1, "com.image.master.xmasyearlysubscription"
 
     :goto_0
     iput-object p1, p0, Llightcone/com/pack/activity/vip/VipActivity;->o:Ljava/lang/String;

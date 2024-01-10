@@ -95,7 +95,7 @@
 .method static constructor <clinit>()V
     .locals 8
 
-    const-string v0, "com.test.one.weekly"
+    const-string v0, "com.image.master.weekly"
 
     .line 1
     invoke-static {v0}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
@@ -104,13 +104,13 @@
 
     sput-object v0, Llightcone/com/pack/h/g;->d:Ljava/util/List;
 
-    const-string v1, "com.test.one.monthly"
+    const-string v1, "com.image.master.monthly"
 
-    const-string v2, "com.test.one.newmonthly"
+    const-string v2, "com.image.master.newmonthly"
 
-    const-string v3, "com.test.one.monthlysale"
+    const-string v3, "com.image.master.monthlysale"
 
-    const-string v4, "com.test.one.monthly20200811"
+    const-string v4, "com.image.master.monthly20200811"
 
     .line 2
     filled-new-array {v1, v2, v3, v4}, [Ljava/lang/String;
@@ -123,17 +123,17 @@
 
     sput-object v1, Llightcone/com/pack/h/g;->e:Ljava/util/List;
 
-    const-string v2, "com.test.one.newyearly"
+    const-string v2, "com.image.master.newyearly"
 
-    const-string v3, "com.test.one.xmasyearlysubscription"
+    const-string v3, "com.image.master.xmasyearlysubscription"
 
-    const-string v4, "com.test.one.yearly20200811"
+    const-string v4, "com.image.master.yearly20200811"
 
-    const-string v5, "com.test.one.christmasyearlysubscription"
+    const-string v5, "com.image.master.christmasyearlysubscription"
 
-    const-string v6, "com.test.one.discountyearlysubscription"
+    const-string v6, "com.image.master.discountyearlysubscription"
 
-    const-string v7, "com.test.one.privilegeyearlysubscription"
+    const-string v7, "com.image.master.privilegeyearlysubscription"
 
     .line 3
     filled-new-array/range {v2 .. v7}, [Ljava/lang/String;
@@ -146,15 +146,15 @@
 
     sput-object v2, Llightcone/com/pack/h/g;->f:Ljava/util/List;
 
-    const-string v3, "com.test.one.onetime"
+    const-string v3, "com.image.master.onetime"
 
-    const-string v4, "com.test.one.newonetime"
+    const-string v4, "com.image.master.newonetime"
 
-    const-string v5, "com.test.one.xmasonetimepurchase"
+    const-string v5, "com.image.master.xmasonetimepurchase"
 
-    const-string v6, "com.test.one.newonetimepurchase"
+    const-string v6, "com.image.master.newonetimepurchase"
 
-    const-string v7, "com.test.one.christmasonetimepurchase"
+    const-string v7, "com.image.master.christmasonetimepurchase"
 
     .line 4
     filled-new-array {v3, v4, v5, v6, v7}, [Ljava/lang/String;
@@ -601,9 +601,6 @@
 .method private static M()V
     .locals 4
 
-    const-string v0, "liuheyi.........vip初始化成功！()"
-
-  invoke-static {v0}, Llightcone/com/pack/activity/LogUtil;->log(Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Llightcone/com/pack/h/g;->a:Landroid/content/Context;
@@ -642,7 +639,7 @@
 
     .line 3
     # sget-object v1, Llightcone/com/pack/h/g;->f18802k:Ljava/util/Set;
-    const-string v2, "com.test.one.onetime"
+    const-string v2, "com.image.master.onetime"
 
     invoke-interface {v1, v2}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
@@ -921,7 +918,7 @@
 
     if-eqz p0, :cond_0
 
-    const-string p0, "com.test.one.christmasonetimepurchase"
+    const-string p0, "com.image.master.christmasonetimepurchase"
 
     const-string v0, "$9.99"
 
@@ -933,7 +930,7 @@
     goto :goto_0
 
     :cond_0
-    const-string p0, "com.test.one.xmasonetimepurchase"
+    const-string p0, "com.image.master.xmasonetimepurchase"
 
     const-string v0, "$5.99"
 
@@ -951,7 +948,7 @@
 
     if-eqz p0, :cond_0
 
-    const-string p0, "com.test.one.christmasyearlysubscription"
+    const-string p0, "com.image.master.christmasyearlysubscription"
 
     const-string v0, "$8.99"
 
@@ -963,7 +960,7 @@
     goto :goto_0
 
     :cond_0
-    const-string p0, "com.test.one.xmasyearlysubscription"
+    const-string p0, "com.image.master.xmasyearlysubscription"
 
     const-string v0, "$4.99"
 
@@ -983,7 +980,7 @@
 
     if-eqz p0, :cond_0
 
-    const-string p0, "com.test.one.monthly20200811"
+    const-string p0, "com.image.master.monthly20200811"
 
     .line 1
     invoke-static {p0, v0}, Llightcone/com/pack/h/g;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -993,7 +990,7 @@
     goto :goto_0
 
     :cond_0
-    const-string p0, "com.test.one.newmonthly"
+    const-string p0, "com.image.master.newmonthly"
 
     .line 2
     invoke-static {p0, v0}, Llightcone/com/pack/h/g;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -1009,7 +1006,7 @@
 
     if-eqz p0, :cond_0
 
-    const-string p0, "com.test.one.newonetimepurchase"
+    const-string p0, "com.image.master.newonetimepurchase"
 
     const-string v0, "$13.99"
 
@@ -1021,7 +1018,7 @@
     goto :goto_0
 
     :cond_0
-    const-string p0, "com.test.one.onetime"
+    const-string p0, "com.image.master.onetime"
 
     const-string v0, "$11.99"
 
@@ -1069,7 +1066,7 @@
 
     if-eqz p0, :cond_0
 
-    const-string p0, "com.test.one.privilegeyearlysubscription"
+    const-string p0, "com.image.master.privilegeyearlysubscription"
 
     const-string v0, "$6.99"
 
@@ -1081,7 +1078,7 @@
     goto :goto_0
 
     :cond_0
-    const-string p0, "com.test.one.discountyearlysubscription"
+    const-string p0, "com.image.master.discountyearlysubscription"
 
     const-string v0, "$4.99"
 
@@ -1099,7 +1096,7 @@
 
     if-eqz p0, :cond_0
 
-    const-string p0, "com.test.one.yearly20200811"
+    const-string p0, "com.image.master.yearly20200811"
 
     const-string v0, "$11.99"
 
@@ -1111,7 +1108,7 @@
     goto :goto_0
 
     :cond_0
-    const-string p0, "com.test.one.newyearly"
+    const-string p0, "com.image.master.newyearly"
 
     const-string v0, "$9.99"
 
@@ -1724,7 +1721,7 @@
     # 设置sku
     .line 3
     sget-object v3, Llightcone/com/pack/h/g;->f18802k:Ljava/util/Set;
-    const-string v4, "com.test.one.onetime"
+    const-string v4, "com.image.master.onetime"
 
     invoke-interface {v3, v4}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 

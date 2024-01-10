@@ -221,7 +221,7 @@
 .end method
 
 .method public c()V
-    .locals 2
+    .locals 3
 
     .line 1
     iget-object v0, p0, Lc/f/c/a;->a:Ljava/lang/String;

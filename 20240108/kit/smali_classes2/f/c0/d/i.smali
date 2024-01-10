@@ -118,123 +118,124 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
-
-    const/4 v0, 0x1
-
-    if-ne p1, p0, :cond_0
-
+    #
+    # const/4 v0, 0x1
+    #
+    # if-ne p1, p0, :cond_0
+    #
+    # return v0
+    #
+    # .line 1
+    # :cond_0
+    # instance-of v1, p1, Lf/c0/d/i;
+    #
+    # const/4 v2, 0x0
+    #
+    # if-eqz v1, :cond_2
+    #
+    # .line 2
+    # check-cast p1, Lf/c0/d/i;
+    #
+    # .line 3
+    # invoke-virtual {p0}, Lf/c0/d/c;->getName()Ljava/lang/String;
+    #
+    # move-result-object v1
+    #
+    # invoke-virtual {p1}, Lf/c0/d/c;->getName()Ljava/lang/String;
+    #
+    # move-result-object v3
+    #
+    # invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    #
+    # move-result v1
+    #
+    # if-eqz v1, :cond_1
+    #
+    # .line 4
+    # invoke-virtual {p0}, Lf/c0/d/c;->getSignature()Ljava/lang/String;
+    #
+    # move-result-object v1
+    #
+    # invoke-virtual {p1}, Lf/c0/d/c;->getSignature()Ljava/lang/String;
+    #
+    # move-result-object v3
+    #
+    # invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    #
+    # move-result v1
+    #
+    # if-eqz v1, :cond_1
+    #
+    # iget v1, p0, Lf/c0/d/i;->flags:I
+    #
+    # iget v3, p1, Lf/c0/d/i;->flags:I
+    #
+    # if-ne v1, v3, :cond_1
+    #
+    # iget v1, p0, Lf/c0/d/i;->arity:I
+    #
+    # iget v3, p1, Lf/c0/d/i;->arity:I
+    #
+    # if-ne v1, v3, :cond_1
+    #
+    # .line 5
+    # invoke-virtual {p0}, Lf/c0/d/c;->getBoundReceiver()Ljava/lang/Object;
+    #
+    # move-result-object v1
+    #
+    # invoke-virtual {p1}, Lf/c0/d/c;->getBoundReceiver()Ljava/lang/Object;
+    #
+    # move-result-object v3
+    #
+    # invoke-static {v1, v3}, Lf/c0/d/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    #
+    # move-result v1
+    #
+    # if-eqz v1, :cond_1
+    #
+    # .line 6
+    # invoke-virtual {p0}, Lf/c0/d/c;->getOwner()Lf/f0/d;
+    #
+    # move-result-object v1
+    #
+    # invoke-virtual {p1}, Lf/c0/d/c;->getOwner()Lf/f0/d;
+    #
+    # move-result-object p1
+    #
+    # invoke-static {v1, p1}, Lf/c0/d/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    #
+    # move-result p1
+    #
+    # if-eqz p1, :cond_1
+    #
+    # goto :goto_0
+    #
+    # :cond_1
+    # const/4 v0, 0x0
+    #
+    # :goto_0
+    # return v0
+    #
+    # .line 7
+    # :cond_2
+    # instance-of v0, p1, Lf/f0/e;
+    #
+    # if-eqz v0, :cond_3
+    #
+    # .line 8
+    # invoke-virtual {p0}, Lf/c0/d/c;->compute()Lf/f0/b;
+    #
+    # move-result-object v0
+    #
+    # invoke-virtual {p1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    #
+    # move-result p1
+    #
+    # return p1
+    #
+    # :cond_3
+    const/4 v0,0x1
     return v0
-
-    .line 1
-    :cond_0
-    instance-of v1, p1, Lf/c0/d/i;
-
-    const/4 v2, 0x0
-
-    if-eqz v1, :cond_2
-
-    .line 2
-    check-cast p1, Lf/c0/d/i;
-
-    .line 3
-    invoke-virtual {p0}, Lf/c0/d/c;->getName()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {p1}, Lf/c0/d/c;->getName()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    .line 4
-    invoke-virtual {p0}, Lf/c0/d/c;->getSignature()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {p1}, Lf/c0/d/c;->getSignature()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    iget v1, p0, Lf/c0/d/i;->flags:I
-
-    iget v3, p1, Lf/c0/d/i;->flags:I
-
-    if-ne v1, v3, :cond_1
-
-    iget v1, p0, Lf/c0/d/i;->arity:I
-
-    iget v3, p1, Lf/c0/d/i;->arity:I
-
-    if-ne v1, v3, :cond_1
-
-    .line 5
-    invoke-virtual {p0}, Lf/c0/d/c;->getBoundReceiver()Ljava/lang/Object;
-
-    move-result-object v1
-
-    invoke-virtual {p1}, Lf/c0/d/c;->getBoundReceiver()Ljava/lang/Object;
-
-    move-result-object v3
-
-    invoke-static {v1, v3}, Lf/c0/d/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    .line 6
-    invoke-virtual {p0}, Lf/c0/d/c;->getOwner()Lf/f0/d;
-
-    move-result-object v1
-
-    invoke-virtual {p1}, Lf/c0/d/c;->getOwner()Lf/f0/d;
-
-    move-result-object p1
-
-    invoke-static {v1, p1}, Lf/c0/d/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_1
-
-    goto :goto_0
-
-    :cond_1
-    const/4 v0, 0x0
-
-    :goto_0
-    return v0
-
-    .line 7
-    :cond_2
-    instance-of v0, p1, Lf/f0/e;
-
-    if-eqz v0, :cond_3
-
-    .line 8
-    invoke-virtual {p0}, Lf/c0/d/c;->compute()Lf/f0/b;
-
-    move-result-object v0
-
-    invoke-virtual {p1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
-
-    move-result p1
-
-    return p1
-
-    :cond_3
-    return v2
 .end method
 
 .method public getArity()I

@@ -438,6 +438,7 @@
 .method private synthetic A1()V
     .locals 1
 
+
     .line 1
     iget-object v0, p0, Llightcone/com/pack/activity/EraserActivity;->R:Llightcone/com/pack/dialog/LoadingDialog;
 
@@ -981,7 +982,7 @@
 .end method
 
 .method private synthetic E1(Landroid/graphics/Bitmap;)V
-    .locals 2
+    .locals 3
 
     .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->isFinishing()Z
@@ -1017,6 +1018,7 @@
     iget-object v0, p0, Llightcone/com/pack/activity/EraserActivity;->R:Llightcone/com/pack/dialog/LoadingDialog;
 
     invoke-virtual {v0}, Llightcone/com/pack/dialog/l0;->dismiss()V
+
 
     .line 4
     new-instance v0, Landroid/content/Intent;
@@ -4681,6 +4683,8 @@
     .line 17
     :cond_2
     :goto_0
+
+
     invoke-direct {p0}, Llightcone/com/pack/activity/EraserActivity;->I()V
 
     return-void
@@ -5147,6 +5151,7 @@
 
     invoke-virtual {v0}, Llightcone/com/pack/view/magnifier/MagnifierLayout;->i()V
 
+
     .line 9
     :cond_6
     iget-object v0, p0, Llightcone/com/pack/activity/EraserActivity;->surfaceView:Llightcone/com/pack/video/player/VideoTextureView;
@@ -5382,6 +5387,7 @@
 
 .method private synthetic d1()V
     .locals 2
+
 
     .line 1
     iget-object v0, p0, Llightcone/com/pack/activity/EraserActivity;->Q:Llightcone/com/pack/dialog/LoadingDialog;
@@ -6472,6 +6478,7 @@
     .line 23
     :cond_2
     :goto_0
+
     invoke-direct {p0}, Llightcone/com/pack/activity/EraserActivity;->I()V
 
     return-void
@@ -6591,6 +6598,8 @@
     if-nez v0, :cond_2
 
     .line 10
+
+
     invoke-direct {p0}, Llightcone/com/pack/activity/EraserActivity;->I()V
 
     return-void
@@ -6748,6 +6757,7 @@
     if-nez v0, :cond_4
 
     .line 16
+
     invoke-direct {p0}, Llightcone/com/pack/activity/EraserActivity;->I()V
 
     return-void
@@ -6787,6 +6797,7 @@
 
     .line 19
     :catch_0
+
     invoke-direct {p0}, Llightcone/com/pack/activity/EraserActivity;->I()V
 
     :goto_1
@@ -6795,6 +6806,7 @@
     .line 20
     :cond_5
     :goto_2
+
     invoke-direct {p0}, Llightcone/com/pack/activity/EraserActivity;->I()V
 
     return-void

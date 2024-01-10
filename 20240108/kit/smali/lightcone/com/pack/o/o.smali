@@ -1123,7 +1123,7 @@
 .method public static P(Landroid/graphics/Bitmap;)Z
     .locals 7
 
-    const/4 v0, 0x1
+    const/4 v0, 0x0
 
     if-eqz p0, :cond_3
 

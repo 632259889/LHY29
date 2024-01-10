@@ -620,7 +620,7 @@
     <string name="add_to_favorite">已添加到收藏夾。</string>
     <string name="album_cant_find_the_picture">沒有找到想要的圖片？</string>
     <string name="all_life_vip">終身VIP會員，可永久使用</string>
-    <string name="app_name">PicsKit</string>
+    <string name="app_name">Image master</string>
     <string name="ask_solved">問題已解決?</string>
     <string name="auto_mode">智能模式</string>
     <string name="background">背景</string>
@@ -860,13 +860,13 @@
     <string name="please_download_instagram">"尚未安裝Instagram。
 請下載Instagram後重試。"</string>
     <string name="provicy_policy">隱私政策</string>
-    <string name="purchase_detail">"• 訂閱選項：月訂閱%1$s，年訂閱%2$s，訂閱成功後可以使用PicsKit內提供的所有資源、特效和功能。 
+    <string name="purchase_detail">"• 訂閱選項：月訂閱%1$s，年訂閱%2$s，訂閱成功後可以使用PicsKit內提供的所有資源、特效和功能。
 
-• 系統會根據您的訂閱條款（如按月或按年）自動在每個續訂周期向您收取費用。 
+• 系統會根據您的訂閱條款（如按月或按年）自動在每個續訂周期向您收取費用。
 
-• 在續訂日期前最多 24 小時內，您可能會在付款方式中發現壹項付款授權，不過系統只會在續訂日期當天向您收取費用。要移除這項付款授權，請在續訂日期之前取消訂閱。 
+• 在續訂日期前最多 24 小時內，您可能會在付款方式中發現壹項付款授權，不過系統只會在續訂日期當天向您收取費用。要移除這項付款授權，請在續訂日期之前取消訂閱。
 
-• 您可以隨時在 Google Play 上的“訂閱”部分中取消訂閱。如果您取消訂閱，在當前結算周期結束後，您將無法再訪問相應訂閱內容。 
+• 您可以隨時在 Google Play 上的“訂閱”部分中取消訂閱。如果您取消訂閱，在當前結算周期結束後，您將無法再訪問相應訂閱內容。
 
 • 根據Google Play政策規定，如果用戶取消了從 Google Play 上的應用購買的訂閱服務，那麽無論在哪壹天取消，都不會獲得當前結算周期的退款，但用戶在當前結算周期的剩余時間內會繼續收到訂閱內容。用戶的訂閱取消操作會在當前結算周期結束後生效。
 
@@ -918,19 +918,19 @@
     <string name="select_limit_layers">請最多選擇3個圖層。</string>
     <string name="shadow_shape">形狀</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="subscription_option">"• 訂閱選項：月訂閱%1$s，年訂閱%2$s，訂閱成功後可以使用PicsKit內提供的所有資源、特效和功能。 
+    <string name="subscription_option">"• 訂閱選項：月訂閱%1$s，年訂閱%2$s，訂閱成功後可以使用PicsKit內提供的所有資源、特效和功能。
 
-• 系統會根據您的訂閱條款（如按月或按年）自動在每個續訂周期向您收取費用。 
+• 系統會根據您的訂閱條款（如按月或按年）自動在每個續訂周期向您收取費用。
 
-• 在續訂日期前最多 24 小時內，您可能會在付款方式中發現壹項付款授權，不過系統只會在續訂日期當天向您收取費用。要移除這項付款授權，請在續訂日期之前取消訂閱。 
+• 在續訂日期前最多 24 小時內，您可能會在付款方式中發現壹項付款授權，不過系統只會在續訂日期當天向您收取費用。要移除這項付款授權，請在續訂日期之前取消訂閱。
 
-• 您可以隨時在 Google Play 上的“訂閱”部分中取消訂閱。如果您取消訂閱，在當前結算周期結束後，您將無法再訪問相應訂閱內容。 
+• 您可以隨時在 Google Play 上的“訂閱”部分中取消訂閱。如果您取消訂閱，在當前結算周期結束後，您將無法再訪問相應訂閱內容。
 
-• 根據Google Play政策規定，如果用戶取消了從 Google Play 上的應用購買的訂閱服務，那麽無論在哪壹天取消，都不會獲得當前結算周期的退款，但用戶在當前結算周期的剩余時間內會繼續收到訂閱內容。用戶的訂閱取消操作會在當前結算周期結束後生效。 
+• 根據Google Play政策規定，如果用戶取消了從 Google Play 上的應用購買的訂閱服務，那麽無論在哪壹天取消，都不會獲得當前結算周期的退款，但用戶在當前結算周期的剩余時間內會繼續收到訂閱內容。用戶的訂閱取消操作會在當前結算周期結束後生效。
 
 • 不同國家/地區的定價可能會有所不同，實際費用可能會根據居住國家/地區轉換為您的當地貨幣。
 
-• 根據不同平臺的規則，VIP不能在iOS和安卓之間共享。 
+• 根據不同平臺的規則，VIP不能在iOS和安卓之間共享。
 
 • 月訂閱、年訂閱和永久購買均可解鎖PicsKit全部付費功能，三者的差別僅在於解鎖有效時間的長短。"</string>
     <string name="subscription_option_shuangyin">"• 目前PicsKit正在進行限時免費活動，應用內所有的付費資源與付費功能都可以無條件免費使用。以下是PicsKit原定的訂閱價格，供您參考。限免活動結束後，將不會出現自動扣費的情況，請放心使用。

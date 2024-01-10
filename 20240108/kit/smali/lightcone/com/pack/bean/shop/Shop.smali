@@ -152,7 +152,7 @@
     invoke-static {v3, v4}, Llightcone/com/pack/bean/shop/ShopData;->setLastCanWatchVideoAdRewardTime(J)V
 
     :cond_4
-    const-string v0, "com.test.one.removeads"
+    const-string v0, "com.image.master.removeads"
 
     .line 11
     invoke-static {v0}, Llightcone/com/pack/h/g;->u(Ljava/lang/String;)Z

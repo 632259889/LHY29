@@ -1024,6 +1024,7 @@
     .line 9
     invoke-static {v0}, Landroid/opengl/GLES20;->glDeleteShader(I)V
 
+
     const/4 v0, 0x0
 
     :cond_1

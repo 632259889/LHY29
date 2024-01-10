@@ -108,10 +108,6 @@
 .method private b()V
     .locals 2
 
-    .line 1
-    const-string v0, "liuheyi.........MyApplication进入成功！！()"
-
-    invoke-static {v0}, Llightcone/com/pack/activity/LogUtil;->log(Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Landroid/app/Application;->getApplicationContext()Landroid/content/Context;
