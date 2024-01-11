@@ -570,13 +570,13 @@
     return-void
 .end method
 
-.method public static bridge synthetic m(Lcom/vungle/warren/ui/view/VungleBannerView;Landroid/webkit/WebViewRenderProcessClient;)V
-    .locals 0
-
-    invoke-virtual {p0, p1}, Lcom/vungle/warren/ui/view/VungleBannerView;->setWebViewRenderProcessClient(Landroid/webkit/WebViewRenderProcessClient;)V
-
-    return-void
-.end method
+# .method public static bridge synthetic m(Lcom/vungle/warren/ui/view/VungleBannerView;Landroid/webkit/WebViewRenderProcessClient;)V
+#     .locals 0
+#
+#     invoke-virtual {p0, p1}, Lcom/vungle/warren/ui/view/VungleBannerView;->setWebViewRenderProcessClient(Landroid/webkit/WebViewRenderProcessClient;)V
+#
+#     return-void
+# .end method
 
 .method public static bridge synthetic m(Ljava/nio/file/Path;)V
     .locals 0

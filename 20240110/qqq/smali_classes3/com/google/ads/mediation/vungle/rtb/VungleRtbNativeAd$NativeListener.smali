@@ -3,7 +3,7 @@
 .source "VungleRtbNativeAd.java"
 
 # interfaces
-.implements Lcom/vungle/warren/NativeAdListener;
+# .implements Lcom/vungle/warren/NativeAdListener;
 
 
 # annotations
@@ -134,114 +134,114 @@
     return-void
 .end method
 
-.method public onAdLoadError(Ljava/lang/String;Lcom/vungle/warren/error/VungleException;)V
-    .locals 2
-
-    .line 142
-    invoke-static {}, Lcom/vungle/mediation/VungleManager;->getInstance()Lcom/vungle/mediation/VungleManager;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd$NativeListener;->this$0:Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;
-
-    invoke-static {v1}, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;->access$300(Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;)Lcom/google/ads/mediation/vungle/VungleNativeAd;
-
-    move-result-object v1
-
-    invoke-virtual {v0, p1, v1}, Lcom/vungle/mediation/VungleManager;->removeActiveNativeAd(Ljava/lang/String;Lcom/google/ads/mediation/vungle/VungleNativeAd;)V
-
-    .line 143
-    invoke-static {p2}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->getAdError(Lcom/vungle/warren/error/VungleException;)Lcom/google/android/gms/ads/AdError;
-
-    move-result-object p1
-
-    .line 144
-    sget-object p2, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {p2, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 145
-    iget-object p2, p0, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd$NativeListener;->this$0:Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;
-
-    invoke-static {p2}, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;->access$500(Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;)Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
-
-    move-result-object p2
-
-    invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
-
-    return-void
-.end method
-
-.method public onAdPlayError(Ljava/lang/String;Lcom/vungle/warren/error/VungleException;)V
-    .locals 2
-
-    .line 150
-    invoke-static {}, Lcom/vungle/mediation/VungleManager;->getInstance()Lcom/vungle/mediation/VungleManager;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd$NativeListener;->this$0:Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;
-
-    invoke-static {v1}, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;->access$300(Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;)Lcom/google/ads/mediation/vungle/VungleNativeAd;
-
-    move-result-object v1
-
-    invoke-virtual {v0, p1, v1}, Lcom/vungle/mediation/VungleManager;->removeActiveNativeAd(Ljava/lang/String;Lcom/google/ads/mediation/vungle/VungleNativeAd;)V
-
-    .line 152
-    invoke-static {p2}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->getAdError(Lcom/vungle/warren/error/VungleException;)Lcom/google/android/gms/ads/AdError;
-
-    move-result-object p1
-
-    .line 153
-    sget-object p2, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {p2, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 154
-    iget-object p2, p0, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd$NativeListener;->this$0:Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;
-
-    invoke-static {p2}, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;->access$500(Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;)Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
-
-    move-result-object p2
-
-    invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
-
-    return-void
-.end method
-
-.method public onNativeAdLoaded(Lcom/vungle/warren/NativeAd;)V
-    .locals 2
-
-    .line 136
-    iget-object p1, p0, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd$NativeListener;->this$0:Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;
-
-    invoke-static {p1}, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;->access$600(Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;)V
-
-    .line 137
-    iget-object p1, p0, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd$NativeListener;->this$0:Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;
-
-    invoke-static {p1}, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;->access$500(Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;)Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd$NativeListener;->this$0:Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;
-
-    invoke-interface {v0, v1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onSuccess(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/google/android/gms/ads/mediation/MediationNativeAdCallback;
-
-    invoke-static {p1, v0}, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;->access$702(Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;Lcom/google/android/gms/ads/mediation/MediationNativeAdCallback;)Lcom/google/android/gms/ads/mediation/MediationNativeAdCallback;
-
-    return-void
-.end method
+# .method public onAdLoadError(Ljava/lang/String;Lcom/vungle/warren/error/VungleException;)V
+#     .locals 2
+#
+#     .line 142
+#     invoke-static {}, Lcom/vungle/mediation/VungleManager;->getInstance()Lcom/vungle/mediation/VungleManager;
+#
+#     move-result-object v0
+#
+#     iget-object v1, p0, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd$NativeListener;->this$0:Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;
+#
+#     invoke-static {v1}, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;->access$300(Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;)Lcom/google/ads/mediation/vungle/VungleNativeAd;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v0, p1, v1}, Lcom/vungle/mediation/VungleManager;->removeActiveNativeAd(Ljava/lang/String;Lcom/google/ads/mediation/vungle/VungleNativeAd;)V
+#
+#     .line 143
+#     invoke-static {p2}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->getAdError(Lcom/vungle/warren/error/VungleException;)Lcom/google/android/gms/ads/AdError;
+#
+#     move-result-object p1
+#
+#     .line 144
+#     sget-object p2, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
+#
+#     invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     invoke-static {p2, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 145
+#     iget-object p2, p0, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd$NativeListener;->this$0:Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;
+#
+#     invoke-static {p2}, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;->access$500(Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;)Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
+#
+#     move-result-object p2
+#
+#     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
+#
+#     return-void
+# .end method
+#
+# .method public onAdPlayError(Ljava/lang/String;Lcom/vungle/warren/error/VungleException;)V
+#     .locals 2
+#
+#     .line 150
+#     invoke-static {}, Lcom/vungle/mediation/VungleManager;->getInstance()Lcom/vungle/mediation/VungleManager;
+#
+#     move-result-object v0
+#
+#     iget-object v1, p0, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd$NativeListener;->this$0:Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;
+#
+#     invoke-static {v1}, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;->access$300(Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;)Lcom/google/ads/mediation/vungle/VungleNativeAd;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v0, p1, v1}, Lcom/vungle/mediation/VungleManager;->removeActiveNativeAd(Ljava/lang/String;Lcom/google/ads/mediation/vungle/VungleNativeAd;)V
+#
+#     .line 152
+#     invoke-static {p2}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->getAdError(Lcom/vungle/warren/error/VungleException;)Lcom/google/android/gms/ads/AdError;
+#
+#     move-result-object p1
+#
+#     .line 153
+#     sget-object p2, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
+#
+#     invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     invoke-static {p2, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 154
+#     iget-object p2, p0, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd$NativeListener;->this$0:Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;
+#
+#     invoke-static {p2}, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;->access$500(Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;)Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
+#
+#     move-result-object p2
+#
+#     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
+#
+#     return-void
+# .end method
+#
+# .method public onNativeAdLoaded(Lcom/vungle/warren/NativeAd;)V
+#     .locals 2
+#
+#     .line 136
+#     iget-object p1, p0, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd$NativeListener;->this$0:Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;
+#
+#     invoke-static {p1}, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;->access$600(Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;)V
+#
+#     .line 137
+#     iget-object p1, p0, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd$NativeListener;->this$0:Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;
+#
+#     invoke-static {p1}, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;->access$500(Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;)Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
+#
+#     move-result-object v0
+#
+#     iget-object v1, p0, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd$NativeListener;->this$0:Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;
+#
+#     invoke-interface {v0, v1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onSuccess(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     move-result-object v0
+#
+#     check-cast v0, Lcom/google/android/gms/ads/mediation/MediationNativeAdCallback;
+#
+#     invoke-static {p1, v0}, Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;->access$702(Lcom/google/ads/mediation/vungle/rtb/VungleRtbNativeAd;Lcom/google/android/gms/ads/mediation/MediationNativeAdCallback;)Lcom/google/android/gms/ads/mediation/MediationNativeAdCallback;
+#
+#     return-void
+# .end method

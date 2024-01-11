@@ -7,9 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/ads/mediation/vungle/VungleInitializer;->onError(Lcom/vungle/warren/error/VungleException;)V
-.end annotation
+# .annotation system Ldalvik/annotation/EnclosingMethod;
+#     value = Lcom/google/ads/mediation/vungle/VungleInitializer;->onError(Lcom/vungle/warren/error/VungleException;)V
+# .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0

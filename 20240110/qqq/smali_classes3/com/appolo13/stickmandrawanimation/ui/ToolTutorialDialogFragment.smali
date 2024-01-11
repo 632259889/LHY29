@@ -653,7 +653,7 @@
 
     const/4 v3, 0x0
 
-    const/16 v4, 0x8
+    const/16 v4, 0x0
 
     if-eqz v2, :cond_0
 
@@ -662,7 +662,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v2, 0x8
+    const/16 v2, 0x0
 
     .line 133
     :goto_0
@@ -721,68 +721,68 @@
 .method private final setTutorialGif(Landroid/widget/ImageView;Ljava/lang/String;)V
     .locals 3
 
-    .line 95
-    invoke-virtual {p1}, Landroid/widget/ImageView;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v0
-
-    invoke-virtual {p0}, Lcom/appolo13/stickmandrawanimation/ui/ToolTutorialDialogFragment;->requireContext()Landroid/content/Context;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    move-result-object v1
-
-    const-string v2, "drawable"
-
-    invoke-virtual {v0, p2, v2, v1}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
-
-    move-result p2
-
-    .line 96
-    move-object v0, p0
-
-    check-cast v0, Landroidx/fragment/app/Fragment;
-
-    invoke-static {v0}, Lcom/bumptech/glide/Glide;->with(Landroidx/fragment/app/Fragment;)Lcom/bumptech/glide/RequestManager;
-
-    move-result-object v0
-
-    .line 97
-    invoke-virtual {v0}, Lcom/bumptech/glide/RequestManager;->asGif()Lcom/bumptech/glide/RequestBuilder;
-
-    move-result-object v0
-
-    .line 98
-    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object p2
-
-    invoke-virtual {v0, p2}, Lcom/bumptech/glide/RequestBuilder;->load(Ljava/lang/Integer;)Lcom/bumptech/glide/RequestBuilder;
-
-    move-result-object p2
-
-    .line 99
-    sget-object v0, Lcom/bumptech/glide/load/engine/DiskCacheStrategy;->NONE:Lcom/bumptech/glide/load/engine/DiskCacheStrategy;
-
-    invoke-virtual {p2, v0}, Lcom/bumptech/glide/RequestBuilder;->diskCacheStrategy(Lcom/bumptech/glide/load/engine/DiskCacheStrategy;)Lcom/bumptech/glide/request/BaseRequestOptions;
-
-    move-result-object p2
-
-    check-cast p2, Lcom/bumptech/glide/RequestBuilder;
-
-    const/4 v0, 0x1
-
-    .line 100
-    invoke-virtual {p2, v0}, Lcom/bumptech/glide/RequestBuilder;->skipMemoryCache(Z)Lcom/bumptech/glide/request/BaseRequestOptions;
-
-    move-result-object p2
-
-    check-cast p2, Lcom/bumptech/glide/RequestBuilder;
-
-    .line 101
-    invoke-virtual {p2, p1}, Lcom/bumptech/glide/RequestBuilder;->into(Landroid/widget/ImageView;)Lcom/bumptech/glide/request/target/ViewTarget;
+    # .line 95
+    # invoke-virtual {p1}, Landroid/widget/ImageView;->getResources()Landroid/content/res/Resources;
+    #
+    # move-result-object v0
+    #
+    # invoke-virtual {p0}, Lcom/appolo13/stickmandrawanimation/ui/ToolTutorialDialogFragment;->requireContext()Landroid/content/Context;
+    #
+    # move-result-object v1
+    #
+    # invoke-virtual {v1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    #
+    # move-result-object v1
+    #
+    # const-string v2, "drawable"
+    #
+    # invoke-virtual {v0, p2, v2, v1}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # move-result p2
+    #
+    # .line 96
+    # move-object v0, p0
+    #
+    # check-cast v0, Landroidx/fragment/app/Fragment;
+    #
+    # invoke-static {v0}, Lcom/bumptech/glide/Glide;->with(Landroidx/fragment/app/Fragment;)Lcom/bumptech/glide/RequestManager;
+    #
+    # move-result-object v0
+    #
+    # .line 97
+    # invoke-virtual {v0}, Lcom/bumptech/glide/RequestManager;->asGif()Lcom/bumptech/glide/RequestBuilder;
+    #
+    # move-result-object v0
+    #
+    # .line 98
+    # invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    #
+    # move-result-object p2
+    #
+    # invoke-virtual {v0, p2}, Lcom/bumptech/glide/RequestBuilder;->load(Ljava/lang/Integer;)Lcom/bumptech/glide/RequestBuilder;
+    #
+    # move-result-object p2
+    #
+    # .line 99
+    # sget-object v0, Lcom/bumptech/glide/load/engine/DiskCacheStrategy;->NONE:Lcom/bumptech/glide/load/engine/DiskCacheStrategy;
+    #
+    # invoke-virtual {p2, v0}, Lcom/bumptech/glide/RequestBuilder;->diskCacheStrategy(Lcom/bumptech/glide/load/engine/DiskCacheStrategy;)Lcom/bumptech/glide/request/BaseRequestOptions;
+    #
+    # move-result-object p2
+    #
+    # check-cast p2, Lcom/bumptech/glide/RequestBuilder;
+    #
+    # const/4 v0, 0x1
+    #
+    # .line 100
+    # invoke-virtual {p2, v0}, Lcom/bumptech/glide/RequestBuilder;->skipMemoryCache(Z)Lcom/bumptech/glide/request/BaseRequestOptions;
+    #
+    # move-result-object p2
+    #
+    # check-cast p2, Lcom/bumptech/glide/RequestBuilder;
+    #
+    # .line 101
+    # invoke-virtual {p2, p1}, Lcom/bumptech/glide/RequestBuilder;->into(Landroid/widget/ImageView;)Lcom/bumptech/glide/request/target/ViewTarget;
 
     return-void
 .end method
@@ -826,45 +826,45 @@
 .method public onStart()V
     .locals 3
 
-    .line 105
-    invoke-super {p0}, Lcom/appolo13/stickmandrawanimation/ui/base/BaseDialogFragment;->onStart()V
-
-    .line 106
-    invoke-virtual {p0}, Lcom/appolo13/stickmandrawanimation/ui/ToolTutorialDialogFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    sget v1, Lcom/appolo13/stickmandrawanimation/R$id;->main_container:I
-
-    invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroidx/fragment/app/FragmentContainerView;
-
-    if-eqz v0, :cond_0
-
-    .line 107
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentContainerView;->getWidth()I
-
-    move-result v1
-
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentContainerView;->getHeight()I
-
-    move-result v2
-
-    invoke-direct {p0, v1, v2}, Lcom/appolo13/stickmandrawanimation/ui/ToolTutorialDialogFragment;->onSetLayoutParams(II)V
-
-    .line 108
-    new-instance v1, Lcom/appolo13/stickmandrawanimation/ui/ToolTutorialDialogFragment$$ExternalSyntheticLambda0;
-
-    invoke-direct {v1, p0}, Lcom/appolo13/stickmandrawanimation/ui/ToolTutorialDialogFragment$$ExternalSyntheticLambda0;-><init>(Lcom/appolo13/stickmandrawanimation/ui/ToolTutorialDialogFragment;)V
-
-    invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentContainerView;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
-
-    :cond_0
+    # .line 105
+    # invoke-super {p0}, Lcom/appolo13/stickmandrawanimation/ui/base/BaseDialogFragment;->onStart()V
+    #
+    # .line 106
+    # invoke-virtual {p0}, Lcom/appolo13/stickmandrawanimation/ui/ToolTutorialDialogFragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
+    #
+    # move-result-object v0
+    #
+    # if-eqz v0, :cond_0
+    #
+    # sget v1, Lcom/appolo13/stickmandrawanimation/R$id;->main_container:I
+    #
+    # invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentActivity;->findViewById(I)Landroid/view/View;
+    #
+    # move-result-object v0
+    #
+    # check-cast v0, Landroidx/fragment/app/FragmentContainerView;
+    #
+    # if-eqz v0, :cond_0
+    #
+    # .line 107
+    # invoke-virtual {v0}, Landroidx/fragment/app/FragmentContainerView;->getWidth()I
+    #
+    # move-result v1
+    #
+    # invoke-virtual {v0}, Landroidx/fragment/app/FragmentContainerView;->getHeight()I
+    #
+    # move-result v2
+    #
+    # invoke-direct {p0, v1, v2}, Lcom/appolo13/stickmandrawanimation/ui/ToolTutorialDialogFragment;->onSetLayoutParams(II)V
+    #
+    # .line 108
+    # new-instance v1, Lcom/appolo13/stickmandrawanimation/ui/ToolTutorialDialogFragment$$ExternalSyntheticLambda0;
+    #
+    # invoke-direct {v1, p0}, Lcom/appolo13/stickmandrawanimation/ui/ToolTutorialDialogFragment$$ExternalSyntheticLambda0;-><init>(Lcom/appolo13/stickmandrawanimation/ui/ToolTutorialDialogFragment;)V
+    #
+    # invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentContainerView;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
+    #
+    # :cond_0
     return-void
 .end method
 

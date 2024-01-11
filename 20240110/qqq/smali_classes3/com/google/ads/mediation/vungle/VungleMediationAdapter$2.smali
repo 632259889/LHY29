@@ -35,127 +35,127 @@
 
 
 # virtual methods
-.method public onInitializeError(Lcom/google/android/gms/ads/AdError;)V
-    .locals 2
+# .method public onInitializeError(Lcom/google/android/gms/ads/AdError;)V
+#     .locals 2
+#
+#     .line 319
+#     sget-object v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
+#
+#     invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 320
+#     iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
+#
+#     invoke-static {v0}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$400(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
+#
+#     move-result-object v0
+#
+#     invoke-interface {v0, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
+#
+#     .line 321
+#     invoke-static {}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$200()Ljava/util/HashMap;
+#
+#     move-result-object p1
+#
+#     iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
+#
+#     invoke-static {v0}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$100(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {p1, v0}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     return-void
+# .end method
 
-    .line 319
-    sget-object v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 320
-    iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
-
-    invoke-static {v0}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$400(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
-
-    move-result-object v0
-
-    invoke-interface {v0, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
-
-    .line 321
-    invoke-static {}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$200()Ljava/util/HashMap;
-
-    move-result-object p1
-
-    iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
-
-    invoke-static {v0}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$100(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {p1, v0}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
-
-    return-void
-.end method
-
-.method public onInitializeSuccess()V
-    .locals 4
-
-    .line 305
-    iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
-
-    invoke-static {v0}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$000(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Ljava/lang/String;
-
-    move-result-object v0
-
-    const/4 v1, 0x0
-
-    invoke-static {v0, v1, v1, v1, v1}, Lcom/vungle/warren/Vungle;->setIncentivizedFields(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 306
-    invoke-static {}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$200()Ljava/util/HashMap;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
-
-    invoke-static {v1}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$100(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Ljava/lang/String;
-
-    move-result-object v1
-
-    new-instance v2, Ljava/lang/ref/WeakReference;
-
-    iget-object v3, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
-
-    invoke-direct {v2, v3}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
-
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 308
-    iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
-
-    invoke-static {v0}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$100(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lcom/vungle/warren/Vungle;->canPlayAd(Ljava/lang/String;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    .line 309
-    iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
-
-    .line 310
-    invoke-static {v0}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$400(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
-
-    move-result-object v1
-
-    iget-object v2, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
-
-    invoke-interface {v1, v2}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onSuccess(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
-
-    .line 309
-    invoke-static {v0, v1}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$302(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;)Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
-
-    return-void
-
-    .line 314
-    :cond_0
-    iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
-
-    invoke-static {v0}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$100(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Ljava/lang/String;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
-
-    invoke-static {v1}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$500(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Lcom/vungle/warren/AdConfig;
-
-    move-result-object v1
-
-    iget-object v2, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
-
-    invoke-static {v0, v1, v2}, Lcom/vungle/warren/Vungle;->loadAd(Ljava/lang/String;Lcom/vungle/warren/AdConfig;Lcom/vungle/warren/LoadAdCallback;)V
-
-    return-void
-.end method
+# .method public onInitializeSuccess()V
+#     .locals 4
+#
+#     .line 305
+#     iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
+#
+#     invoke-static {v0}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$000(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     const/4 v1, 0x0
+#
+#     invoke-static {v0, v1, v1, v1, v1}, Lcom/vungle/warren/Vungle;->setIncentivizedFields(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 306
+#     invoke-static {}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$200()Ljava/util/HashMap;
+#
+#     move-result-object v0
+#
+#     iget-object v1, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
+#
+#     invoke-static {v1}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$100(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     new-instance v2, Ljava/lang/ref/WeakReference;
+#
+#     iget-object v3, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
+#
+#     invoke-direct {v2, v3}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+#
+#     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     .line 308
+#     iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
+#
+#     invoke-static {v0}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$100(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     invoke-static {v0}, Lcom/vungle/warren/Vungle;->canPlayAd(Ljava/lang/String;)Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_0
+#
+#     .line 309
+#     iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
+#
+#     .line 310
+#     invoke-static {v0}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$400(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
+#
+#     move-result-object v1
+#
+#     iget-object v2, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
+#
+#     invoke-interface {v1, v2}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onSuccess(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     move-result-object v1
+#
+#     check-cast v1, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
+#
+#     .line 309
+#     invoke-static {v0, v1}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$302(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;)Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
+#
+#     return-void
+#
+#     .line 314
+#     :cond_0
+#     iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
+#
+#     invoke-static {v0}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$100(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     iget-object v1, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
+#
+#     invoke-static {v1}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->access$500(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Lcom/vungle/warren/AdConfig;
+#
+#     move-result-object v1
+#
+#     iget-object v2, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;->this$0:Lcom/google/ads/mediation/vungle/VungleMediationAdapter;
+#
+#     invoke-static {v0, v1, v2}, Lcom/vungle/warren/Vungle;->loadAd(Ljava/lang/String;Lcom/vungle/warren/AdConfig;Lcom/vungle/warren/LoadAdCallback;)V
+#
+#     return-void
+# .end method

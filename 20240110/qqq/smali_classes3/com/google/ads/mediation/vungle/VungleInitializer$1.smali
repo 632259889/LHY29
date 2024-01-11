@@ -3,7 +3,7 @@
 .source "VungleInitializer.java"
 
 # interfaces
-.implements Lcom/vungle/mediation/VungleNetworkSettings$VungleSettingsChangedListener;
+# .implements Lcom/vungle/mediation/VungleNetworkSettings$VungleSettingsChangedListener;
 
 
 # annotations
@@ -43,46 +43,46 @@
 
 
 # virtual methods
-.method public onVungleSettingsChanged(Lcom/vungle/warren/VungleSettings;)V
-    .locals 3
-
-    .line 58
-    invoke-static {}, Lcom/vungle/warren/Vungle;->isInitialized()Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    return-void
-
-    .line 63
-    :cond_0
-    iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleInitializer$1;->this$0:Lcom/google/ads/mediation/vungle/VungleInitializer;
-
-    .line 64
-    invoke-static {}, Lcom/google/android/gms/ads/MobileAds;->getRequestConfiguration()Lcom/google/android/gms/ads/RequestConfiguration;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/google/android/gms/ads/RequestConfiguration;->getTagForChildDirectedTreatment()I
-
-    move-result v1
-
-    .line 63
-    invoke-virtual {v0, v1}, Lcom/google/ads/mediation/vungle/VungleInitializer;->updateCoppaStatus(I)V
-
-    .line 65
-    iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleInitializer$1;->val$appId:Ljava/lang/String;
-
-    iget-object v1, p0, Lcom/google/ads/mediation/vungle/VungleInitializer$1;->val$context:Landroid/content/Context;
-
-    invoke-virtual {v1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
-
-    move-result-object v1
-
-    iget-object v2, p0, Lcom/google/ads/mediation/vungle/VungleInitializer$1;->this$0:Lcom/google/ads/mediation/vungle/VungleInitializer;
-
-    invoke-static {v0, v1, v2, p1}, Lcom/vungle/warren/Vungle;->init(Ljava/lang/String;Landroid/content/Context;Lcom/vungle/warren/InitCallback;Lcom/vungle/warren/VungleSettings;)V
-
-    return-void
-.end method
+# .method public onVungleSettingsChanged(Lcom/vungle/warren/VungleSettings;)V
+#     .locals 3
+#
+#     .line 58
+#     invoke-static {}, Lcom/vungle/warren/Vungle;->isInitialized()Z
+#
+#     move-result v0
+#
+#     if-nez v0, :cond_0
+#
+#     return-void
+#
+#     .line 63
+#     :cond_0
+#     iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleInitializer$1;->this$0:Lcom/google/ads/mediation/vungle/VungleInitializer;
+#
+#     .line 64
+#     invoke-static {}, Lcom/google/android/gms/ads/MobileAds;->getRequestConfiguration()Lcom/google/android/gms/ads/RequestConfiguration;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Lcom/google/android/gms/ads/RequestConfiguration;->getTagForChildDirectedTreatment()I
+#
+#     move-result v1
+#
+#     .line 63
+#     invoke-virtual {v0, v1}, Lcom/google/ads/mediation/vungle/VungleInitializer;->updateCoppaStatus(I)V
+#
+#     .line 65
+#     iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleInitializer$1;->val$appId:Ljava/lang/String;
+#
+#     iget-object v1, p0, Lcom/google/ads/mediation/vungle/VungleInitializer$1;->val$context:Landroid/content/Context;
+#
+#     invoke-virtual {v1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+#
+#     move-result-object v1
+#
+#     iget-object v2, p0, Lcom/google/ads/mediation/vungle/VungleInitializer$1;->this$0:Lcom/google/ads/mediation/vungle/VungleInitializer;
+#
+#     invoke-static {v0, v1, v2, p1}, Lcom/vungle/warren/Vungle;->init(Ljava/lang/String;Landroid/content/Context;Lcom/vungle/warren/InitCallback;Lcom/vungle/warren/VungleSettings;)V
+#
+#     return-void
+# .end method

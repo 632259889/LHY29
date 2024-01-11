@@ -18,14 +18,14 @@
 
 
 # direct methods
-.method public constructor <init>()V
-    .locals 0
-
-    .line 32
-    invoke-direct {p0}, Lcom/google/ads/mediation/adcolony/AdColonyMediationAdapter;-><init>()V
-
-    return-void
-.end method
+# .method public constructor <init>()V
+#     .locals 0
+#
+#     .line 32
+#     invoke-direct {p0}, Lcom/google/ads/mediation/adcolony/AdColonyMediationAdapter;-><init>()V
+#
+#     return-void
+# .end method
 
 .method static synthetic access$000(Lcom/jirbo/adcolony/AdColonyAdapter;)Lcom/jirbo/adcolony/AdColonyAdListener;
     .locals 0
@@ -132,149 +132,149 @@
 
 .method public requestBannerAd(Landroid/content/Context;Lcom/google/android/gms/ads/mediation/MediationBannerListener;Landroid/os/Bundle;Lcom/google/android/gms/ads/AdSize;Lcom/google/android/gms/ads/mediation/MediationAdRequest;Landroid/os/Bundle;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x10,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "mediationBannerListener",
-            "serverParams",
-            "adSize",
-            "mediationAdRequest",
-            "mediationExtras"
-        }
-    .end annotation
-
-    .line 144
-    invoke-static {p1, p4}, Lcom/google/ads/mediation/adcolony/AdColonyAdapterUtils;->adColonyAdSizeFromAdMobAdSize(Landroid/content/Context;Lcom/google/android/gms/ads/AdSize;)Lcom/adcolony/sdk/AdColonyAdSize;
-
-    move-result-object v0
-
-    if-nez v0, :cond_1
-
-    .line 147
-    invoke-virtual {p4}, Lcom/google/android/gms/ads/AdSize;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Ljava/lang/String;->length()I
-
-    move-result p3
-
-    const-string p4, "Failed to request banner with unsupported size: "
-
-    if-eqz p3, :cond_0
-
-    invoke-virtual {p4, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    goto :goto_0
-
-    :cond_0
-    new-instance p1, Ljava/lang/String;
-
-    invoke-direct {p1, p4}, Ljava/lang/String;-><init>(Ljava/lang/String;)V
-
-    :goto_0
-    const/16 p3, 0x68
-
-    .line 146
-    invoke-static {p3, p1}, Lcom/jirbo/adcolony/AdColonyAdapter;->createAdapterError(ILjava/lang/String;)Lcom/google/android/gms/ads/AdError;
-
-    move-result-object p1
-
-    .line 148
-    sget-object p3, Lcom/jirbo/adcolony/AdColonyAdapter;->TAG:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->getMessage()Ljava/lang/String;
-
-    move-result-object p4
-
-    invoke-static {p3, p4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 149
-    invoke-interface {p2, p0, p1}, Lcom/google/android/gms/ads/mediation/MediationBannerListener;->onAdFailedToLoad(Lcom/google/android/gms/ads/mediation/MediationBannerAdapter;Lcom/google/android/gms/ads/AdError;)V
-
-    return-void
-
-    .line 154
-    :cond_1
-    invoke-static {}, Lcom/jirbo/adcolony/AdColonyManager;->getInstance()Lcom/jirbo/adcolony/AdColonyManager;
-
-    move-result-object p4
-
-    invoke-virtual {p4, p3}, Lcom/jirbo/adcolony/AdColonyManager;->parseZoneList(Landroid/os/Bundle;)Ljava/util/ArrayList;
-
-    move-result-object p4
-
-    .line 156
-    invoke-static {}, Lcom/jirbo/adcolony/AdColonyManager;->getInstance()Lcom/jirbo/adcolony/AdColonyManager;
-
-    move-result-object v1
-
-    invoke-virtual {v1, p4, p6}, Lcom/jirbo/adcolony/AdColonyManager;->getZoneFromRequest(Ljava/util/ArrayList;Landroid/os/Bundle;)Ljava/lang/String;
-
-    move-result-object p4
-
-    .line 158
-    invoke-static {p4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result p6
-
-    if-eqz p6, :cond_2
-
-    const/16 p1, 0x65
-
-    const-string p3, "Failed to request ad: zone ID is null or empty"
-
-    .line 159
-    invoke-static {p1, p3}, Lcom/jirbo/adcolony/AdColonyAdapter;->createAdapterError(ILjava/lang/String;)Lcom/google/android/gms/ads/AdError;
-
-    move-result-object p1
-
-    .line 161
-    sget-object p3, Lcom/jirbo/adcolony/AdColonyAdapter;->TAG:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->getMessage()Ljava/lang/String;
-
-    move-result-object p4
-
-    invoke-static {p3, p4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 162
-    invoke-interface {p2, p0, p1}, Lcom/google/android/gms/ads/mediation/MediationBannerListener;->onAdFailedToLoad(Lcom/google/android/gms/ads/mediation/MediationBannerAdapter;Lcom/google/android/gms/ads/AdError;)V
-
-    return-void
-
-    .line 166
-    :cond_2
-    new-instance p6, Lcom/jirbo/adcolony/AdColonyBannerAdListener;
-
-    invoke-direct {p6, p0, p2}, Lcom/jirbo/adcolony/AdColonyBannerAdListener;-><init>(Lcom/jirbo/adcolony/AdColonyAdapter;Lcom/google/android/gms/ads/mediation/MediationBannerListener;)V
-
-    iput-object p6, p0, Lcom/jirbo/adcolony/AdColonyAdapter;->adColonyBannerAdListener:Lcom/jirbo/adcolony/AdColonyBannerAdListener;
-
-    .line 169
-    invoke-static {}, Lcom/jirbo/adcolony/AdColonyManager;->getInstance()Lcom/jirbo/adcolony/AdColonyManager;
-
-    move-result-object p6
-
-    new-instance v1, Lcom/jirbo/adcolony/AdColonyAdapter$2;
-
-    invoke-direct {v1, p0, v0, p4, p2}, Lcom/jirbo/adcolony/AdColonyAdapter$2;-><init>(Lcom/jirbo/adcolony/AdColonyAdapter;Lcom/adcolony/sdk/AdColonyAdSize;Ljava/lang/String;Lcom/google/android/gms/ads/mediation/MediationBannerListener;)V
-
-    invoke-virtual {p6, p1, p3, p5, v1}, Lcom/jirbo/adcolony/AdColonyManager;->configureAdColony(Landroid/content/Context;Landroid/os/Bundle;Lcom/google/android/gms/ads/mediation/MediationAdRequest;Lcom/jirbo/adcolony/AdColonyManager$InitializationListener;)V
+    # .annotation system Ldalvik/annotation/MethodParameters;
+    #     accessFlags = {
+    #         0x0,
+    #         0x10,
+    #         0x0,
+    #         0x0,
+    #         0x0,
+    #         0x0
+    #     }
+    #     names = {
+    #         "context",
+    #         "mediationBannerListener",
+    #         "serverParams",
+    #         "adSize",
+    #         "mediationAdRequest",
+    #         "mediationExtras"
+    #     }
+    # .end annotation
+    #
+    # .line 144
+    # invoke-static {p1, p4}, Lcom/google/ads/mediation/adcolony/AdColonyAdapterUtils;->adColonyAdSizeFromAdMobAdSize(Landroid/content/Context;Lcom/google/android/gms/ads/AdSize;)Lcom/adcolony/sdk/AdColonyAdSize;
+    #
+    # move-result-object v0
+    #
+    # if-nez v0, :cond_1
+    #
+    # .line 147
+    # invoke-virtual {p4}, Lcom/google/android/gms/ads/AdSize;->toString()Ljava/lang/String;
+    #
+    # move-result-object p1
+    #
+    # invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    #
+    # move-result-object p1
+    #
+    # invoke-virtual {p1}, Ljava/lang/String;->length()I
+    #
+    # move-result p3
+    #
+    # const-string p4, "Failed to request banner with unsupported size: "
+    #
+    # if-eqz p3, :cond_0
+    #
+    # invoke-virtual {p4, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    #
+    # move-result-object p1
+    #
+    # goto :goto_0
+    #
+    # :cond_0
+    # new-instance p1, Ljava/lang/String;
+    #
+    # invoke-direct {p1, p4}, Ljava/lang/String;-><init>(Ljava/lang/String;)V
+    #
+    # :goto_0
+    # const/16 p3, 0x68
+    #
+    # .line 146
+    # invoke-static {p3, p1}, Lcom/jirbo/adcolony/AdColonyAdapter;->createAdapterError(ILjava/lang/String;)Lcom/google/android/gms/ads/AdError;
+    #
+    # move-result-object p1
+    #
+    # .line 148
+    # sget-object p3, Lcom/jirbo/adcolony/AdColonyAdapter;->TAG:Ljava/lang/String;
+    #
+    # invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->getMessage()Ljava/lang/String;
+    #
+    # move-result-object p4
+    #
+    # invoke-static {p3, p4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # .line 149
+    # invoke-interface {p2, p0, p1}, Lcom/google/android/gms/ads/mediation/MediationBannerListener;->onAdFailedToLoad(Lcom/google/android/gms/ads/mediation/MediationBannerAdapter;Lcom/google/android/gms/ads/AdError;)V
+    #
+    # return-void
+    #
+    # .line 154
+    # :cond_1
+    # invoke-static {}, Lcom/jirbo/adcolony/AdColonyManager;->getInstance()Lcom/jirbo/adcolony/AdColonyManager;
+    #
+    # move-result-object p4
+    #
+    # invoke-virtual {p4, p3}, Lcom/jirbo/adcolony/AdColonyManager;->parseZoneList(Landroid/os/Bundle;)Ljava/util/ArrayList;
+    #
+    # move-result-object p4
+    #
+    # .line 156
+    # invoke-static {}, Lcom/jirbo/adcolony/AdColonyManager;->getInstance()Lcom/jirbo/adcolony/AdColonyManager;
+    #
+    # move-result-object v1
+    #
+    # invoke-virtual {v1, p4, p6}, Lcom/jirbo/adcolony/AdColonyManager;->getZoneFromRequest(Ljava/util/ArrayList;Landroid/os/Bundle;)Ljava/lang/String;
+    #
+    # move-result-object p4
+    #
+    # .line 158
+    # invoke-static {p4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    #
+    # move-result p6
+    #
+    # if-eqz p6, :cond_2
+    #
+    # const/16 p1, 0x65
+    #
+    # const-string p3, "Failed to request ad: zone ID is null or empty"
+    #
+    # .line 159
+    # invoke-static {p1, p3}, Lcom/jirbo/adcolony/AdColonyAdapter;->createAdapterError(ILjava/lang/String;)Lcom/google/android/gms/ads/AdError;
+    #
+    # move-result-object p1
+    #
+    # .line 161
+    # sget-object p3, Lcom/jirbo/adcolony/AdColonyAdapter;->TAG:Ljava/lang/String;
+    #
+    # invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->getMessage()Ljava/lang/String;
+    #
+    # move-result-object p4
+    #
+    # invoke-static {p3, p4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # .line 162
+    # invoke-interface {p2, p0, p1}, Lcom/google/android/gms/ads/mediation/MediationBannerListener;->onAdFailedToLoad(Lcom/google/android/gms/ads/mediation/MediationBannerAdapter;Lcom/google/android/gms/ads/AdError;)V
+    #
+    # return-void
+    #
+    # .line 166
+    # :cond_2
+    # new-instance p6, Lcom/jirbo/adcolony/AdColonyBannerAdListener;
+    #
+    # invoke-direct {p6, p0, p2}, Lcom/jirbo/adcolony/AdColonyBannerAdListener;-><init>(Lcom/jirbo/adcolony/AdColonyAdapter;Lcom/google/android/gms/ads/mediation/MediationBannerListener;)V
+    #
+    # iput-object p6, p0, Lcom/jirbo/adcolony/AdColonyAdapter;->adColonyBannerAdListener:Lcom/jirbo/adcolony/AdColonyBannerAdListener;
+    #
+    # .line 169
+    # invoke-static {}, Lcom/jirbo/adcolony/AdColonyManager;->getInstance()Lcom/jirbo/adcolony/AdColonyManager;
+    #
+    # move-result-object p6
+    #
+    # new-instance v1, Lcom/jirbo/adcolony/AdColonyAdapter$2;
+    #
+    # invoke-direct {v1, p0, v0, p4, p2}, Lcom/jirbo/adcolony/AdColonyAdapter$2;-><init>(Lcom/jirbo/adcolony/AdColonyAdapter;Lcom/adcolony/sdk/AdColonyAdSize;Ljava/lang/String;Lcom/google/android/gms/ads/mediation/MediationBannerListener;)V
+    #
+    # invoke-virtual {p6, p1, p3, p5, v1}, Lcom/jirbo/adcolony/AdColonyManager;->configureAdColony(Landroid/content/Context;Landroid/os/Bundle;Lcom/google/android/gms/ads/mediation/MediationAdRequest;Lcom/jirbo/adcolony/AdColonyManager$InitializationListener;)V
 
     return-void
 .end method

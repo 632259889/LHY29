@@ -4,8 +4,8 @@
 
 # interfaces
 .implements Lcom/google/android/gms/ads/mediation/MediationRewardedAd;
-.implements Lcom/vungle/warren/LoadAdCallback;
-.implements Lcom/vungle/warren/PlayAdCallback;
+# .implements Lcom/vungle/warren/LoadAdCallback;
+# .implements Lcom/vungle/warren/PlayAdCallback;
 
 
 # annotations
@@ -54,7 +54,7 @@
 
 
 # instance fields
-.field private mAdConfig:Lcom/vungle/warren/AdConfig;
+# .field private mAdConfig:Lcom/vungle/warren/AdConfig;
 
 .field private mMediationAdLoadCallback:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
     .annotation system Ldalvik/annotation/Signature;
@@ -150,72 +150,72 @@
     return-object p0
 .end method
 
-.method static synthetic access$500(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Lcom/vungle/warren/AdConfig;
-    .locals 0
+# .method static synthetic access$500(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)Lcom/vungle/warren/AdConfig;
+#     .locals 0
+#
+#     .line 50
+#     iget-object p0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mAdConfig:Lcom/vungle/warren/AdConfig;
+#
+#     return-object p0
+# .end method
 
-    .line 50
-    iget-object p0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mAdConfig:Lcom/vungle/warren/AdConfig;
-
-    return-object p0
-.end method
-
-.method public static getAdError(Lcom/vungle/warren/error/VungleException;)Lcom/google/android/gms/ads/AdError;
-    .locals 3
-
-    .line 139
-    new-instance v0, Lcom/google/android/gms/ads/AdError;
-
-    invoke-virtual {p0}, Lcom/vungle/warren/error/VungleException;->getExceptionCode()I
-
-    move-result v1
-
-    invoke-virtual {p0}, Lcom/vungle/warren/error/VungleException;->getLocalizedMessage()Ljava/lang/String;
-
-    move-result-object p0
-
-    const-string v2, "com.vungle.warren"
-
-    invoke-direct {v0, v1, p0, v2}, Lcom/google/android/gms/ads/AdError;-><init>(ILjava/lang/String;Ljava/lang/String;)V
-
-    return-object v0
-.end method
+# .method public static getAdError(Lcom/vungle/warren/error/VungleException;)Lcom/google/android/gms/ads/AdError;
+#     .locals 3
+#
+#     .line 139
+#     new-instance v0, Lcom/google/android/gms/ads/AdError;
+#
+#     invoke-virtual {p0}, Lcom/vungle/warren/error/VungleException;->getExceptionCode()I
+#
+#     move-result v1
+#
+#     invoke-virtual {p0}, Lcom/vungle/warren/error/VungleException;->getLocalizedMessage()Ljava/lang/String;
+#
+#     move-result-object p0
+#
+#     const-string v2, "com.vungle.warren"
+#
+#     invoke-direct {v0, v1, p0, v2}, Lcom/google/android/gms/ads/AdError;-><init>(ILjava/lang/String;Ljava/lang/String;)V
+#
+#     return-object v0
+# .end method
 
 
 # virtual methods
-.method public collectSignals(Lcom/google/android/gms/ads/mediation/rtb/RtbSignalData;Lcom/google/android/gms/ads/mediation/rtb/SignalCallbacks;)V
-    .locals 3
-
-    .line 187
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/mediation/rtb/RtbSignalData;->getContext()Landroid/content/Context;
-
-    move-result-object p1
-
-    invoke-static {p1}, Lcom/vungle/warren/Vungle;->getAvailableBidTokens(Landroid/content/Context;)Ljava/lang/String;
-
-    move-result-object p1
-
-    .line 188
-    sget-object v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "token="
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 189
-    invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/rtb/SignalCallbacks;->onSuccess(Ljava/lang/String;)V
-
-    return-void
-.end method
+# .method public collectSignals(Lcom/google/android/gms/ads/mediation/rtb/RtbSignalData;Lcom/google/android/gms/ads/mediation/rtb/SignalCallbacks;)V
+#     .locals 3
+#
+#     .line 187
+#     invoke-virtual {p1}, Lcom/google/android/gms/ads/mediation/rtb/RtbSignalData;->getContext()Landroid/content/Context;
+#
+#     move-result-object p1
+#
+#     invoke-static {p1}, Lcom/vungle/warren/Vungle;->getAvailableBidTokens(Landroid/content/Context;)Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     .line 188
+#     sget-object v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
+#
+#     new-instance v1, Ljava/lang/StringBuilder;
+#
+#     const-string v2, "token="
+#
+#     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+#
+#     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 189
+#     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/rtb/SignalCallbacks;->onSuccess(Ljava/lang/String;)V
+#
+#     return-void
+# .end method
 
 .method public creativeId(Ljava/lang/String;)V
     .locals 0
@@ -391,182 +391,182 @@
     return-object v0
 .end method
 
-.method public initialize(Landroid/content/Context;Lcom/google/android/gms/ads/mediation/InitializationCompleteCallback;Ljava/util/List;)V
-    .locals 5
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/content/Context;",
-            "Lcom/google/android/gms/ads/mediation/InitializationCompleteCallback;",
-            "Ljava/util/List<",
-            "Lcom/google/android/gms/ads/mediation/MediationConfiguration;",
-            ">;)V"
-        }
-    .end annotation
-
-    .line 197
-    invoke-static {}, Lcom/vungle/warren/Vungle;->isInitialized()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    .line 198
-    invoke-interface {p2}, Lcom/google/android/gms/ads/mediation/InitializationCompleteCallback;->onInitializationSucceeded()V
-
-    return-void
-
-    .line 202
-    :cond_0
-    new-instance v0, Ljava/util/HashSet;
-
-    invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
-
-    .line 203
-    invoke-interface {p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    move-result-object p3
-
-    :cond_1
-    :goto_0
-    invoke-interface {p3}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v1
-
-    const-string v2, "appid"
-
-    if-eqz v1, :cond_2
-
-    invoke-interface {p3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Lcom/google/android/gms/ads/mediation/MediationConfiguration;
-
-    .line 204
-    invoke-virtual {v1}, Lcom/google/android/gms/ads/mediation/MediationConfiguration;->getServerParameters()Landroid/os/Bundle;
-
-    move-result-object v1
-
-    .line 205
-    invoke-virtual {v1, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    .line 207
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v2
-
-    if-nez v2, :cond_1
-
-    .line 208
-    invoke-virtual {v0, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
-
-    goto :goto_0
-
-    .line 212
-    :cond_2
-    invoke-virtual {v0}, Ljava/util/HashSet;->size()I
-
-    move-result p3
-
-    if-gtz p3, :cond_4
-
-    if-eqz p2, :cond_3
-
-    .line 215
-    new-instance p1, Lcom/google/android/gms/ads/AdError;
-
-    const-string p3, "Missing or Invalid App ID."
-
-    const-string v0, "com.google.ads.mediation.vungle"
-
-    const/16 v1, 0x65
-
-    invoke-direct {p1, v1, p3, v0}, Lcom/google/android/gms/ads/AdError;-><init>(ILjava/lang/String;Ljava/lang/String;)V
-
-    .line 217
-    sget-object p3, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {p3, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 218
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/InitializationCompleteCallback;->onInitializationFailed(Ljava/lang/String;)V
-
-    :cond_3
-    return-void
-
-    .line 223
-    :cond_4
-    invoke-virtual {v0}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
-
-    move-result-object v1
-
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Ljava/lang/String;
-
-    const/4 v3, 0x1
-
-    if-le p3, v3, :cond_5
-
-    const/4 p3, 0x3
-
-    new-array p3, p3, [Ljava/lang/Object;
-
-    const/4 v4, 0x0
-
-    aput-object v2, p3, v4
-
-    aput-object v0, p3, v3
-
-    const/4 v0, 0x2
-
-    aput-object v1, p3, v0
-
-    const-string v0, "Multiple \'%s\' entries found: %s. Using \'%s\' to initialize the Vungle SDK."
-
-    .line 226
-    invoke-static {v0, p3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object p3
-
-    .line 229
-    sget-object v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
-
-    invoke-static {v0, p3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 232
-    :cond_5
-    invoke-static {}, Lcom/google/ads/mediation/vungle/VungleInitializer;->getInstance()Lcom/google/ads/mediation/vungle/VungleInitializer;
-
-    move-result-object p3
-
-    .line 235
-    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
-
-    move-result-object p1
-
-    new-instance v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$1;
-
-    invoke-direct {v0, p0, p2}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$1;-><init>(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;Lcom/google/android/gms/ads/mediation/InitializationCompleteCallback;)V
-
-    .line 233
-    invoke-virtual {p3, v1, p1, v0}, Lcom/google/ads/mediation/vungle/VungleInitializer;->initialize(Ljava/lang/String;Landroid/content/Context;Lcom/google/ads/mediation/vungle/VungleInitializer$VungleInitializationListener;)V
-
-    return-void
-.end method
+# .method public initialize(Landroid/content/Context;Lcom/google/android/gms/ads/mediation/InitializationCompleteCallback;Ljava/util/List;)V
+#     .locals 5
+#     .annotation system Ldalvik/annotation/Signature;
+#         value = {
+#             "(",
+#             "Landroid/content/Context;",
+#             "Lcom/google/android/gms/ads/mediation/InitializationCompleteCallback;",
+#             "Ljava/util/List<",
+#             "Lcom/google/android/gms/ads/mediation/MediationConfiguration;",
+#             ">;)V"
+#         }
+#     .end annotation
+#
+#     .line 197
+#     invoke-static {}, Lcom/vungle/warren/Vungle;->isInitialized()Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_0
+#
+#     .line 198
+#     invoke-interface {p2}, Lcom/google/android/gms/ads/mediation/InitializationCompleteCallback;->onInitializationSucceeded()V
+#
+#     return-void
+#
+#     .line 202
+#     :cond_0
+#     new-instance v0, Ljava/util/HashSet;
+#
+#     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
+#
+#     .line 203
+#     invoke-interface {p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+#
+#     move-result-object p3
+#
+#     :cond_1
+#     :goto_0
+#     invoke-interface {p3}, Ljava/util/Iterator;->hasNext()Z
+#
+#     move-result v1
+#
+#     const-string v2, "appid"
+#
+#     if-eqz v1, :cond_2
+#
+#     invoke-interface {p3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+#
+#     move-result-object v1
+#
+#     check-cast v1, Lcom/google/android/gms/ads/mediation/MediationConfiguration;
+#
+#     .line 204
+#     invoke-virtual {v1}, Lcom/google/android/gms/ads/mediation/MediationConfiguration;->getServerParameters()Landroid/os/Bundle;
+#
+#     move-result-object v1
+#
+#     .line 205
+#     invoke-virtual {v1, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     .line 207
+#     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+#
+#     move-result v2
+#
+#     if-nez v2, :cond_1
+#
+#     .line 208
+#     invoke-virtual {v0, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+#
+#     goto :goto_0
+#
+#     .line 212
+#     :cond_2
+#     invoke-virtual {v0}, Ljava/util/HashSet;->size()I
+#
+#     move-result p3
+#
+#     if-gtz p3, :cond_4
+#
+#     if-eqz p2, :cond_3
+#
+#     .line 215
+#     new-instance p1, Lcom/google/android/gms/ads/AdError;
+#
+#     const-string p3, "Missing or Invalid App ID."
+#
+#     const-string v0, "com.google.ads.mediation.vungle"
+#
+#     const/16 v1, 0x65
+#
+#     invoke-direct {p1, v1, p3, v0}, Lcom/google/android/gms/ads/AdError;-><init>(ILjava/lang/String;Ljava/lang/String;)V
+#
+#     .line 217
+#     sget-object p3, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
+#
+#     invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     invoke-static {p3, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 218
+#     invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/InitializationCompleteCallback;->onInitializationFailed(Ljava/lang/String;)V
+#
+#     :cond_3
+#     return-void
+#
+#     .line 223
+#     :cond_4
+#     invoke-virtual {v0}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
+#
+#     move-result-object v1
+#
+#     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+#
+#     move-result-object v1
+#
+#     check-cast v1, Ljava/lang/String;
+#
+#     const/4 v3, 0x1
+#
+#     if-le p3, v3, :cond_5
+#
+#     const/4 p3, 0x3
+#
+#     new-array p3, p3, [Ljava/lang/Object;
+#
+#     const/4 v4, 0x0
+#
+#     aput-object v2, p3, v4
+#
+#     aput-object v0, p3, v3
+#
+#     const/4 v0, 0x2
+#
+#     aput-object v1, p3, v0
+#
+#     const-string v0, "Multiple \'%s\' entries found: %s. Using \'%s\' to initialize the Vungle SDK."
+#
+#     .line 226
+#     invoke-static {v0, p3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+#
+#     move-result-object p3
+#
+#     .line 229
+#     sget-object v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
+#
+#     invoke-static {v0, p3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 232
+#     :cond_5
+#     invoke-static {}, Lcom/google/ads/mediation/vungle/VungleInitializer;->getInstance()Lcom/google/ads/mediation/vungle/VungleInitializer;
+#
+#     move-result-object p3
+#
+#     .line 235
+#     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+#
+#     move-result-object p1
+#
+#     new-instance v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$1;
+#
+#     invoke-direct {v0, p0, p2}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$1;-><init>(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;Lcom/google/android/gms/ads/mediation/InitializationCompleteCallback;)V
+#
+#     .line 233
+#     invoke-virtual {p3, v1, p1, v0}, Lcom/google/ads/mediation/vungle/VungleInitializer;->initialize(Ljava/lang/String;Landroid/content/Context;Lcom/google/ads/mediation/vungle/VungleInitializer$VungleInitializationListener;)V
+#
+#     return-void
+# .end method
 
 .method public loadNativeAd(Lcom/google/android/gms/ads/mediation/MediationNativeAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
     .locals 2
@@ -613,245 +613,245 @@
     return-void
 .end method
 
-.method public loadRewardedAd(Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
-    .locals 6
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;",
-            "Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback<",
-            "Lcom/google/android/gms/ads/mediation/MediationRewardedAd;",
-            "Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;",
-            ">;)V"
-        }
-    .end annotation
-
-    .line 256
-    iput-object p2, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mMediationAdLoadCallback:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
-
-    .line 258
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;->getMediationExtras()Landroid/os/Bundle;
-
-    move-result-object v0
-
-    .line 259
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;->getServerParameters()Landroid/os/Bundle;
-
-    move-result-object v1
-
-    if-eqz v0, :cond_0
-
-    const-string/jumbo v2, "userId"
-
-    .line 262
-    invoke-virtual {v0, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v2
-
-    iput-object v2, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mUserID:Ljava/lang/String;
-
-    .line 265
-    :cond_0
-    invoke-static {}, Lcom/vungle/mediation/VungleManager;->getInstance()Lcom/vungle/mediation/VungleManager;
-
-    move-result-object v2
-
-    invoke-virtual {v2, v0, v1}, Lcom/vungle/mediation/VungleManager;->findPlacement(Landroid/os/Bundle;Landroid/os/Bundle;)Ljava/lang/String;
-
-    move-result-object v2
-
-    iput-object v2, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mPlacement:Ljava/lang/String;
-
-    .line 266
-    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v2
-
-    const/16 v3, 0x65
-
-    const-string v4, "com.google.ads.mediation.vungle"
-
-    if-eqz v2, :cond_1
-
-    .line 267
-    new-instance p1, Lcom/google/android/gms/ads/AdError;
-
-    const-string v0, "Failed to load ad from Vungle. Missing or invalid Placement ID."
-
-    invoke-direct {p1, v3, v0, v4}, Lcom/google/android/gms/ads/AdError;-><init>(ILjava/lang/String;Ljava/lang/String;)V
-
-    .line 269
-    sget-object v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 270
-    invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
-
-    return-void
-
-    .line 274
-    :cond_1
-    sget-object v2, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mPlacementsInUse:Ljava/util/HashMap;
-
-    iget-object v5, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mPlacement:Ljava/lang/String;
-
-    invoke-virtual {v2, v5}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
-
-    move-result v5
-
-    if-eqz v5, :cond_2
-
-    iget-object v5, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mPlacement:Ljava/lang/String;
-
-    .line 275
-    invoke-virtual {v2, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v2
-
-    check-cast v2, Ljava/lang/ref/WeakReference;
-
-    invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
-
-    move-result-object v2
-
-    if-eqz v2, :cond_2
-
-    .line 276
-    new-instance p1, Lcom/google/android/gms/ads/AdError;
-
-    const/16 v0, 0x68
-
-    const-string v1, "Only a maximum of one ad can be loaded per placement."
-
-    invoke-direct {p1, v0, v1, v4}, Lcom/google/android/gms/ads/AdError;-><init>(ILjava/lang/String;Ljava/lang/String;)V
-
-    .line 278
-    sget-object v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 279
-    invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
-
-    return-void
-
-    :cond_2
-    const-string v2, "appid"
-
-    .line 283
-    invoke-virtual {v1, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    .line 284
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_3
-
-    .line 285
-    new-instance p1, Lcom/google/android/gms/ads/AdError;
-
-    const-string v0, "Failed to load ad from Vungle. Missing or Invalid App ID."
-
-    invoke-direct {p1, v3, v0, v4}, Lcom/google/android/gms/ads/AdError;-><init>(ILjava/lang/String;Ljava/lang/String;)V
-
-    .line 287
-    sget-object v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 288
-    invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
-
-    return-void
-
-    :cond_3
-    const/4 p2, 0x0
-
-    .line 293
-    invoke-static {v0, p2}, Lcom/vungle/mediation/VungleExtrasBuilder;->adConfigWithNetworkExtras(Landroid/os/Bundle;Z)Lcom/vungle/warren/AdConfig;
-
-    move-result-object p2
-
-    iput-object p2, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mAdConfig:Lcom/vungle/warren/AdConfig;
-
-    .line 295
-    invoke-static {}, Lcom/google/ads/mediation/vungle/VungleInitializer;->getInstance()Lcom/google/ads/mediation/vungle/VungleInitializer;
-
-    move-result-object p2
-
-    .line 296
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;->taggedForChildDirectedTreatment()I
-
-    move-result v0
-
-    invoke-virtual {p2, v0}, Lcom/google/ads/mediation/vungle/VungleInitializer;->updateCoppaStatus(I)V
-
-    .line 298
-    invoke-static {}, Lcom/google/ads/mediation/vungle/VungleInitializer;->getInstance()Lcom/google/ads/mediation/vungle/VungleInitializer;
-
-    move-result-object p2
-
-    .line 301
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;->getContext()Landroid/content/Context;
-
-    move-result-object p1
-
-    new-instance v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;
-
-    invoke-direct {v0, p0}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;-><init>(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)V
-
-    .line 299
-    invoke-virtual {p2, v1, p1, v0}, Lcom/google/ads/mediation/vungle/VungleInitializer;->initialize(Ljava/lang/String;Landroid/content/Context;Lcom/google/ads/mediation/vungle/VungleInitializer$VungleInitializationListener;)V
-
-    return-void
-.end method
-
-.method public loadRewardedInterstitialAd(Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;",
-            "Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback<",
-            "Lcom/google/android/gms/ads/mediation/MediationRewardedAd;",
-            "Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;",
-            ">;)V"
-        }
-    .end annotation
-
-    .line 453
-    sget-object v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
-
-    const-string v1, "loadRewardedInterstitialAd()..."
-
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    const-string v1, "Vungle adapter was asked to load a rewarded interstitial ad. Using the rewarded ad request flow to load the ad to attempt to load a rewarded interstitial ad from Vungle."
-
-    .line 454
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 458
-    invoke-virtual {p0, p1, p2}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->loadRewardedAd(Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
-
-    return-void
-.end method
+# .method public loadRewardedAd(Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
+#     .locals 6
+#     .annotation system Ldalvik/annotation/Signature;
+#         value = {
+#             "(",
+#             "Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;",
+#             "Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback<",
+#             "Lcom/google/android/gms/ads/mediation/MediationRewardedAd;",
+#             "Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;",
+#             ">;)V"
+#         }
+#     .end annotation
+#
+#     .line 256
+#     iput-object p2, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mMediationAdLoadCallback:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
+#
+#     .line 258
+#     invoke-virtual {p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;->getMediationExtras()Landroid/os/Bundle;
+#
+#     move-result-object v0
+#
+#     .line 259
+#     invoke-virtual {p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;->getServerParameters()Landroid/os/Bundle;
+#
+#     move-result-object v1
+#
+#     if-eqz v0, :cond_0
+#
+#     const-string/jumbo v2, "userId"
+#
+#     .line 262
+#     invoke-virtual {v0, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     iput-object v2, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mUserID:Ljava/lang/String;
+#
+#     .line 265
+#     :cond_0
+#     invoke-static {}, Lcom/vungle/mediation/VungleManager;->getInstance()Lcom/vungle/mediation/VungleManager;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v2, v0, v1}, Lcom/vungle/mediation/VungleManager;->findPlacement(Landroid/os/Bundle;Landroid/os/Bundle;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     iput-object v2, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mPlacement:Ljava/lang/String;
+#
+#     .line 266
+#     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+#
+#     move-result v2
+#
+#     const/16 v3, 0x65
+#
+#     const-string v4, "com.google.ads.mediation.vungle"
+#
+#     if-eqz v2, :cond_1
+#
+#     .line 267
+#     new-instance p1, Lcom/google/android/gms/ads/AdError;
+#
+#     const-string v0, "Failed to load ad from Vungle. Missing or invalid Placement ID."
+#
+#     invoke-direct {p1, v3, v0, v4}, Lcom/google/android/gms/ads/AdError;-><init>(ILjava/lang/String;Ljava/lang/String;)V
+#
+#     .line 269
+#     sget-object v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
+#
+#     invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 270
+#     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
+#
+#     return-void
+#
+#     .line 274
+#     :cond_1
+#     sget-object v2, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mPlacementsInUse:Ljava/util/HashMap;
+#
+#     iget-object v5, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mPlacement:Ljava/lang/String;
+#
+#     invoke-virtual {v2, v5}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
+#
+#     move-result v5
+#
+#     if-eqz v5, :cond_2
+#
+#     iget-object v5, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mPlacement:Ljava/lang/String;
+#
+#     .line 275
+#     invoke-virtual {v2, v5}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     move-result-object v2
+#
+#     check-cast v2, Ljava/lang/ref/WeakReference;
+#
+#     invoke-virtual {v2}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+#
+#     move-result-object v2
+#
+#     if-eqz v2, :cond_2
+#
+#     .line 276
+#     new-instance p1, Lcom/google/android/gms/ads/AdError;
+#
+#     const/16 v0, 0x68
+#
+#     const-string v1, "Only a maximum of one ad can be loaded per placement."
+#
+#     invoke-direct {p1, v0, v1, v4}, Lcom/google/android/gms/ads/AdError;-><init>(ILjava/lang/String;Ljava/lang/String;)V
+#
+#     .line 278
+#     sget-object v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
+#
+#     invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 279
+#     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
+#
+#     return-void
+#
+#     :cond_2
+#     const-string v2, "appid"
+#
+#     .line 283
+#     invoke-virtual {v1, v2}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     .line 284
+#     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+#
+#     move-result v2
+#
+#     if-eqz v2, :cond_3
+#
+#     .line 285
+#     new-instance p1, Lcom/google/android/gms/ads/AdError;
+#
+#     const-string v0, "Failed to load ad from Vungle. Missing or Invalid App ID."
+#
+#     invoke-direct {p1, v3, v0, v4}, Lcom/google/android/gms/ads/AdError;-><init>(ILjava/lang/String;Ljava/lang/String;)V
+#
+#     .line 287
+#     sget-object v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
+#
+#     invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 288
+#     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
+#
+#     return-void
+#
+#     :cond_3
+#     const/4 p2, 0x0
+#
+#     .line 293
+#     invoke-static {v0, p2}, Lcom/vungle/mediation/VungleExtrasBuilder;->adConfigWithNetworkExtras(Landroid/os/Bundle;Z)Lcom/vungle/warren/AdConfig;
+#
+#     move-result-object p2
+#
+#     iput-object p2, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mAdConfig:Lcom/vungle/warren/AdConfig;
+#
+#     .line 295
+#     invoke-static {}, Lcom/google/ads/mediation/vungle/VungleInitializer;->getInstance()Lcom/google/ads/mediation/vungle/VungleInitializer;
+#
+#     move-result-object p2
+#
+#     .line 296
+#     invoke-virtual {p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;->taggedForChildDirectedTreatment()I
+#
+#     move-result v0
+#
+#     invoke-virtual {p2, v0}, Lcom/google/ads/mediation/vungle/VungleInitializer;->updateCoppaStatus(I)V
+#
+#     .line 298
+#     invoke-static {}, Lcom/google/ads/mediation/vungle/VungleInitializer;->getInstance()Lcom/google/ads/mediation/vungle/VungleInitializer;
+#
+#     move-result-object p2
+#
+#     .line 301
+#     invoke-virtual {p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;->getContext()Landroid/content/Context;
+#
+#     move-result-object p1
+#
+#     new-instance v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;
+#
+#     invoke-direct {v0, p0}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter$2;-><init>(Lcom/google/ads/mediation/vungle/VungleMediationAdapter;)V
+#
+#     .line 299
+#     invoke-virtual {p2, v1, p1, v0}, Lcom/google/ads/mediation/vungle/VungleInitializer;->initialize(Ljava/lang/String;Landroid/content/Context;Lcom/google/ads/mediation/vungle/VungleInitializer$VungleInitializationListener;)V
+#
+#     return-void
+# .end method
+
+# .method public loadRewardedInterstitialAd(Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
+#     .locals 2
+#     .annotation system Ldalvik/annotation/Signature;
+#         value = {
+#             "(",
+#             "Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;",
+#             "Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback<",
+#             "Lcom/google/android/gms/ads/mediation/MediationRewardedAd;",
+#             "Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;",
+#             ">;)V"
+#         }
+#     .end annotation
+#
+#     .line 453
+#     sget-object v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
+#
+#     const-string v1, "loadRewardedInterstitialAd()..."
+#
+#     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     const-string v1, "Vungle adapter was asked to load a rewarded interstitial ad. Using the rewarded ad request flow to load the ad to attempt to load a rewarded interstitial ad from Vungle."
+#
+#     .line 454
+#     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 458
+#     invoke-virtual {p0, p1, p2}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->loadRewardedAd(Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
+#
+#     return-void
+# .end method
 
 .method public loadRtbInterstitialAd(Lcom/google/android/gms/ads/mediation/MediationInterstitialAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
     .locals 2
@@ -1162,77 +1162,77 @@
     return-void
 .end method
 
-.method public onAdViewed(Ljava/lang/String;)V
-    .locals 0
-
-    .line 408
-    iget-object p1, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mMediationRewardedAdCallback:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
-
-    invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->onVideoStart()V
-
-    .line 409
-    iget-object p1, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mMediationRewardedAdCallback:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
-
-    invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->reportAdImpression()V
-
-    return-void
-.end method
-
-.method public onError(Ljava/lang/String;Lcom/vungle/warren/error/VungleException;)V
-    .locals 2
-
-    .line 396
-    invoke-static {p2}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->getAdError(Lcom/vungle/warren/error/VungleException;)Lcom/google/android/gms/ads/AdError;
-
-    move-result-object p2
-
-    .line 397
-    sget-object v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
-
-    invoke-virtual {p2}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 398
-    iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mMediationRewardedAdCallback:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
-
-    if-eqz v0, :cond_0
-
-    .line 399
-    invoke-interface {v0, p2}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->onAdFailedToShow(Lcom/google/android/gms/ads/AdError;)V
-
-    goto :goto_0
-
-    .line 400
-    :cond_0
-    iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mMediationAdLoadCallback:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
-
-    if-eqz v0, :cond_1
-
-    .line 401
-    invoke-interface {v0, p2}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
-
-    .line 403
-    :cond_1
-    :goto_0
-    sget-object p2, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mPlacementsInUse:Ljava/util/HashMap;
-
-    invoke-virtual {p2, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
-
-    return-void
-.end method
-
-.method public showAd(Landroid/content/Context;)V
-    .locals 1
-
-    .line 328
-    iget-object p1, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mPlacement:Ljava/lang/String;
-
-    iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mAdConfig:Lcom/vungle/warren/AdConfig;
-
-    invoke-static {p1, v0, p0}, Lcom/vungle/warren/Vungle;->playAd(Ljava/lang/String;Lcom/vungle/warren/AdConfig;Lcom/vungle/warren/PlayAdCallback;)V
-
-    return-void
-.end method
+# .method public onAdViewed(Ljava/lang/String;)V
+#     .locals 0
+#
+#     .line 408
+#     iget-object p1, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mMediationRewardedAdCallback:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
+#
+#     invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->onVideoStart()V
+#
+#     .line 409
+#     iget-object p1, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mMediationRewardedAdCallback:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
+#
+#     invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->reportAdImpression()V
+#
+#     return-void
+# .end method
+#
+# .method public onError(Ljava/lang/String;Lcom/vungle/warren/error/VungleException;)V
+#     .locals 2
+#
+#     .line 396
+#     invoke-static {p2}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->getAdError(Lcom/vungle/warren/error/VungleException;)Lcom/google/android/gms/ads/AdError;
+#
+#     move-result-object p2
+#
+#     .line 397
+#     sget-object v0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
+#
+#     invoke-virtual {p2}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 398
+#     iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mMediationRewardedAdCallback:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
+#
+#     if-eqz v0, :cond_0
+#
+#     .line 399
+#     invoke-interface {v0, p2}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->onAdFailedToShow(Lcom/google/android/gms/ads/AdError;)V
+#
+#     goto :goto_0
+#
+#     .line 400
+#     :cond_0
+#     iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mMediationAdLoadCallback:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
+#
+#     if-eqz v0, :cond_1
+#
+#     .line 401
+#     invoke-interface {v0, p2}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
+#
+#     .line 403
+#     :cond_1
+#     :goto_0
+#     sget-object p2, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mPlacementsInUse:Ljava/util/HashMap;
+#
+#     invoke-virtual {p2, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     return-void
+# .end method
+#
+# .method public showAd(Landroid/content/Context;)V
+#     .locals 1
+#
+#     .line 328
+#     iget-object p1, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mPlacement:Ljava/lang/String;
+#
+#     iget-object v0, p0, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->mAdConfig:Lcom/vungle/warren/AdConfig;
+#
+#     invoke-static {p1, v0, p0}, Lcom/vungle/warren/Vungle;->playAd(Ljava/lang/String;Lcom/vungle/warren/AdConfig;Lcom/vungle/warren/PlayAdCallback;)V
+#
+#     return-void
+# .end method

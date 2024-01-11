@@ -61,7 +61,7 @@
         <receiver android:name="com.appolo13.stickmandrawanimation.ui.notification.RetentionNotificationReceiver"/>
         <receiver android:name="com.appolo13.stickmandrawanimation.ui.notification.NewStickersNotificationReceiver"/>
         <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="@string/ad_mob_id"/>
-        <meta-data android:name="applovin.sdk.key" android:value="@string/applovin_id"/>
+        <!-- <meta-data android:name="applovin.sdk.key" android:value="@string/applovin_id"/> -->
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_id"/>
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
         <meta-data android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION" android:value="true"/>
@@ -112,7 +112,7 @@
         </service>
         <provider android:authorities="com.appolo13.stickmandrawanimation.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
         <uses-library android:name="android.ext.adservices" android:required="false"/>
-        <provider android:authorities="com.appolo13.stickmandrawanimation.applovincontentprovider" android:exported="false" android:grantUriPermissions="true" android:initOrder="101" android:name="com.applovin.sdk.AppLovinInitProvider"/>
+        <!-- <provider android:authorities="com.appolo13.stickmandrawanimation.applovincontentprovider" android:exported="false" android:grantUriPermissions="true" android:initOrder="101" android:name="com.applovin.sdk.AppLovinInitProvider"/> -->
         <activity android:configChanges="keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.applovin.adview.AppLovinFullscreenActivity" android:screenOrientation="behind"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:name="com.applovin.sdk.AppLovinWebViewActivity"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
@@ -121,8 +121,8 @@
         <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerAdUnitsListActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerAdUnitDetailActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:name="com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity" android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme"/>
-        <service android:exported="false" android:name="com.applovin.impl.sdk.utils.AppKilledService" android:stopWithTask="false"/>
-        <service android:exported="false" android:name="com.applovin.impl.adview.activity.FullscreenAdService" android:stopWithTask="false"/>
+        <!-- <service android:exported="false" android:name="com.applovin.impl.sdk.utils.AppKilledService" android:stopWithTask="false"/>
+        <service android:exported="false" android:name="com.applovin.impl.adview.activity.FullscreenAdService" android:stopWithTask="false"/> -->
         <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
@@ -133,8 +133,8 @@
             <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
             <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
         </provider>
-        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:launchMode="singleTop" android:name="com.vungle.warren.ui.VungleActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-        <provider android:authorities="com.appolo13.stickmandrawanimation.vungle-provider" android:exported="false" android:name="com.vungle.warren.utility.VungleProvider"/>
+        <!-- <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:launchMode="singleTop" android:name="com.vungle.warren.ui.VungleActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/> -->
+        <!-- <provider android:authorities="com.appolo13.stickmandrawanimation.vungle-provider" android:exported="false" android:name="com.vungle.warren.utility.VungleProvider"/> -->
         <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
         <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
