@@ -1,0 +1,117 @@
+.class public final Lcom/appolo13/stickmandrawanimation/core/repository/analytics/AnalyticsRepositoryImpl$Companion;
+.super Ljava/lang/Object;
+.source "AnalyticsRepositoryImpl.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/appolo13/stickmandrawanimation/core/repository/analytics/AnalyticsRepositoryImpl;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Companion"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008:\n\u0002\u0010\u0008\n\u0002\u0008\u0005\u0008\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\u0008\u0002\u00a2\u0006\u0002\u0010\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0006\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0008\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\n\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000c\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\r\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000e\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000f\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0010\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0011\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0012\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0013\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0014\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0015\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0016\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0017\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0018\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0019\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001a\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001b\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001c\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001d\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001e\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001f\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010 \u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010!\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\"\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010#\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010$\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010%\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010&\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\'\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010(\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010)\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010*\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010+\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010,\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010-\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010.\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010/\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u00100\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u00101\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u00102\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u00103\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u00104\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u00105\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u00106\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u00107\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u00108\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u00109\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010:\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010;\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010<\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010=\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010>\u001a\u00020?X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010@\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010A\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010B\u001a\u00020?X\u0080T\u00a2\u0006\u0002\n\u0000R\u000e\u0010C\u001a\u00020\u0004X\u0080T\u00a2\u0006\u0002\n\u0000\u00a8\u0006D"
+    }
+    d2 = {
+        "Lcom/appolo13/stickmandrawanimation/core/repository/analytics/AnalyticsRepositoryImpl$Companion;",
+        "",
+        "()V",
+        "CLIENT_ID_DATA_KEY",
+        "",
+        "COUNT_AB_REMOTE_CONFIG",
+        "COUNT_AD_BAN_PAID",
+        "COUNT_AD_BAN_START",
+        "COUNT_AD_INTERREW_FAIL",
+        "COUNT_AD_INTERREW_SHOW",
+        "COUNT_AD_INTERREW_START",
+        "COUNT_AD_INTREW_PAID",
+        "COUNT_AD_INT_FAIL",
+        "COUNT_AD_INT_PAID",
+        "COUNT_AD_INT_SHOW",
+        "COUNT_AD_INT_START",
+        "COUNT_AD_INT_TRIG",
+        "COUNT_AD_OFFER_SHOW",
+        "COUNT_AD_REW_FAIL",
+        "COUNT_AD_REW_PAID",
+        "COUNT_AD_REW_SHOW",
+        "COUNT_AD_REW_START",
+        "COUNT_BTN_BACKGROUND",
+        "COUNT_BTN_BACKGROUND_DETAIL",
+        "COUNT_BTN_CANVAS_SIZE",
+        "COUNT_BTN_CONTINUE_TUTORIAL",
+        "COUNT_BTN_DONE",
+        "COUNT_BTN_END_LESSON",
+        "COUNT_BTN_FORMAT",
+        "COUNT_BTN_FPS_LIMIT",
+        "COUNT_BTN_HOME",
+        "COUNT_BTN_NO_HINTS",
+        "COUNT_BTN_PLAY",
+        "COUNT_BTN_POLICY",
+        "COUNT_BTN_PROJECT",
+        "COUNT_BTN_PROJECT_START",
+        "COUNT_BTN_REFUSE_REWARD",
+        "COUNT_BTN_SHARE",
+        "COUNT_BTN_STICKER",
+        "COUNT_BTN_TRAINING",
+        "COUNT_BTN_TRAINING_START",
+        "COUNT_BTN_TUTORIAL",
+        "COUNT_BTN_TUTORIAL_HINT",
+        "COUNT_BTN_TUTORIAL_LATER",
+        "COUNT_BTN_TUTORIAL_LATER_POPUP",
+        "COUNT_BTN_TUTORIAL_LESSONS",
+        "COUNT_BTN_TUTORIAL_NOW",
+        "COUNT_BTN_TUTORIAL_REPEAT",
+        "COUNT_BTN_TUTORIAL_TOOL",
+        "COUNT_BTN_YOUR_FIRST_LESSON",
+        "COUNT_EV_ADD_FRAME",
+        "COUNT_EV_DRAW_FRAME",
+        "COUNT_EV_EMPTY_VIDEO_FORMAT",
+        "COUNT_EV_FIRST_OPEN",
+        "COUNT_EV_MAIN_PRESENT",
+        "COUNT_EV_NOTIFICATION_OPEN",
+        "COUNT_EV_NOTIFICATION_SEND",
+        "COUNT_EV_RATING",
+        "COUNT_EV_RETENTION",
+        "COUNT_EV_SESSION_START",
+        "COUNT_EV_START",
+        "COUNT_EV_VIDEO_FORMAT",
+        "DEFAULT_COUNT",
+        "",
+        "FIRST_START_TIME",
+        "LAST_SESSION_TIME",
+        "ONE_COUNT",
+        "SESSION_NUMBER",
+        "core_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 402
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/appolo13/stickmandrawanimation/core/repository/analytics/AnalyticsRepositoryImpl$Companion;-><init>()V
+
+    return-void
+.end method

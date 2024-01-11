@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_copy" android:id="@id/copy" android:title="@string/copy_text" />
+    <item android:icon="@drawable/ic_insert" android:id="@id/paste" android:title="@string/paste" />
+    <item android:icon="@drawable/ic_add_frame_left" android:id="@id/add_frame_left" android:title="@string/add_frame_left" />
+    <item android:icon="@drawable/ic_add_frame_right" android:id="@id/add_frame_right" android:title="@string/add_frame_right" />
+    <item android:icon="@drawable/ic_delete" android:id="@id/delete" android:title="@string/delete_text" />
+</menu>

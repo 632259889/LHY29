@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="47.0dip">
+        <shape android:shape="ring" android:useLevel="false">
+            <solid android:color="#0a5f6d76" />
+        </shape>
+    </item>
+    <item android:top="42.0dip">
+        <shape android:shape="ring" android:useLevel="false">
+            <solid android:color="#0a5f6d76" />
+        </shape>
+    </item>
+    <item android:top="37.0dip">
+        <shape android:shape="ring" android:useLevel="false">
+            <solid android:color="#0a5f6d76" />
+        </shape>
+    </item>
+    <item android:top="32.0dip">
+        <shape android:shape="ring" android:useLevel="false">
+            <solid android:color="#175f6d76" />
+        </shape>
+    </item>
+    <item android:top="28.0dip">
+        <shape android:shape="ring" android:useLevel="false">
+            <solid android:color="#245f6d76" />
+        </shape>
+    </item>
+    <item android:top="24.0dip">
+        <shape android:shape="ring" android:useLevel="false">
+            <solid android:color="#305f6d76" />
+        </shape>
+    </item>
+    <item android:top="18.0dip">
+        <shape android:shape="ring" android:useLevel="false">
+            <solid android:color="#3d5f6d76" />
+        </shape>
+    </item>
+    <item android:top="15.0dip">
+        <shape android:shape="ring" android:useLevel="false">
+            <solid android:color="#4a5f6d76" />
+        </shape>
+    </item>
+    <item android:top="12.0dip">
+        <shape android:shape="ring" android:useLevel="false">
+            <solid android:color="#575f6d76" />
+        </shape>
+    </item>
+    <item android:top="9.0dip">
+        <shape android:shape="ring" android:useLevel="false">
+            <solid android:color="#635f6d76" />
+        </shape>
+    </item>
+    <item android:top="7.0dip">
+        <shape android:shape="ring" android:useLevel="false">
+            <solid android:color="#705f6d76" />
+        </shape>
+    </item>
+    <item android:top="5.0dip">
+        <shape android:shape="ring" android:useLevel="false">
+            <solid android:color="#7d5f6d76" />
+        </shape>
+    </item>
+    <item android:top="3.0dip">
+        <shape android:shape="ring" android:useLevel="false">
+            <solid android:color="#8a5f6d76" />
+        </shape>
+    </item>
+    <item android:top="2.0dip">
+        <shape android:shape="ring" android:useLevel="false">
+            <solid android:color="#965f6d76" />
+        </shape>
+    </item>
+    <item android:top="1.0dip">
+        <shape android:shape="ring" android:useLevel="false">
+            <solid android:color="#a35f6d76" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="ring" android:useLevel="false">
+            <solid android:color="@color/percent_color" />
+        </shape>
+    </item>
+</layer-list>

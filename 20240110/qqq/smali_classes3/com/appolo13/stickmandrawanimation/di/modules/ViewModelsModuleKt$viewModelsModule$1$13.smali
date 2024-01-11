@@ -1,0 +1,323 @@
+.class final Lcom/appolo13/stickmandrawanimation/di/modules/ViewModelsModuleKt$viewModelsModule$1$13;
+.super Lkotlin/jvm/internal/Lambda;
+.source "ViewModelsModule.kt"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/appolo13/stickmandrawanimation/di/modules/ViewModelsModuleKt$viewModelsModule$1;->invoke(Lorg/koin/core/module/Module;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkotlin/jvm/functions/Function2<",
+        "Lorg/koin/core/scope/Scope;",
+        "Lorg/koin/core/parameter/ParametersHolder;",
+        "Lcom/appolo13/stickmandrawanimation/viewmodel/draw/DrawViewModel;",
+        ">;"
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/SourceDebugExtension;
+    value = "SMAP\nViewModelsModule.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ViewModelsModule.kt\ncom/appolo13/stickmandrawanimation/di/modules/ViewModelsModuleKt$viewModelsModule$1$13\n+ 2 New.kt\norg/koin/core/module/dsl/NewKt\n+ 3 Scope.kt\norg/koin/core/scope/Scope\n*L\n1#1,74:1\n133#2:75\n132#3,5:76\n*S KotlinDebug\n*F\n+ 1 ViewModelsModule.kt\ncom/appolo13/stickmandrawanimation/di/modules/ViewModelsModuleKt$viewModelsModule$1$13\n*L\n47#1:75\n47#1:76,5\n*E\n"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0012\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\u0010\u0000\u001a\u00020\u0001*\u00020\u00022\u0006\u0010\u0003\u001a\u00020\u0004H\n\u00a2\u0006\u0002\u0008\u0005"
+    }
+    d2 = {
+        "<anonymous>",
+        "Lcom/appolo13/stickmandrawanimation/viewmodel/draw/DrawViewModel;",
+        "Lorg/koin/core/scope/Scope;",
+        "it",
+        "Lorg/koin/core/parameter/ParametersHolder;",
+        "invoke"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final INSTANCE:Lcom/appolo13/stickmandrawanimation/di/modules/ViewModelsModuleKt$viewModelsModule$1$13;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/appolo13/stickmandrawanimation/di/modules/ViewModelsModuleKt$viewModelsModule$1$13;
+
+    invoke-direct {v0}, Lcom/appolo13/stickmandrawanimation/di/modules/ViewModelsModuleKt$viewModelsModule$1$13;-><init>()V
+
+    sput-object v0, Lcom/appolo13/stickmandrawanimation/di/modules/ViewModelsModuleKt$viewModelsModule$1$13;->INSTANCE:Lcom/appolo13/stickmandrawanimation/di/modules/ViewModelsModuleKt$viewModelsModule$1$13;
+
+    return-void
+.end method
+
+.method constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x2
+
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Lorg/koin/core/scope/Scope;Lorg/koin/core/parameter/ParametersHolder;)Lcom/appolo13/stickmandrawanimation/viewmodel/draw/DrawViewModel;
+    .locals 30
+
+    move-object/from16 v0, p1
+
+    const-string v1, "$this$viewModelDefinition"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v1, "it"
+
+    move-object/from16 v2, p2
+
+    invoke-static {v2, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 80
+    const-class v1, Lcom/appolo13/stickmandrawanimation/core/repository/ads/AdsRepository;
+
+    invoke-static {v1}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v1
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v0, v1, v2, v2}, Lorg/koin/core/scope/Scope;->get(Lkotlin/reflect/KClass;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    const-class v3, Lcom/appolo13/stickmandrawanimation/database/repository/myprojects/MyProjectsRepository;
+
+    invoke-static {v3}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v3
+
+    invoke-virtual {v0, v3, v2, v2}, Lorg/koin/core/scope/Scope;->get(Lkotlin/reflect/KClass;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
+
+    move-result-object v3
+
+    const-class v4, Lcom/appolo13/stickmandrawanimation/core/repository/settings/SettingsRepository;
+
+    invoke-static {v4}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v4
+
+    invoke-virtual {v0, v4, v2, v2}, Lorg/koin/core/scope/Scope;->get(Lkotlin/reflect/KClass;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
+
+    move-result-object v4
+
+    const-class v5, Lcom/appolo13/stickmandrawanimation/database/repository/lockstickerspack/LockStickersPackRepository;
+
+    invoke-static {v5}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v5
+
+    invoke-virtual {v0, v5, v2, v2}, Lorg/koin/core/scope/Scope;->get(Lkotlin/reflect/KClass;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
+
+    move-result-object v5
+
+    const-class v6, Lcom/appolo13/stickmandrawanimation/project/repository/DrawSettingsRepository;
+
+    invoke-static {v6}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v6
+
+    invoke-virtual {v0, v6, v2, v2}, Lorg/koin/core/scope/Scope;->get(Lkotlin/reflect/KClass;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
+
+    move-result-object v6
+
+    const-class v7, Lcom/appolo13/stickmandrawanimation/database/repository/lockgifs/LockGifsRepository;
+
+    invoke-static {v7}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v7
+
+    invoke-virtual {v0, v7, v2, v2}, Lorg/koin/core/scope/Scope;->get(Lkotlin/reflect/KClass;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
+
+    move-result-object v7
+
+    const-class v8, Lcom/appolo13/stickmandrawanimation/database/repository/training/TrainingRepository;
+
+    invoke-static {v8}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v8
+
+    invoke-virtual {v0, v8, v2, v2}, Lorg/koin/core/scope/Scope;->get(Lkotlin/reflect/KClass;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
+
+    move-result-object v8
+
+    const-class v9, Lcom/appolo13/stickmandrawanimation/analytics/AnalyticsUseCases;
+
+    invoke-static {v9}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v9
+
+    invoke-virtual {v0, v9, v2, v2}, Lorg/koin/core/scope/Scope;->get(Lkotlin/reflect/KClass;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
+
+    move-result-object v9
+
+    const-class v10, Lcom/appolo13/stickmandrawanimation/repository/storage/StorageRepository;
+
+    invoke-static {v10}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v10
+
+    invoke-virtual {v0, v10, v2, v2}, Lorg/koin/core/scope/Scope;->get(Lkotlin/reflect/KClass;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
+
+    move-result-object v10
+
+    const-class v11, Lcom/appolo13/stickmandrawanimation/database/repository/lastcolors/LastColorsRepository;
+
+    invoke-static {v11}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v11
+
+    invoke-virtual {v0, v11, v2, v2}, Lorg/koin/core/scope/Scope;->get(Lkotlin/reflect/KClass;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
+
+    move-result-object v11
+
+    const-class v12, Lcom/appolo13/stickmandrawanimation/image/ImageHelper;
+
+    invoke-static {v12}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v12
+
+    invoke-virtual {v0, v12, v2, v2}, Lorg/koin/core/scope/Scope;->get(Lkotlin/reflect/KClass;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
+
+    move-result-object v12
+
+    const-class v13, Lcom/appolo13/stickmandrawanimation/tutorial/usecase/ToolTutorialUseCase;
+
+    invoke-static {v13}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v13
+
+    invoke-virtual {v0, v13, v2, v2}, Lorg/koin/core/scope/Scope;->get(Lkotlin/reflect/KClass;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
+
+    move-result-object v13
+
+    const-class v14, Lcom/appolo13/stickmandrawanimation/tutorial/usecase/TutorialUseCase;
+
+    invoke-static {v14}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v14
+
+    invoke-virtual {v0, v14, v2, v2}, Lorg/koin/core/scope/Scope;->get(Lkotlin/reflect/KClass;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
+
+    move-result-object v14
+
+    const-class v15, Lcom/appolo13/stickmandrawanimation/project/usecase/ProjectUseCase;
+
+    invoke-static {v15}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v15
+
+    invoke-virtual {v0, v15, v2, v2}, Lorg/koin/core/scope/Scope;->get(Lkotlin/reflect/KClass;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    .line 75
+    move-object/from16 v29, v0
+
+    check-cast v29, Lcom/appolo13/stickmandrawanimation/project/usecase/ProjectUseCase;
+
+    move-object/from16 v28, v14
+
+    check-cast v28, Lcom/appolo13/stickmandrawanimation/tutorial/usecase/TutorialUseCase;
+
+    move-object/from16 v27, v13
+
+    check-cast v27, Lcom/appolo13/stickmandrawanimation/tutorial/usecase/ToolTutorialUseCase;
+
+    move-object/from16 v26, v12
+
+    check-cast v26, Lcom/appolo13/stickmandrawanimation/image/ImageHelper;
+
+    move-object/from16 v25, v11
+
+    check-cast v25, Lcom/appolo13/stickmandrawanimation/database/repository/lastcolors/LastColorsRepository;
+
+    move-object/from16 v24, v10
+
+    check-cast v24, Lcom/appolo13/stickmandrawanimation/repository/storage/StorageRepository;
+
+    move-object/from16 v23, v9
+
+    check-cast v23, Lcom/appolo13/stickmandrawanimation/analytics/AnalyticsUseCases;
+
+    move-object/from16 v22, v8
+
+    check-cast v22, Lcom/appolo13/stickmandrawanimation/database/repository/training/TrainingRepository;
+
+    move-object/from16 v21, v7
+
+    check-cast v21, Lcom/appolo13/stickmandrawanimation/database/repository/lockgifs/LockGifsRepository;
+
+    move-object/from16 v20, v6
+
+    check-cast v20, Lcom/appolo13/stickmandrawanimation/project/repository/DrawSettingsRepository;
+
+    move-object/from16 v19, v5
+
+    check-cast v19, Lcom/appolo13/stickmandrawanimation/database/repository/lockstickerspack/LockStickersPackRepository;
+
+    move-object/from16 v18, v4
+
+    check-cast v18, Lcom/appolo13/stickmandrawanimation/core/repository/settings/SettingsRepository;
+
+    move-object/from16 v17, v3
+
+    check-cast v17, Lcom/appolo13/stickmandrawanimation/database/repository/myprojects/MyProjectsRepository;
+
+    move-object/from16 v16, v1
+
+    check-cast v16, Lcom/appolo13/stickmandrawanimation/core/repository/ads/AdsRepository;
+
+    .line 47
+    new-instance v0, Lcom/appolo13/stickmandrawanimation/viewmodel/draw/DrawViewModel;
+
+    move-object v15, v0
+
+    invoke-direct/range {v15 .. v29}, Lcom/appolo13/stickmandrawanimation/viewmodel/draw/DrawViewModel;-><init>(Lcom/appolo13/stickmandrawanimation/core/repository/ads/AdsRepository;Lcom/appolo13/stickmandrawanimation/database/repository/myprojects/MyProjectsRepository;Lcom/appolo13/stickmandrawanimation/core/repository/settings/SettingsRepository;Lcom/appolo13/stickmandrawanimation/database/repository/lockstickerspack/LockStickersPackRepository;Lcom/appolo13/stickmandrawanimation/project/repository/DrawSettingsRepository;Lcom/appolo13/stickmandrawanimation/database/repository/lockgifs/LockGifsRepository;Lcom/appolo13/stickmandrawanimation/database/repository/training/TrainingRepository;Lcom/appolo13/stickmandrawanimation/analytics/AnalyticsUseCases;Lcom/appolo13/stickmandrawanimation/repository/storage/StorageRepository;Lcom/appolo13/stickmandrawanimation/database/repository/lastcolors/LastColorsRepository;Lcom/appolo13/stickmandrawanimation/image/ImageHelper;Lcom/appolo13/stickmandrawanimation/tutorial/usecase/ToolTutorialUseCase;Lcom/appolo13/stickmandrawanimation/tutorial/usecase/TutorialUseCase;Lcom/appolo13/stickmandrawanimation/project/usecase/ProjectUseCase;)V
+
+    return-object v0
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 47
+    check-cast p1, Lorg/koin/core/scope/Scope;
+
+    check-cast p2, Lorg/koin/core/parameter/ParametersHolder;
+
+    invoke-virtual {p0, p1, p2}, Lcom/appolo13/stickmandrawanimation/di/modules/ViewModelsModuleKt$viewModelsModule$1$13;->invoke(Lorg/koin/core/scope/Scope;Lorg/koin/core/parameter/ParametersHolder;)Lcom/appolo13/stickmandrawanimation/viewmodel/draw/DrawViewModel;
+
+    move-result-object p1
+
+    return-object p1
+.end method

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="abc_dialog_fixed_width_major">50.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">70.00001%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">45.000004%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">72.0%</item>
+    <dimen name="big_timer_text_size">56.0sp</dimen>
+    <dimen name="border_button_width">3.0dip</dimen>
+    <dimen name="brush_panel_corner_size">20.0dip</dimen>
+    <dimen name="button_text_size">48.0sp</dimen>
+    <dimen name="card_corner_instrument_panel">22.0dip</dimen>
+    <dimen name="card_corner_radius">27.0dip</dimen>
+    <dimen name="content_padding_half">16.0dip</dimen>
+    <dimen name="corner_big_size_layout">40.0dip</dimen>
+    <dimen name="corner_bottom_panel">48.099976dip</dimen>
+    <dimen name="corner_bottom_panel_landscape">46.19998dip</dimen>
+    <dimen name="corner_button">25.0dip</dimen>
+    <dimen name="corner_default_size_layout">30.0dip</dimen>
+    <dimen name="corner_dialog">50.0dip</dimen>
+    <dimen name="corner_frame">33.0dip</dimen>
+    <dimen name="corner_lesson_card">20.0dip</dimen>
+    <dimen name="elevation_card_view">8.0dip</dimen>
+    <dimen name="header_text_size">42.0sp</dimen>
+    <dimen name="image_project_corner_size">38.839996dip</dimen>
+    <dimen name="info_text_size">32.0sp</dimen>
+    <dimen name="info_text_size_small">28.0sp</dimen>
+    <dimen name="layout_margin_frame">6.0dip</dimen>
+    <dimen name="lesson_card_corner">54.0dip</dimen>
+    <dimen name="lesson_frame_corner">10.0dip</dimen>
+    <dimen name="lesson_frame_horizontal_margin">10.0dip</dimen>
+    <dimen name="lesson_info_card_corner">50.0dip</dimen>
+    <dimen name="lesson_max_text_size_simple">34.0sp</dimen>
+    <dimen name="lesson_text_size">17.0sp</dimen>
+    <dimen name="lesson_text_size_small">29.0sp</dimen>
+    <dimen name="list_projects_padding_bottom">80.0dip</dimen>
+    <dimen name="margin_cell">20.0dip</dimen>
+    <dimen name="margin_share_button">15.0dip</dimen>
+    <dimen name="margin_social_buttons_bottom">28.0dip</dimen>
+    <dimen name="margin_social_buttons_top">10.0dip</dimen>
+    <dimen name="margin_social_buttons_vertical">18.0dip</dimen>
+    <dimen name="max_text_size_simple">36.0sp</dimen>
+    <dimen name="padding_bottom_frame">18.0dip</dimen>
+    <dimen name="padding_horizontal_image_project">34.0dip</dimen>
+    <dimen name="padding_top_image_project">22.279999dip</dimen>
+    <dimen name="price_text_size">35.0sp</dimen>
+    <dimen name="safe_gif_text_size">20.0sp</dimen>
+    <dimen name="scroll_bar_size">11.0dip</dimen>
+    <dimen name="size_ad_bg">70.0dip</dimen>
+    <dimen name="size_cell">431.0dip</dimen>
+    <dimen name="size_cell_frame">140.0dip</dimen>
+    <dimen name="size_cell_frame_decor">141.0dip</dimen>
+    <dimen name="size_cell_landscape">500.0dip</dimen>
+    <dimen name="size_shape_arrow">20.0dip</dimen>
+    <dimen name="small_text_size">25.0sp</dimen>
+    <dimen name="stop_corner">10.0dip</dimen>
+    <dimen name="stroke_color_size">2.0dip</dimen>
+    <dimen name="stroke_frame">3.0dip</dimen>
+    <dimen name="video_corner_size">25.0dip</dimen>
+</resources>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">پیمایش به صفحه اصلی</string>
+    <string name="abc_action_bar_up_description">رفتن به بالا</string>
+    <string name="abc_action_menu_overflow_description">گزینه‌های بیشتر</string>
+    <string name="abc_action_mode_done">تمام</string>
+    <string name="abc_activity_chooser_view_see_all">دیدن همه</string>
+    <string name="abc_activitychooserview_choose_application">انتخاب برنامه</string>
+    <string name="abc_capital_off">خاموش</string>
+    <string name="abc_capital_on">روشن</string>
+    <string name="abc_menu_alt_shortcut_label">‎Alt+‎</string>
+    <string name="abc_menu_ctrl_shortcut_label">‎Ctrl+‎</string>
+    <string name="abc_menu_delete_shortcut_label">حذف</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">‎Function+‎</string>
+    <string name="abc_menu_meta_shortcut_label">‎Meta+‎</string>
+    <string name="abc_menu_shift_shortcut_label">‎Shift+‎</string>
+    <string name="abc_menu_space_shortcut_label">فاصله</string>
+    <string name="abc_menu_sym_shortcut_label">‎Sym+‎</string>
+    <string name="abc_prepend_shortcut_label">منو+</string>
+    <string name="abc_search_hint">جستجو…‏</string>
+    <string name="abc_searchview_description_clear">پاک کردن پُرسمان</string>
+    <string name="abc_searchview_description_query">درخواست جستجو</string>
+    <string name="abc_searchview_description_search">جستجو</string>
+    <string name="abc_searchview_description_submit">ارسال پُرسمان</string>
+    <string name="abc_searchview_description_voice">جستجوی گفتاری</string>
+    <string name="abc_shareactionprovider_share_with">هم‌رسانی با</string>
+    <string name="abc_shareactionprovider_share_with_application">هم‌رسانی با %s</string>
+    <string name="abc_toolbar_collapse_description">کوچک کردن</string>
+    <string name="add_frame_left">یک صفحه به سمت چپ اضافه کنید</string>
+    <string name="add_frame_right">یک صفحه به سمت راست اضافه کنید</string>
+    <string name="app_name">Stickman: طراحی یک انیمیشن</string>
+    <string name="back">برگشت</string>
+    <string name="background">زمینه</string>
+    <string name="boat_text">قایق</string>
+    <string name="bottomsheet_action_collapse">جمع کردن برگ زیرین</string>
+    <string name="bottomsheet_action_expand">ازهم بازکردن برگ زیرین</string>
+    <string name="bottomsheet_action_expand_halfway">گسترده کردن تا نیمه</string>
+    <string name="bottomsheet_drag_handle_clicked">روی دستگیره کشاندن دوضربه زده شد</string>
+    <string name="bottomsheet_drag_handle_content_description">دستگیره کشاندن</string>
+    <string name="character_counter_content_description">نویسه‌های واردشده %1$d از %2$d</string>
+    <string name="character_counter_overflowed_content_description">محدودیت نویسه از حد مجاز %1$d از %2$d بیشتر شده است</string>
+    <string name="choose">انتخاب کنید</string>
+    <string name="choose_background">پس زمینه ای را انتخاب کنید</string>
+    <string name="choose_canvas_size">اندازه بوم را انتخاب کنید</string>
+    <string name="choose_format_text">قالب را انتخاب کنید</string>
+    <string name="choose_fps">صفحات ر هر ثانیه انتخاب کنید:</string>
+    <string name="clear_text_end_icon_content_description">پاک کردن نوشتار</string>
+    <string name="close">نزدیک</string>
+    <string name="comment_text">کامنت شما...</string>
+    <string name="common_google_play_services_enable_button">فعال کردن</string>
+    <string name="common_google_play_services_enable_text">‏تا وقتی «خدمات Google Play» را فعال نکنید، %1$s کار نمی‌کند.</string>
+    <string name="common_google_play_services_enable_title">‏‫فعال کردن «خدمات Google Play»</string>
+    <string name="common_google_play_services_install_button">نصب</string>
+    <string name="common_google_play_services_install_text">‏%1$s بدون خدمات Google Play که در دستگاه شما وجود ندارد اجرا نمی‌شود.</string>
+    <string name="common_google_play_services_install_title">‏دریافت «خدمات Google Play»</string>
+    <string name="common_google_play_services_notification_channel_name">‏دردسترس بودن خدمات Google Play</string>
+    <string name="common_google_play_services_notification_ticker">‏خطا در خدمات Google Play</string>
+    <string name="common_google_play_services_unknown_issue">‏%1$s برای استفاده از خدمات Google Play با مشکل روبرو است. لطفاً دوباره امتحان کنید.</string>
+    <string name="common_google_play_services_unsupported_text">‏%1$s بدون خدمات Google Play که در دستگاه شما پشتیبانی نمی‌شود، اجرا نخواهد شد.</string>
+    <string name="common_google_play_services_update_button">به‌روزرسانی</string>
+    <string name="common_google_play_services_update_text">‏تاز مانی که «خدمات Google Play» را به‌روزرسانی نکنید، %1$s اجرا نمی‌شود.</string>
+    <string name="common_google_play_services_update_title">‏‫به‌روزرسانی «خدمات Google Play»</string>
+    <string name="common_google_play_services_updating_text">‏%1$s بدون «خدمات Google Play» که درحال حاضر درحال به‌روزرسانی هستند، کار نمی‌کند.</string>
+    <string name="common_google_play_services_wear_update_text">‏نسخه جدید «خدمات Google Play» نیاز است. به‌زودی به‌طور خودکار به‌روزرسانی می‌شود.</string>
+    <string name="common_open_on_phone">باز کردن در تلفن</string>
+    <string name="common_signin_button_text">ورود به سیستم</string>
+    <string name="common_signin_button_text_long">‏ورود به سیستم با Google‎</string>
+    <string name="complete">کامل کردن</string>
+    <string name="continue_tutorial">ادامه آموزش</string>
+    <string name="copy_text">کپی</string>
+    <string name="copy_toast_msg">پیوند در بریده‌دان کپی شد</string>
+    <string name="create_copy">یک کپی ایجاد کنید</string>
+    <string name="create_movie">فیلم بسازید</string>
+    <string name="create_project">یک پروژه ایجاد کنید</string>
+    <string name="crop_text">برش</string>
+    <string name="cute_fox_text">روباه ناز</string>
+    <string name="dance_text">رقص</string>
+    <string name="delete_text">حذف</string>
+    <string name="done_text">انجام شده</string>
+    <string name="draw_whole_lesson_text">ابتدا باید کل درس را ترسیم کنید</string>
+    <string name="edit">ویرایش کنید</string>
+    <string name="error_icon_content_description">خطا</string>
+    <string name="exo_controls_cc_disabled_description">فعال کردن زیرنویس</string>
+    <string name="exo_controls_cc_enabled_description">غیرفعال کردن زیرنویس</string>
+    <string name="exo_controls_fastforward_description">جلو بردن سریع</string>
+    <string name="exo_controls_fullscreen_enter_description">ورود به حالت تمام‌صفحه</string>
+    <string name="exo_controls_fullscreen_exit_description">خروج از حالت تمام‌صفحه</string>
+    <string name="exo_controls_hide">پنهان کردن کنترل‌های پخش‌کننده</string>
+    <string name="exo_controls_next_description">بعدی</string>
+    <string name="exo_controls_overflow_hide_description">پنهان کردن تنظیمات اضافی</string>
+    <string name="exo_controls_overflow_show_description">نمایش تنظیمات اضافی</string>
+    <string name="exo_controls_pause_description">مکث</string>
+    <string name="exo_controls_play_description">پخش</string>
+    <string name="exo_controls_playback_speed">سرعت</string>
+    <string name="exo_controls_previous_description">قبلی</string>
+    <string name="exo_controls_repeat_all_description">حالت کنونی: تکرار همه. روشن/ خاموش کردن حالت تکرار.</string>
+    <string name="exo_controls_repeat_off_description">حالت کنونی: تکرار هیچ‌کدام. روشن/ خاموش کردن حالت تکرار.</string>
+    <string name="exo_controls_repeat_one_description">حالت کنونی: تکرار یک مورد. روشن/ خاموش کردن حالت تکرار.</string>
+    <string name="exo_controls_rewind_description">عقب بردن</string>
+    <string name="exo_controls_seek_bar_description">پیشرفت بازپخش</string>
+    <string name="exo_controls_settings_description">تنظیمات</string>
+    <string name="exo_controls_show">نمایش کنترل‌های پخش‌کننده</string>
+    <string name="exo_controls_shuffle_off_description">فعال کردن حالت درهم</string>
+    <string name="exo_controls_shuffle_on_description">غیرفعال کردن حالت درهم</string>
+    <string name="exo_controls_stop_description">توقف</string>
+    <string name="exo_controls_vr_description">حالت واقعیت مجازی</string>
+    <string name="exo_download_completed">بارگیری کامل شد</string>
+    <string name="exo_download_description">بارگیری</string>
+    <string name="exo_download_downloading">درحال بارگیری</string>
+    <string name="exo_download_failed">بارگیری نشد</string>
+    <string name="exo_download_notification_channel_name">بارگیری‌ها</string>
+    <string name="exo_download_paused">بارگیری‌ها موقتاً متوقف شد</string>
+    <string name="exo_download_paused_for_network">بارگیری‌ها درانتظار شبکه است</string>
+    <string name="exo_download_paused_for_wifi">بارگیری‌ها در انتظار Wi-Fi است</string>
+    <string name="exo_download_removing">حذف بارگیری‌ها</string>
+    <string name="exo_item_list">%1$s،‏ %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f مگابیت در ثانیه</string>
+    <string name="exo_track_mono">مونو</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">بدیل</string>
+    <string name="exo_track_role_closed_captions">زیرنویس ناشنوایان</string>
+    <string name="exo_track_role_commentary">شرح و نقد</string>
+    <string name="exo_track_role_supplementary">تکمیلی</string>
+    <string name="exo_track_selection_auto">خودکار</string>
+    <string name="exo_track_selection_none">هیچ‌کدام</string>
+    <string name="exo_track_selection_title_audio">صوتی</string>
+    <string name="exo_track_selection_title_text">نوشتار</string>
+    <string name="exo_track_selection_title_video">ویدیو</string>
+    <string name="exo_track_stereo">استریو</string>
+    <string name="exo_track_surround">صدای فراگیر</string>
+    <string name="exo_track_surround_5_point_1">صدای فراگیر ۵.۱</string>
+    <string name="exo_track_surround_7_point_1">صدای فراگیر ۷٫۱</string>
+    <string name="exo_track_unknown">نامشخص</string>
+    <string name="explosion_text">انفجار</string>
+    <string name="exposed_dropdown_menu_content_description">نمایش منوی کرکره‌ای</string>
+    <string name="fallback_menu_item_copy_link">کپی پیوند</string>
+    <string name="fallback_menu_item_open_in_browser">بازکردن در مرورگر</string>
+    <string name="fallback_menu_item_share_link">هم‌رسانی پیوند</string>
+    <string name="falling_text">سقوط</string>
+    <string name="frames">∞ صفحات + تمام محتوا</string>
+    <string name="garland_text">چراغ های کریسمس</string>
+    <string name="gdpr_recall">تنظیمات حریم خصوصی</string>
+    <string name="go_home">صفحه اصلی</string>
+    <string name="grid">حالت گرید</string>
+    <string name="hard_text">سخت</string>
+    <string name="hour">24 ساعت</string>
+    <string name="icon_content_description">نماد کادر گفتگو</string>
+    <string name="inflated_cat_text">گربه باد کرده</string>
+    <string name="info_gif_text">در قالب GIF، برخی از توابع در دسترس نخواهند بود</string>
+    <string name="item_view_role_description">برگه</string>
+    <string name="lite">آسان</string>
+    <string name="make">ایجاد کردن</string>
+    <string name="material_clock_toggle_content_description">انتخاب .ق.ظ. یا ب.ظ.</string>
+    <string name="material_hour_24h_suffix">%1$s ساعت</string>
+    <string name="material_hour_selection">انتخاب ساعت</string>
+    <string name="material_hour_suffix">ساعت %1$s</string>
+    <string name="material_minute_selection">انتخاب دقیقه</string>
+    <string name="material_minute_suffix">%1$s دقیقه</string>
+    <string name="material_timepicker_am">ق.ظ</string>
+    <string name="material_timepicker_clock_mode_description">برای وارد کردن زمان، به حالت ساعت تغییر وضعیت دهید.</string>
+    <string name="material_timepicker_hour">ساعت</string>
+    <string name="material_timepicker_minute">دقیقه</string>
+    <string name="material_timepicker_pm">ب.ظ</string>
+    <string name="material_timepicker_select_time">انتخاب زمان</string>
+    <string name="material_timepicker_text_input_mode_description">برای وارد کردن زمان، به حالت ورودی نوشتاری تغییر وضعیت دهید.</string>
+    <string name="maximize">به حداکثر رساندن</string>
+    <string name="minimize">به حداقل برسانید</string>
+    <string name="more_text">گزینه های بیشتر</string>
+    <string name="movie_name">نام فیلم</string>
+    <string name="movie_name_not_empty">شما به یک نام فیلم احتیاج دارید</string>
+    <string name="msg_adv_no_loaded">آگهی در حال بارگیری است ، لطفاً بعداً دوباره امتحان کنید</string>
+    <string name="mtrl_badge_numberless_content_description">اعلان جدید</string>
+    <string name="mtrl_chip_close_icon_content_description">برداشتن %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">بیش از %1$d اعلان جدید</string>
+    <string name="mtrl_picker_a11y_next_month">تغییر به ماه بعدی</string>
+    <string name="mtrl_picker_a11y_prev_month">تغییر به ماه قبلی</string>
+    <string name="mtrl_picker_announce_current_range_selection">تاریخ شروع انتخاب‌شده: %1$s – تاریخ پایان انتخاب‌شده: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">انتخاب کنونی: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">خالی</string>
+    <string name="mtrl_picker_cancel">لغو</string>
+    <string name="mtrl_picker_confirm">تأیید</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">انتخاب تاریخ</string>
+    <string name="mtrl_picker_date_header_unselected">تاریخ انتخابی</string>
+    <string name="mtrl_picker_day_of_week_column_header">ستون روز: %1$s</string>
+    <string name="mtrl_picker_end_date_description">تاریخ پایان: %1$s</string>
+    <string name="mtrl_picker_invalid_format">قالب نامعتبر است.</string>
+    <string name="mtrl_picker_invalid_format_example">مثال: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">قالب: %1$s</string>
+    <string name="mtrl_picker_invalid_range">محدوده نامعتبر است.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">پیمایش به سال فعلی %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">رفتن به سال %1$d</string>
+    <string name="mtrl_picker_out_of_range">خارج از محدوده: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">تاریخ شروع – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – تاریخ پایان</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">انتخاب محدوده</string>
+    <string name="mtrl_picker_range_header_unselected">تاریخ شروع – تاریخ پایان</string>
+    <string name="mtrl_picker_save">ذخیره</string>
+    <string name="mtrl_picker_start_date_description">تاریخ شروع: %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">تاریخ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">تاریخ پایان</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">تاریخ شروع</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">امروز %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">رفتن به روش ورودی تقویم</string>
+    <string name="mtrl_picker_toggle_to_day_selection">برای رفتن به نمای «تقویم» ضربه بزنید</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">رفتن به حالت ورودی نوشتاری</string>
+    <string name="mtrl_picker_toggle_to_year_selection">برای رفتن به نمای سال ضربه بزنید</string>
+    <string name="mtrl_timepicker_cancel">لغو</string>
+    <string name="mtrl_timepicker_confirm">تأیید</string>
+    <string name="my_project">پروژه من</string>
+    <string name="native_body">نوشتار اصلی</string>
+    <string name="native_headline">سرخط</string>
+    <string name="native_media_view">بازدید از رسانه</string>
+    <string name="nav_app_bar_navigate_up_description">پیمایش به بالا</string>
+    <string name="nav_app_bar_open_drawer_description">باز کردن کشوی پیمایش</string>
+    <string name="need_more_frames_ads">یکبار محدودیت را حذف کنید</string>
+    <string name="need_more_frames_info">نسخه رایگان بیش از 7 فریم را پشتیبانی نمی کند، این GIF قرار نخواهد گرفت</string>
+    <string name="new_lesson_available">نوع درس دیگری را امتحان کنید</string>
+    <string name="new_sticker_btn">دريافت كردن</string>
+    <string name="new_sticker_desc">یک آگهی تماشا کنید تا 12 برچسب بی نظیر دریافت کنید</string>
+    <string name="new_sticker_new">جدید</string>
+    <string name="new_sticker_no">نه ممنون</string>
+    <string name="new_sticker_text">برچسب های منحصر به فرد اکنون در دسترس هستند!</string>
+    <string name="new_sticker_timer">تبلیغ پس از %d ثانیه شروع می شود</string>
+    <string name="new_sticker_timer_text">برچسب های جدید منحصر به فرد را پس از</string>
+    <string name="new_sticker_title">بسته برچسب جدید</string>
+    <string name="new_sticker_yes">تماشا کردن</string>
+    <string name="next">بعد</string>
+    <string name="next_wit_ads">با تبلیغات ادامه دهید</string>
+    <string name="no_hints">آموزش را نشان ندهید</string>
+    <string name="normal">متوسط</string>
+    <string name="not_available_gif_text">در دروس موجود نیست</string>
+    <string name="not_installed_app_text">برنامه %s نصب نشده است</string>
+    <string name="notifications_permission_confirm">اجازه دادن</string>
+    <string name="notifications_permission_decline">اجازه ندادن</string>
+    <string name="notifications_permission_title">به برنامه اجازه می‌دهید برای شما اعلان ارسال کند؟</string>
+    <string name="offline_notification_text">برای باز کردن آگهی، ضربه بزنید</string>
+    <string name="offline_notification_title">مشاهده آگهی‌ای که هنگام آفلاین بودن ذخیره کردید</string>
+    <string name="offline_opt_in_confirm">تأیید</string>
+    <string name="offline_opt_in_confirmation">وقتی دوباره آنلاین شدید، اعلانی حاوی پیوند دریافت خواهید کرد</string>
+    <string name="offline_opt_in_decline">نه متشکرم</string>
+    <string name="offline_opt_in_message">اعلانی با پیوندی به سایت آگهی‌دهنده برایتان ارسال خواهیم کرد.</string>
+    <string name="offline_opt_in_title">وقتی دوباره آنلاین شدید آگهی را باز کنید.</string>
+    <string name="onion">حالت کاغذ ردیابی</string>
+    <string name="out_of_memory_text">دستگاه شما حافظه کافی ندارد. ممکن است برنامه به درستی کار نکند</string>
+    <string name="own_cartoon">حالا سعی کنید خودتان یک کارتون بکشید</string>
+    <string name="own_cartoon_2">شما می توانید آن را انجام دهید!</string>
+    <string name="paint">طراحی کردن</string>
+    <string name="password_toggle_content_description">نمایش گذرواژه</string>
+    <string name="paste">پیست کنید</string>
+    <string name="premium_version">نسخه ممتاز</string>
+    <string name="privacy_policy_apply">تایید کنید</string>
+    <string name="privacy_policy_non_personal_ads">اجازه تبلیغات شخصی سازی شده</string>
+    <string name="privacy_policy_policy">سیاست حفظ حریم خصوصی</string>
+    <string name="privacy_policy_policy_button">مشاهده قوانین</string>
+    <string name="privacy_policy_policy_text">برای استفاده از برنامه، باید شرایط سیاست حفظ حریم خصوصی را بپذیرید</string>
+    <string name="project_name">نام پروژه</string>
+    <string name="project_name_not_empty">شما به یک نام پروژه احتیاج دارید</string>
+    <string name="project_name_tip">انیمیشن من</string>
+    <string name="project_settings">تنظیمات پروژه</string>
+    <string name="projects">پروژه ها</string>
+    <string name="push_channel_name">یادآوری برای ترسیم</string>
+    <string name="push_descr_retention_new">به طور منظم کارتون بسازید و استعداد خود را شکوفا کنید🎨</string>
+    <string name="push_descr_stickers_new">سریع آنها را دریافت کنید! آیا از قبل ایده هایی برای شاهکارهای جدید دارید؟</string>
+    <string name="push_title_retention_new">آماده برای کشیدن دوباره؟</string>
+    <string name="push_title_stickers_new">برچسب های جدید اکنون در دسترس هستند</string>
+    <string name="rate">امتیاز دهید</string>
+    <string name="rate_app">برنامه امتیاز دهید</string>
+    <string name="rate_text_new">کارتون باحالی کشیدی آیا از ایجاد آن لذت بردید؟</string>
+    <string name="remove_watermark">حذف واترمارک</string>
+    <string name="reset_text">باز نشاندن</string>
+    <string name="restore_purchases">بازگرداندن خرید</string>
+    <string name="running_dog_text">سگ دونده</string>
+    <string name="s1">ذخیره تصویر</string>
+    <string name="s2">به آگهی اجازه داده شود تصویر را در گالری تصویر ذخیره کند؟</string>
+    <string name="s3">پذیرفتن</string>
+    <string name="s4">نپذیرفتن</string>
+    <string name="s5">ایجاد رویداد تقویم</string>
+    <string name="s6">به آگهی اجازه داده شود رویداد تقویم ایجاد کند؟</string>
+    <string name="s7">آگهی آزمایشی</string>
+    <string name="sale_content_title">همه مطالب موجود است</string>
+    <string name="sale_frames_title">صفحات نامحدود</string>
+    <string name="sale_premium">نسخه Premium را دریافت کنید</string>
+    <string name="sale_premium_desc">همه تبلیغات در نسخه Premium غیرفعال هستند</string>
+    <string name="sale_premium_title">بدون تبلیغات</string>
+    <string name="sale_reward_desc_1">فقط دو ویدیوی کوتاه را تماشا کنید تا همه بنرها و تبلیغات بینابینی را به مدت 24 ساعت حذف کنید</string>
+    <string name="sale_reward_thanks_0">با تشکر از شما، پروژه بهتر خواهد شد!</string>
+    <string name="sale_reward_thanks_1">دیگر خبری از تبلیغات غیرمنتظره نیست!</string>
+    <string name="sale_text">پرداخت یکباره با امکان انصراف در هر زمان. با کلیک بر روی \"شروع کنید\"، تأیید می کنید که صورتحساب پرداخت به حساب Google Play شما ارسال می شود.</string>
+    <string name="sale_text_2">در صورت امتناع ، برنامه همچنان رایگان خواهد بود ، اما حاوی تبلیغات است</string>
+    <string name="sale_text_ios">پرداخت یکباره با امکان انصراف در هر زمان. با کلیک بر روی \"شروع کنید\"، تأیید می کنید که صورتحساب پرداخت به حساب iTunes شما ارسال می شود.</string>
+    <string name="sale_watermark_title">بدون واترمارک</string>
+    <string name="save_changes">ذخیره تغییرات</string>
+    <string name="search_menu_title">جستجو</string>
+    <string name="settings">تنظیمات</string>
+    <string name="share">اشتراک بگذارید</string>
+    <string name="share_text" formatted="false">کلیپ جدید من %1s. با استفاده از برنامه %2s کارتون طراحی آسان است! %3s</string>
+    <string name="small_fire_text">آتش کوچک</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stickman_text">استیکمن</string>
+    <string name="thanks_feedback_text">با تشکر از بازخورد شما!</string>
+    <string name="total_frames">کل صفحات: %d</string>
+    <string name="training">دروس نقاشی</string>
+    <string name="turn_off_ads">حذف تبلیغات</string>
+    <string name="tutor_begin">شروع کنید</string>
+    <string name="tutor_free">رایگان</string>
+    <string name="tutor_next">ادامه</string>
+    <string name="tutorial">دوره آموزشی</string>
+    <string name="tutorial_hint">روی ابزاری که می‌خواهید راهنمایی دریافت کنید ضربه بزنید</string>
+    <string name="tutorial_hint_btn">OK</string>
+    <string name="tutorial_later">بعدا</string>
+    <string name="tutorial_later_popup">اگر با مشکلی مواجه شدید، همیشه می توانید یک آموزش را در اینجا پیدا کنید</string>
+    <string name="tutorial_later_popup_btn">فهمیدم</string>
+    <string name="tutorial_lessons">در اینجا درس های نقاشی آمده است</string>
+    <string name="tutorial_lessons_2">نگاه کنید و اولین کارتون خود را بسازید</string>
+    <string name="tutorial_now">من آماده ام</string>
+    <string name="tutorial_ready">آیا برای گرفتن یک آموزش آماده هستید؟</string>
+    <string name="tutorial_start">سلام، انیماتور آینده!</string>
+    <string name="tutorial_start_2">در اینجا فضای نامحدودی برای خلاقیت و الهام خواهید یافت</string>
+    <string name="tutorial_watermark">برای حذف واترمارک، یک ویدیوی کوتاه تماشا کنید</string>
+    <string name="watch">تماشا کن</string>
+    <string name="watermark_label_prefix">AdMob -</string>
+    <string name="waving_cat_text">گربه تکان دادن</string>
+    <string name="weird_bird_text">پرنده عجیب</string>
+    <string name="you_are_welcome_text">خواهش میکنم</string>
+    <string name="you_first_lesson">اولین درس شما</string>
+</resources>

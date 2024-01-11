@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">التوجه إلى المنزل</string>
+    <string name="abc_action_bar_up_description">التنقل إلى أعلى</string>
+    <string name="abc_action_menu_overflow_description">خيارات أكثر</string>
+    <string name="abc_action_mode_done">تم</string>
+    <string name="abc_activity_chooser_view_see_all">عرض الكل</string>
+    <string name="abc_activitychooserview_choose_application">اختيار تطبيق</string>
+    <string name="abc_capital_off">إيقاف</string>
+    <string name="abc_capital_on">مفعّلة</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">حذف</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">فضاء</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">القائمة+</string>
+    <string name="abc_search_hint">بحث…</string>
+    <string name="abc_searchview_description_clear">محو طلب البحث</string>
+    <string name="abc_searchview_description_query">طلب بحث</string>
+    <string name="abc_searchview_description_search">البحث</string>
+    <string name="abc_searchview_description_submit">إرسال طلب البحث</string>
+    <string name="abc_searchview_description_voice">بحث صوتي</string>
+    <string name="abc_shareactionprovider_share_with">مشاركة مع</string>
+    <string name="abc_shareactionprovider_share_with_application">مشاركة مع %s</string>
+    <string name="abc_toolbar_collapse_description">تصغير</string>
+    <string name="add_frame_left">أضف ورقة إلى اليسار</string>
+    <string name="add_frame_right">أضف ورقة إلى اليمين</string>
+    <string name="app_name">Stickman: رسم الرسوم المتحركة</string>
+    <string name="back">العودة</string>
+    <string name="background">خلفية</string>
+    <string name="boat_text">قارب</string>
+    <string name="bottomsheet_action_collapse">تصغير البطاقة السفلية</string>
+    <string name="bottomsheet_action_expand">توسيع البطاقة السفلية</string>
+    <string name="bottomsheet_action_expand_halfway">توسيع البطاقة السفلية</string>
+    <string name="bottomsheet_drag_handle_clicked">تم النقر مرّتين على مقبض السحب.</string>
+    <string name="bottomsheet_drag_handle_content_description">مقبض السحب</string>
+    <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
+    <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
+    <string name="choose">يختار</string>
+    <string name="choose_background">اختر الخلفية</string>
+    <string name="choose_canvas_size">اختر حجم اللوحة القماشية</string>
+    <string name="choose_format_text">اختر تنسيق</string>
+    <string name="choose_fps">اختر أوراق في الثانية</string>
+    <string name="clear_text_end_icon_content_description">محو النص</string>
+    <string name="close">أغلق</string>
+    <string name="comment_text">تعليقك...</string>
+    <string name="common_google_play_services_enable_button">تفعيل</string>
+    <string name="common_google_play_services_enable_text">‏لن يعمل %1$s ما لم يتم تفعيل خدمات Google Play.</string>
+    <string name="common_google_play_services_enable_title">‏تفعيل خدمات Google Play</string>
+    <string name="common_google_play_services_install_button">تثبيت</string>
+    <string name="common_google_play_services_install_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي لا تتوفر على جهازك.</string>
+    <string name="common_google_play_services_install_title">‏الحصول على خدمات Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">‏مدى توفّر خدمات Google Play</string>
+    <string name="common_google_play_services_notification_ticker">‏خطأ في خدمات Google Play</string>
+    <string name="common_google_play_services_unknown_issue">‏لدى %1$s مشكلة في خدمات Google Play. يُرجى إعادة المحاولة.</string>
+    <string name="common_google_play_services_unsupported_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play التي لا يوفرها جهازك.</string>
+    <string name="common_google_play_services_update_button">تحديث</string>
+    <string name="common_google_play_services_update_text">‏لن يتم تشغيل %1$s ما لم يتم تحديث خدمات Google Play.</string>
+    <string name="common_google_play_services_update_title">‏تحديث خدمات Google Play</string>
+    <string name="common_google_play_services_updating_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي يتم تحديثها حاليًا.</string>
+    <string name="common_google_play_services_wear_update_text">‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا.</string>
+    <string name="common_open_on_phone">فتح على الهاتف</string>
+    <string name="common_signin_button_text">تسجل الدخول</string>
+    <string name="common_signin_button_text_long">‏تسجيل الدخول عبر Google</string>
+    <string name="complete">كمل</string>
+    <string name="continue_tutorial">استمر في البرنامج التعليمي</string>
+    <string name="copy_text">انتسخ</string>
+    <string name="copy_toast_msg">تم نسخ الرابط إلى الحافظة.</string>
+    <string name="create_copy">قم بإنشاء نسخة</string>
+    <string name="create_movie">اصنع فيلمًا</string>
+    <string name="create_project">أنشئ مشروع</string>
+    <string name="crop_text">اقتصاص</string>
+    <string name="cute_fox_text">ثعلب لطيف</string>
+    <string name="dance_text">رقص</string>
+    <string name="delete_text">حذف</string>
+    <string name="done_text">منتهي</string>
+    <string name="draw_whole_lesson_text">تحتاج إلى رسم الدرس بأكمله أولاً</string>
+    <string name="edit">التحرير</string>
+    <string name="error_icon_content_description">خطأ</string>
+    <string name="exo_controls_cc_disabled_description">تفعيل الترجمة</string>
+    <string name="exo_controls_cc_enabled_description">إيقاف الترجمة</string>
+    <string name="exo_controls_fastforward_description">تقديم سريع</string>
+    <string name="exo_controls_fullscreen_enter_description">دخول إلى وضع ملء الشاشة</string>
+    <string name="exo_controls_fullscreen_exit_description">خروج من وضع ملء الشاشة</string>
+    <string name="exo_controls_hide">إخفاء عناصر التحكم بالمشغّل</string>
+    <string name="exo_controls_next_description">التالي</string>
+    <string name="exo_controls_overflow_hide_description">إخفاء الإعدادات الإضافية</string>
+    <string name="exo_controls_overflow_show_description">عرض الإعدادات الإضافية</string>
+    <string name="exo_controls_pause_description">إيقاف مؤقت</string>
+    <string name="exo_controls_play_description">تشغيل</string>
+    <string name="exo_controls_playback_speed">السرعة</string>
+    <string name="exo_controls_previous_description">السابق</string>
+    <string name="exo_controls_repeat_all_description">الوضع الحالي: تكرار الكل. تبديل وضع التكرار</string>
+    <string name="exo_controls_repeat_off_description">الوضع الحالي: عدم التكرار. تبديل وضع التكرار</string>
+    <string name="exo_controls_repeat_one_description">الوضع الحالي: التكرار مرة واحدة. تبديل وضع التكرار</string>
+    <string name="exo_controls_rewind_description">ترجيع</string>
+    <string name="exo_controls_seek_bar_description">مستوى تقدُّم التشغيل</string>
+    <string name="exo_controls_settings_description">الإعدادات</string>
+    <string name="exo_controls_show">عرض عناصر التحكم بالمشغّل</string>
+    <string name="exo_controls_shuffle_off_description">تفعيل وضع الترتيب العشوائي</string>
+    <string name="exo_controls_shuffle_on_description">إيقاف وضع الترتيب العشوائي</string>
+    <string name="exo_controls_stop_description">إيقاف</string>
+    <string name="exo_controls_vr_description">وضع VR</string>
+    <string name="exo_download_completed">اكتمل التنزيل</string>
+    <string name="exo_download_description">تنزيل</string>
+    <string name="exo_download_downloading">جارٍ التنزيل.</string>
+    <string name="exo_download_failed">تعذّر التنزيل</string>
+    <string name="exo_download_notification_channel_name">عمليات التنزيل</string>
+    <string name="exo_download_paused">تمّ إيقاف عمليات التنزيل مؤقتًا.</string>
+    <string name="exo_download_paused_for_network">عمليات التنزيل في انتظار الاتصال بالشبكة</string>
+    <string name="exo_download_paused_for_wifi">عمليات التنزيل في انتظار اتصال Wi-Fi.</string>
+    <string name="exo_download_removing">تجري إزالة المحتوى الذي تم تنزيله</string>
+    <string name="exo_item_list">%1$s، %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f ميغابت في الثانية</string>
+    <string name="exo_track_mono">قناة أحادية</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">بديل</string>
+    <string name="exo_track_role_closed_captions">الترجمة والشرح</string>
+    <string name="exo_track_role_commentary">التعليقات</string>
+    <string name="exo_track_role_supplementary">تكميلي</string>
+    <string name="exo_track_selection_auto">تلقائي</string>
+    <string name="exo_track_selection_none">بدون اختيار</string>
+    <string name="exo_track_selection_title_audio">صوت</string>
+    <string name="exo_track_selection_title_text">نص</string>
+    <string name="exo_track_selection_title_video">فيديو</string>
+    <string name="exo_track_stereo">استريو</string>
+    <string name="exo_track_surround">صوت مجسّم</string>
+    <string name="exo_track_surround_5_point_1">صوت مجسّم 5.1</string>
+    <string name="exo_track_surround_7_point_1">صوت مجسّم 7.1</string>
+    <string name="exo_track_unknown">غير معروف</string>
+    <string name="explosion_text">انفجار</string>
+    <string name="exposed_dropdown_menu_content_description">عرض القائمة المنسدلة</string>
+    <string name="fallback_menu_item_copy_link">نسخ الرابط</string>
+    <string name="fallback_menu_item_open_in_browser">فتح في المتصفح</string>
+    <string name="fallback_menu_item_share_link">مشاركة الرابط</string>
+    <string name="falling_text">يسقط</string>
+    <string name="frames">∞ إطار + كل المحتوى</string>
+    <string name="garland_text">أضواء عيد الميلاد</string>
+    <string name="gdpr_recall">إعدادات الخصوصية</string>
+    <string name="go_home">الشاشة الرئيسية</string>
+    <string name="grid">خطوط الشبكة</string>
+    <string name="hard_text">صعب</string>
+    <string name="hour">24 ساعة</string>
+    <string name="icon_content_description">رمز مربع الحوار</string>
+    <string name="inflated_cat_text">قطة متضخمة</string>
+    <string name="info_gif_text">في تنسيق GIF ، لن تتوفر بعض الوظائف</string>
+    <string name="item_view_role_description">علامة تبويب</string>
+    <string name="lite">سهل</string>
+    <string name="make">جعل</string>
+    <string name="material_clock_toggle_content_description">يُرجى اختيار صباحًا أو مساءً.</string>
+    <string name="material_hour_24h_suffix">%1$s ساعة</string>
+    <string name="material_hour_selection">تحديد الساعة</string>
+    <string name="material_hour_suffix">الساعة %1$s</string>
+    <string name="material_minute_selection">تحديد الدقائق</string>
+    <string name="material_minute_suffix">%1$s دقيقة</string>
+    <string name="material_timepicker_am">صباحًا</string>
+    <string name="material_timepicker_clock_mode_description">يُرجى التبديل إلى وضع الساعة لإدخال الوقت.</string>
+    <string name="material_timepicker_hour">الساعة</string>
+    <string name="material_timepicker_minute">دقيقة</string>
+    <string name="material_timepicker_pm">مساءً</string>
+    <string name="material_timepicker_select_time">اختيار الوقت</string>
+    <string name="material_timepicker_text_input_mode_description">يُرجى التبديل إلى وضع إدخال النص لإدخال الوقت.</string>
+    <string name="maximize">تحقيق أقصى قدر</string>
+    <string name="minimize">تصغير</string>
+    <string name="more_text">المزيد من الخيارات</string>
+    <string name="movie_name">اسم الفيلم</string>
+    <string name="movie_name_not_empty">أنت بحاجة إلى اسم فيلم</string>
+    <string name="msg_adv_no_loaded">يتم تحميل الإعلان ، يرجى المحاولة مرة أخرى في وقت لاحق</string>
+    <string name="mtrl_badge_numberless_content_description">إشعار جديد</string>
+    <string name="mtrl_chip_close_icon_content_description">إزالة %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">يبلغ عدد الإشعارات الجديدة أكثر من %1$d.</string>
+    <string name="mtrl_picker_a11y_next_month">التغيير إلى الشهر التالي</string>
+    <string name="mtrl_picker_a11y_prev_month">التغيير إلى الشهر السابق</string>
+    <string name="mtrl_picker_announce_current_range_selection">اختيار تاريخ البدء: %1$s – اختيار تاريخ الانتهاء: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">الاختيار الحالي: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">بلا</string>
+    <string name="mtrl_picker_cancel">إلغاء</string>
+    <string name="mtrl_picker_confirm">حسنًا</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">يُرجى اختيار تاريخ.</string>
+    <string name="mtrl_picker_date_header_unselected">التاريخ المحدَّد</string>
+    <string name="mtrl_picker_day_of_week_column_header">عمود الأيام: %1$s</string>
+    <string name="mtrl_picker_end_date_description">تاريخ الانتهاء: %1$s</string>
+    <string name="mtrl_picker_invalid_format">التنسيق غير صالح</string>
+    <string name="mtrl_picker_invalid_format_example">مثال: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">استخدام: %1$s</string>
+    <string name="mtrl_picker_invalid_range">النطاق غير صالح</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">الانتقال إلى السنة الحالية %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">التنقل إلى العام %1$d</string>
+    <string name="mtrl_picker_out_of_range">خارج النطاق: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">تاريخ البدء – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – تاريخ الانتهاء</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">يُرجى اختيار نطاق زمني.</string>
+    <string name="mtrl_picker_range_header_unselected">تاريخ البدء - تاريخ الانتهاء</string>
+    <string name="mtrl_picker_save">حفظ</string>
+    <string name="mtrl_picker_start_date_description">تاريخ البدء: %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">التاريخ</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">تاريخ الانتهاء</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">تاريخ البدء</string>
+    <string name="mtrl_picker_text_input_day_abbr">ي</string>
+    <string name="mtrl_picker_text_input_month_abbr">ش</string>
+    <string name="mtrl_picker_text_input_year_abbr">س</string>
+    <string name="mtrl_picker_today_description">اليوم %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">التبديل إلى وضع \"الإدخال في التقويم\"</string>
+    <string name="mtrl_picker_toggle_to_day_selection">يمكنك النقر للتبديل إلى عرض \"تقويم Google\".</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">التبديل إلى وضع \"إدخال النص\"</string>
+    <string name="mtrl_picker_toggle_to_year_selection">يمكنك النقر للتبديل إلى عرض السنة.</string>
+    <string name="mtrl_timepicker_cancel">إلغاء</string>
+    <string name="mtrl_timepicker_confirm">حسنًا</string>
+    <string name="my_project">مشروعي</string>
+    <string name="native_body">النص</string>
+    <string name="native_headline">العنوان</string>
+    <string name="native_media_view">عرض الوسائط</string>
+    <string name="nav_app_bar_navigate_up_description">التنقل إلى أعلى</string>
+    <string name="nav_app_bar_open_drawer_description">فتح لائحة التنقل</string>
+    <string name="need_more_frames_ads">إزالة القيد مرة واحدة</string>
+    <string name="need_more_frames_info">لا يدعم الإصدار المجاني أكثر من7 إطار ، ولن يتم وضع ملف GIF هذا</string>
+    <string name="new_lesson_available">جرب نوع درس مختلف</string>
+    <string name="new_sticker_btn">يستلم</string>
+    <string name="new_sticker_desc">شاهد إعلانًا لتحصل على 12 ملصقًا فريدًا</string>
+    <string name="new_sticker_new">جديد</string>
+    <string name="new_sticker_no">لا شكرا</string>
+    <string name="new_sticker_text">الملصقات الفريدة متاحة الآن!</string>
+    <string name="new_sticker_timer">سيبدأ الإعلان بعد %d ثانية</string>
+    <string name="new_sticker_timer_text">سيتم فتح ملصقات فريدة جديدة بعد</string>
+    <string name="new_sticker_title">حزمة ملصقات جديدة</string>
+    <string name="new_sticker_yes">راقب</string>
+    <string name="next">التالي</string>
+    <string name="next_wit_ads">مواصلة مع الإعلانات</string>
+    <string name="no_hints">عدم إظهار البرنامج التعليمي</string>
+    <string name="no_thank_you">لا، شكرًا</string>
+    <string name="normal">متوسط</string>
+    <string name="not_available_gif_text">غير متوفر في الدروس</string>
+    <string name="not_installed_app_text">تطبيق %s غير مثبت</string>
+    <string name="notifications_permission_confirm">السماح</string>
+    <string name="notifications_permission_decline">عدم السماح</string>
+    <string name="notifications_permission_title">هل تريد السماح للتطبيق بإرسال إشعارات إليك؟</string>
+    <string name="offline_notification_text">انقر لفتح الإعلان</string>
+    <string name="offline_notification_title">عرض الإعلان الذي حفظته عند عدم الاتصال بالإنترنت</string>
+    <string name="offline_opt_in_confirm">حسنًا</string>
+    <string name="offline_opt_in_confirmation">ستتلقّى إشعارًا يحتوي على الرابط عند إعادة الاتصال بالإنترنت.</string>
+    <string name="offline_opt_in_decline">لا، شكرًا</string>
+    <string name="offline_opt_in_message">سنرسل إليك إشعارًا يحتوي على رابط إلى الموقع الإلكتروني للمعلِن.</string>
+    <string name="offline_opt_in_title">فتح العنوان عند إعادة الاتصال بالإنترنت</string>
+    <string name="onion">وضع سلخ البصل</string>
+    <string name="out_of_memory_text">جهازك لا يحتوي على ذاكرة كافية. قد لا يعمل التطبيق بشكل صحيح</string>
+    <string name="own_cartoon">حاول الآن رسم رسم كاريكاتوري بنفسك</string>
+    <string name="own_cartoon_2">يمكنك أن تفعل ذلك!</string>
+    <string name="paint">رسم</string>
+    <string name="password_toggle_content_description">عرض كلمة المرور</string>
+    <string name="paste">لصق</string>
+    <string name="premium_version">نسخة متميزة</string>
+    <string name="privacy_policy_apply">موافق</string>
+    <string name="privacy_policy_non_personal_ads">السماح بالإعلانات المخصصة</string>
+    <string name="privacy_policy_policy">سياسة الخصوصية</string>
+    <string name="privacy_policy_policy_button">عرض الشروط</string>
+    <string name="privacy_policy_policy_text">لاستخدام التطبيق ، يجب عليك قبول شروط سياسة الخصوصية</string>
+    <string name="project_name">اسم المشروع</string>
+    <string name="project_name_not_empty">أنت بحاجة إلى اسم المشروع</string>
+    <string name="project_name_tip">الرسوم المتحركة الخاصة بي</string>
+    <string name="project_settings">إعدادات المشروع</string>
+    <string name="projects">المشاريع</string>
+    <string name="push_channel_name">تذكير بالرسم</string>
+    <string name="push_descr_retention_new">اصنع رسوم متحركة بانتظام وطوّر موهبتك 🎨</string>
+    <string name="push_descr_stickers_new">احصل عليهم بسرعة! هل لديك بالفعل أفكار لروائع جديدة؟</string>
+    <string name="push_title_retention_new">هل أنت مستعد للرسم مرة أخرى؟</string>
+    <string name="push_title_stickers_new">ملصقات جديدة متاحة الآن</string>
+    <string name="rate">تقييم</string>
+    <string name="rate_app">تقييم التطبيق</string>
+    <string name="rate_text_new">لقد رسمت كارتونًا رائعًا! هل استمتعت بإنشائه؟</string>
+    <string name="remove_watermark">إزالة العلامة المائية</string>
+    <string name="reset_text">أعاد التشغيل</string>
+    <string name="restore_purchases">استعادة المشتريات</string>
+    <string name="running_dog_text">كلب يركض</string>
+    <string name="s1">حفظ الصورة</string>
+    <string name="s2">هل تريد السماح للإعلان بتخزين الصورة في معرض الصور؟</string>
+    <string name="s3">قبول</string>
+    <string name="s4">رفض</string>
+    <string name="s5">إنشاء حدث تقويم</string>
+    <string name="s6">هل تريد السماح للإعلان بإنشاء حدث تقويم؟</string>
+    <string name="s7">إعلان تجريبي</string>
+    <string name="sale_content_title">كل المحتوى متاح</string>
+    <string name="sale_frames_title">أوراقغير محدودة</string>
+    <string name="sale_premium">احصل على الإصدار المميز</string>
+    <string name="sale_premium_desc">يتم تعطيل جميع أنواع الإعلانات في الإصدار المميز</string>
+    <string name="sale_premium_title">لا اعلانات</string>
+    <string name="sale_reward_desc_1">شاهد مقطعي فيديو قصيرين فقط لإزالة جميع الإعلانات بدون مكافأة لمدة 24 ساعة</string>
+    <string name="sale_reward_thanks_0">بفضلك ، سيصبح المشروع أفضل!</string>
+    <string name="sale_reward_thanks_1">لا مزيد من الإعلانات المفاجئة!</string>
+    <string name="sale_text">دفعة لمرة واحدة مع إمكانية الإلغاء في أي وقت. بالنقر على \"بداية\"، فإنك تؤكد أنه سيتم إرسال فاتورة الدفع إلى حسابك في Google Play.</string>
+    <string name="sale_text_2">إذا رفضت ، فسيظل التطبيق مجانيًا ، ولكنه سيحتوي على إعلانات</string>
+    <string name="sale_text_ios">دفعة لمرة واحدة مع إمكانية الإلغاء في أي وقت. بالنقر على \"بداية\"، فإنك تؤكد أنه سيتم إرسال فاتورة الدفع إلى حسابك في iTunes.</string>
+    <string name="sale_watermark_title">لايوجد علامة مائية</string>
+    <string name="save_changes">احفظ التغييرات</string>
+    <string name="search_menu_title">البحث</string>
+    <string name="settings">إعدادات</string>
+    <string name="share">شارك</string>
+    <string name="share_text" formatted="false">الرسوم المتحركة الجديدة الخاصة بي %1s. مع التطبيق %2s رسم الرسوم المتحركة سهل! %3s</string>
+    <string name="small_fire_text">حريق صغير</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stickman_text">ستيكمان</string>
+    <string name="thanks_feedback_text">شكرا لملاحظاتك!</string>
+    <string name="total_frames">مجموع أوراق: %d</string>
+    <string name="training">الدروس الرسم</string>
+    <string name="tt_00_00">00:00</string>
+    <string name="tt_ad">الإعلان</string>
+    <string name="tt_ad_clicked_text">الإعلان الذي تم النقر عليه</string>
+    <string name="tt_ad_close_text">الإعلان الذي تم إغلاقه</string>
+    <string name="tt_ad_data_error">Response data error</string>
+    <string name="tt_ad_is_closed">االإعلانات مغلقة</string>
+    <string name="tt_ad_logo_txt">AD</string>
+    <string name="tt_ad_showed_text">الإعلان الذي تم عرضه</string>
+    <string name="tt_adslot_empty">No request ad slot</string>
+    <string name="tt_adslot_id_error">Illegal ad slot id</string>
+    <string name="tt_adslot_size_empty">Empty ad slot size</string>
+    <string name="tt_adtype_not_match_rit">Ad slot id error</string>
+    <string name="tt_app_empty">No request app</string>
+    <string name="tt_app_name">tt_open_ad_sdk</string>
+    <string name="tt_auto_play_cancel_text">إلغاء</string>
+    <string name="tt_banner_ad_load_image_error">Banner loading failed</string>
+    <string name="tt_cancel">إلغاء</string>
+    <string name="tt_choose_language">ar</string>
+    <string name="tt_click_to_replay">اضغط لإعادة التشغيل</string>
+    <string name="tt_comment_num">%1$s مراجعات</string>
+    <string name="tt_comment_num_backup">%1$s مراجعات</string>
+    <string name="tt_comment_score">التقييم</string>
+    <string name="tt_confirm_download">أنت غير متصل بشبكة Wi-Fi. هل تريد بالتأكيد التنزيل؟</string>
+    <string name="tt_confirm_download_have_app_name">جارٍ التحضير لتنزيل %s تطبيق (تطبيقات)</string>
+    <string name="tt_content_type">Http content type error</string>
+    <string name="tt_count_down_view">تخطي</string>
+    <string name="tt_dislike_header_tv_back">رجوع</string>
+    <string name="tt_dislike_header_tv_title">تحديد</string>
+    <string name="tt_error_access_method_pass">Illegal access method</string>
+    <string name="tt_error_ad_type">Illegal ad type</string>
+    <string name="tt_error_adtype_differ">Ad type error</string>
+    <string name="tt_error_apk_sign_check_error">Illegal apk sha1 value</string>
+    <string name="tt_error_code_adcount_error">Incorrect number of ad</string>
+    <string name="tt_error_code_click_event_error">Click event error</string>
+    <string name="tt_error_image_size">Illegal image size</string>
+    <string name="tt_error_media_id">Illegal media id</string>
+    <string name="tt_error_media_type">Illegal media type</string>
+    <string name="tt_error_new_register_limit">New ad slot exceeded daily request limit</string>
+    <string name="tt_error_origin_ad_error">Origin type error</string>
+    <string name="tt_error_package_name">Package name error</string>
+    <string name="tt_error_redirect">Redirect error</string>
+    <string name="tt_error_request_invalid">Invalid request</string>
+    <string name="tt_error_slot_id_app_id_differ">SlotId and AppId match error</string>
+    <string name="tt_error_splash_ad_type">Splash ad type error</string>
+    <string name="tt_error_union_os_error">Os type error</string>
+    <string name="tt_error_union_sdk_too_old">Sdk version too low</string>
+    <string name="tt_error_unknow">Unknown error</string>
+    <string name="tt_error_verify_reward">Reward verify error</string>
+    <string name="tt_feedback_experience_text">سنُواصل تحسين خدمتنا.</string>
+    <string name="tt_feedback_submit_text">لقد أرسلتَ الملاحظات! يُرجى عدم الإرسال مرّة أخرى.</string>
+    <string name="tt_feedback_thank_text">شكرًا على تقديم ملاحظاتك!</string>
+    <string name="tt_frequent_call_erroe">Ad requests are too frequent</string>
+    <string name="tt_full_screen_skip_tx">تخطي</string>
+    <string name="tt_get_reward">تم توزيع المكافأة</string>
+    <string name="tt_insert_ad_load_image_error">Interstitial loading failed</string>
+    <string name="tt_label_cancel">إلغاء</string>
+    <string name="tt_label_ok">حسنًا</string>
+    <string name="tt_load_creative_icon_error">Icon loading failed</string>
+    <string name="tt_load_creative_icon_response_error">Icon loading error</string>
+    <string name="tt_load_failed_text">تعذر تحميل الإعلان</string>
+    <string name="tt_load_success_text">تم تحميل الإعلان بنجاح</string>
+    <string name="tt_msgPlayable">قم بإستكمال التشغيل للحصول على المكافآت</string>
+    <string name="tt_negtiveBtnBtnText">مغادرة</string>
+    <string name="tt_negtive_txt">إلغاء</string>
+    <string name="tt_net_error">Network error</string>
+    <string name="tt_no_ad">No ad</string>
+    <string name="tt_no_ad_parse">Parsing data without ad</string>
+    <string name="tt_no_network">لا يوجد اتصال بالشبكة، يرجى إعادة المحاولة لاحقًا.</string>
+    <string name="tt_parse_fail">Parsing error</string>
+    <string name="tt_permission_denied">لقد قمت بتعطيل الأذونات المطلوبة. يرجى تمكينها.</string>
+    <string name="tt_postiveBtnText">استئناف</string>
+    <string name="tt_postiveBtnTextPlayable">متابعة التشغيل</string>
+    <string name="tt_postive_txt">حسنًا</string>
+    <string name="tt_privacy_title">سياسية الخصوصية</string>
+    <string name="tt_reder_ad_load_timeout">Template loading timeout</string>
+    <string name="tt_render_diff_template_invalid">Template diff invalid</string>
+    <string name="tt_render_fail_meta_invalid">Template invalid</string>
+    <string name="tt_render_fail_template_parse_error">Template parsing error</string>
+    <string name="tt_render_fail_timeout">Render timeout</string>
+    <string name="tt_render_fail_unknown">Render failed unknown</string>
+    <string name="tt_render_main_template_invalid">Main template invalid</string>
+    <string name="tt_render_render_parse_error">Render parsing failed</string>
+    <string name="tt_request_body_error">Request entity is empty</string>
+    <string name="tt_request_pb_error">Http request pb error</string>
+    <string name="tt_reward_feedback">الملاحظات</string>
+    <string name="tt_reward_msg">شاهِد الفيديو بأكمله للحصول على مكافأتك</string>
+    <string name="tt_reward_screen_skip_tx">تخطي</string>
+    <string name="tt_reward_video_show_error">خطأ في عرض فيديو المكافأة</string>
+    <string name="tt_ror_code_show_event_error">Show event error</string>
+    <string name="tt_skip_ad_time_text">تخطي بعد s%d ثانية</string>
+    <string name="tt_splash_ad_load_image_error">Splash loading failed</string>
+    <string name="tt_splash_cache_expired_error">Cache expired</string>
+    <string name="tt_splash_cache_parse_error">Cache parsing failed</string>
+    <string name="tt_splash_not_have_cache_error">No splash cache</string>
+    <string name="tt_splash_skip_tv">3 ثوانٍ | تخطي</string>
+    <string name="tt_sys_error">System error</string>
+    <string name="tt_tip">فوري</string>
+    <string name="tt_toast_ad_on_rewarded">Ad on rewarded</string>
+    <string name="tt_toast_later_download">Download later</string>
+    <string name="tt_toast_no_ad">No Ad to Show, Please Load Ad</string>
+    <string name="tt_toast_start_loading">Start Loading</string>
+    <string name="tt_toast_tiktok_ad_failed">TikTok Ad Failed to load, error code is:</string>
+    <string name="tt_try_now">جرب الآن</string>
+    <string name="tt_txt_skip">تخطي</string>
+    <string name="tt_unlike">غير مهتم</string>
+    <string name="tt_video_bytesize">بيانات</string>
+    <string name="tt_video_bytesize_M">M</string>
+    <string name="tt_video_bytesize_MB">MB</string>
+    <string name="tt_video_continue_play">متابعة التشغيل</string>
+    <string name="tt_video_dial_phone">اتصل الآن</string>
+    <string name="tt_video_download_apk">نزِّل الآن</string>
+    <string name="tt_video_mobile_go_detail">العرض الآن</string>
+    <string name="tt_video_retry_des">تعذر التحميل. انقر للمحاولة مرة أخرى</string>
+    <string name="tt_video_retry_des_txt">تعذر التحميل. يرجى المحاولة مرة أخرى.</string>
+    <string name="tt_video_without_wifi_tips">سيؤدي تشغيل هذا المحتوى إلى استخدام بيانات بحجم %.2f ميجابايت</string>
+    <string name="tt_wap_empty">No request wap</string>
+    <string name="tt_web_title_default">الإعلان</string>
+    <string name="tt_will_play">سيتم تشغيل الفيديو</string>
+    <string name="turn_off_ads">ازالة الاعلانات</string>
+    <string name="tutor_begin">بداية</string>
+    <string name="tutor_free">مجانا</string>
+    <string name="tutor_next">استمر</string>
+    <string name="tutorial">الدورة التعليمية</string>
+    <string name="tutorial_hint">اضغط على الأداة التي تريد الحصول على تلميح عنها</string>
+    <string name="tutorial_hint_btn">OK</string>
+    <string name="tutorial_later">لاحقاً</string>
+    <string name="tutorial_later_popup">إذا واجهت أي صعوبات ، يمكنك دائمًا العثور على برنامج تعليمي هنا</string>
+    <string name="tutorial_later_popup_btn">فهمتها</string>
+    <string name="tutorial_lessons">ها هي دروس الرسم</string>
+    <string name="tutorial_lessons_2">ألق نظرة وقم بإنشاء أول رسم كاريكاتوري لك</string>
+    <string name="tutorial_now">أنا مستعد</string>
+    <string name="tutorial_ready">هل أنت مستعد لأخذ درس تعليمي؟</string>
+    <string name="tutorial_start">مرحبًا ، رسام الرسوم المتحركة في المستقبل!</string>
+    <string name="tutorial_start_2">ستجد هنا مساحة غير محدودة للإبداع والإلهام</string>
+    <string name="tutorial_watermark">لإزالة العلامة المائية، شاهد مقطع فيديو قصيرًا</string>
+    <string name="watch">راقب</string>
+    <string name="watermark_label_prefix">AdMob -</string>
+    <string name="waving_cat_text">قطة تلوح</string>
+    <string name="weird_bird_text">طائر غريب</string>
+    <string name="yes_i_agree">نعم، أنا أوافق</string>
+    <string name="you_are_welcome_text">على الرحب والسعة</string>
+    <string name="you_first_lesson">درسك الأول</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene motion:defaultDuration="500"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <ConstraintSet android:id="@id/without_edit_text" />
+    <ConstraintSet android:id="@id/with_edit_text" motion:deriveConstraintsFrom="@id/without_edit_text">
+        <Constraint android:id="@id/image_stickman">
+            <PropertySet android:visibility="invisible" />
+        </Constraint>
+        <Constraint android:id="@id/info_text">
+            <Layout android:layout_width="0.0dip" android:layout_height="0.0dip" motion:layout_constraintBottom_toBottomOf="parent" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintHeight_percent="0.113" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" motion:layout_constraintVertical_bias="0.155" motion:layout_constraintWidth_percent="0.879" />
+        </Constraint>
+        <Constraint android:id="@id/stars_layout">
+            <Layout android:layout_width="0.0dip" android:layout_height="0.0dip" motion:layout_constraintBottom_toBottomOf="parent" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintHeight_percent="0.148" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" motion:layout_constraintVertical_bias="0.353" motion:layout_constraintWidth_percent="0.878" />
+        </Constraint>
+        <Constraint android:id="@id/edit_text_layout">
+            <PropertySet android:visibility="visible" />
+        </Constraint>
+    </ConstraintSet>
+    <Transition motion:constraintSetEnd="@id/with_edit_text" motion:constraintSetStart="@id/without_edit_text" motion:duration="300" motion:motionInterpolator="easeInOut" />
+</MotionScene>

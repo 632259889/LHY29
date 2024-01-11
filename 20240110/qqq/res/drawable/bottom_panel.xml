@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <padding android:top="2.0dip" />
+            <solid android:color="#01000000" />
+            <corners android:topLeftRadius="@dimen/corner_bottom_panel" android:topRightRadius="@dimen/corner_bottom_panel" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="1.5dip" />
+            <solid android:color="#03000000" />
+            <corners android:topLeftRadius="@dimen/corner_bottom_panel" android:topRightRadius="@dimen/corner_bottom_panel" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="1.0dip" />
+            <solid android:color="#05000000" />
+            <corners android:topLeftRadius="@dimen/corner_bottom_panel" android:topRightRadius="@dimen/corner_bottom_panel" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/white" />
+            <corners android:topLeftRadius="@dimen/corner_bottom_panel" android:topRightRadius="@dimen/corner_bottom_panel" />
+        </shape>
+    </item>
+</layer-list>

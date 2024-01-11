@@ -1,0 +1,90 @@
+.class Lcom/yandex/mobile/ads/impl/j8;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/yandex/mobile/ads/impl/w80;
+
+
+# instance fields
+.field private final a:Lcom/yandex/mobile/ads/impl/d8;
+
+.field private final b:Lcom/yandex/mobile/ads/impl/e8;
+
+
+# direct methods
+.method constructor <init>(Lcom/yandex/mobile/ads/impl/d8;Lcom/yandex/mobile/ads/impl/e8;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Lcom/yandex/mobile/ads/impl/j8;->a:Lcom/yandex/mobile/ads/impl/d8;
+
+    .line 3
+    iput-object p2, p0, Lcom/yandex/mobile/ads/impl/j8;->b:Lcom/yandex/mobile/ads/impl/e8;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Landroid/content/Context;Lcom/yandex/mobile/ads/base/AdResponse;Lcom/yandex/mobile/ads/nativeads/NativeAd;Lcom/yandex/mobile/ads/impl/qh;Lcom/yandex/mobile/ads/nativeads/NativeAdEventListener;Lcom/yandex/mobile/ads/impl/e0;)Lcom/yandex/mobile/ads/impl/ri0;
+    .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "Lcom/yandex/mobile/ads/base/AdResponse<",
+            "*>;",
+            "Lcom/yandex/mobile/ads/nativeads/NativeAd;",
+            "Lcom/yandex/mobile/ads/impl/qh;",
+            "Lcom/yandex/mobile/ads/nativeads/NativeAdEventListener;",
+            "Lcom/yandex/mobile/ads/impl/e0;",
+            ")",
+            "Lcom/yandex/mobile/ads/impl/ri0<",
+            "Lcom/yandex/mobile/ads/nativeads/NativeAdView;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/yandex/mobile/ads/impl/j8;->a:Lcom/yandex/mobile/ads/impl/d8;
+
+    sget v5, Lcom/yandex/mobile/ads/R$string;->yandex_ads_internal_install:I
+
+    move-object v1, p2
+
+    move-object v2, p3
+
+    move-object v3, p4
+
+    move-object v4, p5
+
+    .line 2
+    invoke-virtual/range {v0 .. v5}, Lcom/yandex/mobile/ads/impl/d8;->a(Lcom/yandex/mobile/ads/base/AdResponse;Lcom/yandex/mobile/ads/nativeads/NativeAd;Lcom/yandex/mobile/ads/impl/qh;Lcom/yandex/mobile/ads/nativeads/NativeAdEventListener;I)Lcom/yandex/mobile/ads/impl/el;
+
+    move-result-object p1
+
+    .line 5
+    iget-object p3, p0, Lcom/yandex/mobile/ads/impl/j8;->b:Lcom/yandex/mobile/ads/impl/e8;
+
+    const/4 p4, 0x2
+
+    .line 6
+    invoke-virtual {p3, p2, p4}, Lcom/yandex/mobile/ads/impl/e8;->a(Lcom/yandex/mobile/ads/base/AdResponse;I)Lcom/yandex/mobile/ads/impl/fl;
+
+    move-result-object p2
+
+    .line 8
+    new-instance p3, Lcom/yandex/mobile/ads/impl/ri0;
+
+    sget p4, Lcom/yandex/mobile/ads/R$layout;->yandex_ads_internal_app_install_fullscreen_landscape_second_degradation:I
+
+    const-class p5, Lcom/yandex/mobile/ads/nativeads/NativeAdView;
+
+    invoke-direct {p3, p4, p5, p1, p2}, Lcom/yandex/mobile/ads/impl/ri0;-><init>(ILjava/lang/Class;Lcom/yandex/mobile/ads/impl/el;Lcom/yandex/mobile/ads/impl/fl;)V
+
+    return-object p3
+.end method

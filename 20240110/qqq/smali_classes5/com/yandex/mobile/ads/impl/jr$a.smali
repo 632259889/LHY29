@@ -1,0 +1,209 @@
+.class final Lcom/yandex/mobile/ads/impl/jr$a;
+.super Lkotlin/jvm/internal/Lambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/yandex/mobile/ads/impl/jr;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkotlin/jvm/functions/Function2<",
+        "Lcom/yandex/mobile/ads/impl/ly0;",
+        "Lorg/json/JSONObject;",
+        "Lcom/yandex/mobile/ads/impl/jr;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final b:Lcom/yandex/mobile/ads/impl/jr$a;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/yandex/mobile/ads/impl/jr$a;
+
+    invoke-direct {v0}, Lcom/yandex/mobile/ads/impl/jr$a;-><init>()V
+
+    sput-object v0, Lcom/yandex/mobile/ads/impl/jr$a;->b:Lcom/yandex/mobile/ads/impl/jr$a;
+
+    return-void
+.end method
+
+.method constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x2
+
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 6
+
+    .line 1
+    check-cast p1, Lcom/yandex/mobile/ads/impl/ly0;
+
+    check-cast p2, Lorg/json/JSONObject;
+
+    const-string v0, "env"
+
+    .line 2
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v1, "it"
+
+    invoke-static {p2, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 65
+    sget-object v1, Lcom/yandex/mobile/ads/impl/jr;->a:Lcom/yandex/mobile/ads/impl/jr$b;
+
+    .line 66
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "json"
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 120
+    invoke-interface {p1}, Lcom/yandex/mobile/ads/impl/ly0;->b()Lcom/yandex/mobile/ads/impl/ny0;
+
+    move-result-object v3
+
+    const-string v1, "type"
+
+    const/4 v2, 0x0
+
+    const/4 v5, 0x2
+
+    move-object v0, p2
+
+    move-object v4, p1
+
+    .line 121
+    invoke-static/range {v0 .. v5}, Lcom/yandex/mobile/ads/impl/ai0;->a(Lorg/json/JSONObject;Ljava/lang/String;Lcom/yandex/mobile/ads/impl/rh1;Lcom/yandex/mobile/ads/impl/ny0;Lcom/yandex/mobile/ads/impl/ly0;I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/String;
+
+    .line 122
+    invoke-interface {p1}, Lcom/yandex/mobile/ads/impl/ly0;->a()Lcom/yandex/mobile/ads/impl/gd1;
+
+    move-result-object v1
+
+    invoke-interface {v1, v0}, Lcom/yandex/mobile/ads/impl/gd1;->a(Ljava/lang/String;)Lcom/yandex/mobile/ads/impl/ci0;
+
+    move-result-object v1
+
+    instance-of v2, v1, Lcom/yandex/mobile/ads/impl/jr;
+
+    const/4 v3, 0x0
+
+    if-eqz v2, :cond_0
+
+    check-cast v1, Lcom/yandex/mobile/ads/impl/jr;
+
+    goto :goto_0
+
+    :cond_0
+    move-object v1, v3
+
+    :goto_0
+    const-string v2, "shape_drawable"
+
+    if-nez v1, :cond_1
+
+    goto :goto_1
+
+    .line 123
+    :cond_1
+    instance-of v0, v1, Lcom/yandex/mobile/ads/impl/jr$c;
+
+    if-eqz v0, :cond_5
+
+    move-object v0, v2
+
+    .line 126
+    :goto_1
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_4
+
+    new-instance v0, Lcom/yandex/mobile/ads/impl/jr$c;
+
+    new-instance v2, Lcom/yandex/mobile/ads/impl/fx;
+
+    if-nez v1, :cond_2
+
+    goto :goto_2
+
+    .line 127
+    :cond_2
+    instance-of v3, v1, Lcom/yandex/mobile/ads/impl/jr$c;
+
+    if-eqz v3, :cond_3
+
+    check-cast v1, Lcom/yandex/mobile/ads/impl/jr$c;
+
+    invoke-virtual {v1}, Lcom/yandex/mobile/ads/impl/jr$c;->b()Lcom/yandex/mobile/ads/impl/fx;
+
+    move-result-object v3
+
+    :goto_2
+    const/4 v1, 0x0
+
+    .line 128
+    invoke-direct {v2, p1, v3, v1, p2}, Lcom/yandex/mobile/ads/impl/fx;-><init>(Lcom/yandex/mobile/ads/impl/ly0;Lcom/yandex/mobile/ads/impl/fx;ZLorg/json/JSONObject;)V
+
+    invoke-direct {v0, v2}, Lcom/yandex/mobile/ads/impl/jr$c;-><init>(Lcom/yandex/mobile/ads/impl/fx;)V
+
+    return-object v0
+
+    .line 129
+    :cond_3
+    new-instance p1, Lkotlin/NoWhenBranchMatchedException;
+
+    invoke-direct {p1}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+
+    throw p1
+
+    :cond_4
+    const-string p1, "type"
+
+    .line 130
+    invoke-static {p2, p1, v0}, Lcom/yandex/mobile/ads/impl/py0;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)Lcom/yandex/mobile/ads/impl/oy0;
+
+    move-result-object p1
+
+    throw p1
+
+    .line 131
+    :cond_5
+    new-instance p1, Lkotlin/NoWhenBranchMatchedException;
+
+    invoke-direct {p1}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+
+    throw p1
+.end method

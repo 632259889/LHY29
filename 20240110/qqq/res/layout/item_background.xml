@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.appolo13.stickmandrawanimation.ui.background.SquareCardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip" android:foreground="?selectableItemBackground" app:cardCornerRadius="8.0dip" app:cardElevation="@dimen/elevation_card_view" app:cardPreventCornerOverlap="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/preview_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:layout_gravity="end" android:id="@id/lock" android:layout_width="@dimen/size_ad_bg" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:scaleType="fitStart" android:layout_marginEnd="4.0dip" app:srcCompat="@drawable/sticker_ads_icon" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/ic_new" android:layout_width="@dimen/size_ad_bg" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:scaleType="fitEnd" android:layout_marginEnd="4.0dip" app:srcCompat="@drawable/ic_new" />
+</com.appolo13.stickmandrawanimation.ui.background.SquareCardView>
