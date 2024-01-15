@@ -1,0 +1,222 @@
+[
+  {
+    "name": "standard",
+    "colors": [
+      "#FF3944",
+      "#FFEB1B",
+      "#34C40A",
+      "#44D3FF",
+      "#2B2BC5"
+    ]
+  },
+  {
+    "name": "pink_jeans",
+    "colors": [
+      "#CAD5D7",
+      "#EAA2B8",
+      "#63C3C2",
+      "#9F918E",
+      "#D94F66"
+    ]
+  },
+  {
+    "name": "coral_and_black",
+    "colors": [
+      "#FADFD4",
+      "#EAD6BE",
+      "#FAAF9A",
+      "#C3937D",
+      "#000008"
+    ]
+  },
+  {
+    "name": "bright_summer_look",
+    "colors": [
+      "#F6EBD7",
+      "#D5E8EF",
+      "#98E7EE",
+      "#5CFFF6",
+      "#14CBCF"
+    ]
+  },
+  {
+    "name": "lemon_jacket",
+    "colors": [
+      "#FCD264",
+      "#E4A327",
+      "#58A8A5",
+      "#4D2E2B",
+      "#181B2E"
+    ]
+  },
+  {
+    "name": "coral_and_lilac",
+    "colors": [
+      "#7F60BD",
+      "#9290D9",
+      "#FE6A5E",
+      "#F45671",
+      "#EC36A4"
+    ]
+  },
+  {
+    "name": "spring_in_blue",
+    "colors": [
+      "#F6F7FB",
+      "#CBEDF6",
+      "#F3D2DD",
+      "#DED1C9",
+      "#819CC9"
+    ]
+  },
+  {
+    "name": "plum_blouse",
+    "colors": [
+      "#EFD1AB",
+      "#DB916E",
+      "#977A6A",
+      "#532237",
+      "#222649"
+    ]
+  },
+  {
+    "name": "retro_in_beige_shades",
+    "colors": [
+      "#E9DAC3",
+      "#E2E4D7",
+      "#AFB695",
+      "#B99772",
+      "#C17B48"
+    ]
+  },
+  {
+    "name": "brown_and_turquoise",
+    "colors": [
+      "#E7E0C6",
+      "#D1BD9C",
+      "#59BCB9",
+      "#6C7F79",
+      "#904C3F"
+    ]
+  },
+  {
+    "name": "mustard_and_grey",
+    "colors": [
+      "#F7D84A",
+      "#CAA41B",
+      "#8B898E",
+      "#2D3752",
+      "#2F2C27"
+    ]
+  },
+  {
+    "name": "combination_with_light_plum",
+    "colors": [
+      "#F6F7FB",
+      "#DABDBF",
+      "#9C6B7E",
+      "#DB9B7F",
+      "#23222A"
+    ]
+  },
+  {
+    "name": "blue_and_orange",
+    "colors": [
+      "#F3CA9C",
+      "#FF8856",
+      "#F15510",
+      "#5965B1",
+      "#222E6A"
+    ]
+  },
+  {
+    "name": "denim_tones",
+    "colors": [
+      "#FCFDFF",
+      "#EBEAD8",
+      "#E4C99C",
+      "#7E96A2",
+      "#5B6172"
+    ]
+  },
+  {
+    "name": "casual",
+    "colors": [
+      "#F2E5DC",
+      "#D8C09C",
+      "#C03D43",
+      "#782422",
+      "#493E5C"
+    ]
+  },
+  {
+    "name": "yellow_and_green",
+    "colors": [
+      "#FFD46E",
+      "#FFC01B",
+      "#5BA4CE",
+      "#01A379",
+      "#006650"
+    ]
+  },
+  {
+    "name": "plum_and_grey",
+    "colors": [
+      "#A47470",
+      "#B8ACB6",
+      "#393C5B",
+      "#917C83",
+      "#764A63"
+    ]
+  },
+  {
+    "name": "plum_and_brown",
+    "colors": [
+      "#F8F8FD",
+      "#F2D8D7",
+      "#6B2734",
+      "#744330",
+      "#876C3F"
+    ]
+  },
+  {
+    "name": "a_combination_of_calm_shades_and_dark_blue",
+    "colors": [
+      "#FCE9E6",
+      "#FCD4D0",
+      "#CDD9E7",
+      "#6593A2",
+      "#192938"
+    ]
+  },
+  {
+    "name": "plum_and_pastel_shades",
+    "colors": [
+      "#513039",
+      "#DBC5C8",
+      "#EEC4B8",
+      "#7F97C5",
+      "#DAD8D9"
+    ]
+  },
+  {
+    "name": "blue_and_gray",
+    "colors": [
+      "#DAE0E0",
+      "#BEBDC5",
+      "#A8CCF0",
+      "#757B8B",
+      "#19181D"
+    ]
+  },
+  {
+    "name": "beige_and_turquoise",
+    "colors": [
+      "#FEFBEA",
+      "#E0CDBD",
+      "#F5BCA3",
+      "#A6EFE4",
+      "#D09B69"
+    ]
+  }
+]

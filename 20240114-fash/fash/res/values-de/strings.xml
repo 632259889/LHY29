@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Choose_pricing_plan">Tarifauswahl</string>
+    <string name="Privacy_policy">Datenschutzrichtlinie</string>
+    <string name="Selected_model">Wählen Sie ein Modell aus</string>
+    <string name="Share_Your_Design">Teilen</string>
+    <string name="a_combination_of_brown_and_khaki">Kombination von braun und khaki</string>
+    <string name="a_combination_of_calm_shades_and_dark_blue">Kombination aus ruhigen Farben und dunkelblau</string>
+    <string name="a_combination_of_orange_and_dark_shades">Kombination von oranger und dunkler Farbe</string>
+    <string name="abc_action_bar_home_description">Zur Startseite</string>
+    <string name="abc_action_bar_up_description">Nach oben</string>
+    <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
+    <string name="abc_action_mode_done">Fertig</string>
+    <string name="abc_activity_chooser_view_see_all">Alle anzeigen</string>
+    <string name="abc_activitychooserview_choose_application">App auswählen</string>
+    <string name="abc_capital_off">AUS</string>
+    <string name="abc_capital_on">AN</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Strg +</string>
+    <string name="abc_menu_delete_shortcut_label">Löschen</string>
+    <string name="abc_menu_enter_shortcut_label">Eingabetaste</string>
+    <string name="abc_menu_function_shortcut_label">Funktionstaste +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta-Taste +</string>
+    <string name="abc_menu_shift_shortcut_label">Umschalttaste +</string>
+    <string name="abc_menu_space_shortcut_label">Leertaste</string>
+    <string name="abc_menu_sym_shortcut_label">Sym-Taste +</string>
+    <string name="abc_prepend_shortcut_label">Menütaste +</string>
+    <string name="abc_search_hint">Suchen…</string>
+    <string name="abc_searchview_description_clear">Suchanfrage löschen</string>
+    <string name="abc_searchview_description_query">Suchanfrage</string>
+    <string name="abc_searchview_description_search">Suche</string>
+    <string name="abc_searchview_description_submit">Anfrage senden</string>
+    <string name="abc_searchview_description_voice">Sprachsuche</string>
+    <string name="abc_shareactionprovider_share_with">Teilen mit</string>
+    <string name="abc_shareactionprovider_share_with_application">Mit %s teilen</string>
+    <string name="abc_toolbar_collapse_description">Minimieren</string>
+    <string name="accessories">Accessoires</string>
+    <string name="app_label">Fashion Design Sketchess</string>
+    <string name="attention">ACHTUNG</string>
+    <string name="beige_and_bright_blue">Beige und hellblau</string>
+    <string name="beige_and_grey">Beige und grau</string>
+    <string name="beige_and_turquoise">Beige und Türkis</string>
+    <string name="belt">Gürtel</string>
+    <string name="blue_and_beige">Blau und beige</string>
+    <string name="blue_and_gray">Blau und grau</string>
+    <string name="blue_and_orange">Kombination mit einer leichten pflaumenblau</string>
+    <string name="bodice">Mieder</string>
+    <string name="bottom">Unterteil</string>
+    <string name="bottom_details">Teile des Unterteils</string>
+    <string name="bottom_sheet_collapse_description">Ansicht am unteren Rand minimieren</string>
+    <string name="bottom_sheet_dismiss_description">Ansicht am unteren Rand schließen</string>
+    <string name="bottom_sheet_drag_handle_description">Ziehpunkt</string>
+    <string name="bottom_sheet_expand_description">Ansicht am unteren Rand maximieren</string>
+    <string name="bottomsheet_action_collapse">Ansicht am unteren Rand minimieren</string>
+    <string name="bottomsheet_action_expand">Ansicht am unteren Rand maximieren</string>
+    <string name="bottomsheet_action_expand_halfway">Zur Hälfte maximieren</string>
+    <string name="bottomsheet_drag_handle_clicked">Auf Ziehpunkt doppelt getippt</string>
+    <string name="bottomsheet_drag_handle_content_description">Ziehpunkt</string>
+    <string name="bright_summer_look">Helles Sommerbild</string>
+    <string name="brown_and_turquoise">Braun und türkis</string>
+    <string name="call_notification_answer_action">Annehmen</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Ablehnen</string>
+    <string name="call_notification_hang_up_action">Auflegen</string>
+    <string name="call_notification_incoming_text">Eingehender Anruf</string>
+    <string name="call_notification_ongoing_text">Aktueller Anruf</string>
+    <string name="call_notification_screening_text">Filter für eingehenden Anruf</string>
+    <string name="calm_tones">Ruhige Farben</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="casual">Casual</string>
+    <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
+    <string name="character_counter_overflowed_content_description">Zeichenbeschränkung überschritten: %1$d/%2$d</string>
+    <string name="clear_text_end_icon_content_description">Text löschen</string>
+    <string name="close_drawer">Navigationsmenü schließen</string>
+    <string name="close_sheet">Tabelle schließen</string>
+    <string name="collapsed">Minimiert</string>
+    <string name="collar">Halsband</string>
+    <string name="combination_of_dark_and_light_shades">Kombination von dunklen und hellen Farbtönen</string>
+    <string name="combination_with_light_plum">Kombination mit hellgrau</string>
+    <string name="common_google_play_services_enable_button">Aktivieren</string>
+    <string name="common_google_play_services_enable_text">%1$s funktioniert erst nach der Aktivierung der Google Play-Dienste.</string>
+    <string name="common_google_play_services_enable_title">Google Play-Dienste aktivieren</string>
+    <string name="common_google_play_services_install_button">Installieren</string>
+    <string name="common_google_play_services_install_text">Zur Nutzung von %1$s sind die Google Play-Dienste erforderlich, die auf deinem Gerät nicht installiert sind.</string>
+    <string name="common_google_play_services_install_title">Google Play-Dienste installieren</string>
+    <string name="common_google_play_services_notification_channel_name">Verfügbarkeit von Google Play-Diensten</string>
+    <string name="common_google_play_services_notification_ticker">Fehler bei Zugriff auf Google Play-Dienste</string>
+    <string name="common_google_play_services_unknown_issue">%1$s hat Probleme mit Google Play-Diensten. Bitte versuche es noch einmal.</string>
+    <string name="common_google_play_services_unsupported_text">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die auf deinem Gerät nicht unterstützt werden.</string>
+    <string name="common_google_play_services_update_button">Aktualisieren</string>
+    <string name="common_google_play_services_update_text">%1$s wird nur ausgeführt, wenn du die Google Play-Dienste aktualisierst.</string>
+    <string name="common_google_play_services_update_title">Google Play-Dienste aktualisieren</string>
+    <string name="common_google_play_services_updating_text">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die gerade aktualisiert werden.</string>
+    <string name="common_google_play_services_wear_update_text">Eine neue Version der Google Play-Dienste wird benötigt. Diese wird in Kürze automatisch aktualisiert.</string>
+    <string name="common_open_on_phone">Auf Smartphone öffnen</string>
+    <string name="common_signin_button_text">Anmelden</string>
+    <string name="common_signin_button_text_long">Über Google anmelden</string>
+    <string name="competition">für den besten Designer</string>
+    <string name="contest">Wettbewerb</string>
+    <string name="contest_action">Wettbewerb</string>
+    <string name="contest_item_action">Nehmen Sie am Wettbewerb teil</string>
+    <string name="contest_terms">Die Werke der Nutzer können später für Promoscreenshots auf Google Play Store verwendet werden, und wenn Sie uns Ihr Design senden, akzeptieren Sie es und gewähren Sie uns unentgeltliche einfache (nichtausschließliche) Lizenz für Ihr Design. Nur Premium-Benutzer mit aktiviertem Abonnement können an diesem Wettbewerb teilnehmen. Jede Fashion-Saison werden wir die besten Designs wählen und sie auf der Homepage der App auf Google Play Store platzieren.</string>
+    <string name="continue_with_limited_version">Mit der eingeschränkten Version fortsetzen</string>
+    <string name="copy_toast_msg">Link in Zwischenablage kopiert</string>
+    <string name="coral_and_black">Korallenrot und schwarz</string>
+    <string name="coral_and_lilac">Korallenrot und lila</string>
+    <string name="create_project">Design erstellen</string>
+    <string name="crimson_and_light_gray">Himbeerrot und hellgrau</string>
+    <string name="dark_blue_and_brown">Dunkelblau und braun</string>
+    <string name="dark_blue_and_white">Dunkelblau und weiß</string>
+    <string name="dark_green_is_back_in_fashion">Grau ist wieder im Trend</string>
+    <string name="date_input_headline">Eingabedatum:</string>
+    <string name="date_input_headline_description">Eingabedatum: %1$s</string>
+    <string name="date_input_invalid_for_pattern">Datum entspricht nicht dem erwarteten Format: %1$s</string>
+    <string name="date_input_invalid_not_allowed">Unzulässiges Datum: %1$s</string>
+    <string name="date_input_invalid_year_range">Datum liegt außerhalb des erwarteten Jahresbereichs (%1$s–%2$s)</string>
+    <string name="date_input_label">Datum</string>
+    <string name="date_input_no_input_description">Kein Datum</string>
+    <string name="date_input_title">Datum auswählen</string>
+    <string name="date_picker_headline">Ausgewähltes Datum</string>
+    <string name="date_picker_headline_description">Aktuelle Auswahl: %1$s</string>
+    <string name="date_picker_navigate_to_year_description">Zum Jahr %1$s wechseln</string>
+    <string name="date_picker_no_selection_description">Keine</string>
+    <string name="date_picker_scroll_to_earlier_years">Zum Ansehen vorheriger Jahre scrollen</string>
+    <string name="date_picker_scroll_to_later_years">Zum Ansehen nachfolgender Jahre scrollen</string>
+    <string name="date_picker_switch_to_calendar_mode">In den Kalendereingabemodus wechseln</string>
+    <string name="date_picker_switch_to_day_selection">Wischen, um ein Jahr auszuwählen, oder tippen, um zur Tagesauswahl zurückzukehren</string>
+    <string name="date_picker_switch_to_input_mode">In den Texteingabemodus wechseln</string>
+    <string name="date_picker_switch_to_next_month">Zum nächsten Monat wechseln</string>
+    <string name="date_picker_switch_to_previous_month">Zum vorherigen Monat wechseln</string>
+    <string name="date_picker_switch_to_year_selection">Zur Jahresauswahl wechseln</string>
+    <string name="date_picker_title">Datum auswählen</string>
+    <string name="date_picker_today_description">Heute</string>
+    <string name="date_picker_year_picker_pane_title">Jahresauswahl sichtbar</string>
+    <string name="date_range_input_invalid_range_input">Angegebener Zeitraum ungültig</string>
+    <string name="date_range_input_title">Daten eingeben</string>
+    <string name="date_range_picker_day_in_range">Im Zeitraum</string>
+    <string name="date_range_picker_end_headline">Enddatum</string>
+    <string name="date_range_picker_scroll_to_next_month">Zum Ansehen des nächsten Monats scrollen</string>
+    <string name="date_range_picker_scroll_to_previous_month">Zum Ansehen des vorherigen Monats scrollen</string>
+    <string name="date_range_picker_start_headline">Startdatum</string>
+    <string name="date_range_picker_title">Daten auswählen</string>
+    <string name="default_error_message">Ungültige Eingabe</string>
+    <string name="default_popup_window_title">Pop-up-Fenster</string>
+    <string name="denim_tones">Jeansfarben</string>
+    <string name="dialog">Dialogfeld</string>
+    <string name="dropdown_menu">Drop-down-Menü</string>
+    <string name="error_icon_content_description">Fehler</string>
+    <string name="exo_controls_cc_disabled_description">Untertitel aktivieren</string>
+    <string name="exo_controls_cc_enabled_description">Untertitel deaktivieren</string>
+    <string name="exo_controls_fastforward_description">Vorspulen</string>
+    <string name="exo_controls_fullscreen_enter_description">Vollbild aktivieren</string>
+    <string name="exo_controls_fullscreen_exit_description">Vollbild beenden</string>
+    <string name="exo_controls_hide">Player-Steuerelemente ausblenden</string>
+    <string name="exo_controls_next_description">Weiter</string>
+    <string name="exo_controls_overflow_hide_description">Zusätzliche Einstellungen ausblenden</string>
+    <string name="exo_controls_overflow_show_description">Zusätzliche Einstellungen einblenden</string>
+    <string name="exo_controls_pause_description">Pausieren</string>
+    <string name="exo_controls_play_description">Wiedergeben</string>
+    <string name="exo_controls_playback_speed">Geschwindigkeit</string>
+    <string name="exo_controls_previous_description">Zurück</string>
+    <string name="exo_controls_repeat_all_description">Aktueller Modus: alles wiederholen. Wiederholungsmodus ändern.</string>
+    <string name="exo_controls_repeat_off_description">Aktueller Modus: nichts wiederholen. Wiederholungsmodus ändern.</string>
+    <string name="exo_controls_repeat_one_description">Aktueller Modus: einen Titel wiederholen. Wiederholungsmodus ändern.</string>
+    <string name="exo_controls_rewind_description">Zurückspulen</string>
+    <string name="exo_controls_seek_bar_description">Wiedergabefortschritt</string>
+    <string name="exo_controls_settings_description">Einstellungen</string>
+    <string name="exo_controls_show">Player-Steuerelemente anzeigen</string>
+    <string name="exo_controls_shuffle_off_description">Zufallsmix aktivieren</string>
+    <string name="exo_controls_shuffle_on_description">Zufallsmix deaktivieren</string>
+    <string name="exo_controls_stop_description">Beenden</string>
+    <string name="exo_controls_vr_description">VR-Modus</string>
+    <string name="exo_download_completed">Download abgeschlossen</string>
+    <string name="exo_download_description">Herunterladen</string>
+    <string name="exo_download_downloading">Wird heruntergeladen</string>
+    <string name="exo_download_failed">Download fehlgeschlagen</string>
+    <string name="exo_download_notification_channel_name">Downloads</string>
+    <string name="exo_download_paused">Downloads pausiert</string>
+    <string name="exo_download_paused_for_network">Auf Netzwerkverbindung wird gewartet</string>
+    <string name="exo_download_paused_for_wifi">Auf WLAN-Verbindung wird gewartet</string>
+    <string name="exo_download_removing">Downloads werden entfernt</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbit/s</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternativer Track</string>
+    <string name="exo_track_role_closed_captions">Untertitel</string>
+    <string name="exo_track_role_commentary">Kommentare</string>
+    <string name="exo_track_role_supplementary">Zusatzinhalte</string>
+    <string name="exo_track_selection_auto">Automatisch</string>
+    <string name="exo_track_selection_none">Ohne</string>
+    <string name="exo_track_selection_title_audio">Audio</string>
+    <string name="exo_track_selection_title_text">Text</string>
+    <string name="exo_track_selection_title_video">Video</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Surround-Sound</string>
+    <string name="exo_track_surround_5_point_1">5.1-Surround-Sound</string>
+    <string name="exo_track_surround_7_point_1">7.1-Surround-Sound</string>
+    <string name="exo_track_unknown">Unbekannt</string>
+    <string name="expanded">Maximiert</string>
+    <string name="exposed_dropdown_menu_content_description">Drop-down-Menü anzeigen</string>
+    <string name="face">Gesicht</string>
+    <string name="fallback_menu_item_copy_link">Link kopieren</string>
+    <string name="fallback_menu_item_open_in_browser">Im Browser öffnen</string>
+    <string name="fallback_menu_item_share_link">Link teilen</string>
+    <string name="fcm_fallback_notification_channel_label">Sonstiges</string>
+    <string name="feature_first_description">"Wir veranstalten einen Wettbewerb für junge Modedesigner. 
+Die besten Designs werden von allen Benutzern im Bereich \"Stories\" angezeigt."</string>
+    <string name="feature_first_title">MODEWETTBEWERB</string>
+    <string name="feature_fourth_description">"Wir aktualisieren regelmäßig das Content: neue Kleidungsstücke, Leinwände und Modelle. 
+Jetzt können Sie Ihre eigene Hochzeitskollektion erstellen."</string>
+    <string name="feature_fourth_title">FREIE WAHL</string>
+    <string name="feature_second_description">"Skizzen werden mit Liebe zum Detail zum Leben erweckt. 
+Muster und Drucke können verwendet werden, um Pailletten und Strasssteine zu erstellen und Stoffen Textur zu verleihen."</string>
+    <string name="feature_second_title">MUSTER ZUR ZAUBERERSTELLUNG</string>
+    <string name="feature_third_description">"Wenn Sie Skizzen erstellen, möchten Sie den Pinsel in Ihrer Hand fühlen und seine Textur sehen. 
+Wir haben die Werkzeuge des Künstlers so realistisch gestaltet, dass Sie die Skizze berühren möchten."</string>
+    <string name="feature_third_title">PINSEL WIE ECHT</string>
+    <string name="for_the_best_fashion_design_and_everyone_will_see_your_design">für das Beste Kleidungsdesign teil, und Ihre Werke werden alle sehen!</string>
+    <string name="free">AUSPROBIEREN</string>
+    <string name="free_drawing">Freies Zeichnen</string>
+    <string name="grey_beige_and_blue">Grau, beige und blau</string>
+    <string name="grey_is_back_in_fashion">Dunkelgrün ist wieder im Trend</string>
+    <string name="hairstyles">Frisuren</string>
+    <string name="headdress">Kopfbekleidung</string>
+    <string name="icon_content_description">Dialogfeldsymbol</string>
+    <string name="in_progress">In Bearbeitung</string>
+    <string name="indeterminate">Teilweise aktiviert</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="lemon_jacket">Marinefarben mit gelb</string>
+    <string name="mail_client_is_not_configured">Ihr E-Mail-Client ist nicht konfiguriert. Konfigurieren Sie es und versuchen Sie wieder zu senden. fashiondesignsketches@mail.ru</string>
+    <string name="material_clock_toggle_content_description">Vormittags oder Nachmittags auswählen</string>
+    <string name="material_hour_24h_suffix">%1$s Stunden</string>
+    <string name="material_hour_selection">Stunde auswählen</string>
+    <string name="material_hour_suffix">%1$s Uhr</string>
+    <string name="material_minute_selection">Minuten auswählen</string>
+    <string name="material_minute_suffix">%1$s Minuten</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">In den Uhrzeitmodus wechseln, um die Uhrzeit einzugeben.</string>
+    <string name="material_timepicker_hour">Stunde</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Uhrzeit auswählen</string>
+    <string name="material_timepicker_text_input_mode_description">In den Texteingabemodus wechseln, um die Uhrzeit einzugeben.</string>
+    <string name="model_hint">Design</string>
+    <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Mehr als %1$d neue Benachrichtigungen</string>
+    <string name="mtrl_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
+    <string name="mtrl_picker_a11y_prev_month">Zum vorherigen Monat wechseln</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
+    <string name="mtrl_picker_cancel">Abbrechen</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Datum auswählen</string>
+    <string name="mtrl_picker_date_header_unselected">Ausgewähltes Datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Spalte \"Wochentag\": %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ungültiges Format.</string>
+    <string name="mtrl_picker_invalid_format_example">Beispiel: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Format: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ungültiger Bereich.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Zum Jahr %1$s wechseln</string>
+    <string name="mtrl_picker_out_of_range">Außerhalb des Bereichs: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdatum – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Enddatum</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Zeitraum auswählen</string>
+    <string name="mtrl_picker_range_header_unselected">Startdatum – Enddatum</string>
+    <string name="mtrl_picker_save">Speichern</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Enddatum</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+    <string name="mtrl_picker_text_input_day_abbr">T</string>
+    <string name="mtrl_picker_text_input_month_abbr">M</string>
+    <string name="mtrl_picker_text_input_year_abbr">J</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">In den Kalendereingabemodus wechseln</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tippen, um zur Tagesauswahl zu wechseln</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">In den Texteingabemodus wechseln</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tippen, um zur Jahresauswahl zu wechseln</string>
+    <string name="mtrl_timepicker_cancel">Abbrechen</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="mustard_and_grey">Senffarbig und grau</string>
+    <string name="my_project">Meine Designs</string>
+    <string name="nav_app_bar_navigate_up_description">Nach oben</string>
+    <string name="nav_app_bar_open_drawer_description">Navigationsleiste öffnen</string>
+    <string name="navigation_menu">Navigationsmenü</string>
+    <string name="neckline">Halsausschnitt</string>
+    <string name="nickname_name">Nickname/ Name</string>
+    <string name="no_internet_connection">Keine Internetverbindung</string>
+    <string name="not_selected">Nicht ausgewählt</string>
+    <string name="off">Aus</string>
+    <string name="offer_one_month_period">1 Monat</string>
+    <string name="offer_one_month_price">"* / 
+Monat"</string>
+    <string name="offer_one_month_title">"Beste
+Wahl"</string>
+    <string name="offer_one_year_period">12 Monate</string>
+    <string name="offer_one_year_price">"* / 
+12 Monate"</string>
+    <string name="offer_one_year_title">Meister</string>
+    <string name="offer_one_year_without_trial_info">"Die Dauer des Abonnements beträgt 12 Monate. Dieses Abonnement wird automatisch verlängert und kostet *. 
+• Sie können Ihr Abonnement jederzeit stornieren. 
+• Nachdem Sie Ihren Einkauf bestätigt haben, wird Ihr Konto mit dem entsprechenden Betrag belastet. 
+• Das Abonnement wird automatisch verlängert, wenn es spätestens 24 Stunden vor dem Ablauf des aktuellen Zeitraums nicht storniert wurde. 
+• Innerhalb von 24 Stunden vor dem Ende des aktuellen Abonnementszeitraums wird Ihr Konto mit dem entsprechenden Betrag belastet. 
+• Nach dem Kauf können Sie Ihre Abonnements in den Einstellungen von Ihrem Konto verwalten und deaktivieren. 
+ACHTUNG: Vor dem Kauf lesen Sie bitte unsere Nutzungsbedingungen und Datenschutzrichtlinie."</string>
+    <string name="offer_popup_price_six_months">3 Tage kostenlos, dann * pro 6 Monate</string>
+    <string name="offer_popup_price_three_months">3 Tage kostenlos, dann %1$s pro 3 Monate</string>
+    <string name="offer_sale">* RABATT</string>
+    <string name="offer_six_month_period">6 Monate</string>
+    <string name="offer_six_month_price">"* / 
+6 Monate"</string>
+    <string name="offer_six_month_title">Amateur</string>
+    <string name="offer_six_month_with_trial_info">"Ein Abonnement für 6 Monate bietet eine dreitägige Probenutzungszeit an. Nach dem Ende der Probenutzungszeit, werden von Ihrem Konto Mittel im Betrag von * abgebucht, wenn Sie auf das Abonnement vor dem Ende der Probenutzungszeit nicht verzichten. 
+• Sie können Ihr Abonnement jederzeit stornieren. 
+• Nachdem Sie Ihren Einkauf bestätigt haben, wird Ihr Konto mit dem entsprechenden Betrag belastet. 
+• Das Abonnement wird automatisch verlängert, wenn es spätestens 24 Stunden vor dem Ablauf des aktuellen Zeitraums nicht storniert wurde. 
+• Innerhalb von 24 Stunden vor dem Ende des aktuellen Abonnementszeitraums wird Ihr Konto mit dem entsprechenden Betrag belastet. 
+• Nach dem Kauf können Sie Ihre Abonnements in den Einstellungen von Ihrem Konto verwalten und deaktivieren. 
+ACHTUNG: Vor dem Kauf lesen Sie bitte unsere Nutzungsbedingungen und Datenschutzrichtlinie."</string>
+    <string name="offer_six_month_without_trial_info">"Die Dauer des Abonnements beträgt 6 Monate. Dieses Abonnement wird automatisch verlängert und kostet *. 
+• Sie können Ihr Abonnement jederzeit stornieren. 
+• Nachdem Sie Ihren Einkauf bestätigt haben, wird Ihr Konto mit dem entsprechenden Betrag belastet. 
+• Das Abonnement wird automatisch verlängert, wenn es spätestens 24 Stunden vor dem Ablauf des aktuellen Zeitraums nicht storniert wurde. 
+• Innerhalb von 24 Stunden vor dem Ende des aktuellen Abonnementszeitraums wird Ihr Konto mit dem entsprechenden Betrag belastet. 
+• Nach dem Kauf können Sie Ihre Abonnements in den Einstellungen von Ihrem Konto verwalten und deaktivieren. 
+ACHTUNG: Vor dem Kauf lesen Sie bitte unsere Nutzungsbedingungen und Datenschutzrichtlinie."</string>
+    <string name="offer_title">Keine Grenzen mehr für Ihre Kunst, wählen Sie einfach den richtigen Plan, der Ihren Bedürfnissen entspricht!</string>
+    <string name="offer_trial_period">3 Tage kostenlos</string>
+    <string name="ok">OK</string>
+    <string name="on">An</string>
+    <string name="outerwear">Oberbekleidung</string>
+    <string name="participate">Teilnehmen!</string>
+    <string name="password_toggle_content_description">Passwort anzeigen</string>
+    <string name="pink_jeans">Pink und grau</string>
+    <string name="plum_and_brown">Pflaumenblau und braun</string>
+    <string name="plum_and_grey">Pflaumenblau und grau</string>
+    <string name="plum_and_pastel_shades">Pflaumenblau und Pastellfarben</string>
+    <string name="plum_blouse">Pflaumenblau und beige</string>
+    <string name="range_end">Bereichsende</string>
+    <string name="range_start">Bereichsstart</string>
+    <string name="rate_us_cancel">Vielleicht später</string>
+    <string name="rate_us_description">Klicken Sie auf den Stern, um sie auf dem Markt zu bewerten</string>
+    <string name="rate_us_low_rate">Danke! Ihr Feedback ist uns wichtig</string>
+    <string name="rate_us_send">Jetzt bewerten</string>
+    <string name="rate_us_title">Wie hoch würden Sie diese App bewerten?</string>
+    <string name="retro_in_beige_shades">Retro in beigen Farben</string>
+    <string name="search_bar_search">Suchen</string>
+    <string name="search_menu_title">Suche</string>
+    <string name="selected">Ausgewählt</string>
+    <string name="settings">Einstellungen</string>
+    <string name="shared_offer_learn_more">Mehr Infos</string>
+    <string name="shared_offer_popup_description">Testen Sie die Funktionen der App während der kostenlosen Probenutzungszeit</string>
+    <string name="shared_offer_popup_title">PROBIEREN SIE KOSTENLOS!</string>
+    <string name="shared_offer_privacy_policy">Datenschutzrichtlinie</string>
+    <string name="shared_offer_terms_of_use">Nutzungsbedingungen</string>
+    <string name="shoes">Schuhe</string>
+    <string name="shoulders">Schultern</string>
+    <string name="simple_but_you_can">Einfach aber modisch</string>
+    <string name="site">Website der App</string>
+    <string name="skirt">Rock</string>
+    <string name="sleeves">Ärmel</string>
+    <string name="snackbar_dismiss">Schließen</string>
+    <string name="spring_in_blue">Frühling in blau</string>
+    <string name="standard">Einheitliche</string>
+    <string name="start">Beginnen</string>
+    <string name="start_design_again">Möchten Sie wirklich alle Teile löschen und das Design erneut starten?</string>
+    <string name="start_offer_one_month_with_trial_info">"Das 1-Monats-Abonnement bietet eine Testphase von 3 Tagen. Nach dem Ende der Probenutzungszeit, werden von Ihrem Konto Mittel im Betrag von * abgebucht, wenn Sie auf das Abonnement vor dem Ende der Probenutzungszeit nicht verzichten. 
+• Sie können Ihr Abonnement jederzeit stornieren. 
+• Nachdem Sie Ihren Einkauf bestätigt haben, wird Ihr Konto mit dem entsprechenden Betrag belastet. 
+• Das Abonnement wird automatisch verlängert, wenn es spätestens 24 Stunden vor dem Ablauf des aktuellen Zeitraums nicht storniert wurde. 
+• Innerhalb von 24 Stunden vor dem Ende des aktuellen Abonnementszeitraums wird Ihr Konto mit dem entsprechenden Betrag belastet. 
+• Nach dem Kauf können Sie Ihre Abonnements in den Einstellungen von Ihrem Konto verwalten und deaktivieren. 
+ACHTUNG: Vor dem Kauf lesen Sie bitte unsere Nutzungsbedingungen und Datenschutzrichtlinie."</string>
+    <string name="start_offer_one_month_without_trial_info">"Die Dauer des Abonnements beträgt 1 Monat. Dieses Abonnement wird automatisch verlängert und kostet *. 
+• Sie können Ihr Abonnement jederzeit stornieren. 
+• Nachdem Sie Ihren Einkauf bestätigt haben, wird Ihr Konto mit dem entsprechenden Betrag belastet. 
+• Das Abonnement wird automatisch verlängert, wenn es spätestens 24 Stunden vor dem Ablauf des aktuellen Zeitraums nicht storniert wurde. 
+• Innerhalb von 24 Stunden vor dem Ende des aktuellen Abonnementszeitraums wird Ihr Konto mit dem entsprechenden Betrag belastet. 
+• Nach dem Kauf können Sie Ihre Abonnements in den Einstellungen von Ihrem Konto verwalten und deaktivieren. 
+ACHTUNG: Vor dem Kauf lesen Sie bitte unsere Nutzungsvereinbarung und Datenschutzrichtlinie."</string>
+    <string name="start_offer_one_week_without_trial_info">"Die Dauer des Abonnements beträgt 1 Woche. Dieses Abonnement wird automatisch verlängert und kostet *. 
+• Sie können Ihr Abonnement jederzeit stornieren. 
+• Nachdem Sie Ihren Einkauf bestätigt haben, wird Ihr Konto mit dem entsprechenden Betrag belastet. 
+• Das Abonnement wird automatisch verlängert, wenn es spätestens 24 Stunden vor dem Ablauf des aktuellen Zeitraums nicht storniert wurde. 
+• Innerhalb von 24 Stunden vor dem Ende des aktuellen Abonnementszeitraums wird Ihr Konto mit dem entsprechenden Betrag belastet. 
+• Nach dem Kauf können Sie Ihre Abonnements in den Einstellungen von Ihrem Konto verwalten und deaktivieren. 
+ACHTUNG: Vor dem Kauf lesen Sie bitte unsere Nutzungsbedingungen und Datenschutzrichtlinie."</string>
+    <string name="start_offer_price_week">Nur * pro Woche</string>
+    <string name="start_offer_price_with_trial">3 Tage kostenlos, dann * pro Monat</string>
+    <string name="start_offer_price_without_trial">Nur * pro Monat</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stories_tutorial_description_first">Vielen Dank, dass Sie unsere Anwendung verwenden.</string>
+    <string name="stories_tutorial_description_second">Die endgültigen Ergebnisse wurden noch nicht bekannt gegeben, Sie haben immer noch die Chance zu gewinnen. Senden Sie Ihre coolen Designs ein!</string>
+    <string name="stories_tutorial_title">Die besten Designs!</string>
+    <string name="submit">Senden</string>
+    <string name="suggestions_available">Vorschläge unten</string>
+    <string name="switch_role">Wechseln</string>
+    <string name="t_shirt">T-Shirt</string>
+    <string name="tab">Tab</string>
+    <string name="take_part_in_the_competition">Nehmen Sie am Wettbewerb</string>
+    <string name="template_percent">%1$d Prozent.</string>
+    <string name="text_delete">Löschen</string>
+    <string name="text_delete_project">Möchten Sie das Design wirklich löschen?</string>
+    <string name="text_input_project_name">Geben Sie Ihren Designnamen ein</string>
+    <string name="text_no_project">Sie haben keine Projekte</string>
+    <string name="text_palette">Farbpaletten</string>
+    <string name="thank_you_for_participatin">Vielen Dank für Ihre Teilnahme, wir werden Sie bald über die Ergebnisse der Abstimmung informieren.</string>
+    <string name="tik_tok">Folgen Sie uns auf TikTok</string>
+    <string name="time_picker_am">AM</string>
+    <string name="time_picker_hour">Stunde</string>
+    <string name="time_picker_hour_24h_suffix">%1$d Stunden</string>
+    <string name="time_picker_hour_selection">Stunde auswählen</string>
+    <string name="time_picker_hour_suffix">%1$d Uhr</string>
+    <string name="time_picker_hour_text_field">für Stunde</string>
+    <string name="time_picker_minute">Minute</string>
+    <string name="time_picker_minute_selection">Minuten auswählen</string>
+    <string name="time_picker_minute_suffix">%1$d Minuten</string>
+    <string name="time_picker_minute_text_field">für Minuten</string>
+    <string name="time_picker_period_toggle_description">AM oder PM auswählen</string>
+    <string name="time_picker_pm">PM</string>
+    <string name="to_try">KOSTENLOS</string>
+    <string name="tooltip_long_press_label">Kurzinfo anzeigen</string>
+    <string name="tooltip_pane_description">Kurzinfo</string>
+    <string name="tooltips_title_edit_progect">Bemalen Sie Ihr Design mit Pinseln und Mustern.</string>
+    <string name="top">Top</string>
+    <string name="top_details">Teile des Oberteils</string>
+    <string name="trousers">Hose</string>
+    <string name="what_a_design">Was für ein Design, wollen Sie es allen zeigen?</string>
+    <string name="with_templates">Mit Vorlagen</string>
+    <string name="wow">Toll!</string>
+    <string name="yellow_and_green">Gelb und grau</string>
+</resources>

@@ -1,0 +1,30 @@
+{
+  "platform" : "google",
+  "products": [
+    {
+      "id" : "1msub",
+      "type" : "sub"
+    },
+    {
+      "id" : "1monthsub",
+      "type" : "sub"
+    },
+    {
+      "id" : "3msubtrial",
+      "type" : "sub"
+    },
+    {
+      "id" : "6msubtrial",
+      "type" : "sub"
+    },
+    {
+      "id" : "1yearsub",
+      "type" : "sub"
+    },
+    {
+      "id" : "1weeksub",
+      "type" : "sub"
+    }
+  ],
+  "analytics_integration" : true
+}

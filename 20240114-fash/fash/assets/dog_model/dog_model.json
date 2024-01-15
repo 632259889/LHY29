@@ -1,0 +1,502 @@
+[
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "bottom",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_bottom_01.webp",
+        "image": "pants_01.webp",
+        "size": [
+          {
+            "icon": "icon_bottom_XS.webp",
+            "image": "bottom_01_XS.webp"
+          },
+          {
+            "icon": "icon_bottom_S.webp",
+            "image": "bottom_01_S.webp"
+          },
+          {
+            "icon": "icon_bottom_M.webp",
+            "image": "bottom_01_M.webp"
+          },
+          {
+            "icon": "icon_bottom_L.webp",
+            "image": "bottom_01_L.webp"
+          },
+          {
+            "icon": "icon_bottom_XL.webp",
+            "image": "bottom_01_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_bottom_02.webp",
+        "image": "pants_02.webp",
+        "size": [
+          {
+            "icon": "icon_bottom_XS.webp",
+            "image": "bottom_02_XS.webp"
+          },
+          {
+            "icon": "icon_bottom_S.webp",
+            "image": "bottom_02_S.webp"
+          },
+          {
+            "icon": "icon_bottom_M.webp",
+            "image": "bottom_02_M.webp"
+          },
+          {
+            "icon": "icon_bottom_L.webp",
+            "image": "bottom_02_L.webp"
+          },
+          {
+            "icon": "icon_bottom_XL.webp",
+            "image": "bottom_02_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_bottom_03.webp",
+        "image": "pants_03.webp",
+        "size": [
+          {
+            "icon": "icon_bottom_XS.webp",
+            "image": "bottom_03_XS.webp"
+          },
+          {
+            "icon": "icon_bottom_S.webp",
+            "image": "bottom_03_S.webp"
+          },
+          {
+            "icon": "icon_bottom_M.webp",
+            "image": "bottom_03_M.webp"
+          },
+          {
+            "icon": "icon_bottom_L.webp",
+            "image": "bottom_03_L.webp"
+          },
+          {
+            "icon": "icon_bottom_XL.webp",
+            "image": "bottom_03_XL.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "sleeves",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_sleeve_01.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "sleeve_01_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "sleeve_01_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "sleeve_01_L.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "sleeve_01_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_sleeve_02.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "sleeve_02_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "sleeve_02_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "sleeve_02_L.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "sleeve_02_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_sleeve_03.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "sleeve_03_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "sleeve_03_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "sleeve_03_L.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "sleeve_03_XL.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "skirt",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_skirt_01.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "skirt_01_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "skirt_01_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "skirt_01_L.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_skirt_02.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "skirt_02_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "skirt_02_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "skirt_02_L.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_skirt_03.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "skirt_03_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "skirt_03_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "skirt_03_L.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "trousers",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_pants_01.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_pants_S.webp",
+            "image": "pants_01_S.webp"
+          },
+          {
+            "icon": "icon_pants_M.webp",
+            "image": "pants_01_M.webp"
+          },
+          {
+            "icon": "icon_pants_L.webp",
+            "image": "pants_01_L.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_pants_02.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_pants_S.webp",
+            "image": "pants_02_S.webp"
+          },
+          {
+            "icon": "icon_pants_M.webp",
+            "image": "pants_02_M.webp"
+          },
+          {
+            "icon": "icon_pants_L.webp",
+            "image": "pants_02_L.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_pants_03.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_pants_S.webp",
+            "image": "pants_03_S.webp"
+          },
+          {
+            "icon": "icon_pants_M.webp",
+            "image": "pants_03_M.webp"
+          },
+          {
+            "icon": "icon_pants_L.webp",
+            "image": "pants_03_L.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "belt",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_belt_01.webp",
+        "image": "belt_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_belt_02.webp",
+        "image": "belt_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_belt_03.webp",
+        "image": "belt_01.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "neckline",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_cutout_01.webp",
+        "image": "cutout_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_cutout_02.webp",
+        "image": "cutout_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_cutout_03.webp",
+        "image": "cutout_03.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_cutout_04.webp",
+        "image": "cutout_04.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_cutout_05.webp",
+        "image": "cutout_05.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_cutout_06.webp",
+        "image": "cutout_06.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "collar",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_collar_01.webp",
+        "image": "collar_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_collar_02.webp",
+        "image": "collar_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_collar_03.webp",
+        "image": "collar_03.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "accessories",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_accesoire_01.webp",
+        "image": "accesoire_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_accesoire_02.webp",
+        "image": "accesoire_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_accesoire_03.webp",
+        "image": "accesoire_03.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "headdress",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hat_01.webp",
+        "image": "hat_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hat_02.webp",
+        "image": "hat_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hat_03.webp",
+        "image": "hat_03.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hat_04.webp",
+        "image": "hat_04.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "shoes",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shoes_01.webp",
+        "image": "shoes_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shoes_02.webp",
+        "image": "shoes_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shoes_03.webp",
+        "image": "shoes_03.webp",
+        "size": []
+      }
+    ]
+  }
+]

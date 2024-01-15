@@ -1,0 +1,14 @@
+{
+  "platforms": [
+    {
+      "name": "bemetrics",
+      "key": "android.576943.google-play",
+      "domain": "https://bh0.pocketart.studio",
+      "reserveDomain": "https://bh1.pocketart.studio"
+    },
+    {
+      "name": "mixpanel",
+      "key": "493342cbdb1ca342541fe233c85282c7"
+    }
+  ]
+}

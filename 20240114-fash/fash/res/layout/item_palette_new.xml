@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:foreground="?android:selectableItemBackground" android:layout_marginHorizontal="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/check" android:layout_width="wrap_content" android:layout_height="12.0dip" android:src="@mipmap/ic_check" android:adjustViewBounds="true" android:layout_marginEnd="8.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/colorBlack" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ssdsd" android:fontFamily="@font/cormorant_garamond_bold" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/first_color" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_squrt_new" android:adjustViewBounds="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/second_color" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_squrt_new" android:adjustViewBounds="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/third_color" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_squrt_new" android:adjustViewBounds="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/fourth_color" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_squrt_new" android:adjustViewBounds="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/fifth_color" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_squrt_new" android:adjustViewBounds="true" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

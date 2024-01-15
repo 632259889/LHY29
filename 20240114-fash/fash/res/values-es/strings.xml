@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Choose_pricing_plan">Selección de tarifas</string>
+    <string name="Privacy_policy">Política de privacidad</string>
+    <string name="Selected_model">Elige un modelo</string>
+    <string name="Share_Your_Design">Compartir</string>
+    <string name="a_combination_of_brown_and_khaki">La combinación de marrón y caqui</string>
+    <string name="a_combination_of_calm_shades_and_dark_blue">La combinación de colores tranquilos y azul oscuro</string>
+    <string name="a_combination_of_orange_and_dark_shades">La combinación de color naranja y tonos oscuros</string>
+    <string name="abc_action_bar_home_description">Ir a inicio</string>
+    <string name="abc_action_bar_up_description">Desplazarse hacia arriba</string>
+    <string name="abc_action_menu_overflow_description">Más opciones</string>
+    <string name="abc_action_mode_done">Hecho</string>
+    <string name="abc_activity_chooser_view_see_all">Ver todo</string>
+    <string name="abc_activitychooserview_choose_application">Seleccionar una aplicación</string>
+    <string name="abc_capital_off">DESACTIVADO</string>
+    <string name="abc_capital_on">ACTIVADO</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Suprimir</string>
+    <string name="abc_menu_enter_shortcut_label">Intro</string>
+    <string name="abc_menu_function_shortcut_label">Función +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Mayús +</string>
+    <string name="abc_menu_space_shortcut_label">Espacio</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menú +</string>
+    <string name="abc_search_hint">Buscar…</string>
+    <string name="abc_searchview_description_clear">Borrar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de búsqueda</string>
+    <string name="abc_searchview_description_search">Buscar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Búsqueda por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartir con</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartir con %s</string>
+    <string name="abc_toolbar_collapse_description">Ocultar</string>
+    <string name="accessories">Accesorios</string>
+    <string name="app_label">Fashion Design Sketches</string>
+    <string name="attention">ATENCIÓN</string>
+    <string name="beginner">Principiante</string>
+    <string name="beige_and_bright_blue">Beige y azul brillante</string>
+    <string name="beige_and_grey">Beige y gris</string>
+    <string name="beige_and_turquoise">Beige y turquesa</string>
+    <string name="belt">Cinturones</string>
+    <string name="best_choice">Mejor opción</string>
+    <string name="blue_and_beige">Azul y beige</string>
+    <string name="blue_and_gray">Azul y gris</string>
+    <string name="blue_and_orange">Azul y naranja</string>
+    <string name="bodice">Corpiños</string>
+    <string name="bottom">Parte superior</string>
+    <string name="bottom_details">Detalles inferiores</string>
+    <string name="bottom_sheet_collapse_description">Contrae la hoja inferior</string>
+    <string name="bottom_sheet_dismiss_description">Cierra la hoja inferior</string>
+    <string name="bottom_sheet_drag_handle_description">Controlador de arrastre</string>
+    <string name="bottom_sheet_expand_description">Despliega la hoja inferior</string>
+    <string name="bottomsheet_action_collapse">Ocultar la hoja inferior</string>
+    <string name="bottomsheet_action_expand">Mostrar la hoja inferior</string>
+    <string name="bottomsheet_action_expand_halfway">Desplegar hasta la mitad</string>
+    <string name="bottomsheet_drag_handle_clicked">Controlador de arrastre tocado dos veces</string>
+    <string name="bottomsheet_drag_handle_content_description">Controlador de arrastre</string>
+    <string name="bright_summer_look">Look de verano brillante</string>
+    <string name="brown_and_turquoise">Marrón y turquesa</string>
+    <string name="call_notification_answer_action">Responder</string>
+    <string name="call_notification_answer_video_action">Vídeo</string>
+    <string name="call_notification_decline_action">Rechazar</string>
+    <string name="call_notification_hang_up_action">Colgar</string>
+    <string name="call_notification_incoming_text">Llamada entrante</string>
+    <string name="call_notification_ongoing_text">Llamada en curso</string>
+    <string name="call_notification_screening_text">Filtrando una llamada entrante</string>
+    <string name="calm_tones">Colores tranquilos</string>
+    <string name="cancel">Cancelar</string>
+    <string name="casual">Casual</string>
+    <string name="character_counter_content_description">Caracteres introducidos: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Límite de caracteres superado (%1$d de %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Borrar texto</string>
+    <string name="close_drawer">Cerrar menú de navegación</string>
+    <string name="close_sheet">Cerrar hoja</string>
+    <string name="collapsed">Contraído</string>
+    <string name="collar">El Collar</string>
+    <string name="combination_of_dark_and_light_shades">La combinación de tonos oscuros y claros</string>
+    <string name="combination_with_light_plum">La combinación con ciruelo claro</string>
+    <string name="common_google_play_services_enable_button">Activar</string>
+    <string name="common_google_play_services_enable_text">%1$s no funcionará hasta que no habilites Servicios de Google Play.</string>
+    <string name="common_google_play_services_enable_title">Habilita Servicios de Google Play</string>
+    <string name="common_google_play_services_install_button">Instalar</string>
+    <string name="common_google_play_services_install_text">%1$s no se ejecutará si los Servicios de Google Play no están instalados en tu dispositivo.</string>
+    <string name="common_google_play_services_install_title">Descargar Servicios de Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Disponibilidad Servicios de Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Error de Servicios de Google Play</string>
+    <string name="common_google_play_services_unknown_issue">La aplicación %1$s tiene problemas con los Servicios de Google Play. Vuelve a intentarlo.</string>
+    <string name="common_google_play_services_unsupported_text">No es posible ejecutar la aplicación %1$s sin los Servicios de Google Play, que no son compatibles con tu dispositivo.</string>
+    <string name="common_google_play_services_update_button">Actualizar</string>
+    <string name="common_google_play_services_update_text">%1$s no funcionará hasta que no actualices Servicios de Google Play.</string>
+    <string name="common_google_play_services_update_title">Actualiza Servicios de Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s no se ejecutará hasta que finalice la actualización en curso de Servicios de Google Play.</string>
+    <string name="common_google_play_services_wear_update_text">Se necesita una nueva versión de Servicios de Google Play. Se actualizará en breve.</string>
+    <string name="common_open_on_phone">Abrir en teléfono</string>
+    <string name="common_signin_button_text">Iniciar sesión</string>
+    <string name="common_signin_button_text_long">Iniciar sesión con Google</string>
+    <string name="competition">para el mejor diseñador</string>
+    <string name="contest">Concurso</string>
+    <string name="contest_action">Concurso</string>
+    <string name="contest_item_action">¡Participa en el concurso para diseñadores de moda y todos verán tu trabajo!</string>
+    <string name="contest_terms">Los diseños de nuestros usuarios pueden ser utilizados por nosotros en el futuro para capturas de pantalla promocionales en la Google Play Store. Al enviar su diseño, usted da su consentimiento y nos otorga una licencia libre de regalías y no exclusiva para el diseño que cree. Solo los usuarios Premium con una suscripción activada son elegibles para participar en el concurso. Cada temporada de moda seleccionaremos los mejores diseños y los publicaremos en la página principal de la aplicación en la Google Play Store.</string>
+    <string name="continue_with_limited_version">Continuar con la versión limitada</string>
+    <string name="copy_toast_msg">Enlace copiado en el portapapeles</string>
+    <string name="coral_and_black">Coral y negro</string>
+    <string name="coral_and_lilac">Coral y lila</string>
+    <string name="create_project">Crear un diseño</string>
+    <string name="crimson_and_light_gray">Frambuesa y gris claro</string>
+    <string name="dark_blue_and_brown">Azul oscuro y marrón</string>
+    <string name="dark_blue_and_white">Azul oscuro y blanco</string>
+    <string name="dark_green_is_back_in_fashion">Gris está de vuelta en tendencia</string>
+    <string name="date_input_headline">Fecha introducida</string>
+    <string name="date_input_headline_description">Fecha introducida: %1$s</string>
+    <string name="date_input_invalid_for_pattern">La fecha no coincide con el patrón esperado: %1$s</string>
+    <string name="date_input_invalid_not_allowed">Fecha no permitida: %1$s</string>
+    <string name="date_input_invalid_year_range">Fecha fuera del intervalo de años previsto: %1$s - %2$s</string>
+    <string name="date_input_label">Fecha</string>
+    <string name="date_input_no_input_description">Ninguna</string>
+    <string name="date_input_title">Seleccionar fecha</string>
+    <string name="date_picker_headline">Fecha seleccionada</string>
+    <string name="date_picker_headline_description">Selección: %1$s</string>
+    <string name="date_picker_navigate_to_year_description">Ir al año %1$s</string>
+    <string name="date_picker_no_selection_description">Ninguno</string>
+    <string name="date_picker_scroll_to_earlier_years">Desplázate para ver los años anteriores</string>
+    <string name="date_picker_scroll_to_later_years">Desplázate para ver los últimos años</string>
+    <string name="date_picker_switch_to_calendar_mode">Cambiar al modo de introducción de calendario</string>
+    <string name="date_picker_switch_to_day_selection">Desliza el dedo para seleccionar un año o toca para volver a seleccionar un día</string>
+    <string name="date_picker_switch_to_input_mode">Cambiar al modo de escritura</string>
+    <string name="date_picker_switch_to_next_month">Cambiar al mes siguiente</string>
+    <string name="date_picker_switch_to_previous_month">Cambiar al mes anterior</string>
+    <string name="date_picker_switch_to_year_selection">Cambiar para seleccionar un año</string>
+    <string name="date_picker_title">Seleccionar fecha</string>
+    <string name="date_picker_today_description">Hoy</string>
+    <string name="date_picker_year_picker_pane_title">Selector de año visible</string>
+    <string name="date_range_input_invalid_range_input">El intervalo de fechas no es válido</string>
+    <string name="date_range_input_title">Introducir fechas</string>
+    <string name="date_range_picker_day_in_range">Dentro del intervalo</string>
+    <string name="date_range_picker_end_headline">Fecha de finalización</string>
+    <string name="date_range_picker_scroll_to_next_month">Desplázate para ver el mes siguiente</string>
+    <string name="date_range_picker_scroll_to_previous_month">Desplázate para ver el mes anterior</string>
+    <string name="date_range_picker_start_headline">Fecha de inicio</string>
+    <string name="date_range_picker_title">Seleccionar fechas</string>
+    <string name="default_error_message">Entrada no válida</string>
+    <string name="default_popup_window_title">Ventana emergente</string>
+    <string name="denim_tones">Jeans colores</string>
+    <string name="dialog">Cuadro de diálogo</string>
+    <string name="dropdown_menu">Menú desplegable</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exo_controls_cc_disabled_description">Habilitar subtítulos</string>
+    <string name="exo_controls_cc_enabled_description">Inhabilitar subtítulos</string>
+    <string name="exo_controls_fastforward_description">Avanzar rápidamente</string>
+    <string name="exo_controls_fullscreen_enter_description">Activar pantalla completa</string>
+    <string name="exo_controls_fullscreen_exit_description">Salir de pantalla completa</string>
+    <string name="exo_controls_hide">Ocultar controles de jugador</string>
+    <string name="exo_controls_next_description">Siguiente</string>
+    <string name="exo_controls_overflow_hide_description">Ocultar ajustes adicionales</string>
+    <string name="exo_controls_overflow_show_description">Mostrar ajustes adicionales</string>
+    <string name="exo_controls_pause_description">Pausar</string>
+    <string name="exo_controls_play_description">Reproducir</string>
+    <string name="exo_controls_playback_speed">Velocidad</string>
+    <string name="exo_controls_previous_description">Anterior</string>
+    <string name="exo_controls_repeat_all_description">Modo actual: Repetir todo. Cambiar de modo.</string>
+    <string name="exo_controls_repeat_off_description">Modo actual: No repetir. Cambiar de modo.</string>
+    <string name="exo_controls_repeat_one_description">Modo actual: Repetir uno. Cambiar de modo.</string>
+    <string name="exo_controls_rewind_description">Rebobinar</string>
+    <string name="exo_controls_seek_bar_description">Progreso de reproducción</string>
+    <string name="exo_controls_settings_description">Ajustes</string>
+    <string name="exo_controls_show">Mostrar controles del reproductor</string>
+    <string name="exo_controls_shuffle_off_description">Habilitar modo aleatorio</string>
+    <string name="exo_controls_shuffle_on_description">Inhabilitar modo aleatorio</string>
+    <string name="exo_controls_stop_description">Detener</string>
+    <string name="exo_controls_vr_description">Modo RV</string>
+    <string name="exo_download_completed">Descarga de archivos completado</string>
+    <string name="exo_download_description">Descargar</string>
+    <string name="exo_download_downloading">Descargando</string>
+    <string name="exo_download_failed">No se ha podido descargar</string>
+    <string name="exo_download_notification_channel_name">Descargas</string>
+    <string name="exo_download_paused">Descargas pausadas</string>
+    <string name="exo_download_paused_for_network">Descargas en espera de red</string>
+    <string name="exo_download_paused_for_wifi">Descargas en espera de Wi-Fi</string>
+    <string name="exo_download_removing">Quitando descargas</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d×%2$d</string>
+    <string name="exo_track_role_alternate">Alternativa</string>
+    <string name="exo_track_role_closed_captions">CC</string>
+    <string name="exo_track_role_commentary">Comentarios</string>
+    <string name="exo_track_role_supplementary">Complementaria</string>
+    <string name="exo_track_selection_auto">Automático</string>
+    <string name="exo_track_selection_none">Ninguna</string>
+    <string name="exo_track_selection_title_audio">Audio</string>
+    <string name="exo_track_selection_title_text">Texto</string>
+    <string name="exo_track_selection_title_video">Vídeo</string>
+    <string name="exo_track_stereo">Estéreo</string>
+    <string name="exo_track_surround">Sonido envolvente</string>
+    <string name="exo_track_surround_5_point_1">Sonido envolvente 5.1</string>
+    <string name="exo_track_surround_7_point_1">Sonido envolvente 7.1</string>
+    <string name="exo_track_unknown">Desconocido</string>
+    <string name="expanded">Desplegado</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
+    <string name="face">Caras</string>
+    <string name="fallback_menu_item_copy_link">Copiar enlace</string>
+    <string name="fallback_menu_item_open_in_browser">Abrir en el navegador</string>
+    <string name="fallback_menu_item_share_link">Compartir enlace</string>
+    <string name="fcm_fallback_notification_channel_label">Varias</string>
+    <string name="feature_first_description">"Hacemos un concurso para jóvenes diseñadores de moda. 
+Los mejores diseños serán mostrados a todos los usuarios en la sección de Historias."</string>
+    <string name="feature_first_title">CONCURSO DE MODA</string>
+    <string name="feature_fourth_description">"Regularmente actualizamos nuestro contenido: ropa nueva, lienzos y modelos. 
+Ahora puedes crear tu propia colección para bodas."</string>
+    <string name="feature_fourth_title">LIBRE ELECCIÓN</string>
+    <string name="feature_second_description">"Todos los bocetos cobran vida poniendo atención al detalle. 
+Patrones y estampados pueden ser usados para crear lentejuelas y estreses y agregar texturas a tejidos."</string>
+    <string name="feature_second_title">PATRONES PARA HACER MAGIA</string>
+    <string name="feature_third_description">"Al crear un boceto, es importante sentir un pencil en la mano. 
+Hemos creado las herramientas tan realistas que podrás hacer bocetos con placer."</string>
+    <string name="feature_third_title">PINCELES REALISTAS</string>
+    <string name="for_the_best_fashion_design_and_everyone_will_see_your_design">para diseñadores de moda y todos verán tu trabajo!</string>
+    <string name="free">gratis</string>
+    <string name="free_drawing">Sin plantillas</string>
+    <string name="grey_beige_and_blue">Gris, beige y azul</string>
+    <string name="grey_is_back_in_fashion">Verde oscuro está de vuelta en tendencia</string>
+    <string name="hairstyles">Peinados</string>
+    <string name="headdress">Sombrerería</string>
+    <string name="icon_content_description">Icono del cuadro de diálogo</string>
+    <string name="in_progress">En curso</string>
+    <string name="indeterminate">Marcado parcialmente</string>
+    <string name="item_view_role_description">Pestaña</string>
+    <string name="lemon_jacket">Colores marinos con amarillo</string>
+    <string name="mail_client_is_not_configured">Tu cliente de correo electrónico no está configurado. Por favor, configúralo e intenta enviarlo de nuevo. fashiondesignsketches@mail.ru</string>
+    <string name="master">Maestro</string>
+    <string name="material_clock_toggle_content_description">Selecciona AM o PM</string>
+    <string name="material_hour_24h_suffix">%1$s horas</string>
+    <string name="material_hour_selection">Seleccionar hora</string>
+    <string name="material_hour_suffix">%1$s en punto</string>
+    <string name="material_minute_selection">Seleccionar minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">A.M.</string>
+    <string name="material_timepicker_clock_mode_description">Cambia al modo de reloj para escribir la hora.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">P.M.</string>
+    <string name="material_timepicker_select_time">Seleccionar la hora</string>
+    <string name="material_timepicker_text_input_mode_description">Cambia al modo de introducción de texto para escribir la hora.</string>
+    <string name="model_hint">Diseño</string>
+    <string name="mtrl_badge_numberless_content_description">Notificación nueva</string>
+    <string name="mtrl_chip_close_icon_content_description">Retirar %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Más de %1$d notificaciones nuevas</string>
+    <string name="mtrl_picker_a11y_next_month">Cambiar al mes siguiente</string>
+    <string name="mtrl_picker_a11y_prev_month">Cambiar al mes anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Selección actual: %1$s</string>
+    <string name="mtrl_picker_cancel">Cancelar</string>
+    <string name="mtrl_picker_confirm">Aceptar</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecciona una fecha</string>
+    <string name="mtrl_picker_date_header_unselected">Fecha seleccionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Columna de días: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato no válido.</string>
+    <string name="mtrl_picker_invalid_format_example">Ejemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar: %1$s</string>
+    <string name="mtrl_picker_invalid_range">El periodo no es válido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ir al año %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fuera del periodo válido: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Fecha de inicio–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–Fecha de finalización</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecciona un periodo</string>
+    <string name="mtrl_picker_range_header_unselected">Fecha de inicio–Fecha de finalización</string>
+    <string name="mtrl_picker_save">Guardar</string>
+    <string name="mtrl_picker_text_input_date_hint">Fecha</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Fecha de finalización</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Fecha de inicio</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambiar al modo de introducción Calendario</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toca para seleccionar un día</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Cambiar al modo de introducción Texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toca para seleccionar un año</string>
+    <string name="mtrl_timepicker_cancel">Cancelar</string>
+    <string name="mtrl_timepicker_confirm">Aceptar</string>
+    <string name="mustard_and_grey">Mostaza y gris</string>
+    <string name="my_project">Mis diseños</string>
+    <string name="nav_app_bar_navigate_up_description">Desplazarse hacia arriba</string>
+    <string name="nav_app_bar_open_drawer_description">Abrir panel de navegación</string>
+    <string name="navigation_menu">Menú de navegación</string>
+    <string name="neckline">Escotes</string>
+    <string name="nickname_name">Apellidos / Nombre</string>
+    <string name="no_internet_connection">No hay conexión a internet</string>
+    <string name="not_ready_to_sub">No estoy listo para suscribirme</string>
+    <string name="not_selected">No seleccionado</string>
+    <string name="off">Desactivado</string>
+    <string name="offer_contest_title">"En el concurso pueden participar
+"<b>sólo los usuarios PREMIUM</b></string>
+    <string name="offer_continue">CONTINUAR</string>
+    <string name="offer_one_month_period">1 mes suscripción</string>
+    <string name="offer_one_month_price">* / mes</string>
+    <string name="offer_one_month_title">"Mejor
+opción"</string>
+    <string name="offer_one_year_period">12 meses suscripción</string>
+    <string name="offer_one_year_price">* / 12 meses</string>
+    <string name="offer_one_year_title">PROFESIONAL</string>
+    <string name="offer_one_year_without_trial_info">"La duración de la suscripción es de 12 meses, esta suscripción se renueva automáticamente y cuesta *. 
+• Puede cancelar la suscripción en cualquier momento. 
+• El pago se cargará a la cuenta de Google Play en la confirmación de la compra. 
+• La suscripción se renueva automáticamente a menos que la renovación automática esté desactivada al menos 24 horas antes del final del período actual. 
+• Se cobrará a la cuenta por la renovación dentro de las 24 horas anteriores al final del período actual e identificará el costo de la renovación. 
+• Puede administrar su suscripción y desactivarla yendo a la configuración de su cuenta después de la compra. 
+ATENCIÓN: antes de suscribirse, por favor, lea nuestros Términos de uso y la Política de privacidad."</string>
+    <string name="offer_popup_price_six_months">3 Días gratis, después * por 6 meses</string>
+    <string name="offer_popup_price_three_months">3 Días gratis, después %1$s por 3 meses</string>
+    <string name="offer_sale">Descuento de *</string>
+    <string name="offer_six_month_period">6 meses suscripción</string>
+    <string name="offer_six_month_price">* / 6 meses</string>
+    <string name="offer_six_month_title">AFICIONADO</string>
+    <string name="offer_six_month_with_trial_info">"La duración de la suscripción es de 6 meses, esta suscripción se renueva automáticamente y cuesta *. 
+• Puede cancelar la suscripción en cualquier momento. 
+• El pago se cargará a la cuenta de Google Play en la confirmación de la compra. 
+• La suscripción se renueva automáticamente a menos que la renovación automática esté desactivada al menos 24 horas antes del final del período actual. 
+• Se cobrará a la cuenta por la renovación dentro de las 24 horas anteriores al final del período actual e identificará el costo de la renovación. 
+• Puede administrar su suscripción y desactivarla yendo a la configuración de su cuenta después de la compra. 
+ATENCIÓN: antes de suscribirse, por favor, lea nuestros Términos de uso y la Política de privacidad."</string>
+    <string name="offer_six_month_without_trial_info">"La suscripción de 6 meses ofrece un período de prueba de 3 días. Después de eso, * se cargará automáticamente desde su cuenta si no cancela la suscripción antes del final del período de prueba. 
+• Puede cancelar la suscripción en cualquier momento. 
+• El pago se cargará a la cuenta de Google Play en la confirmación de la compra. 
+• La suscripción se renueva automáticamente a menos que la renovación automática esté desactivada al menos 24 horas antes del final del período actual. 
+• Se cobrará a la cuenta por la renovación dentro de las 24 horas anteriores al final del período actual e identificará el costo de la renovación. 
+• Puede administrar su suscripción y desactivarla yendo a la configuración de su cuenta después de la compra. 
+ATENCIÓN: antes de suscribirse, por favor, lea nuestros Términos de uso y la Política de privacidad."</string>
+    <string name="offer_title">Participación en el concurso para el mejor diseñador de moda y acceso premium a todas las funciones</string>
+    <string name="offer_trial_period">3 días gratis</string>
+    <string name="ok">OK</string>
+    <string name="on">Activado</string>
+    <string name="one_month">1 mes</string>
+    <string name="one_week">1 semana</string>
+    <string name="outerwear">Ropa exterior</string>
+    <string name="participate">¡Participar!</string>
+    <string name="password_toggle_content_description">Mostrar contraseña</string>
+    <string name="pink_jeans">Rosa y gris</string>
+    <string name="plum_and_brown">Ciruelo y marrón</string>
+    <string name="plum_and_grey">Ciruelo y gris</string>
+    <string name="plum_and_pastel_shades">Ciruelo y colores pastel</string>
+    <string name="plum_blouse">Ciruelo y beige</string>
+    <string name="range_end">Fin del intervalo</string>
+    <string name="range_start">Inicio del intervalo</string>
+    <string name="rate_us_cancel">Quizás mas tarde</string>
+    <string name="rate_us_description">Haz clic en las estrellas para calificarla.</string>
+    <string name="rate_us_low_rate">¡Muchas gracias! Tu opinión es muy importante para nosotros!</string>
+    <string name="rate_us_send">Calificar ahora</string>
+    <string name="rate_us_title">¿Cómo calificaría esta aplicación?</string>
+    <string name="retro_in_beige_shades">Retro en colores beige</string>
+    <string name="search_bar_search">Buscar</string>
+    <string name="search_menu_title">Buscar</string>
+    <string name="selected">Seleccionado</string>
+    <string name="settings">Ajustes</string>
+    <string name="shared_offer_learn_more">Más información</string>
+    <string name="shared_offer_popup_description">Pon a prueba nuestra aplicación durante el periodo de prueba gratuito</string>
+    <string name="shared_offer_popup_title">¡PRUEBA GRATIS!</string>
+    <string name="shared_offer_privacy_policy">Política de privacidad</string>
+    <string name="shared_offer_terms_of_use">Términos de uso</string>
+    <string name="shoes">Zapatos</string>
+    <string name="shoulders">Hombros</string>
+    <string name="simple_but_you_can">Simple, pero de moda</string>
+    <string name="site">Sitio web de la aplicación</string>
+    <string name="skirt">Faldas</string>
+    <string name="sleeves">Mangas</string>
+    <string name="snackbar_dismiss">Cerrar</string>
+    <string name="spring_in_blue">Primavera en azul</string>
+    <string name="standard">Estándar</string>
+    <string name="start">Empezar</string>
+    <string name="start_design_again">¿Estás seguro de que deseas eliminar todos los elementos y comenzar de nuevo?</string>
+    <string name="start_offer_one_month_with_trial_info">"La suscripción de 1 mes ofrece un período de prueba de 3 días. Después de eso, * se cargará automáticamente desde su cuenta si no cancela la suscripción antes del final del período de prueba. 
+• Puede cancelar la suscripción en cualquier momento. 
+• El pago se cargará a la cuenta en la confirmación de la compra. 
+• La suscripción se renueva automáticamente a menos que la renovación automática esté desactivada al menos 24 horas antes del final del período actual. 
+• Se cobrará a la cuenta por la renovación dentro de las 24 horas anteriores al final del período actual e identificará el costo de la renovación. 
+• Puede administrar su suscripción y desactivarla yendo a la configuración de su cuenta después de la compra. 
+ATENCIÓN: antes de suscribirse, por favor, lea nuestros Términos de uso y la Política de privacidad."</string>
+    <string name="start_offer_one_month_without_trial_info">"La duración de la suscripción es de 1 mes, esta suscripción se renueva automáticamente y cuesta *. 
+• Puede cancelar la suscripción en cualquier momento. 
+• El pago se cargará a su cuenta en la confirmación de la compra. 
+• La suscripción se renueva automáticamente a menos que la renovación automática esté desactivada al menos 24 horas antes del final del período actual. 
+• Se cobrará a la cuenta por la renovación dentro de las 24 horas anteriores al final del período actual e identificará el costo de la renovación. 
+• Puede administrar su suscripción y desactivarla yendo a la configuración de su cuenta después de la compra. 
+ATENCIÓN: antes de suscribirse, por favor, lea nuestros Términos de uso y la Política de privacidad."</string>
+    <string name="start_offer_one_week_without_trial_info">"La duración de la suscripción es de 1 semana, esta suscripción se renueva automáticamente y cuesta *. 
+• Puede cancelar la suscripción en cualquier momento. 
+• El pago se cargará a la cuenta de Google Play en la confirmación de la compra. 
+• La suscripción se renueva automáticamente a menos que la renovación automática esté desactivada al menos 24 horas antes del final del período actual. 
+• Se cobrará a la cuenta por la renovación dentro de las 24 horas anteriores al final del período actual e identificará el costo de la renovación. 
+• Puede administrar su suscripción y desactivarla yendo a la configuración de su cuenta después de la compra. 
+ATENCIÓN: antes de suscribirse, por favor, lea nuestros Términos de uso y la Política de privacidad."</string>
+    <string name="start_offer_price_week">Sólo * por semana</string>
+    <string name="start_offer_price_with_trial">3 días gratis, siguiente * por mes</string>
+    <string name="start_offer_price_without_trial">Solo * por mes</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stories_tutorial_description_first">Gracias por utilizar nuestra aplicación.</string>
+    <string name="stories_tutorial_description_second">Los resultados no se han anunciado, todavía tienes la oportunidad de ganar. ¡Envíanos tus diseños!</string>
+    <string name="stories_tutorial_title">¡Mejores diseños de usuarios!</string>
+    <string name="sub_renews_automatically">La suscripción se renueva automáticamente. Cancelar en cualquier momento.</string>
+    <string name="sub_terms">"Los periodos de las suscripciones son 1 semana, 1 mes o 3 meses; estas suscripciones se renuevan automáticamente y cuestan %1$s por semana, %2$s por mes o %3$s por 3 meses.
+ • Puede detener la suscripción en cualquier momento.
+ • El pago se cargará a la cuenta de Google Play en la confirmación de la compra.
+ • La suscripción se renueva automáticamente a menos que la renovación automática se desactive al menos 24 horas antes del final del período actual.
+ • Se cobrará a la cuenta la renovación dentro de las 24 horas anteriores al final del período actual e identificará el costo de la renovación.
+ • Puede administrar su suscripción y desactivarla yendo a la configuración de su cuenta después de la compra.
+ ATENCIÓN: antes de suscribirse, lea:"</string>
+    <string name="submit">Enviar</string>
+    <string name="suggestions_available">Sugerencias a continuación</string>
+    <string name="switch_role">Interruptor</string>
+    <string name="t_shirt">Camiseta</string>
+    <string name="tab">Pestaña</string>
+    <string name="take_part_in_the_competition">¡Participa en el concurso</string>
+    <string name="template_percent">%1$d por cien.</string>
+    <string name="terms_of_use">Términos de uso</string>
+    <string name="text_delete">Borrar</string>
+    <string name="text_delete_project">¿Estás seguro de que deseas eliminar el diseño?</string>
+    <string name="text_input_project_name">Ingresa el nombre de tu diseño</string>
+    <string name="text_no_project">No tienes proyectos.</string>
+    <string name="text_palette">Paletas</string>
+    <string name="thank_you_for_participatin">Muchas gracias por participar, te informaremos pronto de los resultados de la votación.</string>
+    <string name="three_days_free">3 DÍAS GRATIS</string>
+    <string name="three_days_then_x_per_month">3 días gratis, después %1$s por mes</string>
+    <string name="three_days_then_x_per_three_month">3 días gratis, luego %1$s por 3 meses</string>
+    <string name="three_months">3 meses</string>
+    <string name="three_months_trial_terms">"La suscripción de 3 meses ofrece un período de prueba de 3 días. Después de eso, %1$s se cargará automáticamente desde tu cuenta si no cancelas la suscripción antes del final del período de prueba.
+ • Puedes cancelar la suscripción en cualquier momento.
+ • El pago se cargará a la cuenta en la confirmación de la compra.
+ • La suscripción se renueva automáticamente a menos que la renovación automática esté desactivada al menos 24 horas antes del final del período actual.
+ • Se cobrará a la cuenta por la renovación dentro de las 24 horas anteriores al final del período actual e identificará el costo de la renovación.
+ • Puedes administrar tu suscripción y desactivarla yendo a la configuración de tu cuenta después de la compra.
+ ATENCIÓN: antes de suscribirte, por favor, lee nuestros Términos de Uso y la Política de Privacidad."</string>
+    <string name="tik_tok">Suscríbete a nosotros en TikTok</string>
+    <string name="time_picker_am">AM</string>
+    <string name="time_picker_hour">Hora</string>
+    <string name="time_picker_hour_24h_suffix">%1$d horas</string>
+    <string name="time_picker_hour_selection">Seleccionar hora</string>
+    <string name="time_picker_hour_suffix">%1$d en punto</string>
+    <string name="time_picker_hour_text_field">por hora</string>
+    <string name="time_picker_minute">Minutos</string>
+    <string name="time_picker_minute_selection">Seleccionar minutos</string>
+    <string name="time_picker_minute_suffix">%1$d minutos</string>
+    <string name="time_picker_minute_text_field">por minutos</string>
+    <string name="time_picker_period_toggle_description">Selecciona AM o PM</string>
+    <string name="time_picker_pm">PM</string>
+    <string name="to_try">Probar</string>
+    <string name="tooltip_long_press_label">Mostrar descripción emergente</string>
+    <string name="tooltip_pane_description">Descripción emergente</string>
+    <string name="tooltips_title_edit_progect">Colorea el diseño con pinceles y patrones.</string>
+    <string name="top">Top</string>
+    <string name="top_details">Detalles superiores</string>
+    <string name="trial_sub_terms">"Los periodos de las suscripciones son 1 semana, 1 mes o 3 meses; estas suscripciones se renuevan automáticamente y cuestan %1$s por semana, %2$s por mes o %3$s por 3 meses.
+ Las suscripciones de 1 mes y de 3 meses ofrecen un período de prueba de 3 días. Después de eso, %2$s o %3$s se cargarán automáticamente de su cuenta si no cancela la suscripción antes del final del período de prueba.
+ • Puede detener la suscripción en cualquier momento.
+ • El pago se cargará a la cuenta de Google Play en la confirmación de la compra.
+ • La suscripción se renueva automáticamente a menos que la renovación automática se desactive al menos 24 horas antes del final del período actual.
+ • Se cobrará a la cuenta la renovación dentro de las 24 horas anteriores al final del período actual e identificará el costo de la renovación.
+ • Puede administrar su suscripción y desactivarla yendo a la configuración de su cuenta después de la compra.
+ ATENCIÓN: antes de suscribirse, lea:"</string>
+    <string name="trousers">Pantalones</string>
+    <string name="try_for_free">Pruébalo gratis</string>
+    <string name="what_a_design">Es un gran trabajo, ¿quieres mostrarlo a todos?</string>
+    <string name="with_templates">Con las plantillas</string>
+    <string name="wow">¡Wow!</string>
+    <string name="yellow_and_green">Amarillo y verde</string>
+</resources>

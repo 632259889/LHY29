@@ -1,0 +1,2797 @@
+[
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "bottom",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bottom_100.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_bottom_XXS.webp",
+            "image": "P_bottom_100_XXS.webp"
+          },
+          {
+            "icon": "icon_bottom_XS.webp",
+            "image": "P_bottom_100_XS.webp"
+          },
+          {
+            "icon": "icon_bottom_S.webp",
+            "image": "P_bottom_100_S.webp"
+          },
+          {
+            "icon": "icon_bottom_M.webp",
+            "image": "P_bottom_100_M.webp"
+          },
+          {
+            "icon": "icon_bottom_L.webp",
+            "image": "P_bottom_100_L.webp"
+          },
+          {
+            "icon": "icon_bottom_XL.webp",
+            "image": "P_bottom_100_XL.webp"
+          },
+          {
+            "icon": "icon_bottom_XXL.webp",
+            "image": "P_bottom_100_XXL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bottom_101.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_bottom_XXS.webp",
+            "image": "P_bottom_101_XXS.webp"
+          },
+          {
+            "icon": "icon_bottom_XS.webp",
+            "image": "P_bottom_101_XS.webp"
+          },
+          {
+            "icon": "icon_bottom_S.webp",
+            "image": "P_bottom_101_S.webp"
+          },
+          {
+            "icon": "icon_bottom_M.webp",
+            "image": "P_bottom_101_M.webp"
+          },
+          {
+            "icon": "icon_bottom_L.webp",
+            "image": "P_bottom_101_L.webp"
+          },
+          {
+            "icon": "icon_bottom_XL.webp",
+            "image": "P_bottom_101_XL.webp"
+          },
+          {
+            "icon": "icon_bottom_XXL.webp",
+            "image": "P_bottom_101_XXL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bottom_102.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_bottom_XXS.webp",
+            "image": "P_bottom_102_XXS.webp"
+          },
+          {
+            "icon": "icon_bottom_XS.webp",
+            "image": "P_bottom_102_XS.webp"
+          },
+          {
+            "icon": "icon_bottom_S.webp",
+            "image": "P_bottom_102_S.webp"
+          },
+          {
+            "icon": "icon_bottom_M.webp",
+            "image": "P_bottom_102_M.webp"
+          },
+          {
+            "icon": "icon_bottom_L.webp",
+            "image": "P_bottom_102_L.webp"
+          },
+          {
+            "icon": "icon_bottom_XL.webp",
+            "image": "P_bottom_102_XL.webp"
+          },
+          {
+            "icon": "icon_bottom_XXL.webp",
+            "image": "P_bottom_102_XXL.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "bodice",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_100.webp",
+        "image": "P_bodice_100.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_101.webp",
+        "image": "P_bodice_101.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_102.webp",
+        "image": "P_bodice_102.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_103.webp",
+        "image": "P_bodice_103.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_104.webp",
+        "image": "P_bodice_104.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_105.webp",
+        "image": "P_bodice_105.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_106.webp",
+        "image": "P_bodice_106.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_107.webp",
+        "image": "P_bodice_107.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_108.webp",
+        "image": "P_bodice_108.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_109.webp",
+        "image": "P_bodice_109.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_110.webp",
+        "image": "P_bodice_110.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_111.webp",
+        "image": "P_bodice_111.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_112.webp",
+        "image": "P_bodice_112.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_113.webp",
+        "image": "P_bodice_113.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_114.webp",
+        "image": "P_bodice_114.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_115.webp",
+        "image": "P_bodice_115.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_116.webp",
+        "image": "P_bodice_116.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_117.webp",
+        "image": "P_bodice_117.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_118.webp",
+        "image": "P_bodice_118.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_119.webp",
+        "image": "P_bodice_119.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_120.webp",
+        "image": "P_bodice_120.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_121.webp",
+        "image": "P_bodice_121.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bodice_122.webp",
+        "image": "P_bodice_122.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "shoulders",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoulders_100.webp",
+        "image": "P_shoulders_100.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoulders_101.webp",
+        "image": "P_shoulders_101.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoulders_102.webp",
+        "image": "P_shoulders_102.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoulders_103.webp",
+        "image": "P_shoulders_103.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoulders_104.webp",
+        "image": "P_shoulders_104.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoulders_105.webp",
+        "image": "P_shoulders_105.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoulders_106.webp",
+        "image": "P_shoulders_106.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoulders_107.webp",
+        "image": "P_shoulders_107.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoulders_108.webp",
+        "image": "P_shoulders_108.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoulders_109.webp",
+        "image": "P_shoulders_109.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoulders_110.webp",
+        "image": "P_shoulders_110.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoulders_111.webp",
+        "image": "P_shoulders_111.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoulders_112.webp",
+        "image": "P_shoulders_112.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoulders_113.webp",
+        "image": "P_shoulders_113.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "neckline",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_100.webp",
+        "image": "P_cutout_100.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_101.webp",
+        "image": "P_cutout_101.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_102.webp",
+        "image": "P_cutout_102.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_103.webp",
+        "image": "P_cutout_103.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_104.webp",
+        "image": "P_cutout_104.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_105.webp",
+        "image": "P_cutout_105.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_106.webp",
+        "image": "P_cutout_106.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_107.webp",
+        "image": "P_cutout_107.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_108.webp",
+        "image": "P_cutout_108.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_109.webp",
+        "image": "P_cutout_109.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_110.webp",
+        "image": "P_cutout_110.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_111.webp",
+        "image": "P_cutout_111.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_112.webp",
+        "image": "P_cutout_112.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_113.webp",
+        "image": "P_cutout_113.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_114.webp",
+        "image": "P_cutout_114.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_115.webp",
+        "image": "P_cutout_115.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_116.webp",
+        "image": "P_cutout_116.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_117.webp",
+        "image": "P_cutout_117.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_118.webp",
+        "image": "P_cutout_118.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_119.webp",
+        "image": "P_cutout_119.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_120.webp",
+        "image": "P_cutout_120.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_121.webp",
+        "image": "P_cutout_121.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_122.webp",
+        "image": "P_cutout_122.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_123.webp",
+        "image": "P_cutout_123.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_124.webp",
+        "image": "P_cutout_124.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_125.webp",
+        "image": "P_cutout_125.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_126.webp",
+        "image": "P_cutout_126.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_127.webp",
+        "image": "P_cutout_127.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_128.webp",
+        "image": "P_cutout_128.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_129.webp",
+        "image": "P_cutout_129.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_130.webp",
+        "image": "P_cutout_130.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_131.webp",
+        "image": "P_cutout_131.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_132.webp",
+        "image": "P_cutout_132.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_133.webp",
+        "image": "P_cutout_133.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_cutout_134.webp",
+        "image": "P_cutout_134.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_cutout_c_01.webp",
+        "image": "cutout_c_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_cutout_c_02.webp",
+        "image": "cutout_c_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_cutout_j_01.webp",
+        "image": "cutout_j_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_cutout_j_02.webp",
+        "image": "cutout_j_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_cutout_k_01.webp",
+        "image": "cutout_k_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_cutout_k_02.webp",
+        "image": "cutout_k_02.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "sleeves",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_sleeve_100.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "P_sleeve_100_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "P_sleeve_100_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "P_sleeve_100_L.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "P_sleeve_100_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_sleeve_101.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "P_sleeve_101_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "P_sleeve_101_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "P_sleeve_101_L.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "P_sleeve_101_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_sleeve_102.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "P_sleeve_102_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "P_sleeve_102_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "P_sleeve_102_L.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "P_sleeve_102_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_sleeve_103.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "P_sleeve_103_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "P_sleeve_103_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "P_sleeve_103_L.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "P_sleeve_103_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_sleeve_104.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "P_sleeve_104_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "P_sleeve_104_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "P_sleeve_104_L.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "P_sleeve_104_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_sleeve_105.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "P_sleeve_105_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "P_sleeve_105_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "P_sleeve_105_L.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "P_sleeve_105_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_sleeve_106.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "P_sleeve_106_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "P_sleeve_106_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "P_sleeve_106_L.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "P_sleeve_106_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_sleeve_107.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "P_sleeve_107_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "P_sleeve_107_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "P_sleeve_107_L.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "P_sleeve_107_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_sleeve_108.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "P_sleeve_108_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "P_sleeve_108_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "P_sleeve_108_L.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "P_sleeve_108_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_sleeve_c_01.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "sleeve_c_01_XS.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "sleeve_c_01_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "sleeve_c_01_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "sleeve_c_01_L.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_sleeve_c_02.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "sleeve_c_02_XS.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "sleeve_c_02_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "sleeve_c_02_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "sleeve_c_02_L.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_sleeve_j_01.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "sleeve_j_01_XS.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "sleeve_j_01_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "sleeve_j_01_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "sleeve_j_01_L.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_sleeve_j_02.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "sleeve_j_02_XS.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "sleeve_j_02_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "sleeve_j_02_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "sleeve_j_02_L.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_sleeve_k_01.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_sleeve_S.webp",
+            "image": "sleeve_k_01_XS.webp"
+          },
+          {
+            "icon": "icon_sleeve_M.webp",
+            "image": "sleeve_k_01_S.webp"
+          },
+          {
+            "icon": "icon_sleeve_L.webp",
+            "image": "sleeve_k_01_M.webp"
+          },
+          {
+            "icon": "icon_sleeve_XL.webp",
+            "image": "sleeve_k_01_L.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "top_details",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_100.webp",
+        "image": "P_top_detail_100.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_101.webp",
+        "image": "P_top_detail_101.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_102.webp",
+        "image": "P_top_detail_102.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_103.webp",
+        "image": "P_top_detail_103.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_104.webp",
+        "image": "P_top_detail_104.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_105.webp",
+        "image": "P_top_detail_105.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_106.webp",
+        "image": "P_top_detail_106.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_107.webp",
+        "image": "P_top_detail_107.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_108.webp",
+        "image": "P_top_detail_108.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_109.webp",
+        "image": "P_top_detail_109.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_110.webp",
+        "image": "P_top_detail_110.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_111.webp",
+        "image": "P_top_detail_111.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_112.webp",
+        "image": "P_top_detail_112.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_114.webp",
+        "image": "P_top_detail_114.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_115.webp",
+        "image": "P_top_detail_115.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_116.webp",
+        "image": "P_top_detail_116.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_117.webp",
+        "image": "P_top_detail_117.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_118.webp",
+        "image": "P_top_detail_118.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_top_detail_119.webp",
+        "image": "P_top_detail_119.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "skirt",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_skirt_100.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "P_skirt_100_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "P_skirt_100_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "P_skirt_100_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "P_skirt_100_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "P_skirt_100_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_skirt_101.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "P_skirt_101_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "P_skirt_101_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "P_skirt_101_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "P_skirt_101_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "P_skirt_101_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_skirt_102.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "P_skirt_102_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "P_skirt_102_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "P_skirt_102_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "P_skirt_102_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "P_skirt_102_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_skirt_103.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "P_skirt_103_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "P_skirt_103_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "P_skirt_103_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "P_skirt_103_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "P_skirt_103_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_skirt_104.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "P_skirt_104_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "P_skirt_104_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "P_skirt_104_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "P_skirt_104_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "P_skirt_104_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_skirt_105.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "P_skirt_105_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "P_skirt_105_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "P_skirt_105_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "P_skirt_105_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "P_skirt_105_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_skirt_106.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "P_skirt_106_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "P_skirt_106_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "P_skirt_106_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "P_skirt_106_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "P_skirt_106_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_skirt_107.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "P_skirt_107_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "P_skirt_107_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "P_skirt_107_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "P_skirt_107_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "P_skirt_107_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_skirt_108.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "P_skirt_108_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "P_skirt_108_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "P_skirt_108_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "P_skirt_108_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "P_skirt_108_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_skirt_109.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "P_skirt_109_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "P_skirt_109_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "P_skirt_109_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "P_skirt_109_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "P_skirt_109_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_skirt_110.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "P_skirt_110_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "P_skirt_110_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "P_skirt_110_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "P_skirt_110_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "P_skirt_110_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_skirt_111.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "P_skirt_111_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "P_skirt_111_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "P_skirt_111_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "P_skirt_111_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "P_skirt_111_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_skirt_112.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "P_skirt_112_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "P_skirt_112_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "P_skirt_112_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "P_skirt_112_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "P_skirt_112_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_skirt_c_01.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "skirt_c_01_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "skirt_c_01_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "skirt_c_01_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "skirt_c_01_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "skirt_c_01_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_skirt_c_02.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "skirt_c_02_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "skirt_c_02_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "skirt_c_02_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "skirt_c_02_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "skirt_c_02_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_skirt_j_01.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "skirt_j_01_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "skirt_j_01_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "skirt_j_01_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "skirt_j_01_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "skirt_j_01_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_skirt_j_02.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "skirt_j_02_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "skirt_j_02_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "skirt_j_02_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "skirt_j_02_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "skirt_j_02_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_skirt_k_01.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_skirt_XS.webp",
+            "image": "skirt_k_01_XS.webp"
+          },
+          {
+            "icon": "icon_skirt_S.webp",
+            "image": "skirt_k_01_S.webp"
+          },
+          {
+            "icon": "icon_skirt_M.webp",
+            "image": "skirt_k_01_M.webp"
+          },
+          {
+            "icon": "icon_skirt_L.webp",
+            "image": "skirt_k_01_L.webp"
+          },
+          {
+            "icon": "icon_skirt_XL.webp",
+            "image": "skirt_k_01_XL.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "trousers",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_pants_100.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_pants_XS.webp",
+            "image": "P_pants_100_XS.webp"
+          },
+          {
+            "icon": "icon_pants_S.webp",
+            "image": "P_pants_100_S.webp"
+          },
+          {
+            "icon": "icon_pants_M.webp",
+            "image": "P_pants_100_M.webp"
+          },
+          {
+            "icon": "icon_pants_L.webp",
+            "image": "P_pants_100_L.webp"
+          },
+          {
+            "icon": "icon_pants_S.webp",
+            "image": "P_pants_100_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_pants_101.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_pants_XS.webp",
+            "image": "P_pants_101_XS.webp"
+          },
+          {
+            "icon": "icon_pants_S.webp",
+            "image": "P_pants_101_S.webp"
+          },
+          {
+            "icon": "icon_pants_M.webp",
+            "image": "P_pants_101_M.webp"
+          },
+          {
+            "icon": "icon_pants_L.webp",
+            "image": "P_pants_101_L.webp"
+          },
+          {
+            "icon": "icon_pants_S.webp",
+            "image": "P_pants_101_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_pants_102.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_pants_XS.webp",
+            "image": "P_pants_102_XS.webp"
+          },
+          {
+            "icon": "icon_pants_S.webp",
+            "image": "P_pants_102_S.webp"
+          },
+          {
+            "icon": "icon_pants_M.webp",
+            "image": "P_pants_102_M.webp"
+          },
+          {
+            "icon": "icon_pants_L.webp",
+            "image": "P_pants_102_L.webp"
+          },
+          {
+            "icon": "icon_pants_S.webp",
+            "image": "P_pants_102_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_pants_103.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_pants_XS.webp",
+            "image": "P_pants_103_XS.webp"
+          },
+          {
+            "icon": "icon_pants_S.webp",
+            "image": "P_pants_103_S.webp"
+          },
+          {
+            "icon": "icon_pants_M.webp",
+            "image": "P_pants_103_M.webp"
+          },
+          {
+            "icon": "icon_pants_L.webp",
+            "image": "P_pants_103_L.webp"
+          },
+          {
+            "icon": "icon_pants_S.webp",
+            "image": "P_pants_103_XL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_pants_104.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_pants_XS.webp",
+            "image": "P_pants_104_XS.webp"
+          },
+          {
+            "icon": "icon_pants_S.webp",
+            "image": "P_pants_104_S.webp"
+          },
+          {
+            "icon": "icon_pants_M.webp",
+            "image": "P_pants_104_M.webp"
+          },
+          {
+            "icon": "icon_pants_L.webp",
+            "image": "P_pants_104_L.webp"
+          },
+          {
+            "icon": "icon_pants_S.webp",
+            "image": "P_pants_104_XL.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "belt",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_100.webp",
+        "image": "P_belt_100.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_101.webp",
+        "image": "P_belt_101.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_102.webp",
+        "image": "P_belt_102.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_103.webp",
+        "image": "P_belt_103.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_104.webp",
+        "image": "P_belt_104.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_105.webp",
+        "image": "P_belt_105.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_106.webp",
+        "image": "P_belt_106.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_107.webp",
+        "image": "P_belt_107.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_108.webp",
+        "image": "P_belt_108.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_109.webp",
+        "image": "P_belt_109.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_110.webp",
+        "image": "P_belt_110.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_111.webp",
+        "image": "P_belt_111.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_112.webp",
+        "image": "P_belt_112.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_113.webp",
+        "image": "P_belt_113.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_114.webp",
+        "image": "P_belt_114.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_115.webp",
+        "image": "P_belt_115.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_116.webp",
+        "image": "P_belt_116.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_117.webp",
+        "image": "P_belt_117.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_118.webp",
+        "image": "P_belt_118.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_119.webp",
+        "image": "P_belt_119.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_belt_120.webp",
+        "image": "P_belt_120.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_belt_c_01.webp",
+        "image": "belt_c_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_belt_c_02.webp",
+        "image": "belt_c_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_belt_j_01.webp",
+        "image": "belt_j_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_belt_j_02.webp",
+        "image": "belt_j_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_belt_k_01.webp",
+        "image": "belt_k_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_belt_k_02.webp",
+        "image": "belt_k_02.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "bottom_details",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bottom_detail_100.webp",
+        "image": "P_bottom_detail_100.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bottom_detail_101.webp",
+        "image": "P_bottom_detail_101.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bottom_detail_102.webp",
+        "image": "P_bottom_detail_102.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bottom_detail_103.webp",
+        "image": "P_bottom_detail_103.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bottom_detail_104.webp",
+        "image": "P_bottom_detail_104.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bottom_detail_105.webp",
+        "image": "P_bottom_detail_105.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bottom_detail_106.webp",
+        "image": "P_bottom_detail_106.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bottom_detail_107.webp",
+        "image": "P_bottom_detail_107.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bottom_detail_108.webp",
+        "image": "P_bottom_detail_108.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bottom_detail_109.webp",
+        "image": "P_bottom_detail_109.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bottom_detail_110.webp",
+        "image": "P_bottom_detail_110.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_bottom_detail_111.webp",
+        "image": "P_bottom_detail_111.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "outerwear",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_out_06.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_out_XS.webp",
+            "image": "out_06_XS.webp"
+          },
+          {
+            "icon": "icon_out_S.webp",
+            "image": "out_06_S.webp"
+          },
+          {
+            "icon": "icon_out_M.webp",
+            "image": "out_06_M.webp"
+          },
+          {
+            "icon": "icon_out_L.webp",
+            "image": "out_06_L.webp"
+          },
+          {
+            "icon": "icon_out_XL.webp",
+            "image": "out_06_XL.webp"
+          },
+          {
+            "icon": "icon_out_XXL.webp",
+            "image": "out_06_XXL.webp"
+          },
+          {
+            "icon": "icon_out_XXXL.webp",
+            "image": "out_06_XXXL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_out_07.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_out_XS.webp",
+            "image": "out_07_XS.webp"
+          },
+          {
+            "icon": "icon_out_M.webp",
+            "image": "out_07_M.webp"
+          },
+          {
+            "icon": "icon_out_L.webp",
+            "image": "out_07_L.webp"
+          },
+          {
+            "icon": "icon_out_XL.webp",
+            "image": "out_07_XL.webp"
+          },
+          {
+            "icon": "icon_out_XXL.webp",
+            "image": "out_07_XXL.webp"
+          },
+          {
+            "icon": "icon_out_XXXL.webp",
+            "image": "out_07_XXXL.webp"
+          }
+        ]
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_out_08.webp",
+        "image": "",
+        "size": [
+          {
+            "icon": "icon_out_XS.webp",
+            "image": "out_08_XS.webp"
+          },
+          {
+            "icon": "icon_out_S.webp",
+            "image": "out_08_S.webp"
+          },
+          {
+            "icon": "icon_out_M.webp",
+            "image": "out_08_M.webp"
+          },
+          {
+            "icon": "icon_out_L.webp",
+            "image": "out_08_L.webp"
+          },
+          {
+            "icon": "icon_out_XL.webp",
+            "image": "out_08_XL.webp"
+          },
+          {
+            "icon": "icon_out_XXL.webp",
+            "image": "out_08_XXL.webp"
+          },
+          {
+            "icon": "icon_out_XXXL.webp",
+            "image": "out_08_XXXL.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "shoes",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoes_100.webp",
+        "image": "P_shoes_100.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoes_101.webp",
+        "image": "P_shoes_101.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoes_102.webp",
+        "image": "P_shoes_102.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoes_103.webp",
+        "image": "P_shoes_103.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoes_104.webp",
+        "image": "P_shoes_104.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoes_105.webp",
+        "image": "P_shoes_105.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoes_106.webp",
+        "image": "P_shoes_106.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoes_107.webp",
+        "image": "P_shoes_107.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoes_108.webp",
+        "image": "P_shoes_108.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoes_109.webp",
+        "image": "P_shoes_109.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoes_110.webp",
+        "image": "P_shoes_110.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoes_111.webp",
+        "image": "P_shoes_111.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_shoes_112.webp",
+        "image": "P_shoes_112.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shoes_c_01.webp",
+        "image": "shoes_c_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shoes_j_01.webp",
+        "image": "shoes_j_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shoes_k_01.webp",
+        "image": "shoes_k_01.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "face",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_face_100.webp",
+        "image": "P_face_100.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_face_101.webp",
+        "image": "P_face_101.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_face_102.webp",
+        "image": "P_face_102.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_face_103.webp",
+        "image": "P_face_103.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_face_104.webp",
+        "image": "P_face_104.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_face_105.webp",
+        "image": "P_face_105.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_face_08.webp",
+        "image": "face_P_08.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_face_09.webp",
+        "image": "face_P_09.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_face_10.webp",
+        "image": "face_P_10.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_face_11.webp",
+        "image": "face_P_11.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_face_12.webp",
+        "image": "face_P_12.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_face_c_01.webp",
+        "image": "face_c_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_face_j_01.webp",
+        "image": "face_j_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_face_k_01.webp",
+        "image": "face_k_01.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "hairstyles",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_hair_100.webp",
+        "image": "P_hair_100.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_hair_101.webp",
+        "image": "P_hair_101.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_hair_102.webp",
+        "image": "P_hair_102.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_hair_103.webp",
+        "image": "P_hair_103.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_hair_104.webp",
+        "image": "P_hair_104.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_hair_105.webp",
+        "image": "P_hair_105.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_hair_106.webp",
+        "image": "P_hair_106.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_hair_107.webp",
+        "image": "P_hair_107.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_hair_108.webp",
+        "image": "P_hair_108.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_hair_109.webp",
+        "image": "P_hair_109.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_hair_110.webp",
+        "image": "P_hair_110.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_hair_111.webp",
+        "image": "P_hair_111.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_hair_112.webp",
+        "image": "P_hair_112.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hair_10.webp",
+        "image": "hair_10.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hair_11.webp",
+        "image": "hair_11.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hair_12.webp",
+        "image": "hair_12.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hair_13.webp",
+        "image": "hair_13.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hair_14.webp",
+        "image": "hair_14.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hair_15.webp",
+        "image": "hair_15.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hair_c_01.webp",
+        "image": "hair_c_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hair_j_01.webp",
+        "image": "hair_j_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hair_j_02.webp",
+        "image": "hair_j_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hair_k_01.webp",
+        "image": "hair_k_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hair_k_02.webp",
+        "image": "hair_k_02.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "headdress",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_headdress_100.webp",
+        "image": "P_headdress_100.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_headdress_101.webp",
+        "image": "P_headdress_101.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_headdress_102.webp",
+        "image": "P_headdress_102.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_headdress_103.webp",
+        "image": "P_headdress_103.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_headdress_104.webp",
+        "image": "P_headdress_104.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_detail_07.webp",
+        "image": "head_detail_07.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_detail_08.webp",
+        "image": "head_detail_08.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_detail_09.webp",
+        "image": "head_detail_09.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_detail_10.webp",
+        "image": "head_detail_10.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_detail_11.webp",
+        "image": "head_detail_11.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "accessories",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_P_accessories_100.webp",
+        "image": "P_accessories_100.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_01.webp",
+        "image": "head_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_02.webp",
+        "image": "head_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_03.webp",
+        "image": "head_03.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_04.webp",
+        "image": "head_04.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_05.webp",
+        "image": "head_05.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_06.webp",
+        "image": "head_06.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_07.webp",
+        "image": "head_07.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_08.webp",
+        "image": "head_08.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_09.webp",
+        "image": "head_09.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_10.webp",
+        "image": "head_10.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_11.webp",
+        "image": "head_11.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_head_12.webp",
+        "image": "head_12.webp",
+        "size": []
+      }
+    ]
+  }
+]

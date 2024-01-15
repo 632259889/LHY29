@@ -1,0 +1,435 @@
+[
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "trousers",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_pants_01.webp",
+        "image": "pants_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_pants_02.webp",
+        "image": "pants_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_pants_03.webp",
+        "image": "pants_03.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_pants_04.webp",
+        "image": "pants_04.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_pants_05.webp",
+        "image": "pants_05.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_pants_06.webp",
+        "image": "pants_06.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_pants_07.webp",
+        "image": "pants_07.webp",
+        "size": []
+      },{
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shorts_01.webp",
+        "image": "shorts_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shorts_02.webp",
+        "image": "shorts_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shorts_03.webp",
+        "image": "shorts_03.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shorts_04.webp",
+        "image": "shorts_04.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shorts_05.webp",
+        "image": "shorts_05.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "t_shirt",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shirt_01.webp",
+        "image": "shirt_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shirt_02.webp",
+        "image": "shirt_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shirt_03.webp",
+        "image": "shirt_03.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shirt_04.webp",
+        "image": "shirt_04.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shirt_05.webp",
+        "image": "shirt_05.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "top",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_top_01.webp",
+        "image": "top_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_top_02.webp",
+        "image": "top_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_top_03.webp",
+        "image": "top_03.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_top_04.webp",
+        "image": "top_04.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_top_05.webp",
+        "image": "top_05.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_top_06.webp",
+        "image": "top_06.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_top_07.webp",
+        "image": "top_07.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "outerwear",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_out_01.webp",
+        "image": "out_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_out_02.webp",
+        "image": "out_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_out_03.webp",
+        "image": "out_03.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "shoes",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shoes_01.webp",
+        "image": "shoes_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shoes_02.webp",
+        "image": "shoes_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_shoes_03.webp",
+        "image": "shoes_03.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "face",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_face_01.webp",
+        "image": "face_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_face_02.webp",
+        "image": "face_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_face_03.webp",
+        "image": "face_03.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_face_04.webp",
+        "image": "face_04.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_face_05.webp",
+        "image": "face_05.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "hairstyles",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hair_01.webp",
+        "image": "hair_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hair_02.webp",
+        "image": "hair_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hair_03.webp",
+        "image": "hair_03.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hair_04.webp",
+        "image": "hair_04.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hair_05.webp",
+        "image": "hair_05.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "headdress",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hat_01.webp",
+        "image": "hat_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hat_02.webp",
+        "image": "hat_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_hat_03.webp",
+        "image": "hat_03.webp",
+        "size": []
+      }
+    ]
+  },
+  {
+    "path_package": "",
+    "icon_package": "",
+    "title": "accessories",
+    "items": [
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_accesoire_01.webp",
+        "image": "accesoire_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_accesoire_02.webp",
+        "image": "accesoire_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_accesoire_03.webp",
+        "image": "accesoire_03.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_accesoire_04.webp",
+        "image": "accesoire_04.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_accesoire_05.webp",
+        "image": "accesoire_05.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_accesoire_06.webp",
+        "image": "accesoire_06.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_accesoire_07.webp",
+        "image": "accesoire_07.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_glasses_01.webp",
+        "image": "glasses_01.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_glasses_02.webp",
+        "image": "glasses_02.webp",
+        "size": []
+      },
+      {
+        "path_package": "",
+        "icon_package": "",
+        "icon": "icon_glasses_03.webp",
+        "image": "glasses_03.webp",
+        "size": []
+      }
+    ]
+  }
+]

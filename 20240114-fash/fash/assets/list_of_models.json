@@ -1,0 +1,86 @@
+[
+  {
+    "id": 0,
+    "path": "female.webp",
+    "model": "female/female.webp",
+    "isNew": false,
+    "type": "template"
+  },
+  {
+    "id": 1,
+    "path": "wedding.webp",
+    "model": "wedding/wedding.webp",
+    "isNew": false,
+    "type": "template"
+  },
+  {
+    "id": 2,
+    "path": "podium.webp",
+    "model": "podium/podium.webp",
+    "isNew": false,
+    "type": "template"
+  },
+  {
+    "id": 3,
+    "path": "male.webp",
+    "model": "male/male.webp",
+    "isNew": false,
+    "type": "template"
+  },
+  {
+    "id": 4,
+    "path": "kid.webp",
+    "model": "kid/kid.webp",
+    "isNew": false,
+    "type": "template"
+  },
+  {
+    "id": 5,
+    "path": "street_model.webp",
+    "model": "street_model/street_model.webp",
+    "isNew": true,
+    "type": "template"
+  },
+  {
+    "id": 6,
+    "path": "dog_model.webp",
+    "model": "dog_model/dog_model.webp",
+    "isNew": true,
+    "type": "template"
+  },
+  {
+    "id": 7,
+    "path": "cat_model.webp",
+    "model": "cat_model/cat_model.webp",
+    "isNew": true,
+    "type": "template"
+  },
+  {
+    "id": 8,
+    "path": "andro_podium_model.webp",
+    "model": "andro_podium_model.webp",
+    "isNew": true,
+    "type": "free_drawing"
+  },
+  {
+    "id": 9,
+    "path": "girl_podium_model_2.webp",
+    "model": "girl_podium_model_2.webp",
+    "isNew": true,
+    "type": "free_drawing"
+  },
+  {
+    "id": 10,
+    "path": "man_podium_model.webp",
+    "model": "man_podium_model.webp",
+    "isNew": true,
+    "type": "free_drawing"
+  },
+  {
+    "id": 11,
+    "path": "plussize_model.webp",
+    "model": "plussize_model.webp",
+    "isNew": true,
+    "type": "free_drawing"
+  }
+]

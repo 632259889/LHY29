@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_graph" app:startDestination="@id/splashFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="SplashFragment" android:name="com.example.feature_splash.presentation.SplashFragment" android:id="@id/splashFragment" />
+    <fragment android:label="ChoiceModelFragment" android:name="com.example.feature_choice_model.presentation.ChoiceModelFragment" android:id="@id/choiceModelFragment" />
+    <fragment android:label="EditProjectFragment" android:name="com.example.feature_edit_project.feature_main.presentation.MainFragment" android:id="@id/editProjectFragment">
+        <argument android:name="KEY_PROJECT_POSITION" android:defaultValue="-1" app:argType="string" />
+        <argument android:name="KEY_MODEL_POSITION" android:defaultValue="0" app:argType="integer" />
+    </fragment>
+    <fragment android:label="SaveProjectFragment" android:name="com.example.feature_save_project.presentation.SaveProjectFragment" android:id="@id/saveProjectFragment" />
+    <dialog android:label="RateUsFragment" android:name="com.example.feature_rate_us.presentation.RateUsFragment" android:id="@id/rateUsFragment" />
+    <fragment android:label="ContestFragment" android:name="com.example.feature_contest.presentation.ContestFragment" android:id="@id/contestFragment" />
+    <dialog android:label="ListOfAppsFragment" android:name="com.example.feature_contest.presentation.apps.ListOfAppsFragment" android:id="@id/listOfAppsFragment" />
+    <dialog android:label="ProjectSentDialogFragment" android:name="com.example.feature_contest.presentation.sent_dialog.ProjectSentDialogFragment" android:id="@id/projectSentDialogFragment" />
+    <fragment android:label="ProjectsFragment" android:name="com.example.feature_projects.presentation.ProjectsFragment" android:id="@id/projectsFragment" />
+    <fragment android:label="SettingsFragment" android:name="com.example.feature_settings.presentation.SettingsFragment" android:id="@id/settingsFragment" />
+    <dialog android:label="TutorialFragment" android:name="com.example.feature_stories.tutorial.TutorialFragment" android:id="@id/storiesTutorialFragment" />
+    <fragment android:label="StoriesDetailFragment" android:name="com.example.feature_stories.detail.StoriesDetailFragment" android:id="@id/storiesDetailFragment">
+        <argument android:name="KEY_STORIES_DETAIL_ID" android:defaultValue="0" app:argType="string" />
+    </fragment>
+    <fragment android:label="StartOfferFragment" android:name="com.groovevibes.bridge.start_offer.StartOfferFragment" android:id="@id/startOfferFragment" />
+    <fragment android:label="OfferFragment" android:name="com.groovevibes.bridge.offer.OfferFragment" android:id="@id/offerFragment" />
+</navigation>

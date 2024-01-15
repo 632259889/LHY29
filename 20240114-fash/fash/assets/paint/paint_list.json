@@ -1,0 +1,34 @@
+[
+  {
+    "path_active": "file:///android_asset/paint/marker_active.webp",
+    "path_inactive": "file:///android_asset/paint/marker_inactive.webp"
+  },
+  {
+    "path_active": "file:///android_asset/paint/pencil_active.webp",
+    "path_inactive": "file:///android_asset/paint/pencil_inactive.webp"
+  },
+  {
+    "path_active": "file:///android_asset/paint/brush_active.webp",
+    "path_inactive": "file:///android_asset/paint/brush_inactive.webp"
+  },
+  {
+    "path_active": "file:///android_asset/paint/eraser_active.webp",
+    "path_inactive": "file:///android_asset/paint/eraser_inactive.webp"
+  },
+  {
+    "path_active": "file:///android_asset/paint/marker_neon_active.webp",
+    "path_inactive": "file:///android_asset/paint/marker_neon_inactive.webp"
+  },
+  {
+    "path_active": "file:///android_asset/paint/claw_active.webp",
+    "path_inactive": "file:///android_asset/paint/claw_inactive.webp"
+  },
+  {
+    "path_active": "file:///android_asset/paint/big_active.webp",
+    "path_inactive": "file:///android_asset/paint/big_inactive.webp"
+  },
+  {
+    "path_active": "file:///android_asset/paint/pastel_active.webp",
+    "path_inactive": "file:///android_asset/paint/pastel_inactive.webp"
+  }
+]

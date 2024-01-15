@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="beginner">Principiante</string>
+    <string name="best_choice">Opzione migliore</string>
+    <string name="master">Maestro</string>
+    <string name="not_ready_to_sub">Non sono pronto per abbonarmi</string>
+    <string name="offer_contest_title"><b>Solo gli utenti PREMIUM</b>" 
+possono partecipare al concorso"</string>
+    <string name="offer_continue">CONTINUA</string>
+    <string name="offer_title">Partecipazione al concorso per il miglior stilista e accesso Premium a tutte le funzionalità</string>
+    <string name="one_month">1 mese</string>
+    <string name="one_week">1 settimana</string>
+    <string name="sub_renews_automatically">"L'abbonamento si rinnova automaticamente. Annulla in qualsiasi momento."</string>
+    <string name="sub_terms">"La durata degli abbonamenti è di 1 settimana, 1 mese o 3 mesi, questi abbonamenti si rinnovano automaticamente e costano %1$s a settimana, %2$s al mese o %3$s per 3 mesi.
+ • Puoi interrompere l'abbonamento in qualsiasi momento.
+ • Il pagamento verrà addebitato sull'account Google Play alla conferma dell'acquisto.
+ • L'abbonamento si rinnova automaticamente a meno che il rinnovo automatico non venga disattivato almeno 24 ore prima della fine del periodo corrente.
+ • L'account verrà addebitato per il rinnovo entro 24 ore prima della fine del periodo corrente e identificherà il costo del rinnovo.
+ • Puoi gestire il tuo abbonamento e disattivarlo accedendo alle Impostazioni dell'account dopo l'acquisto.
+ ATTENZIONE: prima di abbonarti leggi:"</string>
+    <string name="terms_of_use">"Condizioni d'uso"</string>
+    <string name="three_days_free">3 GIORNI GRATIS</string>
+    <string name="three_days_then_x_per_month">3 giorni gratis, poi %1$s al mese</string>
+    <string name="three_days_then_x_per_three_month">3 giorni gratis, poi %1$s ogni 3 mesi</string>
+    <string name="three_months">3 mesi</string>
+    <string name="three_months_trial_terms">"L'abbonamento di 3 mesi offre un periodo di prova gratuito di 3 giorni. Dopodiché, %1$s saranno automaticamente addebitati sul tuo account se non interrompi l'abbonamento prima della fine del periodo di prova gratuita.
+ • È possibile annullare l'abbonamento in qualsiasi momento.
+ • Il pagamento verrà addebitato sull'account alla conferma dell’acquisto.
+ • L'abbonamento si rinnova automaticamente a meno che il rinnovo automatico non venga disattivato almeno 24 ore prima della fine del periodo corrente.
+ • L’account verrà addebitato con il costo del rinnovo entro 24 ore prima della fine del periodo corrente.
+ • È possibile gestire l'abbonamento e disattivarlo alle Impostazioni dell'Account dopo l’acquisto.
+ ATTENZIONE: prima di acquistare, leggi le nostre Condizioni d'uso e l'Informativa sulla Privacy."</string>
+    <string name="trial_sub_terms">"La durata degli abbonamenti è di 1 settimana, 1 mese o 3 mesi, questi abbonamenti si rinnovano automaticamente e costano %1$s a settimana, %2$s al mese o %3$s per 3 mesi.
+ • L'abbonamento di 1 mese e 3 mesi offre un periodo di prova di 3 giorni. Successivamente, %2$s o %3$s verranno addebitati automaticamente dal tuo account se non annulli l'abbonamento prima della fine del periodo di prova.
+ • Puoi interrompere l'abbonamento in qualsiasi momento.
+ • Il pagamento verrà addebitato sull'account Google Play alla conferma dell'acquisto.
+ • L'abbonamento si rinnova automaticamente a meno che il rinnovo automatico non venga disattivato almeno 24 ore prima della fine del periodo corrente. L'account verrà addebitato per il rinnovo entro 24 ore prima della fine del periodo corrente e identificherà il costo del rinnovo.
+ • Puoi gestire il tuo abbonamento e disattivarlo accedendo alle Impostazioni dell'account dopo l'acquisto.
+ ATTENZIONE: prima di abbonarti leggi:"</string>
+    <string name="try_for_free">Prova gratis</string>
+</resources>

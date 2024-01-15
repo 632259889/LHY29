@@ -1,0 +1,143 @@
+version: 2.9.0
+apkFileName: Fashion%20Design%20Sketches%20Book_2.5.0_apkcombo.com.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 26
+  targetSdkVersion: 34
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 60
+  versionName: 2.5.0
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: 8
+  androidsupportmultidexversion.txt: 0
+  billing-ktx.properties: 8
+  billing.properties: 8
+  core-common.properties: 8
+  firebase-annotations.properties: 8
+  firebase-common.properties: 8
+  firebase-components.properties: 8
+  firebase-datatransport.properties: 8
+  firebase-encoders-json.properties: 8
+  firebase-encoders-proto.properties: 8
+  firebase-encoders.properties: 8
+  firebase-iid-interop.properties: 8
+  firebase-installations-interop.properties: 8
+  firebase-installations.properties: 8
+  firebase-measurement-connector.properties: 8
+  firebase-messaging.properties: 8
+  kotlin-tooling-metadata.json: 8
+  play-services-base.properties: 8
+  play-services-basement.properties: 8
+  play-services-cloud-messaging.properties: 8
+  play-services-stats.properties: 8
+  play-services-tasks.properties: 8
+  review-ktx.properties: 8
+  review.properties: 8
+  transport-api.properties: 8
+  transport-backend-cct.properties: 8
+  transport-runtime.properties: 8
+  stamp-cert-sha256: 8
+  okhttp3/internal/publicsuffix/NOTICE: 8
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: 0
+doNotCompress:
+- resources.arsc
+- META-INF/androidx.activity_activity-compose.version
+- META-INF/androidx.activity_activity-ktx.version
+- META-INF/androidx.activity_activity.version
+- META-INF/androidx.annotation_annotation-experimental.version
+- META-INF/androidx.appcompat_appcompat-resources.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+- META-INF/androidx.autofill_autofill.version
+- META-INF/androidx.browser_browser.version
+- META-INF/androidx.cardview_cardview.version
+- META-INF/androidx.compose.animation_animation-core.version
+- META-INF/androidx.compose.animation_animation.version
+- META-INF/androidx.compose.foundation_foundation-layout.version
+- META-INF/androidx.compose.foundation_foundation.version
+- META-INF/androidx.compose.material3_material3-window-size-class.version
+- META-INF/androidx.compose.material3_material3.version
+- META-INF/androidx.compose.material_material-icons-core.version
+- META-INF/androidx.compose.material_material-ripple.version
+- META-INF/androidx.compose.runtime_runtime-saveable.version
+- META-INF/androidx.compose.runtime_runtime.version
+- META-INF/androidx.compose.ui_ui-geometry.version
+- META-INF/androidx.compose.ui_ui-graphics.version
+- META-INF/androidx.compose.ui_ui-text.version
+- META-INF/androidx.compose.ui_ui-tooling-preview.version
+- META-INF/androidx.compose.ui_ui-unit.version
+- META-INF/androidx.compose.ui_ui-util.version
+- META-INF/androidx.compose.ui_ui.version
+- META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+- META-INF/androidx.core_core-ktx.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview-poolingcontainer.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.databinding_viewbinding.version
+- META-INF/androidx.documentfile_documentfile.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.dynamicanimation_dynamicanimation.version
+- META-INF/androidx.emoji2_emoji2-views-helper.version
+- META-INF/androidx.emoji2_emoji2.version
+- META-INF/androidx.exifinterface_exifinterface.version
+- META-INF/androidx.fragment_fragment-ktx.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.legacy_legacy-support-core-ui.version
+- META-INF/androidx.legacy_legacy-support-core-utils.version
+- META-INF/androidx.legacy_legacy-support-v4.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.media_media.version
+- META-INF/androidx.navigation_navigation-common-ktx.version
+- META-INF/androidx.navigation_navigation-common.version
+- META-INF/androidx.navigation_navigation-fragment-ktx.version
+- META-INF/androidx.navigation_navigation-fragment.version
+- META-INF/androidx.navigation_navigation-runtime-ktx.version
+- META-INF/androidx.navigation_navigation-runtime.version
+- META-INF/androidx.navigation_navigation-ui-ktx.version
+- META-INF/androidx.navigation_navigation-ui.version
+- META-INF/androidx.print_print.version
+- META-INF/androidx.profileinstaller_profileinstaller.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.room_room-ktx.version
+- META-INF/androidx.room_room-runtime.version
+- META-INF/androidx.savedstate_savedstate-ktx.version
+- META-INF/androidx.savedstate_savedstate.version
+- META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+- META-INF/androidx.sqlite_sqlite-framework.version
+- META-INF/androidx.sqlite_sqlite.version
+- META-INF/androidx.startup_startup-runtime.version
+- META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+- META-INF/androidx.tracing_tracing.version
+- META-INF/androidx.transition_transition.version
+- META-INF/androidx.vectordrawable_vectordrawable-animated.version
+- META-INF/androidx.vectordrawable_vectordrawable.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager2_viewpager2.version
+- META-INF/androidx.viewpager_viewpager.version
+- META-INF/androidx.window_window.version
+- META-INF/androidx.work_work-runtime.version
+- META-INF/com.google.android.material_material.version
+- META-INF/com.google.dagger_dagger-lint-aar.version
+- META-INF/com.google.dagger_dagger.version
+- META-INF/com.google.dagger_hilt-android.version
+- META-INF/com.google.dagger_hilt-core.version
+- META-INF/kotlinx_coroutines_android.version
+- META-INF/kotlinx_coroutines_core.version
+- webp
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- png
+- mp4

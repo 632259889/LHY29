@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/edit_project_graph" app:startDestination="@id/brushesFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dialog android:label="PalettesFragment" android:name="com.example.feature_edit_project.feature_palettes.presentation.PalettesFragment" android:id="@id/palettesFragment">
+        <argument android:name="KEY_PALETTE_POSITION" android:defaultValue="0" app:argType="integer" />
+        <argument android:name="KEY_MODEL_POSITION" android:defaultValue="0" app:argType="integer" />
+    </dialog>
+    <fragment android:label="BrushesFragment" android:name="com.example.feature_edit_project.feature_brushes.presentation.BrushesFragment" android:id="@id/brushesFragment" />
+    <dialog android:label="TutorialFragment" android:name="com.example.feature_edit_project.feature_tutorial.presentation.TutorialFragment" android:id="@id/tutorialFragment" />
+    <dialog android:label="ExitFragment" android:name="com.example.feature_edit_project.feature_exit_dialog.ExitFragment" android:id="@id/exitFragment" />
+</navigation>

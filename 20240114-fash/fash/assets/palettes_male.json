@@ -1,0 +1,162 @@
+[
+  {
+    "name": "standard",
+    "colors": [
+      "#FF3944",
+      "#FFEB1B",
+      "#34C40A",
+      "#44D3FF",
+      "#2B2BC5"
+    ]
+  },
+  {
+    "name": "calm_tones",
+    "colors": [
+      "#E3D1C3",
+      "#968A8C",
+      "#686872",
+      "#6A4849",
+      "#322C2E"
+    ]
+  },
+  {
+    "name": "dark_green_is_back_in_fashion",
+    "colors": [
+      "#BACBDD",
+      "#596C7C",
+      "#27306B",
+      "#5A4737",
+      "#202739"
+    ]
+  },
+  {
+    "name": "a_combination_of_brown_and_khaki",
+    "colors": [
+      "#DD9E71",
+      "#846A5B",
+      "#5E5A41",
+      "#35435D",
+      "#503934"
+    ]
+  },
+  {
+    "name": "dark_blue_and_white",
+    "colors": [
+      "#CBDCF6",
+      "#4A66A5",
+      "#283A5E",
+      "#141D24",
+      "#712D20"
+    ]
+  },
+  {
+    "name": "a_combination_of_orange_and_dark_shades",
+    "colors": [
+      "#E0E7ED",
+      "#5F7C77",
+      "#E4632F",
+      "#2D4E71",
+      "#624E43"
+    ]
+  },
+  {
+    "name": "beige_and_bright_blue",
+    "colors": [
+      "#DAC6A5",
+      "#A07E50",
+      "#5980DB",
+      "#2F4678",
+      "#7A4928"
+    ]
+  },
+  {
+    "name": "crimson_and_light_gray",
+    "colors": [
+      "#E6EAF3",
+      "#999DA8",
+      "#5A5E67",
+      "#CA273A",
+      "#850F1F"
+    ]
+  },
+  {
+    "name": "beige_and_grey",
+    "colors": [
+      "#F8E4D9",
+      "#C4927B",
+      "#4287EC",
+      "#56546B",
+      "#24274A"
+    ]
+  },
+  {
+    "name": "blue_and_beige",
+    "colors": [
+      "#92A3D1",
+      "#C40316",
+      "#1A274A",
+      "#453333",
+      "#9F7551"
+    ]
+  },
+  {
+    "name": "simple_but_you_can",
+    "colors": [
+      "#EEA407",
+      "#198365",
+      "#314256",
+      "#A1322E",
+      "#566C95"
+    ]
+  },
+  {
+    "name": "grey_is_back_in_fashion",
+    "colors": [
+      "#E6EBFF",
+      "#0B5B52",
+      "#FACE2D",
+      "#814138",
+      "#08386A"
+    ]
+  },
+  {
+    "name": "combination_of_dark_and_light_shades",
+    "colors": [
+      "#BCC5D4",
+      "#6179A5",
+      "#161711",
+      "#E5343F",
+      "#96A0A9"
+    ]
+  },
+  {
+    "name": "grey_beige_and_blue",
+    "colors": [
+      "#D5B495",
+      "#B03B2C",
+      "#BBBCD2",
+      "#716D62",
+      "#262010"
+    ]
+  },
+  {
+    "name": "dark_blue_and_brown",
+    "colors": [
+      "#CA701C",
+      "#A8370F",
+      "#2F3F50",
+      "#B8A4BF",
+      "#26221F"
+    ]
+  },
+  {
+    "name": "blue_and_orange",
+    "colors": [
+      "#DB753D",
+      "#8A6171",
+      "#526CA9",
+      "#373D5D",
+      "#2E2B32"
+    ]
+  }
+]

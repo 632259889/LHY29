@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/preview" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?android:selectableItemBackground" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/new_iv" android:layout_width="65.0dip" android:layout_height="36.0dip" android:layout_margin="72.0dip" android:src="@drawable/ic_new" />
+</FrameLayout>

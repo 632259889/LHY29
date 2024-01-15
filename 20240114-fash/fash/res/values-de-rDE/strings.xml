@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="beginner">Anfänger</string>
+    <string name="best_choice">Beste Wahl</string>
+    <string name="master">Meister</string>
+    <string name="not_ready_to_sub">Ich bin noch nicht bereit, um zu abonnieren</string>
+    <string name="offer_contest_title">"Am Wettbewerb können
+"<b>nur PREMIUM-Benutzer</b> teilnehmen</string>
+    <string name="offer_continue">WEITER</string>
+    <string name="offer_title">Teilnahme am Wettbewerb für den besten Modedesigner und Premium-Zugriff auf alle Funktionen</string>
+    <string name="one_month">1 Monat</string>
+    <string name="one_week">1 Woche</string>
+    <string name="sub_renews_automatically">Das Abonnement wird automatisch erneuert, Sie können es jederzeit aufheben.</string>
+    <string name="sub_terms">"Die Dauer der Abonnements beträgt 1 Woche, 1 Monat oder 3 Monate, diese Abonnements verlängern sich automatisch und kosten %1$s pro Woche, %2$s pro Monat oder %3$s pro 3 Monate.
+ - Sie können das Abonnement jederzeit beenden.
+ - Die Zahlung wird dem Google Play-Konto bei der Kaufbestätigung belastet.
+ - Das Abonnement verlängert sich automatisch, es sei denn, die automatische Verlängerung wird mindestens 24 Stunden vor dem Ende des aktuellen Zeitraums deaktiviert.
+ - Das Konto wird innerhalb von 24 Stunden vor dem Ende des aktuellen Zeitraums für die Verlängerung belastet, wobei die Kosten für die Verlängerung angegeben werden.
+ - Sie können Ihr Abonnement verwalten und deaktivieren, indem Sie nach dem Kauf zu Ihren Kontoeinstellungen gehen.
+ ACHTUNG: Bevor Sie ein Abonnement abschließen, lesen Sie bitte:"</string>
+    <string name="terms_of_use">Nutzungsbedingungen</string>
+    <string name="three_days_free">3 TAGE KOSTENLOS</string>
+    <string name="three_days_then_x_per_month">3 Tage kostenlos, dann %1$s pro Monat</string>
+    <string name="three_days_then_x_per_three_month">3 Tage kostenlos, dann %1$s pro 3 Monate</string>
+    <string name="three_months">3 Monate</string>
+    <string name="three_months_trial_terms">"Ein Abonnement für 3 Monate bietet eine dreitägige Probenutzungszeit an. Nach dem Ende der Probenutzungszeit, werden von Ihrem Konto Mittel im Betrag von %1$s abgebucht, wenn Sie auf das Abonnement vor dem Ende der Probenutzungszeit nicht verzichten.
+ • Sie können Ihr Abonnement jederzeit stornieren.
+ • Nachdem Sie Ihren Einkauf bestätigt haben, wird Ihr Konto mit dem entsprechenden Betrag belastet.
+ • Das Abonnement wird automatisch verlängert, wenn es spätestens 24 Stunden vor dem Ablauf des aktuellen Zeitraums nicht storniert wurde.
+ • Innerhalb von 24 Stunden vor dem Ende des aktuellen Abonnementszeitraums wird Ihr Konto mit dem entsprechenden Betrag belastet.
+ • Nach dem Kauf können Sie Ihre Abonnements in den Einstellungen von Ihrem Konto verwalten und deaktivieren.
+ ACHTUNG: Vor dem Kauf lesen Sie bitte unsere Nutzungsbedingungen und Datenschutzrichtlinie."</string>
+    <string name="trial_sub_terms">"Die Dauer der Abonnements beträgt 1 Woche, 1 Monat oder 3 Monate, diese Abonnements verlängern sich automatisch und kosten %1$s pro Woche, %2$s pro Monat oder %3$s pro 3 Monate.
+ - Abonnement für 1 Monat oder 3 Monate bietet eine 3-tägige Testperiode an. Nach dem Ablauf der Testperiode werden von deinem Konto Mittel im Betrage von %2$s oder %3$s beziehungsweise abgebucht, wenn Sie das Abonnement bis zum Ende der Testperiode nicht stornieren.
+ - Sie können das Abonnement jederzeit beenden.
+ - Die Zahlung wird dem Google Play-Konto bei der Kaufbestätigung belastet.
+ - Das Abonnement verlängert sich automatisch, es sei denn, die automatische Verlängerung wird mindestens 24 Stunden vor dem Ende des aktuellen Zeitraums deaktiviert.
+ - Das Konto wird innerhalb von 24 Stunden vor dem Ende des aktuellen Zeitraums für die Verlängerung belastet, wobei die Kosten für die Verlängerung angegeben werden.
+ - Sie können Ihr Abonnement verwalten und deaktivieren, indem Sie nach dem Kauf zu Ihren Kontoeinstellungen gehen.
+ ACHTUNG: Bevor Sie ein Abonnement abschließen, lesen Sie bitte:"</string>
+    <string name="try_for_free">Probieren Sie kostenlos</string>
+</resources>

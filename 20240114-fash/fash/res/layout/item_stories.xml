@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/container_for_avatar" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="5.0dip" app:cardCornerRadius="28.0dip" app:layout_constraintBottom_toBottomOf="@id/contour" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/contour" app:layout_constraintTop_toTopOf="@id/contour">
+        <ImageView android:id="@id/avatar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_avatar_placeholder" android:scaleType="matrix" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/placeholder" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="5.0dip" app:cardCornerRadius="28.0dip" app:layout_constraintBottom_toBottomOf="@id/contour" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/contour" app:layout_constraintTop_toTopOf="@id/contour">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_avatar_placeholder" />
+    </androidx.cardview.widget.CardView>
+    <ImageView android:id="@id/contour" android:background="@drawable/ic_stories_oval" android:layout_width="66.0dip" android:layout_height="66.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0" />
+    <TextView android:textColor="@color/textColor" android:ellipsize="end" android:gravity="center" android:id="@id/avatar_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="1" android:lines="1" android:fontFamily="@font/cormorant_garamond_bold" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/contour" app:layout_constraintStart_toStartOf="@id/contour" app:layout_constraintTop_toBottomOf="@id/contour" app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

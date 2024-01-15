@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Choose_pricing_plan">选择计划</string>
+    <string name="Privacy_policy">隐私政策</string>
+    <string name="Selected_model">选择模特</string>
+    <string name="Share_Your_Design">分享</string>
+    <string name="a_combination_of_brown_and_khaki">棕色和卡其色</string>
+    <string name="a_combination_of_calm_shades_and_dark_blue">沉稳色彩和深蓝色结合</string>
+    <string name="a_combination_of_orange_and_dark_shades">橙色和深色组合</string>
+    <string name="accessories">配饰</string>
+    <string name="app_label">服装设计：虚拟穿搭</string>
+    <string name="attention">警告</string>
+    <string name="beginner">生手</string>
+    <string name="beige_and_bright_blue">米色和亮蓝色</string>
+    <string name="beige_and_grey">米色和灰色</string>
+    <string name="beige_and_turquoise">米色和绿松色</string>
+    <string name="belt">腰带</string>
+    <string name="best_choice">最火</string>
+    <string name="blue_and_beige">蓝色和米色</string>
+    <string name="blue_and_gray">蓝色和灰色</string>
+    <string name="blue_and_orange">蓝色和橙色</string>
+    <string name="bodice">紧身胸衣</string>
+    <string name="bottom">底部</string>
+    <string name="bottom_details">底部细节</string>
+    <string name="bright_summer_look">灿烂的夏日穿搭</string>
+    <string name="brown_and_turquoise">棕色和绿松石色</string>
+    <string name="calm_tones">柔和色</string>
+    <string name="cancel">取消</string>
+    <string name="casual">休闲式</string>
+    <string name="collar">脖套</string>
+    <string name="combination_of_dark_and_light_shades">深色和浅色组合</string>
+    <string name="combination_with_light_plum">浅李子色搭配</string>
+    <string name="competition">比赛</string>
+    <string name="contest">最佳设计</string>
+    <string name="contest_action">比赛</string>
+    <string name="contest_item_action">参加时装设计比赛，每个人都会看到您的作品！</string>
+    <string name="contest_terms">将来，我们可以将用户设计用于Google Play Store 上的促销屏幕。 提交您的设计即表示您同意，并向我们授予您创建的设计的免版税，非专有许可。只有订阅激活的高级用户才可以参加比赛。 每新时装季节，我们都会选择最佳设计并将其发布在 Google Play Store 的应用程序主页上。</string>
+    <string name="continue_with_limited_version">继续使用受限制的版本</string>
+    <string name="coral_and_black">珊瑚色和黑色</string>
+    <string name="coral_and_lilac">珊瑚色和丁香色</string>
+    <string name="create_project">创建设计</string>
+    <string name="crimson_and_light_gray">覆盆子和浅灰色</string>
+    <string name="dark_blue_and_brown">深蓝色和棕色</string>
+    <string name="dark_blue_and_white">深蓝色和白色</string>
+    <string name="dark_green_is_back_in_fashion">流行的灰色</string>
+    <string name="denim_tones">牛仔布色调</string>
+    <string name="face">脸</string>
+    <string name="feature_first_description">"我们正在为新进的时装设计师举办比赛。 
+所有用户都可以在“故事”部分看到最佳作品。"</string>
+    <string name="feature_first_title">时装比赛</string>
+    <string name="feature_fourth_description">"我们会定期更新内容：新衣服、帆布和模特。 
+现在您可以创建自己的婚礼系列。"</string>
+    <string name="feature_fourth_title">选择自由</string>
+    <string name="feature_second_description">"使您草图栩栩如生，只需专注细节。 
+使用图案和印花，可以创建亮片和水钻效果，并创建织物纹理。"</string>
+    <string name="feature_second_title">花纹来创造魔术</string>
+    <string name="feature_third_description">"高品质的画笔会让您创建更加美丽的纹理。 
+我们创建的美工工具非常逼真，优化您图形。"</string>
+    <string name="feature_third_title">逼真画笔</string>
+    <string name="for_the_best_fashion_design_and_everyone_will_see_your_design">每个人都会看到您的作品！</string>
+    <string name="free">试试</string>
+    <string name="free_drawing">不带模板</string>
+    <string name="grey_beige_and_blue">灰色、米色和蓝色</string>
+    <string name="grey_is_back_in_fashion">重新流行的深绿色</string>
+    <string name="hairstyles">发型设计</string>
+    <string name="headdress">帽子</string>
+    <string name="lemon_jacket">海洋色和黄色</string>
+    <string name="mail_client_is_not_configured">您的邮件客户端的配置不正确。 请对其进行配置，然后尝试发送给您一封信。 fashiondesignsketches@mail.ru</string>
+    <string name="master">专家</string>
+    <string name="model_hint">我的设计</string>
+    <string name="mustard_and_grey">芥末色和灰色</string>
+    <string name="my_project">我的设计</string>
+    <string name="neckline">胸部开口</string>
+    <string name="nickname_name">名称/名字</string>
+    <string name="no_internet_connection">没有网络连接</string>
+    <string name="not_ready_to_sub">我还没打算订阅</string>
+    <string name="offer_contest_title">只有<b>PREMIUM</b>"用户
+可以参加比赛"</string>
+    <string name="offer_continue">继续</string>
+    <string name="offer_one_month_period">1个月订阅</string>
+    <string name="offer_one_month_price">*/1个月</string>
+    <string name="offer_one_month_title">最火</string>
+    <string name="offer_one_year_period">一年的订阅</string>
+    <string name="offer_one_year_price">* /12个月</string>
+    <string name="offer_one_year_title">大师</string>
+    <string name="offer_one_year_without_trial_info">"订阅期限为12个月。订阅自动续订，每月扣除*。 
+• 您可以随时退订。 
+• 确认购买后，相应的金额将从您的帐户余额中扣除。 
+• 如果您在当前订阅期结束前24小时内未退订，则该订阅将自动续订。 
+• 继续订阅发票将在当前期订阅期结束前24小时内发放到您的帐户。 
+• 您可以在Google Play帐户设置中管理自动续订选项。 
+请注意：购买前，请阅读我们隐私政策和使用条款。"</string>
+    <string name="offer_popup_price_six_months">3天免费试用，然后每6个月为*</string>
+    <string name="offer_popup_price_three_months">3天免费试用，然后每3个月为%1$s</string>
+    <string name="offer_sale">折扣 *</string>
+    <string name="offer_six_month_period">6个月订阅</string>
+    <string name="offer_six_month_price">*/6个月</string>
+    <string name="offer_six_month_title">业余者</string>
+    <string name="offer_six_month_with_trial_info">"6个月订阅包括3天免费试用期。试用期结束后，如果您未在试用期结束前退订，则将从您的帐户余额中扣除*。 
+• 您可以随时退订。 
+• 确认购买后，相应的金额将从您的帐户余额中扣除。 
+• 如果您在当前订阅期结束前24小时内未退订，则该订阅将自动续订。 
+• 继续订阅发票将在当前期订阅期结束前24小时内发放到您的帐户。 
+• 您可以在Google Play帐户设置中管理自动续订选项。 
+请注意：购买前，请阅读我们隐私政策和使用条款。"</string>
+    <string name="offer_six_month_without_trial_info">"订阅期限为6个月。订阅自动续订，每月扣除*。 
+• 您可以随时退订。 
+• 确认购买后，相应的金额将从您的帐户余额中扣除。 
+• 如果您在当前订阅期结束前24小时内未退订，则该订阅将自动续订。 
+• 继续订阅发票将在当前期订阅期结束前24小时内发放到您的帐户。 
+• 您可以在Google Play帐户设置中管理自动续订选项。 
+请注意：购买前，请阅读我们隐私政策和使用条款。"</string>
+    <string name="offer_title">"参加最佳时装设计师的竞赛并获得全部功能的高级
+ 访问权限"</string>
+    <string name="offer_trial_period">3天免费试用</string>
+    <string name="ok">确定</string>
+    <string name="one_month">1个月</string>
+    <string name="one_week">1周</string>
+    <string name="outerwear">外衣</string>
+    <string name="participate">参加比赛吧！</string>
+    <string name="pink_jeans">粉红和灰色</string>
+    <string name="plum_and_brown">李子色和棕色</string>
+    <string name="plum_and_grey">李子色和灰色</string>
+    <string name="plum_and_pastel_shades">李子色和柔和色</string>
+    <string name="plum_blouse">李子色和米色</string>
+    <string name="rate_us_cancel">也许以后</string>
+    <string name="rate_us_description">点按星标即可在商店中对其评分</string>
+    <string name="rate_us_low_rate">感谢您！您意见对我们十分重要！</string>
+    <string name="rate_us_send">立即评价</string>
+    <string name="rate_us_title">您如何评价这个应用程序？</string>
+    <string name="retro_in_beige_shades">复古米色</string>
+    <string name="settings">设置</string>
+    <string name="shared_offer_learn_more">更多信息</string>
+    <string name="shared_offer_popup_description">3天免费试用时评论应用的功能</string>
+    <string name="shared_offer_popup_title">免费试用!</string>
+    <string name="shared_offer_privacy_policy">隐私政策</string>
+    <string name="shared_offer_terms_of_use">使用条款</string>
+    <string name="shoes">鞋子</string>
+    <string name="shoulders">肩膀</string>
+    <string name="simple_but_you_can">简单而时尚</string>
+    <string name="site">应用网站</string>
+    <string name="skirt">裙子</string>
+    <string name="sleeves">袖子</string>
+    <string name="spring_in_blue">蓝色的春天</string>
+    <string name="standard">标准颜色板</string>
+    <string name="start">开始</string>
+    <string name="start_design_again">您确定要删除所有部件并重试设计吗？</string>
+    <string name="start_offer_one_month_with_trial_info">"1个月订阅包括3天免费试用期。试用期结束后，如果您未在试用期结束前退订，则将从您的帐户余额中扣除 *。 
+• 您可以随时退订。 
+• 确认购买后，相应的金额将从您的帐户余额中扣除。 
+• 如果您在当前订阅期结束前24小时内未退订，则该订阅将自动续订。 
+• 继续订阅发票将在当前期订阅期结束前24小时内发放到您的帐户。 
+• 您可以在帐户设置中管理自动续订选项。 
+请注意：购买前，请阅读我们隐私政策和使用条款："</string>
+    <string name="start_offer_one_month_without_trial_info">"订阅期限为1个月。订阅自动续订，每月扣除*。 
+• 您可以随时退订。 
+• 确认购买后，相应的金额将从您的帐户余额中扣除。 
+• 如果您在当前订阅期结束前24小时内未退订，则该订阅将自动续订。 
+• 继续订阅发票将在当前期订阅期结束前24小时内发放到您的帐户。 
+• 您可以在您帐户设置中管理自动续订选项。 
+请注意：购买前，请阅读我们隐私政策和使用条款。"</string>
+    <string name="start_offer_one_week_without_trial_info">"订阅期限为1个周。订阅自动续订，每月扣除*。 
+• 您可以随时退订。 
+• 确认购买后，相应的金额将从您的帐户余额中扣除。 
+• 如果您在当前订阅期结束前24小时内未退订，则该订阅将自动续订。 
+• 继续订阅发票将在当前期订阅期结束前24小时内发放到您的帐户。 
+• 您可以在Google Play帐户设置中管理自动续订选项。 
+请注意：购买前，请阅读我们隐私政策和使用条款。"</string>
+    <string name="start_offer_price_week">每周只为*€！</string>
+    <string name="start_offer_price_with_trial">3天免费试用，然后每月扣除*</string>
+    <string name="start_offer_price_without_trial">每月费用只为*</string>
+    <string name="stories_tutorial_description_first">感谢您使用我们的应用程序。</string>
+    <string name="stories_tutorial_description_second">最终结果尚未公布，您仍有机会获胜。 提交您最酷的设计！</string>
+    <string name="stories_tutorial_title">用户最佳的设计！</string>
+    <string name="sub_renews_automatically">订阅自动续订，可随时退订。</string>
+    <string name="sub_terms">"订阅期限为1周、1个月或者3个月。这些订阅自动续订，续订费为%1$s/每周、%2$s/每月或者%3$s/每3个月。
+ • 您可以随时退订。
+ • 确认购买后，相应的金额将从您的帐户余额中扣除。
+ • 如果您在当前订阅期结束前24小时内未退订，则该订阅将自动续订。
+ • 继续订阅发票将在当前期订阅期结束前24小时内发放到您的帐户。
+ • 您可以在您帐户设置中管理自动续订选项。
+ 请注意：购买前，请阅读:"</string>
+    <string name="submit">提交</string>
+    <string name="t_shirt">T恤</string>
+    <string name="take_part_in_the_competition">参加时装设计比赛</string>
+    <string name="terms_of_use">使用条款</string>
+    <string name="text_delete">删除</string>
+    <string name="text_delete_project">您确定要删除设计吗？</string>
+    <string name="text_input_project_name">请输入您设计的名称</string>
+    <string name="text_no_project">您还没有设计。</string>
+    <string name="text_palette">调色板</string>
+    <string name="thank_you_for_participatin">感谢您的参与，我们在不久的将来通知投票结果。</string>
+    <string name="three_days_free">3天免费试用</string>
+    <string name="three_days_then_x_per_month">免费试用3天，然后每月订费为%1$s</string>
+    <string name="three_days_then_x_per_three_month">3天免费试用，然后每月订费为 %1$s</string>
+    <string name="three_months">3个月</string>
+    <string name="three_months_trial_terms">"3个月订阅包括3天免费试用期。试用期结束后，如果您未在试用期结束前退订，则将从您的帐户余额中扣除%1$s。
+ • 您可以随时退订。
+ • 确认购买后，相应的金额将从您的帐户余额中扣除。
+ • 如果您在当前订阅期结束前24小时内未退订，则该订阅将自动续订。
+ • 继续订阅发票将在当前期订阅期结束前24小时内发放到您的帐户。
+ • 购买后您可以在帐户设置中管理自动续订。
+ 请注意：购买前，请阅读我们隐私政策和使用条款。"</string>
+    <string name="tik_tok">在TikTok上关注我们!</string>
+    <string name="to_try">免费</string>
+    <string name="tooltips_title_edit_progect">用画笔和图案给您的设计色彩。</string>
+    <string name="top">最佳</string>
+    <string name="top_details">上衣细节</string>
+    <string name="trial_sub_terms">"订阅期限为1周、1个月或者3个月。这些订阅自动续订，续订费为%1$s/每周、%2$s/每月或者%3$s/每3个月。
+ • 1个月和3个月订阅包括3天免费试用期。试用期结束后，如果您未在试用期结束前退订，则将从您的帐户余额中扣除%2$s或者%3$s。
+ • 您可以随时退订。
+ • 确认购买后，相应的金额将从您的帐户余额中扣除。
+ • 如果您在当前订阅期结束前24小时内未退订，则该订阅将自动续订。
+ • 继续订阅发票将在当前期订阅期结束前24小时内发放到您的帐户。
+ • 您可以在您帐户设置中管理自动续订选项。
+ 请注意：购买前，请阅读"</string>
+    <string name="trousers">裤子</string>
+    <string name="try_for_free">免费试试</string>
+    <string name="what_a_design">那么完美的设计！您愿意与大家分享吗?</string>
+    <string name="with_templates">带有模板</string>
+    <string name="wow">哇塞！</string>
+    <string name="yellow_and_green">黄色和绿色</string>
+</resources>
