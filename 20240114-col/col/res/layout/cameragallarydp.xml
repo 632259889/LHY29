@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/lay_camera" android:background="#ffffffff" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/_120sdp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/lay_cam" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:background="@drawable/camera_pricon" android:layout_width="@dimen/_40sdp" android:layout_height="@dimen/_40sdp" android:backgroundTint="@color/gray" />
+        <TextView android:textStyle="bold" android:textColor="@color/gray" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/_20sdp" android:text=" Camera" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/lay_gallery" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:background="@drawable/storage_pricon" android:layout_width="@dimen/_40sdp" android:layout_height="@dimen/_40sdp" android:backgroundTint="@color/gray" />
+        <TextView android:textStyle="bold" android:textColor="@color/gray" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/_20sdp" android:text="Gallery" />
+    </LinearLayout>
+</LinearLayout>

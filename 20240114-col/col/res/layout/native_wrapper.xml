@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_wrapper" android:visibility="visible" android:layout_width="@dimen/_90sdp" android:layout_height="@dimen/_90sdp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/_90sdp" android:layout_height="@dimen/_90sdp">
+        <FrameLayout android:id="@id/fl_adplaceholder" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n2:background="@android:color/white" n2:clickable="true" n2:layout_width="fill_parent" n2:layout_height="fill_parent"
+  xmlns:n2="http://schemas.android.com/apk/res/android">
+    <ImageView n2:id="@id/imageView1" n2:layout_width="fill_parent" n2:layout_height="fill_parent" n2:scaleType="fitCenter" n2:adjustViewBounds="true" n2:layout_above="@id/button_dummy" n2:layout_below="@id/full_fragment_apply_filter_header" n2:layout_centerHorizontal="true" />
+    <LinearLayout n2:gravity="center_vertical" n2:orientation="horizontal" n2:id="@id/full_fragment_apply_filter_header" n2:background="@color/primary" n2:visibility="visible" n2:layout_width="fill_parent" n2:layout_height="53.0dip" n2:layout_alignParentTop="true">
+        <TextView n2:textStyle="bold" n2:gravity="center" n2:id="@id/button_cancel_filter" n2:background="@drawable/selector_btn_header" n2:focusable="true" n2:clickable="true" n2:text="@android:string/cancel" style="@style/effect_header_button_style" />
+        <TextView n2:textStyle="bold" n2:gravity="center" n2:id="@id/button_apply_filter" n2:background="@drawable/selector_btn_header" n2:focusable="true" n2:clickable="true" n2:text="@android:string/ok" style="@style/effect_header_button_style" />
+    </LinearLayout>
+    <FrameLayout n2:id="@id/fragment_container" n2:layout_width="fill_parent" n2:layout_height="wrap_content" n2:layout_alignParentBottom="true" />
+    <LinearLayout n2:orientation="horizontal" n2:id="@id/button_dummy" n2:visibility="invisible" n2:layout_width="wrap_content" n2:layout_height="wrap_content" n2:layout_alignParentBottom="true">
+        <Button n2:text="Fx" n2:drawableTop="@drawable/lib_effect" style="@style/effect_footer_imagebutton_style" />
+    </LinearLayout>
+</RelativeLayout>

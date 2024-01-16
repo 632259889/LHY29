@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/activity_main" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="10.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.0">
+            <ImageView android:background="@drawable/fg" android:layout_width="@dimen/_220sdp" android:layout_height="@dimen/_220sdp" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center" android:background="@drawable/ttext" android:layout_width="@dimen/_250sdp" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0">
+            <Button android:textSize="@dimen/_12sdp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn" android:background="@color/colorPrimaryDark" android:visibility="gone" android:layout_width="@dimen/_120sdp" android:layout_height="@dimen/_40sdp" android:text="Lets Start!" />
+            <TextView android:textSize="@dimen/_12sdp" android:textStyle="bold" android:textColor="@color/colorPrimaryDark" android:id="@id/loadindtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_40sdp" android:text="Loading App..." />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/_12sdp" android:textColor="@color/colorPrimaryDark" android:id="@id/upper_text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Powered By:" android:layout_above="@id/out_title" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/_8sdp" android:textColor="@color/colorPrimaryDark" android:id="@id/out_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_7sdp" android:text="E D U C A T I O N P O O L" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

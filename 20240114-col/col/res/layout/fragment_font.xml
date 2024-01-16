@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/font_fragment_layout" android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/banner_container" android:background="@drawable/ad_loading_small" android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp" />
+        <FrameLayout android:id="@id/fl_adplaceholderbanner" android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp" android:layout_marginTop="0.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@color/colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:gravity="center" android:id="@id/button_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/canvas_text_color" android:layout_weight="1.0" style="@style/canvas_text_toolbar_button_style" />
+        <Button android:gravity="center" android:id="@id/button_font_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/ok" android:layout_weight="1.0" style="@style/canvas_text_toolbar_button_style" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/preview_text_size" android:textColor="@color/colorPrimaryDark" android:gravity="center" android:id="@id/textview_font" android:background="@color/white" android:padding="5.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/preview_text_view_height" android:text="Text Preview" android:lines="1" />
+    <EditText android:textColor="@color/white" android:textColorHint="@color/white" android:gravity="center" android:id="@id/edittext_font" android:padding="@dimen/edittext_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/canvas_text_hint" android:ems="1" android:singleLine="true" android:inputType="textNoSuggestions" android:imeOptions="actionDone" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <uz.shift.colorpicker.LineColorPicker android:id="@id/text_color_bar" android:layout_width="0.0dip" android:layout_height="@dimen/_20sdp" android:layout_weight="3.0" app:colors="@array/sample_colors" app:orientation="horizontal" app:selectedColorIndex="0" />
+        <ImageView android:id="@id/color_picker" android:layout_width="@dimen/_20sdp" android:layout_height="@dimen/_20sdp" android:src="@drawable/picker" android:layout_weight="0.1" />
+    </LinearLayout>
+    <GridView android:id="@id/gridview_font" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:cacheColorHint="#00000000" android:numColumns="4" />
+    <FrameLayout android:id="@id/fl_adplaceholder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+</LinearLayout>

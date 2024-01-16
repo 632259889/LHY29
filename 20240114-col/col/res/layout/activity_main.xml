@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/activity_main" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/gallery_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginTop="0.0dip" android:layout_marginStart="2.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/mainLayout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="10.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0">
+            <ImageView android:id="@id/mainlogo" android:background="@drawable/fg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="5.0" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/_200sdp" android:layout_centerInParent="true">
+                <ImageView android:id="@id/imagelogo" android:layout_width="@dimen/_160sdp" android:layout_height="@dimen/_160sdp" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="5.0" android:layout_centerInParent="true">
+                <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <FrameLayout android:id="@id/fl_adplaceholder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+                </ScrollView>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_20sdp" android:layout_weight="0.3">
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/_20sdp" android:text="@string/app_name" android:fontFamily="@font/mainfont" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/_20sdp" android:layout_marginRight="@dimen/_20sdp" android:layout_weight="3.5">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.5">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/layout_college" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:background="@drawable/collage_bg" android:layout_width="@dimen/_100sdp" android:layout_height="@dimen/_100sdp" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/dpmaker" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:background="@drawable/dp_maker" android:layout_width="@dimen/_100sdp" android:layout_height="@dimen/_100sdp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/layout_scrapbook" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:background="@drawable/scrapbook" android:layout_width="@dimen/_70sdp" android:layout_height="@dimen/_70sdp" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/layout_mirror" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:background="@drawable/mirror_collage" android:layout_width="@dimen/_70sdp" android:layout_height="@dimen/_70sdp" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/layout_single_editor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:background="@drawable/photo_editor" android:layout_width="@dimen/_70sdp" android:layout_height="@dimen/_70sdp" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/ivmycreation" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:background="@drawable/my_creations_btn" android:layout_width="@dimen/_70sdp" android:layout_height="@dimen/_70sdp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/adlayout" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/banner_container" android:background="@drawable/ad_loading" android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp" android:layout_alignParentBottom="true" />
+        <FrameLayout android:id="@id/fl_adplaceholderbanner" android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp" android:layout_marginTop="0.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/splash" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/activity_splash" />
+    </RelativeLayout>
+</RelativeLayout>

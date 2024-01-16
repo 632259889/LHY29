@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_wrapper" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/_15sdp" android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Loading Ads..." android:layout_centerInParent="true" android:textAlignment="center" />
+    <com.startapp.sdk.ads.banner.Banner android:id="@id/startAppBanner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/banner_container" android:background="@color/colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

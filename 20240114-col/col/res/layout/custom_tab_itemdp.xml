@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:background="@color/white" android:layout_width="@dimen/_70sdp" android:layout_height="@dimen/_60sdp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/base" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/icon" android:visibility="gone" android:layout_width="@dimen/_45sdp" android:layout_height="@dimen/_45sdp" android:layout_marginLeft="@dimen/_15sdp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginRight="@dimen/_15sdp" android:src="@drawable/ad_icon" android:scaleType="fitCenter" />
+        <TextView android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:id="@id/icon_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Catagory Name" android:textAllCaps="true" />
+        <TextView android:textSize="@dimen/_7sdp" android:textColor="#ffe6e6e6" android:layout_gravity="center_horizontal" android:id="@id/icon_num" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_2sdp" android:textAlignment="center" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/loading_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/indicator" android:visibility="gone" android:layout_width="@dimen/_1sdp" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    <View android:background="#ffcacaca" android:layout_width="fill_parent" android:layout_height="@dimen/_1sdp" android:layout_marginTop="@dimen/_5sdp" android:layout_alignParentBottom="true" />
+</RelativeLayout>

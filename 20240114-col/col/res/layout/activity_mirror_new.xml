@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_mirror_activity" android:background="@drawable/white_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/text_view_fragment_container" android:background="@drawable/white_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/mirror_header" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/banner_container" android:background="@drawable/ad_loading_small" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+            <FrameLayout android:id="@id/fl_adplaceholderbanner" android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp" android:layout_marginTop="0.0dip" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <ImageButton android:id="@id/closeScreen" android:background="@drawable/collage_footer_button" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cross" android:onClick="myClickHandler" />
+            <TextView android:gravity="center" android:layout_gravity="center" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/app_name" android:layout_weight="1.0" android:fontFamily="serif" style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+            <ImageButton android:layout_gravity="bottom|center" android:id="@id/button_save_mirror_image" android:background="@drawable/collage_footer_button" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/save" android:onClick="myClickHandler" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/banner_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.photoseditormilli.photocollage.u.MyViewFlipper android:gravity="bottom" android:id="@id/mirror_view_flipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/mirror_footer">
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/mirror_combinations" android:background="@color/collage_tool_background_color" android:padding="3.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+            <HorizontalScrollView android:id="@id/horizontalScrollView2" android:background="@color/collage_tool_background_color" android:padding="1.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/button_m1" android:background="@color/footer_button_color_pressed" android:src="@drawable/m1" style="@style/mirror_button_style" />
+                    <ImageView android:id="@id/button_m2" android:src="@drawable/m2" style="@style/mirror_button_style" />
+                    <ImageView android:id="@id/button_m3" android:src="@drawable/m3" style="@style/mirror_button_style" />
+                    <ImageView android:id="@id/button_m4" android:src="@drawable/m4" style="@style/mirror_button_style" />
+                    <ImageView android:id="@id/button_m5" android:src="@drawable/m5" style="@style/mirror_button_style" />
+                    <ImageView android:id="@id/button_m6" android:src="@drawable/m6" style="@style/mirror_button_style" />
+                    <ImageView android:id="@id/button_m7" android:src="@drawable/m7" style="@style/mirror_button_style" />
+                    <ImageView android:id="@id/button_m8" android:src="@drawable/m8" style="@style/mirror_button_style" />
+                    <ImageView android:id="@id/button_m9" android:src="@drawable/m9" style="@style/mirror_button_style" />
+                    <ImageView android:id="@id/button_m10" android:src="@drawable/m10" style="@style/mirror_button_style" />
+                    <ImageView android:id="@id/button_m11" android:src="@drawable/m11" style="@style/mirror_button_style" />
+                    <ImageView android:id="@id/button_m12" android:src="@drawable/m12" style="@style/mirror_button_style" />
+                    <ImageView android:id="@id/button_m13" android:src="@drawable/m13" style="@style/mirror_button_style" />
+                    <ImageView android:id="@id/button_m14" android:src="@drawable/m14" style="@style/mirror_button_style" />
+                    <ImageView android:id="@id/button_m15" android:src="@drawable/m15" style="@style/mirror_button_style" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+        <HorizontalScrollView android:layout_gravity="bottom" android:id="@id/horizontalScrollView3" android:background="@color/collage_tool_background_color" android:padding="3.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/button_3d_1" android:src="@drawable/half_heart_left" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_2" android:src="@drawable/half_heart_right" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_3" android:src="@drawable/shield_left" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_4" android:src="@drawable/shield_right" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_5" android:src="@drawable/spades_left" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_6" android:src="@drawable/spades_right" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_7" android:src="@drawable/mirror_3d_4_icon_left" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_8" android:src="@drawable/mirror_3d_4_icon" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_9" android:src="@drawable/mirror_3d_3_icon_left" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_10" android:src="@drawable/mirror_3d_3_icon_right" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_11" android:src="@drawable/mirror_3d_1_icon_left" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_12" android:src="@drawable/mirror_3d_1_icon" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_13" android:src="@drawable/mirror_3d_6_icon" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_14" android:src="@drawable/mirror_3d_6_icon_left" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_15" android:src="@drawable/mirror_3d_13_icon" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_16" android:src="@drawable/mirror_3d_13_icon_right" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_17" android:src="@drawable/mirror_3d_15_icon4" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_18" android:src="@drawable/mirror_3d_15_icon2" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_19" android:src="@drawable/mirror_3d_15_icon3" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_20" android:src="@drawable/mirror_3d_15_icon" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_21" android:src="@drawable/mirror_3d_16_icon4" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_22" android:src="@drawable/mirror_3d_16_icon2" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_23" android:src="@drawable/mirror_3d_16_icon3" style="@style/mirror_button_style" />
+                <ImageView android:id="@id/button_3d_24" android:src="@drawable/mirror_3d_16_icon" style="@style/mirror_button_style" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/mirror_ratios" android:background="@color/collage_tool_background_color" android:padding="3.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <HorizontalScrollView android:id="@id/mirror_ratio_horizontalScrollView" android:background="@color/collage_tool_background_color" android:padding="3.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip">
+                <LinearLayout android:orientation="horizontal" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <Button android:id="@id/button11" android:background="@drawable/selector_collage_ratio_button" android:text="1:1" style="@style/collage_ratio_button_style" />
+                    <Button android:id="@id/button21" android:text="2:1" style="@style/collage_ratio_button_style" />
+                    <Button android:id="@id/button12" android:text="1:2" style="@style/collage_ratio_button_style" />
+                    <Button android:id="@id/button32" android:text="3:2" style="@style/collage_ratio_button_style" />
+                    <Button android:id="@id/button23" android:text="2:3" style="@style/collage_ratio_button_style" />
+                    <Button android:id="@id/button43" android:text="4:3" style="@style/collage_ratio_button_style" />
+                    <Button android:id="@id/button34" android:text="3:4" style="@style/collage_ratio_button_style" />
+                    <Button android:id="@id/button45" android:text="4:5" style="@style/collage_ratio_button_style" />
+                    <Button android:id="@id/button57" android:text="5:7" style="@style/collage_ratio_button_style" />
+                    <Button android:id="@id/button169" android:text="16:9" style="@style/collage_ratio_button_style" />
+                    <Button android:id="@id/button916" android:text="9:16" style="@style/collage_ratio_button_style" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+        <FrameLayout android:id="@id/mirror_effect_fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/mirror_footer" />
+        <View android:layout_width="1.0dip" android:layout_height="1.0dip" />
+    </com.photoseditormilli.photocollage.u.MyViewFlipper>
+    <LinearLayout android:orientation="horizontal" android:id="@id/mirror_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/button_mirror" android:text="Mirror" android:drawableTop="@drawable/mirror" style="@style/mirror_footer_imagebutton_style" />
+        <Button android:id="@id/button_mirror_3d" android:text="Shape" android:drawableTop="@drawable/ddd" style="@style/mirror_footer_imagebutton_style" />
+        <Button android:id="@id/button_mirror_ratio" android:text="Ratio" android:drawableTop="@drawable/ratio" style="@style/mirror_footer_imagebutton_style" />
+        <Button android:id="@id/button_mirror_effect" android:visibility="gone" android:text="Effect" android:drawableTop="@drawable/ic_magic_wand" style="@style/mirror_footer_imagebutton_style" />
+        <Button android:id="@id/button_mirror_frame" android:visibility="gone" android:text="Frame" android:drawableTop="@drawable/ic_frame" style="@style/mirror_footer_imagebutton_style" />
+        <Button android:id="@id/button_mirror_text" android:text="Text" android:drawableTop="@drawable/text" style="@style/mirror_footer_imagebutton_style" />
+        <Button android:id="@id/button_mirror_sticker" android:visibility="gone" android:text="Sticker" android:drawableTop="@drawable/ic_sticker" style="@style/mirror_footer_imagebutton_style" />
+        <Button android:id="@id/button_mirror_adj" android:visibility="visible" android:text="Filter" android:drawableTop="@drawable/filter" style="@style/mirror_footer_imagebutton_style" />
+    </LinearLayout>
+</RelativeLayout>

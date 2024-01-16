@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.nativead.NativeAdView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:background="@drawable/border_native" android:layout_width="@dimen/_90sdp" android:layout_height="@dimen/_90sdp" android:minHeight="50.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="@color/white" android:background="@color/blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ad" android:backgroundTint="@color/blue" />
+        </LinearLayout>
+        <TextView android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/adtext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Place For Ads" />
+        <LinearLayout android:gravity="top" android:layout_gravity="top" android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingTop="3.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/ad_app_icon" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="@dimen/_20sdp" android:layout_height="@dimen/_20sdp" android:adjustViewBounds="true" android:paddingEnd="5.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="9.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/ad_headline" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="9.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="bottom" android:id="@id/ad_advertiser" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <com.google.android.gms.ads.nativead.MediaView android:layout_gravity="center_horizontal" android:id="@id/ad_media" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/ad_body" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_marginEnd="20.0dip" />
+                <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/ad_price" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/ad_store" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+                    <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/ad_call_to_action" android:background="@color/bluecolor" android:layout_width="fill_parent" android:layout_height="@dimen/_20sdp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.gms.ads.nativead.NativeAdView>

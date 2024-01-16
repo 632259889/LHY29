@@ -1,0 +1,255 @@
+.class Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;
+.super Ljava/lang/Object;
+.source "PosterActivity.java"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->onCreate(Landroid/os/Bundle;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+
+# direct methods
+.method constructor <init>(Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;)V
+    .locals 0
+
+    .line 389
+    iput-object p1, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .locals 3
+
+    .line 394
+    iget-object p1, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    iget-object p1, p1, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->lay_camera:Landroid/widget/LinearLayout;
+
+    const/16 v0, 0x8
+
+    invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setVisibility(I)V
+
+    .line 395
+    iget-object p1, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    iget-object p1, p1, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->lay_cata:Landroid/widget/LinearLayout;
+
+    invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setVisibility(I)V
+
+    .line 396
+    iget-object p1, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    iget-object p1, p1, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->lay_filter:Landroid/widget/LinearLayout;
+
+    const/4 v1, 0x0
+
+    invoke-virtual {p1, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
+
+    .line 397
+    iget-object p1, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    iget-object p1, p1, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->lay_color:Landroid/widget/LinearLayout;
+
+    invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setVisibility(I)V
+
+    .line 398
+    iget-object p1, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    iget-object p1, p1, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->lay_rotate:Landroid/widget/LinearLayout;
+
+    invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setVisibility(I)V
+
+    .line 401
+    iget-object p1, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    iget-object p1, p1, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->i1:Landroid/widget/ImageView;
+
+    iget-object v0, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    invoke-virtual {v0}, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    const v1, 0x7f06007c
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
+
+    .line 402
+    iget-object p1, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    iget-object p1, p1, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->i2:Landroid/widget/ImageView;
+
+    iget-object v0, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    invoke-virtual {v0}, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
+
+    .line 403
+    iget-object p1, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    iget-object p1, p1, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->i3:Landroid/widget/ImageView;
+
+    iget-object v0, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    invoke-virtual {v0}, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
+
+    .line 404
+    iget-object p1, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    iget-object p1, p1, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->i4:Landroid/widget/ImageView;
+
+    iget-object v0, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    invoke-virtual {v0}, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    const v2, 0x7f06003f
+
+    invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
+
+    .line 405
+    iget-object p1, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    iget-object p1, p1, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->i5:Landroid/widget/ImageView;
+
+    iget-object v0, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    invoke-virtual {v0}, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
+
+    .line 408
+    iget-object p1, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    iget-object p1, p1, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->t1:Landroid/widget/TextView;
+
+    iget-object v0, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    invoke-virtual {v0}, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setTextColor(Landroid/content/res/ColorStateList;)V
+
+    .line 409
+    iget-object p1, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    iget-object p1, p1, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->t2:Landroid/widget/TextView;
+
+    iget-object v0, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    invoke-virtual {v0}, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setTextColor(Landroid/content/res/ColorStateList;)V
+
+    .line 410
+    iget-object p1, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    iget-object p1, p1, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->t3:Landroid/widget/TextView;
+
+    iget-object v0, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    invoke-virtual {v0}, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setTextColor(Landroid/content/res/ColorStateList;)V
+
+    .line 411
+    iget-object p1, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    iget-object p1, p1, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->t4:Landroid/widget/TextView;
+
+    iget-object v0, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    invoke-virtual {v0}, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setTextColor(Landroid/content/res/ColorStateList;)V
+
+    .line 412
+    iget-object p1, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    iget-object p1, p1, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->t5:Landroid/widget/TextView;
+
+    iget-object v0, p0, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity$8;->this$0:Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;
+
+    invoke-virtual {v0}, Lcom/photoseditormilli/photocollage/dpmaker/PosterActivity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setTextColor(Landroid/content/res/ColorStateList;)V
+
+    return-void
+.end method

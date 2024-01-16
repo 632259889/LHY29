@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/ad_loading_small" android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp">
+        <FrameLayout android:id="@id/fl_adplaceholderbanner1" android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp" android:layout_marginTop="0.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/_5sdp" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/top_header" android:background="@color/colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <ImageView android:id="@id/back_click_iv" android:padding="16.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_left_arrow_back" android:layout_centerVertical="true" app:tint="@color/white" />
+        <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="My Creation" android:layout_centerInParent="true" android:fontFamily="serif" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:id="@id/text_noimage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="No Images Saved " android:layout_centerInParent="true" />
+        <GridView android:scrollbarSize="2.0dip" android:gravity="top" android:layout_gravity="top" android:id="@id/grid_crea" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:numColumns="2" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/banner_container" android:background="@drawable/ad_loading_small" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+        <FrameLayout android:id="@id/fl_adplaceholderbanner" android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp" android:layout_marginTop="0.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

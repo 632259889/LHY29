@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/tab_item_rel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/mainlayout" android:background="@color/colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp">
+        <TextView android:textSize="@dimen/_16sdp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" EMPLOYEE CARD  " android:textAlignment="center" />
+    </LinearLayout>
+    <HorizontalScrollView android:id="@id/sc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="-2.0dip" android:layout_above="@id/btn" android:layout_below="@id/mainlayout">
+        <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/_240sdp" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/tab_item_font" android:visibility="visible" android:layout_width="@dimen/_250sdp" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:layout_marginBottom="26.0dip" android:layout_weight="10.0" android:layout_centerInParent="true">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                    <LinearLayout android:gravity="center" android:id="@id/image" android:layout_width="@dimen/_120sdp" android:layout_height="@dimen/_120sdp" android:layout_centerHorizontal="true">
+                        <ImageView android:layout_gravity="center" android:id="@id/image1" android:layout_width="@dimen/_110sdp" android:layout_height="@dimen/_110sdp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.2">
+                    <TextView android:textSize="@dimen/_22sdp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/emp_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Employee Name" android:editable="false" />
+                    <TextView android:textSize="@dimen/_16sdp" android:textColor="@color/black" android:gravity="center" android:id="@id/emp_job" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:hint="JOB Title" android:editable="false" android:layout_below="@id/emp_name" android:layout_centerHorizontal="true" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                    <LinearLayout android:gravity="top" android:id="@id/layoutcenter" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_20sdp" android:layout_marginTop="@dimen/_10sdp">
+                            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="4.0">
+                                <TextView android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="ID No:" android:editable="false" android:layout_weight="1.0" />
+                                <TextView android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Email:" android:editable="false" android:layout_weight="1.0" />
+                                <TextView android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Blood:" android:editable="false" android:layout_weight="1.0" />
+                            </LinearLayout>
+                            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/emp_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="ID No     :" android:editable="false" android:layout_weight="1.0" />
+                                <TextView android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/emp_email" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="MuhammadKamaljaved@gmail.com" android:layout_weight="1.0" />
+                                <TextView android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/emp_blood" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Blood:" android:editable="false" android:layout_weight="1.0" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/_20sdp" android:layout_marginLeft="@dimen/_10sdp" android:layout_marginRight="@dimen/_10sdp">
+                        <TextView android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="ISSUE :" android:layout_weight="1.0" />
+                        <TextView android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/join_date" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="ISSUE DATE:" android:layout_weight="1.0" />
+                        <TextView android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Exp :" android:layout_weight="1.0" />
+                        <TextView android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/exp_date" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="ISSUE DATE:" android:layout_weight="1.0" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/tab_item_fontback" android:layout_width="@dimen/_250sdp" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:layout_marginBottom="26.0dip" android:layout_weight="10.0" android:layout_marginStart="@dimen/_20sdp" android:layout_marginEnd="@dimen/_20sdp">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:id="@id/backimg" android:layout_width="@dimen/_110sdp" android:layout_height="@dimen/_110sdp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+                    <TextView android:textSize="@dimen/_16sdp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/_20sdp" android:text="ABOUT ME:" />
+                    <TextView android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/aboutmetext" android:layout_width="@dimen/_80sdp" android:layout_height="@dimen/_20sdp" android:text="ABOUT ME:" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <Button android:textSize="@dimen/_20sdp" android:textColor="@color/colorPrimary" android:gravity="center" android:layout_gravity="center" android:id="@id/btn" android:background="@color/colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp" android:text="SAVE" android:layout_alignParentBottom="true" />
+</RelativeLayout>

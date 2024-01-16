@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/lay_rotate" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_120sdp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SeekBar android:id="@id/seekBarRotate" android:layout_width="fill_parent" android:layout_height="@dimen/_10sdp" android:max="255" />
+</LinearLayout>

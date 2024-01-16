@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/cc" android:background="@color/colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp" android:layout_below="@id/fl_adplaceholderbanner">
+        <TextView android:textSize="@dimen/_16sdp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Design Your Dp" android:layout_centerInParent="true" />
+        <ImageView android:gravity="center" android:id="@id/save_img" android:background="@drawable/save" android:layout_width="@dimen/_30sdp" android:layout_height="@dimen/_30sdp" android:layout_marginRight="@dimen/_55sdp" android:backgroundTint="@color/white" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_adplaceholderbanner" android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp" android:layout_marginTop="0.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/mainlayout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="10.0" android:layout_below="@id/cc">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.5">
+            <RelativeLayout android:gravity="center" android:id="@id/ll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+                <ImageView android:layout_gravity="center" android:id="@id/imagelogo" android:layout_width="@dimen/_260sdp" android:layout_height="@dimen/_260sdp" android:layout_centerInParent="true" />
+                <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="center" android:id="@id/image" android:background="@drawable/addphoto" android:layout_width="@dimen/_220sdp" android:layout_height="@dimen/_220sdp" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+            <include layout="@layout/filterdp" />
+            <include layout="@layout/cameragallarydp" />
+            <include layout="@layout/catalistviewdp" />
+            <include layout="@layout/colorpickerdp" />
+            <include layout="@layout/rotatedp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/footer" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/_60sdp" android:layout_weight="1.0" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:backgroundTint="@color/colorPrimaryDark">
+            <ImageView android:id="@id/i1" android:tag="0" android:background="@drawable/backgrounds" android:layout_width="@dimen/_30sdp" android:layout_height="@dimen/_30sdp" />
+            <TextView android:id="@id/t1" android:tag="0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Frames" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/i2" android:tag="1" android:background="@drawable/image" android:layout_width="@dimen/_30sdp" android:layout_height="@dimen/_30sdp" />
+            <TextView android:id="@id/t2" android:tag="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Select Img" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ly_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/i3" android:tag="2" android:background="@drawable/color" android:layout_width="@dimen/_30sdp" android:layout_height="@dimen/_30sdp" />
+            <TextView android:id="@id/t3" android:tag="2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="color" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ly_filter" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/i4" android:tag="3" android:background="@drawable/filters" android:layout_width="@dimen/_30sdp" android:layout_height="@dimen/_30sdp" />
+            <TextView android:id="@id/t4" android:tag="3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Filters" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ly_rotate" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/i5" android:tag="4" android:background="@drawable/rotate" android:layout_width="@dimen/_30sdp" android:layout_height="@dimen/_30sdp" />
+            <TextView android:id="@id/t5" android:tag="4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rotate" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

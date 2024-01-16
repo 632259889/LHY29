@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lay_filter" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/non" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/none" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/none" />
+                <TextView android:textColor="@color/black" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Filter 1" android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/idLLVignette" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/idIVOne" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/a" />
+                <TextView android:textColor="@color/black" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Filter 1" android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/idLLTint" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/idIVTwo" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/a" />
+                <TextView android:textColor="@color/black" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Filter 2" android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/idLLTemperature" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/idIVThree" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/a" />
+                <TextView android:textColor="@color/black" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Filter 3" android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/idLLSharpen" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/idIVFour" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/a" />
+                <TextView android:textColor="@color/black" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Filter 4" android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/idLLSepia" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/idIVFive" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/a" />
+                <TextView android:textColor="@color/black" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Filter 5" android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/idLLSaturate" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/idIVSix" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/a" />
+                <TextView android:textColor="@color/black" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Filter 6" android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/idLLRotate" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/idIVSeven" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/a" />
+                <TextView android:textColor="@color/black" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Filter 7" android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/idLLPosterize" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/idIVEight" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/a" />
+                <TextView android:textColor="@color/black" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Filter 8" android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/idLLNone" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/idIVNine" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/a" />
+                <TextView android:textColor="@color/black" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Filter 9" android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/idLLNegative" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/idIVTen" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/a" />
+                <TextView android:textColor="@color/black" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Filter 10" android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

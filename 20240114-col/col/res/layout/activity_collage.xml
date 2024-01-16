@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/collage_main_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/collage_text_view_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/collage_effect_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/collage_header" android:background="@color/primary" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/banner_container" android:background="@drawable/ad_loading_small" android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp">
+                <FrameLayout android:id="@id/fl_adplaceholderbanner" android:layout_width="fill_parent" android:layout_height="@dimen/_50sdp" android:layout_marginTop="0.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <ImageButton android:id="@id/button_cancel_collage_image" android:background="@drawable/collage_footer_button" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cross" android:onClick="myClickHandler" />
+            <TextView android:gravity="center" android:layout_gravity="center" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/app_name" android:layout_weight="1.0" android:fontFamily="serif" style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+            <ImageButton android:layout_gravity="bottom|center" android:id="@id/button_save_collage_image" android:background="@drawable/collage_footer_button" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/save" android:onClick="myClickHandler" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.photoseditormilli.photocollage.u.MyViewFlipper android:gravity="bottom" android:id="@id/collage_view_flipper" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/collage_footer">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/recyclerView_grid" android:scrollbars="horizontal" android:layout_width="fill_parent" android:layout_height="75.0dip" />
+        <FrameLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/pattern_color_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/recyclerView_pattern" android:scrollbars="horizontal" android:layout_width="fill_parent" android:layout_height="75.0dip" />
+            <LinearLayout android:layout_gravity="bottom" android:id="@id/color_container" android:background="#ff444444" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/hide_color_container" android:background="@drawable/selector_hide_button" android:paddingLeft="1.0dip" android:paddingRight="1.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_down_array" android:onClick="myClickHandler" />
+                <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/recyclerView_color" android:background="@android:color/transparent" android:scrollbars="horizontal" android:layout_width="fill_parent" android:layout_height="75.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="#aa535353" android:padding="1.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/collage_seek_bar_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Size   " />
+                <SeekBar android:id="@id/seekbar_size" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:progress="@integer/default_ssize_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/seekbar_space_container" android:padding="@dimen/collage_seek_bar_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Space " />
+                <SeekBar android:id="@id/seekbar_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:progress="@integer/default_space_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/seekbar_corner_container" android:padding="@dimen/collage_seek_bar_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Corner" />
+                <SeekBar android:id="@id/seekbar_round" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" />
+            </LinearLayout>
+        </LinearLayout>
+        <HorizontalScrollView android:layout_gravity="bottom" android:id="@id/collage_ratio_horizontalScrollView" android:background="@color/collage_tool_background_color" android:padding="3.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip">
+            <LinearLayout android:orientation="horizontal" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:id="@id/button11" android:background="@drawable/selector_collage_ratio_button" android:text="1:1" style="@style/collage_ratio_button_style" />
+                <Button android:id="@id/button21" android:text="2:1" style="@style/collage_ratio_button_style" />
+                <Button android:id="@id/button12" android:text="1:2" style="@style/collage_ratio_button_style" />
+                <Button android:id="@id/button32" android:text="3:2" style="@style/collage_ratio_button_style" />
+                <Button android:id="@id/button23" android:text="2:3" style="@style/collage_ratio_button_style" />
+                <Button android:id="@id/button43" android:text="4:3" style="@style/collage_ratio_button_style" />
+                <Button android:id="@id/button34" android:text="3:4" style="@style/collage_ratio_button_style" />
+                <Button android:id="@id/button45" android:text="4:5" style="@style/collage_ratio_button_style" />
+                <Button android:id="@id/button57" android:text="5:7" style="@style/collage_ratio_button_style" />
+                <Button android:id="@id/button169" android:text="16:9" style="@style/collage_ratio_button_style" />
+                <Button android:id="@id/button916" android:text="9:16" style="@style/collage_ratio_button_style" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/seekbar_blur_container" android:background="#aa535353" android:padding="@dimen/_5sdp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Blur" />
+            <SeekBar android:id="@id/seekbar_collage_blur" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:progress="56" />
+        </LinearLayout>
+        <View android:visibility="invisible" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+    </com.photoseditormilli.photocollage.u.MyViewFlipper>
+    <HorizontalScrollView android:id="@id/collage_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/collage_footer_inner_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/button_collage_layout" android:text="Layout" android:drawableTop="@drawable/layout" style="@style/collage_footer_imagebutton_style" />
+            <Button android:id="@id/button_collage_blur" android:visibility="gone" android:text="Blur" android:drawableTop="@drawable/blur" style="@style/collage_footer_imagebutton_style" />
+            <Button android:id="@id/button_collage_background" android:visibility="visible" android:text="Background" android:drawableTop="@drawable/bg" style="@style/collage_footer_imagebutton_style" />
+            <Button android:id="@id/button_collage_space" android:text="Space" android:drawableTop="@drawable/space" style="@style/collage_footer_imagebutton_style" />
+            <Button android:id="@id/button_collage_ratio" android:text="Ratio" android:drawableTop="@drawable/ratio" style="@style/collage_footer_imagebutton_style" />
+            <Button android:id="@id/button_mirror_text" android:text="Text" android:drawableTop="@drawable/text" style="@style/collage_footer_imagebutton_style" />
+            <Button android:id="@id/button_mirror_sticker" android:visibility="gone" android:text="Sticker" android:drawableTop="@drawable/ic_sticker" style="@style/collage_footer_imagebutton_style" />
+            <Button android:id="@id/button_collage_adj" android:visibility="gone" android:text="Filter" android:drawableTop="@drawable/filter" style="@style/collage_footer_imagebutton_style" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <HorizontalScrollView android:id="@id/collage_context_menu" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/collage_context_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/button_collage_context_swap" android:text="Swap" android:drawableTop="@drawable/layout" style="@style/collage_footer_context_imagebutton_style" />
+            <Button android:id="@id/button_collage_context_delete" android:text="Delete" android:drawableTop="@drawable/ic_delete" style="@style/collage_footer_context_imagebutton_style" />
+            <Button android:id="@id/button_collage_context_center" android:text="Fill" android:drawableTop="@drawable/ic_fill" style="@style/collage_footer_context_imagebutton_style" />
+            <Button android:id="@id/button_collage_context_fit" android:text="Inside" android:drawableTop="@drawable/space" style="@style/collage_footer_context_imagebutton_style" />
+            <Button android:id="@id/button_collage_context_filter" android:text="Filter" android:drawableTop="@drawable/filter" style="@style/collage_footer_context_imagebutton_style" />
+            <Button android:id="@id/button_collage_context_rotate_left" android:text="Left" android:drawableTop="@drawable/ic_rotate_left_black_24dp" style="@style/collage_footer_context_imagebutton_style" />
+            <Button android:id="@id/button_collage_context_rotate_right" android:text="Right" android:drawableTop="@drawable/ic_rotate_right_black_24dp" style="@style/collage_footer_context_imagebutton_style" />
+            <Button android:id="@id/button_collage_context_flip_horizontal" android:text="Horizontal" android:drawableTop="@drawable/ic_flip_horizontal" style="@style/collage_footer_context_imagebutton_style" />
+            <Button android:id="@id/button_collage_context_flip_vertical" android:text="Vertical" android:drawableTop="@drawable/ic_flip_vertical" style="@style/collage_footer_context_imagebutton_style" />
+            <Button android:id="@id/button_collage_context_rotate_negative" android:visibility="gone" android:text="-10" android:drawableTop="@drawable/ic_flip_vertical" style="@style/collage_footer_context_imagebutton_style" />
+            <Button android:id="@id/button_collage_context_rotate_positive" android:visibility="gone" android:text="+10" android:drawableTop="@drawable/ic_flip_vertical" style="@style/collage_footer_context_imagebutton_style" />
+            <Button android:id="@id/button_collage_context_zoom_in" android:text="Zoom In" android:drawableTop="@drawable/ic_zoom_in_black_24dp" style="@style/collage_footer_context_imagebutton_style" />
+            <Button android:id="@id/button_collage_context_zoom_out" android:text="Zoom Out" android:drawableTop="@drawable/ic_zoom_out_black_24dp" style="@style/collage_footer_context_imagebutton_style" />
+            <Button android:id="@id/button_collage_context_move_left" android:text="Left" android:drawableTop="@drawable/ic_left_arrow" style="@style/collage_footer_context_imagebutton_style" />
+            <Button android:id="@id/button_collage_context_move_right" android:text="Right" android:drawableTop="@drawable/ic_right_arrow" style="@style/collage_footer_context_imagebutton_style" />
+            <Button android:id="@id/button_collage_context_move_up" android:text="Up" android:drawableTop="@drawable/ic_up_arrow" style="@style/collage_footer_context_imagebutton_style" />
+            <Button android:id="@id/button_collage_context_move_down" android:text="Down" android:drawableTop="@drawable/ic_down_array" style="@style/collage_footer_context_imagebutton_style" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <LinearLayout android:gravity="center" android:id="@id/select_image_swap" android:background="#ffffffff" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/collage_footer" android:layout_alignBottom="@id/collage_footer">
+        <ImageView android:id="@id/hide_select_image_warning" android:padding="5.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/down_arrow_white" android:onClick="myClickHandler" />
+        <View android:background="#ffffffff" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:alpha="0.2" />
+        <TextView android:textSize="@dimen/text_size_medium" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/select_image_swap_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Select another grid to swap!" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/select_image_filter" android:background="#ffffc107" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/collage_footer" android:layout_alignBottom="@id/collage_footer">
+        <ImageView android:id="@id/hide_select_image_warning_filter" android:padding="5.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/down_arrow_white" android:onClick="myClickHandler" />
+        <View android:background="#ffffffff" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:alpha="0.2" />
+        <TextView android:textSize="@dimen/text_size_medium" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/select_image_filter_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Select a grid to edit." />
+    </LinearLayout>
+</RelativeLayout>
