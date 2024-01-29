@@ -132,7 +132,7 @@
 
     move-result-object v1
 
-    sget v2, Lcom/ar/draw/sketch/R$string;->image_picker_provider_authority_suffix:I
+    sget v2, Lcom/test/one/show/R$string;->image_picker_provider_authority_suffix:I
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -290,7 +290,7 @@
 
     move-result-object v1
 
-    sget v2, Lcom/ar/draw/sketch/R$string;->image_picker_provider_authority_suffix:I
+    sget v2, Lcom/test/one/show/R$string;->image_picker_provider_authority_suffix:I
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -339,9 +339,9 @@
 
     .line 119
     :cond_1
-    sget-object v2, Lcom/ar/draw/sketch/dhaval2404/imagepicker/util/FileUriUtils;->INSTANCE:Lcom/ar/draw/sketch/dhaval2404/imagepicker/util/FileUriUtils;
+    sget-object v2, Lcom/test/one/show/dhaval2404/imagepicker/util/FileUriUtils;->INSTANCE:Lcom/test/one/show/dhaval2404/imagepicker/util/FileUriUtils;
 
-    invoke-virtual {v2, p0, p1}, Lcom/ar/draw/sketch/dhaval2404/imagepicker/util/FileUriUtils;->getRealPath(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
+    invoke-virtual {v2, p0, p1}, Lcom/test/one/show/dhaval2404/imagepicker/util/FileUriUtils;->getRealPath(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
 
     move-result-object p1
 

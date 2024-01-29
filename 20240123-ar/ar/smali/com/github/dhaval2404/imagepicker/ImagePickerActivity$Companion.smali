@@ -73,7 +73,7 @@
     invoke-direct {v0}, Landroid/content/Intent;-><init>()V
 
     .line 33
-    sget v1, Lcom/ar/draw/sketch/R$string;->error_task_cancelled:I
+    sget v1, Lcom/test/one/show/R$string;->error_task_cancelled:I
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

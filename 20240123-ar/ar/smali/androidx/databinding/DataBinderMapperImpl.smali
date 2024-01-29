@@ -11,9 +11,9 @@
     invoke-direct {p0}, Landroidx/databinding/MergedDataBinderMapper;-><init>()V
 
     .line 5
-    new-instance v0, Lcom/ar/draw/sketch/DataBinderMapperImpl;
+    new-instance v0, Lcom/test/one/show/DataBinderMapperImpl;
 
-    invoke-direct {v0}, Lcom/ar/draw/sketch/DataBinderMapperImpl;-><init>()V
+    invoke-direct {v0}, Lcom/test/one/show/DataBinderMapperImpl;-><init>()V
 
     invoke-virtual {p0, v0}, Landroidx/databinding/DataBinderMapperImpl;->addMapper(Landroidx/databinding/DataBinderMapper;)V
 
