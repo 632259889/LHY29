@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_centerHorizontal="true" app:cardCornerRadius="10.0dip" app:cardElevation="5.0dip">
+            <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:indeterminateTint="#ff000000" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    <TextView android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Loading Ads..." android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

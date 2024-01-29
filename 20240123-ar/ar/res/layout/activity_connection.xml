@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true" android:indeterminateTint="#ff006caf" />
+    <ImageView android:id="@id/gifView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:weightSum="2.0" android:layout_weight="2.0" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/exit_app_bt" android:background="@drawable/exit_app_bt_gradient_bg" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_centerInParent="true" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Exit App" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/retry_bt" android:background="@drawable/cancel_bt_gradient_bg" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_centerInParent="true" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Retry" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

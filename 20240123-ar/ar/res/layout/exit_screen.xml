@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="10.0">
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/nativeLay" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="22.0sp" android:textColor="@android:color/white" android:id="@id/txtAd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Advertisement" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.5">
+            <TextView android:textSize="40.0dip" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Exit App?" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.5">
+            <TextView android:textSize="20.0sp" android:textColor="@android:color/black" android:id="@id/txt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Are you sure, you want to" android:layout_centerInParent="true" />
+            <TextView android:textSize="20.0sp" android:textColor="@android:color/black" android:id="@id/txt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="close the app?" android:layout_below="@id/txt1" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:weightSum="3.0" android:layout_weight="2.0">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/txt_rate" android:background="@drawable/exit_btn" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_centerInParent="true" android:backgroundTint="@color/colors" />
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rate App" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/txt_yes" android:background="@drawable/exit_btn" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_centerInParent="true" android:backgroundTint="@color/colors" />
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yes" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/txt_no" android:background="@drawable/exit_btn" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_centerInParent="true" android:backgroundTint="@color/colors" />
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
