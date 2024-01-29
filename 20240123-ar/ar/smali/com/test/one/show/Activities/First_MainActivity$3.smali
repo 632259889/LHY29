@@ -38,7 +38,7 @@
 .method public final onClick(Landroid/view/View;)V
     .locals 3
 
-    .line 124
+    # .line 124
     invoke-static {}, Ldemo/ads/GoogleAds;->getInstance()Ldemo/ads/GoogleAds;
 
     move-result-object v0

@@ -959,7 +959,7 @@
     .line 178
     sget-object p2, Ldemo/ads/AdsHandler;->sharedPreferences:Landroid/content/SharedPreferences;
 
-    if-nez p2, :cond_0
+    if-eqz p2, :cond_0
 
     .line 179
     invoke-static {p1}, Ldemo/ads/AdsHandler;->getInstance(Landroid/app/Activity;)Ldemo/ads/AdsHandler;
@@ -970,13 +970,13 @@
 
     move-result p2
 
-    if-eqz p2, :cond_1
+    if-nez p2, :cond_1
 
     invoke-static {}, Ldemo/ads/AdsHandler;->isAdsOn()Z
 
     move-result p2
 
-    if-eqz p2, :cond_1
+    if-nez p2, :cond_1
 
     const/4 p2, 0x0
 
@@ -997,9 +997,9 @@
 
     new-instance v1, Ldemo/ads/GoogleAds$3;
 
-    invoke-direct {v1, p0, p1}, Ldemo/ads/GoogleAds$3;-><init>(Ldemo/ads/GoogleAds;Landroid/app/Activity;)V
+    # invoke-direct {v1, p0, p1}, Ldemo/ads/GoogleAds$3;-><init>(Ldemo/ads/GoogleAds;Landroid/app/Activity;)V
 
-    invoke-static {p1, v0, p2, v1}, Lcom/google/android/gms/ads/interstitial/InterstitialAd;->load(Landroid/content/Context;Ljava/lang/String;Lcom/google/android/gms/ads/AdRequest;Lcom/google/android/gms/ads/interstitial/InterstitialAdLoadCallback;)V
+    # invoke-static {p1, v0, p2, v1}, Lcom/google/android/gms/ads/interstitial/InterstitialAd;->load(Landroid/content/Context;Ljava/lang/String;Lcom/google/android/gms/ads/AdRequest;Lcom/google/android/gms/ads/interstitial/InterstitialAdLoadCallback;)V
 
     goto :goto_0
 
