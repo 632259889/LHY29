@@ -40,40 +40,42 @@
 
     .line 7
     :pswitch_0
-    check-cast p1, Lcom/applovin/exoplayer2/v;
+    # check-cast p1, Lcom/applovin/exoplayer2/v;
 
     .line 8
     .line 9
-    check-cast p2, Lcom/applovin/exoplayer2/v;
+    # check-cast p2, Lcom/applovin/exoplayer2/v;
 
     .line 10
     .line 11
-    invoke-static {p1, p2}, Lcom/applovin/exoplayer2/j/b;->b(Lcom/applovin/exoplayer2/v;Lcom/applovin/exoplayer2/v;)I
+    # invoke-static {p1, p2}, Lcom/applovin/exoplayer2/j/b;->b(Lcom/applovin/exoplayer2/v;Lcom/applovin/exoplayer2/v;)I
 
     .line 12
     .line 13
     .line 14
-    move-result p1
+    # move-result p1
+    const/4 p1,0x5
 
     .line 15
     return p1
 
     .line 16
     :pswitch_1
-    check-cast p1, Lcom/applovin/exoplayer2/g/f/c$a;
+    # check-cast p1, Lcom/applovin/exoplayer2/g/f/c$a;
 
     .line 17
     .line 18
-    check-cast p2, Lcom/applovin/exoplayer2/g/f/c$a;
+    # check-cast p2, Lcom/applovin/exoplayer2/g/f/c$a;
 
     .line 19
     .line 20
-    invoke-static {p1, p2}, Lcom/applovin/exoplayer2/g/f/c$a;->b(Lcom/applovin/exoplayer2/g/f/c$a;Lcom/applovin/exoplayer2/g/f/c$a;)I
+    # invoke-static {p1, p2}, Lcom/applovin/exoplayer2/g/f/c$a;->b(Lcom/applovin/exoplayer2/g/f/c$a;Lcom/applovin/exoplayer2/g/f/c$a;)I
 
     .line 21
     .line 22
     .line 23
-    move-result p1
+    # move-result p1
+    const p1,0x2
 
     .line 24
     return p1

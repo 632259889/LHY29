@@ -200,11 +200,11 @@
     .line 68
     .line 69
     .line 70
-    new-instance v1, Lcom/applovin/mediation/ads/MaxAdView;
+    # new-instance v1, Lcom/applovin/mediation/ads/MaxAdView;
 
     .line 71
     .line 72
-    invoke-direct {v1, v0, p0}, Lcom/applovin/mediation/ads/MaxAdView;-><init>(Ljava/lang/String;Landroid/content/Context;)V
+    # invoke-direct {v1, v0, p0}, Lcom/applovin/mediation/ads/MaxAdView;-><init>(Ljava/lang/String;Landroid/content/Context;)V
 
     .line 73
     .line 74
@@ -218,7 +218,7 @@
     .line 78
     .line 79
     .line 80
-    invoke-virtual {v1, v0}, Lcom/applovin/mediation/ads/MaxAdView;->setRevenueListener(Lcom/applovin/mediation/MaxAdRevenueListener;)V
+    # invoke-virtual {v1, v0}, Lcom/applovin/mediation/ads/MaxAdView;->setRevenueListener(Lcom/applovin/mediation/MaxAdRevenueListener;)V
 
     .line 81
     .line 82
@@ -275,7 +275,7 @@
     .line 109
     .line 110
     .line 111
-    invoke-virtual {v1, p0}, Lcom/applovin/mediation/ads/MaxAdView;->setListener(Lcom/applovin/mediation/MaxAdViewAdListener;)V
+    # invoke-virtual {v1, p0}, Lcom/applovin/mediation/ads/MaxAdView;->setListener(Lcom/applovin/mediation/MaxAdViewAdListener;)V
 
     .line 112
     .line 113

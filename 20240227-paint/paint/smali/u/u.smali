@@ -85,15 +85,15 @@
 
     .line 23
     :goto_0
-    check-cast v3, Lcom/applovin/exoplayer2/d/g$a;
+    # check-cast v3, Lcom/applovin/exoplayer2/d/g$a;
 
     .line 24
     .line 25
-    check-cast v2, Lcom/applovin/exoplayer2/d/g;
+    # check-cast v2, Lcom/applovin/exoplayer2/d/g;
 
     .line 26
     .line 27
-    invoke-static {v3, v2, v1}, Lcom/applovin/exoplayer2/d/g$a;->b(Lcom/applovin/exoplayer2/d/g$a;Lcom/applovin/exoplayer2/d/g;I)V
+    # invoke-static {v3, v2, v1}, Lcom/applovin/exoplayer2/d/g$a;->b(Lcom/applovin/exoplayer2/d/g$a;Lcom/applovin/exoplayer2/d/g;I)V
 
     .line 28
     .line 29
