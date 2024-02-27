@@ -3,7 +3,7 @@
 .source "ImagePicker.kt"
 
 # interfaces
-.implements Lcom/test/one/show/dhaval2404/imagepicker/listener/DismissListener;
+.implements Lcom/qqq/aaa/ccc/dhaval2404/imagepicker/listener/DismissListener;
 
 
 # annotations
@@ -22,7 +22,7 @@
     }
     d2 = {
         "com/github/dhaval2404/imagepicker/ImagePicker$Builder$setDismissListener$1",
-        "Lcom/test/one/show/dhaval2404/imagepicker/listener/DismissListener;",
+        "Lcom/qqq/aaa/ccc/dhaval2404/imagepicker/listener/DismissListener;",
         "onDismiss",
         "",
         "app_release"
