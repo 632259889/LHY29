@@ -82,10 +82,10 @@
 
     iget-object v0, p0, Ln1/c$d;->a:Landroid/view/ContentInfo;
 
-    invoke-static {v0}, Lcom/applovin/exoplayer2/b/e0;->c(Landroid/view/ContentInfo;)I
+    # invoke-static {v0}, Lcom/applovin/exoplayer2/b/e0;->c(Landroid/view/ContentInfo;)I
 
-    move-result v0
-
+    # move-result v0
+    const v0,0x1
     return v0
 .end method
 

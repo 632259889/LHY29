@@ -66,9 +66,10 @@
     goto :goto_2
 
     :cond_0
-    invoke-static {}, Lcom/applovin/exoplayer2/i0;->i()I
+    # invoke-static {}, Lcom/applovin/exoplayer2/i0;->i()I
 
-    move-result v3
+    # move-result v3
+    const v3,0x1
 
     goto :goto_1
 
@@ -87,9 +88,10 @@
     goto :goto_1
 
     :cond_3
-    invoke-static {}, Lcom/applovin/exoplayer2/l/c0;->a()I
+    # invoke-static {}, Lcom/applovin/exoplayer2/l/c0;->a()I
 
-    move-result v3
+    # move-result v3
+    const v3,0x2
 
     goto :goto_1
 
@@ -108,9 +110,10 @@
     goto :goto_1
 
     :cond_6
-    invoke-static {}, Lcom/applovin/exoplayer2/i0;->h()I
+    # invoke-static {}, Lcom/applovin/exoplayer2/i0;->h()I
 
-    move-result v3
+    # move-result v3
+    const v3,0x4
 
     goto :goto_1
 

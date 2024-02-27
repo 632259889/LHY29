@@ -48,11 +48,11 @@
 
     .line 9
     :pswitch_0
-    check-cast v1, Lcom/applovin/exoplayer2/ui/d;
-
-    .line 10
-    .line 11
-    invoke-static {v1, p1}, Lcom/applovin/exoplayer2/ui/d;->b(Lcom/applovin/exoplayer2/ui/d;Landroid/animation/ValueAnimator;)V
+    # check-cast v1, Lcom/applovin/exoplayer2/ui/d;
+    #
+    # .line 10
+    # .line 11
+    # invoke-static {v1, p1}, Lcom/applovin/exoplayer2/ui/d;->b(Lcom/applovin/exoplayer2/ui/d;Landroid/animation/ValueAnimator;)V
 
     .line 12
     .line 13

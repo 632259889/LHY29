@@ -39,17 +39,17 @@
     move-result-object v0
 
     .line 5
-    iget-object v0, v0, Ll4/f;->i:Lcom/applovin/mediation/ads/MaxInterstitialAd;
-
-    .line 6
-    .line 7
-    invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->isReady()Z
-
-    .line 8
-    .line 9
-    .line 10
-    move-result v0
-
+    # iget-object v0, v0, Ll4/f;->i:Lcom/applovin/mediation/ads/MaxInterstitialAd;
+    #
+    # .line 6
+    # .line 7
+    # invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->isReady()Z
+    #
+    # .line 8
+    # .line 9
+    # .line 10
+    # move-result v0
+    const/4 v0,0x1
     .line 11
     iget-object v1, p0, Ll4/g;->d:Ly1/d;
 

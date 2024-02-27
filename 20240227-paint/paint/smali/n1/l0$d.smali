@@ -124,10 +124,10 @@
 
     iget-object v0, p0, Ln1/l0$d;->e:Landroid/view/WindowInsetsAnimation;
 
-    invoke-static {v0}, Lcom/applovin/exoplayer2/l/c0;->d(Landroid/view/WindowInsetsAnimation;)I
+    # invoke-static {v0}, Lcom/applovin/exoplayer2/l/c0;->d(Landroid/view/WindowInsetsAnimation;)I
 
-    move-result v0
-
+    # move-result v0
+    # const v0,0x1
     return v0
 .end method
 
