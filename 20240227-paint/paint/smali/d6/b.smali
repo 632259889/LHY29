@@ -29,7 +29,7 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/app/Activity;Lcom/arapp/paint/sketch/ardrawing/ui/component/choose_object/ChooseObjectActivity$a;)V
+.method public constructor <init>(Landroid/app/Activity;Lcom/aaa/bbb/ccc/ddd/ui/component/choose_object/ChooseObjectActivity$a;)V
     .locals 1
 
     const-string v0, "activity"

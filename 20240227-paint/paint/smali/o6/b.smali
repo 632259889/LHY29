@@ -20,7 +20,7 @@
 .method public final onClick(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    sget p1, Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;->J:I
+    sget p1, Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;->J:I
 
     return-void
 .end method

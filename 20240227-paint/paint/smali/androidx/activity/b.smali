@@ -628,11 +628,11 @@
 
     .line 281
     .line 282
-    check-cast v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;
+    check-cast v0, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;
 
     .line 283
     .line 284
-    sget-object v2, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;->P:[Ljava/lang/String;
+    sget-object v2, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;->P:[Ljava/lang/String;
 
     .line 285
     .line 286
@@ -679,11 +679,11 @@
 
     .line 307
     .line 308
-    check-cast v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/service/RecordService;
+    check-cast v0, Lcom/aaa/bbb/ccc/ddd/ui/component/service/RecordService;
 
     .line 309
     .line 310
-    sget v2, Lcom/arapp/paint/sketch/ardrawing/ui/component/service/RecordService;->j:I
+    sget v2, Lcom/aaa/bbb/ccc/ddd/ui/component/service/RecordService;->j:I
 
     .line 311
     .line 312
@@ -692,7 +692,7 @@
     .line 313
     .line 314
     .line 315
-    iget-wide v2, v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/service/RecordService;->h:J
+    iget-wide v2, v0, Lcom/aaa/bbb/ccc/ddd/ui/component/service/RecordService;->h:J
 
     .line 316
     .line 317
@@ -703,7 +703,7 @@
     add-long/2addr v2, v4
 
     .line 320
-    iput-wide v2, v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/service/RecordService;->h:J
+    iput-wide v2, v0, Lcom/aaa/bbb/ccc/ddd/ui/component/service/RecordService;->h:J
 
     .line 321
     .line 322
@@ -799,11 +799,11 @@
     .line 368
     .line 369
     .line 370
-    iget-object v2, v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/service/RecordService;->g:Landroid/os/Handler;
+    iget-object v2, v0, Lcom/aaa/bbb/ccc/ddd/ui/component/service/RecordService;->g:Landroid/os/Handler;
 
     .line 371
     .line 372
-    iget-object v0, v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/service/RecordService;->i:Landroidx/activity/b;
+    iget-object v0, v0, Lcom/aaa/bbb/ccc/ddd/ui/component/service/RecordService;->i:Landroidx/activity/b;
 
     .line 373
     .line 374

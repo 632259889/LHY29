@@ -9,9 +9,9 @@
 
     invoke-direct {p0}, Landroidx/databinding/MergedDataBinderMapper;-><init>()V
 
-    new-instance v0, Lcom/arapp/paint/sketch/ardrawing/DataBinderMapperImpl;
+    new-instance v0, Lcom/aaa/bbb/ccc/ddd/DataBinderMapperImpl;
 
-    invoke-direct {v0}, Lcom/arapp/paint/sketch/ardrawing/DataBinderMapperImpl;-><init>()V
+    invoke-direct {v0}, Lcom/aaa/bbb/ccc/ddd/DataBinderMapperImpl;-><init>()V
 
     invoke-virtual {p0, v0}, Landroidx/databinding/MergedDataBinderMapper;->e(Landroidx/databinding/a;)V
 

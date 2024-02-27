@@ -62,11 +62,11 @@
     .line 14
     .line 15
     :pswitch_0
-    check-cast v4, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;
+    check-cast v4, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;
 
     .line 16
     .line 17
-    sget-object p1, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;->P:[Ljava/lang/String;
+    sget-object p1, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;->P:[Ljava/lang/String;
 
     .line 18
     .line 19
@@ -75,14 +75,14 @@
     .line 20
     .line 21
     .line 22
-    iget-boolean p1, v4, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;->G:Z
+    iget-boolean p1, v4, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;->G:Z
 
     .line 23
     .line 24
     xor-int/2addr p1, v1
 
     .line 25
-    iput-boolean p1, v4, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;->G:Z
+    iput-boolean p1, v4, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;->G:Z
 
     .line 26
     .line 27
@@ -106,7 +106,7 @@
 
     .line 36
     .line 37
-    iget-boolean v0, v4, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;->G:Z
+    iget-boolean v0, v4, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;->G:Z
 
     .line 38
     .line 39
@@ -134,7 +134,7 @@
     .line 49
     .line 50
     .line 51
-    iget-boolean p1, v4, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;->G:Z
+    iget-boolean p1, v4, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;->G:Z
 
     .line 52
     .line 53
@@ -727,7 +727,7 @@
 
     .line 361
     .line 362
-    iget-boolean v1, v4, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;->G:Z
+    iget-boolean v1, v4, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;->G:Z
 
     .line 363
     .line 364
@@ -944,11 +944,11 @@
 
     .line 476
     :pswitch_1
-    check-cast v4, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;
+    check-cast v4, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;
 
     .line 477
     .line 478
-    sget p1, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;->H:I
+    sget p1, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;->H:I
 
     .line 479
     .line 480
@@ -1064,11 +1064,11 @@
 
     .line 532
     .line 533
-    new-instance v1, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity$b;
+    new-instance v1, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity$b;
 
     .line 534
     .line 535
-    invoke-direct {v1, v4}, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity$b;-><init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;)V
+    invoke-direct {v1, v4}, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity$b;-><init>(Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;)V
 
     .line 536
     .line 537
@@ -1086,7 +1086,7 @@
 
     .line 543
     .line 544
-    invoke-virtual {v4, p1}, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;->S(Ljava/lang/String;)V
+    invoke-virtual {v4, p1}, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;->S(Ljava/lang/String;)V
 
     .line 545
     .line 546
@@ -1100,11 +1100,11 @@
 
     .line 550
     :pswitch_2
-    check-cast v4, Lcom/arapp/paint/sketch/ardrawing/ui/component/language/LanguageActivity;
+    check-cast v4, Lcom/aaa/bbb/ccc/ddd/ui/component/language/LanguageActivity;
 
     .line 551
     .line 552
-    sget p1, Lcom/arapp/paint/sketch/ardrawing/ui/component/language/LanguageActivity;->K:I
+    sget p1, Lcom/aaa/bbb/ccc/ddd/ui/component/language/LanguageActivity;->K:I
 
     .line 553
     .line 554
@@ -1113,7 +1113,7 @@
     .line 555
     .line 556
     .line 557
-    iget-object p1, v4, Lcom/arapp/paint/sketch/ardrawing/ui/component/language/LanguageActivity;->G:Lh6/d;
+    iget-object p1, v4, Lcom/aaa/bbb/ccc/ddd/ui/component/language/LanguageActivity;->G:Lh6/d;
 
     .line 558
     .line 559
@@ -1178,7 +1178,7 @@
     move-result-object p1
 
     .line 588
-    iget-object v2, v4, Lcom/arapp/paint/sketch/ardrawing/ui/component/language/LanguageActivity;->G:Lh6/d;
+    iget-object v2, v4, Lcom/aaa/bbb/ccc/ddd/ui/component/language/LanguageActivity;->G:Lh6/d;
 
     .line 589
     .line 590
@@ -1332,7 +1332,7 @@
     .line 664
     .line 665
     :goto_6
-    iget-boolean p1, v4, Lcom/arapp/paint/sketch/ardrawing/ui/component/language/LanguageActivity;->J:Z
+    iget-boolean p1, v4, Lcom/aaa/bbb/ccc/ddd/ui/component/language/LanguageActivity;->J:Z
 
     .line 666
     .line 667
@@ -1357,7 +1357,7 @@
 
     .line 677
     .line 678
-    const-class v3, Lcom/arapp/paint/sketch/ardrawing/ui/component/onboarding/OnBoardingActivity;
+    const-class v3, Lcom/aaa/bbb/ccc/ddd/ui/component/onboarding/OnBoardingActivity;
 
     .line 679
     .line 680
@@ -1389,7 +1389,7 @@
 
     .line 694
     .line 695
-    const-class v3, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;
+    const-class v3, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;
 
     .line 696
     .line 697

@@ -58,7 +58,7 @@
 
     .line 15
     .line 16
-    check-cast v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/splash/SplashActivity;
+    check-cast v0, Lcom/aaa/bbb/ccc/ddd/ui/component/splash/SplashActivity;
 
     .line 17
     .line 18

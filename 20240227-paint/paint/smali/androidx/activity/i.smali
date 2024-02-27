@@ -2793,16 +2793,16 @@
     :pswitch_7
     iget-object v0, v1, Landroidx/activity/i;->d:Ljava/lang/Object;
 
-    check-cast v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;
+    check-cast v0, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;
 
-    sget-object v2, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;->P:[Ljava/lang/String;
+    sget-object v2, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;->P:[Ljava/lang/String;
 
     const-string v2, "this$0"
 
     .line 72
     invoke-static {v0, v2}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iget-object v2, v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;->K:Le0/b;
+    iget-object v2, v0, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;->K:Le0/b;
 
     if-eqz v2, :cond_46
 
@@ -2933,11 +2933,11 @@
     aput-object v3, v7, v6
 
     .line 85
-    invoke-virtual {v2, v0, v5, v7}, Landroidx/camera/lifecycle/c;->a(Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;Lz/r;[Lz/l1;)Lz/j;
+    invoke-virtual {v2, v0, v5, v7}, Landroidx/camera/lifecycle/c;->a(Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;Lz/r;[Lz/l1;)Lz/j;
 
     move-result-object v4
 
-    iput-object v4, v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;->M:Lz/j;
+    iput-object v4, v0, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;->M:Lz/j;
 
     invoke-interface {v4}, Lz/j;->a()Lz/q;
 
@@ -2948,7 +2948,7 @@
     invoke-interface {v4}, Lz/q;->f()Z
 
     :cond_43
-    iget-object v4, v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;->M:Lz/j;
+    iget-object v4, v0, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;->M:Lz/j;
 
     if-eqz v4, :cond_44
 
@@ -2977,7 +2977,7 @@
 
     aput-object v3, v4, v6
 
-    invoke-virtual {v2, v0, v5, v4}, Landroidx/camera/lifecycle/c;->a(Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;Lz/r;[Lz/l1;)Lz/j;
+    invoke-virtual {v2, v0, v5, v4}, Landroidx/camera/lifecycle/c;->a(Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;Lz/r;[Lz/l1;)Lz/j;
     :try_end_e
     .catch Ljava/lang/Exception; {:try_start_e .. :try_end_e} :catch_a
 
@@ -3006,9 +3006,9 @@
     :pswitch_8
     iget-object v0, v1, Landroidx/activity/i;->d:Ljava/lang/Object;
 
-    check-cast v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;
+    check-cast v0, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;
 
-    sget v2, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;->H:I
+    sget v2, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;->H:I
 
     const-string v2, "this$0"
 
@@ -3023,7 +3023,7 @@
 
     new-instance v2, Li6/d;
 
-    invoke-direct {v2, v0}, Li6/d;-><init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;)V
+    invoke-direct {v2, v0}, Li6/d;-><init>(Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;)V
 
     invoke-static {v2}, La3/a;->D(Lne/a;)V
 

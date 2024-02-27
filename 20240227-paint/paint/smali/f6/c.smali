@@ -36,14 +36,14 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/choose_object/ChooseObjectActivity;Lcom/arapp/paint/sketch/ardrawing/ui/component/choose_object/b;Lcom/arapp/paint/sketch/ardrawing/ui/component/choose_object/c;)V
+.method public constructor <init>(Lcom/aaa/bbb/ccc/ddd/ui/component/choose_object/ChooseObjectActivity;Lcom/aaa/bbb/ccc/ddd/ui/component/choose_object/b;Lcom/aaa/bbb/ccc/ddd/ui/component/choose_object/c;)V
     .locals 1
 
     const-string v0, "context"
 
     invoke-static {p1, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {p0, p1}, Lb6/b;-><init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/choose_object/ChooseObjectActivity;)V
+    invoke-direct {p0, p1}, Lb6/b;-><init>(Lcom/aaa/bbb/ccc/ddd/ui/component/choose_object/ChooseObjectActivity;)V
 
     iput-object p2, p0, Lf6/c;->s:Lth/a;
 

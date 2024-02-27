@@ -8,7 +8,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/splash/SplashActivity$b;)V
+.method public constructor <init>(Lcom/aaa/bbb/ccc/ddd/ui/component/splash/SplashActivity$b;)V
     .locals 0
 
     iput-object p1, p0, Li4/c;->r:La4/a1;

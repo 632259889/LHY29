@@ -21,7 +21,7 @@
     .locals 2
 
     .line 1
-    sget v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/guide/GuideActivity;->G:I
+    sget v0, Lcom/aaa/bbb/ccc/ddd/ui/component/guide/GuideActivity;->G:I
 
     .line 2
     .line 3

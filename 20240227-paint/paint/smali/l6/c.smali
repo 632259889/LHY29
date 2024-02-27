@@ -9,16 +9,16 @@
 # instance fields
 .field public final synthetic c:I
 
-.field public final synthetic d:Lcom/arapp/paint/sketch/ardrawing/ui/component/setting/SettingActivity;
+.field public final synthetic d:Lcom/aaa/bbb/ccc/ddd/ui/component/setting/SettingActivity;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/setting/SettingActivity;I)V
+.method public synthetic constructor <init>(Lcom/aaa/bbb/ccc/ddd/ui/component/setting/SettingActivity;I)V
     .locals 0
 
     iput p2, p0, Ll6/c;->c:I
 
-    iput-object p1, p0, Ll6/c;->d:Lcom/arapp/paint/sketch/ardrawing/ui/component/setting/SettingActivity;
+    iput-object p1, p0, Ll6/c;->d:Lcom/aaa/bbb/ccc/ddd/ui/component/setting/SettingActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -35,7 +35,7 @@
 
     .line 2
     .line 3
-    iget-object v0, p0, Ll6/c;->d:Lcom/arapp/paint/sketch/ardrawing/ui/component/setting/SettingActivity;
+    iget-object v0, p0, Ll6/c;->d:Lcom/aaa/bbb/ccc/ddd/ui/component/setting/SettingActivity;
 
     .line 4
     .line 5
@@ -52,7 +52,7 @@
 
     .line 11
     :pswitch_0
-    sget p1, Lcom/arapp/paint/sketch/ardrawing/ui/component/setting/SettingActivity;->F:I
+    sget p1, Lcom/aaa/bbb/ccc/ddd/ui/component/setting/SettingActivity;->F:I
 
     .line 12
     .line 13
@@ -65,7 +65,7 @@
 
     .line 17
     .line 18
-    const-class v1, Lcom/arapp/paint/sketch/ardrawing/ui/component/language/LanguageActivity;
+    const-class v1, Lcom/aaa/bbb/ccc/ddd/ui/component/language/LanguageActivity;
 
     .line 19
     .line 20
@@ -105,7 +105,7 @@
 
     .line 39
     :goto_0
-    sget p1, Lcom/arapp/paint/sketch/ardrawing/ui/component/setting/SettingActivity;->F:I
+    sget p1, Lcom/aaa/bbb/ccc/ddd/ui/component/setting/SettingActivity;->F:I
 
     .line 40
     .line 41

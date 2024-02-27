@@ -7,14 +7,14 @@
 
 
 # instance fields
-.field public final synthetic c:Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;
+.field public final synthetic c:Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;
 
 
 # direct methods
-.method public constructor <init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;)V
+.method public constructor <init>(Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;)V
     .locals 0
 
-    iput-object p1, p0, Li6/d;->c:Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;
+    iput-object p1, p0, Li6/d;->c:Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -113,7 +113,7 @@
     .line 27
     .line 28
     .line 29
-    iget-object p1, p0, Li6/d;->c:Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;
+    iget-object p1, p0, Li6/d;->c:Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;
 
     .line 30
     .line 31
@@ -142,7 +142,7 @@
 
     .line 43
     .line 44
-    const-class v1, Lcom/arapp/paint/sketch/ardrawing/ui/component/splash/SplashActivity;
+    const-class v1, Lcom/aaa/bbb/ccc/ddd/ui/component/splash/SplashActivity;
 
     .line 45
     .line 46
@@ -220,7 +220,7 @@
 .method public final D()Landroid/app/Activity;
     .locals 1
 
-    iget-object v0, p0, Li6/d;->c:Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;
+    iget-object v0, p0, Li6/d;->c:Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;
 
     return-object v0
 .end method
@@ -252,7 +252,7 @@
 
     invoke-virtual {v0, v1}, Lp6/a;->a(Ljava/lang/String;)V
 
-    iget-object v0, p0, Li6/d;->c:Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;
+    iget-object v0, p0, Li6/d;->c:Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;
 
     invoke-virtual {v0}, Lb6/a;->O()Landroid/content/SharedPreferences;
 

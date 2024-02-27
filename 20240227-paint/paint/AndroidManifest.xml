@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="com.arapp.paint.sketch.ardrawing" platformBuildVersionCode="33" platformBuildVersionName="13">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="com.aaa.bbb.ccc.ddd" platformBuildVersionCode="33" platformBuildVersionName="13">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-feature android:name="android.hardware.camera.any"/>
     <uses-permission android:maxSdkVersion="32" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
@@ -44,27 +44,27 @@
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
-    <permission android:name="com.arapp.paint.sketch.ardrawing.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
-    <uses-permission android:name="com.arapp.paint.sketch.ardrawing.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <permission android:name="com.aaa.bbb.ccc.ddd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.aaa.bbb.ccc.ddd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
     <uses-permission android:name="android.permission.REORDER_TASKS"/>
-    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:fullBackupContent="@xml/appsflyer_backup_rules" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.arapp.paint.sketch.ardrawing.app.GlobalApp" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
-        <activity android:exported="true" android:name="com.arapp.paint.sketch.ardrawing.ui.component.detail_category.DetailCategoryActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
-        <activity android:exported="true" android:name="com.arapp.paint.sketch.ardrawing.ui.component.splash.SplashActivity" android:screenOrientation="portrait">
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:fullBackupContent="@xml/appsflyer_backup_rules" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.aaa.bbb.ccc.ddd.app.GlobalApp" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:exported="true" android:name="com.aaa.bbb.ccc.ddd.ui.component.detail_category.DetailCategoryActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="true" android:name="com.aaa.bbb.ccc.ddd.ui.component.splash.SplashActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:exported="true" android:name="com.arapp.paint.sketch.ardrawing.ui.component.main.MainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
-        <activity android:exported="true" android:name="com.arapp.paint.sketch.ardrawing.ui.component.language.LanguageActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
-        <activity android:exported="true" android:name="com.arapp.paint.sketch.ardrawing.ui.component.onboarding.OnBoardingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
-        <activity android:exported="true" android:name="com.arapp.paint.sketch.ardrawing.ui.component.permision.PermissionActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
-        <activity android:exported="true" android:name="com.arapp.paint.sketch.ardrawing.ui.component.choose_object.ChooseObjectActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
-        <activity android:exported="true" android:hardwareAccelerated="true" android:name="com.arapp.paint.sketch.ardrawing.ui.component.sktech.SketchActivity" android:screenOrientation="portrait"/>
-        <activity android:exported="true" android:hardwareAccelerated="true" android:name="com.arapp.paint.sketch.ardrawing.ui.component.trace.TraceActivity" android:screenOrientation="portrait"/>
-        <activity android:exported="true" android:name="com.arapp.paint.sketch.ardrawing.ui.component.guide.GuideActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
-        <activity android:exported="true" android:name="com.arapp.paint.sketch.ardrawing.ui.component.setting.SettingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
-        <service android:foregroundServiceType="mediaProjection" android:name="com.arapp.paint.sketch.ardrawing.ui.component.service.RecordService"/>
+        <activity android:exported="true" android:name="com.aaa.bbb.ccc.ddd.ui.component.main.MainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="true" android:name="com.aaa.bbb.ccc.ddd.ui.component.language.LanguageActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="true" android:name="com.aaa.bbb.ccc.ddd.ui.component.onboarding.OnBoardingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="true" android:name="com.aaa.bbb.ccc.ddd.ui.component.permision.PermissionActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="true" android:name="com.aaa.bbb.ccc.ddd.ui.component.choose_object.ChooseObjectActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="true" android:hardwareAccelerated="true" android:name="com.aaa.bbb.ccc.ddd.ui.component.sktech.SketchActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:hardwareAccelerated="true" android:name="com.aaa.bbb.ccc.ddd.ui.component.trace.TraceActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="com.aaa.bbb.ccc.ddd.ui.component.guide.GuideActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="true" android:name="com.aaa.bbb.ccc.ddd.ui.component.setting.SettingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <service android:foregroundServiceType="mediaProjection" android:name="com.aaa.bbb.ccc.ddd.ui.component.service.RecordService"/>
         <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-6691965685689933~2294521030"/>
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
         <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
@@ -73,8 +73,8 @@
         <meta-data android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled" android:value="true"/>
         <activity android:name="gun0912.tedimagepicker.TedImagePickerActivity" android:theme="@style/TedImagePickerTheme"/>
         <activity android:name="gun0912.tedimagepicker.zoom.TedImageZoomActivity" android:theme="@style/TedImagePickerTheme.Zoom"/>
-        <provider android:authorities="com.arapp.paint.sketch.ardrawing.tedimagepicker.provider" android:exported="false" android:name="gun0912.tedimagepicker.util.TedImagePickerContentProvider"/>
-        <provider android:authorities="com.arapp.paint.sketch.ardrawing.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+        <provider android:authorities="com.aaa.bbb.ccc.ddd.tedimagepicker.provider" android:exported="false" android:name="gun0912.tedimagepicker.util.TedImagePickerContentProvider"/>
+        <provider android:authorities="com.aaa.bbb.ccc.ddd.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
         </provider>
         <service android:enabled="false" android:exported="false" android:name="androidx.camera.core.impl.MetadataHolderService">
@@ -91,7 +91,7 @@
         <activity android:name="com.vmadalin.easypermissions.components.TestAppCompatActivity"/>
         <activity android:name="com.vmadalin.easypermissions.components.TestSupportFragmentActivity"/>
         <activity android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity" android:process=":error_activity"/>
-        <provider android:authorities="com.arapp.paint.sketch.ardrawing.customactivityoncrashinitprovider" android:exported="false" android:initOrder="101" android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"/>
+        <provider android:authorities="com.aaa.bbb.ccc.ddd.customactivityoncrashinitprovider" android:exported="false" android:initOrder="101" android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
         <activity android:name="com.facebook.CustomTabMainActivity"/>
         <activity android:exported="true" android:name="com.facebook.CustomTabActivity">
@@ -99,13 +99,13 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:host="cct.com.arapp.paint.sketch.ardrawing" android:scheme="fbconnect"/>
+                <data android:host="cct.com.aaa.bbb.ccc.ddd" android:scheme="fbconnect"/>
             </intent-filter>
         </activity>
         <activity android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|uiMode" android:name="com.gun0912.tedpermission.TedPermissionActivity" android:screenOrientation="unspecified" android:theme="@style/Theme.Transparent.Permission"/>
-        <provider android:authorities="com.arapp.paint.sketch.ardrawing.tedpermissionprovider" android:exported="false" android:name="com.gun0912.tedpermission.provider.TedPermissionProvider"/>
+        <provider android:authorities="com.aaa.bbb.ccc.ddd.tedpermissionprovider" android:exported="false" android:name="com.gun0912.tedpermission.provider.TedPermissionProvider"/>
         <activity android:configChanges="fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|orientation|screenLayout|screenSize|uiMode" android:name="com.gun0912.tedonactivityresult.ProxyActivity" android:screenOrientation="unspecified" android:theme="@style/Theme.AppCompat.Light.Dialog"/>
-        <provider android:authorities="com.arapp.paint.sketch.ardrawing.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+        <provider android:authorities="com.aaa.bbb.ccc.ddd.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
             <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
             <meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup"/>
             <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
@@ -141,10 +141,10 @@
         </service>
         <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
-        <provider android:authorities="com.arapp.paint.sketch.ardrawing.mobileadsinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.android.gms.ads.MobileAdsInitProvider"/>
+        <provider android:authorities="com.aaa.bbb.ccc.ddd.mobileadsinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.android.gms.ads.MobileAdsInitProvider"/>
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.ads.AdService"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="com.google.android.gms.ads.OutOfContextTestingActivity"/>
-        <provider android:authorities="com.arapp.paint.sketch.ardrawing.applovininitprovider" android:exported="false" android:initOrder="101" android:name="com.applovin.sdk.AppLovinInitProvider"/>
+        <provider android:authorities="com.aaa.bbb.ccc.ddd.applovininitprovider" android:exported="false" android:initOrder="101" android:name="com.applovin.sdk.AppLovinInitProvider"/>
         <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.applovin.adview.AppLovinFullscreenActivity" android:screenOrientation="behind"/>
         <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.sdk.AppLovinWebViewActivity"/>
         <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity"/>
@@ -161,11 +161,11 @@
         <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
-        <provider android:authorities="com.arapp.paint.sketch.ardrawing.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <provider android:authorities="com.aaa.bbb.ccc.ddd.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.facebook.ads.AudienceNetworkActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-        <provider android:authorities="com.arapp.paint.sketch.ardrawing.AudienceNetworkContentProvider" android:exported="false" android:name="com.facebook.ads.AudienceNetworkContentProvider"/>
+        <provider android:authorities="com.aaa.bbb.ccc.ddd.AudienceNetworkContentProvider" android:exported="false" android:name="com.facebook.ads.AudienceNetworkContentProvider"/>
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
-        <provider android:authorities="com.arapp.paint.sketch.ardrawing.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <provider android:authorities="com.aaa.bbb.ccc.ddd.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
         <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
             <intent-filter>
                 <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
@@ -221,7 +221,7 @@
             </intent-filter>
         </receiver>
         <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:launchMode="singleTop" android:name="com.vungle.warren.ui.VungleActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-        <provider android:authorities="com.arapp.paint.sketch.ardrawing.vungle-provider" android:exported="false" android:name="com.vungle.warren.utility.VungleProvider"/>
+        <provider android:authorities="com.aaa.bbb.ccc.ddd.vungle-provider" android:exported="false" android:name="com.vungle.warren.utility.VungleProvider"/>
         <uses-library android:name="androidx.window.extensions" android:required="false"/>
         <uses-library android:name="androidx.window.sidecar" android:required="false"/>
         <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity" android:theme="@style/WhiteBackgroundTheme">
@@ -240,7 +240,7 @@
             </intent-filter>
         </activity>
         <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
-        <provider android:authorities="com.arapp.paint.sketch.ardrawing.autosize-init-provider" android:exported="false" android:multiprocess="true" android:name="me.jessyan.autosize.InitProvider"/>
+        <provider android:authorities="com.aaa.bbb.ccc.ddd.autosize-init-provider" android:exported="false" android:multiprocess="true" android:name="me.jessyan.autosize.InitProvider"/>
         <activity android:enabled="false" android:exported="false" android:launchMode="singleInstance" android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity" android:process=":playcore_missing_splits_activity" android:stateNotNeeded="true"/>
         <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
         <service android:enabled="false" android:exported="true" android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService">

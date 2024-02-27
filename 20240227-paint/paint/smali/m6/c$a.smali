@@ -31,7 +31,7 @@
 .end annotation
 
 .annotation runtime Loh/e;
-    c = "com.arapp.paint.sketch.ardrawing.ui.component.sktech.SketchActivity$initSticker$2$1"
+    c = "com.aaa.bbb.ccc.ddd.ui.component.sktech.SketchActivity$initSticker$2$1"
     f = "SketchActivity.kt"
     l = {}
     m = "invokeSuspend"
@@ -39,16 +39,16 @@
 
 
 # instance fields
-.field public final synthetic g:Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;
+.field public final synthetic g:Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;
 
 
 # direct methods
-.method public constructor <init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;Lmh/d;)V
+.method public constructor <init>(Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;Lmh/d;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;",
+            "Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;",
             "Lmh/d<",
             "-",
             "Lm6/c$a;",
@@ -56,7 +56,7 @@
         }
     .end annotation
 
-    iput-object p1, p0, Lm6/c$a;->g:Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;
+    iput-object p1, p0, Lm6/c$a;->g:Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;
 
     invoke-direct {p0, p2}, Loh/g;-><init>(Lmh/d;)V
 
@@ -81,9 +81,9 @@
 
     new-instance p1, Lm6/c$a;
 
-    iget-object v0, p0, Lm6/c$a;->g:Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;
+    iget-object v0, p0, Lm6/c$a;->g:Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;
 
-    invoke-direct {p1, v0, p2}, Lm6/c$a;-><init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;Lmh/d;)V
+    invoke-direct {p1, v0, p2}, Lm6/c$a;-><init>(Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;Lmh/d;)V
 
     return-object p1
 .end method
@@ -136,7 +136,7 @@
     .line 2
     .line 3
     .line 4
-    iget-object p1, p0, Lm6/c$a;->g:Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;
+    iget-object p1, p0, Lm6/c$a;->g:Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;
 
     .line 5
     .line 6
@@ -186,7 +186,7 @@
     move-result-object v1
 
     .line 30
-    iget-object v2, p1, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;->I:Landroid/graphics/Bitmap;
+    iget-object v2, p1, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;->I:Landroid/graphics/Bitmap;
 
     .line 31
     .line 32
@@ -195,7 +195,7 @@
     .line 33
     .line 34
     .line 35
-    iput-object v0, p1, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;->J:Landroid/graphics/drawable/Drawable;
+    iput-object v0, p1, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;->J:Landroid/graphics/drawable/Drawable;
 
     .line 36
     .line 37
@@ -215,7 +215,7 @@
 
     .line 44
     .line 45
-    iget-object v2, p1, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;->J:Landroid/graphics/drawable/Drawable;
+    iget-object v2, p1, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;->J:Landroid/graphics/drawable/Drawable;
 
     .line 46
     .line 47

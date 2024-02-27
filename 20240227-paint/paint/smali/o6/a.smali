@@ -20,7 +20,7 @@
 .method public final a()V
     .locals 1
 
-    sget v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;->J:I
+    sget v0, Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;->J:I
 
     return-void
 .end method

@@ -49,7 +49,7 @@
 
     .line 2
     .line 3
-    sget-object p1, Lcom/arapp/paint/sketch/ardrawing/app/GlobalApp;->g:Landroid/content/SharedPreferences;
+    sget-object p1, Lcom/aaa/bbb/ccc/ddd/app/GlobalApp;->g:Landroid/content/SharedPreferences;
 
     .line 4
     .line 5

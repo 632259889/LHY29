@@ -22,7 +22,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;)V
+.method public constructor <init>(Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;)V
     .locals 6
 
     .line 1
@@ -175,7 +175,7 @@
 
     .line 75
     .line 76
-    invoke-direct {v0, p1}, Lp8/b;-><init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;)V
+    invoke-direct {v0, p1}, Lp8/b;-><init>(Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;)V
 
     .line 77
     .line 78

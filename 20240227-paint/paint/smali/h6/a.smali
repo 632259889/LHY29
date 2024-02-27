@@ -58,7 +58,7 @@
 
     .line 15
     .line 16
-    check-cast v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/language/LanguageActivity;
+    check-cast v0, Lcom/aaa/bbb/ccc/ddd/ui/component/language/LanguageActivity;
 
     .line 17
     .line 18

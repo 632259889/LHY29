@@ -19,14 +19,14 @@
 
 
 # instance fields
-.field public final synthetic d:Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;
+.field public final synthetic d:Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;
 
 
 # direct methods
-.method public constructor <init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;)V
+.method public constructor <init>(Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;)V
     .locals 0
 
-    iput-object p1, p0, Le6/a;->d:Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;
+    iput-object p1, p0, Le6/a;->d:Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;
 
     const/4 p1, 0x1
 
@@ -54,7 +54,7 @@
     .line 6
     .line 7
     .line 8
-    sget v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;->I:I
+    sget v0, Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;->I:I
 
     .line 9
     .line 10
@@ -62,7 +62,7 @@
 
     .line 11
     .line 12
-    iget-object v1, p0, Le6/a;->d:Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;
+    iget-object v1, p0, Le6/a;->d:Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;
 
     .line 13
     .line 14
@@ -173,7 +173,7 @@
 
     .line 63
     .line 64
-    invoke-direct {v3, v1, p1}, Le6/c;-><init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;La6/e;)V
+    invoke-direct {v3, v1, p1}, Le6/c;-><init>(Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;La6/e;)V
 
     .line 65
     .line 66
@@ -187,7 +187,7 @@
 
     .line 71
     :cond_2
-    invoke-virtual {v1, p1}, Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;->S(La6/e;)V
+    invoke-virtual {v1, p1}, Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;->S(La6/e;)V
 
     .line 72
     .line 73

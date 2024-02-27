@@ -9,16 +9,16 @@
 # instance fields
 .field public final synthetic c:I
 
-.field public final synthetic d:Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;
+.field public final synthetic d:Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;I)V
+.method public synthetic constructor <init>(Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;I)V
     .locals 0
 
     iput p2, p0, Li6/c;->c:I
 
-    iput-object p1, p0, Li6/c;->d:Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;
+    iput-object p1, p0, Li6/c;->d:Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -38,7 +38,7 @@
     const/4 v0, 0x0
 
     .line 4
-    iget-object v1, p0, Li6/c;->d:Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;
+    iget-object v1, p0, Li6/c;->d:Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;
 
     .line 5
     .line 6
@@ -55,7 +55,7 @@
 
     .line 12
     :pswitch_0
-    sget p1, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;->H:I
+    sget p1, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;->H:I
 
     .line 13
     .line 14
@@ -174,11 +174,11 @@
 
     .line 67
     .line 68
-    new-instance v2, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity$a;
+    new-instance v2, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity$a;
 
     .line 69
     .line 70
-    invoke-direct {v2, v1}, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity$a;-><init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;)V
+    invoke-direct {v2, v1}, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity$a;-><init>(Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;)V
 
     .line 71
     .line 72
@@ -196,7 +196,7 @@
 
     .line 78
     .line 79
-    invoke-virtual {v1, p1}, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;->S(Ljava/lang/String;)V
+    invoke-virtual {v1, p1}, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;->S(Ljava/lang/String;)V
 
     .line 80
     .line 81
@@ -210,7 +210,7 @@
 
     .line 85
     :goto_2
-    sget p1, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;->H:I
+    sget p1, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;->H:I
 
     .line 86
     .line 87
@@ -219,7 +219,7 @@
     .line 88
     .line 89
     .line 90
-    iput-boolean v0, v1, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;->F:Z
+    iput-boolean v0, v1, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;->F:Z
 
     .line 91
     .line 92
@@ -239,7 +239,7 @@
 
     .line 99
     .line 100
-    const-class v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/setting/SettingActivity;
+    const-class v0, Lcom/aaa/bbb/ccc/ddd/ui/component/setting/SettingActivity;
 
     .line 101
     .line 102

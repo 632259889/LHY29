@@ -4,14 +4,14 @@
 
 
 # instance fields
-.field public final synthetic A0:Lcom/arapp/paint/sketch/ardrawing/ui/component/splash/SplashActivity;
+.field public final synthetic A0:Lcom/aaa/bbb/ccc/ddd/ui/component/splash/SplashActivity;
 
 
 # direct methods
-.method public constructor <init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/splash/SplashActivity;)V
+.method public constructor <init>(Lcom/aaa/bbb/ccc/ddd/ui/component/splash/SplashActivity;)V
     .locals 0
 
-    iput-object p1, p0, Ln6/c;->A0:Lcom/arapp/paint/sketch/ardrawing/ui/component/splash/SplashActivity;
+    iput-object p1, p0, Ln6/c;->A0:Lcom/aaa/bbb/ccc/ddd/ui/component/splash/SplashActivity;
 
     invoke-direct {p0}, La4/a1;-><init>()V
 
@@ -24,15 +24,15 @@
     .locals 1
 
     .line 1
-    sget-boolean v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/splash/SplashActivity;->K:Z
+    sget-boolean v0, Lcom/aaa/bbb/ccc/ddd/ui/component/splash/SplashActivity;->K:Z
 
     .line 2
     .line 3
-    iget-object v0, p0, Ln6/c;->A0:Lcom/arapp/paint/sketch/ardrawing/ui/component/splash/SplashActivity;
+    iget-object v0, p0, Ln6/c;->A0:Lcom/aaa/bbb/ccc/ddd/ui/component/splash/SplashActivity;
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Lcom/arapp/paint/sketch/ardrawing/ui/component/splash/SplashActivity;->U()V
+    invoke-virtual {v0}, Lcom/aaa/bbb/ccc/ddd/ui/component/splash/SplashActivity;->U()V
 
     .line 6
     .line 7

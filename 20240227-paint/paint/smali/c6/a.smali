@@ -78,7 +78,7 @@
     .line 17
     .line 18
     .line 19
-    sget-object p0, Lcom/arapp/paint/sketch/ardrawing/app/GlobalApp;->g:Landroid/content/SharedPreferences;
+    sget-object p0, Lcom/aaa/bbb/ccc/ddd/app/GlobalApp;->g:Landroid/content/SharedPreferences;
 
     .line 20
     .line 21

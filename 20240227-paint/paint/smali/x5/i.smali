@@ -83,7 +83,7 @@
     move-object v1, p0
 
     .line 15
-    check-cast v1, Lcom/arapp/paint/sketch/ardrawing/app/GlobalApp;
+    check-cast v1, Lcom/aaa/bbb/ccc/ddd/app/GlobalApp;
 
     .line 16
     .line 17

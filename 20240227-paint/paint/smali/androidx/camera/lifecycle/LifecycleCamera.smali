@@ -18,7 +18,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;Lf0/e;)V
+.method public constructor <init>(Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;Lf0/e;)V
     .locals 3
 
     .line 1

@@ -78,11 +78,11 @@
 
     .line 24
     :pswitch_1
-    check-cast v2, Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;
+    check-cast v2, Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;
 
     .line 25
     .line 26
-    sget p1, Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;->J:I
+    sget p1, Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;->J:I
 
     .line 27
     .line 28
@@ -91,7 +91,7 @@
     .line 29
     .line 30
     .line 31
-    iget-boolean p1, v2, Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;->G:Z
+    iget-boolean p1, v2, Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;->G:Z
 
     .line 32
     .line 33
@@ -125,11 +125,11 @@
 
     .line 47
     :pswitch_2
-    check-cast v2, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;
+    check-cast v2, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;
 
     .line 48
     .line 49
-    sget-object p1, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;->P:[Ljava/lang/String;
+    sget-object p1, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;->P:[Ljava/lang/String;
 
     .line 50
     .line 51
@@ -138,7 +138,7 @@
     .line 52
     .line 53
     .line 54
-    iget-boolean p1, v2, Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;->G:Z
+    iget-boolean p1, v2, Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;->G:Z
 
     .line 55
     .line 56
@@ -380,11 +380,11 @@
 
     .line 180
     :pswitch_3
-    check-cast v2, Lcom/arapp/paint/sketch/ardrawing/ui/component/setting/SettingActivity;
+    check-cast v2, Lcom/aaa/bbb/ccc/ddd/ui/component/setting/SettingActivity;
 
     .line 181
     .line 182
-    sget p1, Lcom/arapp/paint/sketch/ardrawing/ui/component/setting/SettingActivity;->F:I
+    sget p1, Lcom/aaa/bbb/ccc/ddd/ui/component/setting/SettingActivity;->F:I
 
     .line 183
     .line 184
@@ -402,11 +402,11 @@
 
     .line 191
     :pswitch_4
-    check-cast v2, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;
+    check-cast v2, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;
 
     .line 192
     .line 193
-    sget p1, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;->H:I
+    sget p1, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;->H:I
 
     .line 194
     .line 195
@@ -525,11 +525,11 @@
 
     .line 248
     .line 249
-    new-instance v1, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity$c;
+    new-instance v1, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity$c;
 
     .line 250
     .line 251
-    invoke-direct {v1, v2}, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity$c;-><init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;)V
+    invoke-direct {v1, v2}, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity$c;-><init>(Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;)V
 
     .line 252
     .line 253
@@ -543,7 +543,7 @@
 
     .line 258
     :cond_4
-    invoke-virtual {v2}, Lcom/arapp/paint/sketch/ardrawing/ui/component/main/MainActivity;->T()V
+    invoke-virtual {v2}, Lcom/aaa/bbb/ccc/ddd/ui/component/main/MainActivity;->T()V
 
     .line 259
     .line 260

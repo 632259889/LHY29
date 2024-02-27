@@ -155,11 +155,11 @@
 
     .line 56
     .line 57
-    check-cast v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;
+    check-cast v0, Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;
 
     .line 58
     .line 59
-    sget v1, Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;->J:I
+    sget v1, Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;->J:I
 
     .line 60
     .line 61

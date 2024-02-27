@@ -182,7 +182,7 @@
 
     .line 74
     :goto_1
-    sget-boolean v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/splash/SplashActivity;->K:Z
+    sget-boolean v0, Lcom/aaa/bbb/ccc/ddd/ui/component/splash/SplashActivity;->K:Z
 
     .line 75
     .line 76

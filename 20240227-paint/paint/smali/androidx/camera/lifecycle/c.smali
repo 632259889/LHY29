@@ -179,7 +179,7 @@
 
 
 # virtual methods
-.method public final varargs a(Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;Lz/r;[Lz/l1;)Lz/j;
+.method public final varargs a(Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;Lz/r;[Lz/l1;)Lz/j;
     .locals 11
 
     .line 1
@@ -555,7 +555,7 @@
     .line 176
     .line 177
     .line 178
-    invoke-virtual {v2, p1, v3}, Landroidx/camera/lifecycle/LifecycleCameraRepository;->b(Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;Lf0/e;)Landroidx/camera/lifecycle/LifecycleCamera;
+    invoke-virtual {v2, p1, v3}, Landroidx/camera/lifecycle/LifecycleCameraRepository;->b(Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;Lf0/e;)Landroidx/camera/lifecycle/LifecycleCamera;
 
     .line 179
     .line 180

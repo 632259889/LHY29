@@ -142,11 +142,11 @@
 
     .line 52
     :pswitch_4
-    check-cast v4, Lcom/arapp/paint/sketch/ardrawing/ui/component/setting/SettingActivity;
+    check-cast v4, Lcom/aaa/bbb/ccc/ddd/ui/component/setting/SettingActivity;
 
     .line 53
     .line 54
-    sget v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/setting/SettingActivity;->F:I
+    sget v0, Lcom/aaa/bbb/ccc/ddd/ui/component/setting/SettingActivity;->F:I
 
     .line 55
     .line 56
@@ -288,11 +288,11 @@
 
     .line 119
     :pswitch_5
-    check-cast v4, Lcom/arapp/paint/sketch/ardrawing/ui/component/guide/GuideActivity;
+    check-cast v4, Lcom/aaa/bbb/ccc/ddd/ui/component/guide/GuideActivity;
 
     .line 120
     .line 121
-    sget p1, Lcom/arapp/paint/sketch/ardrawing/ui/component/guide/GuideActivity;->G:I
+    sget p1, Lcom/aaa/bbb/ccc/ddd/ui/component/guide/GuideActivity;->G:I
 
     .line 122
     .line 123

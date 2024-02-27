@@ -4,16 +4,16 @@
 
 
 # instance fields
-.field public final synthetic A0:Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;
+.field public final synthetic A0:Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;
 
 .field public final synthetic B0:La6/e;
 
 
 # direct methods
-.method public constructor <init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;La6/e;)V
+.method public constructor <init>(Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;La6/e;)V
     .locals 0
 
-    iput-object p1, p0, Le6/c;->A0:Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;
+    iput-object p1, p0, Le6/c;->A0:Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;
 
     iput-object p2, p0, Le6/c;->B0:La6/e;
 
@@ -40,7 +40,7 @@
 
     .line 6
     .line 7
-    sget v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;->I:I
+    sget v0, Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;->I:I
 
     .line 8
     .line 9
@@ -48,11 +48,11 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Le6/c;->A0:Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;
+    iget-object v1, p0, Le6/c;->A0:Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;
 
     .line 12
     .line 13
-    invoke-virtual {v1, v0}, Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;->S(La6/e;)V
+    invoke-virtual {v1, v0}, Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;->S(La6/e;)V
 
     .line 14
     .line 15
@@ -187,7 +187,7 @@
     .locals 4
 
     .line 1
-    sget v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;->I:I
+    sget v0, Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;->I:I
 
     .line 2
     .line 3
@@ -195,11 +195,11 @@
 
     .line 4
     .line 5
-    iget-object v1, p0, Le6/c;->A0:Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;
+    iget-object v1, p0, Le6/c;->A0:Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;
 
     .line 6
     .line 7
-    invoke-virtual {v1, v0}, Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;->S(La6/e;)V
+    invoke-virtual {v1, v0}, Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;->S(La6/e;)V
 
     .line 8
     .line 9
@@ -334,7 +334,7 @@
     .locals 4
 
     .line 1
-    sget v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;->I:I
+    sget v0, Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;->I:I
 
     .line 2
     .line 3
@@ -342,11 +342,11 @@
 
     .line 4
     .line 5
-    iget-object v1, p0, Le6/c;->A0:Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;
+    iget-object v1, p0, Le6/c;->A0:Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;
 
     .line 6
     .line 7
-    invoke-virtual {v1, v0}, Lcom/arapp/paint/sketch/ardrawing/ui/component/detail_category/DetailCategoryActivity;->S(La6/e;)V
+    invoke-virtual {v1, v0}, Lcom/aaa/bbb/ccc/ddd/ui/component/detail_category/DetailCategoryActivity;->S(La6/e;)V
 
     .line 8
     .line 9

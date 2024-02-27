@@ -377,7 +377,7 @@
     throw p1
 .end method
 
-.method public final b(Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;Lf0/e;)Landroidx/camera/lifecycle/LifecycleCamera;
+.method public final b(Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;Lf0/e;)Landroidx/camera/lifecycle/LifecycleCamera;
     .locals 3
 
     .line 1
@@ -458,7 +458,7 @@
 
     .line 36
     .line 37
-    invoke-direct {v1, p1, p2}, Landroidx/camera/lifecycle/LifecycleCamera;-><init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/sktech/SketchActivity;Lf0/e;)V
+    invoke-direct {v1, p1, p2}, Landroidx/camera/lifecycle/LifecycleCamera;-><init>(Lcom/aaa/bbb/ccc/ddd/ui/component/sktech/SketchActivity;Lf0/e;)V
 
     .line 38
     .line 39

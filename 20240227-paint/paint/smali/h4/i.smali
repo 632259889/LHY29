@@ -20,7 +20,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lh4/e;Lcom/facebook/shimmer/ShimmerFrameLayout;Landroid/widget/FrameLayout;Lcom/arapp/paint/sketch/ardrawing/ui/component/guide/GuideActivity$b;Lcom/google/android/gms/ads/AdView;Ljava/lang/String;)V
+.method public constructor <init>(Lh4/e;Lcom/facebook/shimmer/ShimmerFrameLayout;Landroid/widget/FrameLayout;Lcom/aaa/bbb/ccc/ddd/ui/component/guide/GuideActivity$b;Lcom/google/android/gms/ads/AdView;Ljava/lang/String;)V
     .locals 0
 
     iput-object p1, p0, Lh4/i;->i:Lh4/e;

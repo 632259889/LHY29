@@ -18,14 +18,14 @@
 
 
 # instance fields
-.field public final synthetic d:Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;
+.field public final synthetic d:Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;
 
 
 # direct methods
-.method public constructor <init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;)V
+.method public constructor <init>(Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;)V
     .locals 0
 
-    iput-object p1, p0, Lo6/c;->d:Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;
+    iput-object p1, p0, Lo6/c;->d:Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;
 
     const/4 p1, 0x0
 
@@ -40,11 +40,11 @@
     .locals 12
 
     .line 1
-    iget-object v0, p0, Lo6/c;->d:Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;
+    iget-object v0, p0, Lo6/c;->d:Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;
 
     .line 2
     .line 3
-    iget-boolean v1, v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;->G:Z
+    iget-boolean v1, v0, Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;->G:Z
 
     .line 4
     .line 5
@@ -56,7 +56,7 @@
 
     .line 8
     .line 9
-    invoke-direct {v1, v0}, Lq8/b;-><init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;)V
+    invoke-direct {v1, v0}, Lq8/b;-><init>(Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;)V
 
     .line 10
     .line 11
@@ -115,7 +115,7 @@
     .line 38
     .line 39
     .line 40
-    iget v4, v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;->H:I
+    iget v4, v0, Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;->H:I
 
     .line 41
     .line 42

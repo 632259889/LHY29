@@ -20,7 +20,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/choose_object/a;)V
+.method public constructor <init>(Lcom/aaa/bbb/ccc/ddd/ui/component/choose_object/a;)V
     .locals 0
 
     iput-object p1, p0, Lhg/a;->a:Lth/l;

@@ -31,7 +31,7 @@
 .end annotation
 
 .annotation runtime Loh/e;
-    c = "com.arapp.paint.sketch.ardrawing.ui.component.trace.TraceActivity$initSticker$3$1"
+    c = "com.aaa.bbb.ccc.ddd.ui.component.trace.TraceActivity$initSticker$3$1"
     f = "TraceActivity.kt"
     l = {}
     m = "invokeSuspend"
@@ -39,16 +39,16 @@
 
 
 # instance fields
-.field public final synthetic g:Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;
+.field public final synthetic g:Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;
 
 
 # direct methods
-.method public constructor <init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;Lmh/d;)V
+.method public constructor <init>(Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;Lmh/d;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;",
+            "Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;",
             "Lmh/d<",
             "-",
             "Lo6/e$a;",
@@ -56,7 +56,7 @@
         }
     .end annotation
 
-    iput-object p1, p0, Lo6/e$a;->g:Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;
+    iput-object p1, p0, Lo6/e$a;->g:Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;
 
     invoke-direct {p0, p2}, Loh/g;-><init>(Lmh/d;)V
 
@@ -81,9 +81,9 @@
 
     new-instance p1, Lo6/e$a;
 
-    iget-object v0, p0, Lo6/e$a;->g:Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;
+    iget-object v0, p0, Lo6/e$a;->g:Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;
 
-    invoke-direct {p1, v0, p2}, Lo6/e$a;-><init>(Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;Lmh/d;)V
+    invoke-direct {p1, v0, p2}, Lo6/e$a;-><init>(Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;Lmh/d;)V
 
     return-object p1
 .end method
@@ -140,7 +140,7 @@
 
     .line 5
     .line 6
-    iget-object v0, p0, Lo6/e$a;->g:Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;
+    iget-object v0, p0, Lo6/e$a;->g:Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;
 
     .line 7
     .line 8
@@ -152,7 +152,7 @@
     move-result-object v1
 
     .line 12
-    iget-object v2, v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;->D:Landroid/graphics/Bitmap;
+    iget-object v2, v0, Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;->D:Landroid/graphics/Bitmap;
 
     .line 13
     .line 14
@@ -161,7 +161,7 @@
     .line 15
     .line 16
     .line 17
-    iput-object p1, v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;->E:Landroid/graphics/drawable/Drawable;
+    iput-object p1, v0, Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;->E:Landroid/graphics/drawable/Drawable;
 
     .line 18
     .line 19
@@ -181,7 +181,7 @@
 
     .line 26
     .line 27
-    iget-object v2, v0, Lcom/arapp/paint/sketch/ardrawing/ui/component/trace/TraceActivity;->E:Landroid/graphics/drawable/Drawable;
+    iget-object v2, v0, Lcom/aaa/bbb/ccc/ddd/ui/component/trace/TraceActivity;->E:Landroid/graphics/drawable/Drawable;
 
     .line 28
     .line 29
