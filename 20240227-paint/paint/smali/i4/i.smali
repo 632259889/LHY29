@@ -74,7 +74,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->loadAd()V
+    # invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->loadAd()V
 
     .line 18
     .line 19
@@ -112,7 +112,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->loadAd()V
+    # invoke-virtual {p1}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->loadAd()V
 
     .line 15
     .line 16

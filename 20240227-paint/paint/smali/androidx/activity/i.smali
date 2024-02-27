@@ -3033,18 +3033,18 @@
     :pswitch_9
     iget-object v0, v1, Landroidx/activity/i;->d:Ljava/lang/Object;
 
-    check-cast v0, Lcom/applovin/exoplayer2/ui/f;
-
-    invoke-static {v0}, Lcom/applovin/exoplayer2/ui/f;->u(Lcom/applovin/exoplayer2/ui/f;)V
+    # check-cast v0, Lcom/applovin/exoplayer2/ui/f;
+    #
+    # invoke-static {v0}, Lcom/applovin/exoplayer2/ui/f;->u(Lcom/applovin/exoplayer2/ui/f;)V
 
     return-void
 
     :pswitch_a
     iget-object v0, v1, Landroidx/activity/i;->d:Ljava/lang/Object;
 
-    check-cast v0, Lcom/applovin/exoplayer2/m/a/i;
-
-    invoke-static {v0}, Lcom/applovin/exoplayer2/m/a/i;->a(Lcom/applovin/exoplayer2/m/a/i;)V
+    # check-cast v0, Lcom/applovin/exoplayer2/m/a/i;
+    #
+    # invoke-static {v0}, Lcom/applovin/exoplayer2/m/a/i;->a(Lcom/applovin/exoplayer2/m/a/i;)V
 
     return-void
 

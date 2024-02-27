@@ -12,7 +12,7 @@
 
 
 # instance fields
-.field public c:Lcom/applovin/mediation/ads/MaxAppOpenAd;
+# .field public c:Lcom/applovin/mediation/ads/MaxAppOpenAd;
 
 .field public d:Landroid/app/Application;
 
@@ -439,20 +439,21 @@
 
     .line 99
     .line 100
-    invoke-static {v0}, Lcom/applovin/sdk/AppLovinSdk;->getInstance(Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdk;
+    # invoke-static {v0}, Lcom/applovin/sdk/AppLovinSdk;->getInstance(Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdk;
 
     .line 101
     .line 102
     .line 103
-    move-result-object v0
+    # move-result-object v0
 
     .line 104
-    invoke-virtual {v0}, Lcom/applovin/sdk/AppLovinSdk;->isInitialized()Z
+    # invoke-virtual {v0}, Lcom/applovin/sdk/AppLovinSdk;->isInitialized()Z
 
     .line 105
     .line 106
     .line 107
-    move-result v0
+    # move-result v0
+    const/4 v0,0x1
 
     .line 108
     if-eqz v0, :cond_a
@@ -690,16 +691,17 @@
     .line 215
     .line 216
     :goto_2
-    iget-object v0, p0, Lcom/ads/gam/applovin/AppOpenMax;->c:Lcom/applovin/mediation/ads/MaxAppOpenAd;
+    # iget-object v0, p0, Lcom/ads/gam/applovin/AppOpenMax;->c:Lcom/applovin/mediation/ads/MaxAppOpenAd;
 
     .line 217
     .line 218
-    invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxAppOpenAd;->isReady()Z
+    # invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxAppOpenAd;->isReady()Z
 
     .line 219
     .line 220
     .line 221
-    move-result v0
+    # move-result v0
+    const/4 v0,0x1
 
     .line 222
     if-eqz v0, :cond_9
@@ -741,11 +743,11 @@
 
     .line 242
     :cond_9
-    iget-object v0, p0, Lcom/ads/gam/applovin/AppOpenMax;->c:Lcom/applovin/mediation/ads/MaxAppOpenAd;
-
-    .line 243
-    .line 244
-    invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxAppOpenAd;->loadAd()V
+    # iget-object v0, p0, Lcom/ads/gam/applovin/AppOpenMax;->c:Lcom/applovin/mediation/ads/MaxAppOpenAd;
+    #
+    # .line 243
+    # .line 244
+    # invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxAppOpenAd;->loadAd()V
 
     .line 245
     .line 246

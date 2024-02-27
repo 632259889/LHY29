@@ -146,9 +146,9 @@
 .method public final showAd(Landroid/content/Context;)V
     .locals 0
 
-    iget-object p1, p0, Lt8/b;->e:Le4/q;
-
-    invoke-virtual {p1}, Le4/q;->c()V
+    # iget-object p1, p0, Lt8/b;->e:Le4/q;
+    #
+    # invoke-virtual {p1}, Le4/q;->c()V
 
     return-void
 .end method

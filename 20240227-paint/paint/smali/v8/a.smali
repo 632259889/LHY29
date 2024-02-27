@@ -192,7 +192,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, v0}, Lcom/facebook/ads/RewardedVideoAd;->loadAd(Lcom/facebook/ads/RewardedVideoAd$RewardedVideoLoadAdConfig;)V
+    # invoke-virtual {v1, v0}, Lcom/facebook/ads/RewardedVideoAd;->loadAd(Lcom/facebook/ads/RewardedVideoAd$RewardedVideoLoadAdConfig;)V
 
     return-void
 .end method
@@ -379,63 +379,63 @@
 
 .method public final showAd(Landroid/content/Context;)V
     .locals 3
-
-    iget-object p1, p0, Lv8/a;->f:Ljava/util/concurrent/atomic/AtomicBoolean;
-
-    const/4 v0, 0x1
-
-    invoke-virtual {p1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
-
-    iget-object p1, p0, Lv8/a;->e:Lcom/facebook/ads/RewardedVideoAd;
-
-    invoke-virtual {p1}, Lcom/facebook/ads/RewardedVideoAd;->show()Z
-
-    move-result p1
-
-    if-nez p1, :cond_1
-
-    new-instance p1, Lcom/google/android/gms/ads/AdError;
-
-    const-string v0, "Failed to present rewarded ad."
-
-    const-string v1, "com.google.ads.mediation.facebook"
-
-    const/16 v2, 0x6e
-
-    invoke-direct {p1, v2, v0, v1}, Lcom/google/android/gms/ads/AdError;-><init>(ILjava/lang/String;Ljava/lang/String;)V
-
-    sget-object v0, Lcom/google/ads/mediation/facebook/FacebookMediationAdapter;->TAG:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->getMessage()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    iget-object v0, p0, Lv8/a;->g:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
-
-    if-eqz v0, :cond_0
-
-    invoke-interface {v0, p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->onAdFailedToShow(Lcom/google/android/gms/ads/AdError;)V
-
-    :cond_0
-    iget-object p1, p0, Lv8/a;->e:Lcom/facebook/ads/RewardedVideoAd;
-
-    invoke-virtual {p1}, Lcom/facebook/ads/RewardedVideoAd;->destroy()V
-
-    return-void
-
-    :cond_1
-    iget-object p1, p0, Lv8/a;->g:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
-
-    if-eqz p1, :cond_2
-
-    invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->onVideoStart()V
-
-    iget-object p1, p0, Lv8/a;->g:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
-
-    invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationAdCallback;->onAdOpened()V
-
-    :cond_2
+    #
+    # iget-object p1, p0, Lv8/a;->f:Ljava/util/concurrent/atomic/AtomicBoolean;
+    #
+    # const/4 v0, 0x1
+    #
+    # invoke-virtual {p1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
+    #
+    # iget-object p1, p0, Lv8/a;->e:Lcom/facebook/ads/RewardedVideoAd;
+    #
+    # invoke-virtual {p1}, Lcom/facebook/ads/RewardedVideoAd;->show()Z
+    #
+    # move-result p1
+    #
+    # if-nez p1, :cond_1
+    #
+    # new-instance p1, Lcom/google/android/gms/ads/AdError;
+    #
+    # const-string v0, "Failed to present rewarded ad."
+    #
+    # const-string v1, "com.google.ads.mediation.facebook"
+    #
+    # const/16 v2, 0x6e
+    #
+    # invoke-direct {p1, v2, v0, v1}, Lcom/google/android/gms/ads/AdError;-><init>(ILjava/lang/String;Ljava/lang/String;)V
+    #
+    # sget-object v0, Lcom/google/ads/mediation/facebook/FacebookMediationAdapter;->TAG:Ljava/lang/String;
+    #
+    # invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->getMessage()Ljava/lang/String;
+    #
+    # move-result-object v1
+    #
+    # invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # iget-object v0, p0, Lv8/a;->g:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
+    #
+    # if-eqz v0, :cond_0
+    #
+    # invoke-interface {v0, p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->onAdFailedToShow(Lcom/google/android/gms/ads/AdError;)V
+    #
+    # :cond_0
+    # iget-object p1, p0, Lv8/a;->e:Lcom/facebook/ads/RewardedVideoAd;
+    #
+    # invoke-virtual {p1}, Lcom/facebook/ads/RewardedVideoAd;->destroy()V
+    #
+    # return-void
+    #
+    # :cond_1
+    # iget-object p1, p0, Lv8/a;->g:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
+    #
+    # if-eqz p1, :cond_2
+    #
+    # invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->onVideoStart()V
+    #
+    # iget-object p1, p0, Lv8/a;->g:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
+    #
+    # invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationAdCallback;->onAdOpened()V
+    #
+    # :cond_2
     return-void
 .end method

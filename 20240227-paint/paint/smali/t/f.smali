@@ -277,7 +277,7 @@
 
     iget-object v0, v0, Ll4/f;->i:Lcom/applovin/mediation/ads/MaxInterstitialAd;
 
-    invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->showAd()V
+    # invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->showAd()V
 
     :cond_4
     return-void

@@ -117,13 +117,13 @@
 
     .line 43
     .line 44
-    invoke-static {p1, p2}, Lcom/applovin/exoplayer2/j/c;->c(Ljava/lang/Integer;Ljava/lang/Integer;)I
+    # invoke-static {p1, p2}, Lcom/applovin/exoplayer2/j/c;->c(Ljava/lang/Integer;Ljava/lang/Integer;)I
 
     .line 45
     .line 46
     .line 47
-    move-result p1
-
+    # move-result p1
+    const p1,0x8
     .line 48
     return p1
 

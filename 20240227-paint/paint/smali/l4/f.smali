@@ -185,7 +185,7 @@
 
     .line 53
     .line 54
-    invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->loadAd()V
+    # invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->loadAd()V
 
     .line 55
     .line 56

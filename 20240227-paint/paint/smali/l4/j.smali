@@ -84,7 +84,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p2}, Lcom/applovin/mediation/ads/MaxAppOpenAd;->loadAd()V
+    # invoke-virtual {p2}, Lcom/applovin/mediation/ads/MaxAppOpenAd;->loadAd()V
 
     .line 13
     .line 14
@@ -163,7 +163,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxAppOpenAd;->loadAd()V
+    # invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxAppOpenAd;->loadAd()V
 
     .line 13
     .line 14

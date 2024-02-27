@@ -53,17 +53,17 @@
 .method public final showAd(Landroid/content/Context;)V
     .locals 3
 
-    iget-object p1, p0, Ly8/c;->f:Ljava/lang/String;
-
-    iget-object v0, p0, Ly8/c;->g:Ljava/lang/String;
-
-    iget-object v1, p0, Ly8/c;->e:Lcom/vungle/warren/AdConfig;
-
-    new-instance v2, Ly8/c$a;
-
-    invoke-direct {v2, p0}, Ly8/c$a;-><init>(Ly8/c;)V
-
-    invoke-static {p1, v0, v1, v2}, Lcom/vungle/warren/Vungle;->playAd(Ljava/lang/String;Ljava/lang/String;Lcom/vungle/warren/AdConfig;Lcom/vungle/warren/p0;)V
+    # iget-object p1, p0, Ly8/c;->f:Ljava/lang/String;
+    #
+    # iget-object v0, p0, Ly8/c;->g:Ljava/lang/String;
+    #
+    # iget-object v1, p0, Ly8/c;->e:Lcom/vungle/warren/AdConfig;
+    #
+    # new-instance v2, Ly8/c$a;
+    #
+    # invoke-direct {v2, p0}, Ly8/c$a;-><init>(Ly8/c;)V
+    #
+    # invoke-static {p1, v0, v1, v2}, Lcom/vungle/warren/Vungle;->playAd(Ljava/lang/String;Ljava/lang/String;Lcom/vungle/warren/AdConfig;Lcom/vungle/warren/p0;)V
 
     return-void
 .end method

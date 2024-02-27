@@ -143,7 +143,7 @@
 
     .line 59
     .line 60
-    invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxAppOpenAd;->loadAd()V
+    # invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxAppOpenAd;->loadAd()V
 
     .line 61
     .line 62

@@ -1799,19 +1799,19 @@
     .line 296
     .line 297
     :cond_4
-    invoke-static {p0}, Lcom/applovin/sdk/AppLovinSdk;->getInstance(Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdk;
+    # invoke-static {p0}, Lcom/applovin/sdk/AppLovinSdk;->getInstance(Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdk;
 
     .line 298
     .line 299
     .line 300
-    move-result-object v0
+    # move-result-object v0
 
     .line 301
     const-string v5, "max"
 
     .line 302
     .line 303
-    invoke-virtual {v0, v5}, Lcom/applovin/sdk/AppLovinSdk;->setMediationProvider(Ljava/lang/String;)V
+    # invoke-virtual {v0, v5}, Lcom/applovin/sdk/AppLovinSdk;->setMediationProvider(Ljava/lang/String;)V
 
     .line 304
     .line 305
@@ -1829,7 +1829,7 @@
     .line 311
     .line 312
     .line 313
-    invoke-static {p0, v0}, Lcom/applovin/sdk/AppLovinSdk;->initializeSdk(Landroid/content/Context;Lcom/applovin/sdk/AppLovinSdk$SdkInitializationListener;)V
+    # invoke-static {p0, v0}, Lcom/applovin/sdk/AppLovinSdk;->initializeSdk(Landroid/content/Context;Lcom/applovin/sdk/AppLovinSdk$SdkInitializationListener;)V
 
     .line 314
     .line 315

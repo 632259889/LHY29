@@ -122,21 +122,21 @@
     return-void
 .end method
 
-.method public static bridge synthetic m(Landroid/media/MediaCodec;Lcom/applovin/exoplayer2/f/n;Landroid/os/Handler;)V
-    .locals 0
-
-    invoke-virtual {p0, p1, p2}, Landroid/media/MediaCodec;->setOnFrameRenderedListener(Landroid/media/MediaCodec$OnFrameRenderedListener;Landroid/os/Handler;)V
-
-    return-void
-.end method
-
-.method public static bridge synthetic n(Landroid/media/MediaCodec;Lcom/applovin/exoplayer2/f/y;Landroid/os/Handler;)V
-    .locals 0
-
-    invoke-virtual {p0, p1, p2}, Landroid/media/MediaCodec;->setOnFrameRenderedListener(Landroid/media/MediaCodec$OnFrameRenderedListener;Landroid/os/Handler;)V
-
-    return-void
-.end method
+# .method public static bridge synthetic m(Landroid/media/MediaCodec;Lcom/applovin/exoplayer2/f/n;Landroid/os/Handler;)V
+#     .locals 0
+#
+#     invoke-virtual {p0, p1, p2}, Landroid/media/MediaCodec;->setOnFrameRenderedListener(Landroid/media/MediaCodec$OnFrameRenderedListener;Landroid/os/Handler;)V
+#
+#     return-void
+# .end method
+#
+# .method public static bridge synthetic n(Landroid/media/MediaCodec;Lcom/applovin/exoplayer2/f/y;Landroid/os/Handler;)V
+#     .locals 0
+#
+#     invoke-virtual {p0, p1, p2}, Landroid/media/MediaCodec;->setOnFrameRenderedListener(Landroid/media/MediaCodec$OnFrameRenderedListener;Landroid/os/Handler;)V
+#
+#     return-void
+# .end method
 
 .method public static bridge synthetic o(Landroid/media/MediaDescription$Builder;Landroid/net/Uri;)V
     .locals 0

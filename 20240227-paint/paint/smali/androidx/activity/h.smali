@@ -214,11 +214,11 @@
 
     .line 86
     .line 87
-    check-cast v0, Lcom/applovin/mediation/ads/MaxInterstitialAd;
-
-    .line 88
-    .line 89
-    invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->showAd()V
+    # check-cast v0, Lcom/applovin/mediation/ads/MaxInterstitialAd;
+    #
+    # .line 88
+    # .line 89
+    # invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->showAd()V
 
     .line 90
     .line 91

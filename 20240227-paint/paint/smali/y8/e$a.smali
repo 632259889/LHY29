@@ -110,7 +110,7 @@
 
     .line 35
     .line 36
-    invoke-static {v1, v2, v3, v0}, Lcom/vungle/warren/Vungle;->loadAd(Ljava/lang/String;Ljava/lang/String;Lcom/vungle/warren/AdConfig;Lcom/vungle/warren/b0;)V
+    # invoke-static {v1, v2, v3, v0}, Lcom/vungle/warren/Vungle;->loadAd(Ljava/lang/String;Ljava/lang/String;Lcom/vungle/warren/AdConfig;Lcom/vungle/warren/b0;)V
 
     .line 37
     .line 38

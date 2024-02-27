@@ -280,7 +280,7 @@
     .line 112
     .line 113
     .line 114
-    invoke-virtual {v1}, Lcom/applovin/mediation/ads/MaxAdView;->loadAd()V
+    # invoke-virtual {v1}, Lcom/applovin/mediation/ads/MaxAdView;->loadAd()V
 
     .line 115
     .line 116
@@ -560,7 +560,7 @@
     move-result-object p0
 
     .line 255
-    invoke-virtual {v1, p0}, Lcom/google/android/gms/ads/BaseAdView;->loadAd(Lcom/google/android/gms/ads/AdRequest;)V
+    # invoke-virtual {v1, p0}, Lcom/google/android/gms/ads/BaseAdView;->loadAd(Lcom/google/android/gms/ads/AdRequest;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

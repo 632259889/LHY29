@@ -236,45 +236,45 @@
 
 .method public final showAd(Landroid/content/Context;)V
     .locals 3
-
-    iget-object p1, p0, Lw8/b;->g:Ljava/util/concurrent/atomic/AtomicBoolean;
-
-    const/4 v0, 0x1
-
-    invoke-virtual {p1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
-
-    iget-object p1, p0, Lw8/b;->e:Lcom/facebook/ads/InterstitialAd;
-
-    invoke-virtual {p1}, Lcom/facebook/ads/InterstitialAd;->show()Z
-
-    move-result p1
-
-    if-nez p1, :cond_0
-
-    new-instance p1, Lcom/google/android/gms/ads/AdError;
-
-    const-string v0, "Failed to present interstitial ad."
-
-    const-string v1, "com.google.ads.mediation.facebook"
-
-    const/16 v2, 0x6e
-
-    invoke-direct {p1, v2, v0, v1}, Lcom/google/android/gms/ads/AdError;-><init>(ILjava/lang/String;Ljava/lang/String;)V
-
-    sget-object v0, Lcom/google/ads/mediation/facebook/FacebookMediationAdapter;->TAG:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    iget-object v0, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
-
-    if-eqz v0, :cond_0
-
-    invoke-interface {v0, p1}, Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;->onAdFailedToShow(Lcom/google/android/gms/ads/AdError;)V
-
-    :cond_0
+    #
+    # iget-object p1, p0, Lw8/b;->g:Ljava/util/concurrent/atomic/AtomicBoolean;
+    #
+    # const/4 v0, 0x1
+    #
+    # invoke-virtual {p1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
+    #
+    # iget-object p1, p0, Lw8/b;->e:Lcom/facebook/ads/InterstitialAd;
+    #
+    # invoke-virtual {p1}, Lcom/facebook/ads/InterstitialAd;->show()Z
+    #
+    # move-result p1
+    #
+    # if-nez p1, :cond_0
+    #
+    # new-instance p1, Lcom/google/android/gms/ads/AdError;
+    #
+    # const-string v0, "Failed to present interstitial ad."
+    #
+    # const-string v1, "com.google.ads.mediation.facebook"
+    #
+    # const/16 v2, 0x6e
+    #
+    # invoke-direct {p1, v2, v0, v1}, Lcom/google/android/gms/ads/AdError;-><init>(ILjava/lang/String;Ljava/lang/String;)V
+    #
+    # sget-object v0, Lcom/google/ads/mediation/facebook/FacebookMediationAdapter;->TAG:Ljava/lang/String;
+    #
+    # invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
+    #
+    # move-result-object v1
+    #
+    # invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # iget-object v0, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
+    #
+    # if-eqz v0, :cond_0
+    #
+    # invoke-interface {v0, p1}, Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;->onAdFailedToShow(Lcom/google/android/gms/ads/AdError;)V
+    #
+    # :cond_0
     return-void
 .end method
