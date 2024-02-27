@@ -74,7 +74,7 @@
 
     if-eqz v2, :cond_1
 
-    invoke-static {p1}, Lcom/appsflyer/internal/d;->b(Landroid/os/Message;)V
+    # invoke-static {p1}, Lcom/appsflyer/internal/d;->b(Landroid/os/Message;)V
 
     :cond_1
     iget-object v2, p0, Lpg/b$a;->c:Landroid/os/Handler;

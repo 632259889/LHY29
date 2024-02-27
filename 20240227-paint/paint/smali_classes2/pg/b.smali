@@ -75,7 +75,7 @@
 
     if-eqz v2, :cond_0
 
-    invoke-static {p1}, Lcom/appsflyer/internal/d;->b(Landroid/os/Message;)V
+    # invoke-static {p1}, Lcom/appsflyer/internal/d;->b(Landroid/os/Message;)V
 
     :cond_0
     const-wide/16 v2, 0x0
