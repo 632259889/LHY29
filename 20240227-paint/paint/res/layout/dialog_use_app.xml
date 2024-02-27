@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/dialog_use_app_0" android:background="@drawable/bg_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/llBtnClose" android:padding="@dimen/padding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_parent" android:layout_marginStart="@dimen/margin_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/imgBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_cancel_dialog_ads" />
+    </LinearLayout>
+    <me.relex.circleindicator.CircleIndicator3 android:layout_gravity="center" android:id="@id/ciDialogUseApp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ci_animator="@anim/unscale" app:ci_animator_reverse="@anim/unscale" app:ci_drawable="@drawable/indicator_active" app:ci_drawable_unselected="@drawable/indicator_inactive" app:ci_height="12.0dip" app:ci_width="12.0dip" app:layout_constraintBottom_toBottomOf="@id/llBtnClose" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/llBtnClose" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/vpUseApp" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/margin_20dp" android:layout_marginBottom="@dimen/margin_24dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ciDialogUseApp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

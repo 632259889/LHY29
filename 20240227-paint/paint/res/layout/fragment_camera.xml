@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/camera_container" android:tag="layout/fragment_camera_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.camera.view.PreviewView android:id="@id/view_finder" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/captureScreen" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    </androidx.camera.view.PreviewView>
+    <LinearLayout android:gravity="center" android:id="@id/llCam" android:padding="@dimen/margin_child" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_48dp" android:layout_marginEnd="@dimen/margin_48dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/camera_switch_button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_switch_cam_off" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/llClose" android:padding="@dimen/margin_child" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_48dp" android:layout_marginStart="@dimen/margin_48dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/imgCamClose" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_close_toolbar" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/llFlash" android:padding="@dimen/margin_child" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_48dp" app:layout_constraintEnd_toStartOf="@id/llCam" app:layout_constraintStart_toEndOf="@id/llClose" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/imgCamFlash" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_flash_off" />
+    </LinearLayout>
+    <ImageButton android:id="@id/camera_capture_button" android:background="@drawable/ic_shutter" android:layout_width="@dimen/round_button_large" android:layout_height="@dimen/round_button_large" android:layout_marginBottom="@dimen/margin_48dp" android:scaleType="fitCenter" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

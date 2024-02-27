@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/layout_bottom_sheet_choose_img_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/imv_rect" android:background="@drawable/bg_rect_btn_choose_image" android:layout_width="@dimen/_36sdp" android:layout_height="@dimen/_4sdp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_duration" android:paddingLeft="@dimen/_15sdp" android:paddingRight="@dimen/_15sdp" android:paddingBottom="@dimen/_25sdp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:paddingHorizontal="@dimen/_15sdp" app:layout_constraintTop_toBottomOf="@id/imv_rect">
+        <LinearLayout android:orientation="vertical" android:id="@id/ln_gallery" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/_5sdp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="@dimen/_160sdp" android:src="@drawable/img_gallery" />
+            <TextView android:textSize="@dimen/_12sdp" android:textColor="@color/black" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/from_gallery" android:fontFamily="@font/be_vietnam_pro_medium" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ln_camera" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/_5sdp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="@dimen/_160sdp" android:src="@drawable/img_camera" />
+            <TextView android:textSize="@dimen/_12sdp" android:textColor="@color/black" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/from_camera" android:fontFamily="@font/be_vietnam_pro_medium" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

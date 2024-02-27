@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/activity_language_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/linear_language" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/toolbar_language" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize">
+            <TextView android:textSize="16.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/language" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+            <ImageView android:id="@id/iv_done" android:padding="4.0dip" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="14.0dip" android:src="@drawable/ic_done_language" android:layout_centerVertical="true" android:onClick="ivDone" android:layout_alignParentEnd="true" app:tint="@color/black" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rcl_language" android:paddingTop="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/relay_ads" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            <RelativeLayout android:id="@id/relay_ads" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <FrameLayout android:orientation="vertical" android:id="@id/fr_ads" android:tag="binding_1" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/ads_shimmer_native_large" />
+                </FrameLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

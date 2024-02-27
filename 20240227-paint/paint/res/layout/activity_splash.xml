@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/activity_splash_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <egolabsapps.basicodemine.videolayout.VideoLayout android:layout_gravity="center" android:id="@id/videoLayout" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:loop="true" app:path_or_url="splash_ar.mp4" app:sound="true" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_width="100.0dip" android:layout_height="100.0dip" app:layout_constraintBottom_toTopOf="@id/txtAds" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/loading_blue3" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/txtAds" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:text="Ads are about to be shown..." app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

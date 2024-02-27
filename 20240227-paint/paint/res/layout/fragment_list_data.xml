@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/ctRoot" android:tag="layout/fragment_list_data_0" android:background="@color/color_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/llToolbar" android:layout_width="0.0dip" android:layout_height="@dimen/size_toolbar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:layout_gravity="center" android:id="@id/llBtnBack" android:padding="@dimen/padding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_parent">
+            <ImageView android:id="@id/imgBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_xlarge" android:textColor="@color/black" android:layout_gravity="center" android:id="@id/tvNamePack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_parent" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/llNative" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_parent" android:layout_marginStart="@dimen/margin_parent" android:layout_marginEnd="@dimen/margin_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/llToolbar">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lnAds" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rcData" android:paddingBottom="@dimen/padding_bottom_recyclerview" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/margin_child" android:layout_marginStart="@dimen/margin_child" android:layout_marginEnd="@dimen/margin_child" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/llNative" app:spanCount="3" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llNoImage" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/imgNoImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_no_image" />
+        <TextView android:textSize="@dimen/text_size_xtiny" android:textColor="@color/gray_9B9B9B" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="@string/no_photo" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

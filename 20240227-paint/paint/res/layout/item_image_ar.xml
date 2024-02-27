@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rlRoot" android:tag="layout/item_image_ar_0" android:background="@drawable/shape_background_item_filter" android:layout_width="@dimen/_80sdp" android:layout_height="@dimen/_80sdp" android:layout_marginStart="@dimen/_5sdp" android:layout_marginEnd="@dimen/margin_child"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgThumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:scaleType="fitXY" />
+    <ImageView android:id="@id/imgNone" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_none_data" android:layout_centerInParent="true" />
+    <FrameLayout android:id="@id/flDownload" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/imgDownload" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/icon_item_download" />
+        <ImageView android:layout_gravity="end" android:id="@id/imgVip" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/margin_4dp" android:src="@drawable/icon_item_vip" android:layout_marginEnd="@dimen/margin_4dp" />
+    </FrameLayout>
+</RelativeLayout>

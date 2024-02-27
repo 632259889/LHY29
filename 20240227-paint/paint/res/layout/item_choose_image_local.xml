@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/item_choose_image_local_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_5sdp" android:foreground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="@dimen/_85sdp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/_8sdp" app:cardElevation="0.0dip">
+        <ImageView android:id="@id/imv_item_choose_image_local__image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <View android:id="@id/item_choose_image_local__selected" android:background="@color/tranparent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

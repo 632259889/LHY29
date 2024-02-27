@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/activity_guide_0" android:background="@drawable/bg_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="50.0dip" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="16.0sp" android:textColor="@color/color_303030" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tutorial" android:layout_centerInParent="true" android:fontFamily="@font/helvetica_neue_bold" />
+        <ImageView android:id="@id/iv_done" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_done" android:layout_centerVertical="true" android:onClick="ivDone" />
+    </RelativeLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/_10sdp" app:layout_constraintBottom_toTopOf="@id/ll_circle" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_circle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_12sdp" android:layout_marginRight="@dimen/_12sdp" android:layout_marginBottom="@dimen/_12sdp" android:layout_alignParentBottom="true" app:layout_constraintBottom_toTopOf="@id/fr_banner">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/view_1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_view_select_tutorial" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/view_2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/_5sdp" android:layout_marginRight="@dimen/_5sdp" android:src="@drawable/ic_view_un_select" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/fr_banner" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+        <include android:id="@id/include" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_banner_control" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

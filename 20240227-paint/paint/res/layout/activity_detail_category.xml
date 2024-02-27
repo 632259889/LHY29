@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/activity_detail_category_0" android:background="@color/color_bg_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/llToolbar" android:background="@drawable/bg_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/iv_back" android:padding="@dimen/_12sdp" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:src="@drawable/ic_back" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/color_343944" android:layout_gravity="center_vertical" android:id="@id/tv_category" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:fontFamily="@font/be_vietnam_pro_semi_bold" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rcv_data" android:paddingBottom="@dimen/padding_bottom_recyclerview" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/margin_parent" android:layout_marginStart="@dimen/margin_child" android:layout_marginEnd="@dimen/margin_child" app:layout_constraintBottom_toTopOf="@id/fr_banner" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/llToolbar" />
+    <FrameLayout android:id="@id/fr_banner" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+        <include android:id="@id/include" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_banner_control" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

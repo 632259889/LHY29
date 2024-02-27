@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/item_on_boarding_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_guide" android:padding="@dimen/_25sdp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_20sdp" android:layout_marginBottom="@dimen/_20sdp" android:scaleType="fitCenter" android:layout_above="@id/tv_title" android:layout_alignParentTop="true" />
+    <TextView android:textSize="22.0sp" android:textColor="#ffff825c" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/tv_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_25sdp" android:layout_marginRight="@dimen/_25sdp" android:layout_marginBottom="@dimen/_15sdp" android:text="Title" android:maxLines="2" android:layout_above="@id/tv_sub_text" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/tv_sub_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_20sdp" android:layout_marginRight="@dimen/_20sdp" android:layout_marginBottom="@dimen/_30sdp" android:text="SubTitle" android:maxLines="3" android:layout_alignParentBottom="true" android:fontFamily="@font/be_vietnam_pro_semi_bold" />
+</RelativeLayout>

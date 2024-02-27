@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/ctRoot" android:tag="layout/activity_sketch_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.camera.view.PreviewView android:id="@id/previewView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.xiaopo.flying.sticker.StickerView android:id="@id/stkSketch" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:gravity="center" android:id="@id/rlShowCaseObject" android:layout_width="200.0dip" android:layout_height="200.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.airbnb.lottie.LottieAnimationView android:layout_width="fill_parent" android:layout_height="fill_parent" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/zoom_object" />
+    </RelativeLayout>
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/loading_animation" android:layout_width="wrap_content" android:layout_height="@dimen/_60sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/loading3" />
+    <RelativeLayout android:id="@id/llToolbar" android:background="@drawable/bg_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/imgBack" android:padding="@dimen/_12sdp" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:src="@drawable/ic_back" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/color_343944" android:id="@id/tvTypeDraw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sketch" android:layout_centerInParent="true" android:fontFamily="@font/be_vietnam_pro_semi_bold" />
+        <ImageView android:id="@id/imgGuide" android:padding="@dimen/_12sdp" android:layout_width="?actionBarSize" android:layout_height="?actionBarSize" android:src="@drawable/ic_guide" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvTimer" android:background="@drawable/background_time_record" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:visibility="gone" android:layout_width="@dimen/_50sdp" android:layout_height="wrap_content" android:text="00:33" android:paddingVertical="6.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/llToolbar" />
+    <LinearLayout android:id="@id/llBottomLayout" android:tag="binding_1" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/fr_banner" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <include android:id="@id/layoutBottomSheetEdit" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dialog_bottom_sheet_sketch" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/fr_banner" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+        <include android:id="@id/include" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_banner_control" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
