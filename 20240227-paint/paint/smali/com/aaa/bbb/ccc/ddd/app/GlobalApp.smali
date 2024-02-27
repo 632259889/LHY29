@@ -1580,7 +1580,7 @@
     .line 177
     .line 178
     .line 179
-    new-instance v6, Lcom/adjust/sdk/AdjustConfig;
+    # new-instance v6, Lcom/adjust/sdk/AdjustConfig;
 
     .line 180
     .line 181
@@ -1592,21 +1592,21 @@
 
     .line 184
     .line 185
-    invoke-direct {v6, v7, v5, v4}, Lcom/adjust/sdk/AdjustConfig;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-direct {v6, v7, v5, v4}, Lcom/adjust/sdk/AdjustConfig;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 186
     .line 187
     .line 188
-    sget-object v4, Lcom/adjust/sdk/LogLevel;->VERBOSE:Lcom/adjust/sdk/LogLevel;
+    # sget-object v4, Lcom/adjust/sdk/LogLevel;->VERBOSE:Lcom/adjust/sdk/LogLevel;
 
     .line 189
     .line 190
-    invoke-virtual {v6, v4}, Lcom/adjust/sdk/AdjustConfig;->setLogLevel(Lcom/adjust/sdk/LogLevel;)V
+    # invoke-virtual {v6, v4}, Lcom/adjust/sdk/AdjustConfig;->setLogLevel(Lcom/adjust/sdk/LogLevel;)V
 
     .line 191
     .line 192
     .line 193
-    invoke-virtual {v6, v2}, Lcom/adjust/sdk/AdjustConfig;->setPreinstallTrackingEnabled(Z)V
+    # invoke-virtual {v6, v2}, Lcom/adjust/sdk/AdjustConfig;->setPreinstallTrackingEnabled(Z)V
 
     .line 194
     .line 195
@@ -1620,7 +1620,7 @@
     .line 199
     .line 200
     .line 201
-    invoke-virtual {v6, v4}, Lcom/adjust/sdk/AdjustConfig;->setOnAttributionChangedListener(Lcom/adjust/sdk/OnAttributionChangedListener;)V
+    # invoke-virtual {v6, v4}, Lcom/adjust/sdk/AdjustConfig;->setOnAttributionChangedListener(Lcom/adjust/sdk/OnAttributionChangedListener;)V
 
     .line 202
     .line 203
@@ -1634,7 +1634,7 @@
     .line 207
     .line 208
     .line 209
-    invoke-virtual {v6, v4}, Lcom/adjust/sdk/AdjustConfig;->setOnEventTrackingSucceededListener(Lcom/adjust/sdk/OnEventTrackingSucceededListener;)V
+    # invoke-virtual {v6, v4}, Lcom/adjust/sdk/AdjustConfig;->setOnEventTrackingSucceededListener(Lcom/adjust/sdk/OnEventTrackingSucceededListener;)V
 
     .line 210
     .line 211
@@ -1648,7 +1648,7 @@
     .line 215
     .line 216
     .line 217
-    invoke-virtual {v6, v4}, Lcom/adjust/sdk/AdjustConfig;->setOnEventTrackingFailedListener(Lcom/adjust/sdk/OnEventTrackingFailedListener;)V
+    # invoke-virtual {v6, v4}, Lcom/adjust/sdk/AdjustConfig;->setOnEventTrackingFailedListener(Lcom/adjust/sdk/OnEventTrackingFailedListener;)V
 
     .line 218
     .line 219
@@ -1662,7 +1662,7 @@
     .line 223
     .line 224
     .line 225
-    invoke-virtual {v6, v4}, Lcom/adjust/sdk/AdjustConfig;->setOnSessionTrackingSucceededListener(Lcom/adjust/sdk/OnSessionTrackingSucceededListener;)V
+    # invoke-virtual {v6, v4}, Lcom/adjust/sdk/AdjustConfig;->setOnSessionTrackingSucceededListener(Lcom/adjust/sdk/OnSessionTrackingSucceededListener;)V
 
     .line 226
     .line 227
@@ -1676,17 +1676,17 @@
     .line 231
     .line 232
     .line 233
-    invoke-virtual {v6, v4}, Lcom/adjust/sdk/AdjustConfig;->setOnSessionTrackingFailedListener(Lcom/adjust/sdk/OnSessionTrackingFailedListener;)V
+    # invoke-virtual {v6, v4}, Lcom/adjust/sdk/AdjustConfig;->setOnSessionTrackingFailedListener(Lcom/adjust/sdk/OnSessionTrackingFailedListener;)V
 
     .line 234
     .line 235
     .line 236
-    invoke-virtual {v6, v2}, Lcom/adjust/sdk/AdjustConfig;->setSendInBackground(Z)V
+    # invoke-virtual {v6, v2}, Lcom/adjust/sdk/AdjustConfig;->setSendInBackground(Z)V
 
     .line 237
     .line 238
     .line 239
-    invoke-static {v6}, Lcom/adjust/sdk/Adjust;->onCreate(Lcom/adjust/sdk/AdjustConfig;)V
+    # invoke-static {v6}, Lcom/adjust/sdk/Adjust;->onCreate(Lcom/adjust/sdk/AdjustConfig;)V
 
     .line 240
     .line 241

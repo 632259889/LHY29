@@ -43,7 +43,7 @@
 .method public final onActivityPaused(Landroid/app/Activity;)V
     .locals 0
 
-    invoke-static {}, Lcom/adjust/sdk/Adjust;->onPause()V
+    # invoke-static {}, Lcom/adjust/sdk/Adjust;->onPause()V
 
     return-void
 .end method
@@ -51,7 +51,7 @@
 .method public final onActivityResumed(Landroid/app/Activity;)V
     .locals 0
 
-    invoke-static {}, Lcom/adjust/sdk/Adjust;->onResume()V
+    # invoke-static {}, Lcom/adjust/sdk/Adjust;->onResume()V
 
     return-void
 .end method
