@@ -4,9 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Li4/j;->d(Landroid/app/Activity;Ljava/lang/String;ILa4/a1;)V
-.end annotation
+# .annotation system Ldalvik/annotation/EnclosingMethod;
+#     value = Li4/j;->d(Landroid/app/Activity;Ljava/lang/String;ILa4/a1;)V
+# .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x1

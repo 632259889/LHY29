@@ -24,9 +24,9 @@
 
 .field public h:Landroid/content/Context;
 
-.field public i:Lcom/applovin/mediation/ads/MaxInterstitialAd;
-
-.field public j:Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
+# .field public i:Lcom/applovin/mediation/ads/MaxInterstitialAd;
+#
+# .field public j:Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
 
 .field public k:Z
 
@@ -280,7 +280,7 @@
     .line 40
     .line 41
     .line 42
-    invoke-virtual {v2, v3}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->setRevenueListener(Lcom/applovin/mediation/MaxAdRevenueListener;)V
+    # invoke-virtual {v2, v3}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->setRevenueListener(Lcom/applovin/mediation/MaxAdRevenueListener;)V
 
     .line 43
     .line 44

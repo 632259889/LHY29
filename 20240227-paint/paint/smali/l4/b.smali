@@ -48,9 +48,10 @@
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {v1}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->isReady()Z
+    # invoke-virtual {v1}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->isReady()Z
 
-    move-result v1
+    # move-result v1
+    const/4 v1,0x1
 
     if-eqz v1, :cond_1
 
