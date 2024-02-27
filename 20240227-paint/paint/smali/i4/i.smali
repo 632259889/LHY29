@@ -70,7 +70,7 @@
 
     .line 14
     .line 15
-    iget-object v0, v0, Lj4/b;->d:Lcom/applovin/mediation/ads/MaxInterstitialAd;
+    # iget-object v0, v0, Lj4/b;->d:Lcom/applovin/mediation/ads/MaxInterstitialAd;
 
     .line 16
     .line 17
@@ -108,7 +108,7 @@
 
     .line 11
     .line 12
-    iget-object p1, p1, Lj4/b;->d:Lcom/applovin/mediation/ads/MaxInterstitialAd;
+    # iget-object p1, p1, Lj4/b;->d:Lcom/applovin/mediation/ads/MaxInterstitialAd;
 
     .line 13
     .line 14

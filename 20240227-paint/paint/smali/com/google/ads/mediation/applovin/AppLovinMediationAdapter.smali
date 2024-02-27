@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/google/android/gms/ads/mediation/MediationRewardedAd;
-.implements Lcom/applovin/sdk/AppLovinAdLoadListener;
+# .implements Lcom/applovin/sdk/AppLovinAdLoadListener;
 
 
 # static fields
@@ -31,7 +31,7 @@
         value = {
             "Ljava/util/HashMap<",
             "Ljava/lang/String;",
-            "Lcom/applovin/adview/AppLovinIncentivizedInterstitial;",
+            # "Lcom/applovin/adview/AppLovinIncentivizedInterstitial;",
             ">;"
         }
     .end annotation
@@ -39,17 +39,17 @@
 
 .field private static final INCENTIVIZED_ADS_LOCK:Ljava/lang/Object;
 
-.field public static appLovinSdkSettings:Lcom/applovin/sdk/AppLovinSdkSettings; = null
+# .field public static appLovinSdkSettings:Lcom/applovin/sdk/AppLovinSdkSettings; = null
 
 .field private static isRtbAd:Z = true
 
 
 # instance fields
-.field private ad:Lcom/applovin/sdk/AppLovinAd;
+# .field private ad:Lcom/applovin/sdk/AppLovinAd;
 
 .field private adConfiguration:Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;
 
-.field private incentivizedInterstitial:Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
+# .field private incentivizedInterstitial:Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
 
 .field private mediationAdLoadCallback:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
     .annotation system Ldalvik/annotation/Signature;
@@ -66,11 +66,11 @@
 
 .field private rewardedAdCallback:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
 
-.field private rtbBannerRenderer:Lcom/applovin/mediation/rtb/AppLovinRtbBannerRenderer;
-
-.field private rtbInterstitialRenderer:Lcom/applovin/mediation/rtb/AppLovinRtbInterstitialRenderer;
-
-.field private sdk:Lcom/applovin/sdk/AppLovinSdk;
+# .field private rtbBannerRenderer:Lcom/applovin/mediation/rtb/AppLovinRtbBannerRenderer;
+#
+# .field private rtbInterstitialRenderer:Lcom/applovin/mediation/rtb/AppLovinRtbInterstitialRenderer;
+#
+# .field private sdk:Lcom/applovin/sdk/AppLovinSdk;
 
 .field private zoneId:Ljava/lang/String;
 
@@ -118,21 +118,21 @@
     return-object p1
 .end method
 
-.method public static synthetic access$100(Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;)Lcom/applovin/sdk/AppLovinSdk;
-    .locals 0
-
-    iget-object p0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->sdk:Lcom/applovin/sdk/AppLovinSdk;
-
-    return-object p0
-.end method
-
-.method public static synthetic access$102(Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;Lcom/applovin/sdk/AppLovinSdk;)Lcom/applovin/sdk/AppLovinSdk;
-    .locals 0
-
-    iput-object p1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->sdk:Lcom/applovin/sdk/AppLovinSdk;
-
-    return-object p1
-.end method
+# .method public static synthetic access$100(Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;)Lcom/applovin/sdk/AppLovinSdk;
+#     .locals 0
+#
+#     iget-object p0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->sdk:Lcom/applovin/sdk/AppLovinSdk;
+#
+#     return-object p0
+# .end method
+#
+# .method public static synthetic access$102(Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;Lcom/applovin/sdk/AppLovinSdk;)Lcom/applovin/sdk/AppLovinSdk;
+#     .locals 0
+#
+#     iput-object p1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->sdk:Lcom/applovin/sdk/AppLovinSdk;
+#
+#     return-object p1
+# .end method
 
 .method public static synthetic access$202(Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;Landroid/os/Bundle;)Landroid/os/Bundle;
     .locals 0
@@ -166,21 +166,21 @@
     return-object p1
 .end method
 
-.method public static synthetic access$500(Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;)Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
-    .locals 0
-
-    iget-object p0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->incentivizedInterstitial:Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
-
-    return-object p0
-.end method
-
-.method public static synthetic access$502(Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;Lcom/applovin/adview/AppLovinIncentivizedInterstitial;)Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
-    .locals 0
-
-    iput-object p1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->incentivizedInterstitial:Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
-
-    return-object p1
-.end method
+# .method public static synthetic access$500(Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;)Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
+#     .locals 0
+#
+#     iget-object p0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->incentivizedInterstitial:Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
+#
+#     return-object p0
+# .end method
+#
+# .method public static synthetic access$502(Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;Lcom/applovin/adview/AppLovinIncentivizedInterstitial;)Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
+#     .locals 0
+#
+#     iput-object p1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->incentivizedInterstitial:Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
+#
+#     return-object p1
+# .end method
 
 .method public static synthetic access$602(Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;)Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
     .locals 0
@@ -190,62 +190,62 @@
     return-object p1
 .end method
 
-.method public static getSdkSettings(Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdkSettings;
-    .locals 1
-
-    sget-object v0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->appLovinSdkSettings:Lcom/applovin/sdk/AppLovinSdkSettings;
-
-    if-nez v0, :cond_0
-
-    new-instance v0, Lcom/applovin/sdk/AppLovinSdkSettings;
-
-    invoke-direct {v0, p0}, Lcom/applovin/sdk/AppLovinSdkSettings;-><init>(Landroid/content/Context;)V
-
-    sput-object v0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->appLovinSdkSettings:Lcom/applovin/sdk/AppLovinSdkSettings;
-
-    :cond_0
-    sget-object p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->appLovinSdkSettings:Lcom/applovin/sdk/AppLovinSdkSettings;
-
-    return-object p0
-.end method
+# .method public static getSdkSettings(Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdkSettings;
+#     .locals 1
+#
+#     sget-object v0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->appLovinSdkSettings:Lcom/applovin/sdk/AppLovinSdkSettings;
+#
+#     if-nez v0, :cond_0
+#
+#     new-instance v0, Lcom/applovin/sdk/AppLovinSdkSettings;
+#
+#     invoke-direct {v0, p0}, Lcom/applovin/sdk/AppLovinSdkSettings;-><init>(Landroid/content/Context;)V
+#
+#     sput-object v0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->appLovinSdkSettings:Lcom/applovin/sdk/AppLovinSdkSettings;
+#
+#     :cond_0
+#     sget-object p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->appLovinSdkSettings:Lcom/applovin/sdk/AppLovinSdkSettings;
+#
+#     return-object p0
+# .end method
 
 
 # virtual methods
-.method public adReceived(Lcom/applovin/sdk/AppLovinAd;)V
-    .locals 2
-
-    iput-object p1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->ad:Lcom/applovin/sdk/AppLovinAd;
-
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    const-string v0, "Rewarded video did load ad: "
-
-    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    iget-object v0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->ad:Lcom/applovin/sdk/AppLovinAd;
-
-    invoke-interface {v0}, Lcom/applovin/sdk/AppLovinAd;->getAdIdNumber()J
-
-    move-result-wide v0
-
-    invoke-virtual {p1, v0, v1}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string v0, "INFO"
-
-    invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    new-instance p1, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter$c;
-
-    invoke-direct {p1, p0}, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter$c;-><init>(Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;)V
-
-    invoke-static {p1}, Lcom/applovin/sdk/AppLovinSdkUtils;->runOnUiThread(Ljava/lang/Runnable;)V
-
-    return-void
-.end method
+# .method public adReceived(Lcom/applovin/sdk/AppLovinAd;)V
+#     .locals 2
+#
+#     iput-object p1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->ad:Lcom/applovin/sdk/AppLovinAd;
+#
+#     new-instance p1, Ljava/lang/StringBuilder;
+#
+#     const-string v0, "Rewarded video did load ad: "
+#
+#     invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+#
+#     iget-object v0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->ad:Lcom/applovin/sdk/AppLovinAd;
+#
+#     invoke-interface {v0}, Lcom/applovin/sdk/AppLovinAd;->getAdIdNumber()J
+#
+#     move-result-wide v0
+#
+#     invoke-virtual {p1, v0, v1}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+#
+#     invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     const-string v0, "INFO"
+#
+#     invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     new-instance p1, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter$c;
+#
+#     invoke-direct {p1, p0}, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter$c;-><init>(Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;)V
+#
+#     invoke-static {p1}, Lcom/applovin/sdk/AppLovinSdkUtils;->runOnUiThread(Ljava/lang/Runnable;)V
+#
+#     return-void
+# .end method
 
 .method public collectSignals(Lcom/google/android/gms/ads/mediation/rtb/RtbSignalData;Lcom/google/android/gms/ads/mediation/rtb/SignalCallbacks;)V
     .locals 5
@@ -278,7 +278,7 @@
 
     move-result-object v0
 
-    invoke-static {v3, v0}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
+    # invoke-static {v3, v0}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
 
     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/rtb/SignalCallbacks;->onFailure(Lcom/google/android/gms/ads/AdError;)V
 
@@ -303,31 +303,32 @@
 
     const/4 v2, 0x4
 
-    invoke-static {v2, v1}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
+    # invoke-static {v2, v1}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
 
     invoke-virtual {v0}, Lcom/google/android/gms/ads/mediation/MediationConfiguration;->getServerParameters()Landroid/os/Bundle;
 
-    move-result-object v0
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/mediation/rtb/RtbSignalData;->getContext()Landroid/content/Context;
-
-    move-result-object p1
-
-    invoke-static {v0, p1}, Lcom/applovin/mediation/AppLovinUtils;->retrieveSdk(Landroid/os/Bundle;Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdk;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Lcom/applovin/sdk/AppLovinSdk;->getAdService()Lcom/applovin/sdk/AppLovinAdService;
-
-    move-result-object p1
-
-    invoke-interface {p1}, Lcom/applovin/sdk/AppLovinAdService;->getBidToken()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
+    # move-result-object v0
+    #
+    # invoke-virtual {p1}, Lcom/google/android/gms/ads/mediation/rtb/RtbSignalData;->getContext()Landroid/content/Context;
+    #
+    # move-result-object p1
+    #
+    # invoke-static {v0, p1}, Lcom/applovin/mediation/AppLovinUtils;->retrieveSdk(Landroid/os/Bundle;Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdk;
+    #
+    # move-result-object p1
+    #
+    # invoke-virtual {p1}, Lcom/applovin/sdk/AppLovinSdk;->getAdService()Lcom/applovin/sdk/AppLovinAdService;
+    #
+    # move-result-object p1
+    #
+    # invoke-interface {p1}, Lcom/applovin/sdk/AppLovinAdService;->getBidToken()Ljava/lang/String;
+    #
+    # move-result-object p1
+    #
+    # invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    #
+    # move-result v0
+    const/4 v0,0x1
 
     if-nez v0, :cond_1
 
@@ -343,9 +344,9 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
+    # invoke-static {v2, v0}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
 
-    invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/rtb/SignalCallbacks;->onSuccess(Ljava/lang/String;)V
+    # invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/rtb/SignalCallbacks;->onSuccess(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -362,7 +363,7 @@
 
     move-result-object v0
 
-    invoke-static {v3, v0}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
+    # invoke-static {v3, v0}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
 
     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/rtb/SignalCallbacks;->onFailure(Lcom/google/android/gms/ads/AdError;)V
 
@@ -388,7 +389,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter$d;-><init>(Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;I)V
 
-    invoke-static {v0}, Lcom/applovin/sdk/AppLovinSdkUtils;->runOnUiThread(Ljava/lang/Runnable;)V
+    # invoke-static {v0}, Lcom/applovin/sdk/AppLovinSdkUtils;->runOnUiThread(Ljava/lang/Runnable;)V
 
     return-void
 .end method
@@ -396,68 +397,68 @@
 .method public getSDKVersionInfo()Lcom/google/android/gms/ads/mediation/VersionInfo;
     .locals 6
 
-    sget-object v0, Lcom/applovin/sdk/AppLovinSdk;->VERSION:Ljava/lang/String;
-
-    const-string v1, "\\."
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
-
-    move-result-object v1
-
-    array-length v2, v1
-
-    const/4 v3, 0x3
-
-    const/4 v4, 0x1
-
-    const/4 v5, 0x0
-
-    if-lt v2, v3, :cond_0
-
-    aget-object v0, v1, v5
-
-    invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
-
-    move-result v0
-
-    aget-object v2, v1, v4
-
-    invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
-
-    move-result v2
-
-    const/4 v3, 0x2
-
-    aget-object v1, v1, v3
-
-    invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
-
-    move-result v1
-
-    new-instance v3, Lcom/google/android/gms/ads/mediation/VersionInfo;
-
-    invoke-direct {v3, v0, v2, v1}, Lcom/google/android/gms/ads/mediation/VersionInfo;-><init>(III)V
-
-    return-object v3
-
-    :cond_0
-    new-array v1, v4, [Ljava/lang/Object;
-
-    aput-object v0, v1, v5
-
-    const-string v0, "Unexpected SDK version format: %s. Returning 0.0.0 for SDK version."
-
-    invoke-static {v0, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v0
-
-    const/4 v1, 0x5
-
-    invoke-static {v1, v0}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
-
-    new-instance v0, Lcom/google/android/gms/ads/mediation/VersionInfo;
-
-    invoke-direct {v0, v5, v5, v5}, Lcom/google/android/gms/ads/mediation/VersionInfo;-><init>(III)V
+    # sget-object v0, Lcom/applovin/sdk/AppLovinSdk;->VERSION:Ljava/lang/String;
+    #
+    # const-string v1, "\\."
+    #
+    # invoke-virtual {v0, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    #
+    # move-result-object v1
+    #
+    # array-length v2, v1
+    #
+    # const/4 v3, 0x3
+    #
+    # const/4 v4, 0x1
+    #
+    # const/4 v5, 0x0
+    #
+    # if-lt v2, v3, :cond_0
+    #
+    # aget-object v0, v1, v5
+    #
+    # invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    #
+    # move-result v0
+    #
+    # aget-object v2, v1, v4
+    #
+    # invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    #
+    # move-result v2
+    #
+    # const/4 v3, 0x2
+    #
+    # aget-object v1, v1, v3
+    #
+    # invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    #
+    # move-result v1
+    #
+    # new-instance v3, Lcom/google/android/gms/ads/mediation/VersionInfo;
+    #
+    # invoke-direct {v3, v0, v2, v1}, Lcom/google/android/gms/ads/mediation/VersionInfo;-><init>(III)V
+    #
+    # return-object v3
+    #
+    # :cond_0
+    # new-array v1, v4, [Ljava/lang/Object;
+    #
+    # aput-object v0, v1, v5
+    #
+    # const-string v0, "Unexpected SDK version format: %s. Returning 0.0.0 for SDK version."
+    #
+    # invoke-static {v0, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    #
+    # move-result-object v0
+    #
+    # const/4 v1, 0x5
+    #
+    # invoke-static {v1, v0}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
+    #
+    # new-instance v0, Lcom/google/android/gms/ads/mediation/VersionInfo;
+    #
+    # invoke-direct {v0, v5, v5, v5}, Lcom/google/android/gms/ads/mediation/VersionInfo;-><init>(III)V
 
     return-object v0
 .end method
@@ -534,7 +535,7 @@
 
     const/4 v1, 0x5
 
-    invoke-static {v1, v0}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
+    # invoke-static {v1, v0}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
 
     new-instance v0, Lcom/google/android/gms/ads/mediation/VersionInfo;
 
@@ -601,14 +602,14 @@
     :cond_1
     const/4 p3, 0x0
 
-    invoke-static {p1, p3}, Lcom/applovin/mediation/AppLovinUtils;->retrieveSdkKey(Landroid/content/Context;Landroid/os/Bundle;)Ljava/lang/String;
+    # invoke-static {p1, p3}, Lcom/applovin/mediation/AppLovinUtils;->retrieveSdkKey(Landroid/content/Context;Landroid/os/Bundle;)Ljava/lang/String;
+    #
+    # move-result-object p3
+    #
+    # invoke-static {p3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    move-result-object p3
-
-    invoke-static {p3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v1
-
+    # move-result v1
+    const/4 p1, 0x1
     if-nez v1, :cond_2
 
     invoke-virtual {v0, p3}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
@@ -636,7 +637,7 @@
 
     move-result-object v0
 
-    invoke-static {p3, v0}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
+    # invoke-static {p3, v0}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->getMessage()Ljava/lang/String;
 
@@ -697,13 +698,13 @@
         }
     .end annotation
 
-    new-instance v0, Lcom/applovin/mediation/rtb/AppLovinRtbBannerRenderer;
-
-    invoke-direct {v0, p1, p2}, Lcom/applovin/mediation/rtb/AppLovinRtbBannerRenderer;-><init>(Lcom/google/android/gms/ads/mediation/MediationBannerAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
-
-    iput-object v0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->rtbBannerRenderer:Lcom/applovin/mediation/rtb/AppLovinRtbBannerRenderer;
-
-    invoke-virtual {v0}, Lcom/applovin/mediation/rtb/AppLovinRtbBannerRenderer;->loadAd()V
+    # new-instance v0, Lcom/applovin/mediation/rtb/AppLovinRtbBannerRenderer;
+    #
+    # invoke-direct {v0, p1, p2}, Lcom/applovin/mediation/rtb/AppLovinRtbBannerRenderer;-><init>(Lcom/google/android/gms/ads/mediation/MediationBannerAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
+    #
+    # iput-object v0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->rtbBannerRenderer:Lcom/applovin/mediation/rtb/AppLovinRtbBannerRenderer;
+    #
+    # invoke-virtual {v0}, Lcom/applovin/mediation/rtb/AppLovinRtbBannerRenderer;->loadAd()V
 
     return-void
 .end method
@@ -721,13 +722,13 @@
         }
     .end annotation
 
-    new-instance v0, Lcom/applovin/mediation/rtb/AppLovinRtbInterstitialRenderer;
-
-    invoke-direct {v0, p1, p2}, Lcom/applovin/mediation/rtb/AppLovinRtbInterstitialRenderer;-><init>(Lcom/google/android/gms/ads/mediation/MediationInterstitialAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
-
-    iput-object v0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->rtbInterstitialRenderer:Lcom/applovin/mediation/rtb/AppLovinRtbInterstitialRenderer;
-
-    invoke-virtual {v0}, Lcom/applovin/mediation/rtb/AppLovinRtbInterstitialRenderer;->loadAd()V
+    # new-instance v0, Lcom/applovin/mediation/rtb/AppLovinRtbInterstitialRenderer;
+    #
+    # invoke-direct {v0, p1, p2}, Lcom/applovin/mediation/rtb/AppLovinRtbInterstitialRenderer;-><init>(Lcom/google/android/gms/ads/mediation/MediationInterstitialAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
+    #
+    # iput-object v0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->rtbInterstitialRenderer:Lcom/applovin/mediation/rtb/AppLovinRtbInterstitialRenderer;
+    #
+    # invoke-virtual {v0}, Lcom/applovin/mediation/rtb/AppLovinRtbInterstitialRenderer;->loadAd()V
 
     return-void
 .end method
@@ -783,13 +784,14 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/applovin/mediation/AppLovinUtils;->retrieveSdkKey(Landroid/content/Context;Landroid/os/Bundle;)Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v3
+    # invoke-static {v0, v1}, Lcom/applovin/mediation/AppLovinUtils;->retrieveSdkKey(Landroid/content/Context;Landroid/os/Bundle;)Ljava/lang/String;
+    #
+    # move-result-object v2
+    #
+    # invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    #
+    # move-result v3
+    const/4 v3,0x1
 
     if-eqz v3, :cond_1
 
@@ -809,7 +811,7 @@
 
     const/4 v2, 0x6
 
-    invoke-static {v2, v1}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
+    # invoke-static {v2, v1}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
 
     invoke-interface {p2, v0}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
 
@@ -832,9 +834,9 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    iget-object p1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->incentivizedInterstitial:Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
-
-    invoke-virtual {p1, p0}, Lcom/applovin/adview/AppLovinIncentivizedInterstitial;->preload(Lcom/applovin/sdk/AppLovinAdLoadListener;)V
+    # iget-object p1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->incentivizedInterstitial:Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
+    #
+    # invoke-virtual {p1, p0}, Lcom/applovin/adview/AppLovinIncentivizedInterstitial;->preload(Lcom/applovin/sdk/AppLovinAdLoadListener;)V
 
     goto :goto_0
 
@@ -863,33 +865,33 @@
 
     invoke-virtual {p1}, Lcom/google/android/gms/ads/mediation/MediationAdConfiguration;->getServerParameters()Landroid/os/Bundle;
 
-    move-result-object p1
-
-    invoke-static {p1, v0}, Lcom/applovin/mediation/AppLovinUtils;->retrieveSdk(Landroid/os/Bundle;Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdk;
-
-    move-result-object p1
-
-    iput-object p1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->sdk:Lcom/applovin/sdk/AppLovinSdk;
-
-    invoke-static {p1}, Lcom/applovin/adview/AppLovinIncentivizedInterstitial;->create(Lcom/applovin/sdk/AppLovinSdk;)Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
-
-    move-result-object p1
-
-    iput-object p1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->incentivizedInterstitial:Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
-
-    iget-object p1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->sdk:Lcom/applovin/sdk/AppLovinSdk;
-
-    invoke-virtual {p1}, Lcom/applovin/sdk/AppLovinSdk;->getAdService()Lcom/applovin/sdk/AppLovinAdService;
-
-    move-result-object p1
-
-    iget-object p2, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->adConfiguration:Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;
-
-    invoke-virtual {p2}, Lcom/google/android/gms/ads/mediation/MediationAdConfiguration;->getBidResponse()Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-interface {p1, p2, p0}, Lcom/applovin/sdk/AppLovinAdService;->loadNextAdForAdToken(Ljava/lang/String;Lcom/applovin/sdk/AppLovinAdLoadListener;)V
+    # move-result-object p1
+    #
+    # invoke-static {p1, v0}, Lcom/applovin/mediation/AppLovinUtils;->retrieveSdk(Landroid/os/Bundle;Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdk;
+    #
+    # move-result-object p1
+    #
+    # iput-object p1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->sdk:Lcom/applovin/sdk/AppLovinSdk;
+    #
+    # invoke-static {p1}, Lcom/applovin/adview/AppLovinIncentivizedInterstitial;->create(Lcom/applovin/sdk/AppLovinSdk;)Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
+    #
+    # move-result-object p1
+    #
+    # iput-object p1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->incentivizedInterstitial:Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
+    #
+    # iget-object p1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->sdk:Lcom/applovin/sdk/AppLovinSdk;
+    #
+    # invoke-virtual {p1}, Lcom/applovin/sdk/AppLovinSdk;->getAdService()Lcom/applovin/sdk/AppLovinAdService;
+    #
+    # move-result-object p1
+    #
+    # iget-object p2, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->adConfiguration:Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;
+    #
+    # invoke-virtual {p2}, Lcom/google/android/gms/ads/mediation/MediationAdConfiguration;->getBidResponse()Ljava/lang/String;
+    #
+    # move-result-object p2
+    #
+    # invoke-interface {p1, p2, p0}, Lcom/applovin/sdk/AppLovinAdService;->loadNextAdForAdToken(Ljava/lang/String;Lcom/applovin/sdk/AppLovinAdLoadListener;)V
 
     :goto_0
     return-void
@@ -898,119 +900,119 @@
 .method public showAd(Landroid/content/Context;)V
     .locals 9
 
-    iget-object v0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->sdk:Lcom/applovin/sdk/AppLovinSdk;
-
-    invoke-virtual {v0}, Lcom/applovin/sdk/AppLovinSdk;->getSettings()Lcom/applovin/sdk/AppLovinSdkSettings;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->networkExtras:Landroid/os/Bundle;
-
-    invoke-static {v1}, Lcom/applovin/mediation/AppLovinUtils;->shouldMuteAudio(Landroid/os/Bundle;)Z
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lcom/applovin/sdk/AppLovinSdkSettings;->setMuted(Z)V
-
-    new-instance v8, Lcom/applovin/mediation/AppLovinIncentivizedAdListener;
-
-    iget-object v0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->adConfiguration:Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;
-
-    iget-object v1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->rewardedAdCallback:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
-
-    invoke-direct {v8, v0, v1}, Lcom/applovin/mediation/AppLovinIncentivizedAdListener;-><init>(Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;)V
-
-    sget-boolean v0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->isRtbAd:Z
-
-    if-nez v0, :cond_2
-
-    iget-object v0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->zoneId:Ljava/lang/String;
-
-    if-eqz v0, :cond_0
-
-    const/4 v1, 0x1
-
-    new-array v1, v1, [Ljava/lang/Object;
-
-    const/4 v2, 0x0
-
-    aput-object v0, v1, v2
-
-    const-string v0, "Showing rewarded video for zone \'%s\'"
-
-    invoke-static {v0, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v0
-
-    const/4 v1, 0x3
-
-    invoke-static {v1, v0}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
-
-    :cond_0
-    iget-object v0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->incentivizedInterstitial:Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
-
-    invoke-virtual {v0}, Lcom/applovin/adview/AppLovinIncentivizedInterstitial;->isAdReadyToDisplay()Z
-
-    move-result v0
-
-    if-nez v0, :cond_1
-
-    new-instance p1, Lcom/google/android/gms/ads/AdError;
-
-    const-string v0, "Ad not ready to show."
-
-    const-string v1, "com.google.ads.mediation.applovin"
-
-    const/16 v2, 0x6a
-
-    invoke-direct {p1, v2, v0, v1}, Lcom/google/android/gms/ads/AdError;-><init>(ILjava/lang/String;Ljava/lang/String;)V
-
-    const/4 v0, 0x6
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->getMessage()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
-
-    iget-object v0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->rewardedAdCallback:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
-
-    invoke-interface {v0, p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->onAdFailedToShow(Lcom/google/android/gms/ads/AdError;)V
-
-    goto :goto_0
-
-    :cond_1
-    iget-object v2, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->incentivizedInterstitial:Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
-
-    move-object v3, p1
-
-    move-object v4, v8
-
-    move-object v5, v8
-
-    move-object v6, v8
-
-    move-object v7, v8
-
-    invoke-virtual/range {v2 .. v7}, Lcom/applovin/adview/AppLovinIncentivizedInterstitial;->show(Landroid/content/Context;Lcom/applovin/sdk/AppLovinAdRewardListener;Lcom/applovin/sdk/AppLovinAdVideoPlaybackListener;Lcom/applovin/sdk/AppLovinAdDisplayListener;Lcom/applovin/sdk/AppLovinAdClickListener;)V
-
-    goto :goto_0
-
-    :cond_2
-    iget-object v2, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->incentivizedInterstitial:Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
-
-    iget-object v3, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->ad:Lcom/applovin/sdk/AppLovinAd;
-
-    move-object v4, p1
-
-    move-object v5, v8
-
-    move-object v6, v8
-
-    move-object v7, v8
-
-    invoke-virtual/range {v2 .. v8}, Lcom/applovin/adview/AppLovinIncentivizedInterstitial;->show(Lcom/applovin/sdk/AppLovinAd;Landroid/content/Context;Lcom/applovin/sdk/AppLovinAdRewardListener;Lcom/applovin/sdk/AppLovinAdVideoPlaybackListener;Lcom/applovin/sdk/AppLovinAdDisplayListener;Lcom/applovin/sdk/AppLovinAdClickListener;)V
-
-    :goto_0
+    # iget-object v0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->sdk:Lcom/applovin/sdk/AppLovinSdk;
+    #
+    # invoke-virtual {v0}, Lcom/applovin/sdk/AppLovinSdk;->getSettings()Lcom/applovin/sdk/AppLovinSdkSettings;
+    #
+    # move-result-object v0
+    #
+    # iget-object v1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->networkExtras:Landroid/os/Bundle;
+    #
+    # invoke-static {v1}, Lcom/applovin/mediation/AppLovinUtils;->shouldMuteAudio(Landroid/os/Bundle;)Z
+    #
+    # move-result v1
+    #
+    # invoke-virtual {v0, v1}, Lcom/applovin/sdk/AppLovinSdkSettings;->setMuted(Z)V
+    #
+    # new-instance v8, Lcom/applovin/mediation/AppLovinIncentivizedAdListener;
+    #
+    # iget-object v0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->adConfiguration:Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;
+    #
+    # iget-object v1, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->rewardedAdCallback:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
+    #
+    # invoke-direct {v8, v0, v1}, Lcom/applovin/mediation/AppLovinIncentivizedAdListener;-><init>(Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;)V
+    #
+    # sget-boolean v0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->isRtbAd:Z
+    #
+    # if-nez v0, :cond_2
+    #
+    # iget-object v0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->zoneId:Ljava/lang/String;
+    #
+    # if-eqz v0, :cond_0
+    #
+    # const/4 v1, 0x1
+    #
+    # new-array v1, v1, [Ljava/lang/Object;
+    #
+    # const/4 v2, 0x0
+    #
+    # aput-object v0, v1, v2
+    #
+    # const-string v0, "Showing rewarded video for zone \'%s\'"
+    #
+    # invoke-static {v0, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    #
+    # move-result-object v0
+    #
+    # const/4 v1, 0x3
+    #
+    # invoke-static {v1, v0}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
+    #
+    # :cond_0
+    # iget-object v0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->incentivizedInterstitial:Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
+    #
+    # invoke-virtual {v0}, Lcom/applovin/adview/AppLovinIncentivizedInterstitial;->isAdReadyToDisplay()Z
+    #
+    # move-result v0
+    #
+    # if-nez v0, :cond_1
+    #
+    # new-instance p1, Lcom/google/android/gms/ads/AdError;
+    #
+    # const-string v0, "Ad not ready to show."
+    #
+    # const-string v1, "com.google.ads.mediation.applovin"
+    #
+    # const/16 v2, 0x6a
+    #
+    # invoke-direct {p1, v2, v0, v1}, Lcom/google/android/gms/ads/AdError;-><init>(ILjava/lang/String;Ljava/lang/String;)V
+    #
+    # const/4 v0, 0x6
+    #
+    # invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->getMessage()Ljava/lang/String;
+    #
+    # move-result-object v1
+    #
+    # invoke-static {v0, v1}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
+    #
+    # iget-object v0, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->rewardedAdCallback:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
+    #
+    # invoke-interface {v0, p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->onAdFailedToShow(Lcom/google/android/gms/ads/AdError;)V
+    #
+    # goto :goto_0
+    #
+    # :cond_1
+    # iget-object v2, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->incentivizedInterstitial:Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
+    #
+    # move-object v3, p1
+    #
+    # move-object v4, v8
+    #
+    # move-object v5, v8
+    #
+    # move-object v6, v8
+    #
+    # move-object v7, v8
+    #
+    # invoke-virtual/range {v2 .. v7}, Lcom/applovin/adview/AppLovinIncentivizedInterstitial;->show(Landroid/content/Context;Lcom/applovin/sdk/AppLovinAdRewardListener;Lcom/applovin/sdk/AppLovinAdVideoPlaybackListener;Lcom/applovin/sdk/AppLovinAdDisplayListener;Lcom/applovin/sdk/AppLovinAdClickListener;)V
+    #
+    # goto :goto_0
+    #
+    # :cond_2
+    # iget-object v2, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->incentivizedInterstitial:Lcom/applovin/adview/AppLovinIncentivizedInterstitial;
+    #
+    # iget-object v3, p0, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->ad:Lcom/applovin/sdk/AppLovinAd;
+    #
+    # move-object v4, p1
+    #
+    # move-object v5, v8
+    #
+    # move-object v6, v8
+    #
+    # move-object v7, v8
+    #
+    # invoke-virtual/range {v2 .. v8}, Lcom/applovin/adview/AppLovinIncentivizedInterstitial;->show(Lcom/applovin/sdk/AppLovinAd;Landroid/content/Context;Lcom/applovin/sdk/AppLovinAdRewardListener;Lcom/applovin/sdk/AppLovinAdVideoPlaybackListener;Lcom/applovin/sdk/AppLovinAdDisplayListener;Lcom/applovin/sdk/AppLovinAdClickListener;)V
+    #
+    # :goto_0
     return-void
 .end method

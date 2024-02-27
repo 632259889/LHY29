@@ -158,47 +158,47 @@
     return-void
 
     :cond_2
-    invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-virtual {v0, p2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    new-array p3, p3, [Ljava/lang/Object;
-
-    aput-object p2, p3, v3
-
-    const-string v0, "Attempting to initialize SDK with SDK Key: %s"
-
-    invoke-static {v0, p3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object p3
-
-    const/4 v0, 0x3
-
-    invoke-static {v0, p3}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
-
-    invoke-static {p1}, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->getSdkSettings(Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdkSettings;
-
-    move-result-object p3
-
-    invoke-static {p2, p3, p1}, Lcom/applovin/sdk/AppLovinSdk;->getInstance(Ljava/lang/String;Lcom/applovin/sdk/AppLovinSdkSettings;Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdk;
-
-    move-result-object p1
-
-    const-string p3, "11.5.1.0"
-
-    invoke-virtual {p1, p3}, Lcom/applovin/sdk/AppLovinSdk;->setPluginVersion(Ljava/lang/String;)V
-
-    const-string p3, "admob"
-
-    invoke-virtual {p1, p3}, Lcom/applovin/sdk/AppLovinSdk;->setMediationProvider(Ljava/lang/String;)V
-
-    new-instance p3, Lcom/google/ads/mediation/applovin/a$a;
-
-    invoke-direct {p3, p0, p2}, Lcom/google/ads/mediation/applovin/a$a;-><init>(Lcom/google/ads/mediation/applovin/a;Ljava/lang/String;)V
-
-    invoke-virtual {p1, p3}, Lcom/applovin/sdk/AppLovinSdk;->initializeSdk(Lcom/applovin/sdk/AppLovinSdk$SdkInitializationListener;)V
+    # invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    #
+    # move-result-object v1
+    #
+    # invoke-virtual {v0, p2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    #
+    # new-array p3, p3, [Ljava/lang/Object;
+    #
+    # aput-object p2, p3, v3
+    #
+    # const-string v0, "Attempting to initialize SDK with SDK Key: %s"
+    #
+    # invoke-static {v0, p3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    #
+    # move-result-object p3
+    #
+    # const/4 v0, 0x3
+    #
+    # invoke-static {v0, p3}, Lcom/applovin/mediation/ApplovinAdapter;->log(ILjava/lang/String;)V
+    #
+    # invoke-static {p1}, Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->getSdkSettings(Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdkSettings;
+    #
+    # move-result-object p3
+    #
+    # invoke-static {p2, p3, p1}, Lcom/applovin/sdk/AppLovinSdk;->getInstance(Ljava/lang/String;Lcom/applovin/sdk/AppLovinSdkSettings;Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdk;
+    #
+    # move-result-object p1
+    #
+    # const-string p3, "11.5.1.0"
+    #
+    # invoke-virtual {p1, p3}, Lcom/applovin/sdk/AppLovinSdk;->setPluginVersion(Ljava/lang/String;)V
+    #
+    # const-string p3, "admob"
+    #
+    # invoke-virtual {p1, p3}, Lcom/applovin/sdk/AppLovinSdk;->setMediationProvider(Ljava/lang/String;)V
+    #
+    # new-instance p3, Lcom/google/ads/mediation/applovin/a$a;
+    #
+    # invoke-direct {p3, p0, p2}, Lcom/google/ads/mediation/applovin/a$a;-><init>(Lcom/google/ads/mediation/applovin/a;Ljava/lang/String;)V
+    #
+    # invoke-virtual {p1, p3}, Lcom/applovin/sdk/AppLovinSdk;->initializeSdk(Lcom/applovin/sdk/AppLovinSdk$SdkInitializationListener;)V
 
     return-void
 .end method
