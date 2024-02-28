@@ -1806,6 +1806,7 @@
     invoke-direct {v1, v0, p0}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
     :try_start_0
+    const/4 v0,0x1
     new-instance v0, Ljava/io/FileInputStream;
 
     invoke-direct {v0, v1}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
@@ -1834,97 +1835,97 @@
 .method public static final H(Ljava/lang/String;Lorg/json/JSONArray;Lq7/u$b;)V
     .locals 3
 
-    invoke-virtual {p1}, Lorg/json/JSONArray;->length()I
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    return-void
-
-    :cond_0
-    new-instance v0, Lorg/json/JSONObject;
-
-    invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
-
-    :try_start_0
-    invoke-virtual {p1}, Lorg/json/JSONArray;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v0, p0, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
-
-    invoke-static {}, Lcom/facebook/internal/e0;->n()Lorg/json/JSONObject;
-
-    move-result-object p0
-
-    if-eqz p0, :cond_1
-
-    invoke-virtual {p0}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
-
-    move-result-object p1
-
-    :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_1
-
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Ljava/lang/String;
-
-    invoke-virtual {p0, v1}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object v2
-
-    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
-    :try_end_0
-    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_0
-
-    :cond_1
-    sget-object p0, Lq7/u;->j:Ljava/lang/String;
-
-    const/4 p0, 0x1
-
-    new-array p1, p0, [Ljava/lang/Object;
-
-    invoke-static {}, Lq7/r;->b()Ljava/lang/String;
-
-    move-result-object v1
-
-    const/4 v2, 0x0
-
-    aput-object v1, p1, v2
-
-    invoke-static {p1, p0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
-
-    move-result-object p0
-
-    const-string p1, "%s/instruments"
-
-    invoke-static {p1, p0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object p0
-
-    const-string p1, "java.lang.String.format(format, *args)"
-
-    invoke-static {p0, p1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const/4 p1, 0x0
-
-    invoke-static {p1, p0, v0, p2}, Lq7/u$c;->h(Lq7/a;Ljava/lang/String;Lorg/json/JSONObject;Lq7/u$b;)Lq7/u;
-
-    move-result-object p0
-
-    invoke-virtual {p0}, Lq7/u;->d()Lq7/x;
-
-    :catch_0
+    # invoke-virtual {p1}, Lorg/json/JSONArray;->length()I
+    #
+    # move-result v0
+    #
+    # if-nez v0, :cond_0
+    #
+    # return-void
+    #
+    # :cond_0
+    # new-instance v0, Lorg/json/JSONObject;
+    #
+    # invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
+    #
+    # :try_start_0
+    # invoke-virtual {p1}, Lorg/json/JSONArray;->toString()Ljava/lang/String;
+    #
+    # move-result-object p1
+    #
+    # invoke-virtual {v0, p0, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    #
+    # invoke-static {}, Lcom/facebook/internal/e0;->n()Lorg/json/JSONObject;
+    #
+    # move-result-object p0
+    #
+    # if-eqz p0, :cond_1
+    #
+    # invoke-virtual {p0}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
+    #
+    # move-result-object p1
+    #
+    # :goto_0
+    # invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+    #
+    # move-result v1
+    #
+    # if-eqz v1, :cond_1
+    #
+    # invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    #
+    # move-result-object v1
+    #
+    # check-cast v1, Ljava/lang/String;
+    #
+    # invoke-virtual {p0, v1}, Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
+    #
+    # move-result-object v2
+    #
+    # invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    # :try_end_0
+    # .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
+    #
+    # goto :goto_0
+    #
+    # :cond_1
+    # sget-object p0, Lq7/u;->j:Ljava/lang/String;
+    #
+    # const/4 p0, 0x1
+    #
+    # new-array p1, p0, [Ljava/lang/Object;
+    #
+    # invoke-static {}, Lq7/r;->b()Ljava/lang/String;
+    #
+    # move-result-object v1
+    #
+    # const/4 v2, 0x0
+    #
+    # aput-object v1, p1, v2
+    #
+    # invoke-static {p1, p0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+    #
+    # move-result-object p0
+    #
+    # const-string p1, "%s/instruments"
+    #
+    # invoke-static {p1, p0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    #
+    # move-result-object p0
+    #
+    # const-string p1, "java.lang.String.format(format, *args)"
+    #
+    # invoke-static {p0, p1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # const/4 p1, 0x0
+    #
+    # invoke-static {p1, p0, v0, p2}, Lq7/u$c;->h(Lq7/a;Ljava/lang/String;Lorg/json/JSONObject;Lq7/u$b;)Lq7/u;
+    #
+    # move-result-object p0
+    #
+    # invoke-virtual {p0}, Lq7/u;->d()Lq7/x;
+    #
+    # :catch_0
     return-void
 .end method
 

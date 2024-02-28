@@ -105,12 +105,13 @@
 
     .line 21
     .line 22
-    invoke-static {}, Lcom/facebook/internal/e0;->x()Z
+    # invoke-static {}, Lcom/facebook/internal/e0;->x()Z
 
     .line 23
     .line 24
     .line 25
-    move-result v1
+    # move-result v1
+    const/4 v1,0x1
 
     .line 26
     if-nez v1, :cond_1

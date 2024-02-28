@@ -489,11 +489,11 @@
 
     .line 63
     :cond_3
-    new-instance v0, Lcom/facebook/internal/u;
+    # new-instance v0, Lcom/facebook/internal/u;
 
     .line 64
     .line 65
-    invoke-direct {v0, v1, v3, p1}, Lcom/facebook/internal/u;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
+    # invoke-direct {v0, v1, v3, p1}, Lcom/facebook/internal/u;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
     .line 66
     .line 67

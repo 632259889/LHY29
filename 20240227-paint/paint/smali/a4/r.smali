@@ -120,20 +120,20 @@
 
     .line 41
     :pswitch_3
-    check-cast v4, Lcom/facebook/internal/i0;
+    # check-cast v4, Lcom/facebook/internal/i0;
 
     .line 42
     .line 43
-    sget p1, Lcom/facebook/internal/i0;->o:I
+    # sget p1, Lcom/facebook/internal/i0;->o:I
 
     .line 44
     .line 45
-    invoke-static {v4, v3}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    # invoke-static {v4, v3}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 46
     .line 47
     .line 48
-    invoke-virtual {v4}, Lcom/facebook/internal/i0;->cancel()V
+    # invoke-virtual {v4}, Lcom/facebook/internal/i0;->cancel()V
 
     .line 49
     .line 50

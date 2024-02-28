@@ -56,20 +56,20 @@
     .line 12
     .line 13
     :pswitch_0
-    check-cast v2, Lcom/facebook/login/g;
+    # check-cast v2, Lcom/facebook/login/g;
 
     .line 14
     .line 15
-    sget p1, Lcom/facebook/login/g;->n:I
+    # sget p1, Lcom/facebook/login/g;->n:I
 
     .line 16
     .line 17
-    invoke-static {v2, v1}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    # invoke-static {v2, v1}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {v2}, Lcom/facebook/login/g;->f()V
+    # invoke-virtual {v2}, Lcom/facebook/login/g;->f()V
 
     .line 21
     .line 22
