@@ -168,17 +168,18 @@
     .line 43
     .line 44
     .line 45
-    invoke-virtual {v0, p2}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->setListener(Lcom/applovin/mediation/MaxAdListener;)V
+    # invoke-virtual {v0, p2}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->setListener(Lcom/applovin/mediation/MaxAdListener;)V
 
     .line 46
     .line 47
     .line 48
-    invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->isReady()Z
+    # invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->isReady()Z
 
     .line 49
     .line 50
     .line 51
-    move-result p1
+    # move-result p1
+    const/4 p1,0x1
 
     .line 52
     if-nez p1, :cond_1
@@ -285,7 +286,7 @@
     .line 43
     .line 44
     .line 45
-    iget-object v2, p0, Ll4/f;->i:Lcom/applovin/mediation/ads/MaxInterstitialAd;
+    # iget-object v2, p0, Ll4/f;->i:Lcom/applovin/mediation/ads/MaxInterstitialAd;
 
     .line 46
     .line 47
@@ -298,7 +299,7 @@
     .line 50
     .line 51
     .line 52
-    invoke-virtual {v2, v3}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->setListener(Lcom/applovin/mediation/MaxAdListener;)V
+    # invoke-virtual {v2, v3}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->setListener(Lcom/applovin/mediation/MaxAdListener;)V
 
     .line 53
     .line 54

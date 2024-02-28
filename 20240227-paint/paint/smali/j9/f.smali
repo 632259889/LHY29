@@ -105,7 +105,7 @@
     move-result-object v3
 
     .line 34
-    new-instance v5, Lcom/applovin/exoplayer2/e/g/p;
+    # new-instance v5, Lcom/applovin/exoplayer2/e/g/p;
 
     .line 35
     .line 36
@@ -113,29 +113,30 @@
 
     .line 37
     .line 38
-    invoke-direct {v5, v7}, Lcom/applovin/exoplayer2/e/g/p;-><init>(I)V
+    # invoke-direct {v5, v7}, Lcom/applovin/exoplayer2/e/g/p;-><init>(I)V
 
     .line 39
     .line 40
     .line 41
-    invoke-static {v3, v5}, Lk9/m;->I(Landroid/database/Cursor;Lk9/m$a;)Ljava/lang/Object;
+    # invoke-static {v3, v5}, Lk9/m;->I(Landroid/database/Cursor;Lk9/m$a;)Ljava/lang/Object;
 
     .line 42
     .line 43
     .line 44
-    move-result-object v3
+    # move-result-object v3
 
     .line 45
-    check-cast v3, Ljava/lang/Boolean;
+    # check-cast v3, Ljava/lang/Boolean;
 
     .line 46
     .line 47
-    invoke-virtual {v3}, Ljava/lang/Boolean;->booleanValue()Z
+    # invoke-virtual {v3}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 48
     .line 49
     .line 50
-    move-result v3
+    # move-result v3
+    const/4 v3,0x1
 
     .line 51
     const/4 v5, 0x0

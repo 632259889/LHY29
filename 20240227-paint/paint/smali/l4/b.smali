@@ -40,53 +40,53 @@
 .method public final run()V
     .locals 3
 
-    iget-object v0, p0, Ll4/b;->c:Ll4/f;
-
-    iget-object v1, v0, Ll4/f;->i:Lcom/applovin/mediation/ads/MaxInterstitialAd;
-
-    const-string v2, "AppLovin"
-
-    if-eqz v1, :cond_1
-
-    # invoke-virtual {v1}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->isReady()Z
-
-    # move-result v1
-    const/4 v1,0x1
-
-    if-eqz v1, :cond_1
-
-    const-string v1, "loadSplashInterstitialAds:show ad on delay "
-
-    invoke-static {v2, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    iget-boolean v1, p0, Ll4/b;->d:Z
-
-    iget-object v2, p0, Ll4/b;->f:Ly1/d;
-
-    if-eqz v1, :cond_0
-
-    iget-object v1, p0, Ll4/b;->e:Landroid/content/Context;
-
-    check-cast v1, Landroid/app/Activity;
-
-    invoke-virtual {v0, v1, v2}, Ll4/f;->c(Landroid/app/Activity;Ly1/d;)V
-
-    goto :goto_0
-
-    :cond_0
-    invoke-virtual {v2}, Ly1/d;->n()V
-
-    goto :goto_0
-
-    :cond_1
-    const-string v1, "loadSplashInterstitialAds: delay validate"
-
-    invoke-static {v2, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    const/4 v1, 0x1
-
-    iput-boolean v1, v0, Ll4/f;->g:Z
-
-    :goto_0
+    # iget-object v0, p0, Ll4/b;->c:Ll4/f;
+    #
+    # iget-object v1, v0, Ll4/f;->i:Lcom/applovin/mediation/ads/MaxInterstitialAd;
+    #
+    # const-string v2, "AppLovin"
+    #
+    # if-eqz v1, :cond_1
+    #
+    # # invoke-virtual {v1}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->isReady()Z
+    #
+    # # move-result v1
+    # const/4 v1,0x1
+    #
+    # if-eqz v1, :cond_1
+    #
+    # const-string v1, "loadSplashInterstitialAds:show ad on delay "
+    #
+    # invoke-static {v2, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # iget-boolean v1, p0, Ll4/b;->d:Z
+    #
+    # iget-object v2, p0, Ll4/b;->f:Ly1/d;
+    #
+    # if-eqz v1, :cond_0
+    #
+    # iget-object v1, p0, Ll4/b;->e:Landroid/content/Context;
+    #
+    # check-cast v1, Landroid/app/Activity;
+    #
+    # invoke-virtual {v0, v1, v2}, Ll4/f;->c(Landroid/app/Activity;Ly1/d;)V
+    #
+    # goto :goto_0
+    #
+    # :cond_0
+    # invoke-virtual {v2}, Ly1/d;->n()V
+    #
+    # goto :goto_0
+    #
+    # :cond_1
+    # const-string v1, "loadSplashInterstitialAds: delay validate"
+    #
+    # invoke-static {v2, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # const/4 v1, 0x1
+    #
+    # iput-boolean v1, v0, Ll4/f;->g:Z
+    #
+    # :goto_0
     return-void
 .end method
