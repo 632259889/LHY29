@@ -1613,7 +1613,7 @@
     .line 577
     .line 578
     .line 579
-    new-instance v5, Lcom/applovin/exoplayer2/e/g/p;
+    # new-instance v5, Lcom/applovin/exoplayer2/e/g/p;
 
     .line 580
     .line 581
@@ -1621,12 +1621,12 @@
 
     .line 582
     .line 583
-    invoke-direct {v5, v7}, Lcom/applovin/exoplayer2/e/g/p;-><init>(I)V
+    # invoke-direct {v5, v7}, Lcom/applovin/exoplayer2/e/g/p;-><init>(I)V
 
     .line 584
     .line 585
     .line 586
-    invoke-interface {v3, v4, v6, v5}, La9/g;->a(Ljava/lang/String;La9/b;Lcom/applovin/exoplayer2/e/g/p;)Ld9/u;
+    # invoke-interface {v3, v4, v6, v5}, La9/g;->a(Ljava/lang/String;La9/b;Lcom/applovin/exoplayer2/e/g/p;)Ld9/u;
 
     .line 587
     .line 588
@@ -1661,7 +1661,7 @@
     .line 603
     .line 604
     .line 605
-    new-instance v4, Lcom/applovin/exoplayer2/m/p;
+    # new-instance v4, Lcom/applovin/exoplayer2/m/p;
 
     .line 606
     .line 607
@@ -1669,12 +1669,12 @@
 
     .line 608
     .line 609
-    invoke-direct {v4, v5}, Lcom/applovin/exoplayer2/m/p;-><init>(I)V
+    # invoke-direct {v4, v5}, Lcom/applovin/exoplayer2/m/p;-><init>(I)V
 
     .line 610
     .line 611
     .line 612
-    invoke-virtual {v3, v0, v4}, Ld9/u;->a(La9/a;La9/h;)V
+    # invoke-virtual {v3, v0, v4}, Ld9/u;->a(La9/a;La9/h;)V
     :try_end_7
     .catch Ljava/lang/RuntimeException; {:try_start_7 .. :try_end_7} :catch_6
 

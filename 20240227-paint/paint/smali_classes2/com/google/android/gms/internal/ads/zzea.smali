@@ -26,9 +26,10 @@
 .method public final onDisplayInfoChanged(Landroid/telephony/TelephonyDisplayInfo;)V
     .locals 3
 
-    invoke-static {p1}, Lcom/applovin/exoplayer2/l/c0;->c(Landroid/telephony/TelephonyDisplayInfo;)I
+    # invoke-static {p1}, Lcom/applovin/exoplayer2/l/c0;->c(Landroid/telephony/TelephonyDisplayInfo;)I
 
-    move-result p1
+    # move-result p1
+    const p1,0x1
 
     const/4 v0, 0x3
 

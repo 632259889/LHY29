@@ -2618,6 +2618,7 @@
     .line 321
     .line 322
     move-result v10
+    # const v10,0x1
 
     .line 323
     invoke-static {v10}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2694,6 +2695,7 @@
     .line 359
     .line 360
     move-result v10
+    # const v10,0x1
 
     .line 361
     invoke-static {v10}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

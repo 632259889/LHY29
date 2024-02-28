@@ -51,7 +51,7 @@
 # direct methods
 .method public static constructor <clinit>()V
     .locals 2
-
+    #
     new-instance v0, Lcom/applovin/exoplayer2/j0;
 
     const/16 v1, 0xb
