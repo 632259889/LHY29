@@ -151,7 +151,7 @@
 
     const-string v5, "ca-app-pub-6691965685689933/8636853510"
 
-    invoke-virtual {v0, v1, v5, v4}, Li4/j;->c(Landroid/content/Context;Ljava/lang/String;La4/a1;)V
+    # invoke-virtual {v0, v1, v5, v4}, Li4/j;->c(Landroid/content/Context;Ljava/lang/String;La4/a1;)V
 
     .line 3
     :cond_2

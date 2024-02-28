@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->adReceived(Lcom/applovin/sdk/AppLovinAd;)V
+    # value = Lcom/google/ads/mediation/applovin/AppLovinMediationAdapter;->adReceived(Lcom/applovin/sdk/AppLovinAd;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

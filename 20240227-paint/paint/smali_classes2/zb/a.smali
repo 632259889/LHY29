@@ -47,13 +47,13 @@
 
     sput-object v0, Lzb/a;->d:Ljava/lang/String;
 
-    new-instance v0, Lcom/applovin/exoplayer2/e/g/p;
-
-    const/16 v1, 0x1a
-
-    invoke-direct {v0, v1}, Lcom/applovin/exoplayer2/e/g/p;-><init>(I)V
-
-    sput-object v0, Lzb/a;->e:Lcom/applovin/exoplayer2/e/g/p;
+    # new-instance v0, Lcom/applovin/exoplayer2/e/g/p;
+    #
+    # const/16 v1, 0x1a
+    #
+    # invoke-direct {v0, v1}, Lcom/applovin/exoplayer2/e/g/p;-><init>(I)V
+    #
+    # sput-object v0, Lzb/a;->e:Lcom/applovin/exoplayer2/e/g/p;
 
     return-void
 .end method

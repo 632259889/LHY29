@@ -506,12 +506,13 @@
 
     .line 216
     .line 217
-    invoke-virtual {v7}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->isReady()Z
+    # invoke-virtual {v7}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->isReady()Z
 
     .line 218
     .line 219
     .line 220
-    move-result v0
+    # move-result v0
+    const/4 v0,0x1
 
     .line 221
     if-nez v0, :cond_5
@@ -536,7 +537,7 @@
     .line 230
     .line 231
     .line 232
-    invoke-virtual {v7, v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->setRevenueListener(Lcom/applovin/mediation/MaxAdRevenueListener;)V
+    # invoke-virtual {v7, v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->setRevenueListener(Lcom/applovin/mediation/MaxAdRevenueListener;)V
 
     .line 233
     .line 234
@@ -545,22 +546,22 @@
 
     .line 236
     .line 237
-    invoke-direct {v0, v3, v4, v11, v7}, Ll4/h;-><init>(Ll4/f;Lb6/a;Li4/i;Lcom/applovin/mediation/ads/MaxInterstitialAd;)V
+    # invoke-direct {v0, v3, v4, v11, v7}, Ll4/h;-><init>(Ll4/f;Lb6/a;Li4/i;Lcom/applovin/mediation/ads/MaxInterstitialAd;)V
 
     .line 238
     .line 239
     .line 240
-    invoke-virtual {v7, v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->setListener(Lcom/applovin/mediation/MaxAdListener;)V
+    # invoke-virtual {v7, v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->setListener(Lcom/applovin/mediation/MaxAdListener;)V
 
     .line 241
     .line 242
     .line 243
-    invoke-virtual {v7}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->getAdUnitId()Ljava/lang/String;
+    # invoke-virtual {v7}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->getAdUnitId()Ljava/lang/String;
 
     .line 244
     .line 245
     .line 246
-    move-result-object v0
+    # move-result-object v0
 
     .line 247
     invoke-virtual {v4, v2, v8}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
@@ -571,12 +572,13 @@
     move-result-object v2
 
     .line 251
-    invoke-interface {v2, v0, v8}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
+    # invoke-interface {v2, v0, v8}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
 
     .line 252
     .line 253
     .line 254
-    move-result v0
+    # move-result v0
+    const v0,0x64
 
     .line 255
     const/16 v2, 0x64
@@ -1379,590 +1381,597 @@
     goto/16 :goto_0
 .end method
 
-.method public final c(Landroid/content/Context;Ljava/lang/String;La4/a1;)V
-    .locals 3
-
-    .line 1
-    new-instance v0, Lj4/b;
-
-    .line 2
-    .line 3
-    invoke-direct {v0}, Lj4/b;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    iget-object v1, p0, Li4/j;->a:Ln4/b;
-
-    .line 7
-    .line 8
-    iget v1, v1, Ln4/b;->a:I
-
-    .line 9
-    .line 10
-    if-eqz v1, :cond_1
-
-    .line 11
-    .line 12
-    const/4 v2, 0x1
-
-    .line 13
-    if-eq v1, v2, :cond_0
-
-    .line 14
-    .line 15
-    return-void
-
-    .line 16
-    :cond_0
-    invoke-static {}, Ll4/f;->a()Ll4/f;
-
-    .line 17
-    .line 18
-    .line 19
-    move-result-object v1
-
-    .line 20
-    invoke-virtual {v1, p1, p2}, Ll4/f;->b(Landroid/content/Context;Ljava/lang/String;)Lcom/applovin/mediation/ads/MaxInterstitialAd;
-
-    .line 21
-    .line 22
-    .line 23
-    move-result-object p1
-
-    .line 24
-    new-instance p2, Li4/f;
-
-    .line 25
-    .line 26
-    invoke-direct {p2, v0, p1, p3}, Li4/f;-><init>(Lj4/b;Lcom/applovin/mediation/ads/MaxInterstitialAd;La4/a1;)V
-
-    .line 27
-    .line 28
-    .line 29
-    invoke-virtual {p1, p2}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->setListener(Lcom/applovin/mediation/MaxAdListener;)V
-
-    .line 30
-    .line 31
-    .line 32
-    iput-object p1, v0, Lj4/b;->d:Lcom/applovin/mediation/ads/MaxInterstitialAd;
-
-    .line 33
-    .line 34
-    sget-object p1, Lj4/d;->d:Lj4/d;
-
-    .line 35
-    .line 36
-    iput-object p1, v0, Lj4/a;->b:Ljava/lang/Object;
-
-    .line 37
-    .line 38
-    return-void
-
-    .line 39
-    :cond_1
-    invoke-static {}, Lh4/e;->b()Lh4/e;
-
-    .line 40
-    .line 41
-    .line 42
-    move-result-object v1
-
-    .line 43
-    new-instance v2, Li4/e;
-
-    .line 44
-    .line 45
-    invoke-direct {v2, v0, p3}, Li4/e;-><init>(Lj4/b;La4/a1;)V
-
-    .line 46
-    .line 47
-    .line 48
-    iget-object p3, p0, Li4/j;->a:Ln4/b;
-
-    .line 49
-    .line 50
-    iget-object p3, p3, Ln4/b;->i:Ljava/lang/String;
-
-    .line 51
-    .line 52
-    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 53
-    .line 54
-    .line 55
-    invoke-static {p1, p2, v2, p3}, Lh4/e;->c(Landroid/content/Context;Ljava/lang/String;Lcom/vungle/warren/utility/e;Ljava/lang/String;)V
-
-    .line 56
-    .line 57
-    .line 58
-    return-void
-.end method
-
-.method public final d(Landroid/app/Activity;Ljava/lang/String;ILa4/a1;)V
-    .locals 4
-
-    .line 1
-    iget-object v0, p0, Li4/j;->a:Ln4/b;
-
-    .line 2
-    .line 3
-    iget v0, v0, Ln4/b;->a:I
-
-    .line 4
-    .line 5
-    const/4 v1, 0x1
-
-    .line 6
-    if-eqz v0, :cond_1
-
-    .line 7
-    .line 8
-    if-eq v0, v1, :cond_0
-
-    .line 9
-    .line 10
-    goto/16 :goto_0
-
-    .line 11
-    .line 12
-    :cond_0
-    invoke-static {}, Ll4/f;->a()Ll4/f;
-
-    .line 13
-    .line 14
-    .line 15
-    move-result-object v0
-
-    .line 16
-    new-instance v1, Li4/j$b;
-
-    .line 17
-    .line 18
-    invoke-direct {v1, p4, p3}, Li4/j$b;-><init>(La4/a1;I)V
-
-    .line 19
-    .line 20
-    .line 21
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 22
-    .line 23
-    .line 24
-    invoke-static {}, Lm4/a;->a()Lm4/a;
-
-    .line 25
-    .line 26
-    .line 27
-    move-result-object p4
-
-    .line 28
-    invoke-virtual {p4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 29
-    .line 30
-    .line 31
-    new-instance p4, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;
-
-    .line 32
-    .line 33
-    invoke-direct {p4, p3}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;-><init>(I)V
-
-    .line 34
-    .line 35
-    .line 36
-    const p3, 0x7f0a0063
-
-    .line 37
-    .line 38
-    .line 39
-    invoke-virtual {p4, p3}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;->setTitleTextViewId(I)Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;
-
-    .line 40
-    .line 41
-    .line 42
-    move-result-object p3
-
-    .line 43
-    const p4, 0x7f0a005d
-
-    .line 44
-    .line 45
-    .line 46
-    invoke-virtual {p3, p4}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;->setBodyTextViewId(I)Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;
-
-    .line 47
-    .line 48
-    .line 49
-    move-result-object p3
-
-    .line 50
-    const p4, 0x7f0a005b
-
-    .line 51
-    .line 52
-    .line 53
-    invoke-virtual {p3, p4}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;->setAdvertiserTextViewId(I)Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;
-
-    .line 54
-    .line 55
-    .line 56
-    move-result-object p3
-
-    .line 57
-    const p4, 0x7f0a005c
-
-    .line 58
-    .line 59
-    .line 60
-    invoke-virtual {p3, p4}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;->setIconImageViewId(I)Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;
-
-    .line 61
-    .line 62
-    .line 63
-    move-result-object p3
-
-    .line 64
-    const p4, 0x7f0a0064
-
-    .line 65
-    .line 66
-    .line 67
-    invoke-virtual {p3, p4}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;->setMediaContentViewGroupId(I)Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;
-
-    .line 68
-    .line 69
-    .line 70
-    move-result-object p3
-
-    .line 71
-    const p4, 0x7f0a0065
-
-    .line 72
-    .line 73
-    .line 74
-    invoke-virtual {p3, p4}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;->setOptionsContentViewGroupId(I)Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;
-
-    .line 75
-    .line 76
-    .line 77
-    move-result-object p3
-
-    .line 78
-    const p4, 0x7f0a005e
-
-    .line 79
-    .line 80
-    .line 81
-    invoke-virtual {p3, p4}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;->setCallToActionButtonId(I)Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;
-
-    .line 82
-    .line 83
-    .line 84
-    move-result-object p3
-
-    .line 85
-    invoke-virtual {p3}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;->build()Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder;
-
-    .line 86
-    .line 87
-    .line 88
-    move-result-object p3
-
-    .line 89
-    new-instance p4, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
-
-    .line 90
-    .line 91
-    invoke-direct {p4, p3, p1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;-><init>(Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder;Landroid/content/Context;)V
-
-    .line 92
-    .line 93
-    .line 94
-    iput-object p4, v0, Ll4/f;->j:Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
-
-    .line 95
-    .line 96
-    new-instance p3, Lcom/applovin/mediation/nativeAds/MaxNativeAdLoader;
-
-    .line 97
-    .line 98
-    invoke-direct {p3, p2, p1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdLoader;-><init>(Ljava/lang/String;Landroid/content/Context;)V
-
-    .line 99
-    .line 100
-    .line 101
-    new-instance p2, Ll4/a;
-
-    .line 102
-    .line 103
-    const/4 p4, 0x0
-
-    .line 104
-    invoke-direct {p2, p1, p4}, Ll4/a;-><init>(Landroid/app/Activity;I)V
-
-    .line 105
-    .line 106
-    .line 107
-    invoke-virtual {p3, p2}, Lcom/applovin/mediation/nativeAds/MaxNativeAdLoader;->setRevenueListener(Lcom/applovin/mediation/MaxAdRevenueListener;)V
-
-    .line 108
-    .line 109
-    .line 110
-    new-instance p1, Ll4/d;
-
-    .line 111
-    .line 112
-    invoke-direct {p1, v0, v1}, Ll4/d;-><init>(Ll4/f;Li4/j$b;)V
-
-    .line 113
-    .line 114
-    .line 115
-    invoke-virtual {p3, p1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdLoader;->setNativeAdListener(Lcom/applovin/mediation/nativeAds/MaxNativeAdListener;)V
-
-    .line 116
-    .line 117
-    .line 118
-    iget-object p1, v0, Ll4/f;->j:Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
-
-    .line 119
-    .line 120
-    # invoke-virtual {p3, p1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdLoader;->loadAd(Lcom/applovin/mediation/nativeAds/MaxNativeAdView;)V
-
-    .line 121
-    .line 122
-    .line 123
-    goto :goto_0
-
-    .line 124
-    :cond_1
-    invoke-static {}, Lh4/e;->b()Lh4/e;
-
-    .line 125
-    .line 126
-    .line 127
-    move-result-object v0
-
-    .line 128
-    new-instance v2, Li4/j$a;
-
-    .line 129
-    .line 130
-    invoke-direct {v2, p4, p3}, Li4/j$a;-><init>(La4/a1;I)V
-
-    .line 131
-    .line 132
-    .line 133
-    iget-object p3, p0, Li4/j;->a:Ln4/b;
-
-    .line 134
-    .line 135
-    iget-object p3, p3, Ln4/b;->i:Ljava/lang/String;
-
-    .line 136
-    .line 137
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 138
-    .line 139
-    .line 140
-    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    .line 141
-    .line 142
-    .line 143
-    move-result-object p4
-
-    .line 144
-    const v3, 0x7f030002
-
-    .line 145
-    .line 146
-    .line 147
-    invoke-virtual {p4, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
-
-    .line 148
-    .line 149
-    .line 150
-    move-result-object p4
-
-    .line 151
-    invoke-static {p4}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
-
-    .line 152
-    .line 153
-    .line 154
-    move-result-object p4
-
-    .line 155
-    invoke-interface {p4, p2}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
-
-    .line 156
-    .line 157
-    .line 158
-    move-result p4
-
-    .line 159
-    if-eqz p4, :cond_2
-
-    .line 160
-    .line 161
-    const/4 p4, 0x5
-
-    .line 162
-    invoke-static {p1, p4, p2}, Lh4/e;->e(Landroid/content/Context;ILjava/lang/String;)V
-
-    .line 163
-    .line 164
-    .line 165
-    :cond_2
-    invoke-static {}, Lm4/a;->a()Lm4/a;
-
-    .line 166
-    .line 167
-    .line 168
-    move-result-object p4
-
-    .line 169
-    invoke-virtual {p4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 170
-    .line 171
-    .line 172
-    new-instance p4, Lcom/google/android/gms/ads/VideoOptions$Builder;
-
-    .line 173
-    .line 174
-    invoke-direct {p4}, Lcom/google/android/gms/ads/VideoOptions$Builder;-><init>()V
-
-    .line 175
-    .line 176
-    .line 177
-    invoke-virtual {p4, v1}, Lcom/google/android/gms/ads/VideoOptions$Builder;->setStartMuted(Z)Lcom/google/android/gms/ads/VideoOptions$Builder;
-
-    .line 178
-    .line 179
-    .line 180
-    move-result-object p4
-
-    .line 181
-    invoke-virtual {p4}, Lcom/google/android/gms/ads/VideoOptions$Builder;->build()Lcom/google/android/gms/ads/VideoOptions;
-
-    .line 182
-    .line 183
-    .line 184
-    move-result-object p4
-
-    .line 185
-    new-instance v1, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;
-
-    .line 186
-    .line 187
-    invoke-direct {v1}, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;-><init>()V
-
-    .line 188
-    .line 189
-    .line 190
-    invoke-virtual {v1, p4}, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;->setVideoOptions(Lcom/google/android/gms/ads/VideoOptions;)Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;
-
-    .line 191
-    .line 192
-    .line 193
-    move-result-object p4
-
-    .line 194
-    invoke-virtual {p4}, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;->build()Lcom/google/android/gms/ads/formats/NativeAdOptions;
-
-    .line 195
-    .line 196
-    .line 197
-    move-result-object p4
-
-    .line 198
-    new-instance v1, Lcom/google/android/gms/ads/AdLoader$Builder;
-
-    .line 199
-    .line 200
-    invoke-direct {v1, p1, p2}, Lcom/google/android/gms/ads/AdLoader$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
-
-    .line 201
-    .line 202
-    .line 203
-    new-instance v3, Lh4/l;
-
-    .line 204
-    .line 205
-    invoke-direct {v3, v2, p1, p2, p3}, Lh4/l;-><init>(Li4/j$a;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 206
-    .line 207
-    .line 208
-    invoke-virtual {v1, v3}, Lcom/google/android/gms/ads/AdLoader$Builder;->forNativeAd(Lcom/google/android/gms/ads/nativead/NativeAd$OnNativeAdLoadedListener;)Lcom/google/android/gms/ads/AdLoader$Builder;
-
-    .line 209
-    .line 210
-    .line 211
-    move-result-object p3
-
-    .line 212
-    new-instance v1, Lh4/j;
-
-    .line 213
-    .line 214
-    invoke-direct {v1, v0, v2, p1, p2}, Lh4/j;-><init>(Lh4/e;Li4/j$a;Landroid/content/Context;Ljava/lang/String;)V
-
-    .line 215
-    .line 216
-    .line 217
-    invoke-virtual {p3, v1}, Lcom/google/android/gms/ads/AdLoader$Builder;->withAdListener(Lcom/google/android/gms/ads/AdListener;)Lcom/google/android/gms/ads/AdLoader$Builder;
-
-    .line 218
-    .line 219
-    .line 220
-    move-result-object p1
-
-    .line 221
-    invoke-virtual {p1, p4}, Lcom/google/android/gms/ads/AdLoader$Builder;->withNativeAdOptions(Lcom/google/android/gms/ads/formats/NativeAdOptions;)Lcom/google/android/gms/ads/AdLoader$Builder;
-
-    .line 222
-    .line 223
-    .line 224
-    move-result-object p1
-
-    .line 225
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdLoader$Builder;->build()Lcom/google/android/gms/ads/AdLoader;
-
-    .line 226
-    .line 227
-    .line 228
-    move-result-object p1
-
-    .line 229
-    new-instance p2, Lcom/google/android/gms/ads/AdRequest$Builder;
-
-    .line 230
-    .line 231
-    invoke-direct {p2}, Lcom/google/android/gms/ads/AdRequest$Builder;-><init>()V
-
-    .line 232
-    .line 233
-    .line 234
-    invoke-virtual {p2}, Lcom/google/android/gms/ads/AdRequest$Builder;->build()Lcom/google/android/gms/ads/AdRequest;
-
-    .line 235
-    .line 236
-    .line 237
-    move-result-object p2
-
-    .line 238
-    # invoke-virtual {p1, p2}, Lcom/google/android/gms/ads/AdLoader;->loadAd(Lcom/google/android/gms/ads/AdRequest;)V
-
-    .line 239
-    .line 240
-    .line 241
-    :goto_0
-    return-void
-.end method
+# .method public final c(Landroid/content/Context;Ljava/lang/String;La4/a1;)V
+#     .locals 3
+#
+#     .line 1
+#     new-instance v0, Lj4/b;
+#
+#     .line 2
+#     .line 3
+#     invoke-direct {v0}, Lj4/b;-><init>()V
+#
+#     .line 4
+#     .line 5
+#     .line 6
+#     iget-object v1, p0, Li4/j;->a:Ln4/b;
+#
+#     .line 7
+#     .line 8
+#     iget v1, v1, Ln4/b;->a:I
+#
+#     .line 9
+#     .line 10
+#     if-eqz v1, :cond_1
+#
+#     .line 11
+#     .line 12
+#     const/4 v2, 0x1
+#
+#     .line 13
+#     if-eq v1, v2, :cond_0
+#
+#     .line 14
+#     .line 15
+#     return-void
+#
+#     .line 16
+#     :cond_0
+#     invoke-static {}, Ll4/f;->a()Ll4/f;
+#
+#     .line 17
+#     .line 18
+#     .line 19
+#     move-result-object v1
+#
+#     .line 20
+#     # invoke-virtual {v1, p1, p2}, Ll4/f;->b(Landroid/content/Context;Ljava/lang/String;)Lcom/applovin/mediation/ads/MaxInterstitialAd;
+#
+#     .line 21
+#     .line 22
+#     .line 23
+#     # move-result-object p1
+#
+#     .line 24
+#     new-instance p2, Li4/f;
+#
+#     .line 25
+#     .line 26
+#     # invoke-direct {p2, v0, p1, p3}, Li4/f;-><init>(Lj4/b;Lcom/applovin/mediation/ads/MaxInterstitialAd;La4/a1;)V
+#
+#     .line 27
+#     .line 28
+#     .line 29
+#     # invoke-virtual {p1, p2}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->setListener(Lcom/applovin/mediation/MaxAdListener;)V
+#
+#     .line 30
+#     .line 31
+#     .line 32
+#     iput-object p1, v0, Lj4/b;->d:Lcom/applovin/mediation/ads/MaxInterstitialAd;
+#
+#     .line 33
+#     .line 34
+#     sget-object p1, Lj4/d;->d:Lj4/d;
+#
+#     .line 35
+#     .line 36
+#     iput-object p1, v0, Lj4/a;->b:Ljava/lang/Object;
+#
+#     .line 37
+#     .line 38
+#     return-void
+#
+#     .line 39
+#     :cond_1
+#     invoke-static {}, Lh4/e;->b()Lh4/e;
+#
+#     .line 40
+#     .line 41
+#     .line 42
+#     move-result-object v1
+#
+#     .line 43
+#     new-instance v2, Li4/e;
+#
+#     .line 44
+#     .line 45
+#     invoke-direct {v2, v0, p3}, Li4/e;-><init>(Lj4/b;La4/a1;)V
+#
+#     .line 46
+#     .line 47
+#     .line 48
+#     iget-object p3, p0, Li4/j;->a:Ln4/b;
+#
+#     .line 49
+#     .line 50
+#     iget-object p3, p3, Ln4/b;->i:Ljava/lang/String;
+#
+#     .line 51
+#     .line 52
+#     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+#
+#     .line 53
+#     .line 54
+#     .line 55
+#     invoke-static {p1, p2, v2, p3}, Lh4/e;->c(Landroid/content/Context;Ljava/lang/String;Lcom/vungle/warren/utility/e;Ljava/lang/String;)V
+#
+#     .line 56
+#     .line 57
+#     .line 58
+#     return-void
+# .end method
+
+# .method public final d(Landroid/app/Activity;Ljava/lang/String;ILa4/a1;)V
+#     .locals 4
+#
+#     .line 1
+#     iget-object v0, p0, Li4/j;->a:Ln4/b;
+#
+#     .line 2
+#     .line 3
+#     iget v0, v0, Ln4/b;->a:I
+#
+#     .line 4
+#     .line 5
+#     const/4 v1, 0x1
+#
+#     .line 6
+#     if-eqz v0, :cond_1
+#
+#     .line 7
+#     .line 8
+#     if-eq v0, v1, :cond_0
+#
+#     .line 9
+#     .line 10
+#     goto/16 :goto_0
+#
+#     .line 11
+#     .line 12
+#     :cond_0
+#     invoke-static {}, Ll4/f;->a()Ll4/f;
+#
+#     .line 13
+#     .line 14
+#     .line 15
+#     move-result-object v0
+#
+#     .line 16
+#     new-instance v1, Li4/j$b;
+#
+#     .line 17
+#     .line 18
+#     invoke-direct {v1, p4, p3}, Li4/j$b;-><init>(La4/a1;I)V
+#
+#     .line 19
+#     .line 20
+#     .line 21
+#     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+#
+#     .line 22
+#     .line 23
+#     .line 24
+#     invoke-static {}, Lm4/a;->a()Lm4/a;
+#
+#     .line 25
+#     .line 26
+#     .line 27
+#     move-result-object p4
+#
+#     .line 28
+#     invoke-virtual {p4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+#
+#     .line 29
+#     .line 30
+#     .line 31
+#     # new-instance p4, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;
+#
+#     .line 32
+#     .line 33
+#     # invoke-direct {p4, p3}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;-><init>(I)V
+#
+#     .line 34
+#     .line 35
+#     .line 36
+#     const p3, 0x7f0a0063
+#
+#     .line 37
+#     .line 38
+#     .line 39
+#     # invoke-virtual {p4, p3}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;->setTitleTextViewId(I)Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;
+#
+#     .line 40
+#     .line 41
+#     .line 42
+#     # move-result-object p3
+#     const p3,0x7f0a0063
+#
+#     .line 43
+#     const p4, 0x7f0a005d
+#
+#     .line 44
+#     .line 45
+#     .line 46
+#     # invoke-virtual {p3, p4}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;->setBodyTextViewId(I)Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;
+#
+#     .line 47
+#     .line 48
+#     .line 49
+#     # move-result-object p3
+#     const p3,0x7f0a005d
+#
+#     .line 50
+#     const p4, 0x7f0a005b
+#
+#     .line 51
+#     .line 52
+#     .line 53
+#     # invoke-virtual {p3, p4}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;->setAdvertiserTextViewId(I)Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;
+#
+#     .line 54
+#     .line 55
+#     .line 56
+#     # move-result-object p3
+#     const p3,0x7f0a005d
+#
+#     .line 57
+#     const p4, 0x7f0a005c
+#
+#     .line 58
+#     .line 59
+#     .line 60
+#     # invoke-virtual {p3, p4}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;->setIconImageViewId(I)Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;
+#
+#     .line 61
+#     .line 62
+#     .line 63
+#     # move-result-object p3
+#     const p3,0x7f0a005d
+#
+#     .line 64
+#     const p4, 0x7f0a0064
+#
+#     .line 65
+#     .line 66
+#     .line 67
+#     # invoke-virtual {p3, p4}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;->setMediaContentViewGroupId(I)Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;
+#
+#     .line 68
+#     .line 69
+#     .line 70
+#     # move-result-object p3
+#     const p3,0x7f0a005d
+#
+#     .line 71
+#     const p4, 0x7f0a0065
+#
+#     .line 72
+#     .line 73
+#     .line 74
+#     # invoke-virtual {p3, p4}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;->setOptionsContentViewGroupId(I)Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;
+#
+#     .line 75
+#     .line 76
+#     .line 77
+#     # move-result-object p3
+#     const p3,0x7f0a005d
+#
+#     .line 78
+#     const p4, 0x7f0a005e
+#
+#     .line 79
+#     .line 80
+#     .line 81
+#     # invoke-virtual {p3, p4}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;->setCallToActionButtonId(I)Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;
+#
+#     .line 82
+#     .line 83
+#     .line 84
+#     # move-result-object p3
+#     const p3,0x7f0a005d
+#
+#     .line 85
+#     # invoke-virtual {p3}, Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder$Builder;->build()Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder;
+#
+#     .line 86
+#     .line 87
+#     .line 88
+#     # move-result-object p3
+#
+#     .line 89
+#     # new-instance p4, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
+#
+#     .line 90
+#     .line 91
+#     # invoke-direct {p4, p3, p1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdView;-><init>(Lcom/applovin/mediation/nativeAds/MaxNativeAdViewBinder;Landroid/content/Context;)V
+#
+#     .line 92
+#     .line 93
+#     .line 94
+#     iput-object p4, v0, Ll4/f;->j:Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
+#
+#     .line 95
+#     .line 96
+#     new-instance p3, Lcom/applovin/mediation/nativeAds/MaxNativeAdLoader;
+#
+#     .line 97
+#     .line 98
+#     invoke-direct {p3, p2, p1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdLoader;-><init>(Ljava/lang/String;Landroid/content/Context;)V
+#
+#     .line 99
+#     .line 100
+#     .line 101
+#     new-instance p2, Ll4/a;
+#
+#     .line 102
+#     .line 103
+#     const/4 p4, 0x0
+#
+#     .line 104
+#     invoke-direct {p2, p1, p4}, Ll4/a;-><init>(Landroid/app/Activity;I)V
+#
+#     .line 105
+#     .line 106
+#     .line 107
+#     invoke-virtual {p3, p2}, Lcom/applovin/mediation/nativeAds/MaxNativeAdLoader;->setRevenueListener(Lcom/applovin/mediation/MaxAdRevenueListener;)V
+#
+#     .line 108
+#     .line 109
+#     .line 110
+#     new-instance p1, Ll4/d;
+#
+#     .line 111
+#     .line 112
+#     invoke-direct {p1, v0, v1}, Ll4/d;-><init>(Ll4/f;Li4/j$b;)V
+#
+#     .line 113
+#     .line 114
+#     .line 115
+#     invoke-virtual {p3, p1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdLoader;->setNativeAdListener(Lcom/applovin/mediation/nativeAds/MaxNativeAdListener;)V
+#
+#     .line 116
+#     .line 117
+#     .line 118
+#     iget-object p1, v0, Ll4/f;->j:Lcom/applovin/mediation/nativeAds/MaxNativeAdView;
+#
+#     .line 119
+#     .line 120
+#     # invoke-virtual {p3, p1}, Lcom/applovin/mediation/nativeAds/MaxNativeAdLoader;->loadAd(Lcom/applovin/mediation/nativeAds/MaxNativeAdView;)V
+#
+#     .line 121
+#     .line 122
+#     .line 123
+#     goto :goto_0
+#
+#     .line 124
+#     :cond_1
+#     invoke-static {}, Lh4/e;->b()Lh4/e;
+#
+#     .line 125
+#     .line 126
+#     .line 127
+#     move-result-object v0
+#
+#     .line 128
+#     new-instance v2, Li4/j$a;
+#
+#     .line 129
+#     .line 130
+#     invoke-direct {v2, p4, p3}, Li4/j$a;-><init>(La4/a1;I)V
+#
+#     .line 131
+#     .line 132
+#     .line 133
+#     iget-object p3, p0, Li4/j;->a:Ln4/b;
+#
+#     .line 134
+#     .line 135
+#     iget-object p3, p3, Ln4/b;->i:Ljava/lang/String;
+#
+#     .line 136
+#     .line 137
+#     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+#
+#     .line 138
+#     .line 139
+#     .line 140
+#     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+#
+#     .line 141
+#     .line 142
+#     .line 143
+#     move-result-object p4
+#
+#     .line 144
+#     const v3, 0x7f030002
+#
+#     .line 145
+#     .line 146
+#     .line 147
+#     invoke-virtual {p4, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
+#
+#     .line 148
+#     .line 149
+#     .line 150
+#     move-result-object p4
+#
+#     .line 151
+#     invoke-static {p4}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+#
+#     .line 152
+#     .line 153
+#     .line 154
+#     move-result-object p4
+#
+#     .line 155
+#     invoke-interface {p4, p2}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+#
+#     .line 156
+#     .line 157
+#     .line 158
+#     move-result p4
+#
+#     .line 159
+#     if-eqz p4, :cond_2
+#
+#     .line 160
+#     .line 161
+#     const/4 p4, 0x5
+#
+#     .line 162
+#     invoke-static {p1, p4, p2}, Lh4/e;->e(Landroid/content/Context;ILjava/lang/String;)V
+#
+#     .line 163
+#     .line 164
+#     .line 165
+#     :cond_2
+#     invoke-static {}, Lm4/a;->a()Lm4/a;
+#
+#     .line 166
+#     .line 167
+#     .line 168
+#     move-result-object p4
+#
+#     .line 169
+#     invoke-virtual {p4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+#
+#     .line 170
+#     .line 171
+#     .line 172
+#     new-instance p4, Lcom/google/android/gms/ads/VideoOptions$Builder;
+#
+#     .line 173
+#     .line 174
+#     invoke-direct {p4}, Lcom/google/android/gms/ads/VideoOptions$Builder;-><init>()V
+#
+#     .line 175
+#     .line 176
+#     .line 177
+#     invoke-virtual {p4, v1}, Lcom/google/android/gms/ads/VideoOptions$Builder;->setStartMuted(Z)Lcom/google/android/gms/ads/VideoOptions$Builder;
+#
+#     .line 178
+#     .line 179
+#     .line 180
+#     move-result-object p4
+#
+#     .line 181
+#     invoke-virtual {p4}, Lcom/google/android/gms/ads/VideoOptions$Builder;->build()Lcom/google/android/gms/ads/VideoOptions;
+#
+#     .line 182
+#     .line 183
+#     .line 184
+#     move-result-object p4
+#
+#     .line 185
+#     new-instance v1, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;
+#
+#     .line 186
+#     .line 187
+#     invoke-direct {v1}, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;-><init>()V
+#
+#     .line 188
+#     .line 189
+#     .line 190
+#     invoke-virtual {v1, p4}, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;->setVideoOptions(Lcom/google/android/gms/ads/VideoOptions;)Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;
+#
+#     .line 191
+#     .line 192
+#     .line 193
+#     move-result-object p4
+#
+#     .line 194
+#     invoke-virtual {p4}, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;->build()Lcom/google/android/gms/ads/formats/NativeAdOptions;
+#
+#     .line 195
+#     .line 196
+#     .line 197
+#     move-result-object p4
+#
+#     .line 198
+#     new-instance v1, Lcom/google/android/gms/ads/AdLoader$Builder;
+#
+#     .line 199
+#     .line 200
+#     invoke-direct {v1, p1, p2}, Lcom/google/android/gms/ads/AdLoader$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+#
+#     .line 201
+#     .line 202
+#     .line 203
+#     new-instance v3, Lh4/l;
+#
+#     .line 204
+#     .line 205
+#     invoke-direct {v3, v2, p1, p2, p3}, Lh4/l;-><init>(Li4/j$a;Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 206
+#     .line 207
+#     .line 208
+#     invoke-virtual {v1, v3}, Lcom/google/android/gms/ads/AdLoader$Builder;->forNativeAd(Lcom/google/android/gms/ads/nativead/NativeAd$OnNativeAdLoadedListener;)Lcom/google/android/gms/ads/AdLoader$Builder;
+#
+#     .line 209
+#     .line 210
+#     .line 211
+#     move-result-object p3
+#
+#     .line 212
+#     new-instance v1, Lh4/j;
+#
+#     .line 213
+#     .line 214
+#     invoke-direct {v1, v0, v2, p1, p2}, Lh4/j;-><init>(Lh4/e;Li4/j$a;Landroid/content/Context;Ljava/lang/String;)V
+#
+#     .line 215
+#     .line 216
+#     .line 217
+#     invoke-virtual {p3, v1}, Lcom/google/android/gms/ads/AdLoader$Builder;->withAdListener(Lcom/google/android/gms/ads/AdListener;)Lcom/google/android/gms/ads/AdLoader$Builder;
+#
+#     .line 218
+#     .line 219
+#     .line 220
+#     move-result-object p1
+#
+#     .line 221
+#     invoke-virtual {p1, p4}, Lcom/google/android/gms/ads/AdLoader$Builder;->withNativeAdOptions(Lcom/google/android/gms/ads/formats/NativeAdOptions;)Lcom/google/android/gms/ads/AdLoader$Builder;
+#
+#     .line 222
+#     .line 223
+#     .line 224
+#     move-result-object p1
+#
+#     .line 225
+#     invoke-virtual {p1}, Lcom/google/android/gms/ads/AdLoader$Builder;->build()Lcom/google/android/gms/ads/AdLoader;
+#
+#     .line 226
+#     .line 227
+#     .line 228
+#     move-result-object p1
+#
+#     .line 229
+#     new-instance p2, Lcom/google/android/gms/ads/AdRequest$Builder;
+#
+#     .line 230
+#     .line 231
+#     invoke-direct {p2}, Lcom/google/android/gms/ads/AdRequest$Builder;-><init>()V
+#
+#     .line 232
+#     .line 233
+#     .line 234
+#     invoke-virtual {p2}, Lcom/google/android/gms/ads/AdRequest$Builder;->build()Lcom/google/android/gms/ads/AdRequest;
+#
+#     .line 235
+#     .line 236
+#     .line 237
+#     move-result-object p2
+#
+#     .line 238
+#     # invoke-virtual {p1, p2}, Lcom/google/android/gms/ads/AdLoader;->loadAd(Lcom/google/android/gms/ads/AdRequest;)V
+#
+#     .line 239
+#     .line 240
+#     .line 241
+#     :goto_0
+#     return-void
+# .end method
 
 .method public final e(Landroid/app/Activity;Lj4/c;Landroid/widget/FrameLayout;Lcom/facebook/shimmer/ShimmerFrameLayout;)V
     .locals 6
