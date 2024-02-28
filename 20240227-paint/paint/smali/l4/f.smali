@@ -75,125 +75,125 @@
 
 
 # virtual methods
-.method public final b(Landroid/content/Context;Ljava/lang/String;)Lcom/applovin/mediation/ads/MaxInterstitialAd;
-    .locals 2
-
-    .line 1
-    invoke-static {}, Lm4/a;->a()Lm4/a;
-
-    .line 2
-    .line 3
-    .line 4
-    move-result-object v0
-
-    .line 5
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 6
-    .line 7
-    .line 8
-    const-string v0, "setting_applovin.pref"
-
-    .line 9
-    .line 10
-    const/4 v1, 0x0
-
-    .line 11
-    invoke-virtual {p1, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
-
-    .line 12
-    .line 13
-    .line 14
-    move-result-object v0
-
-    .line 15
-    invoke-interface {v0, p2, v1}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
-
-    .line 16
-    .line 17
-    .line 18
-    move-result v0
-
-    .line 19
-    const/16 v1, 0x64
-
-    .line 20
-    .line 21
-    if-lt v0, v1, :cond_0
-
-    .line 22
-    .line 23
-    const-string p1, "AppLovin"
-
-    .line 24
-    .line 25
-    const-string p2, "getInterstitialAds: ignore"
-
-    .line 26
-    .line 27
-    invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 28
-    .line 29
-    .line 30
-    const/4 p1, 0x0
-
-    .line 31
-    return-object p1
-
-    .line 32
-    :cond_0
-    new-instance v0, Lcom/applovin/mediation/ads/MaxInterstitialAd;
-
-    .line 33
-    .line 34
-    move-object v1, p1
-
-    .line 35
-    check-cast v1, Landroid/app/Activity;
-
-    .line 36
-    .line 37
-    invoke-direct {v0, p2, v1}, Lcom/applovin/mediation/ads/MaxInterstitialAd;-><init>(Ljava/lang/String;Landroid/app/Activity;)V
-
-    .line 38
-    .line 39
-    .line 40
-    new-instance p2, Ll4/f$b;
-
-    .line 41
-    .line 42
-    invoke-direct {p2, p0, p1}, Ll4/f$b;-><init>(Ll4/f;Landroid/content/Context;)V
-
-    .line 43
-    .line 44
-    .line 45
-    # invoke-virtual {v0, p2}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->setListener(Lcom/applovin/mediation/MaxAdListener;)V
-
-    .line 46
-    .line 47
-    .line 48
-    # invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->isReady()Z
-
-    .line 49
-    .line 50
-    .line 51
-    # move-result p1
-    const/4 p1,0x1
-
-    .line 52
-    if-nez p1, :cond_1
-
-    .line 53
-    .line 54
-    # invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->loadAd()V
-
-    .line 55
-    .line 56
-    .line 57
-    :cond_1
-    return-object v0
-.end method
+# .method public final b(Landroid/content/Context;Ljava/lang/String;)Lcom/applovin/mediation/ads/MaxInterstitialAd;
+#     .locals 2
+#
+#     .line 1
+#     invoke-static {}, Lm4/a;->a()Lm4/a;
+#
+#     .line 2
+#     .line 3
+#     .line 4
+#     move-result-object v0
+#
+#     .line 5
+#     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+#
+#     .line 6
+#     .line 7
+#     .line 8
+#     const-string v0, "setting_applovin.pref"
+#
+#     .line 9
+#     .line 10
+#     const/4 v1, 0x0
+#
+#     .line 11
+#     invoke-virtual {p1, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+#
+#     .line 12
+#     .line 13
+#     .line 14
+#     move-result-object v0
+#
+#     .line 15
+#     invoke-interface {v0, p2, v1}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
+#
+#     .line 16
+#     .line 17
+#     .line 18
+#     move-result v0
+#
+#     .line 19
+#     const/16 v1, 0x64
+#
+#     .line 20
+#     .line 21
+#     if-lt v0, v1, :cond_0
+#
+#     .line 22
+#     .line 23
+#     const-string p1, "AppLovin"
+#
+#     .line 24
+#     .line 25
+#     const-string p2, "getInterstitialAds: ignore"
+#
+#     .line 26
+#     .line 27
+#     invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 28
+#     .line 29
+#     .line 30
+#     const/4 p1, 0x0
+#
+#     .line 31
+#     return-object p1
+#
+#     .line 32
+#     :cond_0
+#     new-instance v0, Lcom/applovin/mediation/ads/MaxInterstitialAd;
+#
+#     .line 33
+#     .line 34
+#     move-object v1, p1
+#
+#     .line 35
+#     check-cast v1, Landroid/app/Activity;
+#
+#     .line 36
+#     .line 37
+#     invoke-direct {v0, p2, v1}, Lcom/applovin/mediation/ads/MaxInterstitialAd;-><init>(Ljava/lang/String;Landroid/app/Activity;)V
+#
+#     .line 38
+#     .line 39
+#     .line 40
+#     new-instance p2, Ll4/f$b;
+#
+#     .line 41
+#     .line 42
+#     invoke-direct {p2, p0, p1}, Ll4/f$b;-><init>(Ll4/f;Landroid/content/Context;)V
+#
+#     .line 43
+#     .line 44
+#     .line 45
+#     # invoke-virtual {v0, p2}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->setListener(Lcom/applovin/mediation/MaxAdListener;)V
+#
+#     .line 46
+#     .line 47
+#     .line 48
+#     # invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->isReady()Z
+#
+#     .line 49
+#     .line 50
+#     .line 51
+#     # move-result p1
+#     const/4 p1,0x1
+#
+#     .line 52
+#     if-nez p1, :cond_1
+#
+#     .line 53
+#     .line 54
+#     # invoke-virtual {v0}, Lcom/applovin/mediation/ads/MaxInterstitialAd;->loadAd()V
+#
+#     .line 55
+#     .line 56
+#     .line 57
+#     :cond_1
+#     return-object v0
+# .end method
 
 .method public final c(Landroid/app/Activity;Ly1/d;)V
     .locals 5

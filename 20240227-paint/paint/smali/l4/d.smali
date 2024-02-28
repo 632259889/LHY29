@@ -1,7 +1,7 @@
 .class public final Ll4/d;
-.super Lcom/applovin/mediation/nativeAds/MaxNativeAdListener;
+.super Ljava/lang/Object;
 .source "SourceFile"
-
+# com/applovin/mediation/nativeAds/MaxNativeAdListener
 
 # instance fields
 .field public final synthetic g:Ly1/d;

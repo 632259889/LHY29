@@ -10,5 +10,5 @@
 .method public abstract c()V
 .end method
 
-.method public abstract f()Lg9/a;
-.end method
+# .method public abstract f()Lg9/a;
+# .end method

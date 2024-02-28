@@ -545,42 +545,42 @@
 .method private final g()V
     .locals 3
 
-    .line 1
-    iget-object v0, p0, Landroidx/activity/i;->d:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    check-cast v0, Lj9/i;
-
-    .line 4
-    .line 5
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 6
-    .line 7
-    .line 8
-    new-instance v1, Lt/l;
-
-    .line 9
-    .line 10
-    const/16 v2, 0xf
-
-    .line 11
-    .line 12
-    invoke-direct {v1, v0, v2}, Lt/l;-><init>(Ljava/lang/Object;I)V
-
-    .line 13
-    .line 14
-    .line 15
-    iget-object v0, v0, Lj9/i;->d:Ll9/b;
-
-    .line 16
-    .line 17
-    invoke-interface {v0, v1}, Ll9/b;->i(Ll9/b$a;)Ljava/lang/Object;
-
-    .line 18
-    .line 19
-    .line 20
+    # .line 1
+    # iget-object v0, p0, Landroidx/activity/i;->d:Ljava/lang/Object;
+    #
+    # .line 2
+    # .line 3
+    # check-cast v0, Lj9/i;
+    #
+    # .line 4
+    # .line 5
+    # invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    #
+    # .line 6
+    # .line 7
+    # .line 8
+    # new-instance v1, Lt/l;
+    #
+    # .line 9
+    # .line 10
+    # const/16 v2, 0xf
+    #
+    # .line 11
+    # .line 12
+    # invoke-direct {v1, v0, v2}, Lt/l;-><init>(Ljava/lang/Object;I)V
+    #
+    # .line 13
+    # .line 14
+    # .line 15
+    # iget-object v0, v0, Lj9/i;->d:Ll9/b;
+    #
+    # .line 16
+    # .line 17
+    # invoke-interface {v0, v1}, Ll9/b;->i(Ll9/b$a;)Ljava/lang/Object;
+    #
+    # .line 18
+    # .line 19
+    # .line 20
     return-void
 .end method
 

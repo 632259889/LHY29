@@ -12,14 +12,14 @@
 
 
 # virtual methods
-.method public abstract i(Ll9/b$a;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Ll9/b$a<",
-            "TT;>;)TT;"
-        }
-    .end annotation
-.end method
+# .method public abstract i(Ll9/b$a;)Ljava/lang/Object;
+#     .annotation system Ldalvik/annotation/Signature;
+#         value = {
+#             "<T:",
+#             "Ljava/lang/Object;",
+#             ">(",
+#             "Ll9/b$a<",
+#             "TT;>;)TT;"
+#         }
+#     .end annotation
+# .end method

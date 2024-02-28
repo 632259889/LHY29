@@ -677,165 +677,165 @@
     .end packed-switch
 .end method
 
-.method public f()Ljava/lang/Object;
-    .locals 6
-
-    .line 1
-    iget v0, p0, Lt/l;->c:I
-
-    .line 2
-    .line 3
-    const/4 v1, 0x0
-
-    .line 4
-    iget-object v2, p0, Lt/l;->d:Ljava/lang/Object;
-
-    .line 5
-    .line 6
-    packed-switch v0, :pswitch_data_0
-
-    .line 7
-    .line 8
-    .line 9
-    goto :goto_0
-
-    .line 10
-    :pswitch_0
-    check-cast v2, Lk9/c;
-
-    .line 11
-    .line 12
-    invoke-interface {v2}, Lk9/c;->f()Lg9/a;
-
-    .line 13
-    .line 14
-    .line 15
-    move-result-object v0
-
-    .line 16
-    return-object v0
-
-    .line 17
-    :pswitch_1
-    check-cast v2, Lj9/g;
-
-    .line 18
-    .line 19
-    iget-object v0, v2, Lj9/g;->i:Lk9/c;
-
-    .line 20
-    .line 21
-    invoke-interface {v0}, Lk9/c;->c()V
-
-    .line 22
-    .line 23
-    .line 24
-    return-object v1
-
-    .line 25
-    :pswitch_2
-    check-cast v2, Lk9/d;
-
-    .line 26
-    .line 27
-    invoke-interface {v2}, Lk9/d;->j()I
-
-    .line 28
-    .line 29
-    .line 30
-    move-result v0
-
-    .line 31
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 32
-    .line 33
-    .line 34
-    move-result-object v0
-
-    .line 35
-    return-object v0
-
-    .line 36
-    :goto_0
-    check-cast v2, Lj9/i;
-
-    .line 37
-    .line 38
-    iget-object v0, v2, Lj9/i;->b:Lk9/d;
-
-    .line 39
-    .line 40
-    invoke-interface {v0}, Lk9/d;->z()Ljava/lang/Iterable;
-
-    .line 41
-    .line 42
-    .line 43
-    move-result-object v0
-
-    .line 44
-    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
-
-    .line 45
-    .line 46
-    .line 47
-    move-result-object v0
-
-    .line 48
-    :goto_1
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
-
-    .line 49
-    .line 50
-    .line 51
-    move-result v3
-
-    .line 52
-    if-eqz v3, :cond_0
-
-    .line 53
-    .line 54
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    .line 55
-    .line 56
-    .line 57
-    move-result-object v3
-
-    .line 58
-    check-cast v3, Ld9/s;
-
-    .line 59
-    .line 60
-    iget-object v4, v2, Lj9/i;->c:Lj9/j;
-
-    .line 61
-    .line 62
-    const/4 v5, 0x1
-
-    .line 63
-    invoke-interface {v4, v3, v5}, Lj9/j;->a(Ld9/s;I)V
-
-    .line 64
-    .line 65
-    .line 66
-    goto :goto_1
-
-    .line 67
-    :cond_0
-    return-object v1
-
-    .line 68
-    nop
-
-    .line 69
-    :pswitch_data_0
-    .packed-switch 0xc
-        :pswitch_2
-        :pswitch_1
-        :pswitch_0
-    .end packed-switch
-.end method
+# .method public f()Ljava/lang/Object;
+#     .locals 6
+#
+#     .line 1
+#     iget v0, p0, Lt/l;->c:I
+#
+#     .line 2
+#     .line 3
+#     const/4 v1, 0x0
+#
+#     .line 4
+#     iget-object v2, p0, Lt/l;->d:Ljava/lang/Object;
+#
+#     .line 5
+#     .line 6
+#     packed-switch v0, :pswitch_data_0
+#
+#     .line 7
+#     .line 8
+#     .line 9
+#     goto :goto_0
+#
+#     .line 10
+#     :pswitch_0
+#     check-cast v2, Lk9/c;
+#
+#     .line 11
+#     .line 12
+#     invoke-interface {v2}, Lk9/c;->f()Lg9/a;
+#
+#     .line 13
+#     .line 14
+#     .line 15
+#     move-result-object v0
+#
+#     .line 16
+#     return-object v0
+#
+#     .line 17
+#     :pswitch_1
+#     check-cast v2, Lj9/g;
+#
+#     .line 18
+#     .line 19
+#     iget-object v0, v2, Lj9/g;->i:Lk9/c;
+#
+#     .line 20
+#     .line 21
+#     invoke-interface {v0}, Lk9/c;->c()V
+#
+#     .line 22
+#     .line 23
+#     .line 24
+#     return-object v1
+#
+#     .line 25
+#     :pswitch_2
+#     check-cast v2, Lk9/d;
+#
+#     .line 26
+#     .line 27
+#     invoke-interface {v2}, Lk9/d;->j()I
+#
+#     .line 28
+#     .line 29
+#     .line 30
+#     move-result v0
+#
+#     .line 31
+#     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+#
+#     .line 32
+#     .line 33
+#     .line 34
+#     move-result-object v0
+#
+#     .line 35
+#     return-object v0
+#
+#     .line 36
+#     :goto_0
+#     check-cast v2, Lj9/i;
+#
+#     .line 37
+#     .line 38
+#     iget-object v0, v2, Lj9/i;->b:Lk9/d;
+#
+#     .line 39
+#     .line 40
+#     invoke-interface {v0}, Lk9/d;->z()Ljava/lang/Iterable;
+#
+#     .line 41
+#     .line 42
+#     .line 43
+#     move-result-object v0
+#
+#     .line 44
+#     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+#
+#     .line 45
+#     .line 46
+#     .line 47
+#     move-result-object v0
+#
+#     .line 48
+#     :goto_1
+#     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+#
+#     .line 49
+#     .line 50
+#     .line 51
+#     move-result v3
+#
+#     .line 52
+#     if-eqz v3, :cond_0
+#
+#     .line 53
+#     .line 54
+#     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+#
+#     .line 55
+#     .line 56
+#     .line 57
+#     move-result-object v3
+#
+#     .line 58
+#     check-cast v3, Ld9/s;
+#
+#     .line 59
+#     .line 60
+#     iget-object v4, v2, Lj9/i;->c:Lj9/j;
+#
+#     .line 61
+#     .line 62
+#     const/4 v5, 0x1
+#
+#     .line 63
+#     invoke-interface {v4, v3, v5}, Lj9/j;->a(Ld9/s;I)V
+#
+#     .line 64
+#     .line 65
+#     .line 66
+#     goto :goto_1
+#
+#     .line 67
+#     :cond_0
+#     return-object v1
+#
+#     .line 68
+#     nop
+#
+#     .line 69
+#     :pswitch_data_0
+#     .packed-switch 0xc
+#         :pswitch_2
+#         :pswitch_1
+#         :pswitch_0
+#     .end packed-switch
+# .end method
 
 .method public onCancel()V
     .locals 2

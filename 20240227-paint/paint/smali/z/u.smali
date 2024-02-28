@@ -710,43 +710,43 @@
 
     .line 48
     :cond_0
-    invoke-virtual {v3}, Lk9/m;->m()Landroid/database/sqlite/SQLiteDatabase;
-
-    .line 49
-    .line 50
-    .line 51
-    move-result-object v0
-
-    .line 52
-    const/4 v2, 0x1
-
-    .line 53
-    new-array v2, v2, [Ljava/lang/String;
-
-    .line 54
-    .line 55
-    invoke-virtual {p1}, Ljava/lang/Long;->toString()Ljava/lang/String;
-
-    .line 56
-    .line 57
-    .line 58
-    move-result-object p1
-
-    .line 59
-    aput-object p1, v2, v1
-
-    .line 60
-    .line 61
-    const-string p1, "SELECT 1 FROM events WHERE context_id = ? LIMIT 1"
-
-    .line 62
-    .line 63
-    invoke-virtual {v0, p1, v2}, Landroid/database/sqlite/SQLiteDatabase;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    # invoke-virtual {v3}, Lk9/m;->m()Landroid/database/sqlite/SQLiteDatabase;
+    #
+    # .line 49
+    # .line 50
+    # .line 51
+    # move-result-object v0
+    #
+    # .line 52
+    # const/4 v2, 0x1
+    #
+    # .line 53
+    # new-array v2, v2, [Ljava/lang/String;
+    #
+    # .line 54
+    # .line 55
+    # invoke-virtual {p1}, Ljava/lang/Long;->toString()Ljava/lang/String;
+    #
+    # .line 56
+    # .line 57
+    # .line 58
+    # move-result-object p1
+    #
+    # .line 59
+    # aput-object p1, v2, v1
+    #
+    # .line 60
+    # .line 61
+    # const-string p1, "SELECT 1 FROM events WHERE context_id = ? LIMIT 1"
+    #
+    # .line 62
+    # .line 63
+    # invoke-virtual {v0, p1, v2}, Landroid/database/sqlite/SQLiteDatabase;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 64
     .line 65
     .line 66
-    move-result-object p1
+    # move-result-object p1
 
     .line 67
     # new-instance v0, Lcom/applovin/exoplayer2/e/g/p;

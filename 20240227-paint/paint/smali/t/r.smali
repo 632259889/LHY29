@@ -805,33 +805,34 @@
 
     .line 386
     :cond_8
-    invoke-interface {v8, v4}, Le9/k;->b(Ld9/n;)Ld9/h;
-
-    .line 387
-    .line 388
-    .line 389
-    move-result-object v1
-
-    .line 390
-    iget-object v2, v7, Li9/a;->e:Ll9/b;
-
-    .line 391
-    .line 392
-    new-instance v4, Lk0/d;
-
-    .line 393
-    .line 394
-    invoke-direct {v4, v7, v6, v1}, Lk0/d;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-
-    .line 395
-    .line 396
-    .line 397
-    invoke-interface {v2, v4}, Ll9/b;->i(Ll9/b$a;)Ljava/lang/Object;
-
-    .line 398
-    .line 399
-    .line 400
-    invoke-interface {v5, v3}, La9/h;->e(Ljava/lang/Exception;)V
+    # invoke-interface {v8, v4}, Le9/k;->b(Ld9/n;)Ld9/h;
+    #
+    # .line 387
+    # .line 388
+    # .line 389
+    # move-result-object v1
+    #
+    # .line 390
+    # iget-object v2, v7, Li9/a;->e:Ll9/b;
+    #
+    # .line 391
+    # .line 392
+    # new-instance v4, Lk0/d;
+    #
+    # .line 393
+    # .line 394
+    # invoke-direct {v4, v7, v6, v1}, Lk0/d;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    #
+    # .line 395
+    # .line 396
+    # .line 397
+    # invoke-interface {v2, v4}, Ll9/b;->i(Ll9/b$a;)Ljava/lang/Object;
+    #
+    # .line 398
+    # .line 399
+    # .line 400
+    # invoke-interface {v5, v3}, La9/h;->e(Ljava/lang/Exception;)V
+      goto :goto_3
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
