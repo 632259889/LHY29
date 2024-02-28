@@ -625,9 +625,9 @@
 
     if-lt v0, v9, :cond_f
 
-    invoke-static {}, Lcom/applovin/exoplayer2/l/c0;->h()Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
-
-    move-result-object v4
+    # invoke-static {}, Lcom/applovin/exoplayer2/l/c0;->h()Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    #
+    # move-result-object v4
 
     goto :goto_f
 

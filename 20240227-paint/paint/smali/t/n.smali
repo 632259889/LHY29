@@ -566,9 +566,9 @@
 
     invoke-static {v1, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget-object v3, Lq7/r;->s:Lcom/applovin/exoplayer2/m/p;
-
-    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    # sget-object v3, Lq7/r;->s:Lcom/applovin/exoplayer2/m/p;
+    #
+    # invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 12
     sget-object v3, Lq7/u;->j:Ljava/lang/String;
