@@ -2612,13 +2612,13 @@
     .line 317
     .line 318
     .line 319
-    invoke-static {v9}, Lcom/applovin/exoplayer2/i0;->b(Landroid/app/ApplicationExitInfo;)I
+    # invoke-static {v9}, Lcom/applovin/exoplayer2/i0;->b(Landroid/app/ApplicationExitInfo;)I
 
     .line 320
     .line 321
     .line 322
-    move-result v10
-    # const v10,0x1
+    # move-result v10
+    const v10,0x1
 
     .line 323
     invoke-static {v10}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2689,13 +2689,13 @@
 
     .line 356
     .line 357
-    invoke-static {v9}, Lcom/applovin/exoplayer2/l/c0;->b(Landroid/app/ApplicationExitInfo;)I
+    # invoke-static {v9}, Lcom/applovin/exoplayer2/l/c0;->b(Landroid/app/ApplicationExitInfo;)I
 
     .line 358
     .line 359
     .line 360
-    move-result v10
-    # const v10,0x1
+    # move-result v10
+    const v10,0x1
 
     .line 361
     invoke-static {v10}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

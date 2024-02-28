@@ -619,19 +619,19 @@
     move-result-object p1
 
     .line 135
-    new-instance p2, Lcom/applovin/exoplayer2/j/l;
+    # new-instance p2, Lcom/applovin/exoplayer2/j/l;
 
     .line 136
     .line 137
     const/4 p3, 0x3
 
     .line 138
-    invoke-direct {p2, p3}, Lcom/applovin/exoplayer2/j/l;-><init>(I)V
+    # invoke-direct {p2, p3}, Lcom/applovin/exoplayer2/j/l;-><init>(I)V
 
     .line 139
     .line 140
     .line 141
-    invoke-static {p1, p2}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
+    # invoke-static {p1, p2}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
     .line 142
     .line 143

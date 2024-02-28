@@ -63,22 +63,22 @@
 
 
 # direct methods
-.method public constructor <init>(Lob/a;Lcom/applovin/exoplayer2/j0;)V
+.method public constructor <init>()V#Lob/a;Lcom/applovin/exoplayer2/j0;
     .locals 2
 
-    sget-object v0, Lug/a;->b:Lug/a$a;
-
-    sget-object v1, Lug/a;->c:Lug/a$b;
-
-    invoke-direct {p0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
-
-    iput-object p1, p0, Lwg/e;->c:Lsg/b;
-
-    iput-object p2, p0, Lwg/e;->d:Lsg/b;
-
-    iput-object v0, p0, Lwg/e;->e:Lsg/a;
-
-    iput-object v1, p0, Lwg/e;->f:Lsg/b;
+    # sget-object v0, Lug/a;->b:Lug/a$a;
+    #
+    # sget-object v1, Lug/a;->c:Lug/a$b;
+    #
+    # invoke-direct {p0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
+    #
+    # iput-object p1, p0, Lwg/e;->c:Lsg/b;
+    #
+    # iput-object p2, p0, Lwg/e;->d:Lsg/b;
+    #
+    # iput-object v0, p0, Lwg/e;->e:Lsg/a;
+    #
+    # iput-object v1, p0, Lwg/e;->f:Lsg/b;
 
     return-void
 .end method
