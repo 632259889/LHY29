@@ -74,42 +74,42 @@
 .method public final onCreate()Z
     .locals 3
 
-    :try_start_0
-    invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    invoke-static {v0}, Lq7/r;->k(Landroid/content/Context;)V
-
-    goto :goto_0
-
-    :cond_0
-    const-string v0, "Required value was null."
-
-    new-instance v1, Ljava/lang/IllegalArgumentException;
-
-    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-direct {v1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    throw v1
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    :catch_0
-    move-exception v0
-
-    const-string v1, "FacebookInitProvider"
-
-    const-string v2, "Failed to auto initialize the Facebook SDK"
-
-    invoke-static {v1, v2, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
-
-    :goto_0
+    # :try_start_0
+    # invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
+    #
+    # move-result-object v0
+    #
+    # if-eqz v0, :cond_0
+    #
+    # invoke-static {v0}, Lq7/r;->k(Landroid/content/Context;)V
+    #
+    # goto :goto_0
+    #
+    # :cond_0
+    # const-string v0, "Required value was null."
+    #
+    # new-instance v1, Ljava/lang/IllegalArgumentException;
+    #
+    # invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    #
+    # move-result-object v0
+    #
+    # invoke-direct {v1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    #
+    # throw v1
+    # :try_end_0
+    # .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+    #
+    # :catch_0
+    # move-exception v0
+    #
+    # const-string v1, "FacebookInitProvider"
+    #
+    # const-string v2, "Failed to auto initialize the Facebook SDK"
+    #
+    # invoke-static {v1, v2, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    #
+    # :goto_0
     const/4 v0, 0x0
 
     return v0

@@ -749,28 +749,29 @@
     move-result-object p1
 
     .line 67
-    new-instance v0, Lcom/applovin/exoplayer2/e/g/p;
+    # new-instance v0, Lcom/applovin/exoplayer2/e/g/p;
 
     .line 68
     .line 69
-    const/16 v1, 0x15
-
-    .line 70
-    .line 71
-    invoke-direct {v0, v1}, Lcom/applovin/exoplayer2/e/g/p;-><init>(I)V
-
-    .line 72
-    .line 73
-    .line 74
-    invoke-static {p1, v0}, Lk9/m;->I(Landroid/database/Cursor;Lk9/m$a;)Ljava/lang/Object;
+    # const/16 v1, 0x15
+    #
+    # .line 70
+    # .line 71
+    # invoke-direct {v0, v1}, Lcom/applovin/exoplayer2/e/g/p;-><init>(I)V
+    #
+    # .line 72
+    # .line 73
+    # .line 74
+    # invoke-static {p1, v0}, Lk9/m;->I(Landroid/database/Cursor;Lk9/m$a;)Ljava/lang/Object;
 
     .line 75
     .line 76
     .line 77
-    move-result-object p1
+    # move-result-object p1
 
     .line 78
-    check-cast p1, Ljava/lang/Boolean;
+    # check-cast p1, Ljava/lang/Boolean;
+    const/4 p1,0x1
 
     .line 79
     .line 80
@@ -1952,183 +1953,183 @@
     return-void
 .end method
 
-.method public final then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object;
-    .locals 4
-
-    .line 1
-    iget v0, p0, Lz/u;->c:I
-
-    .line 2
-    .line 3
-    packed-switch v0, :pswitch_data_0
-
-    .line 4
-    .line 5
-    .line 6
-    goto :goto_1
-
-    .line 7
-    :pswitch_0
-    iget-object v0, p0, Lz/u;->e:Ljava/lang/Object;
-
-    .line 8
-    .line 9
-    check-cast v0, Landroid/content/Context;
-
-    .line 10
-    .line 11
-    iget-object v1, p0, Lz/u;->d:Ljava/lang/Object;
-
-    .line 12
-    .line 13
-    check-cast v1, Landroid/content/Intent;
-
-    .line 14
-    .line 15
-    sget-object v2, Lcom/google/firebase/messaging/i;->c:Ljava/lang/Object;
-
-    .line 16
-    .line 17
-    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;->isAtLeastO()Z
-
-    .line 18
-    .line 19
-    .line 20
-    move-result v2
-
-    .line 21
-    if-eqz v2, :cond_1
-
-    .line 22
-    .line 23
-    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;->getResult()Ljava/lang/Object;
-
-    .line 24
-    .line 25
-    .line 26
-    move-result-object v2
-
-    .line 27
-    check-cast v2, Ljava/lang/Integer;
-
-    .line 28
-    .line 29
-    invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
-
-    .line 30
-    .line 31
-    .line 32
-    move-result v2
-
-    .line 33
-    const/16 v3, 0x192
-
-    .line 34
-    .line 35
-    if-eq v2, v3, :cond_0
-
-    .line 36
-    .line 37
-    goto :goto_0
-
-    .line 38
-    :cond_0
-    invoke-static {v0, v1}, Lcom/google/firebase/messaging/i;->a(Landroid/content/Context;Landroid/content/Intent;)Lcom/google/android/gms/tasks/Task;
-
-    .line 39
-    .line 40
-    .line 41
-    move-result-object p1
-
-    .line 42
-    new-instance v0, Ln/a;
-
-    .line 43
-    .line 44
-    const/4 v1, 0x4
-
-    .line 45
-    invoke-direct {v0, v1}, Ln/a;-><init>(I)V
-
-    .line 46
-    .line 47
-    .line 48
-    new-instance v1, Lcom/applovin/exoplayer2/j0;
-
-    .line 49
-    .line 50
-    const/16 v2, 0xf
-
-    .line 51
-    .line 52
-    invoke-direct {v1, v2}, Lcom/applovin/exoplayer2/j0;-><init>(I)V
-
-    .line 53
-    .line 54
-    .line 55
-    invoke-virtual {p1, v0, v1}, Lcom/google/android/gms/tasks/Task;->continueWith(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/Continuation;)Lcom/google/android/gms/tasks/Task;
-
-    .line 56
-    .line 57
-    .line 58
-    move-result-object p1
-
-    .line 59
-    :cond_1
-    :goto_0
-    return-object p1
-
-    .line 60
-    :goto_1
-    iget-object v0, p0, Lz/u;->d:Ljava/lang/Object;
-
-    .line 61
-    .line 62
-    check-cast v0, Lcom/google/firebase/messaging/t;
-
-    .line 63
-    .line 64
-    iget-object v1, p0, Lz/u;->e:Ljava/lang/Object;
-
-    .line 65
-    .line 66
-    check-cast v1, Ljava/lang/String;
-
-    .line 67
-    .line 68
-    monitor-enter v0
-
-    .line 69
-    :try_start_0
-    iget-object v2, v0, Lcom/google/firebase/messaging/t;->b:Lq0/b;
-
-    .line 70
-    .line 71
-    invoke-virtual {v2, v1}, Lq0/h;->remove(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 72
-    .line 73
-    .line 74
-    monitor-exit v0
-
-    .line 75
-    return-object p1
-
-    .line 76
-    :catchall_0
-    move-exception p1
-
-    .line 77
-    monitor-exit v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 78
-    throw p1
-
-    .line 79
-    :pswitch_data_0
-    .packed-switch 0x9
-        :pswitch_0
-    .end packed-switch
-.end method
+# .method public final then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object;
+#     .locals 4
+#
+#     .line 1
+#     iget v0, p0, Lz/u;->c:I
+#
+#     .line 2
+#     .line 3
+#     packed-switch v0, :pswitch_data_0
+#
+#     .line 4
+#     .line 5
+#     .line 6
+#     goto :goto_1
+#
+#     .line 7
+#     :pswitch_0
+#     iget-object v0, p0, Lz/u;->e:Ljava/lang/Object;
+#
+#     .line 8
+#     .line 9
+#     check-cast v0, Landroid/content/Context;
+#
+#     .line 10
+#     .line 11
+#     iget-object v1, p0, Lz/u;->d:Ljava/lang/Object;
+#
+#     .line 12
+#     .line 13
+#     check-cast v1, Landroid/content/Intent;
+#
+#     .line 14
+#     .line 15
+#     sget-object v2, Lcom/google/firebase/messaging/i;->c:Ljava/lang/Object;
+#
+#     .line 16
+#     .line 17
+#     invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;->isAtLeastO()Z
+#
+#     .line 18
+#     .line 19
+#     .line 20
+#     move-result v2
+#
+#     .line 21
+#     if-eqz v2, :cond_1
+#
+#     .line 22
+#     .line 23
+#     invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;->getResult()Ljava/lang/Object;
+#
+#     .line 24
+#     .line 25
+#     .line 26
+#     move-result-object v2
+#
+#     .line 27
+#     check-cast v2, Ljava/lang/Integer;
+#
+#     .line 28
+#     .line 29
+#     invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
+#
+#     .line 30
+#     .line 31
+#     .line 32
+#     move-result v2
+#
+#     .line 33
+#     const/16 v3, 0x192
+#
+#     .line 34
+#     .line 35
+#     if-eq v2, v3, :cond_0
+#
+#     .line 36
+#     .line 37
+#     goto :goto_0
+#
+#     .line 38
+#     :cond_0
+#     invoke-static {v0, v1}, Lcom/google/firebase/messaging/i;->a(Landroid/content/Context;Landroid/content/Intent;)Lcom/google/android/gms/tasks/Task;
+#
+#     .line 39
+#     .line 40
+#     .line 41
+#     move-result-object p1
+#
+#     .line 42
+#     new-instance v0, Ln/a;
+#
+#     .line 43
+#     .line 44
+#     const/4 v1, 0x4
+#
+#     .line 45
+#     invoke-direct {v0, v1}, Ln/a;-><init>(I)V
+#
+#     .line 46
+#     .line 47
+#     .line 48
+#     new-instance v1, Lcom/applovin/exoplayer2/j0;
+#
+#     .line 49
+#     .line 50
+#     const/16 v2, 0xf
+#
+#     .line 51
+#     .line 52
+#     invoke-direct {v1, v2}, Lcom/applovin/exoplayer2/j0;-><init>(I)V
+#
+#     .line 53
+#     .line 54
+#     .line 55
+#     invoke-virtual {p1, v0, v1}, Lcom/google/android/gms/tasks/Task;->continueWith(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/Continuation;)Lcom/google/android/gms/tasks/Task;
+#
+#     .line 56
+#     .line 57
+#     .line 58
+#     move-result-object p1
+#
+#     .line 59
+#     :cond_1
+#     :goto_0
+#     return-object p1
+#
+#     .line 60
+#     :goto_1
+#     iget-object v0, p0, Lz/u;->d:Ljava/lang/Object;
+#
+#     .line 61
+#     .line 62
+#     check-cast v0, Lcom/google/firebase/messaging/t;
+#
+#     .line 63
+#     .line 64
+#     iget-object v1, p0, Lz/u;->e:Ljava/lang/Object;
+#
+#     .line 65
+#     .line 66
+#     check-cast v1, Ljava/lang/String;
+#
+#     .line 67
+#     .line 68
+#     monitor-enter v0
+#
+#     .line 69
+#     :try_start_0
+#     iget-object v2, v0, Lcom/google/firebase/messaging/t;->b:Lq0/b;
+#
+#     .line 70
+#     .line 71
+#     invoke-virtual {v2, v1}, Lq0/h;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     .line 72
+#     .line 73
+#     .line 74
+#     monitor-exit v0
+#
+#     .line 75
+#     return-object p1
+#
+#     .line 76
+#     :catchall_0
+#     move-exception p1
+#
+#     .line 77
+#     monitor-exit v0
+#     :try_end_0
+#     .catchall {:try_start_0 .. :try_end_0} :catchall_0
+#
+#     .line 78
+#     throw p1
+#
+#     .line 79
+#     :pswitch_data_0
+#     .packed-switch 0x9
+#         :pswitch_0
+#     .end packed-switch
+# .end method

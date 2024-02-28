@@ -1792,19 +1792,19 @@
     return-void
 .end method
 
-.method public createProgressiveMediaExtractor()Lcom/applovin/exoplayer2/h/s;
-    .locals 1
-
-    iget-object v0, p0, Lq3/c;->d:Ljava/lang/Object;
-
-    check-cast v0, Lcom/applovin/exoplayer2/e/l;
-
-    invoke-static {v0}, Lcom/applovin/exoplayer2/h/u$a;->b(Lcom/applovin/exoplayer2/e/l;)Lcom/applovin/exoplayer2/h/s;
-
-    move-result-object v0
-
-    return-object v0
-.end method
+# .method public createProgressiveMediaExtractor()Lcom/applovin/exoplayer2/h/s;
+#     .locals 1
+#
+#     iget-object v0, p0, Lq3/c;->d:Ljava/lang/Object;
+#
+#     check-cast v0, Lcom/applovin/exoplayer2/e/l;
+#
+#     invoke-static {v0}, Lcom/applovin/exoplayer2/h/u$a;->b(Lcom/applovin/exoplayer2/e/l;)Lcom/applovin/exoplayer2/h/s;
+#
+#     move-result-object v0
+#
+#     return-object v0
+# .end method
 
 .method public d(Lr0/b$a;)Ljava/lang/String;
     .locals 7
@@ -2851,16 +2851,16 @@
     .end packed-switch
 .end method
 
-.method public timeUsToTargetTime(J)J
-    .locals 1
-
-    iget-object v0, p0, Lq3/c;->d:Ljava/lang/Object;
-
-    check-cast v0, Lcom/applovin/exoplayer2/e/p;
-
-    invoke-virtual {v0, p1, p2}, Lcom/applovin/exoplayer2/e/p;->a(J)J
-
-    move-result-wide p1
-
-    return-wide p1
-.end method
+# .method public timeUsToTargetTime(J)J
+#     .locals 1
+#
+#     iget-object v0, p0, Lq3/c;->d:Ljava/lang/Object;
+#
+#     # check-cast v0, Lcom/applovin/exoplayer2/e/p;
+#     #
+#     # invoke-virtual {v0, p1, p2}, Lcom/applovin/exoplayer2/e/p;->a(J)J
+#     #
+#     # move-result-wide p1
+#
+#     return-wide v0
+# .end method

@@ -99,10 +99,11 @@
     .locals 2
 
     iget-object v0, p0, Ln1/l0$d;->e:Landroid/view/WindowInsetsAnimation;
+    #
+    # invoke-static {v0}, Lcom/applovin/exoplayer2/i0;->c(Landroid/view/WindowInsetsAnimation;)J
+    #
+    # move-result-wide v0
 
-    invoke-static {v0}, Lcom/applovin/exoplayer2/i0;->c(Landroid/view/WindowInsetsAnimation;)J
-
-    move-result-wide v0
 
     return-wide v0
 .end method
