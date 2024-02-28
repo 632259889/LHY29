@@ -52,21 +52,21 @@
 .method public static constructor <clinit>()V
     .locals 2
     #
-    new-instance v0, Lcom/applovin/exoplayer2/j0;
+    # new-instance v0, Lcom/applovin/exoplayer2/j0;
 
-    const/16 v1, 0xb
+    # const/16 v1, 0xb
 
-    invoke-direct {v0, v1}, Lcom/applovin/exoplayer2/j0;-><init>(I)V
+    # invoke-direct {v0, v1}, Lcom/applovin/exoplayer2/j0;-><init>(I)V
 
-    sput-object v0, Lob/u;->c:Lcom/applovin/exoplayer2/j0;
-
-    new-instance v0, Lob/i;
-
-    const/4 v1, 0x1
-
-    invoke-direct {v0, v1}, Lob/i;-><init>(I)V
-
-    sput-object v0, Lob/u;->d:Lob/i;
+    # sput-object v0, Lob/u;->c:Lcom/applovin/exoplayer2/j0;
+    #
+    # new-instance v0, Lob/i;
+    #
+    # const/4 v1, 0x1
+    #
+    # invoke-direct {v0, v1}, Lob/i;-><init>(I)V
+    #
+    # sput-object v0, Lob/u;->d:Lob/i;
 
     return-void
 .end method

@@ -302,529 +302,529 @@
     return-void
 .end method
 
-.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 11
-
-    .line 1
-    iget-object v0, p0, Lt/f0;->d:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    check-cast v0, Lk9/m;
-
-    .line 4
-    .line 5
-    iget-object v1, p0, Lt/f0;->e:Ljava/lang/Object;
-
-    .line 6
-    .line 7
-    check-cast v1, Ld9/s;
-
-    .line 8
-    .line 9
-    move-object v2, p1
-
-    .line 10
-    check-cast v2, Landroid/database/sqlite/SQLiteDatabase;
-
-    .line 11
-    .line 12
-    iget-object p1, v0, Lk9/m;->f:Lk9/e;
-
-    .line 13
-    .line 14
-    invoke-virtual {p1}, Lk9/e;->c()I
-
-    .line 15
-    .line 16
-    .line 17
-    move-result v3
-
-    .line 18
-    invoke-virtual {v0, v2, v1, v3}, Lk9/m;->u(Landroid/database/sqlite/SQLiteDatabase;Ld9/s;I)Ljava/util/ArrayList;
-
-    .line 19
-    .line 20
-    .line 21
-    move-result-object v10
-
-    .line 22
-    invoke-static {}, La9/d;->values()[La9/d;
-
-    .line 23
-    .line 24
-    .line 25
-    move-result-object v3
-
-    .line 26
-    array-length v4, v3
-
-    .line 27
-    const/4 v5, 0x0
-
-    .line 28
-    const/4 v6, 0x0
-
-    .line 29
-    :goto_0
-    if-ge v6, v4, :cond_2
-
-    .line 30
-    .line 31
-    aget-object v7, v3, v6
-
-    .line 32
-    .line 33
-    invoke-virtual {v1}, Ld9/s;->d()La9/d;
-
-    .line 34
-    .line 35
-    .line 36
-    move-result-object v8
-
-    .line 37
-    if-ne v7, v8, :cond_0
-
-    .line 38
-    .line 39
-    goto :goto_1
-
-    .line 40
-    :cond_0
-    invoke-virtual {p1}, Lk9/e;->c()I
-
-    .line 41
-    .line 42
-    .line 43
-    move-result v8
-
-    .line 44
-    invoke-virtual {v10}, Ljava/util/ArrayList;->size()I
-
-    .line 45
-    .line 46
-    .line 47
-    move-result v9
-
-    .line 48
-    sub-int/2addr v8, v9
-
-    .line 49
-    if-gtz v8, :cond_1
-
-    .line 50
-    .line 51
-    goto :goto_2
-
-    .line 52
-    :cond_1
-    invoke-virtual {v1, v7}, Ld9/s;->e(La9/d;)Ld9/j;
-
-    .line 53
-    .line 54
-    .line 55
-    move-result-object v7
-
-    .line 56
-    invoke-virtual {v0, v2, v7, v8}, Lk9/m;->u(Landroid/database/sqlite/SQLiteDatabase;Ld9/s;I)Ljava/util/ArrayList;
-
-    .line 57
-    .line 58
-    .line 59
-    move-result-object v7
-
-    .line 60
-    invoke-virtual {v10, v7}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
-
-    .line 61
-    .line 62
-    .line 63
-    :goto_1
-    add-int/lit8 v6, v6, 0x1
-
-    .line 64
-    .line 65
-    goto :goto_0
-
-    .line 66
-    :cond_2
-    :goto_2
-    new-instance p1, Ljava/util/HashMap;
-
-    .line 67
-    .line 68
-    invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
-
-    .line 69
-    .line 70
-    .line 71
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    .line 72
-    .line 73
-    const-string v1, "event_id IN ("
-
-    .line 74
-    .line 75
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    .line 76
-    .line 77
-    .line 78
-    :goto_3
-    invoke-virtual {v10}, Ljava/util/ArrayList;->size()I
-
-    .line 79
-    .line 80
-    .line 81
-    move-result v1
-
-    .line 82
-    if-ge v5, v1, :cond_4
-
-    .line 83
-    .line 84
-    invoke-virtual {v10, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
-
-    .line 85
-    .line 86
-    .line 87
-    move-result-object v1
-
-    .line 88
-    check-cast v1, Lk9/i;
-
-    .line 89
-    .line 90
-    invoke-virtual {v1}, Lk9/i;->b()J
-
-    .line 91
-    .line 92
-    .line 93
-    move-result-wide v3
-
-    .line 94
-    invoke-virtual {v0, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
-    .line 95
-    .line 96
-    .line 97
-    invoke-virtual {v10}, Ljava/util/ArrayList;->size()I
-
-    .line 98
-    .line 99
-    .line 100
-    move-result v1
-
-    .line 101
-    add-int/lit8 v1, v1, -0x1
-
-    .line 102
-    .line 103
-    if-ge v5, v1, :cond_3
-
-    .line 104
-    .line 105
-    const/16 v1, 0x2c
-
-    .line 106
-    .line 107
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-
-    .line 108
-    .line 109
-    .line 110
-    :cond_3
-    add-int/lit8 v5, v5, 0x1
-
-    .line 111
-    .line 112
-    goto :goto_3
-
-    .line 113
-    :cond_4
-    const/16 v1, 0x29
-
-    .line 114
-    .line 115
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-
-    .line 116
-    .line 117
-    .line 118
-    const-string v3, "event_metadata"
-
-    .line 119
-    .line 120
-    const-string v1, "event_id"
-
-    .line 121
-    .line 122
-    const-string v4, "name"
-
-    .line 123
-    .line 124
-    const-string v5, "value"
-
-    .line 125
-    .line 126
-    filled-new-array {v1, v4, v5}, [Ljava/lang/String;
-
-    .line 127
-    .line 128
-    .line 129
-    move-result-object v4
-
-    .line 130
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 131
-    .line 132
-    .line 133
-    move-result-object v5
-
-    .line 134
-    const/4 v6, 0x0
-
-    .line 135
-    const/4 v7, 0x0
-
-    .line 136
-    const/4 v8, 0x0
-
-    .line 137
-    const/4 v9, 0x0
-
-    .line 138
-    invoke-virtual/range {v2 .. v9}, Landroid/database/sqlite/SQLiteDatabase;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
-
-    .line 139
-    .line 140
-    .line 141
-    move-result-object v0
-
-    .line 142
-    new-instance v1, Lq3/c;
-
-    .line 143
-    .line 144
-    const/16 v2, 0x17
-
-    .line 145
-    .line 146
-    invoke-direct {v1, p1, v2}, Lq3/c;-><init>(Ljava/lang/Object;I)V
-
-    .line 147
-    .line 148
-    .line 149
-    invoke-static {v0, v1}, Lk9/m;->I(Landroid/database/Cursor;Lk9/m$a;)Ljava/lang/Object;
-
-    .line 150
-    .line 151
-    .line 152
-    invoke-virtual {v10}, Ljava/util/ArrayList;->listIterator()Ljava/util/ListIterator;
-
-    .line 153
-    .line 154
-    .line 155
-    move-result-object v0
-
-    .line 156
-    :goto_4
-    invoke-interface {v0}, Ljava/util/ListIterator;->hasNext()Z
-
-    .line 157
-    .line 158
-    .line 159
-    move-result v1
-
-    .line 160
-    if-eqz v1, :cond_7
-
-    .line 161
-    .line 162
-    invoke-interface {v0}, Ljava/util/ListIterator;->next()Ljava/lang/Object;
-
-    .line 163
-    .line 164
-    .line 165
-    move-result-object v1
-
-    .line 166
-    check-cast v1, Lk9/i;
-
-    .line 167
-    .line 168
-    invoke-virtual {v1}, Lk9/i;->b()J
-
-    .line 169
-    .line 170
-    .line 171
-    move-result-wide v2
-
-    .line 172
-    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    .line 173
-    .line 174
-    .line 175
-    move-result-object v2
-
-    .line 176
-    invoke-virtual {p1, v2}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
-
-    .line 177
-    .line 178
-    .line 179
-    move-result v2
-
-    .line 180
-    if-nez v2, :cond_5
-
-    .line 181
-    .line 182
-    goto :goto_4
-
-    .line 183
-    :cond_5
-    invoke-virtual {v1}, Lk9/i;->a()Ld9/n;
-
-    .line 184
-    .line 185
-    .line 186
-    move-result-object v2
-
-    .line 187
-    invoke-virtual {v2}, Ld9/n;->i()Ld9/h$a;
-
-    .line 188
-    .line 189
-    .line 190
-    move-result-object v2
-
-    .line 191
-    invoke-virtual {v1}, Lk9/i;->b()J
-
-    .line 192
-    .line 193
-    .line 194
-    move-result-wide v3
-
-    .line 195
-    invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    .line 196
-    .line 197
-    .line 198
-    move-result-object v3
-
-    .line 199
-    invoke-virtual {p1, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 200
-    .line 201
-    .line 202
-    move-result-object v3
-
-    .line 203
-    check-cast v3, Ljava/util/Set;
-
-    .line 204
-    .line 205
-    invoke-interface {v3}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
-
-    .line 206
-    .line 207
-    .line 208
-    move-result-object v3
-
-    .line 209
-    :goto_5
-    invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
-
-    .line 210
-    .line 211
-    .line 212
-    move-result v4
-
-    .line 213
-    if-eqz v4, :cond_6
-
-    .line 214
-    .line 215
-    invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    .line 216
-    .line 217
-    .line 218
-    move-result-object v4
-
-    .line 219
-    check-cast v4, Lk9/m$b;
-
-    .line 220
-    .line 221
-    iget-object v5, v4, Lk9/m$b;->a:Ljava/lang/String;
-
-    .line 222
-    .line 223
-    iget-object v4, v4, Lk9/m$b;->b:Ljava/lang/String;
-
-    .line 224
-    .line 225
-    invoke-virtual {v2, v5, v4}, Ld9/n$a;->a(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 226
-    .line 227
-    .line 228
-    goto :goto_5
-
-    .line 229
-    :cond_6
-    invoke-virtual {v1}, Lk9/i;->b()J
-
-    .line 230
-    .line 231
-    .line 232
-    move-result-wide v3
-
-    .line 233
-    invoke-virtual {v1}, Lk9/i;->c()Ld9/s;
-
-    .line 234
-    .line 235
-    .line 236
-    move-result-object v1
-
-    .line 237
-    invoke-virtual {v2}, Ld9/h$a;->b()Ld9/h;
-
-    .line 238
-    .line 239
-    .line 240
-    move-result-object v2
-
-    .line 241
-    new-instance v5, Lk9/b;
-
-    .line 242
-    .line 243
-    invoke-direct {v5, v3, v4, v1, v2}, Lk9/b;-><init>(JLd9/s;Ld9/n;)V
-
-    .line 244
-    .line 245
-    .line 246
-    invoke-interface {v0, v5}, Ljava/util/ListIterator;->set(Ljava/lang/Object;)V
-
-    .line 247
-    .line 248
-    .line 249
-    goto :goto_4
-
-    .line 250
-    :cond_7
-    return-object v10
-.end method
+# .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
+#     .locals 11
+#
+#     .line 1
+#     iget-object v0, p0, Lt/f0;->d:Ljava/lang/Object;
+#
+#     .line 2
+#     .line 3
+#     check-cast v0, Lk9/m;
+#
+#     .line 4
+#     .line 5
+#     iget-object v1, p0, Lt/f0;->e:Ljava/lang/Object;
+#
+#     .line 6
+#     .line 7
+#     check-cast v1, Ld9/s;
+#
+#     .line 8
+#     .line 9
+#     move-object v2, p1
+#
+#     .line 10
+#     check-cast v2, Landroid/database/sqlite/SQLiteDatabase;
+#
+#     .line 11
+#     .line 12
+#     iget-object p1, v0, Lk9/m;->f:Lk9/e;
+#
+#     .line 13
+#     .line 14
+#     invoke-virtual {p1}, Lk9/e;->c()I
+#
+#     .line 15
+#     .line 16
+#     .line 17
+#     move-result v3
+#
+#     .line 18
+#     invoke-virtual {v0, v2, v1, v3}, Lk9/m;->u(Landroid/database/sqlite/SQLiteDatabase;Ld9/s;I)Ljava/util/ArrayList;
+#
+#     .line 19
+#     .line 20
+#     .line 21
+#     move-result-object v10
+#
+#     .line 22
+#     invoke-static {}, La9/d;->values()[La9/d;
+#
+#     .line 23
+#     .line 24
+#     .line 25
+#     move-result-object v3
+#
+#     .line 26
+#     array-length v4, v3
+#
+#     .line 27
+#     const/4 v5, 0x0
+#
+#     .line 28
+#     const/4 v6, 0x0
+#
+#     .line 29
+#     :goto_0
+#     if-ge v6, v4, :cond_2
+#
+#     .line 30
+#     .line 31
+#     aget-object v7, v3, v6
+#
+#     .line 32
+#     .line 33
+#     invoke-virtual {v1}, Ld9/s;->d()La9/d;
+#
+#     .line 34
+#     .line 35
+#     .line 36
+#     move-result-object v8
+#
+#     .line 37
+#     if-ne v7, v8, :cond_0
+#
+#     .line 38
+#     .line 39
+#     goto :goto_1
+#
+#     .line 40
+#     :cond_0
+#     invoke-virtual {p1}, Lk9/e;->c()I
+#
+#     .line 41
+#     .line 42
+#     .line 43
+#     move-result v8
+#
+#     .line 44
+#     invoke-virtual {v10}, Ljava/util/ArrayList;->size()I
+#
+#     .line 45
+#     .line 46
+#     .line 47
+#     move-result v9
+#
+#     .line 48
+#     sub-int/2addr v8, v9
+#
+#     .line 49
+#     if-gtz v8, :cond_1
+#
+#     .line 50
+#     .line 51
+#     goto :goto_2
+#
+#     .line 52
+#     :cond_1
+#     invoke-virtual {v1, v7}, Ld9/s;->e(La9/d;)Ld9/j;
+#
+#     .line 53
+#     .line 54
+#     .line 55
+#     move-result-object v7
+#
+#     .line 56
+#     invoke-virtual {v0, v2, v7, v8}, Lk9/m;->u(Landroid/database/sqlite/SQLiteDatabase;Ld9/s;I)Ljava/util/ArrayList;
+#
+#     .line 57
+#     .line 58
+#     .line 59
+#     move-result-object v7
+#
+#     .line 60
+#     invoke-virtual {v10, v7}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
+#
+#     .line 61
+#     .line 62
+#     .line 63
+#     :goto_1
+#     add-int/lit8 v6, v6, 0x1
+#
+#     .line 64
+#     .line 65
+#     goto :goto_0
+#
+#     .line 66
+#     :cond_2
+#     :goto_2
+#     new-instance p1, Ljava/util/HashMap;
+#
+#     .line 67
+#     .line 68
+#     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
+#
+#     .line 69
+#     .line 70
+#     .line 71
+#     new-instance v0, Ljava/lang/StringBuilder;
+#
+#     .line 72
+#     .line 73
+#     const-string v1, "event_id IN ("
+#
+#     .line 74
+#     .line 75
+#     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+#
+#     .line 76
+#     .line 77
+#     .line 78
+#     :goto_3
+#     invoke-virtual {v10}, Ljava/util/ArrayList;->size()I
+#
+#     .line 79
+#     .line 80
+#     .line 81
+#     move-result v1
+#
+#     .line 82
+#     if-ge v5, v1, :cond_4
+#
+#     .line 83
+#     .line 84
+#     invoke-virtual {v10, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+#
+#     .line 85
+#     .line 86
+#     .line 87
+#     move-result-object v1
+#
+#     .line 88
+#     check-cast v1, Lk9/i;
+#
+#     .line 89
+#     .line 90
+#     invoke-virtual {v1}, Lk9/i;->b()J
+#
+#     .line 91
+#     .line 92
+#     .line 93
+#     move-result-wide v3
+#
+#     .line 94
+#     invoke-virtual {v0, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+#
+#     .line 95
+#     .line 96
+#     .line 97
+#     invoke-virtual {v10}, Ljava/util/ArrayList;->size()I
+#
+#     .line 98
+#     .line 99
+#     .line 100
+#     move-result v1
+#
+#     .line 101
+#     add-int/lit8 v1, v1, -0x1
+#
+#     .line 102
+#     .line 103
+#     if-ge v5, v1, :cond_3
+#
+#     .line 104
+#     .line 105
+#     const/16 v1, 0x2c
+#
+#     .line 106
+#     .line 107
+#     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+#
+#     .line 108
+#     .line 109
+#     .line 110
+#     :cond_3
+#     add-int/lit8 v5, v5, 0x1
+#
+#     .line 111
+#     .line 112
+#     goto :goto_3
+#
+#     .line 113
+#     :cond_4
+#     const/16 v1, 0x29
+#
+#     .line 114
+#     .line 115
+#     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+#
+#     .line 116
+#     .line 117
+#     .line 118
+#     const-string v3, "event_metadata"
+#
+#     .line 119
+#     .line 120
+#     const-string v1, "event_id"
+#
+#     .line 121
+#     .line 122
+#     const-string v4, "name"
+#
+#     .line 123
+#     .line 124
+#     const-string v5, "value"
+#
+#     .line 125
+#     .line 126
+#     filled-new-array {v1, v4, v5}, [Ljava/lang/String;
+#
+#     .line 127
+#     .line 128
+#     .line 129
+#     move-result-object v4
+#
+#     .line 130
+#     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     .line 131
+#     .line 132
+#     .line 133
+#     move-result-object v5
+#
+#     .line 134
+#     const/4 v6, 0x0
+#
+#     .line 135
+#     const/4 v7, 0x0
+#
+#     .line 136
+#     const/4 v8, 0x0
+#
+#     .line 137
+#     const/4 v9, 0x0
+#
+#     .line 138
+#     invoke-virtual/range {v2 .. v9}, Landroid/database/sqlite/SQLiteDatabase;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+#
+#     .line 139
+#     .line 140
+#     .line 141
+#     move-result-object v0
+#
+#     .line 142
+#     new-instance v1, Lq3/c;
+#
+#     .line 143
+#     .line 144
+#     const/16 v2, 0x17
+#
+#     .line 145
+#     .line 146
+#     invoke-direct {v1, p1, v2}, Lq3/c;-><init>(Ljava/lang/Object;I)V
+#
+#     .line 147
+#     .line 148
+#     .line 149
+#     invoke-static {v0, v1}, Lk9/m;->I(Landroid/database/Cursor;Lk9/m$a;)Ljava/lang/Object;
+#
+#     .line 150
+#     .line 151
+#     .line 152
+#     invoke-virtual {v10}, Ljava/util/ArrayList;->listIterator()Ljava/util/ListIterator;
+#
+#     .line 153
+#     .line 154
+#     .line 155
+#     move-result-object v0
+#
+#     .line 156
+#     :goto_4
+#     invoke-interface {v0}, Ljava/util/ListIterator;->hasNext()Z
+#
+#     .line 157
+#     .line 158
+#     .line 159
+#     move-result v1
+#
+#     .line 160
+#     if-eqz v1, :cond_7
+#
+#     .line 161
+#     .line 162
+#     invoke-interface {v0}, Ljava/util/ListIterator;->next()Ljava/lang/Object;
+#
+#     .line 163
+#     .line 164
+#     .line 165
+#     move-result-object v1
+#
+#     .line 166
+#     check-cast v1, Lk9/i;
+#
+#     .line 167
+#     .line 168
+#     invoke-virtual {v1}, Lk9/i;->b()J
+#
+#     .line 169
+#     .line 170
+#     .line 171
+#     move-result-wide v2
+#
+#     .line 172
+#     invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+#
+#     .line 173
+#     .line 174
+#     .line 175
+#     move-result-object v2
+#
+#     .line 176
+#     invoke-virtual {p1, v2}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
+#
+#     .line 177
+#     .line 178
+#     .line 179
+#     move-result v2
+#
+#     .line 180
+#     if-nez v2, :cond_5
+#
+#     .line 181
+#     .line 182
+#     goto :goto_4
+#
+#     .line 183
+#     :cond_5
+#     invoke-virtual {v1}, Lk9/i;->a()Ld9/n;
+#
+#     .line 184
+#     .line 185
+#     .line 186
+#     move-result-object v2
+#
+#     .line 187
+#     invoke-virtual {v2}, Ld9/n;->i()Ld9/h$a;
+#
+#     .line 188
+#     .line 189
+#     .line 190
+#     move-result-object v2
+#
+#     .line 191
+#     invoke-virtual {v1}, Lk9/i;->b()J
+#
+#     .line 192
+#     .line 193
+#     .line 194
+#     move-result-wide v3
+#
+#     .line 195
+#     invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+#
+#     .line 196
+#     .line 197
+#     .line 198
+#     move-result-object v3
+#
+#     .line 199
+#     invoke-virtual {p1, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     .line 200
+#     .line 201
+#     .line 202
+#     move-result-object v3
+#
+#     .line 203
+#     check-cast v3, Ljava/util/Set;
+#
+#     .line 204
+#     .line 205
+#     invoke-interface {v3}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+#
+#     .line 206
+#     .line 207
+#     .line 208
+#     move-result-object v3
+#
+#     .line 209
+#     :goto_5
+#     invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
+#
+#     .line 210
+#     .line 211
+#     .line 212
+#     move-result v4
+#
+#     .line 213
+#     if-eqz v4, :cond_6
+#
+#     .line 214
+#     .line 215
+#     invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+#
+#     .line 216
+#     .line 217
+#     .line 218
+#     move-result-object v4
+#
+#     .line 219
+#     check-cast v4, Lk9/m$b;
+#
+#     .line 220
+#     .line 221
+#     iget-object v5, v4, Lk9/m$b;->a:Ljava/lang/String;
+#
+#     .line 222
+#     .line 223
+#     iget-object v4, v4, Lk9/m$b;->b:Ljava/lang/String;
+#
+#     .line 224
+#     .line 225
+#     invoke-virtual {v2, v5, v4}, Ld9/n$a;->a(Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 226
+#     .line 227
+#     .line 228
+#     goto :goto_5
+#
+#     .line 229
+#     :cond_6
+#     invoke-virtual {v1}, Lk9/i;->b()J
+#
+#     .line 230
+#     .line 231
+#     .line 232
+#     move-result-wide v3
+#
+#     .line 233
+#     invoke-virtual {v1}, Lk9/i;->c()Ld9/s;
+#
+#     .line 234
+#     .line 235
+#     .line 236
+#     move-result-object v1
+#
+#     .line 237
+#     invoke-virtual {v2}, Ld9/h$a;->b()Ld9/h;
+#
+#     .line 238
+#     .line 239
+#     .line 240
+#     move-result-object v2
+#
+#     .line 241
+#     new-instance v5, Lk9/b;
+#
+#     .line 242
+#     .line 243
+#     invoke-direct {v5, v3, v4, v1, v2}, Lk9/b;-><init>(JLd9/s;Ld9/n;)V
+#
+#     .line 244
+#     .line 245
+#     .line 246
+#     invoke-interface {v0, v5}, Ljava/util/ListIterator;->set(Ljava/lang/Object;)V
+#
+#     .line 247
+#     .line 248
+#     .line 249
+#     goto :goto_4
+#
+#     .line 250
+#     :cond_7
+#     return-object v10
+# .end method
 
 .method public final b(Lxg/a$a;)V
     .locals 4

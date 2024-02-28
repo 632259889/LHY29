@@ -195,134 +195,134 @@
     throw p1
 .end method
 
-.method public static q(Landroid/database/sqlite/SQLiteDatabase;Ld9/s;)Ljava/lang/Long;
-    .locals 13
-
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    const-string v1, "backend_name = ? and priority = ?"
-
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    new-instance v1, Ljava/util/ArrayList;
-
-    const/4 v2, 0x2
-
-    new-array v2, v2, [Ljava/lang/String;
-
-    invoke-virtual {p1}, Ld9/s;->b()Ljava/lang/String;
-
-    move-result-object v3
-
-    const/4 v4, 0x0
-
-    aput-object v3, v2, v4
-
-    invoke-virtual {p1}, Ld9/s;->d()La9/d;
-
-    move-result-object v3
-
-    invoke-static {v3}, Ln9/a;->a(La9/d;)I
-
-    move-result v3
-
-    invoke-static {v3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v3
-
-    const/4 v5, 0x1
-
-    aput-object v3, v2, v5
-
-    invoke-static {v2}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
-
-    move-result-object v2
-
-    invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
-
-    invoke-virtual {p1}, Ld9/s;->c()[B
-
-    move-result-object v2
-
-    if-eqz v2, :cond_0
-
-    const-string v2, " and extras = ?"
-
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ld9/s;->c()[B
-
-    move-result-object p1
-
-    invoke-static {p1, v4}, Landroid/util/Base64;->encodeToString([BI)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    goto :goto_0
-
-    :cond_0
-    const-string p1, " and extras is null"
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    :goto_0
-    const-string v6, "transport_contexts"
-
-    const-string p1, "_id"
-
-    filled-new-array {p1}, [Ljava/lang/String;
-
-    move-result-object v7
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v8
-
-    new-array p1, v4, [Ljava/lang/String;
-
-    invoke-virtual {v1, p1}, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
-
-    move-result-object p1
-
-    move-object v9, p1
-
-    check-cast v9, [Ljava/lang/String;
-
-    const/4 v10, 0x0
-
-    const/4 v11, 0x0
-
-    const/4 v12, 0x0
-
-    move-object v5, p0
-
-    invoke-virtual/range {v5 .. v12}, Landroid/database/sqlite/SQLiteDatabase;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
-
-    move-result-object p0
-
-    new-instance p1, Lcom/applovin/exoplayer2/j0;
-
-    const/4 v0, 0x7
-
-    invoke-direct {p1, v0}, Lcom/applovin/exoplayer2/j0;-><init>(I)V
-
-    invoke-static {p0, p1}, Lk9/m;->I(Landroid/database/Cursor;Lk9/m$a;)Ljava/lang/Object;
-
-    move-result-object p0
-
-    check-cast p0, Ljava/lang/Long;
-
-    return-object p0
-  # const-wide/16 v0, 0x123
-  #
-  # invoke-static {v0}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-  #
-  # move-result-object v1
-  #
-  # return-object v1
-.end method
+# .method public static q(Landroid/database/sqlite/SQLiteDatabase;Ld9/s;)Ljava/lang/Long;
+#     .locals 13
+#
+#     new-instance v0, Ljava/lang/StringBuilder;
+#
+#     const-string v1, "backend_name = ? and priority = ?"
+#
+#     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+#
+#     new-instance v1, Ljava/util/ArrayList;
+#
+#     const/4 v2, 0x2
+#
+#     new-array v2, v2, [Ljava/lang/String;
+#
+#     invoke-virtual {p1}, Ld9/s;->b()Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     const/4 v4, 0x0
+#
+#     aput-object v3, v2, v4
+#
+#     invoke-virtual {p1}, Ld9/s;->d()La9/d;
+#
+#     move-result-object v3
+#
+#     invoke-static {v3}, Ln9/a;->a(La9/d;)I
+#
+#     move-result v3
+#
+#     invoke-static {v3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     const/4 v5, 0x1
+#
+#     aput-object v3, v2, v5
+#
+#     invoke-static {v2}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+#
+#     move-result-object v2
+#
+#     invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+#
+#     invoke-virtual {p1}, Ld9/s;->c()[B
+#
+#     move-result-object v2
+#
+#     if-eqz v2, :cond_0
+#
+#     const-string v2, " and extras = ?"
+#
+#     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     invoke-virtual {p1}, Ld9/s;->c()[B
+#
+#     move-result-object p1
+#
+#     invoke-static {p1, v4}, Landroid/util/Base64;->encodeToString([BI)Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+#
+#     goto :goto_0
+#
+#     :cond_0
+#     const-string p1, " and extras is null"
+#
+#     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     :goto_0
+#     const-string v6, "transport_contexts"
+#
+#     const-string p1, "_id"
+#
+#     filled-new-array {p1}, [Ljava/lang/String;
+#
+#     move-result-object v7
+#
+#     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v8
+#
+#     new-array p1, v4, [Ljava/lang/String;
+#
+#     invoke-virtual {v1, p1}, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+#
+#     move-result-object p1
+#
+#     move-object v9, p1
+#
+#     check-cast v9, [Ljava/lang/String;
+#
+#     const/4 v10, 0x0
+#
+#     const/4 v11, 0x0
+#
+#     const/4 v12, 0x0
+#
+#     move-object v5, p0
+#
+#     invoke-virtual/range {v5 .. v12}, Landroid/database/sqlite/SQLiteDatabase;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+#
+#     move-result-object p0
+#
+#     new-instance p1, Lcom/applovin/exoplayer2/j0;
+#
+#     const/4 v0, 0x7
+#
+#     invoke-direct {p1, v0}, Lcom/applovin/exoplayer2/j0;-><init>(I)V
+#
+#     invoke-static {p0, p1}, Lk9/m;->I(Landroid/database/Cursor;Lk9/m$a;)Ljava/lang/Object;
+#
+#     move-result-object p0
+#
+#     check-cast p0, Ljava/lang/Long;
+#
+#     return-object p0
+#   # const-wide/16 v0, 0x123
+#   #
+#   # invoke-static {v0}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+#   #
+#   # move-result-object v1
+#   #
+#   # return-object v1
+# .end method
 
 
 # virtual methods
@@ -1206,105 +1206,105 @@
     throw p1
 .end method
 
-.method public final u(Landroid/database/sqlite/SQLiteDatabase;Ld9/s;I)Ljava/util/ArrayList;
-    .locals 12
+# .method public final u(Landroid/database/sqlite/SQLiteDatabase;Ld9/s;I)Ljava/util/ArrayList;
+#     .locals 12
+#
+#     new-instance v0, Ljava/util/ArrayList;
+#
+#     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+#
+#     invoke-static {p1, p2}, Lk9/m;->q(Landroid/database/sqlite/SQLiteDatabase;Ld9/s;)Ljava/lang/Long;
+#
+#     move-result-object v1
+#
+#     if-nez v1, :cond_0
+#
+#     return-object v0
+#
+#     :cond_0
+#     const-string v3, "events"
+#
+#     const-string v4, "_id"
+#
+#     const-string v5, "transport_name"
+#
+#     const-string v6, "timestamp_ms"
+#
+#     const-string v7, "uptime_ms"
+#
+#     const-string v8, "payload_encoding"
+#
+#     const-string v9, "payload"
+#
+#     const-string v10, "code"
+#
+#     const-string v11, "inline"
+#
+#     filled-new-array/range {v4 .. v11}, [Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     const-string v5, "context_id = ?"
+#
+#     const/4 v2, 0x1
+#
+#     new-array v6, v2, [Ljava/lang/String;
+#
+#     const/4 v2, 0x0
+#
+#     invoke-virtual {v1}, Ljava/lang/Long;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     aput-object v1, v6, v2
+#
+#     const/4 v7, 0x0
+#
+#     const/4 v8, 0x0
+#
+#     const/4 v9, 0x0
+#
+#     invoke-static {p3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+#
+#     move-result-object v10
+#
+#     move-object v2, p1
+#
+#     invoke-virtual/range {v2 .. v10}, Landroid/database/sqlite/SQLiteDatabase;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+#
+#     move-result-object p1
+#
+#     new-instance p3, Ll0/b;
+#
+#     invoke-direct {p3, p0, v0, p2}, Ll0/b;-><init>(Lk9/m;Ljava/util/ArrayList;Ld9/s;)V
+#
+#     invoke-static {p1, p3}, Lk9/m;->I(Landroid/database/Cursor;Lk9/m$a;)Ljava/lang/Object;
+#
+#     return-object v0
+# .end method
 
-    new-instance v0, Ljava/util/ArrayList;
-
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-
-    invoke-static {p1, p2}, Lk9/m;->q(Landroid/database/sqlite/SQLiteDatabase;Ld9/s;)Ljava/lang/Long;
-
-    move-result-object v1
-
-    if-nez v1, :cond_0
-
-    return-object v0
-
-    :cond_0
-    const-string v3, "events"
-
-    const-string v4, "_id"
-
-    const-string v5, "transport_name"
-
-    const-string v6, "timestamp_ms"
-
-    const-string v7, "uptime_ms"
-
-    const-string v8, "payload_encoding"
-
-    const-string v9, "payload"
-
-    const-string v10, "code"
-
-    const-string v11, "inline"
-
-    filled-new-array/range {v4 .. v11}, [Ljava/lang/String;
-
-    move-result-object v4
-
-    const-string v5, "context_id = ?"
-
-    const/4 v2, 0x1
-
-    new-array v6, v2, [Ljava/lang/String;
-
-    const/4 v2, 0x0
-
-    invoke-virtual {v1}, Ljava/lang/Long;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    aput-object v1, v6, v2
-
-    const/4 v7, 0x0
-
-    const/4 v8, 0x0
-
-    const/4 v9, 0x0
-
-    invoke-static {p3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v10
-
-    move-object v2, p1
-
-    invoke-virtual/range {v2 .. v10}, Landroid/database/sqlite/SQLiteDatabase;->query(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
-
-    move-result-object p1
-
-    new-instance p3, Ll0/b;
-
-    invoke-direct {p3, p0, v0, p2}, Ll0/b;-><init>(Lk9/m;Ljava/util/ArrayList;Ld9/s;)V
-
-    invoke-static {p1, p3}, Lk9/m;->I(Landroid/database/Cursor;Lk9/m$a;)Ljava/lang/Object;
-
-    return-object v0
-.end method
-
-.method public final z()Ljava/lang/Iterable;
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/lang/Iterable<",
-            "Ld9/s;",
-            ">;"
-        }
-    .end annotation
-
-    new-instance v0, Lcom/applovin/exoplayer2/e/g/p;
-
-    const/16 v1, 0x12
-
-    invoke-direct {v0, v1}, Lcom/applovin/exoplayer2/e/g/p;-><init>(I)V
-
-    invoke-virtual {p0, v0}, Lk9/m;->s(Lk9/m$a;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/lang/Iterable;
-
-    return-object v0
-.end method
+# .method public final z()Ljava/lang/Iterable;
+#     .locals 2
+#     .annotation system Ldalvik/annotation/Signature;
+#         value = {
+#             "()",
+#             "Ljava/lang/Iterable<",
+#             "Ld9/s;",
+#             ">;"
+#         }
+#     .end annotation
+#
+#     new-instance v0, Lcom/applovin/exoplayer2/e/g/p;
+#
+#     const/16 v1, 0x12
+#
+#     invoke-direct {v0, v1}, Lcom/applovin/exoplayer2/e/g/p;-><init>(I)V
+#
+#     invoke-virtual {p0, v0}, Lk9/m;->s(Lk9/m$a;)Ljava/lang/Object;
+#
+#     move-result-object v0
+#
+#     check-cast v0, Ljava/lang/Iterable;
+#
+#     return-object v0
+# .end method

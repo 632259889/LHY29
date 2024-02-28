@@ -2654,38 +2654,38 @@
     return-void
 .end method
 
-.method public onSdkInitialized(Lcom/applovin/sdk/AppLovinSdkConfiguration;)V
-    .locals 2
-
-    .line 1
-    iget-object p1, p0, Lob/a;->d:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    check-cast p1, Ly1/d;
-
-    .line 4
-    .line 5
-    const-string v0, "AppLovin"
-
-    .line 6
-    .line 7
-    const-string v1, "init: applovin success"
-
-    .line 8
-    .line 9
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 10
-    .line 11
-    .line 12
-    invoke-virtual {p1}, Ly1/d;->f()V
-
-    .line 13
-    .line 14
-    .line 15
-    return-void
-.end method
+# .method public onSdkInitialized(Lcom/applovin/sdk/AppLovinSdkConfiguration;)V
+#     .locals 2
+#
+#     .line 1
+#     iget-object p1, p0, Lob/a;->d:Ljava/lang/Object;
+#
+#     .line 2
+#     .line 3
+#     check-cast p1, Ly1/d;
+#
+#     .line 4
+#     .line 5
+#     const-string v0, "AppLovin"
+#
+#     .line 6
+#     .line 7
+#     const-string v1, "init: applovin success"
+#
+#     .line 8
+#     .line 9
+#     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 10
+#     .line 11
+#     .line 12
+#     invoke-virtual {p1}, Ly1/d;->f()V
+#
+#     .line 13
+#     .line 14
+#     .line 15
+#     return-void
+# .end method
 
 .method public onSuccess(Ljava/lang/Object;)V
     .locals 2

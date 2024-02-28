@@ -57,13 +57,13 @@
 .method public abstract r(Ld9/s;)Z
 .end method
 
-.method public abstract z()Ljava/lang/Iterable;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/lang/Iterable<",
-            "Ld9/s;",
-            ">;"
-        }
-    .end annotation
-.end method
+# .method public abstract z()Ljava/lang/Iterable;
+#     .annotation system Ldalvik/annotation/Signature;
+#         value = {
+#             "()",
+#             "Ljava/lang/Iterable<",
+#             "Ld9/s;",
+#             ">;"
+#         }
+#     .end annotation
+# .end method
