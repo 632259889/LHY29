@@ -1096,7 +1096,7 @@
     if-gt p3, p5, :cond_2
 
     :cond_1
-    invoke-static {p1, v0, p7}, Lcom/vungle/warren/utility/e;->h(Ljava/lang/Appendable;Ljava/lang/Object;Lth/l;)V
+    # invoke-static {p1, v0, p7}, Lcom/vungle/warren/utility/e;->h(Ljava/lang/Appendable;Ljava/lang/Object;Lth/l;)V
 
     goto :goto_0
 

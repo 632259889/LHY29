@@ -21,7 +21,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Lcom/vungle/warren/utility/e;->j(I)V
+    # invoke-static {v0}, Lcom/vungle/warren/utility/e;->j(I)V
 
     .line 9
     .line 10

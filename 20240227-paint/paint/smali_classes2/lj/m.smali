@@ -4644,12 +4644,13 @@
     move-result-object v3
 
     .line 199
-    invoke-static {v3}, Lcom/vungle/warren/utility/e;->v(Lzj/c0;)Z
+    # invoke-static {v3}, Lcom/vungle/warren/utility/e;->v(Lzj/c0;)Z
 
     .line 200
     .line 201
     .line 202
-    move-result v3
+    # move-result v3
+    const/4 v3,0x1
 
     .line 203
     if-nez v3, :cond_d

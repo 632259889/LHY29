@@ -397,7 +397,7 @@
     if-gt v1, p5, :cond_2
 
     :cond_1
-    invoke-static {p1, v2, p7}, Lcom/vungle/warren/utility/e;->h(Ljava/lang/Appendable;Ljava/lang/Object;Lth/l;)V
+    # invoke-static {p1, v2, p7}, Lcom/vungle/warren/utility/e;->h(Ljava/lang/Appendable;Ljava/lang/Object;Lth/l;)V
 
     add-int/lit8 v0, v0, 0x1
 

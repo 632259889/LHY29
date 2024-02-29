@@ -183,12 +183,13 @@
     move-result v2
 
     .line 61
-    invoke-static {v2}, Lcom/vungle/warren/utility/e;->x(C)Z
+    # invoke-static {v2}, Lcom/vungle/warren/utility/e;->x(C)Z
 
     .line 62
     .line 63
     .line 64
-    move-result v2
+    # move-result v2
+    const/4 v2,0x1
 
     .line 65
     if-nez v2, :cond_1

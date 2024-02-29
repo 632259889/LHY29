@@ -1,7 +1,7 @@
 .class public Ljk/e;
-.super Lcom/vungle/warren/utility/e;
+.super   Ljava/lang/Object;
 .source "SourceFile"
-
+# Lcom/vungle/warren/utility/e;
 
 # direct methods
 .method public static h0(Ljava/lang/String;)Ljava/lang/String;
@@ -244,12 +244,13 @@
     move-result v11
 
     .line 115
-    invoke-static {v11}, Lcom/vungle/warren/utility/e;->x(C)Z
+    # invoke-static {v11}, Lcom/vungle/warren/utility/e;->x(C)Z
 
     .line 116
     .line 117
     .line 118
-    move-result v11
+    # move-result v11
+    const/4 v11,0x1
 
     .line 119
     xor-int/lit8 v11, v11, 0x1

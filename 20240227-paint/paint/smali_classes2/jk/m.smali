@@ -157,12 +157,13 @@
 
     .line 71
     .line 72
-    invoke-static {v6, v1, p2}, Lcom/vungle/warren/utility/e;->m(CCZ)Z
+    # invoke-static {v6, v1, p2}, Lcom/vungle/warren/utility/e;->m(CCZ)Z
 
     .line 73
     .line 74
     .line 75
-    move-result v6
+    # move-result v6
+    const/4 v6,0x1
 
     .line 76
     if-eqz v6, :cond_3
@@ -322,12 +323,13 @@
 
     .line 54
     .line 55
-    invoke-static {v1, p1, v0}, Lcom/vungle/warren/utility/e;->m(CCZ)Z
+    # invoke-static {v1, p1, v0}, Lcom/vungle/warren/utility/e;->m(CCZ)Z
 
     .line 56
     .line 57
     .line 58
-    move-result p1
+    # move-result p1
+    const/4 p1,0x1
 
     .line 59
     if-eqz p1, :cond_3
@@ -504,9 +506,10 @@
 
     move-result v3
 
-    invoke-static {v2, v3, p5}, Lcom/vungle/warren/utility/e;->m(CCZ)Z
+    # invoke-static {v2, v3, p5}, Lcom/vungle/warren/utility/e;->m(CCZ)Z
 
-    move-result v2
+    # move-result v2
+    const/4 v2,0x1
 
     if-nez v2, :cond_1
 
@@ -1558,9 +1561,10 @@
 
     move-result v4
 
-    invoke-static {v4}, Lcom/vungle/warren/utility/e;->x(C)Z
+    # invoke-static {v4}, Lcom/vungle/warren/utility/e;->x(C)Z
 
-    move-result v4
+    # move-result v4
+    const/4 v4,0x1
 
     if-nez v3, :cond_2
 

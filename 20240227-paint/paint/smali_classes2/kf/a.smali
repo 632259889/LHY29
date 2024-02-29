@@ -1,7 +1,7 @@
 .class public final Lkf/a;
-.super Lcom/vungle/warren/utility/s;
+.super  Ljava/lang/Object;
 .source "SourceFile"
-
+# Lcom/vungle/warren/utility/s;
 
 # instance fields
 .field public final c:Ljf/g;
@@ -14,21 +14,21 @@
 
 
 # direct methods
-.method public constructor <init>(Ljf/g;Ljf/f;Ljf/h;Llf/a;)V
-    .locals 0
-
-    invoke-direct {p0}, Lcom/vungle/warren/utility/s;-><init>()V
-
-    iput-object p1, p0, Lkf/a;->c:Ljf/g;
-
-    iput-object p2, p0, Lkf/a;->d:Ljf/f;
-
-    iput-object p3, p0, Lkf/a;->e:Ljf/h;
-
-    iput-object p4, p0, Lkf/a;->f:Llf/a;
-
-    return-void
-.end method
+# .method public constructor <init>(Ljf/g;Ljf/f;Ljf/h;Llf/a;)V
+#     .locals 0
+#
+#     invoke-direct {p0}, Lcom/vungle/warren/utility/s;-><init>()V
+#
+#     iput-object p1, p0, Lkf/a;->c:Ljf/g;
+#
+#     iput-object p2, p0, Lkf/a;->d:Ljf/f;
+#
+#     iput-object p3, p0, Lkf/a;->e:Ljf/h;
+#
+#     iput-object p4, p0, Lkf/a;->f:Llf/a;
+#
+#     return-void
+# .end method
 
 
 # virtual methods
