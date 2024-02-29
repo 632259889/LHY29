@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lcom/google/android/gms/ads/mediation/MediationInterstitialAd;
-.implements Lcom/facebook/ads/InterstitialAdExtendedListener;
+# .implements Lcom/facebook/ads/InterstitialAdExtendedListener;
 
 
 # instance fields
@@ -21,7 +21,7 @@
     .end annotation
 .end field
 
-.field public e:Lcom/facebook/ads/InterstitialAd;
+# .field public e:Lcom/facebook/ads/InterstitialAd;
 
 .field public f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
 
@@ -67,172 +67,172 @@
 
 
 # virtual methods
-.method public final onAdClicked(Lcom/facebook/ads/Ad;)V
-    .locals 0
-
-    iget-object p1, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
-
-    if-eqz p1, :cond_0
-
-    invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationAdCallback;->reportAdClicked()V
-
-    iget-object p1, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
-
-    invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;->onAdLeftApplication()V
-
-    :cond_0
-    return-void
-.end method
-
-.method public final onAdLoaded(Lcom/facebook/ads/Ad;)V
-    .locals 0
-
-    iget-object p1, p0, Lw8/b;->d:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
-
-    invoke-interface {p1, p0}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onSuccess(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
-
-    iput-object p1, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
-
-    return-void
-.end method
-
-.method public final onError(Lcom/facebook/ads/Ad;Lcom/facebook/ads/AdError;)V
-    .locals 1
-
-    invoke-static {p2}, Lcom/google/ads/mediation/facebook/FacebookMediationAdapter;->getAdError(Lcom/facebook/ads/AdError;)Lcom/google/android/gms/ads/AdError;
-
-    move-result-object p1
-
-    sget-object p2, Lcom/google/ads/mediation/facebook/FacebookMediationAdapter;->TAG:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->getMessage()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {p2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    iget-object p2, p0, Lw8/b;->g:Ljava/util/concurrent/atomic/AtomicBoolean;
-
-    invoke-virtual {p2}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
-
-    move-result p2
-
-    if-eqz p2, :cond_1
-
-    iget-object p1, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
-
-    if-eqz p1, :cond_0
-
-    invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationAdCallback;->onAdOpened()V
-
-    iget-object p1, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
-
-    invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationAdCallback;->onAdClosed()V
-
-    :cond_0
-    return-void
-
-    :cond_1
-    iget-object p2, p0, Lw8/b;->d:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
-
-    invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
-
-    return-void
-.end method
-
-.method public final onInterstitialActivityDestroyed()V
-    .locals 2
-
-    iget-object v0, p0, Lw8/b;->h:Ljava/util/concurrent/atomic/AtomicBoolean;
-
-    const/4 v1, 0x1
-
-    invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->getAndSet(Z)Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    iget-object v0, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
-
-    if-eqz v0, :cond_0
-
-    invoke-interface {v0}, Lcom/google/android/gms/ads/mediation/MediationAdCallback;->onAdClosed()V
-
-    :cond_0
-    return-void
-.end method
-
-.method public final onInterstitialDismissed(Lcom/facebook/ads/Ad;)V
-    .locals 1
-
-    iget-object p1, p0, Lw8/b;->h:Ljava/util/concurrent/atomic/AtomicBoolean;
-
-    const/4 v0, 0x1
-
-    invoke-virtual {p1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->getAndSet(Z)Z
-
-    move-result p1
-
-    if-nez p1, :cond_0
-
-    iget-object p1, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
-
-    if-eqz p1, :cond_0
-
-    invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationAdCallback;->onAdClosed()V
-
-    :cond_0
-    return-void
-.end method
-
-.method public final onInterstitialDisplayed(Lcom/facebook/ads/Ad;)V
-    .locals 0
-
-    iget-object p1, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
-
-    if-eqz p1, :cond_0
-
-    invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationAdCallback;->onAdOpened()V
-
-    :cond_0
-    return-void
-.end method
-
-.method public final onLoggingImpression(Lcom/facebook/ads/Ad;)V
-    .locals 0
-
-    iget-object p1, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
-
-    if-eqz p1, :cond_0
-
-    invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationAdCallback;->reportAdImpression()V
-
-    :cond_0
-    return-void
-.end method
-
-.method public final onRewardedAdCompleted()V
-    .locals 0
-
-    return-void
-.end method
-
-.method public final onRewardedAdServerFailed()V
-    .locals 0
-
-    return-void
-.end method
-
-.method public final onRewardedAdServerSucceeded()V
-    .locals 0
-
-    return-void
-.end method
+# .method public final onAdClicked(Lcom/facebook/ads/Ad;)V
+#     .locals 0
+#
+#     iget-object p1, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
+#
+#     if-eqz p1, :cond_0
+#
+#     invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationAdCallback;->reportAdClicked()V
+#
+#     iget-object p1, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
+#
+#     invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;->onAdLeftApplication()V
+#
+#     :cond_0
+#     return-void
+# .end method
+#
+# .method public final onAdLoaded(Lcom/facebook/ads/Ad;)V
+#     .locals 0
+#
+#     iget-object p1, p0, Lw8/b;->d:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
+#
+#     invoke-interface {p1, p0}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onSuccess(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     move-result-object p1
+#
+#     check-cast p1, Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
+#
+#     iput-object p1, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
+#
+#     return-void
+# .end method
+#
+# .method public final onError(Lcom/facebook/ads/Ad;Lcom/facebook/ads/AdError;)V
+#     .locals 1
+#
+#     invoke-static {p2}, Lcom/google/ads/mediation/facebook/FacebookMediationAdapter;->getAdError(Lcom/facebook/ads/AdError;)Lcom/google/android/gms/ads/AdError;
+#
+#     move-result-object p1
+#
+#     sget-object p2, Lcom/google/ads/mediation/facebook/FacebookMediationAdapter;->TAG:Ljava/lang/String;
+#
+#     invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->getMessage()Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     invoke-static {p2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     iget-object p2, p0, Lw8/b;->g:Ljava/util/concurrent/atomic/AtomicBoolean;
+#
+#     invoke-virtual {p2}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
+#
+#     move-result p2
+#
+#     if-eqz p2, :cond_1
+#
+#     iget-object p1, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
+#
+#     if-eqz p1, :cond_0
+#
+#     invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationAdCallback;->onAdOpened()V
+#
+#     iget-object p1, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
+#
+#     invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationAdCallback;->onAdClosed()V
+#
+#     :cond_0
+#     return-void
+#
+#     :cond_1
+#     iget-object p2, p0, Lw8/b;->d:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
+#
+#     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
+#
+#     return-void
+# .end method
+#
+# .method public final onInterstitialActivityDestroyed()V
+#     .locals 2
+#
+#     iget-object v0, p0, Lw8/b;->h:Ljava/util/concurrent/atomic/AtomicBoolean;
+#
+#     const/4 v1, 0x1
+#
+#     invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->getAndSet(Z)Z
+#
+#     move-result v0
+#
+#     if-nez v0, :cond_0
+#
+#     iget-object v0, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
+#
+#     if-eqz v0, :cond_0
+#
+#     invoke-interface {v0}, Lcom/google/android/gms/ads/mediation/MediationAdCallback;->onAdClosed()V
+#
+#     :cond_0
+#     return-void
+# .end method
+#
+# .method public final onInterstitialDismissed(Lcom/facebook/ads/Ad;)V
+#     .locals 1
+#
+#     iget-object p1, p0, Lw8/b;->h:Ljava/util/concurrent/atomic/AtomicBoolean;
+#
+#     const/4 v0, 0x1
+#
+#     invoke-virtual {p1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->getAndSet(Z)Z
+#
+#     move-result p1
+#
+#     if-nez p1, :cond_0
+#
+#     iget-object p1, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
+#
+#     if-eqz p1, :cond_0
+#
+#     invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationAdCallback;->onAdClosed()V
+#
+#     :cond_0
+#     return-void
+# .end method
+#
+# .method public final onInterstitialDisplayed(Lcom/facebook/ads/Ad;)V
+#     .locals 0
+#
+#     iget-object p1, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
+#
+#     if-eqz p1, :cond_0
+#
+#     invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationAdCallback;->onAdOpened()V
+#
+#     :cond_0
+#     return-void
+# .end method
+#
+# .method public final onLoggingImpression(Lcom/facebook/ads/Ad;)V
+#     .locals 0
+#
+#     iget-object p1, p0, Lw8/b;->f:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
+#
+#     if-eqz p1, :cond_0
+#
+#     invoke-interface {p1}, Lcom/google/android/gms/ads/mediation/MediationAdCallback;->reportAdImpression()V
+#
+#     :cond_0
+#     return-void
+# .end method
+#
+# .method public final onRewardedAdCompleted()V
+#     .locals 0
+#
+#     return-void
+# .end method
+#
+# .method public final onRewardedAdServerFailed()V
+#     .locals 0
+#
+#     return-void
+# .end method
+#
+# .method public final onRewardedAdServerSucceeded()V
+#     .locals 0
+#
+#     return-void
+# .end method
 
 .method public final showAd(Landroid/content/Context;)V
     .locals 3

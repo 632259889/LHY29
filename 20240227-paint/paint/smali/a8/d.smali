@@ -83,9 +83,10 @@
 
     if-eqz v7, :cond_1
 
-    invoke-static {p1, v1}, Lcom/facebook/internal/j;->a(Landroid/content/Context;Ljava/lang/String;)Z
+    # invoke-static {p1, v1}, Lcom/facebook/internal/j;->a(Landroid/content/Context;Ljava/lang/String;)Z
 
-    move-result v1
+    # move-result v1
+    const/4 v1,0x1
 
     if-eqz v1, :cond_1
 
@@ -104,9 +105,10 @@
 
     if-eqz v2, :cond_2
 
-    invoke-static {p1, v0}, Lcom/facebook/internal/j;->a(Landroid/content/Context;Ljava/lang/String;)Z
+    # invoke-static {p1, v0}, Lcom/facebook/internal/j;->a(Landroid/content/Context;Ljava/lang/String;)Z
 
-    move-result p1
+    # move-result p1
+    const/4 p1,0x1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

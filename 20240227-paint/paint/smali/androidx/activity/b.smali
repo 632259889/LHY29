@@ -77,15 +77,15 @@
 
     .line 20
     .line 21
-    check-cast v0, Lcom/facebook/internal/p$b;
+    # check-cast v0, Lcom/facebook/internal/p$b;
 
     .line 22
     .line 23
-    sget-object v2, Lcom/facebook/internal/p;->a:Lcom/facebook/internal/p;
+    # sget-object v2, Lcom/facebook/internal/p;->a:Lcom/facebook/internal/p;
 
     .line 24
     .line 25
-    invoke-interface {v0}, Lcom/facebook/internal/p$b;->a()V
+    # invoke-interface {v0}, Lcom/facebook/internal/p$b;->a()V
 
     .line 26
     .line 27
@@ -98,11 +98,11 @@
 
     .line 30
     .line 31
-    check-cast v0, Lcom/facebook/internal/k;
+    # check-cast v0, Lcom/facebook/internal/k;
 
     .line 32
     .line 33
-    invoke-static {v0}, Lcom/facebook/internal/k;->g(Lcom/facebook/internal/k;)V
+    # invoke-static {v0}, Lcom/facebook/internal/k;->g(Lcom/facebook/internal/k;)V
 
     .line 34
     .line 35
