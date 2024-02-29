@@ -443,12 +443,12 @@
     move-result-object v3
 
     .line 6
-    new-instance v5, Lcom/facebook/appevents/j;
-
-    invoke-direct {v5, v3, v4}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
-
-    .line 7
-    invoke-virtual {v5, v1, v0}, Lcom/facebook/appevents/j;->d(Landroid/os/Bundle;Ljava/lang/String;)V
+    # new-instance v5, Lcom/facebook/appevents/j;
+    #
+    # invoke-direct {v5, v3, v4}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    #
+    # .line 7
+    # invoke-virtual {v5, v1, v0}, Lcom/facebook/appevents/j;->d(Landroid/os/Bundle;Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

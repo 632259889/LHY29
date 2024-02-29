@@ -1262,11 +1262,11 @@
     :catch_1
     :goto_6
     :try_start_4
-    new-instance v1, Lcom/facebook/appevents/j;
+    # new-instance v1, Lcom/facebook/appevents/j;
 
     .line 205
     .line 206
-    invoke-direct {v1, v2, v9}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-direct {v1, v2, v9}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 207
     .line 208
@@ -1366,7 +1366,7 @@
 
     .line 254
     .line 255
-    invoke-virtual {v1, v0, v2}, Lcom/facebook/appevents/j;->f(Ljava/lang/String;Landroid/os/Bundle;)V
+    # invoke-virtual {v1, v0, v2}, Lcom/facebook/appevents/j;->f(Ljava/lang/String;Landroid/os/Bundle;)V
 
     .line 256
     .line 257

@@ -453,7 +453,7 @@
 
     .line 199
     :goto_4
-    check-cast v4, Lcom/facebook/appevents/a;
+    # check-cast v4, Lcom/facebook/appevents/a;
 
     .line 200
     .line 201
@@ -461,7 +461,7 @@
 
     .line 202
     .line 203
-    check-cast v2, Lcom/facebook/appevents/q;
+    # check-cast v2, Lcom/facebook/appevents/q;
 
     .line 204
     .line 205
@@ -469,20 +469,21 @@
 
     .line 206
     .line 207
-    sget-object v0, Lcom/facebook/appevents/g;->a:Ljava/lang/String;
+    # sget-object v0, Lcom/facebook/appevents/g;->a:Ljava/lang/String;
 
     .line 208
     .line 209
-    const-class v0, Lcom/facebook/appevents/g;
+    # const-class v0, Lcom/facebook/appevents/g;
 
     .line 210
     .line 211
-    invoke-static {v0}, Li8/a;->b(Ljava/lang/Object;)Z
+    # invoke-static {v0}, Li8/a;->b(Ljava/lang/Object;)Z
 
     .line 212
     .line 213
     .line 214
-    move-result v5
+    # move-result v5
+    const/4 v5,0x1
 
     .line 215
     if-eqz v5, :cond_c
@@ -530,7 +531,7 @@
     .line 236
     .line 237
     .line 238
-    invoke-static {v1, v3, p1, v4, v2}, Lcom/facebook/appevents/g;->e(Lm1/e;Lq7/u;Lq7/z;Lcom/facebook/appevents/a;Lcom/facebook/appevents/q;)V
+    # invoke-static {v1, v3, p1, v4, v2}, Lcom/facebook/appevents/g;->e(Lm1/e;Lq7/u;Lq7/z;Lcom/facebook/appevents/a;Lcom/facebook/appevents/q;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

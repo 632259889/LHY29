@@ -135,7 +135,7 @@
             "La8/d$a;",
             "Ljava/lang/String;",
             "Ljava/util/List<",
-            "Lcom/facebook/appevents/d;",
+            # "Lcom/facebook/appevents/d;",
             ">;)",
             "La8/d$c;"
         }

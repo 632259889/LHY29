@@ -82,13 +82,13 @@
 
     move-result-object v1
 
-    new-instance v2, Lcom/facebook/appevents/f;
+    # new-instance v2, Lcom/facebook/appevents/f;
 
     const/4 v3, 0x4
 
-    invoke-direct {v2, v3}, Lcom/facebook/appevents/f;-><init>(I)V
+    # invoke-direct {v2, v3}, Lcom/facebook/appevents/f;-><init>(I)V
 
-    invoke-interface {v1, v2}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    # invoke-interface {v1, v2}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 

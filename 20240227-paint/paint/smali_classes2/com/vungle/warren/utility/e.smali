@@ -4115,19 +4115,19 @@
     .line 40
     .line 41
     .line 42
-    new-instance p1, Lcom/facebook/appevents/j;
+    # new-instance p1, Lcom/facebook/appevents/j;
 
     .line 43
     .line 44
     const/4 v2, 0x0
 
     .line 45
-    invoke-direct {p1, p0, v2}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
-
-    .line 46
-    .line 47
-    .line 48
-    invoke-virtual {p1, v0, v1}, Lcom/facebook/appevents/j;->d(Landroid/os/Bundle;Ljava/lang/String;)V
+    # invoke-direct {p1, p0, v2}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    #
+    # .line 46
+    # .line 47
+    # .line 48
+    # invoke-virtual {p1, v0, v1}, Lcom/facebook/appevents/j;->d(Landroid/os/Bundle;Ljava/lang/String;)V
 
     .line 49
     .line 50
@@ -4200,19 +4200,19 @@
     .line 30
     .line 31
     .line 32
-    new-instance v0, Lcom/facebook/appevents/j;
+    # new-instance v0, Lcom/facebook/appevents/j;
 
     .line 33
     .line 34
     const/4 v2, 0x0
 
     .line 35
-    invoke-direct {v0, p0, v2}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-direct {v0, p0, v2}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 36
     .line 37
     .line 38
-    invoke-virtual {v0, v1, p1}, Lcom/facebook/appevents/j;->d(Landroid/os/Bundle;Ljava/lang/String;)V
+    # invoke-virtual {v0, v1, p1}, Lcom/facebook/appevents/j;->d(Landroid/os/Bundle;Ljava/lang/String;)V
 
     .line 39
     .line 40
@@ -4541,1204 +4541,1204 @@
 .method public static E(Landroid/content/Context;Lcom/google/android/gms/ads/AdValue;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 18
 
-    .line 1
-    move-object/from16 v0, p0
-
-    .line 2
-    .line 3
-    move-object/from16 v1, p2
-
-    .line 4
-    .line 5
-    move-object/from16 v2, p3
-
-    .line 6
-    .line 7
-    invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/ads/AdValue;->getValueMicros()J
-
-    .line 8
-    .line 9
-    .line 10
-    move-result-wide v3
-
-    .line 11
-    long-to-float v3, v3
-
-    .line 12
-    invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/ads/AdValue;->getPrecisionType()I
-
-    .line 13
-    .line 14
-    .line 15
-    move-result v4
-
-    .line 16
-    const/4 v5, 0x5
-
-    .line 17
-    new-array v5, v5, [Ljava/lang/Object;
-
-    .line 18
-    .line 19
-    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-
-    .line 20
-    .line 21
-    .line 22
-    move-result-object v6
-
-    .line 23
-    const/4 v7, 0x0
-
-    .line 24
-    aput-object v6, v5, v7
-
-    .line 25
-    .line 26
-    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 27
-    .line 28
-    .line 29
-    move-result-object v6
-
-    .line 30
-    const/4 v8, 0x1
-
-    .line 31
-    aput-object v6, v5, v8
-
-    .line 32
-    .line 33
-    const/4 v6, 0x2
-
-    .line 34
-    aput-object v1, v5, v6
-
-    .line 35
-    .line 36
-    const/4 v6, 0x3
-
-    .line 37
-    aput-object v2, v5, v6
-
-    .line 38
-    .line 39
-    const/4 v6, 0x4
-
-    .line 40
-    invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 41
-    .line 42
-    .line 43
-    move-result-object v9
-
-    .line 44
-    aput-object v9, v5, v6
-
-    .line 45
-    .line 46
-    const-string v6, "Paid event of value %.0f microcents in currency USD of precision %s%n occurred for ad unit %s from ad network %s.mediation provider: %s%n"
-
-    .line 47
-    .line 48
-    invoke-static {v6, v5}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-
-    .line 49
-    .line 50
-    .line 51
-    move-result-object v5
-
-    .line 52
-    const-string v6, "GamLogEventManager"
-
-    .line 53
-    .line 54
-    invoke-static {v6, v5}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 55
-    .line 56
-    .line 57
-    new-instance v5, Landroid/os/Bundle;
-
-    .line 58
-    .line 59
-    invoke-direct {v5}, Landroid/os/Bundle;-><init>()V
-
-    .line 60
-    .line 61
-    .line 62
-    float-to-double v9, v3
-
-    .line 63
-    const-string v11, "valuemicros"
-
-    .line 64
-    .line 65
-    invoke-virtual {v5, v11, v9, v10}, Landroid/os/BaseBundle;->putDouble(Ljava/lang/String;D)V
-
-    .line 66
-    .line 67
-    .line 68
-    const-string v11, "currency"
-
-    .line 69
-    .line 70
-    const-string v12, "USD"
-
-    .line 71
-    .line 72
-    invoke-virtual {v5, v11, v12}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 73
-    .line 74
-    .line 75
-    const-string v13, "precision"
-
-    .line 76
-    .line 77
-    invoke-virtual {v5, v13, v4}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
-
-    .line 78
-    .line 79
-    .line 80
-    const-string v14, "adunitid"
-
-    .line 81
-    .line 82
-    invoke-virtual {v5, v14, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 83
-    .line 84
-    .line 85
-    const-string v15, "network"
-
-    .line 86
-    .line 87
-    invoke-virtual {v5, v15, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 88
-    .line 89
-    .line 90
-    const-wide v16, 0x412e848000000000L    # 1000000.0
-
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    div-double v9, v9, v16
-
-    .line 96
-    .line 97
-    new-instance v8, Landroid/os/Bundle;
-
-    .line 98
-    .line 99
-    invoke-direct {v8}, Landroid/os/Bundle;-><init>()V
-
-    .line 100
-    .line 101
-    .line 102
-    const-string v7, "value"
-
-    .line 103
-    .line 104
-    invoke-virtual {v8, v7, v9, v10}, Landroid/os/BaseBundle;->putDouble(Ljava/lang/String;D)V
-
-    .line 105
-    .line 106
-    .line 107
-    invoke-virtual {v8, v11, v12}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 108
-    .line 109
-    .line 110
-    invoke-virtual {v8, v13, v4}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
-
-    .line 111
-    .line 112
-    .line 113
-    invoke-virtual {v8, v14, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 114
-    .line 115
-    .line 116
-    invoke-virtual {v8, v15, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 117
-    .line 118
-    .line 119
-    invoke-static {}, Li4/j;->b()Li4/j;
-
-    .line 120
-    .line 121
-    .line 122
-    move-result-object v1
-
-    .line 123
-    iget-object v1, v1, Li4/j;->a:Ln4/b;
-
-    .line 124
-    .line 125
-    iget-object v1, v1, Ln4/b;->c:Ln4/a;
-
-    .line 126
-    .line 127
-    if-eqz v1, :cond_0
-
-    .line 128
-    .line 129
-    invoke-static {}, Li4/j;->b()Li4/j;
-
-    .line 130
-    .line 131
-    .line 132
-    move-result-object v1
-
-    .line 133
-    iget-object v1, v1, Li4/j;->a:Ln4/b;
-
-    .line 134
-    .line 135
-    iget-object v1, v1, Ln4/b;->c:Ln4/a;
-
-    .line 136
-    .line 137
-    iget-boolean v1, v1, Ln4/a;->a:Z
-
-    .line 138
-    .line 139
-    if-eqz v1, :cond_0
-
-    .line 140
-    .line 141
-    new-instance v1, Lcom/adjust/sdk/AdjustEvent;
-
-    .line 142
-    .line 143
-    invoke-static {}, Li4/j;->b()Li4/j;
-
-    .line 144
-    .line 145
-    .line 146
-    move-result-object v2
-
-    .line 147
-    iget-object v2, v2, Li4/j;->a:Ln4/b;
-
-    .line 148
-    .line 149
-    iget-object v2, v2, Ln4/b;->c:Ln4/a;
-
-    .line 150
-    .line 151
-    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 152
-    .line 153
-    .line 154
-    const-string v2, ""
-
-    .line 155
-    .line 156
-    invoke-direct {v1, v2}, Lcom/adjust/sdk/AdjustEvent;-><init>(Ljava/lang/String;)V
-
-    .line 157
-    .line 158
-    .line 159
-    invoke-virtual {v1, v9, v10, v12}, Lcom/adjust/sdk/AdjustEvent;->setRevenue(DLjava/lang/String;)V
-
-    .line 160
-    .line 161
-    .line 162
-    invoke-static {v1}, Lcom/adjust/sdk/Adjust;->trackEvent(Lcom/adjust/sdk/AdjustEvent;)V
-
-    .line 163
-    .line 164
-    .line 165
-    :cond_0
-    invoke-static/range {p0 .. p0}, Lcom/google/firebase/analytics/FirebaseAnalytics;->getInstance(Landroid/content/Context;)Lcom/google/firebase/analytics/FirebaseAnalytics;
-
-    .line 166
-    .line 167
-    .line 168
-    move-result-object v1
-
-    .line 169
-    const-string v2, "paid_ad_impression_value"
-
-    .line 170
-    .line 171
-    invoke-virtual {v1, v8, v2}, Lcom/google/firebase/analytics/FirebaseAnalytics;->a(Landroid/os/Bundle;Ljava/lang/String;)V
-
-    .line 172
-    .line 173
-    .line 174
-    const-string v1, "context"
-
-    .line 175
-    .line 176
-    invoke-static {v0, v1}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 177
-    .line 178
-    .line 179
-    new-instance v1, Lcom/facebook/appevents/j;
-
-    .line 180
-    .line 181
-    const/4 v4, 0x0
-
-    .line 182
-    invoke-direct {v1, v0, v4}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
-
-    .line 183
-    .line 184
-    .line 185
-    invoke-virtual {v1, v8, v2}, Lcom/facebook/appevents/j;->d(Landroid/os/Bundle;Ljava/lang/String;)V
-
-    .line 186
-    .line 187
-    .line 188
-    invoke-static/range {p0 .. p0}, Lcom/google/firebase/analytics/FirebaseAnalytics;->getInstance(Landroid/content/Context;)Lcom/google/firebase/analytics/FirebaseAnalytics;
-
-    .line 189
-    .line 190
-    .line 191
-    move-result-object v1
-
-    .line 192
-    const-string v2, "paid_ad_impression"
-
-    .line 193
-    .line 194
-    invoke-virtual {v1, v5, v2}, Lcom/google/firebase/analytics/FirebaseAnalytics;->a(Landroid/os/Bundle;Ljava/lang/String;)V
-
-    .line 195
-    .line 196
-    .line 197
-    new-instance v1, Lcom/facebook/appevents/j;
-
-    .line 198
-    .line 199
-    invoke-direct {v1, v0, v4}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
-
-    .line 200
-    .line 201
-    .line 202
-    invoke-virtual {v1, v5, v2}, Lcom/facebook/appevents/j;->d(Landroid/os/Bundle;Ljava/lang/String;)V
-
-    .line 203
-    .line 204
-    .line 205
-    const-string v1, "gam_ad_pref"
-
-    .line 206
-    .line 207
-    const/4 v2, 0x0
-
-    .line 208
-    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
-
-    .line 209
-    .line 210
-    .line 211
-    move-result-object v5
-
-    .line 212
-    const-string v2, "KEY_CURRENT_TOTAL_REVENUE_AD"
-
-    .line 213
-    .line 214
-    const/4 v8, 0x0
-
-    .line 215
-    invoke-interface {v5, v2, v8}, Landroid/content/SharedPreferences;->getFloat(Ljava/lang/String;F)F
-
-    .line 216
-    .line 217
-    .line 218
-    move-result v11
-
-    .line 219
-    float-to-double v11, v11
-
-    .line 220
-    add-double/2addr v9, v11
-
-    .line 221
-    double-to-float v9, v9
-
-    .line 222
-    invoke-interface {v5}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
-
-    .line 223
-    .line 224
-    .line 225
-    move-result-object v5
-
-    .line 226
-    invoke-interface {v5, v2, v9}, Landroid/content/SharedPreferences$Editor;->putFloat(Ljava/lang/String;F)Landroid/content/SharedPreferences$Editor;
-
-    .line 227
-    .line 228
-    .line 229
-    move-result-object v2
-
-    .line 230
-    invoke-interface {v2}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    .line 231
-    .line 232
-    .line 233
-    const-string v2, "event_current_total_revenue_ad"
-
-    .line 234
-    .line 235
-    invoke-static {v0, v2}, Lcom/vungle/warren/utility/e;->C(Landroid/content/Context;Ljava/lang/String;)V
-
-    .line 236
-    .line 237
-    .line 238
-    sget v2, Lr4/a;->b:F
-
-    .line 239
-    .line 240
-    add-float/2addr v2, v3
-
-    .line 241
-    sput v2, Lr4/a;->b:F
-
-    .line 242
-    .line 243
-    const/4 v3, 0x0
-
-    .line 244
-    invoke-virtual {v0, v1, v3}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
-
-    .line 245
-    .line 246
-    .line 247
-    move-result-object v5
-
-    .line 248
-    invoke-interface {v5}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
-
-    .line 249
-    .line 250
-    .line 251
-    move-result-object v3
-
-    .line 252
-    const-string v5, "KEY_CURRENT_TOTAL_REVENUE_001_AD"
-
-    .line 253
-    .line 254
-    invoke-interface {v3, v5, v2}, Landroid/content/SharedPreferences$Editor;->putFloat(Ljava/lang/String;F)Landroid/content/SharedPreferences$Editor;
-
-    .line 255
-    .line 256
-    .line 257
-    move-result-object v2
-
-    .line 258
-    invoke-interface {v2}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    .line 259
-    .line 260
-    .line 261
-    sget v2, Lr4/a;->b:F
-
-    .line 262
-    .line 263
-    const v3, 0x49742400    # 1000000.0f
-
-    .line 264
-    .line 265
-    .line 266
-    div-float/2addr v2, v3
-
-    .line 267
-    float-to-double v9, v2
-
-    .line 268
-    const-wide v11, 0x3f847ae147ae147bL    # 0.01
-
-    .line 269
-    .line 270
-    .line 271
-    .line 272
-    .line 273
-    cmpl-double v13, v9, v11
-
-    .line 274
-    .line 275
-    if-ltz v13, :cond_1
-
-    .line 276
-    .line 277
-    sput v8, Lr4/a;->b:F
-
-    .line 278
-    .line 279
-    const/4 v9, 0x0
-
-    .line 280
-    invoke-virtual {v0, v1, v9}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
-
-    .line 281
-    .line 282
-    .line 283
-    move-result-object v10
-
-    .line 284
-    invoke-interface {v10}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
-
-    .line 285
-    .line 286
-    .line 287
-    move-result-object v9
-
-    .line 288
-    invoke-interface {v9, v5, v8}, Landroid/content/SharedPreferences$Editor;->putFloat(Ljava/lang/String;F)Landroid/content/SharedPreferences$Editor;
-
-    .line 289
-    .line 290
-    .line 291
-    move-result-object v5
-
-    .line 292
-    invoke-interface {v5}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    .line 293
-    .line 294
-    .line 295
-    new-instance v5, Landroid/os/Bundle;
-
-    .line 296
-    .line 297
-    invoke-direct {v5}, Landroid/os/Bundle;-><init>()V
-
-    .line 298
-    .line 299
-    .line 300
-    invoke-virtual {v5, v7, v2}, Landroid/os/Bundle;->putFloat(Ljava/lang/String;F)V
-
-    .line 301
-    .line 302
-    .line 303
-    invoke-static/range {p0 .. p0}, Lcom/google/firebase/analytics/FirebaseAnalytics;->getInstance(Landroid/content/Context;)Lcom/google/firebase/analytics/FirebaseAnalytics;
-
-    .line 304
-    .line 305
-    .line 306
-    move-result-object v2
-
-    .line 307
-    const-string v7, "paid_ad_impression_value_001"
-
-    .line 308
-    .line 309
-    invoke-virtual {v2, v5, v7}, Lcom/google/firebase/analytics/FirebaseAnalytics;->a(Landroid/os/Bundle;Ljava/lang/String;)V
-
-    .line 310
-    .line 311
-    .line 312
-    new-instance v2, Lcom/facebook/appevents/j;
-
-    .line 313
-    .line 314
-    invoke-direct {v2, v0, v4}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
-
-    .line 315
-    .line 316
-    .line 317
-    invoke-virtual {v2, v5, v7}, Lcom/facebook/appevents/j;->d(Landroid/os/Bundle;Ljava/lang/String;)V
-
-    .line 318
-    .line 319
-    .line 320
-    :cond_1
-    const/4 v2, 0x0
-
-    .line 321
-    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
-
-    .line 322
-    .line 323
-    .line 324
-    move-result-object v5
-
-    .line 325
-    const-string v7, "KEY_INSTALL_TIME"
-
-    .line 326
-    .line 327
-    const-wide/16 v8, 0x0
-
-    .line 328
-    .line 329
-    invoke-interface {v5, v7, v8, v9}, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String;J)J
-
-    .line 330
-    .line 331
-    .line 332
-    move-result-wide v10
-
-    .line 333
-    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
-
-    .line 334
-    .line 335
-    .line 336
-    move-result-object v5
-
-    .line 337
-    const-string v12, "KEY_PUSH_EVENT_REVENUE_3_DAY"
-
-    .line 338
-    .line 339
-    invoke-interface {v5, v12, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
-
-    .line 340
-    .line 341
-    .line 342
-    move-result v5
-
-    .line 343
-    if-nez v5, :cond_2
-
-    .line 344
-    .line 345
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    .line 346
-    .line 347
-    .line 348
-    move-result-wide v13
-
-    .line 349
-    sub-long/2addr v13, v10
-
-    .line 350
-    const-wide/32 v10, 0xf731400
-
-    .line 351
-    .line 352
-    .line 353
-    cmp-long v5, v13, v10
-
-    .line 354
-    .line 355
-    if-ltz v5, :cond_2
-
-    .line 356
-    .line 357
-    const-string v5, "logTotalRevenueAdAt3DaysIfNeed: "
-
-    .line 358
-    .line 359
-    invoke-static {v6, v5}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 360
-    .line 361
-    .line 362
-    const-string v5, "event_total_revenue_ad_in_3_days"
-
-    .line 363
-    .line 364
-    invoke-static {v0, v5}, Lcom/vungle/warren/utility/e;->C(Landroid/content/Context;Ljava/lang/String;)V
-
-    .line 365
-    .line 366
-    .line 367
-    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
-
-    .line 368
-    .line 369
-    .line 370
-    move-result-object v5
-
-    .line 371
-    invoke-interface {v5}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
-
-    .line 372
-    .line 373
-    .line 374
-    move-result-object v5
-
-    .line 375
-    const/4 v10, 0x1
-
-    .line 376
-    invoke-interface {v5, v12, v10}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
-
-    .line 377
-    .line 378
-    .line 379
-    move-result-object v5
-
-    .line 380
-    invoke-interface {v5}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    .line 381
-    .line 382
-    .line 383
-    :cond_2
-    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
-
-    .line 384
-    .line 385
-    .line 386
-    move-result-object v5
-
-    .line 387
-    invoke-interface {v5, v7, v8, v9}, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String;J)J
-
-    .line 388
-    .line 389
-    .line 390
-    move-result-wide v7
-
-    .line 391
-    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
-
-    .line 392
-    .line 393
-    .line 394
-    move-result-object v5
-
-    .line 395
-    const-string v9, "KEY_PUSH_EVENT_REVENUE_7_DAY"
-
-    .line 396
-    .line 397
-    invoke-interface {v5, v9, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
-
-    .line 398
-    .line 399
-    .line 400
-    move-result v5
-
-    .line 401
-    if-nez v5, :cond_3
-
-    .line 402
-    .line 403
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    .line 404
-    .line 405
-    .line 406
-    move-result-wide v10
-
-    .line 407
-    sub-long/2addr v10, v7
-
-    .line 408
-    const-wide/32 v7, 0x240c8400
-
-    .line 409
-    .line 410
-    .line 411
-    cmp-long v5, v10, v7
-
-    .line 412
-    .line 413
-    if-ltz v5, :cond_3
-
-    .line 414
-    .line 415
-    const-string v5, "logTotalRevenueAdAt7DaysIfNeed: "
-
-    .line 416
-    .line 417
-    invoke-static {v6, v5}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 418
-    .line 419
-    .line 420
-    const-string v5, "event_total_revenue_ad_in_7_days"
-
-    .line 421
-    .line 422
-    invoke-static {v0, v5}, Lcom/vungle/warren/utility/e;->C(Landroid/content/Context;Ljava/lang/String;)V
-
-    .line 423
-    .line 424
-    .line 425
-    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
-
-    .line 426
-    .line 427
-    .line 428
-    move-result-object v1
-
-    .line 429
-    invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
-
-    .line 430
-    .line 431
-    .line 432
-    move-result-object v1
-
-    .line 433
-    const/4 v2, 0x1
-
-    .line 434
-    invoke-interface {v1, v9, v2}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
-
-    .line 435
-    .line 436
-    .line 437
-    move-result-object v1
-
-    .line 438
-    invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    .line 439
-    .line 440
-    .line 441
-    :cond_3
-    sget-boolean v1, La3/a;->i:Z
-
-    .line 442
-    .line 443
-    if-eqz v1, :cond_4
-
-    .line 444
-    .line 445
-    new-instance v1, Lcom/adjust/sdk/AdjustAdRevenue;
-
-    .line 446
-    .line 447
-    const-string v2, "admob_sdk"
-
-    .line 448
-    .line 449
-    invoke-direct {v1, v2}, Lcom/adjust/sdk/AdjustAdRevenue;-><init>(Ljava/lang/String;)V
-
-    .line 450
-    .line 451
-    .line 452
-    invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/ads/AdValue;->getValueMicros()J
-
-    .line 453
-    .line 454
-    .line 455
-    move-result-wide v5
-
-    .line 456
-    long-to-double v5, v5
-
-    .line 457
-    div-double v5, v5, v16
-
-    .line 458
-    .line 459
-    invoke-static {v5, v6}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
-
-    .line 460
-    .line 461
-    .line 462
-    move-result-object v2
-
-    .line 463
-    invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/ads/AdValue;->getCurrencyCode()Ljava/lang/String;
-
-    .line 464
-    .line 465
-    .line 466
-    move-result-object v5
-
-    .line 467
-    invoke-virtual {v1, v2, v5}, Lcom/adjust/sdk/AdjustAdRevenue;->setRevenue(Ljava/lang/Double;Ljava/lang/String;)V
-
-    .line 468
-    .line 469
-    .line 470
-    invoke-static {v1}, Lcom/adjust/sdk/Adjust;->trackAdRevenue(Lcom/adjust/sdk/AdjustAdRevenue;)V
-
-    .line 471
-    .line 472
-    .line 473
-    :cond_4
-    sget-object v1, Lp4/a;->a:Lp4/a;
-
-    .line 474
-    .line 475
-    if-nez v1, :cond_5
-
-    .line 476
-    .line 477
-    new-instance v1, Lp4/a;
-
-    .line 478
-    .line 479
-    invoke-direct {v1}, Lp4/a;-><init>()V
-
-    .line 480
-    .line 481
-    .line 482
-    sput-object v1, Lp4/a;->a:Lp4/a;
-
-    .line 483
-    .line 484
-    :cond_5
-    sget-object v1, Lp4/a;->a:Lp4/a;
-
-    .line 485
-    .line 486
-    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 487
-    .line 488
-    .line 489
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    .line 490
-    .line 491
-    const-string v2, "pushTrackEventAdmob  enableAppsflyer:false --- value: "
-
-    .line 492
-    .line 493
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    .line 494
-    .line 495
-    .line 496
-    invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/ads/AdValue;->getValueMicros()J
-
-    .line 497
-    .line 498
-    .line 499
-    move-result-wide v5
-
-    .line 500
-    long-to-double v5, v5
-
-    .line 501
-    div-double v5, v5, v16
-
-    .line 502
-    .line 503
-    invoke-virtual {v1, v5, v6}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
-
-    .line 504
-    .line 505
-    .line 506
-    const-string v2, " -- adType: "
-
-    .line 507
-    .line 508
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 509
-    .line 510
-    .line 511
-    invoke-static/range {p4 .. p4}, La4/s;->m(I)Ljava/lang/String;
-
-    .line 512
-    .line 513
-    .line 514
-    move-result-object v2
-
-    .line 515
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 516
-    .line 517
-    .line 518
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 519
-    .line 520
-    .line 521
-    move-result-object v1
-
-    .line 522
-    const-string v2, "GamAppsflyer"
-
-    .line 523
-    .line 524
-    invoke-static {v2, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 525
-    .line 526
-    .line 527
-    invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/ads/AdValue;->getValueMicros()J
-
-    .line 528
-    .line 529
-    .line 530
-    move-result-wide v1
-
-    .line 531
-    long-to-float v1, v1
-
-    .line 532
-    const/high16 v2, 0x3f800000    # 1.0f
-
-    .line 533
-    .line 534
-    mul-float v1, v1, v2
-
-    .line 535
-    .line 536
-    div-float/2addr v1, v3
-
-    .line 537
-    const v2, 0x46bb8000    # 24000.0f
-
-    .line 538
-    .line 539
-    .line 540
-    mul-float v1, v1, v2
-
-    .line 541
-    .line 542
-    new-instance v2, Lcom/facebook/appevents/j;
-
-    .line 543
-    .line 544
-    invoke-direct {v2, v0, v4}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
-
-    .line 545
-    .line 546
-    .line 547
-    float-to-double v0, v1
-
-    .line 548
-    invoke-static {v0, v1}, Ljava/math/BigDecimal;->valueOf(D)Ljava/math/BigDecimal;
-
-    .line 549
-    .line 550
-    .line 551
-    move-result-object v0
-
-    .line 552
-    const-string v1, "VND"
-
-    .line 553
-    .line 554
-    invoke-static {v1}, Ljava/util/Currency;->getInstance(Ljava/lang/String;)Ljava/util/Currency;
-
-    .line 555
-    .line 556
-    .line 557
-    move-result-object v1
-
-    .line 558
-    invoke-static {v2}, Li8/a;->b(Ljava/lang/Object;)Z
-
-    .line 559
-    .line 560
-    .line 561
-    move-result v3
-
-    .line 562
-    if-eqz v3, :cond_6
-
-    .line 563
-    .line 564
-    goto :goto_2
-
-    .line 565
-    :cond_6
-    :try_start_0
-    invoke-static {v2}, Li8/a;->b(Ljava/lang/Object;)Z
-
-    .line 566
-    .line 567
-    .line 568
-    move-result v3
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_1
-
-    .line 569
-    if-eqz v3, :cond_7
-
-    .line 570
-    .line 571
-    goto :goto_2
-
-    .line 572
-    :cond_7
-    :try_start_1
-    invoke-static {}, Ly7/f;->a()Z
-
-    .line 573
-    .line 574
-    .line 575
-    move-result v3
-
-    .line 576
-    if-eqz v3, :cond_8
-
-    .line 577
-    .line 578
-    sget-object v3, Lcom/facebook/appevents/j;->c:Ljava/lang/String;
-
-    .line 579
-    .line 580
-    const-string v5, "You are logging purchase events while auto-logging of in-app purchase is enabled in the SDK. Make sure you don\'t log duplicate events"
-
-    .line 581
-    .line 582
-    invoke-static {v3, v5}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 583
-    .line 584
-    .line 585
-    goto :goto_0
-
-    .line 586
-    :catchall_0
-    move-exception v0
-
-    .line 587
-    goto :goto_1
-
-    .line 588
-    :cond_8
-    :goto_0
-    const/4 v3, 0x0
-
-    .line 589
-    invoke-virtual {v2, v0, v1, v4, v3}, Lcom/facebook/appevents/j;->g(Ljava/math/BigDecimal;Ljava/util/Currency;Landroid/os/Bundle;Z)V
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    .line 590
-    .line 591
-    .line 592
-    goto :goto_2
-
-    .line 593
-    :goto_1
-    :try_start_2
-    invoke-static {v2, v0}, Li8/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V
-    :try_end_2
-    .catchall {:try_start_2 .. :try_end_2} :catchall_1
-
-    .line 594
-    .line 595
-    .line 596
-    goto :goto_2
-
-    .line 597
-    :catchall_1
-    move-exception v0
-
-    .line 598
-    invoke-static {v2, v0}, Li8/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V
-
-    .line 599
-    .line 600
-    .line 601
-    :goto_2
+    # .line 1
+    # move-object/from16 v0, p0
+    #
+    # .line 2
+    # .line 3
+    # move-object/from16 v1, p2
+    #
+    # .line 4
+    # .line 5
+    # move-object/from16 v2, p3
+    #
+    # .line 6
+    # .line 7
+    # invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/ads/AdValue;->getValueMicros()J
+    #
+    # .line 8
+    # .line 9
+    # .line 10
+    # move-result-wide v3
+    #
+    # .line 11
+    # long-to-float v3, v3
+    #
+    # .line 12
+    # invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/ads/AdValue;->getPrecisionType()I
+    #
+    # .line 13
+    # .line 14
+    # .line 15
+    # move-result v4
+    #
+    # .line 16
+    # const/4 v5, 0x5
+    #
+    # .line 17
+    # new-array v5, v5, [Ljava/lang/Object;
+    #
+    # .line 18
+    # .line 19
+    # invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+    #
+    # .line 20
+    # .line 21
+    # .line 22
+    # move-result-object v6
+    #
+    # .line 23
+    # const/4 v7, 0x0
+    #
+    # .line 24
+    # aput-object v6, v5, v7
+    #
+    # .line 25
+    # .line 26
+    # invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    #
+    # .line 27
+    # .line 28
+    # .line 29
+    # move-result-object v6
+    #
+    # .line 30
+    # const/4 v8, 0x1
+    #
+    # .line 31
+    # aput-object v6, v5, v8
+    #
+    # .line 32
+    # .line 33
+    # const/4 v6, 0x2
+    #
+    # .line 34
+    # aput-object v1, v5, v6
+    #
+    # .line 35
+    # .line 36
+    # const/4 v6, 0x3
+    #
+    # .line 37
+    # aput-object v2, v5, v6
+    #
+    # .line 38
+    # .line 39
+    # const/4 v6, 0x4
+    #
+    # .line 40
+    # invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    #
+    # .line 41
+    # .line 42
+    # .line 43
+    # move-result-object v9
+    #
+    # .line 44
+    # aput-object v9, v5, v6
+    #
+    # .line 45
+    # .line 46
+    # const-string v6, "Paid event of value %.0f microcents in currency USD of precision %s%n occurred for ad unit %s from ad network %s.mediation provider: %s%n"
+    #
+    # .line 47
+    # .line 48
+    # invoke-static {v6, v5}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    #
+    # .line 49
+    # .line 50
+    # .line 51
+    # move-result-object v5
+    #
+    # .line 52
+    # const-string v6, "GamLogEventManager"
+    #
+    # .line 53
+    # .line 54
+    # invoke-static {v6, v5}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # .line 55
+    # .line 56
+    # .line 57
+    # new-instance v5, Landroid/os/Bundle;
+    #
+    # .line 58
+    # .line 59
+    # invoke-direct {v5}, Landroid/os/Bundle;-><init>()V
+    #
+    # .line 60
+    # .line 61
+    # .line 62
+    # float-to-double v9, v3
+    #
+    # .line 63
+    # const-string v11, "valuemicros"
+    #
+    # .line 64
+    # .line 65
+    # invoke-virtual {v5, v11, v9, v10}, Landroid/os/BaseBundle;->putDouble(Ljava/lang/String;D)V
+    #
+    # .line 66
+    # .line 67
+    # .line 68
+    # const-string v11, "currency"
+    #
+    # .line 69
+    # .line 70
+    # const-string v12, "USD"
+    #
+    # .line 71
+    # .line 72
+    # invoke-virtual {v5, v11, v12}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 73
+    # .line 74
+    # .line 75
+    # const-string v13, "precision"
+    #
+    # .line 76
+    # .line 77
+    # invoke-virtual {v5, v13, v4}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
+    #
+    # .line 78
+    # .line 79
+    # .line 80
+    # const-string v14, "adunitid"
+    #
+    # .line 81
+    # .line 82
+    # invoke-virtual {v5, v14, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 83
+    # .line 84
+    # .line 85
+    # const-string v15, "network"
+    #
+    # .line 86
+    # .line 87
+    # invoke-virtual {v5, v15, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 88
+    # .line 89
+    # .line 90
+    # const-wide v16, 0x412e848000000000L    # 1000000.0
+    #
+    # .line 91
+    # .line 92
+    # .line 93
+    # .line 94
+    # .line 95
+    # div-double v9, v9, v16
+    #
+    # .line 96
+    # .line 97
+    # new-instance v8, Landroid/os/Bundle;
+    #
+    # .line 98
+    # .line 99
+    # invoke-direct {v8}, Landroid/os/Bundle;-><init>()V
+    #
+    # .line 100
+    # .line 101
+    # .line 102
+    # const-string v7, "value"
+    #
+    # .line 103
+    # .line 104
+    # invoke-virtual {v8, v7, v9, v10}, Landroid/os/BaseBundle;->putDouble(Ljava/lang/String;D)V
+    #
+    # .line 105
+    # .line 106
+    # .line 107
+    # invoke-virtual {v8, v11, v12}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 108
+    # .line 109
+    # .line 110
+    # invoke-virtual {v8, v13, v4}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
+    #
+    # .line 111
+    # .line 112
+    # .line 113
+    # invoke-virtual {v8, v14, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 114
+    # .line 115
+    # .line 116
+    # invoke-virtual {v8, v15, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 117
+    # .line 118
+    # .line 119
+    # invoke-static {}, Li4/j;->b()Li4/j;
+    #
+    # .line 120
+    # .line 121
+    # .line 122
+    # move-result-object v1
+    #
+    # .line 123
+    # iget-object v1, v1, Li4/j;->a:Ln4/b;
+    #
+    # .line 124
+    # .line 125
+    # iget-object v1, v1, Ln4/b;->c:Ln4/a;
+    #
+    # .line 126
+    # .line 127
+    # if-eqz v1, :cond_0
+    #
+    # .line 128
+    # .line 129
+    # invoke-static {}, Li4/j;->b()Li4/j;
+    #
+    # .line 130
+    # .line 131
+    # .line 132
+    # move-result-object v1
+    #
+    # .line 133
+    # iget-object v1, v1, Li4/j;->a:Ln4/b;
+    #
+    # .line 134
+    # .line 135
+    # iget-object v1, v1, Ln4/b;->c:Ln4/a;
+    #
+    # .line 136
+    # .line 137
+    # iget-boolean v1, v1, Ln4/a;->a:Z
+    #
+    # .line 138
+    # .line 139
+    # if-eqz v1, :cond_0
+    #
+    # .line 140
+    # .line 141
+    # new-instance v1, Lcom/adjust/sdk/AdjustEvent;
+    #
+    # .line 142
+    # .line 143
+    # invoke-static {}, Li4/j;->b()Li4/j;
+    #
+    # .line 144
+    # .line 145
+    # .line 146
+    # move-result-object v2
+    #
+    # .line 147
+    # iget-object v2, v2, Li4/j;->a:Ln4/b;
+    #
+    # .line 148
+    # .line 149
+    # iget-object v2, v2, Ln4/b;->c:Ln4/a;
+    #
+    # .line 150
+    # .line 151
+    # invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    #
+    # .line 152
+    # .line 153
+    # .line 154
+    # const-string v2, ""
+    #
+    # .line 155
+    # .line 156
+    # invoke-direct {v1, v2}, Lcom/adjust/sdk/AdjustEvent;-><init>(Ljava/lang/String;)V
+    #
+    # .line 157
+    # .line 158
+    # .line 159
+    # invoke-virtual {v1, v9, v10, v12}, Lcom/adjust/sdk/AdjustEvent;->setRevenue(DLjava/lang/String;)V
+    #
+    # .line 160
+    # .line 161
+    # .line 162
+    # invoke-static {v1}, Lcom/adjust/sdk/Adjust;->trackEvent(Lcom/adjust/sdk/AdjustEvent;)V
+    #
+    # .line 163
+    # .line 164
+    # .line 165
+    # :cond_0
+    # invoke-static/range {p0 .. p0}, Lcom/google/firebase/analytics/FirebaseAnalytics;->getInstance(Landroid/content/Context;)Lcom/google/firebase/analytics/FirebaseAnalytics;
+    #
+    # .line 166
+    # .line 167
+    # .line 168
+    # move-result-object v1
+    #
+    # .line 169
+    # const-string v2, "paid_ad_impression_value"
+    #
+    # .line 170
+    # .line 171
+    # invoke-virtual {v1, v8, v2}, Lcom/google/firebase/analytics/FirebaseAnalytics;->a(Landroid/os/Bundle;Ljava/lang/String;)V
+    #
+    # .line 172
+    # .line 173
+    # .line 174
+    # const-string v1, "context"
+    #
+    # .line 175
+    # .line 176
+    # invoke-static {v0, v1}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 177
+    # .line 178
+    # .line 179
+    # # new-instance v1, Lcom/facebook/appevents/j;
+    #
+    # .line 180
+    # .line 181
+    # const/4 v4, 0x0
+    #
+    # .line 182
+    # # invoke-direct {v1, v0, v4}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    #
+    # .line 183
+    # .line 184
+    # .line 185
+    # # invoke-virtual {v1, v8, v2}, Lcom/facebook/appevents/j;->d(Landroid/os/Bundle;Ljava/lang/String;)V
+    #
+    # .line 186
+    # .line 187
+    # .line 188
+    # invoke-static/range {p0 .. p0}, Lcom/google/firebase/analytics/FirebaseAnalytics;->getInstance(Landroid/content/Context;)Lcom/google/firebase/analytics/FirebaseAnalytics;
+    #
+    # .line 189
+    # .line 190
+    # .line 191
+    # move-result-object v1
+    #
+    # .line 192
+    # const-string v2, "paid_ad_impression"
+    #
+    # .line 193
+    # .line 194
+    # invoke-virtual {v1, v5, v2}, Lcom/google/firebase/analytics/FirebaseAnalytics;->a(Landroid/os/Bundle;Ljava/lang/String;)V
+    #
+    # .line 195
+    # .line 196
+    # .line 197
+    # # new-instance v1, Lcom/facebook/appevents/j;
+    #
+    # .line 198
+    # .line 199
+    # # invoke-direct {v1, v0, v4}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    #
+    # .line 200
+    # .line 201
+    # .line 202
+    # # invoke-virtual {v1, v5, v2}, Lcom/facebook/appevents/j;->d(Landroid/os/Bundle;Ljava/lang/String;)V
+    #
+    # .line 203
+    # .line 204
+    # .line 205
+    # const-string v1, "gam_ad_pref"
+    #
+    # .line 206
+    # .line 207
+    # const/4 v2, 0x0
+    #
+    # .line 208
+    # invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    #
+    # .line 209
+    # .line 210
+    # .line 211
+    # move-result-object v5
+    #
+    # .line 212
+    # const-string v2, "KEY_CURRENT_TOTAL_REVENUE_AD"
+    #
+    # .line 213
+    # .line 214
+    # const/4 v8, 0x0
+    #
+    # .line 215
+    # invoke-interface {v5, v2, v8}, Landroid/content/SharedPreferences;->getFloat(Ljava/lang/String;F)F
+    #
+    # .line 216
+    # .line 217
+    # .line 218
+    # move-result v11
+    #
+    # .line 219
+    # float-to-double v11, v11
+    #
+    # .line 220
+    # add-double/2addr v9, v11
+    #
+    # .line 221
+    # double-to-float v9, v9
+    #
+    # .line 222
+    # invoke-interface {v5}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    #
+    # .line 223
+    # .line 224
+    # .line 225
+    # move-result-object v5
+    #
+    # .line 226
+    # invoke-interface {v5, v2, v9}, Landroid/content/SharedPreferences$Editor;->putFloat(Ljava/lang/String;F)Landroid/content/SharedPreferences$Editor;
+    #
+    # .line 227
+    # .line 228
+    # .line 229
+    # move-result-object v2
+    #
+    # .line 230
+    # invoke-interface {v2}, Landroid/content/SharedPreferences$Editor;->apply()V
+    #
+    # .line 231
+    # .line 232
+    # .line 233
+    # const-string v2, "event_current_total_revenue_ad"
+    #
+    # .line 234
+    # .line 235
+    # invoke-static {v0, v2}, Lcom/vungle/warren/utility/e;->C(Landroid/content/Context;Ljava/lang/String;)V
+    #
+    # .line 236
+    # .line 237
+    # .line 238
+    # sget v2, Lr4/a;->b:F
+    #
+    # .line 239
+    # .line 240
+    # add-float/2addr v2, v3
+    #
+    # .line 241
+    # sput v2, Lr4/a;->b:F
+    #
+    # .line 242
+    # .line 243
+    # const/4 v3, 0x0
+    #
+    # .line 244
+    # invoke-virtual {v0, v1, v3}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    #
+    # .line 245
+    # .line 246
+    # .line 247
+    # move-result-object v5
+    #
+    # .line 248
+    # invoke-interface {v5}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    #
+    # .line 249
+    # .line 250
+    # .line 251
+    # move-result-object v3
+    #
+    # .line 252
+    # const-string v5, "KEY_CURRENT_TOTAL_REVENUE_001_AD"
+    #
+    # .line 253
+    # .line 254
+    # invoke-interface {v3, v5, v2}, Landroid/content/SharedPreferences$Editor;->putFloat(Ljava/lang/String;F)Landroid/content/SharedPreferences$Editor;
+    #
+    # .line 255
+    # .line 256
+    # .line 257
+    # move-result-object v2
+    #
+    # .line 258
+    # invoke-interface {v2}, Landroid/content/SharedPreferences$Editor;->apply()V
+    #
+    # .line 259
+    # .line 260
+    # .line 261
+    # sget v2, Lr4/a;->b:F
+    #
+    # .line 262
+    # .line 263
+    # const v3, 0x49742400    # 1000000.0f
+    #
+    # .line 264
+    # .line 265
+    # .line 266
+    # div-float/2addr v2, v3
+    #
+    # .line 267
+    # float-to-double v9, v2
+    #
+    # .line 268
+    # const-wide v11, 0x3f847ae147ae147bL    # 0.01
+    #
+    # .line 269
+    # .line 270
+    # .line 271
+    # .line 272
+    # .line 273
+    # cmpl-double v13, v9, v11
+    #
+    # .line 274
+    # .line 275
+    # if-ltz v13, :cond_1
+    #
+    # .line 276
+    # .line 277
+    # sput v8, Lr4/a;->b:F
+    #
+    # .line 278
+    # .line 279
+    # const/4 v9, 0x0
+    #
+    # .line 280
+    # invoke-virtual {v0, v1, v9}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    #
+    # .line 281
+    # .line 282
+    # .line 283
+    # move-result-object v10
+    #
+    # .line 284
+    # invoke-interface {v10}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    #
+    # .line 285
+    # .line 286
+    # .line 287
+    # move-result-object v9
+    #
+    # .line 288
+    # invoke-interface {v9, v5, v8}, Landroid/content/SharedPreferences$Editor;->putFloat(Ljava/lang/String;F)Landroid/content/SharedPreferences$Editor;
+    #
+    # .line 289
+    # .line 290
+    # .line 291
+    # move-result-object v5
+    #
+    # .line 292
+    # invoke-interface {v5}, Landroid/content/SharedPreferences$Editor;->apply()V
+    #
+    # .line 293
+    # .line 294
+    # .line 295
+    # new-instance v5, Landroid/os/Bundle;
+    #
+    # .line 296
+    # .line 297
+    # invoke-direct {v5}, Landroid/os/Bundle;-><init>()V
+    #
+    # .line 298
+    # .line 299
+    # .line 300
+    # invoke-virtual {v5, v7, v2}, Landroid/os/Bundle;->putFloat(Ljava/lang/String;F)V
+    #
+    # .line 301
+    # .line 302
+    # .line 303
+    # invoke-static/range {p0 .. p0}, Lcom/google/firebase/analytics/FirebaseAnalytics;->getInstance(Landroid/content/Context;)Lcom/google/firebase/analytics/FirebaseAnalytics;
+    #
+    # .line 304
+    # .line 305
+    # .line 306
+    # move-result-object v2
+    #
+    # .line 307
+    # const-string v7, "paid_ad_impression_value_001"
+    #
+    # .line 308
+    # .line 309
+    # invoke-virtual {v2, v5, v7}, Lcom/google/firebase/analytics/FirebaseAnalytics;->a(Landroid/os/Bundle;Ljava/lang/String;)V
+    #
+    # .line 310
+    # .line 311
+    # .line 312
+    # # new-instance v2, Lcom/facebook/appevents/j;
+    #
+    # .line 313
+    # .line 314
+    # # invoke-direct {v2, v0, v4}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    #
+    # .line 315
+    # .line 316
+    # .line 317
+    # # invoke-virtual {v2, v5, v7}, Lcom/facebook/appevents/j;->d(Landroid/os/Bundle;Ljava/lang/String;)V
+    #
+    # .line 318
+    # .line 319
+    # .line 320
+    # :cond_1
+    # const/4 v2, 0x0
+    #
+    # .line 321
+    # invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    #
+    # .line 322
+    # .line 323
+    # .line 324
+    # move-result-object v5
+    #
+    # .line 325
+    # const-string v7, "KEY_INSTALL_TIME"
+    #
+    # .line 326
+    # .line 327
+    # const-wide/16 v8, 0x0
+    #
+    # .line 328
+    # .line 329
+    # invoke-interface {v5, v7, v8, v9}, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String;J)J
+    #
+    # .line 330
+    # .line 331
+    # .line 332
+    # move-result-wide v10
+    #
+    # .line 333
+    # invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    #
+    # .line 334
+    # .line 335
+    # .line 336
+    # move-result-object v5
+    #
+    # .line 337
+    # const-string v12, "KEY_PUSH_EVENT_REVENUE_3_DAY"
+    #
+    # .line 338
+    # .line 339
+    # invoke-interface {v5, v12, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+    #
+    # .line 340
+    # .line 341
+    # .line 342
+    # move-result v5
+    #
+    # .line 343
+    # if-nez v5, :cond_2
+    #
+    # .line 344
+    # .line 345
+    # invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+    #
+    # .line 346
+    # .line 347
+    # .line 348
+    # move-result-wide v13
+    #
+    # .line 349
+    # sub-long/2addr v13, v10
+    #
+    # .line 350
+    # const-wide/32 v10, 0xf731400
+    #
+    # .line 351
+    # .line 352
+    # .line 353
+    # cmp-long v5, v13, v10
+    #
+    # .line 354
+    # .line 355
+    # if-ltz v5, :cond_2
+    #
+    # .line 356
+    # .line 357
+    # const-string v5, "logTotalRevenueAdAt3DaysIfNeed: "
+    #
+    # .line 358
+    # .line 359
+    # invoke-static {v6, v5}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # .line 360
+    # .line 361
+    # .line 362
+    # const-string v5, "event_total_revenue_ad_in_3_days"
+    #
+    # .line 363
+    # .line 364
+    # invoke-static {v0, v5}, Lcom/vungle/warren/utility/e;->C(Landroid/content/Context;Ljava/lang/String;)V
+    #
+    # .line 365
+    # .line 366
+    # .line 367
+    # invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    #
+    # .line 368
+    # .line 369
+    # .line 370
+    # move-result-object v5
+    #
+    # .line 371
+    # invoke-interface {v5}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    #
+    # .line 372
+    # .line 373
+    # .line 374
+    # move-result-object v5
+    #
+    # .line 375
+    # const/4 v10, 0x1
+    #
+    # .line 376
+    # invoke-interface {v5, v12, v10}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
+    #
+    # .line 377
+    # .line 378
+    # .line 379
+    # move-result-object v5
+    #
+    # .line 380
+    # invoke-interface {v5}, Landroid/content/SharedPreferences$Editor;->apply()V
+    #
+    # .line 381
+    # .line 382
+    # .line 383
+    # :cond_2
+    # invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    #
+    # .line 384
+    # .line 385
+    # .line 386
+    # move-result-object v5
+    #
+    # .line 387
+    # invoke-interface {v5, v7, v8, v9}, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String;J)J
+    #
+    # .line 388
+    # .line 389
+    # .line 390
+    # move-result-wide v7
+    #
+    # .line 391
+    # invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    #
+    # .line 392
+    # .line 393
+    # .line 394
+    # move-result-object v5
+    #
+    # .line 395
+    # const-string v9, "KEY_PUSH_EVENT_REVENUE_7_DAY"
+    #
+    # .line 396
+    # .line 397
+    # invoke-interface {v5, v9, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+    #
+    # .line 398
+    # .line 399
+    # .line 400
+    # move-result v5
+    #
+    # .line 401
+    # if-nez v5, :cond_3
+    #
+    # .line 402
+    # .line 403
+    # invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+    #
+    # .line 404
+    # .line 405
+    # .line 406
+    # move-result-wide v10
+    #
+    # .line 407
+    # sub-long/2addr v10, v7
+    #
+    # .line 408
+    # const-wide/32 v7, 0x240c8400
+    #
+    # .line 409
+    # .line 410
+    # .line 411
+    # cmp-long v5, v10, v7
+    #
+    # .line 412
+    # .line 413
+    # if-ltz v5, :cond_3
+    #
+    # .line 414
+    # .line 415
+    # const-string v5, "logTotalRevenueAdAt7DaysIfNeed: "
+    #
+    # .line 416
+    # .line 417
+    # invoke-static {v6, v5}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # .line 418
+    # .line 419
+    # .line 420
+    # const-string v5, "event_total_revenue_ad_in_7_days"
+    #
+    # .line 421
+    # .line 422
+    # invoke-static {v0, v5}, Lcom/vungle/warren/utility/e;->C(Landroid/content/Context;Ljava/lang/String;)V
+    #
+    # .line 423
+    # .line 424
+    # .line 425
+    # invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    #
+    # .line 426
+    # .line 427
+    # .line 428
+    # move-result-object v1
+    #
+    # .line 429
+    # invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    #
+    # .line 430
+    # .line 431
+    # .line 432
+    # move-result-object v1
+    #
+    # .line 433
+    # const/4 v2, 0x1
+    #
+    # .line 434
+    # invoke-interface {v1, v9, v2}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
+    #
+    # .line 435
+    # .line 436
+    # .line 437
+    # move-result-object v1
+    #
+    # .line 438
+    # invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->apply()V
+    #
+    # .line 439
+    # .line 440
+    # .line 441
+    # :cond_3
+    # sget-boolean v1, La3/a;->i:Z
+    #
+    # .line 442
+    # .line 443
+    # if-eqz v1, :cond_4
+    #
+    # .line 444
+    # .line 445
+    # new-instance v1, Lcom/adjust/sdk/AdjustAdRevenue;
+    #
+    # .line 446
+    # .line 447
+    # const-string v2, "admob_sdk"
+    #
+    # .line 448
+    # .line 449
+    # invoke-direct {v1, v2}, Lcom/adjust/sdk/AdjustAdRevenue;-><init>(Ljava/lang/String;)V
+    #
+    # .line 450
+    # .line 451
+    # .line 452
+    # invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/ads/AdValue;->getValueMicros()J
+    #
+    # .line 453
+    # .line 454
+    # .line 455
+    # move-result-wide v5
+    #
+    # .line 456
+    # long-to-double v5, v5
+    #
+    # .line 457
+    # div-double v5, v5, v16
+    #
+    # .line 458
+    # .line 459
+    # invoke-static {v5, v6}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+    #
+    # .line 460
+    # .line 461
+    # .line 462
+    # move-result-object v2
+    #
+    # .line 463
+    # invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/ads/AdValue;->getCurrencyCode()Ljava/lang/String;
+    #
+    # .line 464
+    # .line 465
+    # .line 466
+    # move-result-object v5
+    #
+    # .line 467
+    # invoke-virtual {v1, v2, v5}, Lcom/adjust/sdk/AdjustAdRevenue;->setRevenue(Ljava/lang/Double;Ljava/lang/String;)V
+    #
+    # .line 468
+    # .line 469
+    # .line 470
+    # invoke-static {v1}, Lcom/adjust/sdk/Adjust;->trackAdRevenue(Lcom/adjust/sdk/AdjustAdRevenue;)V
+    #
+    # .line 471
+    # .line 472
+    # .line 473
+    # :cond_4
+    # sget-object v1, Lp4/a;->a:Lp4/a;
+    #
+    # .line 474
+    # .line 475
+    # if-nez v1, :cond_5
+    #
+    # .line 476
+    # .line 477
+    # new-instance v1, Lp4/a;
+    #
+    # .line 478
+    # .line 479
+    # invoke-direct {v1}, Lp4/a;-><init>()V
+    #
+    # .line 480
+    # .line 481
+    # .line 482
+    # sput-object v1, Lp4/a;->a:Lp4/a;
+    #
+    # .line 483
+    # .line 484
+    # :cond_5
+    # sget-object v1, Lp4/a;->a:Lp4/a;
+    #
+    # .line 485
+    # .line 486
+    # invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    #
+    # .line 487
+    # .line 488
+    # .line 489
+    # new-instance v1, Ljava/lang/StringBuilder;
+    #
+    # .line 490
+    # .line 491
+    # const-string v2, "pushTrackEventAdmob  enableAppsflyer:false --- value: "
+    #
+    # .line 492
+    # .line 493
+    # invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    #
+    # .line 494
+    # .line 495
+    # .line 496
+    # invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/ads/AdValue;->getValueMicros()J
+    #
+    # .line 497
+    # .line 498
+    # .line 499
+    # move-result-wide v5
+    #
+    # .line 500
+    # long-to-double v5, v5
+    #
+    # .line 501
+    # div-double v5, v5, v16
+    #
+    # .line 502
+    # .line 503
+    # invoke-virtual {v1, v5, v6}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
+    #
+    # .line 504
+    # .line 505
+    # .line 506
+    # const-string v2, " -- adType: "
+    #
+    # .line 507
+    # .line 508
+    # invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    #
+    # .line 509
+    # .line 510
+    # .line 511
+    # invoke-static/range {p4 .. p4}, La4/s;->m(I)Ljava/lang/String;
+    #
+    # .line 512
+    # .line 513
+    # .line 514
+    # move-result-object v2
+    #
+    # .line 515
+    # invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    #
+    # .line 516
+    # .line 517
+    # .line 518
+    # invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    #
+    # .line 519
+    # .line 520
+    # .line 521
+    # move-result-object v1
+    #
+    # .line 522
+    # const-string v2, "GamAppsflyer"
+    #
+    # .line 523
+    # .line 524
+    # invoke-static {v2, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # .line 525
+    # .line 526
+    # .line 527
+    # invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/ads/AdValue;->getValueMicros()J
+    #
+    # .line 528
+    # .line 529
+    # .line 530
+    # move-result-wide v1
+    #
+    # .line 531
+    # long-to-float v1, v1
+    #
+    # .line 532
+    # const/high16 v2, 0x3f800000    # 1.0f
+    #
+    # .line 533
+    # .line 534
+    # mul-float v1, v1, v2
+    #
+    # .line 535
+    # .line 536
+    # div-float/2addr v1, v3
+    #
+    # .line 537
+    # const v2, 0x46bb8000    # 24000.0f
+    #
+    # .line 538
+    # .line 539
+    # .line 540
+    # mul-float v1, v1, v2
+    #
+    # .line 541
+    # .line 542
+    # # new-instance v2, Lcom/facebook/appevents/j;
+    #
+    # .line 543
+    # .line 544
+    # # invoke-direct {v2, v0, v4}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    #
+    # .line 545
+    # .line 546
+    # .line 547
+    # float-to-double v0, v1
+    #
+    # .line 548
+    # invoke-static {v0, v1}, Ljava/math/BigDecimal;->valueOf(D)Ljava/math/BigDecimal;
+    #
+    # .line 549
+    # .line 550
+    # .line 551
+    # move-result-object v0
+    #
+    # .line 552
+    # const-string v1, "VND"
+    #
+    # .line 553
+    # .line 554
+    # invoke-static {v1}, Ljava/util/Currency;->getInstance(Ljava/lang/String;)Ljava/util/Currency;
+    #
+    # .line 555
+    # .line 556
+    # .line 557
+    # move-result-object v1
+    #
+    # .line 558
+    # invoke-static {v2}, Li8/a;->b(Ljava/lang/Object;)Z
+    #
+    # .line 559
+    # .line 560
+    # .line 561
+    # move-result v3
+    #
+    # .line 562
+    # if-eqz v3, :cond_6
+    #
+    # .line 563
+    # .line 564
+    # goto :goto_2
+    #
+    # .line 565
+    # :cond_6
+    # :try_start_0
+    # invoke-static {v2}, Li8/a;->b(Ljava/lang/Object;)Z
+    #
+    # .line 566
+    # .line 567
+    # .line 568
+    # move-result v3
+    # :try_end_0
+    # .catchall {:try_start_0 .. :try_end_0} :catchall_1
+    #
+    # .line 569
+    # if-eqz v3, :cond_7
+    #
+    # .line 570
+    # .line 571
+    # goto :goto_2
+    #
+    # .line 572
+    # :cond_7
+    # :try_start_1
+    # invoke-static {}, Ly7/f;->a()Z
+    #
+    # .line 573
+    # .line 574
+    # .line 575
+    # move-result v3
+    #
+    # .line 576
+    # if-eqz v3, :cond_8
+    #
+    # .line 577
+    # .line 578
+    # sget-object v3, Lcom/facebook/appevents/j;->c:Ljava/lang/String;
+    #
+    # .line 579
+    # .line 580
+    # const-string v5, "You are logging purchase events while auto-logging of in-app purchase is enabled in the SDK. Make sure you don\'t log duplicate events"
+    #
+    # .line 581
+    # .line 582
+    # invoke-static {v3, v5}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # .line 583
+    # .line 584
+    # .line 585
+    # goto :goto_0
+    #
+    # .line 586
+    # :catchall_0
+    # move-exception v0
+    #
+    # .line 587
+    # goto :goto_1
+    #
+    # .line 588
+    # :cond_8
+    # :goto_0
+    # const/4 v3, 0x0
+    #
+    # .line 589
+    # # invoke-virtual {v2, v0, v1, v4, v3}, Lcom/facebook/appevents/j;->g(Ljava/math/BigDecimal;Ljava/util/Currency;Landroid/os/Bundle;Z)V
+    # :try_end_1
+    # .catchall {:try_start_1 .. :try_end_1} :catchall_0
+    #
+    # .line 590
+    # .line 591
+    # .line 592
+    # goto :goto_2
+    #
+    # .line 593
+    # :goto_1
+    # :try_start_2
+    # invoke-static {v2, v0}, Li8/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V
+    # :try_end_2
+    # .catchall {:try_start_2 .. :try_end_2} :catchall_1
+    #
+    # .line 594
+    # .line 595
+    # .line 596
+    # goto :goto_2
+    #
+    # .line 597
+    # :catchall_1
+    # move-exception v0
+    #
+    # .line 598
+    # invoke-static {v2, v0}, Li8/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V
+    #
+    # .line 599
+    # .line 600
+    # .line 601
+    # :goto_2
     return-void
 .end method
 

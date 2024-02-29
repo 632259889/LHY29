@@ -10,40 +10,40 @@
 
 .field public static c:Ljava/lang/String;
 
-.field public static final d:Lcom/facebook/appevents/f;
+# .field public static final d:Lcom/facebook/appevents/f;
 
 
 # direct methods
 .method public static constructor <clinit>()V
     .locals 2
 
-    new-instance v0, Lg8/a;
-
-    invoke-direct {v0}, Lg8/a;-><init>()V
-
-    invoke-static {}, Landroid/os/Process;->myUid()I
-
-    move-result v0
-
-    sput v0, Lg8/a;->a:I
-
-    invoke-static {}, Ljava/util/concurrent/Executors;->newSingleThreadScheduledExecutor()Ljava/util/concurrent/ScheduledExecutorService;
-
-    move-result-object v0
-
-    sput-object v0, Lg8/a;->b:Ljava/util/concurrent/ScheduledExecutorService;
-
-    const-string v0, ""
-
-    sput-object v0, Lg8/a;->c:Ljava/lang/String;
-
-    new-instance v0, Lcom/facebook/appevents/f;
-
-    const/4 v1, 0x6
-
-    invoke-direct {v0, v1}, Lcom/facebook/appevents/f;-><init>(I)V
-
-    sput-object v0, Lg8/a;->d:Lcom/facebook/appevents/f;
+    # new-instance v0, Lg8/a;
+    #
+    # invoke-direct {v0}, Lg8/a;-><init>()V
+    #
+    # invoke-static {}, Landroid/os/Process;->myUid()I
+    #
+    # move-result v0
+    #
+    # sput v0, Lg8/a;->a:I
+    #
+    # invoke-static {}, Ljava/util/concurrent/Executors;->newSingleThreadScheduledExecutor()Ljava/util/concurrent/ScheduledExecutorService;
+    #
+    # move-result-object v0
+    #
+    # sput-object v0, Lg8/a;->b:Ljava/util/concurrent/ScheduledExecutorService;
+    #
+    # const-string v0, ""
+    #
+    # sput-object v0, Lg8/a;->c:Ljava/lang/String;
+    #
+    # new-instance v0, Lcom/facebook/appevents/f;
+    #
+    # const/4 v1, 0x6
+    #
+    # invoke-direct {v0, v1}, Lcom/facebook/appevents/f;-><init>(I)V
+    #
+    # sput-object v0, Lg8/a;->d:Lcom/facebook/appevents/f;
 
     return-void
 .end method

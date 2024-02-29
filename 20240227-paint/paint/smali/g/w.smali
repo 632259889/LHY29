@@ -132,202 +132,202 @@
 
 
 # virtual methods
-.method public final declared-synchronized a(Lcom/facebook/appevents/p;)V
-    .locals 3
-
-    .line 1
-    monitor-enter p0
-
-    .line 2
-    :try_start_0
-    invoke-static {p1}, Li8/a;->b(Ljava/lang/Object;)Z
-
-    .line 3
-    .line 4
-    .line 5
-    move-result v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_1
-
-    .line 6
-    if-eqz v0, :cond_0
-
-    .line 7
-    .line 8
-    goto :goto_0
-
-    .line 9
-    :cond_0
-    :try_start_1
-    iget-object v0, p1, Lcom/facebook/appevents/p;->c:Ljava/util/HashMap;
-
-    .line 10
-    .line 11
-    invoke-virtual {v0}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
-
-    .line 12
-    .line 13
-    .line 14
-    move-result-object v0
-
-    .line 15
-    const-string v1, "events.entries"
-
-    .line 16
-    .line 17
-    invoke-static {v0, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    .line 18
-    .line 19
-    .line 20
-    goto :goto_1
-
-    .line 21
-    :catchall_0
-    move-exception v0
-
-    .line 22
-    :try_start_2
-    invoke-static {p1, v0}, Li8/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V
-
-    .line 23
-    .line 24
-    .line 25
-    :goto_0
-    const/4 v0, 0x0
-
-    .line 26
-    :goto_1
-    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
-
-    .line 27
-    .line 28
-    .line 29
-    move-result-object p1
-
-    .line 30
-    :cond_1
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
-
-    .line 31
-    .line 32
-    .line 33
-    move-result v0
-
-    .line 34
-    if-eqz v0, :cond_2
-
-    .line 35
-    .line 36
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    .line 37
-    .line 38
-    .line 39
-    move-result-object v0
-
-    .line 40
-    check-cast v0, Ljava/util/Map$Entry;
-
-    .line 41
-    .line 42
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
-
-    .line 43
-    .line 44
-    .line 45
-    move-result-object v1
-
-    .line 46
-    check-cast v1, Lcom/facebook/appevents/a;
-
-    .line 47
-    .line 48
-    invoke-virtual {p0, v1}, Lg/w;->e(Lcom/facebook/appevents/a;)Lcom/facebook/appevents/q;
-
-    .line 49
-    .line 50
-    .line 51
-    move-result-object v1
-
-    .line 52
-    if-eqz v1, :cond_1
-
-    .line 53
-    .line 54
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
-
-    .line 55
-    .line 56
-    .line 57
-    move-result-object v0
-
-    .line 58
-    check-cast v0, Ljava/util/List;
-
-    .line 59
-    .line 60
-    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    .line 61
-    .line 62
-    .line 63
-    move-result-object v0
-
-    .line 64
-    :goto_2
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
-
-    .line 65
-    .line 66
-    .line 67
-    move-result v2
-
-    .line 68
-    if-eqz v2, :cond_1
-
-    .line 69
-    .line 70
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    .line 71
-    .line 72
-    .line 73
-    move-result-object v2
-
-    .line 74
-    check-cast v2, Lcom/facebook/appevents/d;
-
-    .line 75
-    .line 76
-    invoke-virtual {v1, v2}, Lcom/facebook/appevents/q;->a(Lcom/facebook/appevents/d;)V
-    :try_end_2
-    .catchall {:try_start_2 .. :try_end_2} :catchall_1
-
-    .line 77
-    .line 78
-    .line 79
-    goto :goto_2
-
-    .line 80
-    :cond_2
-    monitor-exit p0
-
-    .line 81
-    return-void
-
-    .line 82
-    :catchall_1
-    move-exception p1
-
-    .line 83
-    monitor-exit p0
-
-    .line 84
-    throw p1
-.end method
+# .method public final declared-synchronized a(Lcom/facebook/appevents/p;)V
+#     .locals 3
+#
+#     .line 1
+#     monitor-enter p0
+#
+#     .line 2
+#     :try_start_0
+#     invoke-static {p1}, Li8/a;->b(Ljava/lang/Object;)Z
+#
+#     .line 3
+#     .line 4
+#     .line 5
+#     move-result v0
+#     :try_end_0
+#     .catchall {:try_start_0 .. :try_end_0} :catchall_1
+#
+#     .line 6
+#     if-eqz v0, :cond_0
+#
+#     .line 7
+#     .line 8
+#     goto :goto_0
+#
+#     .line 9
+#     :cond_0
+#     :try_start_1
+#     iget-object v0, p1, Lcom/facebook/appevents/p;->c:Ljava/util/HashMap;
+#
+#     .line 10
+#     .line 11
+#     invoke-virtual {v0}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
+#
+#     .line 12
+#     .line 13
+#     .line 14
+#     move-result-object v0
+#
+#     .line 15
+#     const-string v1, "events.entries"
+#
+#     .line 16
+#     .line 17
+#     invoke-static {v0, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#     :try_end_1
+#     .catchall {:try_start_1 .. :try_end_1} :catchall_0
+#
+#     .line 18
+#     .line 19
+#     .line 20
+#     goto :goto_1
+#
+#     .line 21
+#     :catchall_0
+#     move-exception v0
+#
+#     .line 22
+#     :try_start_2
+#     invoke-static {p1, v0}, Li8/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V
+#
+#     .line 23
+#     .line 24
+#     .line 25
+#     :goto_0
+#     const/4 v0, 0x0
+#
+#     .line 26
+#     :goto_1
+#     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+#
+#     .line 27
+#     .line 28
+#     .line 29
+#     move-result-object p1
+#
+#     .line 30
+#     :cond_1
+#     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+#
+#     .line 31
+#     .line 32
+#     .line 33
+#     move-result v0
+#
+#     .line 34
+#     if-eqz v0, :cond_2
+#
+#     .line 35
+#     .line 36
+#     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+#
+#     .line 37
+#     .line 38
+#     .line 39
+#     move-result-object v0
+#
+#     .line 40
+#     check-cast v0, Ljava/util/Map$Entry;
+#
+#     .line 41
+#     .line 42
+#     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+#
+#     .line 43
+#     .line 44
+#     .line 45
+#     move-result-object v1
+#
+#     .line 46
+#     check-cast v1, Lcom/facebook/appevents/a;
+#
+#     .line 47
+#     .line 48
+#     invoke-virtual {p0, v1}, Lg/w;->e(Lcom/facebook/appevents/a;)Lcom/facebook/appevents/q;
+#
+#     .line 49
+#     .line 50
+#     .line 51
+#     move-result-object v1
+#
+#     .line 52
+#     if-eqz v1, :cond_1
+#
+#     .line 53
+#     .line 54
+#     invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+#
+#     .line 55
+#     .line 56
+#     .line 57
+#     move-result-object v0
+#
+#     .line 58
+#     check-cast v0, Ljava/util/List;
+#
+#     .line 59
+#     .line 60
+#     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+#
+#     .line 61
+#     .line 62
+#     .line 63
+#     move-result-object v0
+#
+#     .line 64
+#     :goto_2
+#     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+#
+#     .line 65
+#     .line 66
+#     .line 67
+#     move-result v2
+#
+#     .line 68
+#     if-eqz v2, :cond_1
+#
+#     .line 69
+#     .line 70
+#     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+#
+#     .line 71
+#     .line 72
+#     .line 73
+#     move-result-object v2
+#
+#     .line 74
+#     check-cast v2, Lcom/facebook/appevents/d;
+#
+#     .line 75
+#     .line 76
+#     invoke-virtual {v1, v2}, Lcom/facebook/appevents/q;->a(Lcom/facebook/appevents/d;)V
+#     :try_end_2
+#     .catchall {:try_start_2 .. :try_end_2} :catchall_1
+#
+#     .line 77
+#     .line 78
+#     .line 79
+#     goto :goto_2
+#
+#     .line 80
+#     :cond_2
+#     monitor-exit p0
+#
+#     .line 81
+#     return-void
+#
+#     .line 82
+#     :catchall_1
+#     move-exception p1
+#
+#     .line 83
+#     monitor-exit p0
+#
+#     .line 84
+#     throw p1
+# .end method
 
 .method public final declared-synchronized b(Lqk/a0;)V
     .locals 1
@@ -359,39 +359,39 @@
     throw p1
 .end method
 
-.method public final declared-synchronized c(Lcom/facebook/appevents/a;)Lcom/facebook/appevents/q;
-    .locals 1
-
-    monitor-enter p0
-
-    :try_start_0
-    const-string v0, "accessTokenAppIdPair"
-
-    invoke-static {p1, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    iget-object v0, p0, Lg/w;->c:Ljava/lang/Object;
-
-    check-cast v0, Ljava/util/HashMap;
-
-    invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/facebook/appevents/q;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    monitor-exit p0
-
-    return-object p1
-
-    :catchall_0
-    move-exception p1
-
-    monitor-exit p0
-
-    throw p1
-.end method
+# .method public final declared-synchronized c(Lcom/facebook/appevents/a;)Lcom/facebook/appevents/q;
+#     .locals 1
+#
+#     monitor-enter p0
+#
+#     :try_start_0
+#     const-string v0, "accessTokenAppIdPair"
+#
+#     invoke-static {p1, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     iget-object v0, p0, Lg/w;->c:Ljava/lang/Object;
+#
+#     check-cast v0, Ljava/util/HashMap;
+#
+#     invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     move-result-object p1
+#
+#     check-cast p1, Lcom/facebook/appevents/q;
+#     :try_end_0
+#     .catchall {:try_start_0 .. :try_end_0} :catchall_0
+#
+#     monitor-exit p0
+#
+#     return-object p1
+#
+#     :catchall_0
+#     move-exception p1
+#
+#     monitor-exit p0
+#
+#     throw p1
+# .end method
 
 .method public final declared-synchronized d()I
     .locals 3
@@ -424,11 +424,12 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/facebook/appevents/q;
+    # check-cast v2, Lcom/facebook/appevents/q;
+    #
+    # invoke-virtual {v2}, Lcom/facebook/appevents/q;->c()I
 
-    invoke-virtual {v2}, Lcom/facebook/appevents/q;->c()I
-
-    move-result v2
+    # move-result v2
+    const v2,0x1
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -449,76 +450,76 @@
     throw v0
 .end method
 
-.method public final declared-synchronized e(Lcom/facebook/appevents/a;)Lcom/facebook/appevents/q;
-    .locals 3
-
-    monitor-enter p0
-
-    :try_start_0
-    iget-object v0, p0, Lg/w;->c:Ljava/lang/Object;
-
-    check-cast v0, Ljava/util/HashMap;
-
-    invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/facebook/appevents/q;
-
-    if-nez v0, :cond_0
-
-    invoke-static {}, Lq7/r;->a()Landroid/content/Context;
-
-    move-result-object v1
-
-    sget-object v2, Lcom/facebook/internal/a;->f:Lcom/facebook/internal/a;
-
-    invoke-static {v1}, Lcom/facebook/internal/a$a;->a(Landroid/content/Context;)Lcom/facebook/internal/a;
-
-    move-result-object v2
-
-    if-eqz v2, :cond_0
-
-    new-instance v0, Lcom/facebook/appevents/q;
-
-    invoke-static {v1}, Landroidx/activity/o;->q(Landroid/content/Context;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-direct {v0, v2, v1}, Lcom/facebook/appevents/q;-><init>(Lcom/facebook/internal/a;Ljava/lang/String;)V
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    :cond_0
-    if-nez v0, :cond_1
-
-    monitor-exit p0
-
-    const/4 p1, 0x0
-
-    return-object p1
-
-    :cond_1
-    :try_start_1
-    iget-object v1, p0, Lg/w;->c:Ljava/lang/Object;
-
-    check-cast v1, Ljava/util/HashMap;
-
-    invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    monitor-exit p0
-
-    return-object v0
-
-    :catchall_0
-    move-exception p1
-
-    monitor-exit p0
-
-    throw p1
-.end method
+# .method public final declared-synchronized e(Lcom/facebook/appevents/a;)Lcom/facebook/appevents/q;
+#     .locals 3
+#
+#     monitor-enter p0
+#
+#     :try_start_0
+#     iget-object v0, p0, Lg/w;->c:Ljava/lang/Object;
+#
+#     check-cast v0, Ljava/util/HashMap;
+#
+#     invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     move-result-object v0
+#
+#     check-cast v0, Lcom/facebook/appevents/q;
+#
+#     if-nez v0, :cond_0
+#
+#     invoke-static {}, Lq7/r;->a()Landroid/content/Context;
+#
+#     move-result-object v1
+#
+#     sget-object v2, Lcom/facebook/internal/a;->f:Lcom/facebook/internal/a;
+#
+#     invoke-static {v1}, Lcom/facebook/internal/a$a;->a(Landroid/content/Context;)Lcom/facebook/internal/a;
+#
+#     move-result-object v2
+#
+#     if-eqz v2, :cond_0
+#
+#     new-instance v0, Lcom/facebook/appevents/q;
+#
+#     invoke-static {v1}, Landroidx/activity/o;->q(Landroid/content/Context;)Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-direct {v0, v2, v1}, Lcom/facebook/appevents/q;-><init>(Lcom/facebook/internal/a;Ljava/lang/String;)V
+#     :try_end_0
+#     .catchall {:try_start_0 .. :try_end_0} :catchall_0
+#
+#     :cond_0
+#     if-nez v0, :cond_1
+#
+#     monitor-exit p0
+#
+#     const/4 p1, 0x0
+#
+#     return-object p1
+#
+#     :cond_1
+#     :try_start_1
+#     iget-object v1, p0, Lg/w;->c:Ljava/lang/Object;
+#
+#     check-cast v1, Ljava/util/HashMap;
+#
+#     invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+#     :try_end_1
+#     .catchall {:try_start_1 .. :try_end_1} :catchall_0
+#
+#     monitor-exit p0
+#
+#     return-object v0
+#
+#     :catchall_0
+#     move-exception p1
+#
+#     monitor-exit p0
+#
+#     throw p1
+# .end method
 
 .method public final f()V
     .locals 5

@@ -189,14 +189,14 @@
     move-result-object p1
 
     .line 85
-    new-instance v1, Lcom/facebook/appevents/b;
+    # new-instance v1, Lcom/facebook/appevents/b;
 
     .line 86
     .line 87
     const/4 v2, 0x4
 
     .line 88
-    invoke-direct {v1, v2}, Lcom/facebook/appevents/b;-><init>(I)V
+    # invoke-direct {v1, v2}, Lcom/facebook/appevents/b;-><init>(I)V
 
     .line 89
     .line 90
@@ -210,7 +210,7 @@
 
     .line 95
     .line 96
-    invoke-direct {v2, v0, p1, p2, v1}, Lz/i0;-><init>(Lj9/g;Ld9/j;ILjava/lang/Runnable;)V
+    # invoke-direct {v2, v0, p1, p2, v1}, Lz/i0;-><init>(Lj9/g;Ld9/j;ILjava/lang/Runnable;)V
 
     .line 97
     .line 98

@@ -163,19 +163,19 @@
     move-result-object p1
 
     .line 32
-    new-instance v0, Lcom/facebook/appevents/b;
+    # new-instance v0, Lcom/facebook/appevents/b;
 
     .line 33
     .line 34
     const/4 v1, 0x2
 
     .line 35
-    invoke-direct {v0, v1}, Lcom/facebook/appevents/b;-><init>(I)V
+    # invoke-direct {v0, v1}, Lcom/facebook/appevents/b;-><init>(I)V
 
     .line 36
     .line 37
     .line 38
-    invoke-interface {p1, v0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    # invoke-interface {p1, v0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

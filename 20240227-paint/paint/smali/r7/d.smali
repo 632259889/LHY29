@@ -902,7 +902,7 @@
     .line 296
     .line 297
     :cond_e
-    invoke-static {v1}, Lcom/facebook/appevents/o$a;->a(Ljava/util/HashMap;)V
+    # invoke-static {v1}, Lcom/facebook/appevents/o$a;->a(Ljava/util/HashMap;)V
 
     .line 298
     .line 299

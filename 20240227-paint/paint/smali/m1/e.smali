@@ -14,17 +14,17 @@
 
 
 # direct methods
-.method public synthetic constructor <init>()V
-    .locals 1
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    sget-object v0, Lcom/facebook/appevents/n;->c:Lcom/facebook/appevents/n;
-
-    iput-object v0, p0, Lm1/e;->d:Ljava/lang/Object;
-
-    return-void
-.end method
+# .method public synthetic constructor <init>()V
+#     .locals 1
+#
+#     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+#
+#     sget-object v0, Lcom/facebook/appevents/n;->c:Lcom/facebook/appevents/n;
+#
+#     iput-object v0, p0, Lm1/e;->d:Ljava/lang/Object;
+#
+#     return-void
+# .end method
 
 .method public synthetic constructor <init>(I)V
     .locals 1

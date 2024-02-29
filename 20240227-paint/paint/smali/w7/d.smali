@@ -267,11 +267,11 @@
 
     .line 95
     .line 96
-    new-instance v0, Lcom/facebook/appevents/f;
+    # new-instance v0, Lcom/facebook/appevents/f;
 
     .line 97
     .line 98
-    invoke-direct {v0, v2}, Lcom/facebook/appevents/f;-><init>(I)V
+    # invoke-direct {v0, v2}, Lcom/facebook/appevents/f;-><init>(I)V
 
     .line 99
     .line 100

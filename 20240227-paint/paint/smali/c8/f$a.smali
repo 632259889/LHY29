@@ -134,16 +134,16 @@
 
     .line 46
     .line 47
-    new-instance v0, Lcom/facebook/appevents/r;
+    # new-instance v0, Lcom/facebook/appevents/r;
 
     .line 48
     .line 49
-    invoke-direct {v0, p0, p1, v1}, Lcom/facebook/appevents/r;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
+    # invoke-direct {v0, p0, p1, v1}, Lcom/facebook/appevents/r;-><init>(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 50
     .line 51
     .line 52
-    invoke-static {v0}, Lcom/facebook/internal/e0;->I(Ljava/lang/Runnable;)V
+    # invoke-static {v0}, Lcom/facebook/internal/e0;->I(Ljava/lang/Runnable;)V
 
     .line 53
     .line 54
@@ -609,21 +609,22 @@
     move-result-object p2
 
     .line 37
-    new-instance v0, Lcom/facebook/appevents/j;
+    # new-instance v0, Lcom/facebook/appevents/j;
 
     .line 38
     .line 39
-    invoke-direct {v0, p2, v4}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-direct {v0, p2, v4}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 40
     .line 41
     .line 42
-    invoke-static {v0}, Li8/a;->b(Ljava/lang/Object;)Z
+    # invoke-static {v0}, Li8/a;->b(Ljava/lang/Object;)Z
 
     .line 43
     .line 44
     .line 45
-    move-result p2
+    # move-result p2
+    const/4 v2,0x1
 
     .line 46
     if-eqz p2, :cond_1
@@ -667,7 +668,7 @@
     .line 65
     .line 66
     .line 67
-    invoke-virtual {v0, p2, p0}, Lcom/facebook/appevents/j;->d(Landroid/os/Bundle;Ljava/lang/String;)V
+    # invoke-virtual {v0, p2, p0}, Lcom/facebook/appevents/j;->d(Landroid/os/Bundle;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 

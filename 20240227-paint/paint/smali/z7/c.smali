@@ -926,14 +926,14 @@
 
     .line 134
     .line 135
-    new-instance v7, Lcom/facebook/appevents/f;
+    # new-instance v7, Lcom/facebook/appevents/f;
 
     .line 136
     .line 137
     const/4 v9, 0x3
 
     .line 138
-    invoke-direct {v7, v9}, Lcom/facebook/appevents/f;-><init>(I)V
+    # invoke-direct {v7, v9}, Lcom/facebook/appevents/f;-><init>(I)V
 
     .line 139
     .line 140

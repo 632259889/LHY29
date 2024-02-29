@@ -583,11 +583,11 @@
 
     .line 142
     .line 143
-    new-instance v6, Lcom/facebook/appevents/j;
+    # new-instance v6, Lcom/facebook/appevents/j;
 
     .line 144
     .line 145
-    invoke-direct {v6, v3, v4}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    # invoke-direct {v6, v3, v4}, Lcom/facebook/appevents/j;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 146
     .line 147
@@ -668,7 +668,7 @@
     move-object v7, v6
 
     .line 184
-    invoke-virtual/range {v7 .. v12}, Lcom/facebook/appevents/j;->e(Ljava/lang/String;Ljava/lang/Double;Landroid/os/Bundle;ZLjava/util/UUID;)V
+    # invoke-virtual/range {v7 .. v12}, Lcom/facebook/appevents/j;->e(Ljava/lang/String;Ljava/lang/Double;Landroid/os/Bundle;ZLjava/util/UUID;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 

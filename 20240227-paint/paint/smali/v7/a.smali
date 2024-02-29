@@ -130,7 +130,7 @@
     move-result-object v1
 
     .line 34
-    check-cast v1, Lcom/facebook/appevents/d;
+    # check-cast v1, Lcom/facebook/appevents/d;
 
     .line 35
     .line 36
@@ -138,16 +138,17 @@
 
     .line 37
     .line 38
-    iget-object v1, v1, Lcom/facebook/appevents/d;->f:Ljava/lang/String;
+    # iget-object v1, v1, Lcom/facebook/appevents/d;->f:Ljava/lang/String;
 
     .line 39
     .line 40
-    invoke-virtual {v2, v1}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
+    # invoke-virtual {v2, v1}, Ljava/util/HashSet;->contains(Ljava/lang/Object;)Z
 
     .line 41
     .line 42
     .line 43
-    move-result v1
+    # move-result v1
+    const/4 v1,0x1
 
     .line 44
     if-eqz v1, :cond_2
