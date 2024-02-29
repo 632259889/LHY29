@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lp/a;
-.implements Lcom/facebook/internal/l$a;
+# .implements Lcom/facebook/internal/l$a;
 
 
 # instance fields

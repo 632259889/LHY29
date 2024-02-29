@@ -129,7 +129,7 @@
 
     const-string v0, "id"
 
-    invoke-static {p1, v0}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {p1, v0}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-object p1, p0, Lq7/c0;->c:Ljava/lang/String;
 

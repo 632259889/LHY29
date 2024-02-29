@@ -474,7 +474,7 @@
     .line 196
     .line 197
     :cond_4
-    invoke-static {v10}, Lcom/facebook/internal/f0;->c(Ljava/util/Collection;)V
+    # invoke-static {v10}, Lcom/facebook/internal/f0;->c(Ljava/util/Collection;)V
 
     .line 198
     .line 199

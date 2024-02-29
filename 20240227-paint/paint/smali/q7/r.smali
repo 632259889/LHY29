@@ -95,27 +95,27 @@
 
     invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
 
-    sput-object v0, Lq7/r;->k:Ljava/util/concurrent/locks/ReentrantLock;
-
-    sget v0, Lcom/facebook/internal/a0;->a:I
-
-    const-string v0, "v16.0"
-
-    sput-object v0, Lq7/r;->l:Ljava/lang/String;
-
-    new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
-
-    invoke-direct {v0, v2}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
-
-    sput-object v0, Lq7/r;->p:Ljava/util/concurrent/atomic/AtomicBoolean;
-
-    const-string v0, "instagram.com"
-
-    sput-object v0, Lq7/r;->q:Ljava/lang/String;
-
-    const-string v0, "facebook.com"
-
-    sput-object v0, Lq7/r;->r:Ljava/lang/String;
+    # sput-object v0, Lq7/r;->k:Ljava/util/concurrent/locks/ReentrantLock;
+    #
+    # sget v0, Lcom/facebook/internal/a0;->a:I
+    #
+    # const-string v0, "v16.0"
+    #
+    # sput-object v0, Lq7/r;->l:Ljava/lang/String;
+    #
+    # new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
+    #
+    # invoke-direct {v0, v2}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
+    #
+    # sput-object v0, Lq7/r;->p:Ljava/util/concurrent/atomic/AtomicBoolean;
+    #
+    # const-string v0, "instagram.com"
+    #
+    # sput-object v0, Lq7/r;->q:Ljava/lang/String;
+    #
+    # const-string v0, "facebook.com"
+    #
+    # sput-object v0, Lq7/r;->r:Ljava/lang/String;
 
     # new-instance v0, Lcom/applovin/exoplayer2/m/p;
     #
@@ -139,7 +139,7 @@
 .method public static final a()Landroid/content/Context;
     .locals 1
 
-    invoke-static {}, Lcom/facebook/internal/f0;->e()V
+    # invoke-static {}, Lcom/facebook/internal/f0;->e()V
 
     sget-object v0, Lq7/r;->i:Landroid/content/Context;
 
@@ -160,7 +160,7 @@
 .method public static final b()Ljava/lang/String;
     .locals 2
 
-    invoke-static {}, Lcom/facebook/internal/f0;->e()V
+    # invoke-static {}, Lcom/facebook/internal/f0;->e()V
 
     sget-object v0, Lq7/r;->d:Ljava/lang/String;
 
@@ -228,152 +228,152 @@
     throw v1
 .end method
 
-.method public static final d()Ljava/lang/String;
-    .locals 4
+# .method public static final d()Ljava/lang/String;
+#     .locals 4
+#
+#     sget-object v0, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
+#
+#     const/4 v0, 0x1
+#
+#     new-array v1, v0, [Ljava/lang/Object;
+#
+#     const/4 v2, 0x0
+#
+#     sget-object v3, Lq7/r;->l:Ljava/lang/String;
+#
+#     aput-object v3, v1, v2
+#
+#     invoke-static {v1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+#
+#     move-result-object v0
+#
+#     const-string v1, "getGraphApiVersion: %s"
+#
+#     invoke-static {v1, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     const-string v1, "java.lang.String.format(format, *args)"
+#
+#     invoke-static {v0, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     return-object v3
+# .end method
 
-    sget-object v0, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
-
-    const/4 v0, 0x1
-
-    new-array v1, v0, [Ljava/lang/Object;
-
-    const/4 v2, 0x0
-
-    sget-object v3, Lq7/r;->l:Ljava/lang/String;
-
-    aput-object v3, v1, v2
-
-    invoke-static {v1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
-
-    move-result-object v0
-
-    const-string v1, "getGraphApiVersion: %s"
-
-    invoke-static {v1, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v1, "java.lang.String.format(format, *args)"
-
-    invoke-static {v0, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v3
-.end method
-
-.method public static final e()Ljava/lang/String;
-    .locals 3
-
-    .line 1
-    sget-object v0, Lq7/a;->n:Ljava/util/Date;
-
-    .line 2
-    .line 3
-    invoke-static {}, Lq7/a$b;->b()Lq7/a;
-
-    .line 4
-    .line 5
-    .line 6
-    move-result-object v0
-
-    .line 7
-    if-eqz v0, :cond_0
-
-    .line 8
-    .line 9
-    iget-object v0, v0, Lq7/a;->m:Ljava/lang/String;
-
-    .line 10
-    .line 11
-    goto :goto_0
-
-    .line 12
-    :cond_0
-    const/4 v0, 0x0
-
-    .line 13
-    :goto_0
-    sget-object v1, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
-
-    .line 14
-    .line 15
-    sget-object v1, Lq7/r;->r:Ljava/lang/String;
-
-    .line 16
-    .line 17
-    if-nez v0, :cond_1
-
-    .line 18
-    .line 19
-    goto :goto_2
-
-    .line 20
-    :cond_1
-    const-string v2, "gaming"
-
-    .line 21
-    .line 22
-    invoke-static {v0, v2}, Luh/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    .line 23
-    .line 24
-    .line 25
-    move-result v2
-
-    .line 26
-    if-eqz v2, :cond_2
-
-    .line 27
-    .line 28
-    const-string v0, "fb.gg"
-
-    .line 29
-    .line 30
-    goto :goto_1
-
-    .line 31
-    :cond_2
-    const-string v2, "instagram"
-
-    .line 32
-    .line 33
-    invoke-static {v0, v2}, Luh/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    .line 34
-    .line 35
-    .line 36
-    move-result v0
-
-    .line 37
-    if-eqz v0, :cond_3
-
-    .line 38
-    .line 39
-    const-string v0, "instagram.com"
-
-    .line 40
-    .line 41
-    :goto_1
-    const-string v2, "facebook.com"
-
-    .line 42
-    .line 43
-    invoke-static {v1, v2, v0}, Ljk/i;->p0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 44
-    .line 45
-    .line 46
-    move-result-object v1
-
-    .line 47
-    :cond_3
-    :goto_2
-    return-object v1
-.end method
+# .method public static final e()Ljava/lang/String;
+#     .locals 3
+#
+#     .line 1
+#     sget-object v0, Lq7/a;->n:Ljava/util/Date;
+#
+#     .line 2
+#     .line 3
+#     invoke-static {}, Lq7/a$b;->b()Lq7/a;
+#
+#     .line 4
+#     .line 5
+#     .line 6
+#     move-result-object v0
+#
+#     .line 7
+#     if-eqz v0, :cond_0
+#
+#     .line 8
+#     .line 9
+#     iget-object v0, v0, Lq7/a;->m:Ljava/lang/String;
+#
+#     .line 10
+#     .line 11
+#     goto :goto_0
+#
+#     .line 12
+#     :cond_0
+#     const/4 v0, 0x0
+#
+#     .line 13
+#     :goto_0
+#     sget-object v1, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
+#
+#     .line 14
+#     .line 15
+#     sget-object v1, Lq7/r;->r:Ljava/lang/String;
+#
+#     .line 16
+#     .line 17
+#     if-nez v0, :cond_1
+#
+#     .line 18
+#     .line 19
+#     goto :goto_2
+#
+#     .line 20
+#     :cond_1
+#     const-string v2, "gaming"
+#
+#     .line 21
+#     .line 22
+#     invoke-static {v0, v2}, Luh/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+#
+#     .line 23
+#     .line 24
+#     .line 25
+#     move-result v2
+#
+#     .line 26
+#     if-eqz v2, :cond_2
+#
+#     .line 27
+#     .line 28
+#     const-string v0, "fb.gg"
+#
+#     .line 29
+#     .line 30
+#     goto :goto_1
+#
+#     .line 31
+#     :cond_2
+#     const-string v2, "instagram"
+#
+#     .line 32
+#     .line 33
+#     invoke-static {v0, v2}, Luh/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+#
+#     .line 34
+#     .line 35
+#     .line 36
+#     move-result v0
+#
+#     .line 37
+#     if-eqz v0, :cond_3
+#
+#     .line 38
+#     .line 39
+#     const-string v0, "instagram.com"
+#
+#     .line 40
+#     .line 41
+#     :goto_1
+#     const-string v2, "facebook.com"
+#
+#     .line 42
+#     .line 43
+#     invoke-static {v1, v2, v0}, Ljk/i;->p0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     .line 44
+#     .line 45
+#     .line 46
+#     move-result-object v1
+#
+#     .line 47
+#     :cond_3
+#     :goto_2
+#     return-object v1
+# .end method
 
 .method public static final f(Landroid/content/Context;)Z
     .locals 2
 
-    invoke-static {}, Lcom/facebook/internal/f0;->e()V
+    # invoke-static {}, Lcom/facebook/internal/f0;->e()V
 
     const-string v0, "com.facebook.sdk.appEventPreferences"
 

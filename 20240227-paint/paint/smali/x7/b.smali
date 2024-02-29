@@ -68,394 +68,394 @@
 
 .method public static final a(Landroid/os/Bundle;Ljava/lang/String;)V
     .locals 6
-
-    .line 1
-    const-string v0, "ANDROID"
-
-    .line 2
-    .line 3
-    const-string v1, "event"
-
-    .line 4
-    .line 5
-    const-class v2, Lx7/b;
-
-    .line 6
-    .line 7
-    invoke-static {v2}, Li8/a;->b(Ljava/lang/Object;)Z
-
-    .line 8
-    .line 9
-    .line 10
-    move-result v3
-
-    .line 11
-    if-eqz v3, :cond_0
-
-    .line 12
-    .line 13
-    return-void
-
-    .line 14
-    :cond_0
-    :try_start_0
-    const-string v3, "params"
-
-    .line 15
-    .line 16
-    invoke-static {p0, v3}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 17
-    .line 18
-    .line 19
-    invoke-static {p1, v1}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 20
-    .line 21
-    .line 22
-    invoke-virtual {p0, v1, p1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 23
-    .line 24
-    .line 25
-    const-string p1, "_locale"
-
-    .line 26
-    .line 27
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    .line 28
-    .line 29
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    .line 30
-    .line 31
-    .line 32
-    sget-object v3, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
-
-    .line 33
-    .line 34
-    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 35
-    .line 36
-    .line 37
-    sget-object v4, Lcom/facebook/internal/e0;->j:Ljava/util/Locale;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 38
-    .line 39
-    const-string v5, ""
-
-    .line 40
-    .line 41
-    if-nez v4, :cond_1
-
-    .line 42
-    .line 43
-    :goto_0
-    move-object v4, v5
-
-    .line 44
-    goto :goto_1
-
-    .line 45
-    :cond_1
-    :try_start_1
-    invoke-virtual {v4}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
-
-    .line 46
-    .line 47
-    .line 48
-    move-result-object v4
-
-    .line 49
-    if-nez v4, :cond_2
-
-    .line 50
-    .line 51
-    goto :goto_0
-
-    .line 52
-    :cond_2
-    :goto_1
-    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 53
-    .line 54
-    .line 55
-    const/16 v4, 0x5f
-
-    .line 56
-    .line 57
-    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-
-    .line 58
-    .line 59
-    .line 60
-    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 61
-    .line 62
-    .line 63
-    sget-object v4, Lcom/facebook/internal/e0;->j:Ljava/util/Locale;
-
-    .line 64
-    .line 65
-    if-nez v4, :cond_3
-
-    .line 66
-    .line 67
-    :goto_2
-    move-object v4, v5
-
-    .line 68
-    goto :goto_3
-
-    .line 69
-    :cond_3
-    invoke-virtual {v4}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
-
-    .line 70
-    .line 71
-    .line 72
-    move-result-object v4
-
-    .line 73
-    if-nez v4, :cond_4
-
-    .line 74
-    .line 75
-    goto :goto_2
-
-    .line 76
-    :cond_4
-    :goto_3
-    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 77
-    .line 78
-    .line 79
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 80
-    .line 81
-    .line 82
-    move-result-object v1
-
-    .line 83
-    invoke-virtual {p0, p1, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 84
-    .line 85
-    .line 86
-    const-string p1, "_appVersion"
-
-    .line 87
-    .line 88
-    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 89
-    .line 90
-    .line 91
-    sget-object v1, Lcom/facebook/internal/e0;->i:Ljava/lang/String;
-
-    .line 92
-    .line 93
-    if-nez v1, :cond_5
-
-    .line 94
-    .line 95
-    move-object v1, v5
-
-    .line 96
-    :cond_5
-    invoke-virtual {p0, p1, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 97
-    .line 98
-    .line 99
-    const-string p1, "_deviceOS"
-
-    .line 100
-    .line 101
-    invoke-virtual {p0, p1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 102
-    .line 103
-    .line 104
-    const-string p1, "_platform"
-
-    .line 105
-    .line 106
-    const-string v1, "mobile"
-
-    .line 107
-    .line 108
-    invoke-virtual {p0, p1, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 109
-    .line 110
-    .line 111
-    const-string p1, "_deviceModel"
-
-    .line 112
-    .line 113
-    sget-object v1, Landroid/os/Build;->MODEL:Ljava/lang/String;
-
-    .line 114
-    .line 115
-    if-nez v1, :cond_6
-
-    .line 116
-    .line 117
-    move-object v1, v5
-
-    .line 118
-    :cond_6
-    invoke-virtual {p0, p1, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 119
-    .line 120
-    .line 121
-    const-string p1, "_nativeAppID"
-
-    .line 122
-    .line 123
-    invoke-static {}, Lq7/r;->b()Ljava/lang/String;
-
-    .line 124
-    .line 125
-    .line 126
-    move-result-object v1
-
-    .line 127
-    invoke-virtual {p0, p1, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 128
-    .line 129
-    .line 130
-    const-string p1, "_nativeAppShortVersion"
-
-    .line 131
-    .line 132
-    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 133
-    .line 134
-    .line 135
-    sget-object v1, Lcom/facebook/internal/e0;->i:Ljava/lang/String;
-
-    .line 136
-    .line 137
-    if-nez v1, :cond_7
-
-    .line 138
-    .line 139
-    goto :goto_4
-
-    .line 140
-    :cond_7
-    move-object v5, v1
-
-    .line 141
-    :goto_4
-    invoke-virtual {p0, p1, v5}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 142
-    .line 143
-    .line 144
-    const-string p1, "_timezone"
-
-    .line 145
-    .line 146
-    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 147
-    .line 148
-    .line 149
-    sget-object v1, Lcom/facebook/internal/e0;->g:Ljava/lang/String;
-
-    .line 150
-    .line 151
-    invoke-virtual {p0, p1, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 152
-    .line 153
-    .line 154
-    const-string p1, "_carrier"
-
-    .line 155
-    .line 156
-    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 157
-    .line 158
-    .line 159
-    sget-object v1, Lcom/facebook/internal/e0;->h:Ljava/lang/String;
-
-    .line 160
-    .line 161
-    invoke-virtual {p0, p1, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 162
-    .line 163
-    .line 164
-    const-string p1, "_deviceOSTypeName"
-
-    .line 165
-    .line 166
-    invoke-virtual {p0, p1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 167
-    .line 168
-    .line 169
-    const-string p1, "_deviceOSVersion"
-
-    .line 170
-    .line 171
-    sget-object v0, Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
-
-    .line 172
-    .line 173
-    invoke-virtual {p0, p1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 174
-    .line 175
-    .line 176
-    const-string p1, "_remainingDiskGB"
-
-    .line 177
-    .line 178
-    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 179
-    .line 180
-    .line 181
-    sget-wide v0, Lcom/facebook/internal/e0;->e:J
-
-    .line 182
-    .line 183
-    invoke-virtual {p0, p1, v0, v1}, Landroid/os/BaseBundle;->putLong(Ljava/lang/String;J)V
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    .line 184
-    .line 185
-    .line 186
-    return-void
-
-    .line 187
-    :catchall_0
-    move-exception p0
-
-    .line 188
-    invoke-static {v2, p0}, Li8/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V
-
-    .line 189
-    .line 190
-    .line 191
+    #
+    # .line 1
+    # const-string v0, "ANDROID"
+    #
+    # .line 2
+    # .line 3
+    # const-string v1, "event"
+    #
+    # .line 4
+    # .line 5
+    # const-class v2, Lx7/b;
+    #
+    # .line 6
+    # .line 7
+    # invoke-static {v2}, Li8/a;->b(Ljava/lang/Object;)Z
+    #
+    # .line 8
+    # .line 9
+    # .line 10
+    # move-result v3
+    #
+    # .line 11
+    # if-eqz v3, :cond_0
+    #
+    # .line 12
+    # .line 13
+    # return-void
+    #
+    # .line 14
+    # :cond_0
+    # :try_start_0
+    # const-string v3, "params"
+    #
+    # .line 15
+    # .line 16
+    # invoke-static {p0, v3}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 17
+    # .line 18
+    # .line 19
+    # invoke-static {p1, v1}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 20
+    # .line 21
+    # .line 22
+    # invoke-virtual {p0, v1, p1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 23
+    # .line 24
+    # .line 25
+    # const-string p1, "_locale"
+    #
+    # .line 26
+    # .line 27
+    # new-instance v1, Ljava/lang/StringBuilder;
+    #
+    # .line 28
+    # .line 29
+    # invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    #
+    # .line 30
+    # .line 31
+    # .line 32
+    # sget-object v3, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
+    #
+    # .line 33
+    # .line 34
+    # invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    #
+    # .line 35
+    # .line 36
+    # .line 37
+    # sget-object v4, Lcom/facebook/internal/e0;->j:Ljava/util/Locale;
+    # :try_end_0
+    # .catchall {:try_start_0 .. :try_end_0} :catchall_0
+    #
+    # .line 38
+    # .line 39
+    # const-string v5, ""
+    #
+    # .line 40
+    # .line 41
+    # if-nez v4, :cond_1
+    #
+    # .line 42
+    # .line 43
+    # :goto_0
+    # move-object v4, v5
+    #
+    # .line 44
+    # goto :goto_1
+    #
+    # .line 45
+    # :cond_1
+    # :try_start_1
+    # invoke-virtual {v4}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
+    #
+    # .line 46
+    # .line 47
+    # .line 48
+    # move-result-object v4
+    #
+    # .line 49
+    # if-nez v4, :cond_2
+    #
+    # .line 50
+    # .line 51
+    # goto :goto_0
+    #
+    # .line 52
+    # :cond_2
+    # :goto_1
+    # invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    #
+    # .line 53
+    # .line 54
+    # .line 55
+    # const/16 v4, 0x5f
+    #
+    # .line 56
+    # .line 57
+    # invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+    #
+    # .line 58
+    # .line 59
+    # .line 60
+    # invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    #
+    # .line 61
+    # .line 62
+    # .line 63
+    # sget-object v4, Lcom/facebook/internal/e0;->j:Ljava/util/Locale;
+    #
+    # .line 64
+    # .line 65
+    # if-nez v4, :cond_3
+    #
+    # .line 66
+    # .line 67
+    # :goto_2
+    # move-object v4, v5
+    #
+    # .line 68
+    # goto :goto_3
+    #
+    # .line 69
+    # :cond_3
+    # invoke-virtual {v4}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
+    #
+    # .line 70
+    # .line 71
+    # .line 72
+    # move-result-object v4
+    #
+    # .line 73
+    # if-nez v4, :cond_4
+    #
+    # .line 74
+    # .line 75
+    # goto :goto_2
+    #
+    # .line 76
+    # :cond_4
+    # :goto_3
+    # invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    #
+    # .line 77
+    # .line 78
+    # .line 79
+    # invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    #
+    # .line 80
+    # .line 81
+    # .line 82
+    # move-result-object v1
+    #
+    # .line 83
+    # invoke-virtual {p0, p1, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 84
+    # .line 85
+    # .line 86
+    # const-string p1, "_appVersion"
+    #
+    # .line 87
+    # .line 88
+    # invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    #
+    # .line 89
+    # .line 90
+    # .line 91
+    # sget-object v1, Lcom/facebook/internal/e0;->i:Ljava/lang/String;
+    #
+    # .line 92
+    # .line 93
+    # if-nez v1, :cond_5
+    #
+    # .line 94
+    # .line 95
+    # move-object v1, v5
+    #
+    # .line 96
+    # :cond_5
+    # invoke-virtual {p0, p1, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 97
+    # .line 98
+    # .line 99
+    # const-string p1, "_deviceOS"
+    #
+    # .line 100
+    # .line 101
+    # invoke-virtual {p0, p1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 102
+    # .line 103
+    # .line 104
+    # const-string p1, "_platform"
+    #
+    # .line 105
+    # .line 106
+    # const-string v1, "mobile"
+    #
+    # .line 107
+    # .line 108
+    # invoke-virtual {p0, p1, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 109
+    # .line 110
+    # .line 111
+    # const-string p1, "_deviceModel"
+    #
+    # .line 112
+    # .line 113
+    # sget-object v1, Landroid/os/Build;->MODEL:Ljava/lang/String;
+    #
+    # .line 114
+    # .line 115
+    # if-nez v1, :cond_6
+    #
+    # .line 116
+    # .line 117
+    # move-object v1, v5
+    #
+    # .line 118
+    # :cond_6
+    # invoke-virtual {p0, p1, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 119
+    # .line 120
+    # .line 121
+    # const-string p1, "_nativeAppID"
+    #
+    # .line 122
+    # .line 123
+    # invoke-static {}, Lq7/r;->b()Ljava/lang/String;
+    #
+    # .line 124
+    # .line 125
+    # .line 126
+    # move-result-object v1
+    #
+    # .line 127
+    # invoke-virtual {p0, p1, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 128
+    # .line 129
+    # .line 130
+    # const-string p1, "_nativeAppShortVersion"
+    #
+    # .line 131
+    # .line 132
+    # invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    #
+    # .line 133
+    # .line 134
+    # .line 135
+    # sget-object v1, Lcom/facebook/internal/e0;->i:Ljava/lang/String;
+    #
+    # .line 136
+    # .line 137
+    # if-nez v1, :cond_7
+    #
+    # .line 138
+    # .line 139
+    # goto :goto_4
+    #
+    # .line 140
+    # :cond_7
+    # move-object v5, v1
+    #
+    # .line 141
+    # :goto_4
+    # invoke-virtual {p0, p1, v5}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 142
+    # .line 143
+    # .line 144
+    # const-string p1, "_timezone"
+    #
+    # .line 145
+    # .line 146
+    # invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    #
+    # .line 147
+    # .line 148
+    # .line 149
+    # sget-object v1, Lcom/facebook/internal/e0;->g:Ljava/lang/String;
+    #
+    # .line 150
+    # .line 151
+    # invoke-virtual {p0, p1, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 152
+    # .line 153
+    # .line 154
+    # const-string p1, "_carrier"
+    #
+    # .line 155
+    # .line 156
+    # invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    #
+    # .line 157
+    # .line 158
+    # .line 159
+    # sget-object v1, Lcom/facebook/internal/e0;->h:Ljava/lang/String;
+    #
+    # .line 160
+    # .line 161
+    # invoke-virtual {p0, p1, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 162
+    # .line 163
+    # .line 164
+    # const-string p1, "_deviceOSTypeName"
+    #
+    # .line 165
+    # .line 166
+    # invoke-virtual {p0, p1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 167
+    # .line 168
+    # .line 169
+    # const-string p1, "_deviceOSVersion"
+    #
+    # .line 170
+    # .line 171
+    # sget-object v0, Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
+    #
+    # .line 172
+    # .line 173
+    # invoke-virtual {p0, p1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 174
+    # .line 175
+    # .line 176
+    # const-string p1, "_remainingDiskGB"
+    #
+    # .line 177
+    # .line 178
+    # invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    #
+    # .line 179
+    # .line 180
+    # .line 181
+    # sget-wide v0, Lcom/facebook/internal/e0;->e:J
+    #
+    # .line 182
+    # .line 183
+    # invoke-virtual {p0, p1, v0, v1}, Landroid/os/BaseBundle;->putLong(Ljava/lang/String;J)V
+    # :try_end_1
+    # .catchall {:try_start_1 .. :try_end_1} :catchall_0
+    #
+    # .line 184
+    # .line 185
+    # .line 186
+    # return-void
+    #
+    # .line 187
+    # :catchall_0
+    # move-exception p0
+    #
+    # .line 188
+    # invoke-static {v2, p0}, Li8/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V
+    #
+    # .line 189
+    # .line 190
+    # .line 191
     return-void
 .end method
 

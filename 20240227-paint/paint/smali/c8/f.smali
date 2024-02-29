@@ -292,7 +292,7 @@
     .line 81
     .line 82
     .line 83
-    invoke-static {v0}, Lcom/facebook/internal/e0;->I(Ljava/lang/Runnable;)V
+    # invoke-static {v0}, Lcom/facebook/internal/e0;->I(Ljava/lang/Runnable;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 

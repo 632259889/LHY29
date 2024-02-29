@@ -20,7 +20,7 @@
 # instance fields
 .field public final a:Ljava/io/OutputStream;
 
-.field public final b:Lcom/facebook/internal/v;
+# .field public final b:Lcom/facebook/internal/v;
 
 .field public c:Z
 
@@ -28,23 +28,23 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/io/OutputStream;Lcom/facebook/internal/v;Z)V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lq7/u$g;->a:Ljava/io/OutputStream;
-
-    iput-object p2, p0, Lq7/u$g;->b:Lcom/facebook/internal/v;
-
-    const/4 p1, 0x1
-
-    iput-boolean p1, p0, Lq7/u$g;->c:Z
-
-    iput-boolean p3, p0, Lq7/u$g;->d:Z
-
-    return-void
-.end method
+# .method public constructor <init>(Ljava/io/OutputStream;Lcom/facebook/internal/v;Z)V
+#     .locals 0
+#
+#     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+#
+#     iput-object p1, p0, Lq7/u$g;->a:Ljava/io/OutputStream;
+#
+#     iput-object p2, p0, Lq7/u$g;->b:Lcom/facebook/internal/v;
+#
+#     const/4 p1, 0x1
+#
+#     iput-boolean p1, p0, Lq7/u$g;->c:Z
+#
+#     iput-boolean p3, p0, Lq7/u$g;->d:Z
+#
+#     return-void
+# .end method
 
 
 # virtual methods
@@ -77,7 +77,7 @@
 
     invoke-virtual {p0}, Lq7/u$g;->h()V
 
-    iget-object v0, p0, Lq7/u$g;->b:Lcom/facebook/internal/v;
+    # iget-object v0, p0, Lq7/u$g;->b:Lcom/facebook/internal/v;
 
     if-nez v0, :cond_0
 
@@ -90,7 +90,7 @@
 
     move-result-object p1
 
-    invoke-virtual {v0, p2, p1}, Lcom/facebook/internal/v;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    # invoke-virtual {v0, p2, p1}, Lcom/facebook/internal/v;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -554,429 +554,429 @@
 
 .method public final d(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)V
     .locals 9
-
-    .line 1
-    const-string v0, "key"
-
-    .line 2
-    .line 3
-    invoke-static {p2, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 4
-    .line 5
-    .line 6
-    const-string v0, "contentUri"
-
-    .line 7
-    .line 8
-    invoke-static {p1, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 9
-    .line 10
-    .line 11
-    if-nez p3, :cond_0
-
-    .line 12
-    .line 13
-    const-string p3, "content/unknown"
-
-    .line 14
-    .line 15
-    :cond_0
-    invoke-virtual {p0, p2, p2, p3}, Lq7/u$g;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 16
-    .line 17
-    .line 18
-    iget-object p3, p0, Lq7/u$g;->a:Ljava/io/OutputStream;
-
-    .line 19
-    .line 20
-    instance-of v0, p3, Lq7/f0;
-
-    .line 21
-    .line 22
-    const/4 v1, 0x0
-
-    .line 23
-    if-eqz v0, :cond_3
-
-    .line 24
-    .line 25
-    sget-object v0, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
-
-    .line 26
-    .line 27
-    const/4 v0, 0x0
-
-    .line 28
-    :try_start_0
-    invoke-static {}, Lq7/r;->a()Landroid/content/Context;
-
-    .line 29
-    .line 30
-    .line 31
-    move-result-object v2
-
-    .line 32
-    invoke-virtual {v2}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
-    .line 33
-    .line 34
-    .line 35
-    move-result-object v3
-
-    .line 36
-    const/4 v5, 0x0
-
-    .line 37
-    const/4 v6, 0x0
-
-    .line 38
-    const/4 v7, 0x0
-
-    .line 39
-    const/4 v8, 0x0
-
-    .line 40
-    move-object v4, p1
-
-    .line 41
-    invoke-virtual/range {v3 .. v8}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
-
-    .line 42
-    .line 43
-    .line 44
-    move-result-object v0
-
-    .line 45
-    if-nez v0, :cond_1
-
-    .line 46
-    .line 47
-    const-wide/16 v2, 0x0
-
-    .line 48
-    .line 49
-    goto :goto_0
-
-    .line 50
-    :cond_1
-    const-string p1, "_size"
-
-    .line 51
-    .line 52
-    invoke-interface {v0, p1}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
-
-    .line 53
-    .line 54
-    .line 55
-    move-result p1
-
-    .line 56
-    invoke-interface {v0}, Landroid/database/Cursor;->moveToFirst()Z
-
-    .line 57
-    .line 58
-    .line 59
-    invoke-interface {v0, p1}, Landroid/database/Cursor;->getLong(I)J
-
-    .line 60
-    .line 61
-    .line 62
-    move-result-wide v2
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 63
-    invoke-interface {v0}, Landroid/database/Cursor;->close()V
-
-    .line 64
-    .line 65
-    .line 66
-    :goto_0
-    check-cast p3, Lq7/f0;
-
-    .line 67
-    .line 68
-    invoke-virtual {p3, v2, v3}, Lq7/f0;->c(J)V
-
-    .line 69
-    .line 70
-    .line 71
-    const/4 p1, 0x0
-
-    .line 72
-    goto :goto_2
-
-    .line 73
-    :catchall_0
-    move-exception p1
-
-    .line 74
-    if-nez v0, :cond_2
-
-    .line 75
-    .line 76
-    goto :goto_1
-
-    .line 77
-    :cond_2
-    invoke-interface {v0}, Landroid/database/Cursor;->close()V
-
-    .line 78
-    .line 79
-    .line 80
-    :goto_1
-    throw p1
-
-    .line 81
-    :cond_3
-    invoke-static {}, Lq7/r;->a()Landroid/content/Context;
-
-    .line 82
-    .line 83
-    .line 84
-    move-result-object v0
-
-    .line 85
-    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
-    .line 86
-    .line 87
-    .line 88
-    move-result-object v0
-
-    .line 89
-    invoke-virtual {v0, p1}, Landroid/content/ContentResolver;->openInputStream(Landroid/net/Uri;)Ljava/io/InputStream;
-
-    .line 90
-    .line 91
-    .line 92
-    move-result-object p1
-
-    .line 93
-    sget-object v0, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
-
-    .line 94
-    .line 95
-    invoke-static {p1, p3}, Lcom/facebook/internal/e0;->i(Ljava/io/InputStream;Ljava/io/OutputStream;)I
-
-    .line 96
-    .line 97
-    .line 98
-    move-result p1
-
-    .line 99
-    add-int/2addr p1, v1
-
-    .line 100
-    :goto_2
-    const-string p3, ""
-
-    .line 101
-    .line 102
-    new-array v0, v1, [Ljava/lang/Object;
-
-    .line 103
-    .line 104
-    invoke-virtual {p0, p3, v0}, Lq7/u$g;->f(Ljava/lang/String;[Ljava/lang/Object;)V
-
-    .line 105
-    .line 106
-    .line 107
-    invoke-virtual {p0}, Lq7/u$g;->h()V
-
-    .line 108
-    .line 109
-    .line 110
-    iget-object p3, p0, Lq7/u$g;->b:Lcom/facebook/internal/v;
-
-    .line 111
-    .line 112
-    if-nez p3, :cond_4
-
-    .line 113
-    .line 114
-    goto :goto_3
-
-    .line 115
-    :cond_4
-    const-string v0, "    "
-
-    .line 116
-    .line 117
-    invoke-static {p2, v0}, Luh/i;->h(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 118
-    .line 119
-    .line 120
-    move-result-object p2
-
-    .line 121
-    sget-object v0, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
-
-    .line 122
-    .line 123
-    const/4 v2, 0x1
-
-    .line 124
-    new-array v3, v2, [Ljava/lang/Object;
-
-    .line 125
-    .line 126
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 127
-    .line 128
-    .line 129
-    move-result-object p1
-
-    .line 130
-    aput-object p1, v3, v1
-
-    .line 131
-    .line 132
-    invoke-static {v3, v2}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
-
-    .line 133
-    .line 134
-    .line 135
-    move-result-object p1
-
-    .line 136
-    const-string v1, "<Data: %d>"
-
-    .line 137
-    .line 138
-    invoke-static {v0, v1, p1}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-
-    .line 139
-    .line 140
-    .line 141
-    move-result-object p1
-
-    .line 142
-    const-string v0, "java.lang.String.format(locale, format, *args)"
-
-    .line 143
-    .line 144
-    invoke-static {p1, v0}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 145
-    .line 146
-    .line 147
-    invoke-virtual {p3, p1, p2}, Lcom/facebook/internal/v;->a(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 148
-    .line 149
-    .line 150
-    :goto_3
+    #
+    # .line 1
+    # const-string v0, "key"
+    #
+    # .line 2
+    # .line 3
+    # invoke-static {p2, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 4
+    # .line 5
+    # .line 6
+    # const-string v0, "contentUri"
+    #
+    # .line 7
+    # .line 8
+    # invoke-static {p1, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 9
+    # .line 10
+    # .line 11
+    # if-nez p3, :cond_0
+    #
+    # .line 12
+    # .line 13
+    # const-string p3, "content/unknown"
+    #
+    # .line 14
+    # .line 15
+    # :cond_0
+    # invoke-virtual {p0, p2, p2, p3}, Lq7/u$g;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 16
+    # .line 17
+    # .line 18
+    # iget-object p3, p0, Lq7/u$g;->a:Ljava/io/OutputStream;
+    #
+    # .line 19
+    # .line 20
+    # instance-of v0, p3, Lq7/f0;
+    #
+    # .line 21
+    # .line 22
+    # const/4 v1, 0x0
+    #
+    # .line 23
+    # if-eqz v0, :cond_3
+    #
+    # .line 24
+    # .line 25
+    # sget-object v0, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
+    #
+    # .line 26
+    # .line 27
+    # const/4 v0, 0x0
+    #
+    # .line 28
+    # :try_start_0
+    # invoke-static {}, Lq7/r;->a()Landroid/content/Context;
+    #
+    # .line 29
+    # .line 30
+    # .line 31
+    # move-result-object v2
+    #
+    # .line 32
+    # invoke-virtual {v2}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    #
+    # .line 33
+    # .line 34
+    # .line 35
+    # move-result-object v3
+    #
+    # .line 36
+    # const/4 v5, 0x0
+    #
+    # .line 37
+    # const/4 v6, 0x0
+    #
+    # .line 38
+    # const/4 v7, 0x0
+    #
+    # .line 39
+    # const/4 v8, 0x0
+    #
+    # .line 40
+    # move-object v4, p1
+    #
+    # .line 41
+    # invoke-virtual/range {v3 .. v8}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    #
+    # .line 42
+    # .line 43
+    # .line 44
+    # move-result-object v0
+    #
+    # .line 45
+    # if-nez v0, :cond_1
+    #
+    # .line 46
+    # .line 47
+    # const-wide/16 v2, 0x0
+    #
+    # .line 48
+    # .line 49
+    # goto :goto_0
+    #
+    # .line 50
+    # :cond_1
+    # const-string p1, "_size"
+    #
+    # .line 51
+    # .line 52
+    # invoke-interface {v0, p1}, Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
+    #
+    # .line 53
+    # .line 54
+    # .line 55
+    # move-result p1
+    #
+    # .line 56
+    # invoke-interface {v0}, Landroid/database/Cursor;->moveToFirst()Z
+    #
+    # .line 57
+    # .line 58
+    # .line 59
+    # invoke-interface {v0, p1}, Landroid/database/Cursor;->getLong(I)J
+    #
+    # .line 60
+    # .line 61
+    # .line 62
+    # move-result-wide v2
+    # :try_end_0
+    # .catchall {:try_start_0 .. :try_end_0} :catchall_0
+    #
+    # .line 63
+    # invoke-interface {v0}, Landroid/database/Cursor;->close()V
+    #
+    # .line 64
+    # .line 65
+    # .line 66
+    # :goto_0
+    # check-cast p3, Lq7/f0;
+    #
+    # .line 67
+    # .line 68
+    # invoke-virtual {p3, v2, v3}, Lq7/f0;->c(J)V
+    #
+    # .line 69
+    # .line 70
+    # .line 71
+    # const/4 p1, 0x0
+    #
+    # .line 72
+    # goto :goto_2
+    #
+    # .line 73
+    # :catchall_0
+    # move-exception p1
+    #
+    # .line 74
+    # if-nez v0, :cond_2
+    #
+    # .line 75
+    # .line 76
+    # goto :goto_1
+    #
+    # .line 77
+    # :cond_2
+    # invoke-interface {v0}, Landroid/database/Cursor;->close()V
+    #
+    # .line 78
+    # .line 79
+    # .line 80
+    # :goto_1
+    # throw p1
+    #
+    # .line 81
+    # :cond_3
+    # invoke-static {}, Lq7/r;->a()Landroid/content/Context;
+    #
+    # .line 82
+    # .line 83
+    # .line 84
+    # move-result-object v0
+    #
+    # .line 85
+    # invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    #
+    # .line 86
+    # .line 87
+    # .line 88
+    # move-result-object v0
+    #
+    # .line 89
+    # invoke-virtual {v0, p1}, Landroid/content/ContentResolver;->openInputStream(Landroid/net/Uri;)Ljava/io/InputStream;
+    #
+    # .line 90
+    # .line 91
+    # .line 92
+    # move-result-object p1
+    #
+    # .line 93
+    # sget-object v0, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
+    #
+    # .line 94
+    # .line 95
+    # invoke-static {p1, p3}, Lcom/facebook/internal/e0;->i(Ljava/io/InputStream;Ljava/io/OutputStream;)I
+    #
+    # .line 96
+    # .line 97
+    # .line 98
+    # move-result p1
+    #
+    # .line 99
+    # add-int/2addr p1, v1
+    #
+    # .line 100
+    # :goto_2
+    # const-string p3, ""
+    #
+    # .line 101
+    # .line 102
+    # new-array v0, v1, [Ljava/lang/Object;
+    #
+    # .line 103
+    # .line 104
+    # invoke-virtual {p0, p3, v0}, Lq7/u$g;->f(Ljava/lang/String;[Ljava/lang/Object;)V
+    #
+    # .line 105
+    # .line 106
+    # .line 107
+    # invoke-virtual {p0}, Lq7/u$g;->h()V
+    #
+    # .line 108
+    # .line 109
+    # .line 110
+    # iget-object p3, p0, Lq7/u$g;->b:Lcom/facebook/internal/v;
+    #
+    # .line 111
+    # .line 112
+    # if-nez p3, :cond_4
+    #
+    # .line 113
+    # .line 114
+    # goto :goto_3
+    #
+    # .line 115
+    # :cond_4
+    # const-string v0, "    "
+    #
+    # .line 116
+    # .line 117
+    # invoke-static {p2, v0}, Luh/i;->h(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+    #
+    # .line 118
+    # .line 119
+    # .line 120
+    # move-result-object p2
+    #
+    # .line 121
+    # sget-object v0, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
+    #
+    # .line 122
+    # .line 123
+    # const/4 v2, 0x1
+    #
+    # .line 124
+    # new-array v3, v2, [Ljava/lang/Object;
+    #
+    # .line 125
+    # .line 126
+    # invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    #
+    # .line 127
+    # .line 128
+    # .line 129
+    # move-result-object p1
+    #
+    # .line 130
+    # aput-object p1, v3, v1
+    #
+    # .line 131
+    # .line 132
+    # invoke-static {v3, v2}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+    #
+    # .line 133
+    # .line 134
+    # .line 135
+    # move-result-object p1
+    #
+    # .line 136
+    # const-string v1, "<Data: %d>"
+    #
+    # .line 137
+    # .line 138
+    # invoke-static {v0, v1, p1}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    #
+    # .line 139
+    # .line 140
+    # .line 141
+    # move-result-object p1
+    #
+    # .line 142
+    # const-string v0, "java.lang.String.format(locale, format, *args)"
+    #
+    # .line 143
+    # .line 144
+    # invoke-static {p1, v0}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 145
+    # .line 146
+    # .line 147
+    # invoke-virtual {p3, p1, p2}, Lcom/facebook/internal/v;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 148
+    # .line 149
+    # .line 150
+    # :goto_3
     return-void
 .end method
 
 .method public final e(Ljava/lang/String;Landroid/os/ParcelFileDescriptor;Ljava/lang/String;)V
     .locals 4
 
-    const-string v0, "key"
-
-    invoke-static {p1, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "descriptor"
-
-    invoke-static {p2, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    if-nez p3, :cond_0
-
-    const-string p3, "content/unknown"
-
-    :cond_0
-    invoke-virtual {p0, p1, p1, p3}, Lq7/u$g;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    iget-object p3, p0, Lq7/u$g;->a:Ljava/io/OutputStream;
-
-    instance-of v0, p3, Lq7/f0;
-
-    const/4 v1, 0x0
-
-    if-eqz v0, :cond_1
-
-    check-cast p3, Lq7/f0;
-
-    invoke-virtual {p2}, Landroid/os/ParcelFileDescriptor;->getStatSize()J
-
-    move-result-wide v2
-
-    invoke-virtual {p3, v2, v3}, Lq7/f0;->c(J)V
-
-    const/4 p2, 0x0
-
-    goto :goto_0
-
-    :cond_1
-    new-instance v0, Landroid/os/ParcelFileDescriptor$AutoCloseInputStream;
-
-    invoke-direct {v0, p2}, Landroid/os/ParcelFileDescriptor$AutoCloseInputStream;-><init>(Landroid/os/ParcelFileDescriptor;)V
-
-    sget-object p2, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
-
-    invoke-static {v0, p3}, Lcom/facebook/internal/e0;->i(Ljava/io/InputStream;Ljava/io/OutputStream;)I
-
-    move-result p2
-
-    add-int/2addr p2, v1
-
-    :goto_0
-    const-string p3, ""
-
-    new-array v0, v1, [Ljava/lang/Object;
-
-    invoke-virtual {p0, p3, v0}, Lq7/u$g;->f(Ljava/lang/String;[Ljava/lang/Object;)V
-
-    invoke-virtual {p0}, Lq7/u$g;->h()V
-
-    iget-object p3, p0, Lq7/u$g;->b:Lcom/facebook/internal/v;
-
-    if-nez p3, :cond_2
-
-    goto :goto_1
-
-    :cond_2
-    const-string v0, "    "
-
-    invoke-static {p1, v0}, Luh/i;->h(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    sget-object v0, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
-
-    const/4 v2, 0x1
-
-    new-array v3, v2, [Ljava/lang/Object;
-
-    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object p2
-
-    aput-object p2, v3, v1
-
-    invoke-static {v3, v2}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
-
-    move-result-object p2
-
-    const-string v1, "<Data: %d>"
-
-    invoke-static {v0, v1, p2}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object p2
-
-    const-string v0, "java.lang.String.format(locale, format, *args)"
-
-    invoke-static {p2, v0}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {p3, p2, p1}, Lcom/facebook/internal/v;->a(Ljava/lang/Object;Ljava/lang/String;)V
-
-    :goto_1
+    # const-string v0, "key"
+    #
+    # invoke-static {p1, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # const-string v0, "descriptor"
+    #
+    # invoke-static {p2, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # if-nez p3, :cond_0
+    #
+    # const-string p3, "content/unknown"
+    #
+    # :cond_0
+    # invoke-virtual {p0, p1, p1, p3}, Lq7/u$g;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # iget-object p3, p0, Lq7/u$g;->a:Ljava/io/OutputStream;
+    #
+    # instance-of v0, p3, Lq7/f0;
+    #
+    # const/4 v1, 0x0
+    #
+    # if-eqz v0, :cond_1
+    #
+    # check-cast p3, Lq7/f0;
+    #
+    # invoke-virtual {p2}, Landroid/os/ParcelFileDescriptor;->getStatSize()J
+    #
+    # move-result-wide v2
+    #
+    # invoke-virtual {p3, v2, v3}, Lq7/f0;->c(J)V
+    #
+    # const/4 p2, 0x0
+    #
+    # goto :goto_0
+    #
+    # :cond_1
+    # new-instance v0, Landroid/os/ParcelFileDescriptor$AutoCloseInputStream;
+    #
+    # invoke-direct {v0, p2}, Landroid/os/ParcelFileDescriptor$AutoCloseInputStream;-><init>(Landroid/os/ParcelFileDescriptor;)V
+    #
+    # sget-object p2, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
+    #
+    # invoke-static {v0, p3}, Lcom/facebook/internal/e0;->i(Ljava/io/InputStream;Ljava/io/OutputStream;)I
+    #
+    # move-result p2
+    #
+    # add-int/2addr p2, v1
+    #
+    # :goto_0
+    # const-string p3, ""
+    #
+    # new-array v0, v1, [Ljava/lang/Object;
+    #
+    # invoke-virtual {p0, p3, v0}, Lq7/u$g;->f(Ljava/lang/String;[Ljava/lang/Object;)V
+    #
+    # invoke-virtual {p0}, Lq7/u$g;->h()V
+    #
+    # iget-object p3, p0, Lq7/u$g;->b:Lcom/facebook/internal/v;
+    #
+    # if-nez p3, :cond_2
+    #
+    # goto :goto_1
+    #
+    # :cond_2
+    # const-string v0, "    "
+    #
+    # invoke-static {p1, v0}, Luh/i;->h(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+    #
+    # move-result-object p1
+    #
+    # sget-object v0, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
+    #
+    # const/4 v2, 0x1
+    #
+    # new-array v3, v2, [Ljava/lang/Object;
+    #
+    # invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    #
+    # move-result-object p2
+    #
+    # aput-object p2, v3, v1
+    #
+    # invoke-static {v3, v2}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+    #
+    # move-result-object p2
+    #
+    # const-string v1, "<Data: %d>"
+    #
+    # invoke-static {v0, v1, p2}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    #
+    # move-result-object p2
+    #
+    # const-string v0, "java.lang.String.format(locale, format, *args)"
+    #
+    # invoke-static {p2, v0}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # invoke-virtual {p3, p2, p1}, Lcom/facebook/internal/v;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # :goto_1
     return-void
 .end method
 
@@ -1087,7 +1087,7 @@
 
     .line 38
     .line 39
-    iget-object v2, p0, Lq7/u$g;->b:Lcom/facebook/internal/v;
+    # iget-object v2, p0, Lq7/u$g;->b:Lcom/facebook/internal/v;
 
     .line 40
     .line 41
@@ -1172,7 +1172,7 @@
 
     .line 82
     .line 83
-    invoke-virtual {v2, p2, p1}, Lcom/facebook/internal/v;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    # invoke-virtual {v2, p2, p1}, Lcom/facebook/internal/v;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 84
     .line 85
@@ -1302,7 +1302,7 @@
     .line 147
     .line 148
     .line 149
-    invoke-virtual {v2, p2, p1}, Lcom/facebook/internal/v;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    # invoke-virtual {v2, p2, p1}, Lcom/facebook/internal/v;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 150
     .line 151

@@ -45,15 +45,15 @@
 
     if-le v0, v1, :cond_0
 
-    sget-object v0, Lcom/facebook/internal/l;->a:Lcom/facebook/internal/l;
-
-    sget-object v0, Lcom/facebook/internal/l$b;->z:Lcom/facebook/internal/l$b;
+    # sget-object v0, Lcom/facebook/internal/l;->a:Lcom/facebook/internal/l;
+    #
+    # sget-object v0, Lcom/facebook/internal/l$b;->z:Lcom/facebook/internal/l$b;
 
     new-instance v1, Lo2/a;
 
     invoke-direct {v1, p1}, Lo2/a;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v1, v0}, Lcom/facebook/internal/l;->a(Lcom/facebook/internal/l$a;Lcom/facebook/internal/l$b;)V
+    # invoke-static {v1, v0}, Lcom/facebook/internal/l;->a(Lcom/facebook/internal/l$a;Lcom/facebook/internal/l$b;)V
 
     :cond_0
     return-void

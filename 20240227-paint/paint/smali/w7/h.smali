@@ -69,13 +69,14 @@
 
     if-eqz v1, :cond_1
 
-    sget-object v1, Lcom/facebook/internal/l;->a:Lcom/facebook/internal/l;
+    # sget-object v1, Lcom/facebook/internal/l;->a:Lcom/facebook/internal/l;
+    #
+    # sget-object v1, Lcom/facebook/internal/l$b;->u:Lcom/facebook/internal/l$b;
+    #
+    # invoke-static {v1}, Lcom/facebook/internal/l;->c(Lcom/facebook/internal/l$b;)Z
 
-    sget-object v1, Lcom/facebook/internal/l$b;->u:Lcom/facebook/internal/l$b;
-
-    invoke-static {v1}, Lcom/facebook/internal/l;->c(Lcom/facebook/internal/l$b;)Z
-
-    move-result v1
+    # move-result v1
+    const/4 v1,0x1
 
     if-eqz v1, :cond_1
 

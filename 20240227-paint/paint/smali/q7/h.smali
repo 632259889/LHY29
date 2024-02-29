@@ -58,7 +58,7 @@
 
     const-string v1, "token"
 
-    invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-object v0, p0, Lq7/h;->c:Ljava/lang/String;
 
@@ -68,7 +68,7 @@
 
     const-string v1, "expectedNonce"
 
-    invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-object v0, p0, Lq7/h;->d:Ljava/lang/String;
 
@@ -112,7 +112,7 @@
 
     const-string v0, "signature"
 
-    invoke-static {p1, v0}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {p1, v0}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-object p1, p0, Lq7/h;->g:Ljava/lang/String;
 
@@ -152,9 +152,9 @@
 
     const-string v1, "token"
 
-    invoke-static {p1, v1}, Lcom/facebook/internal/f0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {p1, v1}, Lcom/facebook/internal/f0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {p2, v0}, Lcom/facebook/internal/f0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {p2, v0}, Lcom/facebook/internal/f0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "."
 

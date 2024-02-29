@@ -493,15 +493,15 @@
 
     .line 2
     .line 3
-    check-cast v0, Lcom/facebook/internal/n$a;
-
-    .line 4
-    .line 5
-    sget-object v1, Lcom/facebook/internal/n;->a:Lcom/facebook/internal/n;
-
-    .line 6
-    .line 7
-    invoke-interface {v0}, Lcom/facebook/internal/n$a;->a()V
+    # check-cast v0, Lcom/facebook/internal/n$a;
+    #
+    # .line 4
+    # .line 5
+    # sget-object v1, Lcom/facebook/internal/n;->a:Lcom/facebook/internal/n;
+    #
+    # .line 6
+    # .line 7
+    # invoke-interface {v0}, Lcom/facebook/internal/n$a;->a()V
 
     .line 8
     .line 9

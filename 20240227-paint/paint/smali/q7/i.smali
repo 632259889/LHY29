@@ -131,7 +131,7 @@
 
     const-string v1, "jti"
 
-    invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-object v0, p0, Lq7/i;->c:Ljava/lang/String;
 
@@ -141,7 +141,7 @@
 
     const-string v1, "iss"
 
-    invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-object v0, p0, Lq7/i;->d:Ljava/lang/String;
 
@@ -151,7 +151,7 @@
 
     const-string v1, "aud"
 
-    invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-object v0, p0, Lq7/i;->e:Ljava/lang/String;
 
@@ -161,7 +161,7 @@
 
     const-string v1, "nonce"
 
-    invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-object v0, p0, Lq7/i;->f:Ljava/lang/String;
 
@@ -183,7 +183,7 @@
 
     const-string v1, "sub"
 
-    invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-object v0, p0, Lq7/i;->i:Ljava/lang/String;
 
@@ -363,588 +363,588 @@
     return-void
 .end method
 
-.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
-    .locals 16
-
-    move-object/from16 v0, p0
-
-    move-object/from16 v1, p1
-
-    move-object/from16 v2, p2
-
-    const-string v3, "encodedClaims"
-
-    invoke-static {v1, v3}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v4, "expectedNonce"
-
-    invoke-static {v2, v4}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
-
-    invoke-static {v1, v3}, Lcom/facebook/internal/f0;->b(Ljava/lang/String;Ljava/lang/String;)V
-
-    const/16 v3, 0x8
-
-    invoke-static {v1, v3}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
-
-    move-result-object v1
-
-    const-string v3, "decodedBytes"
-
-    invoke-static {v1, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    new-instance v3, Ljava/lang/String;
-
-    sget-object v4, Ljk/a;->b:Ljava/nio/charset/Charset;
-
-    invoke-direct {v3, v1, v4}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V
-
-    new-instance v1, Lorg/json/JSONObject;
-
-    invoke-direct {v1, v3}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
-
-    const-string v3, "jti"
-
-    .line 1
-    invoke-virtual {v1, v3}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v4, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {v4}, Ljava/lang/String;->length()I
-
-    move-result v4
-
-    if-nez v4, :cond_0
-
-    const/4 v4, 0x1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v4, 0x0
-
-    :goto_0
-    const-string v7, "nonce"
-
-    const-string v8, "sub"
-
-    const-string v9, "iat"
-
-    const-string v10, "exp"
-
-    const-string v11, "aud"
-
-    const-string v12, "iss"
-
-    if-eqz v4, :cond_1
-
-    goto/16 :goto_5
-
-    :cond_1
-    :try_start_0
-    invoke-virtual {v1, v12}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v4, v12}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {v4}, Ljava/lang/String;->length()I
-
-    move-result v13
-
-    if-nez v13, :cond_2
-
-    const/4 v13, 0x1
-
-    goto :goto_1
-
-    :cond_2
-    const/4 v13, 0x0
-
-    :goto_1
-    if-nez v13, :cond_c
-
-    new-instance v13, Ljava/net/URL;
-
-    invoke-direct {v13, v4}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v13}, Ljava/net/URL;->getHost()Ljava/lang/String;
-
-    move-result-object v13
-
-    const-string v14, "facebook.com"
-
-    invoke-static {v13, v14}, Luh/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v13
-
-    if-nez v13, :cond_3
-
-    new-instance v13, Ljava/net/URL;
-
-    invoke-direct {v13, v4}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v13}, Ljava/net/URL;->getHost()Ljava/lang/String;
-
-    move-result-object v4
-
-    const-string v13, "www.facebook.com"
-
-    invoke-static {v4, v13}, Luh/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v4
-    :try_end_0
-    .catch Ljava/net/MalformedURLException; {:try_start_0 .. :try_end_0} :catch_0
-
-    if-nez v4, :cond_3
-
-    goto/16 :goto_5
-
-    :cond_3
-    invoke-virtual {v1, v11}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v4, v11}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {v4}, Ljava/lang/String;->length()I
-
-    move-result v13
-
-    if-nez v13, :cond_4
-
-    const/4 v13, 0x1
-
-    goto :goto_2
-
-    :cond_4
-    const/4 v13, 0x0
-
-    :goto_2
-    if-nez v13, :cond_c
-
-    invoke-static {}, Lq7/r;->b()Ljava/lang/String;
-
-    move-result-object v13
-
-    invoke-static {v4, v13}, Luh/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v4
-
-    if-nez v4, :cond_5
-
-    goto :goto_5
-
-    :cond_5
-    new-instance v4, Ljava/util/Date;
-
-    invoke-virtual {v1, v10}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;)J
-
-    move-result-wide v13
-
-    const/16 v15, 0x3e8
-
-    int-to-long v5, v15
-
-    mul-long v13, v13, v5
-
-    invoke-direct {v4, v13, v14}, Ljava/util/Date;-><init>(J)V
-
-    new-instance v13, Ljava/util/Date;
-
-    invoke-direct {v13}, Ljava/util/Date;-><init>()V
-
-    invoke-virtual {v13, v4}, Ljava/util/Date;->after(Ljava/util/Date;)Z
-
-    move-result v4
-
-    if-eqz v4, :cond_6
-
-    goto :goto_5
-
-    :cond_6
-    invoke-virtual {v1, v9}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;)J
-
-    move-result-wide v13
-
-    new-instance v4, Ljava/util/Date;
-
-    mul-long v13, v13, v5
-
-    const-wide/32 v5, 0x927c0
-
-    add-long/2addr v13, v5
-
-    invoke-direct {v4, v13, v14}, Ljava/util/Date;-><init>(J)V
-
-    new-instance v5, Ljava/util/Date;
-
-    invoke-direct {v5}, Ljava/util/Date;-><init>()V
-
-    invoke-virtual {v5, v4}, Ljava/util/Date;->after(Ljava/util/Date;)Z
-
-    move-result v4
-
-    if-eqz v4, :cond_7
-
-    goto :goto_5
-
-    :cond_7
-    invoke-virtual {v1, v8}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v4, v8}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {v4}, Ljava/lang/String;->length()I
-
-    move-result v4
-
-    if-nez v4, :cond_8
-
-    const/4 v4, 0x1
-
-    goto :goto_3
-
-    :cond_8
-    const/4 v4, 0x0
-
-    :goto_3
-    if-eqz v4, :cond_9
-
-    goto :goto_5
-
-    :cond_9
-    invoke-virtual {v1, v7}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v4, v7}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {v4}, Ljava/lang/String;->length()I
-
-    move-result v5
-
-    if-nez v5, :cond_a
-
-    const/4 v5, 0x1
-
-    goto :goto_4
-
-    :cond_a
-    const/4 v5, 0x0
-
-    :goto_4
-    if-nez v5, :cond_c
-
-    invoke-static {v4, v2}, Luh/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result v2
-
-    if-nez v2, :cond_b
-
-    goto :goto_5
-
-    :cond_b
-    const/4 v5, 0x1
-
-    goto :goto_6
-
-    :catch_0
-    nop
-
-    :cond_c
-    :goto_5
-    const/4 v5, 0x0
-
-    :goto_6
-    if-eqz v5, :cond_13
-
-    .line 2
-    invoke-virtual {v1, v3}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v2
-
-    const-string v3, "jsonObj.getString(JSON_KEY_JIT)"
-
-    invoke-static {v2, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    iput-object v2, v0, Lq7/i;->c:Ljava/lang/String;
-
-    invoke-virtual {v1, v12}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v2
-
-    const-string v3, "jsonObj.getString(JSON_KEY_ISS)"
-
-    invoke-static {v2, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    iput-object v2, v0, Lq7/i;->d:Ljava/lang/String;
-
-    invoke-virtual {v1, v11}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v2
-
-    const-string v3, "jsonObj.getString(JSON_KEY_AUD)"
-
-    invoke-static {v2, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    iput-object v2, v0, Lq7/i;->e:Ljava/lang/String;
-
-    invoke-virtual {v1, v7}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v2
-
-    const-string v3, "jsonObj.getString(JSON_KEY_NONCE)"
-
-    invoke-static {v2, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    iput-object v2, v0, Lq7/i;->f:Ljava/lang/String;
-
-    invoke-virtual {v1, v10}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
-
-    move-result-wide v2
-
-    iput-wide v2, v0, Lq7/i;->g:J
-
-    invoke-virtual {v1, v9}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
-
-    move-result-wide v2
-
-    iput-wide v2, v0, Lq7/i;->h:J
-
-    invoke-virtual {v1, v8}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v2
-
-    const-string v3, "jsonObj.getString(JSON_KEY_SUB)"
-
-    invoke-static {v2, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    iput-object v2, v0, Lq7/i;->i:Ljava/lang/String;
-
-    const-string v2, "name"
-
-    invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
-
-    move-result-object v2
-
-    iput-object v2, v0, Lq7/i;->j:Ljava/lang/String;
-
-    const-string v2, "given_name"
-
-    invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
-
-    move-result-object v2
-
-    iput-object v2, v0, Lq7/i;->k:Ljava/lang/String;
-
-    const-string v2, "middle_name"
-
-    invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
-
-    move-result-object v2
-
-    iput-object v2, v0, Lq7/i;->l:Ljava/lang/String;
-
-    const-string v2, "family_name"
-
-    invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
-
-    move-result-object v2
-
-    iput-object v2, v0, Lq7/i;->m:Ljava/lang/String;
-
-    const-string v2, "email"
-
-    invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
-
-    move-result-object v2
-
-    iput-object v2, v0, Lq7/i;->n:Ljava/lang/String;
-
-    const-string v2, "picture"
-
-    invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
-
-    move-result-object v2
-
-    iput-object v2, v0, Lq7/i;->o:Ljava/lang/String;
-
-    const-string v2, "user_friends"
-
-    invoke-virtual {v1, v2}, Lorg/json/JSONObject;->optJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
-
-    move-result-object v2
-
-    const/4 v3, 0x0
-
-    if-nez v2, :cond_d
-
-    move-object v2, v3
-
-    goto :goto_9
-
-    :cond_d
-    sget-object v4, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
-
-    .line 3
-    new-instance v4, Ljava/util/HashSet;
-
-    invoke-direct {v4}, Ljava/util/HashSet;-><init>()V
-
-    invoke-virtual {v2}, Lorg/json/JSONArray;->length()I
-
-    move-result v5
-
-    if-lez v5, :cond_f
-
-    const/4 v6, 0x0
-
-    :goto_7
-    add-int/lit8 v7, v6, 0x1
-
-    invoke-virtual {v2, v6}, Lorg/json/JSONArray;->getString(I)Ljava/lang/String;
-
-    move-result-object v6
-
-    const-string v8, "jsonArray.getString(i)"
-
-    invoke-static {v6, v8}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {v4, v6}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
-
-    if-lt v7, v5, :cond_e
-
-    goto :goto_8
-
-    :cond_e
-    move v6, v7
-
-    goto :goto_7
-
-    .line 4
-    :cond_f
-    :goto_8
-    invoke-static {v4}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
-
-    move-result-object v2
-
-    :goto_9
-    iput-object v2, v0, Lq7/i;->p:Ljava/util/Set;
-
-    const-string v2, "user_birthday"
-
-    invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
-
-    move-result-object v2
-
-    iput-object v2, v0, Lq7/i;->q:Ljava/lang/String;
-
-    const-string v2, "user_age_range"
-
-    invoke-virtual {v1, v2}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
-
-    move-result-object v2
-
-    if-nez v2, :cond_10
-
-    move-object v2, v3
-
-    goto :goto_a
-
-    :cond_10
-    invoke-static {v2}, Lcom/facebook/internal/e0;->g(Lorg/json/JSONObject;)Ljava/util/HashMap;
-
-    move-result-object v2
-
-    invoke-static {v2}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
-
-    move-result-object v2
-
-    :goto_a
-    iput-object v2, v0, Lq7/i;->r:Ljava/util/Map;
-
-    const-string v2, "user_hometown"
-
-    invoke-virtual {v1, v2}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
-
-    move-result-object v2
-
-    if-nez v2, :cond_11
-
-    move-object v2, v3
-
-    goto :goto_b
-
-    :cond_11
-    invoke-static {v2}, Lcom/facebook/internal/e0;->h(Lorg/json/JSONObject;)Ljava/util/HashMap;
-
-    move-result-object v2
-
-    invoke-static {v2}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
-
-    move-result-object v2
-
-    :goto_b
-    iput-object v2, v0, Lq7/i;->s:Ljava/util/Map;
-
-    const-string v2, "user_location"
-
-    invoke-virtual {v1, v2}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
-
-    move-result-object v2
-
-    if-nez v2, :cond_12
-
-    goto :goto_c
-
-    :cond_12
-    invoke-static {v2}, Lcom/facebook/internal/e0;->h(Lorg/json/JSONObject;)Ljava/util/HashMap;
-
-    move-result-object v2
-
-    invoke-static {v2}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
-
-    move-result-object v3
-
-    :goto_c
-    iput-object v3, v0, Lq7/i;->t:Ljava/util/Map;
-
-    const-string v2, "user_gender"
-
-    invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
-
-    move-result-object v2
-
-    iput-object v2, v0, Lq7/i;->u:Ljava/lang/String;
-
-    const-string v2, "user_link"
-
-    invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
-
-    move-result-object v1
-
-    iput-object v1, v0, Lq7/i;->v:Ljava/lang/String;
-
-    return-void
-
-    :cond_13
-    new-instance v1, Ljava/lang/IllegalArgumentException;
-
-    const-string v2, "Invalid claims"
-
-    invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    throw v1
-.end method
+# .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
+#     .locals 16
+#
+#     move-object/from16 v0, p0
+#
+#     move-object/from16 v1, p1
+#
+#     move-object/from16 v2, p2
+#
+#     const-string v3, "encodedClaims"
+#
+#     invoke-static {v1, v3}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     const-string v4, "expectedNonce"
+#
+#     invoke-static {v2, v4}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+#
+#     # invoke-static {v1, v3}, Lcom/facebook/internal/f0;->b(Ljava/lang/String;Ljava/lang/String;)V
+#
+#     const/16 v3, 0x8
+#
+#     invoke-static {v1, v3}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
+#
+#     move-result-object v1
+#
+#     const-string v3, "decodedBytes"
+#
+#     invoke-static {v1, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     new-instance v3, Ljava/lang/String;
+#
+#     sget-object v4, Ljk/a;->b:Ljava/nio/charset/Charset;
+#
+#     invoke-direct {v3, v1, v4}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V
+#
+#     new-instance v1, Lorg/json/JSONObject;
+#
+#     invoke-direct {v1, v3}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+#
+#     const-string v3, "jti"
+#
+#     .line 1
+#     invoke-virtual {v1, v3}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v4, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     invoke-virtual {v4}, Ljava/lang/String;->length()I
+#
+#     move-result v4
+#
+#     if-nez v4, :cond_0
+#
+#     const/4 v4, 0x1
+#
+#     goto :goto_0
+#
+#     :cond_0
+#     const/4 v4, 0x0
+#
+#     :goto_0
+#     const-string v7, "nonce"
+#
+#     const-string v8, "sub"
+#
+#     const-string v9, "iat"
+#
+#     const-string v10, "exp"
+#
+#     const-string v11, "aud"
+#
+#     const-string v12, "iss"
+#
+#     if-eqz v4, :cond_1
+#
+#     goto/16 :goto_5
+#
+#     :cond_1
+#     :try_start_0
+#     invoke-virtual {v1, v12}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v4, v12}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     invoke-virtual {v4}, Ljava/lang/String;->length()I
+#
+#     move-result v13
+#
+#     if-nez v13, :cond_2
+#
+#     const/4 v13, 0x1
+#
+#     goto :goto_1
+#
+#     :cond_2
+#     const/4 v13, 0x0
+#
+#     :goto_1
+#     if-nez v13, :cond_c
+#
+#     new-instance v13, Ljava/net/URL;
+#
+#     invoke-direct {v13, v4}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
+#
+#     invoke-virtual {v13}, Ljava/net/URL;->getHost()Ljava/lang/String;
+#
+#     move-result-object v13
+#
+#     const-string v14, "facebook.com"
+#
+#     invoke-static {v13, v14}, Luh/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+#
+#     move-result v13
+#
+#     if-nez v13, :cond_3
+#
+#     new-instance v13, Ljava/net/URL;
+#
+#     invoke-direct {v13, v4}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
+#
+#     invoke-virtual {v13}, Ljava/net/URL;->getHost()Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     const-string v13, "www.facebook.com"
+#
+#     invoke-static {v4, v13}, Luh/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+#
+#     move-result v4
+#     :try_end_0
+#     .catch Ljava/net/MalformedURLException; {:try_start_0 .. :try_end_0} :catch_0
+#
+#     if-nez v4, :cond_3
+#
+#     goto/16 :goto_5
+#
+#     :cond_3
+#     invoke-virtual {v1, v11}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v4, v11}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     invoke-virtual {v4}, Ljava/lang/String;->length()I
+#
+#     move-result v13
+#
+#     if-nez v13, :cond_4
+#
+#     const/4 v13, 0x1
+#
+#     goto :goto_2
+#
+#     :cond_4
+#     const/4 v13, 0x0
+#
+#     :goto_2
+#     if-nez v13, :cond_c
+#
+#     invoke-static {}, Lq7/r;->b()Ljava/lang/String;
+#
+#     move-result-object v13
+#
+#     invoke-static {v4, v13}, Luh/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+#
+#     move-result v4
+#
+#     if-nez v4, :cond_5
+#
+#     goto :goto_5
+#
+#     :cond_5
+#     new-instance v4, Ljava/util/Date;
+#
+#     invoke-virtual {v1, v10}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;)J
+#
+#     move-result-wide v13
+#
+#     const/16 v15, 0x3e8
+#
+#     int-to-long v5, v15
+#
+#     mul-long v13, v13, v5
+#
+#     invoke-direct {v4, v13, v14}, Ljava/util/Date;-><init>(J)V
+#
+#     new-instance v13, Ljava/util/Date;
+#
+#     invoke-direct {v13}, Ljava/util/Date;-><init>()V
+#
+#     invoke-virtual {v13, v4}, Ljava/util/Date;->after(Ljava/util/Date;)Z
+#
+#     move-result v4
+#
+#     if-eqz v4, :cond_6
+#
+#     goto :goto_5
+#
+#     :cond_6
+#     invoke-virtual {v1, v9}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;)J
+#
+#     move-result-wide v13
+#
+#     new-instance v4, Ljava/util/Date;
+#
+#     mul-long v13, v13, v5
+#
+#     const-wide/32 v5, 0x927c0
+#
+#     add-long/2addr v13, v5
+#
+#     invoke-direct {v4, v13, v14}, Ljava/util/Date;-><init>(J)V
+#
+#     new-instance v5, Ljava/util/Date;
+#
+#     invoke-direct {v5}, Ljava/util/Date;-><init>()V
+#
+#     invoke-virtual {v5, v4}, Ljava/util/Date;->after(Ljava/util/Date;)Z
+#
+#     move-result v4
+#
+#     if-eqz v4, :cond_7
+#
+#     goto :goto_5
+#
+#     :cond_7
+#     invoke-virtual {v1, v8}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v4, v8}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     invoke-virtual {v4}, Ljava/lang/String;->length()I
+#
+#     move-result v4
+#
+#     if-nez v4, :cond_8
+#
+#     const/4 v4, 0x1
+#
+#     goto :goto_3
+#
+#     :cond_8
+#     const/4 v4, 0x0
+#
+#     :goto_3
+#     if-eqz v4, :cond_9
+#
+#     goto :goto_5
+#
+#     :cond_9
+#     invoke-virtual {v1, v7}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-static {v4, v7}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     invoke-virtual {v4}, Ljava/lang/String;->length()I
+#
+#     move-result v5
+#
+#     if-nez v5, :cond_a
+#
+#     const/4 v5, 0x1
+#
+#     goto :goto_4
+#
+#     :cond_a
+#     const/4 v5, 0x0
+#
+#     :goto_4
+#     if-nez v5, :cond_c
+#
+#     invoke-static {v4, v2}, Luh/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+#
+#     move-result v2
+#
+#     if-nez v2, :cond_b
+#
+#     goto :goto_5
+#
+#     :cond_b
+#     const/4 v5, 0x1
+#
+#     goto :goto_6
+#
+#     :catch_0
+#     nop
+#
+#     :cond_c
+#     :goto_5
+#     const/4 v5, 0x0
+#
+#     :goto_6
+#     if-eqz v5, :cond_13
+#
+#     .line 2
+#     invoke-virtual {v1, v3}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     const-string v3, "jsonObj.getString(JSON_KEY_JIT)"
+#
+#     invoke-static {v2, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     iput-object v2, v0, Lq7/i;->c:Ljava/lang/String;
+#
+#     invoke-virtual {v1, v12}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     const-string v3, "jsonObj.getString(JSON_KEY_ISS)"
+#
+#     invoke-static {v2, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     iput-object v2, v0, Lq7/i;->d:Ljava/lang/String;
+#
+#     invoke-virtual {v1, v11}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     const-string v3, "jsonObj.getString(JSON_KEY_AUD)"
+#
+#     invoke-static {v2, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     iput-object v2, v0, Lq7/i;->e:Ljava/lang/String;
+#
+#     invoke-virtual {v1, v7}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     const-string v3, "jsonObj.getString(JSON_KEY_NONCE)"
+#
+#     invoke-static {v2, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     iput-object v2, v0, Lq7/i;->f:Ljava/lang/String;
+#
+#     invoke-virtual {v1, v10}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
+#
+#     move-result-wide v2
+#
+#     iput-wide v2, v0, Lq7/i;->g:J
+#
+#     invoke-virtual {v1, v9}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
+#
+#     move-result-wide v2
+#
+#     iput-wide v2, v0, Lq7/i;->h:J
+#
+#     invoke-virtual {v1, v8}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     const-string v3, "jsonObj.getString(JSON_KEY_SUB)"
+#
+#     invoke-static {v2, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     iput-object v2, v0, Lq7/i;->i:Ljava/lang/String;
+#
+#     const-string v2, "name"
+#
+#     invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     iput-object v2, v0, Lq7/i;->j:Ljava/lang/String;
+#
+#     const-string v2, "given_name"
+#
+#     invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     iput-object v2, v0, Lq7/i;->k:Ljava/lang/String;
+#
+#     const-string v2, "middle_name"
+#
+#     invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     iput-object v2, v0, Lq7/i;->l:Ljava/lang/String;
+#
+#     const-string v2, "family_name"
+#
+#     invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     iput-object v2, v0, Lq7/i;->m:Ljava/lang/String;
+#
+#     const-string v2, "email"
+#
+#     invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     iput-object v2, v0, Lq7/i;->n:Ljava/lang/String;
+#
+#     const-string v2, "picture"
+#
+#     invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     iput-object v2, v0, Lq7/i;->o:Ljava/lang/String;
+#
+#     const-string v2, "user_friends"
+#
+#     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->optJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
+#
+#     move-result-object v2
+#
+#     const/4 v3, 0x0
+#
+#     if-nez v2, :cond_d
+#
+#     move-object v2, v3
+#
+#     goto :goto_9
+#
+#     :cond_d
+#     # sget-object v4, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
+#
+#     .line 3
+#     new-instance v4, Ljava/util/HashSet;
+#
+#     # invoke-direct {v4}, Ljava/util/HashSet;-><init>()V
+#
+#     invoke-virtual {v2}, Lorg/json/JSONArray;->length()I
+#
+#     move-result v5
+#
+#     if-lez v5, :cond_f
+#
+#     const/4 v6, 0x0
+#
+#     :goto_7
+#     add-int/lit8 v7, v6, 0x1
+#
+#     invoke-virtual {v2, v6}, Lorg/json/JSONArray;->getString(I)Ljava/lang/String;
+#
+#     move-result-object v6
+#
+#     const-string v8, "jsonArray.getString(i)"
+#
+#     invoke-static {v6, v8}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     invoke-virtual {v4, v6}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+#
+#     if-lt v7, v5, :cond_e
+#
+#     goto :goto_8
+#
+#     :cond_e
+#     move v6, v7
+#
+#     goto :goto_7
+#
+#     .line 4
+#     :cond_f
+#     :goto_8
+#     invoke-static {v4}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
+#
+#     move-result-object v2
+#
+#     :goto_9
+#     iput-object v2, v0, Lq7/i;->p:Ljava/util/Set;
+#
+#     const-string v2, "user_birthday"
+#
+#     invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     iput-object v2, v0, Lq7/i;->q:Ljava/lang/String;
+#
+#     const-string v2, "user_age_range"
+#
+#     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
+#
+#     move-result-object v2
+#
+#     if-nez v2, :cond_10
+#
+#     move-object v2, v3
+#
+#     goto :goto_a
+#
+#     :cond_10
+#     invoke-static {v2}, Lcom/facebook/internal/e0;->g(Lorg/json/JSONObject;)Ljava/util/HashMap;
+#
+#     move-result-object v2
+#
+#     invoke-static {v2}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
+#
+#     move-result-object v2
+#
+#     :goto_a
+#     iput-object v2, v0, Lq7/i;->r:Ljava/util/Map;
+#
+#     const-string v2, "user_hometown"
+#
+#     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
+#
+#     move-result-object v2
+#
+#     if-nez v2, :cond_11
+#
+#     move-object v2, v3
+#
+#     goto :goto_b
+#
+#     :cond_11
+#     invoke-static {v2}, Lcom/facebook/internal/e0;->h(Lorg/json/JSONObject;)Ljava/util/HashMap;
+#
+#     move-result-object v2
+#
+#     invoke-static {v2}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
+#
+#     move-result-object v2
+#
+#     :goto_b
+#     iput-object v2, v0, Lq7/i;->s:Ljava/util/Map;
+#
+#     const-string v2, "user_location"
+#
+#     invoke-virtual {v1, v2}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
+#
+#     move-result-object v2
+#
+#     if-nez v2, :cond_12
+#
+#     goto :goto_c
+#
+#     :cond_12
+#     invoke-static {v2}, Lcom/facebook/internal/e0;->h(Lorg/json/JSONObject;)Ljava/util/HashMap;
+#
+#     move-result-object v2
+#
+#     invoke-static {v2}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
+#
+#     move-result-object v3
+#
+#     :goto_c
+#     iput-object v3, v0, Lq7/i;->t:Ljava/util/Map;
+#
+#     const-string v2, "user_gender"
+#
+#     invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     iput-object v2, v0, Lq7/i;->u:Ljava/lang/String;
+#
+#     const-string v2, "user_link"
+#
+#     invoke-static {v2, v1}, Lq7/i$b;->a(Ljava/lang/String;Lorg/json/JSONObject;)Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     iput-object v1, v0, Lq7/i;->v:Ljava/lang/String;
+#
+#     return-void
+#
+#     :cond_13
+#     new-instance v1, Ljava/lang/IllegalArgumentException;
+#
+#     const-string v2, "Invalid claims"
+#
+#     invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+#
+#     throw v1
+# .end method
 
 
 # virtual methods

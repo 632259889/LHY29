@@ -156,15 +156,15 @@
 
     new-instance v1, Ljava/util/concurrent/FutureTask;
 
-    new-instance v2, Lcom/facebook/internal/u;
+    # new-instance v2, Lcom/facebook/internal/u;
 
     const/4 v3, 0x0
 
-    invoke-direct {v2, v3, p0, p1}, Lcom/facebook/internal/u;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
+    # invoke-direct {v2, v3, p0, p1}, Lcom/facebook/internal/u;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
-    invoke-direct {v1, v2}, Ljava/util/concurrent/FutureTask;-><init>(Ljava/util/concurrent/Callable;)V
+    # invoke-direct {v1, v2}, Ljava/util/concurrent/FutureTask;-><init>(Ljava/util/concurrent/Callable;)V
 
-    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+    # invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
     return-void
 .end method

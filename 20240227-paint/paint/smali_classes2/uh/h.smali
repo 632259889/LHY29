@@ -1792,45 +1792,45 @@
     return-object p0
 .end method
 
-.method public static final G(Ljava/lang/String;)Lorg/json/JSONObject;
-    .locals 2
-
-    invoke-static {}, Luh/h;->q()Ljava/io/File;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    new-instance v1, Ljava/io/File;
-
-    invoke-direct {v1, v0, p0}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
-
-    :try_start_0
-    const/4 v0,0x1
-    new-instance v0, Ljava/io/FileInputStream;
-
-    invoke-direct {v0, v1}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
-
-    invoke-static {v0}, Lcom/facebook/internal/e0;->H(Ljava/io/InputStream;)Ljava/lang/String;
-
-    move-result-object v0
-
-    new-instance v1, Lorg/json/JSONObject;
-
-    invoke-direct {v1, v0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    return-object v1
-
-    :catch_0
-    invoke-static {p0}, Luh/h;->o(Ljava/lang/String;)V
-
-    :cond_0
-    const/4 p0, 0x0
-
-    return-object p0
-.end method
+# .method public static final G(Ljava/lang/String;)Lorg/json/JSONObject;
+#     .locals 2
+#
+#     invoke-static {}, Luh/h;->q()Ljava/io/File;
+#
+#     move-result-object v0
+#
+#     if-eqz v0, :cond_0
+#
+#     new-instance v1, Ljava/io/File;
+#
+#     invoke-direct {v1, v0, p0}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
+#
+#     :try_start_0
+#     const/4 v0,0x1
+#     new-instance v0, Ljava/io/FileInputStream;
+#
+#     invoke-direct {v0, v1}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+#
+#     invoke-static {v0}, Lcom/facebook/internal/e0;->H(Ljava/io/InputStream;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     new-instance v1, Lorg/json/JSONObject;
+#
+#     invoke-direct {v1, v0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+#     :try_end_0
+#     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+#
+#     return-object v1
+#
+#     :catch_0
+#     invoke-static {p0}, Luh/h;->o(Ljava/lang/String;)V
+#
+#     :cond_0
+#     const/4 p0, 0x0
+#
+#     return-object p0
+# .end method
 
 .method public static final H(Ljava/lang/String;Lorg/json/JSONArray;Lq7/u$b;)V
     .locals 3

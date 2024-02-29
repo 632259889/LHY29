@@ -186,347 +186,347 @@
     return-void
 .end method
 
-.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
-    .locals 4
-
-    .line 13
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    sget-object v0, Lf8/b$a;->e:Lf8/b$a;
-
-    iput-object v0, p0, Lf8/b;->b:Lf8/b$a;
-
-    sget-object v0, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
-
-    .line 14
-    invoke-static {}, Lq7/r;->a()Landroid/content/Context;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    move-result-object v1
-
-    const/4 v2, 0x0
-
-    :try_start_0
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
-
-    move-result-object v0
-
-    const/4 v3, 0x0
-
-    invoke-virtual {v0, v1, v3}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
-
-    move-result-object v0
-
-    if-nez v0, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    iget-object v2, v0, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
-    :try_end_0
-    .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 15
-    :catch_0
-    :goto_0
-    iput-object v2, p0, Lf8/b;->d:Ljava/lang/String;
-
-    iput-object p1, p0, Lf8/b;->e:Ljava/lang/String;
-
-    iput-object p2, p0, Lf8/b;->f:Ljava/lang/String;
-
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    move-result-wide p1
-
-    const/16 v0, 0x3e8
-
-    int-to-long v0, v0
-
-    div-long/2addr p1, v0
-
-    invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    move-result-object p1
-
-    iput-object p1, p0, Lf8/b;->g:Ljava/lang/Long;
-
-    new-instance p2, Ljava/lang/StringBuffer;
-
-    const-string v0, "anr_log_"
-
-    invoke-direct {p2, v0}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
-
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
-
-    const-string p1, ".json"
-
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
-
-    invoke-virtual {p2}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string p2, "StringBuffer()\n            .append(InstrumentUtility.ANR_REPORT_PREFIX)\n            .append(timestamp.toString())\n            .append(\".json\")\n            .toString()"
-
-    invoke-static {p1, p2}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    iput-object p1, p0, Lf8/b;->a:Ljava/lang/String;
-
-    return-void
-.end method
-
-.method public constructor <init>(Ljava/lang/Throwable;Lf8/b$a;)V
-    .locals 6
-
-    .line 16
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p2, p0, Lf8/b;->b:Lf8/b$a;
-
-    sget-object v0, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
-
-    .line 17
-    invoke-static {}, Lq7/r;->a()Landroid/content/Context;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    move-result-object v1
-
-    const/4 v2, 0x0
-
-    const/4 v3, 0x0
-
-    :try_start_0
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
-
-    move-result-object v0
-
-    invoke-virtual {v0, v1, v2}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
-
-    move-result-object v0
-
-    if-nez v0, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    iget-object v0, v0, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
-    :try_end_0
-    .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto :goto_1
-
-    :catch_0
-    :goto_0
-    move-object v0, v3
-
-    .line 18
-    :goto_1
-    iput-object v0, p0, Lf8/b;->d:Ljava/lang/String;
-
-    if-nez p1, :cond_1
-
-    move-object v0, v3
-
-    goto :goto_2
-
-    .line 19
-    :cond_1
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
-
-    move-result-object v0
-
-    if-nez v0, :cond_2
-
-    invoke-virtual {p1}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    goto :goto_2
-
-    :cond_2
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
-
-    move-result-object v0
-
-    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v0
-
-    .line 20
-    :goto_2
-    iput-object v0, p0, Lf8/b;->e:Ljava/lang/String;
-
-    if-nez p1, :cond_3
-
-    goto :goto_5
-
-    .line 21
-    :cond_3
-    new-instance v0, Lorg/json/JSONArray;
-
-    invoke-direct {v0}, Lorg/json/JSONArray;-><init>()V
-
-    :goto_3
-    if-eqz p1, :cond_5
-
-    if-eq p1, v3, :cond_5
-
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getStackTrace()[Ljava/lang/StackTraceElement;
-
-    move-result-object v1
-
-    const-string v3, "t.stackTrace"
-
-    invoke-static {v1, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    array-length v3, v1
-
-    const/4 v4, 0x0
-
-    :goto_4
-    if-ge v4, v3, :cond_4
-
-    aget-object v5, v1, v4
-
-    add-int/lit8 v4, v4, 0x1
-
-    invoke-virtual {v5}, Ljava/lang/StackTraceElement;->toString()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-virtual {v0, v5}, Lorg/json/JSONArray;->put(Ljava/lang/Object;)Lorg/json/JSONArray;
-
-    goto :goto_4
-
-    :cond_4
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
-
-    move-result-object v1
-
-    move-object v3, p1
-
-    move-object p1, v1
-
-    goto :goto_3
-
-    :cond_5
-    invoke-virtual {v0}, Lorg/json/JSONArray;->toString()Ljava/lang/String;
-
-    move-result-object v3
-
-    .line 22
-    :goto_5
-    iput-object v3, p0, Lf8/b;->f:Ljava/lang/String;
-
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    move-result-wide v0
-
-    const/16 p1, 0x3e8
-
-    int-to-long v2, p1
-
-    div-long/2addr v0, v2
-
-    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    move-result-object p1
-
-    iput-object p1, p0, Lf8/b;->g:Ljava/lang/Long;
-
-    new-instance v0, Ljava/lang/StringBuffer;
-
-    invoke-direct {v0}, Ljava/lang/StringBuffer;-><init>()V
-
-    .line 23
-    invoke-virtual {p2}, Ljava/lang/Enum;->ordinal()I
-
-    move-result p2
-
-    const/4 v1, 0x1
-
-    if-eq p2, v1, :cond_a
-
-    const/4 v1, 0x2
-
-    if-eq p2, v1, :cond_9
-
-    const/4 v1, 0x3
-
-    if-eq p2, v1, :cond_8
-
-    const/4 v1, 0x4
-
-    if-eq p2, v1, :cond_7
-
-    const/4 v1, 0x5
-
-    if-eq p2, v1, :cond_6
-
-    const-string p2, "Unknown"
-
-    goto :goto_6
-
-    :cond_6
-    const-string p2, "thread_check_log_"
-
-    goto :goto_6
-
-    :cond_7
-    const-string p2, "shield_log_"
-
-    goto :goto_6
-
-    :cond_8
-    const-string p2, "crash_log_"
-
-    goto :goto_6
-
-    :cond_9
-    const-string p2, "anr_log_"
-
-    goto :goto_6
-
-    :cond_a
-    const-string p2, "analysis_log_"
-
-    .line 24
-    :goto_6
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
-
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
-
-    const-string p1, ".json"
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string p2, "StringBuffer().append(t.logPrefix).append(timestamp.toString()).append(\".json\").toString()"
-
-    invoke-static {p1, p2}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    iput-object p1, p0, Lf8/b;->a:Ljava/lang/String;
-
-    return-void
-.end method
+# .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
+#     .locals 4
+#
+#     .line 13
+#     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+#
+#     sget-object v0, Lf8/b$a;->e:Lf8/b$a;
+#
+#     iput-object v0, p0, Lf8/b;->b:Lf8/b$a;
+#
+#     sget-object v0, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
+#
+#     .line 14
+#     invoke-static {}, Lq7/r;->a()Landroid/content/Context;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     const/4 v2, 0x0
+#
+#     :try_start_0
+#     invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+#
+#     move-result-object v0
+#
+#     const/4 v3, 0x0
+#
+#     invoke-virtual {v0, v1, v3}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+#
+#     move-result-object v0
+#
+#     if-nez v0, :cond_0
+#
+#     goto :goto_0
+#
+#     :cond_0
+#     iget-object v2, v0, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
+#     :try_end_0
+#     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
+#
+#     .line 15
+#     :catch_0
+#     :goto_0
+#     iput-object v2, p0, Lf8/b;->d:Ljava/lang/String;
+#
+#     iput-object p1, p0, Lf8/b;->e:Ljava/lang/String;
+#
+#     iput-object p2, p0, Lf8/b;->f:Ljava/lang/String;
+#
+#     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+#
+#     move-result-wide p1
+#
+#     const/16 v0, 0x3e8
+#
+#     int-to-long v0, v0
+#
+#     div-long/2addr p1, v0
+#
+#     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+#
+#     move-result-object p1
+#
+#     iput-object p1, p0, Lf8/b;->g:Ljava/lang/Long;
+#
+#     new-instance p2, Ljava/lang/StringBuffer;
+#
+#     const-string v0, "anr_log_"
+#
+#     invoke-direct {p2, v0}, Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
+#
+#     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     invoke-virtual {p2, p1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+#
+#     const-string p1, ".json"
+#
+#     invoke-virtual {p2, p1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+#
+#     invoke-virtual {p2}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     const-string p2, "StringBuffer()\n            .append(InstrumentUtility.ANR_REPORT_PREFIX)\n            .append(timestamp.toString())\n            .append(\".json\")\n            .toString()"
+#
+#     invoke-static {p1, p2}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     iput-object p1, p0, Lf8/b;->a:Ljava/lang/String;
+#
+#     return-void
+# .end method
+
+# .method public constructor <init>(Ljava/lang/Throwable;Lf8/b$a;)V
+#     .locals 6
+#
+#     .line 16
+#     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+#
+#     iput-object p2, p0, Lf8/b;->b:Lf8/b$a;
+#
+#     sget-object v0, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
+#
+#     .line 17
+#     invoke-static {}, Lq7/r;->a()Landroid/content/Context;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     const/4 v2, 0x0
+#
+#     const/4 v3, 0x0
+#
+#     :try_start_0
+#     invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v0, v1, v2}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+#
+#     move-result-object v0
+#
+#     if-nez v0, :cond_0
+#
+#     goto :goto_0
+#
+#     :cond_0
+#     iget-object v0, v0, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
+#     :try_end_0
+#     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
+#
+#     goto :goto_1
+#
+#     :catch_0
+#     :goto_0
+#     move-object v0, v3
+#
+#     .line 18
+#     :goto_1
+#     iput-object v0, p0, Lf8/b;->d:Ljava/lang/String;
+#
+#     if-nez p1, :cond_1
+#
+#     move-object v0, v3
+#
+#     goto :goto_2
+#
+#     .line 19
+#     :cond_1
+#     invoke-virtual {p1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+#
+#     move-result-object v0
+#
+#     if-nez v0, :cond_2
+#
+#     invoke-virtual {p1}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     goto :goto_2
+#
+#     :cond_2
+#     invoke-virtual {p1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+#
+#     move-result-object v0
+#
+#     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     .line 20
+#     :goto_2
+#     iput-object v0, p0, Lf8/b;->e:Ljava/lang/String;
+#
+#     if-nez p1, :cond_3
+#
+#     goto :goto_5
+#
+#     .line 21
+#     :cond_3
+#     new-instance v0, Lorg/json/JSONArray;
+#
+#     invoke-direct {v0}, Lorg/json/JSONArray;-><init>()V
+#
+#     :goto_3
+#     if-eqz p1, :cond_5
+#
+#     if-eq p1, v3, :cond_5
+#
+#     invoke-virtual {p1}, Ljava/lang/Throwable;->getStackTrace()[Ljava/lang/StackTraceElement;
+#
+#     move-result-object v1
+#
+#     const-string v3, "t.stackTrace"
+#
+#     invoke-static {v1, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     array-length v3, v1
+#
+#     const/4 v4, 0x0
+#
+#     :goto_4
+#     if-ge v4, v3, :cond_4
+#
+#     aget-object v5, v1, v4
+#
+#     add-int/lit8 v4, v4, 0x1
+#
+#     invoke-virtual {v5}, Ljava/lang/StackTraceElement;->toString()Ljava/lang/String;
+#
+#     move-result-object v5
+#
+#     invoke-virtual {v0, v5}, Lorg/json/JSONArray;->put(Ljava/lang/Object;)Lorg/json/JSONArray;
+#
+#     goto :goto_4
+#
+#     :cond_4
+#     invoke-virtual {p1}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+#
+#     move-result-object v1
+#
+#     move-object v3, p1
+#
+#     move-object p1, v1
+#
+#     goto :goto_3
+#
+#     :cond_5
+#     invoke-virtual {v0}, Lorg/json/JSONArray;->toString()Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     .line 22
+#     :goto_5
+#     iput-object v3, p0, Lf8/b;->f:Ljava/lang/String;
+#
+#     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+#
+#     move-result-wide v0
+#
+#     const/16 p1, 0x3e8
+#
+#     int-to-long v2, p1
+#
+#     div-long/2addr v0, v2
+#
+#     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+#
+#     move-result-object p1
+#
+#     iput-object p1, p0, Lf8/b;->g:Ljava/lang/Long;
+#
+#     new-instance v0, Ljava/lang/StringBuffer;
+#
+#     invoke-direct {v0}, Ljava/lang/StringBuffer;-><init>()V
+#
+#     .line 23
+#     invoke-virtual {p2}, Ljava/lang/Enum;->ordinal()I
+#
+#     move-result p2
+#
+#     const/4 v1, 0x1
+#
+#     if-eq p2, v1, :cond_a
+#
+#     const/4 v1, 0x2
+#
+#     if-eq p2, v1, :cond_9
+#
+#     const/4 v1, 0x3
+#
+#     if-eq p2, v1, :cond_8
+#
+#     const/4 v1, 0x4
+#
+#     if-eq p2, v1, :cond_7
+#
+#     const/4 v1, 0x5
+#
+#     if-eq p2, v1, :cond_6
+#
+#     const-string p2, "Unknown"
+#
+#     goto :goto_6
+#
+#     :cond_6
+#     const-string p2, "thread_check_log_"
+#
+#     goto :goto_6
+#
+#     :cond_7
+#     const-string p2, "shield_log_"
+#
+#     goto :goto_6
+#
+#     :cond_8
+#     const-string p2, "crash_log_"
+#
+#     goto :goto_6
+#
+#     :cond_9
+#     const-string p2, "anr_log_"
+#
+#     goto :goto_6
+#
+#     :cond_a
+#     const-string p2, "analysis_log_"
+#
+#     .line 24
+#     :goto_6
+#     invoke-virtual {v0, p2}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+#
+#     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     invoke-virtual {v0, p1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+#
+#     const-string p1, ".json"
+#
+#     invoke-virtual {v0, p1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+#
+#     invoke-virtual {v0}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     const-string p2, "StringBuffer().append(t.logPrefix).append(timestamp.toString()).append(\".json\").toString()"
+#
+#     invoke-static {p1, p2}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     iput-object p1, p0, Lf8/b;->a:Ljava/lang/String;
+#
+#     return-void
+# .end method
 
 .method public constructor <init>(Lorg/json/JSONArray;)V
     .locals 4

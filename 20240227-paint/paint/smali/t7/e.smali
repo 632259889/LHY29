@@ -203,7 +203,7 @@
 
     .line 36
     .line 37
-    sget-object p1, Lcom/facebook/internal/v;->d:Lcom/facebook/internal/v$a;
+    # sget-object p1, Lcom/facebook/internal/v;->d:Lcom/facebook/internal/v$a;
 
     .line 38
     .line 39
@@ -215,7 +215,7 @@
 
     .line 42
     .line 43
-    invoke-static {p1, v1, v3}, Lcom/facebook/internal/v$a;->a(Lq7/b0;Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {p1, v1, v3}, Lcom/facebook/internal/v$a;->a(Lq7/b0;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 44
     .line 45

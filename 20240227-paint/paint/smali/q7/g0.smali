@@ -70,7 +70,7 @@
 
     .line 16
     .line 17
-    invoke-static {}, Lcom/facebook/internal/f0;->e()V
+    # invoke-static {}, Lcom/facebook/internal/f0;->e()V
 
     .line 18
     .line 19

@@ -228,25 +228,26 @@
     move-result-object v4
 
     .line 93
-    invoke-static {v6}, Lcom/facebook/internal/e0;->z(Ljava/lang/String;)Z
+    # invoke-static {v6}, Lcom/facebook/internal/e0;->z(Ljava/lang/String;)Z
 
     .line 94
     .line 95
     .line 96
-    move-result v8
+    # move-result v8
+    const/4 v8,0x1
 
     .line 97
     if-nez v8, :cond_9
 
     .line 98
     .line 99
-    invoke-static {v4}, Lcom/facebook/internal/e0;->z(Ljava/lang/String;)Z
+    # invoke-static {v4}, Lcom/facebook/internal/e0;->z(Ljava/lang/String;)Z
 
     .line 100
     .line 101
     .line 102
-    move-result v8
-
+    # move-result v8
+    const/4 v8,0x1
     .line 103
     if-nez v8, :cond_9
 

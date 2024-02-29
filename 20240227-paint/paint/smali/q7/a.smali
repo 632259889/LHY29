@@ -188,7 +188,7 @@
 
     const-string v1, "token"
 
-    invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-object v0, p0, Lq7/a;->g:Ljava/lang/String;
 
@@ -226,7 +226,7 @@
 
     const-string v1, "applicationId"
 
-    invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-object v0, p0, Lq7/a;->j:Ljava/lang/String;
 
@@ -236,7 +236,7 @@
 
     const-string v1, "userId"
 
-    invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v1}, Lcom/facebook/internal/f0;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     iput-object v0, p0, Lq7/a;->k:Ljava/lang/String;
 
@@ -331,11 +331,11 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-static {p1, v0}, Lcom/facebook/internal/f0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {p1, v0}, Lcom/facebook/internal/f0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {p2, v1}, Lcom/facebook/internal/f0;->b(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-static {p3, v2}, Lcom/facebook/internal/f0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {p2, v1}, Lcom/facebook/internal/f0;->b(Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # invoke-static {p3, v2}, Lcom/facebook/internal/f0;->b(Ljava/lang/String;Ljava/lang/String;)V
 
     sget-object v0, Lq7/a;->n:Ljava/util/Date;
 

@@ -39,7 +39,7 @@
 
     .line 9
     .line 10
-    invoke-static {}, Lcom/facebook/internal/f0;->e()V
+    # invoke-static {}, Lcom/facebook/internal/f0;->e()V
 
     .line 11
     .line 12

@@ -290,12 +290,13 @@
     .line 117
     :cond_3
     :goto_1
-    invoke-static {v0, p1}, Lcom/facebook/internal/e0;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    # invoke-static {v0, p1}, Lcom/facebook/internal/e0;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 118
     .line 119
     .line 120
-    move-result p2
+    # move-result p2
+    const/4 p2,0x1
 
     .line 121
     if-nez p2, :cond_4

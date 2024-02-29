@@ -615,161 +615,161 @@
 .method public final e(Lq7/l0$a;)V
     .locals 4
 
-    .line 1
-    iget-object v0, p1, Lq7/l0$a;->b:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    invoke-static {p0}, Li8/a;->b(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    move-result v1
-
-    .line 7
-    if-eqz v1, :cond_0
-
-    .line 8
-    .line 9
-    return-void
-
-    .line 10
-    :cond_0
-    :try_start_0
-    invoke-virtual {p0}, Lq7/l0;->i()V
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 11
-    .line 12
-    .line 13
-    :try_start_1
-    invoke-static {}, Lq7/r;->a()Landroid/content/Context;
-
-    .line 14
-    .line 15
-    .line 16
-    move-result-object v1
-
-    .line 17
-    invoke-virtual {v1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
-
-    .line 18
-    .line 19
-    .line 20
-    move-result-object v2
-
-    .line 21
-    invoke-virtual {v1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    .line 22
-    .line 23
-    .line 24
-    move-result-object v1
-
-    .line 25
-    const/16 v3, 0x80
-
-    .line 26
-    .line 27
-    invoke-virtual {v2, v1, v3}, Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
-
-    .line 28
-    .line 29
-    .line 30
-    move-result-object v1
-
-    .line 31
-    const-string v2, "ctx.packageManager.getApplicationInfo(ctx.packageName, PackageManager.GET_META_DATA)"
-
-    .line 32
-    .line 33
-    invoke-static {v1, v2}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 34
-    .line 35
-    .line 36
-    iget-object v2, v1, Landroid/content/pm/ApplicationInfo;->metaData:Landroid/os/Bundle;
-
-    .line 37
-    .line 38
-    if-eqz v2, :cond_1
-
-    .line 39
-    .line 40
-    invoke-virtual {v2, v0}, Landroid/os/BaseBundle;->containsKey(Ljava/lang/String;)Z
-
-    .line 41
-    .line 42
-    .line 43
-    move-result v2
-
-    .line 44
-    if-eqz v2, :cond_1
-
-    .line 45
-    .line 46
-    iget-object v1, v1, Landroid/content/pm/ApplicationInfo;->metaData:Landroid/os/Bundle;
-
-    .line 47
-    .line 48
-    iget-boolean v2, p1, Lq7/l0$a;->a:Z
-
-    .line 49
-    .line 50
-    invoke-virtual {v1, v0, v2}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;Z)Z
-
-    .line 51
-    .line 52
-    .line 53
-    move-result v0
-
-    .line 54
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    .line 55
-    .line 56
-    .line 57
-    move-result-object v0
-
-    .line 58
-    iput-object v0, p1, Lq7/l0$a;->c:Ljava/lang/Boolean;
-    :try_end_1
-    .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_1 .. :try_end_1} :catch_0
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    .line 59
-    .line 60
-    goto :goto_0
-
-    .line 61
-    :catch_0
-    :try_start_2
-    sget-object p1, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
-
-    .line 62
-    .line 63
-    sget-object p1, Lq7/r;->a:Lq7/r;
-    :try_end_2
-    .catchall {:try_start_2 .. :try_end_2} :catchall_0
-
-    .line 64
-    .line 65
-    :cond_1
-    :goto_0
-    return-void
-
-    .line 66
-    :catchall_0
-    move-exception p1
-
-    .line 67
-    invoke-static {p0, p1}, Li8/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V
-
-    .line 68
-    .line 69
-    .line 70
+    # .line 1
+    # iget-object v0, p1, Lq7/l0$a;->b:Ljava/lang/String;
+    #
+    # .line 2
+    # .line 3
+    # invoke-static {p0}, Li8/a;->b(Ljava/lang/Object;)Z
+    #
+    # .line 4
+    # .line 5
+    # .line 6
+    # move-result v1
+    #
+    # .line 7
+    # if-eqz v1, :cond_0
+    #
+    # .line 8
+    # .line 9
+    # return-void
+    #
+    # .line 10
+    # :cond_0
+    # :try_start_0
+    # invoke-virtual {p0}, Lq7/l0;->i()V
+    # :try_end_0
+    # .catchall {:try_start_0 .. :try_end_0} :catchall_0
+    #
+    # .line 11
+    # .line 12
+    # .line 13
+    # :try_start_1
+    # invoke-static {}, Lq7/r;->a()Landroid/content/Context;
+    #
+    # .line 14
+    # .line 15
+    # .line 16
+    # move-result-object v1
+    #
+    # .line 17
+    # invoke-virtual {v1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    #
+    # .line 18
+    # .line 19
+    # .line 20
+    # move-result-object v2
+    #
+    # .line 21
+    # invoke-virtual {v1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    #
+    # .line 22
+    # .line 23
+    # .line 24
+    # move-result-object v1
+    #
+    # .line 25
+    # const/16 v3, 0x80
+    #
+    # .line 26
+    # .line 27
+    # invoke-virtual {v2, v1, v3}, Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
+    #
+    # .line 28
+    # .line 29
+    # .line 30
+    # move-result-object v1
+    #
+    # .line 31
+    # const-string v2, "ctx.packageManager.getApplicationInfo(ctx.packageName, PackageManager.GET_META_DATA)"
+    #
+    # .line 32
+    # .line 33
+    # invoke-static {v1, v2}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 34
+    # .line 35
+    # .line 36
+    # iget-object v2, v1, Landroid/content/pm/ApplicationInfo;->metaData:Landroid/os/Bundle;
+    #
+    # .line 37
+    # .line 38
+    # if-eqz v2, :cond_1
+    #
+    # .line 39
+    # .line 40
+    # invoke-virtual {v2, v0}, Landroid/os/BaseBundle;->containsKey(Ljava/lang/String;)Z
+    #
+    # .line 41
+    # .line 42
+    # .line 43
+    # move-result v2
+    #
+    # .line 44
+    # if-eqz v2, :cond_1
+    #
+    # .line 45
+    # .line 46
+    # iget-object v1, v1, Landroid/content/pm/ApplicationInfo;->metaData:Landroid/os/Bundle;
+    #
+    # .line 47
+    # .line 48
+    # iget-boolean v2, p1, Lq7/l0$a;->a:Z
+    #
+    # .line 49
+    # .line 50
+    # invoke-virtual {v1, v0, v2}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;Z)Z
+    #
+    # .line 51
+    # .line 52
+    # .line 53
+    # move-result v0
+    #
+    # .line 54
+    # invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    #
+    # .line 55
+    # .line 56
+    # .line 57
+    # move-result-object v0
+    #
+    # .line 58
+    # iput-object v0, p1, Lq7/l0$a;->c:Ljava/lang/Boolean;
+    # :try_end_1
+    # .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_1 .. :try_end_1} :catch_0
+    # .catchall {:try_start_1 .. :try_end_1} :catchall_0
+    #
+    # .line 59
+    # .line 60
+    # goto :goto_0
+    #
+    # .line 61
+    # :catch_0
+    # :try_start_2
+    # sget-object p1, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
+    #
+    # .line 62
+    # .line 63
+    # sget-object p1, Lq7/r;->a:Lq7/r;
+    # :try_end_2
+    # .catchall {:try_start_2 .. :try_end_2} :catchall_0
+    #
+    # .line 64
+    # .line 65
+    # :cond_1
+    # :goto_0
+    # return-void
+    #
+    # .line 66
+    # :catchall_0
+    # move-exception p1
+    #
+    # .line 67
+    # invoke-static {p0, p1}, Li8/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V
+    #
+    # .line 68
+    # .line 69
+    # .line 70
     return-void
 .end method
 
@@ -1517,192 +1517,192 @@
 .method public final h(Lq7/l0$a;)V
     .locals 3
 
-    .line 1
-    const-string v0, ""
-
-    .line 2
-    .line 3
-    invoke-static {p0}, Li8/a;->b(Ljava/lang/Object;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    move-result v1
-
-    .line 7
-    if-eqz v1, :cond_0
-
-    .line 8
-    .line 9
-    return-void
-
-    .line 10
-    :cond_0
-    :try_start_0
-    invoke-virtual {p0}, Lq7/l0;->i()V
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 11
-    .line 12
-    .line 13
-    :try_start_1
-    sget-object v1, Lq7/l0;->j:Landroid/content/SharedPreferences;
-
-    .line 14
-    .line 15
-    if-eqz v1, :cond_3
-
-    .line 16
-    .line 17
-    iget-object v2, p1, Lq7/l0$a;->b:Ljava/lang/String;
-
-    .line 18
-    .line 19
-    invoke-interface {v1, v2, v0}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 20
-    .line 21
-    .line 22
-    move-result-object v1
-
-    .line 23
-    if-nez v1, :cond_1
-
-    .line 24
-    .line 25
-    goto :goto_0
-
-    .line 26
-    :cond_1
-    move-object v0, v1
-
-    .line 27
-    :goto_0
-    invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
-
-    .line 28
-    .line 29
-    .line 30
-    move-result v1
-
-    .line 31
-    if-lez v1, :cond_2
-
-    .line 32
-    .line 33
-    const/4 v1, 0x1
-
-    .line 34
-    goto :goto_1
-
-    .line 35
-    :cond_2
-    const/4 v1, 0x0
-
-    .line 36
-    :goto_1
-    if-eqz v1, :cond_4
-
-    .line 37
-    .line 38
-    new-instance v1, Lorg/json/JSONObject;
-
-    .line 39
-    .line 40
-    invoke-direct {v1, v0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
-
-    .line 41
-    .line 42
-    .line 43
-    const-string v0, "value"
-
-    .line 44
-    .line 45
-    invoke-virtual {v1, v0}, Lorg/json/JSONObject;->getBoolean(Ljava/lang/String;)Z
-
-    .line 46
-    .line 47
-    .line 48
-    move-result v0
-
-    .line 49
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    .line 50
-    .line 51
-    .line 52
-    move-result-object v0
-
-    .line 53
-    iput-object v0, p1, Lq7/l0$a;->c:Ljava/lang/Boolean;
-
-    .line 54
-    .line 55
-    const-string v0, "last_timestamp"
-
-    .line 56
-    .line 57
-    invoke-virtual {v1, v0}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
-
-    .line 58
-    .line 59
-    .line 60
-    move-result-wide v0
-
-    .line 61
-    iput-wide v0, p1, Lq7/l0$a;->d:J
-
-    .line 62
-    .line 63
-    goto :goto_2
-
-    .line 64
-    :cond_3
-    const-string p1, "userSettingPref"
-
-    .line 65
-    .line 66
-    invoke-static {p1}, Luh/i;->i(Ljava/lang/String;)V
-
-    .line 67
-    .line 68
-    .line 69
-    const/4 p1, 0x0
-
-    .line 70
-    throw p1
-    :try_end_1
-    .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_0
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    .line 71
-    :catch_0
-    :try_start_2
-    sget-object p1, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
-
-    .line 72
-    .line 73
-    sget-object p1, Lq7/r;->a:Lq7/r;
-    :try_end_2
-    .catchall {:try_start_2 .. :try_end_2} :catchall_0
-
-    .line 74
-    .line 75
-    :cond_4
-    :goto_2
-    return-void
-
-    .line 76
-    :catchall_0
-    move-exception p1
-
-    .line 77
-    invoke-static {p0, p1}, Li8/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V
-
-    .line 78
-    .line 79
-    .line 80
+    # .line 1
+    # const-string v0, ""
+    #
+    # .line 2
+    # .line 3
+    # invoke-static {p0}, Li8/a;->b(Ljava/lang/Object;)Z
+    #
+    # .line 4
+    # .line 5
+    # .line 6
+    # move-result v1
+    #
+    # .line 7
+    # if-eqz v1, :cond_0
+    #
+    # .line 8
+    # .line 9
+    # return-void
+    #
+    # .line 10
+    # :cond_0
+    # :try_start_0
+    # invoke-virtual {p0}, Lq7/l0;->i()V
+    # :try_end_0
+    # .catchall {:try_start_0 .. :try_end_0} :catchall_0
+    #
+    # .line 11
+    # .line 12
+    # .line 13
+    # :try_start_1
+    # sget-object v1, Lq7/l0;->j:Landroid/content/SharedPreferences;
+    #
+    # .line 14
+    # .line 15
+    # if-eqz v1, :cond_3
+    #
+    # .line 16
+    # .line 17
+    # iget-object v2, p1, Lq7/l0$a;->b:Ljava/lang/String;
+    #
+    # .line 18
+    # .line 19
+    # invoke-interface {v1, v2, v0}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    #
+    # .line 20
+    # .line 21
+    # .line 22
+    # move-result-object v1
+    #
+    # .line 23
+    # if-nez v1, :cond_1
+    #
+    # .line 24
+    # .line 25
+    # goto :goto_0
+    #
+    # .line 26
+    # :cond_1
+    # move-object v0, v1
+    #
+    # .line 27
+    # :goto_0
+    # invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
+    #
+    # .line 28
+    # .line 29
+    # .line 30
+    # move-result v1
+    #
+    # .line 31
+    # if-lez v1, :cond_2
+    #
+    # .line 32
+    # .line 33
+    # const/4 v1, 0x1
+    #
+    # .line 34
+    # goto :goto_1
+    #
+    # .line 35
+    # :cond_2
+    # const/4 v1, 0x0
+    #
+    # .line 36
+    # :goto_1
+    # if-eqz v1, :cond_4
+    #
+    # .line 37
+    # .line 38
+    # new-instance v1, Lorg/json/JSONObject;
+    #
+    # .line 39
+    # .line 40
+    # invoke-direct {v1, v0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+    #
+    # .line 41
+    # .line 42
+    # .line 43
+    # const-string v0, "value"
+    #
+    # .line 44
+    # .line 45
+    # invoke-virtual {v1, v0}, Lorg/json/JSONObject;->getBoolean(Ljava/lang/String;)Z
+    #
+    # .line 46
+    # .line 47
+    # .line 48
+    # move-result v0
+    #
+    # .line 49
+    # invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    #
+    # .line 50
+    # .line 51
+    # .line 52
+    # move-result-object v0
+    #
+    # .line 53
+    # iput-object v0, p1, Lq7/l0$a;->c:Ljava/lang/Boolean;
+    #
+    # .line 54
+    # .line 55
+    # const-string v0, "last_timestamp"
+    #
+    # .line 56
+    # .line 57
+    # invoke-virtual {v1, v0}, Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
+    #
+    # .line 58
+    # .line 59
+    # .line 60
+    # move-result-wide v0
+    #
+    # .line 61
+    # iput-wide v0, p1, Lq7/l0$a;->d:J
+    #
+    # .line 62
+    # .line 63
+    # goto :goto_2
+    #
+    # .line 64
+    # :cond_3
+    # const-string p1, "userSettingPref"
+    #
+    # .line 65
+    # .line 66
+    # invoke-static {p1}, Luh/i;->i(Ljava/lang/String;)V
+    #
+    # .line 67
+    # .line 68
+    # .line 69
+    # const/4 p1, 0x0
+    #
+    # .line 70
+    # throw p1
+    # :try_end_1
+    # .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_0
+    # .catchall {:try_start_1 .. :try_end_1} :catchall_0
+    #
+    # .line 71
+    # :catch_0
+    # :try_start_2
+    # sget-object p1, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
+    #
+    # .line 72
+    # .line 73
+    # sget-object p1, Lq7/r;->a:Lq7/r;
+    # :try_end_2
+    # .catchall {:try_start_2 .. :try_end_2} :catchall_0
+    #
+    # .line 74
+    # .line 75
+    # :cond_4
+    # :goto_2
+    # return-void
+    #
+    # .line 76
+    # :catchall_0
+    # move-exception p1
+    #
+    # .line 77
+    # invoke-static {p0, p1}, Li8/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V
+    #
+    # .line 78
+    # .line 79
+    # .line 80
     return-void
 .end method
 
@@ -1751,159 +1751,159 @@
 .method public final j(Lq7/l0$a;)V
     .locals 4
 
-    .line 1
-    invoke-static {p0}, Li8/a;->b(Ljava/lang/Object;)Z
-
-    .line 2
-    .line 3
-    .line 4
-    move-result v0
-
-    .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
-
-    .line 8
-    :cond_0
-    :try_start_0
-    invoke-virtual {p0}, Lq7/l0;->i()V
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 9
-    .line 10
-    .line 11
-    :try_start_1
-    new-instance v0, Lorg/json/JSONObject;
-
-    .line 12
-    .line 13
-    invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
-
-    .line 14
-    .line 15
-    .line 16
-    const-string v1, "value"
-
-    .line 17
-    .line 18
-    iget-object v2, p1, Lq7/l0$a;->c:Ljava/lang/Boolean;
-
-    .line 19
-    .line 20
-    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
-
-    .line 21
-    .line 22
-    .line 23
-    const-string v1, "last_timestamp"
-
-    .line 24
-    .line 25
-    iget-wide v2, p1, Lq7/l0$a;->d:J
-
-    .line 26
-    .line 27
-    invoke-virtual {v0, v1, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
-
-    .line 28
-    .line 29
-    .line 30
-    sget-object v1, Lq7/l0;->j:Landroid/content/SharedPreferences;
-
-    .line 31
-    .line 32
-    if-eqz v1, :cond_1
-
-    .line 33
-    .line 34
-    invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
-
-    .line 35
-    .line 36
-    .line 37
-    move-result-object v1
-
-    .line 38
-    iget-object p1, p1, Lq7/l0$a;->b:Ljava/lang/String;
-
-    .line 39
-    .line 40
-    invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
-
-    .line 41
-    .line 42
-    .line 43
-    move-result-object v0
-
-    .line 44
-    invoke-interface {v1, p1, v0}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
-
-    .line 45
-    .line 46
-    .line 47
-    move-result-object p1
-
-    .line 48
-    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    .line 49
-    .line 50
-    .line 51
-    invoke-virtual {p0}, Lq7/l0;->f()V
-
-    .line 52
-    .line 53
-    .line 54
-    goto :goto_0
-
-    .line 55
-    :cond_1
-    const-string p1, "userSettingPref"
-
-    .line 56
-    .line 57
-    invoke-static {p1}, Luh/i;->i(Ljava/lang/String;)V
-
-    .line 58
-    .line 59
-    .line 60
-    const/4 p1, 0x0
-
-    .line 61
-    throw p1
-    :try_end_1
-    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    .line 62
-    :catch_0
-    :try_start_2
-    sget-object p1, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
-
-    .line 63
-    .line 64
-    sget-object p1, Lq7/r;->a:Lq7/r;
-    :try_end_2
-    .catchall {:try_start_2 .. :try_end_2} :catchall_0
-
-    .line 65
-    .line 66
-    :goto_0
-    return-void
-
-    .line 67
-    :catchall_0
-    move-exception p1
-
-    .line 68
-    invoke-static {p0, p1}, Li8/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V
-
-    .line 69
-    .line 70
-    .line 71
+    # .line 1
+    # invoke-static {p0}, Li8/a;->b(Ljava/lang/Object;)Z
+    #
+    # .line 2
+    # .line 3
+    # .line 4
+    # move-result v0
+    #
+    # .line 5
+    # if-eqz v0, :cond_0
+    #
+    # .line 6
+    # .line 7
+    # return-void
+    #
+    # .line 8
+    # :cond_0
+    # :try_start_0
+    # invoke-virtual {p0}, Lq7/l0;->i()V
+    # :try_end_0
+    # .catchall {:try_start_0 .. :try_end_0} :catchall_0
+    #
+    # .line 9
+    # .line 10
+    # .line 11
+    # :try_start_1
+    # new-instance v0, Lorg/json/JSONObject;
+    #
+    # .line 12
+    # .line 13
+    # invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
+    #
+    # .line 14
+    # .line 15
+    # .line 16
+    # const-string v1, "value"
+    #
+    # .line 17
+    # .line 18
+    # iget-object v2, p1, Lq7/l0$a;->c:Ljava/lang/Boolean;
+    #
+    # .line 19
+    # .line 20
+    # invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    #
+    # .line 21
+    # .line 22
+    # .line 23
+    # const-string v1, "last_timestamp"
+    #
+    # .line 24
+    # .line 25
+    # iget-wide v2, p1, Lq7/l0$a;->d:J
+    #
+    # .line 26
+    # .line 27
+    # invoke-virtual {v0, v1, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
+    #
+    # .line 28
+    # .line 29
+    # .line 30
+    # sget-object v1, Lq7/l0;->j:Landroid/content/SharedPreferences;
+    #
+    # .line 31
+    # .line 32
+    # if-eqz v1, :cond_1
+    #
+    # .line 33
+    # .line 34
+    # invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    #
+    # .line 35
+    # .line 36
+    # .line 37
+    # move-result-object v1
+    #
+    # .line 38
+    # iget-object p1, p1, Lq7/l0$a;->b:Ljava/lang/String;
+    #
+    # .line 39
+    # .line 40
+    # invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+    #
+    # .line 41
+    # .line 42
+    # .line 43
+    # move-result-object v0
+    #
+    # .line 44
+    # invoke-interface {v1, p1, v0}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    #
+    # .line 45
+    # .line 46
+    # .line 47
+    # move-result-object p1
+    #
+    # .line 48
+    # invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
+    #
+    # .line 49
+    # .line 50
+    # .line 51
+    # invoke-virtual {p0}, Lq7/l0;->f()V
+    #
+    # .line 52
+    # .line 53
+    # .line 54
+    # goto :goto_0
+    #
+    # .line 55
+    # :cond_1
+    # const-string p1, "userSettingPref"
+    #
+    # .line 56
+    # .line 57
+    # invoke-static {p1}, Luh/i;->i(Ljava/lang/String;)V
+    #
+    # .line 58
+    # .line 59
+    # .line 60
+    # const/4 p1, 0x0
+    #
+    # .line 61
+    # throw p1
+    # :try_end_1
+    # .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
+    # .catchall {:try_start_1 .. :try_end_1} :catchall_0
+    #
+    # .line 62
+    # :catch_0
+    # :try_start_2
+    # sget-object p1, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
+    #
+    # .line 63
+    # .line 64
+    # sget-object p1, Lq7/r;->a:Lq7/r;
+    # :try_end_2
+    # .catchall {:try_start_2 .. :try_end_2} :catchall_0
+    #
+    # .line 65
+    # .line 66
+    # :goto_0
+    # return-void
+    #
+    # .line 67
+    # :catchall_0
+    # move-exception p1
+    #
+    # .line 68
+    # invoke-static {p0, p1}, Li8/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V
+    #
+    # .line 69
+    # .line 70
+    # .line 71
     return-void
 .end method

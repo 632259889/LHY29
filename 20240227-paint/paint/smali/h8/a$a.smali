@@ -27,12 +27,13 @@
     .locals 7
 
     .line 1
-    invoke-static {}, Lcom/facebook/internal/e0;->x()Z
+    # invoke-static {}, Lcom/facebook/internal/e0;->x()Z
 
     .line 2
     .line 3
     .line 4
-    move-result v0
+    # move-result v0
+    const/4 v0,0x1
 
     .line 5
     if-eqz v0, :cond_0
