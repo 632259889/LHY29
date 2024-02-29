@@ -22,7 +22,7 @@ unknownFiles:
   LICENSE-junit.txt: 8
   LICENSES.txt: 8
   androidsupportmultidexversion.txt: 0
-  billing.properties: 8
+  # billing.properties: 8
   core.properties: 8
   firebase-abt.properties: 8
   firebase-analytics-ktx.properties: 8
