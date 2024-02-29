@@ -54,7 +54,7 @@
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Lcom/vungle/warren/utility/j;->f(Ljava/io/File;Ljava/io/Serializable;)V
+    # invoke-static {v0, v1}, Lcom/vungle/warren/utility/j;->f(Ljava/io/File;Ljava/io/Serializable;)V
 
     .line 8
     .line 9

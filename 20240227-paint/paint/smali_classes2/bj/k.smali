@@ -1032,21 +1032,21 @@
     return-object v7
 .end method
 
-.method public final e()Lhj/e;
-    .locals 1
-
-    invoke-virtual {p0}, Lbj/k;->c()Lvj/l;
-
-    move-result-object v0
-
-    iget-object v0, v0, Lvj/l;->c:Lvj/m;
-
-    invoke-static {v0}, Lcom/vungle/warren/utility/e;->y(Lvj/m;)Lhj/e;
-
-    move-result-object v0
-
-    return-object v0
-.end method
+# .method public final e()Lhj/e;
+#     .locals 1
+#
+#     invoke-virtual {p0}, Lbj/k;->c()Lvj/l;
+#
+#     move-result-object v0
+#
+#     iget-object v0, v0, Lvj/l;->c:Lvj/m;
+#
+#     invoke-static {v0}, Lcom/vungle/warren/utility/e;->y(Lvj/m;)Lhj/e;
+#
+#     move-result-object v0
+#
+#     return-object v0
+# .end method
 
 .method public final f(Lbj/s;)Z
     .locals 3

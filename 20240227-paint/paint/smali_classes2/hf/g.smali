@@ -15,15 +15,15 @@
 .method public constructor <init>(Lhf/a;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lhf/g;->a:Lhf/a;
-
-    invoke-virtual {p1, p0}, Lhf/a;->a(Lhf/a$c;)V
-
-    invoke-virtual {p0}, Lhf/g;->e()Ljava/io/File;
-
-    sget-object p1, Lcom/vungle/warren/utility/j;->a:Ljava/util/List;
+    # invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    #
+    # iput-object p1, p0, Lhf/g;->a:Lhf/a;
+    #
+    # invoke-virtual {p1, p0}, Lhf/a;->a(Lhf/a$c;)V
+    #
+    # invoke-virtual {p0}, Lhf/g;->e()Ljava/io/File;
+    #
+    # sget-object p1, Lcom/vungle/warren/utility/j;->a:Ljava/util/List;
 
     return-void
 .end method
@@ -126,7 +126,7 @@
     .line 46
     .line 47
     :try_start_0
-    invoke-static {v1}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
+    # invoke-static {v1}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -332,7 +332,7 @@
     .line 58
     .line 59
     .line 60
-    invoke-static {v2}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
+    # invoke-static {v2}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -534,7 +534,7 @@
 
     if-eqz v4, :cond_1
 
-    invoke-static {v3}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
+    # invoke-static {v3}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
 
     :cond_1
     add-int/lit8 v2, v2, 0x1

@@ -476,7 +476,7 @@
     move-result-object v0
 
     .line 85
-    sget-object v3, Lcom/vungle/warren/VungleLogger;->c:Lcom/vungle/warren/VungleLogger;
+    # sget-object v3, Lcom/vungle/warren/VungleLogger;->c:Lcom/vungle/warren/VungleLogger;
 
     .line 86
     .line 87
@@ -488,7 +488,7 @@
 
     .line 90
     .line 91
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    # invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 92
     .line 93
@@ -525,7 +525,7 @@
     .line 110
     .line 111
     .line 112
-    invoke-static {v2, v0}, Lcom/vungle/warren/VungleLogger;->h(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v2, v0}, Lcom/vungle/warren/VungleLogger;->h(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -860,7 +860,7 @@
 
     .line 132
     .line 133
-    invoke-static {v7}, Lcom/vungle/warren/utility/j;->c(Ljava/io/File;)V
+    # invoke-static {v7}, Lcom/vungle/warren/utility/j;->c(Ljava/io/File;)V
 
     .line 134
     .line 135
@@ -1030,7 +1030,7 @@
     move-result-object v4
 
     .line 209
-    invoke-static {v4, v7}, Lcom/vungle/warren/utility/e;->g(Ljava/lang/String;Ljava/util/HashSet;)V
+    # invoke-static {v4, v7}, Lcom/vungle/warren/utility/e;->g(Ljava/lang/String;Ljava/util/HashSet;)V
 
     .line 210
     .line 211
@@ -1044,7 +1044,7 @@
     move-result-object v4
 
     .line 216
-    invoke-static {v4, v7}, Lcom/vungle/warren/utility/e;->g(Ljava/lang/String;Ljava/util/HashSet;)V
+    # invoke-static {v4, v7}, Lcom/vungle/warren/utility/e;->g(Ljava/lang/String;Ljava/util/HashSet;)V
 
     .line 217
     .line 218
@@ -1341,7 +1341,7 @@
     .line 360
     .line 361
     :try_start_1
-    invoke-static {v3}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
+    # invoke-static {v3}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -1401,7 +1401,7 @@
     move-result-object v3
 
     .line 390
-    invoke-static {v4, v5, v3}, Lcom/vungle/warren/VungleLogger;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v4, v5, v3}, Lcom/vungle/warren/VungleLogger;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 391
     .line 392

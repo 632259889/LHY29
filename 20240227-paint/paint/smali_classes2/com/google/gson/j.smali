@@ -715,28 +715,28 @@
     throw p2
 .end method
 
-.method public final c(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
-    .locals 0
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/google/gson/w;
-        }
-    .end annotation
-
-    invoke-virtual {p0, p2, p1}, Lcom/google/gson/j;->d(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
-
-    move-result-object p2
-
-    invoke-static {p1}, Lcom/vungle/warren/utility/e;->a0(Ljava/lang/Class;)Ljava/lang/Class;
-
-    move-result-object p1
-
-    invoke-virtual {p1, p2}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    return-object p1
-.end method
+# .method public final c(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+#     .locals 0
+#     .annotation system Ldalvik/annotation/Throws;
+#         value = {
+#             Lcom/google/gson/w;
+#         }
+#     .end annotation
+#
+#     invoke-virtual {p0, p2, p1}, Lcom/google/gson/j;->d(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
+#
+#     move-result-object p2
+#
+#     invoke-static {p1}, Lcom/vungle/warren/utility/e;->a0(Ljava/lang/Class;)Ljava/lang/Class;
+#
+#     move-result-object p1
+#
+#     invoke-virtual {p1, p2}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     move-result-object p1
+#
+#     return-object p1
+# .end method
 
 .method public final d(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
     .locals 1

@@ -60,19 +60,19 @@
 
 
 # virtual methods
-.method public final a()Ljava/lang/String;
-    .locals 1
-
-    invoke-virtual {p0}, Lcf/c;->c()Lcom/vungle/warren/model/b;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/vungle/warren/model/b;->getId()Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
-.end method
+# .method public final a()Ljava/lang/String;
+#     .locals 1
+#
+#     invoke-virtual {p0}, Lcf/c;->c()Lcom/vungle/warren/model/b;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v0}, Lcom/vungle/warren/model/b;->getId()Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     return-object v0
+# .end method
 
 .method public final b()I
     .locals 1
@@ -82,53 +82,53 @@
     return v0
 .end method
 
-.method public final c()Lcom/vungle/warren/model/b;
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lcf/c;->d:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    invoke-static {v0}, Lcom/google/gson/t;->b(Ljava/lang/String;)Lcom/google/gson/o;
-
-    .line 4
-    .line 5
-    .line 6
-    move-result-object v0
-
-    .line 7
-    invoke-virtual {v0}, Lcom/google/gson/o;->k()Lcom/google/gson/r;
-
-    .line 8
-    .line 9
-    .line 10
-    move-result-object v0
-
-    .line 11
-    new-instance v1, Lcom/vungle/warren/model/b;
-
-    .line 12
-    .line 13
-    invoke-direct {v1, v0}, Lcom/vungle/warren/model/b;-><init>(Lcom/google/gson/r;)V
-
-    .line 14
-    .line 15
-    .line 16
-    iget-object v0, p0, Lcf/c;->e:Ljava/lang/String;
-
-    .line 17
-    .line 18
-    iput-object v0, v1, Lcom/vungle/warren/model/b;->P:Ljava/lang/String;
-
-    .line 19
-    .line 20
-    const/4 v0, 0x1
-
-    .line 21
-    iput-boolean v0, v1, Lcom/vungle/warren/model/b;->N:Z
-
-    .line 22
-    .line 23
-    return-object v1
-.end method
+# .method public final c()Lcom/vungle/warren/model/b;
+#     .locals 2
+#
+#     .line 1
+#     iget-object v0, p0, Lcf/c;->d:Ljava/lang/String;
+#
+#     .line 2
+#     .line 3
+#     invoke-static {v0}, Lcom/google/gson/t;->b(Ljava/lang/String;)Lcom/google/gson/o;
+#
+#     .line 4
+#     .line 5
+#     .line 6
+#     move-result-object v0
+#
+#     .line 7
+#     invoke-virtual {v0}, Lcom/google/gson/o;->k()Lcom/google/gson/r;
+#
+#     .line 8
+#     .line 9
+#     .line 10
+#     move-result-object v0
+#
+#     .line 11
+#     new-instance v1, Lcom/vungle/warren/model/b;
+#
+#     .line 12
+#     .line 13
+#     invoke-direct {v1, v0}, Lcom/vungle/warren/model/b;-><init>(Lcom/google/gson/r;)V
+#
+#     .line 14
+#     .line 15
+#     .line 16
+#     iget-object v0, p0, Lcf/c;->e:Ljava/lang/String;
+#
+#     .line 17
+#     .line 18
+#     iput-object v0, v1, Lcom/vungle/warren/model/b;->P:Ljava/lang/String;
+#
+#     .line 19
+#     .line 20
+#     const/4 v0, 0x1
+#
+#     .line 21
+#     iput-boolean v0, v1, Lcom/vungle/warren/model/b;->N:Z
+#
+#     .line 22
+#     .line 23
+#     return-object v1
+# .end method

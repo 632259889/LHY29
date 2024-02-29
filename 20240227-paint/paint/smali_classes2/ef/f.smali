@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/vungle/warren/network/VungleApi;
+# .implements Lcom/vungle/warren/network/VungleApi;
 
 
 # static fields

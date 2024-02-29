@@ -127,7 +127,7 @@
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    invoke-static {v1}, Lcom/vungle/warren/utility/j;->a(Ljava/io/Closeable;)V
+    # invoke-static {v1}, Lcom/vungle/warren/utility/j;->a(Ljava/io/Closeable;)V
 
     add-int/2addr v0, v2
 
@@ -157,7 +157,7 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    invoke-static {v0}, Lcom/vungle/warren/utility/j;->a(Ljava/io/Closeable;)V
+    # invoke-static {v0}, Lcom/vungle/warren/utility/j;->a(Ljava/io/Closeable;)V
 
     const/4 p0, 0x0
 
@@ -167,7 +167,7 @@
     move-object v1, v0
 
     :goto_2
-    invoke-static {v1}, Lcom/vungle/warren/utility/j;->a(Ljava/io/Closeable;)V
+    # invoke-static {v1}, Lcom/vungle/warren/utility/j;->a(Ljava/io/Closeable;)V
 
     throw p0
 .end method
@@ -291,7 +291,7 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    invoke-static {v1}, Lcom/vungle/warren/utility/j;->a(Ljava/io/Closeable;)V
+    # invoke-static {v1}, Lcom/vungle/warren/utility/j;->a(Ljava/io/Closeable;)V
 
     goto :goto_3
 
@@ -311,13 +311,13 @@
     move-exception p0
 
     :goto_1
-    invoke-static {v0}, Lcom/vungle/warren/utility/j;->a(Ljava/io/Closeable;)V
+    # invoke-static {v0}, Lcom/vungle/warren/utility/j;->a(Ljava/io/Closeable;)V
 
     throw p0
 
     :catch_1
     :goto_2
-    invoke-static {v0}, Lcom/vungle/warren/utility/j;->a(Ljava/io/Closeable;)V
+    # invoke-static {v0}, Lcom/vungle/warren/utility/j;->a(Ljava/io/Closeable;)V
 
     const/4 p0, -0x1
 

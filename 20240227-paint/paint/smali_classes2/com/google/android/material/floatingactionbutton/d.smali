@@ -450,413 +450,413 @@
     return-void
 .end method
 
-.method public final b(Lq9/g;FFF)Landroid/animation/AnimatorSet;
-    .locals 8
-
-    .line 1
-    new-instance v0, Ljava/util/ArrayList;
-
-    .line 2
-    .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    sget-object v1, Landroid/view/View;->ALPHA:Landroid/util/Property;
-
-    .line 7
-    .line 8
-    const/4 v2, 0x1
-
-    .line 9
-    new-array v3, v2, [F
-
-    .line 10
-    .line 11
-    const/4 v4, 0x0
-
-    .line 12
-    aput p2, v3, v4
-
-    .line 13
-    .line 14
-    iget-object p2, p0, Lcom/google/android/material/floatingactionbutton/d;->q:Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
-
-    .line 15
-    .line 16
-    invoke-static {p2, v1, v3}, Landroid/animation/ObjectAnimator;->ofFloat(Ljava/lang/Object;Landroid/util/Property;[F)Landroid/animation/ObjectAnimator;
-
-    .line 17
-    .line 18
-    .line 19
-    move-result-object v1
-
-    .line 20
-    const-string v3, "opacity"
-
-    .line 21
-    .line 22
-    invoke-virtual {p1, v3}, Lq9/g;->c(Ljava/lang/String;)Lq9/h;
-
-    .line 23
-    .line 24
-    .line 25
-    move-result-object v3
-
-    .line 26
-    invoke-virtual {v3, v1}, Lq9/h;->a(Landroid/animation/Animator;)V
-
-    .line 27
-    .line 28
-    .line 29
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 30
-    .line 31
-    .line 32
-    sget-object v1, Landroid/view/View;->SCALE_X:Landroid/util/Property;
-
-    .line 33
-    .line 34
-    new-array v3, v2, [F
-
-    .line 35
-    .line 36
-    aput p3, v3, v4
-
-    .line 37
-    .line 38
-    invoke-static {p2, v1, v3}, Landroid/animation/ObjectAnimator;->ofFloat(Ljava/lang/Object;Landroid/util/Property;[F)Landroid/animation/ObjectAnimator;
-
-    .line 39
-    .line 40
-    .line 41
-    move-result-object v1
-
-    .line 42
-    const-string v3, "scale"
-
-    .line 43
-    .line 44
-    invoke-virtual {p1, v3}, Lq9/g;->c(Ljava/lang/String;)Lq9/h;
-
-    .line 45
-    .line 46
-    .line 47
-    move-result-object v5
-
-    .line 48
-    invoke-virtual {v5, v1}, Lq9/h;->a(Landroid/animation/Animator;)V
-
-    .line 49
-    .line 50
-    .line 51
-    sget v5, Landroid/os/Build$VERSION;->SDK_INT:I
-
-    .line 52
-    .line 53
-    const/16 v6, 0x1a
-
-    .line 54
-    .line 55
-    if-eq v5, v6, :cond_0
-
-    .line 56
-    .line 57
-    goto :goto_0
-
-    .line 58
-    :cond_0
-    new-instance v7, Lga/a;
-
-    .line 59
-    .line 60
-    invoke-direct {v7}, Lga/a;-><init>()V
-
-    .line 61
-    .line 62
-    .line 63
-    invoke-virtual {v1, v7}, Landroid/animation/ValueAnimator;->setEvaluator(Landroid/animation/TypeEvaluator;)V
-
-    .line 64
-    .line 65
-    .line 66
-    :goto_0
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 67
-    .line 68
-    .line 69
-    sget-object v1, Landroid/view/View;->SCALE_Y:Landroid/util/Property;
-
-    .line 70
-    .line 71
-    new-array v7, v2, [F
-
-    .line 72
-    .line 73
-    aput p3, v7, v4
-
-    .line 74
-    .line 75
-    invoke-static {p2, v1, v7}, Landroid/animation/ObjectAnimator;->ofFloat(Ljava/lang/Object;Landroid/util/Property;[F)Landroid/animation/ObjectAnimator;
-
-    .line 76
-    .line 77
-    .line 78
-    move-result-object p3
-
-    .line 79
-    invoke-virtual {p1, v3}, Lq9/g;->c(Ljava/lang/String;)Lq9/h;
-
-    .line 80
-    .line 81
-    .line 82
-    move-result-object v1
-
-    .line 83
-    invoke-virtual {v1, p3}, Lq9/h;->a(Landroid/animation/Animator;)V
-
-    .line 84
-    .line 85
-    .line 86
-    if-eq v5, v6, :cond_1
-
-    .line 87
-    .line 88
-    goto :goto_1
-
-    .line 89
-    :cond_1
-    new-instance v1, Lga/a;
-
-    .line 90
-    .line 91
-    invoke-direct {v1}, Lga/a;-><init>()V
-
-    .line 92
-    .line 93
-    .line 94
-    invoke-virtual {p3, v1}, Landroid/animation/ValueAnimator;->setEvaluator(Landroid/animation/TypeEvaluator;)V
-
-    .line 95
-    .line 96
-    .line 97
-    :goto_1
-    invoke-virtual {v0, p3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 98
-    .line 99
-    .line 100
-    iget-object p3, p0, Lcom/google/android/material/floatingactionbutton/d;->v:Landroid/graphics/Matrix;
-
-    .line 101
-    .line 102
-    invoke-virtual {p0, p4, p3}, Lcom/google/android/material/floatingactionbutton/d;->a(FLandroid/graphics/Matrix;)V
-
-    .line 103
-    .line 104
-    .line 105
-    new-instance p4, Lq9/e;
-
-    .line 106
-    .line 107
-    invoke-direct {p4}, Lq9/e;-><init>()V
-
-    .line 108
-    .line 109
-    .line 110
-    new-instance v1, Lcom/google/android/material/floatingactionbutton/d$a;
-
-    .line 111
-    .line 112
-    invoke-direct {v1, p0}, Lcom/google/android/material/floatingactionbutton/d$a;-><init>(Lcom/google/android/material/floatingactionbutton/d;)V
-
-    .line 113
-    .line 114
-    .line 115
-    new-array v2, v2, [Landroid/graphics/Matrix;
-
-    .line 116
-    .line 117
-    new-instance v3, Landroid/graphics/Matrix;
-
-    .line 118
-    .line 119
-    invoke-direct {v3, p3}, Landroid/graphics/Matrix;-><init>(Landroid/graphics/Matrix;)V
-
-    .line 120
-    .line 121
-    .line 122
-    aput-object v3, v2, v4
-
-    .line 123
-    .line 124
-    invoke-static {p2, p4, v1, v2}, Landroid/animation/ObjectAnimator;->ofObject(Ljava/lang/Object;Landroid/util/Property;Landroid/animation/TypeEvaluator;[Ljava/lang/Object;)Landroid/animation/ObjectAnimator;
-
-    .line 125
-    .line 126
-    .line 127
-    move-result-object p2
-
-    .line 128
-    const-string p3, "iconScale"
-
-    .line 129
-    .line 130
-    invoke-virtual {p1, p3}, Lq9/g;->c(Ljava/lang/String;)Lq9/h;
-
-    .line 131
-    .line 132
-    .line 133
-    move-result-object p1
-
-    .line 134
-    invoke-virtual {p1, p2}, Lq9/h;->a(Landroid/animation/Animator;)V
-
-    .line 135
-    .line 136
-    .line 137
-    invoke-virtual {v0, p2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 138
-    .line 139
-    .line 140
-    new-instance p1, Landroid/animation/AnimatorSet;
-
-    .line 141
-    .line 142
-    invoke-direct {p1}, Landroid/animation/AnimatorSet;-><init>()V
-
-    .line 143
-    .line 144
-    .line 145
-    invoke-static {p1, v0}, Lcom/vungle/warren/utility/e;->T(Landroid/animation/AnimatorSet;Ljava/util/ArrayList;)V
-
-    .line 146
-    .line 147
-    .line 148
-    return-object p1
-.end method
-
-.method public final c(FFFII)Landroid/animation/AnimatorSet;
-    .locals 16
-
-    move-object/from16 v10, p0
-
-    new-instance v11, Landroid/animation/AnimatorSet;
-
-    invoke-direct {v11}, Landroid/animation/AnimatorSet;-><init>()V
-
-    new-instance v12, Ljava/util/ArrayList;
-
-    invoke-direct {v12}, Ljava/util/ArrayList;-><init>()V
-
-    const/4 v0, 0x2
-
-    new-array v0, v0, [F
-
-    fill-array-data v0, :array_0
-
-    invoke-static {v0}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
-
-    move-result-object v13
-
-    iget-object v14, v10, Lcom/google/android/material/floatingactionbutton/d;->q:Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
-
-    invoke-virtual {v14}, Landroid/view/View;->getAlpha()F
-
-    move-result v2
-
-    invoke-virtual {v14}, Landroid/view/View;->getScaleX()F
-
-    move-result v4
-
-    invoke-virtual {v14}, Landroid/view/View;->getScaleY()F
-
-    move-result v6
-
-    iget v7, v10, Lcom/google/android/material/floatingactionbutton/d;->k:F
-
-    new-instance v9, Landroid/graphics/Matrix;
-
-    iget-object v0, v10, Lcom/google/android/material/floatingactionbutton/d;->v:Landroid/graphics/Matrix;
-
-    invoke-direct {v9, v0}, Landroid/graphics/Matrix;-><init>(Landroid/graphics/Matrix;)V
-
-    new-instance v15, Lcom/google/android/material/floatingactionbutton/d$b;
-
-    move-object v0, v15
-
-    move-object/from16 v1, p0
-
-    move/from16 v3, p1
-
-    move/from16 v5, p2
-
-    move/from16 v8, p3
-
-    invoke-direct/range {v0 .. v9}, Lcom/google/android/material/floatingactionbutton/d$b;-><init>(Lcom/google/android/material/floatingactionbutton/d;FFFFFFFLandroid/graphics/Matrix;)V
-
-    invoke-virtual {v13, v15}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
-
-    invoke-virtual {v12, v13}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    invoke-static {v11, v12}, Lcom/vungle/warren/utility/e;->T(Landroid/animation/AnimatorSet;Ljava/util/ArrayList;)V
-
-    invoke-virtual {v14}, Landroid/view/View;->getContext()Landroid/content/Context;
-
-    move-result-object v0
-
-    invoke-virtual {v14}, Landroid/view/View;->getContext()Landroid/content/Context;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v1
-
-    const v2, 0x7f0b0029
-
-    invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
-
-    move-result v1
-
-    move/from16 v2, p4
-
-    invoke-static {v0, v2, v1}, Lia/a;->c(Landroid/content/Context;II)I
-
-    move-result v0
-
-    int-to-long v0, v0
-
-    invoke-virtual {v11, v0, v1}, Landroid/animation/AnimatorSet;->setDuration(J)Landroid/animation/AnimatorSet;
-
-    invoke-virtual {v14}, Landroid/view/View;->getContext()Landroid/content/Context;
-
-    move-result-object v0
-
-    sget-object v1, Lq9/a;->b:Ld2/b;
-
-    move/from16 v2, p5
-
-    invoke-static {v0, v2, v1}, Lia/a;->d(Landroid/content/Context;ILandroid/view/animation/Interpolator;)Landroid/animation/TimeInterpolator;
-
-    move-result-object v0
-
-    invoke-virtual {v11, v0}, Landroid/animation/AnimatorSet;->setInterpolator(Landroid/animation/TimeInterpolator;)V
-
-    return-object v11
-
-    nop
-
-    :array_0
-    .array-data 4
-        0x0
-        0x3f800000    # 1.0f
-    .end array-data
-.end method
+# .method public final b(Lq9/g;FFF)Landroid/animation/AnimatorSet;
+#     .locals 8
+#
+#     .line 1
+#     new-instance v0, Ljava/util/ArrayList;
+#
+#     .line 2
+#     .line 3
+#     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+#
+#     .line 4
+#     .line 5
+#     .line 6
+#     sget-object v1, Landroid/view/View;->ALPHA:Landroid/util/Property;
+#
+#     .line 7
+#     .line 8
+#     const/4 v2, 0x1
+#
+#     .line 9
+#     new-array v3, v2, [F
+#
+#     .line 10
+#     .line 11
+#     const/4 v4, 0x0
+#
+#     .line 12
+#     aput p2, v3, v4
+#
+#     .line 13
+#     .line 14
+#     iget-object p2, p0, Lcom/google/android/material/floatingactionbutton/d;->q:Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
+#
+#     .line 15
+#     .line 16
+#     invoke-static {p2, v1, v3}, Landroid/animation/ObjectAnimator;->ofFloat(Ljava/lang/Object;Landroid/util/Property;[F)Landroid/animation/ObjectAnimator;
+#
+#     .line 17
+#     .line 18
+#     .line 19
+#     move-result-object v1
+#
+#     .line 20
+#     const-string v3, "opacity"
+#
+#     .line 21
+#     .line 22
+#     invoke-virtual {p1, v3}, Lq9/g;->c(Ljava/lang/String;)Lq9/h;
+#
+#     .line 23
+#     .line 24
+#     .line 25
+#     move-result-object v3
+#
+#     .line 26
+#     invoke-virtual {v3, v1}, Lq9/h;->a(Landroid/animation/Animator;)V
+#
+#     .line 27
+#     .line 28
+#     .line 29
+#     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+#
+#     .line 30
+#     .line 31
+#     .line 32
+#     sget-object v1, Landroid/view/View;->SCALE_X:Landroid/util/Property;
+#
+#     .line 33
+#     .line 34
+#     new-array v3, v2, [F
+#
+#     .line 35
+#     .line 36
+#     aput p3, v3, v4
+#
+#     .line 37
+#     .line 38
+#     invoke-static {p2, v1, v3}, Landroid/animation/ObjectAnimator;->ofFloat(Ljava/lang/Object;Landroid/util/Property;[F)Landroid/animation/ObjectAnimator;
+#
+#     .line 39
+#     .line 40
+#     .line 41
+#     move-result-object v1
+#
+#     .line 42
+#     const-string v3, "scale"
+#
+#     .line 43
+#     .line 44
+#     invoke-virtual {p1, v3}, Lq9/g;->c(Ljava/lang/String;)Lq9/h;
+#
+#     .line 45
+#     .line 46
+#     .line 47
+#     move-result-object v5
+#
+#     .line 48
+#     invoke-virtual {v5, v1}, Lq9/h;->a(Landroid/animation/Animator;)V
+#
+#     .line 49
+#     .line 50
+#     .line 51
+#     sget v5, Landroid/os/Build$VERSION;->SDK_INT:I
+#
+#     .line 52
+#     .line 53
+#     const/16 v6, 0x1a
+#
+#     .line 54
+#     .line 55
+#     if-eq v5, v6, :cond_0
+#
+#     .line 56
+#     .line 57
+#     goto :goto_0
+#
+#     .line 58
+#     :cond_0
+#     new-instance v7, Lga/a;
+#
+#     .line 59
+#     .line 60
+#     invoke-direct {v7}, Lga/a;-><init>()V
+#
+#     .line 61
+#     .line 62
+#     .line 63
+#     invoke-virtual {v1, v7}, Landroid/animation/ValueAnimator;->setEvaluator(Landroid/animation/TypeEvaluator;)V
+#
+#     .line 64
+#     .line 65
+#     .line 66
+#     :goto_0
+#     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+#
+#     .line 67
+#     .line 68
+#     .line 69
+#     sget-object v1, Landroid/view/View;->SCALE_Y:Landroid/util/Property;
+#
+#     .line 70
+#     .line 71
+#     new-array v7, v2, [F
+#
+#     .line 72
+#     .line 73
+#     aput p3, v7, v4
+#
+#     .line 74
+#     .line 75
+#     invoke-static {p2, v1, v7}, Landroid/animation/ObjectAnimator;->ofFloat(Ljava/lang/Object;Landroid/util/Property;[F)Landroid/animation/ObjectAnimator;
+#
+#     .line 76
+#     .line 77
+#     .line 78
+#     move-result-object p3
+#
+#     .line 79
+#     invoke-virtual {p1, v3}, Lq9/g;->c(Ljava/lang/String;)Lq9/h;
+#
+#     .line 80
+#     .line 81
+#     .line 82
+#     move-result-object v1
+#
+#     .line 83
+#     invoke-virtual {v1, p3}, Lq9/h;->a(Landroid/animation/Animator;)V
+#
+#     .line 84
+#     .line 85
+#     .line 86
+#     if-eq v5, v6, :cond_1
+#
+#     .line 87
+#     .line 88
+#     goto :goto_1
+#
+#     .line 89
+#     :cond_1
+#     new-instance v1, Lga/a;
+#
+#     .line 90
+#     .line 91
+#     invoke-direct {v1}, Lga/a;-><init>()V
+#
+#     .line 92
+#     .line 93
+#     .line 94
+#     invoke-virtual {p3, v1}, Landroid/animation/ValueAnimator;->setEvaluator(Landroid/animation/TypeEvaluator;)V
+#
+#     .line 95
+#     .line 96
+#     .line 97
+#     :goto_1
+#     invoke-virtual {v0, p3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+#
+#     .line 98
+#     .line 99
+#     .line 100
+#     iget-object p3, p0, Lcom/google/android/material/floatingactionbutton/d;->v:Landroid/graphics/Matrix;
+#
+#     .line 101
+#     .line 102
+#     invoke-virtual {p0, p4, p3}, Lcom/google/android/material/floatingactionbutton/d;->a(FLandroid/graphics/Matrix;)V
+#
+#     .line 103
+#     .line 104
+#     .line 105
+#     new-instance p4, Lq9/e;
+#
+#     .line 106
+#     .line 107
+#     invoke-direct {p4}, Lq9/e;-><init>()V
+#
+#     .line 108
+#     .line 109
+#     .line 110
+#     new-instance v1, Lcom/google/android/material/floatingactionbutton/d$a;
+#
+#     .line 111
+#     .line 112
+#     invoke-direct {v1, p0}, Lcom/google/android/material/floatingactionbutton/d$a;-><init>(Lcom/google/android/material/floatingactionbutton/d;)V
+#
+#     .line 113
+#     .line 114
+#     .line 115
+#     new-array v2, v2, [Landroid/graphics/Matrix;
+#
+#     .line 116
+#     .line 117
+#     new-instance v3, Landroid/graphics/Matrix;
+#
+#     .line 118
+#     .line 119
+#     invoke-direct {v3, p3}, Landroid/graphics/Matrix;-><init>(Landroid/graphics/Matrix;)V
+#
+#     .line 120
+#     .line 121
+#     .line 122
+#     aput-object v3, v2, v4
+#
+#     .line 123
+#     .line 124
+#     invoke-static {p2, p4, v1, v2}, Landroid/animation/ObjectAnimator;->ofObject(Ljava/lang/Object;Landroid/util/Property;Landroid/animation/TypeEvaluator;[Ljava/lang/Object;)Landroid/animation/ObjectAnimator;
+#
+#     .line 125
+#     .line 126
+#     .line 127
+#     move-result-object p2
+#
+#     .line 128
+#     const-string p3, "iconScale"
+#
+#     .line 129
+#     .line 130
+#     invoke-virtual {p1, p3}, Lq9/g;->c(Ljava/lang/String;)Lq9/h;
+#
+#     .line 131
+#     .line 132
+#     .line 133
+#     move-result-object p1
+#
+#     .line 134
+#     invoke-virtual {p1, p2}, Lq9/h;->a(Landroid/animation/Animator;)V
+#
+#     .line 135
+#     .line 136
+#     .line 137
+#     invoke-virtual {v0, p2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+#
+#     .line 138
+#     .line 139
+#     .line 140
+#     new-instance p1, Landroid/animation/AnimatorSet;
+#
+#     .line 141
+#     .line 142
+#     invoke-direct {p1}, Landroid/animation/AnimatorSet;-><init>()V
+#
+#     .line 143
+#     .line 144
+#     .line 145
+#     invoke-static {p1, v0}, Lcom/vungle/warren/utility/e;->T(Landroid/animation/AnimatorSet;Ljava/util/ArrayList;)V
+#
+#     .line 146
+#     .line 147
+#     .line 148
+#     return-object p1
+# .end method
+
+# .method public final c(FFFII)Landroid/animation/AnimatorSet;
+#     .locals 16
+#
+#     move-object/from16 v10, p0
+#
+#     new-instance v11, Landroid/animation/AnimatorSet;
+#
+#     invoke-direct {v11}, Landroid/animation/AnimatorSet;-><init>()V
+#
+#     new-instance v12, Ljava/util/ArrayList;
+#
+#     invoke-direct {v12}, Ljava/util/ArrayList;-><init>()V
+#
+#     const/4 v0, 0x2
+#
+#     new-array v0, v0, [F
+#
+#     fill-array-data v0, :array_0
+#
+#     invoke-static {v0}, Landroid/animation/ValueAnimator;->ofFloat([F)Landroid/animation/ValueAnimator;
+#
+#     move-result-object v13
+#
+#     iget-object v14, v10, Lcom/google/android/material/floatingactionbutton/d;->q:Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
+#
+#     invoke-virtual {v14}, Landroid/view/View;->getAlpha()F
+#
+#     move-result v2
+#
+#     invoke-virtual {v14}, Landroid/view/View;->getScaleX()F
+#
+#     move-result v4
+#
+#     invoke-virtual {v14}, Landroid/view/View;->getScaleY()F
+#
+#     move-result v6
+#
+#     iget v7, v10, Lcom/google/android/material/floatingactionbutton/d;->k:F
+#
+#     new-instance v9, Landroid/graphics/Matrix;
+#
+#     iget-object v0, v10, Lcom/google/android/material/floatingactionbutton/d;->v:Landroid/graphics/Matrix;
+#
+#     invoke-direct {v9, v0}, Landroid/graphics/Matrix;-><init>(Landroid/graphics/Matrix;)V
+#
+#     new-instance v15, Lcom/google/android/material/floatingactionbutton/d$b;
+#
+#     move-object v0, v15
+#
+#     move-object/from16 v1, p0
+#
+#     move/from16 v3, p1
+#
+#     move/from16 v5, p2
+#
+#     move/from16 v8, p3
+#
+#     invoke-direct/range {v0 .. v9}, Lcom/google/android/material/floatingactionbutton/d$b;-><init>(Lcom/google/android/material/floatingactionbutton/d;FFFFFFFLandroid/graphics/Matrix;)V
+#
+#     invoke-virtual {v13, v15}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
+#
+#     invoke-virtual {v12, v13}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+#
+#     invoke-static {v11, v12}, Lcom/vungle/warren/utility/e;->T(Landroid/animation/AnimatorSet;Ljava/util/ArrayList;)V
+#
+#     invoke-virtual {v14}, Landroid/view/View;->getContext()Landroid/content/Context;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v14}, Landroid/view/View;->getContext()Landroid/content/Context;
+#
+#     move-result-object v1
+#
+#     invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+#
+#     move-result-object v1
+#
+#     const v2, 0x7f0b0029
+#
+#     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getInteger(I)I
+#
+#     move-result v1
+#
+#     move/from16 v2, p4
+#
+#     invoke-static {v0, v2, v1}, Lia/a;->c(Landroid/content/Context;II)I
+#
+#     move-result v0
+#
+#     int-to-long v0, v0
+#
+#     invoke-virtual {v11, v0, v1}, Landroid/animation/AnimatorSet;->setDuration(J)Landroid/animation/AnimatorSet;
+#
+#     invoke-virtual {v14}, Landroid/view/View;->getContext()Landroid/content/Context;
+#
+#     move-result-object v0
+#
+#     sget-object v1, Lq9/a;->b:Ld2/b;
+#
+#     move/from16 v2, p5
+#
+#     invoke-static {v0, v2, v1}, Lia/a;->d(Landroid/content/Context;ILandroid/view/animation/Interpolator;)Landroid/animation/TimeInterpolator;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v11, v0}, Landroid/animation/AnimatorSet;->setInterpolator(Landroid/animation/TimeInterpolator;)V
+#
+#     return-object v11
+#
+#     nop
+#
+#     :array_0
+#     .array-data 4
+#         0x0
+#         0x3f800000    # 1.0f
+#     .end array-data
+# .end method
 
 .method public e()F
     .locals 0

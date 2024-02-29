@@ -58,7 +58,7 @@
 
     invoke-direct {p1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
+    # invoke-static {p1}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
 
     new-instance p1, Ljava/io/File;
 
@@ -82,7 +82,7 @@
 
     invoke-direct {p1, v0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
+    # invoke-static {p1}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -97,7 +97,7 @@
 
     const-string v2, "DatabaseHelper"
 
-    invoke-static {v0, v2, p1}, Lcom/vungle/warren/VungleLogger;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v2, p1}, Lcom/vungle/warren/VungleLogger;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-object v1
