@@ -93,11 +93,12 @@
 
     invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/ads/internal/client/zzdw;->zzu(Ljava/lang/Class;Landroid/os/Bundle;)V
 
-    const-class v0, Lcom/google/ads/mediation/admob/AdMobAdapter;
+    # const-class v0, Lcom/google/ads/mediation/admob/AdMobAdapter;
+    #
+    # invoke-virtual {p1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
-    invoke-virtual {p1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
-
-    move-result p1
+    # move-result p1
+    const/4 p1,0x1
 
     if-eqz p1, :cond_0
 

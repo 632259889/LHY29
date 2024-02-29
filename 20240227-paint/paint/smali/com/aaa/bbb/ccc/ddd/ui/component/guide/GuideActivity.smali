@@ -780,24 +780,24 @@
     .line 368
     .line 369
     .line 370
-    const-class v4, Lcom/google/ads/mediation/admob/AdMobAdapter;
-
-    .line 371
-    .line 372
-    invoke-virtual {v2, v4, v3}, Lcom/google/android/gms/ads/AdRequest$Builder;->addNetworkExtrasBundle(Ljava/lang/Class;Landroid/os/Bundle;)Lcom/google/android/gms/ads/AdRequest$Builder;
-
-    .line 373
-    .line 374
-    .line 375
-    invoke-virtual {v2}, Lcom/google/android/gms/ads/AdRequest$Builder;->build()Lcom/google/android/gms/ads/AdRequest;
-
-    .line 376
-    .line 377
-    .line 378
-    move-result-object v2
-
-    .line 379
-    invoke-virtual {v0, v2}, Lcom/google/android/gms/ads/BaseAdView;->loadAd(Lcom/google/android/gms/ads/AdRequest;)V
+    # const-class v4, Lcom/google/ads/mediation/admob/AdMobAdapter;
+    #
+    # .line 371
+    # .line 372
+    # invoke-virtual {v2, v4, v3}, Lcom/google/android/gms/ads/AdRequest$Builder;->addNetworkExtrasBundle(Ljava/lang/Class;Landroid/os/Bundle;)Lcom/google/android/gms/ads/AdRequest$Builder;
+    #
+    # .line 373
+    # .line 374
+    # .line 375
+    # invoke-virtual {v2}, Lcom/google/android/gms/ads/AdRequest$Builder;->build()Lcom/google/android/gms/ads/AdRequest;
+    #
+    # .line 376
+    # .line 377
+    # .line 378
+    # move-result-object v2
+    #
+    # .line 379
+    # invoke-virtual {v0, v2}, Lcom/google/android/gms/ads/BaseAdView;->loadAd(Lcom/google/android/gms/ads/AdRequest;)V
 
     .line 380
     .line 381

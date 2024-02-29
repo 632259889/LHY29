@@ -71,20 +71,20 @@
 
 .method public final b(Lcom/google/android/gms/ads/AdError;)V
     .locals 2
-
-    sget-object v0, Lcom/google/ads/mediation/adcolony/AdColonyMediationAdapter;->TAG:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->getMessage()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    iget-object v0, p0, Lcom/jirbo/adcolony/AdColonyAdapter$a;->b:Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;
-
-    iget-object v1, p0, Lcom/jirbo/adcolony/AdColonyAdapter$a;->c:Lcom/jirbo/adcolony/AdColonyAdapter;
-
-    invoke-interface {v0, v1, p1}, Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;->onAdFailedToLoad(Lcom/google/android/gms/ads/mediation/MediationInterstitialAdapter;Lcom/google/android/gms/ads/AdError;)V
+    #
+    # sget-object v0, Lcom/google/ads/mediation/adcolony/AdColonyMediationAdapter;->TAG:Ljava/lang/String;
+    #
+    # invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->getMessage()Ljava/lang/String;
+    #
+    # move-result-object v1
+    #
+    # invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # iget-object v0, p0, Lcom/jirbo/adcolony/AdColonyAdapter$a;->b:Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;
+    #
+    # iget-object v1, p0, Lcom/jirbo/adcolony/AdColonyAdapter$a;->c:Lcom/jirbo/adcolony/AdColonyAdapter;
+    #
+    # invoke-interface {v0, v1, p1}, Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;->onAdFailedToLoad(Lcom/google/android/gms/ads/mediation/MediationInterstitialAdapter;Lcom/google/android/gms/ads/AdError;)V
 
     return-void
 .end method

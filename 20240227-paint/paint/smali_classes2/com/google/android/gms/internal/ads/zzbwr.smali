@@ -788,60 +788,60 @@
 .method public final onAdLoaded(Lcom/google/android/gms/ads/mediation/MediationNativeAdapter;Lcom/google/android/gms/ads/mediation/UnifiedNativeAdMapper;)V
     .locals 1
 
-    const-string v0, "#008 Must be called on the main UI thread."
-
-    invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkMainThread(Ljava/lang/String;)V
-
-    const-string v0, "Adapter called onAdLoaded."
-
-    invoke-static {v0}, Lcom/google/android/gms/internal/ads/zzcgv;->zze(Ljava/lang/String;)V
-
-    iput-object p2, p0, Lcom/google/android/gms/internal/ads/zzbwr;->zzb:Lcom/google/android/gms/ads/mediation/UnifiedNativeAdMapper;
-
-    instance-of p1, p1, Lcom/google/ads/mediation/admob/AdMobAdapter;
-
-    if-eqz p1, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    new-instance p1, Lcom/google/android/gms/ads/VideoController;
-
-    invoke-direct {p1}, Lcom/google/android/gms/ads/VideoController;-><init>()V
-
-    new-instance v0, Lcom/google/android/gms/internal/ads/zzbwg;
-
-    invoke-direct {v0}, Lcom/google/android/gms/internal/ads/zzbwg;-><init>()V
-
-    invoke-virtual {p1, v0}, Lcom/google/android/gms/ads/VideoController;->zzb(Lcom/google/android/gms/ads/internal/client/zzdq;)V
-
-    if-eqz p2, :cond_1
-
-    invoke-virtual {p2}, Lcom/google/android/gms/ads/mediation/UnifiedNativeAdMapper;->hasVideoContent()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    invoke-virtual {p2, p1}, Lcom/google/android/gms/ads/mediation/UnifiedNativeAdMapper;->zze(Lcom/google/android/gms/ads/VideoController;)V
-
-    :cond_1
-    :goto_0
-    :try_start_0
-    iget-object p1, p0, Lcom/google/android/gms/internal/ads/zzbwr;->zza:Lcom/google/android/gms/internal/ads/zzbvw;
-
-    invoke-interface {p1}, Lcom/google/android/gms/internal/ads/zzbvw;->zzo()V
-    :try_end_0
-    .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
-
-    return-void
-
-    :catch_0
-    move-exception p1
-
-    const-string p2, "#007 Could not call remote method."
-
-    invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/zzcgv;->zzl(Ljava/lang/String;Ljava/lang/Throwable;)V
+    # const-string v0, "#008 Must be called on the main UI thread."
+    #
+    # invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkMainThread(Ljava/lang/String;)V
+    #
+    # const-string v0, "Adapter called onAdLoaded."
+    #
+    # invoke-static {v0}, Lcom/google/android/gms/internal/ads/zzcgv;->zze(Ljava/lang/String;)V
+    #
+    # iput-object p2, p0, Lcom/google/android/gms/internal/ads/zzbwr;->zzb:Lcom/google/android/gms/ads/mediation/UnifiedNativeAdMapper;
+    #
+    # instance-of p1, p1, Lcom/google/ads/mediation/admob/AdMobAdapter;
+    #
+    # if-eqz p1, :cond_0
+    #
+    # goto :goto_0
+    #
+    # :cond_0
+    # new-instance p1, Lcom/google/android/gms/ads/VideoController;
+    #
+    # invoke-direct {p1}, Lcom/google/android/gms/ads/VideoController;-><init>()V
+    #
+    # new-instance v0, Lcom/google/android/gms/internal/ads/zzbwg;
+    #
+    # invoke-direct {v0}, Lcom/google/android/gms/internal/ads/zzbwg;-><init>()V
+    #
+    # invoke-virtual {p1, v0}, Lcom/google/android/gms/ads/VideoController;->zzb(Lcom/google/android/gms/ads/internal/client/zzdq;)V
+    #
+    # if-eqz p2, :cond_1
+    #
+    # invoke-virtual {p2}, Lcom/google/android/gms/ads/mediation/UnifiedNativeAdMapper;->hasVideoContent()Z
+    #
+    # move-result v0
+    #
+    # if-eqz v0, :cond_1
+    #
+    # invoke-virtual {p2, p1}, Lcom/google/android/gms/ads/mediation/UnifiedNativeAdMapper;->zze(Lcom/google/android/gms/ads/VideoController;)V
+    #
+    # :cond_1
+    # :goto_0
+    # :try_start_0
+    # iget-object p1, p0, Lcom/google/android/gms/internal/ads/zzbwr;->zza:Lcom/google/android/gms/internal/ads/zzbvw;
+    #
+    # invoke-interface {p1}, Lcom/google/android/gms/internal/ads/zzbvw;->zzo()V
+    # :try_end_0
+    # .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
+    #
+    # return-void
+    #
+    # :catch_0
+    # move-exception p1
+    #
+    # const-string p2, "#007 Could not call remote method."
+    #
+    # invoke-static {p2, p1}, Lcom/google/android/gms/internal/ads/zzcgv;->zzl(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
 .end method

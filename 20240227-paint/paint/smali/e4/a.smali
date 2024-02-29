@@ -15,19 +15,19 @@
 
 
 # direct methods
-.method public constructor <init>(Le4/z2;Le4/w4;Lcom/google/ads/mediation/adcolony/AdColonyMediationAdapter$b;)V
-    .locals 0
-
-    iput-object p1, p0, Le4/a;->c:Le4/z2;
-
-    iput-object p2, p0, Le4/a;->d:Le4/w4;
-
-    iput-object p3, p0, Le4/a;->e:Landroid/support/v4/media/a;
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
+# .method public constructor <init>(Le4/z2;Le4/w4;Lcom/google/ads/mediation/adcolony/AdColonyMediationAdapter$b;)V
+#     .locals 0
+#
+#     iput-object p1, p0, Le4/a;->c:Le4/z2;
+#
+#     iput-object p2, p0, Le4/a;->d:Le4/w4;
+#
+#     iput-object p3, p0, Le4/a;->e:Landroid/support/v4/media/a;
+#
+#     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+#
+#     return-void
+# .end method
 
 
 # virtual methods

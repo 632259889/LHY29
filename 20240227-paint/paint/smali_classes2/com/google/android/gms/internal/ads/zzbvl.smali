@@ -126,11 +126,12 @@
 
     check-cast v7, Ljava/lang/String;
 
-    const-string v8, "com.google.ads.mediation.admob.AdMobAdapter"
+    # const-string v8, "com.google.ads.mediation.admob.AdMobAdapter"
+    #
+    # invoke-virtual {v7, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    invoke-virtual {v7, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v7
+    # move-result v7
+    const/4 v7,0x1
 
     if-eqz v7, :cond_1
 

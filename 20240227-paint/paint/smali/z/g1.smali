@@ -940,221 +940,221 @@
 
 .method public final onPaidEvent(Lcom/google/android/gms/ads/AdValue;)V
     .locals 6
-
-    .line 1
-    iget v0, p0, Lz/g1;->c:I
-
-    .line 2
-    .line 3
-    iget-object v1, p0, Lz/g1;->e:Ljava/lang/Object;
-
-    .line 4
-    .line 5
-    iget-object v2, p0, Lz/g1;->d:Ljava/lang/Object;
-
-    .line 6
-    .line 7
-    packed-switch v0, :pswitch_data_0
-
-    .line 8
-    .line 9
-    .line 10
-    goto :goto_0
-
-    .line 11
-    :pswitch_0
-    check-cast v2, Lh4/e;
-
-    .line 12
-    .line 13
-    check-cast v1, Ljava/lang/String;
-
-    .line 14
-    .line 15
-    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 16
-    .line 17
-    .line 18
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    .line 19
-    .line 20
-    const-string v3, "OnPaidEvent splash:"
-
-    .line 21
-    .line 22
-    invoke-direct {v0, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    .line 23
-    .line 24
-    .line 25
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdValue;->getValueMicros()J
-
-    .line 26
-    .line 27
-    .line 28
-    move-result-wide v3
-
-    .line 29
-    invoke-virtual {v0, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
-    .line 30
-    .line 31
-    .line 32
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 33
-    .line 34
-    .line 35
-    move-result-object v0
-
-    .line 36
-    const-string v3, "GamStudio"
-
-    .line 37
-    .line 38
-    invoke-static {v3, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 39
-    .line 40
-    .line 41
-    iget-object v0, v2, Lh4/e;->j:Landroid/content/Context;
-
-    .line 42
-    .line 43
-    iget-object v3, v2, Lh4/e;->k:Lcom/google/android/gms/ads/interstitial/InterstitialAd;
-
-    .line 44
-    .line 45
-    invoke-virtual {v3}, Lcom/google/android/gms/ads/interstitial/InterstitialAd;->getAdUnitId()Ljava/lang/String;
-
-    .line 46
-    .line 47
-    .line 48
-    move-result-object v3
-
-    .line 49
-    iget-object v4, v2, Lh4/e;->k:Lcom/google/android/gms/ads/interstitial/InterstitialAd;
-
-    .line 50
-    .line 51
-    invoke-virtual {v4}, Lcom/google/android/gms/ads/interstitial/InterstitialAd;->getResponseInfo()Lcom/google/android/gms/ads/ResponseInfo;
-
-    .line 52
-    .line 53
-    .line 54
-    move-result-object v4
-
-    .line 55
-    invoke-virtual {v4}, Lcom/google/android/gms/ads/ResponseInfo;->getMediationAdapterClassName()Ljava/lang/String;
-
-    .line 56
-    .line 57
-    .line 58
-    move-result-object v4
-
-    .line 59
-    const/4 v5, 0x2
-
-    .line 60
-    invoke-static {v0, p1, v3, v4, v5}, Lcom/vungle/warren/utility/e;->E(Landroid/content/Context;Lcom/google/android/gms/ads/AdValue;Ljava/lang/String;Ljava/lang/String;I)V
-
-    .line 61
-    .line 62
-    .line 63
-    if-eqz v1, :cond_0
-
-    .line 64
-    .line 65
-    iget-object v0, v2, Lh4/e;->k:Lcom/google/android/gms/ads/interstitial/InterstitialAd;
-
-    .line 66
-    .line 67
-    invoke-virtual {v0}, Lcom/google/android/gms/ads/interstitial/InterstitialAd;->getAdUnitId()Ljava/lang/String;
-
-    .line 68
-    .line 69
-    .line 70
-    move-result-object v0
-
-    .line 71
-    invoke-static {p1, v0, v1}, Lcom/vungle/warren/utility/e;->F(Lcom/google/android/gms/ads/AdValue;Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 72
-    .line 73
-    .line 74
-    :cond_0
+    #
+    # .line 1
+    # iget v0, p0, Lz/g1;->c:I
+    #
+    # .line 2
+    # .line 3
+    # iget-object v1, p0, Lz/g1;->e:Ljava/lang/Object;
+    #
+    # .line 4
+    # .line 5
+    # iget-object v2, p0, Lz/g1;->d:Ljava/lang/Object;
+    #
+    # .line 6
+    # .line 7
+    # packed-switch v0, :pswitch_data_0
+    #
+    # .line 8
+    # .line 9
+    # .line 10
+    # goto :goto_0
+    #
+    # .line 11
+    # :pswitch_0
+    # check-cast v2, Lh4/e;
+    #
+    # .line 12
+    # .line 13
+    # check-cast v1, Ljava/lang/String;
+    #
+    # .line 14
+    # .line 15
+    # invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    #
+    # .line 16
+    # .line 17
+    # .line 18
+    # new-instance v0, Ljava/lang/StringBuilder;
+    #
+    # .line 19
+    # .line 20
+    # const-string v3, "OnPaidEvent splash:"
+    #
+    # .line 21
+    # .line 22
+    # invoke-direct {v0, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    #
+    # .line 23
+    # .line 24
+    # .line 25
+    # invoke-virtual {p1}, Lcom/google/android/gms/ads/AdValue;->getValueMicros()J
+    #
+    # .line 26
+    # .line 27
+    # .line 28
+    # move-result-wide v3
+    #
+    # .line 29
+    # invoke-virtual {v0, v3, v4}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    #
+    # .line 30
+    # .line 31
+    # .line 32
+    # invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    #
+    # .line 33
+    # .line 34
+    # .line 35
+    # move-result-object v0
+    #
+    # .line 36
+    # const-string v3, "GamStudio"
+    #
+    # .line 37
+    # .line 38
+    # invoke-static {v3, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # .line 39
+    # .line 40
+    # .line 41
+    # iget-object v0, v2, Lh4/e;->j:Landroid/content/Context;
+    #
+    # .line 42
+    # .line 43
+    # iget-object v3, v2, Lh4/e;->k:Lcom/google/android/gms/ads/interstitial/InterstitialAd;
+    #
+    # .line 44
+    # .line 45
+    # invoke-virtual {v3}, Lcom/google/android/gms/ads/interstitial/InterstitialAd;->getAdUnitId()Ljava/lang/String;
+    #
+    # .line 46
+    # .line 47
+    # .line 48
+    # move-result-object v3
+    #
+    # .line 49
+    # iget-object v4, v2, Lh4/e;->k:Lcom/google/android/gms/ads/interstitial/InterstitialAd;
+    #
+    # .line 50
+    # .line 51
+    # invoke-virtual {v4}, Lcom/google/android/gms/ads/interstitial/InterstitialAd;->getResponseInfo()Lcom/google/android/gms/ads/ResponseInfo;
+    #
+    # .line 52
+    # .line 53
+    # .line 54
+    # move-result-object v4
+    #
+    # .line 55
+    # invoke-virtual {v4}, Lcom/google/android/gms/ads/ResponseInfo;->getMediationAdapterClassName()Ljava/lang/String;
+    #
+    # .line 56
+    # .line 57
+    # .line 58
+    # move-result-object v4
+    #
+    # .line 59
+    # const/4 v5, 0x2
+    #
+    # .line 60
+    # invoke-static {v0, p1, v3, v4, v5}, Lcom/vungle/warren/utility/e;->E(Landroid/content/Context;Lcom/google/android/gms/ads/AdValue;Ljava/lang/String;Ljava/lang/String;I)V
+    #
+    # .line 61
+    # .line 62
+    # .line 63
+    # if-eqz v1, :cond_0
+    #
+    # .line 64
+    # .line 65
+    # iget-object v0, v2, Lh4/e;->k:Lcom/google/android/gms/ads/interstitial/InterstitialAd;
+    #
+    # .line 66
+    # .line 67
+    # invoke-virtual {v0}, Lcom/google/android/gms/ads/interstitial/InterstitialAd;->getAdUnitId()Ljava/lang/String;
+    #
+    # .line 68
+    # .line 69
+    # .line 70
+    # move-result-object v0
+    #
+    # .line 71
+    # invoke-static {p1, v0, v1}, Lcom/vungle/warren/utility/e;->F(Lcom/google/android/gms/ads/AdValue;Ljava/lang/String;Ljava/lang/String;)V
+    #
+    # .line 72
+    # .line 73
+    # .line 74
+    # :cond_0
+    # return-void
+    #
+    # .line 75
+    # :goto_0
+    # check-cast v2, Lcom/ads/gam/admob/AppOpenManager$b;
+    #
+    # .line 76
+    # .line 77
+    # check-cast v1, Lcom/google/android/gms/ads/appopen/AppOpenAd;
+    #
+    # .line 78
+    # .line 79
+    # iget-object v0, v2, Lcom/ads/gam/admob/AppOpenManager$b;->b:Lcom/ads/gam/admob/AppOpenManager;
+    #
+    # .line 80
+    # .line 81
+    # iget-object v0, v0, Lcom/ads/gam/admob/AppOpenManager;->h:Landroid/app/Application;
+    #
+    # .line 82
+    # .line 83
+    # invoke-virtual {v0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    #
+    # .line 84
+    # .line 85
+    # .line 86
+    # move-result-object v0
+    #
+    # .line 87
+    # invoke-virtual {v1}, Lcom/google/android/gms/ads/appopen/AppOpenAd;->getAdUnitId()Ljava/lang/String;
+    #
+    # .line 88
+    # .line 89
+    # .line 90
+    # move-result-object v2
+    #
+    # .line 91
+    # invoke-virtual {v1}, Lcom/google/android/gms/ads/appopen/AppOpenAd;->getResponseInfo()Lcom/google/android/gms/ads/ResponseInfo;
+    #
+    # .line 92
+    # .line 93
+    # .line 94
+    # move-result-object v1
+    #
+    # .line 95
+    # invoke-virtual {v1}, Lcom/google/android/gms/ads/ResponseInfo;->getMediationAdapterClassName()Ljava/lang/String;
+    #
+    # .line 96
+    # .line 97
+    # .line 98
+    # move-result-object v1
+    #
+    # .line 99
+    # const/4 v3, 0x5
+    #
+    # .line 100
+    # invoke-static {v0, p1, v2, v1, v3}, Lcom/vungle/warren/utility/e;->E(Landroid/content/Context;Lcom/google/android/gms/ads/AdValue;Ljava/lang/String;Ljava/lang/String;I)V
+    #
+    # .line 101
+    # .line 102
+    # .line 103
     return-void
-
-    .line 75
-    :goto_0
-    check-cast v2, Lcom/ads/gam/admob/AppOpenManager$b;
-
-    .line 76
-    .line 77
-    check-cast v1, Lcom/google/android/gms/ads/appopen/AppOpenAd;
-
-    .line 78
-    .line 79
-    iget-object v0, v2, Lcom/ads/gam/admob/AppOpenManager$b;->b:Lcom/ads/gam/admob/AppOpenManager;
-
-    .line 80
-    .line 81
-    iget-object v0, v0, Lcom/ads/gam/admob/AppOpenManager;->h:Landroid/app/Application;
-
-    .line 82
-    .line 83
-    invoke-virtual {v0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
-
-    .line 84
-    .line 85
-    .line 86
-    move-result-object v0
-
-    .line 87
-    invoke-virtual {v1}, Lcom/google/android/gms/ads/appopen/AppOpenAd;->getAdUnitId()Ljava/lang/String;
-
-    .line 88
-    .line 89
-    .line 90
-    move-result-object v2
-
-    .line 91
-    invoke-virtual {v1}, Lcom/google/android/gms/ads/appopen/AppOpenAd;->getResponseInfo()Lcom/google/android/gms/ads/ResponseInfo;
-
-    .line 92
-    .line 93
-    .line 94
-    move-result-object v1
-
-    .line 95
-    invoke-virtual {v1}, Lcom/google/android/gms/ads/ResponseInfo;->getMediationAdapterClassName()Ljava/lang/String;
-
-    .line 96
-    .line 97
-    .line 98
-    move-result-object v1
-
-    .line 99
-    const/4 v3, 0x5
-
-    .line 100
-    invoke-static {v0, p1, v2, v1, v3}, Lcom/vungle/warren/utility/e;->E(Landroid/content/Context;Lcom/google/android/gms/ads/AdValue;Ljava/lang/String;Ljava/lang/String;I)V
-
-    .line 101
-    .line 102
-    .line 103
-    return-void
-
-    .line 104
-    nop
-
-    .line 105
-    :pswitch_data_0
-    .packed-switch 0x3
-        :pswitch_0
-    .end packed-switch
+    #
+    # .line 104
+    # nop
+    #
+    # .line 105
+    # :pswitch_data_0
+    # .packed-switch 0x3
+    #     :pswitch_0
+    # .end packed-switch
 .end method
 
 .method public final then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object;

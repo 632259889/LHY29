@@ -128,32 +128,32 @@
 .method public final f(Le4/w;)V
     .locals 2
 
-    iget-object p1, p0, Loe/b;->f:Lcom/google/android/gms/ads/mediation/MediationBannerListener;
-
-    if-eqz p1, :cond_0
-
-    iget-object p1, p0, Loe/b;->g:Lcom/jirbo/adcolony/AdColonyAdapter;
-
-    if-eqz p1, :cond_0
-
-    invoke-static {}, Lcom/google/ads/mediation/adcolony/AdColonyMediationAdapter;->createSdkError()Lcom/google/android/gms/ads/AdError;
-
-    move-result-object p1
-
-    sget-object v0, Lcom/google/ads/mediation/adcolony/AdColonyMediationAdapter;->TAG:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->getMessage()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    iget-object v0, p0, Loe/b;->f:Lcom/google/android/gms/ads/mediation/MediationBannerListener;
-
-    iget-object v1, p0, Loe/b;->g:Lcom/jirbo/adcolony/AdColonyAdapter;
-
-    invoke-interface {v0, v1, p1}, Lcom/google/android/gms/ads/mediation/MediationBannerListener;->onAdFailedToLoad(Lcom/google/android/gms/ads/mediation/MediationBannerAdapter;Lcom/google/android/gms/ads/AdError;)V
-
-    :cond_0
+    # iget-object p1, p0, Loe/b;->f:Lcom/google/android/gms/ads/mediation/MediationBannerListener;
+    #
+    # if-eqz p1, :cond_0
+    #
+    # iget-object p1, p0, Loe/b;->g:Lcom/jirbo/adcolony/AdColonyAdapter;
+    #
+    # if-eqz p1, :cond_0
+    #
+    # invoke-static {}, Lcom/google/ads/mediation/adcolony/AdColonyMediationAdapter;->createSdkError()Lcom/google/android/gms/ads/AdError;
+    #
+    # move-result-object p1
+    #
+    # sget-object v0, Lcom/google/ads/mediation/adcolony/AdColonyMediationAdapter;->TAG:Ljava/lang/String;
+    #
+    # invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->getMessage()Ljava/lang/String;
+    #
+    # move-result-object v1
+    #
+    # invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # iget-object v0, p0, Loe/b;->f:Lcom/google/android/gms/ads/mediation/MediationBannerListener;
+    #
+    # iget-object v1, p0, Loe/b;->g:Lcom/jirbo/adcolony/AdColonyAdapter;
+    #
+    # invoke-interface {v0, v1, p1}, Lcom/google/android/gms/ads/mediation/MediationBannerListener;->onAdFailedToLoad(Lcom/google/android/gms/ads/mediation/MediationBannerAdapter;Lcom/google/android/gms/ads/AdError;)V
+    #
+    # :cond_0
     return-void
 .end method

@@ -952,7 +952,7 @@
 
     .line 438
     .line 439
-    check-cast v0, Lcom/ads/gam/applovin/AppOpenMax;
+    # check-cast v0, Lcom/ads/gam/applovin/AppOpenMax;
 
     .line 440
     .line 441

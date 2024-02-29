@@ -104,26 +104,26 @@
 
     return-object p0
 .end method
-
-.method public build()Lcom/google/android/gms/ads/search/DynamicHeightSearchAdRequest;
-    .locals 3
-
-    iget-object v0, p0, Lcom/google/android/gms/ads/search/DynamicHeightSearchAdRequest$Builder;->zza:Lcom/google/android/gms/ads/search/zzb;
-
-    const-class v1, Lcom/google/ads/mediation/admob/AdMobAdapter;
-
-    iget-object v2, p0, Lcom/google/android/gms/ads/search/DynamicHeightSearchAdRequest$Builder;->zzb:Landroid/os/Bundle;
-
-    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/ads/search/zzb;->zzd(Ljava/lang/Class;Landroid/os/Bundle;)Lcom/google/android/gms/ads/search/zzb;
-
-    new-instance v0, Lcom/google/android/gms/ads/search/DynamicHeightSearchAdRequest;
-
-    const/4 v1, 0x0
-
-    invoke-direct {v0, p0, v1}, Lcom/google/android/gms/ads/search/DynamicHeightSearchAdRequest;-><init>(Lcom/google/android/gms/ads/search/DynamicHeightSearchAdRequest$Builder;Lcom/google/android/gms/ads/search/zza;)V
-
-    return-object v0
-.end method
+# 
+# .method public build()Lcom/google/android/gms/ads/search/DynamicHeightSearchAdRequest;
+#     .locals 3
+#
+#     iget-object v0, p0, Lcom/google/android/gms/ads/search/DynamicHeightSearchAdRequest$Builder;->zza:Lcom/google/android/gms/ads/search/zzb;
+#
+#     const-class v1, Lcom/google/ads/mediation/admob/AdMobAdapter;
+#
+#     iget-object v2, p0, Lcom/google/android/gms/ads/search/DynamicHeightSearchAdRequest$Builder;->zzb:Landroid/os/Bundle;
+#
+#     invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/ads/search/zzb;->zzd(Ljava/lang/Class;Landroid/os/Bundle;)Lcom/google/android/gms/ads/search/zzb;
+#
+#     new-instance v0, Lcom/google/android/gms/ads/search/DynamicHeightSearchAdRequest;
+#
+#     const/4 v1, 0x0
+#
+#     invoke-direct {v0, p0, v1}, Lcom/google/android/gms/ads/search/DynamicHeightSearchAdRequest;-><init>(Lcom/google/android/gms/ads/search/DynamicHeightSearchAdRequest$Builder;Lcom/google/android/gms/ads/search/zza;)V
+#
+#     return-object v0
+# .end method
 
 .method public setAdBorderSelectors(Ljava/lang/String;)Lcom/google/android/gms/ads/search/DynamicHeightSearchAdRequest$Builder;
     .locals 2

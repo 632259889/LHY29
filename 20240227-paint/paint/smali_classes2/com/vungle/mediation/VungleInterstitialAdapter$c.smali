@@ -118,21 +118,21 @@
 .method public final onAdStart(Ljava/lang/String;)V
     .locals 1
 
-    iget-object p1, p0, Lcom/vungle/mediation/VungleInterstitialAdapter$c;->c:Lcom/vungle/mediation/VungleInterstitialAdapter;
+    # iget-object p1, p0, Lcom/vungle/mediation/VungleInterstitialAdapter$c;->c:Lcom/vungle/mediation/VungleInterstitialAdapter;
+    #
+    # invoke-static {p1}, Lcom/vungle/mediation/VungleInterstitialAdapter;->access$100(Lcom/vungle/mediation/VungleInterstitialAdapter;)Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;
+    #
+    # move-result-object v0
+    #
+    # if-eqz v0, :cond_0
+    #
+    # invoke-static {p1}, Lcom/vungle/mediation/VungleInterstitialAdapter;->access$100(Lcom/vungle/mediation/VungleInterstitialAdapter;)Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;
+    #
+    # move-result-object v0
+    #
+    # invoke-interface {v0, p1}, Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;->onAdOpened(Lcom/google/android/gms/ads/mediation/MediationInterstitialAdapter;)V
 
-    invoke-static {p1}, Lcom/vungle/mediation/VungleInterstitialAdapter;->access$100(Lcom/vungle/mediation/VungleInterstitialAdapter;)Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    invoke-static {p1}, Lcom/vungle/mediation/VungleInterstitialAdapter;->access$100(Lcom/vungle/mediation/VungleInterstitialAdapter;)Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;
-
-    move-result-object v0
-
-    invoke-interface {v0, p1}, Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;->onAdOpened(Lcom/google/android/gms/ads/mediation/MediationInterstitialAdapter;)V
-
-    :cond_0
+    # :cond_0
     return-void
 .end method
 
@@ -145,32 +145,32 @@
 .method public final onError(Ljava/lang/String;Lcom/vungle/warren/error/a;)V
     .locals 0
 
-    invoke-static {p2}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->getAdError(Lcom/vungle/warren/error/a;)Lcom/google/android/gms/ads/AdError;
-
-    move-result-object p1
-
-    sget-object p2, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
-
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-static {p2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    iget-object p1, p0, Lcom/vungle/mediation/VungleInterstitialAdapter$c;->c:Lcom/vungle/mediation/VungleInterstitialAdapter;
-
-    invoke-static {p1}, Lcom/vungle/mediation/VungleInterstitialAdapter;->access$100(Lcom/vungle/mediation/VungleInterstitialAdapter;)Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;
-
-    move-result-object p2
-
-    if-eqz p2, :cond_0
-
-    invoke-static {p1}, Lcom/vungle/mediation/VungleInterstitialAdapter;->access$100(Lcom/vungle/mediation/VungleInterstitialAdapter;)Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;
-
-    move-result-object p2
-
-    invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;->onAdClosed(Lcom/google/android/gms/ads/mediation/MediationInterstitialAdapter;)V
-
-    :cond_0
+    # invoke-static {p2}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->getAdError(Lcom/vungle/warren/error/a;)Lcom/google/android/gms/ads/AdError;
+    #
+    # move-result-object p1
+    #
+    # sget-object p2, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
+    #
+    # invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
+    #
+    # move-result-object p1
+    #
+    # invoke-static {p2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # iget-object p1, p0, Lcom/vungle/mediation/VungleInterstitialAdapter$c;->c:Lcom/vungle/mediation/VungleInterstitialAdapter;
+    #
+    # invoke-static {p1}, Lcom/vungle/mediation/VungleInterstitialAdapter;->access$100(Lcom/vungle/mediation/VungleInterstitialAdapter;)Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;
+    #
+    # move-result-object p2
+    #
+    # if-eqz p2, :cond_0
+    #
+    # invoke-static {p1}, Lcom/vungle/mediation/VungleInterstitialAdapter;->access$100(Lcom/vungle/mediation/VungleInterstitialAdapter;)Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;
+    #
+    # move-result-object p2
+    #
+    # invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationInterstitialListener;->onAdClosed(Lcom/google/android/gms/ads/mediation/MediationInterstitialAdapter;)V
+    #
+    # :cond_0
     return-void
 .end method
