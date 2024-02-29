@@ -15,9 +15,9 @@
             <action android:name="android.media.action.VIDEO_CAPTURE"/>
         </intent>
         <package android:name="com.facebook.katana"/>
-        <intent>
+        <!-- <intent> -->
             <!-- <action android:name="com.android.vending.billing.InAppBillingService.BIND"/> -->
-        </intent>
+        <!-- </intent> -->
         <package android:name="com.android.vending"/>
         <package android:name="com.amazon.venezia"/>
         <package android:name="com.sec.android.app.samsungapps"/>
