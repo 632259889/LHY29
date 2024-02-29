@@ -512,33 +512,33 @@
 .method private final f()V
     .locals 2
 
-    .line 1
-    iget-object v0, p0, Landroidx/activity/i;->d:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    check-cast v0, Lcom/facebook/login/g;
-
-    .line 4
-    .line 5
-    sget v1, Lcom/facebook/login/g;->n:I
-
-    .line 6
-    .line 7
-    const-string v1, "this$0"
-
-    .line 8
-    .line 9
-    invoke-static {v0, v1}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 10
-    .line 11
-    .line 12
-    invoke-virtual {v0}, Lcom/facebook/login/g;->i()V
-
-    .line 13
-    .line 14
-    .line 15
+    # .line 1
+    # iget-object v0, p0, Landroidx/activity/i;->d:Ljava/lang/Object;
+    #
+    # .line 2
+    # .line 3
+    # check-cast v0, Lcom/facebook/login/g;
+    #
+    # .line 4
+    # .line 5
+    # sget v1, Lcom/facebook/login/g;->n:I
+    #
+    # .line 6
+    # .line 7
+    # const-string v1, "this$0"
+    #
+    # .line 8
+    # .line 9
+    # invoke-static {v0, v1}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 10
+    # .line 11
+    # .line 12
+    # invoke-virtual {v0}, Lcom/facebook/login/g;->i()V
+    #
+    # .line 13
+    # .line 14
+    # .line 15
     return-void
 .end method
 

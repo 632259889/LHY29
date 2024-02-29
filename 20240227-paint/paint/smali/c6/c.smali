@@ -28,32 +28,32 @@
     .locals 2
 
     .line 1
-    check-cast p1, Landroidx/activity/result/a;
-
-    .line 2
-    .line 3
-    sget v0, Lcom/facebook/login/q;->h:I
-
-    .line 4
-    .line 5
-    const-string v0, "$tmp0"
-
-    .line 6
-    .line 7
-    iget-object v1, p0, Lc6/c;->c:Lth/l;
-
-    .line 8
-    .line 9
-    invoke-static {v1, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 10
-    .line 11
-    .line 12
-    invoke-interface {v1, p1}, Lth/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 13
-    .line 14
-    .line 15
+    # check-cast p1, Landroidx/activity/result/a;
+    #
+    # .line 2
+    # .line 3
+    # sget v0, Lcom/facebook/login/q;->h:I
+    #
+    # .line 4
+    # .line 5
+    # const-string v0, "$tmp0"
+    #
+    # .line 6
+    # .line 7
+    # iget-object v1, p0, Lc6/c;->c:Lth/l;
+    #
+    # .line 8
+    # .line 9
+    # invoke-static {v1, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 10
+    # .line 11
+    # .line 12
+    # invoke-interface {v1, p1}, Lth/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    #
+    # .line 13
+    # .line 14
+    # .line 15
     return-void
 .end method
 

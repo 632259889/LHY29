@@ -1751,217 +1751,217 @@
     return-object v1
 .end method
 
-.method public final c(Lcom/facebook/internal/w$e;Ljava/lang/String;Ljava/util/Collection;Ljava/lang/String;ZLcom/facebook/login/d;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;ZLcom/facebook/login/u;ZZLjava/lang/String;)Landroid/content/Intent;
-    .locals 6
-
-    invoke-static {p0}, Li8/a;->b(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    const/4 v1, 0x0
-
-    if-eqz v0, :cond_0
-
-    return-object v1
-
-    :cond_0
-    :try_start_0
-    invoke-virtual {p1}, Lcom/facebook/internal/w$e;->b()Ljava/lang/String;
-
-    move-result-object v0
-
-    if-nez v0, :cond_1
-
-    return-object v1
-
-    :cond_1
-    new-instance v2, Landroid/content/Intent;
-
-    invoke-direct {v2}, Landroid/content/Intent;-><init>()V
-
-    invoke-virtual {p1}, Lcom/facebook/internal/w$e;->c()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3, v0}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    move-result-object v0
-
-    const-string v2, "client_id"
-
-    move-object v3, p2
-
-    invoke-virtual {v0, v2, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    move-result-object v0
-
-    const-string v2, "Intent()\n            .setClassName(appInfo.getPackage(), activityName)\n            .putExtra(FACEBOOK_PROXY_AUTH_APP_ID_KEY, applicationId)"
-
-    invoke-static {v0, v2}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v2, "facebook_sdk_version"
-
-    sget-object v3, Lq7/r;->a:Lq7/r;
-
-    const-string v3, "16.1.3"
-
-    invoke-virtual {v0, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    sget-object v2, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
-
-    .line 1
-    invoke-interface {p3}, Ljava/util/Collection;->isEmpty()Z
-
-    move-result v2
-
-    const/4 v3, 0x1
-
-    if-eqz v2, :cond_2
-
-    const/4 v2, 0x1
-
-    goto :goto_0
-
-    :cond_2
-    const/4 v2, 0x0
-
-    :goto_0
-    if-nez v2, :cond_3
-
-    const-string v2, "scope"
-
-    const-string v4, ","
-
-    .line 2
-    move-object v5, p3
-
-    check-cast v5, Ljava/lang/Iterable;
-
-    invoke-static {v4, v5}, Landroid/text/TextUtils;->join(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    :cond_3
-    invoke-static {p4}, Lcom/facebook/internal/e0;->z(Ljava/lang/String;)Z
-
-    move-result v2
-
-    if-nez v2, :cond_4
-
-    const-string v2, "e2e"
-
-    move-object v4, p4
-
-    invoke-virtual {v0, v2, p4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    :cond_4
-    const-string v2, "state"
-
-    move-object v4, p7
-
-    invoke-virtual {v0, v2, p7}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    const-string v2, "response_type"
-
-    invoke-virtual {p1}, Lcom/facebook/internal/w$e;->d()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    const-string v2, "nonce"
-
-    move-object/from16 v4, p15
-
-    invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    const-string v2, "return_scopes"
-
-    const-string v4, "true"
-
-    invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    if-eqz p5, :cond_5
-
-    const-string v2, "default_audience"
-
-    move-object v4, p6
-
-    .line 3
-    iget-object v4, v4, Lcom/facebook/login/d;->c:Ljava/lang/String;
-
-    .line 4
-    invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    :cond_5
-    const-string v2, "legacy_override"
-
-    invoke-static {}, Lq7/r;->d()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    const-string v2, "auth_type"
-
-    move-object v4, p8
-
-    invoke-virtual {v0, v2, p8}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    if-eqz p9, :cond_6
-
-    const-string v2, "fail_on_logged_out"
-
-    invoke-virtual {v0, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
-
-    :cond_6
-    const-string v2, "messenger_page_id"
-
-    move-object/from16 v4, p10
-
-    invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    const-string v2, "reset_messenger_state"
-
-    move/from16 v4, p11
-
-    invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
-
-    if-eqz p13, :cond_7
-
-    const-string v2, "fx_app"
-
-    move-object/from16 v4, p12
-
-    .line 5
-    iget-object v4, v4, Lcom/facebook/login/u;->c:Ljava/lang/String;
-
-    .line 6
-    invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    :cond_7
-    if-eqz p14, :cond_8
-
-    const-string v2, "skip_dedupe"
-
-    invoke-virtual {v0, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    :cond_8
-    return-object v0
-
-    :catchall_0
-    move-exception v0
-
-    move-object v2, p0
-
-    invoke-static {p0, v0}, Li8/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V
-
-    return-object v1
-.end method
+# .method public final c(Lcom/facebook/internal/w$e;Ljava/lang/String;Ljava/util/Collection;Ljava/lang/String;ZLcom/facebook/login/d;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;ZLcom/facebook/login/u;ZZLjava/lang/String;)Landroid/content/Intent;
+#     .locals 6
+#
+#     invoke-static {p0}, Li8/a;->b(Ljava/lang/Object;)Z
+#
+#     move-result v0
+#
+#     const/4 v1, 0x0
+#
+#     if-eqz v0, :cond_0
+#
+#     return-object v1
+#
+#     :cond_0
+#     :try_start_0
+#     invoke-virtual {p1}, Lcom/facebook/internal/w$e;->b()Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     if-nez v0, :cond_1
+#
+#     return-object v1
+#
+#     :cond_1
+#     new-instance v2, Landroid/content/Intent;
+#
+#     invoke-direct {v2}, Landroid/content/Intent;-><init>()V
+#
+#     invoke-virtual {p1}, Lcom/facebook/internal/w$e;->c()Ljava/lang/String;
+#
+#     move-result-object v3
+#
+#     invoke-virtual {v2, v3, v0}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+#
+#     move-result-object v0
+#
+#     const-string v2, "client_id"
+#
+#     move-object v3, p2
+#
+#     invoke-virtual {v0, v2, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+#
+#     move-result-object v0
+#
+#     const-string v2, "Intent()\n            .setClassName(appInfo.getPackage(), activityName)\n            .putExtra(FACEBOOK_PROXY_AUTH_APP_ID_KEY, applicationId)"
+#
+#     invoke-static {v0, v2}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     const-string v2, "facebook_sdk_version"
+#
+#     sget-object v3, Lq7/r;->a:Lq7/r;
+#
+#     const-string v3, "16.1.3"
+#
+#     invoke-virtual {v0, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+#
+#     sget-object v2, Lcom/facebook/internal/e0;->a:Lcom/facebook/internal/e0;
+#
+#     .line 1
+#     invoke-interface {p3}, Ljava/util/Collection;->isEmpty()Z
+#
+#     move-result v2
+#
+#     const/4 v3, 0x1
+#
+#     if-eqz v2, :cond_2
+#
+#     const/4 v2, 0x1
+#
+#     goto :goto_0
+#
+#     :cond_2
+#     const/4 v2, 0x0
+#
+#     :goto_0
+#     if-nez v2, :cond_3
+#
+#     const-string v2, "scope"
+#
+#     const-string v4, ","
+#
+#     .line 2
+#     move-object v5, p3
+#
+#     check-cast v5, Ljava/lang/Iterable;
+#
+#     invoke-static {v4, v5}, Landroid/text/TextUtils;->join(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+#
+#     :cond_3
+#     invoke-static {p4}, Lcom/facebook/internal/e0;->z(Ljava/lang/String;)Z
+#
+#     move-result v2
+#
+#     if-nez v2, :cond_4
+#
+#     const-string v2, "e2e"
+#
+#     move-object v4, p4
+#
+#     invoke-virtual {v0, v2, p4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+#
+#     :cond_4
+#     const-string v2, "state"
+#
+#     move-object v4, p7
+#
+#     invoke-virtual {v0, v2, p7}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+#
+#     const-string v2, "response_type"
+#
+#     invoke-virtual {p1}, Lcom/facebook/internal/w$e;->d()Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+#
+#     const-string v2, "nonce"
+#
+#     move-object/from16 v4, p15
+#
+#     invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+#
+#     const-string v2, "return_scopes"
+#
+#     const-string v4, "true"
+#
+#     invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+#
+#     if-eqz p5, :cond_5
+#
+#     const-string v2, "default_audience"
+#
+#     move-object v4, p6
+#
+#     .line 3
+#     iget-object v4, v4, Lcom/facebook/login/d;->c:Ljava/lang/String;
+#
+#     .line 4
+#     invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+#
+#     :cond_5
+#     const-string v2, "legacy_override"
+#
+#     invoke-static {}, Lq7/r;->d()Ljava/lang/String;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+#
+#     const-string v2, "auth_type"
+#
+#     move-object v4, p8
+#
+#     invoke-virtual {v0, v2, p8}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+#
+#     if-eqz p9, :cond_6
+#
+#     const-string v2, "fail_on_logged_out"
+#
+#     invoke-virtual {v0, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+#
+#     :cond_6
+#     const-string v2, "messenger_page_id"
+#
+#     move-object/from16 v4, p10
+#
+#     invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+#
+#     const-string v2, "reset_messenger_state"
+#
+#     move/from16 v4, p11
+#
+#     invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+#
+#     if-eqz p13, :cond_7
+#
+#     const-string v2, "fx_app"
+#
+#     move-object/from16 v4, p12
+#
+#     .line 5
+#     iget-object v4, v4, Lcom/facebook/login/u;->c:Ljava/lang/String;
+#
+#     .line 6
+#     invoke-virtual {v0, v2, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+#
+#     :cond_7
+#     if-eqz p14, :cond_8
+#
+#     const-string v2, "skip_dedupe"
+#
+#     invoke-virtual {v0, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+#     :try_end_0
+#     .catchall {:try_start_0 .. :try_end_0} :catchall_0
+#
+#     :cond_8
+#     return-object v0
+#
+#     :catchall_0
+#     move-exception v0
+#
+#     move-object v2, p0
+#
+#     invoke-static {p0, v0}, Li8/a;->a(Ljava/lang/Object;Ljava/lang/Throwable;)V
+#
+#     return-object v1
+# .end method
 
 .method public final f(Lcom/facebook/internal/w$e;)Ljava/util/TreeSet;
     .locals 13

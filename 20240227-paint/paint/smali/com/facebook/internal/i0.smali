@@ -46,172 +46,172 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;Lcom/facebook/login/u;Lcom/facebook/internal/i0$c;)V
-    .locals 4
-
-    .line 1
-    invoke-static {}, Lcom/facebook/internal/f0;->e()V
-
-    .line 2
-    sget v0, Lcom/facebook/internal/i0;->o:I
-
-    .line 3
-    invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
-
-    const-string v0, "fbconnect://success"
-
-    iput-object v0, p0, Lcom/facebook/internal/i0;->d:Ljava/lang/String;
-
-    if-nez p3, :cond_0
-
-    new-instance p3, Landroid/os/Bundle;
-
-    invoke-direct {p3}, Landroid/os/Bundle;-><init>()V
-
-    :cond_0
-    invoke-static {p1}, Lcom/facebook/internal/e0;->w(Landroid/content/Context;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_1
-
-    const-string v0, "fbconnect://chrome_os_success"
-
-    :cond_1
-    iput-object v0, p0, Lcom/facebook/internal/i0;->d:Ljava/lang/String;
-
-    const-string p1, "redirect_uri"
-
-    invoke-virtual {p3, p1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string p1, "display"
-
-    const-string v0, "touch"
-
-    invoke-virtual {p3, p1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-static {}, Lq7/r;->b()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string v0, "client_id"
-
-    invoke-virtual {p3, v0, p1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    sget-object p1, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
-
-    const/4 v0, 0x1
-
-    new-array v1, v0, [Ljava/lang/Object;
-
-    const/4 v2, 0x0
-
-    const-string v3, "16.1.3"
-
-    aput-object v3, v1, v2
-
-    invoke-static {v1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
-
-    move-result-object v1
-
-    const-string v2, "android-%s"
-
-    invoke-static {p1, v2, v1}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string v1, "java.lang.String.format(locale, format, *args)"
-
-    invoke-static {p1, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v1, "sdk"
-
-    invoke-virtual {p3, v1, p1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    iput-object p5, p0, Lcom/facebook/internal/i0;->e:Lcom/facebook/internal/i0$c;
-
-    const-string p1, "share"
-
-    invoke-static {p2, p1}, Luh/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_2
-
-    const-string p1, "media"
-
-    invoke-virtual {p3, p1}, Landroid/os/BaseBundle;->containsKey(Ljava/lang/String;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_2
-
-    new-instance p1, Lcom/facebook/internal/i0$d;
-
-    invoke-direct {p1, p0, p2, p3}, Lcom/facebook/internal/i0$d;-><init>(Lcom/facebook/internal/i0;Ljava/lang/String;Landroid/os/Bundle;)V
-
-    iput-object p1, p0, Lcom/facebook/internal/i0;->j:Lcom/facebook/internal/i0$d;
-
-    goto :goto_1
-
-    :cond_2
-    sget-object p1, Lcom/facebook/internal/i0$e;->a:[I
-
-    invoke-virtual {p4}, Ljava/lang/Enum;->ordinal()I
-
-    move-result p4
-
-    aget p1, p1, p4
-
-    if-ne p1, v0, :cond_3
-
-    invoke-static {}, Lcom/facebook/internal/a0;->b()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string p2, "oauth/authorize"
-
-    goto :goto_0
-
-    :cond_3
-    invoke-static {}, Lcom/facebook/internal/a0;->a()Ljava/lang/String;
-
-    move-result-object p1
-
-    new-instance p4, Ljava/lang/StringBuilder;
-
-    invoke-direct {p4}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-static {}, Lq7/r;->d()Ljava/lang/String;
-
-    move-result-object p5
-
-    invoke-virtual {p4, p5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string p5, "/dialog/"
-
-    invoke-virtual {p4, p5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p4, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p2
-
-    :goto_0
-    invoke-static {p3, p1, p2}, Lcom/facebook/internal/e0;->b(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    iput-object p1, p0, Lcom/facebook/internal/i0;->c:Ljava/lang/String;
-
-    :goto_1
-    return-void
-.end method
+# .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;Lcom/facebook/login/u;Lcom/facebook/internal/i0$c;)V
+#     .locals 4
+#
+#     .line 1
+#     invoke-static {}, Lcom/facebook/internal/f0;->e()V
+#
+#     .line 2
+#     sget v0, Lcom/facebook/internal/i0;->o:I
+#
+#     .line 3
+#     invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
+#
+#     const-string v0, "fbconnect://success"
+#
+#     iput-object v0, p0, Lcom/facebook/internal/i0;->d:Ljava/lang/String;
+#
+#     if-nez p3, :cond_0
+#
+#     new-instance p3, Landroid/os/Bundle;
+#
+#     invoke-direct {p3}, Landroid/os/Bundle;-><init>()V
+#
+#     :cond_0
+#     invoke-static {p1}, Lcom/facebook/internal/e0;->w(Landroid/content/Context;)Z
+#
+#     move-result p1
+#
+#     if-eqz p1, :cond_1
+#
+#     const-string v0, "fbconnect://chrome_os_success"
+#
+#     :cond_1
+#     iput-object v0, p0, Lcom/facebook/internal/i0;->d:Ljava/lang/String;
+#
+#     const-string p1, "redirect_uri"
+#
+#     invoke-virtual {p3, p1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+#
+#     const-string p1, "display"
+#
+#     const-string v0, "touch"
+#
+#     invoke-virtual {p3, p1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+#
+#     invoke-static {}, Lq7/r;->b()Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     const-string v0, "client_id"
+#
+#     invoke-virtual {p3, v0, p1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+#
+#     sget-object p1, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
+#
+#     const/4 v0, 0x1
+#
+#     new-array v1, v0, [Ljava/lang/Object;
+#
+#     const/4 v2, 0x0
+#
+#     const-string v3, "16.1.3"
+#
+#     aput-object v3, v1, v2
+#
+#     invoke-static {v1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+#
+#     move-result-object v1
+#
+#     const-string v2, "android-%s"
+#
+#     invoke-static {p1, v2, v1}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     const-string v1, "java.lang.String.format(locale, format, *args)"
+#
+#     invoke-static {p1, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     const-string v1, "sdk"
+#
+#     invoke-virtual {p3, v1, p1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+#
+#     iput-object p5, p0, Lcom/facebook/internal/i0;->e:Lcom/facebook/internal/i0$c;
+#
+#     const-string p1, "share"
+#
+#     invoke-static {p2, p1}, Luh/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+#
+#     move-result p1
+#
+#     if-eqz p1, :cond_2
+#
+#     const-string p1, "media"
+#
+#     invoke-virtual {p3, p1}, Landroid/os/BaseBundle;->containsKey(Ljava/lang/String;)Z
+#
+#     move-result p1
+#
+#     if-eqz p1, :cond_2
+#
+#     new-instance p1, Lcom/facebook/internal/i0$d;
+#
+#     invoke-direct {p1, p0, p2, p3}, Lcom/facebook/internal/i0$d;-><init>(Lcom/facebook/internal/i0;Ljava/lang/String;Landroid/os/Bundle;)V
+#
+#     iput-object p1, p0, Lcom/facebook/internal/i0;->j:Lcom/facebook/internal/i0$d;
+#
+#     goto :goto_1
+#
+#     :cond_2
+#     sget-object p1, Lcom/facebook/internal/i0$e;->a:[I
+#
+#     invoke-virtual {p4}, Ljava/lang/Enum;->ordinal()I
+#
+#     move-result p4
+#
+#     aget p1, p1, p4
+#
+#     if-ne p1, v0, :cond_3
+#
+#     invoke-static {}, Lcom/facebook/internal/a0;->b()Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     const-string p2, "oauth/authorize"
+#
+#     goto :goto_0
+#
+#     :cond_3
+#     invoke-static {}, Lcom/facebook/internal/a0;->a()Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     new-instance p4, Ljava/lang/StringBuilder;
+#
+#     invoke-direct {p4}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     invoke-static {}, Lq7/r;->d()Ljava/lang/String;
+#
+#     move-result-object p5
+#
+#     invoke-virtual {p4, p5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     const-string p5, "/dialog/"
+#
+#     invoke-virtual {p4, p5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     invoke-virtual {p4, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     invoke-virtual {p4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object p2
+#
+#     :goto_0
+#     invoke-static {p3, p1, p2}, Lcom/facebook/internal/e0;->b(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
+#
+#     move-result-object p1
+#
+#     invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
+#
+#     move-result-object p1
+#
+#     iput-object p1, p0, Lcom/facebook/internal/i0;->c:Ljava/lang/String;
+#
+#     :goto_1
+#     return-void
+# .end method
 
 .method public constructor <init>(Landroidx/fragment/app/l;Ljava/lang/String;)V
     .locals 1
