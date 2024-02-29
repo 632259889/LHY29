@@ -1632,102 +1632,102 @@
 .method public final j(IILandroid/content/Intent;)V
     .locals 3
 
-    .line 1
-    iget v0, p0, Lcom/facebook/login/o;->m:I
-
-    .line 2
-    .line 3
-    add-int/lit8 v0, v0, 0x1
-
-    .line 4
-    .line 5
-    iput v0, p0, Lcom/facebook/login/o;->m:I
-
-    .line 6
-    .line 7
-    iget-object v0, p0, Lcom/facebook/login/o;->i:Lcom/facebook/login/o$d;
-
-    .line 8
-    .line 9
-    if-eqz v0, :cond_2
-
-    .line 10
-    .line 11
-    if-eqz p3, :cond_0
-
-    .line 12
-    .line 13
-    sget-object v0, Lcom/facebook/CustomTabMainActivity;->k:Ljava/lang/String;
-
-    .line 14
-    .line 15
-    const/4 v1, 0x0
-
-    .line 16
-    invoke-virtual {p3, v0, v1}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
-
-    .line 17
-    .line 18
-    .line 19
-    move-result v0
-
-    .line 20
-    if-eqz v0, :cond_0
-
-    .line 21
-    .line 22
-    invoke-virtual {p0}, Lcom/facebook/login/o;->k()V
-
-    .line 23
-    .line 24
-    .line 25
-    return-void
-
-    .line 26
-    :cond_0
-    invoke-virtual {p0}, Lcom/facebook/login/o;->g()Lcom/facebook/login/t;
-
-    .line 27
-    .line 28
-    .line 29
-    move-result-object v0
-
-    .line 30
-    if-eqz v0, :cond_2
-
-    .line 31
-    .line 32
-    instance-of v1, v0, Lcom/facebook/login/m;
-
-    .line 33
-    .line 34
-    if-eqz v1, :cond_1
-
-    .line 35
-    .line 36
-    if-nez p3, :cond_1
-
-    .line 37
-    .line 38
-    iget v1, p0, Lcom/facebook/login/o;->m:I
-
-    .line 39
-    .line 40
-    iget v2, p0, Lcom/facebook/login/o;->n:I
-
-    .line 41
-    .line 42
-    if-lt v1, v2, :cond_2
-
-    .line 43
-    .line 44
-    :cond_1
-    invoke-virtual {v0, p1, p2, p3}, Lcom/facebook/login/t;->i(IILandroid/content/Intent;)Z
-
-    .line 45
-    .line 46
-    .line 47
-    :cond_2
+    # .line 1
+    # iget v0, p0, Lcom/facebook/login/o;->m:I
+    #
+    # .line 2
+    # .line 3
+    # add-int/lit8 v0, v0, 0x1
+    #
+    # .line 4
+    # .line 5
+    # iput v0, p0, Lcom/facebook/login/o;->m:I
+    #
+    # .line 6
+    # .line 7
+    # iget-object v0, p0, Lcom/facebook/login/o;->i:Lcom/facebook/login/o$d;
+    #
+    # .line 8
+    # .line 9
+    # if-eqz v0, :cond_2
+    #
+    # .line 10
+    # .line 11
+    # if-eqz p3, :cond_0
+    #
+    # .line 12
+    # .line 13
+    # sget-object v0, Lcom/facebook/CustomTabMainActivity;->k:Ljava/lang/String;
+    #
+    # .line 14
+    # .line 15
+    # const/4 v1, 0x0
+    #
+    # .line 16
+    # invoke-virtual {p3, v0, v1}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
+    #
+    # .line 17
+    # .line 18
+    # .line 19
+    # move-result v0
+    #
+    # .line 20
+    # if-eqz v0, :cond_0
+    #
+    # .line 21
+    # .line 22
+    # invoke-virtual {p0}, Lcom/facebook/login/o;->k()V
+    #
+    # .line 23
+    # .line 24
+    # .line 25
+    # return-void
+    #
+    # .line 26
+    # :cond_0
+    # invoke-virtual {p0}, Lcom/facebook/login/o;->g()Lcom/facebook/login/t;
+    #
+    # .line 27
+    # .line 28
+    # .line 29
+    # move-result-object v0
+    #
+    # .line 30
+    # if-eqz v0, :cond_2
+    #
+    # .line 31
+    # .line 32
+    # instance-of v1, v0, Lcom/facebook/login/m;
+    #
+    # .line 33
+    # .line 34
+    # if-eqz v1, :cond_1
+    #
+    # .line 35
+    # .line 36
+    # if-nez p3, :cond_1
+    #
+    # .line 37
+    # .line 38
+    # iget v1, p0, Lcom/facebook/login/o;->m:I
+    #
+    # .line 39
+    # .line 40
+    # iget v2, p0, Lcom/facebook/login/o;->n:I
+    #
+    # .line 41
+    # .line 42
+    # if-lt v1, v2, :cond_2
+    #
+    # .line 43
+    # .line 44
+    # :cond_1
+    # invoke-virtual {v0, p1, p2, p3}, Lcom/facebook/login/t;->i(IILandroid/content/Intent;)Z
+    #
+    # .line 45
+    # .line 46
+    # .line 47
+    # :cond_2
     return-void
 .end method
 
