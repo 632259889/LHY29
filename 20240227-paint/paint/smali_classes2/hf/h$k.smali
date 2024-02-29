@@ -42,7 +42,7 @@
     .locals 4
 
     .line 1
-    new-instance v0, Lcom/vungle/warren/error/a;
+    # new-instance v0, Lcom/vungle/warren/error/a;
 
     .line 2
     .line 3
@@ -50,7 +50,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Lcom/vungle/warren/error/a;-><init>(I)V
+    # invoke-direct {v0, v1}, Lcom/vungle/warren/error/a;-><init>(I)V
 
     .line 6
     .line 7

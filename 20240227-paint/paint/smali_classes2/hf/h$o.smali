@@ -139,7 +139,7 @@
     .line 48
     .line 49
     :try_start_0
-    invoke-static {v3}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
+    # invoke-static {v3}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -194,7 +194,7 @@
     .line 73
     .line 74
     :try_start_1
-    invoke-static {v3}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
+    # invoke-static {v3}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -277,7 +277,7 @@
     .line 113
     .line 114
     .line 115
-    invoke-static {v1}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
+    # invoke-static {v1}, Lcom/vungle/warren/utility/j;->b(Ljava/io/File;)V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_2
 

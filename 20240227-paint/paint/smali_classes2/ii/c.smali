@@ -1348,12 +1348,13 @@
 
     .line 35
     .line 36
-    invoke-static {p1, v2, v1}, Lcom/vungle/warren/utility/e;->m(CCZ)Z
+    # invoke-static {p1, v2, v1}, Lcom/vungle/warren/utility/e;->m(CCZ)Z
 
     .line 37
     .line 38
     .line 39
-    move-result p1
+    # move-result p1
+    const/4 p1,0x1
 
     .line 40
     if-eqz p1, :cond_1

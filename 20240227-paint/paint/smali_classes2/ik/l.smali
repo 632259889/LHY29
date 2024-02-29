@@ -1,8 +1,8 @@
 .class public Lik/l;
-.super Lcom/vungle/warren/utility/e;
+.super  Ljava/lang/Object;
 .source "SourceFile"
 
-
+# Lcom/vungle/warren/utility/e;
 # direct methods
 .method public static final h0(Lik/h;)Lik/f;
     .locals 3

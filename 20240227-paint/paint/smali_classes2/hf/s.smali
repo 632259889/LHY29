@@ -372,7 +372,7 @@
     move-result-object v0
 
     .line 152
-    invoke-static {v2, v3, v0}, Lcom/vungle/warren/VungleLogger;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v2, v3, v0}, Lcom/vungle/warren/VungleLogger;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 153
     .line 154
