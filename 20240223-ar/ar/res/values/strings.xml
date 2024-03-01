@@ -225,7 +225,7 @@
     <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
     <string name="permission_camera_denied">Camera permission is needed to take a picture. Please allow permission from Settings > Permissions.</string>
-    <string name="privacy_policy">https://sites.google.com/view/kine-drawble</string>
+    <string name="privacy_policy">https://sites.google.com/view/shading-drawing</string>
     <string name="s1">Save image</string>
     <string name="s2">Allow Ad to store image in Picture gallery?</string>
     <string name="s3">Accept</string>
