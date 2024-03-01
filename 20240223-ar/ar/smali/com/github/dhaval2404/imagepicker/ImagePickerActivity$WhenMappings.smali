@@ -32,7 +32,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Lcom/paint/draw/show/dhaval2404/imagepicker/constant/ImageProvider;->values()[Lcom/paint/draw/show/dhaval2404/imagepicker/constant/ImageProvider;
+    invoke-static {}, Lcom/shading/dr/show/dhaval2404/imagepicker/constant/ImageProvider;->values()[Lcom/shading/dr/show/dhaval2404/imagepicker/constant/ImageProvider;
 
     move-result-object v0
 
@@ -41,9 +41,9 @@
     new-array v0, v0, [I
 
     :try_start_0
-    sget-object v1, Lcom/paint/draw/show/dhaval2404/imagepicker/constant/ImageProvider;->GALLERY:Lcom/paint/draw/show/dhaval2404/imagepicker/constant/ImageProvider;
+    sget-object v1, Lcom/shading/dr/show/dhaval2404/imagepicker/constant/ImageProvider;->GALLERY:Lcom/shading/dr/show/dhaval2404/imagepicker/constant/ImageProvider;
 
-    invoke-virtual {v1}, Lcom/paint/draw/show/dhaval2404/imagepicker/constant/ImageProvider;->ordinal()I
+    invoke-virtual {v1}, Lcom/shading/dr/show/dhaval2404/imagepicker/constant/ImageProvider;->ordinal()I
 
     move-result v1
 
@@ -55,9 +55,9 @@
 
     :catch_0
     :try_start_1
-    sget-object v1, Lcom/paint/draw/show/dhaval2404/imagepicker/constant/ImageProvider;->CAMERA:Lcom/paint/draw/show/dhaval2404/imagepicker/constant/ImageProvider;
+    sget-object v1, Lcom/shading/dr/show/dhaval2404/imagepicker/constant/ImageProvider;->CAMERA:Lcom/shading/dr/show/dhaval2404/imagepicker/constant/ImageProvider;
 
-    invoke-virtual {v1}, Lcom/paint/draw/show/dhaval2404/imagepicker/constant/ImageProvider;->ordinal()I
+    invoke-virtual {v1}, Lcom/shading/dr/show/dhaval2404/imagepicker/constant/ImageProvider;->ordinal()I
 
     move-result v1
 
