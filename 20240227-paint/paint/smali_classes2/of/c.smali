@@ -50,20 +50,21 @@
     .line 10
     .line 11
     .line 12
-    iget-object p2, p1, Lof/a;->g:Lcom/vungle/warren/model/b;
-
-    .line 13
-    .line 14
-    iget-object p2, p2, Lcom/vungle/warren/model/b;->s:Ljava/lang/String;
-
-    .line 15
-    .line 16
-    invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    # iget-object p2, p1, Lof/a;->g:Lcom/vungle/warren/model/b;
+    #
+    # .line 13
+    # .line 14
+    # iget-object p2, p2, Lcom/vungle/warren/model/b;->s:Ljava/lang/String;
+    #
+    # .line 15
+    # .line 16
+    # invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 17
     .line 18
     .line 19
-    move-result p2
+    # move-result p2
+    const/4 p2,0x1
 
     .line 20
     xor-int/lit8 p2, p2, 0x1
