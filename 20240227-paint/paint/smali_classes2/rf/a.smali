@@ -13,17 +13,17 @@
 
 
 # direct methods
-.method public constructor <init>(Lrf/c;Lcom/vungle/warren/b2;)V
-    .locals 0
-
-    iput-object p1, p0, Lrf/a;->d:Lrf/c;
-
-    iput-object p2, p0, Lrf/a;->c:Lm1/a;
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
+# .method public constructor <init>(Lrf/c;Lcom/vungle/warren/b2;)V
+#     .locals 0
+#
+#     iput-object p1, p0, Lrf/a;->d:Lrf/c;
+#
+#     iput-object p2, p0, Lrf/a;->c:Lm1/a;
+#
+#     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+#
+#     return-void
+# .end method
 
 
 # virtual methods
@@ -73,7 +73,7 @@
     .line 20
     .line 21
     .line 22
-    new-instance v4, Lcom/vungle/warren/model/i;
+    # new-instance v4, Lcom/vungle/warren/model/i;
 
     .line 23
     .line 24
@@ -81,17 +81,17 @@
 
     .line 25
     .line 26
-    invoke-direct {v4, v5}, Lcom/vungle/warren/model/i;-><init>(Ljava/lang/String;)V
+    # invoke-direct {v4, v5}, Lcom/vungle/warren/model/i;-><init>(Ljava/lang/String;)V
 
     .line 27
     .line 28
     .line 29
-    invoke-virtual {v4, v1, v5}, Lcom/vungle/warren/model/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    # invoke-virtual {v4, v1, v5}, Lcom/vungle/warren/model/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v0, v4}, Lhf/h;->w(Ljava/lang/Object;)V
+    # invoke-virtual {v0, v4}, Lhf/h;->w(Ljava/lang/Object;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -117,7 +117,7 @@
 
     .line 42
     .line 43
-    invoke-static {v2, v1}, Lcom/vungle/warren/VungleLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v2, v1}, Lcom/vungle/warren/VungleLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 44
     .line 45
@@ -135,7 +135,7 @@
 
     .line 51
     .line 52
-    invoke-static {v2, v0}, Lcom/vungle/warren/VungleLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v2, v0}, Lcom/vungle/warren/VungleLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 53
     .line 54

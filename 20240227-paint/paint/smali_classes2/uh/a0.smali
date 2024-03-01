@@ -5044,7 +5044,7 @@
 
     .line 22
     .line 23
-    invoke-static {v7}, Lcom/vungle/warren/utility/e;->j(I)V
+    # invoke-static {v7}, Lcom/vungle/warren/utility/e;->j(I)V
 
     .line 24
     .line 25

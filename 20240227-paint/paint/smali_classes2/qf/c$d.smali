@@ -161,11 +161,11 @@
 
     .line 55
     .line 56
-    iget-object p1, p1, Lof/a;->f:Lcom/vungle/warren/model/l;
+    # iget-object p1, p1, Lof/a;->f:Lcom/vungle/warren/model/l;
 
     .line 57
     .line 58
-    invoke-direct {v1, v2, p1}, Lmf/f;-><init>(Lnf/b$a;Lcom/vungle/warren/model/l;)V
+    # invoke-direct {v1, v2, p1}, Lmf/f;-><init>(Lnf/b$a;Lcom/vungle/warren/model/l;)V
 
     .line 59
     .line 60

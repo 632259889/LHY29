@@ -524,12 +524,13 @@
     move-object v7, p4
 
     .line 19
-    invoke-static/range {v2 .. v7}, Lcom/vungle/warren/utility/i;->b(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Lmf/f;ZLmf/e;)Z
+    # invoke-static/range {v2 .. v7}, Lcom/vungle/warren/utility/i;->b(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Lmf/f;ZLmf/e;)Z
 
     .line 20
     .line 21
     .line 22
-    move-result p1
+    # move-result p1
+    const/4 p1,0x1
 
     .line 23
     if-nez p1, :cond_0
@@ -603,23 +604,23 @@
 .method public final setOrientation(I)V
     .locals 1
 
-    .line 1
-    iget-object v0, p0, Lqf/a;->c:Lmf/d;
-
-    .line 2
-    .line 3
-    check-cast v0, Lcom/vungle/warren/a$b;
-
-    .line 4
-    .line 5
-    iget-object v0, v0, Lcom/vungle/warren/a$b;->a:Lcom/vungle/warren/a;
-
-    .line 6
-    .line 7
-    invoke-virtual {v0, p1}, Lcom/vungle/warren/a;->setRequestedOrientation(I)V
-
-    .line 8
-    .line 9
-    .line 10
+    # .line 1
+    # iget-object v0, p0, Lqf/a;->c:Lmf/d;
+    #
+    # .line 2
+    # .line 3
+    # check-cast v0, Lcom/vungle/warren/a$b;
+    #
+    # .line 4
+    # .line 5
+    # iget-object v0, v0, Lcom/vungle/warren/a$b;->a:Lcom/vungle/warren/a;
+    #
+    # .line 6
+    # .line 7
+    # invoke-virtual {v0, p1}, Lcom/vungle/warren/a;->setRequestedOrientation(I)V
+    #
+    # .line 8
+    # .line 9
+    # .line 10
     return-void
 .end method

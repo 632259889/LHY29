@@ -81,7 +81,7 @@
 
     move-result-object p1
 
-    invoke-static {p2, p1}, Lcom/vungle/warren/VungleLogger;->h(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {p2, p1}, Lcom/vungle/warren/VungleLogger;->h(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void

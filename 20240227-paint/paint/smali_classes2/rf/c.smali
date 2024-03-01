@@ -13,11 +13,11 @@
 
 .field public final c:Lhf/h;
 
-.field public final d:Lcom/vungle/warren/utility/z;
+# .field public final d:Lcom/vungle/warren/utility/z;
 
 .field public final e:Ljava/lang/String;
 
-.field public final f:Lcom/vungle/warren/utility/x;
+# .field public final f:Lcom/vungle/warren/utility/x;
 
 .field public g:Ljava/lang/String;
 
@@ -27,210 +27,210 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lhf/h;Lcom/vungle/warren/utility/z;Lcom/vungle/warren/utility/x;)V
-    .locals 1
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    const-class v0, Lrf/c;
-
-    .line 5
-    .line 6
-    invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
-
-    .line 7
-    .line 8
-    .line 9
-    move-result-object v0
-
-    .line 10
-    iput-object v0, p0, Lrf/c;->e:Ljava/lang/String;
-
-    .line 11
-    .line 12
-    const/4 v0, 0x0
-
-    .line 13
-    iput-object v0, p0, Lrf/c;->h:Ltb/d;
-
-    .line 14
-    .line 15
-    iput-object p1, p0, Lrf/c;->b:Landroid/content/Context;
-
-    .line 16
-    .line 17
-    const-string v0, "power"
-
-    .line 18
-    .line 19
-    invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-
-    .line 20
-    .line 21
-    .line 22
-    move-result-object v0
-
-    .line 23
-    check-cast v0, Landroid/os/PowerManager;
-
-    .line 24
-    .line 25
-    iput-object v0, p0, Lrf/c;->a:Landroid/os/PowerManager;
-
-    .line 26
-    .line 27
-    iput-object p2, p0, Lrf/c;->c:Lhf/h;
-
-    .line 28
-    .line 29
-    iput-object p3, p0, Lrf/c;->d:Lcom/vungle/warren/utility/z;
-
-    .line 30
-    .line 31
-    iput-object p4, p0, Lrf/c;->f:Lcom/vungle/warren/utility/x;
-
-    .line 32
-    .line 33
-    :try_start_0
-    invoke-static {p1}, Lcom/google/android/gms/appset/AppSet;->getClient(Landroid/content/Context;)Lcom/google/android/gms/appset/AppSetIdClient;
-
-    .line 34
-    .line 35
-    .line 36
-    move-result-object p1
-
-    .line 37
-    invoke-interface {p1}, Lcom/google/android/gms/appset/AppSetIdClient;->getAppSetIdInfo()Lcom/google/android/gms/tasks/Task;
-
-    .line 38
-    .line 39
-    .line 40
-    move-result-object p1
-
-    .line 41
-    new-instance p2, Lrf/b;
-
-    .line 42
-    .line 43
-    invoke-direct {p2, p0}, Lrf/b;-><init>(Lrf/c;)V
-
-    .line 44
-    .line 45
-    .line 46
-    invoke-virtual {p1, p2}, Lcom/google/android/gms/tasks/Task;->addOnSuccessListener(Lcom/google/android/gms/tasks/OnSuccessListener;)Lcom/google/android/gms/tasks/Task;
-    :try_end_0
-    .catch Ljava/lang/NoClassDefFoundError; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 47
-    .line 48
-    .line 49
-    goto :goto_0
-
-    .line 50
-    :catch_0
-    move-exception p1
-
-    .line 51
-    new-instance p2, Ljava/lang/StringBuilder;
-
-    .line 52
-    .line 53
-    const-string p3, "Required libs to get AppSetID Not available: "
-
-    .line 54
-    .line 55
-    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    .line 56
-    .line 57
-    .line 58
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getLocalizedMessage()Ljava/lang/String;
-
-    .line 59
-    .line 60
-    .line 61
-    move-result-object p1
-
-    .line 62
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 63
-    .line 64
-    .line 65
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 66
-    .line 67
-    .line 68
-    move-result-object p1
-
-    .line 69
-    iget-object p2, p0, Lrf/c;->e:Ljava/lang/String;
-
-    .line 70
-    .line 71
-    invoke-static {p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 72
-    .line 73
-    .line 74
-    :goto_0
-    return-void
-.end method
+# .method public constructor <init>(Landroid/content/Context;Lhf/h;Lcom/vungle/warren/utility/z;Lcom/vungle/warren/utility/x;)V
+#     .locals 1
+#
+#     .line 1
+#     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+#
+#     .line 2
+#     .line 3
+#     .line 4
+#     const-class v0, Lrf/c;
+#
+#     .line 5
+#     .line 6
+#     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+#
+#     .line 7
+#     .line 8
+#     .line 9
+#     move-result-object v0
+#
+#     .line 10
+#     iput-object v0, p0, Lrf/c;->e:Ljava/lang/String;
+#
+#     .line 11
+#     .line 12
+#     const/4 v0, 0x0
+#
+#     .line 13
+#     iput-object v0, p0, Lrf/c;->h:Ltb/d;
+#
+#     .line 14
+#     .line 15
+#     iput-object p1, p0, Lrf/c;->b:Landroid/content/Context;
+#
+#     .line 16
+#     .line 17
+#     const-string v0, "power"
+#
+#     .line 18
+#     .line 19
+#     invoke-virtual {p1, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+#
+#     .line 20
+#     .line 21
+#     .line 22
+#     move-result-object v0
+#
+#     .line 23
+#     check-cast v0, Landroid/os/PowerManager;
+#
+#     .line 24
+#     .line 25
+#     iput-object v0, p0, Lrf/c;->a:Landroid/os/PowerManager;
+#
+#     .line 26
+#     .line 27
+#     iput-object p2, p0, Lrf/c;->c:Lhf/h;
+#
+#     .line 28
+#     .line 29
+#     iput-object p3, p0, Lrf/c;->d:Lcom/vungle/warren/utility/z;
+#
+#     .line 30
+#     .line 31
+#     iput-object p4, p0, Lrf/c;->f:Lcom/vungle/warren/utility/x;
+#
+#     .line 32
+#     .line 33
+#     :try_start_0
+#     invoke-static {p1}, Lcom/google/android/gms/appset/AppSet;->getClient(Landroid/content/Context;)Lcom/google/android/gms/appset/AppSetIdClient;
+#
+#     .line 34
+#     .line 35
+#     .line 36
+#     move-result-object p1
+#
+#     .line 37
+#     invoke-interface {p1}, Lcom/google/android/gms/appset/AppSetIdClient;->getAppSetIdInfo()Lcom/google/android/gms/tasks/Task;
+#
+#     .line 38
+#     .line 39
+#     .line 40
+#     move-result-object p1
+#
+#     .line 41
+#     new-instance p2, Lrf/b;
+#
+#     .line 42
+#     .line 43
+#     invoke-direct {p2, p0}, Lrf/b;-><init>(Lrf/c;)V
+#
+#     .line 44
+#     .line 45
+#     .line 46
+#     invoke-virtual {p1, p2}, Lcom/google/android/gms/tasks/Task;->addOnSuccessListener(Lcom/google/android/gms/tasks/OnSuccessListener;)Lcom/google/android/gms/tasks/Task;
+#     :try_end_0
+#     .catch Ljava/lang/NoClassDefFoundError; {:try_start_0 .. :try_end_0} :catch_0
+#
+#     .line 47
+#     .line 48
+#     .line 49
+#     goto :goto_0
+#
+#     .line 50
+#     :catch_0
+#     move-exception p1
+#
+#     .line 51
+#     new-instance p2, Ljava/lang/StringBuilder;
+#
+#     .line 52
+#     .line 53
+#     const-string p3, "Required libs to get AppSetID Not available: "
+#
+#     .line 54
+#     .line 55
+#     invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+#
+#     .line 56
+#     .line 57
+#     .line 58
+#     invoke-virtual {p1}, Ljava/lang/Throwable;->getLocalizedMessage()Ljava/lang/String;
+#
+#     .line 59
+#     .line 60
+#     .line 61
+#     move-result-object p1
+#
+#     .line 62
+#     invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     .line 63
+#     .line 64
+#     .line 65
+#     invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     .line 66
+#     .line 67
+#     .line 68
+#     move-result-object p1
+#
+#     .line 69
+#     iget-object p2, p0, Lrf/c;->e:Ljava/lang/String;
+#
+#     .line 70
+#     .line 71
+#     invoke-static {p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 72
+#     .line 73
+#     .line 74
+#     :goto_0
+#     return-void
+# .end method
 
 
 # virtual methods
-.method public final a()Ljava/lang/String;
-    .locals 3
-
-    const-class v0, Lcom/vungle/warren/model/i;
-
-    iget-object v1, p0, Lrf/c;->c:Lhf/h;
-
-    const-string v2, "userAgent"
-
-    invoke-virtual {v1, v0, v2}, Lhf/h;->p(Ljava/lang/Class;Ljava/lang/String;)Lhf/f;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lhf/f;->get()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/vungle/warren/model/i;
-
-    const-string v1, "http.agent"
-
-    if-nez v0, :cond_0
-
-    :goto_0
-    invoke-static {v1}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    goto :goto_1
-
-    :cond_0
-    invoke-virtual {v0, v2}, Lcom/vungle/warren/model/i;->c(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v2
-
-    if-eqz v2, :cond_1
-
-    goto :goto_0
-
-    :cond_1
-    :goto_1
-    return-object v0
-.end method
+# .method public final a()Ljava/lang/String;
+#     .locals 3
+#
+#     const-class v0, Lcom/vungle/warren/model/i;
+#
+#     iget-object v1, p0, Lrf/c;->c:Lhf/h;
+#
+#     const-string v2, "userAgent"
+#
+#     invoke-virtual {v1, v0, v2}, Lhf/h;->p(Ljava/lang/Class;Ljava/lang/String;)Lhf/f;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v0}, Lhf/f;->get()Ljava/lang/Object;
+#
+#     move-result-object v0
+#
+#     check-cast v0, Lcom/vungle/warren/model/i;
+#
+#     const-string v1, "http.agent"
+#
+#     if-nez v0, :cond_0
+#
+#     :goto_0
+#     invoke-static {v1}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     goto :goto_1
+#
+#     :cond_0
+#     invoke-virtual {v0, v2}, Lcom/vungle/warren/model/i;->c(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+#
+#     move-result v2
+#
+#     if-eqz v2, :cond_1
+#
+#     goto :goto_0
+#
+#     :cond_1
+#     :goto_1
+#     return-object v0
+# .end method
 
 .method public final b()Z
     .locals 4
@@ -548,62 +548,62 @@
     return-void
 .end method
 
-.method public final g()Ljava/lang/String;
-    .locals 4
-
-    iget-object v0, p0, Lrf/c;->g:Ljava/lang/String;
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    const-string v0, "appSetIdCookie"
-
-    const-class v1, Lcom/vungle/warren/model/i;
-
-    iget-object v2, p0, Lrf/c;->c:Lhf/h;
-
-    invoke-virtual {v2, v1, v0}, Lhf/h;->p(Ljava/lang/Class;Ljava/lang/String;)Lhf/f;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lrf/c;->f:Lcom/vungle/warren/utility/x;
-
-    invoke-interface {v1}, Lcom/vungle/warren/utility/x;->a()J
-
-    move-result-wide v1
-
-    sget-object v3, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
-
-    invoke-virtual {v0, v1, v2, v3}, Lhf/f;->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/vungle/warren/model/i;
-
-    if-eqz v0, :cond_0
-
-    const-string v1, "appSetId"
-
-    invoke-virtual {v0, v1}, Lcom/vungle/warren/model/i;->c(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    :goto_0
-    iput-object v0, p0, Lrf/c;->g:Ljava/lang/String;
-
-    :cond_1
-    iget-object v0, p0, Lrf/c;->g:Ljava/lang/String;
-
-    return-object v0
-.end method
+# .method public final g()Ljava/lang/String;
+#     .locals 4
+#
+#     iget-object v0, p0, Lrf/c;->g:Ljava/lang/String;
+#
+#     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_1
+#
+#     const-string v0, "appSetIdCookie"
+#
+#     const-class v1, Lcom/vungle/warren/model/i;
+#
+#     iget-object v2, p0, Lrf/c;->c:Lhf/h;
+#
+#     invoke-virtual {v2, v1, v0}, Lhf/h;->p(Ljava/lang/Class;Ljava/lang/String;)Lhf/f;
+#
+#     move-result-object v0
+#
+#     iget-object v1, p0, Lrf/c;->f:Lcom/vungle/warren/utility/x;
+#
+#     invoke-interface {v1}, Lcom/vungle/warren/utility/x;->a()J
+#
+#     move-result-wide v1
+#
+#     sget-object v3, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
+#
+#     invoke-virtual {v0, v1, v2, v3}, Lhf/f;->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+#
+#     move-result-object v0
+#
+#     check-cast v0, Lcom/vungle/warren/model/i;
+#
+#     if-eqz v0, :cond_0
+#
+#     const-string v1, "appSetId"
+#
+#     invoke-virtual {v0, v1}, Lcom/vungle/warren/model/i;->c(Ljava/lang/String;)Ljava/lang/String;
+#
+#     move-result-object v0
+#
+#     goto :goto_0
+#
+#     :cond_0
+#     const/4 v0, 0x0
+#
+#     :goto_0
+#     iput-object v0, p0, Lrf/c;->g:Ljava/lang/String;
+#
+#     :cond_1
+#     iget-object v0, p0, Lrf/c;->g:Ljava/lang/String;
+#
+#     return-object v0
+# .end method
 
 .method public final h()Z
     .locals 2
@@ -637,19 +637,19 @@
     return v0
 .end method
 
-.method public final i(Lcom/vungle/warren/b2;)V
-    .locals 1
-
-    new-instance v0, Lrf/a;
-
-    invoke-direct {v0, p0, p1}, Lrf/a;-><init>(Lrf/c;Lcom/vungle/warren/b2;)V
-
-    iget-object p1, p0, Lrf/c;->d:Lcom/vungle/warren/utility/z;
-
-    invoke-virtual {p1, v0}, Lcom/vungle/warren/utility/z;->execute(Ljava/lang/Runnable;)V
-
-    return-void
-.end method
+# .method public final i(Lcom/vungle/warren/b2;)V
+#     .locals 1
+#
+#     new-instance v0, Lrf/a;
+#
+#     invoke-direct {v0, p0, p1}, Lrf/a;-><init>(Lrf/c;Lcom/vungle/warren/b2;)V
+#
+#     iget-object p1, p0, Lrf/c;->d:Lcom/vungle/warren/utility/z;
+#
+#     invoke-virtual {p1, v0}, Lcom/vungle/warren/utility/z;->execute(Ljava/lang/Runnable;)V
+#
+#     return-void
+# .end method
 
 .method public final j()D
     .locals 4

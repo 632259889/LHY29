@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Lnf/e;
-.implements Lcom/vungle/warren/l0$a;
+# .implements Lcom/vungle/warren/l0$a;
 
 
 # annotations
@@ -18,7 +18,7 @@
 # instance fields
 .field public final c:Landroid/content/Context;
 
-.field public final d:Lcom/vungle/warren/l0;
+# .field public final d:Lcom/vungle/warren/l0;
 
 .field public e:Lof/h;
 
@@ -26,19 +26,19 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/vungle/warren/l0;)V
-    .locals 0
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lqf/m;->c:Landroid/content/Context;
-
-    iput-object p2, p0, Lqf/m;->d:Lcom/vungle/warren/l0;
-
-    invoke-virtual {p2, p0}, Lcom/vungle/warren/l0;->setOnItemClickListener(Lcom/vungle/warren/l0$a;)V
-
-    return-void
-.end method
+# .method public constructor <init>(Landroid/content/Context;Lcom/vungle/warren/l0;)V
+#     .locals 0
+#
+#     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+#
+#     iput-object p1, p0, Lqf/m;->c:Landroid/content/Context;
+#
+#     iput-object p2, p0, Lqf/m;->d:Lcom/vungle/warren/l0;
+#
+#     invoke-virtual {p2, p0}, Lcom/vungle/warren/l0;->setOnItemClickListener(Lcom/vungle/warren/l0$a;)V
+#
+#     return-void
+# .end method
 
 
 # virtual methods
@@ -203,42 +203,42 @@
 .method public final p(J)V
     .locals 0
 
-    .line 1
-    iget-object p1, p0, Lqf/m;->d:Lcom/vungle/warren/l0;
-
-    .line 2
-    .line 3
-    iget-boolean p2, p1, Lcom/vungle/warren/l0;->m:Z
-
-    .line 4
-    .line 5
-    if-eqz p2, :cond_0
-
-    .line 6
-    .line 7
-    goto :goto_0
-
-    .line 8
-    :cond_0
-    const/4 p2, 0x1
-
-    .line 9
-    iput-boolean p2, p1, Lcom/vungle/warren/l0;->m:Z
-
-    .line 10
-    .line 11
-    const/4 p2, 0x0
-
-    .line 12
-    iput-object p2, p1, Lcom/vungle/warren/l0;->e:Lnf/d;
-
-    .line 13
-    .line 14
-    iput-object p2, p1, Lcom/vungle/warren/l0;->d:Lcom/vungle/warren/s0;
-
-    .line 15
-    .line 16
-    :goto_0
+    # .line 1
+    # iget-object p1, p0, Lqf/m;->d:Lcom/vungle/warren/l0;
+    #
+    # .line 2
+    # .line 3
+    # iget-boolean p2, p1, Lcom/vungle/warren/l0;->m:Z
+    #
+    # .line 4
+    # .line 5
+    # if-eqz p2, :cond_0
+    #
+    # .line 6
+    # .line 7
+    # goto :goto_0
+    #
+    # .line 8
+    # :cond_0
+    # const/4 p2, 0x1
+    #
+    # .line 9
+    # iput-boolean p2, p1, Lcom/vungle/warren/l0;->m:Z
+    #
+    # .line 10
+    # .line 11
+    # const/4 p2, 0x0
+    #
+    # .line 12
+    # iput-object p2, p1, Lcom/vungle/warren/l0;->e:Lnf/d;
+    #
+    # .line 13
+    # .line 14
+    # iput-object p2, p1, Lcom/vungle/warren/l0;->d:Lcom/vungle/warren/s0;
+    #
+    # .line 15
+    # .line 16
+    # :goto_0
     return-void
 .end method
 
@@ -257,9 +257,10 @@
 
     move-object v5, p4
 
-    invoke-static/range {v0 .. v5}, Lcom/vungle/warren/utility/i;->b(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Lmf/f;ZLmf/e;)Z
+    # invoke-static/range {v0 .. v5}, Lcom/vungle/warren/utility/i;->b(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Lmf/f;ZLmf/e;)Z
 
-    move-result p1
+    # move-result p1
+    const/4 p1,0x1
 
     if-nez p1, :cond_0
 

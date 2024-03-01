@@ -28,8 +28,8 @@
 .method public abstract h()Z
 .end method
 
-.method public abstract i(Lcom/vungle/warren/b2;)V
-.end method
+# .method public abstract i(Lcom/vungle/warren/b2;)V
+# .end method
 
 .method public abstract j()D
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/vungle/warren/s0$c;
+# .implements Lcom/vungle/warren/s0$c;
 
 
 # annotations

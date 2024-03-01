@@ -471,24 +471,24 @@
 
     .line 215
     .line 216
-    sget-object v9, Lcom/vungle/warren/utility/ViewUtility$Asset;->unMute:Lcom/vungle/warren/utility/ViewUtility$Asset;
-
-    .line 217
-    .line 218
-    invoke-static {v9, p1}, Lcom/vungle/warren/utility/ViewUtility;->b(Lcom/vungle/warren/utility/ViewUtility$Asset;Landroid/content/Context;)Landroid/graphics/Bitmap;
-
-    .line 219
-    .line 220
-    .line 221
-    move-result-object v9
-
-    .line 222
-    invoke-virtual {v8, v9}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
-
-    .line 223
-    .line 224
-    .line 225
-    invoke-virtual {v8, v5}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    # sget-object v9, Lcom/vungle/warren/utility/ViewUtility$Asset;->unMute:Lcom/vungle/warren/utility/ViewUtility$Asset;
+    #
+    # .line 217
+    # .line 218
+    # invoke-static {v9, p1}, Lcom/vungle/warren/utility/ViewUtility;->b(Lcom/vungle/warren/utility/ViewUtility$Asset;Landroid/content/Context;)Landroid/graphics/Bitmap;
+    #
+    # .line 219
+    # .line 220
+    # .line 221
+    # move-result-object v9
+    #
+    # .line 222
+    # invoke-virtual {v8, v9}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    #
+    # .line 223
+    # .line 224
+    # .line 225
+    # invoke-virtual {v8, v5}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 226
     .line 227
@@ -543,19 +543,19 @@
     .line 254
     .line 255
     .line 256
-    sget-object v11, Lcom/vungle/warren/utility/ViewUtility$Asset;->close:Lcom/vungle/warren/utility/ViewUtility$Asset;
-
-    .line 257
-    .line 258
-    invoke-static {v11, p1}, Lcom/vungle/warren/utility/ViewUtility;->b(Lcom/vungle/warren/utility/ViewUtility$Asset;Landroid/content/Context;)Landroid/graphics/Bitmap;
-
-    .line 259
-    .line 260
-    .line 261
-    move-result-object v11
-
-    .line 262
-    invoke-virtual {v10, v11}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    # sget-object v11, Lcom/vungle/warren/utility/ViewUtility$Asset;->close:Lcom/vungle/warren/utility/ViewUtility$Asset;
+    #
+    # .line 257
+    # .line 258
+    # invoke-static {v11, p1}, Lcom/vungle/warren/utility/ViewUtility;->b(Lcom/vungle/warren/utility/ViewUtility$Asset;Landroid/content/Context;)Landroid/graphics/Bitmap;
+    #
+    # .line 259
+    # .line 260
+    # .line 261
+    # move-result-object v11
+    #
+    # .line 262
+    # invoke-virtual {v10, v11}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     .line 263
     .line 264
@@ -564,7 +564,7 @@
 
     .line 266
     .line 267
-    invoke-virtual {v9, v11}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
+    # invoke-virtual {v9, v11}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
     .line 268
     .line 269
