@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/topof" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.6">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/nativeLay" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="20.0dip" android:layout_weight="0.4">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+            <ImageView android:orientation="horizontal" android:id="@id/Ardraws" android:layout_width="fill_parent" android:layout_height="98.0dip" android:src="@drawable/f5" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:weightSum="1.0">
+            <ImageView android:orientation="horizontal" android:id="@id/select_from_gallery" android:layout_width="0.0dip" android:layout_height="165.0dip" android:src="@drawable/f3" android:layout_weight="0.5" />
+            <ImageView android:orientation="horizontal" android:id="@id/select_from_camera" android:layout_width="0.0dip" android:layout_height="165.0dip" android:src="@drawable/f1" android:layout_weight="0.5" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

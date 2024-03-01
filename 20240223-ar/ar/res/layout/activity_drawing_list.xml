@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="#ffd3e7f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/action_bar_drawing_list" android:background="@color/appmaincolorm" android:layout_width="1080.0px" android:layout_height="150.0px" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center" android:id="@id/back_drawing_list" android:layout_width="@dimen/_35sdp" android:layout_height="@dimen/_35sdp" android:layout_marginStart="@dimen/_5sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/back_img" android:layout_width="70.0px" android:layout_height="70.0px" android:src="@drawable/effect_back" app:tint="@color/white" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/_14sdp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/label_drawing_list" android:layout_width="640.0px" android:layout_height="70.0px" android:text="@string/text_ar_draw_sketch_sketch_amp_paint" android:maxLines="1" android:maxEms="12" android:fontFamily="sans-serif-condensed-medium" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:gravity="center" android:id="@id/grid_drawing_list" android:layout_width="@dimen/_35sdp" android:layout_height="@dimen/_35sdp" android:layout_marginEnd="@dimen/_5sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/grid_img" android:layout_width="64.0px" android:layout_height="64.0px" android:src="@drawable/effect_grid_3" app:tint="@color/white" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/drawing_list_rv" android:paddingLeft="@dimen/_5sdp" android:paddingRight="@dimen/_5sdp" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:paddingHorizontal="@dimen/_5sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/action_bar_drawing_list" />
+</androidx.constraintlayout.widget.ConstraintLayout>
