@@ -124,49 +124,49 @@
 .method public final c()V
     .locals 2
 
-    invoke-virtual {p0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
-
-    move-result-object v0
-
-    invoke-static {v0}, Luh/i;->b(Ljava/lang/Object;)V
-
-    invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
-
-    move-result-object v0
-
-    const-string v1, "window!!.decorView"
-
-    invoke-static {v0, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-static {v0, p0}, Lcom/vungle/warren/utility/e;->U(Landroid/view/View;Landroidx/lifecycle/n;)V
-
-    invoke-virtual {p0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
-
-    move-result-object v0
-
-    invoke-static {v0}, Luh/i;->b(Ljava/lang/Object;)V
-
-    invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
-
-    move-result-object v0
-
-    invoke-static {v0, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-static {v0, p0}, Luh/h;->I(Landroid/view/View;Landroidx/activity/n;)V
-
-    invoke-virtual {p0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
-
-    move-result-object v0
-
-    invoke-static {v0}, Luh/i;->b(Ljava/lang/Object;)V
-
-    invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
-
-    move-result-object v0
-
-    invoke-static {v0, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-static {v0, p0}, Landroidx/activity/o;->u(Landroid/view/View;Lr2/c;)V
+    # invoke-virtual {p0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+    #
+    # move-result-object v0
+    #
+    # invoke-static {v0}, Luh/i;->b(Ljava/lang/Object;)V
+    #
+    # invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    #
+    # move-result-object v0
+    #
+    # const-string v1, "window!!.decorView"
+    #
+    # invoke-static {v0, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # invoke-static {v0, p0}, Lcom/vungle/warren/utility/e;->U(Landroid/view/View;Landroidx/lifecycle/n;)V
+    #
+    # invoke-virtual {p0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+    #
+    # move-result-object v0
+    #
+    # invoke-static {v0}, Luh/i;->b(Ljava/lang/Object;)V
+    #
+    # invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    #
+    # move-result-object v0
+    #
+    # invoke-static {v0, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # invoke-static {v0, p0}, Luh/h;->I(Landroid/view/View;Landroidx/activity/n;)V
+    #
+    # invoke-virtual {p0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+    #
+    # move-result-object v0
+    #
+    # invoke-static {v0}, Luh/i;->b(Ljava/lang/Object;)V
+    #
+    # invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
+    #
+    # move-result-object v0
+    #
+    # invoke-static {v0, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # invoke-static {v0, p0}, Landroidx/activity/o;->u(Landroid/view/View;Lr2/c;)V
 
     return-void
 .end method

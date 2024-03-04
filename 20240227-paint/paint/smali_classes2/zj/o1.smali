@@ -842,52 +842,53 @@
 .method public static b(Lzj/c0;)Z
     .locals 2
 
-    if-eqz p0, :cond_2
-
-    invoke-virtual {p0}, Lzj/c0;->V0()Z
-
-    move-result v0
-
-    const/4 v1, 0x1
-
-    if-eqz v0, :cond_0
-
-    return v1
-
-    :cond_0
-    invoke-static {p0}, Lcom/vungle/warren/utility/e;->v(Lzj/c0;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    invoke-static {p0}, Lcom/vungle/warren/utility/e;->i(Lzj/c0;)Lzj/w;
-
-    move-result-object p0
-
-    iget-object p0, p0, Lzj/w;->e:Lzj/k0;
-
-    invoke-static {p0}, Lzj/o1;->b(Lzj/c0;)Z
-
-    move-result p0
-
-    if-eqz p0, :cond_1
-
-    return v1
-
-    :cond_1
+    # if-eqz p0, :cond_2
+    #
+    # invoke-virtual {p0}, Lzj/c0;->V0()Z
+    #
+    # move-result v0
+    #
+    # const/4 v1, 0x1
+    #
+    # if-eqz v0, :cond_0
+    #
+    # return v1
+    #
+    # :cond_0
+    # invoke-static {p0}, Lcom/vungle/warren/utility/e;->v(Lzj/c0;)Z
+    #
+    # move-result v0
+    #
+    # if-eqz v0, :cond_1
+    #
+    # invoke-static {p0}, Lcom/vungle/warren/utility/e;->i(Lzj/c0;)Lzj/w;
+    #
+    # move-result-object p0
+    #
+    # iget-object p0, p0, Lzj/w;->e:Lzj/k0;
+    #
+    # invoke-static {p0}, Lzj/o1;->b(Lzj/c0;)Z
+    #
+    # move-result p0
+    #
+    # if-eqz p0, :cond_1
+    #
+    # return v1
+    #
+    # :cond_1
+    # const/4 p0, 0x0
+    #
+    # return p0
+    #
+    # :cond_2
+    # const/16 p0, 0x1c
+    #
+    # invoke-static {p0}, Lzj/o1;->a(I)V
+    #
     const/4 p0, 0x0
-
+    #
+    # throw p0
     return p0
-
-    :cond_2
-    const/16 p0, 0x1c
-
-    invoke-static {p0}, Lzj/o1;->a(I)V
-
-    const/4 p0, 0x0
-
-    throw p0
 .end method
 
 .method public static c(Lzj/c0;Lth/l;)Z
@@ -1649,269 +1650,269 @@
 
 .method public static g(Lzj/c0;)Z
     .locals 3
-
-    .line 1
-    if-eqz p0, :cond_9
-
-    .line 2
-    .line 3
-    invoke-virtual {p0}, Lzj/c0;->V0()Z
-
-    .line 4
-    .line 5
-    .line 6
-    move-result v0
-
-    .line 7
-    const/4 v1, 0x1
-
-    .line 8
-    if-eqz v0, :cond_0
-
-    .line 9
-    .line 10
-    return v1
-
-    .line 11
-    :cond_0
-    invoke-static {p0}, Lcom/vungle/warren/utility/e;->v(Lzj/c0;)Z
-
-    .line 12
-    .line 13
-    .line 14
-    move-result v0
-
-    .line 15
-    if-eqz v0, :cond_1
-
-    .line 16
-    .line 17
-    invoke-static {p0}, Lcom/vungle/warren/utility/e;->i(Lzj/c0;)Lzj/w;
-
-    .line 18
-    .line 19
-    .line 20
-    move-result-object v0
-
-    .line 21
-    iget-object v0, v0, Lzj/w;->e:Lzj/k0;
-
-    .line 22
-    .line 23
-    invoke-static {v0}, Lzj/o1;->g(Lzj/c0;)Z
-
-    .line 24
-    .line 25
-    .line 26
-    move-result v0
-
-    .line 27
-    if-eqz v0, :cond_1
-
-    .line 28
-    .line 29
-    return v1
-
-    .line 30
-    :cond_1
-    invoke-virtual {p0}, Lzj/c0;->X0()Lzj/q1;
-
-    .line 31
-    .line 32
-    .line 33
-    move-result-object v0
-
-    .line 34
-    instance-of v0, v0, Lzj/o;
-
-    .line 35
-    .line 36
-    const/4 v2, 0x0
-
-    .line 37
-    if-eqz v0, :cond_2
-
-    .line 38
-    .line 39
-    return v2
-
-    .line 40
-    :cond_2
-    invoke-static {p0}, Lzj/o1;->h(Lzj/c0;)Z
-
-    .line 41
-    .line 42
-    .line 43
-    move-result v0
-
-    .line 44
-    if-eqz v0, :cond_3
-
-    .line 45
-    .line 46
-    invoke-static {p0}, Lzj/o1;->f(Lzj/c0;)Z
-
-    .line 47
-    .line 48
-    .line 49
-    move-result p0
-
-    .line 50
-    return p0
-
-    .line 51
-    :cond_3
-    instance-of v0, p0, Lzj/d;
-
-    .line 52
-    .line 53
-    if-eqz v0, :cond_6
-
-    .line 54
-    .line 55
-    check-cast p0, Lzj/d;
-
-    .line 56
-    .line 57
-    iget-object p0, p0, Lzj/d;->d:Lak/n;
-
-    .line 58
-    .line 59
-    invoke-interface {p0}, Lak/n;->c()Lji/w0;
-
-    .line 60
-    .line 61
-    .line 62
-    move-result-object p0
-
-    .line 63
-    if-eqz p0, :cond_5
-
-    .line 64
-    .line 65
-    invoke-interface {p0}, Lji/g;->s()Lzj/k0;
-
-    .line 66
-    .line 67
-    .line 68
-    move-result-object p0
-
-    .line 69
-    invoke-static {p0}, Lzj/o1;->f(Lzj/c0;)Z
-
-    .line 70
-    .line 71
-    .line 72
-    move-result p0
-
-    .line 73
-    if-eqz p0, :cond_4
-
-    .line 74
-    .line 75
-    goto :goto_0
-
-    .line 76
-    :cond_4
-    const/4 v1, 0x0
-
-    .line 77
-    :cond_5
-    :goto_0
-    return v1
-
-    .line 78
-    :cond_6
-    invoke-virtual {p0}, Lzj/c0;->U0()Lzj/a1;
-
-    .line 79
-    .line 80
-    .line 81
-    move-result-object p0
-
-    .line 82
-    instance-of v0, p0, Lzj/a0;
-
-    .line 83
-    .line 84
-    if-eqz v0, :cond_8
-
-    .line 85
-    .line 86
-    invoke-interface {p0}, Lzj/a1;->b()Ljava/util/Collection;
-
-    .line 87
-    .line 88
-    .line 89
-    move-result-object p0
-
-    .line 90
-    invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
-
-    .line 91
-    .line 92
-    .line 93
-    move-result-object p0
-
-    .line 94
-    :cond_7
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
-
-    .line 95
-    .line 96
-    .line 97
-    move-result v0
-
-    .line 98
-    if-eqz v0, :cond_8
-
-    .line 99
-    .line 100
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    .line 101
-    .line 102
-    .line 103
-    move-result-object v0
-
-    .line 104
-    check-cast v0, Lzj/c0;
-
-    .line 105
-    .line 106
-    invoke-static {v0}, Lzj/o1;->g(Lzj/c0;)Z
-
-    .line 107
-    .line 108
-    .line 109
-    move-result v0
-
-    .line 110
-    if-eqz v0, :cond_7
-
-    .line 111
-    .line 112
-    return v1
-
-    .line 113
-    :cond_8
-    return v2
-
-    .line 114
-    :cond_9
-    const/16 p0, 0x1b
-
-    .line 115
-    .line 116
-    invoke-static {p0}, Lzj/o1;->a(I)V
-
-    .line 117
-    .line 118
-    .line 119
+    #
+    # .line 1
+    # if-eqz p0, :cond_9
+    #
+    # .line 2
+    # .line 3
+    # invoke-virtual {p0}, Lzj/c0;->V0()Z
+    #
+    # .line 4
+    # .line 5
+    # .line 6
+    # move-result v0
+    #
+    # .line 7
+    # const/4 v1, 0x1
+    #
+    # .line 8
+    # if-eqz v0, :cond_0
+    #
+    # .line 9
+    # .line 10
+    # return v1
+    #
+    # .line 11
+    # :cond_0
+    # invoke-static {p0}, Lcom/vungle/warren/utility/e;->v(Lzj/c0;)Z
+    #
+    # .line 12
+    # .line 13
+    # .line 14
+    # move-result v0
+    #
+    # .line 15
+    # if-eqz v0, :cond_1
+    #
+    # .line 16
+    # .line 17
+    # invoke-static {p0}, Lcom/vungle/warren/utility/e;->i(Lzj/c0;)Lzj/w;
+    #
+    # .line 18
+    # .line 19
+    # .line 20
+    # move-result-object v0
+    #
+    # .line 21
+    # iget-object v0, v0, Lzj/w;->e:Lzj/k0;
+    #
+    # .line 22
+    # .line 23
+    # invoke-static {v0}, Lzj/o1;->g(Lzj/c0;)Z
+    #
+    # .line 24
+    # .line 25
+    # .line 26
+    # move-result v0
+    #
+    # .line 27
+    # if-eqz v0, :cond_1
+    #
+    # .line 28
+    # .line 29
+    # return v1
+    #
+    # .line 30
+    # :cond_1
+    # invoke-virtual {p0}, Lzj/c0;->X0()Lzj/q1;
+    #
+    # .line 31
+    # .line 32
+    # .line 33
+    # move-result-object v0
+    #
+    # .line 34
+    # instance-of v0, v0, Lzj/o;
+    #
+    # .line 35
+    # .line 36
+    # const/4 v2, 0x0
+    #
+    # .line 37
+    # if-eqz v0, :cond_2
+    #
+    # .line 38
+    # .line 39
+    # return v2
+    #
+    # .line 40
+    # :cond_2
+    # invoke-static {p0}, Lzj/o1;->h(Lzj/c0;)Z
+    #
+    # .line 41
+    # .line 42
+    # .line 43
+    # move-result v0
+    #
+    # .line 44
+    # if-eqz v0, :cond_3
+    #
+    # .line 45
+    # .line 46
+    # invoke-static {p0}, Lzj/o1;->f(Lzj/c0;)Z
+    #
+    # .line 47
+    # .line 48
+    # .line 49
+    # move-result p0
+    #
+    # .line 50
+    # return p0
+    #
+    # .line 51
+    # :cond_3
+    # instance-of v0, p0, Lzj/d;
+    #
+    # .line 52
+    # .line 53
+    # if-eqz v0, :cond_6
+    #
+    # .line 54
+    # .line 55
+    # check-cast p0, Lzj/d;
+    #
+    # .line 56
+    # .line 57
+    # iget-object p0, p0, Lzj/d;->d:Lak/n;
+    #
+    # .line 58
+    # .line 59
+    # invoke-interface {p0}, Lak/n;->c()Lji/w0;
+    #
+    # .line 60
+    # .line 61
+    # .line 62
+    # move-result-object p0
+    #
+    # .line 63
+    # if-eqz p0, :cond_5
+    #
+    # .line 64
+    # .line 65
+    # invoke-interface {p0}, Lji/g;->s()Lzj/k0;
+    #
+    # .line 66
+    # .line 67
+    # .line 68
+    # move-result-object p0
+    #
+    # .line 69
+    # invoke-static {p0}, Lzj/o1;->f(Lzj/c0;)Z
+    #
+    # .line 70
+    # .line 71
+    # .line 72
+    # move-result p0
+    #
+    # .line 73
+    # if-eqz p0, :cond_4
+    #
+    # .line 74
+    # .line 75
+    # goto :goto_0
+    #
+    # .line 76
+    # :cond_4
+    # const/4 v1, 0x0
+    #
+    # .line 77
+    # :cond_5
+    # :goto_0
+    # return v1
+    #
+    # .line 78
+    # :cond_6
+    # invoke-virtual {p0}, Lzj/c0;->U0()Lzj/a1;
+    #
+    # .line 79
+    # .line 80
+    # .line 81
+    # move-result-object p0
+    #
+    # .line 82
+    # instance-of v0, p0, Lzj/a0;
+    #
+    # .line 83
+    # .line 84
+    # if-eqz v0, :cond_8
+    #
+    # .line 85
+    # .line 86
+    # invoke-interface {p0}, Lzj/a1;->b()Ljava/util/Collection;
+    #
+    # .line 87
+    # .line 88
+    # .line 89
+    # move-result-object p0
+    #
+    # .line 90
+    # invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+    #
+    # .line 91
+    # .line 92
+    # .line 93
+    # move-result-object p0
+    #
+    # .line 94
+    # :cond_7
+    # invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+    #
+    # .line 95
+    # .line 96
+    # .line 97
+    # move-result v0
+    #
+    # .line 98
+    # if-eqz v0, :cond_8
+    #
+    # .line 99
+    # .line 100
+    # invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    #
+    # .line 101
+    # .line 102
+    # .line 103
+    # move-result-object v0
+    #
+    # .line 104
+    # check-cast v0, Lzj/c0;
+    #
+    # .line 105
+    # .line 106
+    # invoke-static {v0}, Lzj/o1;->g(Lzj/c0;)Z
+    #
+    # .line 107
+    # .line 108
+    # .line 109
+    # move-result v0
+    #
+    # .line 110
+    # if-eqz v0, :cond_7
+    #
+    # .line 111
+    # .line 112
+    # return v1
+    #
+    # .line 113
+    # :cond_8
+    # return v2
+    #
+    # .line 114
+    # :cond_9
+    # const/16 p0, 0x1b
+    #
+    # .line 115
+    # .line 116
+    # invoke-static {p0}, Lzj/o1;->a(I)V
+    #
+    # .line 117
+    # .line 118
+    # .line 119
     const/4 p0, 0x0
-
-    .line 120
-    throw p0
+    return p0
+    # .line 120
+    # throw p0
 .end method
 
 .method public static h(Lzj/c0;)Z

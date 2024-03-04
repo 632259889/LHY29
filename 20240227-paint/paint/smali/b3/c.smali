@@ -123,7 +123,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v0}, Lcom/vungle/warren/utility/j;->c(Ljava/io/File;)V
+    # invoke-static {v0}, Lcom/vungle/warren/utility/j;->c(Ljava/io/File;)V
 
     :cond_0
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
@@ -239,7 +239,7 @@
 
     check-cast v1, Ljava/util/LinkedHashSet;
 
-    invoke-static {v0, v1}, Lcom/vungle/warren/utility/j;->f(Ljava/io/File;Ljava/io/Serializable;)V
+    # invoke-static {v0, v1}, Lcom/vungle/warren/utility/j;->f(Ljava/io/File;Ljava/io/Serializable;)V
 
     return-void
 .end method

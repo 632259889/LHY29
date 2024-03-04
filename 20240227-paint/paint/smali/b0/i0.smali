@@ -173,14 +173,14 @@
 
     invoke-direct {v0, v1, p0, p2}, Lt/n;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
-    invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
+    # invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
 
     move-result-object p2
 
     .line 1
     iget-object p1, p1, Lr0/b$d;->d:Lr0/b$d$a;
 
-    invoke-virtual {p1, v0, p2}, Lr0/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    # invoke-virtual {p1, v0, p2}, Lr0/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     :cond_0
     return-void

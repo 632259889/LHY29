@@ -865,12 +865,13 @@
 
     .line 30
     .line 31
-    invoke-static {v1}, Lcom/vungle/warren/utility/e;->X(I)I
+    # invoke-static {v1}, Lcom/vungle/warren/utility/e;->X(I)I
 
     .line 32
     .line 33
     .line 34
-    move-result v1
+    # move-result v1
+    const v1,0x1
 
     .line 35
     neg-int v1, v1

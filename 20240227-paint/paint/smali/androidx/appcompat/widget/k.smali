@@ -1667,1048 +1667,1048 @@
     return-void
 .end method
 
-.method public final zza()Ljava/lang/Object;
-    .locals 33
-
-    .line 1
-    move-object/from16 v0, p0
-
-    .line 2
-    .line 3
-    iget v1, v0, Landroidx/appcompat/widget/k;->c:I
-
-    .line 4
-    .line 5
-    iget-object v2, v0, Landroidx/appcompat/widget/k;->e:Ljava/lang/Object;
-
-    .line 6
-    .line 7
-    packed-switch v1, :pswitch_data_0
-
-    .line 8
-    .line 9
-    .line 10
-    goto/16 :goto_9
-
-    .line 11
-    .line 12
-    :pswitch_0
-    iget-object v1, v0, Landroidx/appcompat/widget/k;->d:Ljava/lang/Object;
-
-    .line 13
-    .line 14
-    check-cast v1, Lwa/c1;
-
-    .line 15
-    .line 16
-    check-cast v2, Landroid/os/Bundle;
-
-    .line 17
-    .line 18
-    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 19
-    .line 20
-    .line 21
-    const-string v3, "session_id"
-
-    .line 22
-    .line 23
-    invoke-virtual {v2, v3}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
-
-    .line 24
-    .line 25
-    .line 26
-    move-result v3
-
-    .line 27
-    if-nez v3, :cond_0
-
-    .line 28
-    .line 29
-    sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
-
-    .line 30
-    .line 31
-    goto/16 :goto_8
-
-    .line 32
-    .line 33
-    :cond_0
-    iget-object v4, v1, Lwa/c1;->e:Ljava/util/HashMap;
-
-    .line 34
-    .line 35
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 36
-    .line 37
-    .line 38
-    move-result-object v5
-
-    .line 39
-    invoke-virtual {v4, v5}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
-
-    .line 40
-    .line 41
-    .line 42
-    move-result v6
-
-    .line 43
-    const/4 v7, 0x1
-
-    .line 44
-    const/4 v8, 0x0
-
-    .line 45
-    const-string v9, "chunk_intents"
-
-    .line 46
-    .line 47
-    const-string v10, "status"
-
-    .line 48
-    .line 49
-    if-eqz v6, :cond_9
-
-    .line 50
-    .line 51
-    invoke-virtual {v1, v3}, Lwa/c1;->b(I)Lwa/z0;
-
-    .line 52
-    .line 53
-    .line 54
-    move-result-object v4
-
-    .line 55
-    iget-object v4, v4, Lwa/z0;->c:Lwa/y0;
-
-    .line 56
-    .line 57
-    iget-object v6, v4, Lwa/y0;->a:Ljava/lang/String;
-
-    .line 58
-    .line 59
-    invoke-static {v10, v6}, Lcom/vungle/warren/utility/e;->e0(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 60
-    .line 61
-    .line 62
-    move-result-object v6
-
-    .line 63
-    invoke-virtual {v2, v6}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
-
-    .line 64
-    .line 65
-    .line 66
-    move-result v6
-
-    .line 67
-    iget v10, v4, Lwa/y0;->d:I
-
-    .line 68
-    .line 69
-    invoke-static {v10, v6}, Lwa/x0;->c(II)Z
-
-    .line 70
-    .line 71
-    .line 72
-    move-result v11
-
-    .line 73
-    const/4 v12, 0x4
-
-    .line 74
-    const/4 v13, 0x6
-
-    .line 75
-    const/4 v14, 0x5
-
-    .line 76
-    iget-object v15, v4, Lwa/y0;->a:Ljava/lang/String;
-
-    .line 77
-    .line 78
-    if-eqz v11, :cond_3
-
-    .line 79
-    .line 80
-    const/4 v2, 0x2
-
-    .line 81
-    new-array v2, v2, [Ljava/lang/Object;
-
-    .line 82
-    .line 83
-    aput-object v5, v2, v8
-
-    .line 84
-    .line 85
-    invoke-static {v10}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 86
-    .line 87
-    .line 88
-    move-result-object v5
-
-    .line 89
-    aput-object v5, v2, v7
-
-    .line 90
-    .line 91
-    const-string v5, "Found stale update for session %s with status %d."
-
-    .line 92
-    .line 93
-    sget-object v6, Lwa/c1;->g:Lx/j;
-
-    .line 94
-    .line 95
-    invoke-virtual {v6, v5, v2}, Lx/j;->n(Ljava/lang/String;[Ljava/lang/Object;)V
-
-    .line 96
-    .line 97
-    .line 98
-    iget v2, v4, Lwa/y0;->d:I
-
-    .line 99
-    .line 100
-    iget-object v1, v1, Lwa/c1;->b:Lza/t;
-
-    .line 101
-    .line 102
-    if-ne v2, v12, :cond_1
-
-    .line 103
-    .line 104
-    invoke-interface {v1}, Lza/t;->zza()Ljava/lang/Object;
-
-    .line 105
-    .line 106
-    .line 107
-    move-result-object v1
-
-    .line 108
-    check-cast v1, Lwa/n2;
-
-    .line 109
-    .line 110
-    invoke-interface {v1, v3, v15}, Lwa/n2;->b(ILjava/lang/String;)V
-
-    .line 111
-    .line 112
-    .line 113
-    goto/16 :goto_7
-
-    .line 114
-    .line 115
-    :cond_1
-    if-ne v2, v14, :cond_2
-
-    .line 116
-    .line 117
-    invoke-interface {v1}, Lza/t;->zza()Ljava/lang/Object;
-
-    .line 118
-    .line 119
-    .line 120
-    move-result-object v1
-
-    .line 121
-    check-cast v1, Lwa/n2;
-
-    .line 122
-    .line 123
-    invoke-interface {v1, v3}, Lwa/n2;->zzi(I)V
-
-    .line 124
-    .line 125
-    .line 126
-    goto/16 :goto_7
-
-    .line 127
-    .line 128
-    :cond_2
-    if-ne v2, v13, :cond_10
-
-    .line 129
-    .line 130
-    invoke-interface {v1}, Lza/t;->zza()Ljava/lang/Object;
-
-    .line 131
-    .line 132
-    .line 133
-    move-result-object v1
-
-    .line 134
-    check-cast v1, Lwa/n2;
-
-    .line 135
-    .line 136
-    new-array v2, v7, [Ljava/lang/String;
-
-    .line 137
-    .line 138
-    aput-object v15, v2, v8
-
-    .line 139
-    .line 140
-    invoke-static {v2}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
-
-    .line 141
-    .line 142
-    .line 143
-    move-result-object v2
-
-    .line 144
-    invoke-interface {v1, v2}, Lwa/n2;->e(Ljava/util/List;)V
-
-    .line 145
-    .line 146
-    .line 147
-    goto/16 :goto_7
-
-    .line 148
-    .line 149
-    :cond_3
-    iput v6, v4, Lwa/y0;->d:I
-
-    .line 150
-    .line 151
-    if-eq v6, v14, :cond_5
-
-    .line 152
-    .line 153
-    if-eq v6, v13, :cond_5
-
-    .line 154
-    .line 155
-    if-ne v6, v12, :cond_4
-
-    .line 156
-    .line 157
-    goto :goto_0
-
-    .line 158
-    :cond_4
-    const/4 v5, 0x0
-
-    .line 159
-    goto :goto_1
-
-    .line 160
-    :cond_5
-    :goto_0
-    const/4 v5, 0x1
-
-    .line 161
-    :goto_1
-    if-eqz v5, :cond_6
-
-    .line 162
-    .line 163
-    new-instance v2, Lm1/e;
-
-    .line 164
-    .line 165
-    invoke-direct {v2, v1, v3}, Lm1/e;-><init>(Lwa/c1;I)V
-
-    .line 166
-    .line 167
-    .line 168
-    invoke-virtual {v1, v2}, Lwa/c1;->c(Lwa/b1;)Ljava/lang/Object;
-
-    .line 169
-    .line 170
-    .line 171
-    iget-object v1, v1, Lwa/c1;->c:Lwa/u0;
-
-    .line 172
-    .line 173
-    invoke-virtual {v1, v15}, Lwa/u0;->a(Ljava/lang/String;)V
-
-    .line 174
-    .line 175
-    .line 176
-    goto/16 :goto_7
-
-    .line 177
-    .line 178
-    :cond_6
-    iget-object v1, v4, Lwa/y0;->f:Ljava/util/List;
-
-    .line 179
-    .line 180
-    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    .line 181
-    .line 182
-    .line 183
-    move-result-object v1
-
-    .line 184
-    :cond_7
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
-
-    .line 185
-    .line 186
-    .line 187
-    move-result v3
-
-    .line 188
-    if-eqz v3, :cond_10
-
-    .line 189
-    .line 190
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    .line 191
-    .line 192
-    .line 193
-    move-result-object v3
-
-    .line 194
-    check-cast v3, Lwa/a1;
-
-    .line 195
-    .line 196
-    iget-object v4, v3, Lwa/a1;->a:Ljava/lang/String;
-
-    .line 197
-    .line 198
-    invoke-static {v9, v15, v4}, Lcom/vungle/warren/utility/e;->g0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 199
-    .line 200
-    .line 201
-    move-result-object v4
-
-    .line 202
-    invoke-virtual {v2, v4}, Landroid/os/Bundle;->getParcelableArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
-
-    .line 203
-    .line 204
-    .line 205
-    move-result-object v4
-
-    .line 206
-    if-eqz v4, :cond_7
-
-    .line 207
-    .line 208
-    const/4 v5, 0x0
-
-    .line 209
-    :goto_2
-    invoke-interface {v4}, Ljava/util/List;->size()I
-
-    .line 210
-    .line 211
-    .line 212
-    move-result v6
-
-    .line 213
-    if-ge v5, v6, :cond_7
-
-    .line 214
-    .line 215
-    invoke-interface {v4, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    .line 216
-    .line 217
-    .line 218
-    move-result-object v6
-
-    .line 219
-    if-eqz v6, :cond_8
-
-    .line 220
-    .line 221
-    invoke-interface {v4, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    .line 222
-    .line 223
-    .line 224
-    move-result-object v6
-
-    .line 225
-    check-cast v6, Landroid/content/Intent;
-
-    .line 226
-    .line 227
-    invoke-virtual {v6}, Landroid/content/Intent;->getData()Landroid/net/Uri;
-
-    .line 228
-    .line 229
-    .line 230
-    move-result-object v6
-
-    .line 231
-    if-eqz v6, :cond_8
-
-    .line 232
-    .line 233
-    iget-object v6, v3, Lwa/a1;->d:Ljava/util/List;
-
-    .line 234
-    .line 235
-    invoke-interface {v6, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    .line 236
-    .line 237
-    .line 238
-    move-result-object v6
-
-    .line 239
-    check-cast v6, Lwa/w0;
-
-    .line 240
-    .line 241
-    iput-boolean v7, v6, Lwa/w0;->a:Z
-
-    .line 242
-    .line 243
-    :cond_8
-    add-int/lit8 v5, v5, 0x1
-
-    .line 244
-    .line 245
-    goto :goto_2
-
-    .line 246
-    :cond_9
-    invoke-static {v2}, Lwa/c1;->d(Landroid/os/Bundle;)Ljava/lang/String;
-
-    .line 247
-    .line 248
-    .line 249
-    move-result-object v1
-
-    .line 250
-    const-string v5, "pack_version"
-
-    .line 251
-    .line 252
-    invoke-static {v5, v1}, Lcom/vungle/warren/utility/e;->e0(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 253
-    .line 254
-    .line 255
-    move-result-object v5
-
-    .line 256
-    invoke-virtual {v2, v5}, Landroid/os/BaseBundle;->getLong(Ljava/lang/String;)J
-
-    .line 257
-    .line 258
-    .line 259
-    move-result-wide v18
-
-    .line 260
-    const-string v5, "pack_version_tag"
-
-    .line 261
-    .line 262
-    invoke-static {v5, v1}, Lcom/vungle/warren/utility/e;->e0(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 263
-    .line 264
-    .line 265
-    move-result-object v5
-
-    .line 266
-    const-string v6, ""
-
-    .line 267
-    .line 268
-    invoke-virtual {v2, v5, v6}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 269
-    .line 270
-    .line 271
-    move-result-object v24
-
-    .line 272
-    invoke-static {v10, v1}, Lcom/vungle/warren/utility/e;->e0(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 273
-    .line 274
-    .line 275
-    move-result-object v5
-
-    .line 276
-    invoke-virtual {v2, v5}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
-
-    .line 277
-    .line 278
-    .line 279
-    move-result v20
-
-    .line 280
-    const-string v5, "total_bytes_to_download"
-
-    .line 281
-    .line 282
-    invoke-static {v5, v1}, Lcom/vungle/warren/utility/e;->e0(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 283
-    .line 284
-    .line 285
-    move-result-object v5
-
-    .line 286
-    invoke-virtual {v2, v5}, Landroid/os/BaseBundle;->getLong(Ljava/lang/String;)J
-
-    .line 287
-    .line 288
-    .line 289
-    move-result-wide v21
-
-    .line 290
-    const-string v5, "slice_ids"
-
-    .line 291
-    .line 292
-    invoke-static {v5, v1}, Lcom/vungle/warren/utility/e;->e0(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 293
-    .line 294
-    .line 295
-    move-result-object v5
-
-    .line 296
-    invoke-virtual {v2, v5}, Landroid/os/Bundle;->getStringArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
-
-    .line 297
-    .line 298
-    .line 299
-    move-result-object v5
-
-    .line 300
-    new-instance v6, Ljava/util/ArrayList;
-
-    .line 301
-    .line 302
-    invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
-
-    .line 303
-    .line 304
-    .line 305
-    if-nez v5, :cond_a
-
-    .line 306
-    .line 307
-    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
-
-    .line 308
-    .line 309
-    .line 310
-    move-result-object v5
-
-    .line 311
-    :cond_a
-    invoke-interface {v5}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    .line 312
-    .line 313
-    .line 314
-    move-result-object v5
-
-    .line 315
-    :goto_3
-    invoke-interface {v5}, Ljava/util/Iterator;->hasNext()Z
-
-    .line 316
-    .line 317
-    .line 318
-    move-result v10
-
-    .line 319
-    if-eqz v10, :cond_f
-
-    .line 320
-    .line 321
-    invoke-interface {v5}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    .line 322
-    .line 323
-    .line 324
-    move-result-object v10
-
-    .line 325
-    check-cast v10, Ljava/lang/String;
-
-    .line 326
-    .line 327
-    invoke-static {v9, v1, v10}, Lcom/vungle/warren/utility/e;->g0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 328
-    .line 329
-    .line 330
-    move-result-object v11
-
-    .line 331
-    invoke-virtual {v2, v11}, Landroid/os/Bundle;->getParcelableArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
-
-    .line 332
-    .line 333
-    .line 334
-    move-result-object v11
-
-    .line 335
-    new-instance v12, Ljava/util/ArrayList;
-
-    .line 336
-    .line 337
-    invoke-direct {v12}, Ljava/util/ArrayList;-><init>()V
-
-    .line 338
-    .line 339
-    .line 340
-    if-nez v11, :cond_b
-
-    .line 341
-    .line 342
-    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
-
-    .line 343
-    .line 344
-    .line 345
-    move-result-object v11
-
-    .line 346
-    :cond_b
-    invoke-interface {v11}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    .line 347
-    .line 348
-    .line 349
-    move-result-object v11
-
-    .line 350
-    :goto_4
-    invoke-interface {v11}, Ljava/util/Iterator;->hasNext()Z
-
-    .line 351
-    .line 352
-    .line 353
-    move-result v13
-
-    .line 354
-    if-eqz v13, :cond_d
-
-    .line 355
-    .line 356
-    invoke-interface {v11}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    .line 357
-    .line 358
-    .line 359
-    move-result-object v13
-
-    .line 360
-    check-cast v13, Landroid/content/Intent;
-
-    .line 361
-    .line 362
-    if-eqz v13, :cond_c
-
-    .line 363
-    .line 364
-    const/4 v13, 0x1
-
-    .line 365
-    goto :goto_5
-
-    .line 366
-    :cond_c
-    const/4 v13, 0x0
-
-    .line 367
-    :goto_5
-    new-instance v14, Lwa/w0;
-
-    .line 368
-    .line 369
-    invoke-direct {v14, v13}, Lwa/w0;-><init>(Z)V
-
-    .line 370
-    .line 371
-    .line 372
-    invoke-virtual {v12, v14}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 373
-    .line 374
-    .line 375
-    goto :goto_4
-
-    .line 376
-    :cond_d
-    const-string v11, "uncompressed_hash_sha256"
-
-    .line 377
-    .line 378
-    invoke-static {v11, v1, v10}, Lcom/vungle/warren/utility/e;->g0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 379
-    .line 380
-    .line 381
-    move-result-object v11
-
-    .line 382
-    invoke-virtual {v2, v11}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    .line 383
-    .line 384
-    .line 385
-    move-result-object v27
-
-    .line 386
-    const-string v11, "uncompressed_size"
-
-    .line 387
-    .line 388
-    invoke-static {v11, v1, v10}, Lcom/vungle/warren/utility/e;->g0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 389
-    .line 390
-    .line 391
-    move-result-object v11
-
-    .line 392
-    invoke-virtual {v2, v11}, Landroid/os/BaseBundle;->getLong(Ljava/lang/String;)J
-
-    .line 393
-    .line 394
-    .line 395
-    move-result-wide v28
-
-    .line 396
-    const-string v11, "patch_format"
-
-    .line 397
-    .line 398
-    invoke-static {v11, v1, v10}, Lcom/vungle/warren/utility/e;->g0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 399
-    .line 400
-    .line 401
-    move-result-object v11
-
-    .line 402
-    invoke-virtual {v2, v11, v8}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;I)I
-
-    .line 403
-    .line 404
-    .line 405
-    move-result v32
-
-    .line 406
-    if-eqz v32, :cond_e
-
-    .line 407
-    .line 408
-    new-instance v11, Lwa/a1;
-
-    .line 409
-    .line 410
-    const/16 v31, 0x0
-
-    .line 411
-    .line 412
-    move-object/from16 v25, v11
-
-    .line 413
-    .line 414
-    move-object/from16 v26, v10
-
-    .line 415
-    .line 416
-    move-object/from16 v30, v12
-
-    .line 417
-    .line 418
-    invoke-direct/range {v25 .. v32}, Lwa/a1;-><init>(Ljava/lang/String;Ljava/lang/String;JLjava/util/ArrayList;II)V
-
-    .line 419
-    .line 420
-    .line 421
-    goto :goto_6
-
-    .line 422
-    :cond_e
-    const-string v11, "compression_format"
-
-    .line 423
-    .line 424
-    invoke-static {v11, v1, v10}, Lcom/vungle/warren/utility/e;->g0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 425
-    .line 426
-    .line 427
-    move-result-object v11
-
-    .line 428
-    invoke-virtual {v2, v11, v8}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;I)I
-
-    .line 429
-    .line 430
-    .line 431
-    move-result v31
-
-    .line 432
-    new-instance v11, Lwa/a1;
-
-    .line 433
-    .line 434
-    const/16 v32, 0x0
-
-    .line 435
-    .line 436
-    move-object/from16 v25, v11
-
-    .line 437
-    .line 438
-    move-object/from16 v26, v10
-
-    .line 439
-    .line 440
-    move-object/from16 v30, v12
-
-    .line 441
-    .line 442
-    invoke-direct/range {v25 .. v32}, Lwa/a1;-><init>(Ljava/lang/String;Ljava/lang/String;JLjava/util/ArrayList;II)V
-
-    .line 443
-    .line 444
-    .line 445
-    :goto_6
-    invoke-virtual {v6, v11}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 446
-    .line 447
-    .line 448
-    goto/16 :goto_3
-
-    .line 449
-    .line 450
-    :cond_f
-    new-instance v5, Lwa/y0;
-
-    .line 451
-    .line 452
-    move-object/from16 v16, v5
-
-    .line 453
-    .line 454
-    move-object/from16 v17, v1
-
-    .line 455
-    .line 456
-    move-object/from16 v23, v6
-
-    .line 457
-    .line 458
-    invoke-direct/range {v16 .. v24}, Lwa/y0;-><init>(Ljava/lang/String;JIJLjava/util/ArrayList;Ljava/lang/String;)V
-
-    .line 459
-    .line 460
-    .line 461
-    new-instance v1, Lwa/z0;
-
-    .line 462
-    .line 463
-    const-string v6, "app_version_code"
-
-    .line 464
-    .line 465
-    invoke-virtual {v2, v6}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
-
-    .line 466
-    .line 467
-    .line 468
-    move-result v2
-
-    .line 469
-    invoke-direct {v1, v3, v2, v5}, Lwa/z0;-><init>(IILwa/y0;)V
-
-    .line 470
-    .line 471
-    .line 472
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 473
-    .line 474
-    .line 475
-    move-result-object v2
-
-    .line 476
-    invoke-virtual {v4, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 477
-    .line 478
-    .line 479
-    :cond_10
-    :goto_7
-    sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
-
-    .line 480
-    .line 481
-    :goto_8
-    return-object v1
-
-    .line 482
-    :goto_9
-    iget-object v1, v0, Landroidx/appcompat/widget/k;->d:Ljava/lang/Object;
-
-    .line 483
-    .line 484
-    check-cast v1, Lza/w;
-
-    .line 485
-    .line 486
-    invoke-interface {v1}, Lza/w;->zza()Ljava/lang/Object;
-
-    .line 487
-    .line 488
-    .line 489
-    move-result-object v1
-
-    .line 490
-    check-cast v2, Lza/w;
-
-    .line 491
-    .line 492
-    invoke-static {v2}, Lza/v;->a(Lza/w;)Lza/t;
-
-    .line 493
-    .line 494
-    .line 495
-    move-result-object v2
-
-    .line 496
-    new-instance v3, Lwa/v1;
-
-    .line 497
-    .line 498
-    check-cast v1, Lwa/x;
-
-    .line 499
-    .line 500
-    invoke-direct {v3, v1, v2}, Lwa/v1;-><init>(Lwa/x;Lza/t;)V
-
-    .line 501
-    .line 502
-    .line 503
-    return-object v3
-
-    .line 504
-    nop
-
-    .line 505
-    :pswitch_data_0
-    .packed-switch 0x3
-        :pswitch_0
-    .end packed-switch
-.end method
+# .method public final zza()Ljava/lang/Object;
+#     .locals 33
+#
+#     .line 1
+#     move-object/from16 v0, p0
+#
+#     .line 2
+#     .line 3
+#     iget v1, v0, Landroidx/appcompat/widget/k;->c:I
+#
+#     .line 4
+#     .line 5
+#     iget-object v2, v0, Landroidx/appcompat/widget/k;->e:Ljava/lang/Object;
+#
+#     .line 6
+#     .line 7
+#     packed-switch v1, :pswitch_data_0
+#
+#     .line 8
+#     .line 9
+#     .line 10
+#     goto/16 :goto_9
+#
+#     .line 11
+#     .line 12
+#     :pswitch_0
+#     iget-object v1, v0, Landroidx/appcompat/widget/k;->d:Ljava/lang/Object;
+#
+#     .line 13
+#     .line 14
+#     check-cast v1, Lwa/c1;
+#
+#     .line 15
+#     .line 16
+#     check-cast v2, Landroid/os/Bundle;
+#
+#     .line 17
+#     .line 18
+#     invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+#
+#     .line 19
+#     .line 20
+#     .line 21
+#     const-string v3, "session_id"
+#
+#     .line 22
+#     .line 23
+#     invoke-virtual {v2, v3}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
+#
+#     .line 24
+#     .line 25
+#     .line 26
+#     move-result v3
+#
+#     .line 27
+#     if-nez v3, :cond_0
+#
+#     .line 28
+#     .line 29
+#     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+#
+#     .line 30
+#     .line 31
+#     goto/16 :goto_8
+#
+#     .line 32
+#     .line 33
+#     :cond_0
+#     iget-object v4, v1, Lwa/c1;->e:Ljava/util/HashMap;
+#
+#     .line 34
+#     .line 35
+#     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+#
+#     .line 36
+#     .line 37
+#     .line 38
+#     move-result-object v5
+#
+#     .line 39
+#     invoke-virtual {v4, v5}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
+#
+#     .line 40
+#     .line 41
+#     .line 42
+#     move-result v6
+#
+#     .line 43
+#     const/4 v7, 0x1
+#
+#     .line 44
+#     const/4 v8, 0x0
+#
+#     .line 45
+#     const-string v9, "chunk_intents"
+#
+#     .line 46
+#     .line 47
+#     const-string v10, "status"
+#
+#     .line 48
+#     .line 49
+#     if-eqz v6, :cond_9
+#
+#     .line 50
+#     .line 51
+#     invoke-virtual {v1, v3}, Lwa/c1;->b(I)Lwa/z0;
+#
+#     .line 52
+#     .line 53
+#     .line 54
+#     move-result-object v4
+#
+#     .line 55
+#     iget-object v4, v4, Lwa/z0;->c:Lwa/y0;
+#
+#     .line 56
+#     .line 57
+#     iget-object v6, v4, Lwa/y0;->a:Ljava/lang/String;
+#
+#     .line 58
+#     .line 59
+#     invoke-static {v10, v6}, Lcom/vungle/warren/utility/e;->e0(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     .line 60
+#     .line 61
+#     .line 62
+#     move-result-object v6
+#
+#     .line 63
+#     invoke-virtual {v2, v6}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
+#
+#     .line 64
+#     .line 65
+#     .line 66
+#     move-result v6
+#
+#     .line 67
+#     iget v10, v4, Lwa/y0;->d:I
+#
+#     .line 68
+#     .line 69
+#     invoke-static {v10, v6}, Lwa/x0;->c(II)Z
+#
+#     .line 70
+#     .line 71
+#     .line 72
+#     move-result v11
+#
+#     .line 73
+#     const/4 v12, 0x4
+#
+#     .line 74
+#     const/4 v13, 0x6
+#
+#     .line 75
+#     const/4 v14, 0x5
+#
+#     .line 76
+#     iget-object v15, v4, Lwa/y0;->a:Ljava/lang/String;
+#
+#     .line 77
+#     .line 78
+#     if-eqz v11, :cond_3
+#
+#     .line 79
+#     .line 80
+#     const/4 v2, 0x2
+#
+#     .line 81
+#     new-array v2, v2, [Ljava/lang/Object;
+#
+#     .line 82
+#     .line 83
+#     aput-object v5, v2, v8
+#
+#     .line 84
+#     .line 85
+#     invoke-static {v10}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+#
+#     .line 86
+#     .line 87
+#     .line 88
+#     move-result-object v5
+#
+#     .line 89
+#     aput-object v5, v2, v7
+#
+#     .line 90
+#     .line 91
+#     const-string v5, "Found stale update for session %s with status %d."
+#
+#     .line 92
+#     .line 93
+#     sget-object v6, Lwa/c1;->g:Lx/j;
+#
+#     .line 94
+#     .line 95
+#     invoke-virtual {v6, v5, v2}, Lx/j;->n(Ljava/lang/String;[Ljava/lang/Object;)V
+#
+#     .line 96
+#     .line 97
+#     .line 98
+#     iget v2, v4, Lwa/y0;->d:I
+#
+#     .line 99
+#     .line 100
+#     iget-object v1, v1, Lwa/c1;->b:Lza/t;
+#
+#     .line 101
+#     .line 102
+#     if-ne v2, v12, :cond_1
+#
+#     .line 103
+#     .line 104
+#     invoke-interface {v1}, Lza/t;->zza()Ljava/lang/Object;
+#
+#     .line 105
+#     .line 106
+#     .line 107
+#     move-result-object v1
+#
+#     .line 108
+#     check-cast v1, Lwa/n2;
+#
+#     .line 109
+#     .line 110
+#     invoke-interface {v1, v3, v15}, Lwa/n2;->b(ILjava/lang/String;)V
+#
+#     .line 111
+#     .line 112
+#     .line 113
+#     goto/16 :goto_7
+#
+#     .line 114
+#     .line 115
+#     :cond_1
+#     if-ne v2, v14, :cond_2
+#
+#     .line 116
+#     .line 117
+#     invoke-interface {v1}, Lza/t;->zza()Ljava/lang/Object;
+#
+#     .line 118
+#     .line 119
+#     .line 120
+#     move-result-object v1
+#
+#     .line 121
+#     check-cast v1, Lwa/n2;
+#
+#     .line 122
+#     .line 123
+#     invoke-interface {v1, v3}, Lwa/n2;->zzi(I)V
+#
+#     .line 124
+#     .line 125
+#     .line 126
+#     goto/16 :goto_7
+#
+#     .line 127
+#     .line 128
+#     :cond_2
+#     if-ne v2, v13, :cond_10
+#
+#     .line 129
+#     .line 130
+#     invoke-interface {v1}, Lza/t;->zza()Ljava/lang/Object;
+#
+#     .line 131
+#     .line 132
+#     .line 133
+#     move-result-object v1
+#
+#     .line 134
+#     check-cast v1, Lwa/n2;
+#
+#     .line 135
+#     .line 136
+#     new-array v2, v7, [Ljava/lang/String;
+#
+#     .line 137
+#     .line 138
+#     aput-object v15, v2, v8
+#
+#     .line 139
+#     .line 140
+#     invoke-static {v2}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+#
+#     .line 141
+#     .line 142
+#     .line 143
+#     move-result-object v2
+#
+#     .line 144
+#     invoke-interface {v1, v2}, Lwa/n2;->e(Ljava/util/List;)V
+#
+#     .line 145
+#     .line 146
+#     .line 147
+#     goto/16 :goto_7
+#
+#     .line 148
+#     .line 149
+#     :cond_3
+#     iput v6, v4, Lwa/y0;->d:I
+#
+#     .line 150
+#     .line 151
+#     if-eq v6, v14, :cond_5
+#
+#     .line 152
+#     .line 153
+#     if-eq v6, v13, :cond_5
+#
+#     .line 154
+#     .line 155
+#     if-ne v6, v12, :cond_4
+#
+#     .line 156
+#     .line 157
+#     goto :goto_0
+#
+#     .line 158
+#     :cond_4
+#     const/4 v5, 0x0
+#
+#     .line 159
+#     goto :goto_1
+#
+#     .line 160
+#     :cond_5
+#     :goto_0
+#     const/4 v5, 0x1
+#
+#     .line 161
+#     :goto_1
+#     if-eqz v5, :cond_6
+#
+#     .line 162
+#     .line 163
+#     new-instance v2, Lm1/e;
+#
+#     .line 164
+#     .line 165
+#     invoke-direct {v2, v1, v3}, Lm1/e;-><init>(Lwa/c1;I)V
+#
+#     .line 166
+#     .line 167
+#     .line 168
+#     invoke-virtual {v1, v2}, Lwa/c1;->c(Lwa/b1;)Ljava/lang/Object;
+#
+#     .line 169
+#     .line 170
+#     .line 171
+#     iget-object v1, v1, Lwa/c1;->c:Lwa/u0;
+#
+#     .line 172
+#     .line 173
+#     invoke-virtual {v1, v15}, Lwa/u0;->a(Ljava/lang/String;)V
+#
+#     .line 174
+#     .line 175
+#     .line 176
+#     goto/16 :goto_7
+#
+#     .line 177
+#     .line 178
+#     :cond_6
+#     iget-object v1, v4, Lwa/y0;->f:Ljava/util/List;
+#
+#     .line 179
+#     .line 180
+#     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+#
+#     .line 181
+#     .line 182
+#     .line 183
+#     move-result-object v1
+#
+#     .line 184
+#     :cond_7
+#     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+#
+#     .line 185
+#     .line 186
+#     .line 187
+#     move-result v3
+#
+#     .line 188
+#     if-eqz v3, :cond_10
+#
+#     .line 189
+#     .line 190
+#     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+#
+#     .line 191
+#     .line 192
+#     .line 193
+#     move-result-object v3
+#
+#     .line 194
+#     check-cast v3, Lwa/a1;
+#
+#     .line 195
+#     .line 196
+#     iget-object v4, v3, Lwa/a1;->a:Ljava/lang/String;
+#
+#     .line 197
+#     .line 198
+#     invoke-static {v9, v15, v4}, Lcom/vungle/warren/utility/e;->g0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     .line 199
+#     .line 200
+#     .line 201
+#     move-result-object v4
+#
+#     .line 202
+#     invoke-virtual {v2, v4}, Landroid/os/Bundle;->getParcelableArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
+#
+#     .line 203
+#     .line 204
+#     .line 205
+#     move-result-object v4
+#
+#     .line 206
+#     if-eqz v4, :cond_7
+#
+#     .line 207
+#     .line 208
+#     const/4 v5, 0x0
+#
+#     .line 209
+#     :goto_2
+#     invoke-interface {v4}, Ljava/util/List;->size()I
+#
+#     .line 210
+#     .line 211
+#     .line 212
+#     move-result v6
+#
+#     .line 213
+#     if-ge v5, v6, :cond_7
+#
+#     .line 214
+#     .line 215
+#     invoke-interface {v4, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
+#
+#     .line 216
+#     .line 217
+#     .line 218
+#     move-result-object v6
+#
+#     .line 219
+#     if-eqz v6, :cond_8
+#
+#     .line 220
+#     .line 221
+#     invoke-interface {v4, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
+#
+#     .line 222
+#     .line 223
+#     .line 224
+#     move-result-object v6
+#
+#     .line 225
+#     check-cast v6, Landroid/content/Intent;
+#
+#     .line 226
+#     .line 227
+#     invoke-virtual {v6}, Landroid/content/Intent;->getData()Landroid/net/Uri;
+#
+#     .line 228
+#     .line 229
+#     .line 230
+#     move-result-object v6
+#
+#     .line 231
+#     if-eqz v6, :cond_8
+#
+#     .line 232
+#     .line 233
+#     iget-object v6, v3, Lwa/a1;->d:Ljava/util/List;
+#
+#     .line 234
+#     .line 235
+#     invoke-interface {v6, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
+#
+#     .line 236
+#     .line 237
+#     .line 238
+#     move-result-object v6
+#
+#     .line 239
+#     check-cast v6, Lwa/w0;
+#
+#     .line 240
+#     .line 241
+#     iput-boolean v7, v6, Lwa/w0;->a:Z
+#
+#     .line 242
+#     .line 243
+#     :cond_8
+#     add-int/lit8 v5, v5, 0x1
+#
+#     .line 244
+#     .line 245
+#     goto :goto_2
+#
+#     .line 246
+#     :cond_9
+#     invoke-static {v2}, Lwa/c1;->d(Landroid/os/Bundle;)Ljava/lang/String;
+#
+#     .line 247
+#     .line 248
+#     .line 249
+#     move-result-object v1
+#
+#     .line 250
+#     const-string v5, "pack_version"
+#
+#     .line 251
+#     .line 252
+#     invoke-static {v5, v1}, Lcom/vungle/warren/utility/e;->e0(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     .line 253
+#     .line 254
+#     .line 255
+#     move-result-object v5
+#
+#     .line 256
+#     invoke-virtual {v2, v5}, Landroid/os/BaseBundle;->getLong(Ljava/lang/String;)J
+#
+#     .line 257
+#     .line 258
+#     .line 259
+#     move-result-wide v18
+#
+#     .line 260
+#     const-string v5, "pack_version_tag"
+#
+#     .line 261
+#     .line 262
+#     invoke-static {v5, v1}, Lcom/vungle/warren/utility/e;->e0(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     .line 263
+#     .line 264
+#     .line 265
+#     move-result-object v5
+#
+#     .line 266
+#     const-string v6, ""
+#
+#     .line 267
+#     .line 268
+#     invoke-virtual {v2, v5, v6}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     .line 269
+#     .line 270
+#     .line 271
+#     move-result-object v24
+#
+#     .line 272
+#     invoke-static {v10, v1}, Lcom/vungle/warren/utility/e;->e0(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     .line 273
+#     .line 274
+#     .line 275
+#     move-result-object v5
+#
+#     .line 276
+#     invoke-virtual {v2, v5}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
+#
+#     .line 277
+#     .line 278
+#     .line 279
+#     move-result v20
+#
+#     .line 280
+#     const-string v5, "total_bytes_to_download"
+#
+#     .line 281
+#     .line 282
+#     invoke-static {v5, v1}, Lcom/vungle/warren/utility/e;->e0(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     .line 283
+#     .line 284
+#     .line 285
+#     move-result-object v5
+#
+#     .line 286
+#     invoke-virtual {v2, v5}, Landroid/os/BaseBundle;->getLong(Ljava/lang/String;)J
+#
+#     .line 287
+#     .line 288
+#     .line 289
+#     move-result-wide v21
+#
+#     .line 290
+#     const-string v5, "slice_ids"
+#
+#     .line 291
+#     .line 292
+#     invoke-static {v5, v1}, Lcom/vungle/warren/utility/e;->e0(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     .line 293
+#     .line 294
+#     .line 295
+#     move-result-object v5
+#
+#     .line 296
+#     invoke-virtual {v2, v5}, Landroid/os/Bundle;->getStringArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
+#
+#     .line 297
+#     .line 298
+#     .line 299
+#     move-result-object v5
+#
+#     .line 300
+#     new-instance v6, Ljava/util/ArrayList;
+#
+#     .line 301
+#     .line 302
+#     invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
+#
+#     .line 303
+#     .line 304
+#     .line 305
+#     if-nez v5, :cond_a
+#
+#     .line 306
+#     .line 307
+#     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
+#
+#     .line 308
+#     .line 309
+#     .line 310
+#     move-result-object v5
+#
+#     .line 311
+#     :cond_a
+#     invoke-interface {v5}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+#
+#     .line 312
+#     .line 313
+#     .line 314
+#     move-result-object v5
+#
+#     .line 315
+#     :goto_3
+#     invoke-interface {v5}, Ljava/util/Iterator;->hasNext()Z
+#
+#     .line 316
+#     .line 317
+#     .line 318
+#     move-result v10
+#
+#     .line 319
+#     if-eqz v10, :cond_f
+#
+#     .line 320
+#     .line 321
+#     invoke-interface {v5}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+#
+#     .line 322
+#     .line 323
+#     .line 324
+#     move-result-object v10
+#
+#     .line 325
+#     check-cast v10, Ljava/lang/String;
+#
+#     .line 326
+#     .line 327
+#     invoke-static {v9, v1, v10}, Lcom/vungle/warren/utility/e;->g0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     .line 328
+#     .line 329
+#     .line 330
+#     move-result-object v11
+#
+#     .line 331
+#     invoke-virtual {v2, v11}, Landroid/os/Bundle;->getParcelableArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
+#
+#     .line 332
+#     .line 333
+#     .line 334
+#     move-result-object v11
+#
+#     .line 335
+#     new-instance v12, Ljava/util/ArrayList;
+#
+#     .line 336
+#     .line 337
+#     invoke-direct {v12}, Ljava/util/ArrayList;-><init>()V
+#
+#     .line 338
+#     .line 339
+#     .line 340
+#     if-nez v11, :cond_b
+#
+#     .line 341
+#     .line 342
+#     invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
+#
+#     .line 343
+#     .line 344
+#     .line 345
+#     move-result-object v11
+#
+#     .line 346
+#     :cond_b
+#     invoke-interface {v11}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+#
+#     .line 347
+#     .line 348
+#     .line 349
+#     move-result-object v11
+#
+#     .line 350
+#     :goto_4
+#     invoke-interface {v11}, Ljava/util/Iterator;->hasNext()Z
+#
+#     .line 351
+#     .line 352
+#     .line 353
+#     move-result v13
+#
+#     .line 354
+#     if-eqz v13, :cond_d
+#
+#     .line 355
+#     .line 356
+#     invoke-interface {v11}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+#
+#     .line 357
+#     .line 358
+#     .line 359
+#     move-result-object v13
+#
+#     .line 360
+#     check-cast v13, Landroid/content/Intent;
+#
+#     .line 361
+#     .line 362
+#     if-eqz v13, :cond_c
+#
+#     .line 363
+#     .line 364
+#     const/4 v13, 0x1
+#
+#     .line 365
+#     goto :goto_5
+#
+#     .line 366
+#     :cond_c
+#     const/4 v13, 0x0
+#
+#     .line 367
+#     :goto_5
+#     new-instance v14, Lwa/w0;
+#
+#     .line 368
+#     .line 369
+#     invoke-direct {v14, v13}, Lwa/w0;-><init>(Z)V
+#
+#     .line 370
+#     .line 371
+#     .line 372
+#     invoke-virtual {v12, v14}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+#
+#     .line 373
+#     .line 374
+#     .line 375
+#     goto :goto_4
+#
+#     .line 376
+#     :cond_d
+#     const-string v11, "uncompressed_hash_sha256"
+#
+#     .line 377
+#     .line 378
+#     invoke-static {v11, v1, v10}, Lcom/vungle/warren/utility/e;->g0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     .line 379
+#     .line 380
+#     .line 381
+#     move-result-object v11
+#
+#     .line 382
+#     invoke-virtual {v2, v11}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+#
+#     .line 383
+#     .line 384
+#     .line 385
+#     move-result-object v27
+#
+#     .line 386
+#     const-string v11, "uncompressed_size"
+#
+#     .line 387
+#     .line 388
+#     invoke-static {v11, v1, v10}, Lcom/vungle/warren/utility/e;->g0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     .line 389
+#     .line 390
+#     .line 391
+#     move-result-object v11
+#
+#     .line 392
+#     invoke-virtual {v2, v11}, Landroid/os/BaseBundle;->getLong(Ljava/lang/String;)J
+#
+#     .line 393
+#     .line 394
+#     .line 395
+#     move-result-wide v28
+#
+#     .line 396
+#     const-string v11, "patch_format"
+#
+#     .line 397
+#     .line 398
+#     invoke-static {v11, v1, v10}, Lcom/vungle/warren/utility/e;->g0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     .line 399
+#     .line 400
+#     .line 401
+#     move-result-object v11
+#
+#     .line 402
+#     invoke-virtual {v2, v11, v8}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;I)I
+#
+#     .line 403
+#     .line 404
+#     .line 405
+#     move-result v32
+#
+#     .line 406
+#     if-eqz v32, :cond_e
+#
+#     .line 407
+#     .line 408
+#     new-instance v11, Lwa/a1;
+#
+#     .line 409
+#     .line 410
+#     const/16 v31, 0x0
+#
+#     .line 411
+#     .line 412
+#     move-object/from16 v25, v11
+#
+#     .line 413
+#     .line 414
+#     move-object/from16 v26, v10
+#
+#     .line 415
+#     .line 416
+#     move-object/from16 v30, v12
+#
+#     .line 417
+#     .line 418
+#     invoke-direct/range {v25 .. v32}, Lwa/a1;-><init>(Ljava/lang/String;Ljava/lang/String;JLjava/util/ArrayList;II)V
+#
+#     .line 419
+#     .line 420
+#     .line 421
+#     goto :goto_6
+#
+#     .line 422
+#     :cond_e
+#     const-string v11, "compression_format"
+#
+#     .line 423
+#     .line 424
+#     invoke-static {v11, v1, v10}, Lcom/vungle/warren/utility/e;->g0(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+#
+#     .line 425
+#     .line 426
+#     .line 427
+#     move-result-object v11
+#
+#     .line 428
+#     invoke-virtual {v2, v11, v8}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;I)I
+#
+#     .line 429
+#     .line 430
+#     .line 431
+#     move-result v31
+#
+#     .line 432
+#     new-instance v11, Lwa/a1;
+#
+#     .line 433
+#     .line 434
+#     const/16 v32, 0x0
+#
+#     .line 435
+#     .line 436
+#     move-object/from16 v25, v11
+#
+#     .line 437
+#     .line 438
+#     move-object/from16 v26, v10
+#
+#     .line 439
+#     .line 440
+#     move-object/from16 v30, v12
+#
+#     .line 441
+#     .line 442
+#     invoke-direct/range {v25 .. v32}, Lwa/a1;-><init>(Ljava/lang/String;Ljava/lang/String;JLjava/util/ArrayList;II)V
+#
+#     .line 443
+#     .line 444
+#     .line 445
+#     :goto_6
+#     invoke-virtual {v6, v11}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+#
+#     .line 446
+#     .line 447
+#     .line 448
+#     goto/16 :goto_3
+#
+#     .line 449
+#     .line 450
+#     :cond_f
+#     new-instance v5, Lwa/y0;
+#
+#     .line 451
+#     .line 452
+#     move-object/from16 v16, v5
+#
+#     .line 453
+#     .line 454
+#     move-object/from16 v17, v1
+#
+#     .line 455
+#     .line 456
+#     move-object/from16 v23, v6
+#
+#     .line 457
+#     .line 458
+#     invoke-direct/range {v16 .. v24}, Lwa/y0;-><init>(Ljava/lang/String;JIJLjava/util/ArrayList;Ljava/lang/String;)V
+#
+#     .line 459
+#     .line 460
+#     .line 461
+#     new-instance v1, Lwa/z0;
+#
+#     .line 462
+#     .line 463
+#     const-string v6, "app_version_code"
+#
+#     .line 464
+#     .line 465
+#     invoke-virtual {v2, v6}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
+#
+#     .line 466
+#     .line 467
+#     .line 468
+#     move-result v2
+#
+#     .line 469
+#     invoke-direct {v1, v3, v2, v5}, Lwa/z0;-><init>(IILwa/y0;)V
+#
+#     .line 470
+#     .line 471
+#     .line 472
+#     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+#
+#     .line 473
+#     .line 474
+#     .line 475
+#     move-result-object v2
+#
+#     .line 476
+#     invoke-virtual {v4, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     .line 477
+#     .line 478
+#     .line 479
+#     :cond_10
+#     :goto_7
+#     sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+#
+#     .line 480
+#     .line 481
+#     :goto_8
+#     return-object v1
+#
+#     .line 482
+#     :goto_9
+#     iget-object v1, v0, Landroidx/appcompat/widget/k;->d:Ljava/lang/Object;
+#
+#     .line 483
+#     .line 484
+#     check-cast v1, Lza/w;
+#
+#     .line 485
+#     .line 486
+#     invoke-interface {v1}, Lza/w;->zza()Ljava/lang/Object;
+#
+#     .line 487
+#     .line 488
+#     .line 489
+#     move-result-object v1
+#
+#     .line 490
+#     check-cast v2, Lza/w;
+#
+#     .line 491
+#     .line 492
+#     invoke-static {v2}, Lza/v;->a(Lza/w;)Lza/t;
+#
+#     .line 493
+#     .line 494
+#     .line 495
+#     move-result-object v2
+#
+#     .line 496
+#     new-instance v3, Lwa/v1;
+#
+#     .line 497
+#     .line 498
+#     check-cast v1, Lwa/x;
+#
+#     .line 499
+#     .line 500
+#     invoke-direct {v3, v1, v2}, Lwa/v1;-><init>(Lwa/x;Lza/t;)V
+#
+#     .line 501
+#     .line 502
+#     .line 503
+#     return-object v3
+#
+#     .line 504
+#     nop
+#
+#     .line 505
+#     :pswitch_data_0
+#     .packed-switch 0x3
+#         :pswitch_0
+#     .end packed-switch
+# .end method

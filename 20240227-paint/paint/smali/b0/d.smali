@@ -496,84 +496,84 @@
 # virtual methods
 .method public a(Lz/k1;)V
     .locals 4
-
-    .line 1
-    new-instance v0, Landroid/graphics/SurfaceTexture;
-
-    .line 2
-    .line 3
-    const/4 v1, 0x0
-
-    .line 4
-    invoke-direct {v0, v1}, Landroid/graphics/SurfaceTexture;-><init>(I)V
-
-    .line 5
-    .line 6
-    .line 7
-    iget-object v1, p1, Lz/k1;->b:Landroid/util/Size;
-
-    .line 8
-    .line 9
-    invoke-virtual {v1}, Landroid/util/Size;->getWidth()I
-
-    .line 10
-    .line 11
-    .line 12
-    move-result v1
-
-    .line 13
-    iget-object v2, p1, Lz/k1;->b:Landroid/util/Size;
-
-    .line 14
-    .line 15
-    invoke-virtual {v2}, Landroid/util/Size;->getHeight()I
-
-    .line 16
-    .line 17
-    .line 18
-    move-result v2
-
-    .line 19
-    invoke-virtual {v0, v1, v2}, Landroid/graphics/SurfaceTexture;->setDefaultBufferSize(II)V
-
-    .line 20
-    .line 21
-    .line 22
-    invoke-virtual {v0}, Landroid/graphics/SurfaceTexture;->detachFromGLContext()V
-
-    .line 23
-    .line 24
-    .line 25
-    new-instance v1, Landroid/view/Surface;
-
-    .line 26
-    .line 27
-    invoke-direct {v1, v0}, Landroid/view/Surface;-><init>(Landroid/graphics/SurfaceTexture;)V
-
-    .line 28
-    .line 29
-    .line 30
-    invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
-
-    .line 31
-    .line 32
-    .line 33
-    move-result-object v2
-
-    .line 34
-    new-instance v3, Lf0/d;
-
-    .line 35
-    .line 36
-    invoke-direct {v3, v0, v1}, Lf0/d;-><init>(Landroid/graphics/SurfaceTexture;Landroid/view/Surface;)V
-
-    .line 37
-    .line 38
-    .line 39
-    invoke-virtual {p1, v1, v2, v3}, Lz/k1;->a(Landroid/view/Surface;Ljava/util/concurrent/Executor;Lm1/a;)V
-
-    .line 40
-    .line 41
-    .line 42
+    #
+    # .line 1
+    # new-instance v0, Landroid/graphics/SurfaceTexture;
+    #
+    # .line 2
+    # .line 3
+    # const/4 v1, 0x0
+    #
+    # .line 4
+    # invoke-direct {v0, v1}, Landroid/graphics/SurfaceTexture;-><init>(I)V
+    #
+    # .line 5
+    # .line 6
+    # .line 7
+    # iget-object v1, p1, Lz/k1;->b:Landroid/util/Size;
+    #
+    # .line 8
+    # .line 9
+    # invoke-virtual {v1}, Landroid/util/Size;->getWidth()I
+    #
+    # .line 10
+    # .line 11
+    # .line 12
+    # move-result v1
+    #
+    # .line 13
+    # iget-object v2, p1, Lz/k1;->b:Landroid/util/Size;
+    #
+    # .line 14
+    # .line 15
+    # invoke-virtual {v2}, Landroid/util/Size;->getHeight()I
+    #
+    # .line 16
+    # .line 17
+    # .line 18
+    # move-result v2
+    #
+    # .line 19
+    # invoke-virtual {v0, v1, v2}, Landroid/graphics/SurfaceTexture;->setDefaultBufferSize(II)V
+    #
+    # .line 20
+    # .line 21
+    # .line 22
+    # invoke-virtual {v0}, Landroid/graphics/SurfaceTexture;->detachFromGLContext()V
+    #
+    # .line 23
+    # .line 24
+    # .line 25
+    # new-instance v1, Landroid/view/Surface;
+    #
+    # .line 26
+    # .line 27
+    # invoke-direct {v1, v0}, Landroid/view/Surface;-><init>(Landroid/graphics/SurfaceTexture;)V
+    #
+    # .line 28
+    # .line 29
+    # .line 30
+    # # invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
+    #
+    # .line 31
+    # .line 32
+    # .line 33
+    # move-result-object v2
+    #
+    # .line 34
+    # # new-instance v3, Lf0/d;
+    #
+    # .line 35
+    # .line 36
+    # invoke-direct {v3, v0, v1}, Lf0/d;-><init>(Landroid/graphics/SurfaceTexture;Landroid/view/Surface;)V
+    #
+    # .line 37
+    # .line 38
+    # .line 39
+    # # invoke-virtual {p1, v1, v2, v3}, Lz/k1;->a(Landroid/view/Surface;Ljava/util/concurrent/Executor;Lm1/a;)V
+    #
+    # .line 40
+    # .line 41
+    # .line 42
     return-void
 .end method

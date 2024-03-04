@@ -399,7 +399,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, p1, v0}, Lcom/vungle/warren/utility/e;->P(Landroid/view/View;Landroid/view/inputmethod/EditorInfo;Landroid/view/inputmethod/InputConnection;)V
+    # invoke-static {p0, p1, v0}, Lcom/vungle/warren/utility/e;->P(Landroid/view/View;Landroid/view/inputmethod/EditorInfo;Landroid/view/inputmethod/InputConnection;)V
 
     iget-object v1, p0, Landroidx/appcompat/widget/d;->e:Landroidx/appcompat/widget/k;
 

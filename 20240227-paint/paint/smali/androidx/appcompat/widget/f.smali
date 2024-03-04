@@ -568,7 +568,7 @@
 
     move-result-object v0
 
-    invoke-static {p0, p1, v0}, Lcom/vungle/warren/utility/e;->P(Landroid/view/View;Landroid/view/inputmethod/EditorInfo;Landroid/view/inputmethod/InputConnection;)V
+    # invoke-static {p0, p1, v0}, Lcom/vungle/warren/utility/e;->P(Landroid/view/View;Landroid/view/inputmethod/EditorInfo;Landroid/view/inputmethod/InputConnection;)V
 
     return-object v0
 .end method
