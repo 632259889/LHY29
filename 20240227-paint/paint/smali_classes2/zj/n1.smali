@@ -1448,921 +1448,921 @@
     throw v0
 .end method
 
-.method public final l(Lzj/g1;Lji/w0;I)Lzj/g1;
-    .locals 16
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lzj/n1$a;
-        }
-    .end annotation
-
-    move-object/from16 v0, p0
-
-    move-object/from16 v1, p2
-
-    move/from16 v2, p3
-
-    const/4 v3, 0x0
-
-    if-eqz p1, :cond_2b
-
-    const/16 v4, 0x64
-
-    .line 1
-    iget-object v5, v0, Lzj/n1;->a:Lzj/j1;
-
-    if-gt v2, v4, :cond_2a
-
-    .line 2
-    invoke-interface/range {p1 .. p1}, Lzj/g1;->c()Z
-
-    move-result v4
-
-    if-eqz v4, :cond_0
-
-    return-object p1
-
-    :cond_0
-    invoke-interface/range {p1 .. p1}, Lzj/g1;->getType()Lzj/c0;
-
-    move-result-object v4
-
-    instance-of v6, v4, Lzj/p1;
-
-    const/4 v7, 0x1
-
-    if-eqz v6, :cond_2
-
-    check-cast v4, Lzj/p1;
-
-    invoke-interface {v4}, Lzj/p1;->N0()Lzj/q1;
-
-    move-result-object v3
-
-    invoke-interface {v4}, Lzj/p1;->K()Lzj/c0;
-
-    move-result-object v4
-
-    new-instance v5, Lzj/i1;
-
-    invoke-interface/range {p1 .. p1}, Lzj/g1;->a()Lzj/r1;
-
-    move-result-object v6
-
-    invoke-direct {v5, v3, v6}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
-
-    add-int/2addr v2, v7
-
-    invoke-virtual {v0, v5, v1, v2}, Lzj/n1;->l(Lzj/g1;Lji/w0;I)Lzj/g1;
-
-    move-result-object v1
-
-    invoke-interface {v1}, Lzj/g1;->c()Z
-
-    move-result v2
-
-    if-eqz v2, :cond_1
-
-    return-object v1
-
-    :cond_1
-    invoke-interface/range {p1 .. p1}, Lzj/g1;->a()Lzj/r1;
-
-    move-result-object v2
-
-    invoke-virtual {v0, v4, v2}, Lzj/n1;->k(Lzj/c0;Lzj/r1;)Lzj/c0;
-
-    move-result-object v2
-
-    invoke-interface {v1}, Lzj/g1;->getType()Lzj/c0;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Lzj/c0;->X0()Lzj/q1;
-
-    move-result-object v3
-
-    invoke-static {v3, v2}, Lcom/vungle/warren/utility/e;->b0(Lzj/q1;Lzj/c0;)Lzj/q1;
-
-    move-result-object v2
-
-    new-instance v3, Lzj/i1;
-
-    invoke-interface {v1}, Lzj/g1;->a()Lzj/r1;
-
-    move-result-object v1
-
-    invoke-direct {v3, v2, v1}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
-
-    return-object v3
-
-    :cond_2
-    invoke-static {v4}, Lzj/u;->a(Lzj/c0;)Z
-
-    move-result v6
-
-    if-nez v6, :cond_29
-
-    invoke-virtual {v4}, Lzj/c0;->X0()Lzj/q1;
-
-    move-result-object v6
-
-    instance-of v6, v6, Lzj/j0;
-
-    if-eqz v6, :cond_3
-
-    goto/16 :goto_11
-
-    :cond_3
-    invoke-virtual {v5, v4}, Lzj/j1;->d(Lzj/c0;)Lzj/g1;
-
-    move-result-object v6
-
-    if-eqz v6, :cond_8
-
-    .line 3
-    invoke-virtual {v4}, Lzj/c0;->getAnnotations()Lki/h;
-
-    move-result-object v8
-
-    sget-object v9, Lgi/o$a;->y:Lij/c;
-
-    invoke-interface {v8, v9}, Lki/h;->B(Lij/c;)Z
-
-    move-result v8
-
-    if-nez v8, :cond_4
-
-    goto :goto_0
-
-    :cond_4
-    invoke-interface {v6}, Lzj/g1;->getType()Lzj/c0;
-
-    move-result-object v8
-
-    invoke-virtual {v8}, Lzj/c0;->U0()Lzj/a1;
-
-    move-result-object v8
-
-    instance-of v9, v8, Lak/j;
-
-    if-nez v9, :cond_5
-
-    goto :goto_0
-
-    :cond_5
-    check-cast v8, Lak/j;
-
-    .line 4
-    iget-object v8, v8, Lak/j;->a:Lzj/g1;
-
-    .line 5
-    invoke-interface {v8}, Lzj/g1;->a()Lzj/r1;
-
-    move-result-object v9
-
-    invoke-interface/range {p1 .. p1}, Lzj/g1;->a()Lzj/r1;
-
-    move-result-object v10
-
-    invoke-static {v10, v9}, Lzj/n1;->c(Lzj/r1;Lzj/r1;)I
-
-    move-result v10
-
-    const/4 v11, 0x3
-
-    if-ne v10, v11, :cond_6
-
-    new-instance v6, Lzj/i1;
-
-    invoke-interface {v8}, Lzj/g1;->getType()Lzj/c0;
-
-    move-result-object v8
-
-    invoke-direct {v6, v8}, Lzj/i1;-><init>(Lzj/c0;)V
-
-    goto :goto_0
-
-    :cond_6
-    if-nez v1, :cond_7
-
-    goto :goto_0
-
-    :cond_7
-    invoke-interface/range {p2 .. p2}, Lji/w0;->S()Lzj/r1;
-
-    move-result-object v10
-
-    invoke-static {v10, v9}, Lzj/n1;->c(Lzj/r1;Lzj/r1;)I
-
-    move-result v9
-
-    if-ne v9, v11, :cond_9
-
-    new-instance v6, Lzj/i1;
-
-    invoke-interface {v8}, Lzj/g1;->getType()Lzj/c0;
-
-    move-result-object v8
-
-    invoke-direct {v6, v8}, Lzj/i1;-><init>(Lzj/c0;)V
-
-    goto :goto_0
-
-    :cond_8
-    move-object v6, v3
-
-    .line 6
-    :cond_9
-    :goto_0
-    invoke-interface/range {p1 .. p1}, Lzj/g1;->a()Lzj/r1;
-
-    move-result-object v8
-
-    const/4 v9, 0x0
-
-    if-nez v6, :cond_d
-
-    invoke-static {v4}, Lcom/vungle/warren/utility/e;->v(Lzj/c0;)Z
-
-    move-result v10
-
-    if-eqz v10, :cond_d
-
-    .line 7
-    invoke-virtual {v4}, Lzj/c0;->X0()Lzj/q1;
-
-    move-result-object v10
-
-    instance-of v11, v10, Lzj/m;
-
-    if-eqz v11, :cond_a
-
-    check-cast v10, Lzj/m;
-
-    goto :goto_1
-
-    :cond_a
-    move-object v10, v3
-
-    :goto_1
-    if-eqz v10, :cond_b
-
-    invoke-interface {v10}, Lzj/m;->H0()Z
-
-    move-result v10
-
-    goto :goto_2
-
-    :cond_b
-    const/4 v10, 0x0
-
-    :goto_2
-    if-nez v10, :cond_d
-
-    .line 8
-    invoke-static {v4}, Lcom/vungle/warren/utility/e;->i(Lzj/c0;)Lzj/w;
-
-    move-result-object v3
-
-    new-instance v4, Lzj/i1;
-
-    iget-object v5, v3, Lzj/w;->d:Lzj/k0;
-
-    invoke-direct {v4, v5, v8}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
-
-    add-int/2addr v2, v7
-
-    invoke-virtual {v0, v4, v1, v2}, Lzj/n1;->l(Lzj/g1;Lji/w0;I)Lzj/g1;
-
-    move-result-object v4
-
-    new-instance v6, Lzj/i1;
-
-    iget-object v3, v3, Lzj/w;->e:Lzj/k0;
-
-    invoke-direct {v6, v3, v8}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
-
-    invoke-virtual {v0, v6, v1, v2}, Lzj/n1;->l(Lzj/g1;Lji/w0;I)Lzj/g1;
-
-    move-result-object v1
-
-    invoke-interface {v4}, Lzj/g1;->a()Lzj/r1;
-
-    move-result-object v2
-
-    invoke-interface {v4}, Lzj/g1;->getType()Lzj/c0;
-
-    move-result-object v6
-
-    if-ne v6, v5, :cond_c
-
-    invoke-interface {v1}, Lzj/g1;->getType()Lzj/c0;
-
-    move-result-object v5
-
-    if-ne v5, v3, :cond_c
-
-    return-object p1
-
-    :cond_c
-    invoke-interface {v4}, Lzj/g1;->getType()Lzj/c0;
-
-    move-result-object v3
-
-    invoke-static {v3}, Lzj/l1;->a(Lzj/c0;)Lzj/k0;
-
-    move-result-object v3
-
-    invoke-interface {v1}, Lzj/g1;->getType()Lzj/c0;
-
-    move-result-object v1
-
-    invoke-static {v1}, Lzj/l1;->a(Lzj/c0;)Lzj/k0;
-
-    move-result-object v1
-
-    invoke-static {v3, v1}, Lzj/d0;->c(Lzj/k0;Lzj/k0;)Lzj/q1;
-
-    move-result-object v1
-
-    new-instance v3, Lzj/i1;
-
-    invoke-direct {v3, v1, v2}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
-
-    return-object v3
-
-    :cond_d
-    invoke-static {v4}, Lgi/k;->F(Lzj/c0;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_29
-
-    invoke-static {v4}, La4/a1;->V(Lzj/c0;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_e
-
-    goto/16 :goto_11
-
-    :cond_e
-    const/4 v1, 0x2
-
-    if-eqz v6, :cond_1a
-
-    invoke-interface {v6}, Lzj/g1;->a()Lzj/r1;
-
-    move-result-object v2
-
-    invoke-static {v8, v2}, Lzj/n1;->c(Lzj/r1;Lzj/r1;)I
-
-    move-result v2
-
-    .line 9
-    invoke-virtual {v4}, Lzj/c0;->U0()Lzj/a1;
-
-    move-result-object v10
-
-    instance-of v10, v10, Lmj/b;
-
-    if-nez v10, :cond_11
-
-    .line 10
-    invoke-static {v2}, Lt/w;->c(I)I
-
-    move-result v10
-
-    if-eq v10, v7, :cond_10
-
-    if-eq v10, v1, :cond_f
-
-    goto :goto_3
-
-    :cond_f
-    new-instance v1, Lzj/n1$a;
-
-    invoke-direct {v1}, Lzj/n1$a;-><init>()V
-
-    throw v1
-
-    :cond_10
-    new-instance v1, Lzj/i1;
-
-    sget-object v2, Lzj/r1;->g:Lzj/r1;
-
-    invoke-virtual {v4}, Lzj/c0;->U0()Lzj/a1;
-
-    move-result-object v3
-
-    invoke-interface {v3}, Lzj/a1;->o()Lgi/k;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Lgi/k;->p()Lzj/k0;
-
-    move-result-object v3
-
-    invoke-direct {v1, v3, v2}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
-
-    return-object v1
-
-    .line 11
-    :cond_11
-    :goto_3
-    invoke-virtual {v4}, Lzj/c0;->X0()Lzj/q1;
-
-    move-result-object v10
-
-    instance-of v11, v10, Lzj/m;
-
-    if-eqz v11, :cond_12
-
-    check-cast v10, Lzj/m;
-
-    goto :goto_4
-
-    :cond_12
-    move-object v10, v3
-
-    :goto_4
-    if-eqz v10, :cond_13
-
-    invoke-interface {v10}, Lzj/m;->H0()Z
-
-    move-result v11
-
-    if-eqz v11, :cond_13
-
-    goto :goto_5
-
-    :cond_13
-    move-object v10, v3
-
-    .line 12
-    :goto_5
-    invoke-interface {v6}, Lzj/g1;->c()Z
-
-    move-result v11
-
-    if-eqz v11, :cond_14
-
-    return-object v6
-
-    :cond_14
-    if-eqz v10, :cond_15
-
-    invoke-interface {v6}, Lzj/g1;->getType()Lzj/c0;
-
-    move-result-object v11
-
-    invoke-interface {v10, v11}, Lzj/m;->x(Lzj/c0;)Lzj/q1;
-
-    move-result-object v10
-
-    goto :goto_6
-
-    :cond_15
-    invoke-interface {v6}, Lzj/g1;->getType()Lzj/c0;
-
-    move-result-object v10
-
-    invoke-virtual {v4}, Lzj/c0;->V0()Z
-
-    move-result v11
-
-    invoke-static {v10, v11}, Lzj/o1;->k(Lzj/c0;Z)Lzj/c0;
-
-    move-result-object v10
-
-    :goto_6
-    invoke-virtual {v4}, Lzj/c0;->getAnnotations()Lki/h;
-
-    move-result-object v11
-
-    invoke-interface {v11}, Lki/h;->isEmpty()Z
-
-    move-result v11
-
-    if-nez v11, :cond_18
-
-    invoke-virtual {v4}, Lzj/c0;->getAnnotations()Lki/h;
-
-    move-result-object v4
-
-    invoke-virtual {v5, v4}, Lzj/j1;->c(Lki/h;)Lki/h;
-
-    move-result-object v4
-
-    if-eqz v4, :cond_17
-
-    .line 13
-    sget-object v3, Lgi/o$a;->y:Lij/c;
-
-    invoke-interface {v4, v3}, Lki/h;->B(Lij/c;)Z
-
-    move-result v3
-
-    if-nez v3, :cond_16
-
-    goto :goto_7
-
-    :cond_16
-    new-instance v3, Lki/l;
-
-    new-instance v5, Lzj/m1;
-
-    invoke-direct {v5}, Lzj/m1;-><init>()V
-
-    invoke-direct {v3, v4, v5}, Lki/l;-><init>(Lki/h;Lzj/m1;)V
-
-    move-object v4, v3
-
-    .line 14
-    :goto_7
-    new-instance v3, Lki/k;
-
-    new-array v1, v1, [Lki/h;
-
-    invoke-virtual {v10}, Lzj/c0;->getAnnotations()Lki/h;
-
-    move-result-object v5
-
-    aput-object v5, v1, v9
-
-    aput-object v4, v1, v7
-
-    invoke-direct {v3, v1}, Lki/k;-><init>([Lki/h;)V
-
-    invoke-static {v10, v3}, Lm8/b;->I(Lzj/c0;Lki/h;)Lzj/c0;
-
-    move-result-object v10
-
-    goto :goto_8
-
-    :cond_17
-    const/16 v1, 0x21
-
-    .line 15
-    invoke-static {v1}, Lzj/n1;->a(I)V
-
-    throw v3
-
-    :cond_18
-    :goto_8
-    if-ne v2, v7, :cond_19
-
-    .line 16
-    invoke-interface {v6}, Lzj/g1;->a()Lzj/r1;
-
-    move-result-object v1
-
-    invoke-static {v8, v1}, Lzj/n1;->b(Lzj/r1;Lzj/r1;)Lzj/r1;
-
-    move-result-object v8
-
-    :cond_19
-    new-instance v1, Lzj/i1;
-
-    invoke-direct {v1, v10, v8}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
-
-    return-object v1
-
-    .line 17
-    :cond_1a
-    invoke-interface/range {p1 .. p1}, Lzj/g1;->getType()Lzj/c0;
-
-    move-result-object v4
-
-    invoke-interface/range {p1 .. p1}, Lzj/g1;->a()Lzj/r1;
-
-    move-result-object v6
-
-    invoke-virtual {v4}, Lzj/c0;->U0()Lzj/a1;
-
-    move-result-object v8
-
-    invoke-interface {v8}, Lzj/a1;->a()Lji/g;
-
-    move-result-object v8
-
-    instance-of v8, v8, Lji/w0;
-
-    if-eqz v8, :cond_1b
-
-    move-object/from16 v1, p1
-
-    goto/16 :goto_10
-
-    .line 18
-    :cond_1b
-    invoke-virtual {v4}, Lzj/c0;->X0()Lzj/q1;
-
-    move-result-object v8
-
-    instance-of v10, v8, Lzj/a;
-
-    if-eqz v10, :cond_1c
-
-    check-cast v8, Lzj/a;
-
-    goto :goto_9
-
-    :cond_1c
-    move-object v8, v3
-
-    :goto_9
-    if-eqz v8, :cond_1d
-
-    .line 19
-    iget-object v8, v8, Lzj/a;->e:Lzj/k0;
-
-    goto :goto_a
-
-    :cond_1d
-    move-object v8, v3
-
-    .line 20
-    :goto_a
-    sget-object v10, Lzj/r1;->e:Lzj/r1;
-
-    if-eqz v8, :cond_20
-
-    .line 21
-    instance-of v3, v5, Lzj/z;
-
-    if-eqz v3, :cond_1f
-
-    invoke-virtual {v5}, Lzj/j1;->b()Z
-
-    move-result v3
-
-    if-nez v3, :cond_1e
-
-    goto :goto_b
-
-    :cond_1e
-    new-instance v3, Lzj/n1;
-
-    new-instance v11, Lzj/z;
-
-    move-object v12, v5
-
-    check-cast v12, Lzj/z;
-
-    iget-object v13, v12, Lzj/z;->b:[Lji/w0;
-
-    iget-object v12, v12, Lzj/z;->c:[Lzj/g1;
-
-    invoke-direct {v11, v13, v12, v9}, Lzj/z;-><init>([Lji/w0;[Lzj/g1;Z)V
-
-    invoke-direct {v3, v11}, Lzj/n1;-><init>(Lzj/j1;)V
-
-    goto :goto_c
-
-    :cond_1f
-    :goto_b
-    move-object v3, v0
-
-    .line 22
-    :goto_c
-    invoke-virtual {v3, v8, v10}, Lzj/n1;->k(Lzj/c0;Lzj/r1;)Lzj/c0;
-
-    move-result-object v3
-
-    :cond_20
-    invoke-virtual {v4}, Lzj/c0;->U0()Lzj/a1;
-
-    move-result-object v8
-
-    invoke-interface {v8}, Lzj/a1;->d()Ljava/util/List;
-
-    move-result-object v8
-
-    invoke-virtual {v4}, Lzj/c0;->S0()Ljava/util/List;
-
-    move-result-object v11
-
-    .line 23
-    new-instance v12, Ljava/util/ArrayList;
-
-    invoke-interface {v8}, Ljava/util/List;->size()I
-
-    move-result v13
-
-    invoke-direct {v12, v13}, Ljava/util/ArrayList;-><init>(I)V
-
-    const/4 v13, 0x0
-
-    :goto_d
-    invoke-interface {v8}, Ljava/util/List;->size()I
-
-    move-result v14
-
-    if-ge v9, v14, :cond_26
-
-    invoke-interface {v8, v9}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object v14
-
-    check-cast v14, Lji/w0;
-
-    invoke-interface {v11, v9}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object v15
-
-    check-cast v15, Lzj/g1;
-
-    add-int/lit8 v1, v2, 0x1
-
-    invoke-virtual {v0, v15, v14, v1}, Lzj/n1;->l(Lzj/g1;Lji/w0;I)Lzj/g1;
-
-    move-result-object v1
-
-    invoke-interface {v14}, Lji/w0;->S()Lzj/r1;
-
-    move-result-object v7
-
-    invoke-interface {v1}, Lzj/g1;->a()Lzj/r1;
-
-    move-result-object v0
-
-    invoke-static {v7, v0}, Lzj/n1;->c(Lzj/r1;Lzj/r1;)I
-
-    move-result v0
-
-    invoke-static {v0}, Lt/w;->c(I)I
-
-    move-result v0
-
-    if-eqz v0, :cond_23
-
-    const/4 v7, 0x1
-
-    if-eq v0, v7, :cond_21
-
-    const/4 v7, 0x2
-
-    if-eq v0, v7, :cond_22
-
-    goto :goto_e
-
-    :cond_21
-    const/4 v7, 0x2
-
-    :cond_22
-    invoke-static {v14}, Lzj/o1;->m(Lji/w0;)Lzj/q0;
-
-    move-result-object v1
-
-    goto :goto_e
-
-    :cond_23
-    const/4 v7, 0x2
-
-    invoke-interface {v14}, Lji/w0;->S()Lzj/r1;
-
-    move-result-object v0
-
-    if-eq v0, v10, :cond_24
-
-    invoke-interface {v1}, Lzj/g1;->c()Z
-
-    move-result v0
-
-    if-nez v0, :cond_24
-
-    new-instance v0, Lzj/i1;
-
-    invoke-interface {v1}, Lzj/g1;->getType()Lzj/c0;
-
-    move-result-object v1
-
-    invoke-direct {v0, v1, v10}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
-
-    move-object v1, v0
-
-    :cond_24
-    :goto_e
-    if-eq v1, v15, :cond_25
-
-    const/4 v13, 0x1
-
-    :cond_25
-    invoke-virtual {v12, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    add-int/lit8 v9, v9, 0x1
-
-    move-object/from16 v0, p0
-
-    const/4 v1, 0x2
-
-    const/4 v7, 0x1
-
-    goto :goto_d
-
-    :cond_26
-    if-nez v13, :cond_27
-
-    goto :goto_f
-
-    :cond_27
-    move-object v11, v12
-
-    .line 24
-    :goto_f
-    invoke-virtual {v4}, Lzj/c0;->getAnnotations()Lki/h;
-
-    move-result-object v0
-
-    invoke-virtual {v5, v0}, Lzj/j1;->c(Lki/h;)Lki/h;
-
-    move-result-object v0
-
-    const-string v1, "newArguments"
-
-    .line 25
-    invoke-static {v11, v1}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v1, "newAnnotations"
-
-    invoke-static {v0, v1}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const/4 v1, 0x4
-
-    invoke-static {v4, v11, v0, v1}, Lzj/l1;->c(Lzj/c0;Ljava/util/List;Lki/h;I)Lzj/c0;
-
-    move-result-object v0
-
-    .line 26
-    instance-of v1, v0, Lzj/k0;
-
-    if-eqz v1, :cond_28
-
-    instance-of v1, v3, Lzj/k0;
-
-    if-eqz v1, :cond_28
-
-    check-cast v0, Lzj/k0;
-
-    check-cast v3, Lzj/k0;
-
-    invoke-static {v0, v3}, Lzj/o0;->d(Lzj/k0;Lzj/k0;)Lzj/k0;
-
-    move-result-object v0
-
-    :cond_28
-    new-instance v1, Lzj/i1;
-
-    invoke-direct {v1, v0, v6}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
-
-    :goto_10
-    return-object v1
-
-    :cond_29
-    :goto_11
-    return-object p1
-
-    .line 27
-    :cond_2a
-    new-instance v0, Ljava/lang/IllegalStateException;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "Recursion too deep. Most likely infinite loop while substituting "
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-static/range {p1 .. p1}, Lzj/n1;->j(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v2, "; substitution: "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-static {v5}, Lzj/n1;->j(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-
-    throw v0
-
-    :cond_2b
-    const/16 v0, 0x12
-
-    .line 28
-    invoke-static {v0}, Lzj/n1;->a(I)V
-
-    throw v3
-.end method
+# .method public final l(Lzj/g1;Lji/w0;I)Lzj/g1;
+#     .locals 16
+#     .annotation system Ldalvik/annotation/Throws;
+#         value = {
+#             Lzj/n1$a;
+#         }
+#     .end annotation
+#
+#     move-object/from16 v0, p0
+#
+#     move-object/from16 v1, p2
+#
+#     move/from16 v2, p3
+#
+#     const/4 v3, 0x0
+#
+#     if-eqz p1, :cond_2b
+#
+#     const/16 v4, 0x64
+#
+#     .line 1
+#     iget-object v5, v0, Lzj/n1;->a:Lzj/j1;
+#
+#     if-gt v2, v4, :cond_2a
+#
+#     .line 2
+#     invoke-interface/range {p1 .. p1}, Lzj/g1;->c()Z
+#
+#     move-result v4
+#
+#     if-eqz v4, :cond_0
+#
+#     return-object p1
+#
+#     :cond_0
+#     invoke-interface/range {p1 .. p1}, Lzj/g1;->getType()Lzj/c0;
+#
+#     move-result-object v4
+#
+#     instance-of v6, v4, Lzj/p1;
+#
+#     const/4 v7, 0x1
+#
+#     if-eqz v6, :cond_2
+#
+#     check-cast v4, Lzj/p1;
+#
+#     invoke-interface {v4}, Lzj/p1;->N0()Lzj/q1;
+#
+#     move-result-object v3
+#
+#     invoke-interface {v4}, Lzj/p1;->K()Lzj/c0;
+#
+#     move-result-object v4
+#
+#     new-instance v5, Lzj/i1;
+#
+#     invoke-interface/range {p1 .. p1}, Lzj/g1;->a()Lzj/r1;
+#
+#     move-result-object v6
+#
+#     invoke-direct {v5, v3, v6}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
+#
+#     add-int/2addr v2, v7
+#
+#     invoke-virtual {v0, v5, v1, v2}, Lzj/n1;->l(Lzj/g1;Lji/w0;I)Lzj/g1;
+#
+#     move-result-object v1
+#
+#     invoke-interface {v1}, Lzj/g1;->c()Z
+#
+#     move-result v2
+#
+#     if-eqz v2, :cond_1
+#
+#     return-object v1
+#
+#     :cond_1
+#     invoke-interface/range {p1 .. p1}, Lzj/g1;->a()Lzj/r1;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v0, v4, v2}, Lzj/n1;->k(Lzj/c0;Lzj/r1;)Lzj/c0;
+#
+#     move-result-object v2
+#
+#     invoke-interface {v1}, Lzj/g1;->getType()Lzj/c0;
+#
+#     move-result-object v3
+#
+#     invoke-virtual {v3}, Lzj/c0;->X0()Lzj/q1;
+#
+#     move-result-object v3
+#
+#     invoke-static {v3, v2}, Lcom/vungle/warren/utility/e;->b0(Lzj/q1;Lzj/c0;)Lzj/q1;
+#
+#     move-result-object v2
+#
+#     new-instance v3, Lzj/i1;
+#
+#     invoke-interface {v1}, Lzj/g1;->a()Lzj/r1;
+#
+#     move-result-object v1
+#
+#     invoke-direct {v3, v2, v1}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
+#
+#     return-object v3
+#
+#     :cond_2
+#     invoke-static {v4}, Lzj/u;->a(Lzj/c0;)Z
+#
+#     move-result v6
+#
+#     if-nez v6, :cond_29
+#
+#     invoke-virtual {v4}, Lzj/c0;->X0()Lzj/q1;
+#
+#     move-result-object v6
+#
+#     instance-of v6, v6, Lzj/j0;
+#
+#     if-eqz v6, :cond_3
+#
+#     goto/16 :goto_11
+#
+#     :cond_3
+#     invoke-virtual {v5, v4}, Lzj/j1;->d(Lzj/c0;)Lzj/g1;
+#
+#     move-result-object v6
+#
+#     if-eqz v6, :cond_8
+#
+#     .line 3
+#     invoke-virtual {v4}, Lzj/c0;->getAnnotations()Lki/h;
+#
+#     move-result-object v8
+#
+#     sget-object v9, Lgi/o$a;->y:Lij/c;
+#
+#     invoke-interface {v8, v9}, Lki/h;->B(Lij/c;)Z
+#
+#     move-result v8
+#
+#     if-nez v8, :cond_4
+#
+#     goto :goto_0
+#
+#     :cond_4
+#     invoke-interface {v6}, Lzj/g1;->getType()Lzj/c0;
+#
+#     move-result-object v8
+#
+#     invoke-virtual {v8}, Lzj/c0;->U0()Lzj/a1;
+#
+#     move-result-object v8
+#
+#     instance-of v9, v8, Lak/j;
+#
+#     if-nez v9, :cond_5
+#
+#     goto :goto_0
+#
+#     :cond_5
+#     check-cast v8, Lak/j;
+#
+#     .line 4
+#     iget-object v8, v8, Lak/j;->a:Lzj/g1;
+#
+#     .line 5
+#     invoke-interface {v8}, Lzj/g1;->a()Lzj/r1;
+#
+#     move-result-object v9
+#
+#     invoke-interface/range {p1 .. p1}, Lzj/g1;->a()Lzj/r1;
+#
+#     move-result-object v10
+#
+#     invoke-static {v10, v9}, Lzj/n1;->c(Lzj/r1;Lzj/r1;)I
+#
+#     move-result v10
+#
+#     const/4 v11, 0x3
+#
+#     if-ne v10, v11, :cond_6
+#
+#     new-instance v6, Lzj/i1;
+#
+#     invoke-interface {v8}, Lzj/g1;->getType()Lzj/c0;
+#
+#     move-result-object v8
+#
+#     invoke-direct {v6, v8}, Lzj/i1;-><init>(Lzj/c0;)V
+#
+#     goto :goto_0
+#
+#     :cond_6
+#     if-nez v1, :cond_7
+#
+#     goto :goto_0
+#
+#     :cond_7
+#     invoke-interface/range {p2 .. p2}, Lji/w0;->S()Lzj/r1;
+#
+#     move-result-object v10
+#
+#     invoke-static {v10, v9}, Lzj/n1;->c(Lzj/r1;Lzj/r1;)I
+#
+#     move-result v9
+#
+#     if-ne v9, v11, :cond_9
+#
+#     new-instance v6, Lzj/i1;
+#
+#     invoke-interface {v8}, Lzj/g1;->getType()Lzj/c0;
+#
+#     move-result-object v8
+#
+#     invoke-direct {v6, v8}, Lzj/i1;-><init>(Lzj/c0;)V
+#
+#     goto :goto_0
+#
+#     :cond_8
+#     move-object v6, v3
+#
+#     .line 6
+#     :cond_9
+#     :goto_0
+#     invoke-interface/range {p1 .. p1}, Lzj/g1;->a()Lzj/r1;
+#
+#     move-result-object v8
+#
+#     const/4 v9, 0x0
+#
+#     if-nez v6, :cond_d
+#
+#     invoke-static {v4}, Lcom/vungle/warren/utility/e;->v(Lzj/c0;)Z
+#
+#     move-result v10
+#
+#     if-eqz v10, :cond_d
+#
+#     .line 7
+#     invoke-virtual {v4}, Lzj/c0;->X0()Lzj/q1;
+#
+#     move-result-object v10
+#
+#     instance-of v11, v10, Lzj/m;
+#
+#     if-eqz v11, :cond_a
+#
+#     check-cast v10, Lzj/m;
+#
+#     goto :goto_1
+#
+#     :cond_a
+#     move-object v10, v3
+#
+#     :goto_1
+#     if-eqz v10, :cond_b
+#
+#     invoke-interface {v10}, Lzj/m;->H0()Z
+#
+#     move-result v10
+#
+#     goto :goto_2
+#
+#     :cond_b
+#     const/4 v10, 0x0
+#
+#     :goto_2
+#     if-nez v10, :cond_d
+#
+#     .line 8
+#     invoke-static {v4}, Lcom/vungle/warren/utility/e;->i(Lzj/c0;)Lzj/w;
+#
+#     move-result-object v3
+#
+#     new-instance v4, Lzj/i1;
+#
+#     iget-object v5, v3, Lzj/w;->d:Lzj/k0;
+#
+#     invoke-direct {v4, v5, v8}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
+#
+#     add-int/2addr v2, v7
+#
+#     invoke-virtual {v0, v4, v1, v2}, Lzj/n1;->l(Lzj/g1;Lji/w0;I)Lzj/g1;
+#
+#     move-result-object v4
+#
+#     new-instance v6, Lzj/i1;
+#
+#     iget-object v3, v3, Lzj/w;->e:Lzj/k0;
+#
+#     invoke-direct {v6, v3, v8}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
+#
+#     invoke-virtual {v0, v6, v1, v2}, Lzj/n1;->l(Lzj/g1;Lji/w0;I)Lzj/g1;
+#
+#     move-result-object v1
+#
+#     invoke-interface {v4}, Lzj/g1;->a()Lzj/r1;
+#
+#     move-result-object v2
+#
+#     invoke-interface {v4}, Lzj/g1;->getType()Lzj/c0;
+#
+#     move-result-object v6
+#
+#     if-ne v6, v5, :cond_c
+#
+#     invoke-interface {v1}, Lzj/g1;->getType()Lzj/c0;
+#
+#     move-result-object v5
+#
+#     if-ne v5, v3, :cond_c
+#
+#     return-object p1
+#
+#     :cond_c
+#     invoke-interface {v4}, Lzj/g1;->getType()Lzj/c0;
+#
+#     move-result-object v3
+#
+#     invoke-static {v3}, Lzj/l1;->a(Lzj/c0;)Lzj/k0;
+#
+#     move-result-object v3
+#
+#     invoke-interface {v1}, Lzj/g1;->getType()Lzj/c0;
+#
+#     move-result-object v1
+#
+#     invoke-static {v1}, Lzj/l1;->a(Lzj/c0;)Lzj/k0;
+#
+#     move-result-object v1
+#
+#     invoke-static {v3, v1}, Lzj/d0;->c(Lzj/k0;Lzj/k0;)Lzj/q1;
+#
+#     move-result-object v1
+#
+#     new-instance v3, Lzj/i1;
+#
+#     invoke-direct {v3, v1, v2}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
+#
+#     return-object v3
+#
+#     :cond_d
+#     invoke-static {v4}, Lgi/k;->F(Lzj/c0;)Z
+#
+#     move-result v1
+#
+#     if-nez v1, :cond_29
+#
+#     invoke-static {v4}, La4/a1;->V(Lzj/c0;)Z
+#
+#     move-result v1
+#
+#     if-eqz v1, :cond_e
+#
+#     goto/16 :goto_11
+#
+#     :cond_e
+#     const/4 v1, 0x2
+#
+#     if-eqz v6, :cond_1a
+#
+#     invoke-interface {v6}, Lzj/g1;->a()Lzj/r1;
+#
+#     move-result-object v2
+#
+#     invoke-static {v8, v2}, Lzj/n1;->c(Lzj/r1;Lzj/r1;)I
+#
+#     move-result v2
+#
+#     .line 9
+#     invoke-virtual {v4}, Lzj/c0;->U0()Lzj/a1;
+#
+#     move-result-object v10
+#
+#     instance-of v10, v10, Lmj/b;
+#
+#     if-nez v10, :cond_11
+#
+#     .line 10
+#     invoke-static {v2}, Lt/w;->c(I)I
+#
+#     move-result v10
+#
+#     if-eq v10, v7, :cond_10
+#
+#     if-eq v10, v1, :cond_f
+#
+#     goto :goto_3
+#
+#     :cond_f
+#     new-instance v1, Lzj/n1$a;
+#
+#     invoke-direct {v1}, Lzj/n1$a;-><init>()V
+#
+#     throw v1
+#
+#     :cond_10
+#     new-instance v1, Lzj/i1;
+#
+#     sget-object v2, Lzj/r1;->g:Lzj/r1;
+#
+#     invoke-virtual {v4}, Lzj/c0;->U0()Lzj/a1;
+#
+#     move-result-object v3
+#
+#     invoke-interface {v3}, Lzj/a1;->o()Lgi/k;
+#
+#     move-result-object v3
+#
+#     invoke-virtual {v3}, Lgi/k;->p()Lzj/k0;
+#
+#     move-result-object v3
+#
+#     invoke-direct {v1, v3, v2}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
+#
+#     return-object v1
+#
+#     .line 11
+#     :cond_11
+#     :goto_3
+#     invoke-virtual {v4}, Lzj/c0;->X0()Lzj/q1;
+#
+#     move-result-object v10
+#
+#     instance-of v11, v10, Lzj/m;
+#
+#     if-eqz v11, :cond_12
+#
+#     check-cast v10, Lzj/m;
+#
+#     goto :goto_4
+#
+#     :cond_12
+#     move-object v10, v3
+#
+#     :goto_4
+#     if-eqz v10, :cond_13
+#
+#     invoke-interface {v10}, Lzj/m;->H0()Z
+#
+#     move-result v11
+#
+#     if-eqz v11, :cond_13
+#
+#     goto :goto_5
+#
+#     :cond_13
+#     move-object v10, v3
+#
+#     .line 12
+#     :goto_5
+#     invoke-interface {v6}, Lzj/g1;->c()Z
+#
+#     move-result v11
+#
+#     if-eqz v11, :cond_14
+#
+#     return-object v6
+#
+#     :cond_14
+#     if-eqz v10, :cond_15
+#
+#     invoke-interface {v6}, Lzj/g1;->getType()Lzj/c0;
+#
+#     move-result-object v11
+#
+#     invoke-interface {v10, v11}, Lzj/m;->x(Lzj/c0;)Lzj/q1;
+#
+#     move-result-object v10
+#
+#     goto :goto_6
+#
+#     :cond_15
+#     invoke-interface {v6}, Lzj/g1;->getType()Lzj/c0;
+#
+#     move-result-object v10
+#
+#     invoke-virtual {v4}, Lzj/c0;->V0()Z
+#
+#     move-result v11
+#
+#     invoke-static {v10, v11}, Lzj/o1;->k(Lzj/c0;Z)Lzj/c0;
+#
+#     move-result-object v10
+#
+#     :goto_6
+#     invoke-virtual {v4}, Lzj/c0;->getAnnotations()Lki/h;
+#
+#     move-result-object v11
+#
+#     invoke-interface {v11}, Lki/h;->isEmpty()Z
+#
+#     move-result v11
+#
+#     if-nez v11, :cond_18
+#
+#     invoke-virtual {v4}, Lzj/c0;->getAnnotations()Lki/h;
+#
+#     move-result-object v4
+#
+#     invoke-virtual {v5, v4}, Lzj/j1;->c(Lki/h;)Lki/h;
+#
+#     move-result-object v4
+#
+#     if-eqz v4, :cond_17
+#
+#     .line 13
+#     sget-object v3, Lgi/o$a;->y:Lij/c;
+#
+#     invoke-interface {v4, v3}, Lki/h;->B(Lij/c;)Z
+#
+#     move-result v3
+#
+#     if-nez v3, :cond_16
+#
+#     goto :goto_7
+#
+#     :cond_16
+#     new-instance v3, Lki/l;
+#
+#     new-instance v5, Lzj/m1;
+#
+#     invoke-direct {v5}, Lzj/m1;-><init>()V
+#
+#     invoke-direct {v3, v4, v5}, Lki/l;-><init>(Lki/h;Lzj/m1;)V
+#
+#     move-object v4, v3
+#
+#     .line 14
+#     :goto_7
+#     new-instance v3, Lki/k;
+#
+#     new-array v1, v1, [Lki/h;
+#
+#     invoke-virtual {v10}, Lzj/c0;->getAnnotations()Lki/h;
+#
+#     move-result-object v5
+#
+#     aput-object v5, v1, v9
+#
+#     aput-object v4, v1, v7
+#
+#     invoke-direct {v3, v1}, Lki/k;-><init>([Lki/h;)V
+#
+#     invoke-static {v10, v3}, Lm8/b;->I(Lzj/c0;Lki/h;)Lzj/c0;
+#
+#     move-result-object v10
+#
+#     goto :goto_8
+#
+#     :cond_17
+#     const/16 v1, 0x21
+#
+#     .line 15
+#     invoke-static {v1}, Lzj/n1;->a(I)V
+#
+#     throw v3
+#
+#     :cond_18
+#     :goto_8
+#     if-ne v2, v7, :cond_19
+#
+#     .line 16
+#     invoke-interface {v6}, Lzj/g1;->a()Lzj/r1;
+#
+#     move-result-object v1
+#
+#     invoke-static {v8, v1}, Lzj/n1;->b(Lzj/r1;Lzj/r1;)Lzj/r1;
+#
+#     move-result-object v8
+#
+#     :cond_19
+#     new-instance v1, Lzj/i1;
+#
+#     invoke-direct {v1, v10, v8}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
+#
+#     return-object v1
+#
+#     .line 17
+#     :cond_1a
+#     invoke-interface/range {p1 .. p1}, Lzj/g1;->getType()Lzj/c0;
+#
+#     move-result-object v4
+#
+#     invoke-interface/range {p1 .. p1}, Lzj/g1;->a()Lzj/r1;
+#
+#     move-result-object v6
+#
+#     invoke-virtual {v4}, Lzj/c0;->U0()Lzj/a1;
+#
+#     move-result-object v8
+#
+#     invoke-interface {v8}, Lzj/a1;->a()Lji/g;
+#
+#     move-result-object v8
+#
+#     instance-of v8, v8, Lji/w0;
+#
+#     if-eqz v8, :cond_1b
+#
+#     move-object/from16 v1, p1
+#
+#     goto/16 :goto_10
+#
+#     .line 18
+#     :cond_1b
+#     invoke-virtual {v4}, Lzj/c0;->X0()Lzj/q1;
+#
+#     move-result-object v8
+#
+#     instance-of v10, v8, Lzj/a;
+#
+#     if-eqz v10, :cond_1c
+#
+#     check-cast v8, Lzj/a;
+#
+#     goto :goto_9
+#
+#     :cond_1c
+#     move-object v8, v3
+#
+#     :goto_9
+#     if-eqz v8, :cond_1d
+#
+#     .line 19
+#     iget-object v8, v8, Lzj/a;->e:Lzj/k0;
+#
+#     goto :goto_a
+#
+#     :cond_1d
+#     move-object v8, v3
+#
+#     .line 20
+#     :goto_a
+#     sget-object v10, Lzj/r1;->e:Lzj/r1;
+#
+#     if-eqz v8, :cond_20
+#
+#     .line 21
+#     instance-of v3, v5, Lzj/z;
+#
+#     if-eqz v3, :cond_1f
+#
+#     invoke-virtual {v5}, Lzj/j1;->b()Z
+#
+#     move-result v3
+#
+#     if-nez v3, :cond_1e
+#
+#     goto :goto_b
+#
+#     :cond_1e
+#     new-instance v3, Lzj/n1;
+#
+#     new-instance v11, Lzj/z;
+#
+#     move-object v12, v5
+#
+#     check-cast v12, Lzj/z;
+#
+#     iget-object v13, v12, Lzj/z;->b:[Lji/w0;
+#
+#     iget-object v12, v12, Lzj/z;->c:[Lzj/g1;
+#
+#     invoke-direct {v11, v13, v12, v9}, Lzj/z;-><init>([Lji/w0;[Lzj/g1;Z)V
+#
+#     invoke-direct {v3, v11}, Lzj/n1;-><init>(Lzj/j1;)V
+#
+#     goto :goto_c
+#
+#     :cond_1f
+#     :goto_b
+#     move-object v3, v0
+#
+#     .line 22
+#     :goto_c
+#     invoke-virtual {v3, v8, v10}, Lzj/n1;->k(Lzj/c0;Lzj/r1;)Lzj/c0;
+#
+#     move-result-object v3
+#
+#     :cond_20
+#     invoke-virtual {v4}, Lzj/c0;->U0()Lzj/a1;
+#
+#     move-result-object v8
+#
+#     invoke-interface {v8}, Lzj/a1;->d()Ljava/util/List;
+#
+#     move-result-object v8
+#
+#     invoke-virtual {v4}, Lzj/c0;->S0()Ljava/util/List;
+#
+#     move-result-object v11
+#
+#     .line 23
+#     new-instance v12, Ljava/util/ArrayList;
+#
+#     invoke-interface {v8}, Ljava/util/List;->size()I
+#
+#     move-result v13
+#
+#     invoke-direct {v12, v13}, Ljava/util/ArrayList;-><init>(I)V
+#
+#     const/4 v13, 0x0
+#
+#     :goto_d
+#     invoke-interface {v8}, Ljava/util/List;->size()I
+#
+#     move-result v14
+#
+#     if-ge v9, v14, :cond_26
+#
+#     invoke-interface {v8, v9}, Ljava/util/List;->get(I)Ljava/lang/Object;
+#
+#     move-result-object v14
+#
+#     check-cast v14, Lji/w0;
+#
+#     invoke-interface {v11, v9}, Ljava/util/List;->get(I)Ljava/lang/Object;
+#
+#     move-result-object v15
+#
+#     check-cast v15, Lzj/g1;
+#
+#     add-int/lit8 v1, v2, 0x1
+#
+#     invoke-virtual {v0, v15, v14, v1}, Lzj/n1;->l(Lzj/g1;Lji/w0;I)Lzj/g1;
+#
+#     move-result-object v1
+#
+#     invoke-interface {v14}, Lji/w0;->S()Lzj/r1;
+#
+#     move-result-object v7
+#
+#     invoke-interface {v1}, Lzj/g1;->a()Lzj/r1;
+#
+#     move-result-object v0
+#
+#     invoke-static {v7, v0}, Lzj/n1;->c(Lzj/r1;Lzj/r1;)I
+#
+#     move-result v0
+#
+#     invoke-static {v0}, Lt/w;->c(I)I
+#
+#     move-result v0
+#
+#     if-eqz v0, :cond_23
+#
+#     const/4 v7, 0x1
+#
+#     if-eq v0, v7, :cond_21
+#
+#     const/4 v7, 0x2
+#
+#     if-eq v0, v7, :cond_22
+#
+#     goto :goto_e
+#
+#     :cond_21
+#     const/4 v7, 0x2
+#
+#     :cond_22
+#     invoke-static {v14}, Lzj/o1;->m(Lji/w0;)Lzj/q0;
+#
+#     move-result-object v1
+#
+#     goto :goto_e
+#
+#     :cond_23
+#     const/4 v7, 0x2
+#
+#     invoke-interface {v14}, Lji/w0;->S()Lzj/r1;
+#
+#     move-result-object v0
+#
+#     if-eq v0, v10, :cond_24
+#
+#     invoke-interface {v1}, Lzj/g1;->c()Z
+#
+#     move-result v0
+#
+#     if-nez v0, :cond_24
+#
+#     new-instance v0, Lzj/i1;
+#
+#     invoke-interface {v1}, Lzj/g1;->getType()Lzj/c0;
+#
+#     move-result-object v1
+#
+#     invoke-direct {v0, v1, v10}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
+#
+#     move-object v1, v0
+#
+#     :cond_24
+#     :goto_e
+#     if-eq v1, v15, :cond_25
+#
+#     const/4 v13, 0x1
+#
+#     :cond_25
+#     invoke-virtual {v12, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+#
+#     add-int/lit8 v9, v9, 0x1
+#
+#     move-object/from16 v0, p0
+#
+#     const/4 v1, 0x2
+#
+#     const/4 v7, 0x1
+#
+#     goto :goto_d
+#
+#     :cond_26
+#     if-nez v13, :cond_27
+#
+#     goto :goto_f
+#
+#     :cond_27
+#     move-object v11, v12
+#
+#     .line 24
+#     :goto_f
+#     invoke-virtual {v4}, Lzj/c0;->getAnnotations()Lki/h;
+#
+#     move-result-object v0
+#
+#     invoke-virtual {v5, v0}, Lzj/j1;->c(Lki/h;)Lki/h;
+#
+#     move-result-object v0
+#
+#     const-string v1, "newArguments"
+#
+#     .line 25
+#     invoke-static {v11, v1}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     const-string v1, "newAnnotations"
+#
+#     invoke-static {v0, v1}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     const/4 v1, 0x4
+#
+#     invoke-static {v4, v11, v0, v1}, Lzj/l1;->c(Lzj/c0;Ljava/util/List;Lki/h;I)Lzj/c0;
+#
+#     move-result-object v0
+#
+#     .line 26
+#     instance-of v1, v0, Lzj/k0;
+#
+#     if-eqz v1, :cond_28
+#
+#     instance-of v1, v3, Lzj/k0;
+#
+#     if-eqz v1, :cond_28
+#
+#     check-cast v0, Lzj/k0;
+#
+#     check-cast v3, Lzj/k0;
+#
+#     invoke-static {v0, v3}, Lzj/o0;->d(Lzj/k0;Lzj/k0;)Lzj/k0;
+#
+#     move-result-object v0
+#
+#     :cond_28
+#     new-instance v1, Lzj/i1;
+#
+#     invoke-direct {v1, v0, v6}, Lzj/i1;-><init>(Lzj/c0;Lzj/r1;)V
+#
+#     :goto_10
+#     return-object v1
+#
+#     :cond_29
+#     :goto_11
+#     return-object p1
+#
+#     .line 27
+#     :cond_2a
+#     new-instance v0, Ljava/lang/IllegalStateException;
+#
+#     new-instance v1, Ljava/lang/StringBuilder;
+#
+#     const-string v2, "Recursion too deep. Most likely infinite loop while substituting "
+#
+#     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+#
+#     invoke-static/range {p1 .. p1}, Lzj/n1;->j(Ljava/lang/Object;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     const-string v2, "; substitution: "
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     invoke-static {v5}, Lzj/n1;->j(Ljava/lang/Object;)Ljava/lang/String;
+#
+#     move-result-object v2
+#
+#     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     move-result-object v1
+#
+#     invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+#
+#     throw v0
+#
+#     :cond_2b
+#     const/16 v0, 0x12
+#
+#     .line 28
+#     invoke-static {v0}, Lzj/n1;->a(I)V
+#
+#     throw v3
+# .end method

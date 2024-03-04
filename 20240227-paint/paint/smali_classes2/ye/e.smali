@@ -4,4 +4,4 @@
 
 
 # static fields
-.field public static a:Lcom/vungle/warren/f2;
+# .field public static a:Lcom/vungle/warren/f2;

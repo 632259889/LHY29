@@ -112,806 +112,806 @@
 # direct methods
 .method public constructor <init>(Lwa/s0;Ldj/b;Lfj/c;Lfj/a;Lji/r0;)V
     .locals 9
-
-    .line 1
-    const-string v0, "outerContext"
-
-    .line 2
-    .line 3
-    invoke-static {p1, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 4
-    .line 5
-    .line 6
-    const-string v0, "classProto"
-
-    .line 7
-    .line 8
-    invoke-static {p2, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 9
-    .line 10
-    .line 11
-    const-string v0, "nameResolver"
-
-    .line 12
-    .line 13
-    invoke-static {p3, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 14
-    .line 15
-    .line 16
-    const-string v0, "metadataVersion"
-
-    .line 17
-    .line 18
-    invoke-static {p4, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 19
-    .line 20
-    .line 21
-    const-string v0, "sourceElement"
-
-    .line 22
-    .line 23
-    invoke-static {p5, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 24
-    .line 25
-    .line 26
-    invoke-virtual {p1}, Lwa/s0;->c()Lyj/l;
-
-    .line 27
-    .line 28
-    .line 29
-    move-result-object v0
-
-    .line 30
-    iget v1, p2, Ldj/b;->g:I
-
-    .line 31
-    .line 32
-    invoke-static {p3, v1}, Lcom/vungle/warren/utility/e;->o(Lfj/c;I)Lij/b;
-
-    .line 33
-    .line 34
-    .line 35
-    move-result-object v1
-
-    .line 36
-    invoke-virtual {v1}, Lij/b;->j()Lij/f;
-
-    .line 37
-    .line 38
-    .line 39
-    move-result-object v1
-
-    .line 40
-    invoke-direct {p0, v0, v1}, Lmi/b;-><init>(Lyj/l;Lij/f;)V
-
-    .line 41
-    .line 42
-    .line 43
-    iput-object p2, p0, Lxj/d;->g:Ldj/b;
-
-    .line 44
-    .line 45
-    iput-object p4, p0, Lxj/d;->h:Lfj/a;
-
-    .line 46
-    .line 47
-    iput-object p5, p0, Lxj/d;->i:Lji/r0;
-
-    .line 48
-    .line 49
-    iget v0, p2, Ldj/b;->g:I
-
-    .line 50
-    .line 51
-    invoke-static {p3, v0}, Lcom/vungle/warren/utility/e;->o(Lfj/c;I)Lij/b;
-
-    .line 52
-    .line 53
-    .line 54
-    move-result-object v0
-
-    .line 55
-    iput-object v0, p0, Lxj/d;->j:Lij/b;
-
-    .line 56
-    .line 57
-    sget-object v0, Lfj/b;->e:Lfj/b$b;
-
-    .line 58
-    .line 59
-    iget v1, p2, Ldj/b;->f:I
-
-    .line 60
-    .line 61
-    invoke-virtual {v0, v1}, Lfj/b$b;->c(I)Ljava/lang/Object;
-
-    .line 62
-    .line 63
-    .line 64
-    move-result-object v0
-
-    .line 65
-    check-cast v0, Ldj/j;
-
-    .line 66
-    .line 67
-    invoke-static {v0}, Lvj/e0;->a(Ldj/j;)Lji/a0;
-
-    .line 68
-    .line 69
-    .line 70
-    move-result-object v0
-
-    .line 71
-    iput-object v0, p0, Lxj/d;->k:Lji/a0;
-
-    .line 72
-    .line 73
-    sget-object v0, Lfj/b;->d:Lfj/b$b;
-
-    .line 74
-    .line 75
-    iget v1, p2, Ldj/b;->f:I
-
-    .line 76
-    .line 77
-    invoke-virtual {v0, v1}, Lfj/b$b;->c(I)Ljava/lang/Object;
-
-    .line 78
-    .line 79
-    .line 80
-    move-result-object v0
-
-    .line 81
-    check-cast v0, Ldj/w;
-
-    .line 82
-    .line 83
-    invoke-static {v0}, Lvj/f0;->a(Ldj/w;)Lji/o;
-
-    .line 84
-    .line 85
-    .line 86
-    move-result-object v0
-
-    .line 87
-    iput-object v0, p0, Lxj/d;->l:Lji/o;
-
-    .line 88
-    .line 89
-    sget-object v0, Lfj/b;->f:Lfj/b$b;
-
-    .line 90
-    .line 91
-    iget v1, p2, Ldj/b;->f:I
-
-    .line 92
-    .line 93
-    invoke-virtual {v0, v1}, Lfj/b$b;->c(I)Ljava/lang/Object;
-
-    .line 94
-    .line 95
-    .line 96
-    move-result-object v0
-
-    .line 97
-    check-cast v0, Ldj/b$c;
-
-    .line 98
-    .line 99
-    if-nez v0, :cond_0
-
-    .line 100
-    .line 101
-    const/4 v0, -0x1
-
-    .line 102
-    goto :goto_0
-
-    .line 103
-    :cond_0
-    sget-object v1, Lvj/e0$a;->b:[I
-
-    .line 104
-    .line 105
-    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
-
-    .line 106
-    .line 107
-    .line 108
-    move-result v0
-
-    .line 109
-    aget v0, v1, v0
-
-    .line 110
-    .line 111
-    :goto_0
-    const/4 v1, 0x3
-
-    .line 112
-    packed-switch v0, :pswitch_data_0
-
-    .line 113
-    .line 114
-    .line 115
-    const/4 v0, 0x1
-
-    .line 116
-    goto :goto_1
-
-    .line 117
-    :pswitch_0
-    const/4 v0, 0x6
-
-    .line 118
-    goto :goto_1
-
-    .line 119
-    :pswitch_1
-    const/4 v0, 0x5
-
-    .line 120
-    goto :goto_1
-
-    .line 121
-    :pswitch_2
-    const/4 v0, 0x4
-
-    .line 122
-    goto :goto_1
-
-    .line 123
-    :pswitch_3
-    const/4 v0, 0x3
-
-    .line 124
-    goto :goto_1
-
-    .line 125
-    :pswitch_4
-    const/4 v0, 0x2
-
-    .line 126
-    :goto_1
-    iput v0, p0, Lxj/d;->m:I
-
-    .line 127
-    .line 128
-    iget-object v4, p2, Ldj/b;->i:Ljava/util/List;
-
-    .line 129
-    .line 130
-    const-string v2, "classProto.typeParameterList"
-
-    .line 131
-    .line 132
-    invoke-static {v4, v2}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 133
-    .line 134
-    .line 135
-    new-instance v6, Lfj/g;
-
-    .line 136
-    .line 137
-    iget-object v2, p2, Ldj/b;->G:Ldj/s;
-
-    .line 138
-    .line 139
-    const-string v3, "classProto.typeTable"
-
-    .line 140
-    .line 141
-    invoke-static {v2, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 142
-    .line 143
-    .line 144
-    invoke-direct {v6, v2}, Lfj/g;-><init>(Ldj/s;)V
-
-    .line 145
-    .line 146
-    .line 147
-    sget-object v2, Lfj/h;->b:Lfj/h;
-
-    .line 148
-    .line 149
-    iget-object v2, p2, Ldj/b;->I:Ldj/v;
-
-    .line 150
-    .line 151
-    const-string v3, "classProto.versionRequirementTable"
-
-    .line 152
-    .line 153
-    invoke-static {v2, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 154
-    .line 155
-    .line 156
-    invoke-static {v2}, Lfj/h$a;->a(Ldj/v;)Lfj/h;
-
-    .line 157
-    .line 158
-    .line 159
-    move-result-object v7
-
-    .line 160
-    move-object v2, p1
-
-    .line 161
-    move-object v3, p0
-
-    .line 162
-    move-object v5, p3
-
-    .line 163
-    move-object v8, p4
-
-    .line 164
-    invoke-virtual/range {v2 .. v8}, Lwa/s0;->a(Lji/j;Ljava/util/List;Lfj/c;Lfj/g;Lfj/h;Lfj/a;)Lwa/s0;
-
-    .line 165
-    .line 166
-    .line 167
-    move-result-object p3
-
-    .line 168
-    iput-object p3, p0, Lxj/d;->n:Lwa/s0;
-
-    .line 169
-    .line 170
-    if-ne v0, v1, :cond_1
-
-    .line 171
-    .line 172
-    new-instance p4, Lsj/m;
-
-    .line 173
-    .line 174
-    invoke-virtual {p3}, Lwa/s0;->c()Lyj/l;
-
-    .line 175
-    .line 176
-    .line 177
-    move-result-object v2
-
-    .line 178
-    invoke-direct {p4, v2, p0}, Lsj/m;-><init>(Lyj/l;Lji/e;)V
-
-    .line 179
-    .line 180
-    .line 181
-    goto :goto_2
-
-    .line 182
-    :cond_1
-    sget-object p4, Lsj/i$b;->b:Lsj/i$b;
-
-    .line 183
-    .line 184
-    :goto_2
-    iput-object p4, p0, Lxj/d;->o:Lsj/j;
-
-    .line 185
-    .line 186
-    new-instance p4, Lxj/d$b;
-
-    .line 187
-    .line 188
-    invoke-direct {p4, p0}, Lxj/d$b;-><init>(Lxj/d;)V
-
-    .line 189
-    .line 190
-    .line 191
-    iput-object p4, p0, Lxj/d;->p:Lxj/d$b;
-
-    .line 192
-    .line 193
-    sget-object p4, Lji/p0;->e:Lji/p0$a;
-
-    .line 194
-    .line 195
-    invoke-virtual {p3}, Lwa/s0;->c()Lyj/l;
-
-    .line 196
-    .line 197
-    .line 198
-    move-result-object v2
-
-    .line 199
-    iget-object v3, p3, Lwa/s0;->c:Ljava/lang/Object;
-
-    .line 200
-    .line 201
-    check-cast v3, Lvj/l;
-
-    .line 202
-    .line 203
-    iget-object v3, v3, Lvj/l;->q:Lak/l;
-
-    .line 204
-    .line 205
-    invoke-interface {v3}, Lak/l;->c()Lak/f;
-
-    .line 206
-    .line 207
-    .line 208
-    move-result-object v3
-
-    .line 209
-    new-instance v4, Lxj/d$g;
-
-    .line 210
-    .line 211
-    invoke-direct {v4, p0}, Lxj/d$g;-><init>(Ljava/lang/Object;)V
-
-    .line 212
-    .line 213
-    .line 214
-    invoke-virtual {p4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 215
-    .line 216
-    .line 217
-    invoke-static {v4, p0, v2, v3}, Lji/p0$a;->a(Lth/l;Lji/e;Lyj/l;Lak/f;)Lji/p0;
-
-    .line 218
-    .line 219
-    .line 220
-    move-result-object p4
-
-    .line 221
-    iput-object p4, p0, Lxj/d;->q:Lji/p0;
-
-    .line 222
-    .line 223
-    const/4 p4, 0x0
-
-    .line 224
-    if-ne v0, v1, :cond_2
-
-    .line 225
-    .line 226
-    new-instance v0, Lxj/d$c;
-
-    .line 227
-    .line 228
-    invoke-direct {v0, p0}, Lxj/d$c;-><init>(Lxj/d;)V
-
-    .line 229
-    .line 230
-    .line 231
-    goto :goto_3
-
-    .line 232
-    :cond_2
-    move-object v0, p4
-
-    .line 233
-    :goto_3
-    iput-object v0, p0, Lxj/d;->r:Lxj/d$c;
-
-    .line 234
-    .line 235
-    iget-object p1, p1, Lwa/s0;->e:Ljava/lang/Object;
-
-    .line 236
-    .line 237
-    check-cast p1, Lji/j;
-
-    .line 238
-    .line 239
-    iput-object p1, p0, Lxj/d;->s:Lji/j;
-
-    .line 240
-    .line 241
-    invoke-virtual {p3}, Lwa/s0;->c()Lyj/l;
-
-    .line 242
-    .line 243
-    .line 244
-    move-result-object v0
-
-    .line 245
-    new-instance v1, Lxj/d$h;
-
-    .line 246
-    .line 247
-    invoke-direct {v1, p0}, Lxj/d$h;-><init>(Lxj/d;)V
-
-    .line 248
-    .line 249
-    .line 250
-    invoke-interface {v0, v1}, Lyj/l;->f(Lth/a;)Lyj/c$f;
-
-    .line 251
-    .line 252
-    .line 253
-    move-result-object v0
-
-    .line 254
-    iput-object v0, p0, Lxj/d;->t:Lyj/j;
-
-    .line 255
-    .line 256
-    invoke-virtual {p3}, Lwa/s0;->c()Lyj/l;
-
-    .line 257
-    .line 258
-    .line 259
-    move-result-object v0
-
-    .line 260
-    new-instance v1, Lxj/d$f;
-
-    .line 261
-    .line 262
-    invoke-direct {v1, p0}, Lxj/d$f;-><init>(Lxj/d;)V
-
-    .line 263
-    .line 264
-    .line 265
-    invoke-interface {v0, v1}, Lyj/l;->d(Lth/a;)Lyj/c$h;
-
-    .line 266
-    .line 267
-    .line 268
-    move-result-object v0
-
-    .line 269
-    iput-object v0, p0, Lxj/d;->u:Lyj/i;
-
-    .line 270
-    .line 271
-    invoke-virtual {p3}, Lwa/s0;->c()Lyj/l;
-
-    .line 272
-    .line 273
-    .line 274
-    move-result-object v0
-
-    .line 275
-    new-instance v1, Lxj/d$e;
-
-    .line 276
-    .line 277
-    invoke-direct {v1, p0}, Lxj/d$e;-><init>(Lxj/d;)V
-
-    .line 278
-    .line 279
-    .line 280
-    invoke-interface {v0, v1}, Lyj/l;->f(Lth/a;)Lyj/c$f;
-
-    .line 281
-    .line 282
-    .line 283
-    move-result-object v0
-
-    .line 284
-    iput-object v0, p0, Lxj/d;->v:Lyj/j;
-
-    .line 285
-    .line 286
-    invoke-virtual {p3}, Lwa/s0;->c()Lyj/l;
-
-    .line 287
-    .line 288
-    .line 289
-    move-result-object v0
-
-    .line 290
-    new-instance v1, Lxj/d$i;
-
-    .line 291
-    .line 292
-    invoke-direct {v1, p0}, Lxj/d$i;-><init>(Lxj/d;)V
-
-    .line 293
-    .line 294
-    .line 295
-    invoke-interface {v0, v1}, Lyj/l;->d(Lth/a;)Lyj/c$h;
-
-    .line 296
-    .line 297
-    .line 298
-    move-result-object v0
-
-    .line 299
-    iput-object v0, p0, Lxj/d;->w:Lyj/i;
-
-    .line 300
-    .line 301
-    invoke-virtual {p3}, Lwa/s0;->c()Lyj/l;
-
-    .line 302
-    .line 303
-    .line 304
-    move-result-object v0
-
-    .line 305
-    new-instance v1, Lxj/d$j;
-
-    .line 306
-    .line 307
-    invoke-direct {v1, p0}, Lxj/d$j;-><init>(Lxj/d;)V
-
-    .line 308
-    .line 309
-    .line 310
-    invoke-interface {v0, v1}, Lyj/l;->f(Lth/a;)Lyj/c$f;
-
-    .line 311
-    .line 312
-    .line 313
-    move-result-object v0
-
-    .line 314
-    iput-object v0, p0, Lxj/d;->x:Lyj/j;
-
-    .line 315
-    .line 316
-    new-instance v0, Lvj/d0$a;
-
-    .line 317
-    .line 318
-    iget-object v1, p3, Lwa/s0;->d:Ljava/lang/Object;
-
-    .line 319
-    .line 320
-    move-object v3, v1
-
-    .line 321
-    check-cast v3, Lfj/c;
-
-    .line 322
-    .line 323
-    iget-object v1, p3, Lwa/s0;->f:Ljava/lang/Object;
-
-    .line 324
-    .line 325
-    move-object v4, v1
-
-    .line 326
-    check-cast v4, Lfj/g;
-
-    .line 327
-    .line 328
-    instance-of v1, p1, Lxj/d;
-
-    .line 329
-    .line 330
-    if-eqz v1, :cond_3
-
-    .line 331
-    .line 332
-    check-cast p1, Lxj/d;
-
-    .line 333
-    .line 334
-    goto :goto_4
-
-    .line 335
-    :cond_3
-    move-object p1, p4
-
-    .line 336
-    :goto_4
-    if-eqz p1, :cond_4
-
-    .line 337
-    .line 338
-    iget-object p4, p1, Lxj/d;->y:Lvj/d0$a;
-
-    .line 339
-    .line 340
-    :cond_4
-    move-object v6, p4
-
-    .line 341
-    move-object v1, v0
-
-    .line 342
-    move-object v2, p2
-
-    .line 343
-    move-object v5, p5
-
-    .line 344
-    invoke-direct/range {v1 .. v6}, Lvj/d0$a;-><init>(Ldj/b;Lfj/c;Lfj/g;Lji/r0;Lvj/d0$a;)V
-
-    .line 345
-    .line 346
-    .line 347
-    iput-object v0, p0, Lxj/d;->y:Lvj/d0$a;
-
-    .line 348
-    .line 349
-    sget-object p1, Lfj/b;->c:Lfj/b$a;
-
-    .line 350
-    .line 351
-    iget p2, p2, Ldj/b;->f:I
-
-    .line 352
-    .line 353
-    invoke-virtual {p1, p2}, Lfj/b$a;->c(I)Ljava/lang/Boolean;
-
-    .line 354
-    .line 355
-    .line 356
-    move-result-object p1
-
-    .line 357
-    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
-
-    .line 358
-    .line 359
-    .line 360
-    move-result p1
-
-    .line 361
-    if-nez p1, :cond_5
-
-    .line 362
-    .line 363
-    sget-object p1, Lki/h$a;->a:Lki/h$a$a;
-
-    .line 364
-    .line 365
-    goto :goto_5
-
-    .line 366
-    :cond_5
-    new-instance p1, Lxj/o;
-
-    .line 367
-    .line 368
-    invoke-virtual {p3}, Lwa/s0;->c()Lyj/l;
-
-    .line 369
-    .line 370
-    .line 371
-    move-result-object p2
-
-    .line 372
-    new-instance p3, Lxj/d$d;
-
-    .line 373
-    .line 374
-    invoke-direct {p3, p0}, Lxj/d$d;-><init>(Lxj/d;)V
-
-    .line 375
-    .line 376
-    .line 377
-    invoke-direct {p1, p2, p3}, Lxj/o;-><init>(Lyj/l;Lth/a;)V
-
-    .line 378
-    .line 379
-    .line 380
-    :goto_5
-    iput-object p1, p0, Lxj/d;->z:Lki/h;
-
-    .line 381
-    .line 382
+    #
+    # .line 1
+    # const-string v0, "outerContext"
+    #
+    # .line 2
+    # .line 3
+    # invoke-static {p1, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 4
+    # .line 5
+    # .line 6
+    # const-string v0, "classProto"
+    #
+    # .line 7
+    # .line 8
+    # invoke-static {p2, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 9
+    # .line 10
+    # .line 11
+    # const-string v0, "nameResolver"
+    #
+    # .line 12
+    # .line 13
+    # invoke-static {p3, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 14
+    # .line 15
+    # .line 16
+    # const-string v0, "metadataVersion"
+    #
+    # .line 17
+    # .line 18
+    # invoke-static {p4, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 19
+    # .line 20
+    # .line 21
+    # const-string v0, "sourceElement"
+    #
+    # .line 22
+    # .line 23
+    # invoke-static {p5, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 24
+    # .line 25
+    # .line 26
+    # invoke-virtual {p1}, Lwa/s0;->c()Lyj/l;
+    #
+    # .line 27
+    # .line 28
+    # .line 29
+    # move-result-object v0
+    #
+    # .line 30
+    # iget v1, p2, Ldj/b;->g:I
+    #
+    # .line 31
+    # .line 32
+    # invoke-static {p3, v1}, Lcom/vungle/warren/utility/e;->o(Lfj/c;I)Lij/b;
+    #
+    # .line 33
+    # .line 34
+    # .line 35
+    # move-result-object v1
+    #
+    # .line 36
+    # invoke-virtual {v1}, Lij/b;->j()Lij/f;
+    #
+    # .line 37
+    # .line 38
+    # .line 39
+    # move-result-object v1
+    #
+    # .line 40
+    # invoke-direct {p0, v0, v1}, Lmi/b;-><init>(Lyj/l;Lij/f;)V
+    #
+    # .line 41
+    # .line 42
+    # .line 43
+    # iput-object p2, p0, Lxj/d;->g:Ldj/b;
+    #
+    # .line 44
+    # .line 45
+    # iput-object p4, p0, Lxj/d;->h:Lfj/a;
+    #
+    # .line 46
+    # .line 47
+    # iput-object p5, p0, Lxj/d;->i:Lji/r0;
+    #
+    # .line 48
+    # .line 49
+    # iget v0, p2, Ldj/b;->g:I
+    #
+    # .line 50
+    # .line 51
+    # invoke-static {p3, v0}, Lcom/vungle/warren/utility/e;->o(Lfj/c;I)Lij/b;
+    #
+    # .line 52
+    # .line 53
+    # .line 54
+    # move-result-object v0
+    #
+    # .line 55
+    # iput-object v0, p0, Lxj/d;->j:Lij/b;
+    #
+    # .line 56
+    # .line 57
+    # sget-object v0, Lfj/b;->e:Lfj/b$b;
+    #
+    # .line 58
+    # .line 59
+    # iget v1, p2, Ldj/b;->f:I
+    #
+    # .line 60
+    # .line 61
+    # invoke-virtual {v0, v1}, Lfj/b$b;->c(I)Ljava/lang/Object;
+    #
+    # .line 62
+    # .line 63
+    # .line 64
+    # move-result-object v0
+    #
+    # .line 65
+    # check-cast v0, Ldj/j;
+    #
+    # .line 66
+    # .line 67
+    # invoke-static {v0}, Lvj/e0;->a(Ldj/j;)Lji/a0;
+    #
+    # .line 68
+    # .line 69
+    # .line 70
+    # move-result-object v0
+    #
+    # .line 71
+    # iput-object v0, p0, Lxj/d;->k:Lji/a0;
+    #
+    # .line 72
+    # .line 73
+    # sget-object v0, Lfj/b;->d:Lfj/b$b;
+    #
+    # .line 74
+    # .line 75
+    # iget v1, p2, Ldj/b;->f:I
+    #
+    # .line 76
+    # .line 77
+    # invoke-virtual {v0, v1}, Lfj/b$b;->c(I)Ljava/lang/Object;
+    #
+    # .line 78
+    # .line 79
+    # .line 80
+    # move-result-object v0
+    #
+    # .line 81
+    # check-cast v0, Ldj/w;
+    #
+    # .line 82
+    # .line 83
+    # invoke-static {v0}, Lvj/f0;->a(Ldj/w;)Lji/o;
+    #
+    # .line 84
+    # .line 85
+    # .line 86
+    # move-result-object v0
+    #
+    # .line 87
+    # iput-object v0, p0, Lxj/d;->l:Lji/o;
+    #
+    # .line 88
+    # .line 89
+    # sget-object v0, Lfj/b;->f:Lfj/b$b;
+    #
+    # .line 90
+    # .line 91
+    # iget v1, p2, Ldj/b;->f:I
+    #
+    # .line 92
+    # .line 93
+    # invoke-virtual {v0, v1}, Lfj/b$b;->c(I)Ljava/lang/Object;
+    #
+    # .line 94
+    # .line 95
+    # .line 96
+    # move-result-object v0
+    #
+    # .line 97
+    # check-cast v0, Ldj/b$c;
+    #
+    # .line 98
+    # .line 99
+    # if-nez v0, :cond_0
+    #
+    # .line 100
+    # .line 101
+    # const/4 v0, -0x1
+    #
+    # .line 102
+    # goto :goto_0
+    #
+    # .line 103
+    # :cond_0
+    # sget-object v1, Lvj/e0$a;->b:[I
+    #
+    # .line 104
+    # .line 105
+    # invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
+    #
+    # .line 106
+    # .line 107
+    # .line 108
+    # move-result v0
+    #
+    # .line 109
+    # aget v0, v1, v0
+    #
+    # .line 110
+    # .line 111
+    # :goto_0
+    # const/4 v1, 0x3
+    #
+    # .line 112
+    # packed-switch v0, :pswitch_data_0
+    #
+    # .line 113
+    # .line 114
+    # .line 115
+    # const/4 v0, 0x1
+    #
+    # .line 116
+    # goto :goto_1
+    #
+    # .line 117
+    # :pswitch_0
+    # const/4 v0, 0x6
+    #
+    # .line 118
+    # goto :goto_1
+    #
+    # .line 119
+    # :pswitch_1
+    # const/4 v0, 0x5
+    #
+    # .line 120
+    # goto :goto_1
+    #
+    # .line 121
+    # :pswitch_2
+    # const/4 v0, 0x4
+    #
+    # .line 122
+    # goto :goto_1
+    #
+    # .line 123
+    # :pswitch_3
+    # const/4 v0, 0x3
+    #
+    # .line 124
+    # goto :goto_1
+    #
+    # .line 125
+    # :pswitch_4
+    # const/4 v0, 0x2
+    #
+    # .line 126
+    # :goto_1
+    # iput v0, p0, Lxj/d;->m:I
+    #
+    # .line 127
+    # .line 128
+    # iget-object v4, p2, Ldj/b;->i:Ljava/util/List;
+    #
+    # .line 129
+    # .line 130
+    # const-string v2, "classProto.typeParameterList"
+    #
+    # .line 131
+    # .line 132
+    # invoke-static {v4, v2}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 133
+    # .line 134
+    # .line 135
+    # new-instance v6, Lfj/g;
+    #
+    # .line 136
+    # .line 137
+    # iget-object v2, p2, Ldj/b;->G:Ldj/s;
+    #
+    # .line 138
+    # .line 139
+    # const-string v3, "classProto.typeTable"
+    #
+    # .line 140
+    # .line 141
+    # invoke-static {v2, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 142
+    # .line 143
+    # .line 144
+    # invoke-direct {v6, v2}, Lfj/g;-><init>(Ldj/s;)V
+    #
+    # .line 145
+    # .line 146
+    # .line 147
+    # sget-object v2, Lfj/h;->b:Lfj/h;
+    #
+    # .line 148
+    # .line 149
+    # iget-object v2, p2, Ldj/b;->I:Ldj/v;
+    #
+    # .line 150
+    # .line 151
+    # const-string v3, "classProto.versionRequirementTable"
+    #
+    # .line 152
+    # .line 153
+    # invoke-static {v2, v3}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+    #
+    # .line 154
+    # .line 155
+    # .line 156
+    # invoke-static {v2}, Lfj/h$a;->a(Ldj/v;)Lfj/h;
+    #
+    # .line 157
+    # .line 158
+    # .line 159
+    # move-result-object v7
+    #
+    # .line 160
+    # move-object v2, p1
+    #
+    # .line 161
+    # move-object v3, p0
+    #
+    # .line 162
+    # move-object v5, p3
+    #
+    # .line 163
+    # move-object v8, p4
+    #
+    # .line 164
+    # invoke-virtual/range {v2 .. v8}, Lwa/s0;->a(Lji/j;Ljava/util/List;Lfj/c;Lfj/g;Lfj/h;Lfj/a;)Lwa/s0;
+    #
+    # .line 165
+    # .line 166
+    # .line 167
+    # move-result-object p3
+    #
+    # .line 168
+    # iput-object p3, p0, Lxj/d;->n:Lwa/s0;
+    #
+    # .line 169
+    # .line 170
+    # if-ne v0, v1, :cond_1
+    #
+    # .line 171
+    # .line 172
+    # new-instance p4, Lsj/m;
+    #
+    # .line 173
+    # .line 174
+    # invoke-virtual {p3}, Lwa/s0;->c()Lyj/l;
+    #
+    # .line 175
+    # .line 176
+    # .line 177
+    # move-result-object v2
+    #
+    # .line 178
+    # invoke-direct {p4, v2, p0}, Lsj/m;-><init>(Lyj/l;Lji/e;)V
+    #
+    # .line 179
+    # .line 180
+    # .line 181
+    # goto :goto_2
+    #
+    # .line 182
+    # :cond_1
+    # sget-object p4, Lsj/i$b;->b:Lsj/i$b;
+    #
+    # .line 183
+    # .line 184
+    # :goto_2
+    # iput-object p4, p0, Lxj/d;->o:Lsj/j;
+    #
+    # .line 185
+    # .line 186
+    # new-instance p4, Lxj/d$b;
+    #
+    # .line 187
+    # .line 188
+    # invoke-direct {p4, p0}, Lxj/d$b;-><init>(Lxj/d;)V
+    #
+    # .line 189
+    # .line 190
+    # .line 191
+    # iput-object p4, p0, Lxj/d;->p:Lxj/d$b;
+    #
+    # .line 192
+    # .line 193
+    # sget-object p4, Lji/p0;->e:Lji/p0$a;
+    #
+    # .line 194
+    # .line 195
+    # invoke-virtual {p3}, Lwa/s0;->c()Lyj/l;
+    #
+    # .line 196
+    # .line 197
+    # .line 198
+    # move-result-object v2
+    #
+    # .line 199
+    # iget-object v3, p3, Lwa/s0;->c:Ljava/lang/Object;
+    #
+    # .line 200
+    # .line 201
+    # check-cast v3, Lvj/l;
+    #
+    # .line 202
+    # .line 203
+    # iget-object v3, v3, Lvj/l;->q:Lak/l;
+    #
+    # .line 204
+    # .line 205
+    # invoke-interface {v3}, Lak/l;->c()Lak/f;
+    #
+    # .line 206
+    # .line 207
+    # .line 208
+    # move-result-object v3
+    #
+    # .line 209
+    # new-instance v4, Lxj/d$g;
+    #
+    # .line 210
+    # .line 211
+    # invoke-direct {v4, p0}, Lxj/d$g;-><init>(Ljava/lang/Object;)V
+    #
+    # .line 212
+    # .line 213
+    # .line 214
+    # invoke-virtual {p4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    #
+    # .line 215
+    # .line 216
+    # .line 217
+    # invoke-static {v4, p0, v2, v3}, Lji/p0$a;->a(Lth/l;Lji/e;Lyj/l;Lak/f;)Lji/p0;
+    #
+    # .line 218
+    # .line 219
+    # .line 220
+    # move-result-object p4
+    #
+    # .line 221
+    # iput-object p4, p0, Lxj/d;->q:Lji/p0;
+    #
+    # .line 222
+    # .line 223
+    # const/4 p4, 0x0
+    #
+    # .line 224
+    # if-ne v0, v1, :cond_2
+    #
+    # .line 225
+    # .line 226
+    # new-instance v0, Lxj/d$c;
+    #
+    # .line 227
+    # .line 228
+    # invoke-direct {v0, p0}, Lxj/d$c;-><init>(Lxj/d;)V
+    #
+    # .line 229
+    # .line 230
+    # .line 231
+    # goto :goto_3
+    #
+    # .line 232
+    # :cond_2
+    # move-object v0, p4
+    #
+    # .line 233
+    # :goto_3
+    # iput-object v0, p0, Lxj/d;->r:Lxj/d$c;
+    #
+    # .line 234
+    # .line 235
+    # iget-object p1, p1, Lwa/s0;->e:Ljava/lang/Object;
+    #
+    # .line 236
+    # .line 237
+    # check-cast p1, Lji/j;
+    #
+    # .line 238
+    # .line 239
+    # iput-object p1, p0, Lxj/d;->s:Lji/j;
+    #
+    # .line 240
+    # .line 241
+    # invoke-virtual {p3}, Lwa/s0;->c()Lyj/l;
+    #
+    # .line 242
+    # .line 243
+    # .line 244
+    # move-result-object v0
+    #
+    # .line 245
+    # new-instance v1, Lxj/d$h;
+    #
+    # .line 246
+    # .line 247
+    # invoke-direct {v1, p0}, Lxj/d$h;-><init>(Lxj/d;)V
+    #
+    # .line 248
+    # .line 249
+    # .line 250
+    # invoke-interface {v0, v1}, Lyj/l;->f(Lth/a;)Lyj/c$f;
+    #
+    # .line 251
+    # .line 252
+    # .line 253
+    # move-result-object v0
+    #
+    # .line 254
+    # iput-object v0, p0, Lxj/d;->t:Lyj/j;
+    #
+    # .line 255
+    # .line 256
+    # invoke-virtual {p3}, Lwa/s0;->c()Lyj/l;
+    #
+    # .line 257
+    # .line 258
+    # .line 259
+    # move-result-object v0
+    #
+    # .line 260
+    # new-instance v1, Lxj/d$f;
+    #
+    # .line 261
+    # .line 262
+    # invoke-direct {v1, p0}, Lxj/d$f;-><init>(Lxj/d;)V
+    #
+    # .line 263
+    # .line 264
+    # .line 265
+    # invoke-interface {v0, v1}, Lyj/l;->d(Lth/a;)Lyj/c$h;
+    #
+    # .line 266
+    # .line 267
+    # .line 268
+    # move-result-object v0
+    #
+    # .line 269
+    # iput-object v0, p0, Lxj/d;->u:Lyj/i;
+    #
+    # .line 270
+    # .line 271
+    # invoke-virtual {p3}, Lwa/s0;->c()Lyj/l;
+    #
+    # .line 272
+    # .line 273
+    # .line 274
+    # move-result-object v0
+    #
+    # .line 275
+    # new-instance v1, Lxj/d$e;
+    #
+    # .line 276
+    # .line 277
+    # invoke-direct {v1, p0}, Lxj/d$e;-><init>(Lxj/d;)V
+    #
+    # .line 278
+    # .line 279
+    # .line 280
+    # invoke-interface {v0, v1}, Lyj/l;->f(Lth/a;)Lyj/c$f;
+    #
+    # .line 281
+    # .line 282
+    # .line 283
+    # move-result-object v0
+    #
+    # .line 284
+    # iput-object v0, p0, Lxj/d;->v:Lyj/j;
+    #
+    # .line 285
+    # .line 286
+    # invoke-virtual {p3}, Lwa/s0;->c()Lyj/l;
+    #
+    # .line 287
+    # .line 288
+    # .line 289
+    # move-result-object v0
+    #
+    # .line 290
+    # new-instance v1, Lxj/d$i;
+    #
+    # .line 291
+    # .line 292
+    # invoke-direct {v1, p0}, Lxj/d$i;-><init>(Lxj/d;)V
+    #
+    # .line 293
+    # .line 294
+    # .line 295
+    # invoke-interface {v0, v1}, Lyj/l;->d(Lth/a;)Lyj/c$h;
+    #
+    # .line 296
+    # .line 297
+    # .line 298
+    # move-result-object v0
+    #
+    # .line 299
+    # iput-object v0, p0, Lxj/d;->w:Lyj/i;
+    #
+    # .line 300
+    # .line 301
+    # invoke-virtual {p3}, Lwa/s0;->c()Lyj/l;
+    #
+    # .line 302
+    # .line 303
+    # .line 304
+    # move-result-object v0
+    #
+    # .line 305
+    # new-instance v1, Lxj/d$j;
+    #
+    # .line 306
+    # .line 307
+    # invoke-direct {v1, p0}, Lxj/d$j;-><init>(Lxj/d;)V
+    #
+    # .line 308
+    # .line 309
+    # .line 310
+    # invoke-interface {v0, v1}, Lyj/l;->f(Lth/a;)Lyj/c$f;
+    #
+    # .line 311
+    # .line 312
+    # .line 313
+    # move-result-object v0
+    #
+    # .line 314
+    # iput-object v0, p0, Lxj/d;->x:Lyj/j;
+    #
+    # .line 315
+    # .line 316
+    # new-instance v0, Lvj/d0$a;
+    #
+    # .line 317
+    # .line 318
+    # iget-object v1, p3, Lwa/s0;->d:Ljava/lang/Object;
+    #
+    # .line 319
+    # .line 320
+    # move-object v3, v1
+    #
+    # .line 321
+    # check-cast v3, Lfj/c;
+    #
+    # .line 322
+    # .line 323
+    # iget-object v1, p3, Lwa/s0;->f:Ljava/lang/Object;
+    #
+    # .line 324
+    # .line 325
+    # move-object v4, v1
+    #
+    # .line 326
+    # check-cast v4, Lfj/g;
+    #
+    # .line 327
+    # .line 328
+    # instance-of v1, p1, Lxj/d;
+    #
+    # .line 329
+    # .line 330
+    # if-eqz v1, :cond_3
+    #
+    # .line 331
+    # .line 332
+    # check-cast p1, Lxj/d;
+    #
+    # .line 333
+    # .line 334
+    # goto :goto_4
+    #
+    # .line 335
+    # :cond_3
+    # move-object p1, p4
+    #
+    # .line 336
+    # :goto_4
+    # if-eqz p1, :cond_4
+    #
+    # .line 337
+    # .line 338
+    # iget-object p4, p1, Lxj/d;->y:Lvj/d0$a;
+    #
+    # .line 339
+    # .line 340
+    # :cond_4
+    # move-object v6, p4
+    #
+    # .line 341
+    # move-object v1, v0
+    #
+    # .line 342
+    # move-object v2, p2
+    #
+    # .line 343
+    # move-object v5, p5
+    #
+    # .line 344
+    # invoke-direct/range {v1 .. v6}, Lvj/d0$a;-><init>(Ldj/b;Lfj/c;Lfj/g;Lji/r0;Lvj/d0$a;)V
+    #
+    # .line 345
+    # .line 346
+    # .line 347
+    # iput-object v0, p0, Lxj/d;->y:Lvj/d0$a;
+    #
+    # .line 348
+    # .line 349
+    # sget-object p1, Lfj/b;->c:Lfj/b$a;
+    #
+    # .line 350
+    # .line 351
+    # iget p2, p2, Ldj/b;->f:I
+    #
+    # .line 352
+    # .line 353
+    # invoke-virtual {p1, p2}, Lfj/b$a;->c(I)Ljava/lang/Boolean;
+    #
+    # .line 354
+    # .line 355
+    # .line 356
+    # move-result-object p1
+    #
+    # .line 357
+    # invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+    #
+    # .line 358
+    # .line 359
+    # .line 360
+    # move-result p1
+    #
+    # .line 361
+    # if-nez p1, :cond_5
+    #
+    # .line 362
+    # .line 363
+    # sget-object p1, Lki/h$a;->a:Lki/h$a$a;
+    #
+    # .line 364
+    # .line 365
+    # goto :goto_5
+    #
+    # .line 366
+    # :cond_5
+    # new-instance p1, Lxj/o;
+    #
+    # .line 367
+    # .line 368
+    # invoke-virtual {p3}, Lwa/s0;->c()Lyj/l;
+    #
+    # .line 369
+    # .line 370
+    # .line 371
+    # move-result-object p2
+    #
+    # .line 372
+    # new-instance p3, Lxj/d$d;
+    #
+    # .line 373
+    # .line 374
+    # invoke-direct {p3, p0}, Lxj/d$d;-><init>(Lxj/d;)V
+    #
+    # .line 375
+    # .line 376
+    # .line 377
+    # invoke-direct {p1, p2, p3}, Lxj/o;-><init>(Lyj/l;Lth/a;)V
+    #
+    # .line 378
+    # .line 379
+    # .line 380
+    # :goto_5
+    # iput-object p1, p0, Lxj/d;->z:Lki/h;
+    #
+    # .line 381
+    # .line 382
     return-void
-
-    .line 383
-    :pswitch_data_0
-    .packed-switch 0x2
-        :pswitch_4
-        :pswitch_3
-        :pswitch_2
-        :pswitch_1
-        :pswitch_0
-        :pswitch_0
-    .end packed-switch
+    #
+    # .line 383
+    # :pswitch_data_0
+    # .packed-switch 0x2
+    #     :pswitch_4
+    #     :pswitch_3
+    #     :pswitch_2
+    #     :pswitch_1
+    #     :pswitch_0
+    #     :pswitch_0
+    # .end packed-switch
 .end method
 
 

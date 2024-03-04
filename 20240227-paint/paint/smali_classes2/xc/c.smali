@@ -302,11 +302,11 @@
 
     .line 110
     .line 111
-    new-instance v1, Lcom/vungle/warren/utility/e;
-
-    .line 112
-    .line 113
-    invoke-direct {v1}, Lcom/vungle/warren/utility/e;-><init>()V
+    # new-instance v1, Lcom/vungle/warren/utility/e;
+    #
+    # .line 112
+    # .line 113
+    # invoke-direct {v1}, Lcom/vungle/warren/utility/e;-><init>()V
 
     .line 114
     .line 115

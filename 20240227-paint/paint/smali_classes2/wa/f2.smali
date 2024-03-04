@@ -13,24 +13,24 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/vungle/warren/d2$a;)V
-    .locals 1
-
-    const/4 v0, 0x1
-
-    iput v0, p0, Lwa/f2;->c:I
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    new-instance v0, Ljava/lang/ref/WeakReference;
-
-    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
-
-    iput-object v0, p0, Lwa/f2;->d:Ljava/lang/Object;
-
-    return-void
-.end method
+# .method public constructor <init>(Lcom/vungle/warren/d2$a;)V
+#     .locals 1
+#
+#     const/4 v0, 0x1
+#
+#     iput v0, p0, Lwa/f2;->c:I
+#
+#     .line 1
+#     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+#
+#     new-instance v0, Ljava/lang/ref/WeakReference;
+#
+#     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+#
+#     iput-object v0, p0, Lwa/f2;->d:Ljava/lang/Object;
+#
+#     return-void
+# .end method
 
 .method public synthetic constructor <init>(Lwa/g2;)V
     .locals 1

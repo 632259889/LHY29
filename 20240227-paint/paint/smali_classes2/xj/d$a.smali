@@ -43,270 +43,270 @@
 
 
 # direct methods
-.method public constructor <init>(Lxj/d;Lak/f;)V
-    .locals 7
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lak/f;",
-            ")V"
-        }
-    .end annotation
-
-    .line 1
-    const-string v0, "kotlinTypeRefiner"
-
-    .line 2
-    .line 3
-    invoke-static {p2, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 4
-    .line 5
-    .line 6
-    iput-object p1, p0, Lxj/d$a;->j:Lxj/d;
-
-    .line 7
-    .line 8
-    iget-object v2, p1, Lxj/d;->n:Lwa/s0;
-
-    .line 9
-    .line 10
-    iget-object v0, p1, Lxj/d;->g:Ldj/b;
-
-    .line 11
-    .line 12
-    iget-object v3, v0, Ldj/b;->s:Ljava/util/List;
-
-    .line 13
-    .line 14
-    const-string v1, "classProto.functionList"
-
-    .line 15
-    .line 16
-    invoke-static {v3, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 17
-    .line 18
-    .line 19
-    iget-object v4, v0, Ldj/b;->t:Ljava/util/List;
-
-    .line 20
-    .line 21
-    const-string v1, "classProto.propertyList"
-
-    .line 22
-    .line 23
-    invoke-static {v4, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 24
-    .line 25
-    .line 26
-    iget-object v5, v0, Ldj/b;->u:Ljava/util/List;
-
-    .line 27
-    .line 28
-    const-string v1, "classProto.typeAliasList"
-
-    .line 29
-    .line 30
-    invoke-static {v5, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 31
-    .line 32
-    .line 33
-    iget-object v0, v0, Ldj/b;->m:Ljava/util/List;
-
-    .line 34
-    .line 35
-    const-string v1, "classProto.nestedClassNameList"
-
-    .line 36
-    .line 37
-    invoke-static {v0, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 38
-    .line 39
-    .line 40
-    check-cast v0, Ljava/lang/Iterable;
-
-    .line 41
-    .line 42
-    iget-object p1, p1, Lxj/d;->n:Lwa/s0;
-
-    .line 43
-    .line 44
-    iget-object p1, p1, Lwa/s0;->d:Ljava/lang/Object;
-
-    .line 45
-    .line 46
-    check-cast p1, Lfj/c;
-
-    .line 47
-    .line 48
-    new-instance v1, Ljava/util/ArrayList;
-
-    .line 49
-    .line 50
-    invoke-static {v0}, Ljh/m;->L0(Ljava/lang/Iterable;)I
-
-    .line 51
-    .line 52
-    .line 53
-    move-result v6
-
-    .line 54
-    invoke-direct {v1, v6}, Ljava/util/ArrayList;-><init>(I)V
-
-    .line 55
-    .line 56
-    .line 57
-    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
-
-    .line 58
-    .line 59
-    .line 60
-    move-result-object v0
-
-    .line 61
-    :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
-
-    .line 62
-    .line 63
-    .line 64
-    move-result v6
-
-    .line 65
-    if-eqz v6, :cond_0
-
-    .line 66
-    .line 67
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    .line 68
-    .line 69
-    .line 70
-    move-result-object v6
-
-    .line 71
-    check-cast v6, Ljava/lang/Number;
-
-    .line 72
-    .line 73
-    invoke-virtual {v6}, Ljava/lang/Number;->intValue()I
-
-    .line 74
-    .line 75
-    .line 76
-    move-result v6
-
-    .line 77
-    invoke-static {p1, v6}, Lcom/vungle/warren/utility/e;->q(Lfj/c;I)Lij/f;
-
-    .line 78
-    .line 79
-    .line 80
-    move-result-object v6
-
-    .line 81
-    invoke-virtual {v1, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 82
-    .line 83
-    .line 84
-    goto :goto_0
-
-    .line 85
-    :cond_0
-    new-instance v6, Lxj/d$a$a;
-
-    .line 86
-    .line 87
-    invoke-direct {v6, v1}, Lxj/d$a$a;-><init>(Ljava/util/ArrayList;)V
-
-    .line 88
-    .line 89
-    .line 90
-    move-object v1, p0
-
-    .line 91
-    invoke-direct/range {v1 .. v6}, Lxj/i;-><init>(Lwa/s0;Ljava/util/List;Ljava/util/List;Ljava/util/List;Lth/a;)V
-
-    .line 92
-    .line 93
-    .line 94
-    iput-object p2, p0, Lxj/d$a;->g:Lak/f;
-
-    .line 95
-    .line 96
-    iget-object p1, p0, Lxj/i;->b:Lwa/s0;
-
-    .line 97
-    .line 98
-    invoke-virtual {p1}, Lwa/s0;->c()Lyj/l;
-
-    .line 99
-    .line 100
-    .line 101
-    move-result-object p1
-
-    .line 102
-    new-instance p2, Lxj/d$a$b;
-
-    .line 103
-    .line 104
-    invoke-direct {p2, p0}, Lxj/d$a$b;-><init>(Lxj/d$a;)V
-
-    .line 105
-    .line 106
-    .line 107
-    invoke-interface {p1, p2}, Lyj/l;->d(Lth/a;)Lyj/c$h;
-
-    .line 108
-    .line 109
-    .line 110
-    move-result-object p1
-
-    .line 111
-    iput-object p1, p0, Lxj/d$a;->h:Lyj/i;
-
-    .line 112
-    .line 113
-    iget-object p1, p0, Lxj/i;->b:Lwa/s0;
-
-    .line 114
-    .line 115
-    invoke-virtual {p1}, Lwa/s0;->c()Lyj/l;
-
-    .line 116
-    .line 117
-    .line 118
-    move-result-object p1
-
-    .line 119
-    new-instance p2, Lxj/d$a$c;
-
-    .line 120
-    .line 121
-    invoke-direct {p2, p0}, Lxj/d$a$c;-><init>(Lxj/d$a;)V
-
-    .line 122
-    .line 123
-    .line 124
-    invoke-interface {p1, p2}, Lyj/l;->d(Lth/a;)Lyj/c$h;
-
-    .line 125
-    .line 126
-    .line 127
-    move-result-object p1
-
-    .line 128
-    iput-object p1, p0, Lxj/d$a;->i:Lyj/i;
-
-    .line 129
-    .line 130
-    return-void
-.end method
+# .method public constructor <init>(Lxj/d;Lak/f;)V
+#     .locals 7
+#     .annotation system Ldalvik/annotation/Signature;
+#         value = {
+#             "(",
+#             "Lak/f;",
+#             ")V"
+#         }
+#     .end annotation
+#
+#     .line 1
+#     const-string v0, "kotlinTypeRefiner"
+#
+#     .line 2
+#     .line 3
+#     invoke-static {p2, v0}, Luh/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     .line 4
+#     .line 5
+#     .line 6
+#     iput-object p1, p0, Lxj/d$a;->j:Lxj/d;
+#
+#     .line 7
+#     .line 8
+#     iget-object v2, p1, Lxj/d;->n:Lwa/s0;
+#
+#     .line 9
+#     .line 10
+#     iget-object v0, p1, Lxj/d;->g:Ldj/b;
+#
+#     .line 11
+#     .line 12
+#     iget-object v3, v0, Ldj/b;->s:Ljava/util/List;
+#
+#     .line 13
+#     .line 14
+#     const-string v1, "classProto.functionList"
+#
+#     .line 15
+#     .line 16
+#     invoke-static {v3, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     .line 17
+#     .line 18
+#     .line 19
+#     iget-object v4, v0, Ldj/b;->t:Ljava/util/List;
+#
+#     .line 20
+#     .line 21
+#     const-string v1, "classProto.propertyList"
+#
+#     .line 22
+#     .line 23
+#     invoke-static {v4, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     .line 24
+#     .line 25
+#     .line 26
+#     iget-object v5, v0, Ldj/b;->u:Ljava/util/List;
+#
+#     .line 27
+#     .line 28
+#     const-string v1, "classProto.typeAliasList"
+#
+#     .line 29
+#     .line 30
+#     invoke-static {v5, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     .line 31
+#     .line 32
+#     .line 33
+#     iget-object v0, v0, Ldj/b;->m:Ljava/util/List;
+#
+#     .line 34
+#     .line 35
+#     const-string v1, "classProto.nestedClassNameList"
+#
+#     .line 36
+#     .line 37
+#     invoke-static {v0, v1}, Luh/i;->d(Ljava/lang/Object;Ljava/lang/String;)V
+#
+#     .line 38
+#     .line 39
+#     .line 40
+#     check-cast v0, Ljava/lang/Iterable;
+#
+#     .line 41
+#     .line 42
+#     iget-object p1, p1, Lxj/d;->n:Lwa/s0;
+#
+#     .line 43
+#     .line 44
+#     iget-object p1, p1, Lwa/s0;->d:Ljava/lang/Object;
+#
+#     .line 45
+#     .line 46
+#     check-cast p1, Lfj/c;
+#
+#     .line 47
+#     .line 48
+#     new-instance v1, Ljava/util/ArrayList;
+#
+#     .line 49
+#     .line 50
+#     invoke-static {v0}, Ljh/m;->L0(Ljava/lang/Iterable;)I
+#
+#     .line 51
+#     .line 52
+#     .line 53
+#     move-result v6
+#
+#     .line 54
+#     invoke-direct {v1, v6}, Ljava/util/ArrayList;-><init>(I)V
+#
+#     .line 55
+#     .line 56
+#     .line 57
+#     invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+#
+#     .line 58
+#     .line 59
+#     .line 60
+#     move-result-object v0
+#
+#     .line 61
+#     :goto_0
+#     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+#
+#     .line 62
+#     .line 63
+#     .line 64
+#     move-result v6
+#
+#     .line 65
+#     if-eqz v6, :cond_0
+#
+#     .line 66
+#     .line 67
+#     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+#
+#     .line 68
+#     .line 69
+#     .line 70
+#     move-result-object v6
+#
+#     .line 71
+#     check-cast v6, Ljava/lang/Number;
+#
+#     .line 72
+#     .line 73
+#     invoke-virtual {v6}, Ljava/lang/Number;->intValue()I
+#
+#     .line 74
+#     .line 75
+#     .line 76
+#     move-result v6
+#
+#     .line 77
+#     invoke-static {p1, v6}, Lcom/vungle/warren/utility/e;->q(Lfj/c;I)Lij/f;
+#
+#     .line 78
+#     .line 79
+#     .line 80
+#     move-result-object v6
+#
+#     .line 81
+#     invoke-virtual {v1, v6}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+#
+#     .line 82
+#     .line 83
+#     .line 84
+#     goto :goto_0
+#
+#     .line 85
+#     :cond_0
+#     new-instance v6, Lxj/d$a$a;
+#
+#     .line 86
+#     .line 87
+#     invoke-direct {v6, v1}, Lxj/d$a$a;-><init>(Ljava/util/ArrayList;)V
+#
+#     .line 88
+#     .line 89
+#     .line 90
+#     move-object v1, p0
+#
+#     .line 91
+#     invoke-direct/range {v1 .. v6}, Lxj/i;-><init>(Lwa/s0;Ljava/util/List;Ljava/util/List;Ljava/util/List;Lth/a;)V
+#
+#     .line 92
+#     .line 93
+#     .line 94
+#     iput-object p2, p0, Lxj/d$a;->g:Lak/f;
+#
+#     .line 95
+#     .line 96
+#     iget-object p1, p0, Lxj/i;->b:Lwa/s0;
+#
+#     .line 97
+#     .line 98
+#     invoke-virtual {p1}, Lwa/s0;->c()Lyj/l;
+#
+#     .line 99
+#     .line 100
+#     .line 101
+#     move-result-object p1
+#
+#     .line 102
+#     new-instance p2, Lxj/d$a$b;
+#
+#     .line 103
+#     .line 104
+#     invoke-direct {p2, p0}, Lxj/d$a$b;-><init>(Lxj/d$a;)V
+#
+#     .line 105
+#     .line 106
+#     .line 107
+#     invoke-interface {p1, p2}, Lyj/l;->d(Lth/a;)Lyj/c$h;
+#
+#     .line 108
+#     .line 109
+#     .line 110
+#     move-result-object p1
+#
+#     .line 111
+#     iput-object p1, p0, Lxj/d$a;->h:Lyj/i;
+#
+#     .line 112
+#     .line 113
+#     iget-object p1, p0, Lxj/i;->b:Lwa/s0;
+#
+#     .line 114
+#     .line 115
+#     invoke-virtual {p1}, Lwa/s0;->c()Lyj/l;
+#
+#     .line 116
+#     .line 117
+#     .line 118
+#     move-result-object p1
+#
+#     .line 119
+#     new-instance p2, Lxj/d$a$c;
+#
+#     .line 120
+#     .line 121
+#     invoke-direct {p2, p0}, Lxj/d$a$c;-><init>(Lxj/d$a;)V
+#
+#     .line 122
+#     .line 123
+#     .line 124
+#     invoke-interface {p1, p2}, Lyj/l;->d(Lth/a;)Lyj/c$h;
+#
+#     .line 125
+#     .line 126
+#     .line 127
+#     move-result-object p1
+#
+#     .line 128
+#     iput-object p1, p0, Lxj/d$a;->i:Lyj/i;
+#
+#     .line 129
+#     .line 130
+#     return-void
+# .end method
 
 
 # virtual methods
