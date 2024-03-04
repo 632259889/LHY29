@@ -4,8 +4,8 @@
 
 # interfaces
 .implements Lcom/google/android/gms/ads/mediation/MediationRewardedAd;
-.implements Lcom/vungle/warren/b0;
-.implements Lcom/vungle/warren/p0;
+# .implements Lcom/vungle/warren/b0;
+# .implements Lcom/vungle/warren/p0;
 
 
 # instance fields
@@ -24,7 +24,7 @@
 
 .field public e:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
 
-.field public f:Lcom/vungle/warren/AdConfig;
+# .field public f:Lcom/vungle/warren/AdConfig;
 
 .field public g:Ljava/lang/String;
 
@@ -480,40 +480,40 @@
     return-void
 .end method
 
-.method public final onError(Ljava/lang/String;Lcom/vungle/warren/error/a;)V
-    .locals 1
-
-    # invoke-static {p2}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->getAdError(Lcom/vungle/warren/error/a;)Lcom/google/android/gms/ads/AdError;
-    #
-    # move-result-object p1
-    #
-    # sget-object p2, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
-    #
-    # invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
-    #
-    # move-result-object v0
-    #
-    # invoke-static {p2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-    #
-    # iget-object p2, p0, Ly8/e;->e:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
-    #
-    # if-eqz p2, :cond_0
-    #
-    # invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->onAdFailedToShow(Lcom/google/android/gms/ads/AdError;)V
-    #
-    # goto :goto_0
-    #
-    # :cond_0
-    # iget-object p2, p0, Ly8/e;->d:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
-    #
-    # if-eqz p2, :cond_1
-    #
-    # invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
-    #
-    # :cond_1
-    # :goto_0
-    return-void
-.end method
+# .method public final onError(Ljava/lang/String;Lcom/vungle/warren/error/a;)V
+#     .locals 1
+#
+#     # invoke-static {p2}, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->getAdError(Lcom/vungle/warren/error/a;)Lcom/google/android/gms/ads/AdError;
+#     #
+#     # move-result-object p1
+#     #
+#     # sget-object p2, Lcom/google/ads/mediation/vungle/VungleMediationAdapter;->TAG:Ljava/lang/String;
+#     #
+#     # invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
+#     #
+#     # move-result-object v0
+#     #
+#     # invoke-static {p2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+#     #
+#     # iget-object p2, p0, Ly8/e;->e:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
+#     #
+#     # if-eqz p2, :cond_0
+#     #
+#     # invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->onAdFailedToShow(Lcom/google/android/gms/ads/AdError;)V
+#     #
+#     # goto :goto_0
+#     #
+#     # :cond_0
+#     # iget-object p2, p0, Ly8/e;->d:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
+#     #
+#     # if-eqz p2, :cond_1
+#     #
+#     # invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
+#     #
+#     # :cond_1
+#     # :goto_0
+#     return-void
+# .end method
 
 .method public final showAd(Landroid/content/Context;)V
     .locals 2

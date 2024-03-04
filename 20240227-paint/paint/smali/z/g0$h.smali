@@ -401,15 +401,15 @@
     .line 76
     .line 77
     .line 78
-    invoke-static {}, Lcom/vungle/warren/utility/e;->H()Ld0/b;
-
-    .line 79
-    .line 80
-    .line 81
-    move-result-object v1
-
-    .line 82
-    invoke-static {v2, v3, v1}, Le0/f;->a(Lgb/a;Le0/c;Ljava/util/concurrent/Executor;)V
+    # invoke-static {}, Lcom/vungle/warren/utility/e;->H()Ld0/b;
+    #
+    # .line 79
+    # .line 80
+    # .line 81
+    # move-result-object v1
+    #
+    # .line 82
+    # invoke-static {v2, v3, v1}, Le0/f;->a(Lgb/a;Le0/c;Ljava/util/concurrent/Executor;)V
 
     .line 83
     .line 84
@@ -524,9 +524,9 @@
 
     iput v0, p0, Lz/g0$h;->d:I
 
-    invoke-static {}, Lcom/vungle/warren/utility/e;->H()Ld0/b;
+    # invoke-static {}, Lcom/vungle/warren/utility/e;->H()Ld0/b;
 
-    move-result-object v0
+    # move-result-object v0
 
     new-instance v1, Landroidx/activity/h;
 
@@ -534,7 +534,7 @@
 
     invoke-direct {v1, p0, v2}, Landroidx/activity/h;-><init>(Ljava/lang/Object;I)V
 
-    invoke-virtual {v0, v1}, Ld0/b;->execute(Ljava/lang/Runnable;)V
+    # invoke-virtual {v0, v1}, Ld0/b;->execute(Ljava/lang/Runnable;)V
 
     monitor-exit p1
 

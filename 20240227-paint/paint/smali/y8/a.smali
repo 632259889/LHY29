@@ -39,12 +39,13 @@
 
     .line 6
     .line 7
-    invoke-static {v1, v2}, Lcom/vungle/warren/Vungle;->canPlayAd(Ljava/lang/String;Ljava/lang/String;)Z
+    # invoke-static {v1, v2}, Lcom/vungle/warren/Vungle;->canPlayAd(Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 8
     .line 9
     .line 10
-    move-result v1
+    # move-result v1
+    const/4 v1,0x1
 
     .line 11
     if-eqz v1, :cond_0
@@ -83,7 +84,7 @@
 
     .line 27
     .line 28
-    iget-object v3, v0, Ly8/c;->e:Lcom/vungle/warren/AdConfig;
+    # iget-object v3, v0, Ly8/c;->e:Lcom/vungle/warren/AdConfig;
 
     .line 29
     .line 30

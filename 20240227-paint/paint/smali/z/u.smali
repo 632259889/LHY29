@@ -785,1041 +785,1041 @@
 #     .end packed-switch
 # .end method
 
-.method public final d(Lr0/b$a;)Ljava/lang/String;
-    .locals 12
-
-    .line 1
-    iget v0, p0, Lz/u;->c:I
-
-    .line 2
-    .line 3
-    const/4 v1, 0x0
-
-    .line 4
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 5
-    .line 6
-    .line 7
-    move-result-object v2
-
-    .line 8
-    packed-switch v0, :pswitch_data_0
-
-    .line 9
-    .line 10
-    .line 11
-    goto/16 :goto_4
-
-    .line 12
-    .line 13
-    :pswitch_0
-    iget-object v0, p0, Lz/u;->d:Ljava/lang/Object;
-
-    .line 14
-    .line 15
-    check-cast v0, Ljava/util/concurrent/atomic/AtomicReference;
-
-    .line 16
-    .line 17
-    iget-object v1, p0, Lz/u;->e:Ljava/lang/Object;
-
-    .line 18
-    .line 19
-    check-cast v1, Ljava/lang/String;
-
-    .line 20
-    .line 21
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
-
-    .line 22
-    .line 23
-    .line 24
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    .line 25
-    .line 26
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
-
-    .line 27
-    .line 28
-    .line 29
-    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 30
-    .line 31
-    .line 32
-    const-string v0, "-Surface"
-
-    .line 33
-    .line 34
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 35
-    .line 36
-    .line 37
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 38
-    .line 39
-    .line 40
-    move-result-object p1
-
-    .line 41
-    return-object p1
-
-    .line 42
-    :pswitch_1
-    iget-object v0, p0, Lz/u;->d:Ljava/lang/Object;
-
-    .line 43
-    .line 44
-    check-cast v0, Lz/g0;
-
-    .line 45
-    .line 46
-    iget-object v3, p0, Lz/u;->e:Ljava/lang/Object;
-
-    .line 47
-    .line 48
-    check-cast v3, Lz/g0$g;
-
-    .line 49
-    .line 50
-    iget-object v4, v0, Lz/g0;->y:Lz/b1;
-
-    .line 51
-    .line 52
-    new-instance v5, Lt/h2;
-
-    .line 53
-    .line 54
-    const/4 v6, 0x1
-
-    .line 55
-    invoke-direct {v5, p1, v6}, Lt/h2;-><init>(Ljava/lang/Object;I)V
-
-    .line 56
-    .line 57
-    .line 58
-    invoke-static {}, Lcom/vungle/warren/utility/e;->H()Ld0/b;
-
-    .line 59
-    .line 60
-    .line 61
-    move-result-object v7
-
-    .line 62
-    invoke-virtual {v4, v5, v7}, Lz/b1;->e(Lb0/w0$a;Ljava/util/concurrent/Executor;)V
-
-    .line 63
-    .line 64
-    .line 65
-    invoke-virtual {v0}, Lz/g0;->F()V
-
-    .line 66
-    .line 67
-    .line 68
-    const-string v4, "ImageCapture"
-
-    .line 69
-    .line 70
-    const-string v5, "issueTakePicture"
-
-    .line 71
-    .line 72
-    invoke-static {v4, v5}, Lz/p0;->a(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 73
-    .line 74
-    .line 75
-    new-instance v4, Ljava/util/ArrayList;
-
-    .line 76
-    .line 77
-    invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
-
-    .line 78
-    .line 79
-    .line 80
-    iget-object v5, v0, Lz/g0;->z:Lz/v0;
-
-    .line 81
-    .line 82
-    if-eqz v5, :cond_3
-
-    .line 83
-    .line 84
-    invoke-static {}, Lz/z;->a()Lz/z$a;
-
-    .line 85
-    .line 86
-    .line 87
-    move-result-object v5
-
-    .line 88
-    invoke-virtual {v0, v5}, Lz/g0;->z(Lz/z$a;)Lb0/d0;
-
-    .line 89
-    .line 90
-    .line 91
-    move-result-object v5
-
-    .line 92
-    move-object v7, v5
-
-    .line 93
-    check-cast v7, Lz/z$a;
-
-    .line 94
-    .line 95
-    iget-object v7, v7, Lz/z$a;->a:Ljava/util/List;
-
-    .line 96
-    .line 97
-    if-nez v7, :cond_0
-
-    .line 98
-    .line 99
-    new-instance v1, Ljava/lang/IllegalArgumentException;
-
-    .line 100
-    .line 101
-    const-string v2, "ImageCapture has CaptureBundle with null capture stages"
-
-    .line 102
-    .line 103
-    invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    .line 104
-    .line 105
-    .line 106
-    new-instance v2, Le0/i$a;
-
-    .line 107
-    .line 108
-    invoke-direct {v2, v1}, Le0/i$a;-><init>(Ljava/lang/Exception;)V
-
-    .line 109
-    .line 110
-    .line 111
-    goto/16 :goto_3
-
-    .line 112
-    .line 113
-    :cond_0
-    iget-object v8, v0, Lz/g0;->v:Lb0/f0;
-
-    .line 114
-    .line 115
-    if-nez v8, :cond_1
-
-    .line 116
-    .line 117
-    invoke-interface {v7}, Ljava/util/List;->size()I
-
-    .line 118
-    .line 119
-    .line 120
-    move-result v8
-
-    .line 121
-    if-le v8, v6, :cond_1
-
-    .line 122
-    .line 123
-    new-instance v1, Ljava/lang/IllegalArgumentException;
-
-    .line 124
-    .line 125
-    const-string v2, "No CaptureProcessor can be found to process the images captured for multiple CaptureStages."
-
-    .line 126
-    .line 127
-    invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    .line 128
-    .line 129
-    .line 130
-    new-instance v2, Le0/i$a;
-
-    .line 131
-    .line 132
-    invoke-direct {v2, v1}, Le0/i$a;-><init>(Ljava/lang/Exception;)V
-
-    .line 133
-    .line 134
-    .line 135
-    goto/16 :goto_3
-
-    .line 136
-    .line 137
-    :cond_1
-    invoke-interface {v7}, Ljava/util/List;->size()I
-
-    .line 138
-    .line 139
-    .line 140
-    move-result v7
-
-    .line 141
-    iget v8, v0, Lz/g0;->u:I
-
-    .line 142
-    .line 143
-    if-le v7, v8, :cond_2
-
-    .line 144
-    .line 145
-    new-instance v1, Ljava/lang/IllegalArgumentException;
-
-    .line 146
-    .line 147
-    const-string v2, "ImageCapture has CaptureStages > Max CaptureStage size"
-
-    .line 148
-    .line 149
-    invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    .line 150
-    .line 151
-    .line 152
-    new-instance v2, Le0/i$a;
-
-    .line 153
-    .line 154
-    invoke-direct {v2, v1}, Le0/i$a;-><init>(Ljava/lang/Exception;)V
-
-    .line 155
-    .line 156
-    .line 157
-    goto/16 :goto_3
-
-    .line 158
-    .line 159
-    :cond_2
-    iget-object v7, v0, Lz/g0;->z:Lz/v0;
-
-    .line 160
-    .line 161
-    invoke-virtual {v7, v5}, Lz/v0;->j(Lb0/d0;)V
-
-    .line 162
-    .line 163
-    .line 164
-    iget-object v7, v0, Lz/g0;->z:Lz/v0;
-
-    .line 165
-    .line 166
-    invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
-
-    .line 167
-    .line 168
-    .line 169
-    move-result-object v8
-
-    .line 170
-    new-instance v9, Lob/a;
-
-    .line 171
-    .line 172
-    const/4 v10, 0x3
-
-    .line 173
-    invoke-direct {v9, v3, v10}, Lob/a;-><init>(Ljava/lang/Object;I)V
-
-    .line 174
-    .line 175
-    .line 176
-    iget-object v10, v7, Lz/v0;->a:Ljava/lang/Object;
-
-    .line 177
-    .line 178
-    monitor-enter v10
-
-    .line 179
-    :try_start_0
-    iput-object v8, v7, Lz/v0;->u:Ljava/util/concurrent/Executor;
-
-    .line 180
-    .line 181
-    iput-object v9, v7, Lz/v0;->t:Lz/v0$e;
-
-    .line 182
-    .line 183
-    monitor-exit v10
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 184
-    iget-object v7, v0, Lz/g0;->z:Lz/v0;
-
-    .line 185
-    .line 186
-    iget-object v7, v7, Lz/v0;->p:Ljava/lang/String;
-
-    .line 187
-    .line 188
-    goto :goto_0
-
-    .line 189
-    :catchall_0
-    move-exception p1
-
-    .line 190
-    :try_start_1
-    monitor-exit v10
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    .line 191
-    throw p1
-
-    .line 192
-    :cond_3
-    invoke-static {}, Lz/z;->a()Lz/z$a;
-
-    .line 193
-    .line 194
-    .line 195
-    move-result-object v5
-
-    .line 196
-    invoke-virtual {v0, v5}, Lz/g0;->z(Lz/z$a;)Lb0/d0;
-
-    .line 197
-    .line 198
-    .line 199
-    move-result-object v5
-
-    .line 200
-    move-object v7, v5
-
-    .line 201
-    check-cast v7, Lz/z$a;
-
-    .line 202
-    .line 203
-    iget-object v7, v7, Lz/z$a;->a:Ljava/util/List;
-
-    .line 204
-    .line 205
-    if-nez v7, :cond_4
-
-    .line 206
-    .line 207
-    new-instance v1, Ljava/lang/IllegalArgumentException;
-
-    .line 208
-    .line 209
-    const-string v2, "ImageCapture has CaptureBundle with null capture stages"
-
-    .line 210
-    .line 211
-    invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    .line 212
-    .line 213
-    .line 214
-    new-instance v2, Le0/i$a;
-
-    .line 215
-    .line 216
-    invoke-direct {v2, v1}, Le0/i$a;-><init>(Ljava/lang/Exception;)V
-
-    .line 217
-    .line 218
-    .line 219
-    goto/16 :goto_3
-
-    .line 220
-    .line 221
-    :cond_4
-    invoke-interface {v7}, Ljava/util/List;->size()I
-
-    .line 222
-    .line 223
-    .line 224
-    move-result v7
-
-    .line 225
-    if-le v7, v6, :cond_5
-
-    .line 226
-    .line 227
-    new-instance v1, Ljava/lang/IllegalArgumentException;
-
-    .line 228
-    .line 229
-    const-string v2, "ImageCapture have no CaptureProcess set with CaptureBundle size > 1."
-
-    .line 230
-    .line 231
-    invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    .line 232
-    .line 233
-    .line 234
-    new-instance v2, Le0/i$a;
-
-    .line 235
-    .line 236
-    invoke-direct {v2, v1}, Le0/i$a;-><init>(Ljava/lang/Exception;)V
-
-    .line 237
-    .line 238
-    .line 239
-    goto/16 :goto_3
-
-    .line 240
-    .line 241
-    :cond_5
-    const/4 v7, 0x0
-
-    .line 242
-    :goto_0
-    check-cast v5, Lz/z$a;
-
-    .line 243
-    .line 244
-    iget-object v5, v5, Lz/z$a;->a:Ljava/util/List;
-
-    .line 245
-    .line 246
-    invoke-interface {v5}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    .line 247
-    .line 248
-    .line 249
-    move-result-object v5
-
-    .line 250
-    :goto_1
-    invoke-interface {v5}, Ljava/util/Iterator;->hasNext()Z
-
-    .line 251
-    .line 252
-    .line 253
-    move-result v8
-
-    .line 254
-    if-eqz v8, :cond_a
-
-    .line 255
-    .line 256
-    invoke-interface {v5}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    .line 257
-    .line 258
-    .line 259
-    move-result-object v8
-
-    .line 260
-    check-cast v8, Lb0/g0;
-
-    .line 261
-    .line 262
-    new-instance v9, Lb0/e0$a;
-
-    .line 263
-    .line 264
-    invoke-direct {v9}, Lb0/e0$a;-><init>()V
-
-    .line 265
-    .line 266
-    .line 267
-    iget-object v10, v0, Lz/g0;->s:Lb0/e0;
-
-    .line 268
-    .line 269
-    iget v11, v10, Lb0/e0;->c:I
-
-    .line 270
-    .line 271
-    iput v11, v9, Lb0/e0$a;->c:I
-
-    .line 272
-    .line 273
-    iget-object v10, v10, Lb0/e0;->b:Lb0/h0;
-
-    .line 274
-    .line 275
-    invoke-virtual {v9, v10}, Lb0/e0$a;->c(Lb0/h0;)V
-
-    .line 276
-    .line 277
-    .line 278
-    iget-object v10, v0, Lz/g0;->x:Lb0/n1$b;
-
-    .line 279
-    .line 280
-    iget-object v10, v10, Lb0/n1$a;->f:Ljava/util/ArrayList;
-
-    .line 281
-    .line 282
-    invoke-static {v10}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
-
-    .line 283
-    .line 284
-    .line 285
-    move-result-object v10
-
-    .line 286
-    check-cast v10, Ljava/util/List;
-
-    .line 287
-    .line 288
-    invoke-virtual {v9, v10}, Lb0/e0$a;->a(Ljava/util/List;)V
-
-    .line 289
-    .line 290
-    .line 291
-    iget-object v10, v0, Lz/g0;->C:Lb0/x0;
-
-    .line 292
-    .line 293
-    iget-object v11, v9, Lb0/e0$a;->a:Ljava/util/HashSet;
-
-    .line 294
-    .line 295
-    invoke-virtual {v11, v10}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
-
-    .line 296
-    .line 297
-    .line 298
-    invoke-virtual {v0}, Lz/l1;->e()I
-
-    .line 299
-    .line 300
-    .line 301
-    move-result v10
-
-    .line 302
-    const/16 v11, 0x100
-
-    .line 303
-    .line 304
-    if-ne v10, v11, :cond_8
-
-    .line 305
-    .line 306
-    sget-object v10, Lz/g0;->F:Li0/a;
-
-    .line 307
-    .line 308
-    invoke-virtual {v10}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 309
-    .line 310
-    .line 311
-    sget-object v10, Lh0/a;->a:Lb0/l1;
-
-    .line 312
-    .line 313
-    const-class v11, Lh0/b;
-
-    .line 314
-    .line 315
-    invoke-virtual {v10, v11}, Lb0/l1;->b(Ljava/lang/Class;)Lb0/k1;
-
-    .line 316
-    .line 317
-    .line 318
-    move-result-object v10
-
-    .line 319
-    check-cast v10, Lh0/b;
-
-    .line 320
-    .line 321
-    if-eqz v10, :cond_6
-
-    .line 322
-    .line 323
-    sget-object v10, Lb0/e0;->h:Lb0/e;
-
-    .line 324
-    .line 325
-    const/4 v10, 0x0
-
-    .line 326
-    goto :goto_2
-
-    .line 327
-    :cond_6
-    const/4 v10, 0x1
-
-    .line 328
-    :goto_2
-    if-eqz v10, :cond_7
-
-    .line 329
-    .line 330
-    sget-object v10, Lb0/e0;->h:Lb0/e;
-
-    .line 331
-    .line 332
-    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 333
-    .line 334
-    .line 335
-    iget-object v11, v9, Lb0/e0$a;->b:Lb0/d1;
-
-    .line 336
-    .line 337
-    invoke-virtual {v11, v10, v2}, Lb0/d1;->E(Lb0/h0$a;Ljava/lang/Object;)V
-
-    .line 338
-    .line 339
-    .line 340
-    :cond_7
-    sget-object v10, Lb0/e0;->i:Lb0/e;
-
-    .line 341
-    .line 342
-    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 343
-    .line 344
-    .line 345
-    iget-object v11, v9, Lb0/e0$a;->b:Lb0/d1;
-
-    .line 346
-    .line 347
-    invoke-virtual {v11, v10, v2}, Lb0/d1;->E(Lb0/h0$a;Ljava/lang/Object;)V
-
-    .line 348
-    .line 349
-    .line 350
-    :cond_8
-    invoke-interface {v8}, Lb0/g0;->a()Lb0/e0;
-
-    .line 351
-    .line 352
-    .line 353
-    move-result-object v10
-
-    .line 354
-    iget-object v10, v10, Lb0/e0;->b:Lb0/h0;
-
-    .line 355
-    .line 356
-    invoke-virtual {v9, v10}, Lb0/e0$a;->c(Lb0/h0;)V
-
-    .line 357
-    .line 358
-    .line 359
-    if-eqz v7, :cond_9
-
-    .line 360
-    .line 361
-    invoke-interface {v8}, Lb0/g0;->getId()V
-
-    .line 362
-    .line 363
-    .line 364
-    iget-object v8, v9, Lb0/e0$a;->f:Lb0/e1;
-
-    .line 365
-    .line 366
-    iget-object v8, v8, Lb0/u1;->a:Ljava/util/Map;
-
-    .line 367
-    .line 368
-    invoke-interface {v8, v7, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 369
-    .line 370
-    .line 371
-    :cond_9
-    iget-object v8, v0, Lz/g0;->B:Lb0/k;
-
-    .line 372
-    .line 373
-    invoke-virtual {v9, v8}, Lb0/e0$a;->b(Lb0/k;)V
-
-    .line 374
-    .line 375
-    .line 376
-    invoke-virtual {v9}, Lb0/e0$a;->d()Lb0/e0;
-
-    .line 377
-    .line 378
-    .line 379
-    move-result-object v8
-
-    .line 380
-    invoke-virtual {v4, v8}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 381
-    .line 382
-    .line 383
-    goto/16 :goto_1
-
-    .line 384
-    .line 385
-    :cond_a
-    invoke-virtual {v0, v4}, Lz/g0;->G(Ljava/util/List;)Le0/b;
-
-    .line 386
-    .line 387
-    .line 388
-    move-result-object v2
-
-    .line 389
-    :goto_3
-    new-instance v1, Lz/h0;
-
-    .line 390
-    .line 391
-    invoke-direct {v1, v0, p1}, Lz/h0;-><init>(Lz/g0;Lr0/b$a;)V
-
-    .line 392
-    .line 393
-    .line 394
-    iget-object v0, v0, Lz/g0;->r:Ljava/util/concurrent/ExecutorService;
-
-    .line 395
-    .line 396
-    invoke-static {v2, v1, v0}, Le0/f;->a(Lgb/a;Le0/c;Ljava/util/concurrent/Executor;)V
-
-    .line 397
-    .line 398
-    .line 399
-    new-instance v0, Landroidx/activity/b;
-
-    .line 400
-    .line 401
-    const/16 v1, 0x8
-
-    .line 402
-    .line 403
-    invoke-direct {v0, v2, v1}, Landroidx/activity/b;-><init>(Ljava/lang/Object;I)V
-
-    .line 404
-    .line 405
-    .line 406
-    invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
-
-    .line 407
-    .line 408
-    .line 409
-    move-result-object v1
-
-    .line 410
-    iget-object p1, p1, Lr0/b$a;->c:Lr0/c;
-
-    .line 411
-    .line 412
-    if-eqz p1, :cond_b
-
-    .line 413
-    .line 414
-    invoke-virtual {p1, v0, v1}, Lr0/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
-
-    .line 415
-    .line 416
-    .line 417
-    :cond_b
-    const-string p1, "takePictureInternal"
-
-    .line 418
-    .line 419
-    return-object p1
-
-    .line 420
-    :pswitch_2
-    iget-object v0, p0, Lz/u;->d:Ljava/lang/Object;
-
-    .line 421
-    .line 422
-    move-object v2, v0
-
-    .line 423
-    check-cast v2, Lz/x;
-
-    .line 424
-    .line 425
-    iget-object v0, p0, Lz/u;->e:Ljava/lang/Object;
-
-    .line 426
-    .line 427
-    move-object v3, v0
-
-    .line 428
-    check-cast v3, Landroid/content/Context;
-
-    .line 429
-    .line 430
-    iget-object v0, v2, Lz/x;->d:Ljava/util/concurrent/Executor;
-
-    .line 431
-    .line 432
-    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
-
-    .line 433
-    .line 434
-    .line 435
-    move-result-wide v6
-
-    .line 436
-    new-instance v8, Lz/v;
-
-    .line 437
-    .line 438
-    move-object v1, v8
-
-    .line 439
-    move-object v4, v0
-
-    .line 440
-    move-object v5, p1
-
-    .line 441
-    invoke-direct/range {v1 .. v7}, Lz/v;-><init>(Lz/x;Landroid/content/Context;Ljava/util/concurrent/Executor;Lr0/b$a;J)V
-
-    .line 442
-    .line 443
-    .line 444
-    invoke-interface {v0, v8}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
-
-    .line 445
-    .line 446
-    .line 447
-    const-string p1, "CameraX initInternal"
-
-    .line 448
-    .line 449
-    return-object p1
-
-    .line 450
-    :goto_4
-    iget-object v0, p0, Lz/u;->d:Ljava/lang/Object;
-
-    .line 451
-    .line 452
-    check-cast v0, Landroidx/camera/view/e;
-
-    .line 453
-    .line 454
-    iget-object v2, p0, Lz/u;->e:Ljava/lang/Object;
-
-    .line 455
-    .line 456
-    check-cast v2, Landroid/view/Surface;
-
-    .line 457
-    .line 458
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 459
-    .line 460
-    .line 461
-    const-string v3, "TextureViewImpl"
-
-    .line 462
-    .line 463
-    const-string v4, "Surface set on Preview."
-
-    .line 464
-    .line 465
-    invoke-static {v3, v4}, Lz/p0;->a(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 466
-    .line 467
-    .line 468
-    iget-object v3, v0, Landroidx/camera/view/e;->h:Lz/k1;
-
-    .line 469
-    .line 470
-    invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
-
-    .line 471
-    .line 472
-    .line 473
-    move-result-object v4
-
-    .line 474
-    new-instance v5, Ll0/i;
-
-    .line 475
-    .line 476
-    invoke-direct {v5, p1, v1}, Ll0/i;-><init>(Ljava/lang/Object;I)V
-
-    .line 477
-    .line 478
-    .line 479
-    invoke-virtual {v3, v2, v4, v5}, Lz/k1;->a(Landroid/view/Surface;Ljava/util/concurrent/Executor;Lm1/a;)V
-
-    .line 480
-    .line 481
-    .line 482
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    .line 483
-    .line 484
-    const-string v1, "provideSurface[request="
-
-    .line 485
-    .line 486
-    invoke-direct {p1, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    .line 487
-    .line 488
-    .line 489
-    iget-object v0, v0, Landroidx/camera/view/e;->h:Lz/k1;
-
-    .line 490
-    .line 491
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    .line 492
-    .line 493
-    .line 494
-    const-string v0, " surface="
-
-    .line 495
-    .line 496
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 497
-    .line 498
-    .line 499
-    invoke-virtual {p1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    .line 500
-    .line 501
-    .line 502
-    const-string v0, "]"
-
-    .line 503
-    .line 504
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 505
-    .line 506
-    .line 507
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 508
-    .line 509
-    .line 510
-    move-result-object p1
-
-    .line 511
-    return-object p1
-
-    .line 512
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_2
-        :pswitch_1
-        :pswitch_0
-    .end packed-switch
-.end method
+# .method public final d(Lr0/b$a;)Ljava/lang/String;
+#     .locals 12
+#
+#     .line 1
+#     iget v0, p0, Lz/u;->c:I
+#
+#     .line 2
+#     .line 3
+#     const/4 v1, 0x0
+#
+#     .line 4
+#     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+#
+#     .line 5
+#     .line 6
+#     .line 7
+#     move-result-object v2
+#
+#     .line 8
+#     packed-switch v0, :pswitch_data_0
+#
+#     .line 9
+#     .line 10
+#     .line 11
+#     goto/16 :goto_4
+#
+#     .line 12
+#     .line 13
+#     :pswitch_0
+#     iget-object v0, p0, Lz/u;->d:Ljava/lang/Object;
+#
+#     .line 14
+#     .line 15
+#     check-cast v0, Ljava/util/concurrent/atomic/AtomicReference;
+#
+#     .line 16
+#     .line 17
+#     iget-object v1, p0, Lz/u;->e:Ljava/lang/Object;
+#
+#     .line 18
+#     .line 19
+#     check-cast v1, Ljava/lang/String;
+#
+#     .line 20
+#     .line 21
+#     invoke-virtual {v0, p1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
+#
+#     .line 22
+#     .line 23
+#     .line 24
+#     new-instance p1, Ljava/lang/StringBuilder;
+#
+#     .line 25
+#     .line 26
+#     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
+#
+#     .line 27
+#     .line 28
+#     .line 29
+#     invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     .line 30
+#     .line 31
+#     .line 32
+#     const-string v0, "-Surface"
+#
+#     .line 33
+#     .line 34
+#     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     .line 35
+#     .line 36
+#     .line 37
+#     invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     .line 38
+#     .line 39
+#     .line 40
+#     move-result-object p1
+#
+#     .line 41
+#     return-object p1
+#
+#     .line 42
+#     :pswitch_1
+#     iget-object v0, p0, Lz/u;->d:Ljava/lang/Object;
+#
+#     .line 43
+#     .line 44
+#     check-cast v0, Lz/g0;
+#
+#     .line 45
+#     .line 46
+#     iget-object v3, p0, Lz/u;->e:Ljava/lang/Object;
+#
+#     .line 47
+#     .line 48
+#     check-cast v3, Lz/g0$g;
+#
+#     .line 49
+#     .line 50
+#     iget-object v4, v0, Lz/g0;->y:Lz/b1;
+#
+#     .line 51
+#     .line 52
+#     new-instance v5, Lt/h2;
+#
+#     .line 53
+#     .line 54
+#     const/4 v6, 0x1
+#
+#     .line 55
+#     invoke-direct {v5, p1, v6}, Lt/h2;-><init>(Ljava/lang/Object;I)V
+#
+#     .line 56
+#     .line 57
+#     .line 58
+#     # invoke-static {}, Lcom/vungle/warren/utility/e;->H()Ld0/b;
+#     #
+#     # .line 59
+#     # .line 60
+#     # .line 61
+#     # move-result-object v7
+#     #
+#     # .line 62
+#     # invoke-virtual {v4, v5, v7}, Lz/b1;->e(Lb0/w0$a;Ljava/util/concurrent/Executor;)V
+#
+#     .line 63
+#     .line 64
+#     .line 65
+#     invoke-virtual {v0}, Lz/g0;->F()V
+#
+#     .line 66
+#     .line 67
+#     .line 68
+#     const-string v4, "ImageCapture"
+#
+#     .line 69
+#     .line 70
+#     const-string v5, "issueTakePicture"
+#
+#     .line 71
+#     .line 72
+#     invoke-static {v4, v5}, Lz/p0;->a(Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 73
+#     .line 74
+#     .line 75
+#     new-instance v4, Ljava/util/ArrayList;
+#
+#     .line 76
+#     .line 77
+#     invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
+#
+#     .line 78
+#     .line 79
+#     .line 80
+#     iget-object v5, v0, Lz/g0;->z:Lz/v0;
+#
+#     .line 81
+#     .line 82
+#     if-eqz v5, :cond_3
+#
+#     .line 83
+#     .line 84
+#     invoke-static {}, Lz/z;->a()Lz/z$a;
+#
+#     .line 85
+#     .line 86
+#     .line 87
+#     move-result-object v5
+#
+#     .line 88
+#     invoke-virtual {v0, v5}, Lz/g0;->z(Lz/z$a;)Lb0/d0;
+#
+#     .line 89
+#     .line 90
+#     .line 91
+#     move-result-object v5
+#
+#     .line 92
+#     move-object v7, v5
+#
+#     .line 93
+#     check-cast v7, Lz/z$a;
+#
+#     .line 94
+#     .line 95
+#     iget-object v7, v7, Lz/z$a;->a:Ljava/util/List;
+#
+#     .line 96
+#     .line 97
+#     if-nez v7, :cond_0
+#
+#     .line 98
+#     .line 99
+#     new-instance v1, Ljava/lang/IllegalArgumentException;
+#
+#     .line 100
+#     .line 101
+#     const-string v2, "ImageCapture has CaptureBundle with null capture stages"
+#
+#     .line 102
+#     .line 103
+#     invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+#
+#     .line 104
+#     .line 105
+#     .line 106
+#     new-instance v2, Le0/i$a;
+#
+#     .line 107
+#     .line 108
+#     invoke-direct {v2, v1}, Le0/i$a;-><init>(Ljava/lang/Exception;)V
+#
+#     .line 109
+#     .line 110
+#     .line 111
+#     goto/16 :goto_3
+#
+#     .line 112
+#     .line 113
+#     :cond_0
+#     iget-object v8, v0, Lz/g0;->v:Lb0/f0;
+#
+#     .line 114
+#     .line 115
+#     if-nez v8, :cond_1
+#
+#     .line 116
+#     .line 117
+#     invoke-interface {v7}, Ljava/util/List;->size()I
+#
+#     .line 118
+#     .line 119
+#     .line 120
+#     move-result v8
+#
+#     .line 121
+#     if-le v8, v6, :cond_1
+#
+#     .line 122
+#     .line 123
+#     new-instance v1, Ljava/lang/IllegalArgumentException;
+#
+#     .line 124
+#     .line 125
+#     const-string v2, "No CaptureProcessor can be found to process the images captured for multiple CaptureStages."
+#
+#     .line 126
+#     .line 127
+#     invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+#
+#     .line 128
+#     .line 129
+#     .line 130
+#     new-instance v2, Le0/i$a;
+#
+#     .line 131
+#     .line 132
+#     invoke-direct {v2, v1}, Le0/i$a;-><init>(Ljava/lang/Exception;)V
+#
+#     .line 133
+#     .line 134
+#     .line 135
+#     goto/16 :goto_3
+#
+#     .line 136
+#     .line 137
+#     :cond_1
+#     invoke-interface {v7}, Ljava/util/List;->size()I
+#
+#     .line 138
+#     .line 139
+#     .line 140
+#     move-result v7
+#
+#     .line 141
+#     iget v8, v0, Lz/g0;->u:I
+#
+#     .line 142
+#     .line 143
+#     if-le v7, v8, :cond_2
+#
+#     .line 144
+#     .line 145
+#     new-instance v1, Ljava/lang/IllegalArgumentException;
+#
+#     .line 146
+#     .line 147
+#     const-string v2, "ImageCapture has CaptureStages > Max CaptureStage size"
+#
+#     .line 148
+#     .line 149
+#     invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+#
+#     .line 150
+#     .line 151
+#     .line 152
+#     new-instance v2, Le0/i$a;
+#
+#     .line 153
+#     .line 154
+#     invoke-direct {v2, v1}, Le0/i$a;-><init>(Ljava/lang/Exception;)V
+#
+#     .line 155
+#     .line 156
+#     .line 157
+#     goto/16 :goto_3
+#
+#     .line 158
+#     .line 159
+#     :cond_2
+#     iget-object v7, v0, Lz/g0;->z:Lz/v0;
+#
+#     .line 160
+#     .line 161
+#     invoke-virtual {v7, v5}, Lz/v0;->j(Lb0/d0;)V
+#
+#     .line 162
+#     .line 163
+#     .line 164
+#     iget-object v7, v0, Lz/g0;->z:Lz/v0;
+#
+#     .line 165
+#     .line 166
+#     invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
+#
+#     .line 167
+#     .line 168
+#     .line 169
+#     move-result-object v8
+#
+#     .line 170
+#     new-instance v9, Lob/a;
+#
+#     .line 171
+#     .line 172
+#     const/4 v10, 0x3
+#
+#     .line 173
+#     invoke-direct {v9, v3, v10}, Lob/a;-><init>(Ljava/lang/Object;I)V
+#
+#     .line 174
+#     .line 175
+#     .line 176
+#     iget-object v10, v7, Lz/v0;->a:Ljava/lang/Object;
+#
+#     .line 177
+#     .line 178
+#     monitor-enter v10
+#
+#     .line 179
+#     :try_start_0
+#     iput-object v8, v7, Lz/v0;->u:Ljava/util/concurrent/Executor;
+#
+#     .line 180
+#     .line 181
+#     iput-object v9, v7, Lz/v0;->t:Lz/v0$e;
+#
+#     .line 182
+#     .line 183
+#     monitor-exit v10
+#     :try_end_0
+#     .catchall {:try_start_0 .. :try_end_0} :catchall_0
+#
+#     .line 184
+#     iget-object v7, v0, Lz/g0;->z:Lz/v0;
+#
+#     .line 185
+#     .line 186
+#     iget-object v7, v7, Lz/v0;->p:Ljava/lang/String;
+#
+#     .line 187
+#     .line 188
+#     goto :goto_0
+#
+#     .line 189
+#     :catchall_0
+#     move-exception p1
+#
+#     .line 190
+#     :try_start_1
+#     monitor-exit v10
+#     :try_end_1
+#     .catchall {:try_start_1 .. :try_end_1} :catchall_0
+#
+#     .line 191
+#     throw p1
+#
+#     .line 192
+#     :cond_3
+#     invoke-static {}, Lz/z;->a()Lz/z$a;
+#
+#     .line 193
+#     .line 194
+#     .line 195
+#     move-result-object v5
+#
+#     .line 196
+#     invoke-virtual {v0, v5}, Lz/g0;->z(Lz/z$a;)Lb0/d0;
+#
+#     .line 197
+#     .line 198
+#     .line 199
+#     move-result-object v5
+#
+#     .line 200
+#     move-object v7, v5
+#
+#     .line 201
+#     check-cast v7, Lz/z$a;
+#
+#     .line 202
+#     .line 203
+#     iget-object v7, v7, Lz/z$a;->a:Ljava/util/List;
+#
+#     .line 204
+#     .line 205
+#     if-nez v7, :cond_4
+#
+#     .line 206
+#     .line 207
+#     new-instance v1, Ljava/lang/IllegalArgumentException;
+#
+#     .line 208
+#     .line 209
+#     const-string v2, "ImageCapture has CaptureBundle with null capture stages"
+#
+#     .line 210
+#     .line 211
+#     invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+#
+#     .line 212
+#     .line 213
+#     .line 214
+#     new-instance v2, Le0/i$a;
+#
+#     .line 215
+#     .line 216
+#     invoke-direct {v2, v1}, Le0/i$a;-><init>(Ljava/lang/Exception;)V
+#
+#     .line 217
+#     .line 218
+#     .line 219
+#     goto/16 :goto_3
+#
+#     .line 220
+#     .line 221
+#     :cond_4
+#     invoke-interface {v7}, Ljava/util/List;->size()I
+#
+#     .line 222
+#     .line 223
+#     .line 224
+#     move-result v7
+#
+#     .line 225
+#     if-le v7, v6, :cond_5
+#
+#     .line 226
+#     .line 227
+#     new-instance v1, Ljava/lang/IllegalArgumentException;
+#
+#     .line 228
+#     .line 229
+#     const-string v2, "ImageCapture have no CaptureProcess set with CaptureBundle size > 1."
+#
+#     .line 230
+#     .line 231
+#     invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+#
+#     .line 232
+#     .line 233
+#     .line 234
+#     new-instance v2, Le0/i$a;
+#
+#     .line 235
+#     .line 236
+#     invoke-direct {v2, v1}, Le0/i$a;-><init>(Ljava/lang/Exception;)V
+#
+#     .line 237
+#     .line 238
+#     .line 239
+#     goto/16 :goto_3
+#
+#     .line 240
+#     .line 241
+#     :cond_5
+#     const/4 v7, 0x0
+#
+#     .line 242
+#     :goto_0
+#     check-cast v5, Lz/z$a;
+#
+#     .line 243
+#     .line 244
+#     iget-object v5, v5, Lz/z$a;->a:Ljava/util/List;
+#
+#     .line 245
+#     .line 246
+#     invoke-interface {v5}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+#
+#     .line 247
+#     .line 248
+#     .line 249
+#     move-result-object v5
+#
+#     .line 250
+#     :goto_1
+#     invoke-interface {v5}, Ljava/util/Iterator;->hasNext()Z
+#
+#     .line 251
+#     .line 252
+#     .line 253
+#     move-result v8
+#
+#     .line 254
+#     if-eqz v8, :cond_a
+#
+#     .line 255
+#     .line 256
+#     invoke-interface {v5}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+#
+#     .line 257
+#     .line 258
+#     .line 259
+#     move-result-object v8
+#
+#     .line 260
+#     check-cast v8, Lb0/g0;
+#
+#     .line 261
+#     .line 262
+#     new-instance v9, Lb0/e0$a;
+#
+#     .line 263
+#     .line 264
+#     invoke-direct {v9}, Lb0/e0$a;-><init>()V
+#
+#     .line 265
+#     .line 266
+#     .line 267
+#     iget-object v10, v0, Lz/g0;->s:Lb0/e0;
+#
+#     .line 268
+#     .line 269
+#     iget v11, v10, Lb0/e0;->c:I
+#
+#     .line 270
+#     .line 271
+#     iput v11, v9, Lb0/e0$a;->c:I
+#
+#     .line 272
+#     .line 273
+#     iget-object v10, v10, Lb0/e0;->b:Lb0/h0;
+#
+#     .line 274
+#     .line 275
+#     invoke-virtual {v9, v10}, Lb0/e0$a;->c(Lb0/h0;)V
+#
+#     .line 276
+#     .line 277
+#     .line 278
+#     iget-object v10, v0, Lz/g0;->x:Lb0/n1$b;
+#
+#     .line 279
+#     .line 280
+#     iget-object v10, v10, Lb0/n1$a;->f:Ljava/util/ArrayList;
+#
+#     .line 281
+#     .line 282
+#     invoke-static {v10}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+#
+#     .line 283
+#     .line 284
+#     .line 285
+#     move-result-object v10
+#
+#     .line 286
+#     check-cast v10, Ljava/util/List;
+#
+#     .line 287
+#     .line 288
+#     invoke-virtual {v9, v10}, Lb0/e0$a;->a(Ljava/util/List;)V
+#
+#     .line 289
+#     .line 290
+#     .line 291
+#     iget-object v10, v0, Lz/g0;->C:Lb0/x0;
+#
+#     .line 292
+#     .line 293
+#     iget-object v11, v9, Lb0/e0$a;->a:Ljava/util/HashSet;
+#
+#     .line 294
+#     .line 295
+#     invoke-virtual {v11, v10}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+#
+#     .line 296
+#     .line 297
+#     .line 298
+#     invoke-virtual {v0}, Lz/l1;->e()I
+#
+#     .line 299
+#     .line 300
+#     .line 301
+#     move-result v10
+#
+#     .line 302
+#     const/16 v11, 0x100
+#
+#     .line 303
+#     .line 304
+#     if-ne v10, v11, :cond_8
+#
+#     .line 305
+#     .line 306
+#     sget-object v10, Lz/g0;->F:Li0/a;
+#
+#     .line 307
+#     .line 308
+#     invoke-virtual {v10}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+#
+#     .line 309
+#     .line 310
+#     .line 311
+#     sget-object v10, Lh0/a;->a:Lb0/l1;
+#
+#     .line 312
+#     .line 313
+#     const-class v11, Lh0/b;
+#
+#     .line 314
+#     .line 315
+#     invoke-virtual {v10, v11}, Lb0/l1;->b(Ljava/lang/Class;)Lb0/k1;
+#
+#     .line 316
+#     .line 317
+#     .line 318
+#     move-result-object v10
+#
+#     .line 319
+#     check-cast v10, Lh0/b;
+#
+#     .line 320
+#     .line 321
+#     if-eqz v10, :cond_6
+#
+#     .line 322
+#     .line 323
+#     sget-object v10, Lb0/e0;->h:Lb0/e;
+#
+#     .line 324
+#     .line 325
+#     const/4 v10, 0x0
+#
+#     .line 326
+#     goto :goto_2
+#
+#     .line 327
+#     :cond_6
+#     const/4 v10, 0x1
+#
+#     .line 328
+#     :goto_2
+#     if-eqz v10, :cond_7
+#
+#     .line 329
+#     .line 330
+#     sget-object v10, Lb0/e0;->h:Lb0/e;
+#
+#     .line 331
+#     .line 332
+#     invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+#
+#     .line 333
+#     .line 334
+#     .line 335
+#     iget-object v11, v9, Lb0/e0$a;->b:Lb0/d1;
+#
+#     .line 336
+#     .line 337
+#     invoke-virtual {v11, v10, v2}, Lb0/d1;->E(Lb0/h0$a;Ljava/lang/Object;)V
+#
+#     .line 338
+#     .line 339
+#     .line 340
+#     :cond_7
+#     sget-object v10, Lb0/e0;->i:Lb0/e;
+#
+#     .line 341
+#     .line 342
+#     invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+#
+#     .line 343
+#     .line 344
+#     .line 345
+#     iget-object v11, v9, Lb0/e0$a;->b:Lb0/d1;
+#
+#     .line 346
+#     .line 347
+#     invoke-virtual {v11, v10, v2}, Lb0/d1;->E(Lb0/h0$a;Ljava/lang/Object;)V
+#
+#     .line 348
+#     .line 349
+#     .line 350
+#     :cond_8
+#     invoke-interface {v8}, Lb0/g0;->a()Lb0/e0;
+#
+#     .line 351
+#     .line 352
+#     .line 353
+#     move-result-object v10
+#
+#     .line 354
+#     iget-object v10, v10, Lb0/e0;->b:Lb0/h0;
+#
+#     .line 355
+#     .line 356
+#     invoke-virtual {v9, v10}, Lb0/e0$a;->c(Lb0/h0;)V
+#
+#     .line 357
+#     .line 358
+#     .line 359
+#     if-eqz v7, :cond_9
+#
+#     .line 360
+#     .line 361
+#     invoke-interface {v8}, Lb0/g0;->getId()V
+#
+#     .line 362
+#     .line 363
+#     .line 364
+#     iget-object v8, v9, Lb0/e0$a;->f:Lb0/e1;
+#
+#     .line 365
+#     .line 366
+#     iget-object v8, v8, Lb0/u1;->a:Ljava/util/Map;
+#
+#     .line 367
+#     .line 368
+#     invoke-interface {v8, v7, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+#
+#     .line 369
+#     .line 370
+#     .line 371
+#     :cond_9
+#     iget-object v8, v0, Lz/g0;->B:Lb0/k;
+#
+#     .line 372
+#     .line 373
+#     invoke-virtual {v9, v8}, Lb0/e0$a;->b(Lb0/k;)V
+#
+#     .line 374
+#     .line 375
+#     .line 376
+#     invoke-virtual {v9}, Lb0/e0$a;->d()Lb0/e0;
+#
+#     .line 377
+#     .line 378
+#     .line 379
+#     move-result-object v8
+#
+#     .line 380
+#     invoke-virtual {v4, v8}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+#
+#     .line 381
+#     .line 382
+#     .line 383
+#     goto/16 :goto_1
+#
+#     .line 384
+#     .line 385
+#     :cond_a
+#     invoke-virtual {v0, v4}, Lz/g0;->G(Ljava/util/List;)Le0/b;
+#
+#     .line 386
+#     .line 387
+#     .line 388
+#     move-result-object v2
+#
+#     .line 389
+#     :goto_3
+#     new-instance v1, Lz/h0;
+#
+#     .line 390
+#     .line 391
+#     invoke-direct {v1, v0, p1}, Lz/h0;-><init>(Lz/g0;Lr0/b$a;)V
+#
+#     .line 392
+#     .line 393
+#     .line 394
+#     iget-object v0, v0, Lz/g0;->r:Ljava/util/concurrent/ExecutorService;
+#
+#     .line 395
+#     .line 396
+#     invoke-static {v2, v1, v0}, Le0/f;->a(Lgb/a;Le0/c;Ljava/util/concurrent/Executor;)V
+#
+#     .line 397
+#     .line 398
+#     .line 399
+#     new-instance v0, Landroidx/activity/b;
+#
+#     .line 400
+#     .line 401
+#     const/16 v1, 0x8
+#
+#     .line 402
+#     .line 403
+#     invoke-direct {v0, v2, v1}, Landroidx/activity/b;-><init>(Ljava/lang/Object;I)V
+#
+#     .line 404
+#     .line 405
+#     .line 406
+#     invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
+#
+#     .line 407
+#     .line 408
+#     .line 409
+#     move-result-object v1
+#
+#     .line 410
+#     iget-object p1, p1, Lr0/b$a;->c:Lr0/c;
+#
+#     .line 411
+#     .line 412
+#     if-eqz p1, :cond_b
+#
+#     .line 413
+#     .line 414
+#     invoke-virtual {p1, v0, v1}, Lr0/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+#
+#     .line 415
+#     .line 416
+#     .line 417
+#     :cond_b
+#     const-string p1, "takePictureInternal"
+#
+#     .line 418
+#     .line 419
+#     return-object p1
+#
+#     .line 420
+#     :pswitch_2
+#     iget-object v0, p0, Lz/u;->d:Ljava/lang/Object;
+#
+#     .line 421
+#     .line 422
+#     move-object v2, v0
+#
+#     .line 423
+#     check-cast v2, Lz/x;
+#
+#     .line 424
+#     .line 425
+#     iget-object v0, p0, Lz/u;->e:Ljava/lang/Object;
+#
+#     .line 426
+#     .line 427
+#     move-object v3, v0
+#
+#     .line 428
+#     check-cast v3, Landroid/content/Context;
+#
+#     .line 429
+#     .line 430
+#     iget-object v0, v2, Lz/x;->d:Ljava/util/concurrent/Executor;
+#
+#     .line 431
+#     .line 432
+#     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
+#
+#     .line 433
+#     .line 434
+#     .line 435
+#     move-result-wide v6
+#
+#     .line 436
+#     new-instance v8, Lz/v;
+#
+#     .line 437
+#     .line 438
+#     move-object v1, v8
+#
+#     .line 439
+#     move-object v4, v0
+#
+#     .line 440
+#     move-object v5, p1
+#
+#     .line 441
+#     invoke-direct/range {v1 .. v7}, Lz/v;-><init>(Lz/x;Landroid/content/Context;Ljava/util/concurrent/Executor;Lr0/b$a;J)V
+#
+#     .line 442
+#     .line 443
+#     .line 444
+#     invoke-interface {v0, v8}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+#
+#     .line 445
+#     .line 446
+#     .line 447
+#     const-string p1, "CameraX initInternal"
+#
+#     .line 448
+#     .line 449
+#     return-object p1
+#
+#     .line 450
+#     :goto_4
+#     iget-object v0, p0, Lz/u;->d:Ljava/lang/Object;
+#
+#     .line 451
+#     .line 452
+#     check-cast v0, Landroidx/camera/view/e;
+#
+#     .line 453
+#     .line 454
+#     iget-object v2, p0, Lz/u;->e:Ljava/lang/Object;
+#
+#     .line 455
+#     .line 456
+#     check-cast v2, Landroid/view/Surface;
+#
+#     .line 457
+#     .line 458
+#     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+#
+#     .line 459
+#     .line 460
+#     .line 461
+#     const-string v3, "TextureViewImpl"
+#
+#     .line 462
+#     .line 463
+#     const-string v4, "Surface set on Preview."
+#
+#     .line 464
+#     .line 465
+#     invoke-static {v3, v4}, Lz/p0;->a(Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 466
+#     .line 467
+#     .line 468
+#     iget-object v3, v0, Landroidx/camera/view/e;->h:Lz/k1;
+#
+#     .line 469
+#     .line 470
+#     invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
+#
+#     .line 471
+#     .line 472
+#     .line 473
+#     move-result-object v4
+#
+#     .line 474
+#     new-instance v5, Ll0/i;
+#
+#     .line 475
+#     .line 476
+#     invoke-direct {v5, p1, v1}, Ll0/i;-><init>(Ljava/lang/Object;I)V
+#
+#     .line 477
+#     .line 478
+#     .line 479
+#     invoke-virtual {v3, v2, v4, v5}, Lz/k1;->a(Landroid/view/Surface;Ljava/util/concurrent/Executor;Lm1/a;)V
+#
+#     .line 480
+#     .line 481
+#     .line 482
+#     new-instance p1, Ljava/lang/StringBuilder;
+#
+#     .line 483
+#     .line 484
+#     const-string v1, "provideSurface[request="
+#
+#     .line 485
+#     .line 486
+#     invoke-direct {p1, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+#
+#     .line 487
+#     .line 488
+#     .line 489
+#     iget-object v0, v0, Landroidx/camera/view/e;->h:Lz/k1;
+#
+#     .line 490
+#     .line 491
+#     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     .line 492
+#     .line 493
+#     .line 494
+#     const-string v0, " surface="
+#
+#     .line 495
+#     .line 496
+#     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     .line 497
+#     .line 498
+#     .line 499
+#     invoke-virtual {p1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+#
+#     .line 500
+#     .line 501
+#     .line 502
+#     const-string v0, "]"
+#
+#     .line 503
+#     .line 504
+#     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     .line 505
+#     .line 506
+#     .line 507
+#     invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     .line 508
+#     .line 509
+#     .line 510
+#     move-result-object p1
+#
+#     .line 511
+#     return-object p1
+#
+#     .line 512
+#     nop
+#
+#     :pswitch_data_0
+#     .packed-switch 0x0
+#         :pswitch_2
+#         :pswitch_1
+#         :pswitch_0
+#     .end packed-switch
+# .end method
 
 .method public final f()Ljava/lang/Object;
     .locals 2

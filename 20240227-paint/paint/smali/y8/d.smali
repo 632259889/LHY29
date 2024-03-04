@@ -30,7 +30,7 @@
 
 .field public d:Ljava/lang/String;
 
-.field public e:Lcom/vungle/warren/AdConfig;
+# .field public e:Lcom/vungle/warren/AdConfig;
 
 .field public f:Ljava/lang/String;
 

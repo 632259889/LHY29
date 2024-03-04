@@ -49,7 +49,7 @@
     const/4 v2, 0x0
 
     .line 6
-    invoke-static {v1, v2, v2, v2, v2}, Lcom/vungle/warren/Vungle;->setIncentivizedFields(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v1, v2, v2, v2, v2}, Lcom/vungle/warren/Vungle;->setIncentivizedFields(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 7
     .line 8
@@ -62,12 +62,13 @@
 
     .line 12
     .line 13
-    invoke-static {v1, v2}, Lcom/vungle/warren/Vungle;->canPlayAd(Ljava/lang/String;Ljava/lang/String;)Z
+    # invoke-static {v1, v2}, Lcom/vungle/warren/Vungle;->canPlayAd(Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 14
     .line 15
     .line 16
-    move-result v1
+    # move-result v1
+    const/4 v1,0x1
 
     .line 17
     if-eqz v1, :cond_0
@@ -106,7 +107,7 @@
 
     .line 33
     .line 34
-    iget-object v3, v0, Ly8/e;->f:Lcom/vungle/warren/AdConfig;
+    # iget-object v3, v0, Ly8/e;->f:Lcom/vungle/warren/AdConfig;
 
     .line 35
     .line 36

@@ -264,12 +264,12 @@
 
     .line 10
     .line 11
-    invoke-static {}, Lcom/vungle/warren/utility/e;->H()Ld0/b;
+    # invoke-static {}, Lcom/vungle/warren/utility/e;->H()Ld0/b;
 
     .line 12
     .line 13
     .line 14
-    move-result-object v0
+    # move-result-object v0
 
     .line 15
     new-instance v1, Landroidx/activity/b;
@@ -285,7 +285,7 @@
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v0, v1}, Ld0/b;->execute(Ljava/lang/Runnable;)V
+    # invoke-virtual {v0, v1}, Ld0/b;->execute(Ljava/lang/Runnable;)V
 
     .line 23
     .line 24
@@ -885,11 +885,11 @@
 
     invoke-direct {v2, p1, v1}, Lz/m1;-><init>(ZLandroid/media/MediaCodec;)V
 
-    invoke-static {}, Lcom/vungle/warren/utility/e;->H()Ld0/b;
-
-    move-result-object v1
-
-    invoke-interface {v0, v2, v1}, Lgb/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    # invoke-static {}, Lcom/vungle/warren/utility/e;->H()Ld0/b;
+    #
+    # move-result-object v1
+    #
+    # invoke-interface {v0, v2, v1}, Lgb/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     const/4 v0, 0x0
 
@@ -1064,15 +1064,15 @@
     .line 75
     .line 76
     .line 77
-    invoke-static {}, Lcom/vungle/warren/utility/e;->H()Ld0/b;
+    # invoke-static {}, Lcom/vungle/warren/utility/e;->H()Ld0/b;
 
     .line 78
     .line 79
     .line 80
-    move-result-object v1
+    # move-result-object v1
 
     .line 81
-    invoke-interface {v0, v2, v1}, Lgb/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    # invoke-interface {v0, v2, v1}, Lgb/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 82
     .line 83

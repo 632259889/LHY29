@@ -20,7 +20,7 @@
 
 .field public d:Lcom/google/android/gms/ads/mediation/MediationInterstitialAdCallback;
 
-.field public e:Lcom/vungle/warren/AdConfig;
+# .field public e:Lcom/vungle/warren/AdConfig;
 
 .field public f:Ljava/lang/String;
 

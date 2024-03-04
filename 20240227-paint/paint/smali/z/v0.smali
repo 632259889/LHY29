@@ -726,11 +726,11 @@
 
     invoke-direct {v1, v2, p0, v3}, Lg/u;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
-    invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
-
-    move-result-object v2
-
-    invoke-interface {v0, v1, v2}, Lgb/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    # invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
+    #
+    # move-result-object v2
+    #
+    # invoke-interface {v0, v1, v2}, Lgb/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     :cond_1
     return-void
@@ -746,86 +746,86 @@
     throw v1
 .end method
 
-.method public final i()Lgb/a;
-    .locals 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lgb/a<",
-            "Ljava/lang/Void;",
-            ">;"
-        }
-    .end annotation
-
-    iget-object v0, p0, Lz/v0;->a:Ljava/lang/Object;
-
-    monitor-enter v0
-
-    :try_start_0
-    iget-boolean v1, p0, Lz/v0;->e:Z
-
-    if-eqz v1, :cond_0
-
-    iget-boolean v1, p0, Lz/v0;->f:Z
-
-    if-nez v1, :cond_0
-
-    iget-object v1, p0, Lz/v0;->o:Lgb/a;
-
-    new-instance v2, Ljb/b;
-
-    const/4 v3, 0x4
-
-    invoke-direct {v2, v3}, Ljb/b;-><init>(I)V
-
-    invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
-
-    move-result-object v3
-
-    invoke-static {v1, v2, v3}, Le0/f;->h(Lgb/a;Lp/a;Ljava/util/concurrent/Executor;)Le0/b;
-
-    move-result-object v1
-
-    goto :goto_0
-
-    :cond_0
-    iget-object v1, p0, Lz/v0;->l:Lr0/b$d;
-
-    if-nez v1, :cond_1
-
-    new-instance v1, Lq3/c;
-
-    const/4 v2, 0x5
-
-    invoke-direct {v1, p0, v2}, Lq3/c;-><init>(Ljava/lang/Object;I)V
-
-    invoke-static {v1}, Lr0/b;->a(Lr0/b$c;)Lr0/b$d;
-
-    move-result-object v1
-
-    iput-object v1, p0, Lz/v0;->l:Lr0/b$d;
-
-    :cond_1
-    iget-object v1, p0, Lz/v0;->l:Lr0/b$d;
-
-    invoke-static {v1}, Le0/f;->f(Lgb/a;)Lgb/a;
-
-    move-result-object v1
-
-    :goto_0
-    monitor-exit v0
-
-    return-object v1
-
-    :catchall_0
-    move-exception v1
-
-    monitor-exit v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    throw v1
-.end method
+# .method public final i()Lgb/a;
+#     .locals 4
+#     .annotation system Ldalvik/annotation/Signature;
+#         value = {
+#             "()",
+#             "Lgb/a<",
+#             "Ljava/lang/Void;",
+#             ">;"
+#         }
+#     .end annotation
+#
+#     iget-object v0, p0, Lz/v0;->a:Ljava/lang/Object;
+#
+#     monitor-enter v0
+#
+#     :try_start_0
+#     iget-boolean v1, p0, Lz/v0;->e:Z
+#
+#     if-eqz v1, :cond_0
+#
+#     iget-boolean v1, p0, Lz/v0;->f:Z
+#
+#     if-nez v1, :cond_0
+#
+#     iget-object v1, p0, Lz/v0;->o:Lgb/a;
+#
+#     new-instance v2, Ljb/b;
+#
+#     const/4 v3, 0x4
+#
+#     invoke-direct {v2, v3}, Ljb/b;-><init>(I)V
+#
+#     invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
+#
+#     move-result-object v3
+#
+#     invoke-static {v1, v2, v3}, Le0/f;->h(Lgb/a;Lp/a;Ljava/util/concurrent/Executor;)Le0/b;
+#
+#     move-result-object v1
+#
+#     goto :goto_0
+#
+#     :cond_0
+#     iget-object v1, p0, Lz/v0;->l:Lr0/b$d;
+#
+#     if-nez v1, :cond_1
+#
+#     new-instance v1, Lq3/c;
+#
+#     const/4 v2, 0x5
+#
+#     invoke-direct {v1, p0, v2}, Lq3/c;-><init>(Ljava/lang/Object;I)V
+#
+#     invoke-static {v1}, Lr0/b;->a(Lr0/b$c;)Lr0/b$d;
+#
+#     move-result-object v1
+#
+#     iput-object v1, p0, Lz/v0;->l:Lr0/b$d;
+#
+#     :cond_1
+#     iget-object v1, p0, Lz/v0;->l:Lr0/b$d;
+#
+#     invoke-static {v1}, Le0/f;->f(Lgb/a;)Lgb/a;
+#
+#     move-result-object v1
+#
+#     :goto_0
+#     monitor-exit v0
+#
+#     return-object v1
+#
+#     :catchall_0
+#     move-exception v1
+#
+#     monitor-exit v0
+#     :try_end_0
+#     .catchall {:try_start_0 .. :try_end_0} :catchall_0
+#
+#     throw v1
+# .end method
 
 .method public final j(Lb0/d0;)V
     .locals 4
