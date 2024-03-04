@@ -1973,49 +1973,49 @@
 
     .line 386
     .line 387
-    invoke-static {}, Lcom/ads/gam/admob/AppOpenManager;->e()Lcom/ads/gam/admob/AppOpenManager;
-
-    .line 388
-    .line 389
-    .line 390
-    move-result-object v0
-
-    .line 391
-    iget-object v4, v3, Ln4/b;->f:Landroid/app/Application;
-
-    .line 392
-    .line 393
-    iget-object v5, v3, Ln4/b;->d:Ljava/lang/String;
-
-    .line 394
-    .line 395
-    iput-boolean v1, v0, Lcom/ads/gam/admob/AppOpenManager;->m:Z
-
-    .line 396
-    .line 397
-    iput-object v4, v0, Lcom/ads/gam/admob/AppOpenManager;->h:Landroid/app/Application;
-
-    .line 398
-    .line 399
-    invoke-virtual {v4, v0}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
-
-    .line 400
-    .line 401
-    .line 402
-    sget-object v1, Landroidx/lifecycle/x;->k:Landroidx/lifecycle/x;
-
-    .line 403
-    .line 404
-    iget-object v1, v1, Landroidx/lifecycle/x;->h:Landroidx/lifecycle/o;
-
-    .line 405
-    .line 406
-    invoke-virtual {v1, v0}, Landroidx/lifecycle/o;->a(Landroidx/lifecycle/m;)V
-
-    .line 407
-    .line 408
-    .line 409
-    iput-object v5, v0, Lcom/ads/gam/admob/AppOpenManager;->f:Ljava/lang/String;
+    # invoke-static {}, Lcom/ads/gam/admob/AppOpenManager;->e()Lcom/ads/gam/admob/AppOpenManager;
+    #
+    # .line 388
+    # .line 389
+    # .line 390
+    # move-result-object v0
+    #
+    # .line 391
+    # iget-object v4, v3, Ln4/b;->f:Landroid/app/Application;
+    #
+    # .line 392
+    # .line 393
+    # iget-object v5, v3, Ln4/b;->d:Ljava/lang/String;
+    #
+    # .line 394
+    # .line 395
+    # iput-boolean v1, v0, Lcom/ads/gam/admob/AppOpenManager;->m:Z
+    #
+    # .line 396
+    # .line 397
+    # iput-object v4, v0, Lcom/ads/gam/admob/AppOpenManager;->h:Landroid/app/Application;
+    #
+    # .line 398
+    # .line 399
+    # invoke-virtual {v4, v0}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
+    #
+    # .line 400
+    # .line 401
+    # .line 402
+    # sget-object v1, Landroidx/lifecycle/x;->k:Landroidx/lifecycle/x;
+    #
+    # .line 403
+    # .line 404
+    # iget-object v1, v1, Landroidx/lifecycle/x;->h:Landroidx/lifecycle/o;
+    #
+    # .line 405
+    # .line 406
+    # invoke-virtual {v1, v0}, Landroidx/lifecycle/o;->a(Landroidx/lifecycle/m;)V
+    #
+    # .line 407
+    # .line 408
+    # .line 409
+    # iput-object v5, v0, Lcom/ads/gam/admob/AppOpenManager;->f:Ljava/lang/String;
 
     .line 410
     .line 411
@@ -2098,54 +2098,54 @@
 
     .line 449
     .line 450
-    invoke-static {}, Lcom/ads/gam/admob/AppOpenManager;->e()Lcom/ads/gam/admob/AppOpenManager;
-
-    .line 451
-    .line 452
-    .line 453
-    move-result-object v0
-
-    .line 454
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 455
-    .line 456
-    .line 457
-    invoke-virtual {v2}, Ljava/lang/Class;->getName()Ljava/lang/String;
-
-    .line 458
-    .line 459
-    .line 460
-    move-result-object v3
-
-    .line 461
-    invoke-virtual {v1, v3}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
-
-    .line 462
-    .line 463
-    .line 464
-    move-result-object v1
-
-    .line 465
-    const-string v3, "AppOpenManager"
-
-    .line 466
-    .line 467
-    invoke-static {v3, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 468
-    .line 469
-    .line 470
-    iget-object v0, v0, Lcom/ads/gam/admob/AppOpenManager;->n:Ljava/util/ArrayList;
-
-    .line 471
-    .line 472
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 473
-    .line 474
-    .line 475
-    invoke-static {}, Lcom/ads/gam/admob/AppOpenManager;->e()Lcom/ads/gam/admob/AppOpenManager;
+    # invoke-static {}, Lcom/ads/gam/admob/AppOpenManager;->e()Lcom/ads/gam/admob/AppOpenManager;
+    #
+    # .line 451
+    # .line 452
+    # .line 453
+    # move-result-object v0
+    #
+    # .line 454
+    # invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    #
+    # .line 455
+    # .line 456
+    # .line 457
+    # invoke-virtual {v2}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    #
+    # .line 458
+    # .line 459
+    # .line 460
+    # move-result-object v3
+    #
+    # .line 461
+    # invoke-virtual {v1, v3}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    #
+    # .line 462
+    # .line 463
+    # .line 464
+    # move-result-object v1
+    #
+    # .line 465
+    # const-string v3, "AppOpenManager"
+    #
+    # .line 466
+    # .line 467
+    # invoke-static {v3, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # .line 468
+    # .line 469
+    # .line 470
+    # iget-object v0, v0, Lcom/ads/gam/admob/AppOpenManager;->n:Ljava/util/ArrayList;
+    #
+    # .line 471
+    # .line 472
+    # invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    #
+    # .line 473
+    # .line 474
+    # .line 475
+    # invoke-static {}, Lcom/ads/gam/admob/AppOpenManager;->e()Lcom/ads/gam/admob/AppOpenManager;
 
     .line 476
     .line 477
@@ -2154,49 +2154,49 @@
 
     .line 479
     :cond_8
-    invoke-static {}, Lcom/ads/gam/applovin/AppOpenMax;->c()Lcom/ads/gam/applovin/AppOpenMax;
-
-    .line 480
-    .line 481
-    .line 482
-    move-result-object v0
-
-    .line 483
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 484
-    .line 485
-    .line 486
-    invoke-virtual {v2}, Ljava/lang/Class;->getName()Ljava/lang/String;
-
-    .line 487
-    .line 488
-    .line 489
-    move-result-object v3
-
-    .line 490
-    invoke-virtual {v1, v3}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
-
-    .line 491
-    .line 492
-    .line 493
-    move-result-object v1
-
-    .line 494
-    const-string v3, "AppOpenMax"
-
-    .line 495
-    .line 496
-    invoke-static {v3, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 497
-    .line 498
-    .line 499
-    iget-object v0, v0, Lcom/ads/gam/applovin/AppOpenMax;->g:Ljava/util/ArrayList;
-
-    .line 500
-    .line 501
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    # invoke-static {}, Lcom/ads/gam/applovin/AppOpenMax;->c()Lcom/ads/gam/applovin/AppOpenMax;
+    #
+    # .line 480
+    # .line 481
+    # .line 482
+    # move-result-object v0
+    #
+    # .line 483
+    # invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    #
+    # .line 484
+    # .line 485
+    # .line 486
+    # invoke-virtual {v2}, Ljava/lang/Class;->getName()Ljava/lang/String;
+    #
+    # .line 487
+    # .line 488
+    # .line 489
+    # move-result-object v3
+    #
+    # .line 490
+    # invoke-virtual {v1, v3}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    #
+    # .line 491
+    # .line 492
+    # .line 493
+    # move-result-object v1
+    #
+    # .line 494
+    # const-string v3, "AppOpenMax"
+    #
+    # .line 495
+    # .line 496
+    # invoke-static {v3, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    #
+    # .line 497
+    # .line 498
+    # .line 499
+    # iget-object v0, v0, Lcom/ads/gam/applovin/AppOpenMax;->g:Ljava/util/ArrayList;
+    #
+    # .line 500
+    # .line 501
+    # invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 502
     .line 503
