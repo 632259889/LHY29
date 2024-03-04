@@ -1,34 +1,34 @@
 .class public final Lh4/g;
-.super Lcom/google/android/gms/ads/FullScreenContentCallback;
+.super Ljava/lang/Object;
 .source "SourceFile"
-
+# com/google/android/gms/ads/FullScreenContentCallback;
 
 # instance fields
 # .field public final synthetic a:Lcom/vungle/warren/utility/e;
 
 .field public final synthetic b:Landroid/content/Context;
 
-.field public final synthetic c:Lcom/google/android/gms/ads/interstitial/InterstitialAd;
+# .field public final synthetic c:Lcom/google/android/gms/ads/interstitial/InterstitialAd;
 
 .field public final synthetic d:Lh4/e;
 
 
 # direct methods
-.method public constructor <init>(Lb6/a;Lh4/e;Li4/h;Lcom/google/android/gms/ads/interstitial/InterstitialAd;)V
-    .locals 0
-
-    iput-object p2, p0, Lh4/g;->d:Lh4/e;
-
-    # iput-object p3, p0, Lh4/g;->a:Lcom/vungle/warren/utility/e;
-
-    iput-object p1, p0, Lh4/g;->b:Landroid/content/Context;
-
-    iput-object p4, p0, Lh4/g;->c:Lcom/google/android/gms/ads/interstitial/InterstitialAd;
-
-    invoke-direct {p0}, Lcom/google/android/gms/ads/FullScreenContentCallback;-><init>()V
-
-    return-void
-.end method
+# .method public constructor <init>(Lb6/a;Lh4/e;Li4/h;Lcom/google/android/gms/ads/interstitial/InterstitialAd;)V
+#     .locals 0
+#
+#     iput-object p2, p0, Lh4/g;->d:Lh4/e;
+#
+#     # iput-object p3, p0, Lh4/g;->a:Lcom/vungle/warren/utility/e;
+#
+#     iput-object p1, p0, Lh4/g;->b:Landroid/content/Context;
+#
+#     iput-object p4, p0, Lh4/g;->c:Lcom/google/android/gms/ads/interstitial/InterstitialAd;
+#
+#     invoke-direct {p0}, Lcom/google/android/gms/ads/FullScreenContentCallback;-><init>()V
+#
+#     return-void
+# .end method
 
 
 # virtual methods

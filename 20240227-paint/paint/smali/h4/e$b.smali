@@ -1,7 +1,7 @@
 .class public final Lh4/e$b;
-.super Lcom/google/android/gms/ads/interstitial/InterstitialAdLoadCallback;
+.super Ljava/lang/Object;
 .source "SourceFile"
-
+#com/google/android/gms/ads/interstitial/InterstitialAdLoadCallback;
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;

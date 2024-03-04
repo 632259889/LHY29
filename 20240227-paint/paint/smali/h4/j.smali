@@ -1,8 +1,8 @@
 .class public final Lh4/j;
-.super Lcom/google/android/gms/ads/AdListener;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
-
+# com/google/android/gms/ads/AdListener;
 # instance fields
 # .field public final synthetic c:Lcom/vungle/warren/utility/e;
 
@@ -25,7 +25,7 @@
 
     iput-object p4, p0, Lh4/j;->e:Ljava/lang/String;
 
-    invoke-direct {p0}, Lcom/google/android/gms/ads/AdListener;-><init>()V
+    # invoke-direct {p0}, Lcom/google/android/gms/ads/AdListener;-><init>()V
 
     return-void
 .end method

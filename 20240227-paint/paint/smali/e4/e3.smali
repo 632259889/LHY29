@@ -124,7 +124,7 @@
 
     .line 47
     .line 48
-    invoke-interface {v1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->onVideoComplete()V
+    # invoke-interface {v1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->onVideoComplete()V
 
     .line 49
     .line 50
@@ -142,11 +142,11 @@
     .line 56
     .line 57
     .line 58
-    iget-object v0, v0, Lt8/f;->c:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
-
-    .line 59
-    .line 60
-    invoke-interface {v0, v1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->onUserEarnedReward(Lcom/google/android/gms/ads/rewarded/RewardItem;)V
+    # iget-object v0, v0, Lt8/f;->c:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
+    #
+    # .line 59
+    # .line 60
+    # invoke-interface {v0, v1}, Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;->onUserEarnedReward(Lcom/google/android/gms/ads/rewarded/RewardItem;)V
 
     .line 61
     .line 62

@@ -28,7 +28,7 @@
 
 .field public j:Landroid/content/Context;
 
-.field public k:Lcom/google/android/gms/ads/interstitial/InterstitialAd;
+# .field public k:Lcom/google/android/gms/ads/interstitial/InterstitialAd;
 
 
 # direct methods
@@ -52,69 +52,69 @@
     return-void
 .end method
 
-.method public static a(Landroid/app/Activity;Ljava/lang/Boolean;Ljava/lang/String;)Lcom/google/android/gms/ads/AdSize;
-    .locals 2
-
-    invoke-virtual {p0}, Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;
-
-    move-result-object v0
-
-    invoke-interface {v0}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
-
-    move-result-object v0
-
-    new-instance v1, Landroid/util/DisplayMetrics;
-
-    invoke-direct {v1}, Landroid/util/DisplayMetrics;-><init>()V
-
-    invoke-virtual {v0, v1}, Landroid/view/Display;->getMetrics(Landroid/util/DisplayMetrics;)V
-
-    iget v0, v1, Landroid/util/DisplayMetrics;->widthPixels:I
-
-    int-to-float v0, v0
-
-    iget v1, v1, Landroid/util/DisplayMetrics;->density:F
-
-    div-float/2addr v0, v1
-
-    float-to-int v0, v0
-
-    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result p1
-
-    if-eqz p1, :cond_1
-
-    const-string p1, "BANNER_INLINE_LARGE_STYLE"
-
-    invoke-virtual {p2, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_0
-
-    invoke-static {p0, v0}, Lcom/google/android/gms/ads/AdSize;->getCurrentOrientationInlineAdaptiveBannerAdSize(Landroid/content/Context;I)Lcom/google/android/gms/ads/AdSize;
-
-    move-result-object p0
-
-    return-object p0
-
-    :cond_0
-    const/16 p0, 0x32
-
-    invoke-static {v0, p0}, Lcom/google/android/gms/ads/AdSize;->getInlineAdaptiveBannerAdSize(II)Lcom/google/android/gms/ads/AdSize;
-
-    move-result-object p0
-
-    return-object p0
-
-    :cond_1
-    invoke-static {p0, v0}, Lcom/google/android/gms/ads/AdSize;->getCurrentOrientationAnchoredAdaptiveBannerAdSize(Landroid/content/Context;I)Lcom/google/android/gms/ads/AdSize;
-
-    move-result-object p0
-
-    return-object p0
-.end method
+# .method public static a(Landroid/app/Activity;Ljava/lang/Boolean;Ljava/lang/String;)Lcom/google/android/gms/ads/AdSize;
+#     .locals 2
+#
+#     invoke-virtual {p0}, Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;
+#
+#     move-result-object v0
+#
+#     invoke-interface {v0}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
+#
+#     move-result-object v0
+#
+#     new-instance v1, Landroid/util/DisplayMetrics;
+#
+#     invoke-direct {v1}, Landroid/util/DisplayMetrics;-><init>()V
+#
+#     invoke-virtual {v0, v1}, Landroid/view/Display;->getMetrics(Landroid/util/DisplayMetrics;)V
+#
+#     iget v0, v1, Landroid/util/DisplayMetrics;->widthPixels:I
+#
+#     int-to-float v0, v0
+#
+#     iget v1, v1, Landroid/util/DisplayMetrics;->density:F
+#
+#     div-float/2addr v0, v1
+#
+#     float-to-int v0, v0
+#
+#     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+#
+#     move-result p1
+#
+#     if-eqz p1, :cond_1
+#
+#     const-string p1, "BANNER_INLINE_LARGE_STYLE"
+#
+#     invoke-virtual {p2, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+#
+#     move-result p1
+#
+#     if-eqz p1, :cond_0
+#
+#     invoke-static {p0, v0}, Lcom/google/android/gms/ads/AdSize;->getCurrentOrientationInlineAdaptiveBannerAdSize(Landroid/content/Context;I)Lcom/google/android/gms/ads/AdSize;
+#
+#     move-result-object p0
+#
+#     return-object p0
+#
+#     :cond_0
+#     const/16 p0, 0x32
+#
+#     invoke-static {v0, p0}, Lcom/google/android/gms/ads/AdSize;->getInlineAdaptiveBannerAdSize(II)Lcom/google/android/gms/ads/AdSize;
+#
+#     move-result-object p0
+#
+#     return-object p0
+#
+#     :cond_1
+#     invoke-static {p0, v0}, Lcom/google/android/gms/ads/AdSize;->getCurrentOrientationAnchoredAdaptiveBannerAdSize(Landroid/content/Context;I)Lcom/google/android/gms/ads/AdSize;
+#
+#     move-result-object p0
+#
+#     return-object p0
+# .end method
 
 .method public static b()Lh4/e;
     .locals 2

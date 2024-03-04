@@ -1,7 +1,7 @@
 .class public final Lh4/e$a;
-.super Lcom/google/android/gms/ads/FullScreenContentCallback;
+.super Ljava/lang/Object;
 .source "SourceFile"
-
+# com/google/android/gms/ads/FullScreenContentCallback;
 
 # annotations
 # .annotation system Ldalvik/annotation/EnclosingMethod;
