@@ -60,122 +60,122 @@
     return-void
 .end method
 
-# .method public static b(Landroid/content/Context;)Le0/b;
-#     .locals 5
-#
-#     .line 1
-#     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-#
-#     .line 2
-#     .line 3
-#     .line 4
-#     sget-object v0, Landroidx/camera/lifecycle/c;->f:Landroidx/camera/lifecycle/c;
-#
-#     .line 5
-#     .line 6
-#     iget-object v1, v0, Landroidx/camera/lifecycle/c;->a:Ljava/lang/Object;
-#
-#     .line 7
-#     .line 8
-#     monitor-enter v1
-#
-#     .line 9
-#     :try_start_0
-#     iget-object v2, v0, Landroidx/camera/lifecycle/c;->b:Lr0/b$d;
-#
-#     .line 10
-#     .line 11
-#     if-eqz v2, :cond_0
-#
-#     .line 12
-#     .line 13
-#     goto :goto_0
-#
-#     .line 14
-#     :cond_0
-#     new-instance v2, Lz/x;
-#
-#     .line 15
-#     .line 16
-#     invoke-direct {v2, p0}, Lz/x;-><init>(Landroid/content/Context;)V
-#
-#     .line 17
-#     .line 18
-#     .line 19
-#     new-instance v3, Lz/g1;
-#
-#     .line 20
-#     .line 21
-#     const/4 v4, 0x2
-#
-#     .line 22
-#     invoke-direct {v3, v4, v0, v2}, Lz/g1;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
-#
-#     .line 23
-#     .line 24
-#     .line 25
-#     invoke-static {v3}, Lr0/b;->a(Lr0/b$c;)Lr0/b$d;
-#
-#     .line 26
-#     .line 27
-#     .line 28
-#     move-result-object v2
-#
-#     .line 29
-#     iput-object v2, v0, Landroidx/camera/lifecycle/c;->b:Lr0/b$d;
-#
-#     .line 30
-#     .line 31
-#     :goto_0
-#     monitor-exit v1
-#     :try_end_0
-#     .catchall {:try_start_0 .. :try_end_0} :catchall_0
-#
-#     .line 32
-#     new-instance v0, Lt/l;
-#
-#     .line 33
-#     .line 34
-#     const/16 v1, 0x8
-#
-#     .line 35
-#     .line 36
-#     invoke-direct {v0, p0, v1}, Lt/l;-><init>(Ljava/lang/Object;I)V
-#
-#     .line 37
-#     .line 38
-#     .line 39
-#     invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
-#
-#     .line 40
-#     .line 41
-#     .line 42
-#     move-result-object p0
-#
-#     .line 43
-#     invoke-static {v2, v0, p0}, Le0/f;->h(Lgb/a;Lp/a;Ljava/util/concurrent/Executor;)Le0/b;
-#
-#     .line 44
-#     .line 45
-#     .line 46
-#     move-result-object p0
-#
-#     .line 47
-#     return-object p0
-#
-#     .line 48
-#     :catchall_0
-#     move-exception p0
-#
-#     .line 49
-#     :try_start_1
-#     monitor-exit v1
-#     :try_end_1
-#     .catchall {:try_start_1 .. :try_end_1} :catchall_0
-#
-#     .line 50
-#     throw p0
-# .end method
+.method public static b(Landroid/content/Context;)Le0/b;
+    .locals 5
+
+    .line 1
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    sget-object v0, Landroidx/camera/lifecycle/c;->f:Landroidx/camera/lifecycle/c;
+
+    .line 5
+    .line 6
+    iget-object v1, v0, Landroidx/camera/lifecycle/c;->a:Ljava/lang/Object;
+
+    .line 7
+    .line 8
+    monitor-enter v1
+
+    .line 9
+    :try_start_0
+    iget-object v2, v0, Landroidx/camera/lifecycle/c;->b:Lr0/b$d;
+
+    .line 10
+    .line 11
+    if-eqz v2, :cond_0
+
+    .line 12
+    .line 13
+    goto :goto_0
+
+    .line 14
+    :cond_0
+    new-instance v2, Lz/x;
+
+    .line 15
+    .line 16
+    invoke-direct {v2, p0}, Lz/x;-><init>(Landroid/content/Context;)V
+
+    .line 17
+    .line 18
+    .line 19
+    new-instance v3, Lz/g1;
+
+    .line 20
+    .line 21
+    const/4 v4, 0x2
+
+    .line 22
+    invoke-direct {v3, v4, v0, v2}, Lz/g1;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
+
+    .line 23
+    .line 24
+    .line 25
+    invoke-static {v3}, Lr0/b;->a(Lr0/b$c;)Lr0/b$d;
+
+    .line 26
+    .line 27
+    .line 28
+    move-result-object v2
+
+    .line 29
+    iput-object v2, v0, Landroidx/camera/lifecycle/c;->b:Lr0/b$d;
+
+    .line 30
+    .line 31
+    :goto_0
+    monitor-exit v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 32
+    new-instance v0, Lt/l;
+
+    .line 33
+    .line 34
+    const/16 v1, 0x8
+
+    .line 35
+    .line 36
+    invoke-direct {v0, p0, v1}, Lt/l;-><init>(Ljava/lang/Object;I)V
+
+    .line 37
+    .line 38
+    .line 39
+    invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
+
+    .line 40
+    .line 41
+    .line 42
+    move-result-object p0
+
+    .line 43
+    invoke-static {v2, v0, p0}, Le0/f;->h(Lgb/a;Lp/a;Ljava/util/concurrent/Executor;)Le0/b;
+
+    .line 44
+    .line 45
+    .line 46
+    move-result-object p0
+
+    .line 47
+    return-object p0
+
+    .line 48
+    :catchall_0
+    move-exception p0
+
+    .line 49
+    :try_start_1
+    monitor-exit v1
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 50
+    throw p0
+.end method
 
 
 # virtual methods

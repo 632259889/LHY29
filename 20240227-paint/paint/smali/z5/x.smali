@@ -151,7 +151,7 @@
 
     .line 37
     .line 38
-    check-cast v1, Lcom/google/android/gms/ads/nativead/MediaView;
+    check-cast v1, Ljava/lang/Object;#com/google/android/gms/ads/nativead/MediaView
 
     .line 39
     .line 40

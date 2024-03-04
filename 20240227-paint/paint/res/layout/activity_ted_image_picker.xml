@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical" android:tag="layout/activity_ted_image_picker_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:tag="binding_1" android:background="@color/ted_image_picker_toolbar_background" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:contentInsetStartWithNavigation="0.0dip">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:tag="binding_1" android:background="@color/ted_image_picker_toolbar_background" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:contentInsetStartWithNavigation="0.0dip"  android:layout_marginTop="30dp">
         <FrameLayout android:id="@id/view_selected_album_drop_down" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="fill_parent">
             <include android:layout_gravity="start" android:id="@id/layout_selected_album_drop_down" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/layout_selected_album_drop_down" />
         </FrameLayout>

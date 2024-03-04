@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/activity_guide_0" android:background="@drawable/bg_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="50.0dip" app:layout_constraintTop_toTopOf="parent">
+    <RelativeLayout android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="50.0dip" app:layout_constraintTop_toTopOf="parent"  android:layout_marginTop="30dp">
         <TextView android:textSize="16.0sp" android:textColor="@color/color_303030" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tutorial" android:layout_centerInParent="true" android:fontFamily="@font/helvetica_neue_bold" />
         <ImageView android:id="@id/iv_done" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_done" android:layout_centerVertical="true" android:onClick="ivDone" android:layout_marginHorizontal="10.0dip" />
     </RelativeLayout>

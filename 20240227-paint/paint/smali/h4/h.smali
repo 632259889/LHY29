@@ -1,7 +1,7 @@
 .class public final Lh4/h;
-.super Lcom/google/android/gms/ads/AdListener;
+.super Ljava/lang/Object;
 .source "SourceFile"
-
+# com/google/android/gms/ads/AdListener;
 
 # instance fields
 .field public final synthetic c:Lcom/facebook/shimmer/ShimmerFrameLayout;
@@ -10,7 +10,7 @@
 
 # .field public final synthetic e:Lcom/vungle/warren/utility/e;
 
-.field public final synthetic f:Lcom/google/android/gms/ads/AdView;
+# .field public final synthetic f:Lcom/google/android/gms/ads/AdView;
 
 .field public final synthetic g:Ljava/lang/String;
 
@@ -20,31 +20,31 @@
 
 
 # direct methods
-.method public constructor <init>(Lh4/e;Lcom/facebook/shimmer/ShimmerFrameLayout;Landroid/widget/FrameLayout;Lcom/google/android/gms/ads/AdView;Ljava/lang/String;)V
-    .locals 0
-
-    iput-object p1, p0, Lh4/h;->i:Lh4/e;
-
-    iput-object p2, p0, Lh4/h;->c:Lcom/facebook/shimmer/ShimmerFrameLayout;
-
-    iput-object p3, p0, Lh4/h;->d:Landroid/widget/FrameLayout;
-
-    const/4 p1, 0x0
-
-    # iput-object p1, p0, Lh4/h;->e:Lcom/vungle/warren/utility/e;
-
-    iput-object p4, p0, Lh4/h;->f:Lcom/google/android/gms/ads/AdView;
-
-    iput-object p5, p0, Lh4/h;->g:Ljava/lang/String;
-
-    const-string p1, "ca-app-pub-7208941695689653/8208678375"
-
-    iput-object p1, p0, Lh4/h;->h:Ljava/lang/String;
-
-    invoke-direct {p0}, Lcom/google/android/gms/ads/AdListener;-><init>()V
-
-    return-void
-.end method
+# .method public constructor <init>(Lh4/e;Lcom/facebook/shimmer/ShimmerFrameLayout;Landroid/widget/FrameLayout;Lcom/google/android/gms/ads/AdView;Ljava/lang/String;)V
+#     .locals 0
+#
+#     iput-object p1, p0, Lh4/h;->i:Lh4/e;
+#
+#     iput-object p2, p0, Lh4/h;->c:Lcom/facebook/shimmer/ShimmerFrameLayout;
+#
+#     iput-object p3, p0, Lh4/h;->d:Landroid/widget/FrameLayout;
+#
+#     const/4 p1, 0x0
+#
+#     # iput-object p1, p0, Lh4/h;->e:Lcom/vungle/warren/utility/e;
+#
+#     iput-object p4, p0, Lh4/h;->f:Lcom/google/android/gms/ads/AdView;
+#
+#     iput-object p5, p0, Lh4/h;->g:Ljava/lang/String;
+#
+#     const-string p1, "ca-app-pub-7208941695689653/8208678375"
+#
+#     iput-object p1, p0, Lh4/h;->h:Ljava/lang/String;
+#
+#     invoke-direct {p0}, Lcom/google/android/gms/ads/AdListener;-><init>()V
+#
+#     return-void
+# .end method
 
 
 # virtual methods

@@ -1750,7 +1750,7 @@
     <dimen name="padding_10">10.0dip</dimen>
     <dimen name="padding_5">5.0dip</dimen>
     <dimen name="padding_70">70.0dip</dimen>
-    <dimen name="padding_bottom_recyclerview">50.0dip</dimen>
+    <dimen name="padding_bottom_recyclerview">100.0dip</dimen>
     <dimen name="preference_dropdown_padding_start">72.0dip</dimen>
     <dimen name="preference_icon_minWidth">0.0dip</dimen>
     <dimen name="preference_seekbar_padding_horizontal">0.0dip</dimen>
