@@ -35,17 +35,17 @@
 .method public static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lz/u0$c;
-
-    invoke-direct {v0}, Lz/u0$c;-><init>()V
-
-    sput-object v0, Lz/u0;->q:Lz/u0$c;
-
-    invoke-static {}, Lcom/vungle/warren/utility/e;->H()Ld0/b;
-
-    move-result-object v0
-
-    sput-object v0, Lz/u0;->r:Ld0/b;
+    # new-instance v0, Lz/u0$c;
+    #
+    # invoke-direct {v0}, Lz/u0$c;-><init>()V
+    #
+    # sput-object v0, Lz/u0;->q:Lz/u0$c;
+    #
+    # invoke-static {}, Lcom/vungle/warren/utility/e;->H()Ld0/b;
+    #
+    # move-result-object v0
+    #
+    # sput-object v0, Lz/u0;->r:Ld0/b;
 
     return-void
 .end method
@@ -768,15 +768,15 @@
     .line 174
     .line 175
     .line 176
-    invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
-
-    .line 177
-    .line 178
-    .line 179
-    move-result-object v1
-
-    .line 180
-    invoke-interface {v2, v6, v1}, Lgb/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    # invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
+    #
+    # .line 177
+    # .line 178
+    # .line 179
+    # move-result-object v1
+    #
+    # .line 180
+    # invoke-interface {v2, v6, v1}, Lgb/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 181
     .line 182

@@ -32,57 +32,60 @@
 .method public static constructor <clinit>()V
     .locals 6
 
-    .line 1
-    const-string v0, "hts/frbslgiggolai.o/0clgbthfra=snpoo"
-
-    .line 2
-    .line 3
-    const-string v1, "tp:/ieaeogn.ogepscmvc/o/ac?omtjo_rt3"
-
-    .line 4
-    .line 5
-    invoke-static {v0, v1}, Lcom/vungle/warren/utility/e;->I(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    # .line 1
+    # const-string v0, "hts/frbslgiggolai.o/0clgbthfra=snpoo"
+    #
+    # .line 2
+    # .line 3
+    # const-string v1, "tp:/ieaeogn.ogepscmvc/o/ac?omtjo_rt3"
+    #
+    # .line 4
+    # .line 5
+    # invoke-static {v0, v1}, Lcom/vungle/warren/utility/e;->I(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 6
     .line 7
     .line 8
-    move-result-object v0
+    # move-result-object v0
+    const-string v0,"https://firebaselogging.googleapis.com/v0cc/log/batch?format=json_proto3"
 
     .line 9
     sput-object v0, Lb9/a;->c:Ljava/lang/String;
 
     .line 10
     .line 11
-    const-string v0, "hts/frbslgigp.ogepscmv/ieo/eaybtho"
-
-    .line 12
-    .line 13
-    const-string v1, "tp:/ieaeogn-agolai.o/1frlglgc/aclg"
-
-    .line 14
-    .line 15
-    invoke-static {v0, v1}, Lcom/vungle/warren/utility/e;->I(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    # const-string v0, "hts/frbslgigp.ogepscmv/ieo/eaybtho"
+    #
+    # .line 12
+    # .line 13
+    # const-string v1, "tp:/ieaeogn-agolai.o/1frlglgc/aclg"
+    #
+    # .line 14
+    # .line 15
+    # invoke-static {v0, v1}, Lcom/vungle/warren/utility/e;->I(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 16
     .line 17
     .line 18
-    move-result-object v0
+    # move-result-object v0
+    const-string v0,"https://firebaselogging-pa.googleapis.com/v1/firelog/legacy/batchlog"
 
     .line 19
-    const-string v1, "AzSCki82AwsLzKd5O8zo"
-
-    .line 20
-    .line 21
-    const-string v2, "IayckHiZRO1EFl1aGoK"
+    # const-string v1, "AzSCki82AwsLzKd5O8zo"
+    #
+    # .line 20
+    # .line 21
+    # const-string v2, "IayckHiZRO1EFl1aGoK"
 
     .line 22
     .line 23
-    invoke-static {v1, v2}, Lcom/vungle/warren/utility/e;->I(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    # invoke-static {v1, v2}, Lcom/vungle/warren/utility/e;->I(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 24
     .line 25
     .line 26
-    move-result-object v1
+    # move-result-object v1
+    const-string v1,"AIzaSyCckkiH8i2ZARwOs1LEzFKld15aOG8ozKo"
 
     .line 27
     new-instance v2, Ljava/util/HashSet;

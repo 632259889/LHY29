@@ -2632,54 +2632,54 @@
 
     .line 102
     .line 103
-    invoke-direct {v4, v1}, Li4/c;-><init>(Lcom/aaa/bbb/ccc/ddd/ui/component/splash/SplashActivity$b;)V
-
-    .line 104
-    .line 105
-    .line 106
-    iget-object v0, v0, Li4/j;->a:Ln4/b;
-
-    .line 107
-    .line 108
-    iget-object v0, v0, Ln4/b;->i:Ljava/lang/String;
-
-    .line 109
-    .line 110
-    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 111
-    .line 112
-    .line 113
-    new-instance v1, Landroid/os/Handler;
-
-    .line 114
-    .line 115
-    invoke-virtual {p0}, Landroid/content/Context;->getMainLooper()Landroid/os/Looper;
-
-    .line 116
-    .line 117
-    .line 118
-    move-result-object v5
-
-    .line 119
-    invoke-direct {v1, v5}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
-
-    .line 120
-    .line 121
-    .line 122
-    new-instance v5, Lh4/f;
-
-    .line 123
-    .line 124
-    invoke-direct {v5, v2, p0, v4, v0}, Lh4/f;-><init>(Lh4/e;Landroidx/appcompat/app/c;Li4/c;Ljava/lang/String;)V
-
-    .line 125
-    .line 126
-    .line 127
-    int-to-long v2, v3
-
-    .line 128
-    invoke-virtual {v1, v5, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+    # invoke-direct {v4, v1}, Li4/c;-><init>(Lcom/aaa/bbb/ccc/ddd/ui/component/splash/SplashActivity$b;)V
+    #
+    # .line 104
+    # .line 105
+    # .line 106
+    # iget-object v0, v0, Li4/j;->a:Ln4/b;
+    #
+    # .line 107
+    # .line 108
+    # iget-object v0, v0, Ln4/b;->i:Ljava/lang/String;
+    #
+    # .line 109
+    # .line 110
+    # invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    #
+    # .line 111
+    # .line 112
+    # .line 113
+    # new-instance v1, Landroid/os/Handler;
+    #
+    # .line 114
+    # .line 115
+    # invoke-virtual {p0}, Landroid/content/Context;->getMainLooper()Landroid/os/Looper;
+    #
+    # .line 116
+    # .line 117
+    # .line 118
+    # move-result-object v5
+    #
+    # .line 119
+    # invoke-direct {v1, v5}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    #
+    # .line 120
+    # .line 121
+    # .line 122
+    # new-instance v5, Lh4/f;
+    #
+    # .line 123
+    # .line 124
+    # invoke-direct {v5, v2, p0, v4, v0}, Lh4/f;-><init>(Lh4/e;Landroidx/appcompat/app/c;Li4/c;Ljava/lang/String;)V
+    #
+    # .line 125
+    # .line 126
+    # .line 127
+    # int-to-long v2, v3
+    #
+    # .line 128
+    # invoke-virtual {v1, v5, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 129
     .line 130

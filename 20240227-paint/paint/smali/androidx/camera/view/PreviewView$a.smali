@@ -537,7 +537,7 @@
     .line 240
     .line 241
     .line 242
-    invoke-static {}, Lcom/vungle/warren/utility/e;->H()Ld0/b;
+    # invoke-static {}, Lcom/vungle/warren/utility/e;->H()Ld0/b;
 
     .line 243
     .line 244
@@ -554,7 +554,7 @@
     .line 249
     .line 250
     .line 251
-    invoke-virtual {v3, v8}, Ld0/b;->execute(Ljava/lang/Runnable;)V
+    # invoke-virtual {v3, v8}, Ld0/b;->execute(Ljava/lang/Runnable;)V
 
     .line 252
     .line 253

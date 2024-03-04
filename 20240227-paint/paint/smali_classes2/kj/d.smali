@@ -4301,7 +4301,8 @@
     move-result v6
 
     .line 318
-    invoke-static {v6}, Lcom/vungle/warren/utility/e;->x(C)Z
+    # invoke-static {v6}, Lcom/vungle/warren/utility/e;->x(C)Z
+    const/4 v6,0x1
 
     .line 319
     .line 320

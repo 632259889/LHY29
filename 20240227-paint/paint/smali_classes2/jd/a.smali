@@ -1520,15 +1520,15 @@
     add-int/2addr v10, v7
 
     :goto_26
-    sget-object v7, Lcom/vungle/warren/utility/e;->n:[[I
-
-    aget-object v12, v7, v6
-
-    aget v8, v12, v8
-
-    invoke-virtual {v2}, Lkd/a;->a()Ls0/d;
-
-    move-result-object v12
+    # sget-object v7, Lcom/vungle/warren/utility/e;->n:[[I
+    #
+    # aget-object v12, v7, v6
+    #
+    # aget v8, v12, v8
+    #
+    # invoke-virtual {v2}, Lkd/a;->a()Ls0/d;
+    #
+    # move-result-object v12
 
     # invoke-static {v8, v9, v12}, Lcom/vungle/warren/utility/e;->l(IILs0/d;)V
 
