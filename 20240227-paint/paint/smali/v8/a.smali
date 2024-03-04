@@ -3,67 +3,67 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/google/android/gms/ads/mediation/MediationRewardedAd;
+# .implements Lcom/google/android/gms/ads/mediation/MediationRewardedAd;
 # .implements Lcom/facebook/ads/RewardedVideoAdExtendedListener;
 
 
 # instance fields
-.field public final c:Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;
-
-.field public final d:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback<",
-            "Lcom/google/android/gms/ads/mediation/MediationRewardedAd;",
-            "Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;",
-            ">;"
-        }
-    .end annotation
-.end field
+# .field public final c:Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;
+#
+# .field public final d:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
+#     .annotation system Ldalvik/annotation/Signature;
+#         value = {
+#             "Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback<",
+#             "Lcom/google/android/gms/ads/mediation/MediationRewardedAd;",
+#             "Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;",
+#             ">;"
+#         }
+#     .end annotation
+# .end field
 
 # .field public e:Lcom/facebook/ads/RewardedVideoAd;
 
 .field public final f:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-.field public g:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
+# .field public g:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
 
 .field public final h:Ljava/util/concurrent/atomic/AtomicBoolean;
 
 
 # direct methods
-.method public constructor <init>(Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;",
-            "Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback<",
-            "Lcom/google/android/gms/ads/mediation/MediationRewardedAd;",
-            "Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;",
-            ">;)V"
-        }
-    .end annotation
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
-
-    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
-
-    iput-object v0, p0, Lv8/a;->f:Ljava/util/concurrent/atomic/AtomicBoolean;
-
-    new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
-
-    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
-
-    iput-object v0, p0, Lv8/a;->h:Ljava/util/concurrent/atomic/AtomicBoolean;
-
-    iput-object p1, p0, Lv8/a;->c:Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;
-
-    iput-object p2, p0, Lv8/a;->d:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
-
-    return-void
-.end method
+# .method public constructor <init>(Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
+#     .locals 1
+#     .annotation system Ldalvik/annotation/Signature;
+#         value = {
+#             "(",
+#             "Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;",
+#             "Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback<",
+#             "Lcom/google/android/gms/ads/mediation/MediationRewardedAd;",
+#             "Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;",
+#             ">;)V"
+#         }
+#     .end annotation
+#
+#     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+#
+#     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
+#
+#     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
+#
+#     iput-object v0, p0, Lv8/a;->f:Ljava/util/concurrent/atomic/AtomicBoolean;
+#
+#     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
+#
+#     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
+#
+#     iput-object v0, p0, Lv8/a;->h:Ljava/util/concurrent/atomic/AtomicBoolean;
+#
+#     iput-object p1, p0, Lv8/a;->c:Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;
+#
+#     iput-object p2, p0, Lv8/a;->d:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
+#
+#     return-void
+# .end method
 
 
 # virtual methods

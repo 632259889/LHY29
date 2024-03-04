@@ -1,7 +1,7 @@
 .class public final Ly8/d;
-.super Lcom/google/android/gms/ads/mediation/UnifiedNativeAdMapper;
+.super Ljava/lang/Object;
 .source "SourceFile"
-
+# com/google/android/gms/ads/mediation/UnifiedNativeAdMapper;
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
@@ -13,20 +13,20 @@
 
 
 # instance fields
-.field public final a:Lcom/google/android/gms/ads/mediation/MediationNativeAdConfiguration;
-
-.field public final b:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback<",
-            "Lcom/google/android/gms/ads/mediation/UnifiedNativeAdMapper;",
-            "Lcom/google/android/gms/ads/mediation/MediationNativeAdCallback;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-.field public c:Lcom/google/android/gms/ads/mediation/MediationNativeAdCallback;
+# .field public final a:Lcom/google/android/gms/ads/mediation/MediationNativeAdConfiguration;
+#
+# .field public final b:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
+#     .annotation system Ldalvik/annotation/Signature;
+#         value = {
+#             "Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback<",
+#             "Lcom/google/android/gms/ads/mediation/UnifiedNativeAdMapper;",
+#             "Lcom/google/android/gms/ads/mediation/MediationNativeAdCallback;",
+#             ">;"
+#         }
+#     .end annotation
+# .end field
+#
+# .field public c:Lcom/google/android/gms/ads/mediation/MediationNativeAdCallback;
 
 .field public d:Ljava/lang/String;
 
@@ -38,27 +38,27 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/google/android/gms/ads/mediation/MediationNativeAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
-    .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/android/gms/ads/mediation/MediationNativeAdConfiguration;",
-            "Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback<",
-            "Lcom/google/android/gms/ads/mediation/UnifiedNativeAdMapper;",
-            "Lcom/google/android/gms/ads/mediation/MediationNativeAdCallback;",
-            ">;)V"
-        }
-    .end annotation
-
-    invoke-direct {p0}, Lcom/google/android/gms/ads/mediation/UnifiedNativeAdMapper;-><init>()V
-
-    iput-object p1, p0, Ly8/d;->a:Lcom/google/android/gms/ads/mediation/MediationNativeAdConfiguration;
-
-    iput-object p2, p0, Ly8/d;->b:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
-
-    return-void
-.end method
+# .method public constructor <init>(Lcom/google/android/gms/ads/mediation/MediationNativeAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
+#     .locals 0
+#     .annotation system Ldalvik/annotation/Signature;
+#         value = {
+#             "(",
+#             "Lcom/google/android/gms/ads/mediation/MediationNativeAdConfiguration;",
+#             "Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback<",
+#             "Lcom/google/android/gms/ads/mediation/UnifiedNativeAdMapper;",
+#             "Lcom/google/android/gms/ads/mediation/MediationNativeAdCallback;",
+#             ">;)V"
+#         }
+#     .end annotation
+#
+#     invoke-direct {p0}, Lcom/google/android/gms/ads/mediation/UnifiedNativeAdMapper;-><init>()V
+#
+#     iput-object p1, p0, Ly8/d;->a:Lcom/google/android/gms/ads/mediation/MediationNativeAdConfiguration;
+#
+#     iput-object p2, p0, Ly8/d;->b:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
+#
+#     return-void
+# .end method
 
 
 # virtual methods

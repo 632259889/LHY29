@@ -1,8 +1,8 @@
 .class public final Ly8/d$c;
-.super Lcom/google/android/gms/ads/formats/NativeAd$Image;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
-
+# com/google/android/gms/ads/formats/NativeAd$Image;
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
     value = Ly8/d;
@@ -22,7 +22,7 @@
 .method public constructor <init>(Landroid/net/Uri;)V
     .locals 0
 
-    invoke-direct {p0}, Lcom/google/android/gms/ads/formats/NativeAd$Image;-><init>()V
+    # invoke-direct {p0}, Lcom/google/android/gms/ads/formats/NativeAd$Image;-><init>()V
 
     iput-object p1, p0, Ly8/d$c;->a:Landroid/net/Uri;
 
