@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/google/android/gms/ads/rewarded/RewardItem;
+# .implements Lcom/google/android/gms/ads/rewarded/RewardItem;
 
 
 # instance fields

@@ -1,3 +1,4 @@
 .class public final Lh4/n;
-.super Lcom/google/android/gms/ads/appopen/AppOpenAd$AppOpenAdLoadCallback;
+.super Ljava/lang/Object;
 .source "SourceFile"
+# com/google/android/gms/ads/appopen/AppOpenAd$AppOpenAdLoadCallback;

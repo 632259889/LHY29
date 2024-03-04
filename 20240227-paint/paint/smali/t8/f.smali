@@ -3,50 +3,50 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/google/android/gms/ads/mediation/MediationRewardedAd;
+# .implements Lcom/google/android/gms/ads/mediation/MediationRewardedAd;
 
 
 # instance fields
-.field public c:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
+# .field public c:Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;
+#
+# .field public final d:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
+#     .annotation system Ldalvik/annotation/Signature;
+#         value = {
+#             "Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback<",
+#             "Lcom/google/android/gms/ads/mediation/MediationRewardedAd;",
+#             "Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;",
+#             ">;"
+#         }
+#     .end annotation
+# .end field
 
-.field public final d:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback<",
-            "Lcom/google/android/gms/ads/mediation/MediationRewardedAd;",
-            "Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;",
-            ">;"
-        }
-    .end annotation
-.end field
-
-.field public final e:Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;
+# .field public final e:Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;
 
 .field public f:Le4/q;
 
 
 # direct methods
-.method public constructor <init>(Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
-    .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;",
-            "Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback<",
-            "Lcom/google/android/gms/ads/mediation/MediationRewardedAd;",
-            "Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;",
-            ">;)V"
-        }
-    .end annotation
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lt8/f;->e:Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;
-
-    iput-object p2, p0, Lt8/f;->d:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
-
-    return-void
-.end method
+# .method public constructor <init>(Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;)V
+#     .locals 0
+#     .annotation system Ldalvik/annotation/Signature;
+#         value = {
+#             "(",
+#             "Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;",
+#             "Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback<",
+#             "Lcom/google/android/gms/ads/mediation/MediationRewardedAd;",
+#             "Lcom/google/android/gms/ads/mediation/MediationRewardedAdCallback;",
+#             ">;)V"
+#         }
+#     .end annotation
+#
+#     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+#
+#     iput-object p1, p0, Lt8/f;->e:Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;
+#
+#     iput-object p2, p0, Lt8/f;->d:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
+#
+#     return-void
+# .end method
 
 
 # virtual methods

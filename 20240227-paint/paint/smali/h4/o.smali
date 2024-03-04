@@ -1,7 +1,7 @@
 .class public final Lh4/o;
-.super Lcom/google/android/gms/ads/FullScreenContentCallback;
+.super Ljava/lang/Object;
 .source "SourceFile"
-
+# com/google/android/gms/ads/FullScreenContentCallback;
 
 # instance fields
 # .field public final synthetic a:Lcom/ads/gam/admob/AppOpenManager;

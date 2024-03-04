@@ -5,7 +5,7 @@
 # interfaces
 .implements Lr0/b$c;
 .implements Lz/k1$e;
-.implements Lcom/google/android/gms/ads/OnPaidEventListener;
+# .implements Lcom/google/android/gms/ads/OnPaidEventListener;
 # .implements Lcom/applovin/exoplayer2/l/p$a;
 .implements Lk9/m$a;
 .implements Lcom/google/android/gms/tasks/Continuation;
@@ -1038,142 +1038,142 @@
     return-void
 .end method
 
-.method public final onPaidEvent(Lcom/google/android/gms/ads/AdValue;)V
-    .locals 6
-
-    .line 1
-    iget-object v0, p0, Ll0/b;->d:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    check-cast v0, Lh4/i;
-
-    .line 4
-    .line 5
-    iget-object v1, p0, Ll0/b;->e:Ljava/lang/Object;
-
-    .line 6
-    .line 7
-    check-cast v1, Lcom/google/android/gms/ads/AdView;
-
-    .line 8
-    .line 9
-    iget-object v2, p0, Ll0/b;->f:Ljava/lang/Object;
-
-    .line 10
-    .line 11
-    check-cast v2, Ljava/lang/String;
-
-    .line 12
-    .line 13
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 14
-    .line 15
-    .line 16
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    .line 17
-    .line 18
-    const-string v4, "OnPaidEvent banner:"
-
-    .line 19
-    .line 20
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    .line 21
-    .line 22
-    .line 23
-    invoke-virtual {p1}, Lcom/google/android/gms/ads/AdValue;->getValueMicros()J
-
-    .line 24
-    .line 25
-    .line 26
-    move-result-wide v4
-
-    .line 27
-    invoke-virtual {v3, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
-    .line 28
-    .line 29
-    .line 30
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 31
-    .line 32
-    .line 33
-    move-result-object v3
-
-    .line 34
-    const-string v4, "GamStudio"
-
-    .line 35
-    .line 36
-    invoke-static {v4, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 37
-    .line 38
-    .line 39
-    iget-object v0, v0, Lh4/i;->i:Lh4/e;
-
-    .line 40
-    .line 41
-    iget-object v0, v0, Lh4/e;->j:Landroid/content/Context;
-
-    .line 42
-    .line 43
-    invoke-virtual {v1}, Lcom/google/android/gms/ads/BaseAdView;->getAdUnitId()Ljava/lang/String;
-
-    .line 44
-    .line 45
-    .line 46
-    move-result-object v3
-
-    .line 47
-    invoke-virtual {v1}, Lcom/google/android/gms/ads/BaseAdView;->getResponseInfo()Lcom/google/android/gms/ads/ResponseInfo;
-
-    .line 48
-    .line 49
-    .line 50
-    move-result-object v4
-
-    .line 51
-    invoke-virtual {v4}, Lcom/google/android/gms/ads/ResponseInfo;->getMediationAdapterClassName()Ljava/lang/String;
-
-    .line 52
-    .line 53
-    .line 54
-    move-result-object v4
-
-    .line 55
-    const/4 v5, 0x1
-
-    .line 56
-    # invoke-static {v0, p1, v3, v4, v5}, Lcom/vungle/warren/utility/e;->E(Landroid/content/Context;Lcom/google/android/gms/ads/AdValue;Ljava/lang/String;Ljava/lang/String;I)V
-
-    .line 57
-    .line 58
-    .line 59
-    if-eqz v2, :cond_0
-
-    .line 60
-    .line 61
-    invoke-virtual {v1}, Lcom/google/android/gms/ads/BaseAdView;->getAdUnitId()Ljava/lang/String;
-
-    .line 62
-    .line 63
-    .line 64
-    move-result-object v0
-
-    .line 65
-    # invoke-static {p1, v0, v2}, Lcom/vungle/warren/utility/e;->F(Lcom/google/android/gms/ads/AdValue;Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 66
-    .line 67
-    .line 68
-    :cond_0
-    return-void
-.end method
+# .method public final onPaidEvent(Lcom/google/android/gms/ads/AdValue;)V
+#     .locals 6
+#
+#     .line 1
+#     iget-object v0, p0, Ll0/b;->d:Ljava/lang/Object;
+#
+#     .line 2
+#     .line 3
+#     check-cast v0, Lh4/i;
+#
+#     .line 4
+#     .line 5
+#     iget-object v1, p0, Ll0/b;->e:Ljava/lang/Object;
+#
+#     .line 6
+#     .line 7
+#     check-cast v1, Lcom/google/android/gms/ads/AdView;
+#
+#     .line 8
+#     .line 9
+#     iget-object v2, p0, Ll0/b;->f:Ljava/lang/Object;
+#
+#     .line 10
+#     .line 11
+#     check-cast v2, Ljava/lang/String;
+#
+#     .line 12
+#     .line 13
+#     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+#
+#     .line 14
+#     .line 15
+#     .line 16
+#     new-instance v3, Ljava/lang/StringBuilder;
+#
+#     .line 17
+#     .line 18
+#     const-string v4, "OnPaidEvent banner:"
+#
+#     .line 19
+#     .line 20
+#     invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+#
+#     .line 21
+#     .line 22
+#     .line 23
+#     invoke-virtual {p1}, Lcom/google/android/gms/ads/AdValue;->getValueMicros()J
+#
+#     .line 24
+#     .line 25
+#     .line 26
+#     move-result-wide v4
+#
+#     .line 27
+#     invoke-virtual {v3, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+#
+#     .line 28
+#     .line 29
+#     .line 30
+#     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     .line 31
+#     .line 32
+#     .line 33
+#     move-result-object v3
+#
+#     .line 34
+#     const-string v4, "GamStudio"
+#
+#     .line 35
+#     .line 36
+#     invoke-static {v4, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+#
+#     .line 37
+#     .line 38
+#     .line 39
+#     iget-object v0, v0, Lh4/i;->i:Lh4/e;
+#
+#     .line 40
+#     .line 41
+#     iget-object v0, v0, Lh4/e;->j:Landroid/content/Context;
+#
+#     .line 42
+#     .line 43
+#     invoke-virtual {v1}, Lcom/google/android/gms/ads/BaseAdView;->getAdUnitId()Ljava/lang/String;
+#
+#     .line 44
+#     .line 45
+#     .line 46
+#     move-result-object v3
+#
+#     .line 47
+#     invoke-virtual {v1}, Lcom/google/android/gms/ads/BaseAdView;->getResponseInfo()Lcom/google/android/gms/ads/ResponseInfo;
+#
+#     .line 48
+#     .line 49
+#     .line 50
+#     move-result-object v4
+#
+#     .line 51
+#     invoke-virtual {v4}, Lcom/google/android/gms/ads/ResponseInfo;->getMediationAdapterClassName()Ljava/lang/String;
+#
+#     .line 52
+#     .line 53
+#     .line 54
+#     move-result-object v4
+#
+#     .line 55
+#     const/4 v5, 0x1
+#
+#     .line 56
+#     # invoke-static {v0, p1, v3, v4, v5}, Lcom/vungle/warren/utility/e;->E(Landroid/content/Context;Lcom/google/android/gms/ads/AdValue;Ljava/lang/String;Ljava/lang/String;I)V
+#
+#     .line 57
+#     .line 58
+#     .line 59
+#     if-eqz v2, :cond_0
+#
+#     .line 60
+#     .line 61
+#     invoke-virtual {v1}, Lcom/google/android/gms/ads/BaseAdView;->getAdUnitId()Ljava/lang/String;
+#
+#     .line 62
+#     .line 63
+#     .line 64
+#     move-result-object v0
+#
+#     .line 65
+#     # invoke-static {p1, v0, v2}, Lcom/vungle/warren/utility/e;->F(Lcom/google/android/gms/ads/AdValue;Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 66
+#     .line 67
+#     .line 68
+#     :cond_0
+#     return-void
+# .end method
 
 .method public final then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object;
     .locals 3
