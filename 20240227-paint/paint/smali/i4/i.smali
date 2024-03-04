@@ -1,8 +1,8 @@
 .class public final Li4/i;
-.super Lcom/vungle/warren/utility/e;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
-
+# Lcom/vungle/warren/utility/e;
 # instance fields
 .field public final synthetic r:La4/a1;
 
@@ -23,7 +23,7 @@
 
     iput-object p2, p0, Li4/i;->t:Lj4/b;
 
-    invoke-direct {p0}, Lcom/vungle/warren/utility/e;-><init>()V
+    # invoke-direct {p0}, Lcom/vungle/warren/utility/e;-><init>()V
 
     return-void
 .end method

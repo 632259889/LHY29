@@ -1,7 +1,7 @@
 .class public final Li4/j$a;
-.super Lcom/vungle/warren/utility/e;
+.super  Ljava/lang/Object;
 .source "SourceFile"
-
+# Lcom/vungle/warren/utility/e;
 
 # annotations
 # .annotation system Ldalvik/annotation/EnclosingMethod;
@@ -28,7 +28,7 @@
 
     iput p2, p0, Li4/j$a;->s:I
 
-    invoke-direct {p0}, Lcom/vungle/warren/utility/e;-><init>()V
+    # invoke-direct {p0}, Lcom/vungle/warren/utility/e;-><init>()V
 
     return-void
 .end method

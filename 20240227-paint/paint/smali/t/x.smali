@@ -39,217 +39,217 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Lu/z;)V
-    .locals 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lu/f;
-        }
-    .end annotation
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    new-instance v0, Ljava/lang/Object;
-
-    .line 5
-    .line 6
-    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
-
-    .line 7
-    .line 8
-    .line 9
-    iput-object v0, p0, Lt/x;->c:Ljava/lang/Object;
-
-    .line 10
-    .line 11
-    const/4 v0, 0x0
-
-    .line 12
-    iput-object v0, p0, Lt/x;->f:Ljava/util/ArrayList;
-
-    .line 13
-    .line 14
-    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 15
-    .line 16
-    .line 17
-    iput-object p1, p0, Lt/x;->a:Ljava/lang/String;
-
-    .line 18
-    .line 19
-    invoke-virtual {p2, p1}, Lu/z;->b(Ljava/lang/String;)Lu/s;
-
-    .line 20
-    .line 21
-    .line 22
-    move-result-object p2
-
-    .line 23
-    iput-object p2, p0, Lt/x;->b:Lu/s;
-
-    .line 24
-    .line 25
-    invoke-static {p2}, Lcom/vungle/warren/utility/e;->n(Lu/s;)Lb0/l1;
-
-    .line 26
-    .line 27
-    .line 28
-    move-result-object v1
-
-    .line 29
-    iput-object v1, p0, Lt/x;->g:Lb0/l1;
-
-    .line 30
-    .line 31
-    :try_start_0
-    invoke-static {p1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
-    :try_end_0
-    .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 32
-    .line 33
-    .line 34
-    goto :goto_0
-
-    .line 35
-    :catch_0
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    .line 36
-    .line 37
-    const-string v2, "Camera id is not an integer: "
-
-    .line 38
-    .line 39
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    .line 40
-    .line 41
-    .line 42
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 43
-    .line 44
-    .line 45
-    const-string p1, ", unable to create CamcorderProfileProvider"
-
-    .line 46
-    .line 47
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 48
-    .line 49
-    .line 50
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 51
-    .line 52
-    .line 53
-    move-result-object p1
-
-    .line 54
-    const-string v1, "Camera2CamcorderProfileProvider"
-
-    .line 55
-    .line 56
-    invoke-static {v1, p1}, Lz/p0;->h(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 57
-    .line 58
-    .line 59
-    :goto_0
-    invoke-static {p2}, Lcom/vungle/warren/utility/e;->n(Lu/s;)Lb0/l1;
-
-    .line 60
-    .line 61
-    .line 62
-    move-result-object p1
-
-    .line 63
-    const-class p2, Lw/e;
-
-    .line 64
-    .line 65
-    invoke-virtual {p1, p2}, Lb0/l1;->b(Ljava/lang/Class;)Lb0/k1;
-
-    .line 66
-    .line 67
-    .line 68
-    move-result-object p1
-
-    .line 69
-    check-cast p1, Lw/e;
-
-    .line 70
-    .line 71
-    if-eqz p1, :cond_0
-
-    .line 72
-    .line 73
-    new-instance p2, Ljava/util/HashSet;
-
-    .line 74
-    .line 75
-    new-instance v1, Ljava/util/ArrayList;
-
-    .line 76
-    .line 77
-    iget-object p1, p1, Lw/e;->a:Ljava/util/List;
-
-    .line 78
-    .line 79
-    invoke-direct {v1, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
-
-    .line 80
-    .line 81
-    .line 82
-    invoke-direct {p2, v1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
-
-    .line 83
-    .line 84
-    .line 85
-    goto :goto_1
-
-    .line 86
-    :cond_0
-    invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
-
-    .line 87
-    .line 88
-    .line 89
-    :goto_1
-    new-instance p1, Lt/x$a;
-
-    .line 90
-    .line 91
-    new-instance p2, Lz/e;
-
-    .line 92
-    .line 93
-    const/4 v1, 0x5
-
-    .line 94
-    invoke-direct {p2, v1, v0}, Lz/e;-><init>(ILz/f;)V
-
-    .line 95
-    .line 96
-    .line 97
-    invoke-direct {p1, p2}, Lt/x$a;-><init>(Lz/e;)V
-
-    .line 98
-    .line 99
-    .line 100
-    iput-object p1, p0, Lt/x;->e:Lt/x$a;
-
-    .line 101
-    .line 102
-    return-void
-.end method
+# .method public constructor <init>(Ljava/lang/String;Lu/z;)V
+#     .locals 3
+#     .annotation system Ldalvik/annotation/Throws;
+#         value = {
+#             Lu/f;
+#         }
+#     .end annotation
+#
+#     .line 1
+#     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+#
+#     .line 2
+#     .line 3
+#     .line 4
+#     new-instance v0, Ljava/lang/Object;
+#
+#     .line 5
+#     .line 6
+#     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+#
+#     .line 7
+#     .line 8
+#     .line 9
+#     iput-object v0, p0, Lt/x;->c:Ljava/lang/Object;
+#
+#     .line 10
+#     .line 11
+#     const/4 v0, 0x0
+#
+#     .line 12
+#     iput-object v0, p0, Lt/x;->f:Ljava/util/ArrayList;
+#
+#     .line 13
+#     .line 14
+#     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+#
+#     .line 15
+#     .line 16
+#     .line 17
+#     iput-object p1, p0, Lt/x;->a:Ljava/lang/String;
+#
+#     .line 18
+#     .line 19
+#     invoke-virtual {p2, p1}, Lu/z;->b(Ljava/lang/String;)Lu/s;
+#
+#     .line 20
+#     .line 21
+#     .line 22
+#     move-result-object p2
+#
+#     .line 23
+#     iput-object p2, p0, Lt/x;->b:Lu/s;
+#
+#     .line 24
+#     .line 25
+#     invoke-static {p2}, Lcom/vungle/warren/utility/e;->n(Lu/s;)Lb0/l1;
+#
+#     .line 26
+#     .line 27
+#     .line 28
+#     move-result-object v1
+#
+#     .line 29
+#     iput-object v1, p0, Lt/x;->g:Lb0/l1;
+#
+#     .line 30
+#     .line 31
+#     :try_start_0
+#     invoke-static {p1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+#     :try_end_0
+#     .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
+#
+#     .line 32
+#     .line 33
+#     .line 34
+#     goto :goto_0
+#
+#     .line 35
+#     :catch_0
+#     new-instance v1, Ljava/lang/StringBuilder;
+#
+#     .line 36
+#     .line 37
+#     const-string v2, "Camera id is not an integer: "
+#
+#     .line 38
+#     .line 39
+#     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+#
+#     .line 40
+#     .line 41
+#     .line 42
+#     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     .line 43
+#     .line 44
+#     .line 45
+#     const-string p1, ", unable to create CamcorderProfileProvider"
+#
+#     .line 46
+#     .line 47
+#     invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+#
+#     .line 48
+#     .line 49
+#     .line 50
+#     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+#
+#     .line 51
+#     .line 52
+#     .line 53
+#     move-result-object p1
+#
+#     .line 54
+#     const-string v1, "Camera2CamcorderProfileProvider"
+#
+#     .line 55
+#     .line 56
+#     invoke-static {v1, p1}, Lz/p0;->h(Ljava/lang/String;Ljava/lang/String;)V
+#
+#     .line 57
+#     .line 58
+#     .line 59
+#     :goto_0
+#     invoke-static {p2}, Lcom/vungle/warren/utility/e;->n(Lu/s;)Lb0/l1;
+#
+#     .line 60
+#     .line 61
+#     .line 62
+#     move-result-object p1
+#
+#     .line 63
+#     const-class p2, Lw/e;
+#
+#     .line 64
+#     .line 65
+#     invoke-virtual {p1, p2}, Lb0/l1;->b(Ljava/lang/Class;)Lb0/k1;
+#
+#     .line 66
+#     .line 67
+#     .line 68
+#     move-result-object p1
+#
+#     .line 69
+#     check-cast p1, Lw/e;
+#
+#     .line 70
+#     .line 71
+#     if-eqz p1, :cond_0
+#
+#     .line 72
+#     .line 73
+#     new-instance p2, Ljava/util/HashSet;
+#
+#     .line 74
+#     .line 75
+#     new-instance v1, Ljava/util/ArrayList;
+#
+#     .line 76
+#     .line 77
+#     iget-object p1, p1, Lw/e;->a:Ljava/util/List;
+#
+#     .line 78
+#     .line 79
+#     invoke-direct {v1, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+#
+#     .line 80
+#     .line 81
+#     .line 82
+#     invoke-direct {p2, v1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
+#
+#     .line 83
+#     .line 84
+#     .line 85
+#     goto :goto_1
+#
+#     .line 86
+#     :cond_0
+#     invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
+#
+#     .line 87
+#     .line 88
+#     .line 89
+#     :goto_1
+#     new-instance p1, Lt/x$a;
+#
+#     .line 90
+#     .line 91
+#     new-instance p2, Lz/e;
+#
+#     .line 92
+#     .line 93
+#     const/4 v1, 0x5
+#
+#     .line 94
+#     invoke-direct {p2, v1, v0}, Lz/e;-><init>(ILz/f;)V
+#
+#     .line 95
+#     .line 96
+#     .line 97
+#     invoke-direct {p1, p2}, Lt/x$a;-><init>(Lz/e;)V
+#
+#     .line 98
+#     .line 99
+#     .line 100
+#     iput-object p1, p0, Lt/x;->e:Lt/x$a;
+#
+#     .line 101
+#     .line 102
+#     return-void
+# .end method
 
 
 # virtual methods
@@ -583,91 +583,92 @@
 .method public final e(I)I
     .locals 3
 
-    .line 1
-    iget-object v0, p0, Lt/x;->b:Lu/s;
-
-    .line 2
-    .line 3
-    sget-object v1, Landroid/hardware/camera2/CameraCharacteristics;->SENSOR_ORIENTATION:Landroid/hardware/camera2/CameraCharacteristics$Key;
-
-    .line 4
-    .line 5
-    invoke-virtual {v0, v1}, Lu/s;->a(Landroid/hardware/camera2/CameraCharacteristics$Key;)Ljava/lang/Object;
-
-    .line 6
-    .line 7
-    .line 8
-    move-result-object v0
-
-    .line 9
-    check-cast v0, Ljava/lang/Integer;
-
-    .line 10
-    .line 11
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 12
-    .line 13
-    .line 14
-    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
-
-    .line 15
-    .line 16
-    .line 17
-    move-result v0
-
-    .line 18
-    invoke-static {p1}, Lcom/vungle/warren/utility/e;->X(I)I
-
-    .line 19
-    .line 20
-    .line 21
-    move-result p1
-
-    .line 22
-    invoke-virtual {p0}, Lt/x;->d()Ljava/lang/Integer;
-
-    .line 23
-    .line 24
-    .line 25
-    move-result-object v1
-
-    .line 26
-    if-eqz v1, :cond_0
-
-    .line 27
-    .line 28
-    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
-
-    .line 29
-    .line 30
-    .line 31
-    move-result v1
-
-    .line 32
-    const/4 v2, 0x1
-
-    .line 33
-    if-ne v2, v1, :cond_0
-
-    .line 34
-    .line 35
-    goto :goto_0
-
-    .line 36
-    :cond_0
-    const/4 v2, 0x0
-
-    .line 37
-    :goto_0
-    invoke-static {p1, v0, v2}, Lcom/vungle/warren/utility/e;->s(IIZ)I
-
-    .line 38
-    .line 39
-    .line 40
-    move-result p1
-
-    .line 41
+    # .line 1
+    # iget-object v0, p0, Lt/x;->b:Lu/s;
+    #
+    # .line 2
+    # .line 3
+    # sget-object v1, Landroid/hardware/camera2/CameraCharacteristics;->SENSOR_ORIENTATION:Landroid/hardware/camera2/CameraCharacteristics$Key;
+    #
+    # .line 4
+    # .line 5
+    # invoke-virtual {v0, v1}, Lu/s;->a(Landroid/hardware/camera2/CameraCharacteristics$Key;)Ljava/lang/Object;
+    #
+    # .line 6
+    # .line 7
+    # .line 8
+    # move-result-object v0
+    #
+    # .line 9
+    # check-cast v0, Ljava/lang/Integer;
+    #
+    # .line 10
+    # .line 11
+    # invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    #
+    # .line 12
+    # .line 13
+    # .line 14
+    # invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
+    #
+    # .line 15
+    # .line 16
+    # .line 17
+    # move-result v0
+    #
+    # .line 18
+    # invoke-static {p1}, Lcom/vungle/warren/utility/e;->X(I)I
+    #
+    # .line 19
+    # .line 20
+    # .line 21
+    # move-result p1
+    #
+    # .line 22
+    # invoke-virtual {p0}, Lt/x;->d()Ljava/lang/Integer;
+    #
+    # .line 23
+    # .line 24
+    # .line 25
+    # move-result-object v1
+    #
+    # .line 26
+    # if-eqz v1, :cond_0
+    #
+    # .line 27
+    # .line 28
+    # invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+    #
+    # .line 29
+    # .line 30
+    # .line 31
+    # move-result v1
+    #
+    # .line 32
+    # const/4 v2, 0x1
+    #
+    # .line 33
+    # if-ne v2, v1, :cond_0
+    #
+    # .line 34
+    # .line 35
+    # goto :goto_0
+    #
+    # .line 36
+    # :cond_0
+    # const/4 v2, 0x0
+    #
+    # .line 37
+    # :goto_0
+    # invoke-static {p1, v0, v2}, Lcom/vungle/warren/utility/e;->s(IIZ)I
+    #
+    # .line 38
+    # .line 39
+    # .line 40
+    # move-result p1
+    #
+    # .line 41
+    const p1,0x1
     return p1
 .end method
 

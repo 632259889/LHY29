@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field public final synthetic a:Lcom/vungle/warren/utility/e;
+# .field public final synthetic a:Lcom/vungle/warren/utility/e;
 
 .field public final synthetic b:Landroid/content/Context;
 
@@ -19,7 +19,7 @@
 
     iput-object p2, p0, Lh4/g;->d:Lh4/e;
 
-    iput-object p3, p0, Lh4/g;->a:Lcom/vungle/warren/utility/e;
+    # iput-object p3, p0, Lh4/g;->a:Lcom/vungle/warren/utility/e;
 
     iput-object p1, p0, Lh4/g;->b:Landroid/content/Context;
 

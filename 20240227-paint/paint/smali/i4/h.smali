@@ -1,8 +1,8 @@
 .class public final Li4/h;
-.super Lcom/vungle/warren/utility/e;
+.super  Ljava/lang/Object;
 .source "SourceFile"
 
-
+# Lcom/vungle/warren/utility/e;
 # instance fields
 .field public final synthetic r:La4/a1;
 
@@ -31,7 +31,7 @@
 
     iput-object p4, p0, Li4/h;->u:Lj4/b;
 
-    invoke-direct {p0}, Lcom/vungle/warren/utility/e;-><init>()V
+    # invoke-direct {p0}, Lcom/vungle/warren/utility/e;-><init>()V
 
     return-void
 .end method
@@ -136,7 +136,7 @@
 
     .line 44
     .line 45
-    invoke-static {v0, v1, v2, v3}, Lh4/e;->c(Landroid/content/Context;Ljava/lang/String;Lcom/vungle/warren/utility/e;Ljava/lang/String;)V
+    # invoke-static {v0, v1, v2, v3}, Lh4/e;->c(Landroid/content/Context;Ljava/lang/String;Lcom/vungle/warren/utility/e;Ljava/lang/String;)V
 
     .line 46
     .line 47
@@ -245,7 +245,7 @@
 
     .line 44
     .line 45
-    invoke-static {p1, v0, v1, v2}, Lh4/e;->c(Landroid/content/Context;Ljava/lang/String;Lcom/vungle/warren/utility/e;Ljava/lang/String;)V
+    # invoke-static {p1, v0, v1, v2}, Lh4/e;->c(Landroid/content/Context;Ljava/lang/String;Lcom/vungle/warren/utility/e;Ljava/lang/String;)V
 
     .line 46
     .line 47

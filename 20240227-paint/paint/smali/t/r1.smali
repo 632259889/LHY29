@@ -3767,12 +3767,13 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {v0}, Lcom/vungle/warren/utility/e;->X(I)I
+    # invoke-static {v0}, Lcom/vungle/warren/utility/e;->X(I)I
 
     .line 27
     .line 28
     .line 29
-    move-result v0
+    # move-result v0
+    const v0,0x1
 
     .line 30
     sget-object v3, Landroid/hardware/camera2/CameraCharacteristics;->LENS_FACING:Landroid/hardware/camera2/CameraCharacteristics$Key;
@@ -3837,12 +3838,13 @@
     move-result v1
 
     .line 58
-    invoke-static {v0, v1, v2}, Lcom/vungle/warren/utility/e;->s(IIZ)I
+    # invoke-static {v0, v1, v2}, Lcom/vungle/warren/utility/e;->s(IIZ)I
 
     .line 59
     .line 60
     .line 61
-    move-result v0
+    # move-result v0
+    const v0,0x1
 
     .line 62
     const/16 v1, 0x5a

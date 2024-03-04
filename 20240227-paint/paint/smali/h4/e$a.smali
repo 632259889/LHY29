@@ -4,9 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lh4/e;->d(Landroidx/appcompat/app/c;Lcom/vungle/warren/utility/e;Ljava/lang/String;)V
-.end annotation
+# .annotation system Ldalvik/annotation/EnclosingMethod;
+#     value = Lh4/e;->d(Landroidx/appcompat/app/c;Lcom/vungle/warren/utility/e;Ljava/lang/String;)V
+# .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x1
@@ -15,23 +15,23 @@
 
 
 # instance fields
-.field public final synthetic a:Lcom/vungle/warren/utility/e;
+# .field public final synthetic a:Lcom/vungle/warren/utility/e;
 
 .field public final synthetic b:Lh4/e;
 
 
 # direct methods
-.method public constructor <init>(Lh4/e;Lcom/vungle/warren/utility/e;)V
-    .locals 0
-
-    iput-object p1, p0, Lh4/e$a;->b:Lh4/e;
-
-    iput-object p2, p0, Lh4/e$a;->a:Lcom/vungle/warren/utility/e;
-
-    invoke-direct {p0}, Lcom/google/android/gms/ads/FullScreenContentCallback;-><init>()V
-
-    return-void
-.end method
+# .method public constructor <init>(Lh4/e;Lcom/vungle/warren/utility/e;)V
+#     .locals 0
+#
+#     iput-object p1, p0, Lh4/e$a;->b:Lh4/e;
+#
+#     iput-object p2, p0, Lh4/e$a;->a:Lcom/vungle/warren/utility/e;
+#
+#     invoke-direct {p0}, Lcom/google/android/gms/ads/FullScreenContentCallback;-><init>()V
+#
+#     return-void
+# .end method
 
 
 # virtual methods

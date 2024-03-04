@@ -671,7 +671,7 @@
     .line 303
     .line 304
     .line 305
-    invoke-static {p0, v7, v1, v0}, Lh4/e;->c(Landroid/content/Context;Ljava/lang/String;Lcom/vungle/warren/utility/e;Ljava/lang/String;)V
+    # invoke-static {p0, v7, v1, v0}, Lh4/e;->c(Landroid/content/Context;Ljava/lang/String;Lcom/vungle/warren/utility/e;Ljava/lang/String;)V
 
     .line 306
     .line 307
@@ -2035,9 +2035,10 @@
 
     if-eqz v0, :cond_30
 
-    invoke-static/range {p0 .. p0}, Lcom/vungle/warren/utility/e;->w(Landroid/app/Activity;)Z
+    # invoke-static/range {p0 .. p0}, Lcom/vungle/warren/utility/e;->w(Landroid/app/Activity;)Z
 
-    move-result v0
+    # move-result v0
+    const/4 v0,0x1
 
     if-eqz v0, :cond_30
 

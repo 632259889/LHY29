@@ -617,15 +617,15 @@
     .line 288
     .line 289
     .line 290
-    invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
-
-    .line 291
-    .line 292
-    .line 293
-    move-result-object v3
-
-    .line 294
-    invoke-interface {v0, v2, v3}, Lgb/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    # invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
+    #
+    # .line 291
+    # .line 292
+    # .line 293
+    # move-result-object v3
+    #
+    # .line 294
+    # invoke-interface {v0, v2, v3}, Lgb/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 295
     .line 296

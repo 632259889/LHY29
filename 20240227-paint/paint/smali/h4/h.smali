@@ -8,7 +8,7 @@
 
 .field public final synthetic d:Landroid/widget/FrameLayout;
 
-.field public final synthetic e:Lcom/vungle/warren/utility/e;
+# .field public final synthetic e:Lcom/vungle/warren/utility/e;
 
 .field public final synthetic f:Lcom/google/android/gms/ads/AdView;
 
@@ -31,7 +31,7 @@
 
     const/4 p1, 0x0
 
-    iput-object p1, p0, Lh4/h;->e:Lcom/vungle/warren/utility/e;
+    # iput-object p1, p0, Lh4/h;->e:Lcom/vungle/warren/utility/e;
 
     iput-object p4, p0, Lh4/h;->f:Lcom/google/android/gms/ads/AdView;
 

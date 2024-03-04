@@ -525,11 +525,11 @@
 
     invoke-direct {v2, p0, v1}, Le0/b$a;-><init>(Le0/b;Lgb/a;)V
 
-    invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
-
-    move-result-object v3
-
-    invoke-interface {v1, v2, v3}, Lgb/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    # invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
+    #
+    # move-result-object v3
+    #
+    # invoke-interface {v1, v2, v3}, Lgb/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     goto :goto_3
 

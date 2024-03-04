@@ -136,13 +136,13 @@
 
     .line 45
     .line 46
-    invoke-static {v0}, Lcom/vungle/warren/utility/e;->w(Landroid/app/Activity;)Z
+    # invoke-static {v0}, Lcom/vungle/warren/utility/e;->w(Landroid/app/Activity;)Z
 
     .line 47
     .line 48
     .line 49
-    move-result v1
-
+    # move-result v1
+    const/4 v1,0x1
     .line 50
     if-eqz v1, :cond_2
 
@@ -279,12 +279,13 @@
 
     .line 39
     .line 40
-    invoke-static {v0}, Lcom/vungle/warren/utility/e;->w(Landroid/app/Activity;)Z
+    # invoke-static {v0}, Lcom/vungle/warren/utility/e;->w(Landroid/app/Activity;)Z
 
     .line 41
     .line 42
     .line 43
-    move-result v1
+    # move-result v1
+    const/4 v1,0x1
 
     .line 44
     if-eqz v1, :cond_2
@@ -422,12 +423,13 @@
 
     .line 39
     .line 40
-    invoke-static {v0}, Lcom/vungle/warren/utility/e;->w(Landroid/app/Activity;)Z
+    # invoke-static {v0}, Lcom/vungle/warren/utility/e;->w(Landroid/app/Activity;)Z
 
     .line 41
     .line 42
     .line 43
-    move-result v1
+    # move-result v1
+    const/4 v1,0x1
 
     .line 44
     if-eqz v1, :cond_2

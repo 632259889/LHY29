@@ -149,15 +149,15 @@
     .line 44
     .line 45
     .line 46
-    invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
-
-    .line 47
-    .line 48
-    .line 49
-    move-result-object p2
-
-    .line 50
-    invoke-virtual {p0, p1, p2}, Le0/m;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    # invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
+    #
+    # .line 47
+    # .line 48
+    # .line 49
+    # move-result-object p2
+    #
+    # .line 50
+    # invoke-virtual {p0, p1, p2}, Le0/m;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 51
     .line 52

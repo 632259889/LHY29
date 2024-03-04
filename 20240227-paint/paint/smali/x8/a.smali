@@ -14,7 +14,7 @@
     .end annotation
 .end field
 
-.field public b:Lcom/vungle/warren/d2;
+# .field public b:Lcom/vungle/warren/d2;
 
 
 # direct methods
@@ -127,28 +127,28 @@
 .method public final b()V
     .locals 2
 
-    iget-object v0, p0, Lx8/a;->b:Lcom/vungle/warren/d2;
-
-    if-eqz v0, :cond_0
-
-    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lx8/a;->b:Lcom/vungle/warren/d2;
-
-    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/view/ViewGroup;
-
-    iget-object v1, p0, Lx8/a;->b:Lcom/vungle/warren/d2;
-
-    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
-
-    :cond_0
+    # iget-object v0, p0, Lx8/a;->b:Lcom/vungle/warren/d2;
+    #
+    # if-eqz v0, :cond_0
+    #
+    # invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    #
+    # move-result-object v0
+    #
+    # if-eqz v0, :cond_0
+    #
+    # iget-object v0, p0, Lx8/a;->b:Lcom/vungle/warren/d2;
+    #
+    # invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    #
+    # move-result-object v0
+    #
+    # check-cast v0, Landroid/view/ViewGroup;
+    #
+    # iget-object v1, p0, Lx8/a;->b:Lcom/vungle/warren/d2;
+    #
+    # invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
+    #
+    # :cond_0
     return-void
 .end method

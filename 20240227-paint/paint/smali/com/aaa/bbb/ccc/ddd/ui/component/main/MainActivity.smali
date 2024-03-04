@@ -1109,12 +1109,13 @@
 
     .line 470
     .line 471
-    invoke-static/range {p0 .. p0}, Lcom/vungle/warren/utility/e;->w(Landroid/app/Activity;)Z
+    # invoke-static/range {p0 .. p0}, Lcom/vungle/warren/utility/e;->w(Landroid/app/Activity;)Z
 
     .line 472
     .line 473
     .line 474
-    move-result v0
+    # move-result v0
+    const v0,0x1
 
     .line 475
     if-eqz v0, :cond_1d

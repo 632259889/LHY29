@@ -1,8 +1,8 @@
 .class public final Li4/h$b;
-.super Lcom/vungle/warren/utility/e;
+.super Ljava/lang/Object;
 .source "SourceFile"
 
-
+# Lcom/vungle/warren/utility/e;
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
     value = Li4/h;->M(Lcom/google/android/gms/ads/AdError;)V
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Li4/h$b;->r:Li4/h;
 
-    invoke-direct {p0}, Lcom/vungle/warren/utility/e;-><init>()V
+    # invoke-direct {p0}, Lcom/vungle/warren/utility/e;-><init>()V
 
     return-void
 .end method

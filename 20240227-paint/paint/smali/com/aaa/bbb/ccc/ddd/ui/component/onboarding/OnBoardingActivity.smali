@@ -613,12 +613,13 @@
     .locals 4
 
     .line 1
-    invoke-static {p0}, Lcom/vungle/warren/utility/e;->w(Landroid/app/Activity;)Z
+    # invoke-static {p0}, Lcom/vungle/warren/utility/e;->w(Landroid/app/Activity;)Z
 
     .line 2
     .line 3
     .line 4
-    move-result v0
+    # move-result v0
+    const/4 v0,0x1
 
     .line 5
     const/4 v1, 0x4

@@ -1171,15 +1171,15 @@
     .line 75
     .line 76
     .line 77
-    invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
-
-    .line 78
-    .line 79
-    .line 80
-    move-result-object v1
-
-    .line 81
-    invoke-interface {p1, v0, v1}, Lgb/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    # invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
+    #
+    # .line 78
+    # .line 79
+    # .line 80
+    # move-result-object v1
+    #
+    # .line 81
+    # invoke-interface {p1, v0, v1}, Lgb/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 82
     .line 83
@@ -1271,15 +1271,15 @@
     .line 32
     .line 33
     .line 34
-    invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
-
-    .line 35
-    .line 36
-    .line 37
-    move-result-object v2
-
-    .line 38
-    invoke-interface {v0, v1, v2}, Lgb/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    # invoke-static {}, Lcom/vungle/warren/utility/e;->k()Ld0/a;
+    #
+    # .line 35
+    # .line 36
+    # .line 37
+    # move-result-object v2
+    #
+    # .line 38
+    # invoke-interface {v0, v1, v2}, Lgb/a;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 39
     .line 40

@@ -1,7 +1,7 @@
 .class public final Lcom/aaa/bbb/ccc/ddd/ui/component/guide/GuideActivity$b;
-.super Lcom/vungle/warren/utility/e;
+.super Ljava/lang/Object;
 .source "SourceFile"
-
+# com/vungle/warren/utility/e
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/aaa/bbb/ccc/ddd/ui/component/guide/GuideActivity$b;->r:Lcom/aaa/bbb/ccc/ddd/ui/component/guide/GuideActivity;
 
-    invoke-direct {p0}, Lcom/vungle/warren/utility/e;-><init>()V
+    # invoke-direct {p0}, Lcom/vungle/warren/utility/e;-><init>()V
 
     return-void
 .end method
