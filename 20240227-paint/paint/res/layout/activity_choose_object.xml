@@ -13,7 +13,7 @@
         <ImageView android:layout_width="wrap_content" android:layout_height="@dimen/_100sdp" android:src="@drawable/iv_upload" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
     <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rcv_data" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_15sdp" android:layout_marginEnd="@dimen/_15sdp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toTopOf="@id/fr_banner" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/llBtnUpload" />
-    <FrameLayout android:id="@id/fr_banner" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+    <FrameLayout android:id="@id/fr_banner" android:tag="binding_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
         <include android:id="@id/include" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_banner_control" />
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

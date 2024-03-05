@@ -14,7 +14,7 @@
     <LinearLayout android:id="@id/llBottomLayout" android:tag="binding_1" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/fr_banner" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
         <include android:id="@id/layoutBottomSheetEdit" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dialog_bottom_sheet_trace" />
     </LinearLayout>
-    <FrameLayout android:id="@id/fr_banner" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+    <FrameLayout android:id="@id/fr_banner" android:visibility="gone" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
         <include android:id="@id/include" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_banner_control" />
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

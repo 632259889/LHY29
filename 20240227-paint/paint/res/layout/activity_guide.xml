@@ -10,7 +10,7 @@
         <androidx.appcompat.widget.AppCompatImageView android:id="@id/view_1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_view_select_tutorial" />
         <androidx.appcompat.widget.AppCompatImageView android:id="@id/view_2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/_5sdp" android:layout_marginRight="@dimen/_5sdp" android:src="@drawable/ic_view_un_select" />
     </LinearLayout>
-    <FrameLayout android:id="@id/fr_banner" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+    <FrameLayout android:id="@id/fr_banner" android:tag="binding_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
         <include android:id="@id/include" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_banner_control" />
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
