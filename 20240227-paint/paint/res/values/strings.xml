@@ -27,7 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="add_your_own_ntemplate">"Add your own 
+    <string name="add_your_own_ntemplate">"Add your own
 Template"</string>
     <string name="adjust_token">rkhk2u0cx3wg</string>
     <string name="al_exo_controls_cc_disabled_description">Enable subtitles</string>
@@ -188,8 +188,10 @@ Sorry for the inconvenience."</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
-    <string name="facebook_app_id">949976433386412</string>
-    <string name="facebook_client_token">9106f7b284626984087ac93039522038</string>
+    <string name="facebook_app_id"></string>
+    <!-- 949976433386412 -->
+    <string name="facebook_client_token"></string>
+    <!-- 9106f7b284626984087ac93039522038 -->
     <string name="fallback_menu_item_copy_link">Copy link</string>
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
@@ -393,11 +395,11 @@ Sorry for the inconvenience."</string>
     <string name="solid">Solid</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopped_and_saved">Stopped and saved</string>
-    <string name="sub_onbroarding_1">"Unleash your creativity with 
+    <string name="sub_onbroarding_1">"Unleash your creativity with
  AR Drawing"</string>
-    <string name="sub_onbroarding_2">"Trace your sketch using the 
+    <string name="sub_onbroarding_2">"Trace your sketch using the
  phone's camera"</string>
-    <string name="sub_onbroarding_3">"Improve sketches with 
+    <string name="sub_onbroarding_3">"Improve sketches with
  various options"</string>
     <string name="subscribe_to_premium">Subscribe to Premium</string>
     <string name="subtext_sketch_1">Place your phone on a cup so that it is parallel to the table</string>
@@ -428,7 +430,7 @@ Sorry for the inconvenience."</string>
     <string name="text_button_yes">Yes</string>
     <string name="text_content_dialog_premium">To continue using this feature, please proceed to purchase our premium plan</string>
     <string name="text_content_home">Learning to draw quickly and easily with apps is a great way to get started in the world of art.</string>
-    <string name="text_content_plus_time">"Congratulations on your 
+    <string name="text_content_plus_time">"Congratulations on your
  extra three minutes of free time"</string>
     <string name="text_content_rate">"If you enjoy this app,
 Please leave us a 5 star review"</string>
